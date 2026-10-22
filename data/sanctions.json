@@ -8,7 +8,8 @@
    "US OFAC": "not_found"
   },
   "matches": [],
-  "mentions": []
+  "mentions": [],
+  "excluded": []
  },
  "luminor": {
   "date": "2026-10-22",
@@ -19,10 +20,11 @@
    "US OFAC": "found"
   },
   "matches": [
-   "US OFAC: | siberica oy | buzin ilya andreevich | temin gabriel | temin catherine esther | luminor oy | ooo vmk | joint stock company united metallurgical company | krivoruchko"
+   "US OFAC: otvetstvennostyu streloi | streloi ooo | streloy llc | buzin ilya andreyevich | luminor logistics | toropova yekaterina | toropova ekaterina vladimirovna | ahmadi nej"
   ],
-  "mentions": [
-   "EU: …gabriel gabriel temin en m ceo of the finnish logistic companies siberica oy and luminor oy 159898 en amendment council 2023 12 18 2023 12 18 2023 2875 oj l18122023 uk…"
+  "mentions": [],
+  "excluded": [
+   "US OFAC: luminor oy"
   ]
  },
  "port-of-tallinn": {
@@ -34,6 +36,7 @@
    "US OFAC": "not_found"
   },
   "matches": [],
-  "mentions": []
+  "mentions": [],
+  "excluded": []
  }
 }
