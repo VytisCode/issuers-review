@@ -92,8 +92,10 @@ def ratio_change(metric, vals, periods, lang):
     if unit in ("%", "x"):
         d = abs(b - a)
         txt = f"{arrow} {fmt_num(f'{d:.2f}'.rstrip('0').rstrip('.'), 'x' if unit == 'x' else '', lang)}{' p. p.' if unit == '%' else ''}"
-    elif a:
+    elif a > 0 and abs(b - a) / a <= 5:
         txt = f"{arrow} {fmt_num(f'{abs((b - a) / abs(a) * 100):.1f}', '', lang)} %"
+    elif a or b:  # neigiama ar artima nuliui bazė - procentas neprasmingas, rodomas absoliutus pokytis
+        txt = f"{arrow} {fmt_num(f'{abs(b - a):.2f}'.rstrip('0').rstrip('.'), '', lang)} {unit}"
     else:
         txt = ""
     trend, level = judge(metric, b, a)
