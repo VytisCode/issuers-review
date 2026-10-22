@@ -17,13 +17,12 @@
    "EU": "not_found",
    "UN": "not_found",
    "UK": "not_found",
-   "US OFAC": "found"
+   "US OFAC": "not_found"
   },
-  "matches": [
-   "US OFAC: otvetstvennostyu streloi | streloi ooo | streloy llc | buzin ilya andreyevich | luminor logistics | toropova yekaterina | toropova ekaterina vladimirovna | ahmadi nej"
-  ],
+  "matches": [],
   "mentions": [],
   "excluded": [
+   "US OFAC: luminor logistics",
    "US OFAC: luminor oy"
   ]
  },
