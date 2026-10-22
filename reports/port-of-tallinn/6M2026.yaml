@@ -8,6 +8,9 @@ next_report: "Q3 2026 results - expected November 2026"
 rating: "Credit rating not found in public sources reviewed - check [P5]"
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, adj_ebitda, adj_ebitda_margin, operating_profit, net_profit, investments, net_debt, nd_ebitda, equity_ratio, cargo, passengers, dps]
+# highlights - rodiklių kortelės ataskaitos viršuje; charts - diagramos (naujausias laikotarpis lyginamas su atitinkamu ankstesniu)
+highlights: [revenue, adj_ebitda, net_profit, nd_ebitda]
+charts: [revenue, adj_ebitda, net_profit, investments]
 
 sources:
   P1: {title: "AS Tallinna Sadam - Interim report Q2 and 6M 2026", url: "https://ml-eu.globenewswire.com/Resource/Download/bfd79dd4-0a64-4f1a-bf21-dcb2548a7586", date: 2026-08-10}
@@ -108,42 +111,61 @@ investor:
 esg:
   policies: [shipping, transportation, climate_nature, human_rights, anti_corruption]
   items:
-    excl_coal:
+    excl_sectors:
       status: yes
-      evidence: {lt: "Uosto operatorius; anglies kasybos ar anglies elektrinių nėra [P1].", en: "Port operator; no coal mining or coal power [P1].", lv: "Ostas operators; ogļu ieguves vai ogļu elektrostaciju nav [P1].", et: "Sadamaoperaator; söekaevandamist ega söeelektrijaamu ei ole [P1]."}
-    excl_fossil_expansion:
+      evidence:
+        lt: "Uosto operatorius, keltų paslaugos, ledlaužis, nekilnojamasis turtas – ginklų, tabako, lošimų, anglies ar naftos žvalgybos veiklos nėra [P1]. Krauna skystus krovinius (naftos produktus), jų kiekis mažėja (−33,8 % per 6 mėn.) [P1]."
+        en: "Port operator, ferry services, icebreaker, real estate - no weapons, tobacco, gambling, coal or oil exploration [P1]. Handles liquid bulk (oil products), volumes declining (−33.8% in 6M) [P1]."
+    excl_red_flag:
       status: review
-      evidence: {lt: "Krauna skystus krovinius (naftos produktus), jų kiekis mažėja (−33,8 %); tiesioginės žvalgybos nėra [P1].", en: "Handles liquid bulk (oil products), volumes declining (−33.8%); no exploration [P1].", lv: "Pārkrauj šķidrās kravas (naftas produktus), apjomi samazinās (−33,8 %); izpētes nav [P1].", et: "Käitleb vedellasti (naftasaadused), mahud vähenevad (−33,8%); otsinguid ei tehta [P1]."}
-    excl_weapons:
+      evidence:
+        lt: "Buvusių vadovų kyšininkavimo byla (pradėta 2015 m.): 2024-06-27 teismas išteisino dėl senaties, prokuratūra ir gynyba apskundė; vėlesnis sprendimas nerastas. Įmonė byloje – nukentėjusioji, ne kaltinamoji [E1; E2]."
+        en: "Former executives' bribery case (from 2015): acquitted on limitation grounds 2024-06-27, appealed by prosecution and defence; later ruling not found. The company is the injured party, not a defendant [E1; E2]."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Tikrina analitikas vidinėmis priemonėmis (pridėti ekrano nuotrauką). Valdo Estijos valstybė (67,03 %) [P1 p.13]."
+        en: "Checked by the analyst with internal tools (add a screenshot). Controlled by the Republic of Estonia (67.03%) [P1 p.13]."
+    media:
+      status: review
+      evidence:
+        lt: "Rasta (EE žiniasklaida): kyšininkavimo byla [E1; E2]. Naujesnių neigiamų naujienų automatinė paieška (30 d.) nerado. Analitikas patvirtina ir prideda ekrano nuotrauką."
+        en: "Found (EE media): the bribery case [E1; E2]. The automatic news scan (30 days) found no newer adverse news. Analyst confirms and adds a screenshot."
+    int_promoting:
       status: yes
-      evidence: {lt: "Veiklos segmentuose nėra [P1].", en: "Not present in business segments [P1].", lv: "Darbības segmentos nav [P1].", et: "Ärisegmentides puudub [P1]."}
-    excl_controversy:
-      status: review
-      evidence: {lt: "Buvusių vadovų kyšininkavimo byla (pradėta 2015 m.): 2024-06-27 išteisinti dėl senaties, apskųsta; įmonė – nukentėjusioji, ne kaltinamoji [E1; E2].", en: "Former executives' bribery case (from 2015): acquitted on limitation grounds 2024-06-27, appealed; the company is the injured party, not a defendant [E1; E2].", lv: "Bijušo vadītāju kukuļošanas lieta (no 2015. g.): 2024-06-27 attaisnoti noilguma dēļ, pārsūdzēts; uzņēmums – cietušais, nevis apsūdzētais [E1; E2].", et: "Endiste juhtide altkäemaksukaasus (alates 2015): 27.06.2024 mõisteti aegumise tõttu õigeks, edasi kaevatud; ettevõte on kannatanu, mitte süüdistatav [E1; E2]."}
-    int_targets:
+      evidence:
+        lt: "Savanoriška 2025 m. tvarumo ataskaita pagal CSRD/ESRS principus [P6]; tikslas 90 % atsinaujinančios energijos savo reikmėms [P6 p.19]."
+        en: "Voluntary 2025 sustainability report following CSRD/ESRS principles [P6]; target of 90% renewable energy for own use [P6 p.19]."
+    int_taxonomy:
       status: yes
-      evidence: {lt: "Tikslai: 1+2 apimtis −55 % iki 2030 m. (nuo 2019 m.), klimato neutralumas iki 2050 m., 90 % atsinaujinančios energijos savo reikmėms [P6 p.19, p.22].", en: "Targets: Scope 1+2 −55% by 2030 (vs 2019), climate neutrality by 2050, 90% renewable energy for own use [P6 p.19, p.22].", lv: "Mērķi: 1+2 tvērums −55 % līdz 2030. g. (pret 2019. g.), klimatneitralitāte līdz 2050. g., 90 % atjaunīgās enerģijas savām vajadzībām [P6 p.19, p.22].", et: "Eesmärgid: 1+2 ulatus −55% aastaks 2030 (vs 2019), kliimaneutraalsus aastaks 2050, 90% taastuvenergiat omatarbeks [P6 p.19, p.22]."}
-    int_disclosure:
-      status: yes
-      evidence: {lt: "Savanoriška 2025 m. tvarumo ataskaita pagal CSRD/ESRS principus (pilnai CSRD neatitinka) [P6].", en: "Voluntary 2025 sustainability report following CSRD/ESRS principles (not fully CSRD-compliant) [P6].", lv: "Brīvprātīgs 2025. g. ilgtspējas pārskats pēc CSRD/ESRS principiem (pilnībā CSRD neatbilst) [P6].", et: "Vabatahtlik 2025. aasta jätkusuutlikkuse aruanne CSRD/ESRS põhimõtete järgi (täielikult CSRD-le ei vasta) [P6]."}
-    int_green_share:
+      evidence:
+        lt: "Klimato neutrali veikla iki 2050 m.; 1+2 apimties emisijos −55 % iki 2030 m. (nuo 2019 m.); 2025 m. – 19 261 t CO2e (−41,8 %, apskaičiuota įrankio) [P6 p.19, p.22]. ES taksonomijos dalis nerasta."
+        en: "Climate-neutral operations by 2050; Scope 1+2 −55% by 2030 (vs 2019); 2025: 19,261 t CO2e (−41.8%, calculated by the tool) [P6 p.19, p.22]. EU Taxonomy share not found."
+    int_yellow_flag:
       status: review
-      evidence: {lt: "Taksonomijos dalis ir krantinių elektros tiekimas automatiškai nerasti.", en: "Taxonomy share and shore power not found automatically.", lv: "Taksonomijas daļa un krasta elektroapgāde automātiski nav atrasta.", et: "Taksonoomia osakaalu ja kaldaelektrit automaatselt ei leitud."}
-    int_governance:
+      evidence:
+        lt: "Geltonas signalas – neužbaigta buvusių vadovų kyšininkavimo byla [E1; E2]."
+        en: "Yellow flag - the unresolved bribery case of former executives [E1; E2]."
+    int_seb_policies:
       status: review
-      evidence: {lt: "Valstybė valdo 67,03 %; po kyšininkavimo bylos – patikrinti antikorupcijos priemones [P1 p.13; E1].", en: "State holds 67.03%; after the bribery case - check anti-corruption controls [P1 p.13; E1].", lv: "Valstij pieder 67,03 %; pēc kukuļošanas lietas – pārbaudīt pretkorupcijas pasākumus [P1 p.13; E1].", et: "Riigile kuulub 67,03%; pärast altkäemaksukaasust – kontrollida korruptsioonivastaseid meetmeid [P1 p.13; E1]."}
-    int_social:
-      status: review
-      evidence: {lt: "Automatiškai netikrinta.", en: "Not checked automatically.", lv: "Automātiski nav pārbaudīts.", et: "Automaatselt ei kontrollitud."}
+      evidence:
+        lt: "SEB laivybos ir transporto politikų turinys automatiškai neperskaitytas (SEB PDF blokuoja automatinį skaitymą). Žinoma: SEB laikosi Poseidon principų, laivybos tikslas – AER −41 % iki 2030 m. Reikia rankinės patikros."
+        en: "SEB shipping and transportation policy content could not be read automatically (SEB PDFs block automated reading). Known: SEB follows the Poseidon Principles, shipping target AER −41% by 2030. Manual check needed."
     engagement:
       status: review
-      evidence: {lt: "Siūlomi klausimai: keltų kuro emisijos ir sąnaudos, kelio į −55 % iki 2030 m. planas, bylos baigtis.", en: "Suggested topics: ferry fuel emissions and costs, pathway to −55% by 2030, outcome of the court case.", lv: "Ieteicamie jautājumi: prāmju degvielas emisijas un izmaksas, ceļš uz −55 % līdz 2030. g., tiesas lietas iznākums.", et: "Soovitatavad teemad: parvlaevade kütuseheide ja -kulud, tee −55%-ni aastaks 2030, kohtuasja tulemus."}
-  conclusion: {lt: "SEB laivybos ir transporto politikų turinys dar nepatikrintas (PDF). Pagal turimus duomenis didelių neatitikimų nėra; teigiama – emisijų tikslai ir tvarumo ataskaita. Peržiūrėti bylą ir skystų krovinių (naftos produktų) dalį.", en: "SEB shipping and transportation policy content not yet verified (PDF). On available data no major conflicts; positives are emission targets and sustainability reporting. Review the court case and the share of liquid bulk (oil products).", lv: "SEB kuģniecības un transporta politiku saturs vēl nav pārbaudīts (PDF). Pēc pieejamajiem datiem būtisku neatbilstību nav; pozitīvi – emisiju mērķi un ilgtspējas pārskats. Pārskatīt tiesas lietu un šķidro kravu (naftas produktu) daļu.", et: "SEB laevanduse ja transpordi poliitikate sisu pole veel kontrollitud (PDF). Olemasolevate andmete põhjal suuri vastuolusid ei ole; positiivne – heite eesmärgid ja jätkusuutlikkuse aruanne. Üle vaadata kohtuasi ja vedellasti (naftasaaduste) osakaal."}
-
-checks:
-  sanctions:
-    status: review
-    note: {lt: "Tikrina analitikas vidinėmis priemonėmis.", en: "Checked by the analyst with internal tools.", lv: "Pārbauda analītiķis ar iekšējiem rīkiem.", et: "Kontrollib analüütik sisemiste vahenditega."}
-  media:
-    status: review
-    note: {lt: "Rasta (EE žiniasklaida): buvusių vadovų kyšininkavimo byla – žr. E1, E2. Naujesnių sprendimų nerasta.", en: "Found (EE media): former executives' bribery case - see E1, E2. No newer rulings found.", lv: "Atrasts (EE mediji): bijušo vadītāju kukuļošanas lieta – skatīt E1, E2. Jaunāki lēmumi nav atrasti.", et: "Leitud (EE meedia): endiste juhtide altkäemaksukaasus – vt E1, E2. Uuemaid otsuseid ei leitud."}
+      evidence:
+        lt: "Siūlomi klausimai: keltų kuro emisijos ir sąnaudos, kelias iki −55 % 2030 m., antikorupcijos priemonės po bylos."
+        en: "Suggested topics: ferry fuel emissions and costs, pathway to −55% by 2030, anti-corruption controls after the case."
+    indicators:
+      status: review
+      evidence:
+        lt: "Turimi PAI duomenys: 1+2 apimties emisijos 19 261 t CO2e (2025) [P6 p.22]. Palyginti su fondo tikslais – analitikas."
+        en: "Available PAI data: Scope 1+2 emissions 19,261 t CO2e (2025) [P6 p.22]. Comparison with the Fund's targets - analyst."
+  comments:
+    exclusion: {lt: "", en: ""}
+    integration: {lt: "", en: ""}
+    engagement: {lt: "", en: ""}
+    indicators: {lt: "", en: ""}
+  conclusion:
+    lt: "Išskirtinių sektorių nėra; teigiama – emisijų tikslai ir tvarumo ataskaita. Peržiūrėti kyšininkavimo bylos baigtį ir SEB laivybos / transporto politikų atitiktį."
+    en: "No excluded sectors; positives are emission targets and sustainability reporting. Review the outcome of the bribery case and fit with SEB shipping / transportation policies."

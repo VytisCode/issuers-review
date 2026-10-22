@@ -137,3 +137,77 @@ def save_json(path, obj):
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=1)
+
+
+# ---------- šaltinių nuorodos (išnašos) ----------
+import re as _re  # noqa: E402
+
+CITE = _re.compile(r"\s*\[([^\[\]]+)\]")
+PART = _re.compile(r"^\s*([A-Z]{1,2}\d{1,2})(?:\s*p\.\s*(\d+(?:-\d+)?(?:,\s*p\.\s*\d+(?:-\d+)?)*))?\s*(.*?)\s*$")
+
+
+class Citations:
+    """Išnašų registras vienam dokumentui: [S1 p.24; S3] -> numeriai 1, 2 su tiesiogine nuoroda į šaltinį (PDF - į puslapį)."""
+
+    def __init__(self, sources):
+        self.sources = sources or {}
+        self.order = []  # [(key, page, note)]
+        self.index = {}
+
+    def add(self, key, page="", note=""):
+        k = (key, page.replace("p.", "").replace(" ", "").replace(",", ", "), note)
+        if k not in self.index:
+            self.order.append(k)
+            self.index[k] = len(self.order)
+        return self.index[k]
+
+    def url(self, key, page=""):
+        u = self.sources.get(key, {}).get("url", "")
+        first = _re.match(r"\d+", page or "")
+        if u and first and ".pdf" in u.lower():
+            u += f"#page={first.group(0)}"
+        return u
+
+    def parse(self, text):
+        """Tekstas -> segmentai: ("t", tekstas, paryškinta) ir ("c", numeris, url). **x** - paryškinimas."""
+        out = []
+        pos = 0
+        for m in CITE.finditer(text):
+            parts = [PART.match(p) for p in m.group(1).split(";")]
+            if not parts or not all(p and p.group(1) in self.sources for p in parts):
+                continue
+            out += _bold(text[pos:m.start()])
+            for p in parts:
+                n = self.add(p.group(1), p.group(2) or "", (p.group(3) or "").strip(" –-"))
+                out.append(("c", n, self.url(p.group(1), p.group(2) or "")))
+            pos = m.end()
+        out += _bold(text[pos:])
+        return out
+
+    def notes(self):
+        """[(numeris, šaltinio pavadinimas, puslapis, pastaba, url)]"""
+        return [(i + 1, self.sources[k]["title"], pg, note, self.url(k, pg), k, str(self.sources[k].get("date", "")))
+                for i, (k, pg, note) in enumerate(self.order)]
+
+
+def _bold(text):
+    segs = []
+    for i, chunk in enumerate(_re.split(r"\*\*", text)):
+        if chunk:
+            segs.append(("t", chunk, i % 2 == 1))
+    return segs
+
+
+def lead_bold(segs, limit=60):
+    """Punkto pradžia iki pirmo dvitaškio (pvz. „Skola stabili:“) paryškinama, jei trumpa."""
+    if segs and segs[0][0] == "t" and not segs[0][2]:
+        t = segs[0][1]
+        i = t.find(": ")
+        if 0 < i <= limit:
+            return [("t", t[:i + 1], True), ("t", t[i + 1:], False)] + segs[1:]
+    return segs
+
+
+def plain(text):
+    """Tekstas be nuorodų ir paryškinimų (kortelėms, Excel)."""
+    return CITE.sub("", text or "").replace("**", "")

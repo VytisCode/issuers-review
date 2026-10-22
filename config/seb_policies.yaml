@@ -65,41 +65,43 @@ policies:
       - No SEB sector policy for banks; apply general SEB commitments (UN Global Compact, OECD Guidelines, Paris alignment, human rights).
       - Check AML/sanctions controls, financed-emissions disclosure, exposure to fossil fuel lending, membership of PRB/NZBA or similar.
 
-# ESG klausimynas (vienodas visiems emitentams). Kiekvienam punktui ataskaitoje: būsena + trumpas įrodymas + šaltinis.
-checklist:
-  - id: excl_coal
-    group: exclusion
-    q: {lt: "Anglies (kasyba ar anglies elektrinės) dalis pajamose mažesnė nei 5 %", en: "Coal (thermal mining or coal power) share of revenue below 5%"}
-  - id: excl_fossil_expansion
-    group: exclusion
-    q: {lt: "Nėra naujos naftos ir dujų žvalgybos / netradicinės naftos", en: "No new oil & gas exploration / unconventional oil"}
-  - id: excl_weapons
-    group: exclusion
-    q: {lt: "Nėra sąsajų su kontroversiškais ginklais, tabaku ar lošimais", en: "No controversial weapons, tobacco or gambling involvement"}
-  - id: excl_controversy
-    group: exclusion
-    q: {lt: "Nėra rimtų neišspręstų skandalų (korupcija, žmogaus teisės, aplinka)", en: "No severe unresolved controversies (corruption, human rights, environment)"}
-  - id: int_targets
-    group: integration
-    q: {lt: "Emisijų mažinimo tikslai (Paryžiaus / SBTi) ir pereinamojo laikotarpio planas", en: "Emission reduction targets (Paris-aligned / SBTi) and transition plan"}
-  - id: int_disclosure
-    group: integration
-    q: {lt: "Tvarumo ataskaitos (CSRD/ESRS ar GRI), atskleistos 1–3 apimties emisijos", en: "Sustainability reporting (CSRD/ESRS or GRI), Scope 1-3 emissions disclosed"}
-  - id: int_green_share
-    group: integration
-    q: {lt: "Teigiamas indėlis (žaliosios pajamos / investicijos, ES taksonomija, žaliosios obligacijos)", en: "Positive contribution (green revenue / capex, EU Taxonomy alignment, green bonds)"}
-  - id: int_governance
-    group: integration
-    q: {lt: "Valdysena – nepriklausoma valdyba, antikorupcijos ir pranešėjų politikos", en: "Governance - independent board, anti-corruption and whistleblowing policies"}
-  - id: int_social
-    group: integration
-    q: {lt: "Socialiniai aspektai – sauga, darbo ir žmogaus teisių politikos", en: "Social - health & safety, labour and human rights policies"}
-  - id: engagement
-    group: engagement
-    q: {lt: "Klausimai įsitraukimui su emitentu", en: "Issues for engagement with the issuer"}
-  - id: sanctions
-    group: manual
-    q: {lt: "Sankcijų patikra (atlieka analitikas vidinėmis priemonėmis)", en: "Sanctions screening (done by analyst with internal tools)"}
-  - id: media
-    group: manual
-    q: {lt: "Neigiamos žiniasklaidos patikra (įrankis pateikia radinius, analitikas patvirtina)", en: "Adverse media check (tool lists hits; analyst confirms)"}
+# ESG klausimynas (vidinė politika). Klausimai VISADA anglų kalba ir NEKEIČIAMI (savininko sprendimas 2026-10-22).
+# Ataskaitoje: klausimo eilutė su varnele, po ja - atsakymo įrodymas. Be lentelės.
+esg_template:
+  title: "ESG report"
+  sections:
+    - heading: "Exclusionary screening (companies)"
+      items:
+        - id: excl_sectors
+          q: "Yes, the company is not involved in excluded sectors: controversial and nuclear weapons, tobacco, gambling and restricted sectors in fossil fuel"
+        - id: excl_red_flag
+          q: "Yes, the company does not have red flag/signal related to controversies based on UN Global Compact, OECD Guidelines for Multinational Enterprises or any other relevant principles/standards"
+        - id: sanctions
+          q: "Yes, the company is not in the list of sanctions (add a screenshot)"
+        - id: media
+          q: "Yes, issues were not identified from adverse media checks (add a screenshot)"
+      note: "In case any red flags, risks, unclarities were identified then additional checks (sanctions screening and adverse media checks) on the company’s Ultimate Beneficial Owners and/or senior management shall be performed."
+      comments: exclusion
+    - heading: "ESG integration and positive screening (positive answers imply higher allocation)"
+      items:
+        - id: int_promoting
+          q: "Yes, the company is promoting environmental or social characteristics (activities, ESG policy, good ESG rating, etc)"
+        - id: int_taxonomy
+          q: "Yes, the activities of the company or it’s strategy is aligned with the taxonomy and/or Paris agreement targets (e.g. net zero commitment)"
+        - id: int_yellow_flag
+          q: "Yes, the company does not have yellow flag/signal related to controversies based on UN Global Compact or any other relevant principles/standards"
+        - id: int_seb_policies
+          q: "Yes, the company fulfills the expectations from SEB thematic and sector policies"
+      comments: integration
+    - heading: "Engagement"
+      items:
+        - id: engagement
+          q: "Is there a need for pro-active engagement with the company?"
+      comments: engagement
+    - heading: "Indicators"
+      items:
+        - id: indicators
+          q: "Yes, the indicators of the company support the targets of sustainability and PAI indicators followed by the Fund"
+      comments: indicators
+  conclusion: "Conclusion:"
+  comments_label: "Additional comments:"

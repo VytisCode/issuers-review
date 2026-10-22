@@ -8,6 +8,9 @@ next_report: "3Q 2026 interim report - expected November 2026"
 rating: "Moody's - affirmed after the OTP announcement (grade to be confirmed; 2025 annual report refers to 'current A2 rating') [L1 p.15; L2 p.9]"
 periods: [FY2024, FY2025, 1H2025, 1H2026]
 ratios: [net_profit, nii, total_income, cost_income, roe, cor, nim, loans, deposits, cet1, total_capital, leverage, mrel, lcr, nsfr, npl]
+# highlights - rodiklių kortelės ataskaitos viršuje; charts - diagramos (naujausias laikotarpis lyginamas su atitinkamu ankstesniu)
+highlights: [net_profit, roe, cet1, lcr]
+charts: [net_profit, cet1, loans, deposits]
 
 sources:
   L1: {title: "Luminor Bank - Interim report 2Q 2026", url: "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_interim_report_2q26.pdf", date: 2026-08-11}
@@ -100,42 +103,61 @@ investor:
 esg:
   policies: [financial_general, human_rights, anti_corruption, climate_nature]
   items:
-    excl_coal:
+    excl_sectors:
       status: review
-      evidence: {lt: "Banko skolinimo iškastiniam kurui apribojimai automatiškai nerasti (luminor.ee tvarumo puslapiai nenuskaitomi).", en: "Bank's fossil fuel lending restrictions not found automatically (luminor.ee sustainability pages not readable).", lv: "Bankas fosilā kurināmā kreditēšanas ierobežojumi automātiski nav atrasti (luminor.ee ilgtspējas lapas nav nolasāmas).", et: "Panga fossiilkütuste laenupiiranguid automaatselt ei leitud (luminor.ee jätkusuutlikkuse lehti ei õnnestunud lugeda)."}
-    excl_fossil_expansion:
+      evidence:
+        lt: "Bankas pats šiuose sektoriuose neveikia. Informacijos apie skolinimo šiems sektoriams apribojimus automatiškai nerasta (luminor tvarumo puslapiai nenuskaitomi) – patikrinti 2025 m. metinėje ataskaitoje [L2]."
+        en: "The bank itself is not active in these sectors. No information on lending restrictions to them found automatically (Luminor sustainability pages not readable) - check the 2025 annual report [L2]."
+    excl_red_flag:
       status: review
-      evidence: {lt: "Žr. aukščiau – reikia rankinės patikros.", en: "See above - manual check needed.", lv: "Skatīt augstāk – nepieciešama manuāla pārbaude.", et: "Vt eespool – vajab käsitsi kontrolli."}
-    excl_weapons:
+      evidence:
+        lt: "2026 m. raudonų signalų greitoje paieškoje nerasta (2026-10-22). Rekomenduojama patikrinti pinigų plovimo prevencijos istoriją."
+        en: "No 2026 red flags found in a quick search (2026-10-22). Recommended to check AML history."
+    sanctions:
       status: review
-      evidence: {lt: "Nerasta informacijos apie skolinimo apribojimus ginklų, tabako ar lošimų sektoriams.", en: "No information found on lending restrictions for weapons, tobacco or gambling.", lv: "Nav atrasta informācija par kreditēšanas ierobežojumiem ieroču, tabakas vai azartspēļu nozarēm.", et: "Teavet relvade, tubaka või hasartmängude laenupiirangute kohta ei leitud."}
-    excl_controversy:
+      evidence:
+        lt: "Tikrina analitikas vidinėmis priemonėmis (pridėti ekrano nuotrauką). Pastaba: naujas savininkas – OTP Bank (Vengrija) [L1 p.4]."
+        en: "Checked by the analyst with internal tools (add a screenshot). Note: new owner OTP Bank (Hungary) [L1 p.4]."
+    media:
       status: review
-      evidence: {lt: "Didelių 2026 m. skandalų greitoje paieškoje nerasta (2026-10-22). Patikrinti PPTP/AML istoriją.", en: "No major 2026 controversies found in a quick search (2026-10-22). Check AML history.", lv: "Lielas 2026. g. pretrunas ātrajā meklēšanā nav atrastas (2026-10-22). Pārbaudīt AML vēsturi.", et: "Kiirotsingul (22.10.2026) suuri 2026. aasta vastuolusid ei leitud. Kontrollida rahapesu tõkestamise ajalugu."}
-    int_targets:
+      evidence:
+        lt: "Automatinė naujienų paieška (30 d.) neigiamų antraščių nerado; daugiausia naujienų apie OTP sandorį. Analitikas patvirtina ir prideda ekrano nuotrauką."
+        en: "The automatic news scan (30 days) found no adverse headlines; most news is about the OTP deal. Analyst confirms and adds a screenshot."
+    int_promoting:
       status: review
-      evidence: {lt: "Finansuojamų emisijų tikslai ir NZBA įsipareigojimas automatiškai nerasti.", en: "Financed-emissions targets and NZBA commitment not found automatically.", lv: "Finansēto emisiju mērķi un NZBA saistības automātiski nav atrasti.", et: "Rahastatud heite eesmärke ja NZBA kohustust automaatselt ei leitud."}
-    int_disclosure:
+      evidence:
+        lt: "Žaliųjų paskolų / obligacijų, ESG reitingo ar ESG politikos duomenų automatiškai nerasta."
+        en: "No data on green loans / bonds, ESG rating or ESG policy found automatically."
+    int_taxonomy:
       status: review
-      evidence: {lt: "Tvarumo informacija turėtų būti 2025 m. metinėje ataskaitoje – patikrinti [L2].", en: "Sustainability information should be in the 2025 annual report - check [L2].", lv: "Ilgtspējas informācijai jābūt 2025. g. gada pārskatā – pārbaudīt [L2].", et: "Jätkusuutlikkuse teave peaks olema 2025. aasta aruandes – kontrollida [L2]."}
-    int_green_share:
+      evidence:
+        lt: "Finansuojamų emisijų tikslų, nulinės emisijos ar NZBA įsipareigojimo automatiškai nerasta."
+        en: "No financed-emissions targets, net zero or NZBA commitment found automatically."
+    int_yellow_flag:
       status: review
-      evidence: {lt: "Žaliųjų paskolų / obligacijų dalis nerasta.", en: "Share of green loans / bonds not found.", lv: "Zaļo kredītu / obligāciju daļa nav atrasta.", et: "Roheliste laenude / võlakirjade osakaalu ei leitud."}
-    int_governance:
+      evidence:
+        lt: "Geltonų signalų greitoje paieškoje nerasta; savininko keitimas (OTP) gali pakeisti ESG politikas [L1 p.4]."
+        en: "No yellow flags found in a quick search; the change of owner (OTP) may change ESG policies [L1 p.4]."
+    int_seb_policies:
       status: review
-      evidence: {lt: "Savininko keitimas (OTP) gali pakeisti valdymą; reikia peržiūrėti po sandorio.", en: "Change of owner (OTP) may change governance; review after the deal.", lv: "Īpašnieka maiņa (OTP) var mainīt pārvaldību; pārskatīt pēc darījuma.", et: "Omaniku vahetus (OTP) võib muuta juhtimist; üle vaadata pärast tehingut."}
-    int_social:
-      status: review
-      evidence: {lt: "Automatiškai netikrinta.", en: "Not checked automatically.", lv: "Automātiski nav pārbaudīts.", et: "Automaatselt ei kontrollitud."}
+      evidence:
+        lt: "SEB neturi atskiros finansų sektoriaus politikos – taikomos bendros taisyklės (UNGC, OECD, žmogaus teisės, Paryžiaus tikslai). Banko duomenų jų vertinimui automatiškai rasta per mažai."
+        en: "SEB has no dedicated financial sector policy - general rules apply (UNGC, OECD, human rights, Paris goals). Too little bank data found automatically to assess them."
     engagement:
       status: review
-      evidence: {lt: "Siūlomi klausimai: finansuojamų emisijų atskleidimas, iškastinio kuro skolinimo politika, ESG politikos po OTP įsigijimo.", en: "Suggested topics: financed-emissions disclosure, fossil fuel lending policy, ESG policies after the OTP acquisition.", lv: "Ieteicamie jautājumi: finansēto emisiju atklāšana, fosilā kurināmā kreditēšanas politika, ESG politikas pēc OTP iegādes.", et: "Soovitatavad teemad: rahastatud heite avalikustamine, fossiilkütuste laenupoliitika, ESG-poliitikad pärast OTP omandamist."}
-  conclusion: {lt: "SEB neturi atskiros finansų sektoriaus politikos – taikomos bendros taisyklės. Automatiškai rasta per mažai įrodymų; dauguma punktų – rankinei peržiūrai (2025 m. metinė ataskaita).", en: "SEB has no dedicated financial sector policy - general rules apply. Too little evidence found automatically; most items need manual review (2025 annual report).", lv: "SEB nav atsevišķas finanšu nozares politikas – piemēro vispārējos noteikumus. Automātiski atrasts pārāk maz pierādījumu; lielākā daļa punktu – manuālai pārskatīšanai (2025. g. pārskats).", et: "SEB-l puudub eraldi finantssektori poliitika – kehtivad üldreeglid. Automaatselt leiti liiga vähe tõendeid; enamik punkte vajab käsitsi ülevaatust (2025. aasta aruanne)."}
-
-checks:
-  sanctions:
-    status: review
-    note: {lt: "Tikrina analitikas vidinėmis priemonėmis. Pastaba: naujas savininkas – OTP Bank (Vengrija).", en: "Checked by the analyst with internal tools. Note: new owner OTP Bank (Hungary).", lv: "Pārbauda analītiķis ar iekšējiem rīkiem. Piezīme: jaunais īpašnieks – OTP Bank (Ungārija).", et: "Kontrollib analüütik sisemiste vahenditega. Märkus: uus omanik OTP Bank (Ungari)."}
-  media:
-    status: not_found
-    note: {lt: "Neigiamų naujienų greitoje paieškoje (EN; 2026-10-22) nerasta. Savaitinė paieška – dashboard „Naujienos“.", en: "No adverse news found in a quick search (EN; 2026-10-22). Weekly scan - dashboard News tab.", lv: "Negatīvas ziņas ātrajā meklēšanā (EN; 2026-10-22) nav atrastas. Iknedēļas meklēšana – panelī „Ziņas“.", et: "Kiirotsingul (EN; 22.10.2026) negatiivseid uudiseid ei leitud. Iganädalane otsing – töölaua „Uudised“."}
+      evidence:
+        lt: "Siūlomi klausimai: finansuojamų emisijų atskleidimas, iškastinio kuro skolinimo politika, ESG politikos po OTP įsigijimo."
+        en: "Suggested topics: financed-emissions disclosure, fossil fuel lending policy, ESG policies after the OTP acquisition."
+    indicators:
+      status: review
+      evidence:
+        lt: "PAI rodiklių (finansuojamos emisijos, valdybos lyčių įvairovė ir kt.) automatiškai nerasta – patikrinti 2025 m. metinėje ataskaitoje [L2]."
+        en: "PAI indicators (financed emissions, board gender diversity, etc.) not found automatically - check the 2025 annual report [L2]."
+  comments:
+    exclusion: {lt: "", en: ""}
+    integration: {lt: "", en: ""}
+    engagement: {lt: "", en: ""}
+    indicators: {lt: "", en: ""}
+  conclusion:
+    lt: "Automatiškai rasta per mažai ESG įrodymų; dauguma punktų – rankinei peržiūrai pagal 2025 m. metinę ataskaitą. Stebėti ESG politikas po OTP įsigijimo."
+    en: "Too little ESG evidence found automatically; most items need manual review based on the 2025 annual report. Watch ESG policies after the OTP acquisition."

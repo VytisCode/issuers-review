@@ -45,3 +45,9 @@ disclaimer:       {lt: "Ataskaita parengta automatiškai iš viešų šaltinių.
                    en: "Report prepared automatically from public sources. Figures are as published by the issuer; references [S#] point to the source list. Items marked for review must be checked by the analyst before use.",
                    lv: "Pārskats sagatavots automātiski no publiskiem avotiem. Skaitļi norādīti tā, kā tos publicējis emitents; atsauces [S#] norāda uz avotu sarakstu. Pirms izmantošanas analītiķim jāpārbauda atzīmētie punkti.",
                    et: "Ülevaade on koostatud automaatselt avalikest allikatest. Arvud on esitatud nii, nagu emitent need avaldas; viited [S#] osutavad allikate loetelule. Ülevaatust vajavad punktid peab analüütik enne kasutamist kontrollima."}
+rating:           {lt: "Reitingas", en: "Rating", lv: "Reitings", et: "Reiting"}
+next_report:      {lt: "Kita ataskaita", en: "Next report", lv: "Nākamais pārskats", et: "Järgmine aruanne"}
+needs_review:     {lt: "Reikia peržiūrėti. ", en: "Needs review. ", lv: "Jāpārskata. ", et: "Vajab ülevaatust. "}
+evidence_lbl:     {lt: "Įrodymas: ", en: "Evidence: ", lv: "Pierādījums: ", et: "Tõendus: "}
+seb_applied:      {lt: "Taikytos SEB politikos: ", en: "SEB policies applied: ", lv: "Piemērotās SEB politikas: ", et: "Rakendatud SEB poliitikad: "}
+legend:           {lt: "* – reikia patikrinti originale;  ᶜ – apskaičiuota įrankio. Mažas numeris prie teksto – nuoroda į šaltinį (paspaudus atsidaro dokumentas reikiamame puslapyje).", en: "* – verify in the original;  ᶜ – calculated by the tool. Small numbers next to text link to the source (opens the document at the cited page).", lv: "* – pārbaudīt oriģinālā;  ᶜ – aprēķinājis rīks. Mazs numurs pie teksta – saite uz avotu.", et: "* – kontrollida originaalis;  ᶜ – arvutas tööriist. Väike number teksti juures – viide allikale."}
