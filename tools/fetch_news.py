@@ -93,6 +93,7 @@ def main():
     new, errors = [], []
     for key, iss in C.issuers().items():
         names = [n.lower() for n in iss.get("news_match", [iss["name"]])]
+        exclude = [n.lower() for n in iss.get("news_exclude", [])]
         for lang in LANGS.get(iss.get("media", "all"), ["en"]):
             for q in iss.get("news_queries", [f'"{iss["name"]}"']):
                 try:
@@ -103,7 +104,7 @@ def main():
                 for it in items:
                     low = it["title"].lower()
                     # antraštėje turi būti emitento vardas (Google kartais grąžina nesusijusius)
-                    if not any(n in low for n in names):
+                    if not any(n in low for n in names) or any(x in low for x in exclude):
                         continue
                     rid = hashlib.sha1((key + it["title"].lower()).encode()).hexdigest()[:12]
                     if rid in seen or (key, low) in titles:
@@ -114,6 +115,8 @@ def main():
                     seen.add(rid)
                     titles.add((key, low))
                 time.sleep(1)
+    excl = {k: [n.lower() for n in v.get("news_exclude", [])] for k, v in C.issuers().items()}
+    old = [r for r in old if not any(x in r["title"].lower() for x in excl.get(r["issuer"], []))]
     rows = sorted(old + new, key=lambda r: (r["date"], r["id"]), reverse=True)
     C.write_csv(OUT, rows, FIELDS)
     status = C.load_json(C.DATA / "source_status.json")
