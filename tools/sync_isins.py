@@ -6,6 +6,7 @@ Pakeitimai registruojami data/isin_changes.csv. Naudojimas: python tools/sync_is
 """
 import csv
 import json
+import re
 import sys
 import urllib.request
 from pathlib import Path
@@ -16,7 +17,12 @@ import common as C  # noqa: E402
 
 def get(url):
     with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "issuers-review"}), timeout=60) as r:
-        data = json.loads(r.read().decode("utf-8"))
+        txt = r.read().decode("utf-8", "ignore")
+    try:
+        data = json.loads(txt)
+    except ValueError:
+        title = re.search(r"<title>(.*?)</title>", txt, re.S)
+        raise SystemExit(f"Saugykla grąžino ne JSON (ar Web app prieiga 'Anyone'?): {title.group(1).strip() if title else txt[:300]}")
     if not data.get("ok"):
         raise SystemExit(f"Saugykla grąžino klaidą: {data}")
     return data
