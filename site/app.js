@@ -294,7 +294,7 @@
       try { const v = localStorage.getItem("isinBy"); if (v) document.getElementById("by").value = v; } catch (e) {}
       ta.oninput = show;
       fetch(D.isin_store_url).then(r => r.json()).then(j => {
-        ta.value = (j.isins || []).map(x => x.isin || x).join("\n");
+        const cur = (j.isins || []).map(x => x.isin || x); ta.value = (cur.length ? cur : D.securities.filter(s => s.held === "yes" && s.status !== "matured").map(s => s.isin)).join("\n");
         if (j.pin_required) document.getElementById("pin").style.display = "";
         const lc = j.last_change; if (lc) document.getElementById("last").textContent = `${t("lastChange")}: ${String(lc.time).slice(0, 10)} ${lc.by || ""} (+${lc.added || "–"} / −${lc.removed || "–"})`;
         show();
