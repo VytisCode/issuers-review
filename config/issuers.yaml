@@ -429,6 +429,7 @@ nortal:
   report_pages:
     - https://nortal.com/news/
   report_calendar: "Interim reports are only on the password-protected investor portal"
+  manual_reports: true  # ataskaitos už slaptažodžio - savininkas įkelia jas į Claude projektą pats
   news_match: [nortal]
   news_queries:
     - '"Nortal"'

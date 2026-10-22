@@ -20,7 +20,7 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 - `site/` – dashboard šaltinis (`index.html`, `app.js`, `style.css`); `docs/` – generuojama, ranka netaisyti.
 
 ## Kaip atlikti analizę (nauja emitento ataskaita)
-1. Rask naujausią ataskaitą (emitento IR puslapis iš `config/issuers.yaml`, `data/filings.csv` nauji įrašai). Perskaityk ataskaitą, pranešimą spaudai, prezentaciją; reitingų puslapį.
+1. Rask naujausią ataskaitą (emitento IR puslapis iš `config/issuers.yaml`, `data/filings.csv` nauji įrašai). Emitentams su `manual_reports: true` (Nortal) ataskaitas įkelia savininkas – jei jų nėra, paprašyk Vytį jas pateikti, iš atminties nepildyk. Perskaityk ataskaitą, pranešimą spaudai, prezentaciją; reitingų puslapį.
 2. Papildyk `data/history/<emitentas>.csv`: naujo laikotarpio rodikliai + palyginamasis laikotarpis, su šaltiniu ir puslapiu.
 3. Nukopijuok ankstesnį `reports/<emitentas>/*.yaml` kaip pagrindą → naujas failas `<laikotarpis>.yaml` (pvz. `9M2026`). Atnaujink: `analysis_date`, `period`, `periods`, `sources`, visas skiltis.
 4. **Planai ir rezultatai:** perkelk ankstesnius planus, atnaujink `outcome` ir `status` (met / partly / not_met / pending / changed), pridėk naujus emitento pažadus (prognozės, strategijos tikslai, dividendų politika).

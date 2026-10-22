@@ -92,7 +92,7 @@ def main():
         items = C.esg_items(last) if last else {}
         out["issuers"].append({
             "id": key, "name": iss["name"], "legal_name": iss.get("legal_name", ""), "country": iss.get("country", ""), "sector": iss.get("sector", ""),
-            "owner": iss.get("owner", ""), "website": iss.get("website", ""), "ir_page": iss.get("ir_page", ""), "calendar": iss.get("report_calendar", ""),
+            "owner": iss.get("owner", ""), "website": iss.get("website", ""), "ir_page": iss.get("ir_page", ""), "calendar": iss.get("report_calendar", ""), "manual": bool(iss.get("manual_reports")),
             "rating_plain": C.plain(last.get("rating", "")), "period": last.get("period", ""), "analysis_date": last_date,
             "verdict": (last.get("verdict") or {}).get("status", ""), "ratings": last.get("ratings", []),
             "esg_review": sum(1 for v in items.values() if v.get("status") == "review"),

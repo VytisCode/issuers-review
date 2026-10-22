@@ -182,6 +182,7 @@
       s2w: "Why: adds new ISINs, marks sold ones, finds new issuer reports, news and sanctions matches.",
       s3: "Ask Claude to analyse", s3d: "In the Claude project <b>Issuers review analyst</b> write: <i>„Išanalizuok visas naujas ataskaitas“</i>. Claude replies there when the reviews are ready (a few hours for many issuers).",
       s3w: "Why: the review text and figures are written by AI from the issuer reports.", s4: "Download", s4d: "New Word / PDF / Excel files appear on the cards below. Older reviews stay in history.",
+      manual: "Upload these yourself (password-protected reports):", manualHow: "download the new report and attach it in the Claude project together with the message in step 3.", manualChip: "Reports uploaded by you",
       now: "Right now:", newRep: "issuers with a new report", noAn: "held securities without an analysis", allOk: "nothing waiting for analysis",
       run: "Search running – started", wait: "please wait…", done: "Search finished", loading: "updating the page…", reload: "Reload page", fail: "Search failed – tell Claude in the project chat.", last: "Last search:" },
     lt: { title: "Kaip atnaujinti apžvalgas", when: "Darykite, kai reikia naujų apžvalgų, pvz., kartą per ketvirtį. 1–2 žingsniai nemokami ir be AI; 3 žingsnis – AI analizė.",
@@ -190,6 +191,7 @@
       s2w: "Kodėl: prideda naujus ISIN, pažymi parduotus, randa naujas emitentų ataskaitas, naujienas ir sankcijų sutapimus.",
       s3: "Paprašykite Claude analizės", s3d: "Claude projekte <b>Issuers review analyst</b> parašykite: <i>„Išanalizuok visas naujas ataskaitas“</i>. Claude ten atsakys, kai apžvalgos bus paruoštos (daug emitentų – kelios valandos).",
       s3w: "Kodėl: apžvalgų tekstą ir skaičius iš emitentų ataskaitų rašo AI.", s4: "Atsisiųskite", s4d: "Nauji Word / PDF / Excel failai atsiras kortelėse žemiau. Senos apžvalgos lieka istorijoje.",
+      manual: "Šias ataskaitas įkelkite patys (apsaugotos slaptažodžiu):", manualHow: "atsisiųskite naują ataskaitą ir prisekite ją Claude projekte kartu su 3 žingsnio žinute.", manualChip: "Ataskaitas pateikiate patys",
       now: "Dabar:", newRep: "emitentai su nauja ataskaita", noAn: "turimi VP be analizės", allOk: "nieko nelaukia analizės",
       run: "Paieška vyksta – pradėta", wait: "palaukite…", done: "Paieška baigta", loading: "atnaujinamas puslapis…", reload: "Perkrauti puslapį", fail: "Paieška nepavyko – parašykite Claude projekto pokalbyje.", last: "Paskutinė paieška:" }
   };
@@ -198,12 +200,14 @@
     const newRep = D.issuers.filter(i => i.new_filings.length).length;
     const noAn = D.securities.filter(s => s.held === "yes" && s.status === "active" && (!s.issuer || !byId[s.issuer] || !byId[s.issuer].files.length)).length;
     const now = [newRep ? `<a class="chip bad" href="#overview/x/c-${(D.issuers.find(i => i.new_filings.length) || {}).id}">${newRep} ${g("newRep")} →</a>` : "", noAn ? `<a class="chip warn" href="#securities/noan">${noAn} ${g("noAn")} →</a>` : ""].join("") || `<span class="chip good">${g("allOk")}</span>`;
+    const manual = D.issuers.filter(i => i.manual);
+    const man = manual.length ? `<p class="manual">⚠ ${g("manual")} ${manual.map(i => `<a href="#issuer/${i.id}"><b>${esc(i.name)}</b></a>`).join(", ")} – ${g("manualHow")}</p>` : "";
     const step = (n, a, d, w, extra = "") => `<li><div class="gn">${n}</div><div><b>${a}</b><p>${d}</p>${extra}<p class="muted gw">${w}</p></div></li>`;
     return `<details class="guide" ${localStorage_get("guide") === "closed" ? "" : "open"}><summary>${g("title")}</summary><p class="muted">${g("when")}</p><ol class="steps">
       ${step(1, g("s1"), g("s1d"), g("s1w"))}
       ${step(2, g("s2"), g("s2d"), g("s2w"), `<div class="row bar-actions"><a class="btn primary" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${t("searchNow")}</a></div>
         <div id="runStatus" class="runst muted">${g("last")} ${esc(st.news?.date || t("notYet"))}</div>`)}
-      ${step(3, g("s3"), g("s3d"), g("s3w"), `<p>${g("now")} ${now}</p>`)}
+      ${step(3, g("s3"), g("s3d"), g("s3w"), `${man}<p>${g("now")} ${now}</p>`)}
       ${step(4, g("s4"), g("s4d"), "")}
     </ol></details>`;
   }
@@ -255,6 +259,7 @@
       const chips = [];
       if (i.new_filings.length) chips.push(`<a class="chip bad" href="#issuer/${i.id}/sec-new">● ${t("newReport")} (${i.new_filings.length}) →</a>`);
       if (flagged) chips.push(`<a class="chip warn" href="#news/${i.id}">${flagged} ${t("toReview")} →</a>`);
+      if (i.manual) chips.push(`<a class="chip warn" href="#overview">${g("manualChip")}</a>`);
       if (i.esg_review) chips.push(`<a class="chip info" href="#issuer/${i.id}/sec-esg">${i.esg_review} ${t("esgReview")} →</a>`);
       const vk = { ok: "vOk", watch: "vWatch", action: "vAction" }[i.verdict];
       h += `<article class="card icard" id="c-${i.id}">

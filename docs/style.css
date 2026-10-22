@@ -221,3 +221,4 @@ table.sortable th[data-k]:hover { color: var(--accent); }
 table.sortable .arr { font-size: 10px; color: var(--accent); }
 .flash { animation: flash 2.2s ease-out; }
 @keyframes flash { 0% { box-shadow: 0 0 0 4px var(--accent); } 100% { box-shadow: 0 0 0 0 transparent; } }
+.guide .manual{background:#FDF1D8;border-left:3px solid #9A6400;padding:8px 10px;border-radius:4px;margin:6px 0}
