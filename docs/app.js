@@ -126,9 +126,9 @@
       (zip ? `<a class="btn sm" href="${zip.url}" data-tip="${esc(LANG === "lt" ? `Šaltinių dokumentų kopijos: ${zip.n} failai, ${Math.round(zip.kb / 1024)} MB, ${zip.date}` : `Copies of source documents: ${zip.n} files, ${Math.round(zip.kb / 1024)} MB, ${zip.date}`)}">⬇ ${LANG === "lt" ? "Šaltiniai (ZIP)" : "Sources (ZIP)"}</a>` : "");
   }
   const C2 = {
-    en: { ratings: "Credit rating", noRating: "No public credit rating", held: "Securities held", coupon: "Coupon", term: "Maturity", amount: "Issue size", perp: "Perpetual", call: "call", share: "Share",
+    en: { ratings: "Issuer rating", issueR: "Rating", issueTip: "Rating of this issue", noIssueR: "No separate rating of this issue found in public sources", ratingNote: "Ratings of individual issues can differ (column Rating in the table below).", noRating: "No public credit rating", held: "Securities held", coupon: "Coupon", term: "Maturity", amount: "Issue size", perp: "Perpetual", call: "call", share: "Share",
       reports: "Reports", ig: "Investment grade", hy: "High yield", out: { stable: "stable", positive: "positive", negative: "negative" }, more: "more", vOk: "OK", vWatch: "Watch", vAction: "Action", noAnalysis: "No analysis yet" },
-    lt: { ratings: "Kredito reitingas", noRating: "Viešo kredito reitingo nėra", held: "Turimi vertybiniai popieriai", coupon: "Kuponas", term: "Terminas", amount: "Emisija", perp: "Neterminuota", call: "call", share: "Akcija",
+    lt: { ratings: "Emitento reitingas", issueR: "Reitingas", issueTip: "Šios emisijos reitingas", noIssueR: "Atskiro šios emisijos reitingo viešuose šaltiniuose nerasta", ratingNote: "Atskirų emisijų reitingai gali skirtis (stulpelis „Reitingas“ lentelėje žemiau).", noRating: "Viešo kredito reitingo nėra", held: "Turimi vertybiniai popieriai", coupon: "Kuponas", term: "Terminas", amount: "Emisija", perp: "Neterminuota", call: "call", share: "Akcija",
       reports: "Ataskaitos", ig: "Investicinis", hy: "Spekuliatyvus", out: { stable: "stabili", positive: "teigiama", negative: "neigiama" }, more: "daugiau", vOk: "Tvarkinga", vWatch: "Stebėti", vAction: "Veikti", noAnalysis: "Analizės dar nėra" }
   };
   const c2 = k => (C2[LANG] || C2.en)[k];
@@ -139,16 +139,22 @@
     return `<div class="rbadges">${r.map(x => `<span class="rbadge ${IG.test(x.grade) ? "ig" : "hy"}" data-tip="${esc((x.agency || "") + " " + x.grade + (x.scope ? " – " + x.scope : "") + " · " + (IG.test(x.grade) ? c2("ig") : c2("hy")))}">
       <span class="ra">${esc(x.agency || "–")}</span><b>${esc(x.grade)}</b>${x.outlook ? `<span class="ro o-${esc(x.outlook)}">${x.outlook === "positive" ? "▲" : x.outlook === "negative" ? "▼" : "●"} ${esc(c2("out")[x.outlook] || x.outlook)}</span>` : ""}${x.scope ? `<span class="rs">${esc(x.scope)}</span>` : ""}</span>`).join("")}</div>`;
   }
+  function issueRating(s) {
+    if (s.type === "share") return "";
+    const tip = esc((s.issue_rating ? c2("issueTip") + ": " + s.issue_rating : c2("noIssueR")) + (s.issue_rating_note ? " – " + s.issue_rating_note : ""));
+    if (!s.issue_rating) return `<span class="muted" data-tip="${tip}">–</span>`;
+    return s.issue_rating.split(";").map(x => { const g = x.trim().split(" ").pop(); return `<span class="rbadge mini ${IG.test(g) ? "ig" : "hy"}" data-tip="${tip}">${esc(x.trim())}</span>`; }).join(" ");
+  }
   function secTable(secs) {
     if (!secs.length) return "";
-    return `<table class="sect"><tr><th></th><th class="n">${c2("coupon")}</th><th class="n">${c2("term")}</th><th class="n">${c2("amount")}</th></tr>${secs.map(s => {
+    return `<table class="sect"><tr><th></th><th class="n">${c2("coupon")}</th><th class="n">${c2("term")}</th><th class="n">${c2("amount")}</th><th class="n">${c2("issueR")}</th></tr>${secs.map(s => {
       const d = s.maturity_date ? days(s.maturity_date) : null, mat = s.status === "matured";
       const term = s.type === "share" ? c2("share") : s.maturity_date ? esc(s.maturity_date) : c2("perp");
       const chip = mat ? ` <span class="chip warn">${t("maturedS")}</span>` : d !== null && d < 365 ? ` <span class="chip info">${d} ${t("daysLeft")}</span>` : "";
       return `<tr class="${mat ? "dim" : ""}"><td><div class="sn">${esc(s.name)}</div><div class="mono muted">${esc(s.isin)}${chip}</div></td>
         <td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td>
         <td class="n">${term}${s.call_date && !mat ? `<div class="muted">${c2("call")} ${esc(s.call_date)}</div>` : ""}</td>
-        <td class="n">${s.amount_m ? fmt(s.amount_m, "") + " " + unitLbl("m") : "–"}</td></tr>`;
+        <td class="n">${s.amount_m ? fmt(s.amount_m, "") + " " + unitLbl("m") : "–"}</td><td class="n">${issueRating(s)}</td></tr>`;
     }).join("")}</table>`;
   }
   function tiles(i) {
@@ -191,7 +197,7 @@
   function guide(st) {
     const newRep = D.issuers.filter(i => i.new_filings.length).length;
     const noAn = D.securities.filter(s => s.held === "yes" && s.status === "active" && (!s.issuer || !byId[s.issuer] || !byId[s.issuer].files.length)).length;
-    const now = [newRep ? `<span class="chip bad">${newRep} ${g("newRep")}</span>` : "", noAn ? `<span class="chip warn">${noAn} ${g("noAn")}</span>` : ""].join("") || `<span class="chip good">${g("allOk")}</span>`;
+    const now = [newRep ? `<a class="chip bad" href="#overview/x/c-${(D.issuers.find(i => i.new_filings.length) || {}).id}">${newRep} ${g("newRep")} →</a>` : "", noAn ? `<a class="chip warn" href="#securities/noan">${noAn} ${g("noAn")} →</a>` : ""].join("") || `<span class="chip good">${g("allOk")}</span>`;
     const step = (n, a, d, w, extra = "") => `<li><div class="gn">${n}</div><div><b>${a}</b><p>${d}</p>${extra}<p class="muted gw">${w}</p></div></li>`;
     return `<details class="guide" ${localStorage_get("guide") === "closed" ? "" : "open"}><summary>${g("title")}</summary><p class="muted">${g("when")}</p><ol class="steps">
       ${step(1, g("s1"), g("s1d"), g("s1w"))}
@@ -247,18 +253,18 @@
       const matured = secs.filter(s => s.status === "matured").length, soon = secs.filter(s => s.status === "active" && s.maturity_date && days(s.maturity_date) < 365).length;
       const flagged = recentNews(i.id).filter(n => n.flag === "review").length;
       const chips = [];
-      if (i.new_filings.length) chips.push(`<span class="chip bad">● ${t("newReport")} (${i.new_filings.length})</span>`);
-      if (flagged) chips.push(`<span class="chip warn">${flagged} ${t("toReview")}</span>`);
-                  if (i.esg_review) chips.push(`<span class="chip info">${i.esg_review} ${t("esgReview")}</span>`);
+      if (i.new_filings.length) chips.push(`<a class="chip bad" href="#issuer/${i.id}/sec-new">● ${t("newReport")} (${i.new_filings.length}) →</a>`);
+      if (flagged) chips.push(`<a class="chip warn" href="#news/${i.id}">${flagged} ${t("toReview")} →</a>`);
+      if (i.esg_review) chips.push(`<a class="chip info" href="#issuer/${i.id}/sec-esg">${i.esg_review} ${t("esgReview")} →</a>`);
       const vk = { ok: "vOk", watch: "vWatch", action: "vAction" }[i.verdict];
-      h += `<article class="card icard">
+      h += `<article class="card icard" id="c-${i.id}">
         <header class="ich"><div><h3><a href="#issuer/${i.id}">${esc(i.name)}</a> <span class="flagc">${esc(i.country)}</span></h3><p class="muted isec">${esc(i.sector)}</p></div>
           ${vk ? `<span class="vbadge v-${i.verdict}">${c2(vk)}</span>` : `<span class="vbadge">${c2("noAnalysis")}</span>`}</header>
         ${T(i).verdict ? `<div class="verdict sm v-${i.verdict || "ok"}">${T(i).verdict}</div>` : ""}${tiles(i)}
-        <div class="csec"><div class="csh">${c2("ratings")}</div>${ratingBadges(i)}</div>
+        <div class="csec"><div class="csh">${c2("ratings")}</div>${ratingBadges(i)}${(i.ratings || []).length ? `<div class="muted small rnote">${c2("ratingNote")}</div>` : ""}</div>
         <div class="csec"><div class="csh">${c2("held")}</div>${secTable(secs)}</div>
         <div class="csec"><div class="csh">${c2("reports")}</div><div class="kv"><span>${t("lastAnalysis")}</span><b>${esc(i.period)} · ${esc(i.analysis_date)}</b><span>${t("nextReport")}</span><b>${esc(i.calendar)}</b></div>
-          <div>${chips.join("") || `<span class="chip good">${t("nothingNew")}</span>`}</div></div>
+          ${chips.length ? `<div>${chips.join("")}</div>` : ""}</div>
         <div class="card-foot"><a class="btn" href="#issuer/${i.id}">${t("open")} →</a><span class="sp"></span>${dlButtons(i)}</div></article>`;
     });
     return h + "</div>";
@@ -275,7 +281,7 @@
       <div class="row"><a class="btn" href="${gh("edit/main/" + i.yaml)}" target="_blank" rel="noopener">${t("edit")}</a>
       <a class="btn" href="${issueUrl("Analysis: " + i.name, "Update the " + i.name + " review using the latest report.\n\n(Created from the dashboard)")}" target="_blank" rel="noopener">${t("requestAnalysis")}</a>
       <a class="btn" href="${esc(i.ir_page)}" target="_blank" rel="noopener">${t("issuerReports")}</a></div>`;
-    if (i.new_filings.length) h += `<div class="note"><b>${t("newReport")}:</b><ul class="b">${i.new_filings.map(f => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title)}</a> <span class="muted">(${esc(f.first_seen)})</span></li>`).join("")}</ul></div>`;
+    if (i.new_filings.length) h += `<div class="note" id="sec-new"><b>${t("newReport")}:</b><ul class="b">${i.new_filings.map(f => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title)}</a> <span class="muted">(${esc(f.first_seen)})</span></li>`).join("")}</ul></div>`;
     if (X.verdict) h += `<div class="verdict v-${i.verdict || "ok"}">${X.verdict}</div>`;
     h += tiles(i);
     h += `<h2>${t("quick")}</h2><ul class="b">${(X.summary || []).map(s => `<li>${s}</li>`).join("")}</ul>`;
@@ -301,7 +307,7 @@
     h += `<h2>${t("investor")}</h2><ul class="b">${(X.investor || []).map(s => `<li>${s}</li>`).join("")}</ul>`;
     h += `<details class="more"><summary>${t("more")}</summary><h3>${t("business")}</h3><ul class="b">${(X.business || []).map(s => `<li>${s}</li>`).join("")}</ul>
       <h3>${t("financials")}</h3><ul class="b">${(X.financials || []).map(s => `<li>${s}</li>`).join("")}</ul></details>`;
-    h += `<h2>ESG report</h2><div class="esg">${(X.esg || []).map(s => `<h3>${esc(s.heading)}</h3>${s.items.map(q => `
+    h += `<h2 id="sec-esg">ESG report</h2><div class="esg">${(X.esg || []).map(s => `<h3>${esc(s.heading)}</h3>${s.items.map(q => `
       <p class="q"><span class="box">${q.status === "yes" ? "☑" : "☐"}</span> ${esc(q.q)}</p>
       <div class="ev">${q.status === "review" ? `<span class="chip warn">${t("needsReview")}</span>` : ""}${(q.points || []).map(g => `${g.label ? `<div class="evl">${esc(g.label)}</div>` : ""}<ul class="b">${g.items.map(x => `<li>${x}</li>`).join("")}</ul>`).join("")}</div>`).join("")}
       ${s.note ? `<p class="esgnote">${esc(s.note)}</p>` : ""}<p><b>Additional comments:</b></p>`).join("")}
@@ -372,14 +378,20 @@
       pending: "New – details appear after the next search", effect: "Changes are picked up by the next search (Overview → step 2) or automatically tomorrow morning.",
       issuer: "Issuer", sec: "Security", coupon: "Coupon", term: "Maturity", status: "Status", none: "No securities yet – add the first one above.",
       bad: "Not a valid ISIN:", replace: "Replace the whole list", replaceHint: "Paste the full list of ISINs you hold. Anything not in it will be removed.", replaceBtn: "Replace list",
-      matChart: "Bonds held by maturity year", all: "All securities ever tracked", soldTag: "sold / not held", lastChange: "Last change" },
+      matChart: "Bonds held by maturity year", all: "All securities ever tracked", soldTag: "sold / not held", lastChange: "Last change",
+      search: "Search: issuer, name, ISIN", allIss: "All issuers", allCtry: "All countries", allTypes: "All types", allSt: "Any status",
+      tBond: "Bond (dated)", tPerp: "Perpetual / AT1", tShare: "Share", sActive: "Active", sSoon: "Matures within 12 m", sMat: "Matured", sNoan: "No analysis yet", sPend: "Details pending",
+      shown: "shown", of: "of", country: "Country", amount: "Issue size", irating: "Issuer rating", erating: "Issue rating", clear: "Clear filters", sortHint: "Click a column header to sort" },
     lt: { title: "Vertybiniai popieriai", sub: "Jūsų turimi vertybiniai popieriai. Čia juos pridėkite arba pašalinkite – įrankis tada žino, kuriuos emitentus apžvelgti.",
       mine: "Mano vertybiniai popieriai", add: "Pridėti vertybinius popierius", addHint: "Įrašykite arba įklijuokite vieną ar kelis ISIN kodus (pvz., iš banko išrašo) ir spauskite Pridėti.", addBtn: "Pridėti", remove: "Pašalinti",
       saving: "Saugoma…", saved: "Išsaugota", failed: "Nepavyko išsaugoti – bandykite dar kartą.", loadFail: "Nepavyko įkelti išsaugoto sąrašo – rodomas paskutinis sinchronizuotas.",
       pending: "Naujas – duomenys atsiras po kitos paieškos", effect: "Pakeitimai įsigalioja po kitos paieškos (Apžvalga → 2 žingsnis) arba automatiškai kitą rytą.",
       issuer: "Emitentas", sec: "Vertybinis popierius", coupon: "Kuponas", term: "Terminas", status: "Būsena", none: "Kol kas nieko nėra – pridėkite pirmąjį aukščiau.",
       bad: "Neteisingas ISIN:", replace: "Pakeisti visą sąrašą", replaceHint: "Įklijuokite visą turimų ISIN sąrašą. Kas jame nebus – bus pašalinta.", replaceBtn: "Pakeisti sąrašą",
-      matChart: "Turimos obligacijos pagal išpirkimo metus", all: "Visi kada nors sekti vertybiniai popieriai", soldTag: "parduota / neturima", lastChange: "Paskutinis pakeitimas" }
+      matChart: "Turimos obligacijos pagal išpirkimo metus", all: "Visi kada nors sekti vertybiniai popieriai", soldTag: "parduota / neturima", lastChange: "Paskutinis pakeitimas",
+      search: "Paieška: emitentas, pavadinimas, ISIN", allIss: "Visi emitentai", allCtry: "Visos šalys", allTypes: "Visi tipai", allSt: "Bet kokia būsena",
+      tBond: "Obligacija (su terminu)", tPerp: "Neterminuota / AT1", tShare: "Akcija", sActive: "Galioja", sSoon: "Išperkama per 12 mėn.", sMat: "Išpirkta", sNoan: "Be analizės", sPend: "Laukia duomenų",
+      shown: "rodoma", of: "iš", country: "Šalis", amount: "Emisija", irating: "Emitento reitingas", erating: "Emisijos reitingas", clear: "Išvalyti filtrus", sortHint: "Paspauskite stulpelio antraštę, kad surikiuotumėte" }
   };
   const sx = k => (SX[LANG] || SX.en)[k];
   const parseIsins = v => [...new Set((v.toUpperCase().match(/[A-Z]{2}[A-Z0-9]{9}\d/g) || []))];
@@ -389,17 +401,32 @@
     return (10 - sum % 10) % 10 === +x[11];
   };
   let MY = null, BAD = [];
-  function myRow(x) {
-    const s = D.securities.find(y => y.isin === x);
-    if (!s || !s.name) return `<tr><td class="mono">${esc(x)}</td><td colspan="4" class="muted">${sx("pending")}</td><td class="n"><button class="btn sm rm" data-i="${esc(x)}">✕ ${sx("remove")}</button></td></tr>`;
-    const iss = byId[s.issuer];
+  const RSCALE = ["AAA", "AA+", "AA", "AA-", "A+", "A", "A-", "BBB+", "BBB", "BBB-", "BB+", "BB", "BB-", "B+", "B", "B-", "CCC+", "CCC", "CCC-", "CC", "C", "D"];
+  const MSCALE = ["Aaa", "Aa1", "Aa2", "Aa3", "A1", "A2", "A3", "Baa1", "Baa2", "Baa3", "Ba1", "Ba2", "Ba3", "B1", "B2", "B3", "Caa1", "Caa2", "Caa3", "Ca", "C"];
+  const rRank = g => { g = (g || "").trim().split(" ").pop(); const m = MSCALE.indexOf(g), r = RSCALE.indexOf(g); return m >= 0 ? m : r >= 0 ? r : 99; };
+  function secInfo(x) {
+    const s = D.securities.find(y => y.isin === x) || { isin: x }, iss = byId[s.issuer];
+    const type = !s.name ? "" : s.type === "share" ? "share" : !s.maturity_date ? "perp" : "bond";
     const d = s.maturity_date ? days(s.maturity_date) : null;
-    const st = s.status === "matured" ? `<span class="chip warn">${t("maturedS")}</span>` : d !== null && d < 365 ? `<span class="chip info">${d} ${t("daysLeft")}</span>` : `<span class="chip good">${t("active")}</span>`;
-    return `<tr><td>${iss ? `<a href="#issuer/${iss.id}">${esc(iss.name)}</a>` : `<span class="muted">${esc(s.issuer || "–")}</span>`}</td><td><div class="sn">${esc(s.name)}</div><div class="mono muted">${esc(x)}</div></td>
-      <td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td><td class="n">${s.type === "share" ? c2("share") : esc(s.maturity_date || c2("perp"))}${s.call_date ? `<div class="muted">${c2("call")} ${esc(s.call_date)}</div>` : ""}</td>
-      <td>${st}</td><td class="n"><button class="btn sm rm" data-i="${esc(x)}">✕ ${sx("remove")}</button></td></tr>`;
+    const st = !s.name ? "pend" : s.status === "matured" ? "mat" : !iss || !iss.files.length ? "noan" : d !== null && d < 365 ? "soon" : "active";
+    const ir = iss && (iss.ratings || []).length ? iss.ratings.map(r => (r.agency ? r.agency + " " : "") + r.grade).join("; ") : "";
+    return { x, s, iss, type, d, st, ir, irank: Math.min(99, ...(iss?.ratings || []).map(r => rRank(r.grade))), erank: s.issue_rating ? Math.min(...s.issue_rating.split(";").map(rRank)) : 99,
+      name: iss ? iss.name : s.issuer || "", country: iss ? iss.country : "", mat: type === "share" ? "~" : s.maturity_date || "9999", cpn: s.coupon_pct ? +s.coupon_pct : -1, amt: s.amount_m ? +s.amount_m : -1 };
   }
-  function securities() {
+  function myRow(o) {
+    const { x, s, iss } = o;
+    const rm = `<td class="n"><button class="btn sm rm" data-i="${esc(x)}">✕ ${sx("remove")}</button></td>`;
+    if (!s.name) return `<tr><td class="mono">${esc(x)}</td><td colspan="7" class="muted">${sx("pending")}</td>${rm}</tr>`;
+    const st = { mat: `<span class="chip warn">${t("maturedS")}</span>`, soon: `<span class="chip info">${o.d} ${t("daysLeft")}</span>`, noan: `<span class="chip warn">${sx("sNoan")}</span>`, active: `<span class="chip good">${t("active")}</span>` }[o.st];
+    const irB = iss && (iss.ratings || []).length ? iss.ratings.map(r => `<span class="rbadge mini ${IG.test(r.grade) ? "ig" : "hy"}">${esc((r.agency || "") + " " + r.grade)}</span>`).join(" ") : `<span class="muted">–</span>`;
+    return `<tr><td>${iss ? `<a href="#issuer/${iss.id}">${esc(iss.name)}</a>` : `<span class="muted">${esc(s.issuer || "–")}</span>`}</td><td>${esc(o.country)}</td>
+      <td><div class="sn">${esc(s.name)}</div><div class="mono muted">${esc(x)}</div></td>
+      <td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td><td class="n">${s.type === "share" ? c2("share") : esc(s.maturity_date || c2("perp"))}${s.call_date ? `<div class="muted">${c2("call")} ${esc(s.call_date)}</div>` : ""}</td>
+      <td class="n">${s.amount_m ? fmt(s.amount_m, "") + " " + unitLbl("m") : "–"}</td><td>${irB}</td><td>${issueRating(s)}</td><td>${st}</td>${rm}</tr>`;
+  }
+  let SF = { q: "", iss: "", ctry: "", type: "", st: "", k: "name", dir: 1 };
+  function securities(arg) {
+    if (arg === "noan") SF = { ...SF, q: "", iss: "", ctry: "", type: "", st: "noanp" };
     const all = D.securities.slice().sort((a, b) => (a.maturity_date || "9999").localeCompare(b.maturity_date || "9999"));
     const years = {};
     all.filter(x => x.held === "yes" && x.type === "bond" && x.status === "active" && x.maturity_date).forEach(x => { const y = x.maturity_date.slice(0, 4); years[y] = (years[y] || 0) + 1; });
@@ -408,7 +435,12 @@
         <div class="row addrow"><input id="newIsin" placeholder="LT0000115768, XS1646530565 …" autocomplete="off"><button class="btn primary" id="addBtn">+ ${sx("addBtn")}</button></div>
         <div id="addMsg" class="runst"></div></div>
       <h2>${sx("mine")} <span class="muted" id="myCount"></span></h2><p class="muted" id="myLast">${sx("effect")}</p>
-      <div class="tbl-wrap"><table id="myTbl"><tr><th>${sx("issuer")}</th><th>${sx("sec")}</th><th class="n">${sx("coupon")}</th><th class="n">${sx("term")}</th><th>${sx("status")}</th><th></th></tr></table></div>
+      <div class="filters secf"><input type="search" id="sfQ" placeholder="${sx("search")}"><select id="sfIss"></select><select id="sfCtry"></select>
+        <select id="sfType"><option value="">${sx("allTypes")}</option><option value="bond">${sx("tBond")}</option><option value="perp">${sx("tPerp")}</option><option value="share">${sx("tShare")}</option></select>
+        <select id="sfSt"><option value="">${sx("allSt")}</option><option value="active">${sx("sActive")}</option><option value="soon">${sx("sSoon")}</option><option value="mat">${sx("sMat")}</option><option value="noanp">${sx("sNoan")} / ${sx("sPend")}</option></select>
+        <button class="btn sm" id="sfClear">${sx("clear")}</button><span class="muted small" id="sfCount"></span></div>
+      <div class="tbl-wrap"><table id="myTbl" class="sortable"><tr>${[["name", sx("issuer")], ["country", sx("country")], ["sec", sx("sec")], ["cpn", sx("coupon"), "n"], ["mat", sx("term"), "n"], ["amt", sx("amount"), "n"], ["irank", sx("irating")], ["erank", sx("erating")], ["st", sx("status")]]
+          .map(([k, l, c]) => `<th class="${c || ""}" data-k="${k}" title="${sx("sortHint")}">${l} <span class="arr"></span></th>`).join("")}<th></th></tr></table></div>
       <details class="guide" style="margin-top:14px"><summary>${sx("replace")}</summary><p class="muted">${sx("replaceHint")}</p><textarea id="isins" rows="8"></textarea>
         <div class="row" style="margin-top:8px"><button class="btn" id="repBtn">${sx("replaceBtn")}</button></div></details>
       <div class="two"><div><h2>${sx("matChart")}</h2><div class="chart">${barChart(Object.keys(years).sort().map(y => ({ label: y, v: years[y] })), "")}</div></div><div></div></div>
@@ -419,11 +451,22 @@
   function initSecurities() {
     const tbl = document.getElementById("myTbl"); if (!tbl) return;
     const msg = (html, cls) => { const m = document.getElementById("addMsg"); m.className = "runst " + (cls || ""); m.innerHTML = html; };
+    const $ = id => document.getElementById(id);
+    const head = tbl.rows[0].outerHTML;
     const render = () => {
-      const head = tbl.rows[0].outerHTML;
-      const list = MY.slice().sort((a, b) => { const A = D.securities.find(y => y.isin === a), B = D.securities.find(y => y.isin === b);
-        return String(byId[A?.issuer]?.name || "~").localeCompare(String(byId[B?.issuer]?.name || "~")) || String(A?.maturity_date || "9999").localeCompare(String(B?.maturity_date || "9999")); });
-      tbl.innerHTML = head + (list.map(myRow).join("") || `<tr><td colspan="6" class="muted">${sx("none")}</td></tr>`);
+      const info = MY.map(secInfo);
+      const opts = (sel, all, vals) => { const cur = SF[sel === "sfIss" ? "iss" : "ctry"]; $(sel).innerHTML = `<option value="">${all}</option>` + vals.map(([v, l]) => `<option value="${esc(v)}" ${v === cur ? "selected" : ""}>${esc(l)}</option>`).join(""); };
+      opts("sfIss", sx("allIss"), [...new Map(info.filter(o => o.iss).map(o => [o.iss.id, o.iss.name])).entries()].sort((a, b) => a[1].localeCompare(b[1])));
+      opts("sfCtry", sx("allCtry"), [...new Set(info.map(o => o.country).filter(Boolean))].sort().map(c => [c, c]));
+      $("sfQ").value = SF.q; $("sfType").value = SF.type; $("sfSt").value = SF.st;
+      const q = SF.q.toLowerCase();
+      const rows = info.filter(o => (!q || `${o.name} ${o.s.name || ""} ${o.x}`.toLowerCase().includes(q)) && (!SF.iss || o.iss?.id === SF.iss) && (!SF.ctry || o.country === SF.ctry)
+        && (!SF.type || o.type === SF.type) && (!SF.st || (SF.st === "noanp" ? ["noan", "pend"].includes(o.st) : o.st === SF.st)));
+      const key = o => SF.k === "sec" ? (o.s.name || "~") : SF.k === "st" ? ["pend", "noan", "mat", "soon", "active"].indexOf(o.st) : o[SF.k];
+      rows.sort((a, b) => { const A = key(a), B = key(b); return (typeof A === "number" ? A - B : String(A || "~").localeCompare(String(B || "~"))) * SF.dir || a.mat.localeCompare(b.mat); });
+      tbl.innerHTML = head + (rows.map(myRow).join("") || `<tr><td colspan="10" class="muted">${sx("none")}</td></tr>`);
+      tbl.querySelectorAll("th[data-k]").forEach(th => { th.querySelector(".arr").textContent = th.dataset.k === SF.k ? (SF.dir > 0 ? "▲" : "▼") : ""; th.onclick = () => { SF.dir = SF.k === th.dataset.k ? -SF.dir : 1; SF.k = th.dataset.k; render(); }; });
+      $("sfCount").textContent = `${sx("shown")} ${rows.length} ${sx("of")} ${MY.length}`;
       document.getElementById("myCount").textContent = `(${MY.length})`;
       document.getElementById("isins").value = MY.join("\n");
       tbl.querySelectorAll("button.rm").forEach(b => b.onclick = () => { if (confirm(`${sx("remove")} ${b.dataset.i}?`)) { BAD = []; save(MY.filter(x => x !== b.dataset.i)); } });
@@ -438,6 +481,9 @@
           msg(`✓ ${sx("saved")}. ${(j.added || []).length ? "+ " + j.added.join(", ") : ""} ${(j.removed || []).length ? "− " + j.removed.join(", ") : ""}${BAD.length ? ` <span class="bad">✗ ${sx("bad")} ${BAD.map(esc).join(", ")}</span>` : ""}`, "ok");
         }).catch(() => msg(`✗ ${sx("failed")}`, "bad"));
     };
+    $("sfQ").oninput = e => { SF.q = e.target.value; render(); $("sfQ").focus(); };
+    [["sfIss", "iss"], ["sfCtry", "ctry"], ["sfType", "type"], ["sfSt", "st"]].forEach(([id, k]) => $(id).onchange = e => { SF[k] = e.target.value; render(); });
+    $("sfClear").onclick = () => { SF = { ...SF, q: "", iss: "", ctry: "", type: "", st: "" }; render(); };
     const fallback = () => D.securities.filter(s => s.held === "yes" && s.status !== "matured").map(s => s.isin);
     const start = () => { render(); };
     if (MY) start();
@@ -497,17 +543,18 @@
   }
 
   function route() {
-    const [page, arg] = (location.hash.slice(1) || "overview").split("/");
-    const map = { overview, issuer: () => issuer(arg), news: () => news(arg), securities, isin: securities, tools, about };
+    const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
+    const map = { overview, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
     document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = t(k); a.classList.toggle("on", k === page || (page === "issuer" && k === "overview")); });
     document.querySelector(".brand").textContent = t("heroTitle");
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
     document.documentElement.lang = LANG;
     $app.innerHTML = (map[page] || overview)();
     if (!map[page] || page === "overview") watchRuns();
+    if (sec) setTimeout(() => { const el = document.getElementById(sec); if (el) { el.scrollIntoView({ behavior: "smooth", block: "start" }); el.classList.add("flash"); } }, 60);
     document.getElementById("foot").textContent = `${t("generated")} ${D.generated}.`;
   }
   document.querySelectorAll("#langs button").forEach(b => b.onclick = () => { LANG = b.dataset.l; try { localStorage.setItem("lang", LANG); } catch (e) { /* ignore */ } route(); });
-  addEventListener("hashchange", () => { route(); scrollTo(0, 0); });
+  addEventListener("hashchange", () => { scrollTo(0, 0); route(); });
   route();
 })();

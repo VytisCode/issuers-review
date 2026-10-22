@@ -301,6 +301,13 @@ maxima:
   ir_page: https://www.maximagrupe.eu/investuotojams-veiklos-rezultatai/
   ratings_page: https://www.maximagrupe.eu/kredito-reitingas-ir-aktualus-dokumentai/
   nasdaq_ticker: ""
+  sanctions_exclude:
+    - name: maxima llc
+      en: "Maxima LLC – an alias in an EU-list entry for a different company (linked to Dalpribor), not Maxima Grupė UAB"
+      lt: "Maxima LLC – kitos bendrovės (susijusios su Dalpribor) pavadinimas ES sąrašo įraše, ne Maxima Grupė UAB"
+    - name: maxima legal limited liability company
+      en: "Maxima Legal LLC – an alias in the same EU-list entry, not Maxima Grupė UAB"
+      lt: "Maxima Legal LLC – to paties ES sąrašo įrašo pavadinimas, ne Maxima Grupė UAB"
   media: all
   seb_policies: [investments, agriculture, climate_nature, human_rights, anti_corruption]
   report_pages:

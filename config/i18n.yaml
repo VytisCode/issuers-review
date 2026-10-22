@@ -45,7 +45,9 @@ disclaimer:       {lt: "Ataskaita parengta iš viešų šaltinių. Skaičiai pat
                    en: "Report prepared from public sources. Figures are as published by the issuer; small numbers next to the text point to the source list.",
                    lv: "Pārskats sagatavots no publiskiem avotiem. Skaitļi norādīti tā, kā tos publicējis emitents; mazie numuri pie teksta norāda uz avotu sarakstu.",
                    et: "Ülevaade on koostatud avalikest allikatest. Arvud on esitatud nii, nagu emitent need avaldas; väikesed numbrid teksti juures osutavad allikate loetelule."}
-rating:           {lt: "Reitingas", en: "Rating", lv: "Reitings", et: "Reiting"}
+rating:           {lt: "Emitento reitingas", en: "Issuer rating", lv: "Emitenta reitings", et: "Emitendi reiting"}
+issue_rating:     {lt: "Emisijos reitingas", en: "Issue rating", lv: "Emisijas reitings", et: "Emissiooni reiting"}
+not_rated:        {lt: "atskiro nerasta", en: "no separate rating found", lv: "atsevišķs nav atrasts", et: "eraldi ei leitud"}
 next_report:      {lt: "Kita ataskaita", en: "Next report", lv: "Nākamais pārskats", et: "Järgmine aruanne"}
 needs_review:     {lt: "Reikia peržiūrėti. ", en: "Needs review. ", lv: "Jāpārskata. ", et: "Vajab ülevaatust. "}
 evidence_lbl:     {lt: "Įrodymas: ", en: "Evidence: ", lv: "Pierādījums: ", et: "Tõendus: "}

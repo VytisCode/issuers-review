@@ -209,3 +209,15 @@ table.sect .chip { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sa
 .hlm a { color: inherit; font-weight: 600; }
 .small { font-size: 12.5px; }
 .chip.sm { font-size: 11px; padding: 0 6px; margin: 0 2px; }
+/* Emisijų reitingai, rikiuojama / filtruojama VP lentelė, nuorodų paryškinimas */
+.rbadge.mini { display: inline-block; padding: 1px 6px; font-size: 11.5px; font-weight: 600; border-radius: 6px; white-space: nowrap; }
+.rnote { margin-top: 6px; }
+a.chip { text-decoration: none; cursor: pointer; }
+a.chip:hover { filter: brightness(0.95); text-decoration: underline; }
+.secf { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 8px 0 10px; }
+.secf input[type=search] { flex: 1 1 220px; }
+table.sortable th[data-k] { cursor: pointer; user-select: none; white-space: nowrap; }
+table.sortable th[data-k]:hover { color: var(--accent); }
+table.sortable .arr { font-size: 10px; color: var(--accent); }
+.flash { animation: flash 2.2s ease-out; }
+@keyframes flash { 0% { box-shadow: 0 0 0 4px var(--accent); } 100% { box-shadow: 0 0 0 0 transparent; } }

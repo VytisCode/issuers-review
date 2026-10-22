@@ -167,8 +167,10 @@ def model(rep, lang, tmpdir):
         mat = s["maturity_date"] or (t("perpetual") if s["type"] == "bond" else t("share"))
         cpn = C.fmt_num(s["coupon_pct"], "%", lang) if s["coupon_pct"] else "–"
         note = ("⚠ " if s.get("verified") == "review" else "") + s.get("status_note", "")
-        rows.append([s["isin"], s["name"], cpn, mat, note])
-    blocks += [("h2", t("instruments")), ("table", [t("isin"), t("instrument"), t("coupon"), t("maturity"), t("note")], rows, [3.0, 4.6, 1.7, 2.3, 5.4], {"num": [2]})]
+        er = "" if s["type"] == "share" else (s.get("issue_rating") or t("not_rated")) + (f" ({s['issue_rating_note']})" if s.get("issue_rating_note") else "")
+        rows.append([s["isin"], s["name"], cpn, mat, er, note])
+    blocks += [("h2", t("instruments")), ("table", [t("isin"), t("instrument"), t("coupon"), t("maturity"), t("issue_rating"), t("note")], rows,
+                                          [2.7, 4.0, 1.5, 2.0, 2.8, 4.2], {"num": [2]})]
 
     # rodikliai: šaltiniai - išnašos prie rodiklio pavadinimo
     periods = rep.get("periods", [])
