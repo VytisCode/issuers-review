@@ -115,14 +115,14 @@
   "date": "2026-10-22",
   "files": 7,
   "sources": 8,
-  "size_kb": 11679,
+  "size_kb": 11680,
   "url": "https://github.com/VytisCode/issuers-review/releases/download/sources/akropolis_6M2026_sources.zip"
  },
  "bigbank_9M2026_sources.zip": {
   "date": "2026-10-22",
-  "files": 9,
+  "files": 8,
   "sources": 9,
-  "size_kb": 6179,
+  "size_kb": 5941,
   "url": "https://github.com/VytisCode/issuers-review/releases/download/sources/bigbank_9M2026_sources.zip"
  },
  "coop-pank_9M2026_sources.zip": {

@@ -173,16 +173,19 @@
  "maxima": {
   "date": "2026-10-22",
   "lists": {
-   "EU": "found",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "not_found",
    "US OFAC": "not_found"
   },
-  "matches": [
-   "EU: c pe ac iuni dalpribor | dalpribor nyilv nosan m k d r szv nyt rsas g |  |  |  | maxima llc | maxima legal limited liability company |  |  | amaocr | aruba maritime a"
+  "matches": [],
+  "mentions": [
+   "EU: …02035 ukr https eur lex europa eu legal content en txt pdf uri oj l 202502035 en maxima legal llc is a russian law firm 179439 en type of entity limited liability com…"
   ],
-  "mentions": [],
-  "excluded": []
+  "excluded": [
+   "EU: maxima legal limited liability company",
+   "EU: maxima llc"
+  ]
  },
  "eesti-energia": {
   "date": "2026-10-22",
