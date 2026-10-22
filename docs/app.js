@@ -253,7 +253,7 @@
     s.filter(x => x.held === "yes" && x.type === "bond" && x.status === "active" && x.maturity_date).forEach(x => { const y = x.maturity_date.slice(0, 4); years[y] = (years[y] || 0) + 1; });
     let h = `<h1>${t("secTitle")}</h1><p class="sub">${t("secSub")}</p><div class="row"><a class="btn primary" href="#isin">${t("isinTitle")} →</a></div>`;
     h += `<div class="two"><div><h2>${t("maturityChart")}</h2><div class="chart">${barChart(Object.keys(years).sort().map(y => ({ label: y, v: years[y] })), "")}</div><p class="muted">${t("bondsCount")}</p></div><div></div></div>`;
-    h += `<div class="tbl-wrap"><table><tr><th>${t("isinCol")}</th><th>${t("instrument")}</th><th>${t("heldCol")}</th><th class="n">${t("coupon")}</th><th>${t("maturity")}</th><th>${t("status")}</th><th>${t("note")}</th></tr>${s.map(x => secRow({ ...x, name: (byId[x.issuer]?.name || x.issuer) + " – " + x.name })).join("")}</table></div>`;
+    h += `<div class="tbl-wrap"><table><tr><th>${t("isinCol")}</th><th>${t("instrument")}</th><th>${t("heldCol")}</th><th class="n">${t("coupon")}</th><th>${t("maturity")}</th><th>${t("status")}</th><th>${t("note")}</th></tr>${s.map(x => secRow({ ...x, name: x.issuer ? (byId[x.issuer]?.name || x.issuer) + " – " + x.name : x.name })).join("")}</table></div>`;
     return h;
   }
   function isinDiff(list) {

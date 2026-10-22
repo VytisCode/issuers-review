@@ -24,6 +24,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python -u tools/sync_isins.py
+      - run: python -u tools/lookup_isins.py
       # GITHUB_TOKEN push'as kitų workflow nepaleidžia, todėl svetainė ir ataskaitos perstatomos čia
       - run: python -u tools/build_reports.py
       - run: python -u tools/build_site.py
