@@ -289,3 +289,137 @@ latraps:
   news_match: [latraps]
   news_queries:
     - '"LATRAPS"'
+
+maxima:
+  name: Maxima Grupė
+  legal_name: UAB "MAXIMA GRUPĖ"
+  country: LT
+  sector: Food retail (Lithuania, Latvia, Estonia; e-grocery Barbora)
+  owner: UAB "Vilniaus prekyba" 100% (immediate parent METODIKA B.V.)
+  website: https://www.maximagrupe.eu
+  ir_page: https://www.maximagrupe.eu/investuotojams-veiklos-rezultatai/
+  ratings_page: https://www.maximagrupe.eu/kredito-reitingas-ir-aktualus-dokumentai/
+  nasdaq_ticker: ""
+  media: all
+  seb_policies: [investments, agriculture, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://www.maximagrupe.eu/investuotojams-veiklos-rezultatai/
+  report_calendar: "9M 2026 results: expected November 2026"
+  news_match: [maxima]
+  news_queries:
+    - '"Maxima Grupė"'
+    - '"Maxima Latvija"'
+
+eesti-energia:
+  name: Eesti Energia (Enefit)
+  legal_name: Eesti Energia AS
+  country: EE
+  sector: Integrated energy (generation incl. oil shale and renewables, shale oil, networks via Elektrilevi, retail)
+  owner: Republic of Estonia 100%
+  website: https://www.enefit.com
+  ir_page: https://www.enefit.com/en/investorile
+  ratings_page: https://www.enefit.com/en/investorile
+  nasdaq_ticker: ""
+  media: EE
+  seb_policies: [investments, fossil_fuels, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://www.enefit.com/en/investorile
+  report_calendar: "Q3 2026 interim report: expected late October 2026"
+  news_match: [eesti energia, enefit power, enefit]
+  news_queries:
+    - '"Eesti Energia"'
+
+akropolis:
+  name: Akropolis Group
+  legal_name: UAB "AKROPOLIS GROUP"
+  country: LT
+  sector: Shopping centres and commercial real estate (Lithuania, Latvia; Galio Group)
+  owner: UAB "Vilniaus prekyba" 100%
+  website: https://www.akropolis.eu
+  ir_page: https://www.akropolis.eu/lt/investuotojams
+  ratings_page: https://www.akropolis.eu/lt/investuotojams
+  nasdaq_ticker: ""
+  media: LT
+  seb_policies: [investments, real_estate, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://www.akropolis.eu/lt/investuotojams
+  report_calendar: "9M 2026 results: expected November 2026"
+  news_match: [akropolis group, akropolis]
+  news_queries:
+    - '"Akropolis Group"'
+
+bigbank:
+  name: Bigbank
+  legal_name: Bigbank AS
+  country: EE
+  sector: Bank (consumer, mortgage and business loans; deposits in 9 countries)
+  owner: Estonian private capital 100%
+  website: https://www.bigbank.ee/en
+  ir_page: https://investor.bigbank.eu/et/reporting/
+  ratings_page: https://investor.bigbank.eu/et/reporting/
+  nasdaq_ticker: ""
+  media: EE
+  seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://investor.bigbank.eu/et/reporting/
+  report_calendar: "Q4 2026 and annual results: expected February 2027"
+  news_match: [bigbank]
+  news_queries:
+    - '"Bigbank"'
+
+coop-pank:
+  name: Coop Pank
+  legal_name: Coop Pank AS
+  country: EE
+  sector: Bank (retail and SME banking in Estonia)
+  owner: Listed on Nasdaq Tallinn (CPA1T); Coop Investeeringud 22%, Coop cooperatives 19%, Andres Sonn 8%
+  website: https://www.cooppank.ee/en/investor
+  ir_page: https://www.cooppank.ee/en/investor/reporting
+  ratings_page: https://www.cooppank.ee/en/investor
+  nasdaq_ticker: CPA1T
+  media: EE
+  seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://www.cooppank.ee/en/investor/reporting
+  report_calendar: "Unaudited Q4 2026 and annual results: 2027-02-18"
+  news_match: [coop pank]
+  news_queries:
+    - '"Coop Pank"'
+
+hepsor:
+  name: Hepsor
+  legal_name: Hepsor AS
+  country: EE
+  sector: Residential and commercial real estate developer (Estonia, Latvia)
+  owner: Listed on Nasdaq Tallinn (HPR1T); main shareholders not found
+  website: https://hepsor.ee/en
+  ir_page: https://hepsor.ee/en/for-investors/stock/reports-2/
+  ratings_page: ""
+  nasdaq_ticker: HPR1T
+  media: EE
+  seb_policies: [investments, real_estate, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://hepsor.ee/en/for-investors/stock/reports-2/
+  report_calendar: "Q3 2026 interim report: expected late October / November 2026"
+  news_match: [hepsor]
+  news_queries:
+    - '"Hepsor"'
+
+nortal:
+  name: Nortal
+  legal_name: Nortal AS
+  country: EE
+  sector: IT services and digital transformation (public sector, healthcare, industry; 30 offices)
+  owner: not found (investor portal is password protected)
+  website: https://nortal.com
+  ir_page: https://investors.nortal.com/
+  ratings_page: ""
+  nasdaq_ticker: ""
+  media: all
+  seb_policies: [investments, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nortal.com/news/
+  report_calendar: "Interim reports are only on the password-protected investor portal"
+  news_match: [nortal]
+  news_queries:
+    - '"Nortal"'

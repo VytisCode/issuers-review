@@ -1,0 +1,135 @@
+# Coop Pank - apžvalga pagal 2026 m. III ketvirčio (9M) ataskaitą.
+issuer: coop-pank
+period: 9M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "Unaudited Q4 2026 and annual results - 2027-02-18 [C5]"
+rating: "Moody's Baa1 long-term deposit rating, outlook stable; BCA baa3 [C5]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** 9 mėn. pelnas 25,6 mln. EUR (+19 %, apskaičiuota įrankio), CET1 14,75 %, bendras kapitalas 19,86 % [C1 p.5, p.7]. Stebėtina: 2026-10-21 Finansų inspekcija nurodė pagerinti valdyseną, vidaus kontrolę ir rizikos valdymą (be baudos) [X1].", en: "**Position OK.** 9M profit EUR 25.6m (+19%, calculated by the tool), CET1 14.75%, total capital 19.86% [C1 p.5, p.7]. To watch: on 2026-10-21 the Estonian FSA ordered improvements to governance, internal control and risk management (no fine) [X1]."}
+periods: [FY2024, FY2025, 9M2025, 9M2026]
+ratios: [nii, total_income, net_profit, cost_income, roe, loans, deposits, total_assets, equity, cet1, total_capital, leverage, lcr, nsfr]
+highlights: [net_profit, cet1, total_capital, lcr]
+charts: [net_profit, loans, cet1]
+
+sources:
+  C1: {title: "Coop Pank - Interim report 9M 2026 (unaudited)", url: "https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2026/Interim_report_9m_2026_EN.pdf", date: 2026-10-20}
+  C2: {title: "Coop Pank - Investor reporting page (key figures)", url: "https://www.cooppank.ee/en/investor/reporting", date: 2026-10-22}
+  C3: {title: "Coop Pank - Q3 2026 results announcement", url: "https://view.news.eu.nasdaq.com/view?id=b4b85a453f265185186c742780376177c&lang=en&src=listed", date: 2026-10-20}
+  C4: {title: "Coop Pank - Annual report 2025 (consolidated)", url: "https://res30f.cooppank.ee/image/upload/investor_lehed/uldkoosolekud/teated/eng/26/Coop_Pank_annual_report_consolidated_2025_eng.pdf", date: 2026}
+  C5: {title: "Coop Pank - Investor page (ratings, calendar)", url: "https://www.cooppank.ee/en/investor", date: 2026-10-22}
+  C6: {title: "Coop Pank - Subordinated bonds page", url: "https://www.cooppank.ee/en/investor/bonds/subordinated-bonds", date: 2026-10-22}
+  C7: {title: "Coop Pank - Terms and Conditions of AT1 Temporary Write-Down Notes", url: "https://res30f.cooppank.ee/image/upload/v1718006426/dokumendid/est/Terms_and_Conditions_of_Coop_Pank_AT1_Temporary_Write-Down_Notes_2022.pdf", date: 2023-03-15}
+  C8: {title: "Coop Pank - Targets and strategy", url: "https://www.cooppank.ee/en/investor/management/targets-and-strategy", date: 2026-10-22}
+  X1: {title: "Coop Pank - Announcement on Finantsinspektsioon precept", url: "https://view.news.eu.nasdaq.com/view?id=b2038756d5f89f1731d5413c841d20571&lang=en&src=listed", date: 2026-10-21}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+
+quick_summary:
+  - lt: "**Pelnas auga:** 9 mėn. grynosios palūkanų pajamos 63,1 mln. EUR (54,2 mln.), pelnas 25,6 mln. EUR (21,5 mln.); III ketv. ROE 14,6 %, sąnaudų ir pajamų santykis 52,5 % [C1 p.5, p.9]."
+    en: "**Profit up:** 9M net interest income EUR 63.1m (54.2m), profit EUR 25.6m (21.5m); Q3 ROE 14.6%, cost/income 52.5% [C1 p.5, p.9]."
+  - lt: "**Augimas:** paskolos 2,30 mlrd. EUR (+14 % per metus, apskaičiuota įrankio), indėliai 2,37 mlrd. EUR [C1 p.6, p.10]."
+    en: "**Growth:** loans EUR 2.30bn (+14% year on year, calculated by the tool), deposits EUR 2.37bn [C1 p.6, p.10]."
+  - lt: "**Kapitalas ir likvidumas:** CET1 14,75 %, T1 16,72 %, bendras 19,86 %; sverto rodiklis 7,88 %; LCR 213 %, NSFR 125 % [C1 p.6-7]."
+    en: "**Capital and liquidity:** CET1 14.75%, T1 16.72%, total 19.86%; leverage 7.88%; LCR 213%, NSFR 125% [C1 p.6-7]."
+  - lt: "**Priežiūros nurodymas:** po patikrinimo Finansų inspekcija 2026-10-21 nurodė pagerinti valdyseną, vidaus kontrolę, rizikos valdymą, ataskaitas ir skolinimo procedūras; bankas sutinka, terminai 2026–2027 m., įtakos finansiniams rezultatams nėra [X1]."
+    en: "**Supervisory precept:** after an inspection, on 2026-10-21 the Estonian FSA ordered improvements to governance, internal control, risk management, reporting and lending procedures; the bank agrees, deadlines in 2026-2027, no impact on reported results [X1]."
+
+business:
+  - lt: "Estijos bankas, kurio strateginis akcininkas – Coop Eesti; Coop Investeeringud 22 %, Coop kooperatyvai 19 %, Andres Sonn 8 % [C3; C1 p.23]."
+    en: "An Estonian bank whose strategic shareholder is Coop Eesti; Coop Investeeringud 22%, Coop cooperatives 19%, Andres Sonn 8% [C3; C1 p.23]."
+  - lt: "2026-09 EMTN programa padidinta iki 1,5 mlrd. EUR (įtraukti nepadengti ir Tier 2 vertybiniai popieriai); 2026-06 baigta sintetinė pakeitimo vertybiniais popieriais operacija su EIF [C1 p.4, p.7]."
+    en: "In September 2026 the EMTN programme was raised to EUR 1.5bn (adding senior unsecured and Tier 2 notes); a synthetic securitisation with the EIF was finalised in June 2026 [C1 p.4, p.7]."
+
+financials:
+  - lt: "2025 m. pelnas 28,7 mln. EUR (32,2 mln.), ROE 12,9 % (16,2 %), sąnaudų ir pajamų santykis 52,3 % (49,6 %) [C2]."
+    en: "FY2025 profit EUR 28.7m (32.2m), ROE 12.9% (16.2%), cost/income 52.3% (49.6%) [C2]."
+  - lt: "Dividendai: 2026-04 išmokėta 6,5 ct akcijai; politika – 25 % pelno prieš mokesčius [C2; C8]."
+    en: "Dividends: 6.5 cents a share paid in April 2026; policy is 25% of pre-tax profit [C2; C8]."
+
+plans:
+  - plan: {lt: "Iki 2030 m.: 10 % paskolų rinkos dalis, pelnas ≥60 mln. EUR", en: "By 2030: 10% loan market share, profit ≥EUR 60m"}
+    outcome: {lt: "9M 2026 pelnas 25,6 mln. EUR", en: "9M 2026 profit EUR 25.6m"}
+    status: pending
+    src: "C8; C1 p.5"
+    why: {lt: "Ilgalaikis tikslas [C8].", en: "Long-term target [C8]."}
+  - plan: {lt: "ROE ≥15 %, sąnaudų ir pajamų santykis <45 %", en: "ROE ≥15%, cost/income <45%"}
+    outcome: {lt: "III ketv. ROE 14,6 %, sąnaudų ir pajamų santykis 52,5 %", en: "Q3 ROE 14.6%, cost/income 52.5%"}
+    status: partly
+    src: "C8; C1 p.5"
+    why: {lt: "ROE artėja prie tikslo, sąnaudos dar per didelės [C1 p.5].", en: "ROE near target, costs still too high [C1 p.5]."}
+  - plan: {lt: "Įvykdyti Finansų inspekcijos nurodymus (2026–2027 m.)", en: "Implement the FSA precept (2026-2027)"}
+    outcome: {lt: "Naujas įsipareigojimas", en: "New commitment"}
+    status: pending
+    src: "X1"
+    why: {lt: "Naujas [X1].", en: "New [X1]."}
+
+investor:
+  - lt: "**Turima priemonė:** 12 % neterminuota AT1 obligacija EE3300003649, išleista 2023-09-18, 12 mln. EUR, kuponas kas ketvirtį; pirmoji išpirkimo data 2028-09-18; nekotiruojama [C6]."
+    en: "**Instrument held:** 12% perpetual AT1 note EE3300003649, issued 2023-09-18, EUR 12m, quarterly coupon; first call date 2028-09-18; unlisted [C6]."
+  - lt: "**Sąlygos:** subordinuota, žemiau indėlių ir Tier 2; kuponą bankas gali atšaukti savo nuožiūra, atšaukti kuponai nekaupiami; nominali vertė laikinai nurašoma, jei grupės CET1 nukristų žemiau ribos, nurodytos galutinėse sąlygose (šios serijos riba nerasta) [C7 4, 5(2), 7]."
+    en: "**Terms:** subordinated, below deposits and Tier 2; the bank may cancel coupons at its discretion and cancelled coupons do not accumulate; principal is temporarily written down if group CET1 falls below the trigger in the Final Terms (this series' trigger level was not found) [C7 4, 5(2), 7]."
+  - lt: "**Atsarga:** CET1 14,75 %, gerokai virš reikalavimų; bankas atitinka visus kapitalo reikalavimus [C1 p.7-8]."
+    en: "**Headroom:** CET1 14.75%, well above requirements; the bank meets all capital requirements [C1 p.7-8]."
+  - lt: "Išvada: vidutinė rizika – pelningas bankas su gera kapitalo atsarga; AT1 rizika ir priežiūros nurodymas."
+    en: "Conclusion: moderate risk – a profitable bank with good capital headroom; AT1 risk and a supervisory precept."
+
+esg:
+  policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Mažmeninė ir MVĮ bankininkystė Estijoje; išskirtuose sektoriuose veiklos nėra [C3]."
+        en: "Retail and SME banking in Estonia; no activity in excluded sectors [C3]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'no'
+      evidence:
+        lt: "Rasta: 2026-10-21 Finansų inspekcijos nurodymas pagerinti valdyseną, vidaus kontrolę ir rizikos valdymą; baudos nėra, bankas sutinka [X1]."
+        en: "Found: on 2026-10-21 the FSA ordered improvements to governance, internal control and risk management; no fine, the bank agrees [X1]."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Finansuoja saulės ir vėjo projektus (81,3 MW); patvirtinta ESG politika [C4 p.36-37; X1]."
+        en: "Finances solar and wind projects (81.3 MW); an ESG policy is approved [C4 p.36-37; X1]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Skelbiama tvarumo ataskaita (2025) [C2]."
+        en: "A sustainability report is published (2025) [C2]."
+    int_yellow_flag:
+      status: 'no'
+      evidence:
+        lt: "Geltonas signalas: priežiūros institucijos nurodymas dėl valdysenos ir vidaus kontrolės [X1]."
+        en: "Yellow flag: a supervisory precept on governance and internal control [X1]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika [SP1]. **Atitinka:** reguliuojamas ES bankas su ESG politika ir tvarumo ataskaita [X1; C2]. **Galėtų būti geriau:** finansuojamų emisijų rodiklis neskelbiamas [C4 p.36-37]."
+        en: "**Applicable:** the Investments policy [SP1]. **Met:** a regulated EU bank with an ESG policy and a sustainability report [X1; C2]. **Could be improved:** financed emissions are not disclosed [C4 p.36-37]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: nurodymą prižiūri Finansų inspekcija."
+        en: "No need: the precept is supervised by the FSA."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Skelbiama atsinaujinančios energijos finansavimo apimtis (81,3 MW, apie 3,8 % verslo portfelio) [C4 p.36-37]."
+        en: "Renewable energy financing is reported (81.3 MW, about 3.8% of the corporate portfolio) [C4 p.36-37]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Geltonas signalas – priežiūros nurodymas dėl valdysenos."
+    en: "No exclusions or red flags. Yellow flag – a supervisory precept on governance."

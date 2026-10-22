@@ -1,0 +1,133 @@
+# Akropolis Group - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą.
+issuer: akropolis
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "9M 2026 results - expected November 2026"
+rating: "S&P BB+ stable (affirmed 2025-12-15); Fitch BB+ stable (affirmed 2026-07-13) [P5; P2 p.5]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** Akropolis – prekybos centrų Lietuvoje ir Latvijoje valdytojas, S&P ir Fitch BB+ (stabili) [P5; P2 p.5]. Užimtumas 99,2 %, obligacijų kovenantų laikomasi su atsarga: svertas 46 % (riba 60 %), padengimas 3,3 karto (riba 2) [P2 p.7, p.12].", en: "**Position OK.** Akropolis owns shopping centres in Lithuania and Latvia and is rated BB+ (stable) by S&P and Fitch [P5; P2 p.5]. Occupancy 99.2%, bond covenants met with headroom: leverage 46% (limit 60%), coverage 3.3x (minimum 2x) [P2 p.7, p.12]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, ebitda, net_profit, total_assets, equity, net_debt, nd_ebitda, ltv, interest_cover]
+highlights: [ebitda, net_profit, ltv, interest_cover]
+charts: [revenue, ebitda, net_debt]
+
+sources:
+  P1: {title: "Akropolis Group - Consolidated condensed interim financial statements 6M 2026 (PwC review, LT)", url: "https://akropolis.eu/view-file/749_AKROPOLIS%20GROUP,%20UAB%20konsoliduotos%20sutrumpintos%20tarpin%C4%97s%20finansin%C4%97s%20ataskaitos%20u%C5%BE%20%C5%A1e%C5%A1i%C5%B3%20m%C4%97nesi%C5%B3%20laikotarp%C4%AF,%20pasibaigus%C4%AF%202026%20m.%20bir%C5%BEelio%2030%20d..pdf", date: 2026-09-14}
+  P2: {title: "Akropolis Group - Investor presentation 2026 H1 (slide numbers)", url: "https://akropolis.eu/view-file/751_Akropolis%20-%20review%202026%20H1.pdf", date: 2026-09}
+  P3: {title: "Akropolis Group - Consolidated annual management report 2025 (LT)", url: "https://akropolis.eu/view-file/739_AKROPOLIS%20GROUP,%20UAB%20Konsoliduotoji%20metin%C4%97%20vadovyb%C4%97s%20ataskaita%202025.pdf", date: 2026-04-09}
+  P4: {title: "Akropolis Group - Base Prospectus, EUR 350m 6.000% notes due 2030", url: "https://www.akropolis.eu/view-file/585_Base%20Prospectus%20of%20AKROPOLIS%20GROUP,%20UAB%20350%20M%20Bond%20issuance%20due%202030.pdf", date: 2025-05-13}
+  P5: {title: "Akropolis Group - S&P affirmed BB+ stable", url: "https://www.akropolis.eu/lt/naujienos/sp-global-ratings-patvirtino-akropolis-group-suteikt-bb-kredito-reiting-su-stabilia-perspektyva/46475", date: 2025-12-15}
+  P6: {title: "Akropolis Group - H1 2026 results news ", url: "https://www.akropolis.eu/lt/naujienos/akropolis-group-rezultatai-pirmj-pusmet-augo-lankytoj-srautai-nuominink-apyvarta-isiplt-veiklos-apimtys/46479", date: 2026-09-14}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP10: {title: "SEB Real Estate and Construction sector policy (2026-04-23)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-23}
+
+quick_summary:
+  - lt: "**Augimas dėl Galio Group:** I pusm. pajamos 81,6 mln. EUR (63,3 mln.), EBITDA 56,6 mln. EUR (44,3 mln.), pelnas 37,0 mln. EUR (30,5 mln.); Galio konsoliduojama nuo 2025-10-01, todėl palyginimas su 2025 m. ne visai tiesioginis [P1 p.6, p.9, p.11]."
+    en: "**Growth from Galio Group:** 1H revenue EUR 81.6m (63.3m), EBITDA EUR 56.6m (44.3m), profit EUR 37.0m (30.5m); Galio is consolidated from 2025-10-01, so the year-on-year comparison is not like-for-like [P1 p.6, p.9, p.11]."
+  - lt: "**Stipri veikla:** užimtumas 99,2 %, nuomininkų apyvarta 604 mln. EUR (+8,1 %), lankytojų 117 tūkst. per dieną [P2 p.7]."
+    en: "**Strong operations:** occupancy 99.2%, tenant sales EUR 604m (+8.1%), 117k visitors a day [P2 p.7]."
+  - lt: "**Svertas paaugo:** grynasis LTV 41,7 % (2025 m. pab. 37,0 %), grynoji skola 584,6 mln. EUR; pusmetį išmokėta 90 mln. EUR dividendų [P2 p.11; P1 p.7-8]."
+    en: "**Leverage up:** net LTV 41.7% (37.0% at end-2025), net debt EUR 584.6m; EUR 90m of dividends paid in the half [P2 p.11; P1 p.7-8]."
+  - lt: "**Reitingai stabilūs:** Fitch BB+ patvirtintas 2026-07-13, S&P BB+ – 2025-12-15 [P2 p.5; P5]."
+    en: "**Ratings stable:** Fitch BB+ affirmed on 2026-07-13, S&P BB+ on 2025-12-15 [P2 p.5; P5]."
+
+business:
+  - lt: "5 prekybos centrai (Vilnius, Klaipėda, Šiauliai, Akropole Ryga, Akropole Alfa) ir Galio Group – iš viso 55 pajamas duodantys objektai; turto vertė 61 % Lietuvoje, 36 % Latvijoje, 3 % Estijoje [P1 p.9-10; P2 p.14]."
+    en: "Five shopping centres (Vilnius, Klaipėda, Šiauliai, Akropole Riga, Akropole Alfa) and Galio Group – 55 income-producing assets; asset value 61% Lithuania, 36% Latvia, 3% Estonia [P1 p.9-10; P2 p.14]."
+  - lt: "Plėtra: Klaipėdoje baigtas naujas 3 500 kv. m pastatas (6 mln. EUR), Galio projektai Cityzen (48 mln. EUR) ir Remarco (>40 mln. EUR); Akropolis Vingis – gautas leidimas, finansavimo sprendimas svarstomas [P2 p.6; P3 p.6]."
+    en: "Development: a new 3,500 sq m building in Klaipėda (EUR 6m) completed, Galio projects Cityzen (EUR 48m) and Remarco (>EUR 40m); Akropolis Vingis has its permit, the financing decision is under review [P2 p.6; P3 p.6]."
+
+financials:
+  - lt: "2025 m. pajamos 140,0 mln. EUR (124,9 mln.), EBITDA 98,3 mln. EUR (87,8 mln.), pelnas 88,1 mln. EUR (61,6 mln.); portfelio vertė 1 424 mln. EUR [P3 p.10-11]."
+    en: "FY2025 revenue EUR 140.0m (124.9m), EBITDA EUR 98.3m (87.8m), profit EUR 88.1m (61.6m); portfolio value EUR 1,424m [P3 p.10-11]."
+  - lt: "2026-06-30 skolos 691,7 mln. EUR, pinigai 107,1 mln. EUR; vidutinė skolos kaina 4,8 %, vidutinė trukmė 3,3 m. [P1 p.4; P2 p.11-13]."
+    en: "Borrowings EUR 691.7m and cash EUR 107.1m at 2026-06-30; average cost of debt 4.8%, average maturity 3.3 years [P1 p.4; P2 p.11-13]."
+
+plans:
+  - plan: {lt: "Refinansuoti 300 mln. EUR 2,875 % obligacijas (2026)", en: "Refinance the EUR 300m 2.875% bonds (2026)"}
+    outcome: {lt: "Išpirktos 2025 m., išleidus 350 mln. EUR 6 % obligacijas", en: "Redeemed in 2025 after issuing EUR 350m 6% bonds"}
+    status: met
+    src: "P1 p.8; P4 p.2-3"
+    why: {lt: "Įvykdyta [P1 p.8].", en: "Done [P1 p.8]."}
+  - plan: {lt: "Paskirstyti 350 mln. EUR žaliųjų obligacijų lėšas tinkamiems žaliems pastatams", en: "Allocate the EUR 350m green bond proceeds to eligible green buildings"}
+    outcome: {lt: "Paskirstyta visa suma (2026 m.)", en: "Fully allocated (2026)"}
+    status: met
+    src: "P2 p.6"
+    why: {lt: "Įvykdyta [P2 p.6].", en: "Done [P2 p.6]."}
+  - plan: {lt: "Akropolis Vingis plėtra Vilniuje", en: "Akropolis Vingis development in Vilnius"}
+    outcome: {lt: "Leidimas gautas, finansavimo sprendimas svarstomas", en: "Permit received, financing decision under review"}
+    status: pending
+    src: "P3 p.6"
+    why: {lt: "Sprendimas dar nepriimtas [P3 p.6].", en: "No decision yet [P3 p.6]."}
+
+investor:
+  - lt: "**Turima priemonė:** 6,000 % žaliosios obligacijos, 350 mln. EUR, išleistos 2025-05-15, išpirkimas 2030-05-15; neužtikrintos, nesubordinuotos, su įkeitimo draudimu; Euronext Dublin ir Nasdaq Vilnius [P4 p.1-4]."
+    en: "**Instrument held:** 6.000% green notes, EUR 350m, issued 2025-05-15, maturing 2030-05-15; senior unsecured with a negative pledge; Euronext Dublin and Nasdaq Vilnius [P4 p.1-4]."
+  - lt: "**Išpirkimas anksčiau:** iki 2030-02-15 – tik su visa kompensacija (make-whole), nuo 2030-02-15 – už nominalią vertę; kontrolės pasikeitimo atveju – teisė parduoti už 101 % [P4 p.2]."
+    en: "**Early redemption:** make-whole before 2030-02-15, at par from 2030-02-15; 101% put on change of control [P4 p.2]."
+  - lt: "**Kovenantai (2026-06-30):** konsoliduotas svertas 46 % (<60 %), užtikrintas svertas 21 % (<40 %), padengimas 3,3 karto (>2), neįkeistas turtas / neužtikrinta skola 194 % (>125 %) – laikomasi [P2 p.12]. Bankams įkeista 770,9 mln. EUR turto, todėl obligacijos faktiškai žemiau užtikrintų paskolų [P1 p.13]."
+    en: "**Covenants (2026-06-30):** consolidated leverage 46% (<60%), secured leverage 21% (<40%), coverage 3.3x (>2x), unencumbered assets / unsecured debt 194% (>125%) – all met [P2 p.12]. EUR 770.9m of property is pledged to banks, so the notes rank effectively below secured loans [P1 p.13]."
+  - lt: "Išvada: vidutinė rizika – stiprus turtas ir veikla, svertas kiek padidėjo, kovenantų atsarga didelė."
+    en: "Conclusion: moderate risk – strong assets and operations, leverage slightly higher, ample covenant headroom."
+
+esg:
+  policies: [investments, real_estate, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Komercinis nekilnojamasis turtas; išskirtuose sektoriuose veiklos nėra [P1 p.9]."
+        en: "Commercial real estate; no activity in excluded sectors [P1 p.9]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (2026-10-22)."
+        en: "No adverse news found (2026-10-22)."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Visi 5 centrai turi BREEAM In-Use „Very Good“; ISO 14001 ir ISO 45001; žaliųjų finansų sistema su Sustainalytics nuomone [P3 p.4, p.7]."
+        en: "All five centres hold BREEAM In-Use 'Very Good'; ISO 14001 and ISO 45001; a green finance framework with a Sustainalytics opinion [P3 p.4, p.7]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "350 mln. EUR obligacijų lėšos visos paskirstytos žaliems pastatams [P2 p.6]."
+        en: "The EUR 350m bond proceeds are fully allocated to green buildings [P2 p.6]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta. 2025 m. pabaigoje valdyboje nebuvo nepriklausomų narių [P3 p.25-27]."
+        en: "No yellow flags found. The board had no independent members at end-2025 [P3 p.25-27]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** nekilnojamojo turto politika [SP10 p.6-10]. **Atitinka:** pastatų sertifikavimas, aplinkos vadybos sistema, pirmoji CSRD tvarumo ataskaita su ribotu užtikrinimu [P3 p.4, p.6]."
+        en: "**Applicable:** the Real Estate policy [SP10 p.6-10]. **Met:** building certification, an environmental management system, a first CSRD sustainability report with limited assurance [P3 p.4, p.6]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: aukšti tvarumo standartai."
+        en: "No need: high sustainability standards."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Skelbiama ESRS tvarumo ataskaita ir žaliųjų obligacijų lėšų paskirstymas [P3 p.6; P2 p.6]."
+        en: "An ESRS sustainability statement and green bond allocation are published [P3 p.6; P2 p.6]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Sertifikuoti žali pastatai ir žaliosios obligacijos."
+    en: "No exclusions or red flags. Certified green buildings and green bonds."

@@ -1,0 +1,125 @@
+# Hepsor - apžvalga pagal 2026 m. II ketvirčio (6M) ataskaitą.
+issuer: hepsor
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "Q3 2026 interim report - expected late October / November 2026"
+rating: "nerasta (no credit rating found)"
+verdict: {status: watch, lt: "**Stebėti.** I pusm. Hepsor patyrė 2,2 mln. EUR nuostolį, nes mažai butų perduota pirkėjams (23 vs 102) [H1 p.6, p.20]. Nuosavo kapitalo dalis sumažėjo iki 23,1 %, o obligacijų sąlyga reikalauja ne mažiau 20 % [H1 p.20; H4]. Pardavimų sutartys auga (129 butai, +36 %, apskaičiuota įrankio), pajamos tikėtinos baigus projektus [H1 p.6].", en: "**Watch.** Hepsor posted a EUR 2.2m loss in 1H because few homes were handed over (23 vs 102) [H1 p.6, p.20]. The equity ratio fell to 23.1%, while the bond covenant requires at least 20% [H1 p.20; H4]. Sales contracts are rising (129 homes, +36%, calculated by the tool), and revenue should follow as projects complete [H1 p.6]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, ebitda, net_profit, total_assets, equity, equity_ratio, net_debt]
+highlights: [revenue, net_profit, equity_ratio, net_debt]
+charts: [revenue, net_profit, net_debt]
+
+sources:
+  H1: {title: "Hepsor - Consolidated unaudited interim report Q2 2026", url: "https://hepsor.ee/wp-content/uploads/2026/01/Hepsor-Q2_2026_ENG.pdf", date: 2026-07-28}
+  H2: {title: "Hepsor - Key financials (investor web page)", url: "https://hepsor.ee/en/for-investors/stock/key-financials/", date: 2026-10-22}
+  H3: {title: "Hepsor - 9.5% bond 2025-2028", url: "https://hepsor.ee/en/for-investors/bonds/9-5-bond-2025-2028/", date: 2026-10-22}
+  H4: {title: "Hepsor - Bonds 2026 (Series II)", url: "https://hepsor.ee/en/for-investors/bonds/bonds-2026/", date: 2026-09-07}
+  H5: {title: "Hepsor - News: record construction volumes and 9.5% bonds", url: "https://hepsor.ee/en/hepsor-reaches-record-construction-volumes-and-issues-bonds-yielding-95/", date: 2026-08-24}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP10: {title: "SEB Real Estate and Construction sector policy (2026-04-23)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-23}
+
+quick_summary:
+  - lt: "**Nuostolis dėl ciklo:** I pusm. pajamos 6,2 mln. EUR (22,1 mln.), EBITDA −0,9 mln. EUR, grynasis nuostolis 2,2 mln. EUR (pelnas 0,3 mln.); pajamos pripažįstamos tik perdavus butus [H1 p.4, p.20]."
+    en: "**Loss due to the cycle:** 1H revenue EUR 6.2m (22.1m), EBITDA EUR -0.9m, net loss EUR 2.2m (profit 0.3m); revenue is recognised only on handover [H1 p.4, p.20]."
+  - lt: "**Pardavimai auga:** sudaryta 129 butų pirminių sutarčių už 25,7 mln. EUR (95 ir 18,5 mln. prieš metus); statoma 513 būstų [H1 p.6; H5]."
+    en: "**Sales rising:** 129 first-time home sales contracts for EUR 25.7m (95 and 18.5m a year earlier); 513 homes under construction [H1 p.6; H5]."
+  - lt: "**Skola auga:** palūkanų skola 58,7 mln. EUR (2025 m. pab. 47,7 mln.); grynoji skola apie 56,2 mln. EUR (apskaičiuota įrankio); pinigai 2,5 mln. EUR [H1 p.20, p.23]."
+    en: "**Debt rising:** interest-bearing loans EUR 58.7m (47.7m at end-2025); net debt about EUR 56.2m (calculated by the tool); cash EUR 2.5m [H1 p.20, p.23]."
+  - lt: "**Naujos obligacijos:** 2026-09 išleista 5 mln. EUR 9,5 % obligacijų (2029), paklausa 2,4 karto didesnė [H4]."
+    en: "**New bonds:** EUR 5m of 9.5% bonds (2029) issued in September 2026, 2.4x oversubscribed [H4]."
+
+business:
+  - lt: "Gyvenamojo ir komercinio NT plėtotojas Estijoje ir Latvijoje: 29 projektai, apie 195 000 kv. m parduodamo ploto, pardavimų potencialas 542 mln. EUR [H1 p.8, p.13]."
+    en: "Residential and commercial developer in Estonia and Latvia: 29 projects, about 195,000 sq m of sellable area, sales potential EUR 542m [H1 p.8, p.13]."
+  - lt: "Artimiausi užbaigimai: Manufaktuuri 12 Taline (49 butai, perdavimai nuo III ketv., 27 parduoti), Dzelzavas 74C Rygoje (103 butai, IV ketv., 42 parduoti) [H1 p.7]."
+    en: "Next completions: Manufaktuuri 12 in Tallinn (49 homes, handovers from Q3, 27 sold), Dzelzavas 74C in Riga (103 homes, Q4, 42 sold) [H1 p.7]."
+
+financials:
+  - lt: "2025 m. pajamos 35,4 mln. EUR (38,4 mln.), pelnas 1,0 mln. EUR (2,1 mln.), nuosavo kapitalo dalis 29,5 % (24,8 %) [H2]."
+    en: "FY2025 revenue EUR 35.4m (38.4m), profit EUR 1.0m (2.1m), equity ratio 29.5% (24.8%) [H2]."
+  - lt: "Koreguota nuosavo kapitalo dalis (su subordinuotomis akcininkų paskolomis) – 37,9 %; I pusm. išmokėta 1,06 mln. EUR dividendų [H1 p.20, p.22]."
+    en: "Adjusted equity ratio (with subordinated shareholder loans) 37.9%; EUR 1.06m of dividends paid in 1H [H1 p.20, p.22]."
+
+plans:
+  - plan: {lt: "Pradėti perduoti Manufaktuuri 12 butus nuo 2026 m. III ketv.", en: "Start handing over Manufaktuuri 12 homes from Q3 2026"}
+    outcome: {lt: "Laukiama III ketv. ataskaitos", en: "Awaiting the Q3 report"}
+    status: pending
+    src: "H1 p.7"
+    why: {lt: "Pagal planą [H1 p.7].", en: "Per plan [H1 p.7]."}
+  - plan: {lt: "Iki metų pabaigos pradėti dar 119 būstų", en: "Launch another 119 homes by year-end"}
+    outcome: {lt: "Naujas planas", en: "New plan"}
+    status: pending
+    src: "H5"
+    why: {lt: "Naujas [H5].", en: "New [H5]."}
+
+investor:
+  - lt: "**Turima priemonė:** Hepsor AS akcija (HPR1T, Nasdaq Tallinn); akcijų 3 912 522 [H1 p.26]. Rinkos kaina ir dividendų politika nerastos."
+    en: "**Instrument held:** Hepsor AS share (HPR1T, Nasdaq Tallinn); 3,912,522 shares [H1 p.26]. Market price and dividend policy not found."
+  - lt: "**Skolos sąlygos:** obligacijos (8 mln. EUR 2028 ir 5 mln. EUR 2029, abi 9,5 %) reikalauja nuosavo kapitalo dalies ≥20 % – yra 23,1 % [H3; H4; H1 p.20]."
+    en: "**Debt covenants:** the bonds (EUR 8m 2028 and EUR 5m 2029, both 9.5%) require an equity ratio ≥20% – currently 23.1% [H3; H4; H1 p.20]."
+  - lt: "Išvada: padidinta rizika akcininkui – nuostolingas pusmetis ir maža kapitalo atsarga; rezultatai turėtų gerėti perdavus butus."
+    en: "Conclusion: elevated risk for shareholders – a loss-making half and a thin capital buffer; results should improve as homes are handed over."
+
+esg:
+  policies: [investments, real_estate, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "NT plėtra; išskirtuose sektoriuose veiklos nėra [H1 p.4]."
+        en: "Real estate development; no activity in excluded sectors [H1 p.4]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (2026-10-22)."
+        en: "No adverse news found (2026-10-22)."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Bendrovė nurodo diegianti inovatyvius inžinerinius sprendimus, didinančius pastatų energinį efektyvumą [H1 p.4]."
+        en: "The company says it uses innovative engineering solutions that make its buildings more energy-efficient [H1 p.4]."
+    int_taxonomy:
+      status: 'no'
+      evidence:
+        lt: "Klimato tikslų ir tvarumo ataskaitos nerasta."
+        en: "No climate targets or sustainability report found."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta."
+        en: "No yellow flags found."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** NT ir statybos politika [SP10 p.6-10]. **Atitinka:** energiškai efektyvūs nauji pastatai ES [H1 p.4]. **Galėtų būti geriau:** tvarumo ataskaita ir pereinamojo laikotarpio planas nerasti."
+        en: "**Applicable:** the Real Estate and Construction policy [SP10 p.6-10]. **Met:** energy-efficient new buildings in the EU [H1 p.4]. **Could be improved:** no sustainability report or transition plan found."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: mažas plėtotojas be rizikų ESG srityje."
+        en: "No need: a small developer with no ESG risks found."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Nauji pastatai statomi energiškai efektyvūs [H1 p.4]."
+        en: "New buildings are built energy-efficient [H1 p.4]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Tvarumo ataskaitos nėra."
+    en: "No exclusions or red flags. No sustainability report."

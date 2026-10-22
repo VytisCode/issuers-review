@@ -38,3 +38,4 @@ passengers:        {lt: "Keleiviai", en: "Passengers", lv: "Pasažieri", et: "Re
 generation:        {lt: "Pagaminta elektros", en: "Electricity generation", lv: "Saražotā elektroenerģija", et: "Elektritoodang"}
 dscr:              {lt: "Skolos aptarnavimo koeficientas (DSCR)", en: "Debt service coverage (DSCR)", lv: "Parāda apkalpošanas segums (DSCR)", et: "Võlateeninduse kattekordaja (DSCR)"}
 interest_cover:    {lt: "EBITDA / palūkanos", en: "EBITDA / interest", lv: "EBITDA / procenti", et: "EBITDA / intressid"}
+ltv:               {lt: "Grynasis LTV", en: "Net LTV", lv: "Neto LTV", et: "Neto LTV"}

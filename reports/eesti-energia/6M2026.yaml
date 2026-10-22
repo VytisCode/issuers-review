@@ -1,0 +1,138 @@
+# Eesti Energia (Enefit) - apžvalga pagal 2026 m. II ketvirčio (6M) ataskaitą.
+issuer: eesti-energia
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "Q3 2026 interim report - expected late October 2026"
+rating: "Moody's Baa3 stable (2026-04-08); Fitch BBB- stable (2025-07-22); the hybrid is not rated separately in the documents read [E4 p.1, p.11; E5 p.1-2]"
+verdict: {status: watch, lt: "**Stebėti.** Eesti Energia – 100 % valstybės įmonė su investiciniu reitingu (Moody's Baa3, Fitch BBB-) [E4 p.1; E5 p.1]. Bet svertas didelis: grynoji skola / EBITDA 4,1 karto (prieš metus 3,6), 2025 m. nuostolis 82,6 mln. EUR dėl nuvertėjimų [E1 p.5; E2 p.8]. Turima priemonė – subordinuota hibridinė obligacija, kurios kuponą galima atidėti.", en: "**Watch.** Eesti Energia is 100% state-owned with an investment-grade rating (Moody's Baa3, Fitch BBB-) [E4 p.1; E5 p.1]. But leverage is high: net debt / EBITDA 4.1x (3.6x a year earlier), and FY2025 showed an EUR 82.6m loss due to impairments [E1 p.5; E2 p.8]. The instrument held is a subordinated hybrid whose coupon may be deferred."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, ebitda, net_profit, investments, net_debt, nd_ebitda, equity, equity_ratio, generation]
+highlights: [ebitda, nd_ebitda, net_debt, equity]
+charts: [ebitda, net_debt, investments]
+
+sources:
+  E1: {title: "Eesti Energia - Interim report Q2 2026 (unaudited, ET)", url: "https://public-docs.enefit.com/ettevottest/investorile/2026/Q2-2026-aruanne_EST_final.pdf", date: 2026-07-31}
+  E2: {title: "Eesti Energia - Annual report 2025 (unaudited)", url: "https://public-docs.enefit.com/ettevottest/investorile/2025/EE-aruanne-2025-EN_FINAL.pdf", date: 2026}
+  E3: {title: "Enefit - Investor page (bonds, financing)", url: "https://www.enefit.com/en/investorile", date: 2026-10-22}
+  E4: {title: "Moody's - Eesti Energia credit opinion update", url: "https://public-docs.enefit.com/ettevottest/investorile/EE-credit-opinion-update-2026-04-13.pdf", date: 2026-04-13}
+  E5: {title: "Fitch - Eesti Energia rating report", url: "https://public-docs.enefit.com/ettevottest/investorile/Fitch-rating.pdf", date: 2025-07-22}
+  E6: {title: "Eesti Energia - Strategy 2030+ press release", url: "https://www.enefit.com/en/-/investori-uudised/eesti-energia-strateegia-2030-poorame-energiaulemineku-arikasvuks-ja-tagame-kindla-energiavarustuse", date: 2026-09-17}
+  E7: {title: "ISS-Corporate - Second Party Opinion on the Green Finance Framework", url: "https://public-docs.enefit.ee/ettevottest/investorile/SPO.pdf", date: 2024-06-04}
+  X1: {title: "ERR - Prokuratuur algatas Eesti Energia erikontrolli tõttu kriminaalmenetluse", url: "https://www.err.ee/1609686014/prokuratuur-algatas-eesti-energia-erikontrolli-tottu-kriminaalmenetluse", date: 2025-05-07}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP5: {title: "SEB Sector Policy on Fossil Fuels (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/80AF6A2E5F88CDC2C12586B1002E33C2?opendocument", date: 2026-04-23}
+  SP6: {title: "SEB Sector Policy on Electricity & Renewable Energy (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/60D2454400789893C12587D70030AFC1?opendocument", date: 2026-04-23}
+
+quick_summary:
+  - lt: "**Silpnesnis ketvirtis:** II ketv. EBITDA 55,7 mln. EUR (76,9 mln.), grynasis nuostolis 8,6 mln. EUR (pelnas 27,3 mln.) [E1 p.5]."
+    en: "**Weaker quarter:** Q2 EBITDA EUR 55.7m (76.9m), net loss EUR 8.6m (profit 27.3m) [E1 p.5]."
+  - lt: "**Svertas didėja:** grynoji skola 1 224 mln. EUR, 4,1 karto EBITDA (prieš metus 3,6) [E1 p.5]. Nepanaudotos kredito linijos 420 mln. EUR [E3]."
+    en: "**Leverage rising:** net debt EUR 1,224m, 4.1x EBITDA (3.6x a year earlier) [E1 p.5]. Undrawn credit lines EUR 420m [E3]."
+  - lt: "**Perėjimas prie atsinaujinančios energijos:** 2025 m. atsinaujinanti gamyba 2 257 GWh iš 3 623 GWh (62 %, apskaičiuota įrankio); 872 MW vėjo ir 172 MW saulės [E2 p.8, p.18]."
+    en: "**Shift to renewables:** 2,257 GWh of 3,623 GWh generated from renewables in 2025 (62%, calculated by the tool); 872 MW wind and 172 MW solar [E2 p.8, p.18]."
+  - lt: "**Nauja strategija 2030+ (2026-09-17):** palaipsniui atsisakoma skalūnų elektros gamybos, iki 350 MW lankstesnių (ir dujinių) pajėgumų, elektros ir skalūnų alyvos verslų atskyrimas [E6]."
+    en: "**New Strategy 2030+ (2026-09-17):** gradual phase-out of oil shale power, up to 350 MW of cleaner dispatchable (incl. gas) capacity, separation of the power and shale oil businesses [E6]."
+
+business:
+  - lt: "Valstybės įmonė: elektros ir šilumos gamyba (skalūnai, vėjas, saulė), skalūnų alyva, skirstomieji tinklai (Elektrilevi), prekyba [E1 p.3; E2 p.8]."
+    en: "State-owned: power and heat generation (oil shale, wind, solar), shale oil, distribution grid (Elektrilevi), retail [E1 p.3; E2 p.8]."
+  - lt: "2026-04 paleista nauja Enefit 280-2 skalūnų alyvos gamykla; nuo birželio Elektrilevi tarifas +3,4 % [E1 p.10-11]."
+    en: "The new Enefit 280-2 shale oil plant started up in April 2026; Elektrilevi's tariff rose 3.4% from June [E1 p.10-11]."
+
+financials:
+  - lt: "2025 m. pajamos 1 646,9 mln. EUR (1 785,2 mln.), EBITDA 317,2 mln. EUR (398,2 mln.), nuostolis 82,6 mln. EUR su 197,6 mln. EUR nuvertėjimu; investicijos 459,2 mln. EUR [E2 p.8]."
+    en: "FY2025 revenue EUR 1,646.9m (1,785.2m), EBITDA EUR 317.2m (398.2m), loss EUR 82.6m including EUR 197.6m impairment; investments EUR 459.2m [E2 p.8]."
+  - lt: "Nuosavas kapitalas 2026-06-30 – 2 045 mln. EUR; turto 4 901 mln. EUR; nuosavo kapitalo dalis apie 42 % (apskaičiuota įrankio) [E1 p.5, p.32]. 2025-05 valstybė įnešė 100 mln. EUR kapitalo [E4 p.3]."
+    en: "Equity EUR 2,045m at 2026-06-30; total assets EUR 4,901m; equity ratio about 42% (calculated by the tool) [E1 p.5, p.32]. The state injected EUR 100m of equity in May 2025 [E4 p.3]."
+  - lt: "Skola 2026-06-30 – 1 666 mln. EUR; 2026-05-28 išleista 300 mln. EUR 4,6 % žalioji obligacija (2031) [E3]."
+    en: "Debt EUR 1,666m at 2026-06-30; a EUR 300m 4.6% green bond (2031) was issued on 2026-05-28 [E3]."
+
+plans:
+  - plan: {lt: "Atsisakyti skalūnų elektros gamybos", en: "Phase out oil shale power generation"}
+    outcome: {lt: "Strategijoje 2030+ – „palaipsniui“, data nenurodyta; Moody's – 2030–2035 m.", en: "Strategy 2030+ says 'gradually' with no date; Moody's says 2030-2035"}
+    status: pending
+    src: "E6; E4 p.1"
+    why: {lt: "Konkreti data naujoje strategijoje nenurodyta [E6].", en: "No firm date in the new strategy [E6]."}
+  - plan: {lt: "2024–2027 m. išmesti ne daugiau kaip 3,6 mln. t CO2", en: "Emit no more than 3.6 Mt CO2 in 2024-2027"}
+    outcome: {lt: "Faktinės emisijos ataskaitose nerastos", en: "Actual emissions not found in the reports"}
+    status: pending
+    src: "E7 p.19-20"
+    why: {lt: "Laukiama duomenų [E7 p.19-20].", en: "Awaiting data [E7 p.19-20]."}
+  - plan: {lt: "Anglies dioksido neutrali elektros gamyba iki 2045 m.", en: "Carbon-neutral electricity by 2045"}
+    outcome: {lt: "Atsinaujinanti gamyba 2025 m. – 62 % (apskaičiuota įrankio)", en: "Renewables 62% of 2025 output (calculated by the tool)"}
+    status: pending
+    src: "E7 p.18; E2 p.8"
+    why: {lt: "Dalis gamybos vis dar iš skalūnų [E2 p.8].", en: "Part of output still comes from oil shale [E2 p.8]."}
+
+investor:
+  - lt: "**Turima priemonė:** 7,875 % neterminuota subordinuota hibridinė obligacija, 400 mln. EUR, išleista 2024-07-15, pirmasis išpirkimo pasirinkimas 2029-07-15, kuponas kasmet; London Stock Exchange [E3]."
+    en: "**Instrument held:** a 7.875% perpetual subordinated hybrid, EUR 400m, issued 2024-07-15, first call 2029-07-15, annual coupon; London Stock Exchange [E3]."
+  - lt: "**Rangas:** hibridas – žemiau visų kitų skolų; Fitch jį laiko 50 % nuosavybe [E5 p.4]. Moody's skalėje subordinuota skola įvertinta B1 (ar tai šis hibridas – dokumente nenurodyta) [E4 p.11]. Kupono atidėjimo ir palūkanų perskaičiavimo sąlygos nerastos."
+    en: "**Ranking:** the hybrid ranks below all other debt; Fitch treats it as 50% equity [E5 p.4]. Moody's lists junior subordinated debt at B1 (the document does not say whether this is this hybrid) [E4 p.11]. Coupon deferral and reset terms were not found."
+  - lt: "**Svertas:** 4,1 karto EBITDA – aukštas; Moody's tikisi 400–450 mln. EUR EBITDA 2026–2027 m. (agentūros prognozė) [E1 p.5; E4 p.8]. Valstybė anksčiau įnešė kapitalo (2020 m. 125 mln., 2025 m. 100 mln. EUR) [E4 p.3]."
+    en: "**Leverage:** 4.1x EBITDA – high; Moody's expects EUR 400-450m of EBITDA in 2026-2027 (agency forecast) [E1 p.5; E4 p.8]. The state has injected equity before (EUR 125m in 2020, EUR 100m in 2025) [E4 p.3]."
+  - lt: "Išvada: padidinta rizika – didelis svertas ir subordinuota priemonė, bet stipri valstybės parama."
+    en: "Conclusion: elevated risk – high leverage and a subordinated instrument, but strong state support."
+
+esg:
+  policies: [investments, fossil_fuels, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Ginklų, tabako ir azartinių lošimų veiklos nėra. Skalūnų kasyba, skalūnų alyva ir skalūnų elektra – SEB politikoje netradicinė nafta ir dujos turi Baltijos šalių išimtį iki 2030 m. [SP5 p.8-9]; Moody's skalūnų elektros atsisakymą numato 2030–2035 m. [E4 p.1]."
+        en: "No weapons, tobacco or gambling. Oil shale mining, shale oil and oil shale power – the SEB policy gives unconventional oil and gas a Baltic exception until 2030 [SP5 p.8-9]; Moody's expects oil shale power to end in 2030-2035 [E4 p.1]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta; ISS 2024 m. ginčų nenustatė [E7 p.21]."
+        en: "No UN Global Compact or OECD related controversies found; ISS found none in 2024 [E7 p.21]."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'no'
+      evidence:
+        lt: "Rasta: 2025-05-07 prokuratūra pradėjo baudžiamąją bylą dėl specialaus audito išvadų (galima žala Enefit Power); įtarimų niekam nepareikšta. Aplinkosaugos tarnyba Enefit Power skyrė 190 000 EUR ir 110 000 EUR baudas už oro taršos ribų viršijimą [X1]."
+        en: "Found: on 2025-05-07 prosecutors opened a criminal case over the special audit findings (possible damage to Enefit Power); no one has been charged. The Environmental Board fined Enefit Power EUR 190,000 and EUR 110,000 for air emission breaches [X1]."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Sparti vėjo ir saulės plėtra (872 MW vėjo, 172 MW saulės), žaliojo finansavimo sistema su ISS nuomone [E2 p.18; E7]."
+        en: "Fast wind and solar expansion (872 MW wind, 172 MW solar), a green finance framework with an ISS opinion [E2 p.18; E7]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Tikslai: CO2 neutrali elektra iki 2045 m., Net Zero 2050 [E7 p.18; E4 p.5]."
+        en: "Targets: carbon-neutral electricity by 2045, Net Zero 2050 [E7 p.18; E4 p.5]."
+    int_yellow_flag:
+      status: 'no'
+      evidence:
+        lt: "Geltonas signalas: baudžiamoji byla dėl audito ir aplinkosaugos baudos [X1]; Moody's ESG kredito poveikis CIS-4, aplinkosauga E-4 [E4 p.8]."
+        en: "Yellow flag: the criminal case over the audit and environmental fines [X1]; Moody's ESG credit impact CIS-4, environmental E-4 [E4 p.8]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** iškastinio kuro [SP5] ir elektros bei atsinaujinančios energijos [SP6] politikos. **Atitinka:** perėjimo planas (Strategija 2030+), emisijų tikslai [E6; E7]. **Galėtų būti geriau:** aiški skalūnų atsisakymo data."
+        en: "**Applicable:** the Fossil Fuels [SP5] and Electricity & Renewable Energy [SP6] policies. **Met:** a transition plan (Strategy 2030+), emission targets [E6; E7]. **Could be improved:** a firm oil shale exit date."
+    engagement:
+      status: 'yes'
+      evidence:
+        lt: "Verta: skalūnų atsisakymo data, nes SEB Baltijos išimtis netradicinei naftai baigiasi 2030 m. [SP5 p.8-9]."
+        en: "Worthwhile: the oil shale exit date, as the SEB Baltic exception for unconventional oil ends in 2030 [SP5 p.8-9]."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Skelbiama atsinaujinanti ir neatsinaujinanti gamyba, emisijų limitai [E1 p.5, p.16; E7 p.19-20]."
+        en: "Renewable and non-renewable generation and emission caps are reported [E1 p.5, p.16; E7 p.19-20]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Raudonų signalų nėra, bet skalūnų veikla patenka į SEB Baltijos išimtį tik iki 2030 m.; geltonas signalas – audito byla ir baudos."
+    en: "No red flags, but oil shale activity is covered by the SEB Baltic exception only until 2030; yellow flag – the audit case and fines."

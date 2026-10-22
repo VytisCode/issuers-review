@@ -1,0 +1,139 @@
+# Maxima Grupė - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą.
+issuer: maxima
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "9M 2026 results - expected November 2026"
+rating: "S&P BB+, stable outlook (issuer and the 2031 notes; confirmed 2025-12-12) [M2 p.6; M4]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** Maxima – didžiausias Baltijos šalių maisto prekybininkas, S&P BB+ (stabili) [M4]. I pusm. EBITDA 169,9 mln. EUR, grynoji skola / EBITDA 2,0 karto [M1 p.7; M3]. Stebėtina: akcininkui išmokėta daug lėšų, todėl nuosavas kapitalas sumažėjo iki 147 mln. EUR [M1 p.3-4, p.9]; Latvijoje vyksta konkurencijos tyrimas [X2].", en: "**Position OK.** Maxima is the largest Baltic food retailer, rated BB+ (stable) by S&P [M4]. 1H EBITDA EUR 169.9m, net debt / EBITDA 2.0x [M1 p.7; M3]. To watch: large payouts to the shareholder cut equity to EUR 147m [M1 p.3-4, p.9]; a competition investigation is under way in Latvia [X2]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, ebitda, net_profit, investments, net_debt, nd_ebitda, equity, equity_ratio, total_assets]
+highlights: [revenue, ebitda, nd_ebitda, equity]
+charts: [revenue, ebitda, net_debt]
+
+sources:
+  M1: {title: "Maxima Grupė - Consolidated interim condensed financial statements 6M 2026 (unaudited, LT)", url: "https://www.maximagrupe.eu/uploads/2026%20konsoliduotos%20vadovyb%C4%97s%20ataskaitos/2026.06.30%20Konsoliduotos%20tarpin%C4%97s%20sutrumpintos%20finansin%C4%97s%20ataskaitos%201.pdf", date: 2026-09-04}
+  M2: {title: "Maxima Grupė - Consolidated management report 2025 (LT)", url: "https://www.maximagrupe.eu/uploads/2026%20konsoliduotos%20vadovyb%C4%97s%20ataskaitos/Konsoliduotoji%20Vadovyb%C4%97s%20ataskaita%202025%201.pdf", date: 2026-04-07}
+  M3: {title: "Maxima Grupė - Press release: 2026 m. pirmasis pusmetis", url: "https://www.maximagrupe.eu/naujienos/maxima-grupes-2026-m-pirmasis-pusmetis-pajamos-perzenge-2-mlrd-eur-pelningumas-mazejo/", date: 2026-09-04}
+  M4: {title: "Maxima Grupė - Results of the EUR 350m 5-year bond offering", url: "https://www.maximagrupe.eu/naujienos/maxima-grupe-uab-skelbia-350-mln-euru-vertes-penkeriu-metu-trukmes-obligaciju-vieso-siulymo-rezultatus/", date: 2026-05-08}
+  M5: {title: "Maxima Grupė - Bond issue page", url: "https://www.maximagrupe.eu/emisija/", date: 2026}
+  X1: {title: "LSM - Maxima Latvia hit with EUR 1.8 million fine for unfair trading practices", url: "https://eng.lsm.lv/article/society/crime/06.11.2025-maxima-latvia-hit-with-eur18-million-fine-for-unfair-trading-practices.a621338/", date: 2025-11-06}
+  X2: {title: "LSM - Cartel suspected between two food retailers in Latvia", url: "https://eng.lsm.lv/article/society/crime/27.02.2026-cartel-suspected-between-two-food-retailers-in-latvia.a636654/", date: 2026-02-27}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP9: {title: "SEB Agriculture, Fishing, Aquaculture and Animal Welfare sector policy (2026-04-23)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-23}
+
+quick_summary:
+  - lt: "**Pajamos auga, pelningumas stabilus:** I pusm. pajamos 2 026 mln. EUR (+2,8 %, apskaičiuota įrankio), EBITDA 169,9 mln. EUR (169,2 mln.), grynasis pelnas 85,7 mln. EUR [M1 p.3, p.7]."
+    en: "**Revenue up, profitability stable:** 1H revenue EUR 2,026m (+2.8%, calculated by the tool), EBITDA EUR 169.9m (169.2m), net profit EUR 85.7m [M1 p.3, p.7]."
+  - lt: "**Tik Baltijos šalys:** Lenkijos ir Bulgarijos verslai parduoti 2025-12; liko 498 parduotuvės Lietuvoje, Latvijoje ir Estijoje bei Barbora [M2 p.5-6]."
+    en: "**Baltics only:** the Polish and Bulgarian businesses were sold in December 2025; 498 stores in Lithuania, Latvia and Estonia plus Barbora remain [M2 p.5-6]."
+  - lt: "**Daug išmokų akcininkui:** 2025 m. dividendai 423,9 mln. EUR, 2026 m. I pusm. – 101,0 mln. EUR dividendų ir 100 mln. EUR kapitalo mažinimas; nuosavas kapitalas sumažėjo nuo 572,9 iki 147,4 mln. EUR [M1 p.3-4, p.9]."
+    en: "**Large payouts to the shareholder:** EUR 423.9m of dividends in 2025, and in 1H 2026 EUR 101.0m of dividends plus a EUR 100m capital reduction; equity fell from EUR 572.9m to EUR 147.4m [M1 p.3-4, p.9]."
+  - lt: "**Skola didesnė:** grynoji skola (su nuoma) 764,5 mln. EUR, 2,0 karto EBITDA (2025 m. pab. – 557,1 mln., 1,5 karto) [M3; M2 p.8]."
+    en: "**Higher debt:** net debt (incl. leases) EUR 764.5m, 2.0x EBITDA (end-2025: EUR 557.1m, 1.5x) [M3; M2 p.8]."
+
+business:
+  - lt: "Strategija – kainų lyderystė Baltijos šalyse: I pusm. sumažintos 9 000 prekių kainos Lietuvoje ir 4 000 Latvijoje; iki 2030 m. planuojama atidaryti ar išplėsti daugiau nei 80 parduotuvių [M2 p.10; M3]."
+    en: "Strategy is price leadership in the Baltics: 1H price cuts on 9,000 products in Lithuania and 4,000 in Latvia; more than 80 stores to be opened or expanded by 2030 [M2 p.10; M3]."
+  - lt: "2026-05-31 įsigyta Latvijos nekilnojamojo turto bendrovė Irbis A (16,9 mln. EUR); 2026-08-31 parduota SOLLO [M1 p.9-10]."
+    en: "Latvian property company Irbis A was bought on 2026-05-31 (EUR 16.9m); SOLLO was sold on 2026-08-31 [M1 p.9-10]."
+
+financials:
+  - lt: "2025 m. (tęsiama veikla) pajamos 4 070 mln. EUR, EBITDA 375 mln. EUR, marža 9,2 % [M2 p.7]."
+    en: "FY2025 (continuing operations) revenue EUR 4,070m, EBITDA EUR 375m, margin 9.2% [M2 p.7]."
+  - lt: "Pinigai 2026-06-30 – 256,3 mln. EUR; banko paskolos 259,3 mln. EUR (SEB ir ING tiltinė paskola 260 mln. EUR, dar 40 mln. EUR Swedbank ir 40 mln. EUR SEB) [M1 p.3, p.8; M2 p.5-6]."
+    en: "Cash EUR 256.3m at 2026-06-30; bank loans EUR 259.3m (EUR 260m SEB/ING bridge loan, plus EUR 40m Swedbank and EUR 40m SEB) [M1 p.3, p.8; M2 p.5-6]."
+
+plans:
+  - plan: {lt: "Sutelkti veiklą Baltijos šalyse, parduodant Lenkiją ir Bulgariją", en: "Focus on the Baltics by selling Poland and Bulgaria"}
+    outcome: {lt: "Pardavimas užbaigtas 2025-12-19 ir 2025-12-22", en: "Sale completed on 2025-12-19 and 2025-12-22"}
+    status: met
+    src: "M1 p.10; M2 p.5"
+    why: {lt: "Įvykdyta [M1 p.10].", en: "Done [M1 p.10]."}
+  - plan: {lt: "Refinansuoti trumpalaikę paskolą obligacijomis", en: "Refinance the short-term loan with bonds"}
+    outcome: {lt: "2026-05 išleista 350 mln. EUR obligacijų; didžioji dalis – paskolai grąžinti", en: "EUR 350m of bonds issued in May 2026; most of the proceeds repay the loan"}
+    status: met
+    src: "M4; M1 p.8"
+    why: {lt: "Įvykdyta [M4].", en: "Done [M4]."}
+  - plan: {lt: "Iki 2030 m. sumažinti 1 ir 2 apimties emisijas 42 % (palyginti su 2021 m.)", en: "Cut Scope 1 and 2 emissions by 42% by 2030 (vs 2021)"}
+    outcome: {lt: "2025 m. pab. sumažinta 24,5 %", en: "Down 24.5% by end-2025"}
+    status: pending
+    src: "M2 p.3"
+    why: {lt: "Vykdoma [M2 p.3].", en: "In progress [M2 p.3]."}
+  - plan: {lt: "Atidaryti ar išplėsti >80 parduotuvių iki 2030 m.", en: "Open or expand >80 stores by 2030"}
+    outcome: {lt: "Naujas tikslas", en: "New target"}
+    status: pending
+    src: "M2 p.10"
+    why: {lt: "Naujas planas [M2 p.10].", en: "New plan [M2 p.10]."}
+
+investor:
+  - lt: "**Turima priemonė:** 4,750 % neužtikrintos obligacijos, 350 mln. EUR, išleistos 2026-05-19, išpirkimas 2031-05-19, kuponas kasmet; Nasdaq Vilnius ir Euronext Dublin; S&P BB+ [M5; M4; M1 p.8]."
+    en: "**Instrument held:** 4.750% unsecured notes, EUR 350m, issued 2026-05-19, maturing 2031-05-19, annual coupon; Nasdaq Vilnius and Euronext Dublin; S&P BB+ [M5; M4; M1 p.8]."
+  - lt: "**Svertas:** grynoji skola / EBITDA 2,0 karto – vidutinis lygis; pinigų atsargos 256 mln. EUR [M3; M1 p.3]. Kitų obligacijų nėra – 2022 m. 6,25 % obligacijos išpirktos anksčiau laiko 2025-10-27 [M2 p.4-5]."
+    en: "**Leverage:** net debt / EBITDA 2.0x – moderate; cash of EUR 256m [M3; M1 p.3]. No other bonds – the 2022 6.25% bonds were redeemed early on 2025-10-27 [M2 p.4-5]."
+  - lt: "**Rizika:** didelės išmokos akcininkui mažina kapitalo atsargą; dividendų politika nerasta. Išankstinio išpirkimo sąlygos ir kovenantai ataskaitose nerasti."
+    en: "**Risk:** large payouts to the shareholder reduce the capital buffer; no dividend policy found. Call terms and covenants were not found in the reports."
+  - lt: "Išvada: vidutinė rizika – stabilus verslas ir BB+ reitingas, bet akcininkas ima daug lėšų."
+    en: "Conclusion: moderate risk – stable business and a BB+ rating, but the shareholder takes out a lot of cash."
+
+esg:
+  policies: [investments, agriculture, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Maisto mažmeninė prekyba; išskirtuose sektoriuose veiklos nėra [M2 p.6]."
+        en: "Food retail; no activity in excluded sectors [M2 p.6]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'no'
+      evidence:
+        lt: "Rasta: 2025-11-06 Latvijos konkurencijos taryba skyrė Maxima Latvija daugiau nei 1,8 mln. EUR baudą už nesąžiningą prekybos praktiką; bendrovė nesutinka ir skundžia [X1]. 2026-02-26 taryba atliko veiksmus Maxima Latvija biure dėl įtariamo kartelio tarp dviejų didžiausių prekybininkų; tyrimas vyksta, bauda neskirta [X2]."
+        en: "Found: on 2025-11-06 the Latvian Competition Council fined Maxima Latvija more than EUR 1.8m for unfair trading practices; the company disagrees and appeals [X1]. On 2026-02-26 the Council took procedural actions at Maxima Latvija's office over a suspected cartel between the two largest retailers; the investigation is ongoing, no fine yet [X2]."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Atsinaujinanti energija – 37,1 % (2025 m.), 85 % atliekų nepatenka į sąvartyną, maisto dovanojimas maisto bankams (6,3 mln. EUR) [M2 p.3]."
+        en: "Renewable energy 37.1% (2025), 85% of waste diverted from landfill, food donations to food banks (EUR 6.3m) [M2 p.3]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Tikslas – iki 2030 m. 42 % mažesnės 1 ir 2 apimties emisijos (palyginti su 2021 m.); pasiekta 24,5 % [M2 p.3]."
+        en: "Target to cut Scope 1 and 2 emissions by 42% by 2030 (vs 2021); 24.5% achieved [M2 p.3]."
+    int_yellow_flag:
+      status: 'no'
+      evidence:
+        lt: "Geltonas signalas: Latvijos konkurencijos baudos ir kartelio tyrimas [X1; X2]."
+        en: "Yellow flag: Latvian competition fine and cartel investigation [X1; X2]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** žemės ūkio politika (prekyba maistu) [SP9 p.5-10]. **Atitinka:** tvarumo ataskaita metinėje ataskaitoje, emisijų mažinimo tikslas [M2 p.3, p.53-97]."
+        en: "**Applicable:** the Agriculture policy (food trading) [SP9 p.5-10]. **Met:** a sustainability report in the annual report, an emission reduction target [M2 p.3, p.53-97]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: konkurencijos klausimai sprendžiami teisme ir tyrime."
+        en: "No need: the competition matters are being handled in court and in the investigation."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Skelbiamos emisijos, atsinaujinančios energijos dalis ir atliekų rodikliai [M2 p.3]."
+        en: "Emissions, renewable energy share and waste figures are reported [M2 p.3]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Geltonas signalas – konkurencijos teisės klausimai Latvijoje."
+    en: "No exclusions or red flags. Yellow flag – competition law matters in Latvia."

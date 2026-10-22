@@ -1,0 +1,129 @@
+# Bigbank - apžvalga pagal 2026 m. III ketvirčio (9M) ataskaitą.
+issuer: bigbank
+period: 9M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "Q4 2026 and annual results - expected February 2027 (monthly results 2026-11-12) [B3]"
+rating: "Moody's Ba1 long-term deposit rating, outlook negative; BCA ba2 [B4]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** 9 mėn. pelnas 30,1 mln. EUR (30,2 mln.), paskolos per metus +27 % [B1 p.7; B5]. CET1 13,2 % – gerokai virš turimos AT1 obligacijos nurašymo ribos (7 %) [B1 p.10; B6]. Stebėtina: Moody's perspektyva neigiama [B4].", en: "**Position OK.** 9M profit EUR 30.1m (30.2m), loans +27% year on year [B1 p.7; B5]. CET1 13.2% – well above the 7% write-down trigger of the AT1 held [B1 p.10; B6]. To watch: Moody's outlook is negative [B4]."}
+periods: [FY2024, FY2025, 9M2025, 9M2026]
+ratios: [nii, total_income, net_profit, cost_income, roe, loans, deposits, total_assets, equity, cet1, total_capital, leverage, lcr, npl]
+highlights: [net_profit, roe, cet1, total_capital]
+charts: [net_profit, loans, cet1]
+
+sources:
+  B1: {title: "Bigbank - Interim report Q3 2026 (unaudited, ET)", url: "https://static.bigbank.eu/investor/assets/2026/10/Bigbank_vahearuanne_kv3_2026.pdf", date: 2026-10-22}
+  B2: {title: "Bigbank - Annual report 2025 incl. sustainability report (audited, ET)", url: "https://static.bigbank.eu/investor/assets/2026/02/Bigbank_aastaaruanne_2025.pdf", date: 2026-02-27}
+  B3: {title: "Bigbank - Investor relations (calendar)", url: "https://investor.bigbank.eu/et", date: 2026-10-22}
+  B4: {title: "Bigbank - Reporting page, Moody's ratings", url: "https://investor.bigbank.eu/et/reporting/", date: 2026-10-22}
+  B5: {title: "Bigbank - Q3 2026 results blog", url: "https://www.bigbank.ee/blogi/bigbanki-2026-aasta-kolmanda-kvartali-majandustulemused/", date: 2026-10-22}
+  B6: {title: "Bigbank - AT1 August 2023 bond page and Final Terms", url: "https://investor.bigbank.eu/et/allutatud-volakirjad/?bond=at1-august-2023", date: 2026-10-22}
+  B7: {title: "Bigbank - Terms and Conditions of AT1 Temporary Write-Down Notes (August 2023)", url: "https://static.bigbank.eu/investor/assets/2023/09/Terms-and-Conditions-of-Bigbank-AT1-Temporary-Write-Down-Notes-August-2023-2.pdf", date: 2023-08-09}
+  X1: {title: "Finantsinspektsioon - precept to Bigbank AS", url: "https://fi.ee/en/news/finantsinspektsioon-issued-precept-bigbank", date: 2024-03-04}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+
+quick_summary:
+  - lt: "**Pelnas stabilus, sąnaudos auga:** 9 mėn. grynosios palūkanų pajamos 94,0 mln. EUR (78,7 mln.), pelnas 30,1 mln. EUR (30,2 mln.); sąnaudų ir pajamų santykis 51,2 % (46,7 %), ROE 12,9 % (14,3 %) [B1 p.7]."
+    en: "**Profit stable, costs rising:** 9M net interest income EUR 94.0m (78.7m), profit EUR 30.1m (30.2m); cost/income 51.2% (46.7%), ROE 12.9% (14.3%) [B1 p.7]."
+  - lt: "**Spartus augimas:** paskolos 3,27 mlrd. EUR (+688 mln. EUR per metus), indėliai 3,52 mlrd. EUR; turtas viršijo 4 mlrd. EUR [B1 p.7, p.11; B5]."
+    en: "**Fast growth:** loans EUR 3.27bn (+EUR 688m year on year), deposits EUR 3.52bn; total assets passed EUR 4bn [B1 p.7, p.11; B5]."
+  - lt: "**Kapitalas:** CET1 13,2 %, bendras kapitalas 19,2 %, sverto rodiklis 8,5 %; LCR 225,8 % [B1 p.7, p.10]."
+    en: "**Capital:** CET1 13.2%, total capital 19.2%, leverage 8.5%; LCR 225.8% [B1 p.7, p.10]."
+  - lt: "**Kokybė gerėja:** 3 etapo paskolos 100 mln. EUR – 3,0 % (2025 m. pab. 4,3 %) [B1 p.5; B2 p.15]."
+    en: "**Quality improving:** Stage 3 loans EUR 100m – 3.0% (4.3% at end-2025) [B1 p.5; B2 p.15]."
+
+business:
+  - lt: "Estijos kapitalo bankas, veikiantis 9 šalyse; daugiau nei 222 000 aktyvių klientų; tikslas – tapti pagrindiniu banku Baltijos šalyse [B5]."
+    en: "An Estonian-owned bank operating in 9 countries; more than 222,000 active clients; aims to become a main bank in the Baltics [B5]."
+  - lt: "2026 m.: Apple Pay, Google Pay, einamoji sąskaita su 2 % palūkanomis; III ketv. išleista 17,23 mln. EUR naujų AT1 obligacijų [B5]."
+    en: "2026: Apple Pay, Google Pay, a current account paying 2%; EUR 17.23m of new AT1 bonds issued in Q3 [B5]."
+
+financials:
+  - lt: "2025 m. pelnas 37,9 mln. EUR (32,3 mln.), ROE 13,3 % (12,5 %), CET1 13,4 % (13,1 %), bendras kapitalas 18,7 % (18,2 %) [B2 p.18-19]."
+    en: "FY2025 profit EUR 37.9m (32.3m), ROE 13.3% (12.5%), CET1 13.4% (13.1%), total capital 18.7% (18.2%) [B2 p.18-19]."
+  - lt: "Dividendų politika: iki 25 % audituoto pelno, bet ne daugiau 8 mln. EUR per metus; 2026 m. išmokėta 8,0 mln. EUR [B2 p.13; B1 p.13]."
+    en: "Dividend policy: up to 25% of audited profit, capped at EUR 8m a year; EUR 8.0m paid in 2026 [B2 p.13; B1 p.13]."
+
+plans:
+  - plan: {lt: "Strategija 2022–2026: ROE 20 %", en: "Strategy 2022-2026: ROE of 20%"}
+    outcome: {lt: "9M 2026 ROE 12,9 %", en: "9M 2026 ROE 12.9%"}
+    status: not_met
+    src: "B2 p.13; B1 p.7"
+    why: {lt: "Paskutiniais strategijos metais ROE gerokai žemiau tikslo [B1 p.7].", en: "In the final strategy year ROE is well below target [B1 p.7]."}
+  - plan: {lt: "Dividendai – 25 % pelno, ne daugiau 8 mln. EUR", en: "Dividends of 25% of profit, max EUR 8m"}
+    outcome: {lt: "2026 m. išmokėta 8,0 mln. EUR", en: "EUR 8.0m paid in 2026"}
+    status: met
+    src: "B2 p.13; B1 p.13"
+    why: {lt: "Pagal politiką [B1 p.13].", en: "In line with policy [B1 p.13]."}
+
+investor:
+  - lt: "**Turima priemonė:** 12 % neterminuota AT1 obligacija EE3300003581 (2023 m. rugpjūčio serija), išleista 2023-08-31, 5,08 mln. EUR, kuponas kas ketvirtį; nekotiruojama (privatus platinimas) [B6]."
+    en: "**Instrument held:** 12% perpetual AT1 note EE3300003581 (August 2023 series), issued 2023-08-31, EUR 5.08m, quarterly coupon; unlisted (private placement) [B6]."
+  - lt: "**Sąlygos:** išpirkti galima ne anksčiau kaip po 5 metų (pirmoji palūkanų data po to – 2028-09-15, apskaičiuota įrankio), su priežiūros institucijos leidimu [B7 6(e)]. Jei grupės ar banko CET1 nukristų žemiau 7 %, nominali vertė laikinai nurašoma; kuponą bankas gali atšaukti savo nuožiūra, atšaukti kuponai nekaupiami [B6; B7 5(2), 7]."
+    en: "**Terms:** callable no earlier than 5 years after issue (first interest date after that is 2028-09-15, calculated by the tool), with supervisory approval [B7 6(e)]. If group or bank CET1 falls below 7%, the principal is temporarily written down; the bank may cancel coupons at its discretion and cancelled coupons do not accumulate [B6; B7 5(2), 7]."
+  - lt: "**Atsarga:** CET1 13,2 % – apie 6 p. p. virš nurašymo ribos [B1 p.10]. AT1 yra žemiausio rango skola (žemiau indėlių ir Tier 2) [B7 4]."
+    en: "**Headroom:** CET1 13.2% – about 6 pp above the trigger [B1 p.10]. AT1 is the lowest-ranking debt (below deposits and Tier 2) [B7 4]."
+  - lt: "Išvada: vidutinė rizika – pelningas ir augantis bankas su pakankamu kapitalu, bet AT1 ir neigiama Moody's perspektyva."
+    en: "Conclusion: moderate risk – a profitable, growing bank with adequate capital, but an AT1 instrument and a negative Moody's outlook."
+
+esg:
+  policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Bankas (vartojimo, būsto ir verslo paskolos); išskirtuose sektoriuose veiklos nėra [B5]."
+        en: "A bank (consumer, mortgage and business loans); no activity in excluded sectors [B5]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Naujų neigiamų naujienų nerasta (2026-10-22). Anksčiau: 2024 m. Finansų inspekcija nurodė pagerinti kredito rizikos nurašymų metodiką, baudos nebuvo [X1]."
+        en: "No new adverse news found (2026-10-22). Earlier: in 2024 the Estonian FSA ordered improvements to the credit risk write-down methodology, with no fine [X1]."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Metinėje ataskaitoje yra tvarumo ataskaita (nuo p. 40) [B2 p.40]."
+        en: "The annual report includes a sustainability report (from p.40) [B2 p.40]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Tvarumo ataskaita rengiama pagal ESRS, su užtikrinimo išvada [B2 p.40, p.222]."
+        en: "The sustainability report follows ESRS and carries an assurance report [B2 p.40, p.222]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta."
+        en: "No yellow flags found."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika [SP1]. **Atitinka:** reguliuojamas ES bankas su tvarumo ataskaita [B2 p.40]."
+        en: "**Applicable:** the Investments policy [SP1]. **Met:** a regulated EU bank with a sustainability report [B2 p.40]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia."
+        en: "No need."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Tvarumo rodikliai skelbiami metinėje ataskaitoje [B2 p.40]."
+        en: "Sustainability indicators are published in the annual report [B2 p.40]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra."
+    en: "No exclusions or red flags."

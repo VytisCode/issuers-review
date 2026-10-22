@@ -1,0 +1,116 @@
+# Nortal - apžvalga pagal viešai prieinamą informaciją (2025 m. rezultatai).
+issuer: nortal
+period: FY2025
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "nerasta - Nortal reports are published only on its password-protected investor portal [N1]"
+rating: "nerasta (no public credit rating found)"
+verdict: {status: watch, lt: "**Stebėti.** Nortal finansines ataskaitas skelbia tik slaptažodžiu apsaugotame investuotojų portale, todėl viešai žinomi tik 2025 m. pajamos 254,2 mln. EUR (+15 %) ir EBITDA 23,8 mln. EUR [N1; N3]. Skolos, sverto ir kovenantų viešų duomenų nėra.", en: "**Watch.** Nortal publishes its financial reports only on a password-protected investor portal, so the only public figures are 2025 revenue of EUR 254.2m (+15%) and EBITDA of EUR 23.8m [N1; N3]. No public data on debt, leverage or covenants."}
+periods: [FY2025]
+ratios: [revenue, ebitda]
+highlights: [revenue, ebitda]
+charts: [revenue]
+
+sources:
+  N1: {title: "Nortal - Investor relations (portal is password protected)", url: "https://investors.nortal.com/", date: 2026-10-22}
+  N2: {title: "Nortal - Nortal places EUR 50m bonds", url: "https://nortal.com/news/news-library/nortal-places-eur-50m-bonds/", date: 2024-01-26}
+  N3: {title: "Nortal - Tivi: Nortal delivered strong results in 2025", url: "https://nortal.com/news/news-library/tivi-nortal-delivered-strong-results-in-2025-a-shift-has-required-investments", date: 2026-08-04}
+  N4: {title: "Nortal - Nortal will redeem up to EUR 75m senior secured floating rate bonds", url: "https://nortal.com/news/news-library/nortal-will-redeem-up-to-eur-75m-in-senior-secured-floating-rate-bonds/", date: 2024-02-15}
+  N5: {title: "Nortal - Acquisition of iSAX's IoT consulting business", url: "https://nortal.com/news/news-library/nortal-expands-industrial-iot-capabilities-through-acquisition-of-isaxs-consulting-business", date: 2026-07-02}
+  X1: {title: "ERR - Erakonnad ootavad Nortali osalemise kohta personaalses riigis selgitusi", url: "https://www.err.ee/1609252896/erakonnad-ootavad-nortali-osalemise-kohta-personaalses-riigis-selgitusi", date: 2024-02-15}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+
+quick_summary:
+  - lt: "**Augimas:** 2025 m. pajamos 254,2 mln. EUR (+15 %), EBITDA 23,8 mln. EUR; bendrovė nurodo daug investavusi ir patyrusi reikšmingų pokyčių [N3]."
+    en: "**Growth:** 2025 revenue EUR 254.2m (+15%), EBITDA EUR 23.8m; the company says it invested heavily and went through significant changes [N3]."
+  - lt: "**Įsigijimai:** Nearsure (JAV, 2025-07), Accela Artimųjų Rytų padalinys (2025-10), iSAX IoT konsultacijos (Vokietija, 2026-07) [N3; N5]."
+    en: "**Acquisitions:** Nearsure (US, July 2025), Accela's Middle East division (October 2025), iSAX IoT consulting (Germany, July 2026) [N3; N5]."
+  - lt: "**Ribota informacija:** tarpinės ataskaitos, skola ir kovenantų rodikliai viešai neskelbiami [N1]."
+    en: "**Limited information:** interim reports, debt and covenant figures are not public [N1]."
+
+business:
+  - lt: "IT paslaugų ir skaitmeninės transformacijos bendrovė (viešasis sektorius, sveikatos apsauga, pramonė); 30 biurų; ISO 9001 ir ISO/IEC 27001 [N1]."
+    en: "An IT services and digital transformation company (public sector, healthcare, industry); 30 offices; ISO 9001 and ISO/IEC 27001 [N1]."
+  - lt: "2025 m. Nortal tapo patvirtintu NATO tiekėju; tikslas – iki 2026 m. pabaigos 70 % darbų atlikti „AI-first“ būdu [N3]."
+    en: "In 2025 Nortal became an approved NATO supplier; it targets 70% 'AI-first' delivery by end-2026 [N3]."
+
+financials:
+  - lt: "Grynasis pelnas, grynoji skola, nuosavas kapitalas ir pinigai – nerasta (viešai neskelbiama) [N1]."
+    en: "Net profit, net debt, equity and cash – not found (not public) [N1]."
+
+plans:
+  - plan: {lt: "70 % „AI-first“ darbų iki 2026 m. pabaigos", en: "70% 'AI-first' delivery by end-2026"}
+    outcome: {lt: "Naujas tikslas", en: "New target"}
+    status: pending
+    src: "N3"
+    why: {lt: "Naujas [N3].", en: "New [N3]."}
+
+investor:
+  - lt: "**Turima priemonė:** užtikrintos kintamų palūkanų obligacijos FI4000566567, išpirkimas 2029-02-09. Viešai: 2024-02-09 išleista 50 mln. EUR penkerių metų senior secured FRN emisija (programa iki 100 mln. EUR), palūkanos kas ketvirtį; lėšos – senoms obligacijoms refinansuoti [N2; N4]. Ar tai ta pati emisija, viešuose šaltiniuose ISIN nenurodytas; data ir trukmė sutampa."
+    en: "**Instrument held:** secured floating rate notes FI4000566567, maturing 2029-02-09. Publicly: a EUR 50m five-year senior secured FRN was issued on 2024-02-09 (framework up to EUR 100m), with quarterly interest, to refinance older bonds [N2; N4]. The public sources do not give the ISIN; the date and tenor match."
+  - lt: "**Sąlygos:** marža virš Euribor, kovenantai ir išankstinio išpirkimo sąlygos viešai nerastos."
+    en: "**Terms:** the margin over Euribor, covenants and call terms were not found publicly."
+  - lt: "Išvada: verslas auga, bet kredito rizikos viešai įvertinti neįmanoma."
+    en: "Conclusion: the business is growing, but credit risk cannot be assessed from public data."
+
+esg:
+  policies: [investments, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "IT paslaugos; išskirtuose sektoriuose veiklos nėra. Gynybos sektoriui teikiamos IT paslaugos (NATO tiekėjas), ne ginklai [N1; N3]."
+        en: "IT services; no activity in excluded sectors. Provides IT services to defence (NATO supplier), not weapons [N1; N3]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Naujų neigiamų naujienų nerasta (2026-10-22). Anksčiau: 2024-02 Estijos partijos kritikavo galimą interesų konfliktą dėl Nortal vaidmens „personalios valstybės“ projekte; tai politinė kritika, ne bauda ar procesas [X1]."
+        en: "No new adverse news found (2026-10-22). Earlier: in February 2024 Estonian parties criticised a possible conflict of interest over Nortal's role in the 'personal state' project; this was political criticism, not a fine or proceeding [X1]."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Skelbiami JK anglies dioksido mažinimo planas (2025) ir šiuolaikinės vergovės pareiškimas (2026) [N1]."
+        en: "A UK Carbon Reduction Plan (2025) and a Modern Slavery Statement (2026) are published [N1]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "JK padalinio anglies dioksido mažinimo planas [N1]."
+        en: "A carbon reduction plan for the UK unit [N1]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta."
+        en: "No yellow flags found."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika [SP1]. **Atitinka:** ISO 27001, vergovės prevencijos pareiškimas [N1]. **Galėtų būti geriau:** grupės tvarumo ataskaita nerasta."
+        en: "**Applicable:** the Investments policy [SP1]. **Met:** ISO 27001, a modern slavery statement [N1]. **Could be improved:** no group sustainability report found."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "ESG požiūriu nereikia."
+        en: "No need from an ESG view."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "IT paslaugų poveikis aplinkai nedidelis; JK padalinio emisijų planas [N1]."
+        en: "IT services have a small environmental footprint; UK unit emission plan [N1]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra."
+    en: "No exclusions or red flags."

@@ -1,0 +1,27 @@
+metric,period,value,unit,source,page,verified,note
+revenue,FY2024,1785.2,EURm,E2,8,check,
+revenue,FY2025,1646.9,EURm,E2,8,check,
+revenue,6M2026,939.9,EURm,E1,30,check,From report summary
+ebitda,FY2024,398.2,EURm,E2,8,check,
+ebitda,FY2025,317.2,EURm,E2,8,check,
+net_profit,FY2024,12.9,EURm,E2,8,check,
+net_profit,FY2025,-82.6,EURm,E2,8,check,Includes impairment of 197.6
+net_profit,6M2026,40.5,EURm,E1,30,check,From report summary
+investments,FY2024,723.6,EURm,E2,8,check,
+investments,FY2025,459.2,EURm,E2,8,check,
+net_debt,FY2024,1201,EURm,E2,8,check,
+net_debt,FY2025,1254,EURm,E2,8,check,
+net_debt,6M2025,1113,EURm,E1,5,check,
+net_debt,6M2026,1224,EURm,E1,5,check,
+nd_ebitda,FY2024,3.02,x,E2,8,check,
+nd_ebitda,FY2025,3.95,x,E2,8,check,
+nd_ebitda,6M2025,3.6,x,E1,5,check,
+nd_ebitda,6M2026,4.1,x,E1,5,check,
+equity,FY2024,2383,EURm,E2,8,check,
+equity,FY2025,1993,EURm,E2,8,check,
+equity,6M2025,2331,EURm,E1,5,check,
+equity,6M2026,2045,EURm,E1,5,check,
+total_assets,6M2026,4901.2,EURm,E1,32,check,From report summary
+equity_ratio,6M2026,41.7,%,E1,32,calc,Equity / total assets - calculated by the tool
+generation,FY2024,3791,GWh,E2,8,check,
+generation,FY2025,3623,GWh,E2,8,check,

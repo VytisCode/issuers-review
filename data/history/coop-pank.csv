@@ -1,0 +1,46 @@
+metric,period,value,unit,source,page,verified,note
+nii,FY2024,77.6,EURm,C2,,check,Investor reporting web table
+nii,FY2025,73.3,EURm,C2,,check,Investor reporting web table
+nii,9M2025,54.2,EURm,C1,9,check,
+nii,9M2026,63.1,EURm,C1,9,check,
+total_income,FY2024,81.9,EURm,C2,,check,
+total_income,FY2025,79.4,EURm,C2,,check,
+total_income,9M2025,58.4,EURm,C1,5,check,
+total_income,9M2026,66.9,EURm,C1,5,check,
+net_profit,FY2024,32.2,EURm,C2,,check,
+net_profit,FY2025,28.7,EURm,C2,,check,
+net_profit,9M2025,21.5,EURm,C1,5,check,
+net_profit,9M2026,25.6,EURm,C1,5,check,
+cost_income,FY2024,49.6,%,C2,,check,
+cost_income,FY2025,52.3,%,C2,,check,
+roe,FY2024,16.2,%,C2,,check,
+roe,FY2025,12.9,%,C2,,check,
+loans,FY2024,1774,EURm,C2,,check,
+loans,FY2025,2114.1,EURm,C1,10,check,
+loans,9M2025,2023.3,EURm,C1,6,check,
+loans,9M2026,2301.4,EURm,C1,10,check,
+deposits,FY2024,1886,EURm,C2,,check,
+deposits,FY2025,2124.5,EURm,C1,10,check,Customer deposits and loans received
+deposits,9M2025,1957.9,EURm,C1,6,check,Customer deposits and loans received
+deposits,9M2026,2368.6,EURm,C1,10,check,Customer deposits and loans received
+total_assets,FY2025,2703.0,EURm,C1,10,check,
+total_assets,9M2025,2531.9,EURm,C3,,check,Q3 2026 results announcement
+total_assets,9M2026,2965.6,EURm,C1,10,check,
+equity,FY2024,212,EURm,C2,,check,
+equity,FY2025,234.5,EURm,C1,10,check,
+equity,9M2025,227.3,EURm,C1,6,check,
+equity,9M2026,251.6,EURm,C1,10,check,
+cet1,FY2024,14.28,%,C4,18,check,From annual report summary
+cet1,FY2025,14.15,%,C1,7,check,
+cet1,9M2026,14.75,%,C1,7,check,
+total_capital,FY2024,19.4,%,C2,,check,
+total_capital,FY2025,18.54,%,C1,7,check,
+total_capital,9M2026,19.86,%,C1,7,check,
+leverage,9M2025,8.08,%,C1,6,check,
+leverage,9M2026,7.88,%,C1,6,check,
+lcr,FY2024,207,%,C2,,check,
+lcr,FY2025,202,%,C2,,check,
+lcr,9M2025,185.45,%,C1,6,check,
+lcr,9M2026,213.29,%,C1,6,check,
+nsfr,9M2025,120.04,%,C1,6,check,
+nsfr,9M2026,125.16,%,C1,6,check,

@@ -43,3 +43,4 @@ passengers:        {better: up}
 generation:        {better: none}
 dscr:              {stock: true, better: up, good: 1.5, weak: 1.1, basis: "tool benchmark; covenant levels are issuer-specific"}
 interest_cover:    {stock: true, better: up, good: 3.0, weak: 2.0, basis: "tool benchmark; covenant levels are issuer-specific"}
+ltv:               {stock: true, better: down, good: 40, weak: 50, basis: "tool benchmark for real estate; bond covenants are issuer-specific"}

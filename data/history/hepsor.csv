@@ -1,0 +1,27 @@
+metric,period,value,unit,source,page,verified,note
+revenue,FY2024,38.4,EURm,H2,,check,Key financials web table
+revenue,FY2025,35.4,EURm,H2,,check,Key financials web table
+revenue,6M2025,22.1,EURm,H1,20,check,
+revenue,6M2026,6.2,EURm,H1,20,check,
+ebitda,FY2024,4.54,EURm,H2,,check,
+ebitda,FY2025,3.46,EURm,H2,,check,
+ebitda,6M2025,1.46,EURm,H1,20,check,
+ebitda,6M2026,-0.92,EURm,H1,20,check,
+net_profit,FY2024,2.13,EURm,H2,,check,
+net_profit,FY2025,1.04,EURm,H2,,check,
+net_profit,6M2025,0.28,EURm,H1,20,check,
+net_profit,6M2026,-2.21,EURm,H1,20,check,
+total_assets,FY2024,88.8,EURm,H2,,check,
+total_assets,FY2025,91.8,EURm,H2,,check,
+total_assets,6M2025,76.7,EURm,H1,20,check,
+total_assets,6M2026,103.7,EURm,H1,20,check,
+equity,FY2025,27.1,EURm,H1,20,check,
+equity,6M2025,20.6,EURm,H1,20,check,
+equity,6M2026,23.9,EURm,H1,20,check,
+equity_ratio,FY2024,24.8,%,H2,,check,
+equity_ratio,FY2025,29.5,%,H2,,check,
+equity_ratio,6M2025,26.8,%,H1,20,check,
+equity_ratio,6M2026,23.1,%,H1,20,check,Bond covenant: at least 20%
+net_debt,FY2025,43.9,EURm,H1,29,calc,Interest-bearing loans minus cash - calculated by the tool
+net_debt,6M2025,40.6,EURm,H1,29,calc,Interest-bearing loans minus cash - calculated by the tool
+net_debt,6M2026,56.2,EURm,H1,29,calc,Interest-bearing loans minus cash - calculated by the tool

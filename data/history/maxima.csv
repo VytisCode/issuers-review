@@ -1,0 +1,27 @@
+metric,period,value,unit,source,page,verified,note
+revenue,FY2024,3911,EURm,M2,7,check,Continuing operations (Baltics and Barbora)
+revenue,FY2025,4070,EURm,M2,7,check,Continuing operations (Baltics and Barbora)
+revenue,6M2025,1971.1,EURm,M1,3,check,Restated continuing operations
+revenue,6M2026,2026.4,EURm,M1,3,check,
+ebitda,FY2024,335,EURm,M2,7,check,Continuing operations
+ebitda,FY2025,375,EURm,M2,7,check,Continuing operations
+ebitda,6M2025,169.2,EURm,M1,7,check,
+ebitda,6M2026,169.9,EURm,M1,7,check,
+net_profit,FY2025,208.7,EURm,M1,4,calc,Total incl. discontinued; sum of H1 and H2 from the equity statement - calculated by the tool
+net_profit,6M2025,55.3,EURm,M1,3,check,Total incl. discontinued (continuing 75.5)
+net_profit,6M2026,85.7,EURm,M1,3,check,
+net_debt,FY2025,557.1,EURm,M2,8,check,Including leases
+net_debt,6M2026,764.5,EURm,M3,,check,Including leases (press release)
+nd_ebitda,FY2024,1.9,x,M2,8,check,
+nd_ebitda,FY2025,1.5,x,M2,8,check,
+nd_ebitda,6M2026,2.0,x,M3,,check,
+investments,FY2025,74.3,EURm,M2,8,check,Baltics
+investments,6M2025,71.9,EURm,M1,5,check,Cash flow purchases of PP&E and intangibles
+investments,6M2026,48.4,EURm,M1,5,check,Cash flow purchases of PP&E and intangibles
+equity,FY2024,572.9,EURm,M1,4,check,
+equity,FY2025,262.9,EURm,M1,3,check,
+equity,6M2026,147.4,EURm,M1,3,check,
+total_assets,FY2025,1725.7,EURm,M1,3,check,
+total_assets,6M2026,1763.8,EURm,M1,3,check,
+equity_ratio,FY2025,15.2,%,M1,3,calc,Equity / total assets - calculated by the tool
+equity_ratio,6M2026,8.4,%,M1,3,calc,Equity / total assets - calculated by the tool

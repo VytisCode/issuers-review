@@ -1,0 +1,27 @@
+metric,period,value,unit,source,page,verified,note
+revenue,FY2024,124.9,EURm,P3,10,check,
+revenue,FY2025,140.0,EURm,P3,10,check,Galio Group consolidated from 2025-10-01
+revenue,6M2025,63.3,EURm,P1,11,check,
+revenue,6M2026,81.6,EURm,P1,11,check,Includes Galio Group
+ebitda,FY2024,87.8,EURm,P3,10,check,
+ebitda,FY2025,98.3,EURm,P3,10,check,
+ebitda,6M2025,44.3,EURm,P1,11,check,
+ebitda,6M2026,56.6,EURm,P1,11,check,
+net_profit,FY2024,61.6,EURm,P3,10,check,
+net_profit,FY2025,88.1,EURm,P3,10,check,
+net_profit,6M2025,30.5,EURm,P1,6,check,
+net_profit,6M2026,37.0,EURm,P1,6,check,
+total_assets,FY2024,1300.4,EURm,P3,10,check,
+total_assets,FY2025,1714.3,EURm,P1,4,check,
+total_assets,6M2026,1616.6,EURm,P1,4,check,
+equity,FY2024,710.5,EURm,P3,10,check,
+equity,FY2025,799.6,EURm,P1,5,check,
+equity,6M2025,741.0,EURm,P1,7,check,
+equity,6M2026,746.6,EURm,P1,5,check,
+net_debt,FY2025,527.5,EURm,P2,11,check,
+net_debt,6M2026,584.6,EURm,P2,11,check,
+nd_ebitda,FY2025,6.2,x,P2,11,check,
+nd_ebitda,6M2026,5.3,x,P2,11,check,LTM
+ltv,FY2025,37.0,%,P2,11,check,Net LTV
+ltv,6M2026,41.7,%,P2,11,check,Net LTV
+interest_cover,6M2026,3.3,x,P2,12,check,Bond coverage ratio (covenant > 2x)
