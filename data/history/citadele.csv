@@ -1,0 +1,49 @@
+metric,period,value,unit,source,page,verified,note
+net_profit,FY2024,94.5,EURm,C2,2,check,Continuing operations
+net_profit,FY2025,84.7,EURm,C2,2,check,Continuing operations
+net_profit,6M2025,43.3,EURm,C1,2,check,Continuing operations
+net_profit,6M2026,39.8,EURm,C1,2,check,Continuing operations
+nii,FY2024,192.5,EURm,C2,2,check,
+nii,FY2025,177.2,EURm,C2,2,check,
+nii,6M2025,89.2,EURm,C1,2,check,
+nii,6M2026,89.5,EURm,C1,2,check,
+total_income,FY2024,234.8,EURm,C2,2,check,
+total_income,FY2025,221.5,EURm,C2,2,check,
+total_income,6M2025,111.5,EURm,C1,2,check,
+total_income,6M2026,109.4,EURm,C1,2,check,
+cost_income,FY2024,48.4,%,C2,2,check,
+cost_income,FY2025,49.2,%,C2,2,check,
+cost_income,6M2025,47.1,%,C1,2,check,
+cost_income,6M2026,50.3,%,C1,2,check,
+roe,FY2024,17.5,%,C2,2,check,
+roe,FY2025,14.6,%,C2,2,check,
+roe,6M2025,15.4,%,C1,2,check,
+roe,6M2026,13.7,%,C1,2,check,
+cor,FY2024,0.0,%,C2,2,check,
+cor,FY2025,0.1,%,C2,2,check,
+cor,6M2025,0.3,%,C1,2,check,
+cor,6M2026,0.3,%,C1,2,check,
+nim,6M2025,3.8,%,C1,2,check,
+nim,6M2026,3.7,%,C1,2,check,
+loans,FY2024,3275,EURm,C2,2,check,
+loans,FY2025,3764,EURm,C2,2,check,
+loans,6M2026,3947,EURm,C1,2,check,
+deposits,FY2024,4023,EURm,C2,2,check,
+deposits,FY2025,4304,EURm,C2,2,check,
+deposits,6M2026,4325,EURm,C1,2,check,
+cet1,FY2024,19.2,%,C2,2,check,
+cet1,FY2025,18.2,%,C2,2,check,
+cet1,6M2026,17.8,%,C1,2,check,
+total_capital,FY2024,21.4,%,C2,2,check,
+total_capital,FY2025,22.3,%,C2,2,check,
+total_capital,6M2026,21.6,%,C1,2,check,
+lcr,FY2024,181,%,C2,2,check,
+lcr,FY2025,181,%,C2,2,check,
+lcr,6M2026,163,%,C1,2,check,
+nsfr,FY2024,143,%,C2,2,check,
+nsfr,FY2025,141,%,C2,2,check,
+nsfr,6M2026,138,%,C1,2,check,
+npl,FY2024,2.3,%,C2,2,check,Stage 3 gross loans ratio
+npl,FY2025,1.7,%,C2,2,check,Stage 3 gross loans ratio
+npl,6M2025,2.1,%,C1,2,check,Stage 3 gross loans ratio
+npl,6M2026,1.9,%,C1,2,check,Stage 3 gross loans ratio

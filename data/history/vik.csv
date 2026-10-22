@@ -1,0 +1,17 @@
+metric,period,value,unit,source,page,verified,note
+total_assets,FY2024,208.4,EURm,K3,3,check,Comparative in 6M 2025 report
+total_assets,FY2025,162.3,EURm,K2,22,check,
+total_assets,6M2025,182.9,EURm,K3,3,check,
+total_assets,6M2026,169.4,EURm,K1,20,check,
+equity,FY2024,108.0,EURm,K3,3,check,Comparative in 6M 2025 report
+equity,FY2025,111.7,EURm,K2,22,check,
+equity,6M2025,107.9,EURm,K3,3,check,
+equity,6M2026,118.9,EURm,K1,20,check,
+net_profit,FY2024,8.14,EURm,K3,3,check,From equity statement in 6M 2025 report
+net_profit,FY2025,3.76,EURm,K2,22,check,
+net_profit,6M2025,-0.08,EURm,K3,3,check,
+net_profit,6M2026,7.13,EURm,K1,20,check,
+equity_ratio,FY2024,51.8,%,K3,3,calc,Equity / total assets - calculated by the tool
+equity_ratio,FY2025,68.9,%,K2,22,calc,Equity / total assets - calculated by the tool
+equity_ratio,6M2025,59.0,%,K3,3,calc,Equity / total assets - calculated by the tool
+equity_ratio,6M2026,70.1,%,K1,20,calc,Equity / total assets - calculated by the tool

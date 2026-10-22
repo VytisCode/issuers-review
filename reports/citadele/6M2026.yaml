@@ -1,0 +1,133 @@
+# Citadele banka - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą. 9M skelbiama 2026-11-04.
+issuer: citadele
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "Q3 2026 public financial information - 2026-11-04 [C3]"
+rating: "Moody's (2026-04-21): long-term deposits A3, senior unsecured Baa2, outlook stable; AT1 Ba3 [C4; C5]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** I pusm. pelnas 39,8 mln. EUR (−8 %), ROE 13,7 %; CET1 17,8 %, bendras kapitalas 21,6 % [C1 p.2]. Dėl geopolitinio neapibrėžtumo bankas išmokėjo tik 31,5 % pelno dividendais, o tai palanku obligacijų turėtojams [C1 p.5].", en: "**Position OK.** 1H profit EUR 39.8m (−8%), ROE 13.7%; CET1 17.8%, total capital 21.6% [C1 p.2]. Citing geopolitical uncertainty, the bank paid out only 31.5% of profit as dividends, which favours bondholders [C1 p.5]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [net_profit, nii, total_income, cost_income, roe, cor, nim, loans, deposits, cet1, total_capital, lcr, nsfr, npl]
+highlights: [net_profit, roe, cet1, total_capital]
+charts: [net_profit, loans, deposits, cet1]
+
+sources:
+  C1: {title: "Citadele - Interim report 6M 2026", url: "https://www.cblgroup.com/media/W1siZiIsIjIwMjYvMDgvMDUvNTh4c2I0cDRzM19DaXRhZGVsZV82bTIwMjZfRU4ucGRmIl1d?sha=6f81681556b09959", date: 2026-08-05}
+  C2: {title: "Citadele - Annual report 2025", url: "https://www.cblgroup.com/media/W1siZiIsIjIwMjYvMDMvMTkvOG9icXc4MzVubV9DaXRhZGVsZV9Bbm51YWxfcmVwb3J0XzIwMjUucGRmIl1d?sha=e68c93f08d3acc0c", date: 2026-03-19}
+  C3: {title: "Citadele - Bonds", url: "https://www.cblgroup.com/en/investors/bonds/", date: 2026-10-22}
+  C4: {title: "Citadele - Ratings", url: "https://www.cblgroup.com/en/investors/ratings/", date: 2026-10-22}
+  C5: {title: "Citadele issues EUR 50 million senior unsecured preferred bonds (2026-09-28)", url: "https://www.cblgroup.com/en/investors/announcements/2026/citadele-issues-eur-50-million-senior-unsecured-preferred-bonds/", date: 2026-09-28}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+
+quick_summary:
+  - lt: "**Pelnas šiek tiek mažesnis:** I pusm. grynasis pelnas (tęsiama veikla) 39,8 mln. EUR, prieš metus 43,3 mln.; ROE 13,7 % (15,4 %). Palūkanų pajamos stabilios – 89,5 mln. EUR [C1 p.2]."
+    en: "**Profit slightly lower:** 1H net profit (continuing operations) EUR 39.8m versus 43.3m; ROE 13.7% (15.4%). Net interest income stable at EUR 89.5m [C1 p.2]."
+  - lt: "**Kapitalas ir likvidumas – su atsarga:** CET1 17,8 %, bendras kapitalas 21,6 %, LCR 163 %, NSFR 138 % [C1 p.2, p.7]."
+    en: "**Capital and liquidity with headroom:** CET1 17.8%, total capital 21.6%, LCR 163%, NSFR 138% [C1 p.2, p.7]."
+  - lt: "**Atsargūs dividendai:** už 2025 m. išmokėta 25,7 mln. EUR (31,5 % pelno, planuota 50 %) dėl geopolitinio neapibrėžtumo; 2026 m. sausį baigtas 50 mln. EUR akcijų supirkimas [C1 p.5]."
+    en: "**Cautious dividends:** EUR 25.7m paid for 2025 (31.5% payout versus a 50% policy) due to geopolitical uncertainty; a EUR 50m share buyback was completed in January 2026 [C1 p.5]."
+  - lt: "**Vadovų pokyčiai:** iš valdybos išėjo S. Mizak (2026-03) ir rizikos vadovė J. Lebedinska-Ļitvinova (2026-05); naujuoju rizikos vadovu siūlomas E. Näsäkkälä [C1 p.5, p.11]."
+    en: "**Management changes:** S. Mizak left the board (March 2026) and CRO J. Lebedinska-Ļitvinova stepped down (May 2026); E. Näsäkkälä is nominated as the new CRO [C1 p.5, p.11]."
+
+business:
+  - lt: "Paskolos 3 947 mln. EUR (+4,9 % nuo 2025 m. pab.), indėliai 4 325 mln. EUR (apskaičiuota įrankio) [C1 p.2, p.15]."
+    en: "Loans EUR 3,947m (+4.9% since YE2025), deposits EUR 4,325m (calculated by the tool) [C1 p.2, p.15]."
+  - lt: "Sąnaudų / pajamų santykis 50,3 % (47,1 %), rizikos kaina 0,3 %, trečios stadijos paskolos 1,9 % (2,1 %) [C1 p.2, p.4]."
+    en: "Cost/income 50.3% (47.1%), cost of risk 0.3%, stage 3 loans 1.9% (2.1%) [C1 p.2, p.4]."
+  - lt: "Žaliasis finansavimas I pusm. – 56,4 mln. EUR (7,5 % naujų paskolų); 2025 m. – 176,2 mln. EUR [C1 p.7; C2 p.24]."
+    en: "Green financing in 1H EUR 56.4m (7.5% of new lending); EUR 176.2m in 2025 [C1 p.7; C2 p.24]."
+
+financials:
+  - lt: "2025 m. pelnas (tęsiama veikla) 84,7 mln. EUR (2024 m. – 94,5 mln.), ROE 14,6 % (17,5 %); 2025 m. parduotas Šveicarijos Kaleido Privatbank [C2 p.2, p.5-7]."
+    en: "FY2025 profit (continuing operations) EUR 84.7m (2024: 94.5m), ROE 14.6% (17.5%); the Swiss Kaleido Privatbank was sold in 2025 [C2 p.2, p.5-7]."
+  - lt: "2026-09-28 išleista 50 mln. EUR pirmaeilių obligacijų (5,15 %); dalis lėšų skirta 40 mln. EUR subordinuotoms obligacijoms supirkti [C5]."
+    en: "On 2026-09-28 EUR 50m of senior preferred bonds (5.15%) were issued; part of the proceeds will buy back EUR 40m of subordinated bonds [C5]."
+
+plans:
+  - plan: {lt: "Dividendų politika: 50 % praėjusių metų pelno, jei leidžia vidiniai kapitalo tikslai", en: "Dividend policy: 50% of prior-year profit, subject to internal capital targets"}
+    outcome: {lt: "Už 2025 m. išmokėta 31,5 %; likusi 15,1 mln. EUR dalis gali būti išmokėta vėliau 2026 m.", en: "31.5% paid for 2025; the remaining EUR 15.1m may be paid later in 2026"}
+    status: changed
+    src: "C2 p.11; C1 p.5"
+    why: {lt: "Pakeista: valdyba sumažino išmoką dėl geopolitinio neapibrėžtumo [C1 p.5].", en: "Changed: the board reduced the payout due to geopolitical uncertainty [C1 p.5]."}
+  - plan: {lt: "Žaliasis finansavimas: 75 mln. EUR tikslas 2026 m.", en: "Green financing target of EUR 75m for 2026"}
+    outcome: {lt: "I pusm. – 56,4 mln. EUR", en: "1H: EUR 56.4m"}
+    status: pending
+    src: "C2 p.22; C1 p.7"
+    why: {lt: "Vykdoma: per pusmetį pasiekta 75 % metinio tikslo (apskaičiuota įrankio) [C1 p.7].", en: "In progress: 75% of the annual target reached in the half year (calculated by the tool) [C1 p.7]."}
+  - plan: {lt: "Vizija – tapti Baltijos šalių bankininkystės čempionu", en: "Vision: become the Baltic banking champion"}
+    outcome: {lt: "Paskolų portfelis auga, ROE 13,7 %", en: "Loan book growing, ROE 13.7%"}
+    status: pending
+    src: "C1 p.2"
+    why: {lt: "Ilgalaikis tikslas.", en: "Long-term goal."}
+
+investor:
+  - lt: "**Turimos priemonės:** 3,875 % pirmaeilė privilegijuota (MREL) obligacija – 300 mln. EUR, fiksuota iki 2028-12-23, po to 3M EURIBOR + 1,70 %, išpirkimas 2029-12-23, reitingas Baa2; ir AT1 7,125 % neterminuota – 50 mln. EUR, pirmoji perskaičiavimo (pirkimo) data 2031-01-09, reitingas Ba3 [C3]."
+    en: "**Instruments held:** a 3.875% senior preferred (MREL) bond, EUR 300m, fixed until 2028-12-23 then 3M EURIBOR + 1.70%, maturing 2029-12-23, rated Baa2; and a 7.125% perpetual AT1, EUR 50m, first reset (call) date 2031-01-09, rated Ba3 [C3]."
+  - lt: "**AT1 turėtojams:** CET1 17,8 % gerokai viršija reikalavimus, o atsargi dividendų politika stiprina kapitalą [C1 p.2, p.5]."
+    en: "**For AT1 holders:** CET1 of 17.8% is well above requirements, and the cautious dividend policy supports capital [C1 p.2, p.5]."
+  - lt: "**Savininkai:** Ripplewood konsorciumas 69,8 %, ERPB 27,8 % [C1 p.11]. 2026-10-12 vyko neeilinis akcininkų susirinkimas [C3]."
+    en: "**Owners:** Ripplewood consortium 69.8%, EBRD 27.8% [C1 p.11]. An extraordinary shareholders' meeting was held on 2026-10-12 [C3]."
+  - lt: "Išvada: pelningumas geras, kapitalas stiprus, finansavimas pigus. 9M rezultatai – 2026-11-04."
+    en: "Conclusion: good profitability, strong capital and cheap funding. 9M results due on 2026-11-04."
+
+esg:
+  policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Bankas nevykdo veiklos išskirtuose sektoriuose; nustatyti sektoriai, kurių nefinansuoja dėl didelio neigiamo poveikio aplinkai [C2 p.24]."
+        en: "The bank is not active in excluded sectors and has defined industries it does not finance due to significant negative environmental impact [C2 p.24]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires ir priežiūros baudų nerasta (2026-10-22)."
+        en: "No UN Global Compact or OECD related controversies or supervisory fines found (2026-10-22)."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (2026-10-22)."
+        en: "No adverse news found (2026-10-22)."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Žaliojo skolinimo sistema; žaliasis finansavimas 2025 m. – 176,2 mln. EUR (2024 m. – 102,4 mln.), žalieji indėliai 52 mln. EUR [C2 p.24]. JT Atsakingos bankininkystės principų narys; turto valdymo įmonė – PRI signatarė [C2 p.23]."
+        en: "Green Lending Framework; green financing EUR 176.2m in 2025 (2024: 102.4m), green savings EUR 52m [C2 p.24]. Member of the UN Principles for Responsible Banking; the asset manager is a PRI signatory [C2 p.23]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Tikslas – nulinės finansuojamos emisijos iki 2050 m. (pereinamojo laikotarpio planas v1) [C2 p.22]."
+        en: "Target of net-zero financed emissions by 2050 (Transition Plan v1) [C2 p.22]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta."
+        en: "No yellow flags found."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika bei aplinkosaugos ir socialinė / žmogaus teisių politikos [SP1 p.5, p.7]. **Atitinka:** finansavimo išimtys [C2 p.24]; klimato tikslas 2050 m. [C2 p.22]; JT PRB narystė [C2 p.23]; pinigų plovimo prevencijos ir sankcijų mokymai beveik 100 % darbuotojų [C2 p.22]. **Galėtų būti geriau:** finansuojamų emisijų skaičiai ataskaitoje nerasti."
+        en: "**Applicable:** the Investments policy and the Environmental and Social & Human Rights policies [SP1 p.5, p.7]. **Met:** financing exclusions [C2 p.24]; 2050 climate target [C2 p.22]; UN PRB membership [C2 p.23]; AML and sanctions training for close to 100% of staff [C2 p.22]. **Could be improved:** financed emission figures not found in the report."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: bankas pelningas, kapitalas stiprus, ESG praktika tvarkinga."
+        en: "No need: the bank is profitable, well capitalised and ESG practice is in order."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Žaliasis finansavimas – 11 % naujų paskolų 2025 m. [C2 p.24]; moterų dalis valdyboje 43 %, stebėtojų taryboje 25 % [C2 p.20]."
+        en: "Green financing 11% of new lending in 2025 [C2 p.24]; women on the management board 43%, supervisory board 25% [C2 p.20]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Žaliasis finansavimas auga, yra klimato tikslas ir JT PRB narystė."
+    en: "No exclusions or red flags. Green financing is growing, with a climate target and UN PRB membership."

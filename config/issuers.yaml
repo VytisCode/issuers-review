@@ -136,3 +136,60 @@ artea:
   news_queries:
     - '"Artea bankas"'
     - '"Artea" bankas'
+
+citadele:
+  name: Citadele banka
+  legal_name: AS Citadele banka
+  country: LV
+  sector: Bank (Baltic universal bank; LV, LT, EE; leasing, asset management)
+  owner: Ripplewood-led consortium 69.8%, EBRD 27.8%, management and others 2.4% (2026-06-30)
+  website: https://www.cblgroup.com/en/
+  ir_page: https://www.cblgroup.com/en/investors/announcements/
+  ratings_page: https://www.cblgroup.com/en/investors/ratings/
+  nasdaq_ticker: ""
+  media: all
+  seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://www.cblgroup.com/en/investors/announcements/
+  report_calendar: "Q3 2026 public financial information: 2026-11-04"
+  news_match: [citadele]
+  news_queries:
+    - '"Citadele"'
+
+inbank:
+  name: Inbank
+  legal_name: AS Inbank
+  country: EE
+  sector: Bank (consumer finance, point-of-sale and car financing in the Baltics, Poland, Czechia; deposits in EU)
+  owner: Listed on Nasdaq Tallinn (INBB); founders and management, Cofi Investeeringud, Pershing
+  website: https://inbank.eu/investors/
+  ir_page: https://inbank.eu/investors/reporting
+  ratings_page: ""
+  nasdaq_ticker: INBB
+  media: EE
+  seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://inbank.eu/investors/reporting
+  report_calendar: "Q3 2026 results: expected late October / November 2026"
+  news_match: [inbank]
+  news_queries:
+    - '"Inbank"'
+
+vik:
+  name: Valstybės investicinis kapitalas (VIK)
+  legal_name: UAB "Valstybės investicinis kapitalas"
+  country: LT
+  sector: State investment company (defence industry, energy, Business Support Fund)
+  owner: Republic of Lithuania (Ministry of Finance) 100%; transfer to ILTE (state-controlled) decided 2026-02
+  website: https://www.vika.lt
+  ir_page: https://nasdaqbaltic.com/statistics/en/instrument/LT0000135436/reports
+  ratings_page: ""
+  nasdaq_ticker: ""
+  media: LT
+  seb_policies: [investments, arms_defence, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nasdaqbaltic.com/statistics/en/instrument/LT0000135436/reports
+  report_calendar: "9M 2026 interim report: expected November 2026"
+  news_match: [valstybės investicinis kapitalas, vika]
+  news_queries:
+    - '"Valstybės investicinis kapitalas"'

@@ -1,0 +1,48 @@
+metric,period,value,unit,source,page,verified,note
+net_profit,FY2025,19.2,EURm,I3,-,check,
+net_profit,6M2025,8.1,EURm,I1,9,check,
+net_profit,6M2026,8.3,EURm,I1,9,check,
+nii,FY2024,67.5,EURm,I4,-,check,Core (excl. one-offs)
+nii,FY2025,74.2,EURm,I3,-,check,Core (excl. one-offs)
+nii,6M2025,36.4,EURm,I1,9,check,
+nii,6M2026,37.5,EURm,I1,9,check,
+total_income,FY2024,76.4,EURm,I4,-,check,Core
+total_income,FY2025,85.1,EURm,I3,-,check,Core
+total_income,6M2025,41.5,EURm,I1,9,check,
+total_income,6M2026,43.9,EURm,I1,9,check,
+cost_income,FY2024,56.6,%,I4,-,check,Core
+cost_income,FY2025,54.4,%,I3,-,check,
+cost_income,6M2025,55.9,%,I1,9,check,Q2 2025
+cost_income,6M2026,54.3,%,I1,9,check,Q2 2026
+roe,FY2024,11.3,%,I4,-,check,Core
+roe,FY2025,12.3,%,I3,-,check,
+roe,6M2025,9.3,%,I1,9,check,Q2 2025
+roe,6M2026,9.6,%,I1,9,check,
+cor,FY2024,1.5,%,I4,-,check,
+cor,FY2025,1.59,%,I3,-,check,
+cor,6M2025,1.6,%,I1,9,check,Q2 2025
+cor,6M2026,1.54,%,I1,9,check,Q2 2026
+loans,FY2024,1155.1,EURm,I4,-,check,"Loan and rental portfolio, core table"
+loans,FY2025,1280,EURm,I3,-,check,Loan and rental portfolio
+loans,6M2026,1320,EURm,I1,9,check,Loan and rental portfolio
+deposits,FY2024,1171.4,EURm,I4,-,check,Core table
+deposits,FY2025,1301.1,EURm,I3,-,check,
+deposits,6M2025,1233.4,EURm,I1,9,check,
+deposits,6M2026,1320.0,EURm,I1,9,check,
+equity,FY2025,171.0,EURm,I3,-,check,
+equity,6M2025,155.7,EURm,I1,9,check,
+equity,6M2026,176.2,EURm,I1,9,check,
+cet1,FY2025,14.13,%,I2,3,check,
+cet1,6M2025,13.03,%,I2,3,check,
+cet1,6M2026,13.15,%,I2,3,check,
+total_capital,FY2025,18.81,%,I2,3,check,
+total_capital,6M2025,17.31,%,I2,3,check,
+total_capital,6M2026,18.38,%,I2,3,check,
+leverage,FY2025,10.71,%,I2,4,check,
+leverage,6M2025,9.75,%,I2,4,check,
+leverage,6M2026,10.83,%,I2,4,check,
+nsfr,FY2025,135.74,%,I2,4,check,
+nsfr,6M2025,135.3,%,I2,4,check,
+nsfr,6M2026,133.03,%,I2,4,check,
+npl,FY2025,2.3,%,I1,20,calc,>90 days past due share of gross private loans - calculated
+npl,6M2026,2.4,%,I1,20,calc,>90 days past due share of gross private loans - calculated

@@ -1,0 +1,127 @@
+# Inbank - apžvalga pagal 2026 m. II ketv. (6M) ataskaitą.
+issuer: inbank
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "Q3 2026 results - expected late October / November 2026"
+rating: "No public credit rating found"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** I pusm. pelnas 8,3 mln. EUR (+2 %), ROE 9,6 % [I1 p.5, p.9]. Kapitalas viršija reikalavimus: CET1 13,15 % (reikalaujama 9,85 %), bendras kapitalas 18,38 % (14,66 %) [I2 p.2-3].", en: "**Position OK.** 1H profit EUR 8.3m (+2%), ROE 9.6% [I1 p.5, p.9]. Capital is above requirements: CET1 13.15% (requirement 9.85%), total capital 18.38% (14.66%) [I2 p.2-3]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [net_profit, nii, total_income, cost_income, roe, cor, loans, deposits, equity, cet1, total_capital, leverage, nsfr, npl]
+highlights: [net_profit, roe, cet1, total_capital]
+charts: [net_profit, loans, deposits, total_capital]
+
+sources:
+  I1: {title: "Inbank - Interim report Q2 2026", url: "https://ib-cdn.inbank.eu/documents/ee/en/pdf/reports/Inbank_Interim_Report_2026_Q2.pdf", date: 2026-07}
+  I2: {title: "Inbank - Capital adequacy and risk disclosure Q2 2026", url: "https://ib-cdn.inbank.eu/documents/ee/en/pdf/Inbank_Risk_Disclosure_2026_Q2.pdf", date: 2026-07}
+  I3: {title: "Inbank publishes audited annual report for 2025", url: "https://inbank.eu/news/inbank-publishes-audited-annual-report-for-2025", date: 2026-03-05}
+  I4: {title: "Inbank - Investors (core financial figures)", url: "https://inbank.eu/investors/", date: 2026-10-22}
+  I5: {title: "Finantsinspektsioon issued a precept to Inbank AS", url: "https://fi.ee/en/news/finantsinspektsioon-issued-precept-inbank", date: 2023-10-19}
+  I6: {title: "Finantsinspektsioon issued a precept to AS Inbank Finance", url: "https://fi.ee/en/news/finantsinspektsioon-issued-precept-inbank-finance", date: 2025-10-14}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+
+quick_summary:
+  - lt: "**Pelnas stabilus:** I pusm. grynasis pelnas 8,3 mln. EUR (8,1 mln.), II ketv. – 4,3 mln. EUR (3,6 mln.); ROE 9,6 % [I1 p.5, p.9]."
+    en: "**Stable profit:** 1H net profit EUR 8.3m (8.1m), Q2 EUR 4.3m (3.6m); ROE 9.6% [I1 p.5, p.9]."
+  - lt: "**Kapitalas su atsarga:** CET1 13,15 %, bendras kapitalas 18,38 %, sverto rodiklis 10,83 %; birželį išleista nauja 8,34 mln. EUR AT1 emisija (8,25 %) [I2 p.3-4; I1 p.5, p.26]."
+    en: "**Capital with headroom:** CET1 13.15%, total capital 18.38%, leverage ratio 10.83%; a new EUR 8.34m AT1 (8.25%) was issued in June [I2 p.3-4; I1 p.5, p.26]."
+  - lt: "**Didelis likvidumas:** LCR 1 161 %, NSFR 133 %; indėliai 1 320 mln. EUR [I2 p.4; I1 p.8]."
+    en: "**High liquidity:** LCR 1,161%, NSFR 133%; deposits EUR 1,320m [I2 p.4; I1 p.8]."
+  - lt: "**Nauja kryptis:** su Eurobank kuriama 50/50 įmonė Graikijoje (licencijavimas vyksta, pradžia – 2027 m. I ketv.) [I1 p.5]."
+    en: "**New direction:** a 50/50 embedded-finance joint venture with Eurobank in Greece (licensing under way, launch expected Q1 2027) [I1 p.5]."
+
+business:
+  - lt: "Paskolų ir nuomos portfelis 1,32 mlrd. EUR [I1 p.5]. Rizikos kaina 1,54 % – vartojimo finansavimo bankui įprasta ir, pasak vadovybės, tikslo ribose [I1 p.5]."
+    en: "Loan and rental portfolio EUR 1.32bn [I1 p.5]. Cost of risk 1.54%, normal for a consumer finance bank and, per management, within the target range [I1 p.5]."
+  - lt: "Žaliasis finansavimas II ketv. – 28,4 mln. EUR (−23 %); 2025 m. – 146 mln. EUR (+65 %) [I1 p.5; I3]."
+    en: "Green financing in Q2 EUR 28.4m (−23%); EUR 146m in 2025 (+65%) [I1 p.5; I3]."
+  - lt: "Vėluojančių >90 d. privačių paskolų dalis – 2,4 % (apskaičiuota įrankio) [I1 p.20]."
+    en: "Share of private loans >90 days past due 2.4% (calculated by the tool) [I1 p.20]."
+
+financials:
+  - lt: "2025 m. grynasis pelnas 19,2 mln. EUR, ROE 12,3 %, sąnaudų / pajamų santykis 54,4 %, rizikos kaina 1,59 % [I3]."
+    en: "FY2025 net profit EUR 19.2m, ROE 12.3%, cost/income 54.4%, cost of risk 1.59% [I3]."
+  - lt: "Dividendai už 2025 m. – 0,40 EUR akcijai (4,8 mln. EUR) [I1 p.11]."
+    en: "Dividend for 2025 EUR 0.40 per share (EUR 4.8m) [I1 p.11]."
+
+plans:
+  - plan: {lt: "Plėtra Graikijoje per bendrą įmonę su Eurobank", en: "Expansion into Greece through a joint venture with Eurobank"}
+    outcome: {lt: "Sutartis 2026-07; licencijavimas vyksta, pradžia – 2027 m. I ketv.", en: "Agreed July 2026; licensing under way, launch Q1 2027"}
+    status: pending
+    src: "I1 p.5"
+    why: {lt: "Naujas planas [I1 p.5].", en: "New plan [I1 p.5]."}
+  - plan: {lt: "Paskolų nuostoliai – tikslo ribose", en: "Keep impairments within the target range"}
+    outcome: {lt: "II ketv. rizikos kaina 1,54 % – tikslo ribose", en: "Q2 cost of risk 1.54%, within the target range"}
+    status: met
+    src: "I1 p.5"
+    why: {lt: "Įvykdyta [I1 p.5].", en: "Met [I1 p.5]."}
+
+investor:
+  - lt: "**Turimos priemonės:** subordinuota 5,5 % obligacija 2031-12-15 (15 mln. EUR) ir AT1 7,5 % neterminuota (4,5 mln. EUR). AT1 kuponus Inbank gali savo nuožiūra atidėti ar atšaukti [I1 p.26]. Savininko sąraše nurodyta 2031-12-28 data AT1 obligacijai ataskaitoje nepatvirtinta: ji neterminuota [I1 p.26]."
+    en: "**Instruments held:** a 5.5% subordinated bond due 2031-12-15 (EUR 15m) and a 7.5% perpetual AT1 (EUR 4.5m). Inbank may defer or cancel AT1 coupons at its discretion [I1 p.26]. The 2031-12-28 date in the owner's list for the AT1 is not supported by the report: it is perpetual [I1 p.26]."
+  - lt: "**Kapitalo atsarga:** bendras kapitalas 18,38 %, kai reikalaujama 14,66 %; CET1 13,15 % (9,85 %) [I2 p.2-3]. Reitingo nėra."
+    en: "**Capital buffer:** total capital 18.38% versus a 14.66% requirement; CET1 13.15% (9.85%) [I2 p.2-3]. No credit rating."
+  - lt: "Išvada: pelnas stabilus, kapitalas ir likvidumas su atsarga. Subordinuotoms priemonėms svarbiausia – kapitalo atsarga virš reikalavimų."
+    en: "Conclusion: stable profit, capital and liquidity with headroom. For subordinated instruments the key is the capital buffer above requirements."
+
+esg:
+  policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Vartojimo ir pirkinių finansavimas, automobilių lizingas – veiklos išskirtuose sektoriuose nėra [I1 p.5]."
+        en: "Consumer and purchase financing and car leasing: no activity in excluded sectors [I1 p.5]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta. Finantsinspektsioon nurodymai: 2023 m. Inbank AS – ištaisyti valdymo, atitikties ir rizikos valdymo trūkumus [I5]; 2025-10 Inbank Finance – ištaisyti vartojimo kreditų vertinimo taisykles iki 2025 m. gruodžio vidurio [I6]. Baudų neskirta."
+        en: "No UN Global Compact or OECD related controversies found. Finantsinspektsioon precepts: in 2023 to Inbank AS to remedy governance, compliance and risk management deficiencies [I5]; in October 2025 to Inbank Finance to fix consumer creditworthiness rules by mid-December 2025 [I6]. No fines imposed."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta, išskyrus aukščiau minėtus priežiūros nurodymus (2026-10-22)."
+        en: "No adverse news found apart from the supervisory precepts above (2026-10-22)."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Žaliasis finansavimas (saulės elektrinės, elektromobiliai ir kt.) 2025 m. – 146 mln. EUR, +65 % [I3; I1 p.5]."
+        en: "Green financing (solar, EVs and similar) EUR 146m in 2025, +65% [I3; I1 p.5]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Žaliojo finansavimo produktai prisideda prie Paryžiaus tikslų; atskiro klimato neutralumo tikslo nerasta."
+        en: "Green financing products contribute to the Paris goals; no separate net-zero target found."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Rimtų geltonų signalų nėra; priežiūros nurodymai be baudų [I5; I6]."
+        en: "No significant yellow flags; supervisory precepts without fines [I5; I6]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika bei aplinkosaugos ir socialinė / žmogaus teisių politikos [SP1 p.5, p.7]. **Atitinka:** veiklos išskirtuose sektoriuose nėra, augantis žaliasis finansavimas [I3]. **Galėtų būti geriau:** klimato tikslai ir finansuojamos emisijos viešai nerasti."
+        en: "**Applicable:** the Investments policy and the Environmental and Social & Human Rights policies [SP1 p.5, p.7]. **Met:** no activity in excluded sectors, growing green financing [I3]. **Could be improved:** climate targets and financed emissions not found publicly."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: bankas pelningas, kapitalas su atsarga."
+        en: "No need: the bank is profitable with a capital buffer."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Žaliasis finansavimas – 146 mln. EUR 2025 m. [I3]; II ketv. – 28,4 mln. EUR [I1 p.5]."
+        en: "Green financing EUR 146m in 2025 [I3]; EUR 28.4m in Q2 2026 [I1 p.5]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Žaliasis finansavimas auga; buvo priežiūros nurodymų dėl valdymo ir kreditų vertinimo (be baudų)."
+    en: "No exclusions or red flags. Green financing is growing; there were supervisory precepts on governance and credit assessment (no fines)."

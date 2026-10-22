@@ -1,0 +1,125 @@
+# Valstybės investicinis kapitalas (VIK) - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą.
+issuer: vik
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "9M 2026 interim report - expected November 2026"
+rating: "Fitch A+ on the EUR 400m bond programme, linked to Lithuania's rating through the state guarantee [K1 p.10, p.17-18]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** VIK 100 % priklauso valstybei, obligacijų programai Fitch suteikė A+ reitingą, susietą su valstybės garantija [K1 p.9-10, p.17-18]. I pusm. pelnas 7,1 mln. EUR, nuosavo kapitalo dalis 70 % (apskaičiuota įrankio) [K1 p.20-21].", en: "**Position OK.** VIK is 100% state-owned and Fitch rates its bond programme A+, linked to the state guarantee [K1 p.9-10, p.17-18]. 1H profit EUR 7.1m, equity ratio 70% (calculated by the tool) [K1 p.20-21]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [total_assets, equity, equity_ratio, net_profit]
+highlights: [total_assets, equity, equity_ratio, net_profit]
+charts: [total_assets, equity, net_profit]
+
+sources:
+  K1: {title: "VIK - Interim report 6M 2026 (unaudited)", url: "https://nasdaqbaltic.com/market/upload/reports/vika/2026_q2_en_esef.pdf", date: 2026}
+  K2: {title: "VIK - Annual report 2025 (audited)", url: "https://nasdaqbaltic.com/market/upload/reports/vika/2025_ar_en_esef.pdf", date: 2026}
+  K3: {title: "VIK - Interim report 6M 2025", url: "https://nasdaqbaltic.com/market/upload/reports/vika/2025_q2_en_con.pdf", date: 2025-08-25}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP8: {title: "SEB Arms and Defence sector policy (2026-04-23)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-23}
+
+quick_summary:
+  - lt: "**Valstybės gynybos investuotojas:** VIK finansuoja Lietuvos gynybos pramonę ir kitus strateginius sektorius; pagrindinis projektas – Rheinmetall amunicijos gamykla Baisogaloje (VIK investicija iki 71,05 mln. EUR) [K1 p.4, p.11; K2 p.5, p.9]."
+    en: "**State defence investor:** VIK finances Lithuania's defence industry and other strategic sectors; its main project is the Rheinmetall ammunition plant in Baisogala (VIK investment up to EUR 71.05m) [K1 p.4, p.11; K2 p.5, p.9]."
+  - lt: "**Reitingas pagerėjo:** Fitch obligacijų programai suteikė A+ – aukščiausią iki šiol [K1 p.10]."
+    en: "**Rating upgraded:** Fitch rates the bond programme A+, the highest so far [K1 p.10]."
+  - lt: "**Pinigai grįžta iš Verslo paramos fondo:** iš 200 mln. EUR grąžinta 120,5 mln. EUR (60 %), likusieji – iki 2028 m. vidurio; 2026-07-02 gauta dar 22 mln. EUR [K1 p.8, p.11; K2 p.7]."
+    en: "**Cash returning from the Business Support Fund:** EUR 120.5m (60%) of the EUR 200m returned so far, the rest by mid-2028; another EUR 22m received on 2026-07-02 [K1 p.8, p.11; K2 p.7]."
+  - lt: "**Skola mažėja:** iš 125 mln. EUR išleistų obligacijų 75 mln. EUR jau išpirkta [K2 p.5, p.8]."
+    en: "**Debt falling:** EUR 75m of the EUR 125m of bonds issued has already been redeemed [K2 p.5, p.8]."
+
+business:
+  - lt: "2025 m. VIK įsigijo 49 % EPSO-G Invest (36,3 mln. EUR), kuri valdo 48 % Rheinmetall Defence Lietuva; gamyklos statyba pradėta 2025-11-04 [K2 p.5, p.8-9]."
+    en: "In 2025 VIK bought 49% of EPSO-G Invest (EUR 36.3m), which owns 48% of Rheinmetall Defence Lietuva; plant construction started on 2025-11-04 [K2 p.5, p.8-9]."
+  - lt: "2026 m. pasirašytas memorandumas su Rheinmetall Landsysteme ir KNDS Deutschland dėl ~50 mln. EUR techninės priežiūros centro Kauno LEZ [K1 p.10]."
+    en: "In 2026 a memorandum was signed with Rheinmetall Landsysteme and KNDS Deutschland on a ~EUR 50m maintenance centre in the Kaunas FEZ [K1 p.10]."
+  - lt: "2026-02 akcininkas nusprendė perduoti VIK akcijas valstybės valdomai ILTE (reikia Vyriausybės pritarimo) [K2 p.14; K1 p.10]."
+    en: "In February 2026 the shareholder decided to transfer VIK's shares to the state-controlled ILTE (Government approval needed) [K2 p.14; K1 p.10]."
+
+financials:
+  - lt: "Turtas 169,4 mln. EUR, nuosavas kapitalas 118,9 mln. EUR; I pusm. pelnas 7,1 mln. EUR, daugiausia dėl 8,0 mln. EUR tikrosios vertės padidėjimo [K1 p.20-21]."
+    en: "Total assets EUR 169.4m, equity EUR 118.9m; 1H profit EUR 7.1m, mainly from an EUR 8.0m fair value gain [K1 p.20-21]."
+  - lt: "2025 m. pelnas 3,8 mln. EUR (2024 m. – 8,1 mln.); išleistų obligacijų likutis 2026-06-30 – apie 50,6 mln. EUR (apskaičiuota įrankio) [K2 p.22; K3 p.5; K1 p.20]."
+    en: "FY2025 profit EUR 3.8m (2024: 8.1m); bonds outstanding at 2026-06-30 about EUR 50.6m (calculated by the tool) [K2 p.22; K3 p.5; K1 p.20]."
+
+plans:
+  - plan: {lt: "Grąžinti visą 200 mln. EUR Verslo paramos fondo investiciją iki 2028 m. vidurio", en: "Recover the full EUR 200m Business Support Fund investment by mid-2028"}
+    outcome: {lt: "Grąžinta 120,5 mln. EUR (60 %)", en: "EUR 120.5m (60%) returned"}
+    status: pending
+    src: "K2 p.7; K1 p.8"
+    why: {lt: "Vykdoma pagal planą [K1 p.8].", en: "On track [K1 p.8]."}
+  - plan: {lt: "Investuoti iki 71,05 mln. EUR į Rheinmetall Defence Lietuva projektą", en: "Invest up to EUR 71.05m in the Rheinmetall Defence Lietuva project"}
+    outcome: {lt: "2025 m. investuota 36 mln. EUR; statyba vyksta", en: "EUR 36m invested in 2025; construction under way"}
+    status: pending
+    src: "K2 p.5, p.9"
+    why: {lt: "Vykdoma; finansuojama ir 25 mln. EUR gynybos obligacijomis [K1 p.17].", en: "In progress; also financed by the EUR 25m defence bond [K1 p.17]."}
+
+investor:
+  - lt: "**Turimos priemonės:** 2,826 % obligacija, išpirkimas 2027-06-30 (Nasdaq Vilnius nuo 2022-07-04), ir 3,119 % gynybos obligacija – 25 mln. EUR, išleista 2025-09-24, išpirkimas 2029-09-24; jos lėšos visos skirtos Rheinmetall projektui [K2 p.11, p.13; K1 p.17]."
+    en: "**Instruments held:** a 2.826% bond maturing 2027-06-30 (Nasdaq Vilnius since 2022-07-04) and a 3.119% defence bond, EUR 25m, issued 2025-09-24, maturing 2029-09-24, with proceeds fully allocated to the Rheinmetall project [K2 p.11, p.13; K1 p.17]."
+  - lt: "**Kredito rizika artima valstybės:** obligacijų įsipareigojimams suteikta valstybės garantija, todėl Fitch A+ reitingas susietas su Lietuvos reitingu [K1 p.8, p.17-18]."
+    en: "**Credit risk close to the sovereign:** the bonds are backed by a state guarantee, so the Fitch A+ rating is linked to Lithuania's rating [K1 p.8, p.17-18]."
+  - lt: "Išvada: rizika maža – valstybės nuosavybė ir garantija, mažėjanti skola, grįžtančios fondo lėšos."
+    en: "Conclusion: low risk thanks to state ownership and guarantee, falling debt and returning fund money."
+
+esg:
+  policies: [investments, arms_defence, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Kontroversiškų ar branduolinių ginklų nėra. VIK investuoja į įprastinę gynybos pramonę (Rheinmetall amunicijos gamykla Lietuvoje) [K2 p.5, p.8]; SEB ginklų ir gynybos politika riboja tik kontroversiškus ginklus, branduolinius ginklus ne NATO šalyse, civilinius pusiau automatinius ginklus ir nelicencijuotą prekybą [SP8 p.5]."
+        en: "No controversial or nuclear weapons. VIK invests in conventional defence industry (the Rheinmetall ammunition plant in Lithuania) [K2 p.5, p.8]; the SEB Arms and Defence policy only restricts controversial weapons, nuclear weapons outside NATO, civilian semi-automatic arms and unlicensed trade [SP8 p.5]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (2026-10-22)."
+        en: "No adverse news found (2026-10-22)."
+    int_promoting:
+      status: 'no'
+      evidence:
+        lt: "VIK nurodo, kad tvarumas nėra pagrindinis jos tikslas – prioritetas yra gynyba ir saugumas [K1 p.13-14]."
+        en: "VIK states that sustainability is not a primary objective; the priority is defence and security [K1 p.13-14]."
+    int_taxonomy:
+      status: 'no'
+      evidence:
+        lt: "Klimato ar taksonomijos tikslų nėra; žalieji pirkimai per CPO LT [K1 p.14]."
+        en: "No climate or taxonomy targets; green procurement through CPO LT [K1 p.14]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta. Taikomas Nasdaq Vilnius valdysenos kodeksas [K1 p.35]."
+        en: "No yellow flags found. The Nasdaq Vilnius corporate governance code is applied [K1 p.35]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika [SP1] ir ginklų bei gynybos politika [SP8 p.5]. **Atitinka:** investicijos į licencijuotą gynybos gamybą NATO šalyje, be kontroversiškų ar branduolinių ginklų [K2 p.5, p.8]; valdysenos kodeksas [K1 p.35]. **Galėtų būti geriau:** ESG politikos viešai nerasta."
+        en: "**Applicable:** the Investments policy [SP1] and the Arms and Defence policy [SP8 p.5]. **Met:** investments in licensed defence production in a NATO country, with no controversial or nuclear weapons [K2 p.5, p.8]; corporate governance code [K1 p.35]. **Could be improved:** no public ESG policy found."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: valstybės įmonė su aiškiu gynybos mandatu."
+        en: "No need: a state company with a clear defence mandate."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Nuosavų patalpų ir turto VIK neturi, todėl tiesioginis poveikis aplinkai nedidelis [K1 p.14]. Fondui svarbiausias PAI rodiklis – ginklų sektoriaus poveikis: tik įprastiniai ginklai [K2 p.8]."
+        en: "VIK has no premises or property, so its direct environmental impact is small [K1 p.14]. The key PAI indicator for the fund is weapons exposure: conventional weapons only [K2 p.8]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Investuoja į įprastinę gynybos pramonę (leidžiama pagal SEB politiką); tvarumas nėra prioritetas."
+    en: "No exclusions or red flags. Invests in conventional defence industry (allowed under SEB policy); sustainability is not a priority."
