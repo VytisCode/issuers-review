@@ -40,3 +40,4 @@ nsfr:              {stock: true, better: up, good: 125, weak: 105, basis: "regul
 npl:               {stock: true, better: down, good: 2, weak: 4, basis: "tool benchmark"}
 cargo:             {better: up}
 passengers:        {better: up}
+generation:        {better: none}

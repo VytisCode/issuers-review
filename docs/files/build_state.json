@@ -1,10 +1,14 @@
 {
- "ignitis_6M2026_lt": "78987d50be364d5e1993fcf5674544073e3b5ff6",
- "luminor_1H2026_lt": "95f06b0cd9c9f2df4abe2b9171ec97ecbca34f0f",
- "port-of-tallinn_6M2026_lt": "f6854f115d84e0a0d0b546c65f897a04a76608b6",
- "ignitis_6M2026_en": "78987d50be364d5e1993fcf5674544073e3b5ff6",
- "luminor_1H2026_en": "95f06b0cd9c9f2df4abe2b9171ec97ecbca34f0f",
- "port-of-tallinn_6M2026_en": "f6854f115d84e0a0d0b546c65f897a04a76608b6",
- "lhv_9M2026_lt": "0874ee7e7009fdc272cfdb8fa53ef70dd9122c7c",
- "lhv_9M2026_en": "0874ee7e7009fdc272cfdb8fa53ef70dd9122c7c"
+ "ignitis_6M2026_lt": "00b868022f01c691d2e45df259294893c7ec32a1",
+ "luminor_1H2026_lt": "67d8259b6107a1be534cf6caf02de37f21672382",
+ "port-of-tallinn_6M2026_lt": "7ac4b49ddf622b56d94fc7faf13f38007aab0077",
+ "ignitis_6M2026_en": "00b868022f01c691d2e45df259294893c7ec32a1",
+ "luminor_1H2026_en": "67d8259b6107a1be534cf6caf02de37f21672382",
+ "port-of-tallinn_6M2026_en": "7ac4b49ddf622b56d94fc7faf13f38007aab0077",
+ "lhv_9M2026_lt": "0749e0259d74fd9bceb10a88c102c947e654e865",
+ "lhv_9M2026_en": "0749e0259d74fd9bceb10a88c102c947e654e865",
+ "latvenergo_6M2026_lt": "c3f2baeb7325d13a03fa863a1d0ff4715e6088b7",
+ "latvenergo_6M2026_en": "c3f2baeb7325d13a03fa863a1d0ff4715e6088b7",
+ "artea_6M2026_lt": "ada75165fa206089edf04f5b70b26b0675bf3353",
+ "artea_6M2026_en": "ada75165fa206089edf04f5b70b26b0675bf3353"
 }

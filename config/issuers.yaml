@@ -97,3 +97,42 @@ lhv:
   news_queries:
     - '"LHV Group"'
     - '"LHV Pank"'
+
+latvenergo:
+  name: Latvenergo
+  legal_name: AS Latvenergo
+  country: LV
+  sector: Energy utility (hydro and gas CHP generation, distribution and transmission assets, retail supply)
+  owner: Republic of Latvia (Ministry of Economics) 100%
+  website: https://latvenergo.lv/en
+  ir_page: https://nasdaqbaltic.com/statistics/en/instrument/LV0000802684/reports
+  ratings_page: ""
+  nasdaq_ticker: ""
+  media: LV
+  seb_policies: [investments, fossil_fuels, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nasdaqbaltic.com/statistics/en/instrument/LV0000802684/reports
+  report_calendar: "9M 2026 interim report: 2026-11-30"
+  news_match: [latvenergo]
+  news_queries:
+    - '"Latvenergo"'
+
+artea:
+  name: Artea bankas
+  legal_name: AB Artea bankas (formerly Šiaulių bankas)
+  country: LT
+  sector: Bank (Lithuanian universal bank; retail, SME, corporate, leasing, asset management)
+  owner: Listed on Nasdaq Vilnius (ROE1L); EBRD and Lithuanian investors; Tesonet Global 9.86% and seeking ~31.68%
+  website: https://www.artea.lt/en
+  ir_page: https://nasdaqbaltic.com/statistics/en/instrument/LT0000102253/reports
+  ratings_page: https://www.artea.lt/lt/banko-investuotojams
+  nasdaq_ticker: ROE1L
+  media: LT
+  seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nasdaqbaltic.com/statistics/en/instrument/LT0000102253/reports
+  report_calendar: "9M 2026 interim report: 2026-10-28"
+  news_match: [artea, šiaulių bank]
+  news_queries:
+    - '"Artea bankas"'
+    - '"Artea" bankas'

@@ -1,0 +1,145 @@
+# Latvenergo - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą.
+# Šį failą galima taisyti tiesiai GitHub'e. Tekstai lt ir en.
+issuer: latvenergo
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "9M 2026 interim report - 2026-11-30 [V1]"
+rating: "Moody's Baa2, stable outlook (affirmed October 2025) [V2 p.24; V1 p.12]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** I pusm. pelnas 144,6 mln. EUR (+7 %), reitingas Baa2 stabilus [V1 p.12]. Skola auga dėl didelių investicijų į atsinaujinančią energetiką: grynoji skola / EBITDA 2,4x (prieš metus 1,5x), tačiau FFO / grynoji skola 35 % vis dar viršija strategijos tikslą (>25 %) [V1 p.7, p.12].", en: "**Position OK.** 1H profit EUR 144.6m (+7%), rating Baa2 stable [V1 p.12]. Debt is rising because of large renewable investments: net debt / EBITDA 2.4x (1.5x a year ago), but FFO / net debt of 35% is still above the strategy target of >25% [V1 p.7, p.12]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, ebitda, net_profit, investments, net_debt, nd_ebitda, ffo_nd, roe, equity, total_assets, equity_ratio, generation]
+highlights: [ebitda, net_profit, nd_ebitda, ffo_nd]
+charts: [net_profit, investments, net_debt, generation]
+
+sources:
+  V1: {title: "Latvenergo Group - Interim report 6M 2026 (unaudited)", url: "https://nasdaqbaltic.com/market/upload/reports/elek/2026_q2_en_con.pdf", date: 2026-08}
+  V2: {title: "Latvenergo Group - Annual report 2025", url: "https://nasdaqbaltic.com/market/upload/reports/elek/2025_ar_en_con.pdf", date: 2026-04-29}
+  V3: {title: "Nasdaq Baltic - Latvenergo 4.952% green bond LV0000802684", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000802684/security?date=2026-10-22", date: 2026-10-22}
+  V4: {title: "Nasdaq Baltic - Latvenergo 2.42% green bond LV0000870129", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000870129/security?date=2026-10-22", date: 2026-10-22}
+  V5: {title: "Nasdaq Baltic - Latvenergo 0.5% green bond LV0000802460", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000802460/security?date=2026-10-22", date: 2026-10-22}
+  V6: {title: "Nasdaq Baltic - Latvenergo 3.612% green bond XS3227294132", url: "https://nasdaqbaltic.com/statistics/en/instrument/XS3227294132/security?date=2026-10-22", date: 2026-10-22}
+  V7: {title: "jauns.lv / LTV de facto - Latvenergo procurement audit (2020)", url: "https://jauns.lv/raksts/zinas/407457-starp-latvenergo-koncerna-iepirkumu-uzvaretajiem-atrodami-vairaki-martinsona-motokluba-ziedotaji", date: 2020-10-04}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP5: {title: "SEB Fossil Fuels sector policy (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/80AF6A2E5F88CDC2C12586B1002E33C2?opendocument", date: 2026-04-23}
+  SP6: {title: "SEB Electricity and Renewable Energy sector policy", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026}
+
+quick_summary:
+  - lt: "**Pelnas auga:** I pusm. pajamos 941,8 mln. EUR (+11 %), EBITDA 284,6 mln. EUR (+5 %), grynasis pelnas 144,6 mln. EUR (135,3 mln.) [V1 p.12, p.15]."
+    en: "**Profit up:** 1H revenue EUR 941.8m (+11%), EBITDA EUR 284.6m (+5%), net profit EUR 144.6m (135.3m) [V1 p.12, p.15]."
+  - lt: "**Daugiau gamybos:** pagaminta 3 336 GWh elektros, prieš metus 2 603 GWh. 2025 m. 66 % elektros pagaminta iš atsinaujinančių šaltinių [V1 p.12; V2 p.9]."
+    en: "**More generation:** 3,336 GWh of electricity produced versus 2,603 GWh a year ago. In 2025, 66% of electricity came from renewable sources [V1 p.12; V2 p.9]."
+  - lt: "**Skola auga dėl investicijų:** grynoji skola 1 372,1 mln. EUR (843,1 mln.), grynoji skola / EBITDA 2,4x (1,5x). Investicijos per pusmetį 255,5 mln. EUR, 2025 m. – rekordinės 792,1 mln. EUR [V1 p.12; V2 p.8]."
+    en: "**Debt rising with investment:** net debt EUR 1,372.1m (843.1m), net debt / EBITDA 2.4x (1.5x). Investments EUR 255.5m in the half year and a record EUR 792.1m in 2025 [V1 p.12; V2 p.8]."
+  - lt: "**Finansavimas pigus:** 2026 m. birželį išleista 300 mln. EUR 7 metų žaliųjų obligacijų, pajamingumas 1,3 % [V1 p.5]."
+    en: "**Cheap funding:** in June 2026 EUR 300m of 7-year green bonds were issued at a 1.3% yield [V1 p.5]."
+
+business:
+  - lt: "Atsinaujinančios energetikos plėtra: birželio pabaigoje įrengta 937 MW vėjo ir saulės jėgainių, patvirtintas 1 144 MW projektų portfelis; strategijos tikslas – 600 MW iki 2026 m., 2 300 MW iki 2030 m. [V1 p.3, p.8-9]."
+    en: "Renewables build-out: 937 MW of wind and solar installed at end-June, with an approved 1,144 MW project portfolio; strategy target 600 MW by 2026 and 2,300 MW by 2030 [V1 p.3, p.8-9]."
+  - lt: "Gamybos struktūra 2025 m.: hidroelektrinės 2 882 GWh (61 %), dujomis kūrenamos Rygos termofikacinės elektrinės 1 587 GWh (34 %), vėjo ir saulės jėgainės 209 GWh (dalys apskaičiuotos įrankio) [V2 p.12-13]."
+    en: "2025 generation mix: hydro 2,882 GWh (61%), gas-fired Riga CHPs 1,587 GWh (34%), wind and solar 209 GWh (shares calculated by the tool) [V2 p.12-13]."
+  - lt: "2026-08-22 stipri audra sukėlė plačius elektros tiekimo sutrikimus [V1 p.5]."
+    en: "A severe storm on 2026-08-22 caused widespread power outages [V1 p.5]."
+
+financials:
+  - lt: "2025 m. pajamos 1 566,1 mln. EUR (2024 m. – 1 703,6 mln.), pelnas 198,8 mln. EUR (273,7 mln., −74,8 mln.); FFO / grynoji skola 39 % [V2 p.8, p.24]."
+    en: "FY2025 revenue EUR 1,566.1m (2024: 1,703.6m), profit EUR 198.8m (273.7m, −74.8m); FFO / net debt 39% [V2 p.8, p.24]."
+  - lt: "Nuosavas kapitalas 3 035,9 mln. EUR, turtas 5 259,6 mln. EUR – nuosavo kapitalo dalis 57,7 % (apskaičiuota įrankio); ROE 6,9 % (5,2 %) [V1 p.12]."
+    en: "Equity EUR 3,035.9m, total assets EUR 5,259.6m, an equity ratio of 57.7% (calculated by the tool); ROE 6.9% (5.2%) [V1 p.12]."
+  - lt: "Dividendai valstybei: 2026-05-27 patvirtinta 141,0 mln. EUR iš 2025 m. pelno, dviem dalimis po 70,5 mln. EUR (birželį ir iki lapkričio 30 d.) [V1 p.14]."
+    en: "Dividends to the state: EUR 141.0m from 2025 profit approved on 2026-05-27, paid in two EUR 70.5m instalments (June and by 30 November) [V1 p.14]."
+
+plans:
+  - plan: {lt: "Strategija 2022–2026: ROE >7 %, koreguotas FFO / grynoji skola >25 %, Moody's reitingas ≥ Baa3, dividendai >64 % pelno", en: "Strategy 2022-2026: ROE >7%, adjusted FFO / net debt >25%, Moody's rating ≥ Baa3, dividend payout >64%"}
+    outcome: {lt: "6M 2026: ROE 6,9 %, FFO / grynoji skola 35 %, reitingas Baa2", en: "6M 2026: ROE 6.9%, FFO / net debt 35%, rating Baa2"}
+    status: partly
+    src: "V1 p.7-8, p.12"
+    why: {lt: "Iš dalies: reitingo ir FFO tikslai vykdomi; ROE (6,9 %) arti 7 % tikslo [V1 p.12].", en: "Partly: the rating and FFO targets are met; ROE (6.9%) is close to the 7% target [V1 p.12]."}
+  - plan: {lt: "Pastatyti ar įsigyti 600 MW vėjo ir saulės jėgainių iki 2026 m.", en: "Build or acquire 600 MW of wind and solar by 2026"}
+    outcome: {lt: "2026-06-30 – 937 MW įrengta", en: "937 MW installed at 2026-06-30"}
+    status: met
+    src: "V1 p.3, p.8"
+    why: {lt: "Įvykdyta su perviršiu [V1 p.3].", en: "Exceeded [V1 p.3]."}
+  - plan: {lt: "2 300 MW atsinaujinančių šaltinių iki 2030 m.; bent 250 MW / 500 MWh kaupimo iki 2030 m.", en: "2,300 MW of renewables by 2030; at least 250 MW / 500 MWh of storage by 2030"}
+    outcome: {lt: "Patvirtintas 1 144 MW projektų portfelis", en: "Approved project portfolio of 1,144 MW"}
+    status: pending
+    src: "V1 p.8-9; V2 p.9"
+    why: {lt: "Ilgalaikis tikslas, finansuojamas žaliosiomis obligacijomis [V1 p.5].", en: "Long-term target, financed with green bonds [V1 p.5]."}
+  - plan: {lt: "Klimato neutrali elektros gamyba iki 2040 m.; 1 apimties emisijas sumažinti 47 % iki 2030 m. (palyginti su 2021 m.)", en: "Climate-neutral electricity generation by 2040; cut Scope 1 emissions 47% by 2030 (vs 2021)"}
+    outcome: {lt: "2025 m. – −17 %", en: "2025: −17%"}
+    status: pending
+    src: "V2 p.27"
+    why: {lt: "Vykdoma; pažanga priklauso nuo dujinių elektrinių darbo valandų [V2 p.27].", en: "In progress; progress depends on how much the gas plants run [V2 p.27]."}
+
+investor:
+  - lt: "**Turimos priemonės:** keturios žaliosios obligacijos – 2,42 % 2027 (100 mln. EUR), 0,5 % 2028 (50 mln. EUR), 4,952 % 2029 (50 mln. EUR) ir 3,612 % 2030 (400 mln. EUR) [V3; V4; V5; V6]. Moody's žaliosioms obligacijoms suteikė Baa2 reitingą [V2]."
+    en: "**Instruments held:** four green bonds, 2.42% 2027 (EUR 100m), 0.5% 2028 (EUR 50m), 4.952% 2029 (EUR 50m) and 3.612% 2030 (EUR 400m) [V3; V4; V5; V6]. Moody's rates the green bonds Baa2 [V2]."
+  - lt: "**Artimiausias išpirkimas:** 2,42 % obligacija – 2027-05-05. Bendrovė pinigų turi: 2026 m. birželį pasiskolinta 300 mln. EUR už 1,3 % [V4; V1 p.5]."
+    en: "**Next maturity:** the 2.42% bond on 2027-05-05. The company has funding: it borrowed EUR 300m at 1.3% in June 2026 [V4; V1 p.5]."
+  - lt: "**Valstybės nuosavybė (100 %)** ir dividendų politika (>64 % pelno) reiškia, kad dalis pinigų išeina valstybei, tačiau reitingo tikslas (≥ Baa3) apriboja skolinimąsi [V1 p.7-8]."
+    en: "**State ownership (100%)** and the dividend policy (>64% payout) mean part of the cash goes to the state, but the rating target (≥ Baa3) caps borrowing [V1 p.7-8]."
+  - lt: "Išvada: verslas pelningas, skolinimasis didėja pagal planą, kredito rodikliai – virš strategijos ribų."
+    en: "Conclusion: the business is profitable, borrowing is growing as planned and credit metrics are above the strategy limits."
+
+esg:
+  policies: [investments, fossil_fuels, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Ginklų, tabako ir azartinių lošimų veiklos nėra; anglies ir naftos gavybos nėra. Dvi Rygos termofikacinės elektrinės kūrenamos gamtinėmis dujomis (2025 m. – 34 % gamybos) [V2 p.12-13]. SEB iškastinio kuro politika riboja anglį ir naftos bei dujų gavybą, ne dujinę gamybą [SP5 p.7-9]."
+        en: "No weapons, tobacco or gambling; no coal or oil & gas extraction. The two Riga CHPs run on natural gas (34% of output in 2025) [V2 p.12-13]. The SEB fossil fuel policy restricts coal and oil & gas extraction, not gas-fired generation [SP5 p.7-9]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta. Korupcijos ar etikos pažeidimų su reikšmingu poveikiu 2024–2025 m. – 0 [V2 p.29]. 2020 m. pirkimų istorijoje KNAB baudžiamąją bylą nutraukė, pažeidimų nenustatyta [V7]."
+        en: "No UN Global Compact or OECD related controversies found. Significant corruption or ethics breaches in 2024-2025: 0 [V2 p.29]. In a 2020 procurement case the anti-corruption bureau KNAB closed the criminal proceedings with no wrongdoing established [V7]."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (paieška latvių ir anglų k., 2026-10-22)."
+        en: "No adverse news found (search in Latvian and English, 2026-10-22)."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "66 % elektros – iš atsinaujinančių šaltinių [V2 p.9]; S&P Global CSA – 54 balai, tarp 30 % geriausių pasaulio elektros įmonių [V2 p.31]; Moody's ESG kredito poveikio balas CIS-2 [V2 p.8]. Visos obligacijos – žaliosios [V3; V4; V5; V6]."
+        en: "66% of electricity from renewable sources [V2 p.9]; S&P Global CSA score 54, in the top 30% of electric utilities worldwide [V2 p.31]; Moody's ESG credit impact score CIS-2 [V2 p.8]. All bonds are green [V3; V4; V5; V6]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Tikslas – klimato neutralumas iki 2050 m., neutrali elektros gamyba iki 2040 m. [V2 p.26-27]. Su ES taksonomija suderintos investicijos – 97 % (tikslas ≥80 %) [V2 p.29-30]."
+        en: "Target of climate neutrality by 2050 and climate-neutral generation by 2040 [V2 p.26-27]. EU taxonomy-aligned investments 97% (target ≥80%) [V2 p.29-30]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta. Rimtų nelaimingų atsitikimų ir didelių taršos atvejų 2024–2025 m. – 0 [V2 p.28]."
+        en: "No yellow flags found. Serious accidents and major pollution cases in 2024-2025: 0 [V2 p.28]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika [SP1], elektros ir atsinaujinančios energetikos politika [SP6] ir iškastinio kuro politika dėl dujinių elektrinių [SP5 p.4, p.6]. **Atitinka:** emisijų mažinimo tikslai (2030 ir 2040 m.) [V2 p.27]; 2024 m. visų apimčių emisijos nepriklausomai patikrintos [V2 p.10]; ISO 50001 energijos valdymas [V2 p.32]; korupcijos atvejų – 0, sukčiavimo rizikos valdymo planas [V2 p.29, p.38]; anglies nėra. **Galėtų būti geriau:** absoliučios 1–3 apimties emisijos ataskaitos tekste nerastos."
+        en: "**Applicable:** the Investments policy [SP1], the Electricity & Renewable Energy policy [SP6] and the Fossil Fuels policy for the gas plants [SP5 p.4, p.6]. **Met:** emission reduction targets for 2030 and 2040 [V2 p.27]; 2024 emissions across all scopes independently verified [V2 p.10]; ISO 50001 energy management [V2 p.32]; zero corruption cases and a fraud risk management plan [V2 p.29, p.38]; no coal. **Could be improved:** absolute Scope 1-3 totals not found in the report text."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: aiški perėjimo prie atsinaujinančios energetikos strategija ir tvarkinga ESG praktika."
+        en: "No need: a clear renewable transition strategy and sound ESG practice."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Elektros gamybos emisijų intensyvumas 0,100 t CO2/MWh 2025 m. (tikslas 0,06 iki 2030 m.); 1 apimties emisijos −17 % nuo 2021 m. [V2 p.27]; taksonomiją atitinkančios investicijos 97 % [V2 p.29-30]; atsinaujinančių šaltinių dalis 66 % [V2 p.27]."
+        en: "Generation emission intensity 0.100 t CO2/MWh in 2025 (target 0.06 by 2030); Scope 1 emissions −17% vs 2021 [V2 p.27]; taxonomy-aligned investments 97% [V2 p.29-30]; renewable share 66% [V2 p.27]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Daugiausia hidroenergija, sparčiai auga vėjo ir saulės gamyba, aiškūs klimato tikslai; dujinės elektrinės lieka rezervu."
+    en: "No exclusions or red flags. Mostly hydro, with fast-growing wind and solar and clear climate targets; the gas plants remain as backup capacity."

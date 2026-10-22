@@ -35,3 +35,4 @@ nsfr:              {lt: "NSFR", en: "NSFR", lv: "NSFR", et: "NSFR"}
 npl:               {lt: "Neveiksnių paskolų dalis", en: "NPL ratio", lv: "Ienākumus nenesošo kredītu īpatsvars", et: "Viivislaenude osakaal"}
 cargo:             {lt: "Krovinių kiekis", en: "Cargo volume", lv: "Kravu apjoms", et: "Kaubamaht"}
 passengers:        {lt: "Keleiviai", en: "Passengers", lv: "Pasažieri", et: "Reisijad"}
+generation:        {lt: "Pagaminta elektros", en: "Electricity generation", lv: "Saražotā elektroenerģija", et: "Elektritoodang"}
