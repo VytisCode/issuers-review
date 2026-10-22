@@ -14,16 +14,30 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as C  # noqa: E402
 
 
+def get(url):
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "issuers-review"}), timeout=60) as r:
+        data = json.loads(r.read().decode("utf-8"))
+    if not data.get("ok"):
+        raise SystemExit(f"Saugykla grąžino klaidą: {data}")
+    return data
+
+
 def main():
     url = (C.settings().get("isin_store_url") or "").strip()
     if not url:
         print("isin_store_url nenurodytas - praleidžiama")
         return
-    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "issuers-review"}), timeout=60) as r:
-        data = json.loads(r.read().decode("utf-8"))
-    want = {x["isin"]: x for x in data.get("isins", [])}
+    data = get(url)
     path = C.CONFIG / "securities.csv"
     rows = list(csv.DictReader(open(path, encoding="utf-8")))
+    if not data.get("isins") and not data.get("last_change"):  # nauja tuščia saugykla - įkeliamas dabartinis sąrašas
+        held = [x["isin"] for x in C.securities() if x["held"] == "yes" and x["status"] != "matured"]
+        body = json.dumps({"isins": held, "by": "issuers-review (pradinis sąrašas)"}).encode("utf-8")
+        req = urllib.request.Request(url, data=body, headers={"Content-Type": "text/plain;charset=utf-8", "User-Agent": "issuers-review"})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            print("Saugykla užpildyta:", r.read().decode("utf-8")[:300])
+        data = get(url)
+    want = {x["isin"]: x for x in data.get("isins", [])}
     fields = list(rows[0].keys())
     changes, known = [], set()
     for r in rows:

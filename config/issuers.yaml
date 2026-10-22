@@ -48,10 +48,10 @@ luminor:
   sanctions_exclude:
     - name: luminor oy
       en: "Luminor Oy – a Finnish logistics company linked to Siberica Oy (per the EU list entry for Gabriel Temin), not Luminor Bank AS"
+      lt: "Luminor Oy – Suomijos logistikos įmonė, susijusi su Siberica Oy (pagal ES sąrašo įrašą apie Gabriel Temin), ne Luminor Bank AS"
     - name: luminor logistics
       en: "Luminor Logistics – an alias in the same US OFAC entry group as Luminor Oy and Siberica Oy (logistics), not Luminor Bank AS"
       lt: "Luminor Logistics – slapyvardis tame pačiame US OFAC įrašų rinkinyje kaip Luminor Oy ir Siberica Oy (logistika), ne Luminor Bank AS"
-      lt: "Luminor Oy – Suomijos logistikos įmonė, susijusi su Siberica Oy (pagal ES sąrašo įrašą apie Gabriel Temin), ne Luminor Bank AS"
   news_exclude: [panerai, watch, laikrod, pam0, swiss, tourbillon]
   news_queries:
     - '"Luminor"'

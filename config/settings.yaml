@@ -9,4 +9,4 @@ formats: [docx, pdf, xlsx]
 site_lang: lt
 # isin_store_url: Google Apps Script programėlės adresas (tools/google/isin_store.gs). Kai įrašytas, dashboard'e
 #   ISIN sąrašą gali redaguoti bet kas, turintis svetainės nuorodą (ir PIN, jei nustatytas), o įrankis jį sinchronizuoja.
-isin_store_url: ""
+isin_store_url: "https://script.google.com/macros/s/AKfycby2An4maB--AMQWFEOj24_1aAmrXEv6l7CIj9uhHzwl2Z7mAwNteuLDceCU-XjX2w4R/exec"
