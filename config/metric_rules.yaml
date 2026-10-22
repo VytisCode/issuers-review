@@ -1,0 +1,42 @@
+# Rodiklių vertinimo taisyklės spalvoms ataskaitose ir svetainėje (savininko prašymas 2026-10-22).
+# better: up - didesnis geriau; down - mažesnis geriau; none - be vertinimo (dydis, ne kokybė).
+# stock: true - būklės rodiklis (skola, kapitalas, LTM santykiai) - lyginamas su naujausiu ankstesniu laikotarpiu;
+#   kiti (srautai) lyginami tik su tuo pačiu laikotarpiu prieš metus (6M2026 su 6M2025).
+# good / weak: lygio ribos (žalia, jei geriau už good; raudona, jei blogiau už weak; tarp jų - geltona).
+#   Tai įrankio orientyrai (rinkos praktika) arba reguliaciniai minimumai - basis paaiškina. Ribas galima keisti čia.
+revenue:           {better: up}
+adj_ebitda:        {better: up}
+ebitda:            {better: up}
+adj_ebitda_margin: {better: up, good: 40, weak: 20, basis: "tool benchmark for infrastructure companies"}
+operating_profit:  {better: up}
+adj_net_profit:    {better: up}
+net_profit:        {better: up}
+investments:       {better: none}
+ffo:               {better: up}
+fcf:               {better: up}
+net_debt:          {stock: true, better: down}
+nd_ebitda:         {stock: true, better: down, good: 3.0, weak: 4.5, basis: "tool benchmark: <3x conservative, >4.5x high leverage"}
+ffo_nd:            {stock: true, better: up, good: 25, weak: 15, basis: "tool benchmark (rating-agency style)"}
+adj_roce:          {stock: true, better: up, good: 8, weak: 5, basis: "tool benchmark"}
+equity:            {stock: true, better: up}
+equity_ratio:      {stock: true, better: up, good: 50, weak: 30, basis: "tool benchmark"}
+total_assets:      {stock: true, better: none}
+dps:               {better: up}
+green_capacity:    {stock: true, better: up}
+nii:               {better: up}
+total_income:      {better: up}
+cost_income:       {better: down, good: 45, weak: 60, basis: "tool benchmark for European banks"}
+roe:               {better: up, good: 12, weak: 8, basis: "tool benchmark for European banks"}
+cor:               {better: down}
+nim:               {better: up}
+loans:             {stock: true, better: up}
+deposits:          {stock: true, better: up}
+cet1:              {stock: true, better: up, good: 15, weak: 12, basis: "tool benchmark; regulatory minimum is bank-specific"}
+total_capital:     {stock: true, better: up, good: 18, weak: 15, basis: "tool benchmark"}
+leverage:          {stock: true, better: up, good: 5, weak: 3.5, basis: "regulatory minimum 3%"}
+mrel:              {stock: true, better: up}
+lcr:               {stock: true, better: up, good: 150, weak: 110, basis: "regulatory minimum 100%"}
+nsfr:              {stock: true, better: up, good: 125, weak: 105, basis: "regulatory minimum 100%"}
+npl:               {stock: true, better: down, good: 2, weak: 4, basis: "tool benchmark"}
+cargo:             {better: up}
+passengers:        {better: up}

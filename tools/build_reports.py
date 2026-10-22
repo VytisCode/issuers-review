@@ -42,6 +42,8 @@ pdfmetrics.registerFontFamily("DejaVu", normal="DejaVu", bold="DejaVu-Bold", ita
 ACCENT, ACCENT_LIGHT, INK, MUTED, LINE, SERIES = "1F4E79", "EAF1F8", "1A1A1A", "5F6B7A", "C9D3DE", "2A78D6"
 STATUS_KEYS = {"met": "st_met", "partly": "st_partly", "not_met": "st_not_met", "pending": "st_pending", "changed": "st_changed"}
 STATUS_FILL = {"met": "E3F3E8", "partly": "FDF1D8", "not_met": "FDE7E5", "pending": "EAF1F8", "changed": "FDF1D8"}
+LEVEL_FILL = {"good": "E3F3E8", "mid": "FDF1D8", "weak": "FDE7E5"}
+TREND_INK = {"good": "1B7F3B", "bad": "B42318", "flat": "5F6B7A", "none": "5F6B7A"}
 
 
 # ---------- pagalbinės ----------
@@ -170,13 +172,18 @@ def model(rep, lang, tmpdir):
         for src, pg in seen[:3]:
             label.append(("c", cites.add(src, pg), cites.url(src, pg)))
         cells = [label]
+        last, prev, ch, trend, level = C.ratio_change(m, vals, periods, lang)
         for p in periods:
             r = vals.get(p)
             v = "–" if not r else C.fmt_num(r["value"], unit, lang) + ("*" if r.get("verified") == "check" else "ᶜ" if r.get("verified") == "calc" else "")
+            if p == last and level:
+                v = ("styled", v, LEVEL_FILL[level], None, True)
             cells.append(v)
+        cells.append(("styled", f"{ch} vs {prev}" if ch else "–", None, TREND_INK[trend], trend in ("good", "bad")))
         rows.append(cells)
-    blocks += [("h2", t("key_ratios")), ("table", [t("metric")] + periods, rows, [6.4] + [2.6] * len(periods), {"num": list(range(1, len(periods) + 1))}),
-               ("small", t("legend"))]
+    blocks += [("h2", t("key_ratios")), ("table", [t("metric")] + periods + [t("change")], rows, [5.2] + [2.1] * len(periods) + [3.9],
+                                         {"num": list(range(1, len(periods) + 2))}),
+               ("small", t("legend_colors")), ("small", t("legend"))]
     png = chart_png(rep, lang, Path(tmpdir) / f"{rep['issuer']}_{lang}.png")
     if png:
         blocks.append(("image", png))
@@ -184,9 +191,10 @@ def model(rep, lang, tmpdir):
     for key in ("business", "financials"):
         blocks += [("h2", t(key)), ("bullets", [rich(x, True) for x in rep.get(key, [])])]
 
-    rows = [[rich(p["plan"]), rich(C.tr(p["outcome"], lang) + (f" [{p['src']}]" if p.get("src") else "")), ("status", p["status"], t(STATUS_KEYS.get(p["status"], p["status"])))]
+    rows = [[rich(p["plan"]), rich(C.tr(p["outcome"], lang) + (f" [{p['src']}]" if p.get("src") else "")), rich(p.get("why", "")) or "–",
+             ("status", p["status"], t(STATUS_KEYS.get(p["status"], p["status"])))]
             for p in rep.get("plans", [])]
-    blocks += [("h2", t("plans")), ("table", [t("plan"), t("outcome"), t("status")], rows, [7.0, 7.2, 2.8], {})]
+    blocks += [("h2", t("plans")), ("table", [t("plan"), t("outcome"), t("why"), t("status")], rows, [4.6, 4.6, 5.6, 2.4], {})]
 
     blocks += [("h2", t("investor")), ("bullets", [rich(x, True) for x in rep.get("investor", [])])]
 
@@ -201,11 +209,11 @@ def model(rep, lang, tmpdir):
             it = items.get(q["id"], {"status": "review"})
             st = it.get("status", "review")
             blocks.append(("check", "☑" if st == "yes" else "☐", q["q"]))
-            ev = rich(it.get("evidence", ""))
+            pts = [(lab, [rich(x) for x in items]) for lab, items in C.points(C.tr(it.get("evidence", ""), lang))]
             if st == "review":
-                ev = [("t", t("needs_review"), True)] + ev
-            if ev:
-                blocks.append(("evidence", [("t", t("evidence_lbl"), True)] + ev))
+                pts.insert(0, (t("needs_review").strip().rstrip("."), []))
+            if pts:
+                blocks.append(("evlist", pts))
         if sec.get("note"):
             blocks.append(("note", sec["note"]))
         com = C.tr(comments.get(sec.get("comments", ""), ""), lang)
@@ -389,6 +397,22 @@ def to_docx(blocks, path, footer_text):
             r = p.add_run(rest[0] + " ")
             r.font.size = Pt(12)
             p.add_run(rest[1])
+        elif kind == "evlist":
+            for lab, items in rest[0]:
+                if lab:
+                    p = doc.add_paragraph()
+                    p.paragraph_format.left_indent, p.paragraph_format.space_after = Cm(0.7), Pt(0)
+                    r = p.add_run(lab)
+                    r.bold, r.font.size = True, Pt(9.5)
+                    r.font.color.rgb = RGBColor.from_string("B42318" if not items else "333333")
+                for segs in items:
+                    p = doc.add_paragraph()
+                    ind = Cm(1.3 if lab else 0.9)
+                    p.paragraph_format.left_indent, p.paragraph_format.first_line_indent = ind, Cm(-0.35)
+                    p.paragraph_format.space_after = Pt(0)
+                    p.add_run("•  ").font.size = Pt(9.5)
+                    add_segs(p, segs, size=9.5, color="333333")
+            doc.paragraphs[-1].paragraph_format.space_after = Pt(6)
         elif kind == "evidence":
             p = doc.add_paragraph()
             p.paragraph_format.left_indent = Cm(0.7)
@@ -439,6 +463,16 @@ def to_docx(blocks, path, footer_text):
                         r = par.add_run(v[2])
                         r.font.size, r.bold = Pt(8.5), True
                         continue
+                    if isinstance(v, tuple) and v[0] == "styled":
+                        if v[2]:
+                            shade(cells[i], v[2])
+                        r = par.add_run(v[1])
+                        r.font.size, r.bold = Pt(8.5), v[4]
+                        if v[3]:
+                            r.font.color.rgb = RGBColor.from_string(v[3])
+                        if i in num:
+                            par.alignment = WD_ALIGN_PARAGRAPH.RIGHT
+                        continue
                     add_segs(par, cell_segs(v), size=8.5)
                     if i in num:
                         par.alignment = WD_ALIGN_PARAGRAPH.RIGHT
@@ -482,6 +516,9 @@ def to_pdf(blocks, path, footer_text):
           "b": S("b", fontSize=9, leading=13, leftIndent=11, bulletIndent=2, spaceAfter=3),
           "check": S("c", fontSize=9, leading=13, spaceBefore=5, spaceAfter=1),
           "ev": S("e", fontSize=8.5, leading=12, leftIndent=16, color=colors.HexColor("#333333"), spaceAfter=2),
+          "evh": S("eh", fontSize=8.5, leading=12, leftIndent=16, spaceBefore=1),
+          "evb": S("eb", fontSize=8.5, leading=11.5, leftIndent=28, bulletIndent=18, color=colors.HexColor("#333333")),
+          "evb2": S("eb2", fontSize=8.5, leading=11.5, leftIndent=40, bulletIndent=30, color=colors.HexColor("#333333")),
           "note": S("n", fontSize=8.5, leading=12, spaceBefore=4),
           "small": S("s", fontSize=7, leading=9, color=colors.HexColor("#" + MUTED), spaceBefore=3),
           "src": S("src", fontSize=7.5, leading=10, leftIndent=12, firstLineIndent=-12, spaceAfter=1),
@@ -518,6 +555,13 @@ def to_pdf(blocks, path, footer_text):
                 flow.append(Paragraph(segs_html(segs), st["b"], bulletText="•"))
         elif kind == "check":
             flow.append(Paragraph(f'<font size="11">{rest[0]}</font>  {esc(rest[1])}', st["check"]))
+        elif kind == "evlist":
+            for lab, items in rest[0]:
+                if lab:
+                    flow.append(Paragraph(f'<b><font color="#{"B42318" if not items else "333333"}">{esc(lab)}</font></b>', st["evh"]))
+                for segs in items:
+                    flow.append(Paragraph(segs_html(segs), st["evb2" if lab else "evb"], bulletText="•"))
+            flow.append(Spacer(1, 4))
         elif kind == "evidence":
             flow.append(Paragraph(segs_html(rest[0]), st["ev"]))
         elif kind == "note":
@@ -538,14 +582,20 @@ def to_pdf(blocks, path, footer_text):
                      ("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 4), ("RIGHTPADDING", (0, 0), (-1, -1), 4)]
             for ri, row in enumerate(rows, start=1):
                 line = []
+                if ri % 2 == 0:  # zebra pirmiau, kad langelių spalvos būtų viršuje
+                    style.append(("BACKGROUND", (0, ri), (-1, ri), colors.HexColor("#F6F8FA")))
                 for i, v in enumerate(row):
                     if isinstance(v, tuple) and v[0] == "status":
                         style.append(("BACKGROUND", (i, ri), (i, ri), colors.HexColor("#" + STATUS_FILL.get(v[1], "FFFFFF"))))
                         line.append(Paragraph(f"<b>{esc(v[2])}</b>", st["cell"]))
+                    elif isinstance(v, tuple) and v[0] == "styled":
+                        if v[2]:
+                            style.append(("BACKGROUND", (i, ri), (i, ri), colors.HexColor("#" + v[2])))
+                        txt = esc(v[1])
+                        txt = f'<font color="#{v[3]}">{txt}</font>' if v[3] else txt
+                        line.append(Paragraph(f"<b>{txt}</b>" if v[4] else txt, st["celln" if i in num else "cell"]))
                     else:
                         line.append(Paragraph(segs_html(cell_segs(v)), st["celln" if i in num else "cell"]))
-                if ri % 2 == 0:
-                    style.append(("BACKGROUND", (0, ri), (-1, ri), colors.HexColor("#F6F8FA")))
                 data.append(line)
             tb = Table(data, colWidths=widths, repeatRows=1)
             tb.setStyle(TableStyle(style))

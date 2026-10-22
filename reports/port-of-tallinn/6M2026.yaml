@@ -28,24 +28,24 @@ sources:
   SP7: {title: "SEB Sector Policy on Transportation (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/B1113F0C7B3136E4C12587D70030204B?opendocument", date: 2026-04-23}
 
 quick_summary:
-  - lt: "6 mėn. pajamos 59,3 mln. EUR (+2,4 %), koreguota EBITDA 25,8 mln. EUR (−13,5 %), marža 43,5 % (51,5 %), grynasis pelnas 6,0 mln. EUR (−41,7 %) [P1 p.4; P2]."
-    en: "6M revenue EUR 59.3m (+2.4%), adjusted EBITDA EUR 25.8m (−13.5%), margin 43.5% (51.5%), net profit EUR 6.0m (−41.7%) [P1 p.4; P2]."
+  - lt: "**Pajamos auga, pelnas mažėja:** 6 mėn. pajamos išaugo 2,4 % iki 59,3 mln. EUR, tačiau koreguota EBITDA sumažėjo 13,5 % iki 25,8 mln. EUR, o grynasis pelnas – 41,7 % iki 6,0 mln. EUR. EBITDA marža nukrito iki 43,5 % nuo 51,5 % [P1 p.4; P2]."
+    en: "**Sales up, profit down:** 6M revenue grew 2.4% to EUR 59.3m, but adjusted EBITDA fell 13.5% to EUR 25.8m and net profit 41.7% to EUR 6.0m. The EBITDA margin dropped to 43.5% from 51.5% [P1 p.4; P2]."
     lv: "6 mēn. ieņēmumi 59,3 milj. EUR (+2,4 %), koriģētā EBITDA 25,8 milj. EUR (−13,5 %), marža 43,5 % (51,5 %), tīrā peļņa 6,0 milj. EUR (−41,7 %) [P1 p.4; P2]."
     et: "6 kuu müügitulu 59,3 mln eurot (+2,4%), korrigeeritud EBITDA 25,8 mln eurot (−13,5%), marginaal 43,5% (51,5%), puhaskasum 6,0 mln eurot (−41,7%) [P1 p.4; P2]."
-  - lt: "Vadovo teigimu, pelningumą II ketv. sumažino kylančios kuro kainos ir neplanuoti laivų remontai po ledo sąlygų [P2]."
-    en: "According to the CEO, rising fuel prices and extraordinary ship repairs caused by ice conditions reduced Q2 profitability [P2]."
+  - lt: "**Priežastys:** vadovo teigimu, brangesnis kuras ir neplanuoti laivų remontai po ledo sezono [P2]."
+    en: "**Why:** the CEO names higher fuel prices and unplanned ship repairs after the ice season [P2]."
     lv: "Pēc valdes priekšsēdētāja teiktā, 2. cet. rentabilitāti samazināja augošas degvielas cenas un ledus apstākļu izraisīti ārkārtas kuģu remonti [P2]."
     et: "Juhatuse esimehe sõnul vähendasid II kv kasumlikkust kütusehindade tõus ja jääoludest tingitud erakorralised laevaremondid [P2]."
-  - lt: "Skola stabili: grynoji skola 145,8 mln. EUR, grynoji skola / 12 mėn. koreguota EBITDA 2,78x, nuosavo kapitalo dalis 59,8 % (abu rodikliai apskaičiuoti įrankio) [P1]."
-    en: "Debt stable: net debt EUR 145.8m, net debt / LTM adjusted EBITDA 2.78x, equity ratio 59.8% (both ratios calculated by the tool) [P1]."
+  - lt: "**Balansas tvirtas:** grynoji skola 145,8 mln. EUR, t. y. 2,78x 12 mėn. koreguotos EBITDA; nuosavas kapitalas sudaro 59,8 % turto (abu rodikliai apskaičiuoti įrankio) [P1]."
+    en: "**Balance sheet solid:** net debt EUR 145.8m, or 2.78x LTM adjusted EBITDA; equity is 59.8% of assets (both ratios calculated by the tool) [P1]."
     lv: "Parāds stabils: neto parāds 145,8 milj. EUR, neto parāds / 12 mēn. koriģētā EBITDA 2,78x, pašu kapitāla īpatsvars 59,8 % (abus rādītājus aprēķinājis rīks) [P1]."
     et: "Võlg stabiilne: netovõlg 145,8 mln eurot, netovõlg / 12 kuu korrigeeritud EBITDA 2,78x, omakapitali määr 59,8% (mõlemad suhtarvud arvutas tööriist) [P1]."
-  - lt: "Dividendai 0,073 EUR akcijai, iš viso 19,2 mln. EUR – 85 % 2025 m. pelno (politika – ne mažiau 70 %); išmokėta 2026-05-20 [P1 p.14-15]."
-    en: "Dividend EUR 0.073 per share, EUR 19.2m in total - 85% of 2025 profit (policy: at least 70%); paid 2026-05-20 [P1 p.14-15]."
+  - lt: "**Dividendai viršija politiką:** 0,073 EUR akcijai (iš viso 19,2 mln. EUR) – 85 % 2025 m. pelno, kai politikos minimumas 70 %; išmokėta 2026-05-20 [P1 p.14-15]."
+    en: "**Dividend above policy:** EUR 0.073 per share (EUR 19.2m in total), 85% of 2025 profit against a policy minimum of 70%; paid 2026-05-20 [P1 p.14-15]."
     lv: "Dividende 0,073 EUR uz akciju, kopā 19,2 milj. EUR – 85 % no 2025. g. peļņas (politika – vismaz 70 %); izmaksāta 2026-05-20 [P1 p.14-15]."
     et: "Dividend 0,073 eurot aktsia kohta, kokku 19,2 mln eurot – 85% 2025. aasta kasumist (poliitika: vähemalt 70%); makstud 20.05.2026 [P1 p.14-15]."
-  - lt: "Estijos valstybė valdo 67,03 % [P1 p.13]. Buvusių vadovų kyšininkavimo byla: 2024-06-27 teismas išteisino dėl senaties; prokuratūra ir gynyba apskundė, vėlesnis sprendimas nerastas – reikia peržiūrėti [E1; E2]."
-    en: "The Republic of Estonia holds 67.03% [P1 p.13]. Former executives' bribery case: on 2024-06-27 the court acquitted on limitation grounds; prosecution and defence appealed, later ruling not found - needs review [E1; E2]."
+  - lt: "**Valstybės valdoma; sena byla neužbaigta:** Estija valdo 67,03 % [P1 p.13]. Buvusių vadovų kyšininkavimo byloje teismas 2024-06-27 išteisino dėl senaties; abi pusės apskundė, vėlesnis sprendimas nerastas – reikia peržiūrėti [E1; E2]."
+    en: "**State-owned; old court case still open:** Estonia holds 67.03% [P1 p.13]. In the bribery case of former executives the court acquitted them on limitation grounds on 2024-06-27; both sides appealed and a later ruling was not found - needs review [E1; E2]."
     lv: "Igaunijas valstij pieder 67,03 % [P1 p.13]. Bijušo vadītāju kukuļošanas lieta: 2024-06-27 tiesa attaisnoja noilguma dēļ; prokuratūra un aizstāvība pārsūdzēja, vēlāks lēmums nav atrasts – jāpārskata [E1; E2]."
     et: "Eesti Vabariigile kuulub 67,03% [P1 p.13]. Endiste juhtide altkäemaksukaasus: 27.06.2024 mõistis kohus aegumise tõttu õigeks; prokuratuur ja kaitse kaebasid edasi, hilisemat otsust ei leitud – vajab ülevaatust [E1; E2]."
 
@@ -86,14 +86,17 @@ plans:
     outcome: {lt: "Išmokėta 85 % pelno (politika ≥70 %)", en: "85% of profit paid (policy ≥70%)", lv: "Izmaksāti 85 % peļņas (politika ≥70 %)", et: "Välja maksti 85% kasumist (poliitika ≥70%)"}
     status: met
     src: "P3; P1 p.14"
+    why: {lt: "Įvykdyta: išmokėta 85 % pelno, kai politika – ≥70 %. Tačiau 2026 m. 6 mėn. pelnas sumažėjo iki 6,0 mln. EUR (10,3 mln.) dėl kuro ir remonto sąnaudų bei mažesnių skystų krovinių, todėl kitų metų dividendų bazė gali būti mažesnė [P1; P2].", en: "Met: 85% payout versus the ≥70% policy. But 6M 2026 profit fell to EUR 6.0m (10.3m) on fuel and repair costs and lower liquid bulk, so next year's dividend base may be smaller [P1; P2]."}
   - plan: {lt: "1 ir 2 apimties emisijos −55 % iki 2030 m. (bazė 2019 m. – 33 086 t CO2e), klimatui neutrali veikla iki 2050 m.", en: "Scope 1+2 emissions −55% by 2030 (2019 base 33,086 t CO2e), climate-neutral operations by 2050", lv: "1. un 2. tvēruma emisijas −55 % līdz 2030. g. (2019. g. bāze – 33 086 t CO2e), klimatneitrāla darbība līdz 2050. g.", et: "1. ja 2. ulatuse heide −55% aastaks 2030 (2019 baas 33 086 t CO2e), kliimaneutraalne tegevus aastaks 2050"}
     outcome: {lt: "2025 m. – 19 261 t CO2e (−41,8 % nuo 2019 m.; apskaičiuota įrankio, patikrinti)", en: "2025: 19,261 t CO2e (−41.8% vs 2019; calculated by the tool, verify)", lv: "2025. g. – 19 261 t CO2e (−41,8 % pret 2019. g.; aprēķinājis rīks, pārbaudīt)", et: "2025: 19 261 t CO2e (−41,8% vs 2019; arvutas tööriist, kontrollida)"}
     status: pending
     src: "P6 p.19, p.22"
+    why: {lt: "Vykdoma: iki 2025 m. pasiekta −41,8 %; iki 2030 m. reikia dar apie 13 p. p. (apskaičiuota įrankio) [P6 p.19, p.22].", en: "Progressing: −41.8% reached by 2025; about 13 p.p. more is needed by 2030 (calculated by the tool) [P6 p.19, p.22]."}
   - plan: {lt: "Perspektyvos (2026-08): naujos ro-ro ir konteinerių linijos, Muuga pramonės parkas, Senojo miesto uosto nekilnojamojo turto konkursas", en: "Outlook (2026-08): new ro-ro and container lines, Muuga industrial park, Old City Harbour real estate tender", lv: "Perspektīvas (2026-08): jaunas ro-ro un konteineru līnijas, Mūgas industriālais parks, Vecpilsētas ostas nekustamā īpašuma konkurss", et: "Väljavaade (08.2026): uued ro-ro ja konteinerliinid, Muuga tööstuspark, Vanasadama kinnisvarakonkurss"}
     outcome: {lt: "Nauja – vertinti kitoje apžvalgoje", en: "New - assess in the next review", lv: "Jauns – izvērtēt nākamajā pārskatā", et: "Uus – hinnata järgmises ülevaates"}
     status: pending
     src: "P4"
+    why: {lt: "Nauja 2026-08 perspektyvoje; dar nėra su kuo lyginti [P4].", en: "New in the 2026-08 outlook; nothing to compare yet [P4]."}
 
 investor:
   - lt: "Turima priemonė: akcijos (TSM1T, Nasdaq Tallinn). Obligacijų nėra; skolinimasis – paskolos (173,4 mln. EUR, iš jų 93,1 mln. trumpalaikės) [P1]."

@@ -32,24 +32,24 @@ sources:
   W3: {title: "Ignitis grupė - Gamta (website, LT)", url: "https://ignitisgrupe.lt/tvarumo-prioritetai/gamta", date: 2026-10-22}
 
 quick_summary:
-  - lt: "6 mėn. koreguota EBITDA – 306,6 mln. EUR (+1,9 %). Augo Tinklai ir Klientai ir sprendimai, mažėjo Žalioji generacija (149,2 mln. EUR, 2025 m. – 166,6 mln.) [S1 p.24]. 2026 m. prognozė 550–600 mln. EUR patvirtinta; per pusmetį pasiekta 51–56 % jos [S2]."
-    en: "6M Adjusted EBITDA EUR 306.6m (+1.9%). Networks and Customers & Solutions grew, Green Capacities declined (EUR 149.2m vs 166.6m) [S1 p.24]. 2026 guidance of EUR 550-600m reiterated; 6M equals 51-56% of it [S2]."
+  - lt: "**Rezultatai pagal planą:** 6 mėn. koreguota EBITDA – 306,6 mln. EUR, 1,9 % daugiau. Augo tinklai ir klientų segmentas; žalioji gamyba sumažėjo iki 149,2 mln. EUR nuo 166,6 mln. [S1 p.24]. 2026 m. prognozė 550–600 mln. EUR palikta, maždaug pusė jos jau pasiekta (51–56 %) [S2]."
+    en: "**Earnings on track:** 6M Adjusted EBITDA was EUR 306.6m, up 1.9%. Networks and Customers & Solutions grew; Green Capacities fell to EUR 149.2m from 166.6m [S1 p.24]. The 2026 guidance of EUR 550-600m was kept, and about half of it is already reached (51-56%) [S2]."
     lv: "6 mēn. koriģētā EBITDA – 306,6 milj. EUR (+1,9 %). Pieauga Tīkli un Klienti un risinājumi, samazinājās Zaļā ražošana (149,2 milj. EUR pret 166,6 milj.) [S1 p.24]. 2026. gada prognoze 550–600 milj. EUR apstiprināta; pusgadā sasniegti 51–56 % [S2]."
     et: "6 kuu korrigeeritud EBITDA 306,6 mln eurot (+1,9%). Kasvasid Võrgud ning Kliendid ja lahendused, Roheline tootmine vähenes (149,2 mln vs 166,6 mln eurot) [S1 p.24]. 2026. aasta prognoos 550–600 mln eurot kinnitati; poolaastaga on täidetud 51–56% [S2]."
-  - lt: "Skola stabili: grynoji skola 1 925,3 mln. EUR (+0,7 % nuo 2025 m. pabaigos), grynoji skola / koreguota EBITDA 3,49x, FFO / grynoji skola 22,2 % (strateginis tikslas ≥23 %) [S1 p.10; S6]."
-    en: "Debt stable: net debt EUR 1,925.3m (+0.7% since YE2025), net debt / Adjusted EBITDA 3.49x, FFO / net debt 22.2% (strategic target ≥23%) [S1 p.10; S6]."
+  - lt: "**Skola kontroliuojama:** grynoji skola 1 925,3 mln. EUR, nuo metų pradžios beveik nepakito (+0,7 %). Svertas – 3,49x grynoji skola / EBITDA. Atsilieka vienas rodiklis: FFO / grynoji skola 22,2 %, tikslas – ne mažiau 23 % [S1 p.10; S6]."
+    en: "**Debt under control:** net debt EUR 1,925.3m, almost unchanged since year-end (+0.7%). Leverage is 3.49x net debt / EBITDA. One metric lags: FFO / net debt 22.2% against a target of at least 23% [S1 p.10; S6]."
     lv: "Parāds stabils: neto parāds 1 925,3 milj. EUR (+0,7 % kopš 2025. gada beigām), neto parāds / koriģētā EBITDA 3,49x, FFO / neto parāds 22,2 % (stratēģiskais mērķis ≥23 %) [S1 p.10; S6]."
     et: "Võlg stabiilne: netovõlg 1 925,3 mln eurot (+0,7% alates 2025. aasta lõpust), netovõlg / korrigeeritud EBITDA 3,49x, FFO / netovõlg 22,2% (strateegiline eesmärk ≥23%) [S1 p.10; S6]."
-  - lt: "Reitingai nepakito: S&P BBB+ (stabili, 2026-07-28), Moody's Baa1 (stabili, pirmas reitingas 2026 m.) [S7]."
-    en: "Ratings unchanged: S&P BBB+ (stable, 2026-07-28), Moody's Baa1 (stable, first-time rating in 2026) [S7]."
+  - lt: "**Reitingai stabilūs:** S&P BBB+ (stabili, patvirtinta 2026-07-28) ir Moody's Baa1 (stabili, pirmas reitingas 2026 m.) [S7]."
+    en: "**Ratings stable:** S&P BBB+ (stable, confirmed 2026-07-28) and Moody's Baa1 (stable, first rating in 2026) [S7]."
     lv: "Reitingi nemainīgi: S&P BBB+ (stabils, 2026-07-28), Moody's Baa1 (stabils, pirmais reitings 2026. gadā) [S7]."
     et: "Reitingud muutumatud: S&P BBB+ (stabiilne, 28.07.2026), Moody's Baa1 (stabiilne, esmane reiting 2026) [S7]."
-  - lt: "Svarbu turimai obligacijai XS1646530565 (2,000 %, 2027-07-14): 2026-10-19 paskelbtas supirkimo pasiūlymas (tender offer), finansuojamas nauja 300 mln. EUR 4,500 % EuGB obligacija iki 2031-10-27 [S8; S9]."
-    en: "Relevant for held bond XS1646530565 (2.000%, 2027-07-14): tender offer announced on 2026-10-19, financed with a new EUR 300m 4.500% EuGB bond due 2031-10-27 [S8; S9]."
+  - lt: "**Reikia sprendimo dėl turimos obligacijos:** 2026-10-19 „Ignitis“ pasiūlė supirkti XS1646530565 (2,000 %, išpirkimas 2027-07-14). Supirkimas finansuojamas nauja 300 mln. EUR žaliąja obligacija, 4,500 %, iki 2031 m. [S8; S9]."
+    en: "**Decision needed on a held bond:** on 2026-10-19 Ignitis offered to buy back XS1646530565 (2.000%, matures 2027-07-14). The buy-back is financed by a new EUR 300m green bond at 4.500% due 2031 [S8; S9]."
     lv: "Būtiski turētajai obligācijai XS1646530565 (2,000 %, 2027-07-14): 2026-10-19 izsludināts atpirkšanas piedāvājums (tender offer), ko finansē jauna 300 milj. EUR 4,500 % EuGB obligācija ar dzēšanu 2031-10-27 [S8; S9]."
     et: "Oluline hoitava võlakirja XS1646530565 (2,000%, 14.07.2027) jaoks: 19.10.2026 teatati tagasiostupakkumisest (tender offer), mida rahastatakse uue 300 mln euro 4,500% EuGB võlakirjaga tähtajaga 27.10.2031 [S8; S9]."
-  - lt: "Koreguotas grynasis pelnas sumažėjo 20,8 % iki 115,8 mln. EUR; koreguota ROCE (12 mėn.) – 6,7 % (buvo 8,6 %) [S1 p.11]."
-    en: "Adjusted net profit fell 20.8% to EUR 115.8m; Adjusted ROCE (LTM) 6.7% (8.6% a year earlier) [S1 p.11]."
+  - lt: "**Silpnoji vieta – pelnas:** koreguotas grynasis pelnas sumažėjo 20,8 % iki 115,8 mln. EUR. Kapitalo grąža (koreguota ROCE, 12 mėn.) nukrito iki 6,7 % nuo 8,6 % [S1 p.11]."
+    en: "**Profit is the weak spot:** adjusted net profit fell 20.8% to EUR 115.8m. Return on capital (Adjusted ROCE, LTM) dropped to 6.7% from 8.6% [S1 p.11]."
     lv: "Koriģētā tīrā peļņa samazinājās par 20,8 % līdz 115,8 milj. EUR; koriģētā ROCE (12 mēn.) – 6,7 % (iepriekš 8,6 %) [S1 p.11]."
     et: "Korrigeeritud puhaskasum vähenes 20,8% 115,8 mln euroni; korrigeeritud ROCE (12 kuud) 6,7% (aasta varem 8,6%) [S1 p.11]."
 
@@ -98,30 +98,37 @@ plans:
     outcome: {lt: "6 mėn. – 306,6 mln. EUR; prognozė patvirtinta 2026-08-12", en: "6M: EUR 306.6m; guidance reiterated 2026-08-12", lv: "6 mēn.: 306,6 milj. EUR; prognoze apstiprināta 2026-08-12", et: "6 kuud: 306,6 mln eurot; prognoos kinnitati 12.08.2026"}
     status: pending
     src: "S5; S2"
+    why: {lt: "Pagal planą: per 6 mėn. pasiekta 51–56 % intervalo. Augo tinklai bei klientai ir sprendimai; žalioji gamyba mažėjo dėl silpnesnio vėjo ir mažesnės apsidraudimo kainos [S1 p.24; S3].", en: "On track: 6M covers 51-56% of the range. Networks and Customers & Solutions grew; Green Capacities fell on weaker wind and a lower hedge price [S1 p.24; S3]."}
   - plan: {lt: "2026 m. investicijos 590–690 mln. EUR", en: "2026 investments EUR 590-690m", lv: "2026. g. investīcijas 590–690 milj. EUR", et: "2026. aasta investeeringud 590–690 mln eurot"}
     outcome: {lt: "6 mėn. – 306,1 mln. EUR (44–52 % intervalo)", en: "6M: EUR 306.1m (44-52% of the range)", lv: "6 mēn.: 306,1 milj. EUR (44–52 % no intervāla)", et: "6 kuud: 306,1 mln eurot (44–52% vahemikust)"}
     status: pending
     src: "S5; S1 p.5"
+    why: {lt: "Pagal planą: 6 mėn. investicijos 306,1 mln. EUR (−10,8 % per metus); 68 % – į tinklus [S1 p.5].", en: "On track: 6M investments EUR 306.1m (−10.8% y/y); 68% went to Networks [S1 p.5]."}
   - plan: {lt: "Strategija 2025–2028: investicijos 3,0–4,0 mlrd. EUR, 2028 m. koreguota EBITDA 600–680 mln. EUR", en: "Strategy 2025-2028: investments EUR 3.0-4.0bn, 2028 Adjusted EBITDA EUR 600-680m", lv: "Stratēģija 2025–2028: investīcijas 3,0–4,0 mljrd. EUR, 2028. g. koriģētā EBITDA 600–680 milj. EUR", et: "Strateegia 2025–2028: investeeringud 3,0–4,0 mld eurot, 2028. aasta korrigeeritud EBITDA 600–680 mln eurot"}
     outcome: {lt: "Nauja strategija 2026–2029: investicijos 2,5–3,0 mlrd. EUR, 2029 m. EBITDA 640–700 mln. EUR (investicijų apimtis sumažinta)", en: "New strategy 2026-2029: investments EUR 2.5-3.0bn, 2029 EBITDA EUR 640-700m (investment envelope reduced)", lv: "Jaunā stratēģija 2026–2029: investīcijas 2,5–3,0 mljrd. EUR, 2029. g. EBITDA 640–700 milj. EUR (investīciju apjoms samazināts)", et: "Uus strateegia 2026–2029: investeeringud 2,5–3,0 mld eurot, 2029. aasta EBITDA 640–700 mln eurot (investeeringute maht vähendatud)"}
     status: changed
     src: "S4 p.27-28; S6"
+    why: {lt: "Pakeista: naujas 2026–2029 m. planas sumažina investicijas iki 2,5–3,0 mlrd. EUR, o EBITDA tikslą 2029 m. pakelia iki 640–700 mln. EUR. Priežastis peržiūrėtuose šaltiniuose nenurodyta [S6].", en: "Changed: the new 2026-2029 plan cuts the investment envelope to EUR 2.5-3.0bn and raises the EBITDA target to EUR 640-700m for 2029. Reason: not stated in the sources reviewed [S6]."}
   - plan: {lt: "FFO / grynoji skola ≥23 % (2026–2029)", en: "FFO / net debt ≥23% (2026-2029)", lv: "FFO / neto parāds ≥23 % (2026–2029)", et: "FFO / netovõlg ≥23% (2026–2029)"}
     outcome: {lt: "2025 m. pab. – 21,0 %, 2026-06-30 (12 mėn.) – 22,2 %", en: "YE2025: 21.0%; 30 Jun 2026 (LTM): 22.2%", lv: "2025. g. beigās – 21,0 %, 2026-06-30 (12 mēn.) – 22,2 %", et: "2025. aasta lõpus 21,0%, 30.06.2026 (12 kuud) 22,2%"}
     status: not_met
     src: "S6; S1 p.10"
+    why: {lt: "Gerėja, bet dar žemiau tikslo: 21,0 % → 22,2 %, nes FFO augo 11,3 %, o grynoji skola beveik nesikeitė (+0,7 %) [S1 p.10, p.29].", en: "Improving but still below target: 21.0% → 22.2% as FFO grew 11.3% while net debt stayed flat (+0.7%) [S1 p.10, p.29]."}
   - plan: {lt: "Grynoji skola / koreguota EBITDA 3–4x; reitingas BBB ar aukštesnis", en: "Net debt / Adjusted EBITDA 3-4x; rating BBB or above", lv: "Neto parāds / koriģētā EBITDA 3–4x; reitings BBB vai augstāks", et: "Netovõlg / korrigeeritud EBITDA 3–4x; reiting BBB või kõrgem"}
     outcome: {lt: "3,49x; S&P BBB+, Moody's Baa1", en: "3.49x; S&P BBB+, Moody's Baa1", lv: "3,49x; S&P BBB+, Moody's Baa1", et: "3,49x; S&P BBB+, Moody's Baa1"}
     status: met
     src: "S6; S1 p.10; S7"
+    why: {lt: "Įvykdyta: svertas 3,49x – intervalo viduryje; grynoji skola +0,7 % nuo 2025 m. pabaigos; reitingai stabilūs [S1 p.10; S7].", en: "Met: leverage 3.49x, in the middle of the range; net debt +0.7% since YE2025; ratings stable [S1 p.10; S7]."}
   - plan: {lt: "Dividendai akcijai auga ≥3 % per metus", en: "Dividend per share growth ≥3% a year", lv: "Dividende uz akciju pieaug ≥3 % gadā", et: "Dividend aktsia kohta kasvab ≥3% aastas"}
     outcome: {lt: "2025 m. 1,366 EUR (+3,0 %); 2026 m. I pusm. 0,704 EUR (+3,1 %)", en: "2025: EUR 1.366 (+3.0%); H1 2026: EUR 0.704 (+3.1%)", lv: "2025. g. 1,366 EUR (+3,0 %); 2026. g. 1. pusg. 0,704 EUR (+3,1 %)", et: "2025: 1,366 eurot (+3,0%); 2026 I poolaasta 0,704 eurot (+3,1%)"}
     status: met
     src: "S6; S5; S2"
+    why: {lt: "Įvykdyta: +3,0 % už 2025 m. ir +3,1 % už 2026 m. I pusm., nors koreguotas pelnas sumažėjo 20,8 %, o laisvieji pinigų srautai (5,3 mln. EUR) dividendų nepadengia [S1 p.29; S2].", en: "Met: +3.0% for 2025 and +3.1% for H1 2026, although adjusted profit fell 20.8% and free cash flow (EUR 5.3m) does not cover the dividend [S1 p.29; S2]."}
   - plan: {lt: "Žalioji galia 2,8–3,2 GW iki 2029 m.", en: "Green capacity 2.8-3.2 GW by 2029", lv: "Zaļā jauda 2,8–3,2 GW līdz 2029. gadam", et: "Roheline võimsus 2,8–3,2 GW aastaks 2029"}
     outcome: {lt: "Įrengta 2,1 GW, statoma 0,7 GW", en: "2.1 GW installed, 0.7 GW under construction", lv: "Uzstādīti 2,1 GW, būvniecībā 0,7 GW", et: "Paigaldatud 2,1 GW, ehitusel 0,7 GW"}
     status: pending
     src: "S6; S1 p.17"
+    why: {lt: "Vykdoma: 2,1 GW įrengta + 0,7 GW statoma = 2,8 GW, t. y. tikslo apatinė riba (apskaičiuota įrankio) [S1 p.17].", en: "Progressing: 2.1 GW installed + 0.7 GW under construction = 2.8 GW, the bottom of the target range (calculated by the tool) [S1 p.17]."}
 
 investor:
   - lt: "Turimos priemonės: akcijos (IGN1L) ir trys obligacijos (2027, 2028, 2030). Obligacijos neužtikrintos, joms taikomas emitento reitingas BBB+ (S&P) [S8]."

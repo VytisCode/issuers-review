@@ -1,6 +1,7 @@
 """Bendros funkcijos: konfigūracijos, istorijos ir ataskaitų skaitymas, skaičių formatavimas."""
 import csv
 import json
+import re
 from datetime import date
 from pathlib import Path
 
@@ -41,6 +42,89 @@ def i18n():
 
 def metrics():
     return load_yaml(CONFIG / "metrics.yaml")
+
+
+def metric_rules():
+    return load_yaml(CONFIG / "metric_rules.yaml") if (CONFIG / "metric_rules.yaml").exists() else {}
+
+
+def judge(metric, value, prev=None):
+    """Grąžina (trend, level): trend good/bad/flat/none pagal kryptį; level good/mid/weak/None pagal ribas."""
+    r = metric_rules().get(metric, {})
+    b = r.get("better", "none")
+    trend = "none"
+    if prev is not None and b in ("up", "down"):
+        d = float(value) - float(prev)
+        trend = "flat" if abs(d) < 1e-9 else ("good" if (d > 0) == (b == "up") else "bad")
+    level = None
+    if "good" in r and "weak" in r:
+        v, g, w = float(value), float(r["good"]), float(r["weak"])
+        if b == "down":
+            level = "good" if v <= g else "weak" if v > w else "mid"
+        else:
+            level = "good" if v >= g else "weak" if v < w else "mid"
+    return trend, level
+
+
+def _pkey(p):
+    return (p[-4:], 1 if p.startswith("FY") else 0, p)
+
+
+def ratio_change(metric, vals, periods, lang):
+    """Paskutinio laikotarpio pokytis ir vertinimas: (last, prev, tekstas, trend, level).
+    Srautų rodikliai lyginami su tuo pačiu laikotarpiu prieš metus; būklės (stock) - su naujausiu ankstesniu."""
+    have = [p for p in periods if p in vals]
+    if not have:
+        return None, None, "", "none", None
+    last = have[-1]
+    same = last[:-4] + str(int(last[-4:]) - 1)
+    if same in have:
+        prev = same
+    elif metric_rules().get(metric, {}).get("stock"):
+        earlier = [x for x in sorted(have, key=_pkey) if _pkey(x) < _pkey(last)]
+        prev = earlier[-1] if earlier else None
+    else:
+        prev = None
+    if not prev:
+        return last, None, "", "none", judge(metric, vals[last]["value"])[1]
+    unit, a, b = vals[last]["unit"], float(vals[prev]["value"]), float(vals[last]["value"])
+    arrow = "▲" if b > a else "▼" if b < a else "•"
+    if unit in ("%", "x"):
+        d = abs(b - a)
+        txt = f"{arrow} {fmt_num(f'{d:.2f}'.rstrip('0').rstrip('.'), 'x' if unit == 'x' else '', lang)}{' p. p.' if unit == '%' else ''}"
+    elif a:
+        txt = f"{arrow} {fmt_num(f'{abs((b - a) / abs(a) * 100):.1f}', '', lang)} %"
+    else:
+        txt = ""
+    trend, level = judge(metric, b, a)
+    return last, prev, txt, trend, level
+
+
+_LABEL = re.compile(r"\*\*([^*]{1,60}?):?\*\*:?\s*")
+_SEMI = re.compile(r";\s+(?![^\[]*\])(?![^(]*\))")
+_SENT = re.compile(r"(?<=[.!?])\s+(?![^\[]*\])(?=[A-ZĄČĘĖĮŠŲŪŽ0-9„\"(])")
+
+
+def points(text):
+    """Ilgą įrodymo tekstą suskaido į struktūrą: [(antraštė arba None, [punktai])].
+    Antraštės - **Žodis:** žymės; punktai - sakiniai ir ; atskirtos dalys (išnašų [..] viduje neskaidoma)."""
+    text = (text or "").strip()
+    if not text:
+        return []
+    parts, pos, label = [], 0, None
+    for m in _LABEL.finditer(text):
+        chunk = text[pos:m.start()].strip()
+        if chunk or label:
+            parts.append((label, chunk))
+        label, pos = m.group(1).strip(), m.end()
+    parts.append((label, text[pos:].strip()))
+    out = []
+    for lab, chunk in parts:
+        items = [y.strip() for x in _SEMI.split(chunk) for y in _SENT.split(x) if y.strip()]
+        items = [x[0].upper() + x[1:] if x[0].islower() else x for x in items]
+        if lab or items:
+            out.append((lab, items))
+    return out
 
 
 def seb():

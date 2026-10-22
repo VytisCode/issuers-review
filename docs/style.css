@@ -122,3 +122,14 @@ textarea { width: 100%; font: 13px/1.5 ui-monospace, Menlo, Consolas, monospace;
 @media (max-width: 760px) { .langs { margin-left: 0; } .hero { padding: 20px; } .hero h1 { font-size: 23px; } }
 :root[data-theme="dark"] .langs button.on, :root[data-theme="dark"] .step .num { color: #0f1720; }
 @media (prefers-color-scheme: dark) { :root:where(:not([data-theme="light"])) .langs button.on, :root:where(:not([data-theme="light"])) .step .num { color: #0f1720; } }
+/* v3: rodiklių spalvos, struktūruoti ESG įrodymai */
+td.lv-good { background: var(--good-bg); font-weight: 700; }
+td.lv-mid { background: var(--warn-bg); font-weight: 700; }
+td.lv-weak { background: var(--bad-bg); font-weight: 700; }
+td.tr-good { color: var(--good); font-weight: 700; }
+td.tr-bad { color: var(--bad); font-weight: 700; }
+td.tr-flat, td.tr-none { color: var(--muted); }
+.esg .ev ul.b { margin: 2px 0 4px; }
+.esg .ev ul.b li { margin: 2px 0; }
+.evl { font-weight: 700; color: var(--text); font-size: 13.5px; margin-top: 6px; }
+#mchart { max-width: 640px; }

@@ -42,12 +42,13 @@ def texts(rep, lang):
         "business": [h(x, True) for x in rep.get("business", [])],
         "financials": [h(x, True) for x in rep.get("financials", [])],
         "investor": [h(x, True) for x in rep.get("investor", [])],
-        "plans": [{"plan": h(p["plan"]), "outcome": h(C.tr(p["outcome"], lang) + (f" [{p['src']}]" if p.get("src") else "")), "status": p["status"]}
+        "plans": [{"plan": h(p["plan"]), "outcome": h(C.tr(p["outcome"], lang) + (f" [{p['src']}]" if p.get("src") else "")),
+                   "why": h(p.get("why", "")), "status": p["status"]}
                   for p in rep.get("plans", [])],
         "rating": h(rep.get("rating", "")), "next_report": h(rep.get("next_report", "")),
         "esg": [{"heading": s["heading"], "note": s.get("note", ""),
                  "items": [{"id": q["id"], "q": q["q"], "status": items.get(q["id"], {}).get("status", "review"),
-                            "evidence": h(items.get(q["id"], {}).get("evidence", ""))} for q in s["items"]]} for s in tpl["sections"]],
+                            "points": [{"label": lab, "items": [h(x) for x in its]} for lab, its in C.points(C.tr(items.get(q["id"], {}).get("evidence", ""), lang))]} for q in s["items"]]} for s in tpl["sections"]],
         "esg_conclusion": h(esg.get("conclusion", "")),
     }
     out["sources"] = [{"n": n, "title": t, "page": pg, "note": note, "url": u, "date": d} for n, t, pg, note, u, k, d in cites.notes()]
@@ -86,6 +87,8 @@ def main():
             "periods": last.get("periods", []), "ratios": last.get("ratios", []), "highlights": last.get("highlights", []),
             "history": {m: {p: {"v": r["value"], "u": r["unit"], "s": r["source"], "pg": r.get("page", ""), "ok": r.get("verified", "")} for p, r in v.items()}
                         for m, v in hist.items()},
+            "judge": {m: dict(zip(("last", "prev", "txt", "trend", "level"), C.ratio_change(m, hist[m], last.get("periods", []), "en"))) | {"txt_lt": C.ratio_change(m, hist[m], last.get("periods", []), "lt")[2]}
+                      for m in last.get("ratios", []) if m in hist} if last else {},
             "src_urls": {k: v.get("url", "") for k, v in last.get("sources", {}).items()},
             "yaml": f"reports/{key}/{last['_file'].name}" if last else "",
             "t": {lg: texts(last, lg) for lg in SITE_LANGS} if last else {},

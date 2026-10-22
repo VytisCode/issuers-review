@@ -22,7 +22,7 @@
       download: "Download", pdf: "PDF", docx: "Word", xlsx: "Excel", newsTitle: "News", allIssuers: "All issuers", all: "All", reviewOnly: "To review only", searchHeadlines: "Search headlines",
       newsSub: "Google News and regional media in each issuer's local language(s). 'Review' = an adverse keyword (investigation, fine, court, sanctions…) was found in the headline – a pointer, not a conclusion.",
       noNews: "No news yet – it appears after the first automatic search.", date: "Date", issuer: "Issuer", headline: "Headline", source: "Source", flag: "Flag", review: "Review",
-      metric: "Metric", plan: "Plan / target", outcome: "Outcome", status: "Status", legend: "* verify in the original; ᶜ calculated by the tool. Hover a number to see its source; small blue numbers in the text open the source document at the cited page.",
+      metric: "Metric", change: "Change", why: "What changed and why", legendColors: "Green change: the metric is improving; red: worsening. Latest value background: green good level, amber average, red weak (tool benchmarks).", plan: "Plan / target", outcome: "Outcome", status: "Status", legend: "* verify in the original; ᶜ calculated by the tool. Hover a number to see its source; small blue numbers in the text open the source document at the cited page.",
       met: "Met", partly: "Partly", not_met: "Not met", pending: "In progress", changed: "Revised", needsReview: "Needs review",
       secTitle: "Securities", secSub: "All tracked ISINs. When a maturity date passes, the security is marked 'Matured' automatically and drops out of the reports.",
       maturityChart: "Held bonds maturing per year", bondsCount: "Number of bonds (excluding perpetuals)", isinCol: "ISIN", instrument: "Instrument", heldCol: "Held", coupon: "Coupon", maturity: "Maturity", note: "Note",
@@ -49,7 +49,7 @@
       download: "Atsisiųsti", pdf: "PDF", docx: "Word", xlsx: "Excel", newsTitle: "Naujienos", allIssuers: "Visi emitentai", all: "Visos", reviewOnly: "Tik peržiūrai", searchHeadlines: "Paieška antraštėse",
       newsSub: "Google News ir regiono žiniasklaida emitento šalies kalba(-omis). „Peržiūrėti“ – antraštėje rasta neigiamų žodžių (tyrimas, bauda, teismas, sankcijos…). Tai pagalba, ne išvada.",
       noNews: "Naujienų dar nėra – jos atsiras po pirmos automatinės paieškos.", date: "Data", issuer: "Emitentas", headline: "Antraštė", source: "Šaltinis", flag: "Žyma", review: "Peržiūrėti",
-      metric: "Rodiklis", plan: "Planas / tikslas", outcome: "Rezultatas", status: "Būsena", legend: "* reikia patikrinti originale; ᶜ apskaičiuota įrankio. Užveskite pelę ant skaičiaus – matysite šaltinį; maži mėlyni skaičiai tekste atidaro šaltinį reikiamame puslapyje.",
+      metric: "Rodiklis", change: "Pokytis", why: "Kas pasikeitė ir kodėl", legendColors: "Žalias pokytis – rodiklis gerėja, raudonas – blogėja. Paskutinės reikšmės fonas: žalias – geras lygis, geltonas – vidutinis, raudonas – silpnas (įrankio orientyrai).", plan: "Planas / tikslas", outcome: "Rezultatas", status: "Būsena", legend: "* reikia patikrinti originale; ᶜ apskaičiuota įrankio. Užveskite pelę ant skaičiaus – matysite šaltinį; maži mėlyni skaičiai tekste atidaro šaltinį reikiamame puslapyje.",
       met: "Įvykdyta", partly: "Iš dalies", not_met: "Neįvykdyta", pending: "Dar vykdoma", changed: "Pakeista", needsReview: "Reikia peržiūrėti",
       secTitle: "Vertybiniai popieriai", secSub: "Visi sekami ISIN. Kai išpirkimo data praeina, popierius automatiškai pažymimas „Išpirkta“ ir nebeįtraukiamas į ataskaitas.",
       maturityChart: "Turimų obligacijų išpirkimai pagal metus", bondsCount: "Obligacijų skaičius (be neterminuotų)", isinCol: "ISIN", instrument: "Priemonė", heldCol: "Turima", coupon: "Kuponas", maturity: "Išpirkimas", note: "Pastaba",
@@ -179,27 +179,28 @@
     h += tiles(i);
     h += `<h2>${t("quick")}</h2><ul class="b">${(X.summary || []).map(s => `<li>${s}</li>`).join("")}</ul>`;
     h += `<h2>${t("instruments")}</h2><div class="tbl-wrap"><table><tr><th>${t("isinCol")}</th><th>${t("instrument")}</th><th>${t("heldCol")}</th><th class="n">${t("coupon")}</th><th>${t("maturity")}</th><th>${t("status")}</th><th>${t("note")}</th></tr>${secs.map(secRow).join("")}</table></div>`;
-    h += `<h2>${t("keyRatios")}</h2><div class="tbl-wrap"><table><tr><th>${t("metric")}</th>${i.periods.map(p => `<th class="n">${p}</th>`).join("")}</tr>`;
+    h += `<h2>${t("keyRatios")}</h2><div class="tbl-wrap"><table><tr><th>${t("metric")}</th>${i.periods.map(p => `<th class="n">${p}</th>`).join("")}<th class="n">${t("change")}</th></tr>`;
     i.ratios.forEach(m => {
+      const J = (i.judge || {})[m] || {};
       const v = i.history[m]; if (!v) return;
       const u = Object.values(v)[0].u;
       h += `<tr><td>${esc(M(m))}${unitLbl(u) ? ", " + unitLbl(u) : ""}</td>${i.periods.map(p => {
         const r = v[p]; if (!r) return '<td class="n">–</td>';
         const url = i.src_urls[r.s] ? i.src_urls[r.s] + (r.pg && /\.pdf/i.test(i.src_urls[r.s]) ? "#page=" + parseInt(r.pg) : "") : "";
         const val = `${fmt(r.v, u)}${r.ok === "check" ? "*" : r.ok === "calc" ? "ᶜ" : ""}`;
-        return `<td class="n" data-tip="${esc(r.s)}${r.pg ? " p." + esc(r.pg) : ""}">${url ? `<a class="quiet" href="${esc(url)}" target="_blank" rel="noopener">${val}</a>` : val}</td>`;
-      }).join("")}</tr>`;
+        return `<td class="n${p === J.last && J.level ? " lv-" + J.level : ""}" data-tip="${esc(r.s)}${r.pg ? " p." + esc(r.pg) : ""}">${url ? `<a class="quiet" href="${esc(url)}" target="_blank" rel="noopener">${val}</a>` : val}</td>`;
+      }).join("")}<td class="n tr-${J.trend || "none"}">${J.txt ? esc((LANG === "lt" ? J.txt_lt : J.txt) + " vs " + J.prev) : "–"}</td></tr>`;
     });
-    h += `</table></div><p class="muted">${t("legend")}</p>`;
+    h += `</table></div><p class="muted">${t("legendColors")}</p><p class="muted">${t("legend")}</p>`;
     const opts = i.ratios.filter(m => i.history[m]);
-    h += `<div class="two"><div><h2>${t("trend")}</h2><div class="filters"><select id="mpick">${opts.map(m => `<option value="${m}">${esc(M(m))}</option>`).join("")}</select></div><div class="chart" id="mchart"></div></div>
-      <div><h2>${t("plans")}</h2><div class="tbl-wrap"><table><tr><th>${t("plan")}</th><th>${t("outcome")}</th><th>${t("status")}</th></tr>${(X.plans || []).map(p => `<tr><td>${p.plan}</td><td>${p.outcome}</td><td>${chip(p.status)}</td></tr>`).join("")}</table></div></div></div>`;
+    h += `<div><div><h2>${t("trend")}</h2><div class="filters"><select id="mpick">${opts.map(m => `<option value="${m}">${esc(M(m))}</option>`).join("")}</select></div><div class="chart" id="mchart"></div></div>
+      <div><h2>${t("plans")}</h2><div class="tbl-wrap"><table><tr><th>${t("plan")}</th><th>${t("outcome")}</th><th>${t("why")}</th><th>${t("status")}</th></tr>${(X.plans || []).map(p => `<tr><td>${p.plan}</td><td>${p.outcome}</td><td>${p.why || "–"}</td><td>${chip(p.status)}</td></tr>`).join("")}</table></div></div></div>`;
     h += `<h2>${t("investor")}</h2><ul class="b">${(X.investor || []).map(s => `<li>${s}</li>`).join("")}</ul>`;
     h += `<details class="more"><summary>${t("more")}</summary><h3>${t("business")}</h3><ul class="b">${(X.business || []).map(s => `<li>${s}</li>`).join("")}</ul>
       <h3>${t("financials")}</h3><ul class="b">${(X.financials || []).map(s => `<li>${s}</li>`).join("")}</ul></details>`;
     h += `<h2>ESG report</h2><div class="esg">${(X.esg || []).map(s => `<h3>${esc(s.heading)}</h3>${s.items.map(q => `
       <p class="q"><span class="box">${q.status === "yes" ? "☑" : "☐"}</span> ${esc(q.q)}</p>
-      <p class="ev">${q.status === "review" ? `<span class="chip warn">${t("needsReview")}</span> ` : ""}${q.evidence}</p>`).join("")}
+      <div class="ev">${q.status === "review" ? `<span class="chip warn">${t("needsReview")}</span>` : ""}${(q.points || []).map(g => `${g.label ? `<div class="evl">${esc(g.label)}</div>` : ""}<ul class="b">${g.items.map(x => `<li>${x}</li>`).join("")}</ul>`).join("")}</div>`).join("")}
       ${s.note ? `<p class="esgnote">${esc(s.note)}</p>` : ""}<p><b>Additional comments:</b></p>`).join("")}
       <p><b>Conclusion:</b> ${X.esg_conclusion || ""}</p></div>`;
     const nw = D.news.filter(n => n.issuer === id).slice(0, 15);
