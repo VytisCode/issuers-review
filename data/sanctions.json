@@ -4,22 +4,25 @@
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "US OFAC": "not_found",
-   "UK": "not_found"
+   "UK": "not_found",
+   "US OFAC": "not_found"
   },
-  "matches": []
+  "matches": [],
+  "mentions": []
  },
  "luminor": {
   "date": "2026-10-22",
   "lists": {
-   "EU": "found",
+   "EU": "not_found",
    "UN": "not_found",
-   "US OFAC": "found",
-   "UK": "not_found"
+   "UK": "not_found",
+   "US OFAC": "found"
   },
   "matches": [
-   "EU: luminor",
-   "US OFAC: luminor"
+   "US OFAC: | siberica oy | buzin ilya andreevich | temin gabriel | temin catherine esther | luminor oy | ooo vmk | joint stock company united metallurgical company | krivoruchko"
+  ],
+  "mentions": [
+   "EU: …gabriel gabriel temin en m ceo of the finnish logistic companies siberica oy and luminor oy 159898 en amendment council 2023 12 18 2023 12 18 2023 2875 oj l18122023 uk…"
   ]
  },
  "port-of-tallinn": {
@@ -27,9 +30,10 @@
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "US OFAC": "not_found",
-   "UK": "not_found"
+   "UK": "not_found",
+   "US OFAC": "not_found"
   },
-  "matches": []
+  "matches": [],
+  "mentions": []
  }
 }
