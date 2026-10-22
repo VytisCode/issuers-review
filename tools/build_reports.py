@@ -315,9 +315,21 @@ def to_xlsx(rep, lang, path):
     wb.save(path)
 
 
-def build(only=None):
+def inputs_hash(issuer, rep):
+    """Failai perkuriami tik pasikeitus jų šaltiniams (kitaip kiekvienas paleidimas keistų dvejetainius failus)."""
+    import hashlib
+    h = hashlib.sha1()
+    for p in [rep["_file"], C.DATA / "history" / f"{issuer}.csv", Path(__file__), *sorted(C.CONFIG.glob("*"))]:
+        if Path(p).exists():
+            h.update(Path(p).read_bytes())
+    return h.hexdigest()
+
+
+def build(only=None, force=False):
     cfg = C.settings()
     built = []
+    state_path = C.DOCS / "files" / "build_state.json"
+    state = C.load_json(state_path)
     for issuer in C.issuers():
         if only and issuer != only:
             continue
@@ -326,6 +338,10 @@ def build(only=None):
             out.mkdir(parents=True, exist_ok=True)
             for lang in cfg.get("languages", ["lt"]):
                 base = out / f"{issuer}_{rep['period']}_{lang}"
+                hkey, hval = base.name, inputs_hash(issuer, rep)
+                if not force and state.get(hkey) == hval and all(base.with_suffix("." + e).exists() for e in cfg["formats"]):
+                    continue
+                state[hkey] = hval
                 blocks = model(rep, lang)
                 if "docx" in cfg["formats"]:
                     to_docx(blocks, base.with_suffix(".docx"))
@@ -334,8 +350,10 @@ def build(only=None):
                 if "xlsx" in cfg["formats"]:
                     to_xlsx(rep, lang, base.with_suffix(".xlsx"))
                 built.append(base.name)
-    print("Sugeneruota:", ", ".join(built) or "nieko")
+    C.save_json(state_path, state)
+    print("Sugeneruota:", ", ".join(built) or "nieko (šaltiniai nepasikeitė)")
 
 
 if __name__ == "__main__":
-    build(sys.argv[1] if len(sys.argv) > 1 else None)
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    build(args[0] if args else None, force="--force" in sys.argv)

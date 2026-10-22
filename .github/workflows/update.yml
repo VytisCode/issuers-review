@@ -52,5 +52,5 @@ jobs:
           git add -A docs data
           if git diff --cached --quiet; then echo "Nėra pakeitimų"; exit 0; fi
           git commit -m "Automatinis atnaujinimas $(date -u +%F)"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push origin main
