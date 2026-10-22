@@ -41,9 +41,14 @@ def main():
         body = json.dumps({"isins": held, "by": "issuers-review (pradinis sąrašas)"}).encode("utf-8")
         req = urllib.request.Request(url, data=body, headers={"Content-Type": "text/plain;charset=utf-8", "User-Agent": "issuers-review"})
         with urllib.request.urlopen(req, timeout=60) as r:
-            print("Saugykla užpildyta:", r.read().decode("utf-8")[:300])
+            res = json.loads(r.read().decode("utf-8", "ignore") or "{}")
+        if not res.get("ok"):
+            raise SystemExit(f"Nepavyko užpildyti saugyklos: {res} (jei 'pin' - Apps Script nustatymuose ištrinkite PIN savybę)")
+        print("Saugykla užpildyta:", res)
         data = get(url)
     want = {x["isin"]: x for x in data.get("isins", [])}
+    if not want:  # apsauga: tuščias sąrašas niekada nepažymi visų VP kaip parduotų
+        raise SystemExit("Saugyklos sąrašas tuščias - nieko nekeičiama")
     fields = list(rows[0].keys())
     changes, known = [], set()
     for r in rows:
