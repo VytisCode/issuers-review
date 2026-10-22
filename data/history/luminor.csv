@@ -1,0 +1,37 @@
+metric,period,value,unit,source,page,verified,note
+net_profit,FY2024,202.2,EURm,L2,7,yes,
+net_profit,FY2025,157.7,EURm,L2,7,yes,
+net_profit,1H2025,91.6,EURm,L1,5,yes,
+net_profit,1H2026,72.0,EURm,L1,5,yes,
+net_profit,2Q2025,46.2,EURm,L1,5,yes,
+net_profit,2Q2026,37.4,EURm,L1,5,yes,
+nii,FY2025,427.3,EURm,L1,16,yes,restated (annual report originally 419.8)
+nii,1H2026,214.4,EURm,L1,16,yes,
+total_income,FY2025,544.7,EURm,L1,16,yes,restated (annual report originally 537.2)
+total_income,1H2026,271.7,EURm,L1,16,yes,
+cost_income,FY2025,64.7,%,L1,16,yes,restated (originally 64.2%)
+cost_income,1H2026,65.5,%,L1,16,yes,
+roe,FY2025,8.6,%,L1,16,yes,
+roe,1H2026,7.7,%,L1,16,yes,annualised
+cor,FY2025,0.01,%,L1,16,yes,cost of risk
+cor,1H2026,0.14,%,L1,16,yes,
+nim,FY2025,2.71,%,L2,8,yes,
+nim,1H2026,2.70,%,L1,16,yes,
+loans,FY2025,11491.4,EURm,L1,,yes,net loans to customers
+loans,1H2026,11903.2,EURm,L1,,yes,
+deposits,FY2025,11510.7,EURm,L1,,yes,
+deposits,1H2026,12275.5,EURm,L1,,yes,
+cet1,FY2025,20.2,%,L2,8,yes,incl. profit to be retained
+cet1,1H2026,19.6,%,L1,,yes,regulatory basis 19.1%
+total_capital,FY2025,24.6,%,L2,8,yes,
+total_capital,1H2026,23.7,%,L1,,yes,regulatory basis 23.3%
+leverage,FY2025,10.0,%,L2,8,yes,
+leverage,1H2026,9.9,%,L1,,yes,
+mrel,FY2025,35.54,%,L2,8,yes,% of TREA
+mrel,1H2026,36.34,%,L1,,yes,% of TREA; requirement 23.69% + CBR
+lcr,FY2025,174.6,%,L2,8,yes,
+lcr,1H2026,187.0,%,L1,,yes,
+nsfr,FY2025,134.1,%,L2,8,yes,
+nsfr,1H2026,142.3,%,L1,,yes,
+npl,FY2025,2.0,%,L2,8,yes,
+npl,1H2026,2.1,%,L1,,yes,

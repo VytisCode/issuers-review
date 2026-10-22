@@ -1,0 +1,37 @@
+metric,period,value,unit,source,page,verified,note
+revenue,FY2024,119.6,EURm,P3,,yes,119587 EURk
+revenue,FY2025,118.7,EURm,P3,,yes,118687 EURk
+revenue,6M2025,57.9,EURm,P1,4,yes,57862 EURk
+revenue,6M2026,59.3,EURm,P1,4,yes,59262 EURk
+adj_ebitda,FY2024,53.1,EURm,P3,,yes,53134 EURk
+adj_ebitda,FY2025,56.5,EURm,P3,,yes,56510 EURk
+adj_ebitda,6M2025,29.8,EURm,P1,4,yes,29805 EURk
+adj_ebitda,6M2026,25.8,EURm,P1,4,yes,25769 EURk
+adj_ebitda_margin,FY2024,44.4,%,P3,,yes,
+adj_ebitda_margin,FY2025,47.6,%,P3,,yes,
+adj_ebitda_margin,6M2025,51.5,%,P1,4,yes,
+adj_ebitda_margin,6M2026,43.5,%,P1,4,yes,
+operating_profit,FY2024,29.1,EURm,P3,,yes,
+operating_profit,FY2025,32.7,EURm,P3,,yes,
+operating_profit,6M2025,18.3,EURm,P1,4,yes,
+operating_profit,6M2026,13.6,EURm,P1,4,yes,
+net_profit,FY2024,19.2,EURm,P3,,yes,
+net_profit,FY2025,22.5,EURm,P3,,yes,
+net_profit,6M2025,10.3,EURm,P1,4,yes,
+net_profit,6M2026,6.0,EURm,P1,4,yes,
+investments,FY2024,38.8,EURm,P3,,yes,
+investments,FY2025,33.2,EURm,P3,,yes,
+investments,6M2025,12.0,EURm,P1,4,yes,
+investments,6M2026,3.5,EURm,P1,4,yes,
+net_debt,FY2025,141.7,EURm,P3,,yes,loans and borrowings less cash
+net_debt,6M2025,143.7,EURm,P1,4,yes,
+net_debt,6M2026,145.8,EURm,P1,4,yes,
+nd_ebitda,FY2025,2.51,x,calc,,calc,net debt / adj. EBITDA - calculated by tool
+nd_ebitda,6M2026,2.78,x,calc,,calc,net debt / LTM adj. EBITDA 52.5 - calculated by tool
+equity_ratio,FY2025,61.2,%,calc,,calc,equity 380.9 / assets 622.1 - calculated by tool
+equity_ratio,6M2026,59.8,%,calc,,calc,equity 367.7 / assets 615.0 - calculated by tool
+cargo,6M2025,6.83,Mt,P1,4,yes,
+cargo,6M2026,6.48,Mt,P1,4,yes,
+passengers,6M2025,3.66,m,P1,4,yes,
+passengers,6M2026,3.59,m,P1,4,yes,
+dps,FY2025,0.073,EUR,P1,14,yes,paid 2026-05-20; 85% of 2025 profit

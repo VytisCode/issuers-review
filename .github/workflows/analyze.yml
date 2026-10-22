@@ -1,0 +1,49 @@
+name: AI analysis request
+
+# Dashboard mygtukas „Paprašyti naujos analizės“ sukuria GitHub užduotį su žyma "analize".
+# Jei saugykloje yra slaptas raktas CLAUDE_CODE_OAUTH_TOKEN (Claude Pro/Max planas, žr. README),
+# Claude atlieka analizę pagal CLAUDE.md ir įkelia naują ataskaitą. Naudojamas Claude plano limitas, papildomai nemokama.
+# Jei rakto nėra - užduotyje parašomas komentaras, kad analizės paprašytumėte Claude projekte.
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+  id-token: write
+
+jobs:
+  analyze:
+    if: contains(github.event.issue.labels.*.name, 'analize')
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      HAS_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v5
+      - name: No token - explain
+        if: env.HAS_TOKEN != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --repo ${{ github.repository }} --body "Automatinė AI analizė neįjungta (nėra CLAUDE_CODE_OAUTH_TOKEN). Parašykite Claude projekte, pvz.: „Atnaujink ${{ github.event.issue.title }}“."
+      - uses: actions/setup-python@v6
+        if: env.HAS_TOKEN == 'true'
+        with:
+          python-version: "3.12"
+      - if: env.HAS_TOKEN == 'true'
+        run: pip install -r requirements.txt
+      - name: Claude analysis
+        if: env.HAS_TOKEN == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Užduotis iš GitHub užduoties #${{ github.event.issue.number }}: "${{ github.event.issue.title }}".
+            Užduoties tekstas: ${{ github.event.issue.body }}
+            Atlik emitento analizę pagal CLAUDE.md skyrių „Kaip atlikti analizę“: rask naujausią viešą ataskaitą,
+            papildyk data/history/<emitentas>.csv, sukurk reports/<emitentas>/<laikotarpis>.yaml, paleisk
+            python tools/build_reports.py ir python tools/build_site.py, tada commit ir push į main.
+            Pabaigoje parašyk užduotyje trumpą santrauką lietuviškai ir uždaryk užduotį.
+          claude_args: "--max-turns 80"

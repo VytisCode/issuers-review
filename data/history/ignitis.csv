@@ -1,0 +1,49 @@
+metric,period,value,unit,source,page,verified,note
+revenue,6M2025,1298.0,EURm,S1,23,check,from interim report summary - verify page
+revenue,6M2026,1497.5,EURm,S1,23,check,from interim report summary - verify page
+adj_ebitda,FY2024,527.9,EURm,S4,14,yes,
+adj_ebitda,FY2025,546.1,EURm,S5,,yes,
+adj_ebitda,6M2025,300.8,EURm,S1,11,yes,
+adj_ebitda,6M2026,306.6,EURm,S1,5,yes,
+ebitda,FY2024,532.7,EURm,S4,14,yes,
+ebitda,FY2025,482.1,EURm,S4,14,yes,
+ebitda,6M2025,262.5,EURm,S1,11,yes,
+ebitda,6M2026,303.5,EURm,S1,11,yes,
+adj_net_profit,FY2024,277.5,EURm,S4,14,yes,
+adj_net_profit,FY2025,225.7,EURm,S5,,yes,
+adj_net_profit,6M2025,146.2,EURm,S1,11,yes,
+adj_net_profit,6M2026,115.8,EURm,S1,11,yes,
+net_profit,FY2024,276.2,EURm,S4,14,yes,
+net_profit,FY2025,163.9,EURm,S4,14,yes,
+net_profit,6M2025,111.4,EURm,S1,23,check,from interim report summary - verify page
+net_profit,6M2026,113.2,EURm,S1,23,check,from interim report summary - verify page
+investments,FY2024,812.0,EURm,S4,14,yes,
+investments,FY2025,720.3,EURm,S5,,yes,
+investments,6M2025,343.2,EURm,S1,11,yes,
+investments,6M2026,306.1,EURm,S1,5,yes,
+ffo,6M2025,225.9,EURm,S1,29,check,from interim report summary - verify page
+ffo,6M2026,251.4,EURm,S1,29,check,from interim report summary - verify page
+fcf,6M2025,64.0,EURm,S1,29,check,from interim report summary - verify page
+fcf,6M2026,5.3,EURm,S1,29,check,from interim report summary - verify page
+net_debt,FY2024,1612.3,EURm,S4,14,yes,
+net_debt,FY2025,1912.0,EURm,S1,10,yes,
+net_debt,6M2026,1925.3,EURm,S1,10,yes,30 June 2026
+nd_ebitda,FY2024,3.05,x,S4,14,yes,Net debt / Adjusted EBITDA
+nd_ebitda,FY2025,3.50,x,S1,10,yes,
+nd_ebitda,6M2026,3.49,x,S1,10,yes,LTM
+ffo_nd,FY2024,29.7,%,S4,14,yes,
+ffo_nd,FY2025,21.0,%,S1,10,yes,
+ffo_nd,6M2026,22.2,%,S1,10,yes,LTM
+adj_roce,FY2024,9.0,%,S4,14,yes,
+adj_roce,FY2025,7.5,%,S4,14,yes,
+adj_roce,6M2026,6.7,%,S1,11,yes,LTM
+equity,FY2025,2494.7,EURm,S1,33,check,from interim report summary - verify page
+equity,6M2026,2636.1,EURm,S1,33,check,from interim report summary - verify page
+total_assets,FY2025,6278.9,EURm,S1,33,check,from interim report summary - verify page
+total_assets,6M2026,6339.2,EURm,S1,33,check,from interim report summary - verify page
+dps,FY2024,1.33,EUR,S4,,yes,
+dps,FY2025,1.366,EUR,S5,,yes,0.683 + 0.683
+dps,6M2026,0.704,EUR,S2,,yes,H1 2026 proposed; AGM 2026-09-09
+green_capacity,FY2024,1.4,GW,S5,,yes,installed
+green_capacity,FY2025,2.1,GW,S5,,yes,installed
+green_capacity,6M2026,2.1,GW,S1,11,yes,installed; 0.6 GW under construction

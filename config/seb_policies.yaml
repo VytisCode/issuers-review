@@ -1,0 +1,105 @@
+# SEB tvarumo politikų santrauka, naudojama ESG klausimynui.
+# Šaltinis: https://sebgroup.com/sustainability/our-sustainability-strategy/policies (politikos atnaujinamos kasmet).
+# verified: yes - perskaityta viešame SEB puslapyje; no - SEB PDF automatiškai neperskaitomas (robots.txt),
+#   turinys reikalauja rankinės patikros. Kai turėsite PDF, įkelkite santrauką čia ir pakeiskite verified: yes.
+# Taikymas "ne 100 % griežtas": klausimynas žymi atitiktį / neatitiktį / reikia peržiūrėti, sprendimą priima analitikas.
+reviewed: 2026-10-22
+index_url: https://sebgroup.com/sustainability/our-sustainability-strategy/policies
+
+policies:
+  fossil_fuels:
+    name: Fossil Fuels (coal, oil & gas, peat) sector policy
+    url: https://sebgroup.com/sustainability/our-impact-areas/our-approach-to-fossil-fuels
+    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/80AF6A2E5F88CDC2C12586B1002E33C2?opendocument
+    verified: yes
+    updated: 2026-04
+    rules:
+      - Thermal coal mining > 5% of revenue - no relationship.
+      - Coal-fired power generation > 5% of revenue - no new relationships; from 2026 also existing ones (Germany from 2030).
+      - No dedicated financing of thermal-coal infrastructure or equipment for coal mines.
+      - Oil & gas - exposure reduced gradually; new exploration and oilfield services restricted; transition plans expected.
+      - Unconventional oil (oil sands, oil shale, fracking, Arctic) covered by restrictions.
+  electricity_renewables:
+    name: Electricity & Renewable Energy sector policy
+    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/60D2454400789893C12587D70030AFC1?opendocument
+    verified: no
+    rules:
+      - "SEB target (verified, ambitions page): power generation portfolio 70 g CO2e/kWh by 2030 (-44% vs 2020)."
+      - Policy PDF content to be checked manually.
+  shipping:
+    name: Shipping sector policy
+    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/C882785365792AC9C12587D700312ACF?opendocument
+    verified: no
+    rules:
+      - "SEB is a Poseidon Principles signatory (2020); shipping target AER -41% by 2030 vs 2022 (verified, ambitions page)."
+      - Policy PDF content to be checked manually.
+  transportation:
+    name: Transportation sector policy
+    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/B1113F0C7B3136E4C12587D70030204B?opendocument
+    verified: no
+    rules:
+      - Policy PDF content to be checked manually.
+  climate_nature:
+    name: Environmental Policy on Climate, Nature and Water
+    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/CBAA255D7EC51026C1257C28002FB11A?opendocument
+    verified: no
+    rules:
+      - "SEB commitments (verified): Paris Agreement; net zero credit portfolio by 2050 at the latest."
+      - Expect issuer to have emissions disclosure, reduction targets and a transition plan.
+  human_rights:
+    name: Social and Human Rights Policy
+    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/B6C87DACA17DDE3CC1258B5C006292E0?opendocument
+    verified: no
+    rules:
+      - "SEB commitments (verified): UN Guiding Principles on Business and Human Rights, ILO core conventions, OECD Guidelines for MNEs, UN Global Compact."
+      - Expect issuer to have human-rights / labour / health & safety policies and no severe unresolved controversies.
+  anti_corruption:
+    name: Anti-corruption, Code of Conduct, Tax
+    verified: no
+    rules:
+      - Expect anti-bribery and anti-corruption policy, whistleblowing channel, no unresolved major corruption cases.
+  financial_general:
+    name: Financial sector - no dedicated SEB sector policy (general rules applied)
+    verified: yes
+    rules:
+      - No SEB sector policy for banks; apply general SEB commitments (UN Global Compact, OECD Guidelines, Paris alignment, human rights).
+      - Check AML/sanctions controls, financed-emissions disclosure, exposure to fossil fuel lending, membership of PRB/NZBA or similar.
+
+# ESG klausimynas (vienodas visiems emitentams). Kiekvienam punktui ataskaitoje: būsena + trumpas įrodymas + šaltinis.
+checklist:
+  - id: excl_coal
+    group: exclusion
+    q: {lt: "Anglies (kasyba ar anglies elektrinės) dalis pajamose mažesnė nei 5 %", en: "Coal (thermal mining or coal power) share of revenue below 5%"}
+  - id: excl_fossil_expansion
+    group: exclusion
+    q: {lt: "Nėra naujos naftos ir dujų žvalgybos / netradicinės naftos", en: "No new oil & gas exploration / unconventional oil"}
+  - id: excl_weapons
+    group: exclusion
+    q: {lt: "Nėra sąsajų su kontroversiškais ginklais, tabaku ar lošimais", en: "No controversial weapons, tobacco or gambling involvement"}
+  - id: excl_controversy
+    group: exclusion
+    q: {lt: "Nėra rimtų neišspręstų skandalų (korupcija, žmogaus teisės, aplinka)", en: "No severe unresolved controversies (corruption, human rights, environment)"}
+  - id: int_targets
+    group: integration
+    q: {lt: "Emisijų mažinimo tikslai (Paryžiaus / SBTi) ir pereinamojo laikotarpio planas", en: "Emission reduction targets (Paris-aligned / SBTi) and transition plan"}
+  - id: int_disclosure
+    group: integration
+    q: {lt: "Tvarumo ataskaitos (CSRD/ESRS ar GRI), atskleistos 1–3 apimties emisijos", en: "Sustainability reporting (CSRD/ESRS or GRI), Scope 1-3 emissions disclosed"}
+  - id: int_green_share
+    group: integration
+    q: {lt: "Teigiamas indėlis (žaliosios pajamos / investicijos, ES taksonomija, žaliosios obligacijos)", en: "Positive contribution (green revenue / capex, EU Taxonomy alignment, green bonds)"}
+  - id: int_governance
+    group: integration
+    q: {lt: "Valdysena – nepriklausoma valdyba, antikorupcijos ir pranešėjų politikos", en: "Governance - independent board, anti-corruption and whistleblowing policies"}
+  - id: int_social
+    group: integration
+    q: {lt: "Socialiniai aspektai – sauga, darbo ir žmogaus teisių politikos", en: "Social - health & safety, labour and human rights policies"}
+  - id: engagement
+    group: engagement
+    q: {lt: "Klausimai įsitraukimui su emitentu", en: "Issues for engagement with the issuer"}
+  - id: sanctions
+    group: manual
+    q: {lt: "Sankcijų patikra (atlieka analitikas vidinėmis priemonėmis)", en: "Sanctions screening (done by analyst with internal tools)"}
+  - id: media
+    group: manual
+    q: {lt: "Neigiamos žiniasklaidos patikra (įrankis pateikia radinius, analitikas patvirtina)", en: "Adverse media check (tool lists hits; analyst confirms)"}

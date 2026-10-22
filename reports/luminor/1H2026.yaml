@@ -1,0 +1,141 @@
+# Luminor Bank - apžvalga pagal 2026 m. II ketv. (1H) ataskaitą.
+# Šį failą galima taisyti tiesiai GitHub'e. Kiekvienas tekstas turi 4 kalbas: lt, en, lv, et.
+issuer: luminor
+period: 1H2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai), peržiūri analitikas
+next_report: "3Q 2026 interim report - expected November 2026"
+rating: "Moody's - affirmed after the OTP announcement (grade to be confirmed; 2025 annual report refers to 'current A2 rating') [L1 p.15; L2 p.9]"
+periods: [FY2024, FY2025, 1H2025, 1H2026]
+ratios: [net_profit, nii, total_income, cost_income, roe, cor, nim, loans, deposits, cet1, total_capital, leverage, mrel, lcr, nsfr, npl]
+
+sources:
+  L1: {title: "Luminor Bank - Interim report 2Q 2026", url: "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_interim_report_2q26.pdf", date: 2026-08-11}
+  L2: {title: "Luminor Bank - Annual report 2025", url: "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2025-lv.pdf", date: 2026}
+  L3: {title: "Luminor - Primary placements (bond list)", url: "https://luminor.lv/en/placements", date: 2026-09-28}
+  L4: {title: "Luminor - Financial reports", url: "https://luminor.lv/en/financial-reports", date: 2026-10-22}
+
+quick_summary:
+  - lt: "1H 2026 grynasis pelnas 72,0 mln. EUR (1H 2025 – 91,6 mln.), II ketv. – 37,4 mln. EUR (46,2 mln.); ROE 7,7 % [L1 p.5, p.16]."
+    en: "1H 2026 net profit EUR 72.0m (1H 2025: 91.6m), 2Q EUR 37.4m (46.2m); ROE 7.7% [L1 p.5, p.16]."
+    lv: "1H 2026 tīrā peļņa 72,0 milj. EUR (1H 2025 – 91,6 milj.), 2. cet. – 37,4 milj. EUR (46,2 milj.); ROE 7,7 % [L1 p.5, p.16]."
+    et: "1H 2026 puhaskasum 72,0 mln eurot (1H 2025: 91,6 mln), II kv 37,4 mln eurot (46,2 mln); ROE 7,7% [L1 p.5, p.16]."
+  - lt: "Kapitalas ir likvidumas aukšti: CET1 19,6 %, bendras kapitalas 23,7 %, MREL 36,34 % TREA (reikalavimas 23,69 % + buferiai), LCR 187,0 %, NSFR 142,3 % [L1]."
+    en: "Capital and liquidity high: CET1 19.6%, total capital 23.7%, MREL 36.34% of TREA (requirement 23.69% + buffers), LCR 187.0%, NSFR 142.3% [L1]."
+    lv: "Kapitāls un likviditāte augsti: CET1 19,6 %, kopējais kapitāls 23,7 %, MREL 36,34 % no TREA (prasība 23,69 % + rezerves), LCR 187,0 %, NSFR 142,3 % [L1]."
+    et: "Kapital ja likviidsus kõrged: CET1 19,6%, kogukapital 23,7%, MREL 36,34% TREA-st (nõue 23,69% + puhvrid), LCR 187,0%, NSFR 142,3% [L1]."
+  - lt: "Savininko keitimas: 2026-07-20 paskelbta, kad OTP Bank įsigis 100 % Luminor Holding akcijų iš Blackstone konsorciumo ir DNB; reikia priežiūros institucijų leidimų. Po pranešimo Moody's patvirtino reitingą ir perspektyvą [L1 p.4, p.15]."
+    en: "Change of owner: on 2026-07-20 it was announced that OTP Bank will acquire 100% of Luminor Holding from the Blackstone-led consortium and DNB; regulatory approvals pending. Moody's affirmed the rating and outlook after the announcement [L1 p.4, p.15]."
+    lv: "Īpašnieka maiņa: 2026-07-20 paziņots, ka OTP Bank iegādāsies 100 % Luminor Holding akciju no Blackstone konsorcija un DNB; nepieciešamas uzraugu atļaujas. Pēc paziņojuma Moody's apstiprināja reitingu un perspektīvu [L1 p.4, p.15]."
+    et: "Omaniku vahetus: 20.07.2026 teatati, et OTP Bank omandab 100% Luminor Holdingust Blackstone'i juhitud konsortsiumilt ja DNB-lt; vaja on järelevalveasutuste lube. Pärast teadet kinnitas Moody's reitingu ja väljavaate [L1 p.4, p.15]."
+  - lt: "Priežiūros institucija (ECB, 2026-07-17) leido sumažinti CET1 kapitalą 200,0 mln. EUR; tikimasi IV ketv. [L1 p.4, p.8]."
+    en: "The regulator (ECB, 2026-07-17) approved a CET1 capital reduction of EUR 200.0m, expected in Q4 2026 [L1 p.4, p.8]."
+    lv: "Uzraugs (ECB, 2026-07-17) atļāva samazināt CET1 kapitālu par 200,0 milj. EUR; gaidāms 4. cet. [L1 p.4, p.8]."
+    et: "Järelevalve (EKP, 17.07.2026) kiitis heaks CET1 kapitali vähendamise 200,0 mln euro võrra, oodatavalt IV kv-s [L1 p.4, p.8]."
+  - lt: "Finansavimas: 1H 2026 išpirkta 300 mln. EUR pirmaeilė obligacija (MS+4,471 %) ir išleista pirmoji 500 mln. EUR senior non-preferred obligacija (MS+1,28 %) [L1]."
+    en: "Funding: in 1H 2026 a EUR 300m senior bond (MS+4.471%) was redeemed and an inaugural EUR 500m senior non-preferred bond issued (MS+1.28%) [L1]."
+    lv: "Finansējums: 1H 2026 dzēsta 300 milj. EUR senior obligācija (MS+4,471 %) un emitēta pirmā 500 milj. EUR senior non-preferred obligācija (MS+1,28 %) [L1]."
+    et: "Rahastamine: 1H 2026 lunastati 300 mln euro senior võlakiri (MS+4,471%) ja emiteeriti esimene 500 mln euro senior non-preferred võlakiri (MS+1,28%) [L1]."
+
+business:
+  - lt: "Paskolos klientams 11 903,2 mln. EUR (+3,6 % nuo 2025 m. pab.), indėliai 12 275,5 mln. EUR (+6,6 %; pokyčiai apskaičiuoti įrankio) [L1]."
+    en: "Loans to customers EUR 11,903.2m (+3.6% since YE2025), deposits EUR 12,275.5m (+6.6%; changes calculated by the tool) [L1]."
+    lv: "Kredīti klientiem 11 903,2 milj. EUR (+3,6 % kopš 2025. g. beigām), noguldījumi 12 275,5 milj. EUR (+6,6 %; izmaiņas aprēķinājis rīks) [L1]."
+    et: "Laenud klientidele 11 903,2 mln eurot (+3,6% alates 2025. aasta lõpust), hoiused 12 275,5 mln eurot (+6,6%; muutused arvutas tööriist) [L1]."
+  - lt: "Grynosios palūkanų pajamos 1H – 214,4 mln. EUR; grynoji palūkanų marža 2,70 % (2025 m. – 2,71 %) [L1 p.16; L2 p.8]."
+    en: "Net interest income 1H EUR 214.4m; net interest margin 2.70% (2025: 2.71%) [L1 p.16; L2 p.8]."
+    lv: "Neto procentu ienākumi 1H – 214,4 milj. EUR; neto procentu marža 2,70 % (2025. g. – 2,71 %) [L1 p.16; L2 p.8]."
+    et: "Neto intressitulu 1H 214,4 mln eurot; netointressimarginaal 2,70% (2025: 2,71%) [L1 p.16; L2 p.8]."
+  - lt: "Sąnaudų / pajamų santykis 65,5 % (2025 m. – 64,7 %); rizikos kaina 0,14 % (0,01 %); neveiksnios paskolos 2,1 % (2,0 %) [L1 p.16]."
+    en: "Cost/income 65.5% (2025: 64.7%); cost of risk 0.14% (0.01%); NPL ratio 2.1% (2.0%) [L1 p.16]."
+    lv: "Izmaksu / ienākumu attiecība 65,5 % (2025. g. – 64,7 %); riska izmaksas 0,14 % (0,01 %); ienākumus nenesošie kredīti 2,1 % (2,0 %) [L1 p.16]."
+    et: "Kulude-tulude suhe 65,5% (2025: 64,7%); riskikulu 0,14% (0,01%); viivislaenude osakaal 2,1% (2,0%) [L1 p.16]."
+  - lt: "1H 2026 išmokėta 74,0 mln. EUR dividendų už 2025 m. [L1]."
+    en: "EUR 74.0m of dividends for 2025 paid in 1H 2026 [L1]."
+    lv: "1H 2026 izmaksātas 74,0 milj. EUR dividendes par 2025. gadu [L1]."
+    et: "1H 2026 maksti 2025. aasta eest dividende 74,0 mln eurot [L1]."
+
+financials:
+  - lt: "2025 m. grynasis pelnas 157,7 mln. EUR (2024 m. – 202,2 mln., −22,0 %), ROE 8,6 %, CET1 20,2 %, bendras kapitalas 24,6 % [L2 p.7-8]."
+    en: "FY2025 net profit EUR 157.7m (2024: 202.2m, −22.0%), ROE 8.6%, CET1 20.2%, total capital 24.6% [L2 p.7-8]."
+    lv: "2025. g. tīrā peļņa 157,7 milj. EUR (2024. g. – 202,2 milj., −22,0 %), ROE 8,6 %, CET1 20,2 %, kopējais kapitāls 24,6 % [L2 p.7-8]."
+    et: "2025. aasta puhaskasum 157,7 mln eurot (2024: 202,2 mln, −22,0%), ROE 8,6%, CET1 20,2%, kogukapital 24,6% [L2 p.7-8]."
+  - lt: "2025 m. duomenys II ketv. ataskaitoje perskaičiuoti: grynosios palūkanų pajamos 427,3 mln. EUR (metinėje – 419,8 mln.), visos pajamos 544,7 mln. (537,2 mln.) [L1 p.16; L2]."
+    en: "FY2025 figures restated in the 2Q report: net interest income EUR 427.3m (annual report: 419.8m), total income EUR 544.7m (537.2m) [L1 p.16; L2]."
+    lv: "2025. g. dati 2. cet. pārskatā pārrēķināti: neto procentu ienākumi 427,3 milj. EUR (gada pārskatā – 419,8 milj.), kopējie ienākumi 544,7 milj. (537,2 milj.) [L1 p.16; L2]."
+    et: "2025. aasta andmed on II kv aruandes ümber arvutatud: neto intressitulu 427,3 mln eurot (aastaaruandes 419,8 mln), äritulud kokku 544,7 mln (537,2 mln) [L1 p.16; L2]."
+
+plans:
+  - plan: {lt: "Išleisti senior non-preferred obligacijas išlaikant dabartinį A2 reitingą (2025 m. ataskaita)", en: "Issue senior non-preferred bonds while keeping the current A2 rating (2025 annual report)", lv: "Emitēt senior non-preferred obligācijas, saglabājot pašreizējo A2 reitingu (2025. g. pārskats)", et: "Emiteerida senior non-preferred võlakirju, säilitades praeguse A2 reitingu (2025. aasta aruanne)"}
+    outcome: {lt: "1H 2026 išleista 500 mln. EUR SNP; Moody's reitingą patvirtino", en: "EUR 500m SNP issued in 1H 2026; Moody's affirmed the rating", lv: "1H 2026 emitētas 500 milj. EUR SNP; Moody's apstiprināja reitingu", et: "1H 2026 emiteeriti 500 mln eurot SNP; Moody's kinnitas reitingu"}
+    status: met
+    src: "L2 p.9; L1 p.15"
+  - plan: {lt: "Sumažinti CET1 kapitalą 200,0 mln. EUR (gautas leidimas 2026-07)", en: "Reduce CET1 capital by EUR 200.0m (approval received 2026-07)", lv: "Samazināt CET1 kapitālu par 200,0 milj. EUR (atļauja saņemta 2026-07)", et: "Vähendada CET1 kapitali 200,0 mln euro võrra (luba saadud 07.2026)"}
+    outcome: {lt: "Numatyta IV ketv. 2026", en: "Planned for Q4 2026", lv: "Paredzēts 2026. g. 4. cet.", et: "Kavandatud 2026. aasta IV kv-ks"}
+    status: pending
+    src: "L1 p.4, p.8"
+  - plan: {lt: "Savininkai: Blackstone konsorciumas (80,05 %) ir DNB (19,95 %) (2025 m. ataskaita)", en: "Owners: Blackstone-led consortium (80.05%) and DNB (19.95%) (2025 annual report)", lv: "Īpašnieki: Blackstone konsorcijs (80,05 %) un DNB (19,95 %) (2025. g. pārskats)", et: "Omanikud: Blackstone'i konsortsium (80,05%) ja DNB (19,95%) (2025. aasta aruanne)"}
+    outcome: {lt: "2026-07-20 paskelbtas pardavimas OTP Bank (100 %), laukiama leidimų", en: "Sale to OTP Bank (100%) announced 2026-07-20, approvals pending", lv: "2026-07-20 paziņota pārdošana OTP Bank (100 %), gaida atļaujas", et: "20.07.2026 teatati müügist OTP Bankile (100%), load ootel"}
+    status: changed
+    src: "L2 p.5; L1 p.4"
+
+investor:
+  - lt: "Turimos priemonės: trys terminuotos obligacijos (7,75 % 2027, 4,042 % 2028, 3,551 % 2029) ir neterminuota 7,375 % obligacija. Rangas (senior / SNP / AT1), sumos ir pirkimo datos emitento sąraše nenurodyti – patikrinti galutines sąlygas (Final Terms) [L3]."
+    en: "Instruments held: three dated bonds (7.75% 2027, 4.042% 2028, 3.551% 2029) and a perpetual 7.375% bond. Ranking (senior / SNP / AT1), amounts and call dates are not on the issuer's list - check the Final Terms [L3]."
+    lv: "Turētie instrumenti: trīs termiņa obligācijas (7,75 % 2027, 4,042 % 2028, 3,551 % 2029) un beztermiņa 7,375 % obligācija. Rangs (senior / SNP / AT1), apjomi un atsaukšanas datumi emitenta sarakstā nav norādīti – pārbaudīt galīgos noteikumus (Final Terms) [L3]."
+    et: "Hoitavad instrumendid: kolm tähtajalist võlakirja (7,75% 2027, 4,042% 2028, 3,551% 2029) ja tähtajatu 7,375% võlakiri. Järk (senior / SNP / AT1), mahud ja ennetähtaegse lunastuse kuupäevad emitendi nimekirjas puuduvad – kontrollida lõpptingimusi (Final Terms) [L3]."
+  - lt: "Obligacijų turėtojams: kapitalo ir MREL atsargos gerokai viršija reikalavimus, likvidumas padidėjo. 200 mln. EUR CET1 sumažinimas atsargą sumažins; bankas poveikio CET1 rodikliui šaltiniuose nenurodo [L1]."
+    en: "For bondholders: capital and MREL buffers are well above requirements and liquidity has increased. The EUR 200m CET1 reduction will lower the buffer; the bank does not state the impact on the CET1 ratio in the sources [L1]."
+    lv: "Obligāciju turētājiem: kapitāla un MREL rezerves ievērojami pārsniedz prasības, likviditāte pieaugusi. 200 milj. EUR CET1 samazinājums samazinās rezervi; banka avotos ietekmi uz CET1 rādītāju nenorāda [L1]."
+    et: "Võlakirjaomanikele: kapitali- ja MREL-puhvrid ületavad nõudeid tunduvalt ning likviidsus on kasvanud. 200 mln euro CET1 vähendamine vähendab puhvrit; pank ei too allikates mõju CET1 suhtarvule [L1]."
+  - lt: "OTP sandoris: patikrinti obligacijų sąlygas dėl kontrolės pasikeitimo ir naujo savininko reitingo poveikį. XS3079969104 – emitento sąraše išpirkimas nurodytas 2028-06-12, pavadinime – 2029 (galimai pirkimo opcionas 2028) [L1; L3]."
+    en: "OTP deal: check bond terms for change of control and the effect of the new owner's rating. XS3079969104 - the issuer list shows maturity 2028-06-12 but 2029 in the name (possibly a 2028 call) [L1; L3]."
+    lv: "OTP darījums: pārbaudīt obligāciju noteikumus par kontroles maiņu un jaunā īpašnieka reitinga ietekmi. XS3079969104 – emitenta sarakstā dzēšana norādīta 2028-06-12, nosaukumā – 2029 (iespējams, atsaukšanas tiesības 2028) [L1; L3]."
+    et: "OTP tehing: kontrollida võlakirjade tingimusi kontrolli muutuse osas ja uue omaniku reitingu mõju. XS3079969104 – emitendi nimekirjas on lunastus 12.06.2028, nimes aga 2029 (võimalik ennetähtaegne lunastus 2028) [L1; L3]."
+  - lt: "Išvada: pelningumas mažėja (pelnas −21 % per 1H), tačiau kapitalas, MREL ir likvidumas – su didelėmis atsargomis. Pagrindinis įvykis turėtojams – savininko keitimas į OTP. Stebėti: 3Q ataskaitą, OTP sandorio leidimus, kapitalo sumažinimą IV ketv."
+    en: "Conclusion: profitability is declining (1H profit −21%), but capital, MREL and liquidity have large buffers. The key event for holders is the change of owner to OTP. Watch: 3Q report, OTP deal approvals, the Q4 capital reduction."
+    lv: "Secinājums: rentabilitāte samazinās (1H peļņa −21 %), taču kapitālam, MREL un likviditātei ir lielas rezerves. Galvenais notikums turētājiem – īpašnieka maiņa uz OTP. Sekot: 3. cet. pārskatam, OTP darījuma atļaujām, kapitāla samazinājumam 4. cet."
+    et: "Järeldus: kasumlikkus väheneb (1H kasum −21%), kuid kapitali, MREL-i ja likviidsuse puhvrid on suured. Võlakirjaomanike jaoks on põhisündmus omaniku vahetus OTP-ks. Jälgida: III kv aruanne, OTP tehingu load, IV kv kapitali vähendamine."
+
+esg:
+  policies: [financial_general, human_rights, anti_corruption, climate_nature]
+  items:
+    excl_coal:
+      status: review
+      evidence: {lt: "Banko skolinimo iškastiniam kurui apribojimai automatiškai nerasti (luminor.ee tvarumo puslapiai nenuskaitomi).", en: "Bank's fossil fuel lending restrictions not found automatically (luminor.ee sustainability pages not readable).", lv: "Bankas fosilā kurināmā kreditēšanas ierobežojumi automātiski nav atrasti (luminor.ee ilgtspējas lapas nav nolasāmas).", et: "Panga fossiilkütuste laenupiiranguid automaatselt ei leitud (luminor.ee jätkusuutlikkuse lehti ei õnnestunud lugeda)."}
+    excl_fossil_expansion:
+      status: review
+      evidence: {lt: "Žr. aukščiau – reikia rankinės patikros.", en: "See above - manual check needed.", lv: "Skatīt augstāk – nepieciešama manuāla pārbaude.", et: "Vt eespool – vajab käsitsi kontrolli."}
+    excl_weapons:
+      status: review
+      evidence: {lt: "Nerasta informacijos apie skolinimo apribojimus ginklų, tabako ar lošimų sektoriams.", en: "No information found on lending restrictions for weapons, tobacco or gambling.", lv: "Nav atrasta informācija par kreditēšanas ierobežojumiem ieroču, tabakas vai azartspēļu nozarēm.", et: "Teavet relvade, tubaka või hasartmängude laenupiirangute kohta ei leitud."}
+    excl_controversy:
+      status: review
+      evidence: {lt: "Didelių 2026 m. skandalų greitoje paieškoje nerasta (2026-10-22). Patikrinti PPTP/AML istoriją.", en: "No major 2026 controversies found in a quick search (2026-10-22). Check AML history.", lv: "Lielas 2026. g. pretrunas ātrajā meklēšanā nav atrastas (2026-10-22). Pārbaudīt AML vēsturi.", et: "Kiirotsingul (22.10.2026) suuri 2026. aasta vastuolusid ei leitud. Kontrollida rahapesu tõkestamise ajalugu."}
+    int_targets:
+      status: review
+      evidence: {lt: "Finansuojamų emisijų tikslai ir NZBA įsipareigojimas automatiškai nerasti.", en: "Financed-emissions targets and NZBA commitment not found automatically.", lv: "Finansēto emisiju mērķi un NZBA saistības automātiski nav atrasti.", et: "Rahastatud heite eesmärke ja NZBA kohustust automaatselt ei leitud."}
+    int_disclosure:
+      status: review
+      evidence: {lt: "Tvarumo informacija turėtų būti 2025 m. metinėje ataskaitoje – patikrinti [L2].", en: "Sustainability information should be in the 2025 annual report - check [L2].", lv: "Ilgtspējas informācijai jābūt 2025. g. gada pārskatā – pārbaudīt [L2].", et: "Jätkusuutlikkuse teave peaks olema 2025. aasta aruandes – kontrollida [L2]."}
+    int_green_share:
+      status: review
+      evidence: {lt: "Žaliųjų paskolų / obligacijų dalis nerasta.", en: "Share of green loans / bonds not found.", lv: "Zaļo kredītu / obligāciju daļa nav atrasta.", et: "Roheliste laenude / võlakirjade osakaalu ei leitud."}
+    int_governance:
+      status: review
+      evidence: {lt: "Savininko keitimas (OTP) gali pakeisti valdymą; reikia peržiūrėti po sandorio.", en: "Change of owner (OTP) may change governance; review after the deal.", lv: "Īpašnieka maiņa (OTP) var mainīt pārvaldību; pārskatīt pēc darījuma.", et: "Omaniku vahetus (OTP) võib muuta juhtimist; üle vaadata pärast tehingut."}
+    int_social:
+      status: review
+      evidence: {lt: "Automatiškai netikrinta.", en: "Not checked automatically.", lv: "Automātiski nav pārbaudīts.", et: "Automaatselt ei kontrollitud."}
+    engagement:
+      status: review
+      evidence: {lt: "Siūlomi klausimai: finansuojamų emisijų atskleidimas, iškastinio kuro skolinimo politika, ESG politikos po OTP įsigijimo.", en: "Suggested topics: financed-emissions disclosure, fossil fuel lending policy, ESG policies after the OTP acquisition.", lv: "Ieteicamie jautājumi: finansēto emisiju atklāšana, fosilā kurināmā kreditēšanas politika, ESG politikas pēc OTP iegādes.", et: "Soovitatavad teemad: rahastatud heite avalikustamine, fossiilkütuste laenupoliitika, ESG-poliitikad pärast OTP omandamist."}
+  conclusion: {lt: "SEB neturi atskiros finansų sektoriaus politikos – taikomos bendros taisyklės. Automatiškai rasta per mažai įrodymų; dauguma punktų – rankinei peržiūrai (2025 m. metinė ataskaita).", en: "SEB has no dedicated financial sector policy - general rules apply. Too little evidence found automatically; most items need manual review (2025 annual report).", lv: "SEB nav atsevišķas finanšu nozares politikas – piemēro vispārējos noteikumus. Automātiski atrasts pārāk maz pierādījumu; lielākā daļa punktu – manuālai pārskatīšanai (2025. g. pārskats).", et: "SEB-l puudub eraldi finantssektori poliitika – kehtivad üldreeglid. Automaatselt leiti liiga vähe tõendeid; enamik punkte vajab käsitsi ülevaatust (2025. aasta aruanne)."}
+
+checks:
+  sanctions:
+    status: review
+    note: {lt: "Tikrina analitikas vidinėmis priemonėmis. Pastaba: naujas savininkas – OTP Bank (Vengrija).", en: "Checked by the analyst with internal tools. Note: new owner OTP Bank (Hungary).", lv: "Pārbauda analītiķis ar iekšējiem rīkiem. Piezīme: jaunais īpašnieks – OTP Bank (Ungārija).", et: "Kontrollib analüütik sisemiste vahenditega. Märkus: uus omanik OTP Bank (Ungari)."}
+  media:
+    status: not_found
+    note: {lt: "Neigiamų naujienų greitoje paieškoje (EN; 2026-10-22) nerasta. Savaitinė paieška – dashboard „Naujienos“.", en: "No adverse news found in a quick search (EN; 2026-10-22). Weekly scan - dashboard News tab.", lv: "Negatīvas ziņas ātrajā meklēšanā (EN; 2026-10-22) nav atrastas. Iknedēļas meklēšana – panelī „Ziņas“.", et: "Kiirotsingul (EN; 22.10.2026) negatiivseid uudiseid ei leitud. Iganädalane otsing – töölaua „Uudised“."}

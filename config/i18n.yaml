@@ -1,0 +1,47 @@
+# Ataskaitų antraščių ir etikečių vertimai (lt, en, lv, et).
+title:            {lt: "Emitento apžvalga", en: "Issuer review", lv: "Emitenta pārskats", et: "Emitendi ülevaade"}
+analysis_date:    {lt: "Analizės data", en: "Analysis date", lv: "Analīzes datums", et: "Analüüsi kuupäev"}
+based_on:         {lt: "Remiamasi", en: "Based on", lv: "Balstīts uz", et: "Aluseks"}
+period:           {lt: "Laikotarpis", en: "Period", lv: "Periods", et: "Periood"}
+instruments:      {lt: "Turimos priemonės ir ISIN", en: "Instruments held and ISINs", lv: "Turētie instrumenti un ISIN", et: "Hoitavad instrumendid ja ISIN-id"}
+key_ratios:       {lt: "Pagrindiniai rodikliai", en: "Key ratios", lv: "Galvenie rādītāji", et: "Põhinäitajad"}
+quick_summary:    {lt: "Trumpa santrauka", en: "Quick summary", lv: "Īss kopsavilkums", et: "Lühikokkuvõte"}
+business:         {lt: "Veiklos apžvalga", en: "Business performance review", lv: "Darbības pārskats", et: "Äritegevuse ülevaade"}
+financials:       {lt: "Finansai", en: "Financials", lv: "Finanses", et: "Finantsnäitajad"}
+plans:            {lt: "Ankstesni planai ir rezultatai", en: "Past plans vs outcomes", lv: "Iepriekšējie plāni un rezultāti", et: "Varasemad plaanid ja tulemused"}
+investor:         {lt: "Informacija investuotojui ir išvados", en: "Investor information & conclusions", lv: "Informācija investoram un secinājumi", et: "Info investorile ja järeldused"}
+esg:              {lt: "ESG klausimynas", en: "ESG checklist", lv: "ESG kontroljautājumi", et: "ESG kontrollküsimustik"}
+checks:           {lt: "Sankcijos ir žiniasklaida (tikrina analitikas)", en: "Sanctions and media (analyst check)", lv: "Sankcijas un mediji (pārbauda analītiķis)", et: "Sanktsioonid ja meedia (kontrollib analüütik)"}
+sources:          {lt: "Šaltiniai", en: "Sources", lv: "Avoti", et: "Allikad"}
+metric:           {lt: "Rodiklis", en: "Metric", lv: "Rādītājs", et: "Näitaja"}
+isin:             {lt: "ISIN", en: "ISIN", lv: "ISIN", et: "ISIN"}
+instrument:       {lt: "Priemonė", en: "Instrument", lv: "Instruments", et: "Instrument"}
+coupon:           {lt: "Kuponas", en: "Coupon", lv: "Kupons", et: "Kupong"}
+maturity:         {lt: "Išpirkimas", en: "Maturity", lv: "Dzēšana", et: "Lunastus"}
+note:             {lt: "Pastaba", en: "Note", lv: "Piezīme", et: "Märkus"}
+plan:             {lt: "Planas / tikslas", en: "Plan / target", lv: "Plāns / mērķis", et: "Plaan / eesmärk"}
+outcome:          {lt: "Rezultatas", en: "Outcome", lv: "Rezultāts", et: "Tulemus"}
+status:           {lt: "Būsena", en: "Status", lv: "Statuss", et: "Staatus"}
+question:         {lt: "Klausimas", en: "Question", lv: "Jautājums", et: "Küsimus"}
+evidence:         {lt: "Įrodymas", en: "Evidence", lv: "Pierādījums", et: "Tõendus"}
+perpetual:        {lt: "neterminuota", en: "perpetual", lv: "beztermiņa", et: "tähtajatu"}
+share:            {lt: "akcija", en: "share", lv: "akcija", et: "aktsia"}
+st_yes:           {lt: "☑ Atitinka", en: "☑ Yes", lv: "☑ Atbilst", et: "☑ Vastab"}
+st_no:            {lt: "☒ Neatitinka", en: "☒ No", lv: "☒ Neatbilst", et: "☒ Ei vasta"}
+st_review:        {lt: "☐ Reikia peržiūrėti", en: "☐ Needs review", lv: "☐ Jāpārskata", et: "☐ Vajab ülevaatust"}
+st_found:         {lt: "Rasta", en: "Found", lv: "Atrasts", et: "Leitud"}
+st_not_found:     {lt: "Nerasta", en: "Not found", lv: "Nav atrasts", et: "Ei leitud"}
+st_met:           {lt: "Įvykdyta", en: "Met", lv: "Izpildīts", et: "Täidetud"}
+st_partly:        {lt: "Iš dalies", en: "Partly", lv: "Daļēji", et: "Osaliselt"}
+st_not_met:       {lt: "Neįvykdyta", en: "Not met", lv: "Nav izpildīts", et: "Täitmata"}
+st_pending:       {lt: "Dar vykdoma", en: "In progress", lv: "Procesā", et: "Pooleli"}
+st_changed:       {lt: "Pakeista", en: "Revised", lv: "Mainīts", et: "Muudetud"}
+grp_exclusion:    {lt: "Išimčių patikra", en: "Exclusionary screening", lv: "Izslēgšanas pārbaude", et: "Välistamise kontroll"}
+grp_integration:  {lt: "ESG integravimas / teigiama atranka", en: "ESG integration / positive screening", lv: "ESG integrācija / pozitīvā atlase", et: "ESG integreerimine / positiivne valik"}
+grp_engagement:   {lt: "Įsitraukimas", en: "Engagement", lv: "Iesaiste", et: "Kaasamine"}
+grp_manual:       {lt: "Rankinė patikra", en: "Manual check", lv: "Manuāla pārbaude", et: "Käsitsi kontroll"}
+esg_conclusion:   {lt: "ESG išvada", en: "ESG conclusion", lv: "ESG secinājums", et: "ESG järeldus"}
+disclaimer:       {lt: "Ataskaita parengta automatiškai iš viešų šaltinių. Skaičiai pateikiami taip, kaip juos skelbia emitentas; nuorodos [S#] veda į šaltinių sąrašą. Prieš naudojant sprendimui, analitikas turi peržiūrėti pažymėtus punktus.",
+                   en: "Report prepared automatically from public sources. Figures are as published by the issuer; references [S#] point to the source list. Items marked for review must be checked by the analyst before use.",
+                   lv: "Pārskats sagatavots automātiski no publiskiem avotiem. Skaitļi norādīti tā, kā tos publicējis emitents; atsauces [S#] norāda uz avotu sarakstu. Pirms izmantošanas analītiķim jāpārbauda atzīmētie punkti.",
+                   et: "Ülevaade on koostatud automaatselt avalikest allikatest. Arvud on esitatud nii, nagu emitent need avaldas; viited [S#] osutavad allikate loetelule. Ülevaatust vajavad punktid peab analüütik enne kasutamist kontrollima."}

@@ -1,0 +1,37 @@
+# Rodiklių pavadinimai 4 kalbomis (data/history/*.csv stulpelis "metric").
+revenue:           {lt: "Pajamos", en: "Revenue", lv: "Ieņēmumi", et: "Müügitulu"}
+adj_ebitda:        {lt: "Koreguota EBITDA", en: "Adjusted EBITDA", lv: "Koriģētā EBITDA", et: "Korrigeeritud EBITDA"}
+adj_ebitda_margin: {lt: "Koreguotos EBITDA marža", en: "Adjusted EBITDA margin", lv: "Koriģētās EBITDA marža", et: "Korrigeeritud EBITDA marginaal"}
+ebitda:            {lt: "EBITDA", en: "EBITDA", lv: "EBITDA", et: "EBITDA"}
+operating_profit:  {lt: "Veiklos pelnas", en: "Operating profit", lv: "Darbības peļņa", et: "Ärikasum"}
+adj_net_profit:    {lt: "Koreguotas grynasis pelnas", en: "Adjusted net profit", lv: "Koriģētā tīrā peļņa", et: "Korrigeeritud puhaskasum"}
+net_profit:        {lt: "Grynasis pelnas", en: "Net profit", lv: "Tīrā peļņa", et: "Puhaskasum"}
+investments:       {lt: "Investicijos", en: "Investments", lv: "Investīcijas", et: "Investeeringud"}
+ffo:               {lt: "FFO", en: "FFO", lv: "FFO", et: "FFO"}
+fcf:               {lt: "Laisvieji pinigų srautai", en: "Free cash flow", lv: "Brīvā naudas plūsma", et: "Vaba rahavoog"}
+net_debt:          {lt: "Grynoji skola", en: "Net debt", lv: "Neto parāds", et: "Netovõlg"}
+nd_ebitda:         {lt: "Grynoji skola / EBITDA", en: "Net debt / EBITDA", lv: "Neto parāds / EBITDA", et: "Netovõlg / EBITDA"}
+ffo_nd:            {lt: "FFO / grynoji skola", en: "FFO / net debt", lv: "FFO / neto parāds", et: "FFO / netovõlg"}
+adj_roce:          {lt: "Koreguota ROCE", en: "Adjusted ROCE", lv: "Koriģētā ROCE", et: "Korrigeeritud ROCE"}
+equity:            {lt: "Nuosavas kapitalas", en: "Equity", lv: "Pašu kapitāls", et: "Omakapital"}
+equity_ratio:      {lt: "Nuosavo kapitalo dalis", en: "Equity ratio", lv: "Pašu kapitāla īpatsvars", et: "Omakapitali määr"}
+total_assets:      {lt: "Turtas", en: "Total assets", lv: "Kopējie aktīvi", et: "Varad kokku"}
+dps:               {lt: "Dividendai akcijai", en: "Dividend per share", lv: "Dividende uz akciju", et: "Dividend aktsia kohta"}
+green_capacity:    {lt: "Įrengta žalioji galia", en: "Installed green capacity", lv: "Uzstādītā zaļā jauda", et: "Paigaldatud roheline võimsus"}
+nii:               {lt: "Grynosios palūkanų pajamos", en: "Net interest income", lv: "Neto procentu ienākumi", et: "Neto intressitulu"}
+total_income:      {lt: "Visos veiklos pajamos", en: "Total operating income", lv: "Kopējie darbības ienākumi", et: "Äritulud kokku"}
+cost_income:       {lt: "Sąnaudų ir pajamų santykis", en: "Cost/income ratio", lv: "Izmaksu/ienākumu attiecība", et: "Kulude-tulude suhe"}
+roe:               {lt: "ROE", en: "ROE", lv: "ROE", et: "ROE"}
+cor:               {lt: "Rizikos kaina", en: "Cost of risk", lv: "Riska izmaksas", et: "Riskikulu"}
+nim:               {lt: "Grynoji palūkanų marža", en: "Net interest margin", lv: "Neto procentu marža", et: "Netointressimarginaal"}
+loans:             {lt: "Paskolos klientams", en: "Loans to customers", lv: "Kredīti klientiem", et: "Laenud klientidele"}
+deposits:          {lt: "Klientų indėliai", en: "Customer deposits", lv: "Klientu noguldījumi", et: "Klientide hoiused"}
+cet1:              {lt: "CET1 rodiklis", en: "CET1 ratio", lv: "CET1 rādītājs", et: "CET1 suhtarv"}
+total_capital:     {lt: "Bendrasis kapitalo rodiklis", en: "Total capital ratio", lv: "Kopējā kapitāla rādītājs", et: "Kogukapitali suhtarv"}
+leverage:          {lt: "Sverto rodiklis", en: "Leverage ratio", lv: "Sviras rādītājs", et: "Finantsvõimenduse määr"}
+mrel:              {lt: "MREL (% TREA)", en: "MREL (% of TREA)", lv: "MREL (% no TREA)", et: "MREL (% TREA-st)"}
+lcr:               {lt: "LCR", en: "LCR", lv: "LCR", et: "LCR"}
+nsfr:              {lt: "NSFR", en: "NSFR", lv: "NSFR", et: "NSFR"}
+npl:               {lt: "Neveiksnių paskolų dalis", en: "NPL ratio", lv: "Ienākumus nenesošo kredītu īpatsvars", et: "Viivislaenude osakaal"}
+cargo:             {lt: "Krovinių kiekis", en: "Cargo volume", lv: "Kravu apjoms", et: "Kaubamaht"}
+passengers:        {lt: "Keleiviai", en: "Passengers", lv: "Pasažieri", et: "Reisijad"}

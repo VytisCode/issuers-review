@@ -1,0 +1,149 @@
+# Port of Tallinn (AS Tallinna Sadam) - apžvalga pagal 2026 m. 6 mėn. ataskaitą.
+# Šį failą galima taisyti tiesiai GitHub'e. Kiekvienas tekstas turi 4 kalbas: lt, en, lv, et.
+issuer: port-of-tallinn
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai), peržiūri analitikas
+next_report: "Q3 2026 results - expected November 2026"
+rating: "Credit rating not found in public sources reviewed - check [P5]"
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, adj_ebitda, adj_ebitda_margin, operating_profit, net_profit, investments, net_debt, nd_ebitda, equity_ratio, cargo, passengers, dps]
+
+sources:
+  P1: {title: "AS Tallinna Sadam - Interim report Q2 and 6M 2026", url: "https://ml-eu.globenewswire.com/Resource/Download/bfd79dd4-0a64-4f1a-bf21-dcb2548a7586", date: 2026-08-10}
+  P2: {title: "Stock exchange release: financial results for 2026 Q2 and 6 months", url: "https://www.inderes.fi/en/releases/as-tallinna-sadam-financial-results-for-2026-q2-and-6-months", date: 2026-08-10}
+  P3: {title: "Results of Q4 and 12 months 2025 - webinar presentation", url: "https://www.ts.ee/wp-content/uploads/2026/02/2025-Q4-Webinar.pdf", date: 2026-02}
+  P4: {title: "Q2 2026 webinar presentation", url: "https://www.ts.ee/wp-content/uploads/2019/12/Q2-2026-webinar-ENG.pdf", date: 2026-08}
+  P5: {title: "Investor - stock exchange info", url: "https://www.ts.ee/en/investor/stock-exchange-info/", date: 2026-10-22}
+  P6: {title: "Sustainability Report 2025", url: "https://www.ts.ee/wp-content/uploads/2026/04/Sustainability_Report_2025.pdf", date: 2026-04}
+  E1: {title: "ERR: defence appeals acquittal in Tallinna Sadam case", url: "https://www.err.ee/1609405501/tallinna-sadama-kaasuses-oigeksmoistetute-kaitsjad-vaidlustasid-kohtuotsuse", date: 2024-07-24}
+  E2: {title: "ERR: State Prosecutor appeals Tallinna Sadam ruling", url: "https://www.err.ee/1609408312/riigiprokuratuur-vaidlustas-tallinna-sadama-kohtuotsuse", date: 2024-07-26}
+
+quick_summary:
+  - lt: "6 mėn. pajamos 59,3 mln. EUR (+2,4 %), koreguota EBITDA 25,8 mln. EUR (−13,5 %), marža 43,5 % (51,5 %), grynasis pelnas 6,0 mln. EUR (−41,7 %) [P1 p.4; P2]."
+    en: "6M revenue EUR 59.3m (+2.4%), adjusted EBITDA EUR 25.8m (−13.5%), margin 43.5% (51.5%), net profit EUR 6.0m (−41.7%) [P1 p.4; P2]."
+    lv: "6 mēn. ieņēmumi 59,3 milj. EUR (+2,4 %), koriģētā EBITDA 25,8 milj. EUR (−13,5 %), marža 43,5 % (51,5 %), tīrā peļņa 6,0 milj. EUR (−41,7 %) [P1 p.4; P2]."
+    et: "6 kuu müügitulu 59,3 mln eurot (+2,4%), korrigeeritud EBITDA 25,8 mln eurot (−13,5%), marginaal 43,5% (51,5%), puhaskasum 6,0 mln eurot (−41,7%) [P1 p.4; P2]."
+  - lt: "Vadovo teigimu, pelningumą II ketv. sumažino kylančios kuro kainos ir neplanuoti laivų remontai po ledo sąlygų [P2]."
+    en: "According to the CEO, rising fuel prices and extraordinary ship repairs caused by ice conditions reduced Q2 profitability [P2]."
+    lv: "Pēc valdes priekšsēdētāja teiktā, 2. cet. rentabilitāti samazināja augošas degvielas cenas un ledus apstākļu izraisīti ārkārtas kuģu remonti [P2]."
+    et: "Juhatuse esimehe sõnul vähendasid II kv kasumlikkust kütusehindade tõus ja jääoludest tingitud erakorralised laevaremondid [P2]."
+  - lt: "Skola stabili: grynoji skola 145,8 mln. EUR, grynoji skola / 12 mėn. koreguota EBITDA 2,78x, nuosavo kapitalo dalis 59,8 % (abu rodikliai apskaičiuoti įrankio) [P1]."
+    en: "Debt stable: net debt EUR 145.8m, net debt / LTM adjusted EBITDA 2.78x, equity ratio 59.8% (both ratios calculated by the tool) [P1]."
+    lv: "Parāds stabils: neto parāds 145,8 milj. EUR, neto parāds / 12 mēn. koriģētā EBITDA 2,78x, pašu kapitāla īpatsvars 59,8 % (abus rādītājus aprēķinājis rīks) [P1]."
+    et: "Võlg stabiilne: netovõlg 145,8 mln eurot, netovõlg / 12 kuu korrigeeritud EBITDA 2,78x, omakapitali määr 59,8% (mõlemad suhtarvud arvutas tööriist) [P1]."
+  - lt: "Dividendai 0,073 EUR akcijai, iš viso 19,2 mln. EUR – 85 % 2025 m. pelno (politika – ne mažiau 70 %); išmokėta 2026-05-20 [P1 p.14-15]."
+    en: "Dividend EUR 0.073 per share, EUR 19.2m in total - 85% of 2025 profit (policy: at least 70%); paid 2026-05-20 [P1 p.14-15]."
+    lv: "Dividende 0,073 EUR uz akciju, kopā 19,2 milj. EUR – 85 % no 2025. g. peļņas (politika – vismaz 70 %); izmaksāta 2026-05-20 [P1 p.14-15]."
+    et: "Dividend 0,073 eurot aktsia kohta, kokku 19,2 mln eurot – 85% 2025. aasta kasumist (poliitika: vähemalt 70%); makstud 20.05.2026 [P1 p.14-15]."
+  - lt: "Estijos valstybė valdo 67,03 % [P1 p.13]. Buvusių vadovų kyšininkavimo byla: 2024-06-27 teismas išteisino dėl senaties; prokuratūra ir gynyba apskundė, vėlesnis sprendimas nerastas – reikia peržiūrėti [E1; E2]."
+    en: "The Republic of Estonia holds 67.03% [P1 p.13]. Former executives' bribery case: on 2024-06-27 the court acquitted on limitation grounds; prosecution and defence appealed, later ruling not found - needs review [E1; E2]."
+    lv: "Igaunijas valstij pieder 67,03 % [P1 p.13]. Bijušo vadītāju kukuļošanas lieta: 2024-06-27 tiesa attaisnoja noilguma dēļ; prokuratūra un aizstāvība pārsūdzēja, vēlāks lēmums nav atrasts – jāpārskata [E1; E2]."
+    et: "Eesti Vabariigile kuulub 67,03% [P1 p.13]. Endiste juhtide altkäemaksukaasus: 27.06.2024 mõistis kohus aegumise tõttu õigeks; prokuratuur ja kaitse kaebasid edasi, hilisemat otsust ei leitud – vajab ülevaatust [E1; E2]."
+
+business:
+  - lt: "Kroviniai 6,48 mln. t (−5,0 %), daugiausia dėl skystų krovinių (−33,8 %); keleiviai 3,59 mln. (−2,0 %); laivų įplaukimai −4,8 % [P1 p.4]."
+    en: "Cargo 6.48m t (−5.0%), mainly liquid bulk (−33.8%); passengers 3.59m (−2.0%); vessel calls −4.8% [P1 p.4]."
+    lv: "Kravas 6,48 milj. t (−5,0 %), galvenokārt šķidrās beramkravas (−33,8 %); pasažieri 3,59 milj. (−2,0 %); kuģu ienākšanas −4,8 % [P1 p.4]."
+    et: "Kaubamaht 6,48 mln t (−5,0%), peamiselt vedellasti tõttu (−33,8%); reisijaid 3,59 mln (−2,0%); laevakülastused −4,8% [P1 p.4]."
+  - lt: "Kruizų keleiviai +47,8 %, kruizinių laivų įplaukimai +29,3 % (6 mėn.) [P1]."
+    en: "Cruise passengers +47.8%, cruise ship calls +29.3% (6M) [P1]."
+    lv: "Kruīzu pasažieri +47,8 %, kruīza kuģu ienākšanas +29,3 % (6 mēn.) [P1]."
+    et: "Kruiisireisijad +47,8%, kruiisilaevade külastused +29,3% (6 kuud) [P1]."
+  - lt: "Keltai (Saaremaa, Hiiumaa): II ketv. reisai +1,2 %, keleiviai +1,8 %; vasarai sutarta dėl papildomų kelto „Regula“ reisų [P1 – patikrinti]. Ledlaužio „Botnica“ frachtas 130 d. (110 d.) [P1]."
+    en: "Ferries (Saaremaa, Hiiumaa): Q2 trips +1.2%, passengers +1.8%; additional trips of ferry Regula agreed for summer [P1 - verify]. Icebreaker Botnica charter 130 days (110) [P1]."
+    lv: "Prāmji (Sāremā, Hījumā): 2. cet. reisi +1,2 %, pasažieri +1,8 %; vasarai saskaņoti papildu prāmja „Regula“ reisi [P1 – pārbaudīt]. Ledlauža „Botnica“ frakts 130 d. (110 d.) [P1]."
+    et: "Parvlaevad (Saaremaa, Hiiumaa): II kv reisid +1,2%, reisijad +1,8%; suveks lepiti kokku parvlaeva Regula lisareisid [P1 – kontrollida]. Jäämurdja Botnica prahtimine 130 päeva (110) [P1]."
+  - lt: "Segmentai (6 mėn., pajamos / koreg. EBITDA, mln. EUR): keleivių uostai 18,9 / 9,6; krovinių uostai 15,8 / 7,3; keltai 18,6 / 5,9; kita 5,9 / 3,1 [P1 p.9]."
+    en: "Segments (6M, revenue / adj. EBITDA, EURm): passenger harbours 18.9 / 9.6; cargo harbours 15.8 / 7.3; ferry 18.6 / 5.9; other 5.9 / 3.1 [P1 p.9]."
+    lv: "Segmenti (6 mēn., ieņēmumi / koriģ. EBITDA, milj. EUR): pasažieru ostas 18,9 / 9,6; kravu ostas 15,8 / 7,3; prāmji 18,6 / 5,9; citi 5,9 / 3,1 [P1 p.9]."
+    et: "Segmendid (6 kuud, müügitulu / korr. EBITDA, mln eurot): reisisadamad 18,9 / 9,6; kaubasadamad 15,8 / 7,3; parvlaevad 18,6 / 5,9; muu 5,9 / 3,1 [P1 p.9]."
+  - lt: "Rizikos pagal ataskaitą: karas Ukrainoje mažina skystų krovinių srautus; JAV–Irano konfliktas ir Hormūzo sąsiaurio blokada didina kuro kainas [P1]."
+    en: "Risks per the report: the war in Ukraine reduces liquid bulk volumes; the US-Iran conflict and Strait of Hormuz blockade raise fuel costs [P1]."
+    lv: "Riski pēc pārskata: karš Ukrainā samazina šķidro kravu apjomus; ASV–Irānas konflikts un Hormuza šauruma blokāde palielina degvielas izmaksas [P1]."
+    et: "Riskid aruande järgi: sõda Ukrainas vähendab vedellasti mahtu; USA–Iraani konflikt ja Hormuzi väina blokaad tõstavad kütusekulusid [P1]."
+
+financials:
+  - lt: "2025 m.: pajamos 118,7 mln. EUR (−0,8 %), koreguota EBITDA 56,5 mln. EUR (+6,4 %), grynasis pelnas 22,5 mln. EUR (+17,3 %), investicijos 33,2 mln. EUR, laisvieji pinigų srautai 50,9 mln. EUR [P3]."
+    en: "FY2025: revenue EUR 118.7m (−0.8%), adjusted EBITDA EUR 56.5m (+6.4%), net profit EUR 22.5m (+17.3%), investments EUR 33.2m, free cash flow EUR 50.9m [P3]."
+    lv: "2025. g.: ieņēmumi 118,7 milj. EUR (−0,8 %), koriģētā EBITDA 56,5 milj. EUR (+6,4 %), tīrā peļņa 22,5 milj. EUR (+17,3 %), investīcijas 33,2 milj. EUR, brīvā naudas plūsma 50,9 milj. EUR [P3]."
+    et: "2025: müügitulu 118,7 mln eurot (−0,8%), korrigeeritud EBITDA 56,5 mln eurot (+6,4%), puhaskasum 22,5 mln eurot (+17,3%), investeeringud 33,2 mln eurot, vaba rahavoog 50,9 mln eurot [P3]."
+  - lt: "6 mėn. investicijos 3,5 mln. EUR (12,0 mln.). 2025 m. palyginimui įtakos turėjo vienkartinis 0,9 mln. EUR pelnas iš žemės pardavimo Rail Baltica stočiai [P1]."
+    en: "6M investments EUR 3.5m (12.0m). The 2025 comparison includes a one-off EUR 0.9m gain on the land sale for the Rail Baltica station [P1]."
+    lv: "6 mēn. investīcijas 3,5 milj. EUR (12,0 milj.). 2025. g. salīdzinājumu ietekmē vienreizēja 0,9 milj. EUR peļņa no zemes pārdošanas Rail Baltica stacijai [P1]."
+    et: "6 kuu investeeringud 3,5 mln eurot (12,0 mln). 2025. aasta võrdlust mõjutab ühekordne 0,9 mln euro kasum maa müügist Rail Balticu jaamale [P1]."
+
+plans:
+  - plan: {lt: "„2025 m. rezultatai ir 2026 m. perspektyvos leidžia tęsti ir viršyti dividendų politiką“ (2026 m. vasaris)", en: "'The results of 2025 and the outlook for 2026 allow to continue and exceed the agreed dividend policy' (Feb 2026)", lv: "“2025. g. rezultāti un 2026. g. perspektīvas ļauj turpināt un pārsniegt dividenžu politiku” (2026. g. februāris)", et: "„2025. aasta tulemused ja 2026. aasta väljavaade võimaldavad dividendipoliitikat jätkata ja ületada“ (veebruar 2026)"}
+    outcome: {lt: "Išmokėta 85 % pelno (politika ≥70 %)", en: "85% of profit paid (policy ≥70%)", lv: "Izmaksāti 85 % peļņas (politika ≥70 %)", et: "Välja maksti 85% kasumist (poliitika ≥70%)"}
+    status: met
+    src: "P3; P1 p.14"
+  - plan: {lt: "1 ir 2 apimties emisijos −55 % iki 2030 m. (bazė 2019 m. – 33 086 t CO2e), klimatui neutrali veikla iki 2050 m.", en: "Scope 1+2 emissions −55% by 2030 (2019 base 33,086 t CO2e), climate-neutral operations by 2050", lv: "1. un 2. tvēruma emisijas −55 % līdz 2030. g. (2019. g. bāze – 33 086 t CO2e), klimatneitrāla darbība līdz 2050. g.", et: "1. ja 2. ulatuse heide −55% aastaks 2030 (2019 baas 33 086 t CO2e), kliimaneutraalne tegevus aastaks 2050"}
+    outcome: {lt: "2025 m. – 19 261 t CO2e (−41,8 % nuo 2019 m.; apskaičiuota įrankio, patikrinti)", en: "2025: 19,261 t CO2e (−41.8% vs 2019; calculated by the tool, verify)", lv: "2025. g. – 19 261 t CO2e (−41,8 % pret 2019. g.; aprēķinājis rīks, pārbaudīt)", et: "2025: 19 261 t CO2e (−41,8% vs 2019; arvutas tööriist, kontrollida)"}
+    status: pending
+    src: "P6 p.19, p.22"
+  - plan: {lt: "Perspektyvos (2026-08): naujos ro-ro ir konteinerių linijos, Muuga pramonės parkas, Senojo miesto uosto nekilnojamojo turto konkursas", en: "Outlook (2026-08): new ro-ro and container lines, Muuga industrial park, Old City Harbour real estate tender", lv: "Perspektīvas (2026-08): jaunas ro-ro un konteineru līnijas, Mūgas industriālais parks, Vecpilsētas ostas nekustamā īpašuma konkurss", et: "Väljavaade (08.2026): uued ro-ro ja konteinerliinid, Muuga tööstuspark, Vanasadama kinnisvarakonkurss"}
+    outcome: {lt: "Nauja – vertinti kitoje apžvalgoje", en: "New - assess in the next review", lv: "Jauns – izvērtēt nākamajā pārskatā", et: "Uus – hinnata järgmises ülevaates"}
+    status: pending
+    src: "P4"
+
+investor:
+  - lt: "Turima priemonė: akcijos (TSM1T, Nasdaq Tallinn). Obligacijų nėra; skolinimasis – paskolos (173,4 mln. EUR, iš jų 93,1 mln. trumpalaikės) [P1]."
+    en: "Instrument held: shares (TSM1T, Nasdaq Tallinn). No bonds; borrowing is via loans (EUR 173.4m, of which 93.1m current) [P1]."
+    lv: "Turētais instruments: akcijas (TSM1T, Nasdaq Tallinn). Obligāciju nav; aizņēmumi – kredīti (173,4 milj. EUR, no tiem 93,1 milj. īstermiņa) [P1]."
+    et: "Hoitav instrument: aktsiad (TSM1T, Nasdaq Tallinn). Võlakirju ei ole; laenukohustused 173,4 mln eurot, sh lühiajalised 93,1 mln [P1]."
+  - lt: "Dividendų bazė: dividendai skaičiuojami nuo praėjusių metų pelno; 6 mėn. pelnas 6,0 mln. EUR (10,3 mln.) – jei tendencija tęsis, 2027 m. dividendų bazė bus mažesnė [P1; P2]."
+    en: "Dividend base: dividends are based on prior-year profit; 6M profit EUR 6.0m (10.3m) - if the trend continues, the base for the 2027 dividend will be lower [P1; P2]."
+    lv: "Dividenžu bāze: dividendes rēķina no iepriekšējā gada peļņas; 6 mēn. peļņa 6,0 milj. EUR (10,3 milj.) – ja tendence turpināsies, 2027. g. dividenžu bāze būs mazāka [P1; P2]."
+    et: "Dividendibaas: dividend arvutatakse eelmise aasta kasumist; 6 kuu kasum 6,0 mln eurot (10,3 mln) – trendi jätkudes on 2027. aasta dividendi baas väiksem [P1; P2]."
+  - lt: "93,1 mln. EUR paskolų – trumpalaikės: stebėti refinansavimą [P1]."
+    en: "EUR 93.1m of loans are current: watch refinancing [P1]."
+    lv: "93,1 milj. EUR kredītu – īstermiņa: sekot refinansēšanai [P1]."
+    et: "93,1 mln eurot laene on lühiajalised: jälgida refinantseerimist [P1]."
+  - lt: "Išvada: balansas tvirtas, skola stabili, tačiau 2026 m. pelningumas mažėja dėl kuro ir remonto sąnaudų bei mažesnių skystų krovinių. Stebėti: 9 mėn. ataskaitą, keltų paslaugų sutartį, teismo bylos baigtį."
+    en: "Conclusion: strong balance sheet and stable debt, but 2026 profitability is declining due to fuel and repair costs and lower liquid bulk. Watch: 9M report, the ferry service contract, the outcome of the court case."
+    lv: "Secinājums: bilance stabila, parāds stabils, taču 2026. g. rentabilitāte samazinās degvielas un remonta izmaksu un mazāku šķidro kravu dēļ. Sekot: 9 mēn. pārskatam, prāmju pakalpojumu līgumam, tiesas lietas iznākumam."
+    et: "Järeldus: bilanss on tugev ja võlg stabiilne, kuid 2026. aasta kasumlikkus väheneb kütuse- ja remondikulude ning väiksema vedellasti tõttu. Jälgida: 9 kuu aruanne, parvlaevateenuse leping, kohtuasja tulemus."
+
+esg:
+  policies: [shipping, transportation, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_coal:
+      status: yes
+      evidence: {lt: "Uosto operatorius; anglies kasybos ar anglies elektrinių nėra [P1].", en: "Port operator; no coal mining or coal power [P1].", lv: "Ostas operators; ogļu ieguves vai ogļu elektrostaciju nav [P1].", et: "Sadamaoperaator; söekaevandamist ega söeelektrijaamu ei ole [P1]."}
+    excl_fossil_expansion:
+      status: review
+      evidence: {lt: "Krauna skystus krovinius (naftos produktus), jų kiekis mažėja (−33,8 %); tiesioginės žvalgybos nėra [P1].", en: "Handles liquid bulk (oil products), volumes declining (−33.8%); no exploration [P1].", lv: "Pārkrauj šķidrās kravas (naftas produktus), apjomi samazinās (−33,8 %); izpētes nav [P1].", et: "Käitleb vedellasti (naftasaadused), mahud vähenevad (−33,8%); otsinguid ei tehta [P1]."}
+    excl_weapons:
+      status: yes
+      evidence: {lt: "Veiklos segmentuose nėra [P1].", en: "Not present in business segments [P1].", lv: "Darbības segmentos nav [P1].", et: "Ärisegmentides puudub [P1]."}
+    excl_controversy:
+      status: review
+      evidence: {lt: "Buvusių vadovų kyšininkavimo byla (pradėta 2015 m.): 2024-06-27 išteisinti dėl senaties, apskųsta; įmonė – nukentėjusioji, ne kaltinamoji [E1; E2].", en: "Former executives' bribery case (from 2015): acquitted on limitation grounds 2024-06-27, appealed; the company is the injured party, not a defendant [E1; E2].", lv: "Bijušo vadītāju kukuļošanas lieta (no 2015. g.): 2024-06-27 attaisnoti noilguma dēļ, pārsūdzēts; uzņēmums – cietušais, nevis apsūdzētais [E1; E2].", et: "Endiste juhtide altkäemaksukaasus (alates 2015): 27.06.2024 mõisteti aegumise tõttu õigeks, edasi kaevatud; ettevõte on kannatanu, mitte süüdistatav [E1; E2]."}
+    int_targets:
+      status: yes
+      evidence: {lt: "Tikslai: 1+2 apimtis −55 % iki 2030 m. (nuo 2019 m.), klimato neutralumas iki 2050 m., 90 % atsinaujinančios energijos savo reikmėms [P6 p.19, p.22].", en: "Targets: Scope 1+2 −55% by 2030 (vs 2019), climate neutrality by 2050, 90% renewable energy for own use [P6 p.19, p.22].", lv: "Mērķi: 1+2 tvērums −55 % līdz 2030. g. (pret 2019. g.), klimatneitralitāte līdz 2050. g., 90 % atjaunīgās enerģijas savām vajadzībām [P6 p.19, p.22].", et: "Eesmärgid: 1+2 ulatus −55% aastaks 2030 (vs 2019), kliimaneutraalsus aastaks 2050, 90% taastuvenergiat omatarbeks [P6 p.19, p.22]."}
+    int_disclosure:
+      status: yes
+      evidence: {lt: "Savanoriška 2025 m. tvarumo ataskaita pagal CSRD/ESRS principus (pilnai CSRD neatitinka) [P6].", en: "Voluntary 2025 sustainability report following CSRD/ESRS principles (not fully CSRD-compliant) [P6].", lv: "Brīvprātīgs 2025. g. ilgtspējas pārskats pēc CSRD/ESRS principiem (pilnībā CSRD neatbilst) [P6].", et: "Vabatahtlik 2025. aasta jätkusuutlikkuse aruanne CSRD/ESRS põhimõtete järgi (täielikult CSRD-le ei vasta) [P6]."}
+    int_green_share:
+      status: review
+      evidence: {lt: "Taksonomijos dalis ir krantinių elektros tiekimas automatiškai nerasti.", en: "Taxonomy share and shore power not found automatically.", lv: "Taksonomijas daļa un krasta elektroapgāde automātiski nav atrasta.", et: "Taksonoomia osakaalu ja kaldaelektrit automaatselt ei leitud."}
+    int_governance:
+      status: review
+      evidence: {lt: "Valstybė valdo 67,03 %; po kyšininkavimo bylos – patikrinti antikorupcijos priemones [P1 p.13; E1].", en: "State holds 67.03%; after the bribery case - check anti-corruption controls [P1 p.13; E1].", lv: "Valstij pieder 67,03 %; pēc kukuļošanas lietas – pārbaudīt pretkorupcijas pasākumus [P1 p.13; E1].", et: "Riigile kuulub 67,03%; pärast altkäemaksukaasust – kontrollida korruptsioonivastaseid meetmeid [P1 p.13; E1]."}
+    int_social:
+      status: review
+      evidence: {lt: "Automatiškai netikrinta.", en: "Not checked automatically.", lv: "Automātiski nav pārbaudīts.", et: "Automaatselt ei kontrollitud."}
+    engagement:
+      status: review
+      evidence: {lt: "Siūlomi klausimai: keltų kuro emisijos ir sąnaudos, kelio į −55 % iki 2030 m. planas, bylos baigtis.", en: "Suggested topics: ferry fuel emissions and costs, pathway to −55% by 2030, outcome of the court case.", lv: "Ieteicamie jautājumi: prāmju degvielas emisijas un izmaksas, ceļš uz −55 % līdz 2030. g., tiesas lietas iznākums.", et: "Soovitatavad teemad: parvlaevade kütuseheide ja -kulud, tee −55%-ni aastaks 2030, kohtuasja tulemus."}
+  conclusion: {lt: "SEB laivybos ir transporto politikų turinys dar nepatikrintas (PDF). Pagal turimus duomenis didelių neatitikimų nėra; teigiama – emisijų tikslai ir tvarumo ataskaita. Peržiūrėti bylą ir skystų krovinių (naftos produktų) dalį.", en: "SEB shipping and transportation policy content not yet verified (PDF). On available data no major conflicts; positives are emission targets and sustainability reporting. Review the court case and the share of liquid bulk (oil products).", lv: "SEB kuģniecības un transporta politiku saturs vēl nav pārbaudīts (PDF). Pēc pieejamajiem datiem būtisku neatbilstību nav; pozitīvi – emisiju mērķi un ilgtspējas pārskats. Pārskatīt tiesas lietu un šķidro kravu (naftas produktu) daļu.", et: "SEB laevanduse ja transpordi poliitikate sisu pole veel kontrollitud (PDF). Olemasolevate andmete põhjal suuri vastuolusid ei ole; positiivne – heite eesmärgid ja jätkusuutlikkuse aruanne. Üle vaadata kohtuasi ja vedellasti (naftasaaduste) osakaal."}
+
+checks:
+  sanctions:
+    status: review
+    note: {lt: "Tikrina analitikas vidinėmis priemonėmis.", en: "Checked by the analyst with internal tools.", lv: "Pārbauda analītiķis ar iekšējiem rīkiem.", et: "Kontrollib analüütik sisemiste vahenditega."}
+  media:
+    status: review
+    note: {lt: "Rasta (EE žiniasklaida): buvusių vadovų kyšininkavimo byla – žr. E1, E2. Naujesnių sprendimų nerasta.", en: "Found (EE media): former executives' bribery case - see E1, E2. No newer rulings found.", lv: "Atrasts (EE mediji): bijušo vadītāju kukuļošanas lieta – skatīt E1, E2. Jaunāki lēmumi nav atrasti.", et: "Leitud (EE meedia): endiste juhtide altkäemaksukaasus – vt E1, E2. Uuemaid otsuseid ei leitud."}

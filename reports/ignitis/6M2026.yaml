@@ -1,0 +1,180 @@
+# Ignitis grupė - apžvalga pagal 2026 m. 6 mėn. ataskaitą.
+# Šį failą galima taisyti tiesiai GitHub'e (pieštuko ženklas). Po pakeitimo Word/PDF/Excel failai persigeneruoja automatiškai.
+# Kiekvienas tekstas turi 4 kalbas: lt, en, lv, et. Nuorodos [S#] - į šaltinių sąrašą žemiau.
+issuer: ignitis
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai), peržiūri analitikas
+next_report: "Q3 2026 interim report - 2026-11-11 [S1 p.14]"
+rating: "S&P BBB+ (stable), 2026-07-28; Moody's Baa1 (stable), 2026 [S7]"
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, adj_ebitda, ebitda, adj_net_profit, net_profit, investments, ffo, fcf, net_debt, nd_ebitda, ffo_nd, adj_roce, equity, total_assets, dps, green_capacity]
+
+sources:
+  S1: {title: "Ignitis Group - First six months 2026 interim report", url: "https://ignitisgrupe.lt/sites/default/files/public/inline-files/First%20six%20months%202026%20interim%20report.pdf", date: 2026-08-12}
+  S2: {title: "Press release: 6M 2026 results", url: "https://ignitisgrupe.lt/en/news/ignitis-group-reports-sustained-strategic-progress-and-consistent-financial-performance-first", date: 2026-08-12}
+  S3: {title: "Investor presentation 6M 2026 - call transcript", url: "https://ignitisgrupe.lt/sites/default/files/public/inline-files/Transcript.%20Investor%20presentation_6M%202026%20results.pdf", date: 2026-08-12}
+  S4: {title: "Integrated Annual Report 2025", url: "https://ignitisgrupe.lt/sites/default/files/public/inline-files/Integrated%20Annual%20Report%202025.pdf", date: 2026-02-25}
+  S5: {title: "Press release: 2025 results", url: "https://ignitisgrupe.lt/en/news/ignitis-group-2025-results-record-strategic-progress-07-gw-new-green-capacities-installed", date: 2026-02-25}
+  S6: {title: "Strategic Plan 2026-2029", url: "https://ignitisgrupe.lt/sites/default/files/public/inline-files/Ignitis%20Group%20Strategic%20Plan%202026%202029.pdf", date: 2026-05}
+  S7: {title: "Credit ratings page", url: "https://ignitisgrupe.lt/en/investors/credit-ratings", date: 2026-10-22}
+  S8: {title: "Bonds page (incl. tender offer for XS1646530565)", url: "https://ignitisgrupe.lt/en/investors/bonds", date: 2026-10-22}
+  S9: {title: "Press release: inaugural EUR 300m 5-year EuGB bonds priced", url: "https://ignitisgrupe.lt/en/news/ignitis-group-prices-its-inaugural-eur-300-million-5-year-eugb-bonds", date: 2026-10-20}
+  S10: {title: "First three months 2026 interim report (regulatory notice)", url: "https://data.fca.org.uk/artefacts/NSM/GNW/b8cfd694-6694-4d57-bf10-2bb5ed7ce1a4.html", date: 2026-05-13}
+
+quick_summary:
+  - lt: "6 mėn. koreguota EBITDA – 306,6 mln. EUR (+1,9 %). Augo Tinklai ir Klientai ir sprendimai, mažėjo Žalioji generacija (149,2 mln. EUR, 2025 m. – 166,6 mln.) [S1 p.24]. 2026 m. prognozė 550–600 mln. EUR patvirtinta; per pusmetį pasiekta 51–56 % jos [S2]."
+    en: "6M Adjusted EBITDA EUR 306.6m (+1.9%). Networks and Customers & Solutions grew, Green Capacities declined (EUR 149.2m vs 166.6m) [S1 p.24]. 2026 guidance of EUR 550-600m reiterated; 6M equals 51-56% of it [S2]."
+    lv: "6 mēn. koriģētā EBITDA – 306,6 milj. EUR (+1,9 %). Pieauga Tīkli un Klienti un risinājumi, samazinājās Zaļā ražošana (149,2 milj. EUR pret 166,6 milj.) [S1 p.24]. 2026. gada prognoze 550–600 milj. EUR apstiprināta; pusgadā sasniegti 51–56 % [S2]."
+    et: "6 kuu korrigeeritud EBITDA 306,6 mln eurot (+1,9%). Kasvasid Võrgud ning Kliendid ja lahendused, Roheline tootmine vähenes (149,2 mln vs 166,6 mln eurot) [S1 p.24]. 2026. aasta prognoos 550–600 mln eurot kinnitati; poolaastaga on täidetud 51–56% [S2]."
+  - lt: "Skola stabili: grynoji skola 1 925,3 mln. EUR (+0,7 % nuo 2025 m. pabaigos), grynoji skola / koreguota EBITDA 3,49x, FFO / grynoji skola 22,2 % (strateginis tikslas ≥23 %) [S1 p.10; S6]."
+    en: "Debt stable: net debt EUR 1,925.3m (+0.7% since YE2025), net debt / Adjusted EBITDA 3.49x, FFO / net debt 22.2% (strategic target ≥23%) [S1 p.10; S6]."
+    lv: "Parāds stabils: neto parāds 1 925,3 milj. EUR (+0,7 % kopš 2025. gada beigām), neto parāds / koriģētā EBITDA 3,49x, FFO / neto parāds 22,2 % (stratēģiskais mērķis ≥23 %) [S1 p.10; S6]."
+    et: "Võlg stabiilne: netovõlg 1 925,3 mln eurot (+0,7% alates 2025. aasta lõpust), netovõlg / korrigeeritud EBITDA 3,49x, FFO / netovõlg 22,2% (strateegiline eesmärk ≥23%) [S1 p.10; S6]."
+  - lt: "Reitingai nepakito: S&P BBB+ (stabili, 2026-07-28), Moody's Baa1 (stabili, pirmas reitingas 2026 m.) [S7]."
+    en: "Ratings unchanged: S&P BBB+ (stable, 2026-07-28), Moody's Baa1 (stable, first-time rating in 2026) [S7]."
+    lv: "Reitingi nemainīgi: S&P BBB+ (stabils, 2026-07-28), Moody's Baa1 (stabils, pirmais reitings 2026. gadā) [S7]."
+    et: "Reitingud muutumatud: S&P BBB+ (stabiilne, 28.07.2026), Moody's Baa1 (stabiilne, esmane reiting 2026) [S7]."
+  - lt: "Svarbu turimai obligacijai XS1646530565 (2,000 %, 2027-07-14): 2026-10-19 paskelbtas supirkimo pasiūlymas (tender offer), finansuojamas nauja 300 mln. EUR 4,500 % EuGB obligacija iki 2031-10-27 [S8; S9]."
+    en: "Relevant for held bond XS1646530565 (2.000%, 2027-07-14): tender offer announced on 2026-10-19, financed with a new EUR 300m 4.500% EuGB bond due 2031-10-27 [S8; S9]."
+    lv: "Būtiski turētajai obligācijai XS1646530565 (2,000 %, 2027-07-14): 2026-10-19 izsludināts atpirkšanas piedāvājums (tender offer), ko finansē jauna 300 milj. EUR 4,500 % EuGB obligācija ar dzēšanu 2031-10-27 [S8; S9]."
+    et: "Oluline hoitava võlakirja XS1646530565 (2,000%, 14.07.2027) jaoks: 19.10.2026 teatati tagasiostupakkumisest (tender offer), mida rahastatakse uue 300 mln euro 4,500% EuGB võlakirjaga tähtajaga 27.10.2031 [S8; S9]."
+  - lt: "Koreguotas grynasis pelnas sumažėjo 20,8 % iki 115,8 mln. EUR; koreguota ROCE (12 mėn.) – 6,7 % (buvo 8,6 %) [S1 p.11]."
+    en: "Adjusted net profit fell 20.8% to EUR 115.8m; Adjusted ROCE (LTM) 6.7% (8.6% a year earlier) [S1 p.11]."
+    lv: "Koriģētā tīrā peļņa samazinājās par 20,8 % līdz 115,8 milj. EUR; koriģētā ROCE (12 mēn.) – 6,7 % (iepriekš 8,6 %) [S1 p.11]."
+    et: "Korrigeeritud puhaskasum vähenes 20,8% 115,8 mln euroni; korrigeeritud ROCE (12 kuud) 6,7% (aasta varem 8,6%) [S1 p.11]."
+
+business:
+  - lt: "Tinklai: investicijos 208,3 mln. EUR (+26,1 %), 68 % visų investicijų; segmento koreguota EBITDA 147,3 mln. EUR (132,6 mln.) [S1 p.5, p.24]."
+    en: "Networks: investments EUR 208.3m (+26.1%), 68% of total; segment Adjusted EBITDA EUR 147.3m (132.6m) [S1 p.5, p.24]."
+    lv: "Tīkli: investīcijas 208,3 milj. EUR (+26,1 %), 68 % no kopējām; segmenta koriģētā EBITDA 147,3 milj. EUR (132,6 milj.) [S1 p.5, p.24]."
+    et: "Võrgud: investeeringud 208,3 mln eurot (+26,1%), 68% kogumahust; segmendi korrigeeritud EBITDA 147,3 mln eurot (132,6 mln) [S1 p.5, p.24]."
+  - lt: "Žalioji generacija: įrengta 2,1 GW, statoma 0,6 GW (0,7 GW po Tume BESS investicinio sprendimo), užtikrinta 3,4 GW [S1 p.11, p.17]. EBITDA mažėjo dėl silpnesnio vėjo I–II ketv. ir mažesnės apsidraudimo kainos (130 → 82 EUR/MWh) [S3]."
+    en: "Green Capacities: 2.1 GW installed, 0.6 GW under construction (0.7 GW after the Tume BESS FID), 3.4 GW secured [S1 p.11, p.17]. EBITDA declined due to weaker wind in Q1-Q2 and a lower hedge price (EUR 130 → 82/MWh) [S3]."
+    lv: "Zaļā ražošana: uzstādīti 2,1 GW, būvniecībā 0,6 GW (0,7 GW pēc Tume BESS investīciju lēmuma), nodrošināti 3,4 GW [S1 p.11, p.17]. EBITDA samazinājās vājāka vēja (1.–2. cet.) un zemākas nodrošinājuma cenas dēļ (130 → 82 EUR/MWh) [S3]."
+    et: "Roheline tootmine: paigaldatud 2,1 GW, ehitusel 0,6 GW (0,7 GW pärast Tume BESS investeerimisotsust), tagatud 3,4 GW [S1 p.11, p.17]. EBITDA vähenes nõrgema tuule (I–II kv) ja madalama riskimaandamise hinna tõttu (130 → 82 eurot/MWh) [S3]."
+  - lt: "Rezervinė galia: koreguota EBITDA 17,9 mln. EUR (29,1 mln., −38 %); balansavimo rinka tampa konkurencingesnė [S1 p.24; S3]."
+    en: "Reserve Capacities: Adjusted EBITDA EUR 17.9m (29.1m, −38%); the balancing market is becoming more competitive [S1 p.24; S3]."
+    lv: "Rezerves jaudas: koriģētā EBITDA 17,9 milj. EUR (29,1 milj., −38 %); balansēšanas tirgus kļūst konkurētspējīgāks [S1 p.24; S3]."
+    et: "Reservvõimsused: korrigeeritud EBITDA 17,9 mln eurot (29,1 mln, −38%); tasakaalustusturg muutub konkurentsitihedamaks [S1 p.24; S3]."
+  - lt: "Klientai ir sprendimai: EBITDA 0,2 mln. EUR (−27,7 mln.); padėjo didesni kiekiai šaltą žiemą ir vienkartiniai didmeninės dujų prekybos sandoriai I ketv. [S2]. Gaminančių vartotojų poveikis 2025 m. – apie −30 mln. EUR EBITDA, 2026 m. tikimasi kiek didesnio, 60–70 % kompensuos naujas reguliavimas [S3]."
+    en: "Customers & Solutions: EBITDA EUR 0.2m (−27.7m); supported by higher volumes in a cold winter and one-off gas wholesale deals in Q1 [S2]. Prosumer impact c. EUR −30m EBITDA in 2025, expected somewhat higher in 2026, 60-70% to be covered by new legislation [S3]."
+    lv: "Klienti un risinājumi: EBITDA 0,2 milj. EUR (−27,7 milj.); palīdzēja lielāki apjomi aukstajā ziemā un vienreizēji gāzes vairumtirdzniecības darījumi 1. cet. [S2]. Ražojošo patērētāju ietekme 2025. gadā – ap −30 milj. EUR EBITDA, 2026. gadā gaidāma nedaudz lielāka, 60–70 % segs jaunais regulējums [S3]."
+    et: "Kliendid ja lahendused: EBITDA 0,2 mln eurot (−27,7 mln); toetasid suuremad mahud külmal talvel ja ühekordsed gaasi hulgimüügitehingud I kv-s [S2]. Tootvate tarbijate mõju 2025. aastal umbes −30 mln eurot EBITDA-le, 2026. aastal oodatakse veidi suuremat, 60–70% katab uus seadusandlus [S3]."
+  - lt: "Projektai ir sandoriai: parduota 49 % Vilniaus KJ (Quaero Capital, 2026 m. kovas); statomos 399 MW / 798 MWh baterijų sistemos; Kruonio HAE 5-asis blokas ~80 % baigtas; 2026-08-11 pradėta duomenų centrų partnerio paieška [S1 p.6, p.9; S2]."
+    en: "Projects and deals: 49% of Vilnius CHP sold (Quaero Capital, March 2026); 399 MW / 798 MWh of BESS under construction; Kruonis PSHP unit 5 ~80% complete; data-centre partner search launched 2026-08-11 [S1 p.6, p.9; S2]."
+    lv: "Projekti un darījumi: pārdoti 49 % Viļņas TEC (Quaero Capital, 2026. gada marts); būvniecībā 399 MW / 798 MWh bateriju sistēmas; Kruonis HAES 5. bloks ~80 % pabeigts; 2026-08-11 sākta datu centru partnera meklēšana [S1 p.6, p.9; S2]."
+    et: "Projektid ja tehingud: müüdi 49% Vilniuse koostootmisjaamast (Quaero Capital, märts 2026); ehitusel 399 MW / 798 MWh akusalvesteid; Kruonise pumphüdrojaama 5. plokk ~80% valmis; 11.08.2026 alustati andmekeskuste partneri otsingut [S1 p.6, p.9; S2]."
+  - lt: "Sauga: 2026 m. vasarį žuvo rangovo darbuotojas [S10]."
+    en: "Safety: a contractor employee was fatally injured in February 2026 [S10]."
+    lv: "Drošība: 2026. gada februārī gāja bojā darbuzņēmēja darbinieks [S10]."
+    et: "Ohutus: 2026. aasta veebruaris hukkus töövõtja töötaja [S10]."
+
+financials:
+  - lt: "6 mėn. pajamos 1 497,5 mln. EUR (+15,4 %), EBITDA 303,5 mln. EUR (262,5 mln.), grynasis pelnas 113,2 mln. EUR (111,4 mln.) [S1 p.11, p.23 – pajamas ir grynąjį pelną patikrinti PDF]."
+    en: "6M revenue EUR 1,497.5m (+15.4%), EBITDA EUR 303.5m (262.5m), net profit EUR 113.2m (111.4m) [S1 p.11, p.23 - verify revenue and net profit in the PDF]."
+    lv: "6 mēn. ieņēmumi 1 497,5 milj. EUR (+15,4 %), EBITDA 303,5 milj. EUR (262,5 milj.), tīrā peļņa 113,2 milj. EUR (111,4 milj.) [S1 p.11, p.23 – ieņēmumus un tīro peļņu pārbaudīt PDF]."
+    et: "6 kuu müügitulu 1 497,5 mln eurot (+15,4%), EBITDA 303,5 mln eurot (262,5 mln), puhaskasum 113,2 mln eurot (111,4 mln) [S1 p.11, p.23 – müügitulu ja puhaskasum kontrollida PDF-ist]."
+  - lt: "FFO 251,4 mln. EUR (+11,3 %), laisvieji pinigų srautai 5,3 mln. EUR (64,0 mln.); investicijos 306,1 mln. EUR (343,2 mln., −10,8 %) [S1 p.29, p.5]."
+    en: "FFO EUR 251.4m (+11.3%), free cash flow EUR 5.3m (64.0m); investments EUR 306.1m (343.2m, −10.8%) [S1 p.29, p.5]."
+    lv: "FFO 251,4 milj. EUR (+11,3 %), brīvā naudas plūsma 5,3 milj. EUR (64,0 milj.); investīcijas 306,1 milj. EUR (343,2 milj., −10,8 %) [S1 p.29, p.5]."
+    et: "FFO 251,4 mln eurot (+11,3%), vaba rahavoog 5,3 mln eurot (64,0 mln); investeeringud 306,1 mln eurot (343,2 mln, −10,8%) [S1 p.29, p.5]."
+  - lt: "2025 m.: koreguota EBITDA 546,1 mln. EUR (+3,4 %), koreguotas grynasis pelnas 225,7 mln. EUR (−18,7 %), grynoji skola padidėjo 18,6 % iki 1 912,0 mln. EUR, FFO / grynoji skola 21,0 % (2024 m. – 29,7 %) [S4 p.14; S5]."
+    en: "FY2025: Adjusted EBITDA EUR 546.1m (+3.4%), adjusted net profit EUR 225.7m (−18.7%), net debt up 18.6% to EUR 1,912.0m, FFO / net debt 21.0% (29.7% in 2024) [S4 p.14; S5]."
+    lv: "2025. gads: koriģētā EBITDA 546,1 milj. EUR (+3,4 %), koriģētā tīrā peļņa 225,7 milj. EUR (−18,7 %), neto parāds pieauga par 18,6 % līdz 1 912,0 milj. EUR, FFO / neto parāds 21,0 % (2024. g. – 29,7 %) [S4 p.14; S5]."
+    et: "2025: korrigeeritud EBITDA 546,1 mln eurot (+3,4%), korrigeeritud puhaskasum 225,7 mln eurot (−18,7%), netovõlg kasvas 18,6% 1 912,0 mln euroni, FFO / netovõlg 21,0% (2024: 29,7%) [S4 p.14; S5]."
+
+plans:
+  - plan: {lt: "2026 m. koreguota EBITDA 550–600 mln. EUR (paskelbta 2026-02-25)", en: "2026 Adjusted EBITDA EUR 550-600m (set 2026-02-25)", lv: "2026. g. koriģētā EBITDA 550–600 milj. EUR (izziņots 2026-02-25)", et: "2026. aasta korrigeeritud EBITDA 550–600 mln eurot (avaldatud 25.02.2026)"}
+    outcome: {lt: "6 mėn. – 306,6 mln. EUR; prognozė patvirtinta 2026-08-12", en: "6M: EUR 306.6m; guidance reiterated 2026-08-12", lv: "6 mēn.: 306,6 milj. EUR; prognoze apstiprināta 2026-08-12", et: "6 kuud: 306,6 mln eurot; prognoos kinnitati 12.08.2026"}
+    status: pending
+    src: "S5; S2"
+  - plan: {lt: "2026 m. investicijos 590–690 mln. EUR", en: "2026 investments EUR 590-690m", lv: "2026. g. investīcijas 590–690 milj. EUR", et: "2026. aasta investeeringud 590–690 mln eurot"}
+    outcome: {lt: "6 mėn. – 306,1 mln. EUR (44–52 % intervalo)", en: "6M: EUR 306.1m (44-52% of the range)", lv: "6 mēn.: 306,1 milj. EUR (44–52 % no intervāla)", et: "6 kuud: 306,1 mln eurot (44–52% vahemikust)"}
+    status: pending
+    src: "S5; S1 p.5"
+  - plan: {lt: "Strategija 2025–2028: investicijos 3,0–4,0 mlrd. EUR, 2028 m. koreguota EBITDA 600–680 mln. EUR", en: "Strategy 2025-2028: investments EUR 3.0-4.0bn, 2028 Adjusted EBITDA EUR 600-680m", lv: "Stratēģija 2025–2028: investīcijas 3,0–4,0 mljrd. EUR, 2028. g. koriģētā EBITDA 600–680 milj. EUR", et: "Strateegia 2025–2028: investeeringud 3,0–4,0 mld eurot, 2028. aasta korrigeeritud EBITDA 600–680 mln eurot"}
+    outcome: {lt: "Nauja strategija 2026–2029: investicijos 2,5–3,0 mlrd. EUR, 2029 m. EBITDA 640–700 mln. EUR (investicijų apimtis sumažinta)", en: "New strategy 2026-2029: investments EUR 2.5-3.0bn, 2029 EBITDA EUR 640-700m (investment envelope reduced)", lv: "Jaunā stratēģija 2026–2029: investīcijas 2,5–3,0 mljrd. EUR, 2029. g. EBITDA 640–700 milj. EUR (investīciju apjoms samazināts)", et: "Uus strateegia 2026–2029: investeeringud 2,5–3,0 mld eurot, 2029. aasta EBITDA 640–700 mln eurot (investeeringute maht vähendatud)"}
+    status: changed
+    src: "S4 p.27-28; S6"
+  - plan: {lt: "FFO / grynoji skola ≥23 % (2026–2029)", en: "FFO / net debt ≥23% (2026-2029)", lv: "FFO / neto parāds ≥23 % (2026–2029)", et: "FFO / netovõlg ≥23% (2026–2029)"}
+    outcome: {lt: "2025 m. pab. – 21,0 %, 2026-06-30 (12 mėn.) – 22,2 %", en: "YE2025: 21.0%; 30 Jun 2026 (LTM): 22.2%", lv: "2025. g. beigās – 21,0 %, 2026-06-30 (12 mēn.) – 22,2 %", et: "2025. aasta lõpus 21,0%, 30.06.2026 (12 kuud) 22,2%"}
+    status: not_met
+    src: "S6; S1 p.10"
+  - plan: {lt: "Grynoji skola / koreguota EBITDA 3–4x; reitingas BBB ar aukštesnis", en: "Net debt / Adjusted EBITDA 3-4x; rating BBB or above", lv: "Neto parāds / koriģētā EBITDA 3–4x; reitings BBB vai augstāks", et: "Netovõlg / korrigeeritud EBITDA 3–4x; reiting BBB või kõrgem"}
+    outcome: {lt: "3,49x; S&P BBB+, Moody's Baa1", en: "3.49x; S&P BBB+, Moody's Baa1", lv: "3,49x; S&P BBB+, Moody's Baa1", et: "3,49x; S&P BBB+, Moody's Baa1"}
+    status: met
+    src: "S6; S1 p.10; S7"
+  - plan: {lt: "Dividendai akcijai auga ≥3 % per metus", en: "Dividend per share growth ≥3% a year", lv: "Dividende uz akciju pieaug ≥3 % gadā", et: "Dividend aktsia kohta kasvab ≥3% aastas"}
+    outcome: {lt: "2025 m. 1,366 EUR (+3,0 %); 2026 m. I pusm. 0,704 EUR (+3,1 %)", en: "2025: EUR 1.366 (+3.0%); H1 2026: EUR 0.704 (+3.1%)", lv: "2025. g. 1,366 EUR (+3,0 %); 2026. g. 1. pusg. 0,704 EUR (+3,1 %)", et: "2025: 1,366 eurot (+3,0%); 2026 I poolaasta 0,704 eurot (+3,1%)"}
+    status: met
+    src: "S6; S5; S2"
+  - plan: {lt: "Žalioji galia 2,8–3,2 GW iki 2029 m.", en: "Green capacity 2.8-3.2 GW by 2029", lv: "Zaļā jauda 2,8–3,2 GW līdz 2029. gadam", et: "Roheline võimsus 2,8–3,2 GW aastaks 2029"}
+    outcome: {lt: "Įrengta 2,1 GW, statoma 0,7 GW", en: "2.1 GW installed, 0.7 GW under construction", lv: "Uzstādīti 2,1 GW, būvniecībā 0,7 GW", et: "Paigaldatud 2,1 GW, ehitusel 0,7 GW"}
+    status: pending
+    src: "S6; S1 p.17"
+
+investor:
+  - lt: "Turimos priemonės: akcijos (IGN1L) ir trys obligacijos (2027, 2028, 2030). Obligacijos neužtikrintos, joms taikomas emitento reitingas BBB+ (S&P) [S8]."
+    en: "Instruments held: shares (IGN1L) and three bonds (2027, 2028, 2030). The bonds are senior unsecured and carry the issuer rating of BBB+ (S&P) [S8]."
+    lv: "Turētie instrumenti: akcijas (IGN1L) un trīs obligācijas (2027, 2028, 2030). Obligācijas ir nenodrošinātas, tām piemēro emitenta reitingu BBB+ (S&P) [S8]."
+    et: "Hoitavad instrumendid: aktsiad (IGN1L) ja kolm võlakirja (2027, 2028, 2030). Võlakirjad on tagamata, neile kehtib emitendi reiting BBB+ (S&P) [S8]."
+  - lt: "Obligacijų turėtojams: sverto rodiklis (3,49x) – strateginiame 3–4x intervale, reitingai stabilūs; FFO / grynoji skola (22,2 %) dar žemiau ≥23 % tikslo. Investicijos daugiausia į reguliuojamus tinklus [S1 p.5, p.10; S6; S7]."
+    en: "For bondholders: leverage (3.49x) is within the strategic 3-4x range and ratings are stable; FFO / net debt (22.2%) is still below the ≥23% target. Investment is mostly in regulated networks [S1 p.5, p.10; S6; S7]."
+    lv: "Obligāciju turētājiem: sviras rādītājs (3,49x) ir stratēģiskajā 3–4x intervālā, reitingi stabili; FFO / neto parāds (22,2 %) vēl zem ≥23 % mērķa. Investīcijas galvenokārt regulētajos tīklos [S1 p.5, p.10; S6; S7]."
+    et: "Võlakirjaomanikele: finantsvõimendus (3,49x) on strateegilises vahemikus 3–4x, reitingud stabiilsed; FFO / netovõlg (22,2%) on veel alla ≥23% eesmärgi. Investeeringud on peamiselt reguleeritud võrkudesse [S1 p.5, p.10; S6; S7]."
+  - lt: "XS1646530565: dėl 2026-10-19 supirkimo pasiūlymo reikia sprendimo (dalyvauti ar laikyti iki 2027-07-14). Pasiūlymo sąlygos ir terminas – emitento „Tender Offer Launch Announcement“ [S8]."
+    en: "XS1646530565: the 2026-10-19 tender offer requires a decision (tender or hold to 2027-07-14). Terms and deadline are in the issuer's Tender Offer Launch Announcement [S8]."
+    lv: "XS1646530565: 2026-10-19 atpirkšanas piedāvājums prasa lēmumu (piedalīties vai turēt līdz 2027-07-14). Nosacījumi un termiņš – emitenta „Tender Offer Launch Announcement“ [S8]."
+    et: "XS1646530565: 19.10.2026 tagasiostupakkumine nõuab otsust (osaleda või hoida kuni 14.07.2027). Tingimused ja tähtaeg on emitendi teates „Tender Offer Launch Announcement“ [S8]."
+  - lt: "Akcininkams: I pusm. dividendai 0,704 EUR (+3,1 %), koreguotas pelnas mažėja (−20,8 %). Laisvieji pinigų srautai 5,3 mln. EUR – investicijos ir dividendai finansuojami ir skola [S1 p.29; S2]."
+    en: "For shareholders: H1 dividend EUR 0.704 (+3.1%), while adjusted profit is declining (−20.8%). Free cash flow EUR 5.3m - investment and dividends are partly debt-funded [S1 p.29; S2]."
+    lv: "Akcionāriem: 1. pusg. dividende 0,704 EUR (+3,1 %), koriģētā peļņa samazinās (−20,8 %). Brīvā naudas plūsma 5,3 milj. EUR – investīcijas un dividendes daļēji finansē ar parādu [S1 p.29; S2]."
+    et: "Aktsionäridele: I poolaasta dividend 0,704 eurot (+3,1%), korrigeeritud kasum väheneb (−20,8%). Vaba rahavoog 5,3 mln eurot – investeeringuid ja dividende rahastatakse osaliselt võlaga [S1 p.29; S2]."
+  - lt: "Išvada: finansinė būklė, palyginti su 2025 m. pabaiga, iš esmės nepakito; kredito rodikliai atitinka strategijos ribas, reitingai stabilūs. Stebėti: 9 mėn. ataskaitą (2026-11-11), vėjo ir kainų poveikį Žaliajai generacijai, FFO / skolos rodiklio grįžimą į ≥23 %."
+    en: "Conclusion: financial position broadly unchanged versus year-end 2025; credit metrics within strategic limits, ratings stable. Watch: 9M report (2026-11-11), wind and price effects on Green Capacities, FFO / net debt returning to ≥23%."
+    lv: "Secinājums: finanšu stāvoklis salīdzinājumā ar 2025. gada beigām būtībā nav mainījies; kredītrādītāji atbilst stratēģijas robežām, reitingi stabili. Sekot: 9 mēn. pārskatam (2026-11-11), vēja un cenu ietekmei uz Zaļo ražošanu, FFO / parāda rādītāja atgriešanās līdz ≥23 %."
+    et: "Järeldus: finantsseisund on võrreldes 2025. aasta lõpuga sisuliselt muutumatu; krediidinäitajad on strateegia piirides, reitingud stabiilsed. Jälgida: 9 kuu aruanne (11.11.2026), tuule ja hindade mõju Rohelisele tootmisele, FFO / netovõla tagasipöördumine ≥23%-ni."
+
+esg:
+  policies: [fossil_fuels, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_coal:
+      status: yes
+      evidence: {lt: "Anglies generacijos nėra; 2025 m. ataskaitoje anglis minima tik rinkos kontekste [S4].", en: "No coal generation; the 2025 report mentions coal only in market context [S4].", lv: "Ogļu ražošanas nav; 2025. g. pārskatā ogles minētas tikai tirgus kontekstā [S4].", et: "Söeelektritootmist ei ole; 2025. aasta aruandes mainitakse sütt ainult turu kontekstis [S4]."}
+    excl_fossil_expansion:
+      status: yes
+      evidence: {lt: "Naftos ir dujų žvalgybos nėra. Turi dujomis kūrenamą Elektrėnų kompleksą (rezervinė galia) ir parduoda dujas klientams; dėl didesnės dujų generacijos žalioji generacijos dalis sumažėjo iki 70,2 % [S4].", en: "No oil & gas exploration. Owns the gas-fired Elektrėnai complex (reserve capacity) and supplies gas to customers; higher gas generation cut the green share of generation to 70.2% [S4].", lv: "Naftas un gāzes izpētes nav. Pieder gāzes Elektrėnai komplekss (rezerves jauda) un piegādā gāzi klientiem; lielākas gāzes ražošanas dēļ zaļās ražošanas daļa samazinājās līdz 70,2 % [S4].", et: "Nafta ja gaasi otsinguid ei ole. Omab gaasiküttel Elektrėnai kompleksi (reservvõimsus) ja müüb klientidele gaasi; suurema gaasitootmise tõttu langes rohelise tootmise osakaal 70,2%-ni [S4]."}
+    excl_weapons:
+      status: yes
+      evidence: {lt: "Veiklos segmentuose tokios veiklos nėra [S1].", en: "No such activities in the business segments [S1].", lv: "Darbības segmentos šādas darbības nav [S1].", et: "Ärisegmentides sellist tegevust ei ole [S1]."}
+    excl_controversy:
+      status: review
+      evidence: {lt: "Didelių neišspręstų skandalų greitoje paieškoje (2026-10-22) nerasta. 2026 m. vasarį – mirtinas nelaimingas atsitikimas su rangovo darbuotoju [S10].", en: "No major unresolved controversies found in a quick search (2026-10-22). Fatal contractor accident in February 2026 [S10].", lv: "Lielas neatrisinātas pretrunas ātrajā meklēšanā (2026-10-22) nav atrastas. 2026. g. februārī – nāvējošs nelaimes gadījums ar darbuzņēmēja darbinieku [S10].", et: "Kiirotsingul (22.10.2026) suuri lahendamata vastuolusid ei leitud. Veebruaris 2026 surmaga lõppenud õnnetus töövõtja töötajaga [S10]."}
+    int_targets:
+      status: yes
+      evidence: {lt: "SBTi patvirtino trumpojo ir ilgojo laikotarpio tikslus pagal 1,5 °C trajektoriją; nulinė emisija iki 2050 m. ar anksčiau [S4 p.10].", en: "SBTi validated near- and long-term targets in line with 1.5°C; net zero by 2050 or sooner [S4 p.10].", lv: "SBTi apstiprināja īstermiņa un ilgtermiņa mērķus atbilstoši 1,5 °C trajektorijai; neto nulle līdz 2050. gadam vai agrāk [S4 p.10].", et: "SBTi kinnitas lühi- ja pikaajalised eesmärgid kooskõlas 1,5 °C trajektooriga; netonull aastaks 2050 või varem [S4 p.10]."}
+    int_disclosure:
+      status: yes
+      evidence: {lt: "Integruota metinė ataskaita su ŠESD duomenimis: bendros emisijos 4,49 mln. t CO2e (+10,1 %), 1 apimtis +54,7 %; anglies intensyvumas (1+2) I ketv. 214 g/kWh [S4; S10].", en: "Integrated annual report with GHG data: total emissions 4.49m t CO2e (+10.1%), Scope 1 +54.7%; carbon intensity (Scope 1+2) 214 g/kWh in Q1 2026 [S4; S10].", lv: "Integrētais gada pārskats ar SEG datiem: kopējās emisijas 4,49 milj. t CO2e (+10,1 %), 1. tvērums +54,7 %; oglekļa intensitāte (1+2) 1. cet. 214 g/kWh [S4; S10].", et: "Integreeritud aastaaruanne KHG andmetega: koguheide 4,49 mln t CO2e (+10,1%), 1. ulatus +54,7%; süsinikuintensiivsus (1+2) I kv 214 g/kWh [S4; S10]."}
+    int_green_share:
+      status: yes
+      evidence: {lt: "ES taksonomiją atitinkančios investicijos 2025 m. – 84,7 %; žaliosios obligacijos ir nauja EuGB obligacija [S4; S9].", en: "EU Taxonomy-aligned capex 84.7% in 2025; green bonds and the new EuGB bond [S4; S9].", lv: "ES taksonomijai atbilstošās investīcijas 2025. g. – 84,7 %; zaļās obligācijas un jaunā EuGB obligācija [S4; S9].", et: "EL taksonoomiaga joondatud investeeringud 2025. aastal 84,7%; rohelised võlakirjad ja uus EuGB võlakiri [S4; S9]."}
+    int_governance:
+      status: review
+      evidence: {lt: "Valstybės valdoma (~75 %), listinguojama Nasdaq Vilnius ir LSE. Valdybos nepriklausomumas automatiškai netikrintas.", en: "State-controlled (~75%), listed on Nasdaq Vilnius and LSE. Board independence not checked automatically.", lv: "Valsts kontrolēts (~75 %), kotēts Nasdaq Vilnius un LSE. Valdes neatkarība automātiski nav pārbaudīta.", et: "Riigi kontrolli all (~75%), noteeritud Nasdaq Vilniuse ja LSE börsil. Nõukogu sõltumatust automaatselt ei kontrollitud."}
+    int_social:
+      status: review
+      evidence: {lt: "Sveikatos ir saugos rizika: mirtinas atvejis 2026 m. vasarį [S10]. Žmogaus teisių politika automatiškai netikrinta.", en: "Health & safety risk: fatality in February 2026 [S10]. Human rights policy not checked automatically.", lv: "Veselības un drošības risks: nāves gadījums 2026. g. februārī [S10]. Cilvēktiesību politika automātiski nav pārbaudīta.", et: "Töötervishoiu ja ohutuse risk: surmajuhtum veebruaris 2026 [S10]. Inimõiguste poliitikat automaatselt ei kontrollitud."}
+    engagement:
+      status: review
+      evidence: {lt: "Siūlomi klausimai: 1 apimties emisijų augimas dėl dujų generacijos; rangovų sauga; FFO / skolos grįžimas į ≥23 %.", en: "Suggested topics: Scope 1 increase from gas generation; contractor safety; FFO / net debt back to ≥23%.", lv: "Ieteicamie jautājumi: 1. tvēruma emisiju pieaugums gāzes ražošanas dēļ; darbuzņēmēju drošība; FFO / parāda atgriešanās līdz ≥23 %.", et: "Soovitatavad teemad: 1. ulatuse heite kasv gaasitootmise tõttu; töövõtjate ohutus; FFO / netovõla taastumine ≥23%-ni."}
+  conclusion: {lt: "Atitinka SEB iškastinio kuro politikos ribas (anglies nėra). Teigiama: didelė taksonomiją atitinkančių investicijų dalis, SBTi tikslai. Stebėti dujų generacijos dalį ir saugą.", en: "Within SEB fossil fuel policy limits (no coal). Positives: high Taxonomy-aligned capex, SBTi targets. Watch the share of gas generation and safety.", lv: "Atbilst SEB fosilā kurināmā politikas robežām (ogļu nav). Pozitīvi: liela taksonomijai atbilstošo investīciju daļa, SBTi mērķi. Sekot gāzes ražošanas daļai un drošībai.", et: "Vastab SEB fossiilkütuste poliitika piiridele (sütt ei ole). Positiivne: taksonoomiaga joondatud investeeringute suur osakaal, SBTi eesmärgid. Jälgida gaasitootmise osakaalu ja ohutust."}
+
+checks:
+  sanctions:
+    status: review
+    note: {lt: "Tikrina analitikas vidinėmis priemonėmis.", en: "Checked by the analyst with internal tools.", lv: "Pārbauda analītiķis ar iekšējiem rīkiem.", et: "Kontrollib analüütik sisemiste vahenditega."}
+  media:
+    status: not_found
+    note: {lt: "Neigiamų naujienų greitoje paieškoje (LT, EN; 2026-10-22) nerasta. Savaitinė naujienų paieška – dashboard skiltyje „Naujienos“.", en: "No adverse news found in a quick search (LT, EN; 2026-10-22). Weekly news scan - see the dashboard News tab.", lv: "Negatīvas ziņas ātrajā meklēšanā (LT, EN; 2026-10-22) nav atrastas. Iknedēļas ziņu meklēšana – panelī sadaļā „Ziņas“.", et: "Kiirotsingul (LT, EN; 22.10.2026) negatiivseid uudiseid ei leitud. Iganädalane uudisteotsing – töölaua vahekaardil „Uudised“."}

@@ -1,0 +1,9 @@
+# Bendri nustatymai.
+# languages: kuriomis kalbomis generuoti ataskaitų failus (lt, en, lv, et).
+#   Savininko sprendimas 2026-10-22: kol kas tik lt. Tekstai ataskaitose jau yra visomis 4 kalbomis,
+#   tad kitas kalbas galima įjungti tiesiog įrašant jas čia, pvz. [lt, en, lv, et].
+languages: [lt]
+# formats: kokius failus generuoti
+formats: [docx, pdf, xlsx]
+# site_lang: dashboard kalba
+site_lang: lt
