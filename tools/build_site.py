@@ -62,7 +62,7 @@ def main():
     secs = C.securities()
     news = C.read_csv(C.DATA / "news.csv")
     filings = C.read_csv(C.DATA / "filings.csv")
-    out = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"), "repo": REPO, "today": C.TODAY,
+    out = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"), "repo": REPO, "today": C.TODAY, "isin_store_url": C.settings().get("isin_store_url", "") or "",
            "status": C.load_json(C.DATA / "source_status.json"), "issuers": [], "securities": secs,
            "metrics": {lg: {k: C.tr(v, lg) for k, v in M.items()} for lg in SITE_LANGS},
            "news": news[:600], "filings": [f for f in filings if f.get("baseline") != "yes"]}

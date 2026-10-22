@@ -29,6 +29,8 @@
       active: "Active", maturedS: "Matured", daysLeft: "d left", yes: "Yes", no: "No", share: "share", perpetual: "perpetual",
       isinTitle: "ISIN list – add or check securities",
       isinSub: "Paste the current list of ISINs (one per line, or separated by commas/spaces). The tool shows which are already tracked, which are new and which have matured.",
+      storeTitle: "Shared ISIN list", storeSub: "Anyone with this link can edit the list. Saved changes reach the tool within a day (or at the next manual update); new ISINs are then researched and added.",
+      yourName: "Your name (for the change log)", pin: "PIN", save: "Save list", saving: "Saving…", saved: "Saved", added: "Added", removed: "Removed", lastChange: "Last change", loadFail: "Could not load the shared list – showing the tool's current list.", saveFail: "Saving failed",
       check: "Check list", known: "Already tracked", unknown: "New – not yet tracked", missing: "Tracked but not in your list (sold?)",
       submit: "Send list to the tool", submitHint: "Opens a pre-filled request on GitHub. New ISINs are then researched (issuer, coupon, maturity) and added on request – ask Claude in the project chat or use 'Request new analysis'.",
       editDirect: "Or edit the list directly", editDirectHint: "config/securities.csv on GitHub – one row per ISIN (issuer, coupon, issue and maturity date). Changes rebuild the site and reports automatically.",
@@ -56,6 +58,8 @@
       active: "Aktyvi", maturedS: "Išpirkta", daysLeft: "d. liko", yes: "Taip", no: "Ne", share: "akcija", perpetual: "neterminuota",
       isinTitle: "ISIN sąrašas – pridėti ar patikrinti",
       isinSub: "Įklijuokite dabartinį ISIN sąrašą (po vieną eilutėje arba atskirtus kableliais / tarpais). Įrankis parodys, kurie jau sekami, kurie nauji ir kurie išpirkti.",
+      storeTitle: "Bendras ISIN sąrašas", storeSub: "Sąrašą gali taisyti kiekvienas, turintis šią nuorodą. Išsaugoti pakeitimai įrankį pasiekia per parą (arba per kitą rankinį atnaujinimą); nauji ISIN tada ištiriami ir pridedami.",
+      yourName: "Jūsų vardas (pakeitimų žurnalui)", pin: "PIN", save: "Išsaugoti sąrašą", saving: "Saugoma…", saved: "Išsaugota", added: "Pridėta", removed: "Pašalinta", lastChange: "Paskutinis pakeitimas", loadFail: "Nepavyko įkelti bendro sąrašo – rodomas dabartinis įrankio sąrašas.", saveFail: "Nepavyko išsaugoti",
       check: "Tikrinti sąrašą", known: "Jau sekami", unknown: "Nauji – dar nesekami", missing: "Sekami, bet nėra jūsų sąraše (parduoti?)",
       submit: "Siųsti sąrašą įrankiui", submitHint: "Atidaro užpildytą užklausą GitHub'e. Nauji ISIN ištiriami (emitentas, kuponas, išpirkimas) ir pridedami paprašius – parašykite Claude projekte arba „Paprašyti naujos analizės“.",
       editDirect: "Arba taisykite sąrašą tiesiogiai", editDirectHint: "config/securities.csv GitHub'e – viena eilutė vienam ISIN (emitentas, kuponas, išleidimo ir išpirkimo data). Po pakeitimo svetainė ir ataskaitos atsinaujina automatiškai.",
@@ -252,23 +256,58 @@
     h += `<div class="tbl-wrap"><table><tr><th>${t("isinCol")}</th><th>${t("instrument")}</th><th>${t("heldCol")}</th><th class="n">${t("coupon")}</th><th>${t("maturity")}</th><th>${t("status")}</th><th>${t("note")}</th></tr>${s.map(x => secRow({ ...x, name: (byId[x.issuer]?.name || x.issuer) + " – " + x.name })).join("")}</table></div>`;
     return h;
   }
+  function isinDiff(list) {
+    const known = list.filter(x => D.securities.some(s => s.isin === x)), unknown = list.filter(x => !known.includes(x));
+    const missing = D.securities.filter(s => s.held === "yes" && !list.includes(s.isin));
+    const row = x => { const s = D.securities.find(y => y.isin === x); return `<li><span class="mono">${esc(x)}</span> – ${esc(byId[s.issuer]?.name || s.issuer)}, ${esc(s.name)} ${s.status === "matured" ? `<span class="chip warn">${t("maturedS")}</span>` : ""}</li>`; };
+    return { known, unknown, missing, html: `<div class="two" style="margin-top:14px"><div class="card"><h3>${t("known")} (${known.length})</h3><ul class="b">${known.map(row).join("") || "<li>–</li>"}</ul></div>
+      <div class="card"><h3>${t("unknown")} (${unknown.length})</h3><ul class="b">${unknown.map(x => `<li class="mono">${esc(x)}</li>`).join("") || "<li>–</li>"}</ul>
+      <h3 style="margin-top:12px">${t("missing")} (${missing.length})</h3><ul class="b">${missing.map(s => `<li><span class="mono">${esc(s.isin)}</span> – ${esc(s.name)}</li>`).join("") || "<li>–</li>"}</ul></div></div>` };
+  }
+  const parseIsins = v => [...new Set((v.toUpperCase().match(/[A-Z]{2}[A-Z0-9]{9}\d/g) || []))];
   function isinPage() {
+    const side = `<div class="card"><h3>${t("editDirect")}</h3><p class="muted">${t("editDirectHint")}</p><a class="btn" href="${gh("edit/main/config/securities.csv")}" target="_blank" rel="noopener">✎ config/securities.csv</a>
+        <h3 style="margin-top:16px;text-transform:capitalize">${t("issuers")}</h3><p class="muted">config/issuers.yaml</p><a class="btn" href="${gh("edit/main/config/issuers.yaml")}" target="_blank" rel="noopener">✎ config/issuers.yaml</a></div>`;
+    if (D.isin_store_url) return storePage(side);
     const h = `<h1>${t("isinTitle")}</h1><p class="sub">${t("isinSub")}</p>
       <div class="two"><div class="card"><textarea id="isins" rows="10" placeholder="LT0000115768&#10;XS1646530565&#10;…"></textarea>
-        <div class="row" style="margin-top:10px"><button class="btn primary" id="chk">${t("check")}</button></div></div>
-        <div class="card"><h3>${t("editDirect")}</h3><p class="muted">${t("editDirectHint")}</p><a class="btn" href="${gh("edit/main/config/securities.csv")}" target="_blank" rel="noopener">✎ config/securities.csv</a>
-        <h3 style="margin-top:16px;text-transform:capitalize">${t("issuers")}</h3><p class="muted">config/issuers.yaml</p><a class="btn" href="${gh("edit/main/config/issuers.yaml")}" target="_blank" rel="noopener">✎ config/issuers.yaml</a></div></div><div id="res"></div>`;
+        <div class="row" style="margin-top:10px"><button class="btn primary" id="chk">${t("check")}</button></div></div>${side}</div><div id="res"></div>`;
     setTimeout(() => {
       document.getElementById("chk").onclick = () => {
-        const list = [...new Set((document.getElementById("isins").value.toUpperCase().match(/[A-Z]{2}[A-Z0-9]{9}\d/g) || []))];
-        const known = list.filter(x => D.securities.some(s => s.isin === x)), unknown = list.filter(x => !known.includes(x));
-        const missing = D.securities.filter(s => s.held === "yes" && !list.includes(s.isin));
-        const row = x => { const s = D.securities.find(y => y.isin === x); return `<li><span class="mono">${esc(x)}</span> – ${esc(byId[s.issuer]?.name || s.issuer)}, ${esc(s.name)} ${s.status === "matured" ? `<span class="chip warn">${t("maturedS")}</span>` : ""}</li>`; };
-        const body = `ISIN list (${D.today}):\n${list.join("\n")}\n\nNew: ${unknown.join(", ") || "-"}\nNo longer held: ${missing.map(s => s.isin).join(", ") || "-"}\n\n(Created from the dashboard)`;
-        document.getElementById("res").innerHTML = `<div class="two" style="margin-top:14px"><div class="card"><h3>${t("known")} (${known.length})</h3><ul class="b">${known.map(row).join("") || "<li>–</li>"}</ul></div>
-          <div class="card"><h3>${t("unknown")} (${unknown.length})</h3><ul class="b">${unknown.map(x => `<li class="mono">${esc(x)}</li>`).join("") || "<li>–</li>"}</ul>
-          <h3 style="margin-top:12px">${t("missing")} (${missing.length})</h3><ul class="b">${missing.map(s => `<li><span class="mono">${esc(s.isin)}</span> – ${esc(s.name)}</li>`).join("") || "<li>–</li>"}</ul></div></div>
-          <div class="row" style="margin-top:12px"><a class="btn primary" href="${issueUrl("ISIN list update", body, "isin-list")}" target="_blank" rel="noopener">${t("submit")}</a></div><p class="muted">${t("submitHint")}</p>`;
+        const list = parseIsins(document.getElementById("isins").value), d = isinDiff(list);
+        const body = `ISIN list (${D.today}):\n${list.join("\n")}\n\nNew: ${d.unknown.join(", ") || "-"}\nNo longer held: ${d.missing.map(s => s.isin).join(", ") || "-"}\n\n(Created from the dashboard)`;
+        document.getElementById("res").innerHTML = d.html + `<div class="row" style="margin-top:12px"><a class="btn primary" href="${issueUrl("ISIN list update", body, "isin-list")}" target="_blank" rel="noopener">${t("submit")}</a></div><p class="muted">${t("submitHint")}</p>`;
+      };
+    });
+    return h;
+  }
+  function storePage(side) {
+    const h = `<h1>${t("storeTitle")}</h1><p class="sub">${t("storeSub")}</p>
+      <div class="two"><div class="card"><textarea id="isins" rows="14" placeholder="LT0000115768&#10;XS1646530565&#10;…"></textarea>
+        <div class="row" style="margin-top:10px;gap:8px;flex-wrap:wrap"><input id="by" placeholder="${t("yourName")}" style="flex:1;min-width:160px">
+        <input id="pin" type="password" placeholder="${t("pin")}" style="width:90px;display:none"></div>
+        <div class="row" style="margin-top:10px"><button class="btn primary" id="save">${t("save")}</button><span id="st" class="muted" style="margin-left:10px"></span></div>
+        <p class="muted" id="last"></p></div>${side}</div><div id="res"></div>`;
+    setTimeout(() => {
+      const ta = document.getElementById("isins"), st = document.getElementById("st"), res = document.getElementById("res");
+      const show = () => { res.innerHTML = isinDiff(parseIsins(ta.value)).html; };
+      try { const v = localStorage.getItem("isinBy"); if (v) document.getElementById("by").value = v; } catch (e) {}
+      ta.oninput = show;
+      fetch(D.isin_store_url).then(r => r.json()).then(j => {
+        ta.value = (j.isins || []).map(x => x.isin || x).join("\n");
+        if (j.pin_required) document.getElementById("pin").style.display = "";
+        const lc = j.last_change; if (lc) document.getElementById("last").textContent = `${t("lastChange")}: ${String(lc.time).slice(0, 10)} ${lc.by || ""} (+${lc.added || "–"} / −${lc.removed || "–"})`;
+        show();
+      }).catch(() => { st.textContent = t("loadFail"); ta.value = D.securities.filter(s => s.held === "yes").map(s => s.isin).join("\n"); show(); });
+      document.getElementById("save").onclick = () => {
+        const by = document.getElementById("by").value.trim(), pin = document.getElementById("pin").value;
+        try { localStorage.setItem("isinBy", by); } catch (e) {}
+        st.textContent = t("saving");
+        fetch(D.isin_store_url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify({ isins: parseIsins(ta.value), by, pin }) })
+          .then(r => r.json()).then(j => {
+            if (!j.ok) throw new Error(j.error || "");
+            st.textContent = `${t("saved")}. ${t("added")}: ${(j.added || []).join(", ") || "–"}; ${t("removed")}: ${(j.removed || []).join(", ") || "–"}`;
+          }).catch(e => { st.textContent = `${t("saveFail")} ${e.message || ""}`; });
       };
     });
     return h;
