@@ -29,6 +29,13 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
 
+      - name: ISIN list from the dashboard (new / sold securities)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          python -u tools/sync_isins.py
+          python -u tools/lookup_isins.py
+
       - name: News (Google News RSS)
         if: github.event_name != 'push'
         continue-on-error: true
@@ -54,7 +61,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A docs data
+          git add -A docs data config
           if git diff --cached --quiet; then echo "Nėra pakeitimų"; exit 0; fi
           git commit -m "Automatinis atnaujinimas $(date -u +%F)"
           git pull --rebase -X theirs origin main
