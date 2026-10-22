@@ -37,5 +37,223 @@
   "matches": [],
   "mentions": [],
   "excluded": []
+ },
+ "lhv": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "latvenergo": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "artea": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "citadele": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "inbank": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "vik": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "altum": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "rigas-udens": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "ast": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "aei": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "latraps": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "maxima": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [
+   "EU: c pe ac iuni dalpribor | dalpribor nyilv nosan m k d r szv nyt rsas g |  |  |  | maxima llc | maxima legal limited liability company |  |  | amaocr | aruba maritime a"
+  ],
+  "mentions": [],
+  "excluded": []
+ },
+ "eesti-energia": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "akropolis": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "bigbank": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "coop-pank": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "hepsor": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
+ },
+ "nortal": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "UK": "not_found",
+   "US OFAC": "not_found"
+  },
+  "matches": [],
+  "mentions": [],
+  "excluded": []
  }
 }
