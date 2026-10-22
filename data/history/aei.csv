@@ -1,0 +1,23 @@
+metric,period,value,unit,source,page,verified,note
+total_income,FY2024,-6.11,EURm,E3,4,check,Total income incl. fair value changes (no revenue line)
+total_income,FY2025,3.69,EURm,E3,4,check,Total income incl. fair value changes (no revenue line)
+total_income,6M2025,1.88,EURm,E1,4,check,Total income incl. fair value changes (no revenue line)
+total_income,6M2026,0.82,EURm,E1,4,check,Total income incl. fair value changes (no revenue line)
+net_profit,FY2024,-14.78,EURm,E3,4,check,
+net_profit,FY2025,-11.75,EURm,E3,4,check,
+net_profit,6M2025,-4.06,EURm,E1,4,check,
+net_profit,6M2026,-5.13,EURm,E1,4,check,
+total_assets,FY2024,190.0,EURm,E3,3,check,
+total_assets,FY2025,174.7,EURm,E3,3,check,
+total_assets,6M2026,153.6,EURm,E1,3,check,
+equity,FY2024,100.6,EURm,E3,3,check,
+equity,FY2025,88.8,EURm,E3,3,check,
+equity,6M2025,96.5,EURm,E1,5,check,From the statement of changes in equity
+equity,6M2026,83.7,EURm,E1,3,check,
+equity_ratio,FY2024,52.9,%,E3,3,calc,Equity / total assets - calculated by the tool
+equity_ratio,FY2025,50.8,%,E3,3,calc,Equity / total assets - calculated by the tool
+equity_ratio,6M2026,54.5,%,E1,3,calc,Equity / total assets - calculated by the tool
+net_debt,FY2024,62.3,EURm,E3,3,calc,Bonds minus cash - calculated by the tool
+net_debt,FY2025,76.1,EURm,E3,24,check,
+net_debt,6M2026,63.5,EURm,E1,19,check,
+green_capacity,6M2026,317.9,MW,E2,1,check,Installed capacity of the fund portfolio (incl. 25% associate)

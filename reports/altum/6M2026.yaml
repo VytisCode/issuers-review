@@ -1,0 +1,122 @@
+# Altum - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą.
+issuer: altum
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "9M 2026 interim report - 2026-11-26 to 2026-11-30 [T3]"
+rating: "Moody's Baa1 long-term issuer rating, P-2 short-term, outlook stable (affirmed 2025-01-28) [T1 p.3, p.13]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** Altum – 100 % valstybinė Latvijos plėtros finansų institucija su Moody's Baa1 reitingu [T1 p.13]. I pusm. pelnas 10,1 mln. EUR (+15 %), nuosavo kapitalo dalis apie 25 % (apskaičiuota įrankio), 180 dienų likvidumo rodiklis 227 % [T1 p.3].", en: "**Position OK.** Altum is Latvia's 100% state-owned development finance institution, rated Baa1 by Moody's [T1 p.13]. 1H profit EUR 10.1m (+15%), equity ratio about 25% (calculated by the tool), 180-day liquidity ratio 227% [T1 p.3]."}
+periods: [FY2025, 6M2025, 6M2026]
+ratios: [net_profit, nii, cost_income, roe, loans, total_assets, equity, equity_ratio]
+highlights: [net_profit, roe, equity, equity_ratio]
+charts: [net_profit, loans, equity]
+
+sources:
+  T1: {title: "Altum - Interim report 6M 2026 (unaudited)", url: "https://nasdaqbaltic.com/market/upload/reports/altm/2026_q2_en.pdf", date: 2026}
+  T2: {title: "Nasdaq Baltic - Altum 3.576% bond LV0000104669", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000104669/security?date=2026-10-19", date: 2026-10-22}
+  T3: {title: "Nasdaq Baltic - Altum reports list", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000104669/reports", date: 2026-10-19}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+
+quick_summary:
+  - lt: "**Pelnas auga:** I pusm. pelnas 10,1 mln. EUR (8,8 mln.), ROE 4,6 % (4,2 %); grynosios palūkanų pajamos 10,1 mln. EUR [T1 p.3]."
+    en: "**Profit up:** 1H profit EUR 10.1m (8.8m), ROE 4.6% (4.2%); net interest income EUR 10.1m [T1 p.3]."
+  - lt: "**Sparčiai auga paramos portfelis:** paskolos 707,1 mln. EUR (+32 % per metus), garantijos 737,7 mln. EUR; visas portfelis 1 704,8 mln. EUR (+26 %; pokyčiai apskaičiuoti įrankio) [T1 p.3]."
+    en: "**Support portfolio growing fast:** loans EUR 707.1m (+32% year on year), guarantees EUR 737.7m; total portfolio EUR 1,704.8m (+26%; changes calculated by the tool) [T1 p.3]."
+  - lt: "**Rizika padengta:** rizikos padengimas 392,7 mln. EUR; TCE / TMA 18,5 %; likvidumas 180 dienų – 227 % (prieš metus 387 %) [T1 p.3]."
+    en: "**Risk covered:** total risk coverage EUR 392.7m; TCE / TMA 18.5%; 180-day liquidity 227% (387% a year ago) [T1 p.3]."
+  - lt: "**Naujos programos:** planuojamas 100 mln. EUR fondas „Augimui ir gynybai“, 50 mln. EUR NIB finansavimas, 0 % garantijų mokestis tvariems MVĮ projektams [T1 p.13-15]."
+    en: "**New programmes:** a planned EUR 100m 'For Growth and Defence' fund, EUR 50m NIB funding, a 0% guarantee fee for sustainable SME projects [T1 p.13-15]."
+
+business:
+  - lt: "Altum įgyvendina valstybės paramos ir plėtros programas: paskolos, garantijos, rizikos kapitalo fondai, Latvijos žemės fondas, IPO fondas [T1 p.2]."
+    en: "Altum runs state aid and development programmes: loans, guarantees, venture capital funds, the Latvian Land Fund and an IPO fund [T1 p.2]."
+  - lt: "Nuo 2026 m. taikomas nulinės tolerancijos režimas Rusijos rezidentams [T1 p.13]."
+    en: "A zero-tolerance regime for Russian residents applies from 2026 [T1 p.13]."
+
+financials:
+  - lt: "2025 m. pelnas 32,1 mln. EUR, ROE 7,4 % [T1 p.3]. Nuosavas kapitalas 455,8 mln. EUR, turtas 1 791,9 mln. EUR, finansinė skola 955,7 mln. EUR [T1 p.3]."
+    en: "FY2025 profit EUR 32.1m, ROE 7.4% [T1 p.3]. Equity EUR 455.8m, total assets EUR 1,791.9m, financial debt EUR 955.7m [T1 p.3]."
+  - lt: "Altum netaikomi bankų kapitalo pakankamumo reikalavimai [T1 p.22]."
+    en: "Bank capital adequacy requirements do not apply to Altum [T1 p.22]."
+
+plans:
+  - plan: {lt: "Strategija 2025–2027: teigiama kapitalo grąža; geresnė prieiga prie finansavimo (klimatas, būstas, rizikos kapitalas)", en: "Strategy 2025-2027: positive return on capital; better access to finance (climate, housing, venture capital)"}
+    outcome: {lt: "6M 2026 ROE 4,6 %; portfelis +26 %", en: "6M 2026 ROE 4.6%; portfolio +26%"}
+    status: met
+    src: "T1 p.2-3"
+    why: {lt: "Vykdoma: grąža teigiama, portfelis auga [T1 p.3].", en: "On track: return is positive and the portfolio is growing [T1 p.3]."}
+  - plan: {lt: "100 mln. EUR fondas „Augimui ir gynybai“", en: "EUR 100m 'For Growth and Defence' fund"}
+    outcome: {lt: "Planuojamas", en: "Planned"}
+    status: pending
+    src: "T1 p.15"
+    why: {lt: "Naujas planas [T1 p.15].", en: "New plan [T1 p.15]."}
+
+investor:
+  - lt: "**Turima priemonė:** 3,576 % obligacija, 70 mln. EUR, išpirkimas 2030-05-30 (Nasdaq Riga) [T2]. 0,443 % obligacija LV0000870095 išpirkta 2026-10-08 ir nebeturima."
+    en: "**Instrument held:** a 3.576% bond, EUR 70m, maturing 2030-05-30 (Nasdaq Riga) [T2]. The 0.443% bond LV0000870095 matured on 2026-10-08 and is no longer held."
+  - lt: "**Kredito kokybė:** valstybės nuosavybė ir Moody's Baa1; skolinimasis finansuoja valstybės programas [T1 p.3, p.13]."
+    en: "**Credit quality:** state ownership and Moody's Baa1; borrowing funds state programmes [T1 p.3, p.13]."
+  - lt: "Išvada: maža rizika, rodikliai stabilūs."
+    en: "Conclusion: low risk, stable metrics."
+
+esg:
+  policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Valstybės plėtros finansavimas – veiklos išskirtuose sektoriuose nėra [T1 p.2]."
+        en: "State development finance; no activity in excluded sectors [T1 p.2]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta; bendradarbiavimas su Rusijos ir Baltarusijos subjektais ribojamas [T1 p.13]."
+        en: "No UN Global Compact or OECD related controversies found; cooperation with Russian and Belarusian parties is restricted [T1 p.13]."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (2026-10-22)."
+        en: "No adverse news found (2026-10-22)."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Perėjimo finansavimo produktai MVĮ ir žemės ūkiui, EIB Green Checker tvarioms paskoloms (palūkanų nuolaida), 0 % garantijų mokestis tvariems projektams [T1 p.14-15]."
+        en: "Transition finance products for SMEs and agriculture, the EIB Green Checker for sustainable loans (pricing discount), a 0% guarantee fee for sustainable projects [T1 p.14-15]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Tikslas – mažinti finansuojamo portfelio CO2 emisijas [T1 p.14-15]."
+        en: "Aims to reduce CO2 emissions of the financed portfolio [T1 p.14-15]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta."
+        en: "No yellow flags found."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika bei aplinkosaugos ir socialinė / žmogaus teisių politikos [SP1 p.5, p.7]. **Atitinka:** valstybės kontroliuojama plėtros institucija, tvarumo kriterijai finansavime [T1 p.14-15], sankcijų rizikos valdymas [T1 p.13]."
+        en: "**Applicable:** the Investments policy and the Environmental and Social & Human Rights policies [SP1 p.5, p.7]. **Met:** state-controlled development institution, sustainability criteria in financing [T1 p.14-15], sanctions risk management [T1 p.13]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: valstybės institucija su aiškiu mandatu."
+        en: "No need: a state institution with a clear mandate."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Tvarių paskolų vertinimas EIB Green Checker priemone ir portfelio emisijų mažinimo tikslas [T1 p.14-15]."
+        en: "Sustainable loans assessed with the EIB Green Checker and a portfolio emission reduction goal [T1 p.14-15]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Valstybės plėtros institucija, skatinanti tvarų finansavimą."
+    en: "No exclusions or red flags. A state development institution promoting sustainable finance."

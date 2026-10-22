@@ -193,3 +193,99 @@ vik:
   news_match: [valstybės investicinis kapitalas, vika]
   news_queries:
     - '"Valstybės investicinis kapitalas"'
+
+altum:
+  name: Altum
+  legal_name: AS "Attīstības finanšu institūcija Altum"
+  country: LV
+  sector: State development finance institution (loans, guarantees, funds)
+  owner: Republic of Latvia 100% (Ministry of Finance 40%, Economics 30%, Agriculture 30%)
+  website: https://www.altum.lv/en/
+  ir_page: https://nasdaqbaltic.com/statistics/en/instrument/LV0000104669/reports
+  ratings_page: ""
+  nasdaq_ticker: ""
+  media: LV
+  seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nasdaqbaltic.com/statistics/en/instrument/LV0000104669/reports
+  report_calendar: "9M 2026 interim report: 2026-11-26 to 2026-11-30"
+  news_match: [altum]
+  news_queries:
+    - '"Altum" Latvija'
+
+rigas-udens:
+  name: Rīgas ūdens
+  legal_name: SIA "Rīgas ūdens"
+  country: LV
+  sector: Water supply and wastewater utility (Riga)
+  owner: Riga State City Municipality 100%
+  website: https://www.rigasudens.lv
+  ir_page: https://nasdaqbaltic.com/statistics/en/instrument/LV0000104487/reports
+  ratings_page: ""
+  nasdaq_ticker: ""
+  media: LV
+  seb_policies: [investments, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nasdaqbaltic.com/statistics/en/instrument/LV0000104487/reports
+  report_calendar: "9M 2026 interim report: 2026-11-27"
+  news_match: [rīgas ūdens, rigas udens]
+  news_queries:
+    - '"Rīgas ūdens"'
+
+
+ast:
+  name: Augstsprieguma tīkls (AST)
+  legal_name: AS "Augstsprieguma tīkls"
+  country: LV
+  sector: Electricity transmission system operator (Latvia); 68.46% of Conexus Baltic Grid (gas transmission and storage)
+  owner: Republic of Latvia 100% (Ministry of Climate and Energy)
+  website: https://www.ast.lv/en
+  ir_page: https://nasdaqbaltic.com/statistics/en/instrument/LV0000802528/reports
+  ratings_page: ""
+  nasdaq_ticker: ""
+  media: LV
+  seb_policies: [investments, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nasdaqbaltic.com/statistics/en/instrument/LV0000802528/reports
+  report_calendar: "9M 2026 interim report: 2026-11-30"
+  news_match: [augstsprieguma tīkls, augstsprieguma tikls]
+  news_queries:
+    - '"Augstsprieguma tīkls"'
+
+aei:
+  name: Atsinaujinančios energetikos investicijos (AEI)
+  legal_name: UAB "Atsinaujinančios energetikos investicijos"
+  country: LT
+  sector: Closed-end renewable energy investment fund (solar, wind, BESS in LT, LV, PL)
+  owner: Closed-end investment company for informed investors; managed by UAB LORDS LB Asset Management; related parties 35.05%
+  website: ""
+  ir_page: https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/reports
+  ratings_page: ""
+  nasdaq_ticker: ""
+  media: LT
+  seb_policies: [investments, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/reports
+  report_calendar: "9M 2026 interim report: expected November 2026"
+  news_match: [atsinaujinančios energetikos investicijos, atsinaujinancios energetikos investicijos]
+  news_queries:
+    - '"Atsinaujinančios energetikos investicijos"'
+
+latraps:
+  name: LATRAPS
+  legal_name: LPKS "LATRAPS"
+  country: LV
+  sector: Agricultural cooperative (grain and rapeseed trading, storage, malt; pea protein plant under construction)
+  owner: 1,214 Latvian farmer members
+  website: https://www.latraps.lv
+  ir_page: https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/reports
+  ratings_page: ""
+  nasdaq_ticker: ""
+  media: LV
+  seb_policies: [investments, agriculture, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/reports
+  report_calendar: "Audited FY2025/26 annual report: expected November 2026; H1 FY2026/27 (Jul-Dec 2026): expected February-March 2027"
+  news_match: [latraps]
+  news_queries:
+    - '"LATRAPS"'

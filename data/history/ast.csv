@@ -1,0 +1,35 @@
+metric,period,value,unit,source,page,verified,note
+revenue,FY2024,258.6,EURm,A2,5,check,
+revenue,FY2025,354.1,EURm,A2,5,check,
+revenue,6M2025,177.5,EURm,A1,4,check,
+revenue,6M2026,185.7,EURm,A1,4,check,
+ebitda,FY2024,108.3,EURm,A2,5,check,Non-IFRS measure as stated by the company
+ebitda,FY2025,90.8,EURm,A2,5,check,Non-IFRS measure as stated by the company
+ebitda,6M2025,50.2,EURm,A1,4,check,Non-IFRS measure as stated by the company
+ebitda,6M2026,61.4,EURm,A1,4,check,Non-IFRS measure as stated by the company
+net_profit,FY2024,22.7,EURm,A2,5,check,Profit for the period (group)
+net_profit,FY2025,27.5,EURm,A2,5,check,Profit for the period (group)
+net_profit,6M2025,19.1,EURm,A1,4,check,Profit for the period (group)
+net_profit,6M2026,22.5,EURm,A1,4,check,Profit for the period (group)
+total_assets,FY2024,1529.0,EURm,A2,5,check,
+total_assets,FY2025,1587.9,EURm,A2,5,check,The 6M 2026 report shows 1588.0 for 31.12.2025
+total_assets,6M2025,1567.7,EURm,A1,4,check,
+total_assets,6M2026,1640.3,EURm,A1,4,check,
+equity,FY2024,641.1,EURm,A2,5,check,
+equity,FY2025,651.7,EURm,A2,5,check,The 6M 2026 report shows 653.4 for 31.12.2025
+equity,6M2025,644.9,EURm,A1,4,check,
+equity,6M2026,657.6,EURm,A1,4,check,
+equity_ratio,FY2024,42,%,A2,5,check,
+equity_ratio,FY2025,41,%,A2,5,check,
+equity_ratio,6M2025,41,%,A1,4,check,
+equity_ratio,6M2026,40,%,A1,4,check,
+net_debt,FY2024,74.2,EURm,A2,5,calc,Borrowings minus cash - calculated by the tool
+net_debt,FY2025,120.0,EURm,A2,5,calc,Borrowings minus cash - calculated by the tool
+net_debt,6M2025,134.3,EURm,A1,4,calc,Borrowings minus cash - calculated by the tool
+net_debt,6M2026,94.4,EURm,A1,4,calc,Borrowings minus cash - calculated by the tool
+nd_ebitda,FY2024,0.69,x,A2,5,calc,Calculated by the tool
+nd_ebitda,FY2025,1.32,x,A2,5,calc,Calculated by the tool
+nd_ebitda,6M2026,0.93,x,A1,4,calc,Last 12 months EBITDA 101.9 - calculated by the tool
+investments,FY2025,209.1,EURm,A2,13,check,Electricity 182.8 + gas transmission 11.8 + storage 14.5
+investments,6M2025,104.6,EURm,A1,4,check,Cash outflow for PPE and intangibles
+investments,6M2026,62.6,EURm,A1,4,check,Cash outflow for PPE and intangibles

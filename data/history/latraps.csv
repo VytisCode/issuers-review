@@ -1,0 +1,27 @@
+metric,period,value,unit,source,page,verified,note
+revenue,6M2025,167.4,EURm,L2,12,check,Financial year 1 Jul - 30 Jun; H1 FY2024/25 (Jul-Dec 2024)
+revenue,6M2026,151.8,EURm,L2,12,check,H1 FY2025/26 (Jul-Dec 2025)
+revenue,FY2025,254.3,EURm,L3,11,check,FY2024/25 (Jul 2024 - Jun 2025)
+revenue,FY2026,240.2,EURm,L1,12,check,FY2025/26 (Jul 2025 - Jun 2026)
+net_profit,6M2025,4.13,EURm,L2,12,check,
+net_profit,6M2026,4.55,EURm,L2,12,check,
+net_profit,FY2025,2.74,EURm,L1,12,check,
+net_profit,FY2026,2.77,EURm,L1,12,check,
+total_assets,6M2025,105.1,EURm,L2,13,check,
+total_assets,6M2026,119.6,EURm,L2,13,check,
+total_assets,FY2025,121.4,EURm,L3,12,check,
+total_assets,FY2026,142.0,EURm,L1,13,check,
+equity,6M2025,35.8,EURm,L2,14,check,
+equity,6M2026,38.5,EURm,L2,14,check,
+equity,FY2025,34.4,EURm,L1,14,check,
+equity,FY2026,36.7,EURm,L1,14,check,
+equity_ratio,6M2025,39.8,%,L2,20,check,Adjusted equity ratio (bond covenant >= 20%)
+equity_ratio,6M2026,37.1,%,L2,20,check,Adjusted equity ratio (bond covenant >= 20%)
+equity_ratio,FY2025,32.8,%,L1,20,check,Adjusted equity ratio (bond covenant >= 20%)
+equity_ratio,FY2026,29.4,%,L1,20,check,Adjusted equity ratio (bond covenant >= 20%)
+net_debt,FY2025,45.1,EURm,L3,,calc,Bonds + bank + other loans minus cash - calculated by the tool
+net_debt,FY2026,62.4,EURm,L1,14,calc,Bonds + bank + other loans minus cash - calculated by the tool
+interest_cover,6M2025,2.5,x,L2,20,check,Adjusted EBITDA / interest (bond covenant >= 2.0x)
+interest_cover,6M2026,2.8,x,L2,20,check,Adjusted EBITDA / interest (bond covenant >= 2.0x)
+interest_cover,FY2025,2.7,x,L1,20,check,Adjusted EBITDA / interest (bond covenant >= 2.0x)
+interest_cover,FY2026,2.7,x,L1,20,check,Adjusted EBITDA / interest (bond covenant >= 2.0x)

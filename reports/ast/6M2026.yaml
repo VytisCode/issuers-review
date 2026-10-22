@@ -1,0 +1,134 @@
+# Augstsprieguma tīkls (AST) - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą.
+issuer: ast
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "9M 2026 interim report - 2026-11-30 [A3]"
+rating: "A- with a stable outlook (agency not named in the report) [A2 p.14; A1 p.11-12]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** AST – 100 % valstybinis Latvijos elektros perdavimo operatorius su A- reitingu [A1 p.3; A2 p.14]. 2027-01-20 išperkamai 100 mln. EUR obligacijai turima 94,7 mln. EUR pinigų ir nepanaudota SEB overdrafto linija iki 90 mln. EUR [A1 p.4, p.11].", en: "**Position OK.** AST is Latvia's 100% state-owned electricity transmission operator, rated A- [A1 p.3; A2 p.14]. For the EUR 100m bond maturing on 2027-01-20 it holds EUR 94.7m of cash and an undrawn SEB overdraft of up to EUR 90m [A1 p.4, p.11]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, ebitda, net_profit, investments, net_debt, nd_ebitda, equity, equity_ratio, total_assets]
+highlights: [ebitda, net_profit, nd_ebitda, equity_ratio]
+charts: [revenue, ebitda, investments]
+
+sources:
+  A1: {title: "AST - Condensed interim financial statements 6M 2026 (unaudited)", url: "https://nasdaqbaltic.com/market/upload/reports/ast/2026_q2_en_con.pdf", date: 2026}
+  A2: {title: "AST - Interim financial statements 12M 2025", url: "https://nasdaqbaltic.com/market/upload/reports/ast/2025_q4_en_con.pdf", date: 2026}
+  A3: {title: "Nasdaq Baltic - AST reports list", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000802528/reports", date: 2026-10-19}
+  A4: {title: "AST - Annual report 2025 (sustainability report and audited financial statements)", url: "https://nasdaqbaltic.com/market/upload/reports/ast/2025_ar_en_con.pdf", date: 2026-04-24}
+  A5: {title: "Nasdaq Baltic - AST 0.5% green bond LV0000802528", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000802528/security?date=2026-10-19", date: 2026-10-22}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP6: {title: "SEB Sector Policy on Electricity & Renewable Energy (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/60D2454400789893C12587D70030AFC1?opendocument", date: 2026-04-23}
+
+quick_summary:
+  - lt: "**Rezultatai gerėja:** I pusm. EBITDA 61,4 mln. EUR (50,2 mln.), marža 33 % (28 %); pelnas 22,5 mln. EUR (19,1 mln.) [A1 p.4]."
+    en: "**Results improving:** 1H EBITDA EUR 61.4m (50.2m), margin 33% (28%); profit EUR 22.5m (19.1m) [A1 p.4]."
+  - lt: "**Skola nedidelė:** grynoji skola apie 94 mln. EUR, apie 0,9 karto metinės EBITDA (apskaičiuota įrankio); nuosavo kapitalo dalis 40 % [A1 p.4]."
+    en: "**Low debt:** net debt about EUR 94m, about 0.9 times annual EBITDA (calculated by the tool); equity ratio 40% [A1 p.4]."
+  - lt: "**Obligacijos išpirkimas padengtas:** 2027-01 išperkamai 100 mln. EUR žaliajai obligacijai – SEB overdraftas iki 90 mln. EUR (iki 2027-03-10), 2026-06-30 nepanaudotas [A1 p.11; A2 p.14]."
+    en: "**Bond redemption covered:** for the EUR 100m green bond due January 2027 there is an SEB overdraft of up to EUR 90m (to 2027-03-10), undrawn at 2026-06-30 [A1 p.11; A2 p.14]."
+  - lt: "**Didelės investicijos:** 2025 m. investuota 209 mln. EUR; Plėtros planas 2027–2036 – 1 066 mln. EUR, iš jų iki 289 mln. EUR ES lėšų [A2 p.13; A1 p.11]."
+    en: "**Large investments:** EUR 209m invested in 2025; the Development Plan 2027-2036 is EUR 1,066m, of which up to EUR 289m is EU co-financing [A2 p.13; A1 p.11]."
+
+business:
+  - lt: "AST valdo Latvijos 330 kV ir 110 kV perdavimo tinklą (330 kV: 17 pastočių, 1 727 km; 110 kV: 130 pastočių, 3 786 km) ir 68,46 % Conexus Baltic Grid (dujų perdavimas ir Inčukalnio saugykla) [A4 p.8, p.11]."
+    en: "AST runs Latvia's 330 kV and 110 kV transmission grid (330 kV: 17 substations, 1,727 km; 110 kV: 130 substations, 3,786 km) and owns 68.46% of Conexus Baltic Grid (gas transmission and the Inčukalns storage) [A4 p.8, p.11]."
+  - lt: "Baltijos šalys sinchronizuotos su kontinentine Europa 2025-02-09; balansavimo pajėgumų rinka veikia nuo 2025-02-04 [A4 p.15-16]."
+    en: "The Baltics synchronised with Continental Europe on 2025-02-09; the balancing capacity market has run since 2025-02-04 [A4 p.15-16]."
+  - lt: "Nuo 2026-01-01 patvirtinti nauji trejų metų tarifai, vidutinis AST tarifas mažėja 10 % [A2 p.8]."
+    en: "New three-year tariffs apply from 2026-01-01, with the average AST tariff falling by 10% [A2 p.8]."
+
+financials:
+  - lt: "2025 m. pajamos 354,1 mln. EUR (258,6 mln.), EBITDA 90,8 mln. EUR (108,3 mln.), pelnas 27,5 mln. EUR (22,7 mln.) [A2 p.5]."
+    en: "FY2025 revenue EUR 354.1m (258.6m), EBITDA EUR 90.8m (108.3m), profit EUR 27.5m (22.7m) [A2 p.5]."
+  - lt: "2026-06-30 skolinimasis 189,0 mln. EUR, pinigai 94,7 mln. EUR; obligacijos (100,2 mln. EUR) jau trumpalaikės [A1 p.4]."
+    en: "Borrowings EUR 189.0m and cash EUR 94.7m at 2026-06-30; the bonds (EUR 100.2m) are now short-term [A1 p.4]."
+  - lt: "Dividendai: per I pusm. patronuojanti įmonė išmokėjo 13,6 mln. EUR [A1 p.22]."
+    en: "Dividends: the parent company paid EUR 13.6m in 1H [A1 p.22]."
+
+plans:
+  - plan: {lt: "Baltijos šalių sinchronizacija su kontinentine Europa", en: "Synchronise the Baltics with Continental Europe"}
+    outcome: {lt: "Įvykdyta 2025-02-09, patvirtinta kaip nuolatinė", en: "Done on 2025-02-09, confirmed as permanent"}
+    status: met
+    src: "A4 p.15; A2 p.7"
+    why: {lt: "Įvykdyta [A4 p.15].", en: "Done [A4 p.15]."}
+  - plan: {lt: "Refinansuoti 100 mln. EUR obligaciją (išpirkimas 2027-01-20)", en: "Refinance the EUR 100m bond (maturity 2027-01-20)"}
+    outcome: {lt: "Pinigai 94,7 mln. EUR ir SEB overdraftas iki 90 mln. EUR; naujos emisijos plano ataskaitoje nėra", en: "Cash EUR 94.7m and an SEB overdraft of up to EUR 90m; no new issue plan in the report"}
+    status: pending
+    src: "A1 p.4, p.11"
+    why: {lt: "Išpirkimui lėšų pakanka [A1 p.4, p.11].", en: "Enough funds for the redemption [A1 p.4, p.11]."}
+  - plan: {lt: "Plėtros planas 2027–2036: 1 066 mln. EUR investicijų", en: "Development Plan 2027-2036: EUR 1,066m of investment"}
+    outcome: {lt: "Pateiktas reguliuotojui (PUC) 2026-07-30", en: "Submitted to the regulator (PUC) on 2026-07-30"}
+    status: pending
+    src: "A1 p.11"
+    why: {lt: "Laukia patvirtinimo [A1 p.11].", en: "Awaiting approval [A1 p.11]."}
+
+investor:
+  - lt: "**Turima priemonė:** 0,5 % žalioji obligacija, 100 mln. EUR, išpirkimas 2027-01-20 (Nasdaq Riga nuo 2021-11-29) [A5]."
+    en: "**Instrument held:** a 0.5% green bond, EUR 100m, maturing 2027-01-20 (Nasdaq Riga since 2021-11-29) [A5]."
+  - lt: "**Išpirkimas:** iki išpirkimo liko mažiau nei 3 mėn.; pinigų (94,7 mln. EUR) ir nepanaudoto 90 mln. EUR overdrafto pakanka visai sumai [A1 p.4, p.11]."
+    en: "**Redemption:** less than three months to maturity; cash (EUR 94.7m) and the undrawn EUR 90m overdraft cover the full amount [A1 p.4, p.11]."
+  - lt: "Išvada: maža rizika – valstybės nuosavybė, reguliuojama veikla, A- reitingas ir užtikrintas išpirkimo finansavimas."
+    en: "Conclusion: low risk thanks to state ownership, regulated business, an A- rating and secured redemption funding."
+
+esg:
+  policies: [investments, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Elektros perdavimas ir dujų infrastruktūra; išskirtuose sektoriuose veiklos nėra [A4 p.8, p.11]."
+        en: "Electricity transmission and gas infrastructure; no activity in excluded sectors [A4 p.8, p.11]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (2026-10-22)."
+        en: "No adverse news found (2026-10-22)."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Tinklas jungia atsinaujinančią energiją: 2026 m. I ketv. – 5 nauji prijungimo susitarimai, tarp jų 160 MW hibridinė jėgainė; planuojamos naujos jungtys su Estija, Švedija ir Vokietija [A1 p.5, p.11; A4 p.18]."
+        en: "The grid connects renewables: five new connection agreements in Q1 2026, including a 160 MW hybrid plant; new links with Estonia, Sweden and Germany planned [A1 p.5, p.11; A4 p.18]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Žaliosios obligacijos (2021) finansuoja perdavimo tinklą; SF6 įranga keičiama [A2 p.14; A4 p.15]."
+        en: "Green bonds (2021) fund the transmission grid; SF6 equipment is being replaced [A2 p.14; A4 p.15]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta. Konkursai į valdybą ir stebėtojų tarybą vyksta įprasta tvarka [A1 p.5]."
+        en: "No yellow flags found. Board appointments follow open competitions [A1 p.5]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** elektros ir atsinaujinančios energijos politika [SP6 p.6-8]. **Atitinka:** plėtros planas skirtas daugiau atsinaujinančios energijos integruoti, ISO 45001 sauga, metinė tvarumo ataskaita [A4 p.8-9, p.15]."
+        en: "**Applicable:** the Electricity & Renewable Energy policy [SP6 p.6-8]. **Met:** the development plan integrates more renewables, ISO 45001 safety, an annual sustainability report [A4 p.8-9, p.15]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: valstybės reguliuojama perdavimo įmonė."
+        en: "No need: a state-owned regulated transmission company."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Skelbiama tvarumo ataskaita pagal ESRS, nuo 2025 m. ir 3 apimties emisijos; perdirbama beveik 100 % atliekų [A4 p.8, p.24]."
+        en: "A sustainability report under ESRS is published, with Scope 3 emissions from 2025; almost 100% of waste is recycled [A4 p.8, p.24]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Perdavimo tinklas yra būtinas atsinaujinančios energijos plėtrai."
+    en: "No exclusions or red flags. The transmission grid is essential for renewable expansion."

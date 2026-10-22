@@ -36,3 +36,5 @@ npl:               {lt: "Neveiksnių paskolų dalis", en: "NPL ratio", lv: "Ien�
 cargo:             {lt: "Krovinių kiekis", en: "Cargo volume", lv: "Kravu apjoms", et: "Kaubamaht"}
 passengers:        {lt: "Keleiviai", en: "Passengers", lv: "Pasažieri", et: "Reisijad"}
 generation:        {lt: "Pagaminta elektros", en: "Electricity generation", lv: "Saražotā elektroenerģija", et: "Elektritoodang"}
+dscr:              {lt: "Skolos aptarnavimo koeficientas (DSCR)", en: "Debt service coverage (DSCR)", lv: "Parāda apkalpošanas segums (DSCR)", et: "Võlateeninduse kattekordaja (DSCR)"}
+interest_cover:    {lt: "EBITDA / palūkanos", en: "EBITDA / interest", lv: "EBITDA / procenti", et: "EBITDA / intressid"}

@@ -1,0 +1,140 @@
+# Atsinaujinančios energetikos investicijos (AEI) - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą.
+issuer: aei
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "9M 2026 interim report - expected November 2026"
+rating: "nerasta (no credit rating found in the reports)"
+verdict: {status: watch, lt: "**Stebėti.** AEI pati nurodo, kad trumpalaikiai įsipareigojimai viršija trumpalaikį turtą, o 2026-12-04 reikia išpirkti 24,7 mln. EUR obligacijų; lėšoms gauti pradėtas projektų pardavimas [E1 p.32-33]. Sąlygų (kovenantų) 2026-06-30 laikomasi, nuosavo kapitalo dalis 54,5 % (riba – 50 %) [E1 p.21].", en: "**Watch.** AEI itself states that current liabilities exceed current assets and EUR 24.7m of bonds must be repaid on 2026-12-04; it has started selling projects to raise funds [E1 p.32-33]. Covenants were met at 2026-06-30, with an equity ratio of 54.5% (floor 50%) [E1 p.21]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [total_income, net_profit, total_assets, equity, equity_ratio, net_debt, green_capacity]
+highlights: [net_profit, equity_ratio, net_debt, green_capacity]
+charts: [net_profit, equity, net_debt]
+
+sources:
+  E1: {title: "AEI - Interim financial statements 6M 2026 (unaudited, IFRS)", url: "https://nasdaqbaltic.com/market/upload/reports/aei/2026_q2_en_con_esef.pdf", date: 2026}
+  E2: {title: "AEI - Investor factsheet as of 2026-06-30", url: "https://nasdaqbaltic.com/market/upload/reports/aei/2026_q2_en.pdf", date: 2026}
+  E3: {title: "AEI - Financial statements 12M 2025 (unaudited)", url: "https://nasdaqbaltic.com/market/upload/reports/aei/2025_q4_en_con.pdf", date: 2026}
+  E4: {title: "Nasdaq Baltic - AEI reports list", url: "https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/reports", date: 2026-10-22}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP6: {title: "SEB Sector Policy on Electricity & Renewable Energy (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/60D2454400789893C12587D70030AFC1?opendocument", date: 2026-04-23}
+
+quick_summary:
+  - lt: "**Refinansavimo rizika:** 2026-12-04 išperkamos 8,5 % obligacijos – 24,7 mln. EUR; trumpalaikiai įsipareigojimai viršija trumpalaikį turtą; ataskaitoje nurodomas reikšmingas neapibrėžtumas dėl veiklos tęstinumo [E1 p.32-34]."
+    en: "**Refinancing risk:** 8.5% bonds of EUR 24.7m are due on 2026-12-04; current liabilities exceed current assets; the report discloses a material uncertainty about going concern [E1 p.32-34]."
+  - lt: "**Parduodami projektai:** pasamdyti pardavimo patarėjai ir vyksta derybos su pirkėjais; 2026-06-30 Zala Elektriba SIA perleista UAB Sorlena (sandorio vertė 24,0 mln. EUR) [E1 p.24-25, p.33; E2 p.1]."
+    en: "**Projects for sale:** sell-side advisers hired and talks with buyers under way; on 2026-06-30 Zala Elektriba SIA was moved to UAB Sorlena (transaction value EUR 24.0m) [E1 p.24-25, p.33; E2 p.1]."
+  - lt: "**Nuostolis:** I pusm. grynasis nuostolis 5,1 mln. EUR (prieš metus 4,1 mln.); 2025 m. – 11,7 mln. EUR [E1 p.4; E3 p.4]."
+    en: "**Loss:** 1H net loss EUR 5.1m (4.1m a year earlier); FY2025 EUR 11.7m [E1 p.4; E3 p.4]."
+  - lt: "**Skola mažėja:** grynoji skola 63,5 mln. EUR (2025 m. pab. 76,1 mln.); 2026-06-17 visiškai išpirkta 2021–2026 m. obligacija (20,7 mln. EUR) [E1 p.19; E3 p.24; E2 p.1]."
+    en: "**Debt falling:** net debt EUR 63.5m (76.1m at end-2025); the 2021-2026 bond (EUR 20.7m) was fully redeemed on 2026-06-17 [E1 p.19; E3 p.24; E2 p.1]."
+
+business:
+  - lt: "AEI – uždaro tipo investicinė bendrovė informuotiems investuotojams, valdoma UAB LORDS LB Asset Management; veiklos terminas pratęstas iki 2028-02-05 [E1 p.9]."
+    en: "AEI is a closed-end investment company for informed investors managed by UAB LORDS LB Asset Management; its term has been extended to 2028-02-05 [E1 p.9]."
+  - lt: "Portfelio įrengta galia 317,9 MW: Žaliosios investicijos (25 %, vėjas, LT) 185,5 MW, PL SUN (Lenkija, saulė) 72,0 MW veikia, PV Energy Projects (Lenkija, saulė) 50,8 MW veikia; vystoma 590 MW saulės, 490 MW vėjo ir 57 MW kaupimo [E2 p.1; E1 p.9]."
+    en: "Installed portfolio capacity is 317.9 MW: Žaliosios investicijos (25%, wind, LT) 185.5 MW, PL SUN (Poland, solar) 72.0 MW operating, PV Energy Projects (Poland, solar) 50.8 MW operating; 590 MW solar, 490 MW wind and 57 MW storage in development [E2 p.1; E1 p.9]."
+  - lt: "Latvijoje statomas 112 MW vėjo parkas (WPR2): pamatai baigti, pradėtas turbinų montavimas [E2 p.1]."
+    en: "A 112 MW wind farm (WPR2) is being built in Latvia: foundations done, turbine erection started [E2 p.1]."
+
+financials:
+  - lt: "2026-06-30 turtas 153,6 mln. EUR, nuosavas kapitalas 83,7 mln. EUR, įsipareigojimai 69,9 mln. EUR; pinigai 1,7 mln. EUR (be 2,6 mln. EUR apribotų) [E1 p.3, p.19]."
+    en: "At 2026-06-30 total assets EUR 153.6m, equity EUR 83.7m, liabilities EUR 69.9m; cash EUR 1.7m (excluding EUR 2.6m restricted) [E1 p.3, p.19]."
+  - lt: "Išleistų obligacijų balansinė vertė 59,0 mln. EUR, paskolos 6,2 mln. EUR [E1 p.19]. Įprastinių pajamų eilutės nėra – „visos pajamos“ apima tikrosios vertės pokyčius [E1 p.4]."
+    en: "Bonds carrying amount EUR 59.0m, loans EUR 6.2m [E1 p.19]. There is no standard revenue line; 'total income' includes fair value changes [E1 p.4]."
+  - lt: "Lenkijos išskaičiuoto mokesčio grąžinimas: 2026-06 palankus antros instancijos sprendimas, likutis su palūkanomis gautas 2026-07 [E1 p.17]."
+    en: "Polish withholding tax refund: a favourable second-instance decision in June 2026, the rest with interest received in July 2026 [E1 p.17]."
+
+plans:
+  - plan: {lt: "Išpirkti 2021–2026 m. 5 % žaliąsias obligacijas", en: "Redeem the 2021-2026 5% green bonds"}
+    outcome: {lt: "Visiškai išpirkta 2026-06-17 (20,7 mln. EUR), dvi dienos po termino", en: "Fully redeemed on 2026-06-17 (EUR 20.7m), two days after the stated maturity"}
+    status: met
+    src: "E2 p.1; E1 p.21"
+    why: {lt: "Išpirkta [E2 p.1].", en: "Redeemed [E2 p.1]."}
+  - plan: {lt: "Išpirkti 24,7 mln. EUR 8,5 % obligacijas 2026-12-04, parduodant projektus", en: "Repay the EUR 24.7m 8.5% bonds on 2026-12-04 by selling projects"}
+    outcome: {lt: "Pardavimo procesas pradėtas, sandorių dar nepaskelbta", en: "Sale process started, no deals announced yet"}
+    status: pending
+    src: "E1 p.32-33"
+    why: {lt: "Laukiama pardavimų [E1 p.33].", en: "Awaiting the sales [E1 p.33]."}
+  - plan: {lt: "Prijungti likusią PL SUN ir PV Energy galią (Lenkija)", en: "Connect the remaining PL SUN and PV Energy capacity (Poland)"}
+    outcome: {lt: "PL SUN 72,0 iš 114 MW, PV Energy 50,8 iš 67,7 MW; ~17 MW planuojama 2026-12", en: "PL SUN 72.0 of 114 MW, PV Energy 50.8 of 67.7 MW; ~17 MW planned for December 2026"}
+    status: pending
+    src: "E2 p.1; E3 p.17"
+    why: {lt: "Statyba vyksta [E2 p.1].", en: "Construction ongoing [E2 p.1]."}
+  - plan: {lt: "Parduoti UAB Nimela (200 MW saulės projektas)", en: "Sell UAB Nimela (200 MW solar project)"}
+    outcome: {lt: "Nuosavybės perleidimas buvo laukiamas iki 2026-06-30; birželio pabaigoje Nimela vis dar portfelyje (3,35 mln. EUR)", en: "Ownership transfer was expected by 2026-06-30; Nimela was still in the portfolio at end-June (EUR 3.35m)"}
+    status: not_met
+    src: "E3 p.17; E2 p.1"
+    why: {lt: "Terminas praėjo, sandoris neužbaigtas [E2 p.1].", en: "Deadline passed, the deal is not complete [E2 p.1]."}
+
+investor:
+  - lt: "**Turima priemonė:** 8,00 % žaliosios obligacijos LT0000134439, išleistos 2025-06-13, išpirkimas 2027-12-13; likutis 32,7 mln. EUR [E1 p.21]. 5 % obligacija LT0000405938 išpirkta 2026-06-17 ir nebeturima [E2 p.1]."
+    en: "**Instrument held:** 8.00% green bonds LT0000134439, issued 2025-06-13, maturing 2027-12-13; outstanding EUR 32.7m [E1 p.21]. The 5% bond LT0000405938 was redeemed on 2026-06-17 and is no longer held [E2 p.1]."
+  - lt: "**Sąlygos (kovenantai):** nuosavo kapitalo dalis ≥50 % (yra 54,5 %, apskaičiuota įrankio), svertas ≤75 %, minimalus likvidumas 1,5 mln. EUR; 2026-06-30 laikomasi [E1 p.21]. 2025 m. pab. kapitalo dalis buvo 50,8 % – arti ribos [E3 p.3]."
+    en: "**Covenants:** equity ratio ≥50% (54.5%, calculated by the tool), leverage ≤75%, minimum liquidity EUR 1.5m; met at 2026-06-30 [E1 p.21]. At end-2025 the equity ratio was 50.8%, close to the floor [E3 p.3]."
+  - lt: "**Eilė:** turimos obligacijos išperkamos po 2026-12 obligacijos, todėl jų grąžinimas priklauso nuo sėkmingo turto pardavimo ir 2026-12 išpirkimo. Obligacijų užtikrinimas ataskaitose nerastas."
+    en: "**Order:** the held bonds mature after the December 2026 bond, so their repayment depends on successful asset sales and the December 2026 redemption. Bond security was not found in the reports."
+  - lt: "Išvada: padidinta rizika – nuostolinga veikla, trumpalaikio likvidumo trūkumas ir artėjantis išpirkimas; stebėti turto pardavimus ir 2026-12-04 išpirkimą."
+    en: "Conclusion: elevated risk – loss-making, short-term liquidity gap and an approaching redemption; watch the asset sales and the 2026-12-04 redemption."
+
+esg:
+  policies: [investments, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Tik saulės, vėjo ir kaupimo projektai [E2 p.1]."
+        en: "Solar, wind and storage projects only [E2 p.1]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires nerasta."
+        en: "No UN Global Compact or OECD related controversies found."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (2026-10-22)."
+        en: "No adverse news found (2026-10-22)."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "„Tamsiai žalias“ fondas pagal SFDR 9 straipsnį; investuoja į atsinaujinančią energiją [E2 p.1]."
+        en: "A 'dark green' fund under SFDR Article 9 investing in renewable energy [E2 p.1]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Visos obligacijų emisijos – žaliosios obligacijos [E1 p.21]."
+        en: "All bond issues are green bonds [E1 p.21]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "ESG geltonų signalų nerasta. Finansinė rizika (veiklos tęstinumas) aprašyta skiltyje „Investuotojui“."
+        en: "No ESG yellow flags found. The financial risk (going concern) is covered in the Investor section."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** elektros ir atsinaujinančios energijos politika [SP6 p.6-8]. **Atitinka:** projektai ES / EEE su leidimais (pvz., Ekoelektra – visi statybos leidimai gauti) [E2 p.1]."
+        en: "**Applicable:** the Electricity & Renewable Energy policy [SP6 p.6-8]. **Met:** projects in the EU/EEA with permits (e.g. Ekoelektra has all building permits) [E2 p.1]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "ESG požiūriu nereikia: atsinaujinančios energijos fondas."
+        en: "No need from an ESG view: a renewable energy fund."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Skelbiama įrengta galia (317,9 MW) ir gamyba [E2 p.1]."
+        en: "Installed capacity (317.9 MW) and production are reported [E2 p.1]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. SFDR 9 str. atsinaujinančios energijos fondas; rizika – finansinė, ne ESG."
+    en: "No exclusions or red flags. An SFDR Article 9 renewable energy fund; the risk is financial, not ESG."

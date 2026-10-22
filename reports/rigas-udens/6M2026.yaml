@@ -1,0 +1,128 @@
+# Rīgas ūdens - apžvalga pagal 2026 m. I pusmečio (6M) ataskaitą.
+issuer: rigas-udens
+period: 6M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "9M 2026 interim report - 2026-11-27"
+rating: "Moody's A3, stable outlook (affirmed 2026) [R1 p.5]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** Rygos savivaldybei priklausanti vandens įmonė su Moody's A3 reitingu [R1 p.5, p.10]. I pusm. EBITDA 19,7 mln. EUR (+25 %), grynoji skola / EBITDA 2,6x, nuosavo kapitalo dalis 71 %, skolos sąlygos vykdomos [R1 p.17-18, p.34].", en: "**Position OK.** A water utility owned by the City of Riga and rated A3 by Moody's [R1 p.5, p.10]. 1H EBITDA EUR 19.7m (+25%), net debt / EBITDA 2.6x, equity ratio 71%, loan covenants met [R1 p.17-18, p.34]."}
+periods: [FY2024, FY2025, 6M2025, 6M2026]
+ratios: [revenue, ebitda, net_profit, investments, net_debt, nd_ebitda, equity_ratio, dscr]
+highlights: [ebitda, net_debt, nd_ebitda, equity_ratio]
+charts: [revenue, ebitda, investments, net_debt]
+
+sources:
+  R1: {title: "Rīgas ūdens - Interim report 6M 2026 (unaudited)", url: "https://nasdaqbaltic.com/market/upload/reports/h2o/2026_q2_en.pdf", date: 2026}
+  R2: {title: "Rīgas ūdens - Annual report 2025 (audited)", url: "https://nasdaqbaltic.com/market/upload/reports/h2o/2025_ar_en.pdf", date: 2026}
+  R3: {title: "Nasdaq Baltic - Rīgas ūdens reports", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000104487/reports", date: 2026-10-22}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP3: {title: "SEB Environmental Policy on Climate, Nature and Water (2026)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/CBAA255D7EC51026C1257C28002FB11A?opendocument", date: 2026}
+
+quick_summary:
+  - lt: "**Rezultatai gerėja:** I pusm. pajamos 45,4 mln. EUR (+15 %), EBITDA 19,7 mln. EUR (15,7 mln.), grynasis pelnas 4,3 mln. EUR (0,5 mln.); tarifai pakelti nuo 2025-12-01 [R1 p.18-19, p.22]."
+    en: "**Results improving:** 1H revenue EUR 45.4m (+15%), EBITDA EUR 19.7m (15.7m), net profit EUR 4.3m (0.5m); tariffs raised from 2025-12-01 [R1 p.18-19, p.22]."
+  - lt: "**Investicijos ir skola auga:** investicijos 24,1 mln. EUR per pusmetį, grynoji skola 89,9 mln. EUR, grynoji skola / EBITDA 2,6x (2,1x); 2025–2028 m. investicijų programa – 235 mln. EUR [R1 p.12, p.18]."
+    en: "**Investment and debt rising:** EUR 24.1m invested in the half year, net debt EUR 89.9m, net debt / EBITDA 2.6x (2.1x); the 2025-2028 investment programme is EUR 235m [R1 p.12, p.18]."
+  - lt: "**Skolos sąlygos vykdomos:** DSCR 3,9 (tikslas 2,0), palūkanų padengimas 14,2 [R1 p.17-18, p.34]."
+    en: "**Covenants met:** DSCR 3.9 (target 2.0), interest coverage 14.2 [R1 p.17-18, p.34]."
+  - lt: "**Daugiau finansavimo:** patvirtintas naujas prospektas iki 40 mln. EUR kitai obligacijų daliai (planuojama IV ketv.), pasirašyta 50 mln. EUR NIB kredito linija; reguliuotojas nuo 2027 m. padidino kapitalo grąžos normą iki 6,28 % [R1 p.5, p.43; R2 p.28]."
+    en: "**More funding:** a new prospectus approved for up to EUR 40m in the next bond tranche (planned for Q4), a EUR 50m NIB facility signed; the regulator raised the allowed return on capital to 6.28% from 2027 [R1 p.5, p.43; R2 p.28]."
+
+business:
+  - lt: "Paslaugų sutartis su Rygos miestu galioja iki 2029-07-23; tarifus tvirtina Viešųjų paslaugų reguliavimo komisija (vanduo 1,41 EUR/m³, nuotekos 1,26 EUR/m³, valymas 0,40 EUR/m³ be PVM) [R1 p.10, p.22]."
+    en: "The service contract with Riga City runs to 2029-07-23; tariffs are set by the Public Utilities Commission (water EUR 1.41/m³, sewerage EUR 1.26/m³, treatment EUR 0.40/m³ excl. VAT) [R1 p.10, p.22]."
+  - lt: "2026-03-25 Rygos taryba nusprendė išlaikyti tiesioginę įmonės nuosavybę [R1 p.10]."
+    en: "On 2026-03-25 the Riga City Council decided to keep its direct shareholding [R1 p.10]."
+
+financials:
+  - lt: "2025 m. pajamos 80,3 mln. EUR, EBITDA 31,0 mln. EUR, pelnas 0,6 mln. EUR; 2024 m. nuostolis 18,3 mln. EUR dėl turto perkainojimo [R2 p.17]."
+    en: "FY2025 revenue EUR 80.3m, EBITDA EUR 31.0m, profit EUR 0.6m; the 2024 loss of EUR 18.3m was due to asset revaluation [R2 p.17]."
+  - lt: "Nuosavas kapitalas 536,3 mln. EUR, turtas 755,3 mln. EUR [R1 p.18]."
+    en: "Equity EUR 536.3m, total assets EUR 755.3m [R1 p.18]."
+
+plans:
+  - plan: {lt: "Investicijų programa 2025–2028 – 235 mln. EUR", en: "Investment programme 2025-2028: EUR 235m"}
+    outcome: {lt: "2026 m. viduryje panaudota 30,88 %", en: "30.88% used by mid-2026"}
+    status: pending
+    src: "R1 p.12"
+    why: {lt: "Vykdoma pagal planą [R1 p.12].", en: "On track [R1 p.12]."}
+  - plan: {lt: "Žaliųjų obligacijų programa iki 60 mln. EUR", en: "Green bond programme of up to EUR 60m"}
+    outcome: {lt: "Išleista 20 mln. EUR (2025 m.); kita dalis iki 40 mln. EUR planuojama IV ketv. 2026", en: "EUR 20m issued (2025); next tranche of up to EUR 40m planned for Q4 2026"}
+    status: pending
+    src: "R2 p.20; R1 p.5"
+    why: {lt: "Vykdoma: 2025 m. emisijos paklausa – 228 % [R2 p.20].", en: "In progress: the 2025 issue was 228% oversubscribed [R2 p.20]."}
+  - plan: {lt: "DSCR ne mažesnis nei 2,0 (2026 m. tikslas)", en: "DSCR of at least 2.0 (2026 target)"}
+    outcome: {lt: "6M 2026 – 3,9", en: "6M 2026: 3.9"}
+    status: met
+    src: "R1 p.17"
+    why: {lt: "Įvykdyta [R1 p.17].", en: "Met [R1 p.17]."}
+
+investor:
+  - lt: "**Turima priemonė:** 4 % žalioji obligacija (ES žaliųjų obligacijų standartas), 20 mln. EUR, kuponai kas ketvirtį, išpirkimas 2030-06-04 [R2 p.20-21]. Visos lėšos panaudotos ES taksonomiją atitinkantiems projektams (Sustainable Fitch patikra) [R1 p.5]."
+    en: "**Instrument held:** a 4% green bond (EU Green Bond Standard), EUR 20m, quarterly coupons, maturing 2030-06-04 [R2 p.20-21]. All proceeds allocated to EU taxonomy-aligned projects (Sustainable Fitch review) [R1 p.5]."
+  - lt: "**Kredito kokybė:** Moody's A3, savivaldybės nuosavybė, reguliuojami tarifai ir didelė nuosavo kapitalo dalis [R1 p.5, p.17]."
+    en: "**Credit quality:** Moody's A3, municipal ownership, regulated tariffs and a high equity ratio [R1 p.5, p.17]."
+  - lt: "Išvada: maža rizika; skola auga dėl investicijų, bet rodikliai gerokai viršija sutartines ribas."
+    en: "Conclusion: low risk; debt is rising with investment, but metrics are well above covenant limits."
+
+esg:
+  policies: [investments, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Vandens tiekimas ir nuotekų valymas – veiklos išskirtuose sektoriuose nėra [R1 p.10]."
+        en: "Water supply and wastewater treatment: no activity in excluded sectors [R1 p.10]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Ginčų pagal JT Pasaulinį susitarimą ar EBPO gaires ir aplinkosaugos baudų nerasta. Valymo įrenginių perkrova 0,34 % (riba 2 %) [R1 p.15]."
+        en: "No UN Global Compact or OECD related controversies or environmental fines found. Treatment plant overload 0.34% (limit 2%) [R1 p.15]."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų nerasta (2026-10-22). Dėl kvapų Vārnukrogs rajone 2025 m. gruodį uždengta dumblo saugykla [R2 p.28]."
+        en: "No adverse news found (2026-10-22). Following odour complaints in the Vārnukrogs area, a sludge store was covered in December 2025 [R2 p.28]."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "Žalioji obligacija pagal ES standartą, lėšos – nuotekų valymui (94 %) ir saulės elektrinėms (5 %) [R2 p.20]; PFAS valymo bandomasis projektas [R2 p.5]."
+        en: "Green bond under the EU standard, proceeds for wastewater treatment (94%) and solar PV (5%) [R2 p.20]; PFAS treatment pilot [R2 p.5]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "100 % obligacijos lėšų – ES taksonomiją atitinkantiems projektams [R1 p.5]."
+        en: "100% of bond proceeds allocated to EU taxonomy-aligned projects [R1 p.5]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta. Įmonė pati nurodo poveikio sritis: šiltnamio dujų nuotėkis, valymas per liūtis, mikroteršalai, vandens nuostoliai [R2 p.48]."
+        en: "No yellow flags found. The company itself names impact areas: GHG leakage, treatment during heavy rain, micropollutants, water losses [R2 p.48]."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** investicijų politika [SP1] ir aplinkosaugos politika (klimatas, gamta, vanduo) [SP3]. **Atitinka:** ES žaliųjų obligacijų standartas ir išorinė patikra [R1 p.5]; nuotekų valymo kokybė atitinka ribas [R1 p.15]; atskleidžiami reikšmingi poveikiai [R2 p.48]."
+        en: "**Applicable:** the Investments policy [SP1] and the Environmental policy on climate, nature and water [SP3]. **Met:** EU Green Bond Standard with external review [R1 p.5]; wastewater treatment within limits [R1 p.15]; material impacts disclosed [R2 p.48]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: reguliuojama savivaldybės įmonė su žaliųjų investicijų programa."
+        en: "No need: a regulated municipal company with a green investment programme."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Valymo įrenginių perkrova 0,34 % [R1 p.15]; 100 % obligacijos lėšų – taksonomiją atitinkantiems projektams [R1 p.5]; iki 2030 m. renovuoti 90 km vandentiekio ir 55 km kanalizacijos [R1 p.32]."
+        en: "Treatment plant overload 0.34% [R1 p.15]; 100% of bond proceeds to taxonomy-aligned projects [R1 p.5]; renovate 90 km of water mains and 55 km of sewers by 2030 [R1 p.32]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Žalioji obligacija pagal ES standartą, investicijos į nuotekų valymą."
+    en: "No exclusions or red flags. EU-standard green bond financing wastewater treatment investment."
