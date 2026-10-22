@@ -169,7 +169,7 @@
   /* ---------- update guide + live status of the search run ---------- */
   const G = {
     en: { title: "How to update the reviews", when: "Do this when you want fresh reviews, e.g. once a quarter. Steps 1–2 are free and need no AI; step 3 is the AI analysis.",
-      s1: "Update the ISIN list", s1d: "Open <a href=\"#isin\">ISIN list</a>, paste the full list of securities you hold and press <b>Save list</b>.", s1w: "Why: the tool learns what you bought and sold.",
+      s1: "Update the ISIN list", s1d: "Open <a href=\"#securities\">Securities</a>: add new ISINs with <b>Add</b> and remove sold ones with <b>Remove</b> (or replace the whole list at the bottom).", s1w: "Why: the tool learns what you bought and sold.",
       s2: "Search for new reports and news", s2d: "Press the button below. GitHub opens: press <b>Run workflow</b>, then the green <b>Run workflow</b>. Come back to this page – a status line shows the progress (3–5 min).",
       s2w: "Why: adds new ISINs, marks sold ones, finds new issuer reports, news and sanctions matches.",
       s3: "Ask Claude to analyse", s3d: "In the Claude project <b>Issuers review analyst</b> write: <i>„Išanalizuok visas naujas ataskaitas“</i>. Claude replies there when the reviews are ready (a few hours for many issuers).",
@@ -177,7 +177,7 @@
       now: "Right now:", newRep: "issuers with a new report", noAn: "held securities without an analysis", allOk: "nothing waiting for analysis",
       run: "Search running – started", wait: "please wait…", done: "Search finished", loading: "updating the page…", reload: "Reload page", fail: "Search failed – tell Claude in the project chat.", last: "Last search:" },
     lt: { title: "Kaip atnaujinti apžvalgas", when: "Darykite, kai reikia naujų apžvalgų, pvz., kartą per ketvirtį. 1–2 žingsniai nemokami ir be AI; 3 žingsnis – AI analizė.",
-      s1: "Atnaujinkite ISIN sąrašą", s1d: "Atidarykite <a href=\"#isin\">ISIN list</a>, įklijuokite visą turimų VP sąrašą ir spauskite <b>Save list</b>.", s1w: "Kodėl: įrankis sužino, ką pirkote ir pardavėte.",
+      s1: "Atnaujinkite ISIN sąrašą", s1d: "Atidarykite <a href=\"#securities\">Vertybiniai popieriai</a>: naujus ISIN pridėkite mygtuku <b>Pridėti</b>, parduotus pašalinkite mygtuku <b>Pašalinti</b> (arba apačioje pakeiskite visą sąrašą).", s1w: "Kodėl: įrankis sužino, ką pirkote ir pardavėte.",
       s2: "Ieškokite naujų ataskaitų ir naujienų", s2d: "Spauskite mygtuką žemiau. Atsidarys GitHub: spauskite <b>Run workflow</b>, tada žalią <b>Run workflow</b>. Grįžkite į šį puslapį – būsenos eilutė rodys eigą (3–5 min.).",
       s2w: "Kodėl: prideda naujus ISIN, pažymi parduotus, randa naujas emitentų ataskaitas, naujienas ir sankcijų sutapimus.",
       s3: "Paprašykite Claude analizės", s3d: "Claude projekte <b>Issuers review analyst</b> parašykite: <i>„Išanalizuok visas naujas ataskaitas“</i>. Claude ten atsakys, kai apžvalgos bus paruoštos (daug emitentų – kelios valandos).",
@@ -341,70 +341,97 @@
     });
     return h;
   }
-  function securities() {
-    const s = D.securities.slice().sort((a, b) => (a.maturity_date || "9999").localeCompare(b.maturity_date || "9999"));
-    const years = {};
-    s.filter(x => x.held === "yes" && x.type === "bond" && x.status === "active" && x.maturity_date).forEach(x => { const y = x.maturity_date.slice(0, 4); years[y] = (years[y] || 0) + 1; });
-    let h = `<h1>${t("secTitle")}</h1><p class="sub">${t("secSub")}</p><div class="row"><a class="btn primary" href="#isin">${t("isinTitle")} →</a></div>`;
-    h += `<div class="two"><div><h2>${t("maturityChart")}</h2><div class="chart">${barChart(Object.keys(years).sort().map(y => ({ label: y, v: years[y] })), "")}</div><p class="muted">${t("bondsCount")}</p></div><div></div></div>`;
-    h += `<div class="tbl-wrap"><table><tr><th>${t("isinCol")}</th><th>${t("instrument")}</th><th>${t("heldCol")}</th><th class="n">${t("coupon")}</th><th>${t("maturity")}</th><th>${t("status")}</th><th>${t("note")}</th></tr>${s.map(x => secRow({ ...x, name: x.issuer ? (byId[x.issuer]?.name || x.issuer) + " – " + x.name : x.name })).join("")}</table></div>`;
-    return h;
-  }
-  function isinDiff(list) {
-    const known = list.filter(x => D.securities.some(s => s.isin === x)), unknown = list.filter(x => !known.includes(x));
-    const missing = D.securities.filter(s => s.held === "yes" && !list.includes(s.isin));
-    const row = x => { const s = D.securities.find(y => y.isin === x); return `<li><span class="mono">${esc(x)}</span> – ${esc(byId[s.issuer]?.name || s.issuer)}, ${esc(s.name)} ${s.status === "matured" ? `<span class="chip warn">${t("maturedS")}</span>` : ""}</li>`; };
-    return { known, unknown, missing, html: `<div class="two" style="margin-top:14px"><div class="card"><h3>${t("known")} (${known.length})</h3><ul class="b">${known.map(row).join("") || "<li>–</li>"}</ul></div>
-      <div class="card"><h3>${t("unknown")} (${unknown.length})</h3><ul class="b">${unknown.map(x => `<li class="mono">${esc(x)}</li>`).join("") || "<li>–</li>"}</ul>
-      <h3 style="margin-top:12px">${t("missing")} (${missing.length})</h3><ul class="b">${missing.map(s => `<li><span class="mono">${esc(s.isin)}</span> – ${esc(s.name)}</li>`).join("") || "<li>–</li>"}</ul></div></div>` };
-  }
+  const SX = {
+    en: { title: "Securities", sub: "The securities you hold. Add or remove them here – the tool then knows which issuers to review.",
+      mine: "My securities", add: "Add securities", addHint: "Type or paste one or more ISIN codes (e.g. from a bank statement) and press Add.", addBtn: "Add", remove: "Remove",
+      saving: "Saving…", saved: "Saved", failed: "Could not save – try again.", loadFail: "Could not load the saved list – showing the last synchronised one.",
+      pending: "New – details appear after the next search", effect: "Changes are picked up by the next search (Overview → step 2) or automatically tomorrow morning.",
+      issuer: "Issuer", sec: "Security", coupon: "Coupon", term: "Maturity", status: "Status", none: "No securities yet – add the first one above.",
+      bad: "Not a valid ISIN:", replace: "Replace the whole list", replaceHint: "Paste the full list of ISINs you hold. Anything not in it will be removed.", replaceBtn: "Replace list",
+      matChart: "Bonds held by maturity year", all: "All securities ever tracked", soldTag: "sold / not held", lastChange: "Last change" },
+    lt: { title: "Vertybiniai popieriai", sub: "Jūsų turimi vertybiniai popieriai. Čia juos pridėkite arba pašalinkite – įrankis tada žino, kuriuos emitentus apžvelgti.",
+      mine: "Mano vertybiniai popieriai", add: "Pridėti vertybinius popierius", addHint: "Įrašykite arba įklijuokite vieną ar kelis ISIN kodus (pvz., iš banko išrašo) ir spauskite Pridėti.", addBtn: "Pridėti", remove: "Pašalinti",
+      saving: "Saugoma…", saved: "Išsaugota", failed: "Nepavyko išsaugoti – bandykite dar kartą.", loadFail: "Nepavyko įkelti išsaugoto sąrašo – rodomas paskutinis sinchronizuotas.",
+      pending: "Naujas – duomenys atsiras po kitos paieškos", effect: "Pakeitimai įsigalioja po kitos paieškos (Apžvalga → 2 žingsnis) arba automatiškai kitą rytą.",
+      issuer: "Emitentas", sec: "Vertybinis popierius", coupon: "Kuponas", term: "Terminas", status: "Būsena", none: "Kol kas nieko nėra – pridėkite pirmąjį aukščiau.",
+      bad: "Neteisingas ISIN:", replace: "Pakeisti visą sąrašą", replaceHint: "Įklijuokite visą turimų ISIN sąrašą. Kas jame nebus – bus pašalinta.", replaceBtn: "Pakeisti sąrašą",
+      matChart: "Turimos obligacijos pagal išpirkimo metus", all: "Visi kada nors sekti vertybiniai popieriai", soldTag: "parduota / neturima", lastChange: "Paskutinis pakeitimas" }
+  };
+  const sx = k => (SX[LANG] || SX.en)[k];
   const parseIsins = v => [...new Set((v.toUpperCase().match(/[A-Z]{2}[A-Z0-9]{9}\d/g) || []))];
-  function isinPage() {
-    const side = `<div class="card"><h3>${t("editDirect")}</h3><p class="muted">${t("editDirectHint")}</p><a class="btn" href="${gh("edit/main/config/securities.csv")}" target="_blank" rel="noopener">✎ config/securities.csv</a>
-        <h3 style="margin-top:16px;text-transform:capitalize">${t("issuers")}</h3><p class="muted">config/issuers.yaml</p><a class="btn" href="${gh("edit/main/config/issuers.yaml")}" target="_blank" rel="noopener">✎ config/issuers.yaml</a></div>`;
-    if (D.isin_store_url) return storePage(side);
-    const h = `<h1>${t("isinTitle")}</h1><p class="sub">${t("isinSub")}</p>
-      <div class="two"><div class="card"><textarea id="isins" rows="10" placeholder="LT0000115768&#10;XS1646530565&#10;…"></textarea>
-        <div class="row" style="margin-top:10px"><button class="btn primary" id="chk">${t("check")}</button></div></div>${side}</div><div id="res"></div>`;
-    setTimeout(() => {
-      document.getElementById("chk").onclick = () => {
-        const list = parseIsins(document.getElementById("isins").value), d = isinDiff(list);
-        const body = `ISIN list (${D.today}):\n${list.join("\n")}\n\nNew: ${d.unknown.join(", ") || "-"}\nNo longer held: ${d.missing.map(s => s.isin).join(", ") || "-"}\n\n(Created from the dashboard)`;
-        document.getElementById("res").innerHTML = d.html + `<div class="row" style="margin-top:12px"><a class="btn primary" href="${issueUrl("ISIN list update", body, "isin-list")}" target="_blank" rel="noopener">${t("submit")}</a></div><p class="muted">${t("submitHint")}</p>`;
-      };
-    });
+  const isinOk = x => { // ISO 6166 check digit (Luhn on letters converted to numbers)
+    const d = x.slice(0, 11).split("").map(c => /\d/.test(c) ? c : String(c.charCodeAt(0) - 55)).join("");
+    let sum = 0; d.split("").reverse().forEach((c, i) => { let n = +c; if (i % 2 === 0) { n *= 2; if (n > 9) n -= 9; } sum += n; });
+    return (10 - sum % 10) % 10 === +x[11];
+  };
+  let MY = null, BAD = [];
+  function myRow(x) {
+    const s = D.securities.find(y => y.isin === x);
+    if (!s || !s.name) return `<tr><td class="mono">${esc(x)}</td><td colspan="4" class="muted">${sx("pending")}</td><td class="n"><button class="btn sm rm" data-i="${esc(x)}">✕ ${sx("remove")}</button></td></tr>`;
+    const iss = byId[s.issuer];
+    const d = s.maturity_date ? days(s.maturity_date) : null;
+    const st = s.status === "matured" ? `<span class="chip warn">${t("maturedS")}</span>` : d !== null && d < 365 ? `<span class="chip info">${d} ${t("daysLeft")}</span>` : `<span class="chip good">${t("active")}</span>`;
+    return `<tr><td>${iss ? `<a href="#issuer/${iss.id}">${esc(iss.name)}</a>` : `<span class="muted">${esc(s.issuer || "–")}</span>`}</td><td><div class="sn">${esc(s.name)}</div><div class="mono muted">${esc(x)}</div></td>
+      <td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td><td class="n">${s.type === "share" ? c2("share") : esc(s.maturity_date || c2("perp"))}${s.call_date ? `<div class="muted">${c2("call")} ${esc(s.call_date)}</div>` : ""}</td>
+      <td>${st}</td><td class="n"><button class="btn sm rm" data-i="${esc(x)}">✕ ${sx("remove")}</button></td></tr>`;
+  }
+  function securities() {
+    const all = D.securities.slice().sort((a, b) => (a.maturity_date || "9999").localeCompare(b.maturity_date || "9999"));
+    const years = {};
+    all.filter(x => x.held === "yes" && x.type === "bond" && x.status === "active" && x.maturity_date).forEach(x => { const y = x.maturity_date.slice(0, 4); years[y] = (years[y] || 0) + 1; });
+    let h = `<h1>${sx("title")}</h1><p class="sub">${sx("sub")}</p>
+      <div class="card addbox"><h3>${sx("add")}</h3><p class="muted">${sx("addHint")}</p>
+        <div class="row addrow"><input id="newIsin" placeholder="LT0000115768, XS1646530565 …" autocomplete="off"><button class="btn primary" id="addBtn">+ ${sx("addBtn")}</button></div>
+        <div id="addMsg" class="runst"></div></div>
+      <h2>${sx("mine")} <span class="muted" id="myCount"></span></h2><p class="muted" id="myLast">${sx("effect")}</p>
+      <div class="tbl-wrap"><table id="myTbl"><tr><th>${sx("issuer")}</th><th>${sx("sec")}</th><th class="n">${sx("coupon")}</th><th class="n">${sx("term")}</th><th>${sx("status")}</th><th></th></tr></table></div>
+      <details class="guide" style="margin-top:14px"><summary>${sx("replace")}</summary><p class="muted">${sx("replaceHint")}</p><textarea id="isins" rows="8"></textarea>
+        <div class="row" style="margin-top:8px"><button class="btn" id="repBtn">${sx("replaceBtn")}</button></div></details>
+      <div class="two"><div><h2>${sx("matChart")}</h2><div class="chart">${barChart(Object.keys(years).sort().map(y => ({ label: y, v: years[y] })), "")}</div></div><div></div></div>
+      <details class="guide"><summary>${sx("all")} (${all.length})</summary><div class="tbl-wrap" style="margin-top:10px"><table><tr><th>${t("isinCol")}</th><th>${t("instrument")}</th><th>${t("heldCol")}</th><th class="n">${t("coupon")}</th><th>${t("maturity")}</th><th>${t("status")}</th><th>${t("note")}</th></tr>${all.map(x => secRow({ ...x, name: x.issuer ? (byId[x.issuer]?.name || x.issuer) + " – " + x.name : x.name })).join("")}</table></div></details>`;
+    setTimeout(initSecurities);
     return h;
   }
-  function storePage(side) {
-    const h = `<h1>${t("storeTitle")}</h1><p class="sub">${t("storeSub")}</p>
-      <div class="two"><div class="card"><textarea id="isins" rows="14" placeholder="LT0000115768&#10;XS1646530565&#10;…"></textarea>
-        <div class="row" style="margin-top:10px;gap:8px;flex-wrap:wrap"><input id="by" placeholder="${t("yourName")}" style="flex:1;min-width:160px">
-        <input id="pin" type="password" placeholder="${t("pin")}" style="width:90px;display:none"></div>
-        <div class="row" style="margin-top:10px"><button class="btn primary" id="save">${t("save")}</button><span id="st" class="muted" style="margin-left:10px"></span></div>
-        <p class="muted" id="last"></p></div>${side}</div><div id="res"></div>`;
-    setTimeout(() => {
-      const ta = document.getElementById("isins"), st = document.getElementById("st"), res = document.getElementById("res");
-      const show = () => { res.innerHTML = isinDiff(parseIsins(ta.value)).html; };
-      try { const v = localStorage.getItem("isinBy"); if (v) document.getElementById("by").value = v; } catch (e) {}
-      ta.oninput = show;
-      fetch(D.isin_store_url).then(r => r.json()).then(j => {
-        const cur = (j.isins || []).map(x => x.isin || x); ta.value = (cur.length ? cur : D.securities.filter(s => s.held === "yes" && s.status !== "matured").map(s => s.isin)).join("\n");
-        if (j.pin_required) document.getElementById("pin").style.display = "";
-        const lc = j.last_change; if (lc) document.getElementById("last").textContent = `${t("lastChange")}: ${String(lc.time).slice(0, 10)} ${lc.by || ""} (+${lc.added || "–"} / −${lc.removed || "–"})`;
-        show();
-      }).catch(() => { st.textContent = t("loadFail"); ta.value = D.securities.filter(s => s.held === "yes").map(s => s.isin).join("\n"); show(); });
-      document.getElementById("save").onclick = () => {
-        const by = document.getElementById("by").value.trim(), pin = document.getElementById("pin").value;
-        try { localStorage.setItem("isinBy", by); } catch (e) {}
-        st.textContent = t("saving");
-        fetch(D.isin_store_url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify({ isins: parseIsins(ta.value), by, pin }) })
-          .then(r => r.json()).then(j => {
-            if (!j.ok) throw new Error(j.error || "");
-            st.textContent = `${t("saved")}. ${t("added")}: ${(j.added || []).join(", ") || "–"}; ${t("removed")}: ${(j.removed || []).join(", ") || "–"}`;
-          }).catch(e => { st.textContent = `${t("saveFail")} ${e.message || ""}`; });
-      };
-    });
-    return h;
+  function initSecurities() {
+    const tbl = document.getElementById("myTbl"); if (!tbl) return;
+    const msg = (html, cls) => { const m = document.getElementById("addMsg"); m.className = "runst " + (cls || ""); m.innerHTML = html; };
+    const render = () => {
+      const head = tbl.rows[0].outerHTML;
+      const list = MY.slice().sort((a, b) => { const A = D.securities.find(y => y.isin === a), B = D.securities.find(y => y.isin === b);
+        return String(byId[A?.issuer]?.name || "~").localeCompare(String(byId[B?.issuer]?.name || "~")) || String(A?.maturity_date || "9999").localeCompare(String(B?.maturity_date || "9999")); });
+      tbl.innerHTML = head + (list.map(myRow).join("") || `<tr><td colspan="6" class="muted">${sx("none")}</td></tr>`);
+      document.getElementById("myCount").textContent = `(${MY.length})`;
+      document.getElementById("isins").value = MY.join("\n");
+      tbl.querySelectorAll("button.rm").forEach(b => b.onclick = () => { if (confirm(`${sx("remove")} ${b.dataset.i}?`)) { BAD = []; save(MY.filter(x => x !== b.dataset.i)); } });
+    };
+    const save = list => {
+      if (!D.isin_store_url) { msg(sx("failed"), "bad"); return; }
+      msg(`<span class="spin"></span> ${sx("saving")}`, "busy");
+      fetch(D.isin_store_url, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify({ isins: list, by: "dashboard" }) })
+        .then(r => r.json()).then(j => {
+          if (!j.ok) throw new Error(j.error || "");
+          MY = list; render();
+          msg(`✓ ${sx("saved")}. ${(j.added || []).length ? "+ " + j.added.join(", ") : ""} ${(j.removed || []).length ? "− " + j.removed.join(", ") : ""}${BAD.length ? ` <span class="bad">✗ ${sx("bad")} ${BAD.map(esc).join(", ")}</span>` : ""}`, "ok");
+        }).catch(() => msg(`✗ ${sx("failed")}`, "bad"));
+    };
+    const fallback = () => D.securities.filter(s => s.held === "yes" && s.status !== "matured").map(s => s.isin);
+    const start = () => { render(); };
+    if (MY) start();
+    else if (D.isin_store_url) fetch(D.isin_store_url).then(r => r.json()).then(j => {
+      const cur = (j.isins || []).map(x => x.isin || x); MY = cur.length ? cur : fallback();
+      const lc = j.last_change; if (lc) document.getElementById("myLast").textContent = `${sx("lastChange")}: ${String(lc.time).slice(0, 10)}. ${sx("effect")}`;
+      start();
+    }).catch(() => { MY = fallback(); msg(sx("loadFail"), "bad"); start(); });
+    else { MY = fallback(); start(); }
+    const add = () => {
+      const inp = document.getElementById("newIsin"), raw = parseIsins(inp.value);
+      const bad = raw.filter(x => !isinOk(x)), good = raw.filter(x => isinOk(x) && !MY.includes(x));
+      BAD = bad; if (bad.length) msg(`✗ ${sx("bad")} ${bad.map(esc).join(", ")}`, "bad");
+      if (good.length) { inp.value = ""; save(MY.concat(good)); }
+    };
+    document.getElementById("addBtn").onclick = add;
+    document.getElementById("newIsin").onkeydown = e => { if (e.key === "Enter") add(); };
+    document.getElementById("repBtn").onclick = () => { BAD = []; const l = parseIsins(document.getElementById("isins").value).filter(isinOk); if (l.length) save(l); };
   }
   function tools() {
     const all = [...new Set(D.issuers.flatMap(i => Object.keys(i.history)))];
@@ -447,7 +474,7 @@
 
   function route() {
     const [page, arg] = (location.hash.slice(1) || "overview").split("/");
-    const map = { overview, issuer: () => issuer(arg), news: () => news(arg), securities, isin: isinPage, tools, about };
+    const map = { overview, issuer: () => issuer(arg), news: () => news(arg), securities, isin: securities, tools, about };
     document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = t(k); a.classList.toggle("on", k === page || (page === "issuer" && k === "overview")); });
     document.querySelector(".brand").textContent = t("heroTitle");
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
