@@ -133,3 +133,10 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra. Perdavimo tinklas yra būtinas atsinaujinančios energijos plėtrai."
     en: "No exclusions or red flags. The transmission grid is essential for renewable expansion."
+market:
+  - lt: "**Pelnas augo** iki 22,5 mln. EUR (prieš metus 19,1 mln.) dėl didesnių elektros ir dujų perdavimo pajamų [A1 p.8]; elektros perdavimo pajamos +8 % dėl balansavimo ir perkrovų valdymo pajamų (+41,8 mln. EUR) [A1 p.8]."
+    en: "**Profit rose** to EUR 22.5m (19.1m a year earlier) on higher power and gas transmission revenue [A1 p.8]; power transmission revenue +8% thanks to balancing and congestion-management revenue (+EUR 41.8m) [A1 p.8]."
+  - lt: "**Tarifai:** nauji perdavimo tarifai nuo 2026-01-01; sukauptas perkrovų pajamas iki 2028 m. pabaigos galima naudoti iki 44,4 mln. EUR, 2026 m. I pusm. pripažinta 4,0 mln. EUR [A1 p.9]. Dujų saugyklos pajamos –36 % dėl mažesnių užsakymų ir tarifo [A1 p.9]."
+    en: "**Tariffs:** new transmission tariffs from 2026-01-01; up to EUR 44.4m of accumulated congestion revenue can be used until end-2028, EUR 4.0m recognised in 1H 2026 [A1 p.9]. Gas storage revenue fell 36% on lower bookings and tariff [A1 p.9]."
+  - lt: "**Rinka:** birželio vidutinė elektros kaina Latvijoje 92,23 EUR/MWh (+12,3 % per mėn.) dėl mažesnės vėjo gamybos ir karščio Europoje [A1 p.6]; sinchronizacija ir atsinaujinančios energetikos plėtra gerokai didina balansavimo rezervų poreikį [A1 p.11]."
+    en: "**Market:** the June power price in Latvia was EUR 92.23/MWh (+12.3% m/m) on lower wind output and a European heatwave [A1 p.6]; synchronisation and renewables growth significantly increase the need for balancing reserves [A1 p.11]."

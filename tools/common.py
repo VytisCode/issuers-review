@@ -377,3 +377,22 @@ def news_digest(issuer=None, days=90, end=None, lang="en"):
     out.sort(key=lambda x: x["date"], reverse=True)
     out.sort(key=lambda x: NEWS_ORDER.index(x["topic"]))
     return out, start, end
+
+
+MARKET_SERIES = ["ecb_dfr", "euribor_3m", "euribor_6m", "euribor_12m", "ea_10y", "ea_hicp"]
+
+
+def market_table():
+    """Rinkos rodikliai iš data/market.csv: [(serija, paskutinis mėnuo, dabar, prieš 3 mėn., prieš 12 mėn., šaltinis)]."""
+    rows = read_csv(DATA / "market.csv")
+    out = []
+    for sid in MARKET_SERIES:
+        vals = {r["period"]: r for r in rows if r["series"] == sid}
+        if not vals:
+            continue
+        last = max(vals)
+        y, m = int(last[:4]), int(last[5:7])
+        back = lambda k: f"{y + (m - 1 - k) // 12:04d}-{(m - 1 - k) % 12 + 1:02d}"  # noqa: E731
+        get = lambda p: float(vals[p]["value"]) if p in vals else None  # noqa: E731
+        out.append((sid, last, get(last), get(back(3)), get(back(12)), vals[last]["source"]))
+    return out

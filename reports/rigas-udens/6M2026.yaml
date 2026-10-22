@@ -127,3 +127,10 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra. Žalioji obligacija pagal ES standartą, investicijos į nuotekų valymą."
     en: "No exclusions or red flags. EU-standard green bond financing wastewater treatment investment."
+market:
+  - lt: "**Tarifai:** pajamos +14,7 % daugiausia dėl naujų vandentvarkos tarifų nuo 2025-12-01 [R1 p.18]. Nuotekų išvalyta 8,9 % mažiau dėl mažesnio kritulių kiekio, parduoto vandens +0,9 % [R1 p.15, p.8]."
+    en: "**Tariffs:** revenue +14.7%, mainly due to new water tariffs from 2025-12-01 [R1 p.18]. Treated wastewater -8.9% on lower rainfall, water sold +0.9% [R1 p.15, p.8]."
+  - lt: "**Investicijos ir skola:** rekordinės 24,1 mln. EUR investicijos finansuotos skolintu kapitalu, todėl grynoji skola / EBITDA pakilo iki 2,6 karto [R1 p.18, p.8]. Kaštams įtakos gali turėti infliacija ir energijos kainos; Latvijos bankas 2026 m. infliaciją prognozuoja 3,6 % [R1 p.6]."
+    en: "**Investment and debt:** a record EUR 24.1m of investment was debt-financed, lifting net debt/EBITDA to 2.6x [R1 p.18, p.8]. Costs may be affected by inflation and energy prices; the Bank of Latvia forecasts 3.6% inflation in 2026 [R1 p.6]."
+  - lt: "**Kita emisija:** iki 40 mln. EUR žaliųjų obligacijų planuojama 2026 m. IV ketv., įvertinus rinkos sąlygas [R1 p.5]."
+    en: "**Next issue:** up to EUR 40m of green bonds planned for Q4 2026, subject to market conditions [R1 p.5]."

@@ -305,6 +305,7 @@
     h += `<div><div><h2>${t("trend")}</h2><div class="filters"><select id="mpick">${opts.map(m => `<option value="${m}">${esc(M(m))}</option>`).join("")}</select></div><div class="chart" id="mchart"></div></div>
       <div><h2>${t("plans")}</h2><div class="tbl-wrap"><table><tr><th>${t("plan")}</th><th>${t("outcome")}</th><th>${t("why")}</th><th>${t("status")}</th></tr>${(X.plans || []).map(p => `<tr><td>${p.plan}</td><td>${p.outcome}</td><td>${p.why || "–"}</td><td>${chip(p.status)}</td></tr>`).join("")}</table></div></div></div>`;
     h += `<h2>${t("investor")}</h2><ul class="b">${(X.investor || []).map(s => `<li>${s}</li>`).join("")}</ul>`;
+    if ((X.market || []).length || (D.market || []).length) h += `<h2>${tp("market")}</h2><ul class="b">${(X.market || []).map(s => `<li>${s}</li>`).join("")}</ul>${marketTable()}`;
     h += `<details class="more"><summary>${t("more")}</summary><h3>${t("business")}</h3><ul class="b">${(X.business || []).map(s => `<li>${s}</li>`).join("")}</ul>
       <h3>${t("financials")}</h3><ul class="b">${(X.financials || []).map(s => `<li>${s}</li>`).join("")}</ul></details>`;
     h += `<h2 id="sec-esg">ESG report</h2><div class="esg">${(X.esg || []).map(s => `<h3>${esc(s.heading)}</h3>${s.items.map(q => `
@@ -336,13 +337,23 @@
   const TOP = {
     en: { review: "Attention", reitingas: "Rating", sandoris: "Deal", obligacijos: "Bonds", dividendai: "Dividends", vadovai: "Management", ataskaita: "Results", kita: "Other",
       hl: "Worth your attention – last 30 days", hlSub: "Picked automatically (no AI): adverse keywords first, then ratings, deals, bonds, dividends, management and results. Similar articles are merged.",
-      similar: "similar", press: "In the press", pressSub: "Analyst summary of what the media wrote (from the latest analysis).", none: "Nothing notable in the last 30 days." },
+      similar: "similar", press: "In the press", pressSub: "Analyst summary of what the media wrote (from the latest analysis).", none: "Nothing notable in the last 30 days.",
+      market: "Market and environment", mNow: "Now", m3: "3 months ago", m12: "12 months ago", mChg: "12-month change", mNote: "Euro area rates and inflation from the ECB (free public data, updated weekly). Relevant for floating-rate and reset bonds and refinancing costs." },
     lt: { review: "Dėmesio", reitingas: "Reitingas", sandoris: "Sandoris", obligacijos: "Obligacijos", dividendai: "Dividendai", vadovai: "Vadovai", ataskaita: "Rezultatai", kita: "Kita",
       hl: "Verta dėmesio – paskutinės 30 d.", hlSub: "Atrenkama automatiškai (be AI): pirma neigiami žodžiai, tada reitingai, sandoriai, obligacijos, dividendai, vadovų pokyčiai ir rezultatai. Panašūs pranešimai sujungti.",
-      similar: "panašūs", press: "Ką rašo spauda", pressSub: "Analitiko santrauka, ką rašė žiniasklaida (iš naujausios analizės).", none: "Per 30 d. nieko reikšmingo." } };
+      similar: "panašūs", press: "Ką rašo spauda", pressSub: "Analitiko santrauka, ką rašė žiniasklaida (iš naujausios analizės).", none: "Per 30 d. nieko reikšmingo.",
+      market: "Rinka ir aplinka", mNow: "Dabar", m3: "Prieš 3 mėn.", m12: "Prieš 12 mėn.", mChg: "Pokytis per 12 mėn.", mNote: "Euro zonos palūkanos ir infliacija iš ECB (nemokami vieši duomenys, atnaujinama kas savaitę). Svarbu kintamų palūkanų ir perkainojamoms obligacijoms bei refinansavimo kaštams." } };
   const tp = k => (TOP[LANG] || TOP.en)[k] || k;
   const TCLS = { review: "bad", reitingas: "info", sandoris: "warn", obligacijos: "info", dividendai: "good", vadovai: "info", ataskaita: "", kita: "" };
   const topicChips = s => (s || "").split(";").filter(Boolean).map(x => `<span class="chip ${TCLS[x] || ""} sm">${esc(tp(x))}</span>`).join("");
+  function marketTable() {
+    const M = D.market || []; if (!M.length) return "";
+    const pc = v => v === null || v === undefined ? "–" : fmt(v.toFixed(2), "%");
+    return `<div class="tbl-wrap"><table class="mkt"><tr><th></th><th class="n">${tp("mNow")}</th><th class="n">${tp("m3")}</th><th class="n">${tp("m12")}</th><th class="n">${tp("mChg")}</th></tr>${M.map(m => {
+      const ch = m.now !== null && m.m12 !== null ? m.now - m.m12 : null;
+      return `<tr><td><a href="${esc(m.src)}" target="_blank" rel="noopener">${esc(m.label[LANG] || m.label.en)}</a></td><td class="n"><b>${pc(m.now)}</b> <span class="muted">${esc(m.last)}</span></td><td class="n">${pc(m.m3)}</td><td class="n">${pc(m.m12)}</td>
+        <td class="n">${ch === null ? "–" : `${ch > 0.005 ? "▲" : ch < -0.005 ? "▼" : "•"} ${fmt(Math.abs(ch).toFixed(2), "")} p. p.`}</td></tr>`; }).join("")}</table></div><p class="muted small">${tp("mNote")}</p>`;
+  }
   function highlights(sel) {
     const all = ((D.news_highlights || {})[LANG] || (D.news_highlights || {}).en || []).filter(d => !sel || d.issuer === sel);
     if (!all.length) return `<section class="hl"><h2>${tp("hl")}</h2><p class="muted">${tp("none")}</p></section>`;

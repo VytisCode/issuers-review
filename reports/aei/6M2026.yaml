@@ -139,3 +139,10 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra. SFDR 9 str. atsinaujinančios energijos fondas; rizika – finansinė, ne ESG."
     en: "No exclusions or red flags. An SFDR Article 9 renewable energy fund; the risk is financial, not ESG."
+market:
+  - lt: "**Sąnaudos ir portfelis:** administracinės sąnaudos 2,2 mln. EUR (1,9 mln.), palūkanų sąnaudos 3,7 mln. EUR (4,0 mln.); investicinis turtas sumažėjo iki 138,4 mln. EUR (165,0 mln.) – parduota ir grąžinta 27,7 mln. EUR [E1 p.4, p.14]."
+    en: "**Costs and portfolio:** administrative expenses EUR 2.2m (1.9m), interest expenses EUR 3.7m (4.0m); investment assets fell to EUR 138.4m (165.0m) after EUR 27.7m of disposals and repayments [E1 p.4, p.14]."
+  - lt: "**Elektros rinka:** vadovybės vertinimu, dabartinės elektros rinkos sąlygos ir paklausa palaiko projektų ekonominį gyvybingumą [E1 p.18]; balansavimo (mFRR) rinkoje „Potentia Industriae“ uždirbo 1 356 tūkst. EUR, „Rokvėja“ – 850 tūkst. EUR (iki gegužės) [E2 p.2]."
+    en: "**Power market:** management says current electricity market conditions and demand support the projects' viability [E1 p.18]; in the mFRR balancing market Potentia Industriae earned EUR 1,356k and Rokvėja EUR 850k (to May) [E2 p.2]."
+  - lt: "**Perspektyva:** paskutiniai saulės projektai (apie 17 MW) prie tinklo bus prijungti 2026 m. gruodį [E2 p.2]."
+    en: "**Outlook:** the last solar projects (about 17 MW) are due to connect to the grid in December 2026 [E2 p.2]."

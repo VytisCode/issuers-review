@@ -29,7 +29,7 @@ from reportlab.lib.styles import ParagraphStyle  # noqa: E402
 from reportlab.lib.units import cm  # noqa: E402
 from reportlab.pdfbase import pdfmetrics  # noqa: E402
 from reportlab.pdfbase.ttfonts import TTFont  # noqa: E402
-from reportlab.platypus import Image, KeepTogether, Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle  # noqa: E402
+from reportlab.platypus import Image, Paragraph, Spacer, Table, TableStyle  # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as C  # noqa: E402
@@ -41,7 +41,12 @@ pdfmetrics.registerFontFamily("DejaVu", normal="DejaVu", bold="DejaVu-Bold", ita
 for _n, _f in (("Carlito", "Regular"), ("Carlito-Bold", "Bold"), ("Carlito-Italic", "Italic"), ("Carlito-BoldItalic", "BoldItalic")):
     pdfmetrics.registerFont(TTFont(_n, str(FONT_DIR / f"Carlito-{_f}.ttf")))
 pdfmetrics.registerFontFamily("Carlito", normal="Carlito", bold="Carlito-Bold", italic="Carlito-Italic", boldItalic="Carlito-BoldItalic")
-ACCENT, ACCENT_LIGHT, INK, MUTED, LINE, SERIES = "1F4E79", "EAF1F8", "1A1A1A", "5F6B7A", "C9D3DE", "2A78D6"
+# PDF šriftas - Inter (SIL OFL); Word naudoja Calibri, nes Inter dažnai neįdiegtas skaitytojo kompiuteryje
+for _n in ("Inter-Regular", "Inter-Medium", "Inter-SemiBold", "Inter-Bold", "Inter-Italic", "InterDisplay-SemiBold", "InterDisplay-Bold"):
+    pdfmetrics.registerFont(TTFont(_n, str(FONT_DIR / f"{_n}.ttf")))
+pdfmetrics.registerFontFamily("Inter-Regular", normal="Inter-Regular", bold="Inter-SemiBold", italic="Inter-Italic", boldItalic="Inter-SemiBold")
+ACCENT, ACCENT_LIGHT, INK, MUTED, LINE, SERIES = "12355B", "EEF3F8", "1B2430", "667085", "D5DCE4", "2A78D6"
+HAIR, PANEL = "E6EAF0", "F4F6F9"
 VERDICT_FILL = {"ok": ("E3F3E8", "1B7F3B"), "watch": ("FDF1D8", "9A6400"), "action": ("FDE7E5", "B42318")}
 STATUS_KEYS = {"met": "st_met", "partly": "st_partly", "not_met": "st_not_met", "pending": "st_pending", "changed": "st_changed"}
 STATUS_FILL = {"met": "E3F3E8", "partly": "FDF1D8", "not_met": "FDE7E5", "pending": "EAF1F8", "changed": "FDF1D8"}
@@ -98,9 +103,9 @@ def chart_png(rep, lang, path):
     if not ms:
         return None
     from matplotlib import font_manager
-    for f in ("Carlito-Regular.ttf", "Carlito-Bold.ttf"):
+    for f in ("Inter-Regular.ttf", "Inter-SemiBold.ttf"):
         font_manager.fontManager.addfont(str(FONT_DIR / f))
-    plt.rcParams.update({"font.family": ["Carlito", "DejaVu Sans"], "font.size": 8})
+    plt.rcParams.update({"font.family": ["Inter", "DejaVu Sans"], "font.size": 8})
     fig, axes = plt.subplots(1, len(ms), figsize=(1.9 * len(ms) + 0.6, 2.3), dpi=200)
     axes = axes if len(ms) > 1 else [axes]
     for ax, m in zip(axes, ms):
@@ -149,9 +154,20 @@ def model(rep, lang, tmpdir):
     secs = [s for s in C.securities() if s["issuer"] == rep["issuer"] and s.get("held") == "yes" and s["status"] == "active"]
 
     vst = (rep.get("verdict") or {}).get("status", "")
-    blocks = [("cover", iss["name"], f"{t('title')} · {rep['period']}", vst, t("verdict_" + vst) if vst else ""),
-              ("meta", [(t("analysis_date"), [("t", str(rep["analysis_date"]), False)]),
-                        (t("rating"), rich(rep.get("rating", ""))), (t("next_report"), rich(rep.get("next_report", "")))])]
+    country = t("country_" + iss.get("country", "")) if iss.get("country") else ""
+    sub = " · ".join(x for x in (country, iss.get("sector", "") if lang == "en" else "") if x)
+    blocks = [("cover", iss["name"], f"{t('title')} · {rep['period']}", vst, t("verdict_" + vst) if vst else "", sub)]
+
+    # pirmo puslapio šoninė juosta: pagrindinė informacija ir turimi VP
+    held = []
+    for s in secs:
+        mat = s["maturity_date"] or (t("perpetual") if s["type"] == "bond" else t("share"))
+        cpn = C.fmt_num(s["coupon_pct"], "%", lang) if s["coupon_pct"] else ""
+        er = "" if s["type"] == "share" else (s.get("issue_rating") or t("not_rated"))
+        held.append((s["isin"], s["name"], " · ".join(x for x in (cpn, mat) if x), er))
+    blocks.append(("sidebar", t("key_facts"), [(t("rating"), rich(rep.get("rating", ""))), (t("analysis_date"), [("t", str(rep["analysis_date"]), False)]),
+                                               (t("next_report"), rich(rep.get("next_report", ""))), (t("country"), [("t", country, False)] if country else [])],
+                   t("held_short"), held))
     if rep.get("verdict"):
         v = rep["verdict"]
         blocks.append(("verdict", v.get("status", "ok"), rich(v)))
@@ -159,7 +175,7 @@ def model(rep, lang, tmpdir):
     if hl:
         blocks.append(("tiles", hl))
 
-    blocks += [("h2", t("quick_summary")), ("bullets", [rich(x, True) for x in rep.get("quick_summary", [])])]
+    blocks += [("h1", t("quick_summary")), ("bullets", [rich(x, True) for x in rep.get("quick_summary", [])]), ("endfirst",)]
 
     # priemonės
     rows = []
@@ -170,7 +186,7 @@ def model(rep, lang, tmpdir):
         er = "" if s["type"] == "share" else (s.get("issue_rating") or t("not_rated")) + (f" ({s['issue_rating_note']})" if s.get("issue_rating_note") else "")
         rows.append([s["isin"], s["name"], cpn, mat, er, note])
     blocks += [("h2", t("instruments")), ("table", [t("isin"), t("instrument"), t("coupon"), t("maturity"), t("issue_rating"), t("note")], rows,
-                                          [2.7, 4.0, 1.5, 2.0, 2.8, 4.2], {"num": [2]})]
+                                          [2.6, 4.0, 1.9, 2.0, 2.8, 3.9], {"num": [2]})]
 
     # rodikliai: šaltiniai - išnašos prie rodiklio pavadinimo
     periods = rep.get("periods", [])
@@ -218,6 +234,22 @@ def model(rep, lang, tmpdir):
     blocks += [("h2", t("plans")), ("table", [t("plan"), t("outcome"), t("why"), t("status")], rows, [4.6, 4.6, 5.6, 2.4], {})]
 
     blocks += [("h2", t("investor")), ("bullets", [rich(x, True) for x in rep.get("investor", [])])]
+
+    # rinka ir aplinka: analitiko punktai (kodėl keitėsi rodikliai, aplinkos veiksniai) + automatinė ECB palūkanų lentelė
+    mk = C.market_table()
+    if rep.get("market") or mk:
+        blocks.append(("h2", t("market")))
+        if rep.get("market"):
+            blocks.append(("bullets", [rich(x, True) for x in rep["market"]]))
+        if mk:
+            pct = lambda v: "–" if v is None else C.fmt_num(f"{v:.2f}", "%", lang)  # noqa: E731
+            rows = []
+            for sid, last, now, m3, m12, src in mk:
+                ch = None if now is None or m12 is None else now - m12
+                chs = "–" if ch is None else f"{'▲' if ch > 0.005 else '▼' if ch < -0.005 else '•'} {C.fmt_num(f'{abs(ch):.2f}', '', lang)} p. p."
+                rows.append([[("t", t("mk_" + sid), False)], f"{pct(now)} ({last})", pct(m3), pct(m12), chs])
+            blocks += [("table", ["", t("market_now"), t("market_3m"), t("market_12m"), t("market_chg")], rows, [6.2, 3.2, 2.4, 2.4, 2.8], {"num": [1, 2, 3, 4]}),
+                       ("small", t("market_note"))]
 
     # spauda: analitiko santrauka (jei yra) + automatinė naujienų suvestinė iš data/news.csv
     dig, start, end = C.news_digest(rep["issuer"], days=90, lang=lang)
@@ -467,35 +499,51 @@ def to_docx(blocks, path, footer_text):
     sec_no = 0
     for kind, *rest in blocks:
         if kind == "cover":
+            bar = tight(doc.add_paragraph(), 0, 10)
+            para_border(bar, "top", 24, ACCENT, 0)
+            bar.paragraph_format.line_spacing = 0.5
             tb = doc.add_table(rows=1, cols=2)
-            table_setup(tb, [12.4, 4.6], margins=(260, 280, 260, 280))
+            table_setup(tb, [12.4, 4.6], margins=(0, 0, 0, 0))
             a, b = tb.rows[0].cells
-            for c in (a, b):
-                shade(c, ACCENT)
-            tight(a.paragraphs[0])
-            run(a.paragraphs[0], rest[1], 8.5, True, "AFC6DD", caps=True)
-            p = tight(a.add_paragraph(), 2, 0)
-            run(p, rest[0], 26 if len(rest[0]) < 28 else 20, True, "FFFFFF")
-            bp = tight(b.paragraphs[0], 14, 0)
+            run(tight(a.paragraphs[0]), rest[1], 8, True, SERIES, caps=True)
+            run(tight(a.add_paragraph(), 2, 0), rest[0], 26 if len(rest[0]) < 28 else 20, True, ACCENT)
+            if rest[4]:
+                run(tight(a.add_paragraph(), 2, 0), rest[4], 9, False, MUTED)
+            bp = tight(b.paragraphs[0], 22, 0)
             bp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
             if rest[3]:
                 fill, ink = VERDICT_FILL.get(rest[2], VERDICT_FILL["ok"])
-                r = run(bp, f"  ●  {rest[3].upper()}  ", 9.5, True, ink)
+                r = run(bp, f"  ●  {rest[3].upper()}  ", 9, True, ink)
                 r._r.get_or_add_rPr().append(_el("w:shd", val="clear", color="auto", fill=fill))
-            ac = doc.add_paragraph()
-            tight(ac, 0, 10)
-            para_border(ac, "top", 12, SERIES, 0)
+            ac = tight(doc.add_paragraph(), 6, 10)
+            para_border(ac, "top", 4, LINE, 0)
             ac.paragraph_format.line_spacing = 0.5
-        elif kind == "meta":
-            items = rest[0]
-            tb = doc.add_table(rows=1, cols=len(items))
-            table_setup(tb, [W / len(items)] * len(items), margins=(0, 0, 120, 160))
-            for c, (k, segs) in zip(tb.rows[0].cells, items):
-                cell_borders(c, bottom=(4, LINE))
-                run(tight(c.paragraphs[0], 0, 1), k, 7.5, True, MUTED, caps=True)
-                p = tight(c.add_paragraph())
-                add_segs(p, segs, size=9.5) if segs else run(p, "–", 9.5)
-            tight(doc.add_paragraph(), 0, 4)
+        elif kind == "sidebar":
+            title, facts, held_title, held = rest
+            tb = doc.add_table(rows=1, cols=2)
+            table_setup(tb, [8.5, 8.5], margins=(160, 220, 160, 220))
+            a, b = tb.rows[0].cells
+            for c in (a, b):
+                shade(c, PANEL)
+                cell_borders(c, top=(12, ACCENT))
+            run(tight(a.paragraphs[0], 0, 2), title, 9, True, ACCENT)
+            for k, segs in facts:
+                run(tight(a.add_paragraph(), 4, 0), k, 7, True, MUTED, caps=True)
+                p = tight(a.add_paragraph())
+                add_segs(p, segs, size=9) if segs else run(p, "–", 9)
+            run(tight(b.paragraphs[0], 0, 2), held_title, 9, True, ACCENT)
+            for isin, name, terms, er in held:
+                run(tight(b.add_paragraph(), 4, 0), name, 8.5, True, INK)
+                run(tight(b.add_paragraph()), isin + (f"  ·  {terms}" if terms else ""), 7.5, False, MUTED)
+                if er:
+                    run(tight(b.add_paragraph()), er, 7.5, False, ACCENT)
+            tight(doc.add_paragraph(), 0, 6)
+        elif kind == "h1":
+            p = tight(doc.add_paragraph(), 10, 5)
+            p.paragraph_format.keep_with_next = True
+            run(p, rest[0], 13, True, ACCENT)
+        elif kind == "endfirst":
+            continue
         elif kind == "verdict":
             fill, ink = VERDICT_FILL.get(rest[0], VERDICT_FILL["ok"])
             tb = doc.add_table(rows=1, cols=1)
@@ -607,16 +655,15 @@ def to_docx(blocks, path, footer_text):
             tbl = doc.add_table(rows=1, cols=len(header))
             for i, h in enumerate(header):
                 c = tbl.rows[0].cells[i]
-                shade(c, ACCENT_LIGHT)
-                cell_borders(c, top=(12, ACCENT), bottom=(4, LINE))
+                cell_borders(c, bottom=(8, ACCENT))
                 p = tight(c.paragraphs[0])
-                run(p, str(h), 8, True, ACCENT, caps=True)
+                run(p, str(h), 7, True, MUTED, caps=True)
                 if i in num:
                     p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
             for row in rows:
                 cells = tbl.add_row().cells
                 for i, v in enumerate(row):
-                    cell_borders(cells[i], bottom=(4, "DDE3EA"))
+                    cell_borders(cells[i], bottom=(4, HAIR))
                     par = tight(cells[i].paragraphs[0])
                     if i in num:
                         par.alignment = WD_ALIGN_PARAGRAPH.RIGHT
@@ -640,11 +687,11 @@ def _cmap(path):
     return set(_FT(str(path)).getBestCmap())
 
 
-BODY_GLYPHS = _cmap(FONT_DIR / "Carlito-Regular.ttf")
+BODY_GLYPHS = _cmap(FONT_DIR / "Inter-Regular.ttf")
 
 
 def esc(s):
-    """XML tekstas; simboliai, kurių nėra Carlito šrifte (▲ ☑ ⚠ ...), rašomi DejaVu šriftu."""
+    """XML tekstas; simboliai, kurių nėra Inter šrifte (▲ ☑ ⚠ ...), rašomi DejaVu šriftu."""
     out = []
     for ch in str(s):
         e = {"&": "&amp;", "<": "&lt;", ">": "&gt;"}.get(ch, ch)
@@ -678,96 +725,133 @@ def tile_value(v):
 
 
 def to_pdf(blocks, path, footer_text):
-    from reportlab.platypus import BaseDocTemplate, Frame, PageTemplate
+    from reportlab.pdfgen.canvas import Canvas
+    from reportlab.platypus import BaseDocTemplate, Flowable, Frame, FrameBreak, KeepInFrame, NextPageTemplate, PageTemplate
     hexc = lambda h: colors.HexColor("#" + h)  # noqa: E731
-    S = lambda name, **kw: ParagraphStyle(name, fontName=kw.pop("font", "Carlito"), textColor=hexc(kw.pop("color", INK)), **kw)  # noqa: E731
-    st = {"h2": S("h", font="Carlito-Bold", fontSize=14, leading=17, color=ACCENT),
-          "h2n": S("hn", font="Carlito-Bold", fontSize=9, leading=17, color=SERIES),
-          "h3": S("h3", font="Carlito-Bold", fontSize=9.5, leading=12, color=ACCENT),
-          "p": S("p", fontSize=10, leading=14),
-          "lead": S("ld", fontSize=9, leading=12.5, color=MUTED, spaceAfter=4),
-          "mk": S("mk", fontSize=7, leading=9, color=MUTED), "mv": S("mv", fontSize=9.5, leading=12.5),
-          "b": S("b", fontSize=10, leading=14, leftIndent=13, bulletIndent=1, spaceAfter=4, bulletFontName="Carlito-Bold", bulletColor=hexc(SERIES)),
-          "q": S("q", font="Carlito-Bold", fontSize=9.5, leading=12.5),
-          "verdict": S("v", fontSize=10.5, leading=15),
-          "evh": S("eh", font="Carlito-Bold", fontSize=9, leading=12, spaceBefore=2, color="333333"),
-          "evb": S("eb", fontSize=9, leading=12, leftIndent=10, bulletIndent=0, color="333333", bulletColor=hexc(MUTED)),
-          "note": S("n", fontSize=9, leading=12.5, spaceBefore=6, color="333333"),
-          "small": S("s", fontSize=7.5, leading=10, color=MUTED, spaceBefore=3),
-          "srcn": S("srcn", fontSize=8, leading=10.5, color=MUTED, alignment=2), "src": S("src", fontSize=8, leading=10.5),
-          "cell": S("cell", fontSize=8.5, leading=10.8), "celln": S("celln", fontSize=8.5, leading=10.8, alignment=2),
-          "cellh": S("cellh", font="Carlito-Bold", fontSize=8, leading=10, color=ACCENT),
-          "cellhn": S("cellhn", font="Carlito-Bold", fontSize=8, leading=10, color=ACCENT, alignment=2),
-          "tl": S("tl", font="Carlito-Bold", fontSize=7, leading=9, color=MUTED),
-          "tv": S("tv", font="Carlito-Bold", fontSize=17, leading=20, color=ACCENT),
-          "td": S("td", fontSize=7.5, leading=9.5, color=MUTED),
-          "chip": S("chip", font="Carlito-Bold", fontSize=7, leading=8.5, alignment=1)}
-    W = 17.0 * cm
-    cover = next((b for b in blocks if b[0] == "cover"), ("cover", "", "", "", ""))
-    flow, sec_no = [], 0
+    R, MD, SB = "Inter-Regular", "Inter-Medium", "Inter-SemiBold"
+    S = lambda name, **kw: ParagraphStyle(name, fontName=kw.pop("font", R), textColor=hexc(kw.pop("color", INK)), **kw)  # noqa: E731
+    st = {"h1": S("h1", font="InterDisplay-SemiBold", fontSize=12.5, leading=16, color=ACCENT, spaceBefore=4, spaceAfter=6),
+          "h2": S("h", font="InterDisplay-SemiBold", fontSize=13.5, leading=17, color=ACCENT),
+          "h2n": S("hn", font=SB, fontSize=8, leading=17, color=SERIES),
+          "h3": S("h3", font=SB, fontSize=8, leading=11, color=ACCENT),
+          "lead": S("ld", fontSize=8.5, leading=12, color=MUTED, spaceAfter=4),
+          "b": S("b", fontSize=9.2, leading=13.4, leftIndent=12, bulletIndent=0, spaceAfter=4.5, bulletFontName=SB, bulletFontSize=7, bulletColor=hexc(SERIES)),
+          "b1": S("b1", fontSize=8.9, leading=12.8, leftIndent=11, bulletIndent=0, spaceAfter=4, bulletFontName=SB, bulletFontSize=7, bulletColor=hexc(SERIES)),
+          "q": S("q", font=SB, fontSize=8.8, leading=12),
+          "verdict": S("v", font=MD, fontSize=9.6, leading=14),
+          "evh": S("eh", font=SB, fontSize=8.3, leading=11.5, spaceBefore=2, color="344054"),
+          "evb": S("eb", fontSize=8.3, leading=11.5, leftIndent=9, bulletIndent=0, color="344054", bulletColor=hexc(MUTED)),
+          "note": S("n", fontSize=8.5, leading=12, spaceBefore=6, color="344054"),
+          "small": S("s", fontSize=7, leading=9.5, color=MUTED, spaceBefore=3),
+          "srcn": S("srcn", fontSize=7.4, leading=10, color=MUTED, alignment=2), "src": S("src", fontSize=7.4, leading=10),
+          "cell": S("cell", fontSize=7.9, leading=10.4), "celln": S("celln", fontSize=7.9, leading=10.4, alignment=2),
+          "cellh": S("cellh", font=SB, fontSize=6.6, leading=9, color=MUTED),
+          "cellhn": S("cellhn", font=SB, fontSize=6.6, leading=9, color=MUTED, alignment=2),
+          "tl": S("tl", font=SB, fontSize=6.4, leading=8.5, color=MUTED),
+          "tv": S("tv", font="InterDisplay-SemiBold", fontSize=16, leading=19, color=ACCENT),
+          "td": S("td", fontSize=7, leading=9, color=MUTED),
+          "chip": S("chip", font=SB, fontSize=6.3, leading=8, alignment=1),
+          "sk": S("sk", font=SB, fontSize=6.4, leading=8.5, color=MUTED, spaceBefore=7),
+          "sv": S("sv", fontSize=8.2, leading=11.2),
+          "sh": S("sh", font=SB, fontSize=8.5, leading=11, color=ACCENT),
+          "si": S("si", font=SB, fontSize=7.6, leading=10, spaceBefore=6), "ss": S("ss", fontSize=7.2, leading=9.6, color=MUTED)}
+    W, PW, PH, M = 17.0 * cm, *A4, 2.0 * cm
+    SIDE, GAP = 5.4 * cm, 0.7 * cm
+    MAIN = W - SIDE - GAP
+    HEAD = 4.3 * cm  # pirmo puslapio antraštės aukštis nuo viršaus
+    cover = next((b for b in blocks if b[0] == "cover"), ("cover", "", "", "", "", ""))
+    flow, side, sec_no, width = [], [], 0, MAIN
 
-    def boxed(content, style):
-        tb = Table([[content]], colWidths=[W])
+    def boxed(content, style, w=None):
+        tb = Table([[content]], colWidths=[w or width])
         tb.setStyle(TableStyle(style))
         return tb
 
+    class FirstPageEnd(Flowable):
+        """Po santraukos - naujas puslapis, jei dar esame pirmame (santraukai užėjus į 2 psl., lūžio nedarome)."""
+        def wrap(self, aw, ah):
+            self._h = ah + 1 if self.canv.getPageNumber() == 1 else 0
+            return aw, self._h
+
+        def split(self, aw, ah):
+            return []
+
+        def draw(self):
+            pass
+
     for kind, *rest in blocks:
         if kind == "cover":
-            continue  # piešiama pirmo puslapio juostoje
-        if kind == "meta":
-            cells = [[Paragraph(esc(k).upper(), st["mk"]), Paragraph(segs_html(segs) or "–", st["mv"])] for k, segs in rest[0]]
-            tb = Table([cells], colWidths=[W / len(cells)] * len(cells))
-            tb.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 12),
-                                    ("TOPPADDING", (0, 0), (-1, -1), 0), ("BOTTOMPADDING", (0, 0), (-1, -1), 8),
-                                    ("LINEBELOW", (0, 0), (-1, -1), 0.5, hexc(LINE))]))
-            flow += [tb, Spacer(1, 10)]
+            continue  # piešiama pirmo puslapio antraštėje
+        if kind == "sidebar":
+            title, facts, held_title, held = rest
+            side.append(Paragraph(esc(title), st["sh"]))
+            for k, segs in facts:
+                side += [Paragraph(esc(k).upper(), st["sk"]), Paragraph(segs_html(segs) or "–", st["sv"])]
+            if held:
+                side += [Spacer(1, 12), Paragraph(esc(held_title), st["sh"])]
+                for isin, name, terms, er in held:
+                    side.append(Paragraph(esc(name), st["si"]))
+                    side.append(Paragraph(esc(isin) + (f"  ·  {esc(terms)}" if terms else ""), st["ss"]))
+                    if er:
+                        side.append(Paragraph(f'<font color="#{ACCENT}">{esc(er)}</font>', st["ss"]))
         elif kind == "verdict":
             fill, ink = VERDICT_FILL.get(rest[0], VERDICT_FILL["ok"])
             flow += [boxed(Paragraph(segs_html(rest[1]), st["verdict"]),
-                           [("BACKGROUND", (0, 0), (-1, -1), hexc(fill)), ("LINEBEFORE", (0, 0), (0, 0), 3.5, hexc(ink)),
+                           [("BACKGROUND", (0, 0), (-1, -1), hexc(fill)), ("LINEBEFORE", (0, 0), (0, 0), 3, hexc(ink)),
                             ("TOPPADDING", (0, 0), (-1, -1), 10), ("BOTTOMPADDING", (0, 0), (-1, -1), 11),
-                            ("LEFTPADDING", (0, 0), (-1, -1), 14), ("RIGHTPADDING", (0, 0), (-1, -1), 14)]), Spacer(1, 12)]
+                            ("LEFTPADDING", (0, 0), (-1, -1), 13), ("RIGHTPADDING", (0, 0), (-1, -1), 12)]), Spacer(1, 12)]
         elif kind == "tiles":
-            tiles, gap = rest[0], 0.35 * cm
-            tw = (W - gap * (len(tiles) - 1)) / len(tiles)
-            row, widths, style = [], [], [("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 10),
-                                          ("RIGHTPADDING", (0, 0), (-1, -1), 6), ("TOPPADDING", (0, 0), (-1, -1), 9), ("BOTTOMPADDING", (0, 0), (-1, -1), 10)]
+            tiles, gap = rest[0], 0.3 * cm
+            per_row = 2 if width < 14 * cm else len(tiles)
+            tw = (width - gap * (per_row - 1)) / per_row
+            grid, style = [], [("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 10),
+                               ("RIGHTPADDING", (0, 0), (-1, -1), 6), ("TOPPADDING", (0, 0), (-1, -1), 8), ("BOTTOMPADDING", (0, 0), (-1, -1), 9)]
             for i, (lb, v, d, per) in enumerate(tiles):
                 num, unit = tile_value(v)
-                cell = [Paragraph(esc(f"{lb}").upper() + f'<font color="#{LINE}">  ·  </font>{esc(per)}', st["tl"]), Spacer(1, 4),
-                        Paragraph(esc(num) + (f' <font size="9" color="#{MUTED}">{esc(unit)}</font>' if unit else ""), st["tv"]), Spacer(1, 2),
+                cell = [Paragraph(esc(lb).upper() + f'<font color="#{LINE}">  ·  </font>{esc(per)}', st["tl"]), Spacer(1, 4),
+                        Paragraph(esc(num) + (f' <font name="{R}" size="8.5" color="#{MUTED}">{esc(unit)}</font>' if unit else ""), st["tv"]), Spacer(1, 2),
                         Paragraph(esc(d) or "&nbsp;", st["td"])]
-                c = len(row)
-                row.append(cell)
-                widths.append(tw)
-                style += [("BACKGROUND", (c, 0), (c, 0), colors.white), ("BOX", (c, 0), (c, 0), 0.6, hexc(LINE)),
-                          ("LINEABOVE", (c, 0), (c, 0), 2.2, hexc(SERIES))]
-                if i < len(tiles) - 1:
-                    row.append("")
-                    widths.append(gap)
-                    style.append(("LEFTPADDING", (c + 1, 0), (c + 1, 0), 0))
-            tb = Table([row], colWidths=widths)
+                r, c = divmod(i, per_row)
+                if c == 0:
+                    if grid:
+                        grid.append([""] * (per_row * 2 - 1))  # tarpas tarp eilučių
+                    grid.append([""] * (per_row * 2 - 1))
+                ri, ci = len(grid) - 1, c * 2
+                grid[ri][ci] = cell
+                style += [("BACKGROUND", (ci, ri), (ci, ri), colors.white), ("BOX", (ci, ri), (ci, ri), 0.5, hexc(LINE)),
+                          ("LINEABOVE", (ci, ri), (ci, ri), 2, hexc(SERIES))]
+            widths = [tw if j % 2 == 0 else gap for j in range(per_row * 2 - 1)]
+            heights = [None if j % 2 == 0 else gap for j in range(len(grid))]
+            for j in range(len(grid)):
+                if j % 2:
+                    style += [("TOPPADDING", (0, j), (-1, j), 0), ("BOTTOMPADDING", (0, j), (-1, j), 0)]
+            tb = Table(grid, colWidths=widths, rowHeights=heights)
             tb.setStyle(TableStyle(style))
-            flow += [tb, Spacer(1, 4)]
+            flow += [tb, Spacer(1, 8)]
+        elif kind == "h1":
+            flow.append(Paragraph(esc(rest[0]), st["h1"]))
+        elif kind == "endfirst":
+            width = W
+            flow += [NextPageTemplate("later"), FirstPageEnd()]
         elif kind == "h2":
             sec_no += 1
-            tb = Table([[Paragraph(f"{sec_no:02d}", st["h2n"]), Paragraph(esc(rest[0]), st["h2"])]], colWidths=[0.85 * cm, W - 0.85 * cm])
+            tb = Table([[Paragraph(f"{sec_no:02d}", st["h2n"]), Paragraph(esc(rest[0]), st["h2"])]], colWidths=[0.8 * cm, width - 0.8 * cm])
             tb.setStyle(TableStyle([("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0), ("TOPPADDING", (0, 0), (-1, -1), 0),
                                     ("BOTTOMPADDING", (0, 0), (-1, -1), 5), ("VALIGN", (0, 0), (-1, -1), "BOTTOM"),
-                                    ("LINEBELOW", (0, 0), (-1, -1), 0.8, hexc(ACCENT))]))
-            gap = Spacer(1, 8)
+                                    ("LINEBELOW", (0, 0), (-1, -1), 0.6, hexc(LINE)), ("LINEBELOW", (0, 0), (0, 0), 1.6, hexc(SERIES))]))
+            gap = Spacer(1, 9)
             tb.keepWithNext = gap.keepWithNext = True
-            flow += [Spacer(1, 16), tb, gap]
+            flow += [Spacer(1, 18), tb, gap]
         elif kind == "h3":
-            tb = boxed(Paragraph(esc(rest[0]).upper(), st["h3"]), [("BACKGROUND", (0, 0), (-1, -1), hexc(ACCENT_LIGHT)),
-                                                                  ("LEFTPADDING", (0, 0), (-1, -1), 8), ("TOPPADDING", (0, 0), (-1, -1), 5),
-                                                                  ("BOTTOMPADDING", (0, 0), (-1, -1), 5)])
-            gap = Spacer(1, 4)
+            p = Paragraph(esc(rest[0]).upper(), st["h3"])
+            tb = boxed(p, [("LINEBEFORE", (0, 0), (0, 0), 2, hexc(ACCENT)), ("BACKGROUND", (0, 0), (-1, -1), hexc(PANEL)),
+                           ("LEFTPADDING", (0, 0), (-1, -1), 8), ("TOPPADDING", (0, 0), (-1, -1), 4.5), ("BOTTOMPADDING", (0, 0), (-1, -1), 4.5)])
+            gap = Spacer(1, 3)
             tb.keepWithNext = gap.keepWithNext = True
-            flow += [Spacer(1, 8), tb, gap]
+            flow += [Spacer(1, 9), tb, gap]
         elif kind == "image":
             img = Image(str(rest[0]))
-            img.drawWidth, img.drawHeight = W, W * img.imageHeight / img.imageWidth
+            img.drawWidth, img.drawHeight = width, width * img.imageHeight / img.imageWidth
             flow += [Spacer(1, 10), img]
         elif kind == "small":
             flow.append(Paragraph(esc(rest[0]), st["small"]))
@@ -775,20 +859,24 @@ def to_pdf(blocks, path, footer_text):
             flow.append(Paragraph(esc(rest[0]), st["lead"]))
         elif kind == "bullets":
             for segs in rest[0]:
-                flow.append(Paragraph(segs_html(segs), st["b"], bulletText="▪"))
+                flow.append(Paragraph(segs_html(segs), st["b1" if width < W else "b"], bulletText="●"))
         elif kind == "check":
             ok, q, pts = rest
-            mark = Paragraph(f'<font name="DejaVu" size="11" color="#{"1B7F3B" if ok else "9AA5B1"}">{"☑" if ok else "☐"}</font>', st["q"])
+            fill, ink, sym = ("E3F3E8", "1B7F3B", "✓") if ok else ("F0F2F5", "98A2B3", "–")
+            mark = Table([[Paragraph(f'<font color="#{ink}">{sym}</font>', S("mk", font=SB, fontSize=8, leading=10, alignment=1))]],
+                         colWidths=[0.42 * cm], rowHeights=[0.42 * cm])
+            mark.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, -1), hexc(fill)), ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                                      ("TOPPADDING", (0, 0), (-1, -1), 0.5), ("BOTTOMPADDING", (0, 0), (-1, -1), 0), ("VALIGN", (0, 0), (-1, -1), "MIDDLE")]))
             body = [Paragraph(esc(q), st["q"])]
             for lab, items in pts:
                 if lab:
-                    body.append(Paragraph(f'<font color="#{"B42318" if not items else "333333"}">{esc(lab)}</font>', st["evh"]))
+                    body.append(Paragraph(f'<font color="#{"B42318" if not items else "344054"}">{esc(lab)}</font>', st["evh"]))
                 for segs in items:
                     body.append(Paragraph(segs_html(segs), st["evb"], bulletText="•"))
-            tb = Table([[mark, body]], colWidths=[0.6 * cm, W - 0.6 * cm])
+            tb = Table([[mark, body]], colWidths=[0.7 * cm, width - 0.7 * cm])
             tb.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 0),
-                                    ("TOPPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
-                                    ("LINEBELOW", (0, 0), (-1, -1), 0.4, hexc("E3E8EE"))]))
+                                    ("TOPPADDING", (0, 0), (-1, -1), 6), ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+                                    ("LINEBELOW", (0, 0), (-1, -1), 0.4, hexc(HAIR))]))
             flow.append(tb)
         elif kind == "note":
             flow.append(Paragraph(f"<i>{esc(rest[0])}</i>", st["note"]))
@@ -796,16 +884,16 @@ def to_pdf(blocks, path, footer_text):
             flow.append(Paragraph(f"<b>{esc(rest[0])}</b> {segs_html(rest[1])}", st["note"]))
         elif kind == "news":
             data, style = [], [("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (-1, -1), 6),
-                               ("TOPPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, -1), 5), ("LINEBELOW", (0, 0), (-1, -1), 0.4, hexc("E3E8EE"))]
+                               ("TOPPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, -1), 5), ("LINEBELOW", (0, 0), (-1, -1), 0.4, hexc(HAIR))]
             for date, topic, tlabel, title, url, source, more in rest[0]:
                 fill, ink = TOPIC_INK.get(topic, TOPIC_INK["kita"])
                 chip = Table([[Paragraph(f'<font color="#{ink}">{esc(tlabel).upper()}</font>', st["chip"])]], colWidths=[2.1 * cm])
                 chip.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, -1), hexc(fill)), ("TOPPADDING", (0, 0), (-1, -1), 2), ("BOTTOMPADDING", (0, 0), (-1, -1), 2.5),
                                           ("LEFTPADDING", (0, 0), (-1, -1), 2), ("RIGHTPADDING", (0, 0), (-1, -1), 2)]))
                 head = f'<a href="{esc(url)}" color="#{INK}">{esc(title)}</a>'
-                tail = f'<font color="#{MUTED}" size="7.5">  {esc(source)}{"  ·  " + esc(more) if more else ""}</font>'
-                data.append([Paragraph(esc(date), st["cell"]), chip, Paragraph(head + tail, st["cell"])])
-            tb = Table(data, colWidths=[1.75 * cm, 2.35 * cm, W - 4.1 * cm])
+                tail = f'<font color="#{MUTED}" size="7">  {esc(source)}{"  ·  " + esc(more) if more else ""}</font>'
+                data.append([Paragraph(esc(date), S("nd", fontSize=7.6, leading=10.4, color=MUTED)), chip, Paragraph(head + tail, st["cell"])])
+            tb = Table(data, colWidths=[1.8 * cm, 2.4 * cm, width - 4.2 * cm])
             tb.setStyle(TableStyle(style))
             flow.append(tb)
         elif kind == "notes":
@@ -813,24 +901,25 @@ def to_pdf(blocks, path, footer_text):
             for n, title, pg, note, url, key, date in rest[0]:
                 desc = esc(title + (f", p. {pg}" if pg else "") + (f" ({note})" if note else "") + (f", {date}" if date else ""))
                 data.append([Paragraph(f"{n}.", st["srcn"]), Paragraph(f'<a href="{esc(url)}" color="#{SERIES}">{desc}</a>' if url else desc, st["src"])])
-            tb = Table(data, colWidths=[0.7 * cm, W - 0.7 * cm])
+            tb = Table(data, colWidths=[0.7 * cm, width - 0.7 * cm])
             tb.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"), ("LEFTPADDING", (0, 0), (-1, -1), 0), ("RIGHTPADDING", (0, 0), (0, -1), 5),
                                     ("TOPPADDING", (0, 0), (-1, -1), 1), ("BOTTOMPADDING", (0, 0), (-1, -1), 1.5)]))
             flow += [tb, Spacer(1, 6)]
         elif kind == "table":
             header, rows, widths, opts = rest
             num = set(opts.get("num", []))
-            widths = [w * W / sum(widths) for w in widths]
+            widths = [w * width / sum(widths) for w in widths]
             data = [[Paragraph(esc(h).upper(), st["cellhn" if i in num else "cellh"]) for i, h in enumerate(header)]]
-            style = [("BACKGROUND", (0, 0), (-1, 0), hexc(ACCENT_LIGHT)), ("LINEABOVE", (0, 0), (-1, 0), 1.2, hexc(ACCENT)),
-                     ("LINEBELOW", (0, 0), (-1, -1), 0.4, hexc("DDE3EA")), ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                     ("LEFTPADDING", (0, 0), (-1, -1), 5), ("RIGHTPADDING", (0, 0), (-1, -1), 5),
-                     ("TOPPADDING", (0, 0), (-1, -1), 4.5), ("BOTTOMPADDING", (0, 0), (-1, -1), 4.5)]
+            style = [("LINEBELOW", (0, 0), (-1, 0), 0.9, hexc(ACCENT)), ("LINEBELOW", (0, 1), (-1, -1), 0.4, hexc(HAIR)),
+                     ("VALIGN", (0, 0), (-1, -1), "TOP"), ("VALIGN", (0, 0), (-1, 0), "BOTTOM"),
+                     ("LEFTPADDING", (0, 0), (-1, -1), 5), ("RIGHTPADDING", (0, 0), (-1, -1), 5), ("LEFTPADDING", (0, 0), (0, -1), 0),
+                     ("TOPPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, -1), 5), ("BOTTOMPADDING", (0, 0), (-1, 0), 4)]
             for ri, row in enumerate(rows, start=1):
                 line = []
                 for i, v in enumerate(row):
                     if isinstance(v, tuple) and v[0] == "status":
                         style.append(("BACKGROUND", (i, ri), (i, ri), hexc(STATUS_FILL.get(v[1], "FFFFFF"))))
+                        style.append(("LEFTPADDING", (i, ri), (i, ri), 5))
                         line.append(Paragraph(f"<b>{esc(v[2])}</b>", st["cell"]))
                     elif isinstance(v, tuple) and v[0] == "styled":
                         if v[2]:
@@ -845,75 +934,110 @@ def to_pdf(blocks, path, footer_text):
             tb.setStyle(TableStyle(style))
             flow += [tb, Spacer(1, 4)]
 
-    PW, PH = A4
-    BAND = 4.1 * cm
+    def pill(canvas, x_right, y, label, status, size=8):
+        fill, ink = VERDICT_FILL.get(status, VERDICT_FILL["ok"])
+        canvas.setFont(SB, size)
+        w = canvas.stringWidth(label, SB, size) + 0.85 * cm
+        x = x_right - w
+        canvas.setFillColor(hexc(fill))
+        canvas.roundRect(x, y, w, 0.66 * cm, 0.33 * cm, stroke=0, fill=1)
+        canvas.setFillColor(hexc(ink))
+        canvas.circle(x + 0.36 * cm, y + 0.33 * cm, 0.085 * cm, stroke=0, fill=1)
+        canvas.drawString(x + 0.58 * cm, y + 0.235 * cm, label)
 
     def first(canvas, doc):
         canvas.saveState()
         canvas.setFillColor(hexc(ACCENT))
-        canvas.rect(0, PH - BAND, PW, BAND, stroke=0, fill=1)
+        canvas.rect(0, PH - 0.32 * cm, PW, 0.32 * cm, stroke=0, fill=1)
         canvas.setFillColor(hexc(SERIES))
-        canvas.rect(0, PH - BAND - 0.12 * cm, PW, 0.12 * cm, stroke=0, fill=1)
-        canvas.setFillColor(hexc("AFC6DD"))
-        canvas.setFont("Carlito-Bold", 8.5)
-        canvas.drawString(2 * cm, PH - 1.45 * cm, cover[2].upper())
-        canvas.setFillColor(colors.white)
-        size = 28 if canvas.stringWidth(cover[1], "Carlito-Bold", 28) < 12.5 * cm else 22
-        canvas.setFont("Carlito-Bold", size)
-        canvas.drawString(2 * cm, PH - 2.75 * cm, cover[1])
-        if cover[4]:  # verdikto ženklelis
-            fill, ink = VERDICT_FILL.get(cover[3], VERDICT_FILL["ok"])
-            canvas.setFont("Carlito-Bold", 9.5)
-            w = canvas.stringWidth(cover[4].upper(), "Carlito-Bold", 9.5) + 0.9 * cm
-            x, y = PW - 2 * cm - w, PH - 2.85 * cm
-            canvas.setFillColor(hexc(fill))
-            canvas.roundRect(x, y, w, 0.72 * cm, 0.36 * cm, stroke=0, fill=1)
-            canvas.setFillColor(hexc(ink))
-            canvas.circle(x + 0.38 * cm, y + 0.36 * cm, 0.09 * cm, stroke=0, fill=1)
-            canvas.drawString(x + 0.6 * cm, y + 0.25 * cm, cover[4].upper())
+        canvas.rect(M, PH - 0.32 * cm - 0.08 * cm, 2.2 * cm, 0.08 * cm, stroke=0, fill=1)
+        canvas.setFillColor(hexc(SERIES))
+        canvas.setFont(SB, 7.5)
+        canvas.drawString(M, PH - 1.45 * cm, cover[2].upper())
+        canvas.setFillColor(hexc(ACCENT))
+        size = 28
+        while size > 18 and canvas.stringWidth(cover[1], "InterDisplay-Bold", size) > 12.2 * cm:
+            size -= 1
+        canvas.setFont("InterDisplay-Bold", size)
+        canvas.drawString(M, PH - 2.55 * cm, cover[1])
+        if cover[5]:
+            canvas.setFillColor(hexc(MUTED))
+            canvas.setFont(R, 8.5)
+            canvas.drawString(M, PH - 3.2 * cm, cover[5][:110])
+        if cover[4]:
+            pill(canvas, PW - M, PH - 2.6 * cm, cover[4].upper(), cover[3])
+        canvas.setStrokeColor(hexc(LINE))
+        canvas.setLineWidth(0.6)
+        canvas.line(M, PH - 3.65 * cm, PW - M, PH - 3.65 * cm)
+        # šoninės juostos fonas
+        canvas.setFillColor(hexc(PANEL))
+        canvas.rect(PW - M - SIDE, M, SIDE, PH - HEAD - M, stroke=0, fill=1)
+        canvas.setFillColor(hexc(ACCENT))
+        canvas.rect(PW - M - SIDE, PH - HEAD - 0.06 * cm, SIDE, 0.06 * cm, stroke=0, fill=1)
         canvas.restoreState()
-        footer(canvas, doc)
+        footer(canvas)
 
     def later(canvas, doc):
         canvas.saveState()
-        canvas.setFont("Carlito-Bold", 8)
         canvas.setFillColor(hexc(ACCENT))
-        canvas.drawString(2 * cm, PH - 1.15 * cm, cover[1])
-        canvas.setFont("Carlito", 8)
+        canvas.rect(0, PH - 0.16 * cm, PW, 0.16 * cm, stroke=0, fill=1)
+        canvas.setFont(SB, 7.5)
+        canvas.drawString(M, PH - 1.15 * cm, cover[1])
+        canvas.setFont(R, 7.5)
         canvas.setFillColor(hexc(MUTED))
-        canvas.drawRightString(PW - 2 * cm, PH - 1.15 * cm, cover[2])
+        canvas.drawRightString(PW - M, PH - 1.15 * cm, cover[2])
         canvas.setStrokeColor(hexc(LINE))
         canvas.setLineWidth(0.5)
-        canvas.line(2 * cm, PH - 1.35 * cm, PW - 2 * cm, PH - 1.35 * cm)
+        canvas.line(M, PH - 1.38 * cm, PW - M, PH - 1.38 * cm)
         canvas.restoreState()
-        footer(canvas, doc)
+        footer(canvas)
 
-    def footer(canvas, doc):
+    def footer(canvas):
         canvas.saveState()
         canvas.setStrokeColor(hexc(LINE))
         canvas.setLineWidth(0.5)
-        canvas.line(2 * cm, 1.45 * cm, PW - 2 * cm, 1.45 * cm)
-        canvas.setFont("Carlito", 7.5)
+        canvas.line(M, 1.45 * cm, PW - M, 1.45 * cm)
+        canvas.setFont(R, 6.8)
         canvas.setFillColor(hexc(MUTED))
-        canvas.drawString(2 * cm, 1.0 * cm, footer_text)
-        canvas.setFont("Carlito-Bold", 8)
-        canvas.setFillColor(hexc(ACCENT))
-        canvas.drawRightString(PW - 2 * cm, 1.0 * cm, str(doc.page))
+        canvas.drawString(M, 1.0 * cm, footer_text)
         canvas.restoreState()
 
-    doc = BaseDocTemplate(str(path), pagesize=A4, leftMargin=2 * cm, rightMargin=2 * cm, topMargin=2 * cm, bottomMargin=2 * cm,
+    class NumberedCanvas(Canvas):
+        """Puslapio numeris „X / Y“ (bendras puslapių skaičius žinomas tik pabaigoje)."""
+        def __init__(self, *a, **kw):
+            super().__init__(*a, **kw)
+            self._pages = []
+
+        def showPage(self):
+            self._pages.append(dict(self.__dict__))
+            self._startPage()
+
+        def save(self):
+            n = len(self._pages)
+            for state in self._pages:
+                self.__dict__.update(state)
+                self.setFont(SB, 7.2)
+                self.setFillColor(hexc(ACCENT))
+                self.drawRightString(PW - M, 1.0 * cm, f"{self._pageNumber} / {n}")
+                super().showPage()
+            super().save()
+
+    doc = BaseDocTemplate(str(path), pagesize=A4, leftMargin=M, rightMargin=M, topMargin=M, bottomMargin=M,
                           title=f"{cover[1]} · {cover[2]}", author="issuers-review")
-    f1 = Frame(2 * cm, 2 * cm, W, PH - BAND - 0.8 * cm - 2 * cm, id="f1", leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-    f2 = Frame(2 * cm, 2 * cm, W, PH - 2 * cm - 2 * cm, id="f2", leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-    doc.addPageTemplates([PageTemplate("first", [f1], onPage=first, autoNextPageTemplate="later"), PageTemplate("later", [f2], onPage=later)])
-    doc.build(flow)
+    top = PH - HEAD - 0.45 * cm
+    fs = Frame(PW - M - SIDE, M, SIDE, top - M, id="side", leftPadding=12, rightPadding=10, topPadding=4, bottomPadding=8)
+    fm = Frame(M, M, MAIN, PH - HEAD - M, id="main", leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+    f2 = Frame(M, M, W, PH - 2 * M, id="f2", leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+    doc.addPageTemplates([PageTemplate("first", [fs, fm], onPage=first, autoNextPageTemplate="later"), PageTemplate("later", [f2], onPage=later)])
+    side_box = KeepInFrame(SIDE - 22, top - M - 12, side or [Spacer(1, 1)], mode="shrink")
+    doc.build([side_box, FrameBreak()] + flow, canvasmaker=NumberedCanvas)
 
 
 # ---------- paleidimas ----------
 def inputs_hash(issuer, rep):
     """Failai perkuriami tik pasikeitus jų šaltiniams (kitaip kiekvienas paleidimas keistų dvejetainius failus)."""
     h = hashlib.sha1()
-    for p in [rep["_file"], C.DATA / "history" / f"{issuer}.csv", C.DATA / "sanctions.json", Path(__file__), Path(C.__file__), *sorted(C.CONFIG.glob("*"))]:
+    for p in [rep["_file"], C.DATA / "history" / f"{issuer}.csv", C.DATA / "sanctions.json", C.DATA / "market.csv", C.DATA / "news.csv", Path(__file__), Path(C.__file__), *sorted(C.CONFIG.glob("*"))]:
         if Path(p).exists():
             h.update(Path(p).read_bytes())
     return h.hexdigest()

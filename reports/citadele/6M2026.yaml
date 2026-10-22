@@ -140,3 +140,10 @@ press:
     en: "**Bonds:** on 2026-09-29 Citadele placed a EUR 50m bond issue, oversubscribed 1.35 times [N1; N2]."
   - lt: "**Klientų saugumas:** spalį bankas įspėjo apie naujas sukčių veiklas (apsimetama banko darbuotojais) – tai įspėjimai klientams, ne pažeidimai [N3]."
     en: "**Customer safety:** in October the bank warned of new fraud schemes (impersonating bank staff) – customer warnings, not breaches [N3]."
+market:
+  - lt: "**Marža siaurėja:** grynosios palūkanų pajamos 89,5 mln. EUR (beveik nepakito), NIM 3,7 % (3,8 %) dėl mažesnio vidutinio Euribor, kurį kompensavo paskolų augimas [C1 p.6]. Išlaidos +5 % dėl konsultacijų, IT ir komunikacijos [C1 p.6]."
+    en: "**Margin narrowing:** net interest income EUR 89.5m (flat), NIM 3.7% (3.8%) due to lower average Euribor, offset by loan growth [C1 p.6]. Costs +5% on consulting, IT and communications [C1 p.6]."
+  - lt: "**Makro aplinka:** ECB birželį padidino indėlių normą 0,25 p. p. iki 2,25 %; rinkos nepaneigia tolesnio didinimo [C1 p.9]. 2026 m. BVP prognozės: Latvija 1,8 %, Lietuva 2,9 %, Estija 2,2 %; infliacija Lietuvoje 5,8 % [C1 p.10]."
+    en: "**Macro:** the ECB raised the deposit rate by 25 bp to 2.25% in June; markets do not exclude further hikes [C1 p.9]. 2026 GDP forecasts: Latvia 1.8%, Lithuania 2.9%, Estonia 2.2%; Lithuanian inflation 5.8% [C1 p.10]."
+  - lt: "**Perspektyva:** „aukštesnės ilgiau“ palūkanos ir toliau formuos Baltijos ekonomikų perspektyvą [C1 p.4]."
+    en: "**Outlook:** higher-for-longer interest rates will continue to shape the Baltic outlook [C1 p.4]."

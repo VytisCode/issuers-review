@@ -73,3 +73,22 @@ topic_dividendai: {lt: "Dividendai", en: "Dividends", lv: "Dividendes", et: "Div
 topic_sandoris:   {lt: "Sandoris", en: "Deal", lv: "Darījums", et: "Tehing"}
 topic_kita:       {lt: "Kita", en: "Other", lv: "Cits", et: "Muu"}
 topic_review:     {lt: "Dėmesio", en: "Attention", lv: "Uzmanību", et: "Tähelepanu"}
+market:           {lt: "Rinka ir aplinka", en: "Market and environment", lv: "Tirgus un vide", et: "Turg ja keskkond"}
+market_note:      {lt: "Euro zonos palūkanos ir infliacija (ECB duomenys, mėnesio pabaigos reikšmė; Euribor ir infliacija – mėnesio vidurkis). Svarbu kintamų palūkanų ir perkainojamoms (reset) obligacijoms bei refinansavimo kaštams.", en: "Euro area rates and inflation (ECB data, end-of-month value; Euribor and inflation – monthly average). Relevant for floating-rate and reset bonds and refinancing costs.", lv: "Eirozonas likmes un inflācija (ECB dati).", et: "Euroala intressid ja inflatsioon (EKP andmed)."}
+market_now:       {lt: "Dabar", en: "Now", lv: "Tagad", et: "Praegu"}
+market_3m:        {lt: "Prieš 3 mėn.", en: "3 months ago", lv: "Pirms 3 mēn.", et: "3 kuud tagasi"}
+market_12m:       {lt: "Prieš 12 mėn.", en: "12 months ago", lv: "Pirms 12 mēn.", et: "12 kuud tagasi"}
+market_chg:       {lt: "Pokytis per 12 mėn.", en: "12-month change", lv: "Izmaiņas 12 mēn.", et: "Muutus 12 kuuga"}
+mk_ecb_dfr:       {lt: "ECB indėlių palūkanų norma", en: "ECB deposit facility rate", lv: "ECB noguldījumu likme", et: "EKP hoiustamise määr"}
+mk_euribor_3m:    {lt: "3 mėn. Euribor", en: "3-month Euribor", lv: "3 mēn. Euribor", et: "3 kuu Euribor"}
+mk_euribor_6m:    {lt: "6 mėn. Euribor", en: "6-month Euribor", lv: "6 mēn. Euribor", et: "6 kuu Euribor"}
+mk_euribor_12m:   {lt: "12 mėn. Euribor", en: "12-month Euribor", lv: "12 mēn. Euribor", et: "12 kuu Euribor"}
+mk_ea_10y:        {lt: "Euro zonos AAA vyriausybių 10 m. pajamingumas", en: "Euro area AAA government 10-year yield", lv: "Eirozonas AAA valdību 10 g. ienesīgums", et: "Euroala AAA valitsuste 10 a tootlus"}
+mk_ea_hicp:       {lt: "Euro zonos infliacija (SVKI, metinė)", en: "Euro area inflation (HICP, annual)", lv: "Eirozonas inflācija (SPCI)", et: "Euroala inflatsioon (THI)"}
+key_facts:        {lt: "Pagrindinė informacija", en: "Key facts", lv: "Galvenā informācija", et: "Põhiandmed"}
+country:          {lt: "Šalis", en: "Country", lv: "Valsts", et: "Riik"}
+held_short:       {lt: "Turimi vertybiniai popieriai", en: "Securities held", lv: "Turētie vērtspapīri", et: "Hoitavad väärtpaberid"}
+country_LT:       {lt: "Lietuva", en: "Lithuania", lv: "Lietuva", et: "Leedu"}
+country_LV:       {lt: "Latvija", en: "Latvia", lv: "Latvija", et: "Läti"}
+country_EE:       {lt: "Estija", en: "Estonia", lv: "Igaunija", et: "Eesti"}
+country_FI:       {lt: "Suomija", en: "Finland", lv: "Somija", et: "Soome"}

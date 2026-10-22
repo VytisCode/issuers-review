@@ -128,3 +128,10 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra."
     en: "No exclusions or red flags."
+market:
+  - lt: "**Euribor kilo:** 6 mėn. Euribor per III ketv. pakilo nuo maždaug 2,6 % iki 3,1 %; bankas tai sieja su Artimųjų Rytų konfliktais, kurie kėlė energijos kainas ir infliaciją, ECB vėl didino palūkanas, o rinka tikisi, kad jos ilgiau išliks aukštos [B1 p.5]."
+    en: "**Euribor rose:** 6-month Euribor rose from about 2.6% to 3.1% in Q3; the bank links this to Middle East conflicts that pushed up energy prices and inflation, another ECB hike, and expectations of higher-for-longer rates [B1 p.5]."
+  - lt: "**Pajamos ir kokybė:** III ketv. grynosios palūkanų pajamos 33,8 mln. EUR (+23,7 %); kredito nuostolių sąnaudos 2,2 mln. EUR (–9,7 %), 3 etapo paskolos sumažėjo iki 3,0 % portfelio [B1 p.5, p.7]. Paskolų paklausa stabili, Baltijos perspektyva – vidutiniškai teigiama [B1 p.5]."
+    en: "**Income and quality:** Q3 net interest income EUR 33.8m (+23.7%); credit-loss charge EUR 2.2m (-9.7%), stage 3 loans down to 3.0% of the book [B1 p.5, p.7]. Loan demand stable, Baltic outlook moderately positive [B1 p.5]."
+  - lt: "**Sąnaudos:** darbo užmokesčio išlaidos +24 %, darbuotojų +20 % (741) – plečiamos kasdienės bankininkystės paslaugos [B1 p.6]."
+    en: "**Costs:** payroll +24% and headcount +20% (741) as everyday-banking services are launched [B1 p.6]."

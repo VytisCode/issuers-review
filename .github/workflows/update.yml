@@ -36,10 +36,12 @@ jobs:
           python -u tools/sync_isins.py
           python -u tools/lookup_isins.py
 
-      - name: Market rates (ECB, free public data)
+      - name: Market rates (ECB) and bond quotes (Nasdaq Baltic), free public data
         if: github.event_name != 'push'
         continue-on-error: true
-        run: python -u tools/fetch_market.py
+        run: |
+          python -u tools/fetch_market.py
+          python -u tools/fetch_prices.py
 
       - name: News (Google News RSS)
         if: github.event_name != 'push'

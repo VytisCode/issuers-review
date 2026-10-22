@@ -44,6 +44,7 @@ def texts(rep, lang):
         "financials": [h(x, True) for x in rep.get("financials", [])],
         "investor": [h(x, True) for x in rep.get("investor", [])],
         "press": [h(x, True) for x in rep.get("press", [])],
+        "market": [h(x, True) for x in rep.get("market", [])],
         "plans": [{"plan": h(p["plan"]), "outcome": h(C.tr(p["outcome"], lang) + (f" [{p['src']}]" if p.get("src") else "")),
                    "why": h(p.get("why", "")), "status": p["status"]}
                   for p in rep.get("plans", [])],
@@ -67,6 +68,8 @@ def main():
            "status": C.load_json(C.DATA / "source_status.json"), "issuers": [], "securities": secs,
            "metrics": {lg: {k: C.tr(v, lg) for k, v in M.items()} for lg in SITE_LANGS},
            "news": news[:600],
+           "market": [{"id": sid, "label": {lg: C.tr(C.i18n()["mk_" + sid], lg) for lg in SITE_LANGS}, "last": last, "now": now, "m3": m3, "m12": m12, "src": src}
+                      for sid, last, now, m3, m12, src in C.market_table()],
            # svarbiausios naujienos (30 d.): tos pačios temos pranešimai sujungti, „kita“ tema nerodoma, nebent antraštėje neigiamas žodis
            "news_highlights": {lg: [d for d in C.news_digest(None, days=30, lang=lg)[0] if d["topic"] != "kita"][:40] for lg in SITE_LANGS},
            "filings": [f for f in filings if f.get("baseline") != "yes"]}
