@@ -78,17 +78,22 @@ def main():
     out = {}
     for key, iss in C.issuers().items():
         terms = [norm(t) for t in iss.get("news_match", [])] or [norm(iss["name"])]
-        res, matches, mentions = {}, [], []
+        excl = [norm(x["name"]) for x in iss.get("sanctions_exclude", [])]
+        res, matches, mentions, excluded = {}, [], [], set()
         for name, d in data.items():
             if d is None:
                 res[name] = "error"
                 continue
             nm, full = d
+            for ex in excl:  # bendravardžiai - išimami prieš paiešką
+                if f" {ex} " in nm:
+                    excluded.add(f"{name}: {ex}")
+                nm, full = nm.replace(f" {ex} ", " "), full.replace(f" {ex} ", " ")
             hit = [t for t in terms if f" {t} " in nm]
             res[name] = "found" if hit else "not_found"
             matches += [f"{name}: {snippet(nm, t)}" for t in hit]
             mentions += [f"{name}: …{snippet(full, t)}…" for t in terms if t not in hit and f" {t} " in full]
-        out[key] = {"date": C.TODAY, "lists": res, "matches": matches, "mentions": mentions}
+        out[key] = {"date": C.TODAY, "lists": res, "matches": matches, "mentions": mentions, "excluded": sorted(excluded)}
         print(key, res, matches, mentions)
     C.save_json(C.DATA / "sanctions.json", out)
 

@@ -140,9 +140,12 @@ def esg_items(rep):
                 "en": f"**Possible match – review:** {hit} (automatic check {s['date']}).",
                 "lt": f"**Galimas atitikmuo – peržiūrėti:** {hit} (automatinė patikra {s['date']})."}}
         else:
+            ex = [x for x in issuers().get(rep.get("issuer"), {}).get("sanctions_exclude", [])
+                  if any(e.endswith(": " + re.sub(r"\s+", " ", x["name"].lower())) for e in s.get("excluded", []))]
+            nb = {lg: "".join(f" Namesake on the lists: {x.get('en', x['name'])}." if lg == "en" else f" Bendravardis sąrašuose: {x.get('lt', x['name'])}." for x in ex) for lg in ("en", "lt")}
             items["sanctions"] = {"status": "yes", "evidence": {
-                "en": f"Not found on the {names} consolidated sanctions lists (automatic check {s['date']}).",
-                "lt": f"Nerasta {names} konsoliduotuose sankcijų sąrašuose (automatinė patikra {s['date']})."}}
+                "en": f"Not found on the {names} consolidated sanctions lists (automatic check {s['date']}).{nb['en']}",
+                "lt": f"Nerasta {names} konsoliduotuose sankcijų sąrašuose (automatinė patikra {s['date']}).{nb['lt']}"}}
     return items
 
 
