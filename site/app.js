@@ -155,7 +155,7 @@
       if (soon) chips.push(`<span class="chip info">${soon} ${t("within12")}</span>`);
       if (i.esg_review) chips.push(`<span class="chip info">${i.esg_review} ${t("esgReview")}</span>`);
       h += `<article class="card"><h3><a href="#issuer/${i.id}">${esc(i.name)}</a> <span class="flagc">${esc(i.country)}</span></h3>
-        <p class="muted" style="margin:0 0 8px">${esc(i.sector)}</p>${tiles(i)}
+        <p class="muted" style="margin:0 0 8px">${esc(i.sector)}</p>${T(i).verdict ? `<div class="verdict sm v-${i.verdict || "ok"}">${T(i).verdict}</div>` : ""}${tiles(i)}
         <div class="kv"><span>${t("rating")}</span><b>${esc(i.rating_plain)}</b><span>${t("lastAnalysis")}</span><b>${esc(i.period)} · ${esc(i.analysis_date)}</b>
         <span>${t("nextReport")}</span><b>${esc(i.calendar)}</b><span>${t("instruments")}</span><b>${secs.map(s => esc(s.isin)).join(", ")}</b></div>
         <div>${chips.join("") || `<span class="chip good">${t("nothingNew")}</span>`}</div>
@@ -176,15 +176,18 @@
       <a class="btn" href="${issueUrl("Analysis: " + i.name, "Update the " + i.name + " review using the latest report.\n\n(Created from the dashboard)")}" target="_blank" rel="noopener">${t("requestAnalysis")}</a>
       <a class="btn" href="${esc(i.ir_page)}" target="_blank" rel="noopener">${t("issuerReports")}</a></div>`;
     if (i.new_filings.length) h += `<div class="note"><b>${t("newReport")}:</b><ul class="b">${i.new_filings.map(f => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title)}</a> <span class="muted">(${esc(f.first_seen)})</span></li>`).join("")}</ul></div>`;
+    if (X.verdict) h += `<div class="verdict v-${i.verdict || "ok"}">${X.verdict}</div>`;
     h += tiles(i);
     h += `<h2>${t("quick")}</h2><ul class="b">${(X.summary || []).map(s => `<li>${s}</li>`).join("")}</ul>`;
     h += `<h2>${t("instruments")}</h2><div class="tbl-wrap"><table><tr><th>${t("isinCol")}</th><th>${t("instrument")}</th><th>${t("heldCol")}</th><th class="n">${t("coupon")}</th><th>${t("maturity")}</th><th>${t("status")}</th><th>${t("note")}</th></tr>${secs.map(secRow).join("")}</table></div>`;
-    h += `<h2>${t("keyRatios")}</h2><div class="tbl-wrap"><table><tr><th>${t("metric")}</th>${i.periods.map(p => `<th class="n">${p}</th>`).join("")}<th class="n">${t("change")}</th></tr>`;
+    const rk = i.ratios.filter(m => i.history[m]);
+    const shown = i.periods.filter(p => rk.filter(m => i.history[m][p]).length * 2 >= rk.length);
+    h += `<h2>${t("keyRatios")}</h2><div class="tbl-wrap"><table><tr><th>${t("metric")}</th>${shown.map(p => `<th class="n">${p}</th>`).join("")}<th class="n">${t("change")}</th></tr>`;
     i.ratios.forEach(m => {
       const J = (i.judge || {})[m] || {};
       const v = i.history[m]; if (!v) return;
       const u = Object.values(v)[0].u;
-      h += `<tr><td>${esc(M(m))}${unitLbl(u) ? ", " + unitLbl(u) : ""}</td>${i.periods.map(p => {
+      h += `<tr><td>${esc(M(m))}${unitLbl(u) ? ", " + unitLbl(u) : ""}</td>${shown.map(p => {
         const r = v[p]; if (!r) return '<td class="n">–</td>';
         const url = i.src_urls[r.s] ? i.src_urls[r.s] + (r.pg && /\.pdf/i.test(i.src_urls[r.s]) ? "#page=" + parseInt(r.pg) : "") : "";
         const val = `${fmt(r.v, u)}${r.ok === "check" ? "*" : r.ok === "calc" ? "ᶜ" : ""}`;

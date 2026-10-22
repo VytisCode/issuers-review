@@ -39,6 +39,11 @@ jobs:
         continue-on-error: true
         run: python -u tools/check_filings.py
 
+      - name: Sanctions lists (EU, UN, US OFAC, UK)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python -u tools/check_sanctions.py
+
       - name: Build Word / PDF / Excel
         run: python -u tools/build_reports.py
 

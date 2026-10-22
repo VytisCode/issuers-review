@@ -7,3 +7,6 @@ languages: [lt, en]
 formats: [docx, pdf, xlsx]
 # site_lang: dashboard kalba
 site_lang: lt
+# isin_store_url: Google Apps Script programėlės adresas (tools/google/isin_store.gs). Kai įrašytas, dashboard'e
+#   ISIN sąrašą gali redaguoti bet kas, turintis svetainės nuorodą (ir PIN, jei nustatytas), o įrankis jį sinchronizuoja.
+isin_store_url: ""

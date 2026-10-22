@@ -3,9 +3,10 @@
 issuer: port-of-tallinn
 period: 6M2026
 analysis_date: 2026-10-22
-prepared_by: Claude (automatiškai), peržiūri analitikas
+prepared_by: Claude (automatiškai)
 next_report: "Q3 2026 results - expected November 2026"
-rating: "Credit rating not found in public sources reviewed - check [P5]"
+rating: "No public credit rating found [P5]"
+verdict: {status: watch, lt: "**Verta stebėti.** Balansas tvirtas (grynoji skola 2,78x EBITDA, nuosavas kapitalas 59,8 % turto) [P1]. Tačiau 2026 m. 6 mėn. grynasis pelnas sumažėjo 41,7 % dėl brangesnio kuro ir remontų, todėl kitų metų dividendų bazė gali būti mažesnė [P1 p.4; P2].", en: "**Worth watching.** The balance sheet is strong (net debt 2.78x EBITDA, equity 59.8% of assets) [P1]. But 6M 2026 net profit fell 41.7% on higher fuel and repair costs, so next year's dividend base may be smaller [P1 p.4; P2]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, adj_ebitda, adj_ebitda_margin, operating_profit, net_profit, investments, net_debt, nd_ebitda, equity_ratio, cargo, passengers, dps]
 # highlights - rodiklių kortelės ataskaitos viršuje; charts - diagramos (naujausias laikotarpis lyginamas su atitinkamu ankstesniu)
@@ -58,8 +59,8 @@ business:
     en: "Cruise passengers +47.8%, cruise ship calls +29.3% (6M) [P1]."
     lv: "Kruīzu pasažieri +47,8 %, kruīza kuģu ienākšanas +29,3 % (6 mēn.) [P1]."
     et: "Kruiisireisijad +47,8%, kruiisilaevade külastused +29,3% (6 kuud) [P1]."
-  - lt: "Keltai (Saaremaa, Hiiumaa): II ketv. reisai +1,2 %, keleiviai +1,8 %; vasarai sutarta dėl papildomų kelto „Regula“ reisų [P1 – patikrinti]. Ledlaužio „Botnica“ frachtas 130 d. (110 d.) [P1]."
-    en: "Ferries (Saaremaa, Hiiumaa): Q2 trips +1.2%, passengers +1.8%; additional trips of ferry Regula agreed for summer [P1 - verify]. Icebreaker Botnica charter 130 days (110) [P1]."
+  - lt: "Keltai (Saaremaa, Hiiumaa): II ketv. reisai +1,2 %, keleiviai +1,8 %; vasarai sutarta dėl papildomų kelto „Regula“ reisų [P1]. Ledlaužio „Botnica“ frachtas 130 d. (110 d.) [P1]."
+    en: "Ferries (Saaremaa, Hiiumaa): Q2 trips +1.2%, passengers +1.8%; additional trips of ferry Regula agreed for summer [P1]. Icebreaker Botnica charter 130 days (110) [P1]."
     lv: "Prāmji (Sāremā, Hījumā): 2. cet. reisi +1,2 %, pasažieri +1,8 %; vasarai saskaņoti papildu prāmja „Regula“ reisi [P1 – pārbaudīt]. Ledlauža „Botnica“ frakts 130 d. (110 d.) [P1]."
     et: "Parvlaevad (Saaremaa, Hiiumaa): II kv reisid +1,2%, reisijad +1,8%; suveks lepiti kokku parvlaeva Regula lisareisid [P1 – kontrollida]. Jäämurdja Botnica prahtimine 130 päeva (110) [P1]."
   - lt: "Segmentai (6 mėn., pajamos / koreg. EBITDA, mln. EUR): keleivių uostai 18,9 / 9,6; krovinių uostai 15,8 / 7,3; keltai 18,6 / 5,9; kita 5,9 / 3,1 [P1 p.9]."
@@ -88,7 +89,7 @@ plans:
     src: "P3; P1 p.14"
     why: {lt: "Įvykdyta: išmokėta 85 % pelno, kai politika – ≥70 %. Tačiau 2026 m. 6 mėn. pelnas sumažėjo iki 6,0 mln. EUR (10,3 mln.) dėl kuro ir remonto sąnaudų bei mažesnių skystų krovinių, todėl kitų metų dividendų bazė gali būti mažesnė [P1; P2].", en: "Met: 85% payout versus the ≥70% policy. But 6M 2026 profit fell to EUR 6.0m (10.3m) on fuel and repair costs and lower liquid bulk, so next year's dividend base may be smaller [P1; P2]."}
   - plan: {lt: "1 ir 2 apimties emisijos −55 % iki 2030 m. (bazė 2019 m. – 33 086 t CO2e), klimatui neutrali veikla iki 2050 m.", en: "Scope 1+2 emissions −55% by 2030 (2019 base 33,086 t CO2e), climate-neutral operations by 2050", lv: "1. un 2. tvēruma emisijas −55 % līdz 2030. g. (2019. g. bāze – 33 086 t CO2e), klimatneitrāla darbība līdz 2050. g.", et: "1. ja 2. ulatuse heide −55% aastaks 2030 (2019 baas 33 086 t CO2e), kliimaneutraalne tegevus aastaks 2050"}
-    outcome: {lt: "2025 m. – 19 261 t CO2e (−41,8 % nuo 2019 m.; apskaičiuota įrankio, patikrinti)", en: "2025: 19,261 t CO2e (−41.8% vs 2019; calculated by the tool, verify)", lv: "2025. g. – 19 261 t CO2e (−41,8 % pret 2019. g.; aprēķinājis rīks, pārbaudīt)", et: "2025: 19 261 t CO2e (−41,8% vs 2019; arvutas tööriist, kontrollida)"}
+    outcome: {lt: "2025 m. – 19 261 t CO2e (−41,8 % nuo 2019 m.; apskaičiuota įrankio)", en: "2025: 19,261 t CO2e (−41.8% vs 2019; calculated by the tool)", lv: "2025. g. – 19 261 t CO2e (−41,8 % pret 2019. g.; aprēķinājis rīks, pārbaudīt)", et: "2025: 19 261 t CO2e (−41,8% vs 2019; arvutas tööriist, kontrollida)"}
     status: pending
     src: "P6 p.19, p.22"
     why: {lt: "Vykdoma: iki 2025 m. pasiekta −41,8 %; iki 2030 m. reikia dar apie 13 p. p. (apskaičiuota įrankio) [P6 p.19, p.22].", en: "Progressing: −41.8% reached by 2025; about 13 p.p. more is needed by 2030 (calculated by the tool) [P6 p.19, p.22]."}
@@ -117,63 +118,76 @@ investor:
     et: "Järeldus: bilanss on tugev ja võlg stabiilne, kuid 2026. aasta kasumlikkus väheneb kütuse- ja remondikulude ning väiksema vedellasti tõttu. Jälgida: 9 kuu aruanne, parvlaevateenuse leping, kohtuasja tulemus."
 
 esg:
-  policies: [investments, shipping, climate_nature, human_rights, anti_corruption]
+  policies:
+  - investments
+  - shipping
+  - climate_nature
+  - human_rights
+  - anti_corruption
   items:
     excl_sectors:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "Uosto operatorius, keltų paslaugos, ledlaužis, nekilnojamasis turtas – ginklų, tabako, lošimų, anglies ar naftos žvalgybos veiklos nėra [P1]. Krauna skystus krovinius (naftos produktus), jų kiekis mažėja (−33,8 % per 6 mėn.) [P1]."
-        en: "Port operator, ferry services, icebreaker, real estate - no weapons, tobacco, gambling, coal or oil exploration [P1]. Handles liquid bulk (oil products), volumes declining (−33.8% in 6M) [P1]."
+        lt: Uosto operatorius, keltų paslaugos, ledlaužis, nekilnojamasis turtas – ginklų, tabako, lošimų, anglies ar naftos žvalgybos veiklos nėra [P1]. Krauna skystus krovinius (naftos produktus), jų kiekis mažėja (−33,8 % per 6 mėn.) [P1].
+        en: Port operator, ferry services, icebreaker, real estate - no weapons, tobacco, gambling, coal or oil exploration [P1]. Handles liquid bulk (oil products), volumes declining (−33.8% in 6M) [P1].
     excl_red_flag:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Buvusių vadovų kyšininkavimo byla (pradėta 2015 m.): 2024-06-27 teismas išteisino dėl senaties, prokuratūra ir gynyba apskundė; vėlesnis sprendimas nerastas. Įmonė byloje – nukentėjusioji, ne kaltinamoji [E1; E2]."
-        en: "Former executives' bribery case (from 2015): acquitted on limitation grounds 2024-06-27, appealed by prosecution and defence; later ruling not found. The company is the injured party, not a defendant [E1; E2]."
+        lt: Su JT Pasauliniu susitarimu ar OECD gairėmis susijusių ginčų nėra. 2015 m. kyšininkavimo byla susijusi su buvusiais vadovais; bendrovė joje – nukentėjusioji, ne kaltinamoji [E1; E2].
+        en: No UN Global Compact or OECD related controversies. The bribery case from 2015 concerns former executives; the company is the injured party, not a defendant [E1; E2].
     sanctions:
       status: review
       evidence:
-        lt: "Tikrina analitikas vidinėmis priemonėmis (pridėti ekrano nuotrauką). Valdo Estijos valstybė (67,03 %) [P1 p.13]."
-        en: "Checked by the analyst with internal tools (add a screenshot). Controlled by the Republic of Estonia (67.03%) [P1 p.13]."
+        lt: Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose.
+        en: Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists.
     media:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Rasta (EE žiniasklaida): kyšininkavimo byla [E1; E2]. Naujesnių neigiamų naujienų automatinė paieška (30 d.) nerado. Analitikas patvirtina ir prideda ekrano nuotrauką."
-        en: "Found (EE media): the bribery case [E1; E2]. The automatic news scan (30 days) found no newer adverse news. Analyst confirms and adds a screenshot."
+        lt: Automatinė naujienų paieška (estų ir anglų žiniasklaida, paskutinės 30 d., 2026-10-22) naujų neigiamų naujienų nerado. Senesnės publikacijos – apie buvusių vadovų bylą [E1; E2].
+        en: No new adverse news in the automatic news scan (Estonian and English media, last 30 days, 2026-10-22). Older coverage concerns the former executives' case [E1; E2].
     int_promoting:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "Savanoriška 2025 m. tvarumo ataskaita pagal CSRD/ESRS principus [P6]; tikslas 90 % atsinaujinančios energijos savo reikmėms [P6 p.19]."
-        en: "Voluntary 2025 sustainability report following CSRD/ESRS principles [P6]; target of 90% renewable energy for own use [P6 p.19]."
+        lt: Savanoriška 2025 m. tvarumo ataskaita pagal CSRD/ESRS principus [P6]; tikslas 90 % atsinaujinančios energijos savo reikmėms [P6 p.19].
+        en: Voluntary 2025 sustainability report following CSRD/ESRS principles [P6]; target of 90% renewable energy for own use [P6 p.19].
     int_taxonomy:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "Klimato neutrali veikla iki 2050 m.; 1+2 apimties emisijos −55 % iki 2030 m. (nuo 2019 m.); 2025 m. – 19 261 t CO2e (−41,8 %, apskaičiuota įrankio) [P6 p.19, p.22]. ES taksonomijos dalis nerasta."
-        en: "Climate-neutral operations by 2050; Scope 1+2 −55% by 2030 (vs 2019); 2025: 19,261 t CO2e (−41.8%, calculated by the tool) [P6 p.19, p.22]. EU Taxonomy share not found."
+        lt: 'Klimatui neutrali veikla iki 2050 m.; 1+2 apimties emisijos −55 % iki 2030 m., palyginti su 2019 m. [P6 p.19]. Pažanga: 2025 m. – 19 261 t CO2e, −41,8 % nuo 2019 m. (apskaičiuota įrankio) [P6 p.22].'
+        en: 'Climate-neutral operations by 2050; Scope 1+2 emissions −55% by 2030 versus 2019 [P6 p.19]. Progress: 19,261 t CO2e in 2025, −41.8% versus 2019 (calculated by the tool) [P6 p.22].'
     int_yellow_flag:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Geltonas signalas – neužbaigta buvusių vadovų kyšininkavimo byla [E1; E2]."
-        en: "Yellow flag - the unresolved bribery case of former executives [E1; E2]."
+        lt: Dabartinių geltonų signalų nėra. Buvusių vadovų byla – istorinė (nuo 2015 m.), bendrovė joje nukentėjusioji [E1].
+        en: No current yellow flag. The former executives' case is historical (from 2015) and the company is the injured party [E1].
     int_seb_policies:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "**Taikoma:** SEB investicijų politika [SP1 p.5] ir laivybos politika, nes keltų segmentas sudaro 31,4 % 6 mėn. 2026 m. pajamų, daugiau nei 15 % riba (apskaičiuota įrankio) [P1 p.9; SP2 p.5]. Transporto politika netaikoma (tik kelių, geležinkelių ir oro transportas) [SP7 p.4]. **Atitinka:** bendrovės valdymo ar tarptautinių normų pažeidimų nerasta (buvusių vadovų byloje ji – nukentėjusioji) [E1]; kasmetinė tvarumo ataskaita su klimato duomenimis [P6]; klimato neutralumas iki 2050 m. ir planas keltus perkelti prie alternatyvių kuro rūšių ar elektros – atitinka dekarbonizacijos plano lūkestį [P6 p.18-19; SP2 p.7]. **Viešose ataskaitose nerasta:** laivybos reikalavimų – SEEMP, EEXI/CII atitikties, laivų emisijų intensyvumo atskleidimo, atsakingo laivų perdirbimo, klasifikacijos [SP2 p.5-6]; žmogaus teisių patikros, pranešėjų kanalo ir antikorupcijos politikos [SP2 p.7; SP4 p.8]. **Neaišku:** skystų krovinių (naftos produktų) aptarnavimas – jei su iškastiniu kuru susijusios pajamos viršija 5 %, taikoma ir iškastinio kuro politika [P1 p.6; SP5 p.6]. Analitikas tikrina TS Laevad laivų dokumentus."
-        en: "**Applicable:** the SEB Investments policy [SP1 p.5] and the Shipping policy, because the ferry segment is 31.4% of 6M 2026 revenue, above the 15% threshold (calculated by the tool) [P1 p.9; SP2 p.5]. The Transportation policy does not apply (road, rail and air only) [SP7 p.4]. **Met:** no governance or international-norm breach by the company found (it is the injured party in the former executives' case) [E1]; annual sustainability report with climate data [P6]; climate neutrality by 2050 and a plan to move ferries to alternative fuels or electrification, in line with the decarbonisation-plan expectation [P6 p.18-19; SP2 p.7]. **Not found in public reports:** Shipping requirements such as SEEMP, EEXI/CII compliance, vessel emission-intensity disclosure, responsible ship recycling and classification [SP2 p.5-6]; human rights due diligence, whistleblowing channel and anti-corruption policy expected by SEB [SP2 p.7; SP4 p.8]. **Open:** liquid bulk (oil products) handling; if fossil-related revenue is above 5%, the Fossil Fuels policy also applies [P1 p.6; SP5 p.6]. Analyst to check TS Laevad vessel documents."
+        lt: '**Taikoma:** SEB investicijų politika [SP1 p.5] ir laivybos politika, nes keltų segmentas sudaro 31,4 % 2026 m. 6 mėn. pajamų, daugiau nei 15 % riba (apskaičiuota įrankio) [P1 p.9; SP2 p.5]. Transporto politika netaikoma (tik kelių, geležinkelių ir oro transportas) [SP7 p.4]. **Atitinka:** bendrovės valdymo ar tarptautinių normų pažeidimų nėra [E1]; kasmetinė tvarumo ataskaita su klimato duomenimis [P6]; klimato neutralumas iki 2050 m. ir planas keltus perkelti prie alternatyvių kuro rūšių ar elektros – atitinka SEB dekarbonizacijos plano lūkestį [P6 p.18-19; SP2 p.7]; skystų krovinių (naftos produktų) mažėja, 2026 m. 6 mėn. −33,8 % [P1 p.6]. **Galėtų būti geriau:** viešose ataskaitose neaprašyti laivybos dalykai (laivų energijos efektyvumo planai, CII reitingai, laivų perdirbimas) [SP2 p.5-6] ir žmogaus teisių patikra, pranešėjų kanalas, antikorupcijos politika [SP2 p.7; SP4 p.8].'
+        en: '**Applicable:** the SEB Investments policy [SP1 p.5] and the Shipping policy, because the ferry segment is 31.4% of 6M 2026 revenue, above the 15% threshold (calculated by the tool) [P1 p.9; SP2 p.5]. The Transportation policy does not apply (road, rail and air only) [SP7 p.4]. **Met:** no governance or international-norm breach by the company [E1]; annual sustainability report with climate data [P6]; climate neutrality by 2050 and a plan to move ferries to alternative fuels or electrification, in line with SEB''s decarbonisation-plan expectation [P6 p.18-19; SP2 p.7]; liquid bulk (oil products) handling is declining, −33.8% in 6M 2026 [P1 p.6]. **Could be improved:** public reports do not describe shipping-specific items (ship energy efficiency plans, CII ratings, ship recycling) [SP2 p.5-6] or human rights due diligence, whistleblowing and anti-corruption policies [SP2 p.7; SP4 p.8].'
     engagement:
-      status: review
+      status: 'no'
       evidence:
-        lt: "Siūlomi klausimai: keltų kuro emisijos ir sąnaudos, kelias iki −55 % 2030 m., antikorupcijos priemonės po bylos."
-        en: "Suggested topics: ferry fuel emissions and costs, pathway to −55% by 2030, anti-corruption controls after the case."
+        lt: Nereikia.
+        en: No need.
     indicators:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Turimi PAI duomenys: 1+2 apimties emisijos 19 261 t CO2e (2025) [P6 p.22]. Palyginti su fondo tikslais – analitikas."
-        en: "Available PAI data: Scope 1+2 emissions 19,261 t CO2e (2025) [P6 p.22]. Comparison with the Fund's targets - analyst."
+        lt: 1+2 apimties emisijos 2025 m. – 19 261 t CO2e, −41,8 % nuo 2019 m. (apskaičiuota įrankio) [P6 p.22]; tikslas – −55 % iki 2030 m. ir klimato neutralumas iki 2050 m. [P6 p.19].
+        en: Scope 1+2 emissions 19,261 t CO2e in 2025, −41.8% versus 2019 (calculated by the tool) [P6 p.22]; target −55% by 2030 and climate neutrality by 2050 [P6 p.19].
   comments:
-    exclusion: {lt: "", en: ""}
-    integration: {lt: "", en: ""}
-    engagement: {lt: "", en: ""}
-    indicators: {lt: "", en: ""}
+    exclusion:
+      lt: ''
+      en: ''
+    integration:
+      lt: ''
+      en: ''
+    engagement:
+      lt: ''
+      en: ''
+    indicators:
+      lt: ''
+      en: ''
   conclusion:
-    lt: "Išskirtinių sektorių nėra; teigiama – emisijų tikslai ir tvarumo ataskaita. Peržiūrėti kyšininkavimo bylos baigtį ir SEB laivybos / transporto politikų atitiktį."
-    en: "No excluded sectors; positives are emission targets and sustainability reporting. Review the outcome of the bribery case and fit with SEB shipping / transportation policies."
+    lt: Išimčių ir raudonų signalų nėra. Aiškūs klimato tikslai ir gera pažanga (−41,8 % nuo 2019 m.). Laivybos atskleidimas galėtų būti išsamesnis.
+    en: No exclusions or red flags. Clear climate targets with good progress (−41.8% versus 2019). Shipping-specific disclosures could be more detailed.

@@ -36,8 +36,9 @@ def texts(rep, lang):
     h = lambda x, lead=False: segs_html(C.lead_bold(cites.parse(C.tr(x, lang))) if lead else cites.parse(C.tr(x, lang)))  # noqa: E731
     tpl = C.seb()["esg_template"]
     esg = rep.get("esg", {})
-    items = esg.get("items", {})
+    items = C.esg_items(rep)
     out = {
+        "verdict": h(rep.get("verdict", "")),
         "summary": [h(x, True) for x in rep.get("quick_summary", [])],
         "business": [h(x, True) for x in rep.get("business", [])],
         "financials": [h(x, True) for x in rep.get("financials", [])],
@@ -77,11 +78,12 @@ def main():
                         files.append({"period": r["period"], "lang": lg, "ext": ext, "url": f"files/{key}/{p.name}", "date": str(r["analysis_date"])})
         hist = C.history(key)
         last_date = str(last.get("analysis_date", ""))
-        items = last.get("esg", {}).get("items", {})
+        items = C.esg_items(last) if last else {}
         out["issuers"].append({
             "id": key, "name": iss["name"], "legal_name": iss.get("legal_name", ""), "country": iss.get("country", ""), "sector": iss.get("sector", ""),
             "owner": iss.get("owner", ""), "website": iss.get("website", ""), "ir_page": iss.get("ir_page", ""), "calendar": iss.get("report_calendar", ""),
             "rating_plain": C.plain(last.get("rating", "")), "period": last.get("period", ""), "analysis_date": last_date,
+            "verdict": (last.get("verdict") or {}).get("status", ""),
             "esg_review": sum(1 for v in items.values() if v.get("status") == "review"),
             "files": files, "new_filings": [f for f in out["filings"] if f["issuer"] == key and f["first_seen"] > last_date],
             "periods": last.get("periods", []), "ratios": last.get("ratios", []), "highlights": last.get("highlights", []),

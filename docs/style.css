@@ -133,3 +133,7 @@ td.tr-flat, td.tr-none { color: var(--muted); }
 .esg .ev ul.b li { margin: 2px 0; }
 .evl { font-weight: 700; color: var(--text); font-size: 13.5px; margin-top: 6px; }
 #mchart { max-width: 640px; }
+.verdict { border-left: 4px solid var(--good); background: var(--good-bg); border-radius: 8px; padding: 12px 16px; margin: 14px 0; font-size: 15px; }
+.verdict.v-watch { border-color: var(--warn); background: var(--warn-bg); }
+.verdict.v-action { border-color: var(--bad); background: var(--bad-bg); }
+.verdict.sm { font-size: 13px; padding: 8px 12px; margin: 6px 0 10px; }

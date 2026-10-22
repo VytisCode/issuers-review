@@ -4,9 +4,10 @@
 issuer: ignitis
 period: 6M2026
 analysis_date: 2026-10-22
-prepared_by: Claude (automatiškai), peržiūri analitikas
+prepared_by: Claude (automatiškai)
 next_report: "Q3 2026 interim report - 2026-11-11 [S1 p.14]"
 rating: "S&P BBB+ (stable), 2026-07-28; Moody's Baa1 (stable), 2026 [S7]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** Kredito kokybė stabili: BBB+ / Baa1 reitingai, svertas 3,49x – 3–4x tikslo ribose [S1 p.10; S7]. Pelnas silpnesnis, bet 2026 m. prognozė palikta [S2]. Turimai obligacijai XS1646530565 taikomas 2026-10-19 emitento supirkimo pasiūlymas [S8].", en: "**Position OK.** Credit quality is stable: BBB+ / Baa1 ratings and leverage of 3.49x, inside the 3-4x target [S1 p.10; S7]. Profit is weaker, but the 2026 guidance was kept [S2]. The held bond XS1646530565 is subject to the issuer's tender offer of 2026-10-19 [S8]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, adj_ebitda, ebitda, adj_net_profit, net_profit, investments, ffo, fcf, net_debt, nd_ebitda, ffo_nd, adj_roce, equity, total_assets, dps, green_capacity]
 # highlights - rodiklių kortelės ataskaitos viršuje; charts - diagramos (naujausias laikotarpis lyginamas su atitinkamu ankstesniu)
@@ -80,8 +81,8 @@ business:
     et: "Ohutus: 2026. aasta veebruaris hukkus töövõtja töötaja [S10]."
 
 financials:
-  - lt: "6 mėn. pajamos 1 497,5 mln. EUR (+15,4 %), EBITDA 303,5 mln. EUR (262,5 mln.), grynasis pelnas 113,2 mln. EUR (111,4 mln.) [S1 p.11, p.23 – pajamas ir grynąjį pelną patikrinti PDF]."
-    en: "6M revenue EUR 1,497.5m (+15.4%), EBITDA EUR 303.5m (262.5m), net profit EUR 113.2m (111.4m) [S1 p.11, p.23 - verify revenue and net profit in the PDF]."
+  - lt: "6 mėn. pajamos 1 497,5 mln. EUR (+15,4 %), EBITDA 303,5 mln. EUR (262,5 mln.), grynasis pelnas 113,2 mln. EUR (111,4 mln.) [S1 p.11, p.23, p.32]."
+    en: "6M revenue EUR 1,497.5m (+15.4%), EBITDA EUR 303.5m (262.5m), net profit EUR 113.2m (111.4m) [S1 p.11, p.23, p.32]."
     lv: "6 mēn. ieņēmumi 1 497,5 milj. EUR (+15,4 %), EBITDA 303,5 milj. EUR (262,5 milj.), tīrā peļņa 113,2 milj. EUR (111,4 milj.) [S1 p.11, p.23 – ieņēmumus un tīro peļņu pārbaudīt PDF]."
     et: "6 kuu müügitulu 1 497,5 mln eurot (+15,4%), EBITDA 303,5 mln eurot (262,5 mln), puhaskasum 113,2 mln eurot (111,4 mln) [S1 p.11, p.23 – müügitulu ja puhaskasum kontrollida PDF-ist]."
   - lt: "FFO 251,4 mln. EUR (+11,3 %), laisvieji pinigų srautai 5,3 mln. EUR (64,0 mln.); investicijos 306,1 mln. EUR (343,2 mln., −10,8 %) [S1 p.29, p.5]."
@@ -153,63 +154,77 @@ investor:
     et: "Järeldus: finantsseisund on võrreldes 2025. aasta lõpuga sisuliselt muutumatu; krediidinäitajad on strateegia piirides, reitingud stabiilsed. Jälgida: 9 kuu aruanne (11.11.2026), tuule ja hindade mõju Rohelisele tootmisele, FFO / netovõla tagasipöördumine ≥23%-ni."
 
 esg:
-  policies: [investments, electricity_renewables, fossil_fuels, climate_nature, human_rights, anti_corruption]
+  policies:
+  - investments
+  - electricity_renewables
+  - fossil_fuels
+  - climate_nature
+  - human_rights
+  - anti_corruption
   items:
     excl_sectors:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "Ginklų, tabako ir lošimų veiklos nėra. Anglies generacijos nėra, naftos ir dujų žvalgybos nėra [S4]. Turi dujomis kūrenamą Elektrėnų kompleksą (rezervinė galia) ir tiekia dujas klientams – SEB iškastinio kuro politika tokios veiklos nedraudžia (ribojama anglis >5 % pajamų ir nauja žvalgyba)."
-        en: "No weapons, tobacco or gambling. No coal generation and no oil & gas exploration [S4]. Owns the gas-fired Elektrėnai complex (reserve capacity) and supplies gas - not restricted by the SEB fossil fuel policy (restricts coal >5% of revenue and new exploration)."
+        lt: Ginklų, tabako ir lošimų veiklos nėra. Anglies generacijos nėra, naftos ir dujų žvalgybos nėra [S4]. Turi dujomis kūrenamą Elektrėnų kompleksą (rezervinė galia) ir tiekia dujas klientams – SEB iškastinio kuro politika tokios veiklos nedraudžia (ribojama anglis >5 % pajamų ir nauja žvalgyba).
+        en: No weapons, tobacco or gambling. No coal generation and no oil & gas exploration [S4]. Owns the gas-fired Elektrėnai complex (reserve capacity) and supplies gas - not restricted by the SEB fossil fuel policy (restricts coal >5% of revenue and new exploration).
     excl_red_flag:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "Raudonų signalų (UNGC, OECD pažeidimų) viešuose šaltiniuose ir naujienų paieškoje nerasta (2026-10-22). Ignitis skelbia, kad laikosi UN Global Compact principų [S4]."
-        en: "No red flags (UNGC / OECD breaches) found in public sources and the news scan (2026-10-22). Ignitis states it upholds the UN Global Compact principles [S4]."
+        lt: Raudonų signalų (UNGC, OECD pažeidimų) viešuose šaltiniuose ir naujienų paieškoje nerasta (2026-10-22). Ignitis skelbia, kad laikosi UN Global Compact principų [S4].
+        en: No red flags (UNGC / OECD breaches) found in public sources and the news scan (2026-10-22). Ignitis states it upholds the UN Global Compact principles [S4].
     sanctions:
       status: review
       evidence:
-        lt: "Tikrina analitikas vidinėmis priemonėmis (pridėti ekrano nuotrauką)."
-        en: "Checked by the analyst with internal tools (add a screenshot)."
+        lt: Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose.
+        en: Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists.
     media:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Automatinė naujienų paieška (LT, LV, EE, EN; 30 d.) neigiamų antraščių nerado. Analitikas patvirtina ir prideda ekrano nuotrauką."
-        en: "The automatic news scan (LT, LV, EE, EN; 30 days) found no adverse headlines. Analyst confirms and adds a screenshot."
+        lt: Automatinė naujienų paieška (lietuvių, latvių, estų ir anglų žiniasklaida, paskutinės 30 d., 2026-10-22) neigiamų naujienų nerado.
+        en: No adverse news found in the automatic news scan (Lithuanian, Latvian, Estonian and English media, last 30 days, 2026-10-22).
     int_promoting:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "Pagrindinė veikla – žalioji generacija (įrengta 2,1 GW, statoma 0,6 GW) ir elektros tinklai [S1 p.11]; žaliosios obligacijos ir nauja ES žaliųjų obligacijų standarto (EuGB) obligacija [S9]."
-        en: "Core activities are green generation (2.1 GW installed, 0.6 GW under construction) and power networks [S1 p.11]; green bonds and a new EU Green Bond Standard (EuGB) bond [S9]."
+        lt: Pagrindinė veikla – žalioji generacija (įrengta 2,1 GW, statoma 0,6 GW) ir elektros tinklai [S1 p.11]; žaliosios obligacijos ir nauja ES žaliųjų obligacijų standarto (EuGB) obligacija [S9].
+        en: Core activities are green generation (2.1 GW installed, 0.6 GW under construction) and power networks [S1 p.11]; green bonds and a new EU Green Bond Standard (EuGB) bond [S9].
     int_taxonomy:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "ES taksonomiją atitinkančios investicijos 2025 m. – 84,7 % [S4]. SBTi patvirtino tikslus pagal 1,5 °C trajektoriją; nulinė emisija iki 2050 m. ar anksčiau [S4 p.10]."
-        en: "EU Taxonomy-aligned capex 84.7% in 2025 [S4]. SBTi-validated targets in line with 1.5°C; net zero by 2050 or sooner [S4 p.10]."
+        lt: ES taksonomiją atitinkančios investicijos 2025 m. – 84,7 % [S4]. SBTi patvirtino tikslus pagal 1,5 °C trajektoriją; nulinė emisija iki 2050 m. ar anksčiau [S4 p.10].
+        en: EU Taxonomy-aligned capex 84.7% in 2025 [S4]. SBTi-validated targets in line with 1.5°C; net zero by 2050 or sooner [S4 p.10].
     int_yellow_flag:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Galimas geltonas signalas: 2026 m. vasarį žuvo rangovo darbuotojas [S10]. 1 apimties emisijos 2025 m. išaugo 54,7 % dėl didesnės dujų generacijos [S4]."
-        en: "Possible yellow flag: a contractor employee was fatally injured in February 2026 [S10]. Scope 1 emissions rose 54.7% in 2025 due to higher gas generation [S4]."
+        lt: '**Reikšmingų geltonų signalų nėra:** su JT Pasauliniu susitarimu susijusių ginčų nerasta. **Verta žinoti:** 2026 m. vasarį žuvo rangovo darbuotojas [S10]; 1 apimties emisijos 2025 m. išaugo 54,7 % dėl didesnės dujų generacijos [S4]. Sauga valdoma pagal ISO 45001 [W1].'
+        en: '**No material yellow flag:** no UN Global Compact related controversies found. **To note:** a contractor employee was fatally injured in February 2026 [S10]; Scope 1 emissions rose 54.7% in 2025 due to higher gas generation [S4]. Safety is managed under ISO 45001 [W1].'
     int_seb_policies:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "**Taikoma:** SEB investicijų politika [SP1 p.5], elektros ir atsinaujinančios energetikos politika, nes žalioji gamyba ir tinklai sudaro daugiau nei 15 % pajamų [SP6 p.6], ir iškastinio kuro politika dėl dujų skirstymo, dujų tiekimo ir Elektrėnų rezervinių elektrinių. Dujų pajamų dalis nerasta [S4 p.24, p.39; SP5 p.4, p.6]. **Reikalavimai įvykdyti:** atskleistos 1–3 apimties emisijos (4,49 mln. t CO2e 2025 m.) ir SBTi patvirtinti 1,5 °C tikslai [S4 p.8-9, p.15]; ISO 14001 aplinkosaugos vadyba ESO, „Ignitis gamyboje“, „Ignitis“ bei Vilniaus ir Kauno kogeneracinėse jėgainėse [W1]. Anglies, durpių ar naftos ir dujų gavybos nėra [S4]. **Lūkesčiai įvykdyti:** ISO 45001 saugos vadyba, 2025 m. mirtinų nelaimingų atsitikimų nebuvo [S4 p.16; W1]; pasitikėjimo linija anoniminiams pranešimams [W2]; antikorupcijos politika ir ISO 37001 sertifikatas [W1; W2]; JT Pasaulinis susitarimas [S4 p.8]; integruota metinė ataskaita su klimato duomenimis [S4]; biologinės įvairovės stebėsena ir poveikio mažinimo priemonės [W3]. **Nerasta / patikrinti:** įvardyto žmogaus teisių patikrinimo proceso ir kiekybinių biologinės įvairovės tikslų [SP6 p.8]; ataskaitos apie pelno mokestį pagal šalis (nurodyta [S4 p.429], neperskaityta)."
-        en: "**Applicable:** the SEB Investments policy [SP1 p.5], the Electricity & Renewable Energy policy, since green generation and networks make up more than 15% of revenue [SP6 p.6], and the Fossil Fuels policy for gas distribution, gas supply and the Elektrėnai reserve plants. The gas revenue share was not found [S4 p.24, p.39; SP5 p.4, p.6]. **Requirements met:** Scope 1-3 emissions disclosed (4.49m t CO2e in 2025) and SBTi-validated 1.5°C targets [S4 p.8-9, p.15]; ISO 14001 environmental management at ESO, Ignitis gamyba, Ignitis and the Vilnius and Kaunas CHPs [W1]. No coal, peat or oil & gas extraction [S4]. **Expectations met:** ISO 45001 safety management, no fatal accidents in 2025 [S4 p.16; W1]; trust line for anonymous reports [W2]; anti-corruption policy and ISO 37001 certification [W1; W2]; UN Global Compact [S4 p.8]; integrated annual report with climate data [S4]; biodiversity monitoring and mitigation measures [W3]. **Not found / to check:** a named human rights due diligence process and quantified biodiversity targets [SP6 p.8]; country-by-country tax report (listed at [S4 p.429], not read)."
+        lt: '**Taikoma:** SEB investicijų politika [SP1 p.5], elektros ir atsinaujinančios energetikos politika, nes žalioji gamyba ir tinklai sudaro daugiau nei 15 % pajamų [SP6 p.6], ir iškastinio kuro politika dėl dujų skirstymo, dujų tiekimo ir Elektrėnų rezervinių elektrinių. Dujų pajamų dalis nerasta [S4 p.24, p.39; SP5 p.4, p.6]. **Reikalavimai įvykdyti:** atskleistos 1–3 apimties emisijos (4,49 mln. t CO2e 2025 m.) ir SBTi patvirtinti 1,5 °C tikslai [S4 p.8-9, p.15]; ISO 14001 aplinkosaugos vadyba ESO, „Ignitis gamyboje“, „Ignitis“ bei Vilniaus ir Kauno kogeneracinėse jėgainėse [W1]. Anglies, durpių ar naftos ir dujų gavybos nėra [S4]. **Lūkesčiai įvykdyti:** ISO 45001 saugos vadyba, 2025 m. mirtinų nelaimingų atsitikimų nebuvo [S4 p.16; W1]; pasitikėjimo linija anoniminiams pranešimams [W2]; antikorupcijos politika ir ISO 37001 sertifikatas [W1; W2]; JT Pasaulinis susitarimas [S4 p.8]; integruota metinė ataskaita su klimato duomenimis [S4]; biologinės įvairovės stebėsena ir poveikio mažinimo priemonės [W3]. **Galėtų būti geriau:** neskelbiamas įvardytas žmogaus teisių patikros procesas ir kiekybiniai biologinės įvairovės tikslai [SP6 p.8].'
+        en: '**Applicable:** the SEB Investments policy [SP1 p.5], the Electricity & Renewable Energy policy, since green generation and networks make up more than 15% of revenue [SP6 p.6], and the Fossil Fuels policy for gas distribution, gas supply and the Elektrėnai reserve plants. The gas revenue share was not found [S4 p.24, p.39; SP5 p.4, p.6]. **Requirements met:** Scope 1-3 emissions disclosed (4.49m t CO2e in 2025) and SBTi-validated 1.5°C targets [S4 p.8-9, p.15]; ISO 14001 environmental management at ESO, Ignitis gamyba, Ignitis and the Vilnius and Kaunas CHPs [W1]. No coal, peat or oil & gas extraction [S4]. **Expectations met:** ISO 45001 safety management, no fatal accidents in 2025 [S4 p.16; W1]; trust line for anonymous reports [W2]; anti-corruption policy and ISO 37001 certification [W1; W2]; UN Global Compact [S4 p.8]; integrated annual report with climate data [S4]; biodiversity monitoring and mitigation measures [W3]. **Could be improved:** no named human rights due diligence process or quantified biodiversity targets are published [SP6 p.8].'
     engagement:
-      status: no
+      status: 'no'
       evidence:
-        lt: "Būtinybės nenustatyta. Galimos temos: dujų generacijos dalis ir 1 apimties emisijų augimas, rangovų sauga."
-        en: "No need identified. Possible topics: share of gas generation and Scope 1 growth, contractor safety."
+        lt: 'Nereikia: bendrovė atitinka SEB politikų lūkesčius, raudonų signalų nėra.'
+        en: 'No need: the company meets SEB policy expectations and has no red flags.'
     indicators:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Turimi PAI duomenys: bendros ŠESD emisijos 4,49 mln. t CO2e (+10,1 %) [S4]; anglies intensyvumas (1+2) 214 g CO2e/kWh I ketv. 2026 (−12,8 %) [S10]; taksonomiją atitinkančios investicijos 84,7 % [S4]. Palyginti su fondo tikslais – analitikas."
-        en: "Available PAI data: total GHG emissions 4.49m t CO2e (+10.1%) [S4]; carbon intensity (Scope 1+2) 214 g CO2e/kWh in Q1 2026 (−12.8%) [S10]; Taxonomy-aligned capex 84.7% [S4]. Comparison with the Fund's targets - analyst."
+        lt: Bendros ŠESD emisijos 2025 m. – 4,49 mln. t CO2e (+10,1 %) [S4]; anglies intensyvumas (1+2 apimtis) 2026 m. I ketv. – 214 g CO2e/kWh (−12,8 %) [S10]; taksonomiją atitinkančios investicijos – 84,7 % [S4]; SBTi patvirtinti 1,5 °C tikslai [S4 p.9].
+        en: Total GHG emissions 4.49m t CO2e in 2025 (+10.1%) [S4]; carbon intensity (Scope 1+2) 214 g CO2e/kWh in Q1 2026 (−12.8%) [S10]; Taxonomy-aligned capex 84.7% [S4]; SBTi-validated 1.5°C targets [S4 p.9].
   comments:
-    exclusion: {lt: "", en: ""}
-    integration: {lt: "", en: ""}
-    engagement: {lt: "", en: ""}
-    indicators: {lt: "", en: ""}
+    exclusion:
+      lt: ''
+      en: ''
+    integration:
+      lt: ''
+      en: ''
+    engagement:
+      lt: ''
+      en: ''
+    indicators:
+      lt: ''
+      en: ''
   conclusion:
-    lt: "Išimčių patikra be pastabų (sankcijas ir žiniasklaidą patvirtina analitikas). Teigiama: didelė taksonomiją atitinkančių investicijų dalis, SBTi tikslai. Stebėti dujų generacijos dalį ir saugą."
-    en: "Exclusionary screening without findings (sanctions and media to be confirmed by the analyst). Positives: high Taxonomy-aligned capex, SBTi targets. Watch the share of gas generation and safety."
+    lt: 'Išimčių ir raudonų signalų nėra. Stiprus žaliasis profilis: 84,7 % taksonomiją atitinkančių investicijų ir SBTi patvirtinti tikslai. Verta stebėti: didesnę dujų generaciją 2025 m. ir rangovų saugą.'
+    en: 'No exclusions or red flags. Strong green profile: 84.7% Taxonomy-aligned capex and SBTi-validated targets. Worth watching: higher gas generation in 2025 and contractor safety.'

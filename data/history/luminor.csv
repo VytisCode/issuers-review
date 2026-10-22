@@ -35,3 +35,28 @@ nsfr,FY2025,134.1,%,L2,8,yes,
 nsfr,1H2026,142.3,%,L1,,yes,
 npl,FY2025,2.0,%,L2,8,yes,
 npl,1H2026,2.1,%,L1,,yes,
+nii,FY2024,507.7,EURm,L2,7,yes,
+nii,1H2025,214.7,EURm,L1,5,yes,
+total_income,FY2024,632.8,EURm,L2,7,yes,
+total_income,1H2025,269.5,EURm,L1,5,yes,
+cost_income,FY2024,54.5,%,L2,2,yes,
+cost_income,1H2025,60.1,%,L1,9,calc,65.5% minus the 5.4 pp increase stated in the report
+roe,FY2024,11.7,%,L2,2,yes,
+nim,FY2024,3.33,%,L2,7,yes,
+nim,1H2025,2.84,%,L1,9,yes,
+loans,FY2024,10535.4,EURm,L2,8,yes,
+loans,1H2025,10820.5,EURm,L1,6,yes,
+deposits,FY2024,11352.7,EURm,L2,8,yes,
+deposits,1H2025,11240.5,EURm,L1,6,yes,
+cet1,FY2024,20.1,%,L2,9,yes,management view incl. retained profit
+cet1,1H2025,20.6,%,L1,7,yes,management view
+total_capital,FY2024,22.7,%,L2,9,yes,management view
+total_capital,1H2025,25.2,%,L1,7,yes,management view
+leverage,FY2024,9.1,%,L2,9,yes,
+leverage,1H2025,10.3,%,L1,7,yes,
+lcr,FY2024,205.1,%,L2,8,yes,
+lcr,1H2025,163.3,%,L1,6,yes,
+nsfr,FY2024,143.6,%,L2,8,yes,
+nsfr,1H2025,133.8,%,L1,6,yes,
+npl,FY2024,1.8,%,L2,10,yes,
+npl,1H2025,1.7,%,L1,8,yes,

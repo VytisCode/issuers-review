@@ -37,7 +37,7 @@ ffo_nd,6M2026,22.2,%,S1,10,yes,LTM
 adj_roce,FY2024,9.0,%,S4,14,yes,
 adj_roce,FY2025,7.5,%,S4,14,yes,
 adj_roce,6M2026,6.7,%,S1,11,yes,LTM
-equity,FY2025,2494.7,EURm,S1,33,check,from interim report summary - verify page
+equity,FY2025,2494.7,EURm,S1,36,yes,31 December 2025
 equity,6M2026,2636.1,EURm,S1,33,check,from interim report summary - verify page
 total_assets,FY2025,6278.9,EURm,S1,33,check,from interim report summary - verify page
 total_assets,6M2026,6339.2,EURm,S1,33,check,from interim report summary - verify page
@@ -47,3 +47,13 @@ dps,6M2026,0.704,EUR,S2,,yes,H1 2026 proposed; AGM 2026-09-09
 green_capacity,FY2024,1.4,GW,S5,,yes,installed
 green_capacity,FY2025,2.1,GW,S5,,yes,installed
 green_capacity,6M2026,2.1,GW,S1,11,yes,installed; 0.6 GW under construction
+equity,FY2024,2436.8,EURm,S1,36,yes,31 December 2024
+equity,6M2025,2492.0,EURm,S1,36,yes,30 June 2025
+total_assets,FY2024,5706.0,EURm,S1,36,yes,31 December 2024
+total_assets,6M2025,5897.3,EURm,S1,36,yes,30 June 2025
+net_debt,6M2025,1609.9,EURm,S1,36,yes,30 June 2025
+nd_ebitda,6M2025,2.99,x,S1,36,yes,LTM
+ffo_nd,6M2025,29.8,%,S1,36,yes,LTM
+adj_roce,6M2025,8.6,%,S1,32,yes,LTM
+dps,6M2025,0.683,EUR,S4,11,yes,H1 2025 dividend
+green_capacity,6M2025,1.75,GW,S1,37,yes,installed

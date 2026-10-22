@@ -127,6 +127,25 @@ def points(text):
     return out
 
 
+def esg_items(rep):
+    """ESG punktai iš ataskaitos; sankcijų punktas užpildomas pagal automatinę patikrą (data/sanctions.json), jei ji yra."""
+    items = {k: dict(v) for k, v in rep.get("esg", {}).get("items", {}).items()}
+    s = load_json(DATA / "sanctions.json").get(rep.get("issuer"), {})
+    lists = {k: v for k, v in s.get("lists", {}).items() if v != "error"}
+    if lists:
+        names = ", ".join(lists)
+        if any(v == "found" for v in lists.values()):
+            hit = "; ".join(s.get("matches", []))
+            items["sanctions"] = {"status": "review", "evidence": {
+                "en": f"**Possible match – review:** {hit} (automatic check {s['date']}).",
+                "lt": f"**Galimas atitikmuo – peržiūrėti:** {hit} (automatinė patikra {s['date']})."}}
+        else:
+            items["sanctions"] = {"status": "yes", "evidence": {
+                "en": f"Not found on the {names} consolidated sanctions lists (automatic check {s['date']}).",
+                "lt": f"Nerasta {names} konsoliduotuose sankcijų sąrašuose (automatinė patikra {s['date']})."}}
+    return items
+
+
 def seb():
     return load_yaml(CONFIG / "seb_policies.yaml")
 
@@ -147,11 +166,11 @@ def write_csv(path, rows, fields):
 
 
 def securities():
-    """Vertybiniai popieriai su apskaičiuota būsena: active / matured (išpirkimo data praėjo)."""
+    """Vertybiniai popieriai su apskaičiuota būsena: active / matured (išpirkimo ar ankstyvo išpirkimo - redeemed_date - data praėjo)."""
     rows = read_csv(CONFIG / "securities.csv")
     for r in rows:
-        m = r.get("maturity_date") or ""
-        r["status"] = "matured" if m and m < TODAY else "active"
+        m = r.get("redeemed_date") or r.get("maturity_date") or ""
+        r["status"] = "matured" if m and m <= TODAY else "active"
     return rows
 
 

@@ -35,3 +35,9 @@ cargo,6M2026,6.48,Mt,P1,4,yes,
 passengers,6M2025,3.66,m,P1,4,yes,
 passengers,6M2026,3.59,m,P1,4,yes,
 dps,FY2025,0.073,EUR,P1,14,yes,paid 2026-05-20; 85% of 2025 profit
+net_debt,FY2024,167.6,EURm,P3,,yes,loans and borrowings less cash; Q4 2025 webinar
+nd_ebitda,FY2024,3.15,x,calc,,calc,net debt 167.6 / adj. EBITDA 53.1 - calculated by tool
+equity_ratio,6M2025,59.3,%,calc,,calc,equity 368.7 / assets 622.1 - calculated by tool
+cargo,FY2024,13.1,Mt,P3,,yes,Q4 2025 webinar
+cargo,FY2025,13.8,Mt,P3,,yes,Q4 2025 webinar
+dps,FY2024,0.073,EUR,P1,15,yes,paid in 2025

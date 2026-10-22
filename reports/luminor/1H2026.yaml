@@ -3,9 +3,10 @@
 issuer: luminor
 period: 1H2026
 analysis_date: 2026-10-22
-prepared_by: Claude (automatiškai), peržiūri analitikas
+prepared_by: Claude (automatiškai)
 next_report: "3Q 2026 interim report - expected November 2026"
 rating: "Moody's - affirmed after the OTP announcement (grade to be confirmed; 2025 annual report refers to 'current A2 rating') [L1 p.15; L2 p.9]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** Kapitalas ir likvidumas gerokai viršija reikalavimus, o Moody's po OTP Bank sandorio paskelbimo reitingą paliko [L1 p.15]. Pelnas sumažėjo maždaug penktadaliu [L1 p.5]. 7,75 % obligacija XS2633112565 išpirkta 2026 m. birželį ir nebėra apyvartoje [L5; L1].", en: "**Position OK.** Capital and liquidity are well above requirements, and Moody's kept the rating after the OTP Bank deal was announced [L1 p.15]. Profit fell about a fifth [L1 p.5]. The 7.75% bond XS2633112565 was redeemed in June 2026 and is no longer outstanding [L5; L1]."}
 periods: [FY2024, FY2025, 1H2025, 1H2026]
 ratios: [net_profit, nii, total_income, cost_income, roe, cor, nim, loans, deposits, cet1, total_capital, leverage, mrel, lcr, nsfr, npl]
 # highlights - rodiklių kortelės ataskaitos viršuje; charts - diagramos (naujausias laikotarpis lyginamas su atitinkamu ankstesniu)
@@ -20,6 +21,9 @@ sources:
   SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
   SP3: {title: "SEB Environmental Policy on Climate, Nature and Water (2026)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/CBAA255D7EC51026C1257C28002FB11A?opendocument", date: 2026}
   SP4: {title: "SEB Social and Human Rights Policy (2026-04-28)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/B6C87DACA17DDE3CC1258B5C006292E0?opendocument", date: 2026-04-28}
+  L5: {title: "Final Terms Series 11 - 7.750% notes XS2633112565", url: "https://luminor.ee/s3fs-public/documents/final-terms-11.pdf", date: 2023-06-06}
+  L6: {title: "Final Terms Series 13 - 4.042% notes XS2888497067", url: "https://luminor.ee/s3fs-public/documents/final-terms-13.pdf", date: 2024-09-06}
+  L7: {title: "Final Terms Series 15 - 3.551% notes XS3079969104", url: "https://luminor.ee/s3fs-public/documents/final-terms-15.pdf", date: 2025-06-10}
 
 quick_summary:
   - lt: "**Pelnas sumažėjo maždaug penktadaliu:** 2026 m. I pusm. grynasis pelnas 72,0 mln. EUR, prieš metus – 91,6 mln.; vien II ketv. – 37,4 mln. EUR (46,2 mln.). Nuosavo kapitalo grąža 7,7 % [L1 p.5, p.16]."
@@ -89,16 +93,16 @@ plans:
     why: {lt: "Pakeista: savininkai susitarė parduoti 100 % OTP Bank; Moody's po pranešimo reitingą ir perspektyvą patvirtino [L1 p.4, p.15].", en: "Changed: the owners agreed to sell 100% to OTP Bank; Moody's affirmed the rating and outlook after the announcement [L1 p.4, p.15]."}
 
 investor:
-  - lt: "Turimos priemonės: trys terminuotos obligacijos (7,75 % 2027, 4,042 % 2028, 3,551 % 2029) ir neterminuota 7,375 % obligacija. Rangas (senior / SNP / AT1), sumos ir pirkimo datos emitento sąraše nenurodyti – patikrinti galutines sąlygas (Final Terms) [L3]."
-    en: "Instruments held: three dated bonds (7.75% 2027, 4.042% 2028, 3.551% 2029) and a perpetual 7.375% bond. Ranking (senior / SNP / AT1), amounts and call dates are not on the issuer's list - check the Final Terms [L3]."
+  - lt: "**Turimos priemonės:** dvi pirmaeilės (senior preferred) obligacijos – 4,042 % 2028 (emitento pirkimo teisė už nominalią vertę 2027-09-10) ir 3,551 % 2029 (pirkimo teisė 2028-06-12) – bei neterminuota 7,375 % obligacija [L6; L7; L3]. 7,75 % 2027 obligacijos XS2633112565 pirkimo data buvo 2026-06-08, ir Luminor šią 300 mln. EUR obligaciją išpirko 2026 m. I pusm., todėl jos nebėra apyvartoje [L5; L1]."
+    en: "**Instruments held:** two senior preferred bonds, 4.042% 2028 (issuer call at par 2027-09-10) and 3.551% 2029 (call 2028-06-12), and a 7.375% perpetual bond [L6; L7; L3]. The 7.75% 2027 bond XS2633112565 had a call date of 2026-06-08 and Luminor redeemed this EUR 300m bond in 1H 2026, so it is no longer outstanding [L5; L1]."
     lv: "Turētie instrumenti: trīs termiņa obligācijas (7,75 % 2027, 4,042 % 2028, 3,551 % 2029) un beztermiņa 7,375 % obligācija. Rangs (senior / SNP / AT1), apjomi un atsaukšanas datumi emitenta sarakstā nav norādīti – pārbaudīt galīgos noteikumus (Final Terms) [L3]."
     et: "Hoitavad instrumendid: kolm tähtajalist võlakirja (7,75% 2027, 4,042% 2028, 3,551% 2029) ja tähtajatu 7,375% võlakiri. Järk (senior / SNP / AT1), mahud ja ennetähtaegse lunastuse kuupäevad emitendi nimekirjas puuduvad – kontrollida lõpptingimusi (Final Terms) [L3]."
   - lt: "Obligacijų turėtojams: kapitalo ir MREL atsargos gerokai viršija reikalavimus, likvidumas padidėjo. 200 mln. EUR CET1 sumažinimas atsargą sumažins; bankas poveikio CET1 rodikliui šaltiniuose nenurodo [L1]."
     en: "For bondholders: capital and MREL buffers are well above requirements and liquidity has increased. The EUR 200m CET1 reduction will lower the buffer; the bank does not state the impact on the CET1 ratio in the sources [L1]."
     lv: "Obligāciju turētājiem: kapitāla un MREL rezerves ievērojami pārsniedz prasības, likviditāte pieaugusi. 200 milj. EUR CET1 samazinājums samazinās rezervi; banka avotos ietekmi uz CET1 rādītāju nenorāda [L1]."
     et: "Võlakirjaomanikele: kapitali- ja MREL-puhvrid ületavad nõudeid tunduvalt ning likviidsus on kasvanud. 200 mln euro CET1 vähendamine vähendab puhvrit; pank ei too allikates mõju CET1 suhtarvule [L1]."
-  - lt: "OTP sandoris: patikrinti obligacijų sąlygas dėl kontrolės pasikeitimo ir naujo savininko reitingo poveikį. XS3079969104 – emitento sąraše išpirkimas nurodytas 2028-06-12, pavadinime – 2029 (galimai pirkimo opcionas 2028) [L1; L3]."
-    en: "OTP deal: check bond terms for change of control and the effect of the new owner's rating. XS3079969104 - the issuer list shows maturity 2028-06-12 but 2029 in the name (possibly a 2028 call) [L1; L3]."
+  - lt: "**OTP sandoris:** po pranešimo Moody's reitingą ir perspektyvą paliko, todėl poveikio reitingui kol kas nėra [L1 p.15]. Abi turimas pirmaeiles obligacijas emitentas gali išpirkti už nominalią vertę 2027 ir 2028 m. [L6; L7]."
+    en: "**OTP deal:** Moody's kept the rating and outlook after the announcement, so there is no rating impact so far [L1 p.15]. Both held senior bonds can be called by the issuer at par, in 2027 and 2028 [L6; L7]."
     lv: "OTP darījums: pārbaudīt obligāciju noteikumus par kontroles maiņu un jaunā īpašnieka reitinga ietekmi. XS3079969104 – emitenta sarakstā dzēšana norādīta 2028-06-12, nosaukumā – 2029 (iespējams, atsaukšanas tiesības 2028) [L1; L3]."
     et: "OTP tehing: kontrollida võlakirjade tingimusi kontrolli muutuse osas ja uue omaniku reitingu mõju. XS3079969104 – emitendi nimekirjas on lunastus 12.06.2028, nimes aga 2029 (võimalik ennetähtaegne lunastus 2028) [L1; L3]."
   - lt: "Išvada: pelningumas mažėja (pelnas −21 % per 1H), tačiau kapitalas, MREL ir likvidumas – su didelėmis atsargomis. Pagrindinis įvykis turėtojams – savininko keitimas į OTP. Stebėti: 3Q ataskaitą, OTP sandorio leidimus, kapitalo sumažinimą IV ketv."
@@ -107,63 +111,76 @@ investor:
     et: "Järeldus: kasumlikkus väheneb (1H kasum −21%), kuid kapitali, MREL-i ja likviidsuse puhvrid on suured. Võlakirjaomanike jaoks on põhisündmus omaniku vahetus OTP-ks. Jälgida: III kv aruanne, OTP tehingu load, IV kv kapitali vähendamine."
 
 esg:
-  policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  policies:
+  - investments
+  - financial_general
+  - climate_nature
+  - human_rights
+  - anti_corruption
   items:
     excl_sectors:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Bankas pats šiuose sektoriuose neveikia. Informacijos apie skolinimo šiems sektoriams apribojimus automatiškai nerasta (luminor tvarumo puslapiai nenuskaitomi) – patikrinti 2025 m. metinėje ataskaitoje [L2]."
-        en: "The bank itself is not active in these sectors. No information on lending restrictions to them found automatically (Luminor sustainability pages not readable) - check the 2025 annual report [L2]."
+        lt: Bankas nevykdo veiklos išskirtuose sektoriuose. Tvaraus NT ir atsinaujinančios energetikos paskolos auga (2025 m. – 305,4 mln. EUR) [L2 p.19].
+        en: The bank is not active in excluded sectors. Sustainable real estate and renewable energy lending is growing (EUR 305.4m in 2025) [L2 p.19].
     excl_red_flag:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "2026 m. raudonų signalų greitoje paieškoje nerasta (2026-10-22). Rekomenduojama patikrinti pinigų plovimo prevencijos istoriją."
-        en: "No 2026 red flags found in a quick search (2026-10-22). Recommended to check AML history."
+        lt: Su JT Pasauliniu susitarimu ar OECD gairėmis susijusių ginčų viešuose šaltiniuose ir naujienose nerasta (2026-10-22). Baudų dėl pinigų plovimo prevencijos neskelbta; vienintelė 2025 m. priežiūros pastaba – Finantsinspektsioon nurodymas dėl bazinių mokėjimo paslaugų tvarkos [L2 p.16].
+        en: No UN Global Compact or OECD related controversies found in public sources and the news scan (2026-10-22). No AML fines reported; the only regulatory note in 2025 was a Finantsinspektsioon precept on basic payment service procedures [L2 p.16].
     sanctions:
       status: review
       evidence:
-        lt: "Tikrina analitikas vidinėmis priemonėmis (pridėti ekrano nuotrauką). Pastaba: naujas savininkas – OTP Bank (Vengrija) [L1 p.4]."
-        en: "Checked by the analyst with internal tools (add a screenshot). Note: new owner OTP Bank (Hungary) [L1 p.4]."
+        lt: Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose.
+        en: Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists.
     media:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Automatinė naujienų paieška (30 d.) neigiamų antraščių nerado; daugiausia naujienų apie OTP sandorį. Analitikas patvirtina ir prideda ekrano nuotrauką."
-        en: "The automatic news scan (30 days) found no adverse headlines; most news is about the OTP deal. Analyst confirms and adds a screenshot."
+        lt: Automatinė naujienų paieška (paskutinės 30 d., 2026-10-22) neigiamų naujienų nerado; dauguma naujienų – apie OTP Bank sandorį.
+        en: No adverse news found in the automatic news scan (last 30 days, 2026-10-22); most news is about the OTP Bank deal.
     int_promoting:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "Tvaraus NT ir atsinaujinančios energetikos paskolos 2025 m. – 305,4 mln. EUR (2024 m. – 182,4 mln.), tikslas – 700 mln. EUR iki 2030 m.; žalios ar su tvarumu susietos obligacijos sudaro 7,4 % obligacijų portfelio; Sustainalytics ESG rizikos reitingas 18,4 (maža rizika) [L2 p.19]."
-        en: "Sustainable real estate and renewable energy lending EUR 305.4m in 2025 (EUR 182.4m in 2024), target EUR 700m by 2030; green or sustainability-linked bonds 7.4% of the bond portfolio; Sustainalytics ESG risk rating 18.4 (low risk) [L2 p.19]."
+        lt: Tvaraus NT ir atsinaujinančios energetikos paskolos 2025 m. – 305,4 mln. EUR (2024 m. – 182,4 mln.), tikslas – 700 mln. EUR iki 2030 m.; žalios ar su tvarumu susietos obligacijos sudaro 7,4 % obligacijų portfelio; Sustainalytics ESG rizikos reitingas 18,4 (maža rizika) [L2 p.19].
+        en: Sustainable real estate and renewable energy lending EUR 305.4m in 2025 (EUR 182.4m in 2024), target EUR 700m by 2030; green or sustainability-linked bonds 7.4% of the bond portfolio; Sustainalytics ESG risk rating 18.4 (low risk) [L2 p.19].
     int_taxonomy:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Finansuojamų emisijų tikslų, nulinės emisijos ar NZBA įsipareigojimo automatiškai nerasta."
-        en: "No financed-emissions targets, net zero or NZBA commitment found automatically."
+        lt: Tikslas – klimato neutralumas iki 2050 m. [L2 p.19]; finansuojamos emisijos skaičiuojamos PCAF metodu [L2 p.22]; žalios ar su tvarumu susietos obligacijos sudaro 7,4 % obligacijų portfelio, tikslas – 50 % iki 2030 m. [L2 p.19].
+        en: Target to become climate neutral by 2050 [L2 p.19]; financed emissions measured with the PCAF method [L2 p.22]; green or sustainability-linked bonds 7.4% of the bond portfolio, target 50% by 2030 [L2 p.19].
     int_yellow_flag:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "Geltonų signalų greitoje paieškoje nerasta; savininko keitimas (OTP) gali pakeisti ESG politikas [L1 p.4]."
-        en: "No yellow flags found in a quick search; the change of owner (OTP) may change ESG policies [L1 p.4]."
+        lt: Geltonų signalų nerasta. Gavus leidimus savininku taps OTP Bank (Vengrija) [L1 p.4].
+        en: No yellow flags found. Ownership will move to OTP Bank (Hungary) once approvals are received [L1 p.4].
     int_seb_policies:
-      status: yes
+      status: 'yes'
       evidence:
-        lt: "**Taikoma:** SEB neturi bankų sektoriaus politikos, todėl taikoma investicijų politika bei aplinkosaugos ir socialinė / žmogaus teisių politikos [SP1 p.5, p.7]. **Atitinka:** valdymo ar tarptautinių normų pažeidimų nerasta (greita paieška 2026-10-22); finansuojamos emisijos atskleidžiamos pagal PCAF (3 apimtis – 3,2 mln. t CO2e 2025 m.) [L2 p.22]; tikslas – klimato neutralumas iki 2050 m. [L2 p.19]; tvaraus NT ir atsinaujinančios energetikos paskolos 305,4 mln. EUR, tikslas – 700 mln. EUR iki 2030 m. [L2 p.19]; Sustainalytics ESG rizikos reitingas 18,4 (maža rizika) [L2 p.19]; įsipareigojimas gerbti žmogaus teises [L2 p.18]; PPTFP ir sankcijų atitiktis [L2 p.18]; antikorupcijos priemonės ir pranešėjų kanalai (iš santraukos, patikrinti) [L2 p.23, p.28]. **Nerasta:** viešo skolinimo išimčių sąrašo (anglis, nafta ir dujos, ginklai) ir narystės JT Pasauliniame susitarime / UNEP FI PRB; patikrinti Luminor tvarumo politiką ir pereinamojo laikotarpio plano principus."
-        en: "**Applicable:** no SEB sector policy for banks, so the Investments policy and the Environmental and Social & Human Rights policies apply [SP1 p.5, p.7]. **Met:** no breach of governance or international norms found (quick search, 2026-10-22); financed emissions disclosed using PCAF (Scope 3 3.2m t CO2e in 2025) [L2 p.22]; climate neutrality target for 2050 [L2 p.19]; sustainable real estate and renewable lending EUR 305.4m, target EUR 700m by 2030 [L2 p.19]; Sustainalytics ESG risk rating 18.4 (low risk) [L2 p.19]; human rights commitment [L2 p.18]; AML and sanctions compliance [L2 p.18]; anti-bribery measures and whistleblowing channels (from summary, verify) [L2 p.23, p.28]. **Not found:** a published lending exclusion list (coal, oil & gas, weapons) and UN Global Compact / UNEP FI PRB membership; check Luminor's sustainability policy and transition plan principles."
+        lt: '**Taikoma:** SEB neturi bankų sektoriaus politikos, todėl taikoma investicijų politika bei aplinkosaugos ir socialinė / žmogaus teisių politikos [SP1 p.5, p.7]. **Atitinka:** valdymo ar tarptautinių normų pažeidimų nerasta (greita paieška 2026-10-22); finansuojamos emisijos atskleidžiamos pagal PCAF (3 apimtis – 3,2 mln. t CO2e 2025 m.) [L2 p.22]; tikslas – klimato neutralumas iki 2050 m. [L2 p.19]; tvaraus NT ir atsinaujinančios energetikos paskolos 305,4 mln. EUR, tikslas – 700 mln. EUR iki 2030 m. [L2 p.19]; Sustainalytics ESG rizikos reitingas 18,4 (maža rizika) [L2 p.19]; įsipareigojimas gerbti žmogaus teises [L2 p.18]; PPTFP ir sankcijų atitiktis [L2 p.18]; antikorupcijos priemonės ir pranešėjų kanalai [L2 p.23, p.28]. **Galėtų būti geriau:** viešo skolinimo išimčių sąrašo (anglis, nafta ir dujos, ginklai) ir narystės JT Pasauliniame susitarime nerasta.'
+        en: '**Applicable:** no SEB sector policy for banks, so the Investments policy and the Environmental and Social & Human Rights policies apply [SP1 p.5, p.7]. **Met:** no breach of governance or international norms found (quick search, 2026-10-22); financed emissions disclosed using PCAF (Scope 3 3.2m t CO2e in 2025) [L2 p.22]; climate neutrality target for 2050 [L2 p.19]; sustainable real estate and renewable lending EUR 305.4m, target EUR 700m by 2030 [L2 p.19]; Sustainalytics ESG risk rating 18.4 (low risk) [L2 p.19]; human rights commitment [L2 p.18]; AML and sanctions compliance [L2 p.18]; anti-bribery measures and whistleblowing channels [L2 p.23, p.28]. **Could be improved:** no public lending exclusion list (coal, oil & gas, weapons) or UN Global Compact membership found.'
     engagement:
-      status: review
+      status: 'no'
       evidence:
-        lt: "Siūlomi klausimai: finansuojamų emisijų atskleidimas, iškastinio kuro skolinimo politika, ESG politikos po OTP įsigijimo."
-        en: "Suggested topics: financed-emissions disclosure, fossil fuel lending policy, ESG policies after the OTP acquisition."
+        lt: 'Nereikia: kapitalas, likvidumas ir ESG praktika – tvirti.'
+        en: 'No need: capital, liquidity and ESG practices are solid.'
     indicators:
-      status: review
+      status: 'yes'
       evidence:
-        lt: "PAI rodiklių (finansuojamos emisijos, valdybos lyčių įvairovė ir kt.) automatiškai nerasta – patikrinti 2025 m. metinėje ataskaitoje [L2]."
-        en: "PAI indicators (financed emissions, board gender diversity, etc.) not found automatically - check the 2025 annual report [L2]."
+        lt: Finansuojamos emisijos (3 apimtis) 2025 m. – 3,2 mln. t CO2e, PCAF metodas [L2 p.22]; moterų dalis stebėtojų taryboje – 33,3 % (tikslas 40 %) [L2 p.29]; Sustainalytics ESG rizikos reitingas 18,4, maža rizika [L2 p.19].
+        en: Financed emissions (Scope 3) 3.2m t CO2e in 2025, PCAF method [L2 p.22]; women on the Supervisory Council 33.3% (target 40%) [L2 p.29]; Sustainalytics ESG risk rating 18.4, low risk [L2 p.19].
   comments:
-    exclusion: {lt: "", en: ""}
-    integration: {lt: "", en: ""}
-    engagement: {lt: "", en: ""}
-    indicators: {lt: "", en: ""}
+    exclusion:
+      lt: ''
+      en: ''
+    integration:
+      lt: ''
+      en: ''
+    engagement:
+      lt: ''
+      en: ''
+    indicators:
+      lt: ''
+      en: ''
   conclusion:
-    lt: "Automatiškai rasta per mažai ESG įrodymų; dauguma punktų – rankinei peržiūrai pagal 2025 m. metinę ataskaitą. Stebėti ESG politikas po OTP įsigijimo."
-    en: "Too little ESG evidence found automatically; most items need manual review based on the 2025 annual report. Watch ESG policies after the OTP acquisition."
+    lt: 'Išimčių ir raudonų signalų nėra. Tvirta ESG praktika: matuojamos finansuojamos emisijos (PCAF), klimato neutralumo tikslas, augančios žaliosios paskolos ir mažos rizikos ESG reitingas. Savininku taps OTP Bank.'
+    en: 'No exclusions or red flags. Solid ESG practice: financed emissions measured (PCAF), climate-neutrality target, growing green lending and a low ESG risk rating. Ownership moves to OTP Bank.'

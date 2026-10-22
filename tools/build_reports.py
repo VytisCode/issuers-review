@@ -40,6 +40,7 @@ pdfmetrics.registerFont(TTFont("DejaVu", str(FONT_DIR / "DejaVuSans.ttf")))
 pdfmetrics.registerFont(TTFont("DejaVu-Bold", str(FONT_DIR / "DejaVuSans-Bold.ttf")))
 pdfmetrics.registerFontFamily("DejaVu", normal="DejaVu", bold="DejaVu-Bold", italic="DejaVu", boldItalic="DejaVu-Bold")
 ACCENT, ACCENT_LIGHT, INK, MUTED, LINE, SERIES = "1F4E79", "EAF1F8", "1A1A1A", "5F6B7A", "C9D3DE", "2A78D6"
+VERDICT_FILL = {"ok": ("E3F3E8", "1B7F3B"), "watch": ("FDF1D8", "9A6400"), "action": ("FDE7E5", "B42318")}
 STATUS_KEYS = {"met": "st_met", "partly": "st_partly", "not_met": "st_not_met", "pending": "st_pending", "changed": "st_changed"}
 STATUS_FILL = {"met": "E3F3E8", "partly": "FDF1D8", "not_met": "FDE7E5", "pending": "EAF1F8", "changed": "FDF1D8"}
 LEVEL_FILL = {"good": "E3F3E8", "mid": "FDF1D8", "weak": "FDE7E5"}
@@ -139,6 +140,9 @@ def model(rep, lang, tmpdir):
     blocks = [("title", iss["name"]), ("subtitle", f"{t('title')} · {rep['period']}"),
               ("meta", [(t("analysis_date"), [("t", str(rep["analysis_date"]), False)]),
                         (t("rating"), rich(rep.get("rating", ""))), (t("next_report"), rich(rep.get("next_report", "")))])]
+    if rep.get("verdict"):
+        v = rep["verdict"]
+        blocks.append(("verdict", v.get("status", "ok"), rich(v)))
     hl = highlights(rep, lang)
     if hl:
         blocks.append(("tiles", hl))
@@ -156,8 +160,11 @@ def model(rep, lang, tmpdir):
 
     # rodikliai: šaltiniai - išnašos prie rodiklio pavadinimo
     periods = rep.get("periods", [])
+    ratios = [m for m in rep.get("ratios", []) if hist.get(m)]
+    # tuščių stulpelių nerodome: laikotarpis rodomas, jei turi reikšmę bent pusei rodiklių
+    shown = [p for p in periods if sum(1 for m in ratios if p in hist[m]) * 2 >= len(ratios)]
     rows = []
-    for m in rep.get("ratios", []):
+    for m in ratios:
         vals = hist.get(m, {})
         if not vals:
             continue
@@ -165,7 +172,7 @@ def model(rep, lang, tmpdir):
         ul = C.unit_label(unit, lang)
         label = [("t", C.tr(M.get(m, m), lang) + (f", {ul}" if ul else ""), False)]
         seen = []
-        for p in periods:
+        for p in shown:
             r = vals.get(p)
             if r and r["source"] in cites.sources and (r["source"], r.get("page", "")) not in seen:
                 seen.append((r["source"], r.get("page", "")))
@@ -173,7 +180,7 @@ def model(rep, lang, tmpdir):
             label.append(("c", cites.add(src, pg), cites.url(src, pg)))
         cells = [label]
         last, prev, ch, trend, level = C.ratio_change(m, vals, periods, lang)
-        for p in periods:
+        for p in shown:
             r = vals.get(p)
             v = "–" if not r else C.fmt_num(r["value"], unit, lang) + ("*" if r.get("verified") == "check" else "ᶜ" if r.get("verified") == "calc" else "")
             if p == last and level:
@@ -181,8 +188,8 @@ def model(rep, lang, tmpdir):
             cells.append(v)
         cells.append(("styled", f"{ch} vs {prev}" if ch else "–", None, TREND_INK[trend], trend in ("good", "bad")))
         rows.append(cells)
-    blocks += [("h2", t("key_ratios")), ("table", [t("metric")] + periods + [t("change")], rows, [5.2] + [2.1] * len(periods) + [3.9],
-                                         {"num": list(range(1, len(periods) + 2))}),
+    blocks += [("h2", t("key_ratios")), ("table", [t("metric")] + shown + [t("change")], rows, [5.2] + [2.1] * len(shown) + [3.9],
+                                         {"num": list(range(1, len(shown) + 2))}),
                ("small", t("legend_colors")), ("small", t("legend"))]
     png = chart_png(rep, lang, Path(tmpdir) / f"{rep['issuer']}_{lang}.png")
     if png:
@@ -201,7 +208,7 @@ def model(rep, lang, tmpdir):
     # ESG - tiksliai pagal šabloną (klausimai anglų k., nekeičiami), be lentelės
     tpl = C.seb()["esg_template"]
     esg = rep.get("esg", {})
-    items, comments = esg.get("items", {}), esg.get("comments", {})
+    items, comments = C.esg_items(rep), esg.get("comments", {})
     blocks.append(("h2", tpl["title"]))
     for sec in tpl["sections"]:
         blocks.append(("h3", sec["heading"]))
@@ -344,6 +351,15 @@ def to_docx(blocks, path, footer_text):
                 r.bold = True
                 r.font.size = Pt(9.5)
                 add_segs(p, segs, size=9.5)
+        elif kind == "verdict":
+            fill, ink = VERDICT_FILL.get(rest[0], VERDICT_FILL["ok"])
+            tb = doc.add_table(rows=1, cols=1)
+            c = tb.rows[0].cells[0]
+            shade(c, fill)
+            par = c.paragraphs[0]
+            par.paragraph_format.space_before, par.paragraph_format.space_after = Pt(3), Pt(3)
+            add_segs(par, rest[1], size=10.5, color=INK)
+            c.width = Cm(17)
         elif kind == "tiles":
             tiles = rest[0]
             doc.add_paragraph().paragraph_format.space_after = Pt(0)
@@ -516,6 +532,7 @@ def to_pdf(blocks, path, footer_text):
           "b": S("b", fontSize=9, leading=13, leftIndent=11, bulletIndent=2, spaceAfter=3),
           "check": S("c", fontSize=9, leading=13, spaceBefore=5, spaceAfter=1),
           "ev": S("e", fontSize=8.5, leading=12, leftIndent=16, color=colors.HexColor("#333333"), spaceAfter=2),
+          "verdict": S("v", fontSize=10, leading=14),
           "evh": S("eh", fontSize=8.5, leading=12, leftIndent=16, spaceBefore=1),
           "evb": S("eb", fontSize=8.5, leading=11.5, leftIndent=28, bulletIndent=18, color=colors.HexColor("#333333")),
           "evb2": S("eb2", fontSize=8.5, leading=11.5, leftIndent=40, bulletIndent=30, color=colors.HexColor("#333333")),
@@ -536,6 +553,14 @@ def to_pdf(blocks, path, footer_text):
         elif kind == "meta":
             for k, segs in rest[0]:
                 flow.append(Paragraph(f"<b>{esc(k)}:</b> {segs_html(segs)}", st["meta"]))
+        elif kind == "verdict":
+            fill, ink = VERDICT_FILL.get(rest[0], VERDICT_FILL["ok"])
+            tb = Table([[Paragraph(segs_html(rest[1]), st["verdict"])]], colWidths=[W])
+            tb.setStyle(TableStyle([("BACKGROUND", (0, 0), (-1, -1), colors.HexColor("#" + fill)),
+                                    ("LINEBEFORE", (0, 0), (0, 0), 3, colors.HexColor("#" + ink)),
+                                    ("TOPPADDING", (0, 0), (-1, -1), 7), ("BOTTOMPADDING", (0, 0), (-1, -1), 7),
+                                    ("LEFTPADDING", (0, 0), (-1, -1), 9), ("RIGHTPADDING", (0, 0), (-1, -1), 9)]))
+            flow += [Spacer(1, 4), tb, Spacer(1, 6)]
         elif kind == "tiles":
             tiles = rest[0]
             cells = [[Paragraph(esc(f"{lb} ({per})"), st["tl"]), Paragraph(esc(v), st["tv"]), Paragraph(esc(d), st["td"])] for lb, v, d, per in tiles]
@@ -676,7 +701,7 @@ def to_xlsx(rep, lang, path):
 def inputs_hash(issuer, rep):
     """Failai perkuriami tik pasikeitus jų šaltiniams (kitaip kiekvienas paleidimas keistų dvejetainius failus)."""
     h = hashlib.sha1()
-    for p in [rep["_file"], C.DATA / "history" / f"{issuer}.csv", Path(__file__), Path(C.__file__), *sorted(C.CONFIG.glob("*"))]:
+    for p in [rep["_file"], C.DATA / "history" / f"{issuer}.csv", C.DATA / "sanctions.json", Path(__file__), Path(C.__file__), *sorted(C.CONFIG.glob("*"))]:
         if Path(p).exists():
             h.update(Path(p).read_bytes())
     return h.hexdigest()

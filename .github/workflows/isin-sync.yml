@@ -1,0 +1,35 @@
+name: Sync ISIN list
+
+# Kasdien ~08:47 Vilniaus laiku (ir ranka): ISIN sąrašas iš dashboard'o saugyklos -> config/securities.csv -> svetainė.
+on:
+  schedule:
+    - cron: "47 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-issuers
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python -u tools/sync_isins.py
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A config/securities.csv data
+          if git diff --cached --quiet; then echo "Nėra pakeitimų"; exit 0; fi
+          git commit -m "ISIN sąrašo sinchronizavimas $(date -u +%F)"
+          git pull --rebase -X theirs origin main
+          git push origin main
