@@ -16,7 +16,7 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 - `config/seb_policies.yaml` – SEB politikų santrauka (`verified: no` – SEB PDF nepavyko perskaityti automatiškai) ir ESG klausimynas.
 - `config/metrics.yaml`, `config/i18n.yaml` – rodiklių ir antraščių vertimai.
 - `reports/<emitentas>/<laikotarpis>.yaml` – ataskaitos turinys; `data/history/<emitentas>.csv` – rodikliai (metric, period, value, unit, source, page, verified, note).
-- `tools/build_reports.py` (Word/PDF/Excel → `docs/files/`), `tools/build_site.py` (`docs/data.js`, kopijuoja `site/` → `docs/`), `tools/fetch_news.py`, `tools/check_filings.py`, `tools/common.py`.
+- `tools/build_reports.py` (Word/PDF → `docs/files/`), `tools/archive_sources.py` (šaltinių ZIP → GitHub Release `sources`), `tools/build_site.py` (`docs/data.js`, kopijuoja `site/` → `docs/`), `tools/fetch_news.py`, `tools/check_filings.py`, `tools/common.py`.
 - `site/` – dashboard šaltinis (`index.html`, `app.js`, `style.css`); `docs/` – generuojama, ranka netaisyti.
 
 ## Kaip atlikti analizę (nauja emitento ataskaita)
@@ -27,6 +27,8 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 5. **Investuotojui:** susiek įmonės būklę su turimais VP (`config/securities.csv` held=yes): rangas, reitingas, išpirkimai, call/tender, sverto ribos, dividendai.
 6. **ESG:** kiekvienam klausimyno punktui `status` + trumpas įrodymas + šaltinis pagal emitento `seb_policies`.
 7. **Patikros:** peržiūrėk `data/news.csv` (flag=review) ir greitą paiešką emitento šalies kalba; `checks.media` – `found` su nuorodomis arba `not_found`. `checks.sanctions` visada `review`.
+   **Spauda:** `press:` – 1–4 punktai (lt/en), ką rašė žiniasklaida per ~90 d. (svarbiausia investuotojui: sandoriai, obligacijos, vadovai, priežiūros institucijos), šaltiniai `N#` iš `data/news.csv` (`common.news_digest`). ESG `media` įrodymas turi atitikti šią skiltį (automatinė suvestinė pridedama pati).
+   **Emisijų reitingai:** `config/securities.csv` `issue_rating` / `issue_rating_note` / `issue_rating_source` – tik jei emitento ar agentūros puslapis nurodo emisijos (klasės) reitingą; kitaip tuščia (rodoma „atskiro nerasta“).
 8. Paleisk `python tools/build_reports.py` ir `python tools/build_site.py`; patikrink, kad be klaidų.
 9. Commit ir push į `main`. Savininkui – trumpai, kas pasikeitė nuo ankstesnės analizės.
 
