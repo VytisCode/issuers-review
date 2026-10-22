@@ -1,11 +1,11 @@
 isin,issuer,held,type,name,currency,amount_m,coupon_pct,issue_date,maturity_date,call_date,redeemed_date,listing,status_note,source_url,verified
-LT0000115768,ignitis,yes,share,Ignitis grupė ordinary share (IGN1L),EUR,,,,,,,Nasdaq Vilnius; GDR LSE (IGN),,https://ignitisgrupe.lt/en/investors/shares-and-gdrs,yes
-XS1646530565,ignitis,yes,bond,Ignitis 2.000% green notes 2027,EUR,300,2.000,2017-07-14,2027-07-14,,,LuxSE; Nasdaq Vilnius,Tender offer for any and all notes announced 2026-10-19 (refinanced by new EuGB 4.500% 2031),https://ignitisgrupe.lt/en/investors/bonds,yes
-XS1853999313,ignitis,yes,bond,Ignitis 1.875% green notes 2028,EUR,300,1.875,2018-07-10,2028-07-10,,,LuxSE; Nasdaq Vilnius,,https://ignitisgrupe.lt/en/investors/bonds,yes
-XS2177349912,ignitis,yes,bond,Ignitis 2.000% notes 2030,EUR,300,2.000,2020-05-21,2030-05-21,,,LuxSE; Nasdaq Vilnius,,https://ignitisgrupe.lt/en/investors/bonds,yes
+LT0000115768,ignitis,no,share,Ignitis grupė ordinary share (IGN1L),EUR,,,,,,,Nasdaq Vilnius; GDR LSE (IGN),,https://ignitisgrupe.lt/en/investors/shares-and-gdrs,yes
+XS1646530565,ignitis,no,bond,Ignitis 2.000% green notes 2027,EUR,300,2.000,2017-07-14,2027-07-14,,,LuxSE; Nasdaq Vilnius,Tender offer for any and all notes announced 2026-10-19 (refinanced by new EuGB 4.500% 2031),https://ignitisgrupe.lt/en/investors/bonds,yes
+XS1853999313,ignitis,no,bond,Ignitis 1.875% green notes 2028,EUR,300,1.875,2018-07-10,2028-07-10,,,LuxSE; Nasdaq Vilnius,,https://ignitisgrupe.lt/en/investors/bonds,yes
+XS2177349912,ignitis,no,bond,Ignitis 2.000% notes 2030,EUR,300,2.000,2020-05-21,2030-05-21,,,LuxSE; Nasdaq Vilnius,,https://ignitisgrupe.lt/en/investors/bonds,yes
 XS3518604056,ignitis,no,bond,Ignitis 4.500% EuGB green notes 2031,EUR,300,4.500,2026-10-27,2031-10-27,,,LuxSE; Nasdaq Vilnius,New issue priced 2026-10-20 (not held - for information),https://ignitisgrupe.lt/en/investors/bonds,yes
-XS2633112565,luminor,yes,bond,Luminor Bank 7.75% 2027,EUR,300,7.750,2023-06-08,2027-06-08,2026-06-08,2026-06-08,,Senior preferred. Called at par on 2026-06-08: Luminor redeemed this EUR 300m senior bond (3M EURIBOR+4.471% after call) in 1H 2026,https://luminor.ee/s3fs-public/documents/final-terms-11.pdf,check
-XS3079969104,luminor,yes,bond,Luminor Bank 3.551% 2029,EUR,300,3.551,2025-06-03,2029-06-12,2028-06-12,,,"Senior preferred; callable at par 2028-06-12, then 3M EURIBOR+1.55%",https://luminor.ee/s3fs-public/documents/final-terms-15.pdf,yes
-XS2888497067,luminor,yes,bond,Luminor Bank 4.042% 2028,EUR,300,4.042,2024-09-10,2028-09-10,2027-09-10,,,"Senior preferred; callable at par 2027-09-10, then 3M EURIBOR+1.50%",https://luminor.ee/s3fs-public/documents/final-terms-13.pdf,yes
-XS2982074861,luminor,yes,bond,Luminor 7.375% perpetual,EUR,,7.375,2025-02-12,,,,,"Perpetual, issued 2025-02-12",https://luminor.lv/en/placements,review
-EE3100021635,port-of-tallinn,yes,share,AS Tallinna Sadam ordinary share (TSM1T),EUR,,,,,,,Nasdaq Tallinn,Republic of Estonia holds 67.03%,https://www.ts.ee/en/investor/stock-exchange-info/,yes
+XS2633112565,luminor,no,bond,Luminor Bank 7.75% 2027,EUR,300,7.750,2023-06-08,2027-06-08,2026-06-08,2026-06-08,,Senior preferred. Called at par on 2026-06-08: Luminor redeemed this EUR 300m senior bond (3M EURIBOR+4.471% after call) in 1H 2026,https://luminor.ee/s3fs-public/documents/final-terms-11.pdf,check
+XS3079969104,luminor,no,bond,Luminor Bank 3.551% 2029,EUR,300,3.551,2025-06-03,2029-06-12,2028-06-12,,,"Senior preferred; callable at par 2028-06-12, then 3M EURIBOR+1.55%",https://luminor.ee/s3fs-public/documents/final-terms-15.pdf,yes
+XS2888497067,luminor,no,bond,Luminor Bank 4.042% 2028,EUR,300,4.042,2024-09-10,2028-09-10,2027-09-10,,,"Senior preferred; callable at par 2027-09-10, then 3M EURIBOR+1.50%",https://luminor.ee/s3fs-public/documents/final-terms-13.pdf,yes
+XS2982074861,luminor,no,bond,Luminor 7.375% perpetual,EUR,,7.375,2025-02-12,,,,,"Perpetual, issued 2025-02-12",https://luminor.lv/en/placements,review
+EE3100021635,port-of-tallinn,no,share,AS Tallinna Sadam ordinary share (TSM1T),EUR,,,,,,,Nasdaq Tallinn,Republic of Estonia holds 67.03%,https://www.ts.ee/en/investor/stock-exchange-info/,yes
