@@ -139,6 +139,73 @@
     }).join("")}</div>`;
   }
 
+
+  /* ---------- update guide + live status of the search run ---------- */
+  const G = {
+    en: { title: "How to update the reviews", when: "Do this when you want fresh reviews, e.g. once a quarter. Steps 1–2 are free and need no AI; step 3 is the AI analysis.",
+      s1: "Update the ISIN list", s1d: "Open <a href=\"#isin\">ISIN list</a>, paste the full list of securities you hold and press <b>Save list</b>.", s1w: "Why: the tool learns what you bought and sold.",
+      s2: "Search for new reports and news", s2d: "Press the button below. GitHub opens: press <b>Run workflow</b>, then the green <b>Run workflow</b>. Come back to this page – a status line shows the progress (3–5 min).",
+      s2w: "Why: adds new ISINs, marks sold ones, finds new issuer reports, news and sanctions matches.",
+      s3: "Ask Claude to analyse", s3d: "In the Claude project <b>Issuers review analyst</b> write: <i>„Išanalizuok visas naujas ataskaitas“</i>. Claude replies there when the reviews are ready (a few hours for many issuers).",
+      s3w: "Why: the review text and figures are written by AI from the issuer reports.", s4: "Download", s4d: "New Word / PDF / Excel files appear on the cards below. Older reviews stay in history.",
+      now: "Right now:", newRep: "issuers with a new report", noAn: "held securities without an analysis", allOk: "nothing waiting for analysis",
+      run: "Search running – started", wait: "please wait…", done: "Search finished", loading: "updating the page…", reload: "Reload page", fail: "Search failed – tell Claude in the project chat.", last: "Last search:" },
+    lt: { title: "Kaip atnaujinti apžvalgas", when: "Darykite, kai reikia naujų apžvalgų, pvz., kartą per ketvirtį. 1–2 žingsniai nemokami ir be AI; 3 žingsnis – AI analizė.",
+      s1: "Atnaujinkite ISIN sąrašą", s1d: "Atidarykite <a href=\"#isin\">ISIN list</a>, įklijuokite visą turimų VP sąrašą ir spauskite <b>Save list</b>.", s1w: "Kodėl: įrankis sužino, ką pirkote ir pardavėte.",
+      s2: "Ieškokite naujų ataskaitų ir naujienų", s2d: "Spauskite mygtuką žemiau. Atsidarys GitHub: spauskite <b>Run workflow</b>, tada žalią <b>Run workflow</b>. Grįžkite į šį puslapį – būsenos eilutė rodys eigą (3–5 min.).",
+      s2w: "Kodėl: prideda naujus ISIN, pažymi parduotus, randa naujas emitentų ataskaitas, naujienas ir sankcijų sutapimus.",
+      s3: "Paprašykite Claude analizės", s3d: "Claude projekte <b>Issuers review analyst</b> parašykite: <i>„Išanalizuok visas naujas ataskaitas“</i>. Claude ten atsakys, kai apžvalgos bus paruoštos (daug emitentų – kelios valandos).",
+      s3w: "Kodėl: apžvalgų tekstą ir skaičius iš emitentų ataskaitų rašo AI.", s4: "Atsisiųskite", s4d: "Nauji Word / PDF / Excel failai atsiras kortelėse žemiau. Senos apžvalgos lieka istorijoje.",
+      now: "Dabar:", newRep: "emitentai su nauja ataskaita", noAn: "turimi VP be analizės", allOk: "nieko nelaukia analizės",
+      run: "Paieška vyksta – pradėta", wait: "palaukite…", done: "Paieška baigta", loading: "atnaujinamas puslapis…", reload: "Perkrauti puslapį", fail: "Paieška nepavyko – parašykite Claude projekto pokalbyje.", last: "Paskutinė paieška:" }
+  };
+  const g = k => (G[LANG] || G.en)[k];
+  function guide(st) {
+    const newRep = D.issuers.filter(i => i.new_filings.length).length;
+    const noAn = D.securities.filter(s => s.held === "yes" && s.status === "active" && (!s.issuer || !byId[s.issuer] || !byId[s.issuer].files.length)).length;
+    const now = [newRep ? `<span class="chip bad">${newRep} ${g("newRep")}</span>` : "", noAn ? `<span class="chip warn">${noAn} ${g("noAn")}</span>` : ""].join("") || `<span class="chip good">${g("allOk")}</span>`;
+    const step = (n, a, d, w, extra = "") => `<li><div class="gn">${n}</div><div><b>${a}</b><p>${d}</p>${extra}<p class="muted gw">${w}</p></div></li>`;
+    return `<details class="guide" ${localStorage_get("guide") === "closed" ? "" : "open"}><summary>${g("title")}</summary><p class="muted">${g("when")}</p><ol class="steps">
+      ${step(1, g("s1"), g("s1d"), g("s1w"))}
+      ${step(2, g("s2"), g("s2d"), g("s2w"), `<div class="row bar-actions"><a class="btn primary" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${t("searchNow")}</a></div>
+        <div id="runStatus" class="runst muted">${g("last")} ${esc(st.news?.date || t("notYet"))}</div>`)}
+      ${step(3, g("s3"), g("s3d"), g("s3w"), `<p>${g("now")} ${now}</p>`)}
+      ${step(4, g("s4"), g("s4d"), "")}
+    </ol></details>`;
+  }
+  function localStorage_get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  const RUNS_API = `https://api.github.com/repos/${D.repo}/actions/workflows/update.yml/runs?per_page=6`;
+    let watchUntil = 0, timer = null, finished = false, active = false;
+  const hhmm = d => new Date(d).toLocaleTimeString(LANG === "lt" ? "lt-LT" : "en-GB", { hour: "2-digit", minute: "2-digit" });
+  function setStatus(html, cls) { const el = document.getElementById("runStatus"); if (el) { el.className = "runst " + (cls || ""); el.innerHTML = html; } }
+  async function checkRun() {
+    timer = null;
+    if (document.hidden) { schedule(); return; }
+    try {
+      if (finished) {
+        const txt = await (await fetch("data.js?" + Date.now(), { cache: "no-store" })).text();
+        const m = txt.match(/"generated":\s*"([^"]+)"/);
+        if (m && m[1] !== D.generated) { setStatus(`✓ ${g("done")} – ${g("loading")}`, "ok"); setTimeout(() => location.reload(), 1500); return; }
+        setStatus(`<span class="spin"></span> ${g("done")} – ${g("loading")} <button class="btn sm" onclick="location.reload()">${g("reload")}</button>`, "ok");
+      } else {
+        const r = ((await (await fetch(RUNS_API, { cache: "no-store" })).json()).workflow_runs || []).find(x => x.event !== "push");
+        if (r && r.status !== "completed") { active = true; watchUntil = Math.max(watchUntil, Date.now() + 10 * 60e3); setStatus(`<span class="spin"></span> ${g("run")} ${hhmm(r.run_started_at || r.created_at)} – ${g("wait")}`, "busy"); }
+        else if (active && r && r.conclusion === "failure") { setStatus(`✗ ${g("fail")}`, "bad"); return; }
+        else if (active && r) { finished = true; watchUntil = Math.max(watchUntil, Date.now() + 5 * 60e3); setStatus(`<span class="spin"></span> ${g("done")} ${hhmm(r.updated_at)} – ${g("loading")}`, "ok"); }
+      }
+    } catch (e) { /* offline or API limit: keep the last status */ }
+    schedule();
+  }
+  function schedule() { if (!timer && Date.now() < watchUntil) timer = setTimeout(checkRun, finished ? 20e3 : 60e3); }
+  function watchRuns() {
+    const b = document.getElementById("searchBtn");
+    if (b) b.addEventListener("click", () => { watchUntil = Date.now() + 15 * 60e3; finished = false; active = true; setStatus(`<span class="spin"></span> ${g("wait")}`, "busy"); clearTimeout(timer); timer = setTimeout(checkRun, 45e3); });
+    const d = document.querySelector("details.guide");
+    if (d) d.addEventListener("toggle", () => { try { localStorage.setItem("guide", d.open ? "open" : "closed"); } catch (e) { /* ignore */ } });
+    watchUntil = Math.max(watchUntil, Date.now() + 1000); if (!timer) checkRun();
+  }
+  addEventListener("visibilitychange", () => { if (!document.hidden && document.getElementById("runStatus") && !timer) { watchUntil = Math.max(watchUntil, Date.now() + 1000); checkRun(); } });
+
   /* ---------- pages ---------- */
   function overview() {
     const st = D.status || {};
@@ -146,8 +213,7 @@
     let h = `<section class="hero"><h1>${t("heroTitle")}</h1><p>${t("heroSub")}</p>
       <div class="stats"><div><b>${D.issuers.length}</b><span>${t("issuers")}</span></div><div><b>${held}</b><span>${t("held")}</span></div>
       <div><b>${D.news.length}</b><span>${t("newsTracked")}</span></div><div><b>${esc((D.issuers.map(i => i.calendar.match(/\d{4}-\d{2}-\d{2}/)?.[0]).filter(Boolean).sort()[0]) || "Nov 2026")}</b><span>${t("nextReports")}</span></div></div></section>`;
-    h += `<div class="row bar-actions"><a class="btn primary" href="${ACTIONS}" target="_blank" rel="noopener">${t("searchNow")}</a>
-      <span class="muted">${t("autoWeekly")} ${esc(st.news?.date || t("notYet"))}</span></div><div class="grid">`;
+    h += guide(st) + `<div class="grid">`;
     D.issuers.forEach(i => {
       const secs = D.securities.filter(s => s.issuer === i.id && s.held === "yes");
       const matured = secs.filter(s => s.status === "matured").length, soon = secs.filter(s => s.status === "active" && s.maturity_date && days(s.maturity_date) < 365).length;
@@ -330,11 +396,11 @@
   function about() {
     const en = LANG === "en";
     const steps = en
-      ? [["1", "Collect (free, weekly)", "Every Monday GitHub Actions scans news (Google News, local languages) and issuer report pages for new documents. No AI, no cost."],
+      ? [["1", "Collect (free)", "The ISIN list is read every morning and when you press the search button; news (Google News, local languages), issuer report pages and sanctions lists are scanned every Monday and on the button. No AI, no cost."],
          ["2", "Flag", "New reports, adverse headlines and matured bonds are flagged on the overview."],
          ["3", "Analyse (on request)", "Claude reads the new report and fills the fixed template: ratios with page-level sources, summary, plans vs outcomes, investor conclusions, ESG report."],
          ["4", "Review & publish", "The analyst edits text or Word file, completes sanctions and adverse media checks; Word, PDF and Excel rebuild automatically."]]
-      : [["1", "Rinkimas (nemokamai, kas savaitę)", "Kiekvieną pirmadienį GitHub Actions patikrina naujienas (Google News, vietos kalbomis) ir emitentų ataskaitų puslapius. Be AI, nemokamai."],
+      : [["1", "Rinkimas (nemokamai)", "ISIN sąrašas nuskaitomas kas rytą ir paspaudus paieškos mygtuką; naujienos (Google News, vietos kalbomis), emitentų ataskaitų puslapiai ir sankcijų sąrašai tikrinami kiekvieną pirmadienį ir paspaudus mygtuką. Be AI, nemokamai."],
          ["2", "Žymėjimas", "Naujos ataskaitos, neigiamos antraštės ir išpirktos obligacijos pažymimos apžvalgoje."],
          ["3", "Analizė (paprašius)", "Claude perskaito naują ataskaitą ir užpildo šabloną: rodikliai su nuorodomis į puslapius, santrauka, planai ir rezultatai, išvados investuotojui, ESG report."],
          ["4", "Peržiūra ir publikavimas", "Analitikas taiso tekstą ar Word failą, atlieka sankcijų ir žiniasklaidos patikras; Word, PDF ir Excel persigeneruoja automatiškai."]];
@@ -359,6 +425,7 @@
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
     document.documentElement.lang = LANG;
     $app.innerHTML = (map[page] || overview)();
+    if (!map[page] || page === "overview") watchRuns();
     document.getElementById("foot").textContent = `${t("generated")} ${D.generated}.`;
   }
   document.querySelectorAll("#langs button").forEach(b => b.onclick = () => { LANG = b.dataset.l; try { localStorage.setItem("lang", LANG); } catch (e) { /* ignore */ } route(); });
