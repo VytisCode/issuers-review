@@ -1,0 +1,154 @@
+# LHV Group - apžvalga pagal 2026 m. III ketv. (9M) ataskaitą.
+# Šį failą galima taisyti tiesiai GitHub'e. Tekstai lt ir en (lv/et - kai bus įjungtos).
+# Skaičiai paimti iš ataskaitų santraukų (verified: check data/history/lhv.csv).
+issuer: lhv
+period: 9M2026
+analysis_date: 2026-10-22
+prepared_by: Claude (automatiškai)
+next_report: "October 2026 monthly results - 2026-11-17 [H1]"
+rating: "Moody's: LHV Group senior unsecured Baa2 (positive outlook); LHV Pank deposits A3 (positive), updated 2025-09-01 [H5]"
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** III ketv. pelnas buvo rekordinis (37,5 mln. EUR, prieš metus 26,3 mln.), ir bankas sako, kad finansinio plano tikslus pasieks [H1 p.4, p.6]. Kapitalo atsarga sumažėjo: bendras kapitalas 20,25 %, kai vidinis tikslas 20,0 % [H1 p.10-11]. Tai svarbiausia turimoms Tier 2 ir AT1 obligacijoms.", en: "**Position OK.** Q3 profit was a record EUR 37.5m (EUR 26.3m a year ago), and the bank says it will meet its financial plan targets [H1 p.4, p.6]. The capital buffer has narrowed: total capital is 20.25% against an internal target of 20.0% [H1 p.10-11]. This matters most for the Tier 2 and AT1 bonds held."}
+periods: [FY2024, FY2025, 9M2025, 9M2026]
+ratios: [net_profit, nii, total_income, cost_income, roe, nim, loans, deposits, cet1, total_capital, leverage, mrel, lcr, nsfr, npl]
+highlights: [net_profit, roe, cet1, total_capital]
+charts: [net_profit, nii, loans, total_capital]
+
+sources:
+  H1: {title: "LHV Group - Interim report January-September 2026", url: "https://www.lhv.ee/assets/files/investor/LHV_Group_Interim_Report_2026-Q3_EN.pdf", date: 2026-10}
+  H2: {title: "LHV Group - Consolidated annual report 2025", url: "https://www.lhv.ee/assets/files/investor/LHV_Group_Annual_Report_2025-EN.pdf", date: 2026}
+  H3: {title: "LHV Group - Senior bonds", url: "https://investor.lhv.ee/en/senior-bonds", date: 2026-10-22}
+  H4: {title: "LHV Group - Subordinated bonds", url: "https://investor.lhv.ee/en/subordinated-bonds", date: 2026-10-22}
+  H5: {title: "LHV Group - Credit rating", url: "https://investor.lhv.ee/en/credit-rating", date: 2026-10-22}
+  H6: {title: "LHV Group - Financial forecasts (financial plan 2026)", url: "https://investor.lhv.ee/en/financial-forecasts", date: 2026}
+  H7: {title: "LHV Group - Annual sustainability report 2025", url: "https://www.lhv.ee/assets/files/LHV_Group_Annual_Sustainability_Report_2025-EN.pdf", date: 2026}
+  H8: {title: "LHV - ESG", url: "https://www.lhv.ee/en/esg", date: 2026-10-22}
+  H9: {title: "ERR - LHV nõuab rahapesu andmebüroolt pangasaladuse asjas 247 miljonit", url: "https://www.err.ee/1609754001/lhv-nouab-rahapesu-andmeburoolt-pangasaladuse-asjas-247-miljonit", date: 2025-07-25}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP4: {title: "SEB Social and Human Rights Policy (2026-04-28)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/B6C87DACA17DDE3CC1258B5C006292E0?opendocument", date: 2026-04-28}
+
+quick_summary:
+  - lt: "**Stiprus III ketvirtis:** grynasis pelnas 37,5 mln. EUR (prieš metus 26,3 mln.), ROE 19,3 %. Per 9 mėn. pelnas 81,9 mln. EUR, šiek tiek mažiau nei prieš metus (86,2 mln.) [H1 p.6]."
+    en: "**Strong third quarter:** net profit EUR 37.5m (EUR 26.3m a year ago), ROE 19.3%. Nine-month profit EUR 81.9m, slightly below last year (EUR 86.2m) [H1 p.6]."
+  - lt: "**Planas bus įvykdytas:** vadovybė teigia, kad III ketv. rezultatai „aiškiai lenkia finansinį planą“ ir metų tikslai bus pasiekti. 2026 m. plane – 117,9 mln. EUR pelno [H1 p.4; H6]."
+    en: "**On track for the plan:** management says Q3 results were \"firmly ahead of our financial plans\" and the year's targets will be met. The 2026 plan is EUR 117.9m net profit [H1 p.4; H6]."
+  - lt: "**Kapitalo atsarga mažesnė:** bendras kapitalas 20,25 % (2025 m. pab. 22,39 %), CET1 15,28 % (17,04 %). Vidinis tikslas – 20,0 % [H1 p.10-11]."
+    en: "**Smaller capital buffer:** total capital 20.25% (YE2025 22.39%), CET1 15.28% (17.04%). The internal target is 20.0% [H1 p.10-11]."
+  - lt: "**Likvidumas ir MREL – su atsarga:** LCR 173,9 %, MREL 35,04 % TREA, kai reikalaujama 24,59 % [H1 p.10]."
+    en: "**Liquidity and MREL with headroom:** LCR 173.9%, MREL 35.04% of TREA versus a 24.59% requirement [H1 p.10]."
+  - lt: "**Auga paskolos:** paskolos klientams 5 951 mln. EUR (+8,9 % nuo 2025 m. pab.; apskaičiuota įrankio), indėliai 7 735 mln. EUR [H1 p.6, p.19]."
+    en: "**Loans growing:** loans to customers EUR 5,951m (+8.9% since YE2025; calculated by the tool), deposits EUR 7,735m [H1 p.6, p.19]."
+
+business:
+  - lt: "Grynosios palūkanų pajamos per 9 mėn. 190,6 mln. EUR (+8,8 %), visos pajamos 232,7 mln. EUR (+3,0 %; pokyčiai apskaičiuoti įrankio). Palūkanų marža III ketv. 2,80 % (prieš metus 2,36 %) [H1 p.6]."
+    en: "Nine-month net interest income EUR 190.6m (+8.8%), total income EUR 232.7m (+3.0%; changes calculated by the tool). Q3 net interest margin 2.80% (2.36% a year ago) [H1 p.6]."
+  - lt: "Sąnaudų / pajamų santykis per 9 mėn. 57,0 % (prieš metus 51,7 %). III ketv. atleista 8,9 mln. EUR atidėjinių, todėl paskolų nuostoliai neigiamo poveikio neturėjo [H1 p.6, p.18]."
+    en: "Nine-month cost/income 57.0% (51.7% a year ago). EUR 8.9m of provisions were released in Q3, so loan losses had no negative impact [H1 p.6, p.18]."
+  - lt: "LHV Bank (JK) atsilieka nuo plano: pelnas iki mokesčių 4,7 mln. GBP, planuota 7,2 mln.; rugsėjį įneštas 10 mln. GBP CET1 kapitalas [H1 p.15]."
+    en: "LHV Bank (UK) is behind plan: profit before tax GBP 4.7m versus GBP 7.2m planned; GBP 10m of CET1 capital injected in September [H1 p.15]."
+  - lt: "Trečios stadijos (neveiksnios) paskolos – 72,4 mln. EUR, apie 1,2 % paskolų (apskaičiuota įrankio) [H1 p.12]."
+    en: "Stage 3 (non-performing) loans EUR 72.4m, about 1.2% of loans (calculated by the tool) [H1 p.12]."
+
+financials:
+  - lt: "2025 m. grynasis pelnas 117,0 mln. EUR (2024 m. – 150,3 mln.), ROE 16,0 % (24,5 %): krito palūkanų normos, todėl sumažėjo palūkanų pajamos. 2025 m. tikslų bankas nepasiekė, pelningumas buvo 6,5 % mažesnis [H2 p.8, p.14-15]."
+    en: "FY2025 net profit EUR 117.0m (2024: 150.3m), ROE 16.0% (24.5%): lower interest rates reduced interest income. The bank missed its 2025 targets, with profitability 6.5% short [H2 p.8, p.14-15]."
+  - lt: "2025 m. pabaigos kapitalo rodikliai perskaičiuoti po ECB patikrinimo: CET1 17,04 % (metinėje ataskaitoje – 17,42 %), bendras kapitalas 22,39 % (22,85 %). ECB skyrė 0,4 mln. EUR baudą dėl neteisingai apskaičiuoto rizikos svertinio turto, susijusio su investicija į JK įmonę [H1 p.10; H2 p.13]."
+    en: "Year-end 2025 capital ratios were restated after an ECB inspection: CET1 17.04% (annual report: 17.42%), total capital 22.39% (22.85%). The ECB imposed a EUR 0.4m penalty for wrongly calculated risk-weighted assets related to the investment in the UK entity [H1 p.10; H2 p.13]."
+  - lt: "Dividendai: per 9 mėn. 2026 m. išmokėta 57,9 mln. EUR; dividendas akcijai už 2025 m. – 0,09 EUR (už 2024 m. – 0,13 EUR) [H1 p.20; H2 p.15]."
+    en: "Dividends: EUR 57.9m paid in 9M 2026; dividend per share for 2025 EUR 0.09 (2024: EUR 0.13) [H1 p.20; H2 p.15]."
+
+plans:
+  - plan: {lt: "2026 m. finansinis planas: 117,9 mln. EUR grynojo pelno, ROE 15,0 %, bendras kapitalas 20,9 %", en: "2026 financial plan: EUR 117.9m net profit, ROE 15.0%, total capital 20.9%"}
+    outcome: {lt: "Per 9 mėn. – 81,9 mln. EUR pelno, ROE 14,0 %; vadovybė tikisi tikslus pasiekti", en: "9M: EUR 81.9m profit, ROE 14.0%; management expects to meet the targets"}
+    status: pending
+    src: "H6; H1 p.4, p.6"
+    why: {lt: "Vykdoma: III ketv. rezultatai lenkia planą, nes padidėjo palūkanų pajamos ir atleisti atidėjiniai [H1 p.4, p.6, p.18]. Kapitalas (20,25 %) šiuo metu žemiau plano 20,9 % [H1 p.11].", en: "In progress: Q3 results are ahead of plan thanks to higher interest income and provision releases [H1 p.4, p.6, p.18]. Capital (20.25%) is currently below the 20.9% plan [H1 p.11]."}
+  - plan: {lt: "2025 m. finansinis planas", en: "2025 financial plan"}
+    outcome: {lt: "Nepasiektas: pelningumas 6,5 % mažesnis už planą", en: "Missed: profitability 6.5% below plan"}
+    status: not_met
+    src: "H2 p.8"
+    why: {lt: "Nepasiekta: palūkanų normos krito greičiau, palūkanų pajamos sumažėjo nuo 273,3 iki 235,1 mln. EUR [H2 p.8, p.14].", en: "Missed: interest rates fell faster than expected and net interest income dropped from EUR 273.3m to 235.1m [H2 p.8, p.14]."}
+  - plan: {lt: "Iki 2030 m. daugiau nei dvigubai padidinti grynąjį pelną (planas 2030 m. – 290,2 mln. EUR), ROE tikslas 20 %", en: "More than double net profit by 2030 (plan for 2030: EUR 290.2m), ROE target 20%"}
+    outcome: {lt: "Ilgalaikis tikslas; 2026 m. eiga – pagal planą", en: "Long-term target; 2026 progress in line with plan"}
+    status: pending
+    src: "H2 p.7, p.11; H6"
+    why: {lt: "Naujas tikslas, paskelbtas 2025 m. ataskaitoje [H2 p.7].", en: "New target announced in the 2025 annual report [H2 p.7]."}
+  - plan: {lt: "Dividendų politika: dividendai su mokesčiais – 25 % pelno iki mokesčių, nepažeidžiant kapitalo tikslų", en: "Dividend policy: dividends including taxes 25% of pre-tax profit, without hurting capital targets"}
+    outcome: {lt: "Už 2025 m. – 0,09 EUR akcijai; 2026 m. plane – 0,08 EUR", en: "For 2025: EUR 0.09 per share; 2026 plan: EUR 0.08"}
+    status: met
+    src: "H2 p.15, p.18, p.26-27"
+    why: {lt: "Įvykdyta pagal politiką [H2 p.15, p.18].", en: "Paid in line with the policy [H2 p.15, p.18]."}
+
+investor:
+  - lt: "**Turimos priemonės (visos – LHV Group, kontroliuojančiosios bendrovės):** trys pirmaeilės (senior unsecured) obligacijos – 5,375 % 2028 (pirkimo teisė 2027-05-24, 300 mln. EUR), 4,125 % 2029 (pirkimo teisė 2028-06-18, 60 mln. EUR) ir kintamos palūkanų normos 2027-10-03 (100 mln. EUR); dvi Tier 2 – 6,0 % 2034 (20 mln. EUR) ir 5,5 % 2035 (80 mln. EUR); AT1 9,5 % neterminuota (50 mln. EUR) [H2 p.17; H3; H4]."
+    en: "**Instruments held (all issued by LHV Group, the holding company):** three senior unsecured bonds, 5.375% 2028 (call 2027-05-24, EUR 300m), 4.125% 2029 (call 2028-06-18, EUR 60m) and an FRN due 2027-10-03 (EUR 100m); two Tier 2, 6.0% 2034 (EUR 20m) and 5.5% 2035 (EUR 80m); and a 9.5% perpetual AT1 (EUR 50m) [H2 p.17; H3; H4]."
+  - lt: "**Reitingas:** Moody's LHV Group pirmaeilėms obligacijoms – Baa2 su teigiama perspektyva [H5]."
+    en: "**Rating:** Moody's rates LHV Group senior unsecured debt Baa2 with a positive outlook [H5]."
+  - lt: "**Subordinuotoms obligacijoms:** bendras kapitalas 20,25 % viršija vidinį 20,0 % tikslą tik nedaug, o MREL 35,04 % yra virš 30,59 % ribos, nuo kurios priklauso dividendų mokėjimas [H1 p.10-11]. AT1 kuponų mokėjimui tai reiškia didesnį jautrumą kapitalui nei senior obligacijoms."
+    en: "**For subordinated bonds:** total capital of 20.25% is only slightly above the internal 20.0% target, while MREL of 35.04% is above the 30.59% level that gates dividends [H1 p.10-11]. AT1 coupons are therefore more sensitive to capital than the senior bonds."
+  - lt: "**2026 m. finansavimas:** išleista nauja 200 mln. EUR 4,50 % senior obligacija (2030) ir 15 mln. EUR 8,0 % AT1; anksčiau laiko išpirkta 20 mln. EUR 7,0 % obligacija EE3300003250 [H3; H4]."
+    en: "**2026 funding:** a new EUR 200m 4.50% senior bond (2030) and a EUR 15m 8.0% AT1 were issued; the EUR 20m 7.0% bond EE3300003250 was redeemed early [H3; H4]."
+  - lt: "Išvada: pelningumas atsigauna ir planas vykdomas, likvidumas bei MREL – su atsarga. Kapitalo atsarga sumažėjo, tačiau bankas laikosi vidinio tikslo."
+    en: "Conclusion: profitability is recovering and the plan is on track; liquidity and MREL have headroom. The capital buffer is smaller, but the bank stays within its internal target."
+
+esg:
+  policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  items:
+    excl_sectors:
+      status: 'yes'
+      evidence:
+        lt: "Bankas nevykdo veiklos išskirtuose sektoriuose. Viešai skelbiamas veiklų, kurios prieštarauja kredito politikai, sąrašas [H8]. Kredito politika draudžia finansuoti klientus, kurių veikla aiškiai pažeidžia žmogaus teises ar daro rimtą žalą aplinkai [H7 p.80]."
+        en: "The bank is not active in excluded sectors. It publishes a list of activities that go against its credit policy [H8]. The credit policy rules out lending to customers with clear evidence of human rights violations or serious environmental harm [H7 p.80]."
+    excl_red_flag:
+      status: 'yes'
+      evidence:
+        lt: "Su JT Pasauliniu susitarimu ar EBPO gairėmis susijusių ginčų nerasta (greita paieška 2026-10-22). Vienintelė priežiūros sankcija – 0,4 mln. EUR ECB bauda dėl rizikos svertinio turto skaičiavimo [H2 p.13]."
+        en: "No UN Global Compact or OECD related controversies found (quick search, 2026-10-22). The only supervisory penalty is a EUR 0.4m ECB fine over risk-weighted asset calculation [H2 p.13]."
+    sanctions:
+      status: review
+      evidence:
+        lt: "Automatinė patikra ES, JT, JAV OFAC ir JK konsoliduotuose sankcijų sąrašuose."
+        en: "Automatic check against the EU, UN, US OFAC and UK consolidated sanctions lists."
+    media:
+      status: 'yes'
+      evidence:
+        lt: "Neigiamų naujienų apie LHV nerasta (paieška estų ir anglų k., 2026-10-22). Svarbiausia byla, kurioje LHV yra reikalaujanti šalis: 2025-07 bankas pranešė Pinigų plovimo duomenų biurui ketinantis reikalauti 247,5 mln. EUR baudos, nes biuras be teisinio pagrindo 1 289 kartus gavo LHV klientų sąskaitų išrašus [H9]."
+        en: "No adverse news about LHV found (search in Estonian and English, 2026-10-22). The main case has LHV as the claimant: in July 2025 the bank notified the Financial Intelligence Unit of its intent to claim a EUR 247.5m contractual penalty, because the unit accessed LHV client account statements 1,289 times without legal basis [H9]."
+    int_promoting:
+      status: 'yes'
+      evidence:
+        lt: "**Tvarūs produktai:** energiją taupančių būstų paskolos, elektromobilių lizingas, daugiabučių renovacijos ir energetikos projektų paskolos, EIF tvarių paskolų programa [H7 p.80]. **Tikslai:** bent 50 % naujų būsto paskolų – A ir B energinės klasės, 100 % elektros iš atsinaujinančių šaltinių iki 2030 m. [H7 p.97]. Nuo 2030 m. nebus finansuojami nauji dyzeliniai lengvieji automobiliai [H7 p.81]."
+        en: "**Sustainable products:** energy-efficient home loans, EV leasing, apartment renovation and energy project loans, the EIF sustainable loan programme [H7 p.80]. **Targets:** at least 50% of new mortgages for A and B energy class housing, 100% renewable electricity by 2030 [H7 p.97]. No financing of new diesel passenger cars from 2030 [H7 p.81]."
+    int_taxonomy:
+      status: 'yes'
+      evidence:
+        lt: "Siekia prisidėti prie Paryžiaus susitarimo tikslų ir perėjimo prie klimatui neutralios ekonomikos iki 2050 m. [H7 p.80, p.86]. Žaliojo turto santykis – 4,86 % [H7 p.95]."
+        en: "Aims to contribute to the Paris Agreement goals and the transition to a climate-neutral economy by 2050 [H7 p.80, p.86]. Green asset ratio 4.86% [H7 p.95]."
+    int_yellow_flag:
+      status: 'yes'
+      evidence:
+        lt: "Geltonų signalų nerasta."
+        en: "No yellow flags found."
+    int_seb_policies:
+      status: 'yes'
+      evidence:
+        lt: "**Taikoma:** SEB neturi bankų sektoriaus politikos, todėl taikoma investicijų politika bei aplinkosaugos ir socialinė / žmogaus teisių politikos [SP1 p.5, p.7]. **Atitinka:** veiklų išimčių sąrašas [H8]; žmogaus teisių ir aplinkos kriterijai kredito politikoje [H7 p.80]; žmogaus teisių rizikų vertinimas [H7 p.90]; klimato tikslai [H7 p.97]; ESG politika [H8]. **Galėtų būti geriau:** finansuojamos emisijos (PCAF) skaičiais neskelbiamos [H7 p.88]."
+        en: "**Applicable:** no SEB sector policy for banks, so the Investments policy and the Environmental and Social & Human Rights policies apply [SP1 p.5, p.7]. **Met:** activity exclusion list [H8]; human rights and environmental criteria in the credit policy [H7 p.80]; human rights risk assessment [H7 p.90]; climate targets [H7 p.97]; ESG policy [H8]. **Could be improved:** financed emissions (PCAF) are not disclosed as figures [H7 p.88]."
+    engagement:
+      status: 'no'
+      evidence:
+        lt: "Nereikia: bankas pelningas, likvidumas ir MREL – su atsarga, ESG praktika tvarkinga."
+        en: "No need: the bank is profitable, liquidity and MREL have headroom and ESG practice is in order."
+    indicators:
+      status: 'yes'
+      evidence:
+        lt: "Nuosavos 1 apimties emisijos – 0 t CO2e, 3 apimties – 573 454 t CO2e 2025 m. [H7 p.98]; žaliojo turto santykis 4,86 % [H7 p.95]; moterų dalis grupės valdyboje ir taryboje – 30 % [H7 p.85]."
+        en: "Own Scope 1 emissions 0 t CO2e, Scope 3 573,454 t CO2e in 2025 [H7 p.98]; green asset ratio 4.86% [H7 p.95]; women on the Group management and supervisory boards 30% [H7 p.85]."
+  comments:
+    exclusion: {lt: '', en: ''}
+    integration: {lt: '', en: ''}
+    engagement: {lt: '', en: ''}
+    indicators: {lt: '', en: ''}
+  conclusion:
+    lt: "Išimčių ir raudonų signalų nėra. Tvarūs produktai ir aiškūs klimato tikslai; finansuojamos emisijos kol kas neskelbiamos skaičiais."
+    en: "No exclusions or red flags. Sustainable products and clear climate targets; financed emissions are not yet disclosed as figures."
+

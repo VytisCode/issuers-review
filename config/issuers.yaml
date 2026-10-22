@@ -77,3 +77,23 @@ port-of-tallinn:
   news_queries:
     - '"Tallinna Sadam"'
     - '"Port of Tallinn"'
+
+lhv:
+  name: LHV Group
+  legal_name: AS LHV Group
+  country: EE
+  sector: Bank holding (LHV Pank Estonia, LHV Bank UK, asset management, insurance)
+  owner: Listed on Nasdaq Tallinn (LHV1T); largest shareholders founders (R. Sõõrumaa, A. Tõnisson)
+  website: https://investor.lhv.ee/en/
+  ir_page: https://investor.lhv.ee/en/reports
+  ratings_page: https://investor.lhv.ee/en/credit-rating
+  nasdaq_ticker: LHV1T
+  media: EE
+  seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
+  report_pages:
+    - https://investor.lhv.ee/en/reports
+  report_calendar: "Monthly results: October 2026 results 2026-11-17; FY2026 report early 2027"
+  news_match: [lhv]
+  news_queries:
+    - '"LHV Group"'
+    - '"LHV Pank"'
