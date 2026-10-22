@@ -1,0 +1,35 @@
+{
+ "ignitis": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "US OFAC": "not_found",
+   "UK": "not_found"
+  },
+  "matches": []
+ },
+ "luminor": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "found",
+   "UN": "not_found",
+   "US OFAC": "found",
+   "UK": "not_found"
+  },
+  "matches": [
+   "EU: luminor",
+   "US OFAC: luminor"
+  ]
+ },
+ "port-of-tallinn": {
+  "date": "2026-10-22",
+  "lists": {
+   "EU": "not_found",
+   "UN": "not_found",
+   "US OFAC": "not_found",
+   "UK": "not_found"
+  },
+  "matches": []
+ }
+}
