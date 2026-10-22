@@ -41,10 +41,10 @@ grp_integration:  {lt: "ESG integravimas / teigiama atranka", en: "ESG integrati
 grp_engagement:   {lt: "Įsitraukimas", en: "Engagement", lv: "Iesaiste", et: "Kaasamine"}
 grp_manual:       {lt: "Rankinė patikra", en: "Manual check", lv: "Manuāla pārbaude", et: "Käsitsi kontroll"}
 esg_conclusion:   {lt: "ESG išvada", en: "ESG conclusion", lv: "ESG secinājums", et: "ESG järeldus"}
-disclaimer:       {lt: "Ataskaita parengta automatiškai iš viešų šaltinių. Skaičiai pateikiami taip, kaip juos skelbia emitentas; nuorodos [S#] veda į šaltinių sąrašą. Prieš naudojant sprendimui, analitikas turi peržiūrėti pažymėtus punktus.",
-                   en: "Report prepared automatically from public sources. Figures are as published by the issuer; references [S#] point to the source list. Items marked for review must be checked by the analyst before use.",
-                   lv: "Pārskats sagatavots automātiski no publiskiem avotiem. Skaitļi norādīti tā, kā tos publicējis emitents; atsauces [S#] norāda uz avotu sarakstu. Pirms izmantošanas analītiķim jāpārbauda atzīmētie punkti.",
-                   et: "Ülevaade on koostatud automaatselt avalikest allikatest. Arvud on esitatud nii, nagu emitent need avaldas; viited [S#] osutavad allikate loetelule. Ülevaatust vajavad punktid peab analüütik enne kasutamist kontrollima."}
+disclaimer:       {lt: "Ataskaita parengta iš viešų šaltinių. Skaičiai pateikiami taip, kaip juos skelbia emitentas; maži numeriai prie teksto veda į šaltinių sąrašą.",
+                   en: "Report prepared from public sources. Figures are as published by the issuer; small numbers next to the text point to the source list.",
+                   lv: "Pārskats sagatavots no publiskiem avotiem. Skaitļi norādīti tā, kā tos publicējis emitents; mazie numuri pie teksta norāda uz avotu sarakstu.",
+                   et: "Ülevaade on koostatud avalikest allikatest. Arvud on esitatud nii, nagu emitent need avaldas; väikesed numbrid teksti juures osutavad allikate loetelule."}
 rating:           {lt: "Reitingas", en: "Rating", lv: "Reitings", et: "Reiting"}
 next_report:      {lt: "Kita ataskaita", en: "Next report", lv: "Nākamais pārskats", et: "Järgmine aruanne"}
 needs_review:     {lt: "Reikia peržiūrėti. ", en: "Needs review. ", lv: "Jāpārskata. ", et: "Vajab ülevaatust. "}
@@ -54,3 +54,20 @@ legend:           {lt: "* – paimta iš ataskaitos santraukos;  ᶜ – apskai�
 change:           {lt: "Pokytis", en: "Change", lv: "Izmaiņas", et: "Muutus"}
 legend_colors:    {lt: "Spalvos: žalias pokytis – rodiklis gerėja, raudonas – blogėja. Paskutinio laikotarpio langelio fonas: žalias – geras lygis, geltonas – vidutinis, raudonas – silpnas (įrankio orientyrai, config/metric_rules.yaml).", en: "Colours: green change – the metric is improving, red – worsening. Latest-period cell background: green – good level, amber – average, red – weak (tool benchmarks, config/metric_rules.yaml).", lv: "Krāsas: zaļas izmaiņas – rādītājs uzlabojas, sarkanas – pasliktinās. Pēdējā perioda šūnas fons: zaļš – labs līmenis, dzeltens – vidējs, sarkans – vājš.", et: "Värvid: roheline muutus – näitaja paraneb, punane – halveneb. Viimase perioodi lahtri taust: roheline – hea tase, kollane – keskmine, punane – nõrk."}
 why:              {lt: "Kas pasikeitė ir kodėl", en: "What changed and why", lv: "Kas mainījās un kāpēc", et: "Mis muutus ja miks"}
+verdict_ok:       {lt: "Tvarkinga", en: "OK", lv: "Kārtībā", et: "Korras"}
+verdict_watch:    {lt: "Stebėti", en: "Watch", lv: "Uzraudzīt", et: "Jälgida"}
+verdict_action:   {lt: "Veikti", en: "Action", lv: "Rīkoties", et: "Tegutseda"}
+press:            {lt: "Ką rašo spauda", en: "In the press", lv: "Ko raksta prese", et: "Mida kirjutab ajakirjandus"}
+press_intro:      {lt: "Automatinė naujienų paieška (Google News, {langs}), {start} – {end}: {n} pranešimų.", en: "Automatic news scan (Google News, {langs}), {start} – {end}: {n} articles.", lv: "Automātiska ziņu meklēšana (Google News, {langs}), {start} – {end}: {n} ziņas.", et: "Automaatne uudisteotsing (Google News, {langs}), {start} – {end}: {n} uudist."}
+press_none:       {lt: "Per šį laikotarpį naujienų apie emitentą nerasta.", en: "No news about the issuer found in this period.", lv: "Šajā periodā ziņas par emitentu nav atrastas.", et: "Sel perioodil emitendi kohta uudiseid ei leitud."}
+press_flag:       {lt: "Antraštėje yra neigiamas žodis", en: "Headline contains an adverse keyword", lv: "Virsrakstā ir negatīvs vārds", et: "Pealkirjas on negatiivne märksõna"}
+press_more:       {lt: "dar {n} panašūs pranešimai", en: "{n} more similar articles", lv: "vēl {n} līdzīgas ziņas", et: "veel {n} sarnast uudist"}
+press_summary:    {lt: "Apibendrinimas", en: "Summary", lv: "Kopsavilkums", et: "Kokkuvõte"}
+topic_vadovai:    {lt: "Vadovai", en: "Management", lv: "Vadība", et: "Juhtkond"}
+topic_ataskaita:  {lt: "Rezultatai", en: "Results", lv: "Rezultāti", et: "Tulemused"}
+topic_reitingas:  {lt: "Reitingas", en: "Rating", lv: "Reitings", et: "Reiting"}
+topic_obligacijos: {lt: "Obligacijos", en: "Bonds", lv: "Obligācijas", et: "Võlakirjad"}
+topic_dividendai: {lt: "Dividendai", en: "Dividends", lv: "Dividendes", et: "Dividendid"}
+topic_sandoris:   {lt: "Sandoris", en: "Deal", lv: "Darījums", et: "Tehing"}
+topic_kita:       {lt: "Kita", en: "Other", lv: "Cits", et: "Muu"}
+topic_review:     {lt: "Dėmesio", en: "Attention", lv: "Uzmanību", et: "Tähelepanu"}

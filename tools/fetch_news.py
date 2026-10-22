@@ -30,17 +30,18 @@ GL = {"lt": ("lt", "LT", "LT:lt"), "lv": ("lv", "LV", "LV:lv"), "et": ("et", "EE
 
 # Neigiami žodžiai (žodžių pradžios) visomis kalbomis - radus antraštėje, naujiena žymima "review".
 ADVERSE = {
-    "lt": ["tyrim", "baud", "skandal", "teism", "korupc", "kyš", "sukčiav", "sankcij", "bankrot", "nuostol", "pažeid", "įtar", "prokur", "stt", "fntt", "ieškin"],
-    "lv": ["izmeklē", "sod", "skandāl", "tiesa", "tiesā", "korupc", "kukuļ", "krāpšan", "sankcij", "bankrot", "zaudējum", "pārkāp", "prokurat", "knab", "prasīb"],
-    "et": ["uurim", "trahv", "skandaal", "kohtu", "kohus", "korrupt", "altkäemaks", "pettus", "sanktsioon", "pankrot", "kahjum", "rikkum", "prokurat", "kahtlust", "hagi"],
+    "lt": ["tyrim", "baud", "skandal", "teism", "korupc", "kyš", "sukčiav", "sankcij", "bankrot", "nuostol", "pažeid", "įtar", "prokur", "stt", "fntt", "ieškin", "kreml", "gazprom", "uokik"],
+    "lv": ["izmeklē", "sod", "skandāl", "tiesa", "tiesā", "korupc", "kukuļ", "krāpšan", "sankcij", "bankrot", "zaudējum", "pārkāp", "prokurat", "knab", "prasīb", "kreml", "gazprom", "uokik"],
+    "et": ["uurim", "trahv", "skandaal", "kohtuasi", "kohtusse", "kohtuotsus", "kohtuvaid", "kohus", "korrupt", "altkäemaks", "pettus", "sanktsioon", "pankrot", "kahjum", "rikkum", "prokurat", "kahtlust", "hagi", "kreml", "gazprom", "ettekirjut", "uokik"],
     "en": ["investigat", "fine", "fined", "scandal", "lawsuit", "court", "corrupt", "brib", "fraud", "sanction", "bankrupt", "breach", "probe",
-           "downgrad", "money laundering", "default", "penalt", "allegation"],
+           "downgrad", "money laundering", "default", "penalt", "allegation", "kremlin", "gazprom", "precept", "enforcement", "uokik"],
 }
 TOPICS = {
-    "ataskaita": ["report", "results", "ataskait", "rezultat", "aruanne", "tulemus", "pārskat", "rezultāt", "q1", "q2", "q3", "q4", "6m", "9m", "pusmeč", "ketvir"],
+    "ataskaita": ["report", "results", "ataskait", "rezultat", "aruanne", "tulemus", "pārskat", "rezultāt", "q1", "q2", "q3", "q4", "6m", "9m", "pusmeč", "ketvir", "profit", "pelnas", "pelną", "pelno", "kasum", "peļņ"],
     "reitingas": ["rating", "moody", "s&p", "fitch", "reiting", "reitingu"],
     "obligacijos": ["bond", "obligac", "võlakir", "obligāc", "notes", "tender", "emtn"],
     "dividendai": ["dividend"],
+    "vadovai": ["ceo", "cfo", "management board", "supervisory board", "valdyb", "vadov", "juhatus", "nõukogu", "juht", "valde", "padome", "vadītāj"],
     "sandoris": ["acqui", "merger", "sale of", "įsigij", "pardav", "omandam", "iegād", "otp"],
 }
 
@@ -117,6 +118,8 @@ def main():
                 time.sleep(1)
     excl = {k: [n.lower() for n in v.get("news_exclude", [])] for k, v in C.issuers().items()}
     old = [r for r in old if not any(x in r["title"].lower() for x in excl.get(r["issuer"], []))]
+    for r in old:  # žodžių sąrašai tikslinami - senos antraštės perklasifikuojamos tomis pačiomis taisyklėmis
+        r["flag"], r["keywords"], r["topics"] = classify(r["title"])
     rows = sorted(old + new, key=lambda r: (r["date"], r["id"]), reverse=True)
     C.write_csv(OUT, rows, FIELDS)
     status = C.load_json(C.DATA / "source_status.json")

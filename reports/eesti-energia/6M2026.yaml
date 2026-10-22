@@ -13,6 +13,8 @@ highlights: [ebitda, nd_ebitda, net_debt, equity]
 charts: [ebitda, net_debt, investments]
 
 sources:
+  N1: {"title": "Majandus – Eesti Energia loobub 24,7 miljonist eurost, vesinikutaristu jääb ehitamata", "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLWl5SEoxLS1Rcng2TzgtdVVFNzF3SVBNeUVqbnpUVkZWN19hbk9VYWFEdU1zMDhmWG1SalFRcm55eFA3Q2tIRWRiUUJsNWZzWUZzVTBGZG9INWd4d19lR2kzQlc4d0JGQUExcGtpakp0M3dhZ3FOM3VQMHA1RXM4R1d6R1VWTkIwM2hLaVNGZ2RHNVZmWE1qUlQ1LVBzZVVIWDBoSDRLbEQ0TEo0MHgwSA?oc=5", "date": "2026-10-20"}
+  N2: {"title": "ERR – Eesti Energia sai tingimusliku loa Narva kütmiseks põlevkiviõliga", "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUnpUcjZyc1NGSndMZ0lkRzJjR3ZqQWhLVzRzV1RsTUdLQnp2cGN6UndPbjFNZ0t2dE90WjZHQlNEd2Yyc1RrelRGOTZKeUFUQkZPdmN5Q1JpTG9rcEZQd2ttR2lJbUJIUGxhbFU1Tm1CTDlLazJEU1E1VXhEUXd3YmQ4d3pub1V2QlU5S0FtYTJXOXUzelNnRG9QSQ?oc=5", "date": "2026-10-06"}
   E1: {title: "Eesti Energia - Interim report Q2 2026 (unaudited, ET)", url: "https://public-docs.enefit.com/ettevottest/investorile/2026/Q2-2026-aruanne_EST_final.pdf", date: 2026-07-31}
   E2: {title: "Eesti Energia - Annual report 2025 (unaudited)", url: "https://public-docs.enefit.com/ettevottest/investorile/2025/EE-aruanne-2025-EN_FINAL.pdf", date: 2026}
   E3: {title: "Enefit - Investor page (bonds, financing)", url: "https://www.enefit.com/en/investorile", date: 2026-10-22}
@@ -137,3 +139,8 @@ esg:
   conclusion:
     lt: "Raudonų signalų nėra, bet skalūnų veikla patenka į SEB Baltijos išimtį tik iki 2030 m.; geltonas signalas – audito byla ir baudos."
     en: "No red flags, but oil shale activity is covered by the SEB Baltic exception only until 2030; yellow flag – the audit case and fines."
+press:
+  - lt: "**Vandenilis:** 2026-10-20 spauda rašė, kad Eesti Energia atsisako 24,7 mln. EUR (paramos) ir vandenilio infrastruktūra nebus statoma [N1]."
+    en: "**Hydrogen:** on 2026-10-20 the press reported that Eesti Energia gives up EUR 24.7m (of support) and the hydrogen infrastructure will not be built [N1]."
+  - lt: "**Narvos šildymas:** 2026-10-06 bendrovė gavo sąlyginį leidimą šildyti Narvą skalūnų alyva [N2]."
+    en: "**Narva heating:** on 2026-10-06 the company received a conditional permit to heat Narva with shale oil [N2]."

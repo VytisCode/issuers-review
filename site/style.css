@@ -196,3 +196,16 @@ table.sect .chip { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sa
 #myTbl .sn { font-weight: 600; }
 #myTbl .mono { font-size: 12px; }
 .runst .bad { color: var(--bad); }
+
+/* Naujienos: svarbiausių išskyrimas */
+.hl { background: var(--card, #fff); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 12px 0 18px; }
+.hl h2 { margin: 0 0 2px; font-size: 17px; }
+.hlgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-top: 10px; }
+.hlcol h3 { margin: 0 0 6px; font-size: 13px; }
+.hlcol.review { background: var(--bad-bg); border-radius: 10px; padding: 8px 10px; }
+.hli { padding: 7px 0; border-top: 1px solid var(--line); font-size: 14px; line-height: 1.35; }
+.hlcol h3 + .hli { border-top: 0; }
+.hlm { font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+.hlm a { color: inherit; font-weight: 600; }
+.small { font-size: 12.5px; }
+.chip.sm { font-size: 11px; padding: 0 6px; margin: 0 2px; }

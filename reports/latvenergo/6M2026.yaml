@@ -14,6 +14,9 @@ highlights: [ebitda, net_profit, nd_ebitda, ffo_nd]
 charts: [net_profit, investments, net_debt, generation]
 
 sources:
+  N1: {"title": "Jauns.lv – \"Latvenergo\" valdes loceklis Māris Kuņickis atstāj darbu uzņēmumā", "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaGlHRXFybVhhc3VtZjVPVnQxaHYyQU1Ob0VjZzJ4OFZMT0FZYkhDUDJkbno5ZGVQOE1WRktCdEwwd0VUeDlscEExdE9oV2RQN0NRQzZzNkwyVlR1TnQwMmx2YS1nQWFzWjJoMmhoN3RfbnV4UTRTRlBBdG9mNDBKT3RGTGdHQnEzVlZNNXNJbVMybF9uckNtZmRWQzNublNHaTJiMw?oc=5", "date": "2026-10-05"}
+  N2: {"title": "TVNET – \"Latvenergo\" gatava turpināt sadarbību \"Tet\" un LMT daļu izpirkšanas procesā", "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd0pQN3NXOENkUDZoaTVOdThycUdQaTdacHQzU2kzTFV0OV8xNnBTNTBZOXB4eE9zNkxQVWwxWEVZWG9lbWdPZGZXbEIwRWFxSUhzSmp0Q0NjRVRRUXppalVseGJnWDhHZjBIbE9nSklnQ2JsaVc2LTZacXRCbFVSQi1Sc3pQaVI1eXEtcVlQZGhOUmJaaVloSlNJWFFMenNaX0Fr?oc=5", "date": "2026-10-22"}
+  N3: {"title": "NRA – \"Latvenergo\": tik dārga dabasgāze nav bijusi gadiem ilgi", "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcm0tb0tzVm55a1FMMzd1cW5mTVJxS0tlTnItUnl2UjB4S0VsTjFrSlRJelFqQnVDSDJkRmd5LWZ0UGpqRHMxaTdCcEJmaU9meVgyZjBNQ3A4ZEFjNlhsd1NOY1BZWTRvNEs0aTB3dmRYdDJ6UUhXQkxMY3d2WEd3UVB2SFVCY0pQekdpZGY3YmtpMVlfWTRkTEVDa2F1cjU4S1Y3SGVB?oc=5", "date": "2026-10-14"}
   V1: {title: "Latvenergo Group - Interim report 6M 2026 (unaudited)", url: "https://nasdaqbaltic.com/market/upload/reports/elek/2026_q2_en_con.pdf", date: 2026-08}
   V2: {title: "Latvenergo Group - Annual report 2025", url: "https://nasdaqbaltic.com/market/upload/reports/elek/2025_ar_en_con.pdf", date: 2026-04-29}
   V3: {title: "Nasdaq Baltic - Latvenergo 4.952% green bond LV0000802684", url: "https://nasdaqbaltic.com/statistics/en/instrument/LV0000802684/security?date=2026-10-22", date: 2026-10-22}
@@ -144,3 +147,10 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra. Daugiausia hidroenergija, sparčiai auga vėjo ir saulės gamyba, aiškūs klimato tikslai; dujinės elektrinės lieka rezervu."
     en: "No exclusions or red flags. Mostly hydro, with fast-growing wind and solar and clear climate targets; the gas plants remain as backup capacity."
+press:
+  - lt: "**Vadovai:** 2026-10-05 valdybos narys Māris Kuņickis palieka bendrovę [N1]."
+    en: "**Management:** on 2026-10-05 board member Māris Kuņickis left the company [N1]."
+  - lt: "**Tet ir LMT:** 2026-10-22 rašyta, kad Latvenergo pasirengusi tęsti bendradarbiavimą Tet ir LMT dalių išpirkimo procese [N2]."
+    en: "**Tet and LMT:** on 2026-10-22 it was reported that Latvenergo is ready to continue cooperating in the buy-out process of Tet and LMT stakes [N2]."
+  - lt: "**Dujų kainos:** 2026-10-14 bendrovės analitikė įspėjo, kad gamtinės dujos tokios brangios nebuvo keletą metų [N3]."
+    en: "**Gas prices:** on 2026-10-14 the company's analyst warned that natural gas has not been this expensive for years [N3]."

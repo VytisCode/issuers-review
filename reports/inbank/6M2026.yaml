@@ -13,6 +13,8 @@ highlights: [net_profit, roe, cet1, total_capital]
 charts: [net_profit, loans, deposits, total_capital]
 
 sources:
+  N1: {"title": "GlobeNewswire – Inbanki võlakirjade ennetähtaegse lunastamise (sh nimekirja fikseerimise päeva ja lunastamispäeva) teade", "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQLWxsUzZPQ1dScUFIdGFQRFZkQy1RbkJjQmRJTHU3SnVrY3IxYzFBWVR1cnlCeW1PSTB2aEtWeGU4Mm5TWk9HcWZ0WDBUTmd1WDFzTG10TWJIOXJjZ1lyUmpORkNrbGFuXzFfT0ljN01sdUJnck5ER2VuTnVraFRRR29mblVmV1gxWmd1ck9ka2FUc25PWFdKRXhrYVBWRHNFQXJmeGtDV3dSZlByUGNZSUxETWlObTZackY3OUY2Vk9icmZ4djdZaDMxZ1U5c2lwNEZGWWlGdkFkVnFKSWNrSWdtT0NLRnhmb1Zvam5XSE9kVDJEQ0NjMVdyM2RjR0ljVzJqRnBEVW1pdFd1NDRoMmZobnc2bmVMcVRUMlhKTQ?oc=5", "date": "2026-09-28"}
+  N2: {"title": "GlobeNewswire – Inbanki seisukoht UOKiK otsuse kohta Poolas", "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNngtRHdrOHB3UF9SeW90LXBOd25zWXl5LW8xdU1scTRfQ1dsMUtLTTlORzBSTU43bGtVM1FlOVJxSjVfTzFWcXFvZFc5V3JPZmExVnlZSHQwa0dWN0FHZVU5Q0RpRXBBTmRIRkIwV1JNczBjdlpDWjN1UWlVZk5ncjM2STV1MXIzRHZVSDh0TGo1eGR3VU1aaHVPdEtqNDlYcG51aU96MENDNFR2UE9ybFE0bWVhQQ?oc=5", "date": "2026-09-30"}
   I1: {title: "Inbank - Interim report Q2 2026", url: "https://ib-cdn.inbank.eu/documents/ee/en/pdf/reports/Inbank_Interim_Report_2026_Q2.pdf", date: 2026-07}
   I2: {title: "Inbank - Capital adequacy and risk disclosure Q2 2026", url: "https://ib-cdn.inbank.eu/documents/ee/en/pdf/Inbank_Risk_Disclosure_2026_Q2.pdf", date: 2026-07}
   I3: {title: "Inbank publishes audited annual report for 2025", url: "https://inbank.eu/news/inbank-publishes-audited-annual-report-for-2025", date: 2026-03-05}
@@ -86,8 +88,8 @@ esg:
     media:
       status: 'yes'
       evidence:
-        lt: "Neigiamų naujienų nerasta, išskyrus aukščiau minėtus priežiūros nurodymus (2026-10-22)."
-        en: "No adverse news found apart from the supervisory precepts above (2026-10-22)."
+        lt: "Neigiamų naujienų nerasta, išskyrus aukščiau minėtus priežiūros nurodymus ir 2026-09-30 Inbank paskelbtą poziciją dėl Lenkijos vartotojų apsaugos tarnybos (UOKiK) sprendimo [N2]."
+        en: "No adverse news found apart from the supervisory precepts above and Inbank's 2026-09-30 statement on a decision of the Polish consumer protection authority (UOKiK) [N2]."
     int_promoting:
       status: 'yes'
       evidence:
@@ -126,3 +128,8 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra. Žaliasis finansavimas auga; buvo priežiūros nurodymų dėl valdymo ir kreditų vertinimo (be baudų)."
     en: "No exclusions or red flags. Green financing is growing; there were supervisory precepts on governance and credit assessment (no fines)."
+press:
+  - lt: "**Išankstinis išpirkimas:** 2026-09-28 Inbank paskelbė pranešimą apie obligacijų išankstinį išpirkimą (su įrašų fiksavimo ir išpirkimo dienomis); kuri emisija – antraštėje nenurodyta [N1]."
+    en: "**Early redemption:** on 2026-09-28 Inbank published a notice of early redemption of bonds (with record and redemption dates); the headline does not name the issue [N1]."
+  - lt: "**Lenkija:** 2026-09-30 Inbank paskelbė savo poziciją dėl Lenkijos vartotojų apsaugos tarnybos (UOKiK) sprendimo [N2]."
+    en: "**Poland:** on 2026-09-30 Inbank published its position on a decision of the Polish consumer protection authority (UOKiK) [N2]."

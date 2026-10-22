@@ -104,7 +104,9 @@ def ratio_change(metric, vals, periods, lang):
 
 _LABEL = re.compile(r"\*\*([^*]{1,60}?):?\*\*:?\s*")
 _SEMI = re.compile(r";\s+(?![^\[]*\])(?![^(]*\))")
-_SENT = re.compile(r"(?<=[.!?])\s+(?![^\[]*\])(?=[A-ZĄČĘĖĮŠŲŪŽ0-9„\"(])")
+# sakinio pabaiga, bet ne po santrumpų (mln. EUR, 2025 m. Grupė, žr. ...), kad punktas nesuskiltų per vidurį
+_SENT = re.compile(r"(?<=[.!?])(?<!mln\.)(?<!mlrd\.)(?<!tūkst\.)(?<!proc\.)(?<!žr\.)(?<!pvz\.)(?<!\sm\.)(?<!\sp\.)(?<!\sd\.)(?<!\bbn\.)"
+                   r"\s+(?![^\[]*\])(?=[A-ZĄČĘĖĮŠŲŪŽ0-9„\"(])")
 
 
 def points(text):
@@ -148,6 +150,19 @@ def esg_items(rep):
             items["sanctions"] = {"status": "yes", "evidence": {
                 "en": f"Not found on the {names} consolidated sanctions lists (automatic check {s['date']}).{nb['en']}",
                 "lt": f"Nerasta {names} konsoliduotuose sankcijų sąrašuose (automatinė patikra {s['date']}).{nb['lt']}"}}
+    # žiniasklaidos punktas papildomas automatine naujienų suvestine (ta pati, kaip skiltyje „Ką rašo spauda“)
+    dig, start, end = news_digest(rep.get("issuer"), days=90)
+    if "media" in items:
+        n, flagged = sum(1 + d["more"] for d in dig), [d for d in dig if d["topic"] == "review"]
+        fl = {"en": "", "lt": ""}
+        if flagged:
+            fl = {"en": " Headlines with an adverse keyword: " + "; ".join(f"„{d['title']}“ ({d['source']}, {d['date']})" for d in flagged[:3]) + ".",
+                  "lt": " Antraštės su neigiamu žodžiu: " + "; ".join(f"„{d['title']}“ ({d['source']}, {d['date']})" for d in flagged[:3]) + "."}
+        auto = {"en": f" News summary {start} – {end}: {n} articles, {len(flagged)} with an adverse keyword in the headline (details in the section \"In the press\").{fl['en']}",
+                "lt": f" Naujienų suvestinė {start} – {end}: {n} pranešimų, iš jų su neigiamu žodžiu antraštėje – {len(flagged)} (plačiau – skiltyje „Ką rašo spauda“).{fl['lt']}"}
+        ev = items["media"].get("evidence", "")
+        ev = ev if isinstance(ev, dict) else {"en": ev, "lt": ev}
+        items["media"]["evidence"] = {k: (ev.get(k) or ev.get("en", "")).rstrip() + auto.get(k, auto["en"]) for k in set(ev) | {"en", "lt"}}
     return items
 
 
@@ -319,3 +334,46 @@ def lead_bold(segs, limit=60):
 def plain(text):
     """Tekstas be nuorodų ir paryškinimų (kortelėms, Excel)."""
     return CITE.sub("", text or "").replace("**", "")
+
+
+NEWS_ORDER = ["review", "reitingas", "sandoris", "obligacijos", "dividendai", "vadovai", "ataskaita", "kita"]
+
+
+def _words(title):
+    return {w for w in _re.findall(r"\w{4,}", title.lower())}
+
+
+def news_digest(issuer=None, days=90, end=None, lang="en"):
+    """Naujienos be pasikartojimų: tos pačios temos pranešimai per kelias dienas sujungiami į vieną (rodomas vienas, kiti - „dar N“).
+    Tema: review (antraštėje neigiamas žodis) > reitingas > sandoris > obligacijos > dividendai > ataskaita > kita.
+    Grąžina [{issuer, topic, date, title, url, source, lang, more, flag}] svarbiausi pirma."""
+    import datetime as _dt
+    end = end or TODAY
+    start = (_dt.date.fromisoformat(end) - _dt.timedelta(days=days)).isoformat()
+    rows = [r for r in read_csv(DATA / "news.csv") if (issuer is None or r["issuer"] == issuer) and start <= r["date"] <= end]
+    clusters = []
+    for r in sorted(rows, key=lambda r: r["date"], reverse=True):
+        topics = [t for t in r.get("topics", "").split(";") if t]
+        topic = "review" if r.get("flag") == "review" else min(topics, key=NEWS_ORDER.index) if topics else "kita"
+        d, w = _dt.date.fromisoformat(r["date"]), _words(r["title"])
+        for c in clusters:
+            if c["issuer"] != r["issuer"] or c["topic"] != topic:
+                continue
+            near = any(abs((d - x).days) <= 4 for x in c["_dates"])
+            similar = any(len(w & y) / max(1, len(w | y)) >= 0.3 for y in c["_words"])
+            if near and (topic != "kita" or similar):
+                c["items"].append(r)
+                c["_dates"].append(d)
+                c["_words"].append(w)
+                break
+        else:
+            clusters.append({"issuer": r["issuer"], "topic": topic, "items": [r], "_dates": [d], "_words": [w]})
+    out = []
+    for c in clusters:
+        items = sorted(c["items"], key=lambda r: r["date"], reverse=True)
+        best = sorted(items, key=lambda r: {lang: 0, "en": 1}.get(r["lang"], 2))[0]  # skaitytojo kalba, tada anglų, naujausia
+        out.append({"issuer": c["issuer"], "topic": c["topic"], "date": items[0]["date"], "title": best["title"], "url": best["url"],
+                    "source": best["source"], "lang": best["lang"], "more": len(items) - 1, "flag": best["flag"], "keywords": best.get("keywords", "")})
+    out.sort(key=lambda x: x["date"], reverse=True)
+    out.sort(key=lambda x: NEWS_ORDER.index(x["topic"]))
+    return out, start, end

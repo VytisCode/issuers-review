@@ -19,7 +19,7 @@
       nothingNew: "No new events", open: "Open review", back: "← Overview", edit: "✎ Edit report", requestAnalysis: "✦ Request new analysis", issuerReports: "Issuer reports ↗",
       quick: "Quick summary", keyRatios: "Key ratios", trend: "Metric trend", plans: "Past plans vs outcomes", investor: "Investor information & conclusions",
       business: "Business performance review", financials: "Financials", more: "Show business review and financials", esg: "ESG report", sources: "Sources",
-      download: "Download", pdf: "PDF", docx: "Word", xlsx: "Excel", newsTitle: "News", allIssuers: "All issuers", all: "All", reviewOnly: "To review only", searchHeadlines: "Search headlines",
+      download: "Download", pdf: "PDF", docx: "Word", newsTitle: "News", allIssuers: "All issuers", all: "All", reviewOnly: "To review only", searchHeadlines: "Search headlines",
       newsSub: "Google News and regional media in each issuer's local language(s). 'Review' = an adverse keyword (investigation, fine, court, sanctions…) was found in the headline – a pointer, not a conclusion.",
       noNews: "No news yet – it appears after the first automatic search.", date: "Date", issuer: "Issuer", headline: "Headline", source: "Source", flag: "Flag", review: "Review",
       metric: "Metric", change: "Change", why: "What changed and why", legendColors: "Green change: the metric is improving; red: worsening. Latest value background: green good level, amber average, red weak (tool benchmarks).", plan: "Plan / target", outcome: "Outcome", status: "Status", legend: "* taken from the report summary; ᶜ calculated by the tool. Hover a number to see its source; small blue numbers in the text open the source document at the cited page.",
@@ -48,7 +48,7 @@
       nothingNew: "Naujų įvykių nėra", open: "Atidaryti", back: "← Apžvalga", edit: "✎ Taisyti ataskaitą", requestAnalysis: "✦ Paprašyti naujos analizės", issuerReports: "Emitento ataskaitos ↗",
       quick: "Trumpa santrauka", keyRatios: "Pagrindiniai rodikliai", trend: "Rodiklio dinamika", plans: "Ankstesni planai ir rezultatai", investor: "Informacija investuotojui ir išvados",
       business: "Veiklos apžvalga", financials: "Finansai", more: "Rodyti veiklos apžvalgą ir finansus", esg: "ESG report", sources: "Šaltiniai",
-      download: "Atsisiųsti", pdf: "PDF", docx: "Word", xlsx: "Excel", newsTitle: "Naujienos", allIssuers: "Visi emitentai", all: "Visos", reviewOnly: "Tik peržiūrai", searchHeadlines: "Paieška antraštėse",
+      download: "Atsisiųsti", pdf: "PDF", docx: "Word", newsTitle: "Naujienos", allIssuers: "Visi emitentai", all: "Visos", reviewOnly: "Tik peržiūrai", searchHeadlines: "Paieška antraštėse",
       newsSub: "Google News ir regiono žiniasklaida emitento šalies kalba(-omis). „Peržiūrėti“ – antraštėje rasta neigiamų žodžių (tyrimas, bauda, teismas, sankcijos…). Tai pagalba, ne išvada.",
       noNews: "Naujienų dar nėra – jos atsiras po pirmos automatinės paieškos.", date: "Data", issuer: "Emitentas", headline: "Antraštė", source: "Šaltinis", flag: "Žyma", review: "Peržiūrėti",
       metric: "Rodiklis", change: "Pokytis", why: "Kas pasikeitė ir kodėl", legendColors: "Žalias pokytis – rodiklis gerėja, raudonas – blogėja. Paskutinės reikšmės fonas: žalias – geras lygis, geltonas – vidutinis, raudonas – silpnas (įrankio orientyrai).", plan: "Planas / tikslas", outcome: "Rezultatas", status: "Būsena", legend: "* paimta iš ataskaitos santraukos; ᶜ apskaičiuota įrankio. Užveskite pelę ant skaičiaus – matysite šaltinį; maži mėlyni skaičiai tekste atidaro šaltinį reikiamame puslapyje.",
@@ -118,10 +118,12 @@
   });
 
   function dlButtons(i) {
-    const last = i.files.filter(f => f.period === i.period);
+    const last = i.files.filter(f => f.period === i.period && f.ext !== "zip");
+    const zip = i.files.find(f => f.period === i.period && f.ext === "zip");
     const lg = last.some(f => f.lang === LANG) ? LANG : (last[0] || {}).lang;
     return last.filter(f => f.lang === lg).sort((a, b) => a.ext === "pdf" ? -1 : 1).map(f =>
-      `<a class="btn sm${f.ext === "pdf" ? " primary" : ""}" href="${f.url}" download>⬇ ${t(f.ext)}${lg !== LANG ? " (" + lg.toUpperCase() + ")" : ""}</a>`).join("");
+      `<a class="btn sm${f.ext === "pdf" ? " primary" : ""}" href="${f.url}" download>⬇ ${t(f.ext)}${lg !== LANG ? " (" + lg.toUpperCase() + ")" : ""}</a>`).join("") +
+      (zip ? `<a class="btn sm" href="${zip.url}" data-tip="${esc(LANG === "lt" ? `Šaltinių dokumentų kopijos: ${zip.n} failai, ${Math.round(zip.kb / 1024)} MB, ${zip.date}` : `Copies of source documents: ${zip.n} files, ${Math.round(zip.kb / 1024)} MB, ${zip.date}`)}">⬇ ${LANG === "lt" ? "Šaltiniai (ZIP)" : "Sources (ZIP)"}</a>` : "");
   }
   const C2 = {
     en: { ratings: "Credit rating", noRating: "No public credit rating", held: "Securities held", coupon: "Coupon", term: "Maturity", amount: "Issue size", perp: "Perpetual", call: "call", share: "Share",
@@ -305,6 +307,8 @@
       ${s.note ? `<p class="esgnote">${esc(s.note)}</p>` : ""}<p><b>Additional comments:</b></p>`).join("")}
       <p><b>Conclusion:</b> ${X.esg_conclusion || ""}</p></div>`;
     const nw = D.news.filter(n => n.issuer === id).slice(0, 15);
+    if ((X.press || []).length) h += `<h2>${tp("press")}</h2><p class="muted small">${tp("pressSub")}</p><ul class="b">${X.press.map(s => `<li>${s}</li>`).join("")}</ul>`;
+    h += highlights(id);
     h += `<h2>${t("newsTitle")}</h2>${newsTable(nw)}<p class="muted"><a href="#news/${id}">→ ${t("newsTitle")}: ${esc(i.name)}</a></p>`;
     h += `<h2>${t("sources")}</h2><ol class="src">${(X.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}${s.page ? ", p. " + esc(s.page) : ""}</a>${s.note ? ` <span class="muted">(${esc(s.note)})</span>` : ""} <span class="muted">${esc(s.date)}</span></li>`).join("")}</ol>`;
     setTimeout(() => {
@@ -323,14 +327,34 @@
       <td>${esc(s.maturity_date || (s.type === "share" ? t("share") : t("perpetual")))}${s.call_date ? `<br><span class="muted">call ${esc(s.call_date)}</span>` : ""}</td><td>${st}</td>
       <td class="muted">${s.verified === "review" ? "⚠ " : ""}${esc(s.status_note)}</td></tr>`;
   }
+  const TOP = {
+    en: { review: "Attention", reitingas: "Rating", sandoris: "Deal", obligacijos: "Bonds", dividendai: "Dividends", vadovai: "Management", ataskaita: "Results", kita: "Other",
+      hl: "Worth your attention – last 30 days", hlSub: "Picked automatically (no AI): adverse keywords first, then ratings, deals, bonds, dividends, management and results. Similar articles are merged.",
+      similar: "similar", press: "In the press", pressSub: "Analyst summary of what the media wrote (from the latest analysis).", none: "Nothing notable in the last 30 days." },
+    lt: { review: "Dėmesio", reitingas: "Reitingas", sandoris: "Sandoris", obligacijos: "Obligacijos", dividendai: "Dividendai", vadovai: "Vadovai", ataskaita: "Rezultatai", kita: "Kita",
+      hl: "Verta dėmesio – paskutinės 30 d.", hlSub: "Atrenkama automatiškai (be AI): pirma neigiami žodžiai, tada reitingai, sandoriai, obligacijos, dividendai, vadovų pokyčiai ir rezultatai. Panašūs pranešimai sujungti.",
+      similar: "panašūs", press: "Ką rašo spauda", pressSub: "Analitiko santrauka, ką rašė žiniasklaida (iš naujausios analizės).", none: "Per 30 d. nieko reikšmingo." } };
+  const tp = k => (TOP[LANG] || TOP.en)[k] || k;
+  const TCLS = { review: "bad", reitingas: "info", sandoris: "warn", obligacijos: "info", dividendai: "good", vadovai: "info", ataskaita: "", kita: "" };
+  const topicChips = s => (s || "").split(";").filter(Boolean).map(x => `<span class="chip ${TCLS[x] || ""} sm">${esc(tp(x))}</span>`).join("");
+  function highlights(sel) {
+    const all = ((D.news_highlights || {})[LANG] || (D.news_highlights || {}).en || []).filter(d => !sel || d.issuer === sel);
+    if (!all.length) return `<section class="hl"><h2>${tp("hl")}</h2><p class="muted">${tp("none")}</p></section>`;
+    const groups = Object.keys(TOP.en).filter(k => k !== "kita" && all.some(d => d.topic === k));
+    return `<section class="hl"><h2>${tp("hl")}</h2><p class="muted small">${tp("hlSub")}</p><div class="hlgrid">${groups.map(k => `
+      <div class="hlcol ${k}"><h3><span class="chip ${TCLS[k]}">${esc(tp(k))}</span></h3>${all.filter(d => d.topic === k).slice(0, 6).map(d => `
+        <div class="hli"><div class="hlm"><a href="#issuer/${esc(d.issuer)}">${esc(byId[d.issuer]?.name || d.issuer)}</a> · ${esc(d.date)}</div>
+        <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a>
+        <div class="muted small">${esc(d.source)}${d.more ? ` · +${d.more} ${tp("similar")}` : ""}</div></div>`).join("")}</div>`).join("")}</div></section>`;
+  }
   function newsTable(rows) {
     if (!rows.length) return `<p class="muted">${t("noNews")}</p>`;
     return `<div class="tbl-wrap"><table><tr><th>${t("date")}</th><th>${t("issuer")}</th><th>${t("headline")}</th><th>${t("source")}</th><th>${t("flag")}</th></tr>${rows.map(n => `<tr><td class="nowrap">${esc(n.date)}</td><td>${esc(byId[n.issuer]?.name || n.issuer)}</td>
-      <td><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>${n.topics ? ` <span class="muted">${esc(n.topics.replace(/;/g, ", "))}</span>` : ""}</td><td>${esc(n.source)} <span class="muted">${esc(n.lang)}</span></td>
-      <td>${n.flag === "review" ? `<span class="chip warn" data-tip="${esc(n.keywords)}">${t("review")}</span>` : ""}</td></tr>`).join("")}</table></div>`;
+      <td><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>${n.topics ? ` ${topicChips(n.topics)}` : ""}</td><td>${esc(n.source)} <span class="muted">${esc(n.lang)}</span></td>
+      <td>${n.flag === "review" ? `<span class="chip bad" data-tip="${esc(n.keywords)}">${t("review")}</span>` : ""}</td></tr>`).join("")}</table></div>`;
   }
   function news(sel) {
-    const h = `<h1>${t("newsTitle")}</h1><p class="sub">${t("newsSub")}</p>
+    const h = `<h1>${t("newsTitle")}</h1><p class="sub">${t("newsSub")}</p>${highlights(sel)}
       <div class="filters"><select id="fi"><option value="">${t("allIssuers")}</option>${D.issuers.map(i => `<option value="${i.id}" ${i.id === sel ? "selected" : ""}>${esc(i.name)}</option>`).join("")}</select>
       <select id="ff"><option value="">${t("all")}</option><option value="review">${t("reviewOnly")}</option></select><input type="search" id="fq" placeholder="${t("searchHeadlines")}"></div><div id="nl"></div>`;
     setTimeout(() => {

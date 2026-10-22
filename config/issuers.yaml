@@ -148,6 +148,7 @@ citadele:
   ratings_page: https://www.cblgroup.com/en/investors/ratings/
   nasdaq_ticker: ""
   media: all
+  news_exclude: [kmt, rungtyn, mač, mūš, finalo ketvert, krepš]
   seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
   report_pages:
     - https://www.cblgroup.com/en/investors/announcements/
@@ -359,6 +360,7 @@ bigbank:
   ratings_page: https://investor.bigbank.eu/et/reporting/
   nasdaq_ticker: ""
   media: EE
+  news_exclude: [kalev, bigbank tartu, tartu bigbank, balti liiga, võrkpall, korvpall, eurosarja, kohtumis, tipphetked, täispikkuses]
   seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
   report_pages:
     - https://investor.bigbank.eu/et/reporting/

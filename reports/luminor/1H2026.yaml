@@ -15,6 +15,10 @@ highlights: [net_profit, roe, cet1, lcr]
 charts: [net_profit, cet1, loans, deposits]
 
 sources:
+  N1: {"title": "marketscreener.com – European Commission Clears OTP Bank's Acquisition of Luminor Holding", "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3dWYzYtSmE2Z2JHMklyZjlJNDhNR01LS0dDeWhDaWl3bGVnVFJsNVhENmlTSVNGbzJJS2MxWTJJLVlFMGNtQUYtd0U3eTJnZlRRYzFQYjRNMnBJMnRoUF81X04tejdjMXg3WFVja01Zb3M1QXMtb2pMU2VBam11aGhVR211eGotUjQ3UlJpTUd0NDR3Wm1POU9uQ0hmQWdpZmgwNjBjcU5meWRGcENVSHJEQ085aHVjTllTYmxB?oc=5", "date": "2026-10-13"}
+  N2: {"title": "Retail Banker International – Hungary’s OTP Bank weighs Russia exit amid Luminor purchase – report", "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lNF9aWko3LWZ4X250WC1GaENad2hrdW9iYU1tc2RVaE1jeUU4TVpRdlJTWE9nblFMNTVUNzE3WlhFNkcwSkJkUGdZNU84emFSNFFmYnlzaFpWVGxtbUVkYUJoVmdiajNzQ09nWDlWNGVwWU9UbGtF?oc=5", "date": "2026-09-29"}
+  N3: {"title": "15min.lt – Už „Luminor“ norinčio įsigyti vengrų OTP ryškėja Kremliaus šešėlis: tarp klientų – su „Gazprom“ siejamos įmonės", "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZ0Zkdl92dHhvWm9qWkthZjJYUFluYzF6TmtMakVxVHhYdldlWHYtNXcxY1N4eFd0a2JsckRlOTkxM3RBbFJrVU1ETDZINmhQaFNHaFZaVUJVSTc5XzktOE1jTVZLUGoyVVVwWVZEVnpsZXc5VXZTdHJSa3JXbGJ5bzZfWGJtNU1SbjlhQmlfdFVyejZWaHg5NU9Hb2VKVWItZlFqWHkxenR5ZmVfTFFYQ2JCMlUwb1dJV1k1Z3dIaGJBUmE0YXZiOGpCNXFkMk42NURjOTlWdGlnM3Z1?oc=5", "date": "2026-09-29"}
+  N4: {"title": "tv3.lv – \"Luminor Bank\" anulē obligācijas 500 miljonu eiro vērtībā", "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSWxBMUtIUnYxZ1hkU2xPX092V2gwS2VuVjk1UzZLaVVyLS1oaXpSZjNBODNpTEtveFRuVjR4VEZuYXB5Wl9TQk1XbkFYemZ1eUtjcVUwcUc0YTU2UHZSSTV0TGpvY0pZMDdocFdReWVzdnlQMVNNYlV6ckZ2NzZEczlqQzFwdGlycW9zWlJwenI?oc=5", "date": "2026-09-26"}
   L1: {title: "Luminor Bank - Interim report 2Q 2026", url: "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_interim_report_2q26.pdf", date: 2026-08-11}
   L2: {title: "Luminor Bank - Annual report 2025", url: "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2025-lv.pdf", date: 2026}
   L3: {title: "Luminor - Primary placements (bond list)", url: "https://luminor.lv/en/placements", date: 2026-09-28}
@@ -137,8 +141,8 @@ esg:
     media:
       status: 'yes'
       evidence:
-        lt: Automatinė naujienų paieška (paskutinės 30 d., 2026-10-22) neigiamų naujienų nerado; dauguma naujienų – apie OTP Bank sandorį.
-        en: No adverse news found in the automatic news scan (last 30 days, 2026-10-22); most news is about the OTP Bank deal.
+        lt: "Neigiamų naujienų apie pačią Luminor nerasta; dauguma naujienų – apie OTP Bank sandorį. 2026-09-28–29 spauda rašė apie pirkėjo OTP klientų sąsajas su Rusija – tai susiję su pirkėju, ne su Luminor veikla [N3; N2]."
+        en: "No adverse news about Luminor itself; most news is about the OTP Bank deal. On 2026-09-28/29 the press wrote about links of the buyer OTP's clients to Russia – this concerns the buyer, not Luminor's business [N3; N2]."
     int_promoting:
       status: 'yes'
       evidence:
@@ -185,3 +189,10 @@ esg:
   conclusion:
     lt: 'Išimčių ir raudonų signalų nėra. Tvirta ESG praktika: matuojamos finansuojamos emisijos (PCAF), klimato neutralumo tikslas, augančios žaliosios paskolos ir mažos rizikos ESG reitingas. Savininku taps OTP Bank.'
     en: 'No exclusions or red flags. Solid ESG practice: financed emissions measured (PCAF), climate-neutrality target, growing green lending and a low ESG risk rating. Ownership moves to OTP Bank.'
+press:
+  - lt: "**OTP sandoris:** 2026-10-13 Europos Komisija leido OTP Bank įsigyti Luminor Holding [N1]."
+    en: "**OTP deal:** on 2026-10-13 the European Commission cleared OTP Bank's acquisition of Luminor Holding [N1]."
+  - lt: "**Dėmesio – pirkėjo ryšiai su Rusija:** 2026-09-28–29 spauda (remdamasi Bloomberg) rašė, kad tarp OTP klientų yra su „Gazprom“ siejamų įmonių ir kad OTP svarsto visiškai pasitraukti iš Rusijos. Tai susiję su pirkėju OTP, ne su Luminor veikla [N3; N2]."
+    en: "**Attention – buyer's Russia links:** on 2026-09-28/29 the press (citing Bloomberg) reported that OTP's clients include companies linked to Gazprom and that OTP is considering a full exit from Russia. This concerns the buyer OTP, not Luminor's own business [N3; N2]."
+  - lt: "**Obligacijos:** 2026-09-26 Latvijos spauda rašė, kad Luminor Bank anuliuoja 500 mln. EUR vertės obligacijas; kurios emisijos – antraštėje nenurodyta [N4]."
+    en: "**Bonds:** on 2026-09-26 Latvian media reported that Luminor Bank is cancelling bonds worth EUR 500m; the headline does not name the issue [N4]."

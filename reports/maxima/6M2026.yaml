@@ -13,6 +13,7 @@ highlights: [revenue, ebitda, nd_ebitda, equity]
 charts: [revenue, ebitda, net_debt]
 
 sources:
+  N1: {"title": "tv3.lt – „Maxima LT“ už 5,5 mln. eurų įsigijo pastatą ir sklypą Vilniuje", "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSXBDMFpKSl9RR3ZMMGlSdExBaUo4XzdHMWE2ZFBNWW9IYWVTYlhZTm56MFpkOWFWWWtiRnBLY1pkUXpGenFna0g5WjRFeFRmaWxEMHF1N0YwTFNWNnhOZFFmam9FemFxUVRTVEJ5ZXJ3UFdmU2hESHlIRlV5QzA1UWs4VEN6RUpCQzdYR0ViZVNnVFFpV2Q5MldxOTNtVXoxdzktYUZydlE?oc=5", "date": "2026-10-09"}
   M1: {title: "Maxima Grupė - Consolidated interim condensed financial statements 6M 2026 (unaudited, LT)", url: "https://www.maximagrupe.eu/uploads/2026%20konsoliduotos%20vadovyb%C4%97s%20ataskaitos/2026.06.30%20Konsoliduotos%20tarpin%C4%97s%20sutrumpintos%20finansin%C4%97s%20ataskaitos%201.pdf", date: 2026-09-04}
   M2: {title: "Maxima Grupė - Consolidated management report 2025 (LT)", url: "https://www.maximagrupe.eu/uploads/2026%20konsoliduotos%20vadovyb%C4%97s%20ataskaitos/Konsoliduotoji%20Vadovyb%C4%97s%20ataskaita%202025%201.pdf", date: 2026-04-07}
   M3: {title: "Maxima Grupė - Press release: 2026 m. pirmasis pusmetis", url: "https://www.maximagrupe.eu/naujienos/maxima-grupes-2026-m-pirmasis-pusmetis-pajamos-perzenge-2-mlrd-eur-pelningumas-mazejo/", date: 2026-09-04}
@@ -138,3 +139,6 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra. Geltonas signalas – konkurencijos teisės klausimai Latvijoje."
     en: "No exclusions or red flags. Yellow flag – competition law matters in Latvia."
+press:
+  - lt: "**Nekilnojamasis turtas:** 2026-10-09 Maxima LT už 5,5 mln. EUR įsigijo pastatą ir sklypą Vilniuje [N1]."
+    en: "**Real estate:** on 2026-10-09 Maxima LT bought a building and plot in Vilnius for EUR 5.5m [N1]."

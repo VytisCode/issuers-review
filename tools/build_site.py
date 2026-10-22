@@ -43,6 +43,7 @@ def texts(rep, lang):
         "business": [h(x, True) for x in rep.get("business", [])],
         "financials": [h(x, True) for x in rep.get("financials", [])],
         "investor": [h(x, True) for x in rep.get("investor", [])],
+        "press": [h(x, True) for x in rep.get("press", [])],
         "plans": [{"plan": h(p["plan"]), "outcome": h(C.tr(p["outcome"], lang) + (f" [{p['src']}]" if p.get("src") else "")),
                    "why": h(p.get("why", "")), "status": p["status"]}
                   for p in rep.get("plans", [])],
@@ -65,12 +66,19 @@ def main():
     out = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"), "repo": REPO, "today": C.TODAY, "isin_store_url": C.settings().get("isin_store_url", "") or "",
            "status": C.load_json(C.DATA / "source_status.json"), "issuers": [], "securities": secs,
            "metrics": {lg: {k: C.tr(v, lg) for k, v in M.items()} for lg in SITE_LANGS},
-           "news": news[:600], "filings": [f for f in filings if f.get("baseline") != "yes"]}
+           "news": news[:600],
+           # svarbiausios naujienos (30 d.): tos pačios temos pranešimai sujungti, „kita“ tema nerodoma, nebent antraštėje neigiamas žodis
+           "news_highlights": {lg: [d for d in C.news_digest(None, days=30, lang=lg)[0] if d["topic"] != "kita"][:40] for lg in SITE_LANGS},
+           "filings": [f for f in filings if f.get("baseline") != "yes"]}
+    archive = C.load_json(C.DATA / "sources_archive.json")
     for key, iss in C.issuers().items():
         reps = C.reports(key)
         last = reps[-1] if reps else {}
         files = []
         for r in reps:
+            z = archive.get(f"{key}_{r['period']}_sources.zip")
+            if z:
+                files.append({"period": r["period"], "lang": "", "ext": "zip", "url": z["url"], "date": z["date"], "n": z["files"], "kb": z["size_kb"]})
             for lg in langs:
                 for ext in ("pdf", "docx"):
                     p = C.DOCS / "files" / key / f"{key}_{r['period']}_{lg}.{ext}"

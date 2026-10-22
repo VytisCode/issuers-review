@@ -13,6 +13,9 @@ highlights: [net_profit, roe, cet1, total_capital]
 charts: [net_profit, loans, deposits, cet1]
 
 sources:
+  N1: {"title": "15min.lt – „Citadele banka“ išplatino 50 mln. obligacijų emisiją", "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdXZ0QzFxSmstc2Uzd3lXdFhIYU5ybHdLNko4a2VPTDdwT3AwSUhuOGVadnZ5QkNTVU1RQ25wQjVrdV9jNllIaVRRYWlVVFEwN2IwYVlOdXNuTWMzV2NxX0k3MlFvVGFLZUI5djJkejBoZG10c21PdG10N3hHU0I5bmJhY2ozN0Q5anY4SDZDWVVPbkNqc3R1eWRUdmoxVkRNVmFtdGhQMDMxRURNcXc?oc=5", "date": "2026-09-29"}
+  N2: {"title": "quasa.io – Citadele 50 miljoni emissioon märgiti 1,35 korda üle", "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZnVhUjlvWnoyNnlTaFQ1UERpclFrY19pUDgySXJpc25oUTFrOXNHV2ZPY3FaajJXa3NyLU02eUhvb1RkUnBIekVSNnRhTVduZEdhV1Fva0hub1UzcGFsd3Q3a2NWYU9xeEpGVUhCbWExS3JzdHlWbjY4bGN6N1lCZEF4U1RMS2NZRGhhOC0zaw?oc=5", "date": "2026-10-01"}
+  N3: {"title": "DELFI – Banka \"Citadele\" brīdina par jaunām krāpnieku aktivitātēm", "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcWp5MXFsOE1UOG54R3M1RXhnRVlGcWt4LXd0ek9XOVA5RzVPMnZld0g5NHdaa1dQYkZxQ3F0S1FQenQ1TklJMUx6UmROS2x5R1o0SGlNNFZqRWpMUXJTR1RBNXJjTFJOWE9yNlhDLWliVzZ1VU43VXR6X0xveE1PY0dDOFhfYTh3X2ZmU3Y3czhNYVpkRUFCSktEWkh3dEV2SnlCaklMbkotUkdveU00MUt3RFlNWG1LUWd5Wkt4dw?oc=5", "date": "2026-10-20"}
   C1: {title: "Citadele - Interim report 6M 2026", url: "https://www.cblgroup.com/media/W1siZiIsIjIwMjYvMDgvMDUvNTh4c2I0cDRzM19DaXRhZGVsZV82bTIwMjZfRU4ucGRmIl1d?sha=6f81681556b09959", date: 2026-08-05}
   C2: {title: "Citadele - Annual report 2025", url: "https://www.cblgroup.com/media/W1siZiIsIjIwMjYvMDMvMTkvOG9icXc4MzVubV9DaXRhZGVsZV9Bbm51YWxfcmVwb3J0XzIwMjUucGRmIl1d?sha=e68c93f08d3acc0c", date: 2026-03-19}
   C3: {title: "Citadele - Bonds", url: "https://www.cblgroup.com/en/investors/bonds/", date: 2026-10-22}
@@ -132,3 +135,8 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra. Žaliasis finansavimas auga, yra klimato tikslas ir JT PRB narystė."
     en: "No exclusions or red flags. Green financing is growing, with a climate target and UN PRB membership."
+press:
+  - lt: "**Obligacijos:** 2026-09-29 Citadele išplatino 50 mln. EUR obligacijų emisiją; paklausa viršijo pasiūlą 1,35 karto [N1; N2]."
+    en: "**Bonds:** on 2026-09-29 Citadele placed a EUR 50m bond issue, oversubscribed 1.35 times [N1; N2]."
+  - lt: "**Klientų saugumas:** spalį bankas įspėjo apie naujas sukčių veiklas (apsimetama banko darbuotojais) – tai įspėjimai klientams, ne pažeidimai [N3]."
+    en: "**Customer safety:** in October the bank warned of new fraud schemes (impersonating bank staff) – customer warnings, not breaches [N3]."

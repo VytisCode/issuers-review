@@ -21,7 +21,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -51,8 +51,14 @@ jobs:
         continue-on-error: true
         run: python -u tools/check_sanctions.py
 
-      - name: Build Word / PDF / Excel
+      - name: Build Word / PDF
         run: python -u tools/build_reports.py
+
+      - name: Source packages (ZIP of documents used in each report -> GitHub Release "sources")
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -u tools/archive_sources.py
 
       - name: Build dashboard
         run: python -u tools/build_site.py

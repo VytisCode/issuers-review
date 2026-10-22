@@ -13,6 +13,9 @@ highlights: [net_profit, cet1, total_capital, lcr]
 charts: [net_profit, loans, cet1]
 
 sources:
+  N1: {"title": "Äripäev – Coop Pank sai finantsinspektsioonilt ettekirjutuse. Pank peab muutma sisekontrolli ja laenutegevust", "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaUJNVW5MdGxWeVdLZ3hOXzNnYVdLQjYyTmw4MnV0ckdfTllGdF9hRk0wMFRlZGpSUmd0RGdXNGExMnVCWXhKd3BpLXZnYzV5QnhBZ0NiYXZFLUtfeHM3c0FPT0piZnRyT0stSzJrRkdFUkZWQ2QycUpxQVFIdW1iQmhNQmJHeTJCd01obWVIU2FxdnVlaV9ROUNUZUtmNWJZUnNDcHBuRGszTGlPNExyb19IUEdWbGFvbzItZzNNVmpwNEo1VHlUdGxvNEVmQ1JqamEzMDI3QUlydm4wX2c?oc=5", "date": "2026-10-21"}
+  N2: {"title": "GlobeNewswire – Coop Pank AS oma aktsiate omandamise tehingud", "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ3g3a3hMZGZOaE11V2ltXzhPemQ1Vmc4WG5EZVRwZ09jTDdRckJxaDQwb3Fidzk2ODRLdWY0dVRMMmdNdE9nYUxCVmVaYkdNeFMzZDAyV2hUM1JhYk9OUWtYUWFJVXExc19JMXVxVmtiRjJ6SG5DUUtYb1h2LV9LM0E3YW1nVURmVFVobFdfZTlibTFfT2hBRVdnUm9ack5wZ0hBT3htOHRVeVI2NUlhbVdvaXVISzNq?oc=5", "date": "2026-10-19"}
+  N3: {"title": "Äripäev – Trigon ostis Coop Panka rohkem kui miljoni euro eest. “Tundsime huvi kogu müüdava paki vastu”", "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVUpWdjk5LS1fTWU0ZEx4LU1mdHdtTnZ1MFd2bnF0X0RMS0tZR2V4aldCNmdhd2VBQkVURW5HTDFCUmk2XzdTWVVuMnFzbjQtcWF6dllqX3FDQWtCT0xBSDZVSEtaOVFqTy02emNhaV9USEljelEwU2Z5UTdwYjlqSmpkWl8yNFVVdk9pTS05dW5iUVNZWDQ2RzZQV2JPM2tQNTMtbk00TmFXaEMyVVBsdUFwdF9QX2dvWWVsR2FzTDh6UzVyZnd1QnNwV0EzZnZlUlB3?oc=5", "date": "2026-09-25"}
   C1: {title: "Coop Pank - Interim report 9M 2026 (unaudited)", url: "https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2026/Interim_report_9m_2026_EN.pdf", date: 2026-10-20}
   C2: {title: "Coop Pank - Investor reporting page (key figures)", url: "https://www.cooppank.ee/en/investor/reporting", date: 2026-10-22}
   C3: {title: "Coop Pank - Q3 2026 results announcement", url: "https://view.news.eu.nasdaq.com/view?id=b4b85a453f265185186c742780376177c&lang=en&src=listed", date: 2026-10-20}
@@ -134,3 +137,8 @@ esg:
   conclusion:
     lt: "Išimčių ir raudonų signalų nėra. Geltonas signalas – priežiūros nurodymas dėl valdysenos."
     en: "No exclusions or red flags. Yellow flag – a supervisory precept on governance."
+press:
+  - lt: "**Priežiūros nurodymas:** 2026-10-21 spauda rašė, kad Finantsinspektsioon nurodė bankui keisti vidaus kontrolę ir skolinimo procesus [N1]."
+    en: "**Supervisory precept:** on 2026-10-21 the press reported that the Estonian FSA ordered the bank to change its internal control and lending processes [N1]."
+  - lt: "**Akcijos:** bankas superka savas akcijas (pranešimas 2026-10-19); Trigon įsigijo akcijų už daugiau nei 1 mln. EUR (2026-09-25) [N2; N3]."
+    en: "**Shares:** the bank is buying back its own shares (notice 2026-10-19); Trigon bought shares for more than EUR 1m (2026-09-25) [N2; N3]."
