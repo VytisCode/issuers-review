@@ -6,6 +6,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "9M 2026 interim report - 2026-11-30 [V1]"
 rating: "Moody's Baa2, stable outlook (affirmed October 2025) [V2 p.24; V1 p.12]"
+ratings: [{agency: "Moody's", grade: "Baa2", outlook: "stable", scope: ""}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga.** I pusm. pelnas 144,6 mln. EUR (+7 %), reitingas Baa2 stabilus [V1 p.12]. Skola auga dėl didelių investicijų į atsinaujinančią energetiką: grynoji skola / EBITDA 2,4x (prieš metus 1,5x), tačiau FFO / grynoji skola 35 % vis dar viršija strategijos tikslą (>25 %) [V1 p.7, p.12].", en: "**Position OK.** 1H profit EUR 144.6m (+7%), rating Baa2 stable [V1 p.12]. Debt is rising because of large renewable investments: net debt / EBITDA 2.4x (1.5x a year ago), but FFO / net debt of 35% is still above the strategy target of >25% [V1 p.7, p.12]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, ebitda, net_profit, investments, net_debt, nd_ebitda, ffo_nd, roe, equity, total_assets, equity_ratio, generation]

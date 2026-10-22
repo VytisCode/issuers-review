@@ -7,6 +7,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "Q3 2026 interim report - 2026-11-11 [S1 p.14]"
 rating: "S&P BBB+ (stable), 2026-07-28; Moody's Baa1 (stable), 2026 [S7]"
+ratings: [{agency: "S&P", grade: "BBB+", outlook: "stable", scope: ""}, {agency: "Moody's", grade: "Baa1", outlook: "stable", scope: ""}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga.** Kredito kokybė stabili: BBB+ / Baa1 reitingai, svertas 3,49x – 3–4x tikslo ribose [S1 p.10; S7]. Pelnas silpnesnis, bet 2026 m. prognozė palikta [S2]. Turimai obligacijai XS1646530565 taikomas 2026-10-19 emitento supirkimo pasiūlymas [S8].", en: "**Position OK.** Credit quality is stable: BBB+ / Baa1 ratings and leverage of 3.49x, inside the 3-4x target [S1 p.10; S7]. Profit is weaker, but the 2026 guidance was kept [S2]. The held bond XS1646530565 is subject to the issuer's tender offer of 2026-10-19 [S8]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, adj_ebitda, ebitda, adj_net_profit, net_profit, investments, ffo, fcf, net_debt, nd_ebitda, ffo_nd, adj_roce, equity, total_assets, dps, green_capacity]

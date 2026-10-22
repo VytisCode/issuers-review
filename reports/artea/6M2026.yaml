@@ -6,6 +6,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "9M 2026 interim report - 2026-10-28"
 rating: "Moody's (2026-04-21): long-term deposits upgraded to A3, senior unsecured Baa1 affirmed, outlook changed from stable to positive [A1 p.7]"
+ratings: [{agency: "Moody's", grade: "Baa1", outlook: "positive", scope: "senior unsecured"}, {agency: "Moody's", grade: "A3", outlook: "positive", scope: "deposits"}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga, tačiau pelnas mažėja.** I pusm. pelnas 23,2 mln. EUR, prieš metus 31,9 mln.; ROE 7,8 % [A1 p.6]. Kapitalas (21,5 %) ir likvidumas (LCR 179 %) – su atsarga, o Moody's 2026 m. balandį reitingą pagerino [A1 p.6-7].", en: "**Position OK, but profit is falling.** 1H profit EUR 23.2m versus 31.9m a year ago; ROE 7.8% [A1 p.6]. Capital (21.5%) and liquidity (LCR 179%) have headroom, and Moody's upgraded the rating in April 2026 [A1 p.6-7]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [net_profit, nii, total_income, cost_income, roe, cor, nim, loans, deposits, total_capital, mrel, lcr, npl, dps]

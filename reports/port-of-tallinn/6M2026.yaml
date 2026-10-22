@@ -6,6 +6,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "Q3 2026 results - expected November 2026"
 rating: "No public credit rating found [P5]"
+ratings: []
 verdict: {status: watch, lt: "**Verta stebėti.** Balansas tvirtas (grynoji skola 2,78x EBITDA, nuosavas kapitalas 59,8 % turto) [P1]. Tačiau 2026 m. 6 mėn. grynasis pelnas sumažėjo 41,7 % dėl brangesnio kuro ir remontų, todėl kitų metų dividendų bazė gali būti mažesnė [P1 p.4; P2].", en: "**Worth watching.** The balance sheet is strong (net debt 2.78x EBITDA, equity 59.8% of assets) [P1]. But 6M 2026 net profit fell 41.7% on higher fuel and repair costs, so next year's dividend base may be smaller [P1 p.4; P2]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, adj_ebitda, adj_ebitda_margin, operating_profit, net_profit, investments, net_debt, nd_ebitda, equity_ratio, cargo, passengers, dps]

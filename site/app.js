@@ -117,11 +117,37 @@
     tip.style.left = Math.min(e.clientX + 12, innerWidth - 290) + "px"; tip.style.top = e.clientY + 14 + "px";
   });
 
-  function dlButtons(i, compact) {
+  function dlButtons(i) {
     const last = i.files.filter(f => f.period === i.period);
-    const langs = [...new Set(last.map(f => f.lang))].sort((a, b) => (a === LANG ? -1 : b === LANG ? 1 : 0));
-    return langs.map(lg => `<div class="dl"><span class="dl-l">${lg.toUpperCase()}</span>${last.filter(f => f.lang === lg).map(f =>
-      `<a class="btn sm" href="${f.url}" download>⬇ ${t(f.ext)}</a>`).join("")}</div>`).join(compact ? "" : "");
+    const lg = last.some(f => f.lang === LANG) ? LANG : (last[0] || {}).lang;
+    return last.filter(f => f.lang === lg).sort((a, b) => a.ext === "pdf" ? -1 : 1).map(f =>
+      `<a class="btn sm${f.ext === "pdf" ? " primary" : ""}" href="${f.url}" download>⬇ ${t(f.ext)}${lg !== LANG ? " (" + lg.toUpperCase() + ")" : ""}</a>`).join("");
+  }
+  const C2 = {
+    en: { ratings: "Credit rating", noRating: "No public credit rating", held: "Securities held", coupon: "Coupon", term: "Maturity", amount: "Issue size", perp: "Perpetual", call: "call", share: "Share",
+      reports: "Reports", ig: "Investment grade", hy: "High yield", out: { stable: "stable", positive: "positive", negative: "negative" }, more: "more", vOk: "OK", vWatch: "Watch", vAction: "Action", noAnalysis: "No analysis yet" },
+    lt: { ratings: "Kredito reitingas", noRating: "Viešo kredito reitingo nėra", held: "Turimi vertybiniai popieriai", coupon: "Kuponas", term: "Terminas", amount: "Emisija", perp: "Neterminuota", call: "call", share: "Akcija",
+      reports: "Ataskaitos", ig: "Investicinis", hy: "Spekuliatyvus", out: { stable: "stabili", positive: "teigiama", negative: "neigiama" }, more: "daugiau", vOk: "Tvarkinga", vWatch: "Stebėti", vAction: "Veikti", noAnalysis: "Analizės dar nėra" }
+  };
+  const c2 = k => (C2[LANG] || C2.en)[k];
+  const IG = /^(Aaa|Aa[1-3]|A[1-3]|Baa[1-3]|AAA|AA[+-]?|A[+-]?|BBB[+-]?)$/;
+  function ratingBadges(i) {
+    const r = i.ratings || [];
+    if (!r.length) return `<span class="muted">${c2("noRating")}</span>`;
+    return `<div class="rbadges">${r.map(x => `<span class="rbadge ${IG.test(x.grade) ? "ig" : "hy"}" data-tip="${esc((x.agency || "") + " " + x.grade + (x.scope ? " – " + x.scope : "") + " · " + (IG.test(x.grade) ? c2("ig") : c2("hy")))}">
+      <span class="ra">${esc(x.agency || "–")}</span><b>${esc(x.grade)}</b>${x.outlook ? `<span class="ro o-${esc(x.outlook)}">${x.outlook === "positive" ? "▲" : x.outlook === "negative" ? "▼" : "●"} ${esc(c2("out")[x.outlook] || x.outlook)}</span>` : ""}${x.scope ? `<span class="rs">${esc(x.scope)}</span>` : ""}</span>`).join("")}</div>`;
+  }
+  function secTable(secs) {
+    if (!secs.length) return "";
+    return `<table class="sect"><tr><th></th><th class="n">${c2("coupon")}</th><th class="n">${c2("term")}</th><th class="n">${c2("amount")}</th></tr>${secs.map(s => {
+      const d = s.maturity_date ? days(s.maturity_date) : null, mat = s.status === "matured";
+      const term = s.type === "share" ? c2("share") : s.maturity_date ? esc(s.maturity_date) : c2("perp");
+      const chip = mat ? ` <span class="chip warn">${t("maturedS")}</span>` : d !== null && d < 365 ? ` <span class="chip info">${d} ${t("daysLeft")}</span>` : "";
+      return `<tr class="${mat ? "dim" : ""}"><td><div class="sn">${esc(s.name)}</div><div class="mono muted">${esc(s.isin)}${chip}</div></td>
+        <td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td>
+        <td class="n">${term}${s.call_date && !mat ? `<div class="muted">${c2("call")} ${esc(s.call_date)}</div>` : ""}</td>
+        <td class="n">${s.amount_m ? fmt(s.amount_m, "") + " " + unitLbl("m") : "–"}</td></tr>`;
+    }).join("")}</table>`;
   }
   function tiles(i) {
     return `<div class="tiles">${(i.highlights || []).map(m => {
@@ -215,21 +241,23 @@
       <div><b>${D.news.length}</b><span>${t("newsTracked")}</span></div><div><b>${esc((D.issuers.map(i => i.calendar.match(/\d{4}-\d{2}-\d{2}/)?.[0]).filter(Boolean).sort()[0]) || "Nov 2026")}</b><span>${t("nextReports")}</span></div></div></section>`;
     h += guide(st) + `<div class="grid">`;
     D.issuers.forEach(i => {
-      const secs = D.securities.filter(s => s.issuer === i.id && s.held === "yes");
+      const secs = D.securities.filter(s => s.issuer === i.id && s.held === "yes").sort((a, b) => (a.status === "matured") - (b.status === "matured") || String(a.maturity_date || "9999").localeCompare(String(b.maturity_date || "9999")));
       const matured = secs.filter(s => s.status === "matured").length, soon = secs.filter(s => s.status === "active" && s.maturity_date && days(s.maturity_date) < 365).length;
       const flagged = recentNews(i.id).filter(n => n.flag === "review").length;
       const chips = [];
       if (i.new_filings.length) chips.push(`<span class="chip bad">● ${t("newReport")} (${i.new_filings.length})</span>`);
       if (flagged) chips.push(`<span class="chip warn">${flagged} ${t("toReview")}</span>`);
-      if (matured) chips.push(`<span class="chip warn">${matured} ${t("matured")}</span>`);
-      if (soon) chips.push(`<span class="chip info">${soon} ${t("within12")}</span>`);
-      if (i.esg_review) chips.push(`<span class="chip info">${i.esg_review} ${t("esgReview")}</span>`);
-      h += `<article class="card"><h3><a href="#issuer/${i.id}">${esc(i.name)}</a> <span class="flagc">${esc(i.country)}</span></h3>
-        <p class="muted" style="margin:0 0 8px">${esc(i.sector)}</p>${T(i).verdict ? `<div class="verdict sm v-${i.verdict || "ok"}">${T(i).verdict}</div>` : ""}${tiles(i)}
-        <div class="kv"><span>${t("rating")}</span><b>${esc(i.rating_plain)}</b><span>${t("lastAnalysis")}</span><b>${esc(i.period)} · ${esc(i.analysis_date)}</b>
-        <span>${t("nextReport")}</span><b>${esc(i.calendar)}</b><span>${t("instruments")}</span><b>${secs.map(s => esc(s.isin)).join(", ")}</b></div>
-        <div>${chips.join("") || `<span class="chip good">${t("nothingNew")}</span>`}</div>
-        <div class="card-foot"><a class="btn" href="#issuer/${i.id}">${t("open")} →</a>${dlButtons(i, true)}</div></article>`;
+                  if (i.esg_review) chips.push(`<span class="chip info">${i.esg_review} ${t("esgReview")}</span>`);
+      const vk = { ok: "vOk", watch: "vWatch", action: "vAction" }[i.verdict];
+      h += `<article class="card icard">
+        <header class="ich"><div><h3><a href="#issuer/${i.id}">${esc(i.name)}</a> <span class="flagc">${esc(i.country)}</span></h3><p class="muted isec">${esc(i.sector)}</p></div>
+          ${vk ? `<span class="vbadge v-${i.verdict}">${c2(vk)}</span>` : `<span class="vbadge">${c2("noAnalysis")}</span>`}</header>
+        ${T(i).verdict ? `<div class="verdict sm v-${i.verdict || "ok"}">${T(i).verdict}</div>` : ""}${tiles(i)}
+        <div class="csec"><div class="csh">${c2("ratings")}</div>${ratingBadges(i)}</div>
+        <div class="csec"><div class="csh">${c2("held")}</div>${secTable(secs)}</div>
+        <div class="csec"><div class="csh">${c2("reports")}</div><div class="kv"><span>${t("lastAnalysis")}</span><b>${esc(i.period)} · ${esc(i.analysis_date)}</b><span>${t("nextReport")}</span><b>${esc(i.calendar)}</b></div>
+          <div>${chips.join("") || `<span class="chip good">${t("nothingNew")}</span>`}</div></div>
+        <div class="card-foot"><a class="btn" href="#issuer/${i.id}">${t("open")} →</a><span class="sp"></span>${dlButtons(i)}</div></article>`;
     });
     return h + "</div>";
   }
@@ -240,7 +268,7 @@
     const secs = D.securities.filter(s => s.issuer === id);
     let h = `<p class="muted"><a href="#overview">${t("back")}</a></p><div class="ihead"><div><h1>${esc(i.name)}</h1>
       <p class="sub">${esc(i.legal_name)} · ${esc(i.sector)} · ${esc(i.owner)}</p>
-      <div class="kv"><span>${t("lastAnalysis")}</span><b>${esc(i.period)} · ${esc(i.analysis_date)}</b><span>${t("rating")}</span><b>${X.rating || ""}</b><span>${t("nextReport")}</span><b>${X.next_report || ""}</b></div></div>
+      <div class="kv"><span>${t("lastAnalysis")}</span><b>${esc(i.period)} · ${esc(i.analysis_date)}</b><span>${t("rating")}</span><b>${ratingBadges(i)}<span class="muted rtxt">${X.rating || ""}</span></b><span>${t("nextReport")}</span><b>${X.next_report || ""}</b></div></div>
       <div class="dlbox"><b>${t("download")}</b>${dlButtons(i)}</div></div>
       <div class="row"><a class="btn" href="${gh("edit/main/" + i.yaml)}" target="_blank" rel="noopener">${t("edit")}</a>
       <a class="btn" href="${issueUrl("Analysis: " + i.name, "Update the " + i.name + " review using the latest report.\n\n(Created from the dashboard)")}" target="_blank" rel="noopener">${t("requestAnalysis")}</a>

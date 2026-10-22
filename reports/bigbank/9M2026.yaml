@@ -5,6 +5,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "Q4 2026 and annual results - expected February 2027 (monthly results 2026-11-12) [B3]"
 rating: "Moody's Ba1 long-term deposit rating, outlook negative; BCA ba2 [B4]"
+ratings: [{agency: "Moody's", grade: "Ba1", outlook: "negative", scope: "deposits"}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga.** 9 mėn. pelnas 30,1 mln. EUR (30,2 mln.), paskolos per metus +27 % [B1 p.7; B5]. CET1 13,2 % – gerokai virš turimos AT1 obligacijos nurašymo ribos (7 %) [B1 p.10; B6]. Stebėtina: Moody's perspektyva neigiama [B4].", en: "**Position OK.** 9M profit EUR 30.1m (30.2m), loans +27% year on year [B1 p.7; B5]. CET1 13.2% – well above the 7% write-down trigger of the AT1 held [B1 p.10; B6]. To watch: Moody's outlook is negative [B4]."}
 periods: [FY2024, FY2025, 9M2025, 9M2026]
 ratios: [nii, total_income, net_profit, cost_income, roe, loans, deposits, total_assets, equity, cet1, total_capital, leverage, lcr, npl]

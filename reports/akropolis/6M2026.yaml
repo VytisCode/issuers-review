@@ -5,6 +5,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "9M 2026 results - expected November 2026"
 rating: "S&P BB+ stable (affirmed 2025-12-15); Fitch BB+ stable (affirmed 2026-07-13) [P5; P2 p.5]"
+ratings: [{agency: "S&P", grade: "BB+", outlook: "stable", scope: ""}, {agency: "Fitch", grade: "BB+", outlook: "stable", scope: ""}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga.** Akropolis – prekybos centrų Lietuvoje ir Latvijoje valdytojas, S&P ir Fitch BB+ (stabili) [P5; P2 p.5]. Užimtumas 99,2 %, obligacijų kovenantų laikomasi su atsarga: svertas 46 % (riba 60 %), padengimas 3,3 karto (riba 2) [P2 p.7, p.12].", en: "**Position OK.** Akropolis owns shopping centres in Lithuania and Latvia and is rated BB+ (stable) by S&P and Fitch [P5; P2 p.5]. Occupancy 99.2%, bond covenants met with headroom: leverage 46% (limit 60%), coverage 3.3x (minimum 2x) [P2 p.7, p.12]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, ebitda, net_profit, total_assets, equity, net_debt, nd_ebitda, ltv, interest_cover]

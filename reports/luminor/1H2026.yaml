@@ -6,6 +6,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "3Q 2026 interim report - expected November 2026"
 rating: "Moody's - affirmed after the OTP announcement (grade to be confirmed; 2025 annual report refers to 'current A2 rating') [L1 p.15; L2 p.9]"
+ratings: [{agency: "Moody's", grade: "A2", outlook: "", scope: "deposits"}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga.** Kapitalas ir likvidumas gerokai viršija reikalavimus, o Moody's po OTP Bank sandorio paskelbimo reitingą paliko [L1 p.15]. Pelnas sumažėjo maždaug penktadaliu [L1 p.5]. 7,75 % obligacija XS2633112565 išpirkta 2026 m. birželį ir nebėra apyvartoje [L5; L1].", en: "**Position OK.** Capital and liquidity are well above requirements, and Moody's kept the rating after the OTP Bank deal was announced [L1 p.15]. Profit fell about a fifth [L1 p.5]. The 7.75% bond XS2633112565 was redeemed in June 2026 and is no longer outstanding [L5; L1]."}
 periods: [FY2024, FY2025, 1H2025, 1H2026]
 ratios: [net_profit, nii, total_income, cost_income, roe, cor, nim, loans, deposits, cet1, total_capital, leverage, mrel, lcr, nsfr, npl]

@@ -5,6 +5,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "9M 2026 interim report - 2026-11-27"
 rating: "Moody's A3, stable outlook (affirmed 2026) [R1 p.5]"
+ratings: [{agency: "Moody's", grade: "A3", outlook: "stable", scope: ""}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga.** Rygos savivaldybei priklausanti vandens įmonė su Moody's A3 reitingu [R1 p.5, p.10]. I pusm. EBITDA 19,7 mln. EUR (+25 %), grynoji skola / EBITDA 2,6x, nuosavo kapitalo dalis 71 %, skolos sąlygos vykdomos [R1 p.17-18, p.34].", en: "**Position OK.** A water utility owned by the City of Riga and rated A3 by Moody's [R1 p.5, p.10]. 1H EBITDA EUR 19.7m (+25%), net debt / EBITDA 2.6x, equity ratio 71%, loan covenants met [R1 p.17-18, p.34]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, ebitda, net_profit, investments, net_debt, nd_ebitda, equity_ratio, dscr]

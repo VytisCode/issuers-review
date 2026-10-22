@@ -5,6 +5,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "9M 2026 interim report - expected November 2026"
 rating: "Fitch A+ on the EUR 400m bond programme, linked to Lithuania's rating through the state guarantee [K1 p.10, p.17-18]"
+ratings: [{agency: "Fitch", grade: "A+", outlook: "", scope: "bond programme"}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga.** VIK 100 % priklauso valstybei, obligacijų programai Fitch suteikė A+ reitingą, susietą su valstybės garantija [K1 p.9-10, p.17-18]. I pusm. pelnas 7,1 mln. EUR, nuosavo kapitalo dalis 70 % (apskaičiuota įrankio) [K1 p.20-21].", en: "**Position OK.** VIK is 100% state-owned and Fitch rates its bond programme A+, linked to the state guarantee [K1 p.9-10, p.17-18]. 1H profit EUR 7.1m, equity ratio 70% (calculated by the tool) [K1 p.20-21]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [total_assets, equity, equity_ratio, net_profit]

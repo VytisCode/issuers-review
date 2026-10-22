@@ -5,6 +5,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "Q3 2026 interim report - expected late October / November 2026"
 rating: "nerasta (no credit rating found)"
+ratings: []
 verdict: {status: watch, lt: "**Stebėti.** I pusm. Hepsor patyrė 2,2 mln. EUR nuostolį, nes mažai butų perduota pirkėjams (23 vs 102) [H1 p.6, p.20]. Nuosavo kapitalo dalis sumažėjo iki 23,1 %, o obligacijų sąlyga reikalauja ne mažiau 20 % [H1 p.20; H4]. Pardavimų sutartys auga (129 butai, +36 %, apskaičiuota įrankio), pajamos tikėtinos baigus projektus [H1 p.6].", en: "**Watch.** Hepsor posted a EUR 2.2m loss in 1H because few homes were handed over (23 vs 102) [H1 p.6, p.20]. The equity ratio fell to 23.1%, while the bond covenant requires at least 20% [H1 p.20; H4]. Sales contracts are rising (129 homes, +36%, calculated by the tool), and revenue should follow as projects complete [H1 p.6]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, ebitda, net_profit, total_assets, equity, equity_ratio, net_debt]

@@ -5,6 +5,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "9M 2026 interim report - expected November 2026"
 rating: "nerasta (no credit rating found in the reports)"
+ratings: []
 verdict: {status: watch, lt: "**Stebėti.** AEI pati nurodo, kad trumpalaikiai įsipareigojimai viršija trumpalaikį turtą, o 2026-12-04 reikia išpirkti 24,7 mln. EUR obligacijų; lėšoms gauti pradėtas projektų pardavimas [E1 p.32-33]. Sąlygų (kovenantų) 2026-06-30 laikomasi, nuosavo kapitalo dalis 54,5 % (riba – 50 %) [E1 p.21].", en: "**Watch.** AEI itself states that current liabilities exceed current assets and EUR 24.7m of bonds must be repaid on 2026-12-04; it has started selling projects to raise funds [E1 p.32-33]. Covenants were met at 2026-06-30, with an equity ratio of 54.5% (floor 50%) [E1 p.21]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [total_income, net_profit, total_assets, equity, equity_ratio, net_debt, green_capacity]

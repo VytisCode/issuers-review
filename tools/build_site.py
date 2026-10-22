@@ -72,7 +72,7 @@ def main():
         files = []
         for r in reps:
             for lg in langs:
-                for ext in ("pdf", "docx", "xlsx"):
+                for ext in ("pdf", "docx"):
                     p = C.DOCS / "files" / key / f"{key}_{r['period']}_{lg}.{ext}"
                     if p.exists():
                         files.append({"period": r["period"], "lang": lg, "ext": ext, "url": f"files/{key}/{p.name}", "date": str(r["analysis_date"])})
@@ -83,7 +83,7 @@ def main():
             "id": key, "name": iss["name"], "legal_name": iss.get("legal_name", ""), "country": iss.get("country", ""), "sector": iss.get("sector", ""),
             "owner": iss.get("owner", ""), "website": iss.get("website", ""), "ir_page": iss.get("ir_page", ""), "calendar": iss.get("report_calendar", ""),
             "rating_plain": C.plain(last.get("rating", "")), "period": last.get("period", ""), "analysis_date": last_date,
-            "verdict": (last.get("verdict") or {}).get("status", ""),
+            "verdict": (last.get("verdict") or {}).get("status", ""), "ratings": last.get("ratings", []),
             "esg_review": sum(1 for v in items.values() if v.get("status") == "review"),
             "files": files, "new_filings": [f for f in out["filings"] if f["issuer"] == key and f["first_seen"] > last_date],
             "periods": last.get("periods", []), "ratios": last.get("ratios", []), "highlights": last.get("highlights", []),

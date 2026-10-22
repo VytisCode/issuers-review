@@ -5,6 +5,7 @@ analysis_date: 2026-10-22
 prepared_by: Claude (automatiškai)
 next_report: "9M 2026 results - expected November 2026"
 rating: "S&P BB+, stable outlook (issuer and the 2031 notes; confirmed 2025-12-12) [M2 p.6; M4]"
+ratings: [{agency: "S&P", grade: "BB+", outlook: "stable", scope: ""}]
 verdict: {status: ok, lt: "**Pozicija tvarkinga.** Maxima – didžiausias Baltijos šalių maisto prekybininkas, S&P BB+ (stabili) [M4]. I pusm. EBITDA 169,9 mln. EUR, grynoji skola / EBITDA 2,0 karto [M1 p.7; M3]. Stebėtina: akcininkui išmokėta daug lėšų, todėl nuosavas kapitalas sumažėjo iki 147 mln. EUR [M1 p.3-4, p.9]; Latvijoje vyksta konkurencijos tyrimas [X2].", en: "**Position OK.** Maxima is the largest Baltic food retailer, rated BB+ (stable) by S&P [M4]. 1H EBITDA EUR 169.9m, net debt / EBITDA 2.0x [M1 p.7; M3]. To watch: large payouts to the shareholder cut equity to EUR 147m [M1 p.3-4, p.9]; a competition investigation is under way in Latvia [X2]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, ebitda, net_profit, investments, net_debt, nd_ebitda, equity, equity_ratio, total_assets]
