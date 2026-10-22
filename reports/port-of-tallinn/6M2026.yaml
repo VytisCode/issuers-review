@@ -21,6 +21,11 @@ sources:
   P6: {title: "Sustainability Report 2025", url: "https://www.ts.ee/wp-content/uploads/2026/04/Sustainability_Report_2025.pdf", date: 2026-04}
   E1: {title: "ERR: defence appeals acquittal in Tallinna Sadam case", url: "https://www.err.ee/1609405501/tallinna-sadama-kaasuses-oigeksmoistetute-kaitsjad-vaidlustasid-kohtuotsuse", date: 2024-07-24}
   E2: {title: "ERR: State Prosecutor appeals Tallinna Sadam ruling", url: "https://www.err.ee/1609408312/riigiprokuratuur-vaidlustas-tallinna-sadama-kohtuotsuse", date: 2024-07-26}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP2: {title: "SEB Sector Policy on Shipping (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/C882785365792AC9C12587D700312ACF?opendocument", date: 2026-04-23}
+  SP4: {title: "SEB Social and Human Rights Policy (2026-04-28)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/B6C87DACA17DDE3CC1258B5C006292E0?opendocument", date: 2026-04-28}
+  SP5: {title: "SEB Sector Policy on Fossil Fuels (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/80AF6A2E5F88CDC2C12586B1002E33C2?opendocument", date: 2026-04-23}
+  SP7: {title: "SEB Sector Policy on Transportation (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/B1113F0C7B3136E4C12587D70030204B?opendocument", date: 2026-04-23}
 
 quick_summary:
   - lt: "6 mėn. pajamos 59,3 mln. EUR (+2,4 %), koreguota EBITDA 25,8 mln. EUR (−13,5 %), marža 43,5 % (51,5 %), grynasis pelnas 6,0 mln. EUR (−41,7 %) [P1 p.4; P2]."
@@ -109,7 +114,7 @@ investor:
     et: "Järeldus: bilanss on tugev ja võlg stabiilne, kuid 2026. aasta kasumlikkus väheneb kütuse- ja remondikulude ning väiksema vedellasti tõttu. Jälgida: 9 kuu aruanne, parvlaevateenuse leping, kohtuasja tulemus."
 
 esg:
-  policies: [shipping, transportation, climate_nature, human_rights, anti_corruption]
+  policies: [investments, shipping, climate_nature, human_rights, anti_corruption]
   items:
     excl_sectors:
       status: yes
@@ -149,8 +154,8 @@ esg:
     int_seb_policies:
       status: review
       evidence:
-        lt: "SEB laivybos ir transporto politikų turinys automatiškai neperskaitytas (SEB PDF blokuoja automatinį skaitymą). Žinoma: SEB laikosi Poseidon principų, laivybos tikslas – AER −41 % iki 2030 m. Reikia rankinės patikros."
-        en: "SEB shipping and transportation policy content could not be read automatically (SEB PDFs block automated reading). Known: SEB follows the Poseidon Principles, shipping target AER −41% by 2030. Manual check needed."
+        lt: "**Taikoma:** SEB investicijų politika [SP1 p.5] ir laivybos politika, nes keltų segmentas sudaro 31,4 % 6 mėn. 2026 m. pajamų, daugiau nei 15 % riba (apskaičiuota įrankio) [P1 p.9; SP2 p.5]. Transporto politika netaikoma (tik kelių, geležinkelių ir oro transportas) [SP7 p.4]. **Atitinka:** bendrovės valdymo ar tarptautinių normų pažeidimų nerasta (buvusių vadovų byloje ji – nukentėjusioji) [E1]; kasmetinė tvarumo ataskaita su klimato duomenimis [P6]; klimato neutralumas iki 2050 m. ir planas keltus perkelti prie alternatyvių kuro rūšių ar elektros – atitinka dekarbonizacijos plano lūkestį [P6 p.18-19; SP2 p.7]. **Viešose ataskaitose nerasta:** laivybos reikalavimų – SEEMP, EEXI/CII atitikties, laivų emisijų intensyvumo atskleidimo, atsakingo laivų perdirbimo, klasifikacijos [SP2 p.5-6]; žmogaus teisių patikros, pranešėjų kanalo ir antikorupcijos politikos [SP2 p.7; SP4 p.8]. **Neaišku:** skystų krovinių (naftos produktų) aptarnavimas – jei su iškastiniu kuru susijusios pajamos viršija 5 %, taikoma ir iškastinio kuro politika [P1 p.6; SP5 p.6]. Analitikas tikrina TS Laevad laivų dokumentus."
+        en: "**Applicable:** the SEB Investments policy [SP1 p.5] and the Shipping policy, because the ferry segment is 31.4% of 6M 2026 revenue, above the 15% threshold (calculated by the tool) [P1 p.9; SP2 p.5]. The Transportation policy does not apply (road, rail and air only) [SP7 p.4]. **Met:** no governance or international-norm breach by the company found (it is the injured party in the former executives' case) [E1]; annual sustainability report with climate data [P6]; climate neutrality by 2050 and a plan to move ferries to alternative fuels or electrification, in line with the decarbonisation-plan expectation [P6 p.18-19; SP2 p.7]. **Not found in public reports:** Shipping requirements such as SEEMP, EEXI/CII compliance, vessel emission-intensity disclosure, responsible ship recycling and classification [SP2 p.5-6]; human rights due diligence, whistleblowing channel and anti-corruption policy expected by SEB [SP2 p.7; SP4 p.8]. **Open:** liquid bulk (oil products) handling; if fossil-related revenue is above 5%, the Fossil Fuels policy also applies [P1 p.6; SP5 p.6]. Analyst to check TS Laevad vessel documents."
     engagement:
       status: review
       evidence:

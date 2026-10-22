@@ -24,6 +24,12 @@ sources:
   S8: {title: "Bonds page (incl. tender offer for XS1646530565)", url: "https://ignitisgrupe.lt/en/investors/bonds", date: 2026-10-22}
   S9: {title: "Press release: inaugural EUR 300m 5-year EuGB bonds priced", url: "https://ignitisgrupe.lt/en/news/ignitis-group-prices-its-inaugural-eur-300-million-5-year-eugb-bonds", date: 2026-10-20}
   S10: {title: "First three months 2026 interim report (regulatory notice)", url: "https://data.fca.org.uk/artefacts/NSM/GNW/b8cfd694-6694-4d57-bf10-2bb5ed7ce1a4.html", date: 2026-05-13}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP5: {title: "SEB Sector Policy on Fossil Fuels (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/80AF6A2E5F88CDC2C12586B1002E33C2?opendocument", date: 2026-04-23}
+  SP6: {title: "SEB Sector Policy on Electricity & Renewable Energy (2026-04-23)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/60D2454400789893C12587D70030AFC1?opendocument", date: 2026-04-23}
+  W1: {title: "Ignitis grupė - Politikos ir sertifikatai (website, LT)", url: "https://ignitisgrupe.lt/tvarumo-valdymas/politikos-ir-sertifikatai", date: 2026-10-22}
+  W2: {title: "Ignitis grupė - Verslo etika (website, LT)", url: "https://ignitisgrupe.lt/tvarumo-prioritetai/verslo-etika", date: 2026-10-22}
+  W3: {title: "Ignitis grupė - Gamta (website, LT)", url: "https://ignitisgrupe.lt/tvarumo-prioritetai/gamta", date: 2026-10-22}
 
 quick_summary:
   - lt: "6 mėn. koreguota EBITDA – 306,6 mln. EUR (+1,9 %). Augo Tinklai ir Klientai ir sprendimai, mažėjo Žalioji generacija (149,2 mln. EUR, 2025 m. – 166,6 mln.) [S1 p.24]. 2026 m. prognozė 550–600 mln. EUR patvirtinta; per pusmetį pasiekta 51–56 % jos [S2]."
@@ -140,7 +146,7 @@ investor:
     et: "Järeldus: finantsseisund on võrreldes 2025. aasta lõpuga sisuliselt muutumatu; krediidinäitajad on strateegia piirides, reitingud stabiilsed. Jälgida: 9 kuu aruanne (11.11.2026), tuule ja hindade mõju Rohelisele tootmisele, FFO / netovõla tagasipöördumine ≥23%-ni."
 
 esg:
-  policies: [fossil_fuels, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  policies: [investments, electricity_renewables, fossil_fuels, climate_nature, human_rights, anti_corruption]
   items:
     excl_sectors:
       status: yes
@@ -178,10 +184,10 @@ esg:
         lt: "Galimas geltonas signalas: 2026 m. vasarį žuvo rangovo darbuotojas [S10]. 1 apimties emisijos 2025 m. išaugo 54,7 % dėl didesnės dujų generacijos [S4]."
         en: "Possible yellow flag: a contractor employee was fatally injured in February 2026 [S10]. Scope 1 emissions rose 54.7% in 2025 due to higher gas generation [S4]."
     int_seb_policies:
-      status: review
+      status: yes
       evidence:
-        lt: "Iškastinio kuro politika – atitinka (anglies ir naftos / dujų žvalgybos nėra). Elektros ir atsinaujinančios energijos, klimato ir žmogaus teisių politikų turinys automatiškai neperskaitytas (SEB PDF blokuoja automatinį skaitymą) – reikia rankinės patikros."
-        en: "Fossil fuel policy - met (no coal, no oil & gas exploration). Electricity & renewables, climate and human rights policy content could not be read automatically (SEB PDFs block automated reading) - manual check needed."
+        lt: "**Taikoma:** SEB investicijų politika [SP1 p.5], elektros ir atsinaujinančios energetikos politika, nes žalioji gamyba ir tinklai sudaro daugiau nei 15 % pajamų [SP6 p.6], ir iškastinio kuro politika dėl dujų skirstymo, dujų tiekimo ir Elektrėnų rezervinių elektrinių. Dujų pajamų dalis nerasta [S4 p.24, p.39; SP5 p.4, p.6]. **Reikalavimai įvykdyti:** atskleistos 1–3 apimties emisijos (4,49 mln. t CO2e 2025 m.) ir SBTi patvirtinti 1,5 °C tikslai [S4 p.8-9, p.15]; ISO 14001 aplinkosaugos vadyba ESO, „Ignitis gamyboje“, „Ignitis“ bei Vilniaus ir Kauno kogeneracinėse jėgainėse [W1]. Anglies, durpių ar naftos ir dujų gavybos nėra [S4]. **Lūkesčiai įvykdyti:** ISO 45001 saugos vadyba, 2025 m. mirtinų nelaimingų atsitikimų nebuvo [S4 p.16; W1]; pasitikėjimo linija anoniminiams pranešimams [W2]; antikorupcijos politika ir ISO 37001 sertifikatas [W1; W2]; JT Pasaulinis susitarimas [S4 p.8]; integruota metinė ataskaita su klimato duomenimis [S4]; biologinės įvairovės stebėsena ir poveikio mažinimo priemonės [W3]. **Nerasta / patikrinti:** įvardyto žmogaus teisių patikrinimo proceso ir kiekybinių biologinės įvairovės tikslų [SP6 p.8]; ataskaitos apie pelno mokestį pagal šalis (nurodyta [S4 p.429], neperskaityta)."
+        en: "**Applicable:** the SEB Investments policy [SP1 p.5], the Electricity & Renewable Energy policy, since green generation and networks make up more than 15% of revenue [SP6 p.6], and the Fossil Fuels policy for gas distribution, gas supply and the Elektrėnai reserve plants. The gas revenue share was not found [S4 p.24, p.39; SP5 p.4, p.6]. **Requirements met:** Scope 1-3 emissions disclosed (4.49m t CO2e in 2025) and SBTi-validated 1.5°C targets [S4 p.8-9, p.15]; ISO 14001 environmental management at ESO, Ignitis gamyba, Ignitis and the Vilnius and Kaunas CHPs [W1]. No coal, peat or oil & gas extraction [S4]. **Expectations met:** ISO 45001 safety management, no fatal accidents in 2025 [S4 p.16; W1]; trust line for anonymous reports [W2]; anti-corruption policy and ISO 37001 certification [W1; W2]; UN Global Compact [S4 p.8]; integrated annual report with climate data [S4]; biodiversity monitoring and mitigation measures [W3]. **Not found / to check:** a named human rights due diligence process and quantified biodiversity targets [SP6 p.8]; country-by-country tax report (listed at [S4 p.429], not read)."
     engagement:
       status: no
       evidence:

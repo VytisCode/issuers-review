@@ -1,69 +1,171 @@
-# SEB tvarumo politikų santrauka, naudojama ESG klausimynui.
-# Šaltinis: https://sebgroup.com/sustainability/our-sustainability-strategy/policies (politikos atnaujinamos kasmet).
-# verified: yes - perskaityta viešame SEB puslapyje; no - SEB PDF automatiškai neperskaitomas (robots.txt),
-#   turinys reikalauja rankinės patikros. Kai turėsite PDF, įkelkite santrauką čia ir pakeiskite verified: yes.
-# Taikymas "ne 100 % griežtas": klausimynas žymi atitiktį / neatitiktį / reikia peržiūrėti, sprendimą priima analitikas.
+# SEB tvarumo politikų santrauka, naudojama ESG klausimynui ("Yes, the company fulfills the expectations from SEB thematic and sector policies").
+# Šaltinis: savininko pateikti SEB PDF (2026-10-22), perskaityti ir apibendrinti; nuorodos p.N - PDF failo puslapis.
+# Originalūs PDF: projekto failų aplankas seb-policies/ (ne šiame viešame repo); viešai: https://sebgroup.com/sustainability/our-sustainability-strategy/policies
+# Taikymo lygiai visose sektorių politikose: Restriction - SEB vengia santykių; Requirement - privaloma (neatitiktis = aktyvus sprendimas);
+#   Expectation - didelės įmonės turėtų siekti. Didelė įmonė: 2 iš 3 - >250 darbuotojų, apyvarta >50 mln. EUR, balansas >43 mln. EUR.
+# SVARBU: sektorių politikos taikomos SEB skolinimui; investicijoms taikoma "Policy on Sustainability Considerations in Investments" (investments),
+#   kuri remiasi Environmental ir Social & Human Rights politikomis bei Arms, Fossil Fuels, Gambling, Mining & Metals, Tobacco sektorių politikomis.
+#   Įrankis vertina emitentą pagal investicijų politiką + emitento sektoriaus politikos lūkesčius (kaip gaires). Ne 100 % griežtai - sprendžia analitikas.
 reviewed: 2026-10-22
 index_url: https://sebgroup.com/sustainability/our-sustainability-strategy/policies
 
 policies:
+  investments:
+    name: Policy on Sustainability Considerations in Investments (SEB AB)
+    adopted: 2026-04-15
+    file: Policy_Sustainability_Considerations_Investments_2026.pdf
+    verified: yes
+    scope: "Investment advice and execution-only products, discretionary portfolio management and certificates [p.2]."
+    rules:
+      - "Direct investments: exclude equities and bonds of issuers with insufficient governance structures, or that verifiably failed to comply with international norms and standards without clear goals and ongoing measures to address this [p.5]."
+      - "Exclude government bonds of countries in serious breach of fundamental social and political rights or sanctioned / embargoed by UN, EU, USA or UK [p.5]."
+      - "Discretionary portfolios: business involvement restrictions for fossil fuels, human rights violations, tobacco, weapons and gambling as per thresholds [p.5]."
+      - "Enhanced environmental or social risk under an SFDR Principal Adverse Impact indicator is analysed and may exclude the investment [p.5]."
+      - "Heightened operational sustainability risk and how the company manages it informs the decision [p.5-6]."
+      - "Criteria apply where data of sufficient quality is available at reasonable effort [p.6]."
+      - "Applicable policies: Environmental, Social & Human Rights; sector policies Arms & Defence, Fossil Fuels, Gambling, Mining & Metals, Tobacco [p.7]."
+  climate_nature:
+    name: Environmental Policy on Climate, Nature and Water (thematic)
+    adopted: 2026
+    file: Environmental_policy_2026.pdf
+    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/CBAA255D7EC51026C1257C28002FB11A?opendocument
+    verified: yes
+    rules:
+      - "Companies in high-climate-impact sectors assessed on Scope 1-3 emissions and a credible transition plan with short-, medium- and long-term targets [p.7]."
+      - "Companies with significant adverse climate impact and no credible transition plan challenge the relationship; exit only after engagement [p.7]."
+      - "Nature: companies with high nature impact expected to set strategies/targets in line with GBF, TNFD, SBTN etc.; no material negative impact on Sensitive Environmental Areas; Mitigation Hierarchy [p.8-9]."
+      - "Water: water-exposed companies expected to assess water stress and have water management [p.10]."
+  human_rights:
+    name: Social and Human Rights Policy (thematic)
+    adopted: 2026-04-28
+    file: Social_HR_Policy_2026_EXTERNAL.pdf
+    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/B6C87DACA17DDE3CC1258B5C006292E0?opendocument
+    verified: yes
+    rules:
+      - "SEB follows UN Guiding Principles on Business and Human Rights, Children's Rights and Business Principles, OECD Guidelines for MNEs, Equator Principles [p.4]."
+      - "Due diligence: controversy screening, high human-rights-risk country screening, sector policy screening [p.5-6]."
+      - "Restrictions: controversial weapons, tobacco and nicotine, gambling [p.7]."
+      - "Positions for companies: UNGP-based policies and HRDD, grievance mechanism; ILO core labour rights; health & safety; fair wages; OECD Guidelines; gender equality; stakeholder engagement and FPIC for new projects; just transition [p.8-9]."
   fossil_fuels:
-    name: Fossil Fuels (coal, oil & gas, peat) sector policy
+    name: Fossil Fuels sector policy (coal, oil & gas, peat)
+    adopted: 2026-04-23
+    file: Fossil_2026.pdf
     url: https://sebgroup.com/sustainability/our-impact-areas/our-approach-to-fossil-fuels
     pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/80AF6A2E5F88CDC2C12586B1002E33C2?opendocument
     verified: yes
-    updated: 2026-04
+    scope: "Companies with >5% of revenue from extraction, offshore services, transport/storage infrastructure, refining or fossil power generation (incl. NACE 35.22 gas distribution, 35.24 gas storage) [p.4, p.6]."
     rules:
-      - Thermal coal mining > 5% of revenue - no relationship.
-      - Coal-fired power generation > 5% of revenue - no new relationships; from 2026 also existing ones (Germany from 2030).
-      - No dedicated financing of thermal-coal infrastructure or equipment for coal mines.
-      - Oil & gas - exposure reduced gradually; new exploration and oilfield services restricted; transition plans expected.
-      - Unconventional oil (oil sands, oil shale, fracking, Arctic) covered by restrictions.
+      - "Requirements: disclose Scope 1-3 emissions; short/medium/long-term reduction targets; environmental management system (ISO 14001/50001 or similar); no material negative impact on Sensitive Environmental Areas [p.6-7]."
+      - "Restrictions: coal mining >5% of revenue; coal power >5% (Germany 15% until 2030) [p.7-8]."
+      - "Restrictions: new relationships with oil & gas E&P >5%; no dedicated finance for new O&G extraction or seismic exploration; Arctic; unconventional O&G >5% (Baltic exception until 2030); ultra-deep [p.8-9]."
+      - "No dedicated finance for new oil pipelines/storage; new gas infrastructure only with a transition plan; no new relationships with oil refiners [p.9]."
+      - "New gas power projects need a transition plan to low-carbon gases, BAT emission levels, peak/balancing use [p.10]."
+      - "Peat: extraction >5% avoided; peat power >5% no new relationships, all avoided from 2030 [p.10]."
+      - "Expectations: transition plan; biodiversity; UNGP human rights, HRDD, H&S, grievance; just transition; annual sustainability report, anti-corruption policy, country-by-country tax reporting, EITI [p.10-11]."
   electricity_renewables:
     name: Electricity & Renewable Energy sector policy
+    adopted: 2026-04-23
+    file: Renewable_Energy_2026.pdf
     pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/60D2454400789893C12587D70030AFC1?opendocument
-    verified: no
+    verified: yes
+    scope: "Companies with >15% of revenue from renewable generation, electricity transmission/distribution/storage or energy from waste [p.6]."
     rules:
-      - "SEB target (verified, ambitions page): power generation portfolio 70 g CO2e/kWh by 2030 (-44% vs 2020)."
-      - Policy PDF content to be checked manually.
+      - "Requirement: no material negative impact on Sensitive Environmental Areas (EU/EEA licensing = no material impact); new projects need EIA, resettlement and FPIC safeguards [p.6]."
+      - "Requirements for dedicated finance: geothermal and bioenergy <100 gCO2e/kWh, biomass sourcing plan, no deforestation; energy from waste - waste hierarchy, BAT [p.7]."
+      - "Restriction: no dedicated finance for new transmission lines connecting fossil plants not in line with the Fossil Fuels policy [p.7]."
+      - "Expectations (grids): plans for energy efficiency through grid upgrades and for integrating more renewables [p.8]."
+      - "Expectations: biodiversity impacts and targets, Mitigation Hierarchy, environmental management system (ISO 14001/50001); UNGP human rights, HRDD, H&S policy, grievance/whistleblowing, stakeholder engagement; annual sustainability report with climate impact, anti-corruption policy, country-by-country tax reporting [p.8]."
   shipping:
     name: Shipping sector policy
+    adopted: 2026-04-23
+    file: Shipping_2026.pdf
     pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/C882785365792AC9C12587D700312ACF?opendocument
-    verified: no
+    verified: yes
+    scope: "Companies with >15% of revenue from freight and passenger water transport (NACE 50) [p.4-5]."
     rules:
-      - "SEB is a Poseidon Principles signatory (2020); shipping target AER -41% by 2030 vs 2022 (verified, ambitions page)."
-      - Policy PDF content to be checked manually.
+      - "Restriction: no dedicated finance for new vessels exclusively for thermal coal [p.5]."
+      - "Requirements: annual emission-intensity disclosure (Poseidon Principles), SEEMP, EEXI/EEDI and CII compliance, responsible ship recycling (Hong Kong Convention / EU SRR) [p.5]."
+      - "Requirements: IMO conventions, EU MRV, Maritime Labour Convention; no Paris MoU blacklisted flag; IACS classification; full insurance; IMO number; human rights per MLC, SOLAS, COLREG, STCW [p.6]."
+      - "Expectations: decarbonisation plan in line with the 2023 IMO GHG Strategy; MARPOL; assess most carbon-efficient technology for new vessels; HRDD, drug & alcohol policy, grievance mechanism; sustainability report, anti-corruption policy, CbC tax reporting, IMO DCS reporting, ship recycling information [p.7]."
   transportation:
-    name: Transportation sector policy
+    name: Transportation sector policy (road, rail, air - excludes shipping)
+    adopted: 2026-04-23
+    file: Transportation_2026.pdf
     pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/B1113F0C7B3136E4C12587D70030204B?opendocument
-    verified: no
+    verified: yes
+    scope: "Companies with >15% of revenue from road/rail/air transport operation, leasing or vehicle manufacturing; shipping and ports not included [p.4-5]."
     rules:
-      - Policy PDF content to be checked manually.
-  climate_nature:
-    name: Environmental Policy on Climate, Nature and Water
-    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/CBAA255D7EC51026C1257C28002FB11A?opendocument
-    verified: no
+      - "Requirement: large companies disclose Scope 1-2 and relevant Scope 3 emissions with short/medium/long-term targets [p.6]."
+      - "Expectations: transition plan, biodiversity, fuel-efficiency programme, EMS; trafficking, infectious disease, substance abuse and harassment measures where relevant [p.6]."
+      - "General expectations: UNGP human rights, HRDD, H&S, grievance, just transition; sustainability report, anti-corruption policy, CbC tax reporting [p.8]."
+  real_estate:
+    name: Real Estate and Construction sector policy
+    adopted: 2026-04-23
+    file: RE_Construction_2026.pdf
+    verified: yes
+    scope: "Real estate owners where >50% of area is leased externally and that income is >15% of revenue; developers with >50% revenue from sales; construction >15% of revenue [p.6]."
     rules:
-      - "SEB commitments (verified): Paris Agreement; net zero credit portfolio by 2050 at the latest."
-      - Expect issuer to have emissions disclosure, reduction targets and a transition plan.
-  human_rights:
-    name: Social and Human Rights Policy
-    pdf: https://webapp.sebgroup.com/mb/mblib.nsf/dld/B6C87DACA17DDE3CC1258B5C006292E0?opendocument
-    verified: no
-    rules:
-      - "SEB commitments (verified): UN Guiding Principles on Business and Human Rights, ILO core conventions, OECD Guidelines for MNEs, UN Global Compact."
-      - Expect issuer to have human-rights / labour / health & safety policies and no severe unresolved controversies.
-  anti_corruption:
-    name: Anti-corruption, Code of Conduct, Tax
-    verified: no
-    rules:
-      - Expect anti-bribery and anti-corruption policy, whistleblowing channel, no unresolved major corruption cases.
-  financial_general:
-    name: Financial sector - no dedicated SEB sector policy (general rules applied)
+      - "Requirements: no material negative impact on Sensitive Environmental Areas; valid energy performance certificates; developers - NZEB, climate adaptation, substances of concern, H&S system; construction - formal employment, registered suppliers, social insurance [p.6-9]."
+      - "Expectations: transition plan for buildings, EPBD minimum standards, non-fossil energy, climate risk analysis, EMS, circularity, biodiversity; UNGP/HRDD, grievance; sustainability report, anti-corruption, CbC tax [p.7-10]."
+  arms_defence:
+    name: Arms and Defence sector policy
+    adopted: 2026-04-23
+    file: Arms_Defence_2026.pdf
     verified: yes
     rules:
-      - No SEB sector policy for banks; apply general SEB commitments (UN Global Compact, OECD Guidelines, Paris alignment, human rights).
-      - Check AML/sanctions controls, financed-emissions disclosure, exposure to fossil fuel lending, membership of PRB/NZBA or similar.
+      - "Covers companies with >5% revenue from arms and defence; no threshold for controversial and nuclear weapons [p.5]."
+      - "Restrictions: controversial weapons producers; nuclear weapons involvement for companies headquartered outside NATO; >5% revenue from civilian semi-automatic arms; unlicensed or embargoed arms transactions [p.5]."
+  tobacco:
+    name: Tobacco & Tobacco-Free Nicotine Products sector policy
+    adopted: 2026-04-23
+    file: Tobacco_2026.pdf
+    verified: yes
+    rules:
+      - "Restriction: >5% of revenue (net of excise) from manufacturing, packaging or distribution of smoking tobacco/nicotine; no new relationships >5% for snuff and nicotine pouches [p.5]."
+  gambling:
+    name: Gambling sector policy
+    adopted: 2026-04-23
+    file: Gambling_2026.pdf
+    verified: yes
+    rules:
+      - "Restriction: no relationships with gambling companies (>5% of revenue from production of gambling) [p.3, p.5]."
+  mining_metals:
+    name: Mining and Metals sector policy
+    adopted: 2026-04-23
+    file: Mining_Metals_2026.pdf
+    verified: yes
+    rules:
+      - "Covers >15% of revenue from mining and metals [p.5]."
+      - "Restrictions: EU conflict mineral violations, mountaintop removal, riverine/sub-marine tailings; no new peat extraction relationships [p.6]."
+      - "Requirements/expectations: Sensitive Environmental Areas, EIA, public consultation, Mitigation Hierarchy, tailings management, BAT, transition plan, HRDD [p.6-9]."
+  agriculture:
+    name: Agriculture, Fishing, Aquaculture and Animal Welfare sector policy
+    adopted: 2026-04-23
+    file: Agriculture_2026.pdf
+    verified: yes
+    rules:
+      - "Covers >15% of revenue from agriculture, agri-commodity trading, fishing, aquaculture [p.5]."
+      - "Restrictions: deforestation, illegal fertilisers/pesticides, poor animal welfare, routine preventive antibiotics, uncertified palm oil/soy; destructive or illegal fishing; IUU fish feed [p.6-10]."
+  forestry:
+    name: Forestry, Pulp & Paper and Timber sector policy
+    adopted: 2026-04-23
+    file: Forestry_2026.pdf
+    verified: yes
+    rules:
+      - "Covers >15% of revenue from forestry, pulp & paper, timber [p.5]."
+      - "Restrictions: deforestation, illegal logging or trading; pulp/paper/timber must commit to no deforestation [p.6-7]."
+  anti_corruption:
+    name: Governance expectations in sector policies (anti-corruption, tax, reporting)
+    verified: yes
+    rules:
+      - "All sector policies expect an anti-corruption policy proportional to size and risk, an annual sustainability report with climate impact, and country-by-country tax reporting when relevant (e.g. Renewable Energy p.8, Shipping p.7)."
+      - "SEB's own Anti-Corruption, Tax, Code of Conduct, Supplier Code, Security, Data Ethics, Inclusion & Diversity policies and Modern Slavery statement govern SEB itself, not issuers; used only as background."
+  financial_general:
+    name: Financial sector - no dedicated SEB sector policy (thematic policies applied)
+    verified: yes
+    rules:
+      - "No SEB sector policy for banks; apply the Investments policy (governance, international norms) and the Environmental and Social & Human Rights thematic policies."
+      - "Check: sustainability report, financed-emissions disclosure and targets, lending exclusions for restricted sectors, AML/anti-corruption, human rights commitments."
 
 # ESG klausimynas (vidinė politika). Klausimai VISADA anglų kalba ir NEKEIČIAMI (savininko sprendimas 2026-10-22).
 # Ataskaitoje: klausimo eilutė su varnele, po ja - atsakymo įrodymas. Be lentelės.

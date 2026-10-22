@@ -17,6 +17,9 @@ sources:
   L2: {title: "Luminor Bank - Annual report 2025", url: "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2025-lv.pdf", date: 2026}
   L3: {title: "Luminor - Primary placements (bond list)", url: "https://luminor.lv/en/placements", date: 2026-09-28}
   L4: {title: "Luminor - Financial reports", url: "https://luminor.lv/en/financial-reports", date: 2026-10-22}
+  SP1: {title: "SEB Policy on Sustainability Considerations in Investments (2026-04-15)", url: "https://sebgroup.com/sustainability/our-sustainability-strategy/policies", date: 2026-04-15}
+  SP3: {title: "SEB Environmental Policy on Climate, Nature and Water (2026)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/CBAA255D7EC51026C1257C28002FB11A?opendocument", date: 2026}
+  SP4: {title: "SEB Social and Human Rights Policy (2026-04-28)", url: "https://webapp.sebgroup.com/mb/mblib.nsf/dld/B6C87DACA17DDE3CC1258B5C006292E0?opendocument", date: 2026-04-28}
 
 quick_summary:
   - lt: "1H 2026 grynasis pelnas 72,0 mln. EUR (1H 2025 – 91,6 mln.), II ketv. – 37,4 mln. EUR (46,2 mln.); ROE 7,7 % [L1 p.5, p.16]."
@@ -101,7 +104,7 @@ investor:
     et: "Järeldus: kasumlikkus väheneb (1H kasum −21%), kuid kapitali, MREL-i ja likviidsuse puhvrid on suured. Võlakirjaomanike jaoks on põhisündmus omaniku vahetus OTP-ks. Jälgida: III kv aruanne, OTP tehingu load, IV kv kapitali vähendamine."
 
 esg:
-  policies: [financial_general, human_rights, anti_corruption, climate_nature]
+  policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
   items:
     excl_sectors:
       status: review
@@ -124,10 +127,10 @@ esg:
         lt: "Automatinė naujienų paieška (30 d.) neigiamų antraščių nerado; daugiausia naujienų apie OTP sandorį. Analitikas patvirtina ir prideda ekrano nuotrauką."
         en: "The automatic news scan (30 days) found no adverse headlines; most news is about the OTP deal. Analyst confirms and adds a screenshot."
     int_promoting:
-      status: review
+      status: yes
       evidence:
-        lt: "Žaliųjų paskolų / obligacijų, ESG reitingo ar ESG politikos duomenų automatiškai nerasta."
-        en: "No data on green loans / bonds, ESG rating or ESG policy found automatically."
+        lt: "Tvaraus NT ir atsinaujinančios energetikos paskolos 2025 m. – 305,4 mln. EUR (2024 m. – 182,4 mln.), tikslas – 700 mln. EUR iki 2030 m.; žalios ar su tvarumu susietos obligacijos sudaro 7,4 % obligacijų portfelio; Sustainalytics ESG rizikos reitingas 18,4 (maža rizika) [L2 p.19]."
+        en: "Sustainable real estate and renewable energy lending EUR 305.4m in 2025 (EUR 182.4m in 2024), target EUR 700m by 2030; green or sustainability-linked bonds 7.4% of the bond portfolio; Sustainalytics ESG risk rating 18.4 (low risk) [L2 p.19]."
     int_taxonomy:
       status: review
       evidence:
@@ -139,10 +142,10 @@ esg:
         lt: "Geltonų signalų greitoje paieškoje nerasta; savininko keitimas (OTP) gali pakeisti ESG politikas [L1 p.4]."
         en: "No yellow flags found in a quick search; the change of owner (OTP) may change ESG policies [L1 p.4]."
     int_seb_policies:
-      status: review
+      status: yes
       evidence:
-        lt: "SEB neturi atskiros finansų sektoriaus politikos – taikomos bendros taisyklės (UNGC, OECD, žmogaus teisės, Paryžiaus tikslai). Banko duomenų jų vertinimui automatiškai rasta per mažai."
-        en: "SEB has no dedicated financial sector policy - general rules apply (UNGC, OECD, human rights, Paris goals). Too little bank data found automatically to assess them."
+        lt: "**Taikoma:** SEB neturi bankų sektoriaus politikos, todėl taikoma investicijų politika bei aplinkosaugos ir socialinė / žmogaus teisių politikos [SP1 p.5, p.7]. **Atitinka:** valdymo ar tarptautinių normų pažeidimų nerasta (greita paieška 2026-10-22); finansuojamos emisijos atskleidžiamos pagal PCAF (3 apimtis – 3,2 mln. t CO2e 2025 m.) [L2 p.22]; tikslas – klimato neutralumas iki 2050 m. [L2 p.19]; tvaraus NT ir atsinaujinančios energetikos paskolos 305,4 mln. EUR, tikslas – 700 mln. EUR iki 2030 m. [L2 p.19]; Sustainalytics ESG rizikos reitingas 18,4 (maža rizika) [L2 p.19]; įsipareigojimas gerbti žmogaus teises [L2 p.18]; PPTFP ir sankcijų atitiktis [L2 p.18]; antikorupcijos priemonės ir pranešėjų kanalai (iš santraukos, patikrinti) [L2 p.23, p.28]. **Nerasta:** viešo skolinimo išimčių sąrašo (anglis, nafta ir dujos, ginklai) ir narystės JT Pasauliniame susitarime / UNEP FI PRB; patikrinti Luminor tvarumo politiką ir pereinamojo laikotarpio plano principus."
+        en: "**Applicable:** no SEB sector policy for banks, so the Investments policy and the Environmental and Social & Human Rights policies apply [SP1 p.5, p.7]. **Met:** no breach of governance or international norms found (quick search, 2026-10-22); financed emissions disclosed using PCAF (Scope 3 3.2m t CO2e in 2025) [L2 p.22]; climate neutrality target for 2050 [L2 p.19]; sustainable real estate and renewable lending EUR 305.4m, target EUR 700m by 2030 [L2 p.19]; Sustainalytics ESG risk rating 18.4 (low risk) [L2 p.19]; human rights commitment [L2 p.18]; AML and sanctions compliance [L2 p.18]; anti-bribery measures and whistleblowing channels (from summary, verify) [L2 p.23, p.28]. **Not found:** a published lending exclusion list (coal, oil & gas, weapons) and UN Global Compact / UNEP FI PRB membership; check Luminor's sustainability policy and transition plan principles."
     engagement:
       status: review
       evidence:

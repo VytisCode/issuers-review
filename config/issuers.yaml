@@ -17,7 +17,7 @@ ignitis:
   ratings_page: https://ignitisgrupe.lt/en/investors/credit-ratings
   nasdaq_ticker: IGN1L
   media: all
-  seb_policies: [fossil_fuels, electricity_renewables, climate_nature, human_rights, anti_corruption]
+  seb_policies: [investments, fossil_fuels, electricity_renewables, climate_nature, human_rights, anti_corruption]
   report_pages:
     - https://ignitisgrupe.lt/en/reports-presentations-and-fact-sheets
     - https://ignitisgrupe.lt/en/investors/bonds
@@ -38,7 +38,7 @@ luminor:
   ratings_page: https://luminor.lv/en/financial-reports
   nasdaq_ticker: ""
   media: all
-  seb_policies: [financial_general, human_rights, anti_corruption, climate_nature]
+  seb_policies: [investments, financial_general, climate_nature, human_rights, anti_corruption]
   report_pages:
     - https://luminor.lv/en/financial-reports
     - https://luminor.lv/en/placements
@@ -60,7 +60,7 @@ port-of-tallinn:
   ratings_page: ""
   nasdaq_ticker: TSM1T
   media: EE
-  seb_policies: [shipping, transportation, climate_nature, human_rights, anti_corruption]
+  seb_policies: [investments, shipping, climate_nature, human_rights, anti_corruption]
   report_pages:
     - https://www.ts.ee/en/investor/interim-reports/
     - https://www.ts.ee/en/investor/presentations/
