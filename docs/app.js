@@ -17,7 +17,7 @@
       country: "Country / sector", rating: "Rating", lastAnalysis: "Latest analysis", nextReport: "Next report", instruments: "Instruments",
       newReport: "New report – analysis needed", toReview: "news to review (30 d.)", matured: "matured – remove", within12: "mature within 12 m", esgReview: "ESG items to review",
       nothingNew: "No new events", open: "Open review", back: "← Issuers", todoNav: "To do", issuersNav: "Issuers", moreNav: "More", edit: "✎ Edit report", requestAnalysis: "✦ Request new analysis", issuerReports: "Issuer reports ↗",
-      quick: "Quick summary", keyRatios: "Key ratios", trend: "Metric trend", plans: "Past plans vs outcomes", investor: "Investor information & conclusions",
+      quick: "Quick summary", keyRatios: "Key ratios", trend: "Metric trend", plans: "Past plans vs outcomes", investor: "Investor information & conclusions", covenants: "Covenants",
       business: "Business performance review", financials: "Financials", more: "Show business review and financials", esg: "ESG report", sources: "Sources",
       download: "Download", pdf: "PDF", docx: "Word", newsTitle: "News", allIssuers: "All issuers", all: "All", reviewOnly: "To review only", searchHeadlines: "Search headlines",
       newsSub: "Google News and regional media in each issuer's local language(s). 'Review' = an adverse keyword (investigation, fine, court, sanctions…) was found in the headline – a pointer, not a conclusion.",
@@ -46,7 +46,7 @@
       country: "Šalis / sektorius", rating: "Reitingas", lastAnalysis: "Paskutinė analizė", nextReport: "Kita ataskaita", instruments: "Priemonės",
       newReport: "Nauja ataskaita – reikia analizės", toReview: "naujienos peržiūrai (30 d.)", matured: "išpirkta – išimti", within12: "išperkama per 12 mėn.", esgReview: "ESG punktai peržiūrai",
       nothingNew: "Naujų įvykių nėra", open: "Atidaryti", back: "← Emitentai", todoNav: "Darbai", issuersNav: "Emitentai", moreNav: "Daugiau", edit: "✎ Taisyti ataskaitą", requestAnalysis: "✦ Paprašyti naujos analizės", issuerReports: "Emitento ataskaitos ↗",
-      quick: "Trumpa santrauka", keyRatios: "Pagrindiniai rodikliai", trend: "Rodiklio dinamika", plans: "Ankstesni planai ir rezultatai", investor: "Informacija investuotojui ir išvados",
+      quick: "Trumpa santrauka", keyRatios: "Pagrindiniai rodikliai", trend: "Rodiklio dinamika", plans: "Ankstesni planai ir rezultatai", investor: "Informacija investuotojui ir išvados", covenants: "Skolos sąlygos (covenants)",
       business: "Veiklos apžvalga", financials: "Finansai", more: "Rodyti veiklos apžvalgą ir finansus", esg: "ESG report", sources: "Šaltiniai",
       download: "Atsisiųsti", pdf: "PDF", docx: "Word", newsTitle: "Naujienos", allIssuers: "Visi emitentai", all: "Visos", reviewOnly: "Tik peržiūrai", searchHeadlines: "Paieška antraštėse",
       newsSub: "Google News ir regiono žiniasklaida emitento šalies kalba(-omis). „Peržiūrėti“ – antraštėje rasta neigiamų žodžių (tyrimas, bauda, teismas, sankcijos…). Tai pagalba, ne išvada.",
@@ -403,6 +403,7 @@
     h += `<div><div><h2>${t("trend")}</h2><div class="filters"><select id="mpick">${opts.map(m => `<option value="${m}">${esc(M(m))}</option>`).join("")}</select></div><div class="chart" id="mchart"></div></div>
       <div><h2>${t("plans")}</h2><div class="tbl-wrap"><table><tr><th>${t("plan")}</th><th>${t("outcome")}</th><th>${t("why")}</th><th>${t("status")}</th></tr>${(X.plans || []).map(p => `<tr><td>${p.plan}</td><td>${p.outcome}</td><td>${p.why || "–"}</td><td>${chip(p.status)}</td></tr>`).join("")}</table></div></div></div>`;
     h += `<h2>${t("investor")}</h2><ul class="b">${(X.investor || []).map(s => `<li>${s}</li>`).join("")}</ul>`;
+    if ((X.covenants || []).length) h += `<h3>${t("covenants")}</h3><ul class="b">${X.covenants.map(s => `<li>${s}</li>`).join("")}</ul>`;
     if ((X.market || []).length || (D.market || []).length) h += `<h2>${tp("market")}</h2><ul class="b">${(X.market || []).map(s => `<li>${s}</li>`).join("")}</ul>${marketTable()}`;
     h += `<details class="more"><summary>${t("more")}</summary><h3>${t("business")}</h3><ul class="b">${(X.business || []).map(s => `<li>${s}</li>`).join("")}</ul>
       <h3>${t("financials")}</h3><ul class="b">${(X.financials || []).map(s => `<li>${s}</li>`).join("")}</ul></details>`;
