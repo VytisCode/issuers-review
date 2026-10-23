@@ -345,3 +345,4 @@ abbr.gl { text-decoration: underline dotted var(--muted); text-underline-offset:
 .sxwrap { margin: 8px 0; padding: 10px 12px; }
 .sxwrap h3 { margin-top: 0; font-size: 1rem; }
 .ddpw { gap: 8px; flex-wrap: wrap; align-items: center; } .ddpw input[type=password] { max-width: 260px; }
+td.nw{white-space:nowrap}
