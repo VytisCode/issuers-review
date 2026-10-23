@@ -328,12 +328,3 @@ details.howto[open] summary { margin-bottom: 4px; }
 @media (max-width: 760px) { .todo { grid-template-columns: auto 1fr; } .todo .ta { grid-column: 2; } }
 .nextc, .soon { margin: 0 0 12px; } .nextc p { margin: 4px 0 8px; }
 @media (max-width: 760px) { .navdd { left: auto; right: 0; } }
-/* --- naujienos: vienas aiškus sąrašas --- */
-.hl { background: var(--surface); }
-.hlist { list-style: none; padding: 0; margin: 10px 0 8px; }
-.hlist li { display: grid; grid-template-columns: 110px 1fr; gap: 10px; align-items: start; padding: 9px 8px; border-top: 1px solid var(--line); font-size: 14.5px; line-height: 1.4; }
-.hlist li:first-child { border-top: 0; }
-.hlist li.rv { background: var(--bad-bg); border-radius: 8px; border-top-color: transparent; }
-.hlist .chip { justify-self: start; margin-top: 1px; }
-.allnews { margin: 8px 0; } .allnews > summary { cursor: pointer; font-weight: 600; color: var(--accent); padding: 6px 0; }
-@media (max-width: 760px) { .hlist li { grid-template-columns: 1fr; gap: 4px; } }

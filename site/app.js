@@ -19,8 +19,8 @@
       nothingNew: "No new events", open: "Open review", back: "← Issuers", todoNav: "To do", issuersNav: "Issuers", moreNav: "More", edit: "✎ Edit report", requestAnalysis: "✦ Request new analysis", issuerReports: "Issuer reports ↗",
       quick: "Quick summary", keyRatios: "Key ratios", trend: "Metric trend", plans: "Past plans vs outcomes", investor: "Investor information & conclusions",
       business: "Business performance review", financials: "Financials", more: "Show business review and financials", esg: "ESG report", sources: "Sources",
-      download: "Download", pdf: "PDF", docx: "Word", newsTitle: "News", allNews: "All news", allIssuers: "All issuers", all: "All", reviewOnly: "To review only", searchHeadlines: "Search headlines",
-      newsSub: "Headlines about our issuers from Google News and local media. Red = an adverse word in the headline (investigation, fine, court, sanctions…) – worth a look, not a conclusion.",
+      download: "Download", pdf: "PDF", docx: "Word", newsTitle: "News", allIssuers: "All issuers", all: "All", reviewOnly: "To review only", searchHeadlines: "Search headlines",
+      newsSub: "Google News and regional media in each issuer's local language(s). 'Review' = an adverse keyword (investigation, fine, court, sanctions…) was found in the headline – a pointer, not a conclusion.",
       noNews: "No news yet – it appears after the first automatic search.", date: "Date", issuer: "Issuer", headline: "Headline", source: "Source", flag: "Flag", review: "Review",
       metric: "Metric", change: "Change", why: "What changed and why", legendColors: "Green change: the metric is improving; red: worsening. Latest value background: green good level, amber average, red weak (internal benchmarks).", plan: "Plan / target", outcome: "Outcome", status: "Status", legend: "* taken from the report summary; ᶜ own calculation. Hover a number to see its source; small blue numbers in the text open the source document at the cited page.",
       met: "Met", partly: "Partly", not_met: "Not met", pending: "In progress", changed: "Revised", needsReview: "Needs review",
@@ -48,8 +48,8 @@
       nothingNew: "Naujų įvykių nėra", open: "Atidaryti", back: "← Emitentai", todoNav: "Darbai", issuersNav: "Emitentai", moreNav: "Daugiau", edit: "✎ Taisyti ataskaitą", requestAnalysis: "✦ Paprašyti naujos analizės", issuerReports: "Emitento ataskaitos ↗",
       quick: "Trumpa santrauka", keyRatios: "Pagrindiniai rodikliai", trend: "Rodiklio dinamika", plans: "Ankstesni planai ir rezultatai", investor: "Informacija investuotojui ir išvados",
       business: "Veiklos apžvalga", financials: "Finansai", more: "Rodyti veiklos apžvalgą ir finansus", esg: "ESG report", sources: "Šaltiniai",
-      download: "Atsisiųsti", pdf: "PDF", docx: "Word", newsTitle: "Naujienos", allNews: "Visos naujienos", allIssuers: "Visi emitentai", all: "Visos", reviewOnly: "Tik peržiūrai", searchHeadlines: "Paieška antraštėse",
-      newsSub: "Antraštės apie mūsų emitentus iš Google News ir vietos žiniasklaidos. Raudona – antraštėje yra neigiamas žodis (tyrimas, bauda, teismas, sankcijos…): verta pažiūrėti, bet tai ne išvada.",
+      download: "Atsisiųsti", pdf: "PDF", docx: "Word", newsTitle: "Naujienos", allIssuers: "Visi emitentai", all: "Visos", reviewOnly: "Tik peržiūrai", searchHeadlines: "Paieška antraštėse",
+      newsSub: "Google News ir regiono žiniasklaida emitento šalies kalba(-omis). „Peržiūrėti“ – antraštėje rasta neigiamų žodžių (tyrimas, bauda, teismas, sankcijos…). Tai pagalba, ne išvada.",
       noNews: "Naujienų dar nėra – jos atsiras po pirmos automatinės paieškos.", date: "Data", issuer: "Emitentas", headline: "Antraštė", source: "Šaltinis", flag: "Žyma", review: "Peržiūrėti",
       metric: "Rodiklis", change: "Pokytis", why: "Kas pasikeitė ir kodėl", legendColors: "Žalias pokytis – rodiklis gerėja, raudonas – blogėja. Paskutinės reikšmės fonas: žalias – geras lygis, geltonas – vidutinis, raudonas – silpnas (vidiniai orientyrai).", plan: "Planas / tikslas", outcome: "Rezultatas", status: "Būsena", legend: "* paimta iš ataskaitos santraukos; ᶜ mūsų skaičiavimas. Užveskite pelę ant skaičiaus – matysite šaltinį; maži mėlyni skaičiai tekste atidaro šaltinį reikiamame puslapyje.",
       met: "Įvykdyta", partly: "Iš dalies", not_met: "Neįvykdyta", pending: "Dar vykdoma", changed: "Pakeista", needsReview: "Reikia peržiūrėti",
@@ -452,16 +452,15 @@
       return `<tr><td><a href="${esc(m.src)}" target="_blank" rel="noopener">${esc(m.label[LANG] || m.label.en)}</a></td><td class="n"><b>${pc(m.now)}</b> <span class="muted">${esc(m.last)}</span></td><td class="n">${pc(m.m3)}</td><td class="n">${pc(m.m12)}</td>
         <td class="n">${ch === null ? "–" : `${ch > 0.005 ? "▲" : ch < -0.005 ? "▼" : "•"} ${fmt(Math.abs(ch).toFixed(2), "")} p. p.`}</td></tr>`; }).join("")}</table></div><p class="muted small">${tp("mNote")}</p>`;
   }
-  // Viena eilutė – viena naujiena: pirma „Dėmesio“, tada naujausios (be stulpelių pagal temas)
   function highlights(sel) {
-    const all = ((D.news_highlights || {})[LANG] || (D.news_highlights || {}).en || []).filter(d => !sel || d.issuer === sel)
-      .slice().sort((a, b) => (b.topic === "review") - (a.topic === "review") || String(b.date).localeCompare(String(a.date)));
+    const all = ((D.news_highlights || {})[LANG] || (D.news_highlights || {}).en || []).filter(d => !sel || d.issuer === sel);
     if (!all.length) return `<section class="hl"><h2>${tp("hl")}</h2><p class="muted">${tp("none")}</p></section>`;
-    return `<section class="hl"><h2>${tp("hl")}</h2><ul class="hlist">${all.slice(0, 15).map(d => `<li class="${d.topic === "review" ? "rv" : ""}">
-        <span class="chip ${TCLS[d.topic] || "info"}">${esc(tp(d.topic))}</span>
-        <div><div class="hlm"><a href="#issuer/${esc(d.issuer)}">${esc(byId[d.issuer]?.name || d.issuer)}</a> · ${esc(d.date)} · ${esc(d.source)}${d.more ? ` · +${d.more} ${tp("similar")}` : ""}</div>
-        <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a></div></li>`).join("")}</ul>
-      <p class="muted small">${tp("hlSub")}</p></section>`;
+    const groups = Object.keys(TOP.en).filter(k => k !== "kita" && all.some(d => d.topic === k));
+    return `<section class="hl"><h2>${tp("hl")}</h2><p class="muted small">${tp("hlSub")}</p><div class="hlgrid">${groups.map(k => `
+      <div class="hlcol ${k}"><h3><span class="chip ${TCLS[k]}">${esc(tp(k))}</span></h3>${all.filter(d => d.topic === k).slice(0, 6).map(d => `
+        <div class="hli"><div class="hlm"><a href="#issuer/${esc(d.issuer)}">${esc(byId[d.issuer]?.name || d.issuer)}</a> · ${esc(d.date)}</div>
+        <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a>
+        <div class="muted small">${esc(d.source)}${d.more ? ` · +${d.more} ${tp("similar")}` : ""}</div></div>`).join("")}</div>`).join("")}</div></section>`;
   }
   function newsTable(rows) {
     if (!rows.length) return `<p class="muted">${t("noNews")}</p>`;
@@ -471,8 +470,8 @@
   }
   function news(sel) {
     const h = `<h1>${t("newsTitle")}</h1><p class="sub">${t("newsSub")}</p>${highlights(sel)}
-      <details class="allnews"${sel ? " open" : ""}><summary>${t("allNews")} (${D.news.length})</summary><div class="filters"><select id="fi"><option value="">${t("allIssuers")}</option>${D.issuers.map(i => `<option value="${i.id}" ${i.id === sel ? "selected" : ""}>${esc(i.name)}</option>`).join("")}</select>
-      <select id="ff"><option value="">${t("all")}</option><option value="review">${t("reviewOnly")}</option></select><input type="search" id="fq" placeholder="${t("searchHeadlines")}"></div><div id="nl"></div></details>`;
+      <div class="filters"><select id="fi"><option value="">${t("allIssuers")}</option>${D.issuers.map(i => `<option value="${i.id}" ${i.id === sel ? "selected" : ""}>${esc(i.name)}</option>`).join("")}</select>
+      <select id="ff"><option value="">${t("all")}</option><option value="review">${t("reviewOnly")}</option></select><input type="search" id="fq" placeholder="${t("searchHeadlines")}"></div><div id="nl"></div>`;
     setTimeout(() => {
       const fi = document.getElementById("fi"), ff = document.getElementById("ff"), fq = document.getElementById("fq"), nl = document.getElementById("nl");
       const f = () => { const q = fq.value.toLowerCase();
