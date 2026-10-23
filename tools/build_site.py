@@ -128,17 +128,19 @@ def readiness(news, filings):
 
 EMAIL = {
     "en": {"subject": "Issuer review completed – {period}", "hi": "Hi all,",
-           "intro": "The issuer review based on the latest published reports ({periods}) is complete: {n} issuers, {h} securities held. Full reviews (PDF / Word) and source files are in {sp}.",
+           "intro": "The issuer review based on the latest published reports ({periods}) is complete: {n} issuers, {h} securities held.",
+           "files": "Full reviews (PDF / Word) and source files: [link]",
            "glance": "At a glance: {a} need attention · {w} on watch · {o} stable",
            "action": "Needs attention", "watch": "Watch list", "ok": "Stable – no action", "mat": "Upcoming maturities and calls (next 12 months)",
            "matures": "matures", "call": "call date", "none_mat": "No maturities or calls in the next 12 months.", "src": "source",
-           "bye": "Questions and comments are welcome.", "sp": "SharePoint"},
+           "bye": "Questions and comments are welcome."},
     "lt": {"subject": "Emitentų apžvalga atlikta – {period}", "hi": "Sveiki,",
-           "intro": "Atlikta emitentų apžvalga pagal naujausias paskelbtas ataskaitas ({periods}): {n} emitentai, {h} turimi vertybiniai popieriai. Išsamios apžvalgos (PDF / Word) ir šaltinių failai – {sp}.",
+           "intro": "Atlikta emitentų apžvalga pagal naujausias paskelbtas ataskaitas ({periods}): {n} emitentai, {h} turimi vertybiniai popieriai.",
+           "files": "Išsamios apžvalgos (PDF / Word) ir šaltinių failai: [nuoroda]",
            "glance": "Trumpai: {a} reikia dėmesio · {w} stebime · {o} stabilūs",
            "action": "Reikia dėmesio", "watch": "Stebime", "ok": "Stabilūs – veiksmų nereikia", "mat": "Artėjantys išpirkimai ir call datos (12 mėn.)",
            "matures": "išpirkimas", "call": "call data", "none_mat": "Per artimiausius 12 mėn. išpirkimų ir call datų nėra.", "src": "šaltinis",
-           "bye": "Klausimai ir pastabos – laukiami.", "sp": "SharePoint"},
+           "bye": "Klausimai ir pastabos – laukiami."},
 }
 
 
@@ -150,7 +152,7 @@ def _sentences(text, n):
 
 def email(lang, readiness_info):
     """Laiškas kolegoms (be AI): sudaromas iš kiekvieno emitento verdikto ir santraukos. Daugiau vietos – reikia dėmesio / stebimiems,
-    stabiliems – viena eilutė. Pabaigoje - išpirkimai ir call datos per 12 mėn. SharePoint nuoroda įrašoma svetainėje (saugoma tik naršyklėje)."""
+    stabiliems – viena eilutė. Pabaigoje - išpirkimai ir call datos per 12 mėn. Vieta nuorodai į failus – laiško pabaigoje (įrašo savininkas)."""
     import re
     from datetime import date, timedelta
     E, out = EMAIL[lang], {"action": [], "watch": [], "ok": []}

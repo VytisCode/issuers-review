@@ -150,6 +150,10 @@ def esg_items(rep):
             items["sanctions"] = {"status": "yes", "evidence": {
                 "en": f"Not found on the {names} consolidated sanctions lists (automatic check {s['date']}).{nb['en']}",
                 "lt": f"Nerasta {names} konsoliduotuose sankcijų sąrašuose (automatinė patikra {s['date']}).{nb['lt']}"}}
+    if "sanctions" in items:
+        ev = items["sanctions"].get("evidence", "")
+        ev = ev if isinstance(ev, dict) else {"en": ev, "lt": ev}
+        items["sanctions"]["evidence"] = {k: (ev.get(k) or ev.get("en", "")).rstrip() + SANCTION_NOTE.get(k, SANCTION_NOTE["en"]) for k in set(ev) | {"en", "lt"}}
     # žiniasklaidos punktas papildomas automatine naujienų suvestine (ta pati, kaip skiltyje „Ką rašo spauda“)
     dig, start, end = news_digest(rep.get("issuer"), days=90)
     if "media" in items:
@@ -258,6 +262,16 @@ def history(issuer):
     return out
 
 
+# rankinės sankcijų patikros nuorodos (savininko prašymas 2026-10-23) - pridedamos prie kiekvienos ataskaitos;
+# SEB vidinė eNameChecker nuoroda viešoje ataskaitoje neskelbiama (tik svetainėje, naršyklės atmintyje, ir DD faile)
+SANCTION_SRC = {
+    "SX1": {"title": "OFAC Sanctions List Search (US Treasury)", "url": "https://sanctionssearch.ofac.treas.gov/"},
+    "SX2": {"title": "EU Sanctions Map", "url": "https://www.sanctionsmap.eu/#/main"},
+}
+SANCTION_NOTE = {"en": " **Manual check:** OFAC sanctions search [SX1]; EU Sanctions Map [SX2]; SEB eNameChecker (internal SEB system).",
+                 "lt": " **Rankinė patikra:** OFAC sankcijų paieška [SX1]; ES sankcijų žemėlapis [SX2]; SEB eNameChecker (vidinė SEB sistema)."}
+
+
 def reports(issuer):
     """Visos emitento ataskaitos (naujausia paskutinė pagal analizės datą)."""
     items = []
@@ -266,6 +280,7 @@ def reports(issuer):
             continue
         d = load_yaml(p)
         d["_file"] = p
+        d["sources"] = {**(d.get("sources") or {}), **SANCTION_SRC}
         items.append(d)
     items.sort(key=lambda d: str(d.get("analysis_date", "")))
     return items
