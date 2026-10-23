@@ -80,12 +80,27 @@ metrics:
   - {p: S, name: {lt: "Paaukota maisto", en: "Food donated"}, unit: "t", better: up, FY2023: {v: 3727, src: "E2 p.147"}, FY2024: {v: 4207, src: "E1 p.81"}, FY2025: {v: 3097, src: "E1 p.81", note: {lt: "visa grupė; Lenkija ir Bulgarija parduotos metų pabaigoje", en: "whole group; Poland and Bulgaria sold at year-end"}}}
 engagement:
   level: engage
+  severity: minor
+  verdict:
+    lt: "Iš esmės stiprus emitentas: SBTi patvirtinti klimato tikslai, išmetimai mažėja greičiau nei planuota, PwC užtikrinimas [E1 p.72; E1 p.54]. Spragos smulkios ir konkrečios – du paties emitento rodikliai juda ne ta kryptimi. Paklausti verta, nes 2026 m. planuojama nauja obligacijų emisija [E1 p.3]."
+    en: "A strong issuer overall: SBTi-validated climate targets, emissions falling faster than planned, PwC assurance [E1 p.72; E1 p.54]. The gaps are small and specific: two of the issuer's own indicators are moving the wrong way. Worth asking because a new bond is planned for 2026 [E1 p.3]."
+  issues:
+    - what: {lt: "Maisto atliekos Baltijos šalyse auga: 12 412 t (2023 m.) → 14 227 t (2025 m.), +15 %, kai tikslas −30 % iki 2030 m.", en: "Food waste in the Baltics is rising: 12,412 t (2023) → 14,227 t (2025), +15%, while the target is −30% by 2030."}
+      why: {lt: "Tai paties emitento tikslas, ir jis du metus iš eilės tolsta [E1 p.81; E2 p.146].", en: "It is the issuer's own target, and it has moved further away two years in a row [E1 p.81; E2 p.146]."}
+      fix: {lt: "Emitentas paaiškina priežastis ir pateikia veiksmų planą ar tarpinius tikslus.", en: "The issuer explains the causes and gives an action plan or interim milestones."}
+    - what: {lt: "Darbo saugos rodiklis TRIR išaugo 7,01 → 7,88 (+13 %).", en: "The workplace safety rate TRIR rose 7.01 → 7.88 (+13%)."}
+      why: {lt: "Didelė darbdavė (registruota 484 nelaimingi atsitikimai); sunkių traumų gi sumažėjo 16 → 4 [E1 p.88].", en: "A large employer (484 recordable accidents); high-consequence injuries did fall 16 → 4 [E1 p.88]."}
+      fix: {lt: "Emitentas nurodo priežastis ir 2026 m. saugos tikslus.", en: "The issuer names the causes and its 2026 safety targets."}
   policies: [investments, agriculture, climate_nature, human_rights]
   reason:
-    lt: "Klimato tikslai (SBTi) ir miškų naikinimo politika atitinka SEB lūkesčius [E1 p.72; E1 p.79]. Tačiau du metus iš eilės blogėja paties emitento tikslas mažinti maisto atliekas (+15 % vs −30 %), o TRIR 2025 m. išaugo 13 % – SEB žmogaus teisių politika tikisi saugos valdymo [E1 p.81; E1 p.88]. Prieš planuojamą 2026 m. obligacijų emisiją [E1 p.3] verta paklausti apie veiksmų planą."
-    en: "Climate targets (SBTi) and the deforestation policy meet SEB expectations [E1 p.72; E1 p.79]. However, the issuer's own food-waste target has moved the wrong way two years in a row (+15% vs −30%), and TRIR rose 13% in 2025; the SEB human rights policy expects health and safety management [E1 p.81; E1 p.88]. With a new bond planned for 2026 [E1 p.3], it is worth asking about the action plan."
-  subject: "Maxima Grupė: bondholder questions on food waste and workplace safety"
+    lt: "Stiprus emitentas, bet blogėja maisto atliekų tikslas ir TRIR [E1 p.81; E1 p.88]."
+    en: "Strong issuer, but the food-waste target and TRIR are moving the wrong way [E1 p.81; E1 p.88]."
+  subject: "Maxima Grupė: a few questions from a bondholder"
+  noticed: "We read your 2025 consolidated management report and were pleased to see the progress against your SBTi climate target. We noticed two indicators that moved in the opposite direction and would like to understand them better."
   questions:
-    - "Food waste in your Baltic retail operations has risen by 15% against the 2023 base, while the target is −30% by 2030. What are the main drivers, and which measures and interim milestones will bring the trend back on track?"
-    - "TRIR rose from 7.01 to 7.88 in 2025. What are the main causes of the increase, and what actions and targets are planned for 2026?"
-    - "Supplier coverage by science-based targets is 19% of Category 1 emissions against your 78.3% target for 2027. How do you plan to close this gap?"
+    - q: "Food waste in your Baltic operations was 14,227 t in 2025, up from 12,412 t in 2023, while the target is a 30% reduction by 2030. Could you tell us what is driving the increase and which measures are planned to bring it back on track?"
+      hint: {lt: "Jei bus aiškus planas ir priežastis (pvz., augimas, nauja apskaita) – tikslą žymime „Atsilieka“, bet engagement baigtas. Jei plano nėra – lieka „Stebėti“ kitais metais.", en: "If there is a clear cause and plan (e.g. growth, new accounting), we mark the target Behind and close the engagement. Without a plan, keep it at Monitor next year."}
+    - q: "TRIR rose from 7.01 to 7.88 in 2025. Could you share the main reasons and any safety targets for 2026?"
+      hint: {lt: "Jei atsakys su priemonėmis ir tikslu – užtenka. Kitais metais tikrinsime, ar TRIR mažėja.", en: "A reply with measures and a target is enough. Next year we check whether TRIR falls."}
+    - q: "Your report mentions that the supplier engagement target (78.3% of suppliers by emissions with science-based targets by 2027) will be reviewed in 2026 after the sale of the Polish and Bulgarian operations. Do you already know whether the target will change?"
+      hint: {lt: "Pasikeitus tikslui atnaujinsime tikslų lentelę (būsena „Pakeistas“), kad kitais metais vertintume pagal naują [E1 p.72].", en: "If the target changes we update the target table (status Revised) and assess against the new one next year [E1 p.72]."}

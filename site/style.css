@@ -266,3 +266,7 @@ details.facts { margin-top: 6px; }
 details.facts summary { cursor: pointer; color: var(--accent, #2563eb); font-size: 13px; }
 details.facts h4 { margin: 8px 0 2px; font-size: 13px; }
 details.facts ul { margin: 0 0 4px; padding-left: 18px; }
+ul.gaps { margin: 6px 0 12px 18px; }
+ul.gaps li { margin-bottom: 8px; }
+.hint { margin-top: 3px; padding: 4px 8px; border-radius: 6px; background: var(--warn-bg); }
+pre.mailpre { white-space: pre-wrap; font: inherit; font-size: 13px; background: var(--bg); border: 1px solid var(--line, #ddd); border-radius: 6px; padding: 10px; }

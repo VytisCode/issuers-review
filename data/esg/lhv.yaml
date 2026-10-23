@@ -1,0 +1,85 @@
+# ESG Engagement: LHV Group. E1 - tvarumo ataskaita (metinio pranešimo ištrauka). Puslapiai - PDF puslapiai.
+issuer: lhv
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "LHV Group Annual Sustainability Report 2025", url: "https://www.lhv.ee/assets/files/LHV_Group_Annual_Sustainability_Report_2025-EN.pdf", date: 2026-03}
+  E2: {title: "LHV Group Annual Report 2024", url: "https://www.lhv.ee/assets/files/investor/LHV_Group_Annual_Report_2024-EN.pdf", date: 2025-03}
+trend: improving
+summary:
+  lt: "ESRS tvarumo ataskaita su PwC riboto užtikrinimo išvada abejus metus [E1 p.59; E2 p.252]. Tikslai iki 2030 m.: 90 % AEI projektų energetikos sektoriaus paskolose, ≥50 % pasirašomų būsto paskolų A ir B energijos klasės būstui, 100 % AEI elektra biure, Scope 1 – nulis [E1 p.20]. A/B būsto paskolų dalis pakilo 24,3 → 29,3 %; AEI dalis Estijos biurų energijoje 31 → 71 %; Scope 2 (rinkos metodas) 698 → 189 t [E1 p.25; E1 p.24; E1 p.21]. Finansuojami išmetimai auga su portfeliu (544 033 → 573 454 t) [E1 p.22]."
+  en: "ESRS sustainability statement with PwC limited assurance in both years [E1 p.59; E2 p.252]. Targets for 2030: 90% renewable projects in energy-sector lending, ≥50% of new mortgages for A and B energy class homes, 100% renewable electricity in offices, zero Scope 1 [E1 p.20]. The A/B mortgage share rose 24.3 → 29.3%; renewable share of energy in Estonian offices 31 → 71%; market-based Scope 2 698 → 189 t [E1 p.25; E1 p.24; E1 p.21]. Financed emissions grow with the loan book (544,033 → 573,454 t) [E1 p.22]."
+years:
+  FY2025:
+    trend: improving
+    framework:
+      lt: "Konsoliduota tvarumo ataskaita pagal ESRS; PwC riboto užtikrinimo išvada be išlygų [E1 p.2; E1 p.59]."
+      en: "Consolidated sustainability statement under ESRS; unqualified PwC limited assurance conclusion [E1 p.2; E1 p.59]."
+    assurance: limited
+    summary:
+      lt: "Scope 2 (rinkos metodas) sumažėjo 698 → 189 t dėl tiekėjų duomenų ir sertifikuotos AEI elektros [E1 p.20; E1 p.21]. A/B būsto paskolų dalis 29,3 % (tikslas 50 % iki 2030 m.) [E1 p.25]. Naujų AEI projektų paskolų 25,4 mln. EUR (16,7 mln. 2024 m.) [E1 p.25]."
+      en: "Market-based Scope 2 fell 698 → 189 t thanks to supplier data and certified renewable electricity [E1 p.20; E1 p.21]. A/B mortgage share 29.3% (target 50% by 2030) [E1 p.25]. New renewable project lending EUR 25.4m (EUR 16.7m in 2024) [E1 p.25]."
+    evidence:
+      - {p: E, lt: "Penki iš šešių biurų turi AEI sertifikatus; Londono RIGO sertifikatas ES taisyklėmis nepripažįstamas, todėl neįskaičiuotas [E1 p.20].", en: "Five of six offices hold renewable energy certificates; the London RIGO certificate is not recognised under EU rules and was not counted [E1 p.20]."}
+      - {p: E, lt: "Finansuojami išmetimai 573 454 t (544 033 t 2024 m., perskaičiuota); augimas susijęs su portfelio augimu [E1 p.22].", en: "Financed emissions 573,454 t (544,033 t in 2024, restated); the increase follows loan book growth [E1 p.22]."}
+      - {p: E, lt: "Energetikos sektoriaus (D) paskolų išmetimai 212 194 → 134 840 t [E1 p.23].", en: "Emissions of energy-sector (D) loans 212,194 → 134,840 t [E1 p.23]."}
+      - {p: S, lt: "Koreguotas lyčių darbo užmokesčio skirtumas Estijoje 5,02 % (4,49 % 2024 m.); tikslas – lygybė 95:105 iki 2029 m. [E1 p.29; E1 p.26].", en: "Adjusted gender pay gap in Estonia 5.02% (4.49% in 2024); target pay equality of 95:105 by 2029 [E1 p.29; E1 p.26]."}
+      - {p: S, lt: "Mirtinų nelaimingų atsitikimų darbe 0 [E1 p.32].", en: "Zero work-related fatalities [E1 p.32]."}
+      - {p: G, lt: "Tikslas iki 2026-06-30: 40 % stebėtojų tarybos narių – mažiau atstovaujamos lyties [E1 p.26].", en: "Target by 30 June 2026: 40% of the supervisory board from the under-represented gender [E1 p.26]."}
+    concerns:
+      - {lt: "Išmetimų bazinių metų nėra, todėl palyginimas su ankstesniais metais ribotas [E1 p.21].", en: "No GHG base year, which limits comparison with earlier years [E1 p.21]."}
+      - {lt: "Politikos nėra specialiai suderintos su JT verslo ir žmogaus teisių principais [E1 p.25].", en: "Policies are not specifically aligned with the UN Guiding Principles on Business and Human Rights [E1 p.25]."}
+  FY2024:
+    trend: mixed
+    framework:
+      lt: "Pirmoji konsoliduota tvarumo ataskaita pagal ESRS; PwC riboto užtikrinimo išvada [E2 p.33; E2 p.252]."
+      en: "First consolidated sustainability statement under ESRS; PwC limited assurance [E2 p.33; E2 p.252]."
+    assurance: limited
+    summary:
+      lt: "Nustatyti 2030 m. klimato tikslai [E2 p.59]. A/B būsto paskolų dalis sumažėjo 26,1 → 24,3 %, naujų AEI projektų paskolų 90,2 → 16,7 mln. EUR [E2 p.65]."
+      en: "2030 climate targets set [E2 p.59]. A/B mortgage share fell 26.1 → 24.3%, new renewable project lending EUR 90.2m → 16.7m [E2 p.65]."
+    evidence:
+      - {p: E, lt: "Scope 2 (rinkos metodas) 698,31 t [E2 p.61].", en: "Market-based Scope 2 698.31 t [E2 p.61]."}
+      - {p: E, lt: "AEI dalis Estijos biurų energijoje 31 % [E2 p.64].", en: "Renewable share of energy in Estonian offices 31% [E2 p.64]."}
+      - {p: S, lt: "Tikslas – darbo užmokesčio lygybė 95:105 iki 2029 m. [E2 p.68].", en: "Target pay equality of 95:105 by 2029 [E2 p.68]."}
+    concerns:
+      - {lt: "A/B būsto paskolų dalis ir naujų AEI paskolų apimtis sumažėjo [E2 p.65].", en: "A/B mortgage share and new renewable lending fell [E2 p.65]."}
+targets:
+  - p: E
+    name: {lt: "≥50 % pasirašomų būsto paskolų A ir B klasės būstui iki 2030 m.", en: "≥50% of new mortgages for A and B energy class homes by 2030"}
+    FY2024: {lt: "24,3 % [E2 p.65]", en: "24.3% [E2 p.65]"}
+    FY2025: {lt: "29,3 % [E1 p.25]", en: "29.3% [E1 p.25]"}
+    status: behind
+  - p: E
+    name: {lt: "90 % AEI projektų energetikos sektoriaus paskolose iki 2030 m.", en: "90% renewable projects in energy-sector lending by 2030"}
+    FY2024: {lt: "dabartinė dalis nerasta [E2 p.59]", en: "current share not found [E2 p.59]"}
+    FY2025: {lt: "dabartinė dalis nerasta; naujų AEI paskolų 25,4 mln. EUR [E1 p.25]", en: "current share not found; new renewable lending EUR 25.4m [E1 p.25]"}
+    status: no_data
+  - p: E
+    name: {lt: "100 % AEI elektra biuruose iki 2030 m.", en: "100% renewable electricity in offices by 2030"}
+    FY2024: {lt: "AEI dalis Estijoje 31 % [E2 p.64]", en: "Renewable share in Estonia 31% [E2 p.64]"}
+    FY2025: {lt: "AEI dalis Estijoje 71 %; 5 iš 6 biurų su sertifikatais [E1 p.24; E1 p.20]", en: "Renewable share in Estonia 71%; 5 of 6 offices certified [E1 p.24; E1 p.20]"}
+    status: on_track
+  - p: E
+    name: {lt: "Scope 1 išmetimai – nulis", en: "Zero Scope 1 emissions"}
+    FY2024: {lt: "0 t [E1 p.21]", en: "0 t [E1 p.21]"}
+    FY2025: {lt: "0 t [E1 p.21]", en: "0 t [E1 p.21]"}
+    status: met
+  - p: S
+    name: {lt: "Darbo užmokesčio lygybė 95:105 iki 2029 m.", en: "Pay equality of 95:105 by 2029"}
+    FY2024: {lt: "koreguotas skirtumas 4,49 % [E1 p.29]", en: "adjusted gap 4.49% [E1 p.29]"}
+    FY2025: {lt: "koreguotas skirtumas 5,02 % [E1 p.29]", en: "adjusted gap 5.02% [E1 p.29]"}
+    status: on_track
+metrics:
+  - {p: E, name: {lt: "Scope 2 išmetimai (rinkos metodas)", en: "Scope 2 emissions (market-based)"}, unit: "t CO2e", better: down, FY2024: {v: 698.31, src: "E1 p.21"}, FY2025: {v: 189, src: "E1 p.21"}}
+  - {p: E, name: {lt: "Finansuojami išmetimai (Scope 3 kat. 15)", en: "Financed emissions (Scope 3 cat. 15)"}, unit: "t CO2e", better: down, FY2024: {v: 544033, src: "E1 p.21", note: {lt: "perskaičiuota", en: "restated"}}, FY2025: {v: 573454, src: "E1 p.21", note: {lt: "auga kartu su portfeliu", en: "grows with the loan book"}}}
+  - {p: E, name: {lt: "A/B klasės būsto paskolų dalis", en: "A/B energy class share of new mortgages"}, unit: "%", better: up, FY2023: {v: 26.1, src: "E2 p.65"}, FY2024: {v: 24.3, src: "E2 p.65"}, FY2025: {v: 29.3, src: "E1 p.25"}}
+  - {p: E, name: {lt: "Naujos AEI projektų paskolos", en: "New renewable project lending"}, unit: "mln. EUR", better: up, FY2023: {v: 90.2, src: "E2 p.65"}, FY2024: {v: 16.7, src: "E2 p.65"}, FY2025: {v: 25.4, src: "E1 p.25"}}
+  - {p: E, name: {lt: "AEI dalis energijoje (Estija)", en: "Renewable share of energy (Estonia)"}, unit: "%", better: up, FY2024: {v: 31, src: "E2 p.64"}, FY2025: {v: 71, src: "E1 p.24"}}
+  - {p: S, name: {lt: "Koreguotas lyčių darbo užmokesčio skirtumas (Estija)", en: "Adjusted gender pay gap (Estonia)"}, unit: "%", better: down, FY2024: {v: 4.49, src: "E1 p.29"}, FY2025: {v: 5.02, src: "E1 p.29"}}
+engagement:
+  level: none
+  policies: [investments, financial_general, climate_nature]
+  reason:
+    lt: "SEB finansų sektoriaus lūkesčiai atitinkami: klimato tikslai su terminais, PCAF finansuojami išmetimai, PwC užtikrinimas [E1 p.20; E1 p.22; E1 p.59]. Pagrindiniai rodikliai 2025 m. gerėjo, todėl kreiptis nereikia."
+    en: "SEB's financial-sector expectations are met: dated climate targets, PCAF financed emissions and PwC assurance [E1 p.20; E1 p.22; E1 p.59]. Key indicators improved in 2025, so no engagement is needed."
+  questions: []

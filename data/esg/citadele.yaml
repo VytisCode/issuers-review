@@ -1,0 +1,92 @@
+# ESG Engagement: Citadele banka. Puslapiai - PDF puslapiai.
+issuer: citadele
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "AS Citadele banka Annual Report 2025", url: "https://www.cblgroup.com/media/W1siZiIsIjIwMjYvMDMvMTkvOG9icXc4MzVubV9DaXRhZGVsZV9Bbm51YWxfcmVwb3J0XzIwMjUucGRmIl1d?sha=e68c93f08d3acc0c", date: 2026-03}
+  E2: {title: "AS Citadele banka Annual Report 2024", url: "https://www.cblgroup.com/files/pdf/Citadele_Annual_report_2024.pdf", date: 2025-03}
+trend: mixed
+summary:
+  lt: "Tikslas – nulinė finansuojamų išmetimų emisija iki 2050 m.; 2025 m. priimtas Pereinamojo laikotarpio planas (1 versija) su 2030 m. stebėsenos tikslais pagal sektorius (bazė 2024 m.) [E1 p.37; E1 p.38]. Metiniai tikslai įvykdyti: naujas žaliasis finansavimas 176 mln. EUR (tikslas 100 mln.), eNPS 50 % (tikslas >40 %), NPS Latvijoje ir Lietuvoje virš 35 % [E1 p.44; E1 p.93; E1 p.104]. Finansuojami išmetimai +12 % (1,45 → 1,63 mln. t), daugiausia dėl valdomo turto (+48 %); paskolų portfelio išmetimai beveik nepakito (−0,2 %) [E1 p.44]."
+  en: "Target of net-zero financed emissions by 2050; a Transition Plan (Version 1) with sector monitoring targets for 2030 (2024 base) was adopted in 2025 [E1 p.37; E1 p.38]. Annual targets met: new green financing EUR 176m (target EUR 100m), eNPS 50% (target >40%), NPS in Latvia and Lithuania above 35% [E1 p.44; E1 p.93; E1 p.104]. Financed emissions +12% (1.45m → 1.63m t), mostly from assets under management (+48%); lending portfolio emissions broadly flat (−0.2%) [E1 p.44]."
+years:
+  FY2025:
+    trend: mixed
+    framework:
+      lt: "Tvarumo ataskaita pagal ESRS; riboto užtikrinimo paslauga [E1 p.17]. Užtikrinimo išvados šiame PDF nerasta."
+      en: "ESRS sustainability statement; limited assurance engagement [E1 p.17]. The assurance report itself was not found in this PDF."
+    assurance: limited
+    summary:
+      lt: "Žaliasis finansavimas 176 mln. EUR (102 mln. 2024 m.); Scope 1 −5 %, Scope 2 (rinkos metodas) −13 % [E1 p.44]. Finansuojami išmetimai +12 % [E1 p.44]. 2024 m. pažadas parengti išmetimų mažinimo planą iki 2025 m. pabaigos įvykdytas – Pereinamojo laikotarpio planas (1 versija) [E2 p.51; E1 p.37]."
+      en: "Green financing EUR 176m (EUR 102m in 2024); Scope 1 −5%, market-based Scope 2 −13% [E1 p.44]. Financed emissions +12% [E1 p.44]. The 2024 promise to prepare an emission reduction roadmap by end-2025 was delivered as Transition Plan (Version 1) [E2 p.51; E1 p.37]."
+    evidence:
+      - {p: E, lt: "2030 m. stebėsenos tikslai nekilnojamojo turto, energetikos, transporto ir žemės ūkio paskoloms pagal nacionalinius, ES ir SBTi orientyrus [E1 p.37; E1 p.38].", en: "2030 monitoring targets for real estate, energy, transport and agriculture lending, benchmarked to national, EU and SBTi pathways [E1 p.37; E1 p.38]."}
+      - {p: E, lt: "Paskolų portfelio išmetimai −0,2 %, valdomo turto +48 %, vertybinių popierių +24 % [E1 p.44].", en: "Lending portfolio emissions −0.2%, assets under management +48%, securities +24% [E1 p.44]."}
+      - {p: E, lt: "Trys fondai / pensijų planai pagal SFDR 8 straipsnį (tikslas 3) [E1 p.44].", en: "Three funds / pension plans under SFDR Article 8 (target 3) [E1 p.44]."}
+      - {p: S, lt: "NPS: Latvija 39 %, Lietuva 38 % (tikslas >35 %); programėlės NPS 57 % / 48 % (tikslas >50 %) [E1 p.104].", en: "NPS: Latvia 39%, Lithuania 38% (target >35%); mobile app NPS 57% / 48% (target >50%) [E1 p.104]."}
+      - {p: S, lt: "Vienas registruotas nelaimingas atsitikimas darbe, mirtinų nėra [E1 p.96].", en: "One recordable work accident, no fatalities [E1 p.96]."}
+      - {p: G, lt: "Patvirtintų korupcijos ar kyšininkavimo atvejų 0 (0 – 2024 m.) [E1 p.110].", en: "Zero confirmed corruption or bribery incidents (0 in 2024) [E1 p.110]."}
+    concerns:
+      - {lt: "Finansuojami išmetimai +12 % dėl valdomo turto augimo [E1 p.44].", en: "Financed emissions +12% from growth in assets under management [E1 p.44]."}
+      - {lt: "Programėlės NPS Lietuvoje 48 % – žemiau >50 % tikslo [E1 p.104].", en: "Mobile app NPS in Lithuania 48%, below the >50% target [E1 p.104]."}
+  FY2024:
+    trend: stable
+    framework:
+      lt: "Pirmoji tvarumo ataskaita pagal ESRS su ribotu užtikrinimu [E2 p.18]."
+      en: "First ESRS sustainability statement with limited assurance [E2 p.18]."
+    assurance: limited
+    summary:
+      lt: "Naujas žaliasis finansavimas 102 mln. EUR (tikslas 100 mln.; 115 mln. 2023 m.) [E2 p.51]. Pereinamojo laikotarpio plano dar nebuvo, įsipareigota jį parengti iki 2025 m. pabaigos [E2 p.51]."
+      en: "New green financing EUR 102m (target EUR 100m; EUR 115m in 2023) [E2 p.51]. No transition plan yet; commitment to finalise one by end-2025 [E2 p.51]."
+    evidence:
+      - {p: E, lt: "Scope 1 79,2 t, Scope 2 (rinkos metodas) 539,4 t [E2 p.52].", en: "Scope 1 79.2 t, market-based Scope 2 539.4 t [E2 p.52]."}
+      - {p: S, lt: "eNPS 53 % (tikslas >35 %; 47 % 2023 m.) [E2 p.73].", en: "eNPS 53% (target >35%; 47% in 2023) [E2 p.73]."}
+      - {p: G, lt: "Patvirtintų korupcijos atvejų 0 [E2 p.87].", en: "Zero confirmed corruption incidents [E2 p.87]."}
+    concerns:
+      - {lt: "Pereinamojo laikotarpio plano dar nebuvo [E2 p.51].", en: "No transition plan yet [E2 p.51]."}
+targets:
+  - p: E
+    name: {lt: "Nulinė finansuojamų išmetimų emisija iki 2050 m.", en: "Net-zero financed emissions by 2050"}
+    FY2024: {lt: "Įsipareigojimas; plano dar nėra [E2 p.51]", en: "Commitment; no plan yet [E2 p.51]"}
+    FY2025: {lt: "Pereinamojo laikotarpio planas (1 versija), 2030 m. stebėsenos tikslai; finansuojami išmetimai +12 % [E1 p.37; E1 p.44]", en: "Transition Plan (Version 1), 2030 monitoring targets; financed emissions +12% [E1 p.37; E1 p.44]"}
+    status: behind
+  - p: E
+    name: {lt: "Naujas žaliasis finansavimas per metus (100 mln. EUR 2025 m.; 75 mln. 2026 m.)", en: "New green financing per year (EUR 100m in 2025; EUR 75m in 2026)"}
+    FY2024: {lt: "102 mln. EUR (tikslas 100 mln.) [E2 p.51]", en: "EUR 102m (target EUR 100m) [E2 p.51]"}
+    FY2025: {lt: "176 mln. EUR (tikslas 100 mln.) [E1 p.44]", en: "EUR 176m (target EUR 100m) [E1 p.44]"}
+    status: met
+  - p: E
+    name: {lt: "Fondai / pensijų planai pagal SFDR 8 str.", en: "Funds / pension plans under SFDR Article 8"}
+    FY2024: {lt: "2 [E1 p.44]", en: "2 [E1 p.44]"}
+    FY2025: {lt: "3 (tikslas 3) [E1 p.44]", en: "3 (target 3) [E1 p.44]"}
+    status: met
+  - p: S
+    name: {lt: "eNPS >40 %", en: "eNPS >40%"}
+    FY2024: {lt: "53 % (tikslas >35 %) [E2 p.73]", en: "53% (target >35%) [E2 p.73]"}
+    FY2025: {lt: "50 % [E1 p.93]", en: "50% [E1 p.93]"}
+    status: met
+  - p: S
+    name: {lt: "Klientų NPS >35 % (2026 m. >45 %)", en: "Retail NPS >35% (>45% in 2026)"}
+    FY2024: {lt: "Latvija 43 %, Lietuva 39 % [E1 p.104]", en: "Latvia 43%, Lithuania 39% [E1 p.104]"}
+    FY2025: {lt: "Latvija 39 %, Lietuva 38 % [E1 p.104]", en: "Latvia 39%, Lithuania 38% [E1 p.104]"}
+    status: met
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2e", better: down, FY2024: {v: 79.2, src: "E1 p.44"}, FY2025: {v: 75.1, src: "E1 p.44"}}
+  - {p: E, name: {lt: "Scope 2 išmetimai (rinkos metodas)", en: "Scope 2 emissions (market-based)"}, unit: "t CO2e", better: down, FY2024: {v: 521.7, src: "E1 p.44", note: {lt: "perskaičiuota; anksčiau skelbta 539,4 [E2 p.52]", en: "restated; previously 539.4 [E2 p.52]"}}, FY2025: {v: 452.1, src: "E1 p.44"}}
+  - {p: E, name: {lt: "Finansuojami išmetimai (Scope 3 kat. 15)", en: "Financed emissions (Scope 3 cat. 15)"}, unit: "t CO2e", better: down, FY2024: {v: 1449653.4, src: "E1 p.44", note: {lt: "perskaičiuota be valstybės skolos; anksčiau 1 632 857,5 [E2 p.52]", en: "restated excluding sovereign debt; previously 1,632,857.5 [E2 p.52]"}}, FY2025: {v: 1626501.5, src: "E1 p.44"}}
+  - {p: E, name: {lt: "Naujas žaliasis finansavimas", en: "New green financing"}, unit: "mln. EUR", better: up, FY2023: {v: 115, src: "E2 p.51"}, FY2024: {v: 102, src: "E2 p.51"}, FY2025: {v: 176, src: "E1 p.44"}}
+  - {p: S, name: {lt: "eNPS", en: "eNPS"}, unit: "%", better: up, FY2023: {v: 47, src: "E2 p.73"}, FY2024: {v: 53, src: "E2 p.73"}, FY2025: {v: 50, src: "E1 p.93"}}
+engagement:
+  level: watch
+  severity: minor
+  verdict:
+    lt: "Geras emitentas: metiniai tikslai įvykdyti, priimtas pereinamojo laikotarpio planas, paskolų išmetimai stabilūs [E1 p.44; E1 p.37]. Kreiptis nereikia."
+    en: "A good issuer: annual targets met, a transition plan adopted, lending emissions stable [E1 p.44; E1 p.37]. No need to write."
+  issues:
+    - what: {lt: "Bendri finansuojami išmetimai +12 % dėl valdomo turto augimo.", en: "Total financed emissions +12% from growth in assets under management."}
+      why: {lt: "Kiekybinių mažinimo tikslų dar nėra – tik stebėsenos tikslai 2026–2027 m. [E1 p.44; E1 p.43].", en: "There are no quantified reduction targets yet, only monitoring targets for 2026–2027 [E1 p.44; E1 p.43]."}
+      fix: {lt: "Kitais metais patikrinti, ar nustatyti kiekybiniai tikslai.", en: "Check next year whether quantified targets were set."}
+  policies: [investments, financial_general, climate_nature]
+  reason:
+    lt: "SEB finansų sektoriaus lūkesčiai iš esmės atitinkami: tikslas iki 2050 m., Pereinamojo laikotarpio planas, PCAF finansuojami išmetimai, ribotas užtikrinimas [E1 p.37; E1 p.44; E1 p.17]. Paskolų portfelio išmetimai stabilūs, todėl kreiptis nebūtina; stebėti, ar po 2026–2027 m. stebėsenos etapo bus nustatyti kiekybiniai mažinimo tikslai (2 etapas) [E1 p.37; E1 p.43]."
+    en: "SEB's financial-sector expectations are broadly met: 2050 target, transition plan, PCAF financed emissions, limited assurance [E1 p.37; E1 p.44; E1 p.17]. Lending emissions are stable, so engagement is not needed; watch whether quantified reduction targets (Phase 2) are set after the 2026–2027 monitoring phase [E1 p.37; E1 p.43]."
+  questions: []

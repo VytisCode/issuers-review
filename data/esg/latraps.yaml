@@ -63,6 +63,14 @@ metrics:
   - {p: S, name: {lt: "Registruoti nelaimingi atsitikimai darbe", en: "Recordable work accidents"}, unit: "", better: down, FY2023: {v: 0, src: "E1 p.29"}, FY2024: {v: 0, src: "E1 p.29"}, FY2025: {v: 0, src: "E1 p.29"}}
 engagement:
   level: watch
+  severity: minor
+  verdict:
+    lt: "Pirmoji tvarumo ataskaita – geras žingsnis vidutinei žemės ūkio kooperatyvo įmonei [E1 p.3]. Kreiptis dar anksti; kitais metais patikrinti, ar atsiras išmetimų tikslas."
+    en: "The first sustainability report is a good step for a mid-sized agricultural cooperative [E1 p.3]. Too early to write; check next year whether an emissions target appears."
+  issues:
+    - what: {lt: "Nėra išmetimų mažinimo tikslo, Scope 3 neapskaičiuotas, klimato rizika nevertinta.", en: "No emission reduction target, no Scope 3, no climate risk assessment."}
+      why: {lt: "Be jų negalime įvertinti pereinamojo laikotarpio rizikos [E1 p.18; E1 p.22].", en: "Without these we cannot assess transition risk [E1 p.18; E1 p.22]."}
+      fix: {lt: "Kitoje ataskaitoje patikrinti, ar atsirado.", en: "Check in the next report."}
   policies: [investments, agriculture, climate_nature]
   reason:
     lt: "SEB žemės ūkio politikos apribojimai (miškų naikinimas, nelegalūs pesticidai ir pan.) nepažeisti; skatinamas tikslus augalų apsaugos produktų naudojimas [E1 p.24]. Pirmoji ataskaita – stebėti, ar bus nustatytas išmetimų tikslas, apskaičiuotas Scope 3 ir atliktas klimato rizikos vertinimas [E1 p.18; E1 p.22]."

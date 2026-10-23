@@ -1,0 +1,117 @@
+# ESG Engagement: Luminor Bank. Puslapiai - PDF puslapiai.
+issuer: luminor
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Luminor Bank Annual Report 2025", url: "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2025-lv.pdf", date: 2026-03}
+  E2: {title: "Luminor Bank Annual Report 2024", url: "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor-bank-annual-report-2024-compressed.pdf", date: 2025-03}
+trend: mixed
+summary:
+  lt: "Bankas skelbia tikslų lentelę ir pats nurodo, kur atsilieka [E1 p.18]. 2025 m. pasiekti: nuosavi išmetimai vienam darbuotojui 0,68 t (tikslas 0,72), A klasės būsto paskolų dalis 32,8 % (tikslas 30 % iki 2027 m.), tvarus finansavimas 305 mln. EUR (tikslas 228 mln. iki 2027 m.) [E1 p.18]. Nepasiekti: pereinamojo laikotarpio planai didelės rizikos skolinime 75,2 % (tikslas 90 %), AEI elektra 76,2 % (tikslas 100 %) [E1 p.18; E1 p.57]. Finansuojami išmetimai mažėja; PwC riboto užtikrinimo išvada [E1 p.52; E1 p.182]."
+  en: "The bank publishes a target table and states where it falls short [E1 p.18]. Met in 2025: own emissions per FTE 0.68 t (target 0.72), EPC A share of mortgages 32.8% (target 30% by 2027), sustainable lending EUR 305m (target EUR 228m by 2027) [E1 p.18]. Missed: transition plans in high-risk lending 75.2% (target 90%), renewable electricity 76.2% (target 100%) [E1 p.18; E1 p.57]. Financed emissions are falling; PwC limited assurance [E1 p.52; E1 p.182]."
+years:
+  FY2025:
+    trend: mixed
+    framework:
+      lt: "Tvarumo ataskaita pagal ESRS metiniame pranešime; PwC riboto užtikrinimo išvada [E1 p.181; E1 p.182]."
+      en: "ESRS sustainability statement in the management report; PwC limited assurance [E1 p.181; E1 p.182]."
+    assurance: limited
+    summary:
+      lt: "Nuosavi išmetimai 2 571 → 2 240 t; įmonių paskolų anglies intensyvumas 698 → 580 t/mln. EUR [E1 p.18; E1 p.52]. Du 2025 m. tikslai nepasiekti (pereinamojo laikotarpio planai, 100 % AEI elektra) [E1 p.18; E1 p.57]."
+      en: "Own emissions 2,571 → 2,240 t; corporate loan carbon intensity 698 → 580 t/EUR m [E1 p.18; E1 p.52]. Two 2025 targets missed (transition plans, 100% renewable electricity) [E1 p.18; E1 p.57]."
+    evidence:
+      - {p: E, lt: "Finansuojami išmetimai: būsto paskolos 241 562 → 151 578 t, įmonių paskolos 2 584 683 → 2 320 517 t, lizingas 74 483 → 57 368 t [E1 p.52].", en: "Financed emissions: mortgages 241,562 → 151,578 t, corporate loans 2,584,683 → 2,320,517 t, motor leasing 74,483 → 57,368 t [E1 p.52]."}
+      - {p: E, lt: "Naujas tikslas: nuosavos veiklos išmetimai −42 % iki 2030 m., palyginti su 2024 m. [E1 p.52].", en: "New target: own operations emissions −42% by 2030 vs 2024 [E1 p.52]."}
+      - {p: E, lt: "Žaliųjų ir su tvarumu susietų obligacijų dalis portfelyje 3,2 → 7,4 % (tikslas 50 % iki 2030 m.) [E1 p.18].", en: "Green and sustainability-linked bonds in the portfolio 3.2 → 7.4% (target 50% by 2030) [E1 p.18]."}
+      - {p: E, lt: "2024 m. finansuojami išmetimai perskaičiuoti; visas Scope 3 (investicijos) 3 035 923 → 3 199 507 t [E1 p.21].", en: "2024 financed emissions restated; total Scope 3 (investments) 3,035,923 → 3,199,507 t [E1 p.21]."}
+      - {p: S, lt: "Klientų NPS +56 (tikslas +50) [E1 p.18].", en: "Customer NPS +56 (target +50) [E1 p.18]."}
+      - {p: G, lt: "2025 m. patvirtinta nauja pranešėjų apsaugos tvarka [E1 p.72].", en: "New whistleblowing procedure adopted in 2025 [E1 p.72]."}
+      - {p: G, lt: "Sustainalytics ESG rizikos įvertinimas 18,4 (maža rizika) [E1 p.18].", en: "Sustainalytics ESG risk rating 18.4 (low risk) [E1 p.18]."}
+    concerns:
+      - {lt: "Pereinamojo laikotarpio planų dalis didelės rizikos skolinime sumažėjo iki 75,2 % (tikslas 90 % iki 2025 m.) [E1 p.18].", en: "Share of high-risk lending with transition plans fell to 75.2% (target 90% by 2025) [E1 p.18]."}
+      - {lt: "Moterų dalis stebėtojų taryboje sumažėjo iki 33,3 % (tikslas 40 % iki 2026 m.) [E1 p.28].", en: "Women on the Supervisory Council fell to 33.3% (target 40% by 2026) [E1 p.28]."}
+      - {lt: "AEI elektros dalis 76,2 % – 100 % tikslas iki 2025 m. pabaigos nepasiektas [E1 p.18; E1 p.57].", en: "Renewable electricity 76.2%: the 100% target for end-2025 was missed [E1 p.18; E1 p.57]."}
+  FY2024:
+    trend: improving
+    framework:
+      lt: "Tvarumo ataskaita pagal ESRS su PwC riboto užtikrinimo išvada [E2 p.28; E2 p.247]."
+      en: "ESRS sustainability statement with PwC limited assurance [E2 p.28; E2 p.247]."
+    assurance: limited
+    summary:
+      lt: "Nuosavi išmetimai 2 571 t, 1,0 t vienam darbuotojui (tikslas −50 % nuo 2021 m. 1,44 t) [E2 p.26]. Tvarus finansavimas 182 mln. EUR, A klasės būsto paskolos 28,9 % [E2 p.26]."
+      en: "Own emissions 2,571 t, 1.0 t per FTE (target −50% from 1.44 t in 2021) [E2 p.26]. Sustainable lending EUR 182m, EPC A mortgages 28.9% [E2 p.26]."
+    evidence:
+      - {p: E, lt: "Pereinamojo laikotarpio planai didelės rizikos skolinime 81 % [E2 p.26].", en: "Transition plans in high-risk lending 81% [E2 p.26]."}
+      - {p: S, lt: "Klientų NPS +55 (tikslas +40) [E2 p.26].", en: "Customer NPS +55 (target +40) [E2 p.26]."}
+      - {p: G, lt: "Moterų dalis stebėtojų taryboje 44 % (tikslas 40 % iki 2026 m.) [E2 p.26].", en: "Women on the Supervisory Council 44% (target 40% by 2026) [E2 p.26]."}
+    concerns:
+      - {lt: "Darbuotojų eNPS +47 – žemiau 50–55 tikslo [E2 p.26].", en: "Employee eNPS +47, below the 50–55 target [E2 p.26]."}
+targets:
+  - p: E
+    name: {lt: "Nuosavi išmetimai vienam darbuotojui ≤0,72 t iki 2025 m.", en: "Own emissions per FTE ≤0.72 t by 2025"}
+    FY2024: {lt: "1,0 t [E2 p.26]", en: "1.0 t [E2 p.26]"}
+    FY2025: {lt: "0,68 t [E1 p.18]", en: "0.68 t [E1 p.18]"}
+    status: met
+  - p: E
+    name: {lt: "Pereinamojo laikotarpio planai 90 % didelės rizikos skolinimo iki 2025 m.", en: "Transition plans for 90% of high-risk lending by 2025"}
+    FY2024: {lt: "81,3 % [E1 p.18]", en: "81.3% [E1 p.18]"}
+    FY2025: {lt: "75,2 % [E1 p.18]", en: "75.2% [E1 p.18]"}
+    status: missed
+  - p: E
+    name: {lt: "100 % AEI elektra iki 2025 m. pabaigos", en: "100% renewable electricity by end-2025"}
+    FY2024: {lt: "70,8 % [E2 p.26]", en: "70.8% [E2 p.26]"}
+    FY2025: {lt: "76,2 % [E1 p.18; E1 p.57]", en: "76.2% [E1 p.18; E1 p.57]"}
+    status: missed
+  - p: E
+    name: {lt: "A klasės būsto paskolų dalis 30 % iki 2027 m.", en: "EPC A share of mortgages 30% by 2027"}
+    FY2024: {lt: "28,9 % [E2 p.26]", en: "28.9% [E2 p.26]"}
+    FY2025: {lt: "32,8 % [E1 p.18]", en: "32.8% [E1 p.18]"}
+    status: met
+  - p: E
+    name: {lt: "Tvarus NT ir AEI finansavimas 228 mln. EUR iki 2027 m. (700 mln. iki 2030 m.)", en: "Sustainable real estate and renewables lending EUR 228m by 2027 (EUR 700m by 2030)"}
+    FY2024: {lt: "182,4 mln. EUR [E1 p.18]", en: "EUR 182.4m [E1 p.18]"}
+    FY2025: {lt: "305,4 mln. EUR [E1 p.18]", en: "EUR 305.4m [E1 p.18]"}
+    status: on_track
+  - p: E
+    name: {lt: "Žaliųjų / SLB obligacijų dalis portfelyje 50 % iki 2030 m.", en: "Green / SLB bonds 50% of the portfolio by 2030"}
+    FY2024: {lt: "3,2 % [E2 p.26]", en: "3.2% [E2 p.26]"}
+    FY2025: {lt: "7,4 % [E1 p.18]", en: "7.4% [E1 p.18]"}
+    status: behind
+  - p: E
+    name: {lt: "Nuosavos veiklos išmetimai −42 % iki 2030 m. (bazė 2024 m.)", en: "Own operations emissions −42% by 2030 (2024 base)"}
+    FY2024: {lt: "bazė 2 570,7 t [E1 p.18]", en: "base 2,570.7 t [E1 p.18]"}
+    FY2025: {lt: "2 239,9 t [E1 p.18; E1 p.52]", en: "2,239.9 t [E1 p.18; E1 p.52]"}
+    status: new
+  - p: S
+    name: {lt: "Klientų NPS", en: "Customer NPS"}
+    FY2024: {lt: "+55 (tikslas +40) [E2 p.26]", en: "+55 (target +40) [E2 p.26]"}
+    FY2025: {lt: "+56 (tikslas +50) [E1 p.18]", en: "+56 (target +50) [E1 p.18]"}
+    status: met
+  - p: G
+    name: {lt: "Moterų dalis stebėtojų taryboje ≥40 % iki 2026 m.", en: "Women on the Supervisory Council ≥40% by 2026"}
+    FY2024: {lt: "44 % [E2 p.26]", en: "44% [E2 p.26]"}
+    FY2025: {lt: "33,3 % [E1 p.28]", en: "33.3% [E1 p.28]"}
+    status: behind
+metrics:
+  - {p: E, name: {lt: "Nuosavi išmetimai (Scope 1+2+3 kat. 1–14)", en: "Own emissions (Scope 1+2+3 cat. 1–14)"}, unit: "t CO2e", better: down, FY2024: {v: 2570.7, src: "E1 p.18"}, FY2025: {v: 2239.9, src: "E1 p.18"}}
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2e", better: down, FY2024: {v: 31.3, src: "E1 p.52"}, FY2025: {v: 31.7, src: "E1 p.52"}}
+  - {p: E, name: {lt: "Scope 2 išmetimai (rinkos metodas)", en: "Scope 2 emissions (market-based)"}, unit: "t CO2e", better: down, FY2024: {v: 1011.7, src: "E1 p.52"}, FY2025: {v: 927.0, src: "E1 p.52"}}
+  - {p: E, name: {lt: "Finansuojami išmetimai – įmonių paskolos", en: "Financed emissions – corporate loans"}, unit: "t CO2e", better: down, FY2024: {v: 2584683, src: "E1 p.52", note: {lt: "perskaičiuota", en: "restated"}}, FY2025: {v: 2320517, src: "E1 p.52"}}
+  - {p: E, name: {lt: "Finansuojami išmetimai – būsto paskolos", en: "Financed emissions – mortgages"}, unit: "t CO2e", better: down, FY2024: {v: 241562, src: "E1 p.52", note: {lt: "perskaičiuota", en: "restated"}}, FY2025: {v: 151578, src: "E1 p.52"}}
+  - {p: E, name: {lt: "Įmonių paskolų anglies intensyvumas", en: "Corporate loan carbon intensity"}, unit: "t CO2e/mln. EUR", better: down, FY2024: {v: 698.2, src: "E1 p.52"}, FY2025: {v: 580.0, src: "E1 p.52"}}
+  - {p: E, name: {lt: "AEI elektros dalis", en: "Renewable electricity share"}, unit: "%", better: up, FY2024: {v: 70.8, src: "E2 p.26"}, FY2025: {v: 76.2, src: "E1 p.18"}}
+  - {p: S, name: {lt: "Klientų NPS", en: "Customer NPS"}, unit: "", better: up, FY2024: {v: 55, src: "E2 p.26"}, FY2025: {v: 56, src: "E1 p.18"}}
+engagement:
+  level: watch
+  severity: minor
+  verdict:
+    lt: "Geras emitentas: aiški tikslų lentelė, PwC užtikrinimas, finansuojami išmetimai mažėja; bankas pats atskleidžia, ko nepasiekė [E1 p.18; E1 p.182]. Kreiptis nereikia."
+    en: "A good issuer: a clear target table, PwC assurance, falling financed emissions; the bank itself discloses what it missed [E1 p.18; E1 p.182]. No need to write."
+  issues:
+    - what: {lt: "Nepasiekti 2025 m. tikslai: pereinamojo laikotarpio planai 75,2 % (tikslas 90 %), AEI elektra 76,2 % (tikslas 100 %).", en: "Missed 2025 targets: transition plans 75.2% (target 90%), renewable electricity 76.2% (target 100%)."}
+      why: {lt: "Pereinamojo laikotarpio planų dalis net sumažėjo [E1 p.18; E1 p.57].", en: "The transition-plan share even fell [E1 p.18; E1 p.57]."}
+      fix: {lt: "Kitais metais patikrinti, ar rodikliai atsigauna ar tikslai pakeisti.", en: "Check next year whether the indicators recover or the targets are revised."}
+  policies: [investments, financial_general, climate_nature]
+  reason:
+    lt: "SEB finansų sektoriaus lūkesčiai (tikslai, finansuojami išmetimai, užtikrinimas) iš esmės atitinkami: tikslai su terminais, PwC užtikrinimas, finansuojami išmetimai mažėja [E1 p.18; E1 p.52; E1 p.182]. Bankas pats atskleidžia du nepasiektus tikslus, todėl kreiptis nebūtina – stebėti, ar 2026 m. atsigaus pereinamojo laikotarpio planų dalis [E1 p.18]."
+    en: "SEB's financial-sector expectations (targets, financed emissions, assurance) are broadly met: dated targets, PwC assurance and falling financed emissions [E1 p.18; E1 p.52; E1 p.182]. The bank itself discloses the two missed targets, so engagement is not needed; watch whether the transition-plan share recovers in 2026 [E1 p.18]."
+  questions: []

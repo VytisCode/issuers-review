@@ -24,6 +24,9 @@ TSTATUS = {"met": {"lt": "Pasiekta", "en": "Met"}, "on_track": {"lt": "Pagal pla
            "changed": {"lt": "Pakeistas", "en": "Revised"}}
 ENGAGE = {"none": {"lt": "Nereikia", "en": "Not needed"}, "watch": {"lt": "Stebėti", "en": "Monitor"},
           "engage": {"lt": "Reikia", "en": "Needed"}}
+# Savininkui: kiek rimta spraga (įrankio vertinimas, ne emitento)
+SEVERITY = {"minor": {"lt": "Smulkmena", "en": "Minor"}, "moderate": {"lt": "Vidutinė", "en": "Moderate"},
+            "major": {"lt": "Didelė", "en": "Major"}}
 PILLAR = {"E": {"lt": "Aplinka", "en": "Environment"}, "S": {"lt": "Socialinė sritis", "en": "Social"}, "G": {"lt": "Valdysena", "en": "Governance"}}
 
 
@@ -53,6 +56,20 @@ def _segs_html(segs):
             out.append(f'<sup class="cite">{"," if prev else ""}{link}</sup>')
             prev = True
     return "".join(out)
+
+
+def eng_text(eng, lang):
+    """Excel: svarba + verdiktas + spragos punktais (kas / kodėl / kaip pataisyti); be jų - reason."""
+    pl = lambda x: C.plain(C.tr(x, lang)).strip() if x else ""  # noqa: E731
+    if not eng.get("issues"):
+        return pl(eng.get("reason"))
+    lab = {"lt": ("Svarba", "Kodėl", "Kas padėtų"), "en": ("Severity", "Why", "What would help")}[lang if lang == "lt" else "en"]
+    out = []
+    if eng.get("severity"):
+        out.append(f"{lab[0]}: {SEVERITY.get(eng['severity'], {}).get(lang, eng['severity'])}. {pl(eng.get('verdict'))}".strip())
+    for i in eng["issues"]:
+        out.append(f"• {pl(i.get('what'))}\n  {lab[1]}: {pl(i.get('why'))}\n  {lab[2]}: {pl(i.get('fix'))}")
+    return "\n".join(out)
 
 
 def site(lang):
@@ -101,16 +118,22 @@ def site(lang):
             "trend": e.get("trend", "limited"), "summary": h(e.get("summary")),
             "years": yr, "targets": targets, "metrics": metrics,
             "engagement": {"level": eng.get("level", "none"), "reason": h(eng.get("reason")),
+                           "severity": eng.get("severity", ""), "verdict": h(eng.get("verdict")),
+                           "issues": [{k: h(i.get(k)) for k in ("what", "why", "fix")} for i in eng.get("issues", [])],
                            "policies": [C.seb()["policies"].get(p, {}).get("name", p) for p in eng.get("policies", [])],
-                           "questions": eng.get("questions", []), "subject": eng.get("subject", ""),
-                           "contact": eng.get("contact", "")},
+                           # Klausimai: laiške - angliškai (q), vidinė užuomina savininkui (hint) - pasirinkta kalba
+                           "questions": [q if isinstance(q, dict) else {"q": q} for q in eng.get("questions", [])],
+                           "hints": [h(q.get("hint")) if isinstance(q, dict) else "" for q in eng.get("questions", [])],
+                           "noticed": C.tr(eng.get("noticed", ""), "en"),
+                           "subject": eng.get("subject", ""), "contact": eng.get("contact", "")},
             "analysis_date": str(e.get("analysis_date", "")),
             "yaml": f"data/esg/{key}.yaml",
             "sources": [{"n": n, "title": t, "page": pg, "url": u} for n, t, pg, note, u, k, d in cites.notes()],
         })
     return {"years": ys, "rows": rows,
             "labels": {"trend": {k: v[lang] for k, v in TREND.items()}, "tstatus": {k: v[lang] for k, v in TSTATUS.items()},
-                       "engage": {k: v[lang] for k, v in ENGAGE.items()}, "pillar": {k: v[lang] for k, v in PILLAR.items()}}}
+                       "engage": {k: v[lang] for k, v in ENGAGE.items()}, "pillar": {k: v[lang] for k, v in PILLAR.items()},
+                       "severity": {k: v[lang] for k, v in SEVERITY.items()}}}
 
 
 def plain(text, cites):
@@ -152,7 +175,7 @@ def xlsx(path=None, lang="lt"):
     lt = lang == "lt"
     L = {"lt": {"s1": "Apžvalga", "s2": "Rodikliai", "s3": "Tikslai", "s4": "Įrodymai", "s5": "Šaltiniai",
                 "title": "ESG pažanga pagal emitentus", "issuer": "Emitentas", "country": "Šalis", "held": "Turimi VP",
-                "trend": "Bendra kryptis", "engage": "Engagement", "reason": "Kodėl", "status": "būsena", "summary": "santrauka",
+                "trend": "Bendra kryptis", "engage": "Engagement", "reason": "Vertinimas ir spragos", "status": "būsena", "summary": "santrauka",
                 "metric": "Rodiklis", "unit": "Vnt.", "src": "šaltinis", "target": "Tikslas", "tstatus": "Būsena", "pillar": "Sritis",
                 "change": "Pokytis per metus", "year": "Metai", "kind": "Tipas", "fact": "Faktas", "ev": "Įrodymas", "gap": "Spraga",
                 "fw": "Ataskaita ir patikra", "srcs": "Šaltiniai", "key": "Žymė", "doc": "Dokumentas", "date": "Data", "link": "Nuoroda",
@@ -163,7 +186,7 @@ def xlsx(path=None, lang="lt"):
                 "made": "Parengta", "calc": "apskaičiuota įrankio"},
          "en": {"s1": "Overview", "s2": "Metrics", "s3": "Targets", "s4": "Evidence", "s5": "Sources",
                 "title": "ESG progress by issuer", "issuer": "Issuer", "country": "Country", "held": "Holdings",
-                "trend": "Overall direction", "engage": "Engagement", "reason": "Why", "status": "status", "summary": "summary",
+                "trend": "Overall direction", "engage": "Engagement", "reason": "Assessment and gaps", "status": "status", "summary": "summary",
                 "metric": "Metric", "unit": "Unit", "src": "source", "target": "Target", "tstatus": "Status", "pillar": "Pillar",
                 "change": "Change y/y", "year": "Year", "kind": "Type", "fact": "Fact", "ev": "Evidence", "gap": "Gap",
                 "fw": "Reporting and assurance", "srcs": "Sources", "key": "Ref", "doc": "Document", "date": "Date", "link": "Link",
@@ -321,7 +344,7 @@ def xlsx(path=None, lang="lt"):
         tone(put(ws, r, col, TREND.get(e.get("trend", ""), {}).get(lang, "")), XL_TREND.get(e.get("trend"), "mute"))
         eng = (e.get("engagement") or {}).get("level", "none")
         tone(put(ws, r, col + 1, ENGAGE.get(eng, {}).get(lang, "")), XL_ENGAGE.get(eng, "mute"))
-        put(ws, r, col + 2, C.plain(C.tr((e.get("engagement") or {}).get("reason", ""), lang)).strip())
+        put(ws, r, col + 2, eng_text(e.get("engagement") or {}, lang))
         band(ws, r, len(h1), gi % 2)
     finish(ws, hr1, len(h1), "B")
 

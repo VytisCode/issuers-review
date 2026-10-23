@@ -65,6 +65,14 @@ metrics:
   - {p: G, name: {lt: "Patvirtinti korupcijos atvejai", en: "Confirmed corruption cases"}, unit: "", better: down, FY2024: {v: 0, src: "E2 p.128"}, FY2025: {v: 0, src: "E1 p.141"}}
 engagement:
   level: watch
+  severity: minor
+  verdict:
+    lt: "Geras emitentas: grupės Scope 1 nuo 2020 m. sumažėjo 47 %, ISO 14001/50001, KPMG užtikrinimas [E1 p.92; E1 p.8; E1 p.168]. Kreiptis nereikia – tik patikrinti, ar 2026 m. bus patvirtintas naujas klimato planas."
+    en: "A good issuer: Group Scope 1 down 47% since 2020, ISO 14001/50001, KPMG assurance [E1 p.92; E1 p.8; E1 p.168]. No need to write; just check that the new climate plan is approved in 2026."
+  issues:
+    - what: {lt: "Patronuojančios bendrovės klimato tikslas peržiūrimas, naujas planas – 2026 m. I pusm.", en: "The parent company's climate target is under revision; a new plan is due in H1 2026."}
+      why: {lt: "Kol nėra naujo tikslo, negalime vertinti pažangos [E1 p.86].", en: "Until the new target exists we cannot assess progress [E1 p.86]."}
+      fix: {lt: "Kitoje peržiūroje patikrinti, ar planas paskelbtas.", en: "Check at the next review whether the plan was published."}
   policies: [investments, electricity_renewables, climate_nature]
   reason:
     lt: "SEB elektros ir AEI politikos lūkesčiai tinklams (nuostolių mažinimas, AEI integravimas), ISO 14001/50001, metinė darnumo ataskaita – įvykdyti [E1 p.84; E1 p.8]. Stebėti: 2026 m. turi būti patvirtintas grupės klimato pereinamasis planas su naujais tikslais [E1 p.86]."

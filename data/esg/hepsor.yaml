@@ -49,12 +49,25 @@ metrics:
   - {p: E, name: {lt: "Išmetimai pajamų milijonui (biuras)", en: "Emissions per EUR m revenue (office)"}, unit: "t CO2e/mln. EUR", better: down, FY2024: {v: 21.3, src: "E1 p.52"}, FY2025: {v: 22.6, src: "E1 p.52"}}
 engagement:
   level: engage
+  severity: minor
+  verdict:
+    lt: "Mažai įmonei (26 darbuotojai) atskleidimas geras: tvarumo ataskaita penktus metus, Scope 1–3 ir pastatų gyvavimo ciklo išmetimai [E1 p.50; E1 p.52]. Trūksta tik kelių paprastų dalykų – kiekybinio tikslo ir elgesio kodekso. Smulkmena, bet nesudėtingai pataisoma."
+    en: "Good disclosure for a small company (26 staff): a sustainability report for the fifth year, Scope 1–3 and building lifecycle emissions [E1 p.50; E1 p.52]. Only a few simple things are missing: a quantified target and a code of conduct. Minor, and easy to fix."
+  issues:
+    - what: {lt: "Nėra kiekybinių išmetimų ar energijos tikslų.", en: "No quantified emission or energy targets."}
+      why: {lt: "Duomenis renka, bet be tikslo negalime įvertinti, ar pažanga pakankama [E1 p.52].", en: "The data is collected, but without a target we cannot judge whether progress is enough [E1 p.52]."}
+      fix: {lt: "Paprastas tikslas, pvz., naujų projektų energijos klasė ar gyvavimo ciklo išmetimai m².", en: "A simple target, e.g. the energy class or lifecycle emissions per m² of new projects."}
+    - what: {lt: "Nėra elgesio ar antikorupcijos kodekso – formalizuota tik pinigų plovimo prevencija.", en: "No code of conduct or anti-corruption policy; only anti-money laundering is formalised."}
+      why: {lt: "Pati įmonė ataskaitoje nurodo, kad kodekso nėra [E1 p.54]; SEB NT politika tikisi antikorupcijos politikos (vidinis kriterijus).", en: "The company itself states there is no code [E1 p.54]; the SEB Real Estate policy expects an anti-corruption policy (internal criterion)."}
+      fix: {lt: "Trumpas elgesio kodeksas su antikorupcijos nuostatomis ir pranešimų kanalu.", en: "A short code of conduct with anti-corruption rules and a whistleblowing channel."}
   policies: [investments, real_estate, climate_nature, anti_corruption]
   reason:
-    lt: "SEB nekilnojamojo turto politika tikisi pereinamojo plano pastatams ir antikorupcijos politikos; Hepsor neturi kiekybinių išmetimų tikslų ir elgesio ar antikorupcijos kodekso (formalizuota tik pinigų plovimo prevencija) [E1 p.54]. Atsižvelgiant į mažą įmonės dydį, užtenka paprastų žingsnių."
-    en: "The SEB Real Estate policy expects a transition plan for buildings and an anti-corruption policy; Hepsor has no quantified emission targets and no code of conduct or anti-corruption policy (only anti-money laundering is formalised) [E1 p.54]. Given the company's small size, simple steps would be enough."
-  subject: "Hepsor: bondholder questions on climate targets and business conduct policy"
+    lt: "Geras atskleidimas mažai įmonei, bet nėra kiekybinių tikslų ir elgesio kodekso [E1 p.54]."
+    en: "Good disclosure for a small company, but no quantified targets or code of conduct [E1 p.54]."
+  subject: "Hepsor: a few questions from a bondholder"
+  noticed: "We read your 2025 annual report and appreciated the detailed emissions data, including lifecycle emissions for each new building."
   questions:
-    - "You already calculate Scope 1–3 and lifecycle emissions for each new building. Do you plan to set quantified targets, for example for the energy class or lifecycle emissions of new developments?"
-    - "Your report says there is no separate code of conduct and only anti-money laundering is formally regulated. Would you consider adopting a short code of conduct with an anti-corruption policy and a whistleblowing channel?"
-    - "Do you plan to obtain external assurance or to report under the voluntary SME standard (VSME) in the coming years?"
+    - q: "Do you plan to set any quantified targets, for example for the energy class or lifecycle emissions of new developments?"
+      hint: {lt: "Jei nurodys tikslą ar terminą – įrašome jį į tikslų lentelę ir kitais metais tikriname pažangą.", en: "If they name a target or a date, we add it to the target table and track it next year."}
+    - q: "Your report mentions that there is no separate code of conduct yet. Are you planning to adopt one, including anti-corruption rules and a whistleblowing channel?"
+      hint: {lt: "Patvirtinus kodeksą ar su terminu – spraga uždaryta arba „Stebėti“. Jei neplanuoja – kitais metais svarstyti dar kartą.", en: "If adopted or planned with a date, the gap is closed or Monitor. If not planned, reconsider next year."}

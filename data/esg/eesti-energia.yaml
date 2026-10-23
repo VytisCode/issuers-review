@@ -74,13 +74,30 @@ metrics:
   - {p: S, name: {lt: "Nelaimingi atsitikimai su darbo laiko praradimu", en: "Accidents with lost working time"}, unit: "", better: down, FY2024: {v: 12, src: "E2 p.40"}, FY2025: {v: 7, src: "E1 p.34"}}
 engagement:
   level: engage
+  severity: moderate
+  verdict:
+    lt: "Kryptis gera: Scope 1 per dvejus metus sumažėjo daugiau nei perpus, auga AEI gamyba, 2025 m. taršos incidentų beveik nebeliko [E2 p.94; E1 p.8; E1 p.24]. Spraga daugiausia informacinė – neradome 2025 m. darnumo ataskaitos ir tarpinių tikslų skaičiais. Vidutinė, nes tai skalūnų bendrovė ir be skaičių negalime patikrinti, ar planas vykdomas."
+    en: "The direction is good: Scope 1 more than halved in two years, renewable generation is growing, and emission incidents almost disappeared in 2025 [E2 p.94; E1 p.8; E1 p.24]. The gap is mostly about information: we could not find the 2025 sustainability report or numeric interim targets. Moderate, because this is an oil-shale company and without numbers we cannot check whether the plan is on track."
+  issues:
+    - what: {lt: "Neradome 2025 m. darnumo ataskaitos (ESRS) ir 2025 m. Scope 1–3 duomenų.", en: "We could not find the 2025 sustainability report (ESRS) or 2025 Scope 1–3 data."}
+      why: {lt: "Metiniame pranešime rašoma, kad ji yra metinės ataskaitos dalis, bet rastame dokumente jos nėra [E1 p.38; E1 p.2]. Be jos 2025 m. stulpelis lieka tuščias.", en: "The annual report says it is part of the annual report, but the document we found does not contain it [E1 p.38; E1 p.2]. Without it the 2025 column stays empty."}
+      fix: {lt: "Emitentas atsiunčia nuorodą arba patvirtina, kada ataskaita bus paskelbta.", en: "The issuer sends a link or confirms when it will be published."}
+    - what: {lt: "Tikslas – anglies neutralumas iki 2045 m. penkiais etapais, bet tarpiniai tikslai skaičiais nepateikti.", en: "Target of carbon neutrality by 2045 in five phases, but the interim targets are not given as numbers."}
+      why: {lt: "Be tarpinių skaičių (pvz., 2030 m.) negalime kasmet įvertinti, ar emitentas laikosi plano [E2 p.94].", en: "Without interim numbers (e.g. for 2030) we cannot check each year whether the issuer is on plan [E2 p.94]."}
+      fix: {lt: "Emitentas pateikia bent 2030 m. išmetimų tikslą arba nuorodą į pereinamojo laikotarpio planą.", en: "The issuer gives at least a 2030 emissions target or a link to its transition plan."}
+    - what: {lt: "Skalūnų alyvos gamyba tęsiama (378,4 tūkst. t 2025 m.), o planai po 2030 m. neaiškūs.", en: "Shale oil production continues (378.4 thousand t in 2025), and plans after 2030 are unclear."}
+      why: {lt: "Tai didžiausias ilgalaikis klimato ir reguliavimo rizikos šaltinis obligacijų laikymo laikotarpiu [E1 p.63].", en: "This is the largest long-term climate and regulatory risk during the life of the bonds [E1 p.63]."}
+      fix: {lt: "Emitentas apibūdina skalūnų alyvos gamybos perspektyvą po 2030 m.", en: "The issuer describes the outlook for shale oil production after 2030."}
   policies: [investments, fossil_fuels, electricity_renewables, climate_nature]
   reason:
-    lt: "SEB iškastinio kuro politika reikalauja skelbti Scope 1–3 ir trumpo, vidutinio ir ilgo laikotarpio tikslus, tikisi pereinamojo plano; netradicinė nafta (skalūnų alyva) leidžiama pagal Baltijos išimtį iki 2030 m. 2025 m. darnumo duomenų nerasta, tarpiniai tikslai skaičiais neskelbiami [E2 p.94], o 2024 m. nustatyti taršos ribų viršijimai [E2 p.24]."
-    en: "The SEB Fossil Fuels policy requires Scope 1–3 disclosure and short-, medium- and long-term targets, and expects a transition plan; unconventional oil (shale oil) is allowed under the Baltic exception until 2030. No 2025 sustainability data was found, interim targets are not published as numbers [E2 p.94], and emission limit exceedances were found in 2024 [E2 p.24]."
-  subject: "Eesti Energia: questions from a bondholder on 2025 sustainability reporting and transition targets"
+    lt: "Kryptis gera, bet trūksta 2025 m. darnumo ataskaitos ir tarpinių tikslų skaičiais [E1 p.38; E2 p.94]."
+    en: "Good direction, but the 2025 sustainability report and numeric interim targets are missing [E1 p.38; E2 p.94]."
+  subject: "Eesti Energia: a few questions from a bondholder"
+  noticed: "We read your 2025 annual report and the 2024 sustainability report, and noticed the strong progress in renewable generation and lower emissions. There are a few points where we could not find the information we were looking for."
   questions:
-    - "Where can we find the audited 2025 sustainability statement (ESRS) with Scope 1, 2 and 3 emissions, and who provided the assurance?"
-    - "Your 2024 report describes a five-phase path to carbon neutrality by 2045 with interim targets. Could you share the quantified interim targets and 2025 progress against them?"
-    - "What is the planned shale oil production profile after 2030, including Enefit 280-2, and how does it fit the 2045 target?"
-    - "Are any measures from the 2024 special audit on emission limits and continuous monitoring still open, and are any proceedings pending?"
+    - q: "We could not find your 2025 sustainability report (including Scope 1, 2 and 3 emissions). Has it been published, and could you share the link? If it has been assured, could you also tell us by whom?"
+      hint: {lt: "Jei atsiųs nuorodą – užpildysime 2025 m. stulpelį ir užtikrinimą. Jei dar nepaskelbta – pažymime „laukiama“, kreiptis iš naujo nereikia.", en: "If they send a link, we fill in the 2025 column and assurance. If not yet published, we mark it as pending; no need to ask again."}
+    - q: "Your 2024 report describes a five-phase path to carbon neutrality by 2045. Do you have interim targets in numbers, for example for 2030, that you could share?"
+      hint: {lt: "Gavus skaičius, galėsime kasmet tikrinti pažangą ir tikslas taps „Pagal planą“ arba „Atsilieka“. Jei skaičių nėra – lieka „Stebėti“.", en: "With numbers we can track progress each year and the target becomes On track or Behind. If there are none, it stays at Monitor."}
+    - q: "Could you give us a short outlook for shale oil production after 2030?"
+      hint: {lt: "Atsakymas parodys, ar skalūnų alyva bus mažinama iki obligacijų išpirkimo – tai pagrindinė ilgalaikė rizika.", en: "The answer shows whether shale oil will be reduced before the bonds mature, which is the main long-term risk."}

@@ -72,6 +72,17 @@ metrics:
   - {p: E, name: {lt: "Energijos intensyvumas bendrose patalpose", en: "Energy intensity, common areas"}, unit: "kWh/m²", better: down, FY2023: {v: 119, src: "E1 p.122"}, FY2024: {v: 126, src: "E1 p.122"}, FY2025: {v: 114, src: "E1 p.122"}}
 engagement:
   level: watch
+  severity: minor
+  verdict:
+    lt: "Iš esmės geras emitentas: pastatų išmetimų tikslai, BREEAM, pirmoji ESRS ataskaita [E1 p.121; E1 p.122]. Dvi smulkios pastabos, kurias verta patikrinti kitais metais."
+    en: "A good issuer overall: building emission targets, BREEAM, first ESRS report [E1 p.121; E1 p.122]. Two small points worth checking next year."
+  issues:
+    - what: {lt: "PwC išvada sąlyginė – į ataskaitą neįtraukta „Galio Group“.", en: "PwC's conclusion is qualified because Galio Group was excluded."}
+      why: {lt: "Dalis grupės neatsispindi rodikliuose [E1 p.100; E1 p.101].", en: "Part of the Group is not reflected in the figures [E1 p.100; E1 p.101]."}
+      fix: {lt: "2026 m. ataskaitoje turi būti visa grupė – patikrinti.", en: "The 2026 report should cover the whole Group; check it."}
+    - what: {lt: "AEI dalis sumažėjo 58 → 51 %.", en: "Renewable share fell 58 → 51%."}
+      why: {lt: "Rodiklis juda ne ta kryptimi [E1 p.122].", en: "The indicator is moving the wrong way [E1 p.122]."}
+      fix: {lt: "Kitais metais patikrinti, ar atsigauna.", en: "Check next year whether it recovers."}
   policies: [investments, real_estate, climate_nature]
   reason:
     lt: "SEB nekilnojamojo turto politikos lūkesčiai iš esmės įvykdyti: pastatų išmetimų tikslai, BREEAM, energijos valdymas, tvarumo ataskaita [E1 p.121; E1 p.122]. Stebėti: sąlyginė PwC išvada dėl „Galio Group“ neįtraukimo ir AEI dalies sumažėjimas – 2026 m. ataskaitoje turi būti visa grupė [E1 p.101; E1 p.122]."
