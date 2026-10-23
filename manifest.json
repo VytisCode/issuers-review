@@ -107,8 +107,10 @@
  "citadele_FY2024": {
   "issuer": "citadele",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://www.cblgroup.com/files/pdf/Citadele_Annual_report_2024.pdf",
+  "title": "Citadele Annual Report 2024",
+  "pages": 189,
+  "kb": 13143
  },
  "inbank_FY2025": {
   "issuer": "inbank",
