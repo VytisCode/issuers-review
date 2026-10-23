@@ -46,6 +46,7 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 - `engagement`: `level` none/watch/engage; `severity` minor/moderate/major + `verdict` (trumpas vertinimas savininkui); `issues` [{what, why, fix}] – paprasti punktai; `questions` [{q (EN, mandagus klausimas, be SEB politikų, nesiremiant prielaidomis), hint {lt,en} – kaip atsakymas padės}]; `noticed` – laiško įžanga apie emitentą; `subject`. SEB politikos – tik vidiniam vertinimui. Engagement – tik realioms spragoms, švelniai.
 - `tools/build_esg.py` – svetainės ESG duomenys ir Excel `docs/files/esg_engagement_{lt,en}.xlsx` (paleidžiamas per `build_site.py`).
 - `brief` (privaloma): `good` / `bad` (kur atsilieka nuo SAVO tikslų ar ko trūksta) / `seb` {status ok/mostly/partly – mūsų SEB gairės} / `means` (ką daryti). **Kasdieniais žodžiais, be trumpinių** (ne SBTi, Scope, ESRS, TRIR, AEI…: „tarša“, „klientų (paskolų) tarša“, „ataskaitą tikrino auditorius“). Taip pat rašomi ir apžvalgų verdiktai bei santraukos.
+- **Platesnis ESG požiūris** (savininko nurodymas 2026-10-23): ESG – ne tik gamta. `brief.good` pirmas punktas „Nauda visuomenei: …“ – šalies saugumas, energetinis saugumas, vanduo, susisiekimas, finansavimas mažoms ir vidutinėms įmonėms, regionams, ūkininkams, būstas, maistas – tik su šaltiniu, be prierašų „savininko vertinimas“.
 - Savo apskaičiuoti skaičiai tekste – „mūsų skaičiavimas“ / „own calculation“ (ne „įrankio“).
 
 ## Patikra prieš push

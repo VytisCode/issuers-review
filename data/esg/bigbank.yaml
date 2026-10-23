@@ -78,6 +78,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei: skolina mažoms ir vidutinėms įmonėms – tokių klientų daugiau nei 2 600, verslo paskolų per metus padaugėjo 33 % [E1 p.51].", en: "Benefit to society: lends to small and medium-sized businesses – more than 2,600 such clients, business loans up 33% in a year [E1 p.51]."}
     - {lt: "Bankas mažai teršia: savo tarša sumažėjo 2 044 → 1 652 t [E1 p.77].", en: "A low-polluting bank: own emissions fell 2,044 → 1,652 t [E1 p.77]."}
     - {lt: "Taršiems verslams tenka tik 0,45 % paskolų [E1 p.75].", en: "Only 0.45% of loans go to polluting sectors [E1 p.75]."}
     - {lt: "Tvarumo ataskaitą tikrino auditorius EY [E1 p.218].", en: "The sustainability report was checked by the auditor EY [E1 p.218]."}

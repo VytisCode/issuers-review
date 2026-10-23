@@ -93,6 +93,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei: 2025 m. gyventojams ir įmonėms (tarp jų mažoms ir vidutinėms) suteikė 1,59 mlrd. EUR naujo finansavimo, +18 % [E1 p.4].", en: "Benefit to society: in 2025 it gave EUR 1.59 billion of new financing to households and companies (including small and medium-sized ones), +18% [E1 p.4]."}
     - {lt: "Visi metiniai tikslai įvykdyti, pvz., naujų žaliųjų paskolų 176 mln. EUR (tikslas 100 mln.) [E1 p.44].", en: "All annual targets met, e.g. EUR 176m of new green loans (target 100m) [E1 p.44]."}
     - {lt: "Priimtas planas, kaip iki 2050 m. visiškai nustoti teršti klimatą [E1 p.37].", en: "Adopted a plan to reach net zero by 2050 [E1 p.37]."}
     - {lt: "Paskolų klientų tarša nedidėja [E1 p.44].", en: "Emissions of its borrowers are not rising [E1 p.44]."}

@@ -107,6 +107,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei: 2025 m. maisto bankams atidavė apie 3,1 tūkst. t dar tinkamo maisto [E1 p.3]; grupėje dirba 21,6 tūkst. žmonių [E1 p.18].", en: "Benefit to society: in 2025 it gave about 3.1 thousand tonnes of edible food to food banks [E1 p.3]; the group employs 21.6 thousand people [E1 p.18]."}
     - {lt: "Turi tarptautinės organizacijos patikrintą tikslą iki 2030 m. savo taršą sumažinti 42 % (lyginant su 2021 m.) [E2 p.124].", en: "Has a target checked by an international organisation to cut its own pollution by 42% by 2030 (vs 2021) [E2 p.124]."}
     - {lt: "Jau sumažino 24,5 % – greičiau nei reikia pagal planą [E1 p.72].", en: "Already down 24.5% – ahead of plan [E1 p.72]."}
     - {lt: "Tvarumo ataskaitą abu metus tikrino auditorius PwC [E1 p.54].", en: "The auditor PwC checked the sustainability report in both years [E1 p.54]."}

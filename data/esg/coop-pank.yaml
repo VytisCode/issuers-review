@@ -71,6 +71,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei: finansuoja verslus ne tik didmiesčiuose – taip padeda Estijos regionams [E1 p.5].", en: "Benefit to society: finances businesses outside the big cities too, which helps Estonia's regions [E1 p.5]."}
     - {lt: "Nedidelis bankas, bet jau nuo 2021 m. skaičiuoja ir savo, ir klientų taršą [E1 p.5].", en: "A small bank that has counted both its own and its borrowers' emissions since 2021 [E1 p.5]."}
     - {lt: "Bendra tarša 2025 m. sumažėjo: 248 855 → 212 758 t [E1 p.3].", en: "Total footprint fell in 2025: 248,855 → 212,758 t [E1 p.3]."}
   bad:

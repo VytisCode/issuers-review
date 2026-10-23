@@ -117,6 +117,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei – energetinis saugumas: prisijungimas prie Europos elektros tinklo stiprina Lietuvos energetinį saugumą; grupė aptarnauja 1,4 mln. klientų [E1 p.11; E1 p.24].", en: "Benefit to society – energy security: joining the European power grid strengthens Lithuania's energy security; the group serves 1.4 million customers [E1 p.11; E1 p.24]."}
     - {lt: "Turi tarptautinės organizacijos patikrintus taršos mažinimo tikslus ir planą 2040–2050 m. visiškai nustoti teršti klimatą [E1 p.29; E1 p.196].", en: "Has pollution targets checked by an international organisation and a plan to stop adding climate pollution by 2040–2050 [E1 p.29; E1 p.196]."}
     - {lt: "Sparčiai stato vėjo ir saulės elektrines [E1 p.29].", en: "Building wind and solar plants fast [E1 p.29]."}
     - {lt: "Saugos ir socialiniai tikslai vykdomi.", en: "Safety and social targets are on track."}

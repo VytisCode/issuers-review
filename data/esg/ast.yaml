@@ -81,6 +81,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei – energetinis saugumas: 2025 m. Baltijos elektros sistema galutinai atsijungė nuo Rusijos ir prisijungė prie Europos tinklo, beveik metais anksčiau nei planuota [E1 p.4].", en: "Benefit to society – energy security: in 2025 the Baltic power system finally disconnected from Russia and joined the European grid, almost a year ahead of plan [E1 p.4]."}
     - {lt: "Grupės tarša nuo 2020 m. sumažėjo 47 % [E1 p.92].", en: "Group emissions are down 47% since 2020 [E1 p.92]."}
     - {lt: "Tvarumo ataskaitą tikrino auditorius KPMG [E1 p.8].", en: "The sustainability report was checked by the auditor KPMG [E1 p.8]."}
   bad:

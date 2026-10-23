@@ -60,6 +60,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei: būsto garantijos šeimoms, kariams ir jauniems specialistams – 58 mln. EUR naujų sandorių 2025 m. [E1 p.8].", en: "Benefit to society: housing guarantees for families, military service members and young specialists – EUR 58 million of new deals in 2025 [E1 p.8]."}
     - {lt: "Valstybės bankas, kurio darbas – finansuoti naudingus projektus; 30 % naujų paskolų skirta aplinkai (2024 m. – 23 %) [E1 p.15].", en: "A state development bank; 30% of new loans went to environmental projects (23% in 2024) [E1 p.15]."}
     - {lt: "Finansuoti projektai kasmet sumažins taršą apie 21 tūkst. tonų [E1 p.16].", en: "Projects it financed will cut pollution by about 21 thousand tonnes a year [E1 p.16]."}
     - {lt: "Savo tarša maža ir nuo 2018 m. sumažėjo 64 % [E1 p.178].", en: "Its own emissions are small and down 64% since 2018 [E1 p.178]."}

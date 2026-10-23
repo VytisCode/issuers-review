@@ -124,6 +124,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei – energetinis saugumas: prisijungimas prie Europos elektros tinklo stiprina regiono energetinį saugumą ir panaikina Rusijos trikdymų galimybę [E1 p.4].", en: "Benefit to society – energy security: joining the European power grid strengthens the region's energy security and removes the possibility of disruption by Russia [E1 p.4]."}
     - {lt: "Aiškūs tikslai: elektrą gaminti neteršiant klimato iki 2040 m., visa veikla – iki 2050 m. [E1 p.26].", en: "Clear targets: climate-clean power by 2040, all operations by 2050 [E1 p.26]."}
     - {lt: "Dauguma tikslų vykdomi; 2025 m. išleido 400 mln. EUR žaliųjų obligacijų [E1 p.9].", en: "Most targets on track; issued EUR 400m of green bonds in 2025 [E1 p.9]."}
   bad:

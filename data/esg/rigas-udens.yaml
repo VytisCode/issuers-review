@@ -86,6 +86,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei: tiekia vandenį ir tvarko nuotekas daugiau nei pusei Latvijos gyventojų [E1 p.7].", en: "Benefit to society: provides water and wastewater services to more than half of Latvia's population [E1 p.7]."}
     - {lt: "Tikslas – iki 2040 m. per pusę sumažinti savo taršą [E1 p.68].", en: "Target: halve own emissions by 2040 [E1 p.68]."}
     - {lt: "2025 m. pirmoji pilna tvarumo ataskaita, ją tikrino auditorius [E1 p.2].", en: "First full sustainability report in 2025, checked by an auditor [E1 p.2]."}
     - {lt: "Dauguma metinių tikslų pasiekti [E2 p.46].", en: "Most annual targets met [E2 p.46]."}

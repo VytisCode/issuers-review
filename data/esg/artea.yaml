@@ -90,6 +90,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei: dauguma banko verslo klientų – mažos ir vidutinės įmonės; joms sukurta greitesnė paskola iki 200 tūkst. EUR be užstato (pradės teikti 2026 m.) [E1 p.65; E1 p.8].", en: "Benefit to society: most of the bank's business clients are small and medium-sized companies; it designed a faster unsecured loan of up to EUR 200 thousand for them (launch in 2026) [E1 p.65; E1 p.8]."}
     - {lt: "Įsipareigojo iki 2050 m. visiškai nustoti teršti klimatą ir tai daryti pagal tarptautinės organizacijos taisykles [E1 p.109].", en: "Committed to stop adding to climate pollution by 2050, following an international organisation's rules [E1 p.109]."}
     - {lt: "Savo tarša mažėja pagal planą: 606 → 534 t [E1 p.62].", en: "Own emissions are falling on plan: 606 → 534 t [E1 p.62]."}
     - {lt: "Žaliųjų paskolų beveik dvigubai daugiau: 49,6 → 85,1 mln. EUR [E1 p.62].", en: "Green loans almost doubled: EUR 49.6m → 85.1m [E1 p.62]."}

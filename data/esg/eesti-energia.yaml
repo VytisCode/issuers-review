@@ -104,6 +104,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei – energetinis saugumas: susitarimu su Estijos elektros perdavimo operatoriumi užtikrina 1 036 MW elektrinių galios, kurią galima paleisti bet kada, net jei Estija liktų atjungta nuo kaimynų [E1 p.5].", en: "Benefit to society – energy security: under an agreement with Estonia's grid operator it guarantees 1,036 MW of power plants that can run at any time, even if Estonia is cut off from its neighbours [E1 p.5]."}
     - {lt: "Planuoja iki 2045 m. visą energiją gaminti neteršiant klimato, iš skalūnų elektros gamybos pasitrauks ne vėliau kaip 2035 m. [E2 p.94; E2 p.24].", en: "Plans climate-clean energy by 2045 and will stop oil-shale power by 2035 at the latest [E2 p.94; E2 p.24]."}
     - {lt: "Savo tarša per 2 metus sumažėjo daugiau nei perpus: 6,9 → 2,9 mln. t [E2 p.94].", en: "Own emissions more than halved in 2 years: 6.9 → 2.9m t [E2 p.94]."}
     - {lt: "Taršos ribų viršijimų beveik nebeliko (2025 m. – vienas) [E1 p.24].", en: "Pollution limit breaches almost stopped (one in 2025) [E1 p.24]."}

@@ -79,6 +79,7 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
+    - {lt: "Nauda visuomenei: kooperatyvas vienija 1 210 Latvijos ūkininkų ir padeda jiems visame grūdų auginimo ir pardavimo cikle [E1 p.3; E1 p.6].", en: "Benefit to society: the cooperative unites 1,210 Latvian farmers and supports them across the whole grain growing and selling cycle [E1 p.3; E1 p.6]."}
     - {lt: "Pirmą kartą paskelbė tvarumo ataskaitą (pagal supaprastintą standartą mažesnėms įmonėms) [E1 p.3].", en: "Published its first sustainability report (under a simplified standard for smaller companies) [E1 p.3]."}
     - {lt: "Planuoja per 5 metus pusantro karto padidinti žaliosios energijos gamybą [E1 p.19].", en: "Plans to raise its own green energy output by half within 5 years [E1 p.19]."}
   bad:
