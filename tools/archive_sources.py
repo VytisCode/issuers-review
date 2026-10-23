@@ -10,7 +10,9 @@ Naudojimas: python tools/archive_sources.py            - sukuria trūkstamus pak
             python tools/archive_sources.py --local    - tik sukuria ZIP į build/sources/ (be įkėlimo)
 """
 import re
+import shutil
 import subprocess
+import tempfile
 import sys
 import time
 import urllib.request
@@ -46,6 +48,26 @@ def ext_for(url, ctype, data):
     return "." + m.group(1) if m else ".bin"
 
 
+CHROME = next((c for c in ("google-chrome", "chromium", "chromium-browser") if shutil.which(c)), None)
+
+
+def as_pdf(url, data, ext):
+    """Tinklalapį išsaugo PDF (savininko prašymas 2026-10-23: kad dokumentas išliktų, net jei svetainė dings).
+    Naudoja GitHub Actions turimą Chrome; nepavykus – paliekamas HTML."""
+    if ext != ".html" or not CHROME:
+        return data, ext
+    with tempfile.TemporaryDirectory() as td:
+        out = Path(td) / "page.pdf"
+        try:
+            subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer",
+                            "--virtual-time-budget=8000", f"--print-to-pdf={out}", url], timeout=120, capture_output=True)
+            if out.exists() and out.stat().st_size > 1000:
+                return out.read_bytes(), ".pdf"
+        except Exception:  # noqa: BLE001
+            pass
+    return data, ext
+
+
 def safe(s, n=70):
     s = re.sub(r"[^\w\-. ]+", "", s, flags=re.UNICODE).strip().replace(" ", "_")
     return s[:n] or "doc"
@@ -71,7 +93,8 @@ def build_zip(issuer, rep):
                 continue
             try:
                 data, ctype = fetch(url)
-                fn = f"{key}_{safe(title)}{ext_for(url, ctype, data)}"
+                data, ext = as_pdf(url, data, ext_for(url, ctype, data))
+                fn = f"{key}_{safe(title)}{ext}"
                 z.writestr(fn, data)
                 seen[url] = fn
                 ok += 1

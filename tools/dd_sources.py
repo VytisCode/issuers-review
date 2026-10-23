@@ -32,7 +32,8 @@ def run():
                     continue
                 try:
                     data, ctype = A.fetch(s["url"])
-                    fn = f"{s['key']}_{A.safe(s['title'], 60)}{A.ext_for(s['url'], ctype, data)}"
+                    data, ext = A.as_pdf(s["url"], data, A.ext_for(s["url"], ctype, data))
+                    fn = f"{s['key']}_{A.safe(s['title'], 60)}{ext}"
                     z.writestr(fn, data)
                     lines.append(line + f"  -> {fn}")
                     ok += 1
