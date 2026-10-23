@@ -86,8 +86,9 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
-    - {lt: "Tikslas – klimato neutralumas iki 2050 m.; savo išmetimai jau sumažėjo 42 % nuo 2019 m. (tikslas −55 % iki 2030 m.) [E1 p.22; E1 p.21].", en: "Target: climate neutral by 2050; own emissions already down 42% since 2019 (target −55% by 2030) [E1 p.22; E1 p.21]."}
+    - {lt: "Tikslas – klimato neutralumas iki 2050 m.; savo tarša jau sumažėjo 42 % nuo 2019 m. (tikslas −55 % iki 2030 m.) [E1 p.22; E1 p.21].", en: "Target: climate neutral by 2050; own emissions already down 42% since 2019 (target −55% by 2030) [E1 p.22; E1 p.21]."}
     - {lt: "Iki 2030 m. įrengs elektros tiekimą iš kranto kruiziniams laivams [E1 p.18].", en: "By 2030 it will install shore power for cruise ships [E1 p.18]."}
   bad:
     - {lt: "Ataskaitos niekas netikrino – ji savanoriška [E1 p.4].", en: "Nobody checked the report – it is voluntary [E1 p.4]."}
   means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}
+  seb: {status: ok, lt: "Gairės laivybai prašo taršos mažinimo plano ir kasmetinių skaičių – jie yra.", en: "The shipping guidelines ask for a pollution plan and yearly figures – both are there."}

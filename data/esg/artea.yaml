@@ -90,10 +90,11 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
-    - {lt: "Įsipareigojo pasiekti nulinius išmetimus iki 2050 m. pagal tarptautinę SBTi sistemą [E1 p.109].", en: "Committed to net zero by 2050 under the international SBTi framework [E1 p.109]."}
-    - {lt: "Savo išmetimai mažėja pagal planą: 606 → 534 t [E1 p.62].", en: "Own emissions are falling on plan: 606 → 534 t [E1 p.62]."}
+    - {lt: "Įsipareigojo iki 2050 m. visiškai nustoti teršti klimatą ir tai daryti pagal tarptautinės organizacijos taisykles [E1 p.109].", en: "Committed to stop adding to climate pollution by 2050, following an international organisation's rules [E1 p.109]."}
+    - {lt: "Savo tarša mažėja pagal planą: 606 → 534 t [E1 p.62].", en: "Own emissions are falling on plan: 606 → 534 t [E1 p.62]."}
     - {lt: "Žaliųjų paskolų beveik dvigubai daugiau: 49,6 → 85,1 mln. EUR [E1 p.62].", en: "Green loans almost doubled: EUR 49.6m → 85.1m [E1 p.62]."}
   bad:
-    - {lt: "Klientų, kuriems bankas skolina, išmetimai išaugo 30 %, o tikslo jiems mažinti dar nėra (bus iki 2027 m. vidurio) [E1 p.115; E1 p.65].", en: "Emissions of the bank's borrowers rose 30%, and there is no target for them yet (due by mid-2027) [E1 p.115; E1 p.65]."}
+    - {lt: "Klientų, kuriems bankas skolina, tarša išaugo 30 %, o tikslo jiems mažinti dar nėra (bus iki 2027 m. vidurio) [E1 p.115; E1 p.65].", en: "Emissions of the bank's borrowers rose 30%, and there is no target for them yet (due by mid-2027) [E1 p.115; E1 p.65]."}
     - {lt: "2024 m. ataskaitoje buvo klaida, bankas ją pats ištaisė [E1 p.56].", en: "The 2024 report had an error, which the bank corrected itself [E1 p.56]."}
   means: {lt: "Smulkmena. Rašyti dar anksti – patikrinti 2027 m., ar atsirado tikslas.", en: "Minor. Too early to write – check in 2027 that the target is set."}
+  seb: {status: mostly, lt: "Vienintelė spraga – gairės tikisi tikslo mažinti klientų taršą, o jo bankas dar neturi (bus iki 2027 m.).", en: "The one gap: the guidelines expect a target for borrowers' pollution, which the bank does not have yet (due by 2027)."}

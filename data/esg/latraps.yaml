@@ -82,6 +82,7 @@ brief:
     - {lt: "Pirmą kartą paskelbė tvarumo ataskaitą (pagal supaprastintą standartą mažesnėms įmonėms) [E1 p.3].", en: "Published its first sustainability report (under a simplified standard for smaller companies) [E1 p.3]."}
     - {lt: "Planuoja per 5 metus pusantro karto padidinti žaliosios energijos gamybą [E1 p.19].", en: "Plans to raise its own green energy output by half within 5 years [E1 p.19]."}
   bad:
-    - {lt: "Nėra tikslo mažinti išmetimus; išmetimai svyruoja priklausomai nuo derliaus [E1 p.22].", en: "No emission reduction target; emissions swing with the harvest [E1 p.22]."}
+    - {lt: "Nėra tikslo mažinti taršą; tarša svyruoja priklausomai nuo derliaus [E1 p.22].", en: "No emission reduction target; emissions swing with the harvest [E1 p.22]."}
     - {lt: "Klimato rizikos dar neįvertino [E1 p.18].", en: "Climate risk not assessed yet [E1 p.18]."}
   means: {lt: "Smulkmena. Rašyti dar anksti – kitais metais pažiūrėsime, ar atsiras tikslas.", en: "Minor. Too early to write – next year check for a target."}
+  seb: {status: mostly, lt: "Gairės tikisi taršos mažinimo tikslo ir klimato rizikos įvertinimo – jų dar nėra.", en: "The guidelines expect a pollution target and a climate risk review – not yet done."}

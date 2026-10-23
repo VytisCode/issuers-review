@@ -736,7 +736,7 @@
       legend: "Direction per year: Improving – most own targets and key metrics moved the right way; Mixed – some better, some worse; Worsening – mostly worse; Stable – little change; Limited data – the report gives too little to judge; Baseline year – first year reported, nothing to compare with.",
       summary: "Summary", framework: "Reporting and assurance", targets: "Own targets and progress", target: "Target", metrics: "Key metrics", metric: "Metric", unit: "Unit",
       evidence: "Evidence", allFacts: "All facts", concerns: "Gaps and concerns", sources: "Sources", why: "Why", policies: "SEB policies checked (internal only, not mentioned to the issuer)", questions: "Questions to the issuer",
-      sev: "How serious", good: "What is good", bad: "What is not", means: "What it means for us", brief: "In short", todoC: "What to do", byYear: "Details by year", details: "More detail", gaps: "What is wrong", gWhy: "Why it matters", gFix: "What would help", hint: "How the answer helps you", preview: "Email preview",
+      sev: "How serious", good: "What is good", bad: "Behind its own targets or missing", seb: "Our (SEB) guidelines", sebSt: { ok: "Meets", mostly: "Mostly meets", partly: "Partly" }, sebNote: "This is our own check against SEB's sustainability guidelines – the issuer is not told about them.", means: "What it means for us", brief: "In short", todoC: "What to do", byYear: "Details by year", details: "More detail", gaps: "What is wrong", gWhy: "Why it matters", gFix: "What would help", hint: "How the answer helps you", preview: "Email preview",
       dl: "⬇ Download email to issuer (.eml)", copy: "Copy email text", copied: "Copied.", back: "← ESG overview", edit: "✎ Edit ESG data", none: "No ESG data yet.",
       emailHint: "Opens in Outlook as a draft. English, no signature – add yours.", bond: "bonds", share: "shares", notReported: "not reported", calc: "own calculation",
       greetings: "Dear Investor Relations team,", intro: (n, ins) => `We hold ${n} ${ins} and are carrying out our annual review of the issuers in our portfolio, which includes a look at sustainability information.`,
@@ -747,7 +747,7 @@
       legend: "Kryptis pagal metus: Gerėja – dauguma savų tikslų ir pagrindinių rodiklių juda tinkama linkme; Nevienareikšmiška – vieni geriau, kiti blogiau; Blogėja – daugiausia blogiau; Stabilu – mažai pokyčių; Mažai duomenų – ataskaitoje per mažai informacijos įvertinti; Atskaitos metai – pirmi skelbti metai, nėra su kuo lyginti.",
       summary: "Santrauka", framework: "Atskaitomybė ir užtikrinimas", targets: "Savi tikslai ir pažanga", target: "Tikslas", metrics: "Pagrindiniai rodikliai", metric: "Rodiklis", unit: "Vnt.",
       evidence: "Įrodymai", allFacts: "Visi faktai", concerns: "Spragos ir rūpesčiai", sources: "Šaltiniai", why: "Kodėl", policies: "Patikrintos SEB politikos (tik vidiniam naudojimui, emitentui neminimos)", questions: "Klausimai emitentui",
-      sev: "Kiek rimta", good: "Kas gerai", bad: "Kas negerai", means: "Ką tai reiškia mums", brief: "Trumpai", todoC: "Ką daryti", byYear: "Išsamiau pagal metus", details: "Išsamiau", gaps: "Kas negerai", gWhy: "Kodėl svarbu", gFix: "Kas padėtų", hint: "Kaip atsakymas jums padės", preview: "Laiško peržiūra",
+      sev: "Kiek rimta", good: "Kas gerai", bad: "Kur atsilieka nuo savo tikslų ar ko trūksta", seb: "Mūsų (SEB) gairės", sebSt: { ok: "Atitinka", mostly: "Iš esmės atitinka", partly: "Iš dalies" }, sebNote: "Tai mūsų vidinis patikrinimas pagal SEB tvarumo gaires – emitentui jos neminimos.", means: "Ką tai reiškia mums", brief: "Trumpai", todoC: "Ką daryti", byYear: "Išsamiau pagal metus", details: "Išsamiau", gaps: "Kas negerai", gWhy: "Kodėl svarbu", gFix: "Kas padėtų", hint: "Kaip atsakymas jums padės", preview: "Laiško peržiūra",
       dl: "⬇ Atsisiųsti laišką emitentui (.eml)", copy: "Kopijuoti laiško tekstą", copied: "Nukopijuota.", back: "← ESG apžvalga", edit: "✎ Taisyti ESG duomenis", none: "ESG duomenų dar nėra.",
       emailHint: "Atsidaro Outlook kaip juodraštis. Anglų kalba, be parašo – pridėkite savo.", bond: "obligacijos", share: "akcijos", notReported: "neskelbiama", calc: "mūsų skaičiavimas" },
   };
@@ -768,8 +768,10 @@
   function esgBrief(r, compact) {
     const B = r.brief || {}; if (!B.good?.length && !B.bad?.length) return compact ? `<div class="small">${r.summary}</div>` : `<div class="verdict">${r.summary}</div>`;
     const ul = (cls, xs) => xs.length ? `<ul class="bl ${cls}">${xs.map(x => `<li>${x}</li>`).join("")}</ul>` : "";
-    if (compact) return ul("good", B.good) + ul("bad", B.bad);
+    const sb = B.seb && B.seb.t ? `<span class="chip ${B.seb.status === "partly" ? "warn" : "good"}">${esc(gx("sebSt")[B.seb.status] || B.seb.status)}</span> ${B.seb.t}` : "";
+    if (compact) return ul("good", B.good) + ul("bad", B.bad) + (sb ? `<div class="small sebl"><b>${gx("seb")}:</b> ${sb}</div>` : "");
     return `<div class="brief"><div><h3 class="good">✓ ${gx("good")}</h3>${ul("good", B.good)}</div><div><h3 class="warn">! ${gx("bad")}</h3>${ul("bad", B.bad)}</div></div>`
+      + (sb ? `<div class="card sebbox"><h3>${gx("seb")}</h3><p>${sb}</p><p class="muted small">${gx("sebNote")}</p></div>` : "")
       + (B.means ? `<div class="verdict means ${r.engagement.level === "engage" ? "v-action" : r.engagement.level === "watch" ? "v-watch" : ""}"><b>👉 ${gx("means")}:</b> ${B.means}</div>` : "");
   }
   function esgPage(arg) {
@@ -826,8 +828,7 @@
       <p>${gchip("trend", TRC, r.trend)} ${gchip("engage", ENC, e.level)}</p>
       ${esgBrief(r)}${r.brief?.good?.length ? `<details class="facts"><summary>${gx("details")}</summary><p class="small">${r.summary}</p></details>` : ""}
       ${e.level !== "none" ? `<div class="card engage"><h3>${gx("eng")}: ${esc(g.labels.engage[e.level])}${e.severity ? ` · ${gx("sev")}: <span class="chip ${SEV[e.severity] || "info"}">${esc((g.labels.severity || {})[e.severity] || e.severity)}</span>` : ""}</h3>
-        ${e.verdict ? `<p>${e.verdict}</p>` : ""}
-        ${e.issues.length ? `<h4>${gx("gaps")}</h4><ul class="gaps">${e.issues.map(i => `<li><b>${i.what}</b><div class="small"><span class="muted">${gx("gWhy")}:</span> ${i.why}</div><div class="small"><span class="muted">${gx("gFix")}:</span> ${i.fix}</div></li>`).join("")}</ul>` : `<p><b>${gx("why")}:</b> ${e.reason}</p>`}
+        ${r.brief?.good?.length ? "" : e.verdict ? `<p>${e.verdict}</p>` : `<p>${e.reason}</p>`}
         ${e.questions.length ? `<h4>${gx("questions")}</h4><ol>${e.questions.map((q, i) => `<li>${esc(q.q)}${e.hints[i] ? `<div class="hint small">💡 <b>${gx("hint")}:</b> ${e.hints[i]}</div>` : ""}</li>`).join("")}</ol>
         <details class="facts"><summary>${gx("preview")}</summary><pre class="mailpre">${esc(esgEmail(r).subject)}\n\n${esc(esgEmail(r).body)}</pre></details>
         <div class="row"><button class="btn primary code" id="gDl">${gx("dl")}</button><button class="btn" id="gCp">${gx("copy")}</button><span id="gMsg" class="runst ok"></span></div><p class="muted small">${gx("emailHint")}</p>` : ""}

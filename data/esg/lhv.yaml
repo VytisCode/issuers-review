@@ -88,7 +88,8 @@ brief:
   good:
     - {lt: "Tvarumo ataskaitą abu metus tikrino auditorius PwC [E1 p.59].", en: "The auditor PwC checked the sustainability report in both years [E1 p.59]."}
     - {lt: "Daugėja paskolų energiją taupantiems būstams: 24,3 → 29,3 % (tikslas 50 % iki 2030 m.) [E1 p.25; E1 p.20].", en: "More loans for energy-efficient homes: 24.3 → 29.3% (target 50% by 2030) [E1 p.25; E1 p.20]."}
-    - {lt: "Biurų elektra vis žalesnė, savi išmetimai mažėja [E1 p.24; E1 p.21].", en: "Office power is greener and own emissions are falling [E1 p.24; E1 p.21]."}
+    - {lt: "Biurų elektra vis žalesnė, sava tarša mažėja [E1 p.24; E1 p.21].", en: "Office power is greener and own emissions are falling [E1 p.24; E1 p.21]."}
   bad:
-    - {lt: "Klientų (paskolų) išmetimai auga kartu su paskolų portfeliu [E1 p.22].", en: "Borrowers' emissions grow with the loan book [E1 p.22]."}
+    - {lt: "Klientų (paskolų) tarša auga kartu su paskolų portfeliu [E1 p.22].", en: "Borrowers' emissions grow with the loan book [E1 p.22]."}
   means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}
+  seb: {status: ok, lt: "Turi klimato tikslus su datomis, skelbia klientų taršą, ataskaitą tikrina auditorius.", en: "Dated climate targets, discloses borrowers' pollution, audited report."}

@@ -119,8 +119,9 @@ engagement:
 brief:
   good:
     - {lt: "Bankas pats skelbia tikslų lentelę ir atvirai rodo, ko nepasiekė [E1 p.18].", en: "The bank publishes a target table and openly shows what it missed [E1 p.18]."}
-    - {lt: "Pasiekė: mažiau savo išmetimų, daugiau paskolų taupiems būstams, 305 mln. EUR tvaraus finansavimo [E1 p.18].", en: "Achieved: lower own emissions, more loans for efficient homes, EUR 305m of sustainable finance [E1 p.18]."}
-    - {lt: "Klientų išmetimai mažėja; ataskaitą tikrino auditorius PwC [E1 p.52; E1 p.182].", en: "Borrowers' emissions are falling; the auditor PwC checked the report [E1 p.52; E1 p.182]."}
+    - {lt: "Pasiekė: mažiau savo taršos, daugiau paskolų taupiems būstams, 305 mln. EUR tvaraus finansavimo [E1 p.18].", en: "Achieved: lower own emissions, more loans for efficient homes, EUR 305m of sustainable finance [E1 p.18]."}
+    - {lt: "Klientų tarša mažėja; ataskaitą tikrino auditorius PwC [E1 p.52; E1 p.182].", en: "Borrowers' emissions are falling; the auditor PwC checked the report [E1 p.52; E1 p.182]."}
   bad:
     - {lt: "Nepasiekti du tikslai: tik 75 % taršių klientų turi pertvarkos planus (tikslas 90 %), žalioji elektra 76 % (tikslas 100 %) [E1 p.18].", en: "Two targets missed: only 75% of high-emission borrowers have transition plans (target 90%), green power 76% (target 100%) [E1 p.18]."}
   means: {lt: "Smulkmena, rašyti nereikia.", en: "Minor, no need to write."}
+  seb: {status: ok, lt: "Skelbia klientų taršą ir tikslus, ataskaitą tikrina auditorius.", en: "Discloses borrowers' pollution and targets, audited report."}

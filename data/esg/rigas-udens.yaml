@@ -86,9 +86,10 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
-    - {lt: "Tikslas – iki 2040 m. per pusę sumažinti savo išmetimus [E1 p.68].", en: "Target: halve own emissions by 2040 [E1 p.68]."}
+    - {lt: "Tikslas – iki 2040 m. per pusę sumažinti savo taršą [E1 p.68].", en: "Target: halve own emissions by 2040 [E1 p.68]."}
     - {lt: "2025 m. pirmoji pilna tvarumo ataskaita, ją tikrino auditorius [E1 p.2].", en: "First full sustainability report in 2025, checked by an auditor [E1 p.2]."}
     - {lt: "Dauguma metinių tikslų pasiekti [E2 p.46].", en: "Most annual targets met [E2 p.46]."}
   bad:
     - {lt: "Vamzdynuose prarandama daugiau vandens nei planuota; skaičiavimas bus pataisytas 2026 m. [E2 p.46; E1 p.99].", en: "More water is lost in the pipes than planned; the calculation will be revised in 2026 [E2 p.46; E1 p.99]."}
   means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}
+  seb: {status: ok, lt: "Ataskaita su auditu, taršos tikslai, korupcijos atvejų nėra.", en: "Audited report, pollution targets, no corruption cases."}

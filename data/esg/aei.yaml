@@ -39,5 +39,6 @@ brief:
     - {lt: "Pinigus skolinasi žaliosiomis obligacijomis, apie poveikį skelbia atskirą ataskaitą [E1 p.66].", en: "It borrows through green bonds and publishes a separate impact report [E1 p.66]."}
     - {lt: "Turi elgesio kodeksą sau ir tiekėjams [E1 p.66].", en: "It has a code of conduct for itself and its suppliers [E1 p.66]."}
   bad:
-    - {lt: "Metinėje ataskaitoje nėra skaičių, kiek CO2 padeda išvengti – jie tik atskiroje poveikio ataskaitoje.", en: "The annual report has no figures on CO2 avoided – they are only in the separate impact report."}
+    - {lt: "Metinėje ataskaitoje nėra skaičių, kiek taršos padeda išvengti – jie tik atskiroje poveikio ataskaitoje.", en: "The annual report has no figures on CO2 avoided – they are only in the separate impact report."}
   means: {lt: "Viskas gerai, nieko daryti nereikia.", en: "All fine, nothing to do."}
+  seb: {status: ok, lt: "Draudžiamos veiklos nėra; žalioji energija – būtent tai, ką gairės skatina.", en: "No restricted activity; green energy is exactly what the guidelines encourage."}

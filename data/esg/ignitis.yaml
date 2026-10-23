@@ -117,9 +117,10 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
-    - {lt: "Turi tarptautiškai patvirtintus (SBTi) klimato tikslus ir planą nulinius išmetimus pasiekti 2040–2050 m. [E1 p.29; E1 p.196].", en: "Has internationally approved (SBTi) climate targets and a plan for net zero by 2040–2050 [E1 p.29; E1 p.196]."}
+    - {lt: "Turi tarptautinės organizacijos patikrintus taršos mažinimo tikslus ir planą 2040–2050 m. visiškai nustoti teršti klimatą [E1 p.29; E1 p.196].", en: "Has pollution targets checked by an international organisation and a plan to stop adding climate pollution by 2040–2050 [E1 p.29; E1 p.196]."}
     - {lt: "Sparčiai stato vėjo ir saulės elektrines [E1 p.29].", en: "Building wind and solar plants fast [E1 p.29]."}
     - {lt: "Saugos ir socialiniai tikslai vykdomi.", en: "Safety and social targets are on track."}
   bad:
-    - {lt: "2025 m. išmetimai išaugo (+55 %), nes Elektrėnų dujų elektrinė teikė tinklo balansavimo paslaugas po prisijungimo prie Europos elektros tinklo. Įmonė sako, kad tai laikina [E1 p.29; E1 p.198].", en: "2025 emissions rose (+55%) because the Elektrėnai gas plant provided grid balancing after joining the European grid. The company says this is temporary [E1 p.29; E1 p.198]."}
-  means: {lt: "Viskas gerai, rašyti nereikia. 2026 m. pažiūrėsime, ar išmetimai vėl mažėja.", en: "All fine, no need to write. In 2026 check that emissions fall again."}
+    - {lt: "2025 m. tarša išaugo (+55 %), nes Elektrėnų dujų elektrinė padėjo išlaikyti stabilų elektros tinklą po prisijungimo prie Europos tinklo. Įmonė sako, kad tai laikina [E1 p.29; E1 p.198].", en: "2025 emissions rose (+55%) because the Elektrėnai gas plant provided grid balancing after joining the European grid. The company says this is temporary [E1 p.29; E1 p.198]."}
+  means: {lt: "Viskas gerai, rašyti nereikia. 2026 m. pažiūrėsime, ar tarša vėl mažėja.", en: "All fine, no need to write. In 2026 check that emissions fall again."}
+  seb: {status: ok, lt: "Gairės energetikai reikalauja skelbti visą taršą, turėti trumpo ir ilgo laikotarpio tikslus ir pertvarkos planą – visa tai yra.", en: "The energy guidelines require full pollution disclosure, short- and long-term targets and a transition plan – all are in place."}

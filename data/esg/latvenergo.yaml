@@ -124,8 +124,9 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
-    - {lt: "Aiškūs tikslai: elektros gamyba be CO2 iki 2040 m., visa veikla – iki 2050 m. [E1 p.26].", en: "Clear targets: CO2-free power by 2040, all operations by 2050 [E1 p.26]."}
+    - {lt: "Aiškūs tikslai: elektrą gaminti neteršiant klimato iki 2040 m., visa veikla – iki 2050 m. [E1 p.26].", en: "Clear targets: climate-clean power by 2040, all operations by 2050 [E1 p.26]."}
     - {lt: "Dauguma tikslų vykdomi; 2025 m. išleido 400 mln. EUR žaliųjų obligacijų [E1 p.9].", en: "Most targets on track; issued EUR 400m of green bonds in 2025 [E1 p.9]."}
   bad:
-    - {lt: "Keli tikslai atsilieka: elektros pardavimų išmetimai, vandens sąnaudos ir gyventojų parama vėjo ir saulės elektrinėms. Įmonė tai pati atvirai skelbia [E1 p.26; E1 p.28].", en: "A few targets lag: emissions from power sales, water use and public support for wind and solar. The company discloses this openly [E1 p.26; E1 p.28]."}
+    - {lt: "Keli tikslai atsilieka: elektros pardavimų tarša, vandens sąnaudos ir gyventojų parama vėjo ir saulės elektrinėms. Įmonė tai pati atvirai skelbia [E1 p.26; E1 p.28].", en: "A few targets lag: emissions from power sales, water use and public support for wind and solar. The company discloses this openly [E1 p.26; E1 p.28]."}
   means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}
+  seb: {status: ok, lt: "Gairės energetikai reikalauja skelbti taršą, turėti tikslus, planą ir aplinkosaugos sertifikatus – visa tai yra.", en: "The energy guidelines require pollution disclosure, targets, a plan and environmental certificates – all are in place."}

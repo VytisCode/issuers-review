@@ -94,8 +94,9 @@ engagement:
 brief:
   good:
     - {lt: "Visi metiniai tikslai įvykdyti, pvz., naujų žaliųjų paskolų 176 mln. EUR (tikslas 100 mln.) [E1 p.44].", en: "All annual targets met, e.g. EUR 176m of new green loans (target 100m) [E1 p.44]."}
-    - {lt: "Priimtas planas, kaip iki 2050 m. pasiekti nulinius išmetimus [E1 p.37].", en: "Adopted a plan to reach net zero by 2050 [E1 p.37]."}
-    - {lt: "Paskolų klientų išmetimai nedidėja [E1 p.44].", en: "Emissions of its borrowers are not rising [E1 p.44]."}
+    - {lt: "Priimtas planas, kaip iki 2050 m. visiškai nustoti teršti klimatą [E1 p.37].", en: "Adopted a plan to reach net zero by 2050 [E1 p.37]."}
+    - {lt: "Paskolų klientų tarša nedidėja [E1 p.44].", en: "Emissions of its borrowers are not rising [E1 p.44]."}
   bad:
-    - {lt: "Bendri „finansuojami“ išmetimai +12 %, bet tik todėl, kad bankas valdo daugiau klientų investicijų [E1 p.44].", en: "Total 'financed' emissions +12%, but only because the bank manages more client investments [E1 p.44]."}
+    - {lt: "Bendra su banku susijusi tarša +12 %, bet tik todėl, kad bankas valdo daugiau klientų investicijų [E1 p.44].", en: "Total pollution linked to the bank +12%, but only because the bank manages more client investments [E1 p.44]."}
   means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}
+  seb: {status: ok, lt: "Skelbia klientų taršą ir turi planą jai mažinti.", en: "Discloses borrowers' pollution and has a plan to cut it."}

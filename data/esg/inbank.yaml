@@ -61,6 +61,7 @@ brief:
     - {lt: "Bankas, kurio veikla mažai veikia klimatą [E1 p.24].", en: "A bank whose business has little climate impact [E1 p.24]."}
     - {lt: "Žaliosios paskolos (saulės elektrinės, šilumos siurbliai) Lenkijoje išaugo 63 % iki 146 mln. EUR [E1 p.14].", en: "Green loans (solar panels, heat pumps) in Poland grew 63% to EUR 146m [E1 p.14]."}
   bad:
-    - {lt: "Nėra jokių išmetimų skaičių ir tikslų.", en: "No emission figures or targets at all."}
+    - {lt: "Nėra jokių taršos skaičių ir tikslų.", en: "No emission figures or targets at all."}
     - {lt: "Žadėtos pilnos tvarumo ataskaitos nebus – pasikeitus taisyklėms ji bankui nebeprivaloma [E2 p.24; E1 p.23].", en: "The promised full sustainability report will not come – after a rule change it is no longer required [E2 p.24; E1 p.23]."}
   means: {lt: "Smulkmena. Rašyti nereikia.", en: "Minor. No need to write."}
+  seb: {status: mostly, lt: "Draudžiamos veiklos nėra, bet gairės tikisi taršos skaičių – jų nėra.", en: "No restricted activity, but the guidelines expect pollution figures – there are none."}

@@ -107,10 +107,11 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
-    - {lt: "Turi tarptautiškai patvirtintą (SBTi) tikslą iki 2030 m. 42 % sumažinti savo CO2 išmetimus (lyginant su 2021 m.) [E2 p.124].", en: "Has an internationally approved (SBTi) target to cut its own CO2 by 42% by 2030 (vs 2021) [E2 p.124]."}
+    - {lt: "Turi tarptautinės organizacijos patikrintą tikslą iki 2030 m. savo taršą sumažinti 42 % (lyginant su 2021 m.) [E2 p.124].", en: "Has a target checked by an international organisation to cut its own pollution by 42% by 2030 (vs 2021) [E2 p.124]."}
     - {lt: "Jau sumažino 24,5 % – greičiau nei reikia pagal planą [E1 p.72].", en: "Already down 24.5% – ahead of plan [E1 p.72]."}
     - {lt: "Tvarumo ataskaitą abu metus tikrino auditorius PwC [E1 p.54].", en: "The auditor PwC checked the sustainability report in both years [E1 p.54]."}
   bad:
     - {lt: "Išmetamo maisto daugėja: +15 % nuo 2023 m., nors tikslas – sumažinti 30 % [E1 p.81].", en: "Food waste is growing: +15% since 2023, while the target is −30% [E1 p.81]."}
     - {lt: "Nelaimingų atsitikimų darbe padaugėjo 13 % [E1 p.88].", en: "Work accidents rose 13% [E1 p.88]."}
   means: {lt: "Smulkmena, bet verta paklausti: 2026 m. planuojama nauja obligacijų emisija [E1 p.3]. Laiškas su 2 klausimais paruoštas žemiau.", en: "Minor, but worth asking: a new bond issue is planned for 2026 [E1 p.3]. A letter with 2 questions is ready below."}
+  seb: {status: ok, lt: "Draudžiamos veiklos nėra, tikslai ir ataskaita yra; tiekėjams taikomi žmogaus teisių reikalavimai.", en: "No restricted activity, targets and a report exist; suppliers must respect human rights."}

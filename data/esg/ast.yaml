@@ -81,8 +81,9 @@ engagement:
 # Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
 brief:
   good:
-    - {lt: "Grupės išmetimai nuo 2020 m. sumažėjo 47 % [E1 p.92].", en: "Group emissions are down 47% since 2020 [E1 p.92]."}
+    - {lt: "Grupės tarša nuo 2020 m. sumažėjo 47 % [E1 p.92].", en: "Group emissions are down 47% since 2020 [E1 p.92]."}
     - {lt: "Tvarumo ataskaitą tikrino auditorius KPMG [E1 p.8].", en: "The sustainability report was checked by the auditor KPMG [E1 p.8]."}
   bad:
-    - {lt: "Pats AST (be dukterinių įmonių) senojo tikslo nebepasieks: po prisijungimo prie Europos elektros tinklo išaugo elektros nuostoliai. Naujas planas žadamas 2026 m. I pusmetį [E1 p.86].", en: "AST itself (without subsidiaries) will miss its old target: grid losses rose after joining the European grid. A new plan is promised for H1 2026 [E1 p.86]."}
+    - {lt: "Pati AST (be dukterinių įmonių) senojo tikslo nebepasieks: po prisijungimo prie Europos elektros tinklo išaugo elektros nuostoliai. Naujas planas žadamas 2026 m. I pusmetį [E1 p.86].", en: "AST itself (without subsidiaries) will miss its old target: grid losses rose after joining the European grid. A new plan is promised for H1 2026 [E1 p.86]."}
   means: {lt: "Smulkmena. Rašyti nereikia – 2026 m. pažiūrėsime, ar paskelbtas naujas planas.", en: "Minor. No need to write – in 2026 check that the new plan is out."}
+  seb: {status: ok, lt: "Skelbia taršą, turi aplinkosaugos vadybos sertifikatus, ataskaitą tikrina auditorius.", en: "Discloses pollution, has environmental management certificates, the report is audited."}

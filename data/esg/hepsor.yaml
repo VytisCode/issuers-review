@@ -75,8 +75,9 @@ engagement:
 brief:
   good:
     - {lt: "Maža įmonė (26 darbuotojai), bet tvarumo ataskaitą skelbia jau 5 metus [E1 p.50].", en: "A small company (26 staff) that has published a sustainability report for 5 years [E1 p.50]."}
-    - {lt: "Skaičiuoja visų savo naujų pastatų CO2 pėdsaką [E1 p.52].", en: "It calculates the CO2 footprint of every new building [E1 p.52]."}
+    - {lt: "Skaičiuoja, kiek taršos sukuria kiekvienas naujas jos pastatas [E1 p.52].", en: "It calculates how much pollution each new building creates [E1 p.52]."}
   bad:
-    - {lt: "Nėra jokio tikslo mažinti išmetimus.", en: "No emission reduction target at all."}
+    - {lt: "Nėra jokio tikslo mažinti taršą.", en: "No emission reduction target at all."}
     - {lt: "Nėra elgesio ir antikorupcijos kodekso – aprašyta tik pinigų plovimo prevencija [E1 p.54].", en: "No code of conduct or anti-corruption policy – only anti-money-laundering rules [E1 p.54]."}
   means: {lt: "Smulkmena, bet lengvai pataisoma – galima išsiųsti trumpą laišką (paruoštas žemiau).", en: "Minor but easy to fix – you can send a short letter (ready below)."}
+  seb: {status: partly, lt: "Gairės nekilnojamajam turtui tikisi antikorupcijos taisyklių ir taršos mažinimo plano – jų nėra.", en: "The real estate guidelines expect anti-corruption rules and a pollution reduction plan – neither exists."}

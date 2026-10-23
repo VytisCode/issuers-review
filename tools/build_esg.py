@@ -118,7 +118,8 @@ def site(lang):
             "trend": e.get("trend", "limited"), "summary": h(e.get("summary")),
             # paprasta kalba: kas gerai / kas negerai / ką tai reiškia mums
             "brief": {"good": [h(x) for x in (e.get("brief") or {}).get("good", [])], "bad": [h(x) for x in (e.get("brief") or {}).get("bad", [])],
-                      "means": h((e.get("brief") or {}).get("means"))},
+                      "means": h((e.get("brief") or {}).get("means")),
+                      "seb": {"status": ((e.get("brief") or {}).get("seb") or {}).get("status", ""), "t": h((e.get("brief") or {}).get("seb"))}},
             "years": yr, "targets": targets, "metrics": metrics,
             "engagement": {"level": eng.get("level", "none"), "reason": h(eng.get("reason")),
                            "severity": eng.get("severity", ""), "verdict": h(eng.get("verdict")),
