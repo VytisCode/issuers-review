@@ -34,5 +34,13 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 8. Paleisk `python tools/build_reports.py` ir `python tools/build_site.py`; patikrink, kad be klaidų.
 9. Commit ir push į `main`. Savininkui – trumpai, kas pasikeitė nuo ankstesnės analizės.
 
+## ESG Engagement (metinė tvarumo peržiūra)
+- `data/esg/docs.yaml` – tvarumo ataskaitų nuorodos (FY metai); `.github/workflows/esg-docs.yml` (`tools/fetch_esg_docs.py`) jas parsisiunčia į šaką `esg-text` (`text/` = pdftotext -layout, `raw/` = skaitymo tvarka, žymės `=== pdf p.N ===`, `manifest.json`). Neįskaitomi šriftai arba puslapiai be teksto → OCR (tesseract), ESEF (ZIP/XHTML, pdf2htmlEX) – be PDF puslapių nuorodų.
+- `data/esg/<emitentas>.yaml` – `sources` (E1 = naujausi metai), `years.FY20xx` (trend, framework, assurance, summary, evidence[p E/S/G], concerns), `targets` (status: met/on_track/behind/missed/new/no_data/changed), `metrics` (FY2023–FY2025, `src: "E1 p.N"`), `engagement`.
+- Vertinama tik pagal paties emitento tikslus ir ankstesnius metus, emitentai nelyginami. Kiekvienas teiginys – su `[E# p.N]`; FY2024 rodikliai gali būti iš FY2025 palyginamųjų (pažymėti perskaičiavimus).
+- `engagement`: `level` none/watch/engage; `severity` minor/moderate/major + `verdict` (trumpas vertinimas savininkui); `issues` [{what, why, fix}] – paprasti punktai; `questions` [{q (EN, mandagus klausimas, be SEB politikų, nesiremiant prielaidomis), hint {lt,en} – kaip atsakymas padės}]; `noticed` – laiško įžanga apie emitentą; `subject`. SEB politikos – tik vidiniam vertinimui. Engagement – tik realioms spragoms, švelniai.
+- `tools/build_esg.py` – svetainės ESG duomenys ir Excel `docs/files/esg_engagement_{lt,en}.xlsx` (paleidžiamas per `build_site.py`).
+- Savo apskaičiuoti skaičiai tekste – „mūsų skaičiavimas“ / „own calculation“ (ne „įrankio“).
+
 ## Patikra prieš push
 `python tools/build_reports.py && python tools/build_site.py` be klaidų; jei keistas `site/` – atidaryti `docs/index.html` naršyklėje (Playwright) be JS klaidų.
