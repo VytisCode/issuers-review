@@ -1,0 +1,91 @@
+# ESG Engagement: Maxima Grupė. Puslapiai - PDF puslapiai.
+issuer: maxima
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Maxima Grupė Consolidated Management Report 2025 (with Sustainability Statement)", url: "https://www.maximagrupe.eu/uploads/2026%20konsoliduotos%20vadovyb%C4%97s%20ataskaitos/2026%2004%2007%20Consolidated%20Management%20Report%202025%201.pdf", date: 2026-04}
+  E2: {title: "Maxima Grupė Consolidated Management Report 2024 (with Sustainability Statement)", url: "https://www.maximagrupe.eu/uploads/2025%20ataskaitos/MXG%20Consolidated%20Management%20Report%202024%20(signed).pdf", date: 2025-04}
+trend: mixed
+summary:
+  lt: "SBTi patvirtintas tikslas – Scope 1+2 −42 % iki 2030 m. nuo 2021 m.; pasiekta −13,2 % (2024 m.) ir −24,5 % (2025 m.) [E2 p.124; E1 p.72]. ESRS ataskaita su ribotu PwC užtikrinimu abu metus [E2 p.88; E1 p.54]. Tačiau maisto atliekos Baltijos šalyse auga (+15 % nuo 2023 m., tikslas −30 %), o nelaimingų atsitikimų dažnis (TRIR) 2025 m. +13 % [E1 p.81; E1 p.88]."
+  en: "SBTi-validated target of Scope 1+2 −42% by 2030 vs 2021; achieved −13.2% (2024) and −24.5% (2025) [E2 p.124; E1 p.72]. ESRS statement with PwC limited assurance in both years [E2 p.88; E1 p.54]. However, food waste in the Baltics is rising (+15% vs 2023 against a −30% target), and TRIR rose 13% in 2025 [E1 p.81; E1 p.88]."
+years:
+  FY2025:
+    trend: mixed
+    framework:
+      lt: "Tvarumo ataskaita pagal ESRS, riboto užtikrinimo patikra – PwC [E1 p.54]. Atnaujintas dvigubo reikšmingumo vertinimas [E1 p.3]. Lenkijos ir Bulgarijos tinklai 2025 m. pabaigoje parduoti akcininko įmonei [E1 p.3]."
+      en: "Sustainability statement under ESRS, limited assurance by PwC [E1 p.54]. Double materiality assessment updated [E1 p.3]. The Polish and Bulgarian chains were sold to the shareholder's company at end-2025 [E1 p.3]."
+    assurance: limited
+    summary:
+      lt: "Scope 1 −22,5 %, Scope 2 (rinkos metodas) −7,3 %, Scope 3 −0,3 % [E1 p.74]. Saugos rodikliai nevienodi: sunkių traumų 16 → 4, bet TRIR 7,01 → 7,88 [E1 p.88]. Maisto atliekos Baltijos šalyse 14 227 t (tikslas – mažėjimas) [E1 p.81]."
+      en: "Scope 1 −22.5%, Scope 2 (market-based) −7.3%, Scope 3 −0.3% [E1 p.74]. Safety is mixed: high-consequence injuries 16 → 4, but TRIR 7.01 → 7.88 [E1 p.88]. Baltic food waste 14,227 t (target: reduction) [E1 p.81]."
+    evidence:
+      - {p: E, lt: "Scope 1+2 −24,5 % nuo 2021 m. bazės (tikslas −42 % iki 2030 m.) [E1 p.72].", en: "Scope 1+2 −24.5% vs the 2021 base (target −42% by 2030) [E1 p.72]."}
+      - {p: E, lt: "145 parduotuvės su CO2 arba vandens kontūro šaldymo sistemomis (2024 m. 118), iš jų 122 Baltijos šalyse [E1 p.72].", en: "145 stores with CO2-based or water-loop refrigeration (2024: 118), 122 of them in the Baltics [E1 p.72]."}
+      - {p: E, lt: "Tiekėjai su SBTi patvirtintais tikslais dengia 17,3 % Scope 3 (2024 m. 14,1 %) [E1 p.73].", en: "Suppliers with SBTi-approved targets cover 17.3% of Scope 3 (2024: 14.1%) [E1 p.73]."}
+      - {p: E, lt: "Priimta Politika be miškų naikinimo (kava, palmių aliejus, soja, guma, mediena; EUDR) [E1 p.79].", en: "Deforestation-free Policy adopted (coffee, palm oil, soy, rubber, wood; EUDR) [E1 p.79]."}
+      - {p: S, lt: "Mirtinų nelaimingų atsitikimų 0; sunkių traumų 4 (2024 m. 16) [E1 p.88].", en: "Zero fatalities; high-consequence injuries 4 (2024: 16) [E1 p.88]."}
+      - {p: S, lt: "Paaukota apie 3,1 tūkst. t maisto [E1 p.3].", en: "About 3.1 thousand t of food donated [E1 p.3]."}
+      - {p: G, lt: "Korupcijos atvejų nepatvirtinta; du tyrimai nepasitvirtino [E1 p.95].", en: "No corruption cases confirmed; two investigations were not substantiated [E1 p.95]."}
+    concerns:
+      - {lt: "Maisto atliekos Baltijos šalyse: 12 412 t (2023 m.) → 13 918 t → 14 227 t, +15 % nuo bazės, kai tikslas −30 % iki 2030 m. [E1 p.81].", en: "Baltic food waste: 12,412 t (2023) → 13,918 t → 14,227 t, +15% vs base against a −30% target for 2030 [E1 p.81]."}
+      - {lt: "Registruotų nelaimingų atsitikimų 484 (2024 m. 457), TRIR 7,88 (+13 %) [E1 p.88].", en: "Recordable work accidents 484 (2024: 457), TRIR 7.88 (+13%) [E1 p.88]."}
+      - {lt: "Rašytinių su klimatu susijusių politikų nėra [E1 p.72].", en: "No written climate-related policies [E1 p.72]."}
+  FY2024:
+    trend: mixed
+    framework:
+      lt: "Pirmoji tvarumo ataskaita pagal ESRS, riboto užtikrinimo patikra – PwC [E2 p.88]. Pataisytos ankstesnio laikotarpio atliekų ir ŠESD klaidos [E2 p.92]."
+      en: "First sustainability statement under ESRS, limited assurance by PwC [E2 p.88]. Errors in prior-period waste and GHG metrics restated [E2 p.92]."
+    assurance: limited
+    summary:
+      lt: "Scope 1 −13 %, Scope 2 (rinkos metodas) −13,4 %, bet Scope 3 +10,5 % [E2 p.128]. Paaukota 4 207 t maisto (+13 %), tačiau maisto atliekos Baltijos šalyse +12 % [E2 p.146]. Sunkių traumų 4 → 16 [E2 p.159]."
+      en: "Scope 1 −13% and Scope 2 (market-based) −13.4%, but Scope 3 +10.5% [E2 p.128]. 4,207 t of food donated (+13%), but Baltic food waste +12% [E2 p.146]. High-consequence injuries 4 → 16 [E2 p.159]."
+    evidence:
+      - {p: E, lt: "SBTi patvirtino tikslus: Scope 1+2 −42 % iki 2030 m.; 78,3 % tiekėjų (pagal išmetimus) turės SBT iki 2027 m. [E2 p.124].", en: "SBTi validated targets: Scope 1+2 −42% by 2030; 78.3% of suppliers (by emissions) to have SBTs by 2027 [E2 p.124]."}
+      - {p: E, lt: "Šaldymo agentų nuotėkio išmetimai 66 993 t (2023 m. 80 339 t); Baltijos šalyse iki 2030 m. – jokių šaldymo agentų su GWP >1 800 [E2 p.123; E2 p.124].", en: "Refrigerant leakage emissions 66,993 t (2023: 80,339 t); Baltics to use no refrigerants with GWP >1,800 by 2030 [E2 p.123; E2 p.124]."}
+      - {p: S, lt: "Mirtinų nelaimingų atsitikimų 0; TRIR 7,01 (2023 m. 6,98) [E2 p.159].", en: "Zero fatalities; TRIR 7.01 (2023: 6.98) [E2 p.159]."}
+      - {p: S, lt: "Paaukota 4 207 t maisto (2023 m. 3 727 t) [E2 p.147].", en: "4,207 t of food donated (2023: 3,727 t) [E2 p.147]."}
+      - {p: G, lt: "Patvirtintas vienas piktnaudžiavimo teisėmis atvejis, darbo santykiai nutraukti, baudų nebuvo [E2 p.178].", en: "One case of abuse of rights confirmed; employment terminated; no fines [E2 p.178]."}
+    concerns:
+      - {lt: "Scope 3 +10,5 % (pirktos prekės +10 %, ilgalaikis turtas +113 %) [E2 p.128].", en: "Scope 3 +10.5% (purchased goods +10%, capital goods +113%) [E2 p.128]."}
+      - {lt: "Maisto atliekos Baltijos šalyse +12 % nuo 2023 m. bazės [E2 p.146].", en: "Baltic food waste +12% vs the 2023 base [E2 p.146]."}
+      - {lt: "Sunkių traumų 16 (2023 m. 4); profesinių ligų atvejų 123 (2023 m. 27) [E2 p.159].", en: "High-consequence injuries 16 (2023: 4); recordable ill-health cases 123 (2023: 27) [E2 p.159]."}
+targets:
+  - p: E
+    name: {lt: "Scope 1+2 (rinkos metodas) −42 % iki 2030 m. nuo 2021 m. (SBTi, 1,5 °C)", en: "Scope 1+2 (market-based) −42% by 2030 vs 2021 (SBTi, 1.5 °C)"}
+    FY2024: {lt: "−13,2 % [E2 p.124]", en: "−13.2% [E2 p.124]"}
+    FY2025: {lt: "−24,5 % [E1 p.72]", en: "−24.5% [E1 p.72]"}
+    status: on_track
+  - p: E
+    name: {lt: "78,3 % tiekėjų (pagal išmetimus) su moksliškai pagrįstais tikslais iki 2027 m.", en: "78.3% of suppliers (by emissions) with science-based targets by 2027"}
+    FY2024: {lt: "Pažanga 16,0 % [E2 p.124]", en: "Progress 16.0% [E2 p.124]"}
+    FY2025: {lt: "SBTi tikslai – 19,0 % 1 kat. išmetimų [E1 p.73]", en: "SBTi targets cover 19.0% of Cat. 1 emissions [E1 p.73]"}
+    status: behind
+  - p: E
+    name: {lt: "Maisto atliekos Baltijos šalyse −30 % iki 2030 m. nuo 2023 m.", en: "Baltic food waste −30% by 2030 vs 2023"}
+    FY2024: {lt: "+12 % [E2 p.146]", en: "+12% [E2 p.146]"}
+    FY2025: {lt: "+15 % [E1 p.81]", en: "+15% [E1 p.81]"}
+    status: behind
+  - p: E
+    name: {lt: "Baltijos šalyse iki 2030 m. nenaudoti šaldymo agentų su GWP >1 800", en: "No refrigerants with GWP >1,800 in the Baltics by 2030"}
+    FY2024: {lt: "Tikslas nustatytas [E2 p.124]", en: "Target set [E2 p.124]"}
+    FY2025: {lt: "145 parduotuvės su CO2 / vandens kontūro sistemomis [E1 p.72]", en: "145 stores with CO2 / water-loop systems [E1 p.72]"}
+    status: on_track
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2e", better: down, FY2023: {v: 105561, src: "E2 p.128"}, FY2024: {v: 91793, src: "E1 p.74"}, FY2025: {v: 71121, src: "E1 p.74"}}
+  - {p: E, name: {lt: "Scope 2 (rinkos metodas)", en: "Scope 2 (market-based)"}, unit: "t CO2e", better: down, FY2023: {v: 174759, src: "E2 p.128"}, FY2024: {v: 151368, src: "E1 p.74"}, FY2025: {v: 140364, src: "E1 p.74"}}
+  - {p: E, name: {lt: "Scope 3 išmetimai", en: "Scope 3 emissions"}, unit: "t CO2e", better: down, FY2023: {v: 4454832, src: "E2 p.128"}, FY2024: {v: 4924483, src: "E1 p.74"}, FY2025: {v: 4909330, src: "E1 p.74"}}
+  - {p: E, name: {lt: "Maisto atliekos (Baltijos šalys)", en: "Food waste (Baltics)"}, unit: "t", better: down, FY2023: {v: 12412, src: "E1 p.81"}, FY2024: {v: 13918, src: "E1 p.81"}, FY2025: {v: 14227, src: "E1 p.81"}}
+  - {p: S, name: {lt: "TRIR (registruoti nelaimingi atsitikimai / 1 mln. val.)", en: "TRIR (recordable accidents per 1m hours)"}, unit: "", better: down, FY2023: {v: 6.98, src: "E2 p.159"}, FY2024: {v: 7.01, src: "E1 p.88"}, FY2025: {v: 7.88, src: "E1 p.88"}}
+  - {p: S, name: {lt: "Sunkios traumos darbe", en: "High-consequence work injuries"}, unit: "", better: down, FY2023: {v: 4, src: "E2 p.159"}, FY2024: {v: 16, src: "E1 p.88"}, FY2025: {v: 4, src: "E1 p.88"}}
+  - {p: S, name: {lt: "Paaukota maisto", en: "Food donated"}, unit: "t", better: up, FY2023: {v: 3727, src: "E2 p.147"}, FY2024: {v: 4207, src: "E1 p.81"}, FY2025: {v: 3097, src: "E1 p.81", note: {lt: "visa grupė; Lenkija ir Bulgarija parduotos metų pabaigoje", en: "whole group; Poland and Bulgaria sold at year-end"}}}
+engagement:
+  level: engage
+  policies: [investments, agriculture, climate_nature, human_rights]
+  reason:
+    lt: "Klimato tikslai (SBTi) ir miškų naikinimo politika atitinka SEB lūkesčius [E1 p.72; E1 p.79]. Tačiau du metus iš eilės blogėja paties emitento tikslas mažinti maisto atliekas (+15 % vs −30 %), o TRIR 2025 m. išaugo 13 % – SEB žmogaus teisių politika tikisi saugos valdymo [E1 p.81; E1 p.88]. Prieš planuojamą 2026 m. obligacijų emisiją [E1 p.3] verta paklausti apie veiksmų planą."
+    en: "Climate targets (SBTi) and the deforestation policy meet SEB expectations [E1 p.72; E1 p.79]. However, the issuer's own food-waste target has moved the wrong way two years in a row (+15% vs −30%), and TRIR rose 13% in 2025; the SEB human rights policy expects health and safety management [E1 p.81; E1 p.88]. With a new bond planned for 2026 [E1 p.3], it is worth asking about the action plan."
+  subject: "Maxima Grupė: bondholder questions on food waste and workplace safety"
+  questions:
+    - "Food waste in your Baltic retail operations has risen by 15% against the 2023 base, while the target is −30% by 2030. What are the main drivers, and which measures and interim milestones will bring the trend back on track?"
+    - "TRIR rose from 7.01 to 7.88 in 2025. What are the main causes of the increase, and what actions and targets are planned for 2026?"
+    - "Supplier coverage by science-based targets is 19% of Category 1 emissions against your 78.3% target for 2027. How do you plan to close this gap?"
