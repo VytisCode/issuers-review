@@ -341,3 +341,6 @@ ul.bl.good li::marker { content: "✓  "; color: var(--good); } ul.bl.bad li::ma
 .sebbox { margin: 0 0 12px; } .sebbox h3 { margin: 0 0 4px; font-size: 15px; } .sebbox p { margin: 4px 0; }
 .sebl { margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--line); }
 abbr.gl { text-decoration: underline dotted var(--muted); text-underline-offset: 3px; cursor: help; }
+.sxl { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.sxwrap { margin: 8px 0; padding: 10px 12px; }
+.sxwrap h3 { margin-top: 0; font-size: 1rem; }

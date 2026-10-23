@@ -408,7 +408,7 @@
       <h3>${t("financials")}</h3><ul class="b">${(X.financials || []).map(s => `<li>${s}</li>`).join("")}</ul></details>`;
     h += `<h2 id="sec-esg">ESG report</h2><div class="esg">${(X.esg || []).map(s => `<h3>${esc(s.heading)}</h3>${s.items.map(q => `
       <p class="q"><span class="box">${q.status === "yes" ? "☑" : "☐"}</span> ${esc(q.q)}</p>
-      <div class="ev">${q.status === "review" ? `<span class="chip warn">${t("needsReview")}</span>` : ""}${(q.points || []).map(g => `${g.label ? `<div class="evl">${esc(g.label)}</div>` : ""}<ul class="b">${g.items.map(x => `<li>${x}</li>`).join("")}</ul>`).join("")}</div>`).join("")}
+      <div class="ev">${q.status === "review" ? `<span class="chip warn">${t("needsReview")}</span>` : ""}${(q.points || []).map(g => `${g.label ? `<div class="evl">${esc(g.label)}</div>` : ""}<ul class="b">${g.items.map(x => `<li>${x}</li>`).join("")}</ul>`).join("")}${q.id === "sanctions" ? `<div class="card sxwrap">${sancBox(i.name)}</div>` : ""}</div>`).join("")}
       ${s.note ? `<p class="esgnote">${esc(s.note)}</p>` : ""}<p><b>Additional comments:</b></p>`).join("")}
       <p><b>Conclusion:</b> ${X.esg_conclusion || ""}</p></div>`;
     const nw = D.news.filter(n => n.issuer === id).slice(0, 15);
@@ -674,10 +674,10 @@
   /* ---------- laiškas kolegoms (be AI, iš apžvalgų verdiktų) ---------- */
   const MX = {
     en: { title: "Email to colleagues", sub: "Drafted automatically (no AI) from the verdicts of the latest reviews: more space for issuers that need attention, one line for stable ones, plus maturities and calls in the next 12 months. Edit the text directly below, then copy it into Outlook.",
-      lang: "Email language", sp: "SharePoint link", spHint: "Paste the link to the SharePoint folder. It is stored only in this browser, never in the public website.", subj: "Subject",
+      lang: "Email language", subj: "Subject",
       copyS: "Copy subject", copyB: "Copy email", copied: "Copied – paste into Outlook (Ctrl+V).", fail: "Copy failed – select the text and press Ctrl+C.", reset: "Restore generated text" },
     lt: { title: "Laiškas kolegoms", sub: "Paruošta automatiškai (be AI) iš naujausių apžvalgų verdiktų: daugiau vietos emitentams, kuriems reikia dėmesio, stabiliems – viena eilutė, pabaigoje išpirkimai ir call datos per 12 mėn. Tekstą galite taisyti tiesiai žemiau, tada nukopijuokite į Outlook.",
-      lang: "Laiško kalba", sp: "SharePoint nuoroda", spHint: "Įklijuokite SharePoint aplanko nuorodą. Ji saugoma tik šioje naršyklėje, viešoje svetainėje neskelbiama.", subj: "Tema",
+      lang: "Laiško kalba", subj: "Tema",
       copyS: "Kopijuoti temą", copyB: "Kopijuoti laišką", copied: "Nukopijuota – įklijuokite į Outlook (Ctrl+V).", fail: "Nepavyko nukopijuoti – pažymėkite tekstą ir spauskite Ctrl+C.", reset: "Atkurti sugeneruotą tekstą" }
   };
   const mx = k => (MX[LANG] || MX.en)[k];
@@ -685,8 +685,6 @@
   function emailHtml(lg) {
     const e = D.email[lg]; if (!e) return "";
     const E = e.E, G = e.groups;
-    let sp = ""; try { sp = localStorage.getItem("sharepoint") || ""; } catch (x) { /* ignore */ }
-    const spLink = sp ? `<a href="${esc(sp)}">${E.sp}</a>` : `[${E.sp}]`;
     const P = "margin:0 0 10px", H = "margin:16px 0 6px;font-size:15px", UL = "margin:0 0 10px;padding-left:20px";
     const src = i => i.url ? ` (<a href="${esc(i.url)}">${E.src}</a>)` : "";
     const leafE = g => g ? " 🍃" : "";
@@ -694,16 +692,14 @@
     const ok = (G.ok || []).length ? `<p style="${H};color:#1b7f3b"><b>${E.ok}</b></p><ul style="${UL}">${G.ok.map(i => `<li><b>${esc(i.name)}</b> – ${esc(i.text)}</li>`).join("")}</ul>` : "";
     const soon = `<p style="${H}"><b>${E.mat}</b></p>` + (e.soon.length ? `<ul style="${UL}">${e.soon.map(x => `<li>${esc(x.date)} – ${esc(x.name)}${leafE(x.green)} (${esc(x.isin)}): ${esc(x.what)}${x.amount ? `, EUR ${esc(x.amount)}m` : ""}</li>`).join("")}</ul>` : `<p style="${P}">${E.none_mat}</p>`);
     return `<div style="font-family:Calibri,Arial,sans-serif;font-size:14px;line-height:1.45;color:#1b2430">
-      <p style="${P}">${E.hi}</p><p style="${P}">${E.intro.replace("{periods}", esc(e.periods)).replace("{n}", e.n).replace("{h}", e.h).replace("{sp}", spLink)}</p>
+      <p style="${P}">${E.hi}</p><p style="${P}">${E.intro.replace("{periods}", esc(e.periods)).replace("{n}", e.n).replace("{h}", e.h)}</p>
       <p style="${P}"><b>${E.glance.split("{")[0]}${E.glance.slice(E.glance.split("{")[0].length).split(" · ").map(x => [x, (G[{ "{a}": "action", "{w}": "watch", "{o}": "ok" }[(x.match(/\{[awo]\}/) || [""])[0]]] || []).length]).filter(([, c]) => c).map(([x, c]) => x.replace(/\{[awo]\}/, c)).join(" · ")}</b></p>
-      ${big("action", "#b42318")}${big("watch", "#9a6400")}${ok}${soon}<p style="${P}">${E.bye}</p></div>`;
+      ${big("action", "#b42318")}${big("watch", "#9a6400")}${ok}${soon}<p style="${P}">${esc(E.files || "")}</p><p style="${P}">${E.bye}</p></div>`;
   }
   function emailPage() {
     setTimeout(initEmail);
-    let sp = ""; try { sp = localStorage.getItem("sharepoint") || ""; } catch (x) { /* ignore */ }
     return `<h1>${mx("title")}</h1><p class="sub">${mx("sub")}</p>${jobHow("email")}
-      <div class="card mailbar"><div class="row"><span class="muted">${mx("lang")}:</span> <span class="seg" id="elang">${["en", "lt"].map(l => `<button class="btn sm ${l === ELANG ? "on" : ""}" data-l="${l}">${l.toUpperCase()}</button>`).join("")}</span></div>
-        <label class="fl">${mx("sp")} <input id="spUrl" type="url" value="${esc(sp)}" placeholder="https://…sharepoint…"></label><p class="muted small">${mx("spHint")}</p></div>
+      <div class="card mailbar"><div class="row"><span class="muted">${mx("lang")}:</span> <span class="seg" id="elang">${["en", "lt"].map(l => `<button class="btn sm ${l === ELANG ? "on" : ""}" data-l="${l}">${l.toUpperCase()}</button>`).join("")}</span></div></div>
       <div class="card mail"><label class="fl">${mx("subj")} <input id="mSubj" value="${esc(D.email[ELANG]?.subject || "")}"></label>
         <div id="mBody" class="mbody" contenteditable="true" spellcheck="false">${emailHtml(ELANG)}</div>
         <div class="row bar-actions"><button class="btn" id="cpS">${mx("copyS")}</button><button class="btn primary" id="cpB">${mx("copyB")}</button><button class="btn sm" id="mReset">${mx("reset")}</button><span id="mMsg" class="runst"></span></div></div>`;
@@ -713,7 +709,6 @@
     const msg = (t2, cls) => { $("mMsg").className = "runst " + (cls || ""); $("mMsg").textContent = t2; };
     const regen = () => { $("mBody").innerHTML = emailHtml(ELANG); $("mSubj").value = D.email[ELANG]?.subject || ""; };
     document.querySelectorAll("#elang button").forEach(b => b.onclick = () => { ELANG = b.dataset.l; document.querySelectorAll("#elang button").forEach(x => x.classList.toggle("on", x === b)); regen(); });
-    $("spUrl").onchange = e => { try { localStorage.setItem("sharepoint", e.target.value.trim()); } catch (x) { /* ignore */ } regen(); };
     $("mReset").onclick = regen;
     $("cpS").onclick = () => navigator.clipboard.writeText($("mSubj").value).then(() => msg(mx("copied"), "ok"), () => msg(mx("fail"), "bad"));
     $("cpB").onclick = async () => {
@@ -897,8 +892,8 @@
     { id: "dd", kind: "ai", kw: "dd due diligence naujas instrumentas nauja emisija pirkimas term sheet sfdr new instrument issue",
       t: { lt: "Naujas Due Diligence (naujas instrumentas)", en: "New Due Diligence (new instrument)" },
       when: { lt: "prieš perkant naują obligaciją ar akciją (esamo ar naujo emitento).", en: "before buying a new bond or share (existing or new issuer)." },
-      steps: { lt: ["you: Surinkite tekstą: term sheet, brokerio laišką, IPT, palyginamuosius (galima tik kopijuoti–įklijuoti).", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte ir užpildykite [skliaustus].", "ai: Claude parašys DD anglų kalba (Word) projekto failuose – ne viešoje svetainėje.", "you: Peržiūrėkite, papildykite sankcijų / žiniasklaidos ekrano kopijomis ir įkelkite į komandos failus."], en: ["you: Collect the text: term sheet, broker email, IPT, comparables (copy-paste is enough).", "ai: Copy the prompt, paste it into the Claude project and fill in the [brackets].", "ai: Claude writes the DD in English (Word) in the project files – not on the public site.", "you: Review it, add the sanctions / media screenshots and file it with the team files."] },
-      prompt: { lt: f => `Atlik Due Diligence naujam instrumentui (Word, anglų kalba).\nISIN: ${f.isin || "[ISIN]"}\nEmitentas: ${f.name || "[emitentas]"}\nInformacija (term sheet, brokerio laiškas, IPT, palyginamieji):\n[įklijuokite tekstą]`, en: f => `Do a Due Diligence for a new instrument (Word, English).\nISIN: ${f.isin || "[ISIN]"}\nIssuer: ${f.name || "[issuer]"}\nInformation (term sheet, broker email, IPT, comparables):\n[paste the text]` } },
+      steps: { lt: ["you: Surinkite tekstą: term sheet, brokerio laišką, IPT (galima tik kopijuoti–įklijuoti). Palyginamąsias alternatyvas Claude parenka pats.", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte ir užpildykite [skliaustus].", "ai: Claude parašys DD (Word, dashboard kalba) projekto failuose – ne viešoje svetainėje.", "you: Peržiūrėkite, papildykite sankcijų / žiniasklaidos ekrano kopijomis ir įkelkite į komandos failus."], en: ["you: Collect the text: term sheet, broker email, IPT (copy-paste is enough). Claude picks the comparable alternatives itself.", "ai: Copy the prompt, paste it into the Claude project and fill in the [brackets].", "ai: Claude writes the DD (Word, dashboard language) in the project files – not on the public site.", "you: Review it, add the sanctions / media screenshots and file it with the team files."] },
+      prompt: { lt: f => `Atlik Due Diligence naujam instrumentui (Word, lietuvių kalba).\nISIN: ${f.isin || "[ISIN]"}\nEmitentas: ${f.name || "[emitentas]"}\nInformacija (term sheet, brokerio laiškas, IPT):\n[įklijuokite tekstą]`, en: f => `Do a Due Diligence for a new instrument (Word, English).\nISIN: ${f.isin || "[ISIN]"}\nIssuer: ${f.name || "[issuer]"}\nInformation (term sheet, broker email, IPT):\n[paste the text]` } },
     { id: "manual", kind: "you", kw: "nortal slaptažodis portalas įkelti ataskaitą password portal upload",
       t: { lt: "Slaptažodžiu apsaugotos ataskaitos (Nortal)", en: "Password-protected reports (Nortal)" },
       when: { lt: "Nortal paskelbė naują ataskaitą investuotojų portale.", en: "Nortal has published a new report in its investor portal." },
@@ -907,11 +902,11 @@
     { id: "email", kind: "code", kw: "laiškas kolegoms outlook sharepoint email colleagues",
       t: { lt: "Laiškas kolegoms", en: "Email to colleagues" },
       when: { lt: "po apžvalgų atnaujinimo.", en: "after the reviews are updated." },
-      steps: { lt: ["code: <a href=\"#email\">Laiškas</a> – juodraštis paruoštas automatiškai iš verdiktų (be AI).", "you: Vieną kartą įklijuokite SharePoint nuorodą (saugoma tik naršyklėje), pataisykite tekstą.", "you: „Kopijuoti laišką“ → Outlook (Ctrl+V)."], en: ["code: <a href=\"#email\">Email</a> – the draft is generated from the verdicts (no AI).", "you: Paste the SharePoint link once (stored in this browser only), edit the text.", "you: “Copy email” → Outlook (Ctrl+V)."] } },
-    { id: "checks", kind: "you", kw: "sankcijos žiniasklaida patikra neigiamos naujienos sanctions adverse media checks",
+      steps: { lt: ["code: <a href=\"#email\">Laiškas</a> – juodraštis paruoštas automatiškai iš verdiktų (be AI).", "you: Pataisykite tekstą, laiško pabaigoje įrašykite nuorodą į failus.", "you: „Kopijuoti laišką“ → Outlook (Ctrl+V)."], en: ["code: <a href=\"#email\">Email</a> – the draft is generated from the verdicts (no AI).", "you: Edit the text and add the link to the files at the end of the email.", "you: “Copy email” → Outlook (Ctrl+V)."] } },
+    { id: "checks", kind: "you", kw: "sankcijos žiniasklaida patikra neigiamos naujienos sanctions adverse media checks enamechecker ofac sanctionsmap es sankcijų žemėlapis",
       t: { lt: "Sankcijų ir žiniasklaidos patikros", en: "Sanctions and adverse media checks" },
       when: { lt: "prieš tvirtinant apžvalgą.", en: "before signing off a review." },
-      steps: { lt: ["code: Įrankis randa sutapimus ir antraštes (<a href=\"#news\">Naujienos</a>, „peržiūrėti“).", "you: Patikrinkite nuorodas ir sprendimą įrašykite: emitento puslapyje „✎ Taisyti ataskaitą“."], en: ["code: The tool finds matches and headlines (<a href=\"#news\">News</a>, “review”).", "you: Check the links and record your decision: issuer page “✎ Edit report”."] } }
+      steps: { lt: ["code: Įrankis randa sutapimus ir antraštes (<a href=\"#news\">Naujienos</a>, „peržiūrėti“).", "you: Sankcijas patikrinkite nuorodomis emitento puslapyje (ESG → sankcijos) arba <a href=\"#dd\">DD</a>: SEB eNameChecker, OFAC, ES sankcijų žemėlapis.", "you: Patikrinkite nuorodas ir sprendimą įrašykite: emitento puslapyje „✎ Taisyti ataskaitą“."], en: ["code: The tool finds matches and headlines (<a href=\"#news\">News</a>, “review”).", "you: Check sanctions with the links on the issuer page (ESG → sanctions) or <a href=\"#dd\">DD</a>: SEB eNameChecker, OFAC, EU Sanctions Map.", "you: Check the links and record your decision: issuer page “✎ Edit report”."] } }
   ];
   function jobHow(id, fill = {}, opts = {}) {
     const j = JOBS.find(x => x.id === id); if (!j) return "";
@@ -996,28 +991,28 @@
 
   /* ---------- Due Diligence: pasiruošimas (DD dokumentas rašomas Claude projekte, į viešą repo nekeliamas) ---------- */
   const DX = {
-    en: { title: "Due Diligence", sub: "Preparation for a new instrument (existing or new issuer). Claude writes the DD in English as a Word file in the project files – it is never published here, because term sheets and broker emails are not public.",
+    en: { title: "Due Diligence", sub: "Preparation for a new instrument (existing or new issuer). Claude writes the DD as a Word file in the project files (in the dashboard language) – it is never published here, because term sheets and broker emails are not public.",
       inst: "New instrument", isin: "ISIN", iss: "Issuer", newIss: "– new issuer (not in the tool) –", newName: "Issuer name", green: "Green bond?", gY: "yes (green / EuGB framework)", gN: "no", gU: "not sure",
       typ: "Type", bond: "Bond", share: "Share", rank: "Ranking (if known)", rankPh: "e.g. senior preferred, SNP, subordinated",
-      paste: "What to paste after the prompt", pasteL: ["Term sheet: amount, coupon, maturity, call dates, ranking, covenants, listing, arrangers", "Broker / bank email or offer (e.g. IPT, timetable, minimum order)", "Comparables from the FI team call (other bonds of similar issuers)", "Use of proceeds / green framework, if a green bond", "Anything else you know: why we look at it, planned amount"],
+      paste: "What to paste after the prompt", pasteL: ["Term sheet: amount, coupon, maturity, call dates, ranking, covenants, listing, arrangers", "Broker / bank email or offer (e.g. IPT, timetable, minimum order)", "Use of proceeds / green framework, if a green bond", "Anything else you know: why we look at it, planned amount"],
       pub: "Public data the tool already has", noPub: "A new issuer – Claude will collect the public data (reports, ratings, sanctions, media) itself.",
       analysis: "Latest review", esgL: "ESG", targets: "own sustainability targets", noEsg: "no ESG review yet", heldL: "Already held",
       acc: "Fund accounting table (preliminary)", accNote: "Preliminary – from the tool's data and the SFDR rule; Claude confirms it from the term sheet in the DD.",
       aType: "Type", aSub: "Subtype", aRat: "Credit rating", aIg: "IG / HY", aSfdr: "SFDR", aCty: "Country / sector",
       corp: "Corporate", fin: "Financial", fromTs: "from the term sheet", issR: "issuer rating; the issue rating comes from the term sheet", ig: "Investment grade", hy: "High yield", nr: "Not rated – check",
       sfdr9: "9 – green bond", sfdr8: "8 – issuer has sustainability targets", sfdr6: "6 – no sustainability targets found (check)", sfdrQ: "depends on the green status",
-      prompt: "Prompt for Claude", rule: "SFDR rule: green bond = 9; not green but the issuer has sustainability targets = 8; a fully unsustainable company = 6." },
-    lt: { title: "Due Diligence", sub: "Pasiruošimas naujam instrumentui (esamo ar naujo emitento). Claude parašo DD anglų kalba Word faile projekto failuose – čia jis niekada neskelbiamas, nes term sheet ir brokerių laiškai nėra vieši.",
+      prompt: "Prompt for Claude", cmp: "Claude picks the comparable alternatives itself from bonds that can be bought now (Nasdaq Baltic quotes, recent new issues of similar issuers).", rule: "SFDR rule: green bond = 9; not green but the issuer has sustainability targets = 8; a fully unsustainable company = 6." },
+    lt: { title: "Due Diligence", sub: "Pasiruošimas naujam instrumentui (esamo ar naujo emitento). Claude parašo DD Word faile projekto failuose (kalba – kaip nustatyta dashboard) – čia jis niekada neskelbiamas, nes term sheet ir brokerių laiškai nėra vieši.",
       inst: "Naujas instrumentas", isin: "ISIN", iss: "Emitentas", newIss: "– naujas emitentas (įrankyje nėra) –", newName: "Emitento pavadinimas", green: "Žalioji obligacija?", gY: "taip (žalioji / EuGB sistema)", gN: "ne", gU: "nežinau",
       typ: "Tipas", bond: "Obligacija", share: "Akcija", rank: "Rangas (jei žinomas)", rankPh: "pvz. senior preferred, SNP, subordinuota",
-      paste: "Ką įklijuoti po užklausa", pasteL: ["Term sheet: suma, kuponas, išpirkimas, call datos, rangas, įsipareigojimai (covenants), listingas, organizatoriai", "Brokerio / banko laiškas ar pasiūlymas (pvz. IPT, grafikas, minimali suma)", "Palyginamieji iš FI komandos skambučio (panašių emitentų obligacijos)", "Lėšų panaudojimas / žaliųjų obligacijų sistema, jei žalioji", "Kita, ką žinote: kodėl svarstome, planuojama suma"],
+      paste: "Ką įklijuoti po užklausa", pasteL: ["Term sheet: suma, kuponas, išpirkimas, call datos, rangas, įsipareigojimai (covenants), listingas, organizatoriai", "Brokerio / banko laiškas ar pasiūlymas (pvz. IPT, grafikas, minimali suma)", "Lėšų panaudojimas / žaliųjų obligacijų sistema, jei žalioji", "Kita, ką žinote: kodėl svarstome, planuojama suma"],
       pub: "Vieši duomenys, kuriuos įrankis jau turi", noPub: "Naujas emitentas – viešus duomenis (ataskaitas, reitingus, sankcijas, žiniasklaidą) Claude surinks pats.",
       analysis: "Naujausia apžvalga", esgL: "ESG", targets: "savi tvarumo tikslai", noEsg: "ESG apžvalgos dar nėra", heldL: "Jau turime",
       acc: "Fondų apskaitos lentelė (preliminari)", accNote: "Preliminari – iš įrankio duomenų ir SFDR taisyklės; Claude patvirtins pagal term sheet DD dokumente.",
       aType: "Tipas", aSub: "Potipis", aRat: "Kredito reitingas", aIg: "IG / HY", aSfdr: "SFDR", aCty: "Šalis / sektorius",
       corp: "Įmonių (Corporate)", fin: "Finansų (Financial)", fromTs: "pagal term sheet", issR: "emitento reitingas; emisijos reitingas – pagal term sheet", ig: "Investicinis (IG)", hy: "Spekuliatyvus (HY)", nr: "Be reitingo – patikrinti",
       sfdr9: "9 – žalioji obligacija", sfdr8: "8 – emitentas turi tvarumo tikslų", sfdr6: "6 – tvarumo tikslų nerasta (patikrinti)", sfdrQ: "priklauso nuo to, ar žalioji",
-      prompt: "Užklausa Claude", rule: "SFDR taisyklė: žalioji obligacija = 9; ne žalioji, bet emitentas turi tvarumo tikslų = 8; visiškai netvari įmonė = 6." }
+      prompt: "Užklausa Claude", cmp: "Palyginamąsias alternatyvas Claude parenka pats iš šiuo metu įsigyjamų obligacijų (Nasdaq Baltic kotiruotės, naujausios panašių emitentų emisijos).", rule: "SFDR taisyklė: žalioji obligacija = 9; ne žalioji, bet emitentas turi tvarumo tikslų = 8; visiškai netvari įmonė = 6." }
   };
   const dx = k => (DX[LANG] || DX.en)[k];
   let DF = { isin: "", iss: "", name: "", green: "", type: "bond", rank: "" };
@@ -1032,7 +1027,7 @@
         <label class="fl">${dx("typ")} <select id="dType">${opt("bond", dx("bond"), DF.type)}${opt("share", dx("share"), DF.type)}</select></label>
         <label class="fl">${dx("green")} <select id="dGreen">${opt("", dx("gU"), DF.green)}${opt("yes", dx("gY"), DF.green)}${opt("no", dx("gN"), DF.green)}</select></label>
         <label class="fl">${dx("rank")} <input id="dRank" value="${esc(DF.rank)}" placeholder="${esc(dx("rankPh"))}"></label>
-        <h4>${dx("paste")}</h4><ul class="b small">${dx("pasteL").map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+        <h4>${dx("paste")}</h4><ul class="b small">${dx("pasteL").map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="muted small">${dx("cmp")}</p></div>
       <div id="dOut"></div></div>`;
   }
   function ddOut() {
@@ -1049,12 +1044,32 @@
     const acc = [[dx("aType"), DF.type === "share" ? dx("share") : dx("bond")], [dx("aSub"), (fin ? dx("fin") : dx("corp")) + (DF.rank ? " · " + DF.rank : "")],
       [dx("aRat"), (rt.map(r => `${r.agency} ${r.grade}${r.scope ? ` (${r.scope})` : ""}`).join(", ") || dx("nr")) + (DF.type === "bond" ? ` <span class="muted small">${dx("issR")}</span>` : "")], [dx("aIg"), ig], [dx("aSfdr"), sfdr]];
     const lt = LANG === "lt", gtxt = { yes: lt ? "taip" : "yes", no: lt ? "ne" : "no", "": lt ? "nežinau" : "not sure" }[DF.green];
-    const p = lt ? `Atlik Due Diligence naujam instrumentui (Word, anglų kalba; į viešą repo nekelk).\nISIN: ${DF.isin || "[ISIN]"}\nEmitentas: ${name || "[emitentas]"}${i ? ` (įrankyje: ${i.id})` : " (naujas emitentas)"}\nTipas: ${DF.type === "share" ? "akcija" : "obligacija"}${DF.rank ? ", " + DF.rank : ""}\nŽalioji: ${gtxt}\nInformacija (term sheet, brokerio laiškas, IPT, palyginamieji):\n[įklijuokite tekstą]`
-      : `Do a Due Diligence for a new instrument (Word, English; do not put it in the public repo).\nISIN: ${DF.isin || "[ISIN]"}\nIssuer: ${name || "[issuer]"}${i ? ` (in the tool: ${i.id})` : " (new issuer)"}\nType: ${DF.type}${DF.rank ? ", " + DF.rank : ""}\nGreen: ${gtxt}\nInformation (term sheet, broker email, IPT, comparables):\n[paste the text]`;
+    const p = lt ? `Atlik Due Diligence naujam instrumentui (Word, lietuvių kalba; į viešą repo nekelk).\nISIN: ${DF.isin || "[ISIN]"}\nEmitentas: ${name || "[emitentas]"}${i ? ` (įrankyje: ${i.id})` : " (naujas emitentas)"}\nTipas: ${DF.type === "share" ? "akcija" : "obligacija"}${DF.rank ? ", " + DF.rank : ""}\nŽalioji: ${gtxt}\nInformacija (term sheet, brokerio laiškas, IPT):\n[įklijuokite tekstą]`
+      : `Do a Due Diligence for a new instrument (Word, English; do not put it in the public repo).\nISIN: ${DF.isin || "[ISIN]"}\nIssuer: ${name || "[issuer]"}${i ? ` (in the tool: ${i.id})` : " (new issuer)"}\nType: ${DF.type}${DF.rank ? ", " + DF.rank : ""}\nGreen: ${gtxt}\nInformation (term sheet, broker email, IPT):\n[paste the text]`;
     return `<div class="card"><h3>${dx("pub")}</h3>${pub}</div>
+      <div class="card" style="margin-top:12px">${sancBox(name)}</div>
       <div class="card" style="margin-top:12px"><h3>${dx("acc")}</h3><div class="tbl-wrap"><table>${acc.map(([a, b]) => `<tr><th>${a}</th><td>${b}</td></tr>`).join("")}</table></div><p class="muted small">${dx("accNote")} ${dx("rule")}</p></div>
       <div class="card" style="margin-top:12px"><h3>${dx("prompt")} ${kindTag("ai")}</h3><div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div></div>`;
   }
+  /* Sankcijų patikros nuorodos (DD ir emitento puslapis). SEB vidinė eNameChecker nuoroda saugoma tik naršyklėje. */
+  const SNX = {
+    en: { h: "Sanctions check", name: "Name to search", copy: "Copy name", en: "SEB eNameChecker", enSet: "Paste the eNameChecker link once – it is stored only in this browser, never on the public website.", ofac: "OFAC sanctions search", eu: "EU Sanctions Map", shot: "Take a screenshot of each result for the file." },
+    lt: { h: "Sankcijų patikra", name: "Ieškomas pavadinimas", copy: "Kopijuoti pavadinimą", en: "SEB eNameChecker", enSet: "Vieną kartą įklijuokite eNameChecker nuorodą – ji saugoma tik šioje naršyklėje, viešoje svetainėje neskelbiama.", ofac: "OFAC sankcijų paieška", eu: "ES sankcijų žemėlapis", shot: "Kiekvieno rezultato ekrano kopiją pridėkite prie bylos." }
+  };
+  const snx = k => (SNX[LANG] || SNX.en)[k];
+  function sancBox(name) {
+    let en = ""; try { en = localStorage.getItem("enamecheck") || ""; } catch (e) { /* ignore */ }
+    const a = (u, l) => `<a class="btn" href="${esc(u)}" target="_blank" rel="noopener">${esc(l)} ↗</a>`;
+    return `<h3>${snx("h")} ${kindTag("you")}</h3>${name ? `<p class="small">${snx("name")}: <b>${esc(name)}</b> <button class="btn sm" data-prompt="${esc(name)}">${snx("copy")}</button></p>` : ""}
+      <div class="sxl">${en ? a(en, snx("en")) : ""}${a("https://sanctionssearch.ofac.treas.gov/", snx("ofac"))}${a("https://www.sanctionsmap.eu/#/main", snx("eu"))}</div>
+      ${en ? "" : `<label class="fl small">${snx("en")} <input class="enUrl" type="url" placeholder="https://…/eNameChecker/"></label><p class="muted small">${snx("enSet")}</p>`}
+      <p class="muted small">${snx("shot")}</p>`;
+  }
+  document.addEventListener("change", e => {
+    if (!e.target.classList || !e.target.classList.contains("enUrl")) return;
+    try { localStorage.setItem("enamecheck", e.target.value.trim()); } catch (x) { /* ignore */ }
+    route();
+  });
   function initDd() {
     const $ = id => document.getElementById(id); if (!$("dOut")) return;
     const upd = () => { DF = { isin: $("dIsin").value.trim().toUpperCase(), iss: $("dIss").value, name: $("dName").value.trim(), green: $("dGreen").value, type: $("dType").value, rank: $("dRank").value.trim() };
