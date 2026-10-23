@@ -262,3 +262,7 @@ h4.bad { color: var(--bad); }
 ol.srcs { font-size: 13px; padding-left: 22px; }
 ol.srcs li { margin: 2px 0; overflow-wrap: anywhere; }
 label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; }
+details.facts { margin-top: 6px; }
+details.facts summary { cursor: pointer; color: var(--accent, #2563eb); font-size: 13px; }
+details.facts h4 { margin: 8px 0 2px; font-size: 13px; }
+details.facts ul { margin: 0 0 4px; padding-left: 18px; }

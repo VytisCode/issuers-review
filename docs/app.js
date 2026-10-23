@@ -688,7 +688,7 @@
       xls: "Excel (all years)", issuer: "Issuer", instr: "Held", dir: "Direction", eng: "Engagement", onlyEng: "Engagement needed or monitor only", search: "Search issuer",
       legend: "Direction per year: Improving – most own targets and key metrics moved the right way; Mixed – some better, some worse; Worsening – mostly worse; Stable – little change; Limited data – the report gives too little to judge; Baseline year – first year reported, nothing to compare with.",
       summary: "Summary", framework: "Reporting and assurance", targets: "Own targets and progress", target: "Target", metrics: "Key metrics", metric: "Metric", unit: "Unit",
-      evidence: "Evidence", concerns: "Gaps and concerns", sources: "Sources", why: "Why", policies: "SEB policies checked", questions: "Questions to the issuer",
+      evidence: "Evidence", allFacts: "All facts", concerns: "Gaps and concerns", sources: "Sources", why: "Why", policies: "SEB policies checked", questions: "Questions to the issuer",
       dl: "⬇ Download email to issuer (.eml)", copy: "Copy email text", copied: "Copied.", back: "← ESG overview", edit: "✎ Edit ESG data", none: "No ESG data yet.",
       emailHint: "Opens in Outlook as a draft. English, no signature – add yours.", bond: "bonds", share: "shares", notReported: "not reported", calc: "calculated by the tool",
       greetings: "Dear Investor Relations team,", intro: (n, ins, rep) => `We are holders of ${n} ${ins} and review our issuers' sustainability disclosures once a year. Having read ${rep}, we would appreciate your comments on the following:`,
@@ -697,7 +697,7 @@
       xls: "Excel (visi metai)", issuer: "Emitentas", instr: "Turima", dir: "Kryptis", eng: "Engagement", onlyEng: "Tik kur reikia engagement ar stebėti", search: "Ieškoti emitento",
       legend: "Kryptis pagal metus: Gerėja – dauguma savų tikslų ir pagrindinių rodiklių juda tinkama linkme; Nevienareikšmiška – vieni geriau, kiti blogiau; Blogėja – daugiausia blogiau; Stabilu – mažai pokyčių; Mažai duomenų – ataskaitoje per mažai informacijos įvertinti; Atskaitos metai – pirmi skelbti metai, nėra su kuo lyginti.",
       summary: "Santrauka", framework: "Atskaitomybė ir užtikrinimas", targets: "Savi tikslai ir pažanga", target: "Tikslas", metrics: "Pagrindiniai rodikliai", metric: "Rodiklis", unit: "Vnt.",
-      evidence: "Įrodymai", concerns: "Spragos ir rūpesčiai", sources: "Šaltiniai", why: "Kodėl", policies: "Patikrintos SEB politikos", questions: "Klausimai emitentui",
+      evidence: "Įrodymai", allFacts: "Visi faktai", concerns: "Spragos ir rūpesčiai", sources: "Šaltiniai", why: "Kodėl", policies: "Patikrintos SEB politikos", questions: "Klausimai emitentui",
       dl: "⬇ Atsisiųsti laišką emitentui (.eml)", copy: "Kopijuoti laiško tekstą", copied: "Nukopijuota.", back: "← ESG apžvalga", edit: "✎ Taisyti ESG duomenis", none: "ESG duomenų dar nėra.",
       emailHint: "Atsidaro Outlook kaip juodraštis. Anglų kalba, be parašo – pridėkite savo.", bond: "obligacijos", share: "akcijos", notReported: "neskelbiama", calc: "apskaičiuota įrankio" },
   };
@@ -730,12 +730,19 @@
       const rows = g.rows.filter(r => (!GF.q || r.name.toLowerCase().includes(GF.q.toLowerCase())) && (!GF.eng || r.engagement.level !== "none"));
       $("gT").innerHTML = rows.length ? `<div class="tbl-wrap"><table class="esgt"><tr><th>${gx("issuer")}</th>${g.years.map(y => `<th>${y}</th>`).join("")}<th>${gx("dir")}</th><th>${gx("eng")}</th></tr>
         ${rows.map(r => `<tr><td><a href="#esg/${r.id}"><b>${esc(r.name)}</b></a>${r.green ? leaf({ green: "yes" }) : ""}<div class="muted small">${esc(r.country)} · ${r.instruments.map(x => gx(x === "share" ? "share" : "bond")).join(", ")}</div></td>
-          ${g.years.map(y => { const d = r.years[y]; return `<td class="ys">${d ? gchip("trend", TRC, d.trend) + `<div class="small">${d.summary}</div>` : `<span class="muted">${gx("notReported")}</span>`}</td>`; }).join("")}
+          ${g.years.map(y => { const d = r.years[y]; return `<td class="ys">${d ? gchip("trend", TRC, d.trend) + `<div class="small">${d.summary}</div>` + esgFacts(g, d) : `<span class="muted">${gx("notReported")}</span>`}</td>`; }).join("")}
           <td>${gchip("trend", TRC, r.trend)}</td><td>${gchip("engage", ENC, r.engagement.level)}</td></tr>`).join("")}</table></div>` : `<p class="muted">${gx("none")}</p>`;
     };
     $("gQ").oninput = e => { GF.q = e.target.value; render(); };
     $("gEng").onchange = e => { GF.eng = e.target.checked; render(); };
     render();
+  }
+  // Išskleidžiami tų metų įrodymai tiesiai lentelėje (be perėjimo į emitento puslapį)
+  function esgFacts(g, d) {
+    const P = g.labels.pillar || {}, n = d.evidence.length + d.concerns.length;
+    if (!n) return "";
+    return `<details class="facts"><summary>${gx("allFacts")} (${n})</summary>${d.framework ? `<p class="small muted">${d.framework}</p>` : ""}${["E", "S", "G"].map(p => { const it = d.evidence.filter(x => x.p === p); return it.length ? `<h4>${esc(P[p] || p)}</h4><ul class="b small">${it.map(x => `<li>${x.t}</li>`).join("")}</ul>` : ""; }).join("")}
+      ${d.concerns.length ? `<h4 class="bad">${gx("concerns")}</h4><ul class="b small">${d.concerns.map(x => `<li>${x}</li>`).join("")}</ul>` : ""}</details>`;
   }
   function esgIssuer(g, id) {
     const r = g.rows.find(x => x.id === id);
