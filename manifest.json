@@ -1,0 +1,318 @@
+{
+ "ignitis_FY2025": {
+  "issuer": "ignitis",
+  "year": "FY2025",
+  "url": "https://ignitisgrupe.lt/sites/default/files/public/inline-files/Integrated%20Annual%20Report%202025.pdf",
+  "title": "Ignitis Group Integrated Annual Report 2025",
+  "pages": 452,
+  "kb": 16888
+ },
+ "ignitis_FY2024": {
+  "issuer": "ignitis",
+  "year": "FY2024",
+  "url": "https://ignitisgrupe.lt/sites/default/files/public/inline-files/Integrated%20Annual%20Report%202024.pdf",
+  "title": "Ignitis Group Integrated Annual Report 2024",
+  "pages": 461,
+  "kb": 21474
+ },
+ "luminor_FY2025": {
+  "issuer": "luminor",
+  "year": "FY2025",
+  "url": "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2025-lv.pdf",
+  "title": "Luminor Bank Annual Report 2025",
+  "pages": 189,
+  "kb": 2931
+ },
+ "luminor_FY2024": {
+  "issuer": "luminor",
+  "year": "FY2024",
+  "url": "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor-bank-annual-report-2024-compressed.pdf",
+  "title": "Luminor Bank Annual Report 2024",
+  "pages": 255,
+  "kb": 2425
+ },
+ "port-of-tallinn_FY2025": {
+  "issuer": "port-of-tallinn",
+  "year": "FY2025",
+  "url": "https://www.ts.ee/wp-content/uploads/2026/04/Sustainability_Report_2025.pdf",
+  "title": "Tallinna Sadam Sustainability Report 2025",
+  "pages": 56,
+  "kb": 10138
+ },
+ "port-of-tallinn_FY2024": {
+  "issuer": "port-of-tallinn",
+  "year": "FY2024",
+  "url": "https://www.ts.ee/wp-content/uploads/2025/04/Tallinna_Sadam_Group-_Annual_Report_2024.pdf",
+  "title": "Tallinna Sadam Sustainability Report 2024",
+  "pages": 163,
+  "kb": 15340
+ },
+ "lhv_FY2025": {
+  "issuer": "lhv",
+  "year": "FY2025",
+  "url": "https://www.lhv.ee/assets/files/LHV_Group_Annual_Sustainability_Report_2025-EN.pdf",
+  "title": "LHV Group Annual Sustainability Report 2025",
+  "pages": 63,
+  "kb": 1521
+ },
+ "lhv_FY2024": {
+  "issuer": "lhv",
+  "year": "FY2024",
+  "url": "https://www.lhv.ee/assets/files/investor/LHV_Group_Annual_Report_2024-EN.pdf",
+  "title": "LHV Group Annual Sustainability Report 2024",
+  "pages": 258,
+  "kb": 5090
+ },
+ "latvenergo_FY2025": {
+  "issuer": "latvenergo",
+  "year": "FY2025",
+  "url": "https://nasdaqbaltic.com/market/upload/reports/elek/2025_ar_en_con.pdf",
+  "title": "Latvenergo Group Annual Report 2025",
+  "pages": 277,
+  "kb": 23883
+ },
+ "latvenergo_FY2024": {
+  "issuer": "latvenergo",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "artea_FY2025": {
+  "issuer": "artea",
+  "year": "FY2025",
+  "url": "https://cdn.artea.lt/mainweb/uploads/media/69cbc6f608b68/annual-report-2025-lt-final.pdf",
+  "title": "Artea bankas Annual Report 2025",
+  "pages": 220,
+  "kb": 13672
+ },
+ "artea_FY2024": {
+  "issuer": "artea",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "citadele_FY2025": {
+  "issuer": "citadele",
+  "year": "FY2025",
+  "url": "https://www.cblgroup.com/media/W1siZiIsIjIwMjYvMDMvMTkvOG9icXc4MzVubV9DaXRhZGVsZV9Bbm51YWxfcmVwb3J0XzIwMjUucGRmIl1d?sha=e68c93f08d3acc0c",
+  "title": "Citadele Annual Report 2025",
+  "pages": 211,
+  "kb": 14569
+ },
+ "citadele_FY2024": {
+  "issuer": "citadele",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "inbank_FY2025": {
+  "issuer": "inbank",
+  "year": "FY2025",
+  "url": "https://ib-cdn.inbank.eu/documents/ee/en/pdf/reports/inbank_annual_report_2025.pdf",
+  "title": "Inbank Consolidated Annual Report 2025",
+  "pages": 110,
+  "kb": 45768
+ },
+ "inbank_FY2024": {
+  "issuer": "inbank",
+  "year": "FY2024",
+  "url": "https://nasdaqbaltic.com/market/upload/reports/inb/2024_ar_en_eur_con_00.pdf",
+  "title": "Inbank Consolidated Annual Report 2024",
+  "pages": 150,
+  "kb": 12705
+ },
+ "vik_FY2025": {
+  "issuer": "vik",
+  "year": "FY2025",
+  "url": "https://nasdaqbaltic.com/market/upload/reports/vika/2025_ar_en_esef.pdf",
+  "title": "VIK Annual Report 2025",
+  "pages": 85,
+  "kb": 1736
+ },
+ "vik_FY2024": {
+  "issuer": "vik",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "altum_FY2025": {
+  "issuer": "altum",
+  "year": "FY2025",
+  "url": "https://nasdaqbaltic.com/market/upload/reports/altm/2025_ar_en.pdf",
+  "title": "ALTUM Annual Report 2025",
+  "pages": 186,
+  "kb": 6230
+ },
+ "altum_FY2024": {
+  "issuer": "altum",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "rigas-udens_FY2025": {
+  "issuer": "rigas-udens",
+  "year": "FY2025",
+  "url": "https://nasdaqbaltic.com/market/upload/reports/h2o/2025_ar_en.pdf",
+  "title": "Rīgas ūdens Annual Report 2025",
+  "pages": 206,
+  "kb": 9846
+ },
+ "rigas-udens_FY2024": {
+  "issuer": "rigas-udens",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "ast_FY2025": {
+  "issuer": "ast",
+  "year": "FY2025",
+  "url": "https://nasdaqbaltic.com/market/upload/reports/ast/2025_ar_en_con.pdf",
+  "title": "AST Annual Report 2025",
+  "pages": 293,
+  "kb": 5395
+ },
+ "ast_FY2024": {
+  "issuer": "ast",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "aei_FY2025": {
+  "issuer": "aei",
+  "year": "FY2025",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "aei_FY2024": {
+  "issuer": "aei",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "latraps_FY2025": {
+  "issuer": "latraps",
+  "year": "FY2025",
+  "url": "https://nasdaqbaltic.com/market/upload/reports/latra/2026_esg_en.pdf",
+  "title": "LATRAPS Sustainability Report FY2025/26",
+  "pages": 51,
+  "kb": 8660
+ },
+ "latraps_FY2024": {
+  "issuer": "latraps",
+  "year": "FY2024",
+  "url": "https://nasdaqbaltic.com/market/upload/reports/latra/2025_ar_en_las.pdf",
+  "title": "LATRAPS Sustainability Report FY2024/25",
+  "pages": 45,
+  "kb": 2592
+ },
+ "maxima_FY2025": {
+  "issuer": "maxima",
+  "year": "FY2025",
+  "url": "https://www.maximagrupe.eu/uploads/2026%20konsoliduotos%20vadovyb%C4%97s%20ataskaitos/2026%2004%2007%20Consolidated%20Management%20Report%202025%201.pdf",
+  "title": "Maxima Grupė Consolidated Management Report 2025",
+  "pages": 101,
+  "kb": 6437
+ },
+ "maxima_FY2024": {
+  "issuer": "maxima",
+  "year": "FY2024",
+  "url": "https://www.maximagrupe.eu/uploads/2025%20ataskaitos/MXG%20Consolidated%20Management%20Report%202024%20(signed).pdf",
+  "title": "Maxima Grupė Consolidated Management Report 2024",
+  "pages": 215,
+  "kb": 34682
+ },
+ "eesti-energia_FY2025": {
+  "issuer": "eesti-energia",
+  "year": "FY2025",
+  "url": "https://public-docs.enefit.com/ettevottest/investorile/2025/EE-aruanne-2025-EN_FINAL.pdf",
+  "title": "Eesti Energia Annual Report 2025",
+  "pages": 110,
+  "kb": 13268
+ },
+ "eesti-energia_FY2024": {
+  "issuer": "eesti-energia",
+  "year": "FY2024",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
+ },
+ "akropolis_FY2025": {
+  "issuer": "akropolis",
+  "year": "FY2025",
+  "url": "https://akropolis.eu/view-file/739_AKROPOLIS%20GROUP,%20UAB%20Konsoliduotoji%20metin%C4%97%20vadovyb%C4%97s%20ataskaita%202025.pdf",
+  "title": "Akropolis Group Consolidated Annual Management Report 2025",
+  "pages": 174,
+  "kb": 9064
+ },
+ "akropolis_FY2024": {
+  "issuer": "akropolis",
+  "year": "FY2024",
+  "url": "https://akropolis.eu/media/AKROPOLIS_GROUP_UAB_Konsoliduotoji_metine_vadovybes_ataskaita_2024.pdf",
+  "title": "Akropolis Group Annual Report 2024",
+  "pages": 67,
+  "kb": 24904
+ },
+ "bigbank_FY2025": {
+  "issuer": "bigbank",
+  "year": "FY2025",
+  "url": "https://static.bigbank.eu/investor/assets/2026/02/Bigbank_aastaaruanne_2025.pdf",
+  "title": "Bigbank Annual Report 2025",
+  "pages": 228,
+  "kb": 5048
+ },
+ "bigbank_FY2024": {
+  "issuer": "bigbank",
+  "year": "FY2024",
+  "url": "https://static.bigbank.eu/investor/assets/2024/04/Bigbank_AS_Annual_Report_2024-ET.pdf",
+  "title": "Bigbank Annual Report 2024",
+  "pages": 307,
+  "kb": 5385
+ },
+ "coop-pank_FY2025": {
+  "issuer": "coop-pank",
+  "year": "FY2025",
+  "url": "https://res30f.cooppank.ee/image/upload/investor_lehed/uldkoosolekud/teated/eng/26/Coop_Pank_annual_report_consolidated_2025_eng.pdf",
+  "title": "Coop Pank Annual Report 2025",
+  "pages": 138,
+  "kb": 3614
+ },
+ "coop-pank_FY2024": {
+  "issuer": "coop-pank",
+  "year": "FY2024",
+  "url": "https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2024/CoopPank-2024-annual-report-eng.pdf",
+  "title": "Coop Pank Annual Report 2024",
+  "pages": 118,
+  "kb": 5885
+ },
+ "hepsor_FY2025": {
+  "issuer": "hepsor",
+  "year": "FY2025",
+  "url": "https://www.adaur.ee/wp-content/2026/04/Hepsor_2025_ENG.pdf",
+  "title": "Hepsor Annual Report 2025",
+  "pages": 123,
+  "kb": 9427
+ },
+ "hepsor_FY2024": {
+  "issuer": "hepsor",
+  "year": "FY2024",
+  "url": "https://hepsor.ee/wp-content/uploads/2025/04/Hepsor_2024_ENG.pdf",
+  "title": "Hepsor Annual Report 2024",
+  "pages": 120,
+  "kb": 6678
+ },
+ "nortal_FY2025": {
+  "issuer": "nortal",
+  "year": "FY2025",
+  "url": "https://nortal.com/hubfs/Carbon_Reduction_Plan_Nortal_UK_2025.pdf",
+  "title": "Nortal UK Carbon Reduction Plan 2025",
+  "pages": 7,
+  "kb": 1094
+ },
+ "nortal_FY2025_2": {
+  "issuer": "nortal",
+  "year": "FY2025",
+  "url": "https://nortal.com/hubfs/Modern_Slavery_Statement_Nortal_Group_2026.pdf",
+  "title": "Nortal Group Modern Slavery Statement 2026",
+  "pages": 10,
+  "kb": 2092
+ }
+}

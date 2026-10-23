@@ -1,0 +1,238 @@
+
+=== pdf p.1 ===
+Nortal UK
+Carbon Reduction Plan
+
+
+Prepared for:   Date prepared:
+N/A             22.05.2025
+
+=== pdf p.2 ===
+                                                                                                      2
+
+
+
+
+    Carbon Reduction Plan
+Supplier name: Nortal UK
+Publication date: 21/05/202 5
+
+Commitment to achieving Net Zero
+Nortal UK is committed to achieving Net Zero emissions by 2050             .
+
+
+Baseline Emissions Footprint
+Baseline emissions are a record of the greenhouse gases that have been produced in the past
+and were produced prior to the introduction of any strategies to reduce emissions. Baseline
+emissions are the reference point against which emissions reduction can           be measured.
+[Instructions to Suppliers:
+Please provide details of your organisation’s baseline emissions below. If your organisation
+has not previously assessed or reported emissions, please detail this below and use your first
+reporting period as your Baseline.]
+Baseline Year: 2025
+
+Additional Details relating to the Baseline Emissions calculations.
+
+3DOT Solutions has now become Nortal UK, increasing the capacity of Nortal’s UK enterprises
+by taking on Nortal Solutions staff, and adding 3 full -time employees.
+
+
+
+As this is our 1 st baseline of emissions recording, our baseline and current emissions will be the
+same.
+
+
+
+The scope 2 emissions come from a third          -party carbon assessment of our London office
+footprint. The office management utilises sustainable energy providers.
+
+
+
+Scope 3 emissions are approximate based on the 45 staff who work for Nortal UK, taking
+account most of them working from home, and those who attend the office weekly, do so
+using public transport.
+
+Baseline year emissions:
+
+EMISSIONS               TOTAL (tCO     2 e)
+
+=== pdf p.3 ===
+                                                                                                         3
+
+
+
+
+Scope 1                 0
+
+Scope 2                 0.51
+
+Scope 3                 75.4
+(Included Sources)
+
+Total Emissions         75.91
+
+
+
+
+Current Emissions Reporting
+Reporting Year: 2025
+
+EMISSIONS               TOTAL (tCO      2 e)
+
+
+
+
+Scope 1                 0
+
+Scope 2                 0.51
+
+Scope 3                 75.4
+(Included Sources)
+
+Total Emissions         75.91
+
+
+
+
+Emissions reduction targets                    :
+In order to continue our progress to achieving Net Zero, we have adopted the following carbon
+     reduction targets.
+
+We project that carbon emissions will          decrease over the next five years to   50 tCO 2 e by 20 30 .
+    This is a reduction of     30%
+
+
+We are currently in the process of auditing the 2026 CRP report.
+
+We have recently closed our London office, with all UK staff working from home - this will
+have significantly lessened our Scope 2 emissions,
+
+=== pdf p.4 ===
+                                                                                                       4
+
+
+
+
+Progress against these targets can be seen in the graph below:
+
+
+
+
+Carbon Reduction Projects
+
+Completed Carbon Reduction Initiatives
+The following environmental management measures and projects have been completed or
+implemented since the 20 25 baseline. The carbon emission reduction achieved by these
+schemes equate to    25 tCO 2e, a 30 %ge reduction against the 20     25 baseline and the measures
+will be in effect when performing the contract.
+
+    •   3 rd party assurance - We operate an ISO27001 certified 3 rd party assurance system. We
+        ensure that all new suppliers undergo our onboarding process, ensuring they too have a
+        commitment to quality and supply chain strength. All new suppliers fill out a
+        questionnaire to ensure that they align with our values when it          comes to SV and carbon
+        reduction plans.
+    •   Volunteering – We are delivering volunteering activities in the local area (Battersea)       – we
+        will commit to litter picking initiatives, delivered each year of contract.
+
+=== pdf p.5 ===
+                                                                                                            5
+
+
+
+
+   •   Sustainability Insight Sessions         - We run Sustainability Insight Sessions across our
+       supply chain. We will collate a list of positive employee actions resulting from the
+       sessions and quantify the impact across your supply chain and communities.                    Impact :
+       These sessions influence behaviour to reduce waste and use resources more efficiently
+   •   Low Carbon Working - For low carbon working practices, we identify current modes of
+       transportation, establish a baseline and set contract travel targets. This drives down the
+       carbon impact of delivery. Impact: Raise awareness across the supply chain of carbon
+       intensive modes of travel, suggesting cleaner options, such as public transport. They will
+       influence behaviour to reduce waste and use resources more efficiently in the
+       performance of the contract.
+   •   Remote - First Working Model – All 45 Nortal UK staff are equipped and enabled for full
+       remote working, significantly reducing commuting                -related Scope 3 emissions. The
+       majority of our workforce works from home as standard practice, with those attending
+       our London office doing so prim          arily via public transport. This embedded approach
+       directly contributed to our low Scope 3 footprint of 75.4 tCO                ₂e. Impact: Measurable
+       reduction in commuting and business travel emissions across the workforce, forming a
+       core part of our Scope 3 reduction strategy.
+   •   Cloud - First Infrastructure – Nortal UK operates a cloud -first model using enterprise -
+       grade platforms (Microsoft Azure and Microsoft 365), eliminating the need for on                      -
+       premise server infrastructure and the associated energy consumption. All data is hosted
+       in UK/EU data centres operat           ing under certified sustainability programmes. This
+       approach also removes the need for physical hardware procurement and disposal cycles.
+       Impact: Elimination of Scope 2 emissions from on            -site IT infrastructure and reduction in
+       emb odied carbon from hardware, contributing to our near               -zero Scope 1 and low Scope
+       2 footprint.
+   •   Zero Company Vehicle Fleet         – Nortal UK operates with zero company -owned or leased
+       vehicles, resulting in zero Scope 1 emissions from transport. Our embedded consultant
+       delivery model means staff integrate into client environments and commute via public
+       transport or work remotely, r ather than travelling in company vehicles. This is a deliberate
+       structural choice that eliminates an entire category of direct emissions.                Impact: Zero
+       Scope 1 transport emissions, confirmed in our 2025 baseline year and projected                       to
+       remain at zero throughout the contract period.
+   •   Sustainable Office Energy         – Our London office at The Power Station, Battersea, is
+       managed by facilities that utilise sustainable energy providers, contributing to our low
+       Scope 2 footprint of 0.51 tCO       ₂e. The Scope 2 figure has been independently verified
+       through a third -party carb on assessment of the office footprint, ensuring accuracy and
+       accountability in our reporting. Impact: Independently verified low Scope 2 emissions of
+       0.51 tCO ₂e, representing one of the lowest possible office energy footprints for                a 45 -
+       person professional services firm.
+
+
+1.1. Future carbon reduction initiatives
+In the future we hope to implement further measures such as:
+
+Reforestation and Afforestation projects:
+
+=== pdf p.6 ===
+                                                                                                             6
+
+
+
+
+    •   Tree Planting – Plant trees to absorb CO    ₂ from the atmosphere.
+    •   Forest Conservation    – Protect existing forests to prevent CO      ₂ release from
+        deforestation.
+    •   Agroforestry – Integrate trees into agricultural systems.
+
+
+Declaration and Sign Off
+This Carbon Reduction Plan has been completed in accordance with PPN 006 and associated
+guidance and reporting standards for Carbon Reduction Plans.
+
+Emissions have been reported and recorded in accordance with       the published reporting
+                                                                                                       1
+standard for Carbon Reduction Plans and the     GHG Reporting Protocol corporate standard                  and
+uses the appropri ate Government emission conversion factors for greenhouse gas company
+reporting 2.
+
+Scope 1 and Scope 2 emissions have been reported in accordance with SECR requirements,
+and the required subset of Scope 3 emissions have been reported in accordance with the
+published reporting standard for Carbon Reduction Plans and the       Corporate Value Chain
+                     3
+(Scope 3) Standard .
+
+This Carbon Reduction Plan has been reviewed and signed off          by the board of directors (or
+equivalent management body).
+
+
+Signed on behalf of the Supplier:
+
+
+
+Edward Hunt – Bid Manager
+
+Date: 21-05 -2025
+
+
+
+
+1
+             https://ghgprotocol.org/corporate -standard
+2
+             https://www.gov.uk/government/collections/government         -conversion -factors -for-
+company -reporting
+3
+             https://ghgprotocol.org/standards/scope   -3-standard
