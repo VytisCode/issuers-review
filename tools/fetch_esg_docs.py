@@ -8,8 +8,12 @@ su tų metų skaičiumi ir žodžiais annual / sustainability / report. Be AI.
 
 Naudojimas: python tools/fetch_esg_docs.py [išvesties katalogas, numatytas build/esg-text]
 """
+import base64
+import html as _html
+import io
 import json
 import re
+import zipfile
 import subprocess
 import sys
 import urllib.parse
@@ -32,10 +36,20 @@ def fetch(url):
 
 def pdf_links(html, base, year):
     links = re.findall(r'href=["\']([^"\']+\.pdf[^"\']*)["\']', html, re.I)
+    # Dragonfly tipo nuorodos (pvz. cblgroup.com/media/W1si...): failo vardas užkoduotas base64
+    links += re.findall(r'href=["\']([^"\']*/media/W1[A-Za-z0-9_=-]+[^"\']*)["\']', html)
     out = []
     for h in links:
         u = urllib.parse.urljoin(base, h)
         low = urllib.parse.unquote(u).lower()
+        m = re.search(r"/media/(W1[A-Za-z0-9_=-]+)", u)
+        if m:
+            try:
+                low += " " + base64.urlsafe_b64decode(m.group(1) + "=" * (-len(m.group(1)) % 4)).decode("utf-8", "ignore").lower()
+            except Exception:  # noqa: BLE001
+                pass
+            if ".pdf" not in low:
+                continue
         if year in low and re.search(WORDS, low) and u not in out:
             out.append(u)
     # tvarumo / metinės ataskaitos pirmiau nei ketvirtinės
@@ -50,7 +64,7 @@ def get_pdf(cands, year, log):
         except Exception as e:  # noqa: BLE001
             log.append(f"  ✗ {url}: {e}")
             continue
-        if data[:5] == b"%PDF-":
+        if data[:5] == b"%PDF-" or data[:2] == b"PK":
             return data, final
         if b"<html" in data[:2000].lower() or "html" in ctype:
             for u in pdf_links(data.decode("utf-8", "ignore"), final, year):
@@ -63,6 +77,23 @@ def get_pdf(cands, year, log):
                     log.append(f"  ✗ {u}: {e}")
         log.append(f"  ✗ {url}: ne PDF")
     return None, None
+
+
+def esef_pages(data):
+    """ESEF ZIP (XHTML): didžiausias .xhtml/.html failas -> puslapiai pagal „page-break“ žymes (PDF nėra, todėl nuoroda be #page)."""
+    z = zipfile.ZipFile(io.BytesIO(data))
+    names = [n for n in z.namelist() if n.lower().endswith((".xhtml", ".html", ".htm"))]
+    if not names:
+        return [""]
+    doc = z.read(max(names, key=lambda n: z.getinfo(n).file_size)).decode("utf-8", "ignore")
+    parts = re.split(r"<(?:div|p|hr)[^>]*page-break-(?:after|before)[^>]*>", doc, flags=re.I) if "page-break" in doc else re.split(r'<div[^>]*class="[^"]*\bpage\b[^"]*"[^>]*>', doc)
+    out = []
+    for part in parts:
+        t = re.sub(r"<(?:br|/p|/div|/tr|/h\d)[^>]*>", "\n", part, flags=re.I)
+        t = re.sub(r"<[^>]+>", " ", t)
+        t = _html.unescape(re.sub(r"[ \t\xa0]+", " ", t))
+        out.append(re.sub(r"\n\s*\n+", "\n", t))
+    return out
 
 
 def main(out_dir):
@@ -84,16 +115,21 @@ def main(out_dir):
                 if not data:
                     manifest[name] = {"issuer": issuer, "year": year, "url": "", "error": "nepavyko atsisiųsti"}
                     continue
-                pdf = out / "pdf.tmp"
-                pdf.write_bytes(data)
-                txt = subprocess.run(["pdftotext", "-layout", str(pdf), "-"], capture_output=True).stdout.decode("utf-8", "ignore")
-                pages = txt.split("\f")
+                if data[:2] == b"PK":
+                    pages = esef_pages(data)
+                else:
+                    pdf = out / "pdf.tmp"
+                    pdf.write_bytes(data)
+                    txt = subprocess.run(["pdftotext", "-layout", str(pdf), "-"], capture_output=True).stdout.decode("utf-8", "ignore")
+                    pages = txt.split("\f")
+                    pdf.unlink()
                 body = "".join(f"\n=== pdf p.{n} ===\n{p}" for n, p in enumerate(pages, 1) if p.strip() or n < len(pages))
                 (out / "text" / f"{name}.txt").write_text(body, encoding="utf-8")
                 title = item.get("title", "") if isinstance(item, dict) else ""
                 manifest[name] = {"issuer": issuer, "year": year, "url": url, "title": title, "pages": len(pages), "kb": len(data) // 1024}
+                if data[:2] == b"PK":
+                    manifest[name]["format"] = "esef"
                 log.append(f"  ✓ {url} ({len(pages)} psl.)")
-                pdf.unlink()
     man_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
     print("\n".join(log))
     print(f"Iš viso dokumentų: {sum(1 for m in manifest.values() if m.get('pages'))}, nepavyko: {sum(1 for m in manifest.values() if not m.get('pages'))}")
