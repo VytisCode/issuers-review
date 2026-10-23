@@ -1064,6 +1064,55 @@
     upd();
   }
 
+  /* ---------- Žodynėlis: specialūs terminai paaiškinami užvedus pelę ar paspaudus (be teksto keitimo) ---------- */
+  const GLOSS = [
+    [/\bEBITDA\b/, "Pelnas prieš palūkanas, mokesčius ir nusidėvėjimą – kiek pinigų uždirba pati veikla.", "Earnings before interest, tax and depreciation – cash the business itself earns."],
+    [/\b[Gg]rynoji skola\b/, "Skolos minus turimi pinigai.", "Debt minus cash."],
+    [/\b[Ss]vert(as|o|ą)\b/, "Kiek kartų skola didesnė už metinį veiklos pelną (EBITDA) arba kokią turto dalį sudaro skola. Kuo mažesnis, tuo saugiau.", "How many times debt exceeds yearly operating profit (EBITDA), or the share of assets funded by debt. Lower is safer."],
+    [/\bCET1\b/, "Banko geriausios kokybės kapitalas, palyginti su rizika. Kuo didesnis, tuo bankas atsparesnis.", "A bank's best-quality capital compared with its risk. Higher means a sturdier bank."],
+    [/\bLCR\b/, "Ar bankas turi pakankamai pinigų 30 dienų krizei. Reikalaujama ne mažiau 100 %.", "Whether a bank has enough cash for a 30-day crisis. At least 100% is required."],
+    [/\bNSFR\b/, "Ar banko ilgalaikės paskolos finansuojamos stabiliais pinigais. Reikalaujama ne mažiau 100 %.", "Whether a bank's long-term loans are funded by stable money. At least 100% is required."],
+    [/\bMREL\b/, "Kiek banko kapitalo ir skolų galima nurašyti krizės atveju, kad nereikėtų valstybės pinigų.", "How much of a bank's capital and debt can be written off in a crisis so no taxpayer money is needed."],
+    [/\bROE\b/, "Pelnas, palyginti su akcininkų kapitalu (kapitalo grąža).", "Profit compared with shareholders' equity (return on equity)."],
+    [/\bROCE\b/, "Pelnas, palyginti su visu į veiklą įdėtu kapitalu.", "Profit compared with all capital put into the business."],
+    [/\bFFO\b/, "Pinigai iš veiklos (pelnas plius nusidėvėjimas). „FFO / grynoji skola“ – kokią skolos dalį įmonė galėtų grąžinti per metus.", "Cash from operations. 'FFO / net debt' – the share of debt the company could repay in a year."],
+    [/\bLTV\b/, "Skola, palyginti su turto (pastatų) verte. Kuo mažesnė, tuo saugiau.", "Debt compared with the value of property. Lower is safer."],
+    [/\bAT1\b/, "Rizikingiausia banko obligacija: be išpirkimo datos, palūkanas galima neišmokėti, o krizėje ją galima nurašyti.", "The riskiest bank bond: no maturity, interest can be skipped and it can be written off in a crisis."],
+    [/\bTier 2\b/, "Subordinuota banko obligacija – bankroto atveju grąžinama po paprastų skolų.", "A subordinated bank bond – repaid after ordinary debt if the bank fails."],
+    [/\b[Kk]ovenant\w*/, "Obligacijų sąlygos, kurių įmonė privalo laikytis (pvz., skolos riba). Pažeidus – investuotojai gali reikalauti grąžinti pinigus.", "Conditions the company must keep (e.g. a debt limit). If broken, investors may demand repayment."],
+    [/\bDSCR\b/, "Ar veiklos pinigų užtenka skolos įmokoms. Daugiau nei 1 – užtenka.", "Whether operating cash covers debt payments. Above 1 means it does."],
+    [/\bTREA\b/, "Banko turtas, įvertintas pagal riziką.", "A bank's assets weighted by risk."],
+    [/\bsenior non-preferred\b/i, "Banko obligacija, kuri krizėje nurašoma po kapitalo, bet prieš paprastas skolas.", "A bank bond written off after capital but before ordinary debt in a crisis."],
+    [/\bMS\+/, "Palūkanos virš rinkos bazinės normos (swap).", "Interest above the market base rate (swap)."],
+    [/\bIPT\b/, "Pradinė siūloma kaina / pajamingumas naujai emisijai.", "Initial price talk for a new bond."],
+    [/\bSFDR\b/, "ES taisyklės, kaip fondai skelbia apie tvarumą: 9 – tvari investicija, 8 – su tvarumo savybėmis, 6 – be jų.", "EU rules on how funds disclose sustainability: 9 – sustainable, 8 – with sustainability features, 6 – none."],
+    [/\bEuGB\b/, "Europos žaliųjų obligacijų standartas.", "European Green Bond standard."],
+    [/\bESRS\b/, "ES tvarumo ataskaitų taisyklės.", "EU sustainability reporting rules."],
+    [/\bCSRD\b/, "ES direktyva, kuri įpareigoja dideles įmones skelbti tvarumo ataskaitas.", "EU law requiring large companies to publish sustainability reports."],
+    [/\bScope 1\b/, "Tarša iš pačios įmonės veiklos (kuras, katilinės, automobiliai).", "Pollution from the company's own operations (fuel, boilers, cars)."],
+    [/\bScope 2\b/, "Tarša iš perkamos elektros ir šilumos.", "Pollution from purchased electricity and heat."],
+    [/\bScope 3\b/, "Tarša tiekimo grandinėje ir iš klientų (bankams – iš paskolų).", "Pollution in the supply chain and from customers (for banks – from loans)."],
+    [/\bSBTi\b/, "Tarptautinė organizacija, kuri patikrina, ar įmonės taršos mažinimo tikslai pakankami.", "An international body that checks whether a company's pollution targets are sufficient."],
+    [/\bAEI (?:dal|gamyb|elektr|projekt|plėtr)\w*/, "Atsinaujinantys energijos ištekliai – vėjas, saulė, vanduo, biomasė.", "Renewable energy – wind, solar, hydro, biomass."],
+    [/\bTRIR\b/, "Nelaimingų atsitikimų darbe dažnis.", "Rate of work accidents."],
+    [/\bPCAF\b/, "Metodika, kaip bankai skaičiuoja savo klientų (paskolų) taršą.", "A method for banks to calculate their borrowers' pollution."],
+    [/\bBREEAM\b/, "„Žaliojo pastato“ sertifikatas.", "A green building certificate."],
+    [/\bVSME\b/, "Supaprastintas tvarumo ataskaitų standartas mažesnėms įmonėms.", "A simplified sustainability reporting standard for smaller companies."],
+    [/\bESG\b/, "Aplinka, socialinė atsakomybė ir valdysena – kaip įmonė rūpinasi gamta, žmonėmis ir sąžiningu valdymu.", "Environment, social and governance – how a company treats nature, people and fair management."]
+  ];
+  function glossify(root) {
+    const src = GLOSS.map(g => g[0].source).join("|"), re = new RegExp(src, "gi"), has = new RegExp(src, "i");
+    const walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement.closest("a,button,input,textarea,select,pre,abbr,.mbody,summary,th,.chip,[contenteditable],script,style") || !has.test(n.data) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const nodes = []; while (walk.nextNode()) nodes.push(walk.currentNode);
+    nodes.forEach(n => {
+      re.lastIndex = 0;
+      const html = esc(n.data).replace(re, m => { const g = GLOSS.find(x => new RegExp("^(?:" + x[0].source + ")$", "i").test(m)); return g ? `<abbr class="gl" tabindex="0" data-tip="${esc(LANG === "lt" ? g[1] : g[2])}">${m}</abbr>` : m; });
+      const span = document.createElement("span"); span.innerHTML = html; n.replaceWith(...span.childNodes);
+    });
+  }
+  let glT = null; new MutationObserver(() => { clearTimeout(glT); glT = setTimeout(() => glossify($app), 120); }).observe($app, { childList: true, subtree: true });
+  document.addEventListener("click", e => { const a = e.target.closest("abbr.gl"); if (!a) return; const r = a.getBoundingClientRect(); tip.textContent = a.dataset.tip; tip.hidden = false; tip.style.left = Math.max(8, Math.min(r.left, innerWidth - 290)) + "px"; tip.style.top = r.bottom + 6 + "px"; e.stopPropagation(); });
+
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
     const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: ddPage, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
@@ -1074,6 +1123,7 @@
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
     document.documentElement.lang = LANG;
     $app.innerHTML = (map[page] || overview)();
+    setTimeout(() => glossify($app), 80);
     if (!map[page] || page === "overview") watchRuns();
     const qs = document.getElementById("qs"); if (qs) qs.placeholder = wx("qs");
     if (sec) setTimeout(() => { const el = document.getElementById(sec); if (el) { if (el.tagName === "DETAILS") el.open = true; el.scrollIntoView({ behavior: "smooth", block: "start" }); el.classList.add("flash"); } }, 60);

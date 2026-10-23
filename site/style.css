@@ -340,3 +340,4 @@ ul.bl.good li::marker { content: "✓  "; color: var(--good); } ul.bl.bad li::ma
 .esgt th:nth-child(2) { width: 55%; }
 .sebbox { margin: 0 0 12px; } .sebbox h3 { margin: 0 0 4px; font-size: 15px; } .sebbox p { margin: 4px 0; }
 .sebl { margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--line); }
+abbr.gl { text-decoration: underline dotted var(--muted); text-underline-offset: 3px; cursor: help; }
