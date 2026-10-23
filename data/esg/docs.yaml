@@ -56,8 +56,8 @@ bigbank:
   FY2025: [{title: "Bigbank Annual Report 2025", urls: ["https://static.bigbank.eu/investor/assets/2026/02/Bigbank_aastaaruanne_2025.pdf"]}]
   FY2024: [{title: "Bigbank Annual Report 2024", urls: ["https://static.bigbank.eu/investor/assets/2024/04/Bigbank_AS_Annual_Report_2024-ET.pdf", "https://investor.bigbank.eu/en/reporting/", "https://investor.bigbank.eu/et/reporting/"]}]
 coop-pank:
-  FY2025: [{title: "Coop Pank Annual Report 2025", urls: ["https://res30f.cooppank.ee/image/upload/investor_lehed/uldkoosolekud/teated/eng/26/Coop_Pank_annual_report_consolidated_2025_eng.pdf"]}]
-  FY2024: [{title: "Coop Pank Annual Report 2024", urls: ["https://res30f.cooppank.ee/image/upload/investor_lehed/uldkoosolekud/teated/eng/25/Coop_Pank_annual_report_consolidated_2024_eng.pdf", "https://www.cooppank.ee/en/investor/reporting"]}]
+  FY2025: [{title: "Coop Pank Annual Report 2025", urls: ["https://res30f.cooppank.ee/image/upload/investor_lehed/uldkoosolekud/teated/eng/26/Coop_Pank_annual_report_consolidated_2025_eng.pdf"]}, {title: "Coop Pank Sustainability Report 2025", urls: ["https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2025/Sustainability_Report.pdf"]}]
+  FY2024: [{title: "Coop Pank Annual Report 2024", urls: ["https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2024/CoopPank-2024-annual-report-eng.pdf", "https://res30f.cooppank.ee/image/upload/investor_lehed/uldkoosolekud/teated/eng/25/Coop_Pank_annual_report_consolidated_2024_eng.pdf", "https://www.cooppank.ee/en/investor/reporting"]}, {title: "Coop Pank Sustainability Report 2024", urls: ["https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2024/Sustainability-report.pdf"]}]
 hepsor:
   FY2025: [{title: "Hepsor Annual Report 2025", urls: ["https://www.adaur.ee/wp-content/2026/04/Hepsor_2025_ENG.pdf", "https://hepsor.ee/en/for-investors/stock/reports-2/"]}]
   FY2024: [{title: "Hepsor Annual Report 2024", urls: ["https://hepsor.ee/wp-content/uploads/2025/04/Hepsor_2024_ENG.pdf", "https://hepsor.ee/en/for-investors/stock/reports-2/"]}]
