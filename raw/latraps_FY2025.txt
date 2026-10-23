@@ -1,0 +1,3930 @@
+
+=== pdf p.1 ===
+AGRICULTURAL COOPERATIVE LATRAPS
+
+Sustainability Report
+for the period from 01/07/2025 to
+30/06/2026
+
+INQUIRIES
+
+REGISTERED OFFICE
+
+REGISTRATION NUMBER
+
+latraps@latraps.lv
+
+Eleja, Eleja Parish, Jelgava County, LV-3023
+
+58503007191
+
+
+=== pdf p.2 ===
+SUSTAINABILITY REPORT
+
+FOREWORD
+
+Contents
+
+4.
+5.
+6.
+7.
+8.
+10.
+11.
+15.
+
+GENERAL DISCLOSURES
+Basis for preparation
+Strategy: business model and sustainability-related initiatives
+Value chain
+Roles and responsibilities of administrative, management and supervisory bodies
+Practices, policies and future initiatives for the transition towards a more sustainable economy
+Description of practices, policies and future initiatives for the transition towards a more sustainable economy
+Results of the double materiality assessment
+
+16.
+18.
+18.
+22.
+23.
+25.
+25.
+25.
+
+ENVIRONMENTAL IMPACT
+Energy and greenhouse gas emissions
+Climate risks
+GHG emission reduction targets and climate transition
+Pollution of air, water and soil
+Biodiversity
+Water resources
+Resource use, circular economy and waste management
+
+26.
+27.
+28.
+29.
+30.
+
+SOCIAL IMPACT
+Workforce – General characteristics
+Additional (general) workforce characteristics
+Workforce – Health and safety
+Workforce – Remuneration, social dialogue and training
+
+Contents
+
+34. GOVERNANCE / BUSINESS CONDUCT
+36. Revenues from certain sectors and exclusions from the EU reference benchmarks
+37. Convictions and fines for corruption and bribery
+38. PRODUCT QUALITY
+
+40. INNOVATION UN SCIENCE — THE FUTURE
+43. ASNS Ingredient
+46. LATMALT
+49. VSME Report index
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+2
+
+
+=== pdf p.3 ===
+SUSTAINABILITY REPORT
+Foreword
+
+Foreword
+Roberts Strīpnieks
+LATRAPS Chairperson of the
+Board
+Agriculture has always been subject to change.
+We cannot control the weather or global
+markets, but we can influence how wisely we
+manage our operations, how efficiently we use
+resources, and how strong our cooperation is.
+That is why, in LATRAPS’ view, sustainability is
+not a separate project or a passing trend – it is
+an integral part of how we work every day and
+the foundation of our long-term
+competitiveness.
+
+LATRAPS’ sustainability priorities are built
+around three interconnected principles: smart
+resource use, science-based decision-making,
+and cooperation across the entire value chain.
+
+transportation. This approach not only reduces
+the company’s environmental impact but also
+improves operational efficiency and strengthens
+its competitiveness.
+
+are becoming essential tools for
+sustainable farming not only from an
+environmental perspective but also in terms of
+economic efficiency.
+
+Science, innovation, and close cooperation
+are at the heart of LATRAPS’ sustainability
+transformation. We systematically and
+purposefully develop solutions that enable datadriven decision-making, smarter farming
+practices, and greater economic resilience for
+farms. LATRAPS has developed new digital
+tools, including the AGRO Calculator, which
+supports informed, data-driven decision-making,
+and the STROPS logistics planning platform,
+which enables more efficient cost planning and
+helps reduce CO₂ emissions.
+
+At the same time, LATRAPS’ development
+strategy also encompasses the transformation
+of the value chain. By expanding food
+ingredient production and investing in the
+development of a pea protein processing plant
+(ASNS Ingredient) and malt production
+(LATMALT), we are helping to strengthen local
+demand for legumes and grain.
+
+Sustainability in agriculture is no longer a
+matter of choice – it is a necessity. Global
+trends clearly show that climate change, limited
+resource availability, and growing demands for
+safe and reliable food supply chains are
+significantly reshaping the operating conditions
+of the sector. International assessments
+confirm that agriculture is one of the sectors
+most exposed to climate risks – changing
+weather patterns, extreme periods of drought,
+frost, excessive rainfall, and sharp temperature
+fluctuations directly affect crop yields, quality,
+and business stability.
+
+LATRAPS brings together 1210 members.
+The cooperative approach enables the
+development of shared infrastructure,
+allowing resources to be used more efficiently
+while reducing unnecessary transport flows
+and their intensity, fuel consumption,
+logistics-related emissions, and the overall
+environmental impact. This cooperative
+approach strengthens members’
+competitiveness, reduces costs, and supports
+the sustainable development of agriculture
+across the regions.
+
+In our first Sustainability Report, we have
+brought together the key topics that reflect
+LATRAPS’ approach to sustainable
+development and future growth. This report is
+LATRAPS’ sustainability priority is the efficient Transformation also means changing cropnot only a review of what has been achieved,
+growing practices. LATRAPS is purposefully
+use of internal resources. The company is
+but also a testament to our belief that
+moving towards greater crop diversification by
+systematically implementing energy-efficiency
+sustainable agriculture begins with smart
+expanding the cultivation of legumes and other
+measures at its primary processing facilities,
+decisions, cooperation, and a willingness to
+crops that improve soil quality and promote
+monitoring energy consumption, and investing in
+evolve. I am convinced that cooperation,
+natural nitrogen fixation. This approach enables
+renewable energy sources to diversify its energy
+the more economically rational and efficient use knowledge, and the ability to create greater
+mix, reduce consumption, and lower associated
+of mineral fertilisers and crop protection products, added value will enable Latvian farmers to
+emissions. At the same time, the company is
+remain competitive in both local and global
+while also reducing their potential negative
+continuously improving its transport and logistics
+markets. Our role is to create the conditions
+impact on soil health. Crop rotation and
+processes by enhancing delivery planning and
+that make this possible.
+diversification
+reducing unnecessary
+
+3
+
+
+=== pdf p.4 ===
+SUSTAINABILITY REPORT
+General disclosures
+
+General
+disclosures
+B1 Basis for preparation
+C1 Strategy: business model and sustainabilityrelated initiatives
+Value chain
+Results of the double materiality
+assessment
+B2 Practices, policies and future initiatives
+for the transition towards a more
+sustainable economy
+C2 Description of practices, policies and future
+initiatives for the transition towards a more
+sustainable economy
+
+4
+
+
+=== pdf p.5 ===
+SUSTAINABILITY REPORT
+General disclosures
+
+General
+disclosures
+
+Basis for
+preparation (B1)
+The Sustainability Report of the Agricultural
+Cooperative “LATRAPS” (hereinafter –
+LATRAPS) presents information on the company’s
+most significant environmental, social, and
+governance (ESG) indicators. The report covers
+LATRAPS ’ operations at its main site in Eleja, as
+well as at seven additional primary processing
+service centres across Latvia. The LATRAPS
+Group also includes LATMALT (malt production)
+and ASNS Ingredient . Sustainability data for
+these companies are not included in this report;
+however, the Report provides an overview of the
+Group’s overall sustainability strategy, including its
+key priorities and objectives.
+To identify LATRAPS ’ key areas in respect of
+sustainability, a double materiality assessment
+was conducted in 2025. The assessment
+evaluated both the company’s impacts on the
+environment and the influence of external
+factors on the company, particularly in terms of
+risks and opportunities. In preparing this
+Sustainability Report, industry best practices
+and the requirements of the European
+Sustainability Reporting Standards (ESRS)
+were taken into account, whereas the structure
+of the sustainability disclosures was developed
+in accordance with the Voluntary Sustainability
+Reporting Standard for SMEs (VSME). The
+Report covers information on the company’s
+activities for the financial year from 1 July 2025
+to 30 June 2026.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Ventspils
+
+Jaunpagasts
+Madona
+
+Riga
+Saldus
+
+Barkava
+
+Jelgava
+Stalgene
+
+Aizkraukle
+Rezekne
+
+Eleja
+Liepaja
+
+Bauska
+
+Jekabpils
+
+Daugavpils
+
+8 grain intake and primary
+processing service centres
+across Latvia
+
+Rapeseed oil production
+facility Eleja
+
+18 grain intake centres across
+Latvia, in cooperation with partners
+such as the agricultural
+cooperatives Durbes Grauds ,
+VAKS, and Barkavas Arodi
+
+Malt production facility
+LATMALT in Stalgene
+
+Two LATRAPS customer
+services centres in Barkava
+and Rezekne
+
+Port cities
+
+5
+
+
+=== pdf p.6 ===
+Strategy: business model and sustainability-related initiatives (C1)
+
+SUSTAINABILITY REPORT
+
+General
+disclosures
+
+Strategy: business model and sustainability-related initiatives (C1)
+Strategy, business model and value chain
+
+Value chain and cooperative approach
+
+LATRAPS is the largest agricultural cooperative in the Baltics. Its core business is to provide
+comprehensive services to farmers, covering the entire grain production and marketing cycle.
+LATRAPS provides crop insurance agency services, as well as sales of fuel, agricultural
+machinery and spare parts. It also offers equipment maintenance and logistics services and is
+engaged in the production of rapeseed oil.
+
+LATRAPS’ value chain is based on the principles of cooperation, with the aim of creating an
+efficient, regionally integrated and resource-efficient agricultural system. The cooperative
+approach involves the centralised development of infrastructure to reduce unnecessary transport
+movements, optimise the use of resources and minimise environmental impacts.
+
+LATRAPS is a 100% domestic capital company, owned by 1,214
+Latvian farmers who are members of the cooperative.
+The cooperative’s activities are driven by the needs of its members, bringing them
+together to facilitate more efficient trading and improve the economic profitability of their
+farming operations. It represents and supports the interests of its members by marketing
+their agricultural produce, including grain, legumes and rapeseed, and supplying the
+inputs and services required for agricultural production. The cooperative also provides
+expert advice and organises training to support sustainable growth.
+
+LATRAPS members operate farms with an average area of 332 hectares and
+collectively manage approximately 30% of Latvia’s agricultural land.
+
+During the reporting year, the company employed an average of 223 people.
+
+The LATRAPS cooperative model, which brings together more than 1,214 members, is built
+around two key benefits: jointly developed infrastructure and a centralised procurement and sales
+system. Grain primary processing facilities established across the regions enable members to
+organise logistics more efficiently, reduce transport flows and make use of shared, energy-efficient
+infrastructure. This eliminates the need for individual farms to invest separately in their own grain
+dryers and storage facilities.
+The cooperative approach also supports a regionally organised system in which grain is not
+transported immediately to ports or over long distances but is first processed closer to where it is
+grown. This helps reduce transport intensity, fuel consumption and logistics-related emissions.
+At the same time, we are developing energy-efficient facilities and assessing alternative solutions,
+including mobile grain dryers and more efficient energy sources for drying processes. In addition,
+the centralised procurement and sales system provides significant economic benefits. For individual
+farmers, purchasing ingredients and identifying the most favourable markets for selling grain would
+be considerably more costly and challenging. The cooperative model enables members to pool their
+production, consolidate grain volumes and enter into larger transactions that would often be
+inaccessible to individual farmers. This model strengthens members’ competitiveness, reduces
+costs and, at the same time, promotes more sustainable and resource-efficient farming practices.
+
+Market:
+LATRAPS continues establishing partnership with major international export partners, including
+global agricultural trading companies, to facilitate the sale of its members’ produce in international
+markets and reduce counterparty risks.
+In Latvia, LATRAPS cooperates with companies operating in the food production, energy
+(biodiesel production) and livestock sectors.
+In the 2025/2026 financial year, the domestic market accounted for 68% of LATRAPS’
+revenue, while export markets accounted for 39%.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+6
+
+
+=== pdf p.7 ===
+Fuel
+suppliers
+
+Agricultural input
+
+2.
+PR
+IM
+A
+
+Primary processing of
+grain, rapeseed and
+legumes (at 8 facilities
+across Latvia)
+
+3. LOG
+IST
+ICS
+
+FARMER
+(grain, rapeseed,
+legumes)
+
+1. T
+RA
+DI
+NG
+
+ING
+SS
+E
+OC GE
+PR RA
+Y TO
+AR S
+ND
+
+(mineral fertilizers, crop protection
+products, seeds and micronutrients)
+
+manufacturers
+
+Grain
+primary processing and
+storage outsourcing
+
+Fuel
+trade
+Grain
+trade
+
+Machinery trade
+and after-sales
+Agricultural input
+
+(micronutrients, seeds, mineral
+fertilizers and crop protection
+products)
+
+Transport
+logistics
+
+Grain
+handling
+
+trade
+
+FARMER
+
+UC
+OD
+
+Rapeseed oil
+and rapeseed
+press cake
+production
+
+TI
+
+O
+
+N
+
+Development
+projects and
+research
+
+Crop
+insurance
+Financial risk
+hedging
+
+Deferred
+payment
+services
+
+5.
+
+FINANCE
+
+6.
+
+Food,
+animal-feed and
+industrial
+manufacturers
+
+FARMER
+
+S
+
+4 . PR
+
+Port storage and
+handling services
+
+Consulting
+and training
+
+VALUE CHAIN
+EAM
+(C
+R
+LI
+T
+S
+N
+
+TS )
+EN
+
+Logistics outsourced
+service providers - road
+freight transport and rail
+
+Grain
+wholesalers
+
+DOW
+
+LY
+P
+P
+U
+
+Machinery and
+spare parts
+manufacturers
+
+N
+AI
+H
+C
+
+UP
+ST
+RE
+AM
+
+General
+disclosures
+
+S
+
+Value chain
+
+DE
+VE
+LOP
+M EN T
+
+SUSTAINABILITY REPORT
+
+Export partners
+
+ES CHANNEL
+L
+S
+A
+Malt
+production
+
+Brokers,
+agents
+
+Pea protein
+isolate
+production
+
+Agronomists,
+sales reps
+
+Insurers and
+financial
+institutions
+Banks
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Other
+suppliers
+7
+
+
+=== pdf p.8 ===
+SUSTAINABILITY REPORT
+
+Advisory Board
+
+The Advisory Board is responsible for determining LATRAPS strategic
+development directions and overseeing the work of the Executive Board.
+
+General
+disclosures
+Functions of the
+administrative,
+management and
+supervisory structures
+
+Valters Bruss
+
+Artūrs Akmens
+
+Artūrs Tjušs
+
+Chairman of the
+Board
+Farm Strazdi
+
+Deputy Chairman of the
+Board
+
+Farm Meža Grumuži
+
+The General Meeting of LATRAPS members is
+the cooperative’s highest administrative decisionmaking body. Regardless of their form of
+participation in the cooperative, each member
+has one vote at the General Meeting of
+Members.
+
+annual reports;
+3. deciding on the distribution of profits;
+4. developing new areas of business.
+
+Farm Lazdiņi
+
+Iveta Grudovska
+
+Eduards Šmits
+
+Sandris Bēča
+
+Māris Bērziņš
+
+Farm Lielvaicēni
+
+Farm Pīlādži
+
+Agricultural cooperative
+Durbes grauds
+
+Farm Rigmaļi
+
+Executive Board
+
+The Executive Board is responsible for implementing LATRAPS’ strategy and managing the company’s day-to-day
+operations, including sustainability-related risks, and preparing strategic investment proposals for the Advisory Board to
+support the company’s sustainable development.
+
+Roberts Strīpnieks
+
+Ginta Briede
+
+Gundars Ruža
+
+Ģirts Ozols
+
+Ilga Bērzkalne
+
+CEO
+
+Head of Grain Sales
+Department
+
+Chief Financial
+Officer
+
+Head of Agriculture
+Department
+
+Head of Development
+Department
+
+Chairman of the Board
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Juris Lazdiņš
+
+Limited liability
+company Reits
+
+Farm Laši
+
+Its main tasks include:
+1. electing the Advisory Board;
+2. reviewing and approving the
+
+Mārtiņš
+Trons
+
+8
+
+
+=== pdf p.9 ===
+Operational performance
+monitoring mechanism
+
+SUSTAINABILITY REPORT
+General Meeting
+1214 members
+
+General
+disclosures
+
+Advisory Board
+9 members
+
+Executive Board
+5 members
+
+Raw material
+trade
+
+Finance
+Logistics
+
+Production
+
+Machinery
+
+Grain intake and storage
+
+Administration
+Insurance
+
+Grain trade
+
+The Advisory Board, elected by the members,
+oversees the implementation of LATRAPS’
+strategic decisions and makes decisions
+regarding the company’s development through
+mutual agreement and voting. Sustainability
+issues within the company are closely linked to
+the company’s strategic business development.
+Sustainability issues and their integration into
+the company’s operations are supervised by the
+Executive Board, and these matters are
+regularly included on the Executive Board’s
+agenda. At the same time, the management and
+advancement of sustainability matters within the
+company, including coordination with the
+Executive Board members, heads of various
+business units and subject-matter specialists,
+are overseen by the Chairman of the Executive
+Board and the Chief Financial Officer. The Task
+Force comprising managers responsible for
+sustainability-related processes is coordinated
+by the Business Controller.
+
+Risk management and internal
+control regarding
+sustainability reporting
+LATRAPS regularly assesses the company’s
+management risks and uses risk mitigation
+instruments to lock in commodity prices and reduce
+the impact of price fluctuations. LATRAPS has
+assessed its sustainability risks in accordance with
+the ESRS methodology and manages these risks by
+assigning responsibility for each risk and
+implementing risk mitigation measures.
+Sustainability data is collected on an ongoing basis
+using the company’s internal business analytics and
+management tools.
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+9
+
+
+=== pdf p.10 ===
+Practices, policies and future initiatives for the transition to a more sustainable economy (B2)
+
+SUSTAINABILITY REPORT
+
+General
+disclosures
+
+Practices, policies and future initiatives for the transition to a more sustainable economy (B2)
+Sustainability direction
+LATRAPS’ sustainability development direction
+LATRAPS is building a sustainable, competitive and future-oriented agricultural ecosystem in which economic growth, environmental protection and social responsibility are closely interconnected,
+while good governance strengthens the cooperative model as a foundation for sustainable growth.
+Cooperation
+The cooperative model is at the heart of LATRAPS operations, providing its members with equal opportunities to engage with the global market. Bringing farmers together within a unified system
+strengthens their market position, facilitates knowledge sharing and creates greater resilience to external economic and climate-related risks.
+Environmental impact
+LATRAPS invests in energy efficiency and renewable energy
+sources, while improving its processes and infrastructure to
+reduce the consumption of fossil resources in grain drying,
+logistics and other operations.
+LATRAPS actively cooperates with scientific institutions and
+researchers to develop more environmentally friendly solutions
+for agriculture and promote more efficient use of resources.
+LATRAPS educates its members and develops IT tools that
+support data- and research-based decision-making, helping to
+reduce environmental impacts while improving production
+efficiency.
+LATRAPS invests in sustainability by promoting product
+diversification, including the development of legumes and
+alternative protein sources. These initiatives support the
+transition towards a more sustainable food system while
+creating new economic opportunities for farmers.
+
+Social impact
+
+Governance
+
+LATRAPS maintains an inclusive and safe working
+environment that fosters a passionate, fully-engaged and
+self-motivated team of employees.
+
+LATRAPS ensures transparent, inclusive and responsible
+decision-making, strengthening trust and long-term
+cooperation among its members.
+
+LATRAPS core values are cooperation, trust and mutual
+responsibility. These values are reflected in the continuously
+growing number of members and their active involvement in the
+cooperative’s activities.
+
+LATRAPS working environment is based on clear internal
+procedures, equal treatment, non-discrimination, good corporate
+governance and fair relationships among all stakeholders.
+
+LATRAPS is a continuously learning organisation. It promotes
+knowledge sharing, organises training and strengthens the
+competencies of employees and members, while supporting the
+development of local communities. In doing so, the company helps
+create a stable foundation for sustainable agriculture in Latvia.
+
+LATRAPS has developed a corporate development strategy up until the 2028/2029 financial year, with the majority of its strategic objectives linked to aspects that are material to the company’s
+sustainability. Material sustainability matters are integrated into day-to-day operations. Sustainability is not a separate area of the company’s operations, but rather an approach in which impacts, risks and
+opportunities are considered in every decision - from the working environment, product development and innovation to cooperation with members and partners.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+10
+
+
+=== pdf p.11 ===
+Description of practices, policies and future initiatives for the transition towards a more sustainable economy (C2)
+
+SUSTAINABILITY REPORT
+
+General
+disclosures
+
+Description of practices, policies and future initiatives for the transition towards a
+more sustainable economy (C2)
+To ensure the systematic identification, monitoring and management of material sustainability topics, the company uses internal regulatory documents, policies, procedures, guidelines and relevant
+industry information. The table below summarises the key documents that establish the framework for managing sustainability matters within the company and reflect the main areas of action and key
+measures for implementing them.
+B2
+
+C2
+
+Sustainability
+topic
+
+Existing
+practices,
+policies or
+initiatives
+[Yes/No]
+
+Policy
+objectives
+[Yes/No]
+
+Description of practices or policies and related actions
+
+Detailed description of future initiatives or targets
+
+Climate
+change
+(climate
+change
+adaptation,
+energy)
+
+Yes
+
+No
+
+An energy audit conducted every four years, with
+annual plans and improvements aimed at increasing
+energy efficiency
+
+Action areas: Invest in energy efficiency across the company’s infrastructure;
+improve processes to reduce the consumption of fossil fuels in the company’s
+own operations; invest in renewable energy infrastructure.
+Objectives:
+• Increase the amount of renewable energy generated for own
+consumption (by an average of 217 MWh per year)
+• Increase the share of electric vehicles in the company’s fleet (adding
+up to 10 electric vehicles per year)
+
+Energy efficiency measures:
+• In 2026, replacement of the rapeseed drying equipment in the oil
+production facility, with a target saving of 6,090 MWh per year.
+• From 2026 to 2028, replacement of existing lighting with LED lighting, with a
+target saving of 19,830 MWh per year.
+Carbon Emissions Report (Scopes 1, 2 and 3) and
+Taxonomy Report
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Measures to reduce emissions:
+• Increase the use of renewable energy in the company’s own operations.
+• Optimize logistics planning to reduce fuel consumption in the company’s
+own operations and across the supply chain.
+• Develop the STROPS logistics planning platform to reduce transport
+costs and emissions.
+• Electrify the vehicle fleet.
+
+11
+
+
+=== pdf p.12 ===
+SUSTAINABILITY REPORT
+
+B2
+
+General disclosures
+
+General
+disclosures
+
+Sustainability
+topic
+
+Existing
+practices,
+policies or
+initiatives
+[Yes/No]
+
+C2
+Policy
+objectives
+[Yes/No]
+
+Description of practices or policies and related actions
+
+Detailed description of future initiatives or targets
+
+Risk policy
+
+Action areas: Strengthen the resilience of the company and its members’ farms
+to climate and market fluctuations, while maintaining product quality and
+competitiveness and supporting the development of sustainable agricultural
+and food production systems.
+Objective: By 2028, more than half of LATRAPS members will have
+participated in training on sustainable agriculture.
+Measures to support adaptation to climate changes:
+• Ensure stable procurement and product sales volumes despite
+changing weather conditions.
+• Strengthen the resilience of infrastructure and storage processes.
+• Develop a flexible, data-driven decision-making system tailored to
+members’ needs, including digital tools such as the AGRO Calculator and
+GEO Meteo, to support adaptation to changing conditions.
+• Increase the share of legume cultivation on members’ farms to promote
+natural nitrogen fixation, adapt crop structures to climate change and support
+the development of new crops through training, field trials and scientific
+research.
+• Promote sustainable agricultural practices and reduce risks associated
+with pests, diseases and extreme weather events through training, field
+trials and scientific research.
+
+Pollution (air
+pollution,
+substances of
+concern and
+substances of
+very high
+concern)
+
+Yes
+
+Water and
+marine
+resources
+
+No
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+No
+
+No
+
+B-category pollution permit – air emissions
+• Aizkraukle
+• Jekabpils
+• Bauska
+• Eleja
+
+Action area: Ensure compliance with air quality and emissions requirements in
+accordance with the conditions of permits for polluting activities.
+
+Circulation of mineral fertilisers and plant protection
+products in compliance with applicable legislation
+
+Action area: Use mineral fertilisers, plant protection products and
+micronutrients efficiently, promoting their economically justified and
+responsible use in agricultural operations.
+
+_
+
+_
+
+12
+
+
+=== pdf p.13 ===
+SUSTAINABILITY REPORT
+
+B2
+
+General disclosures
+
+General
+disclosures
+
+C2
+
+Sustainability
+topic
+
+Existing
+practices,
+policies or
+initiatives
+[Yes/No]
+
+Policy
+objectives
+[Yes/No]
+
+Description of practices or policies and related actions
+
+Detailed description of future initiatives or targets
+
+Biodiversity and
+ecosystems
+
+No
+
+No
+
+_
+
+_
+
+Circular
+economy
+
+No
+
+No
+
+_
+
+_
+
+Own workforce
+(adequate wages,
+health and safety,
+training and skills
+development)
+
+Yes
+
+Yes
+
+Human resources management policy
+
+Action area: Maintain an inclusive and safe working environment that fosters
+a team of passionate and self-motivated employees while ensuring the
+continuous development of employee competencies and high performance.
+Objectives:
+• Competitive remuneration, with salaries above the industry median.
+• Increase the employee engagement index (TRIM).
+• Increase the proportion of positions for which remuneration meets the
+defined target level.
+• Maintain the annual employee turnover rate below 15%.
+
+Training plan
+
+Objectives:
+• Provide educational availability to 100% employees
+• Gradually increase annual training expenditure per employee.
+
+Occupational health and safety policy
+
+Objective:
+• Achieve zero workplace accidents.
+
+Workers in the
+value chain
+
+No
+
+No
+
+_
+
+_
+
+Affected
+communities
+(safety-related
+impact)
+
+Yes
+
+Yes
+
+Critical infrastructure – maintenance of Category A
+
+Action area: Ensure a safe environment for employees and the local
+
+permits and civil protection policy
+
+community. Objective:
+• Achieve zero incidents that negatively affect the safety and health of
+employees or the local community.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+13
+
+
+=== pdf p.14 ===
+SUSTAINABILITY REPORT
+
+B2
+
+General disclosures
+
+General
+disclosures
+
+C2
+
+Sustainability
+topic
+
+Existing
+practices,
+policies or
+initiatives
+[Yes/No]
+
+Policy
+objectives
+[Yes/No]
+
+Description of practices or policies and related actions
+
+Detailed description of future initiatives or targets
+
+Consumers
+and endusers
+(product
+quality)
+
+Yes
+
+No
+
+Food safety and raw material traceability management system
+
+Action area: Maintain management systems and relevant
+certifications in selected areas of operation, ensuring high
+product quality in accordance with EU requirements and full
+traceability throughout all processes.
+
+Business
+conduct
+(corporate
+culture, political
+engagement and
+lobbying,
+supplier
+management)
+
+Yes
+
+Measures:
+• Maintain GMP+ certification for the trading of
+grains, legumes and oilseeds. Maintain certification
+for the storage and transshipment of grains,
+legumes and oilseeds.
+• Maintain ISCC certification for the first collection point,
+trader with warehouse, and oilseed crushing facility.
+Yes
+
+Rules of Conduct for Members of Agricultural Cooperative
+LPKS LATRAPS
+Code of Ethics
+Whistleblowing System: Whistleblowing Reporting and Review Rules
+Conflict of Interest Prevention Rules and Conflict of Interest Procedure
+Internal Rules of Procedure
+Regulation on the Protection of Trade Secrets
+
+Action area: Improve customer loyalty and the quality of
+cooperation, ensure transparent and responsible supplier
+management, and reduce risks associated with
+cooperation with high-risk partners.
+
+Objectives:
+• Maintain zero tolerance for corruption.
+• Maintain the intensity of cooperation with members at 85%.
+Measures:
+• Develop a Supplier Code of Ethics.
+
+Risk Management Policy
+Business Partner Due Diligence and Risk Assessment Policy
+AML Policy
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+14
+
+
+=== pdf p.15 ===
+Results of the double materiality assessment
+
+HIGH
+
+Double materiality assessment matrix
+During the 2024/2025 reporting year, LATRAPS
+conducted a double materiality assessment using
+the European Sustainability Reporting Standards
+(ESRS) methodology. The assessment analysed
+environmental, social and governance aspects
+across the company’s entire value chain, taking into
+account the specific nature of the company’s
+operations, industry and market trends, as well as
+internally and externally identified impacts, risks
+and opportunities (IROs). These factors were
+grouped according to the ESRS topics and subtopics, with an overall score determined for each
+sub-topic based on impact materiality and financial
+materiality. The materiality threshold for both impact
+materiality and financial materiality (risks and
+opportunities) was set at 3 points on a 5-point
+scale. Accordingly, topics with an overall score of at
+least 3 points were considered material in the
+context of LATRAPS sustainability reporting. In
+addition, the Executive Board decided to include in
+the list of material sustainability topics those
+identified by experts, including occupational health
+and safety, safety-related impact, climate change
+adaptation and product quality, in order to fully
+reflect the views of stakeholders. As a result, the
+material topics relevant to LATRAPS strategic
+development, risk management and sustainability
+priorities were identified, providing a basis for the
+further development of objectives, actions and
+performance indicators. The assessment results
+are presented in a double materiality matrix, which
+visually illustrates the priority aspects based on
+their impact materiality and financial materiality and
+provides the basis for the development of the
+thematic sections of this sustainability report.
+
+Impact materiality
+Substances of concern
+Substances of very high concern
+Energy
+Air pollution
+
+Relationships with suppliers
+Corporate culture
+Political engagement and lobbying
+
+Immateriality
+
+Financial
+materiality
+
+Climate change adaptation
+
+Occupational health and safety
+Safety-related impact
+
+Product quality
+
+LOW
+
+ESRS Environmental
+Standards sub-topics
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Double materiality
+
+Adequate wages
+Training and skills development
+
+IMPACT MATERIALITY
+
+General
+disclosures
+
+Results of the double materiality assessment
+
+LOW
+
+SUSTAINABILITY REPORT
+
+FINANCIAL MATERIALITY
+
+ESRS Social Standards
+sub-topics
+
+HIGH
+
+ESRS Governance
+Standards sub-topics
+
+15
+
+
+=== pdf p.16 ===
+SUSTAINABILITY REPORT
+Environmental impact
+
+Environmental
+impact
+B3 Energy and greenhouse gas emissions
+
+C3 GHG emission reduction targets and climate
+transition
+C4 Climate risks
+B4 Pollution of air, water and soil
+B5 Biodiversity
+B6 Water resources
+B7 Resource use, circular economy and
+waste management
+
+
+=== pdf p.17 ===
+Climate change – climate change adaptation
+
+SUSTAINABILITY REPORT
+
+Environmental
+impact
+
+Climate change – climate change adaptation
+Climate change adaptation
+Policies and approach
+
+Action area
+
+Adaptation to climate change is a significant issue for the cooperative’s members – farmers who
+are also LATRAPS owners, suppliers and customers. LATRAPS identifies climate changerelated impacts, as well as several significant risks and opportunities.
+
+Impacts, risks and opportunities
+
+Impacts
+
+Risks
+
+Opportunities
+
+• Climate change
+affects the volume and
+quality of grain
+harvests.
+• Changing weather
+conditions extend the
+vegetation period, which
+increases the risk of spring
+frosts and leads to more
+uneven precipitation volume
+during the season.
+• Warmer
+winters
+promote the spread of
+pests.
+• Changing weather
+conditions increase the risk
+of crop diseases.
+
+• Physical climate risks:
+drought, excessive
+precipitation, hail and
+temperature fluctuations
+reduce harvest stability.
+• Supply risks: fluctuations
+in harvests affect
+procurement volumes and
+product availability.
+• Insurance risks: increasing
+climate risks may increase
+insurance costs
+and affect the availability of
+insurance.
+• Biological risks: the
+spread of pests and
+diseases may
+negatively affect
+harvest quality and
+increase costs.
+• Market risks: global climate
+fluctuations affect price
+dynamics and
+competitiveness.
+
+• Development of new
+crops: a warmer climate
+expands the range of crops
+that can be cultivated, such
+as maize.
+• Potential for price
+increases: climate-related
+reductions in supply may
+increase grain prices.
+• Development of services:
+demand for agronomic
+consulting and insurance
+solutions may increase.
+• Efficiency gains:
+optimising agricultural
+practices can improve
+productivity and
+income in the long term.
+
+Strengthen the resilience of the company and
+members’ farms to climate and market
+fluctuations while maintaining product quality
+and competitiveness and contributing to the
+development of a sustainable agricultural and
+food production system.
+
+Objective
+
+By 2028, more than half of LATRAPS
+members will have participated in training
+on sustainable agriculture.
+
+Actions and measures
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+• Ensure stable procurement and product sales volumes under changing weather conditions.
+• Strengthen the resilience of infrastructure and storage processes.
+• Develop flexible, data-driven decision-making systems for members to support adaptation to
+changing weather conditions, including IT tools, field trials and scientific research.
+• Diversify crop cultivation and promote the development of new crops on members’ farms, for
+example by increasing the cultivation of legumes, which contribute to natural nitrogen fixation
+and can be better adapted to climate change through training, field trials, scientific research,
+and IT tools.
+• Provide farmers with opportunities to insure their crops against extreme weather
+conditions.
+• Cooperate with researchers and industry experts to develop climate-resilient
+solutions and sustainable agricultural practices.
+• Promote the responsible use of plant protection products and mineral fertilisers to reduce the
+use of chemical substances through training.
+
+17
+
+
+=== pdf p.18 ===
+Energy and greenhouse gases emissions (B3)
+
+SUSTAINABILITY REPORT
+
+Environmental
+impact
+
+Energy and greenhouse gases emissions (B3)
+Policies and approach
+
+Action area
+
+LATRAPS identifies energy as a material sustainability topic within its business model,
+recognizing the significant role of energy in the company’s core operations. A substantial share of
+primary energy and electricity is consumed in technological processes, particularly grain
+processing and drying, as well as in transport and logistics operations. Consequently, the most
+significant areas of emissions impact within the company’s operations are associated with grain
+drying processes and transport.
+
+Invest in energy-efficient infrastructure and
+improve processes to reduce the consumption
+of fossil resources in the company’s own
+operations, while also investing in renewable
+energy infrastructure.
+
+Objective
+• Increase the volume of renewable
+energy generated for own
+consumption.
+• Promote the share of electric vehicles in
+the company’s fleet.
+
+Climate risks
+Actions and measures
+The company has not conducted a formal climate risk assessment yet. However,
+LATRAPS approach to mitigating climate change is based on a gradual transition
+towards more energy-efficient and less carbon-intensive solutions.
+
+Impacts, risks and opportunities
+
+Impacts
+• Energy consumption directly
+affects the greenhouse gas
+emissions generated by the
+company, as well as its cost
+structure. The choice of
+energy sources affects the
+company’s carbon intensity
+and its overall environmental
+impact.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Risks
+
+Opportunities
+
+• High and volatile
+energy prices, dependence
+on fossil fuels, and
+requirements related to the
+transition to a low-carbon
+economy may affect the
+company’s costs and
+increase the need for
+investment.
+
+• Improving energy efficiency
+and increasing the use of
+renewable energy sources
+provide opportunities to
+reduce costs and emissions
+while improving the
+company’s long-term
+competitiveness.
+
+LATRAPS is implementing a range of measures to optimise energy consumption and reduce
+emissions. These include improving the efficiency of technological processes, particularly grain
+drying, monitoring energy consumption, and optimising logistics processes. In the transport sector,
+the company is evaluating more efficient transportation solutions, including the use of rail transport,
+which generates lower emissions compared with road transport. Moreover, the company is also
+focusing on efficient logistics planning to reduce fuel consumption both in its own operations and
+across the supply chain. It is planned to develop transport standards for outsourced transport
+service providers.
+
+18
+
+
+=== pdf p.19 ===
+Renewable energy
+
+SUSTAINABILITY REPORT
+
+Environmental
+impact
+
+Renewable energy
+In addition to developing renewable energy,
+LATRAPS is transitioning towards more
+environmentally friendly energy sources and
+gradually developing renewable energy
+infrastructure across its facilities.
+Currently, four solar power plants with a
+combined capacity of 230 kW have been
+installed at the Eleja facility. These are
+expected to generate approximately 217 MWh
+of electricity annually, covering part of the
+company’s electricity consumption. The
+electricity generated by the solar power plants is
+also used to charge LATRAPS’ electric
+vehicles. The company aims to further increase
+the share of renewable energy by increasing the
+volume of renewable energy generated by at
+least 50% over the next five years compared
+with the current level. To achieve this target,
+LATRAPS plans to implement renewable
+energy solutions at other company facilities as
+well.
+
+Energy consumption, incl. transport
+At the same time, it is planned to replace
+liquefied petroleum gas (LPG) with liquefied
+natural gas (LNG) in the Eleja facility by 2026.
+Current LPG consumption at Eleja is
+approximately 5,160 MWh per year (400
+tonnes of LPG during the 2025 season). The
+transition to LNG is expected to reduce
+carbon emissions intensity due to the lower
+CO₂ emission factor associated with this
+energy source. Together, these measures
+form part of LATRAPS’ energy transition
+strategy, which focuses on improving energy
+efficiency, reducing emissions and increasing
+the use of more sustainable energy
+resources.
+LATRAPS’ approach is aligned with Latvia’s
+National Energy and Climate Plan 2021–2030,
+which sets out priorities for reducing
+greenhouse gas emissions, increasing the
+share of renewable energy sources, improving
+energy efficiency and strengthening energy
+security.
+
+386,825
+345,459
+342,041
+
+Diesel fuel (l)
+
+7,464
+Petrol (I)
+
+43,211
+59,264
+
+LPG (l)
+
+732,035
+
+1,083,351
+
+Renewable energy (kWh)
+
+2023 - 24
+
+2024 - 25
+
+1,137,197
+
+1,777,970
+1,181,463
+1,432,648
+
+Natural gas (m3)
+
+Wood chips/pellets (t)
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+4,637,260
+3,457,677
+4,132,648
+
+Electricity (kWh)
+
+1,9
+
+20
+
+35
+
+0
+0
+
+195,433
+
+2025 - 26
+
+19
+
+
+=== pdf p.20 ===
+Energy efficiency
+
+SUSTAINABILITY REPORT
+
+Environmental
+impact
+
+Energy efficiency
+By the time this report was prepared, LATRAPS had implemented all energy efficiency improvement measures planned for 2025. These included the installation of solar panels, improvements to
+the ventilation control system at the Eleja facility, and the installation of an additional rapeseed heater in the oil production facility. The new solution operates in parallel with the existing dryer but
+reduces the need for the drying process, which is significantly more energy-intensive than heating. As a result, the company has introduced alternative solutions for more efficient energy use in its
+technological processes and reduced overall energy consumption. At the same time, the company continues to develop other energy efficiency and energy management solutions, diversifying the
+use of energy resources across its various facilities. The improvement of the thermal insulation of the building envelope and the reconstruction of the heating system at the Jekabpils office building,
+which had originally been planned for 2024, were completed ahead of schedule in 2023 (funding: EUR 66,635.06). For the period from 2026 to 2028, the company plans to gradually replace
+existing lighting with LED technology, thereby continuing to reduce energy consumption and associated emissions.
+Implementation of energy efficiency improvement measures and planned energy savings
+Year
+
+2023/
+
+2025
+
+Energy efficiency improvement measures
+
+Planned energy savings, MWh/year
+
+Improvement of the thermal insulation of the building envelope and reconstruction of the heating
+system at the Jekabpils office building
+
+Implemen
+tation
+status
+
+18,850
+
+Improvement of the ventilation control systems at the Eleja facility
+14,760
+
+2025
+
+Installation of solar panels at the Eleja facility
+178,000
+
+2026
+
+Replacement of the rapeseed drying equipment at the oil production facility by relocating it indoors
+6,090
+
+2026
+
+2027
+
+2028
+
+Replacement of lighting at the grain processing facilities: replacement of 2 × 36 W T8 fluorescent luminaires,
+operating for up to 5 hours per day, with 36 W LED luminaires (40 units)
+
+Replacement of lighting:
+• Replacement of 2 × 36 W T8 fluorescent luminaires at the oil production facility, operating for 10 hours per
+day, with 36 W LED luminaires (6 units)
+• Replacement of 150 W sodium-halide outdoor lighting luminaires, operating for 9.51 hours per day, with 50
+W LED luminaires (10 units)
+Replacement of lighting: Replacement of 400 W sodium-halide outdoor lighting luminaires, operating
+for 9.51 hours per day, with 167 W LED luminaires (16 units)
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+2,630
+
+4,260
+
+12,940
+
+20
+
+
+=== pdf p.21 ===
+Transport
+
+SUSTAINABILITY REPORT
+
+Environmental
+impact
+
+Transport
+
+Fleet electrification
+
+LATRAPS provides grain and mineral fertiliser logistics using both its own fleet of up to 10 trucks
+and external transport service providers, operating an average of approximately 35 vehicles per
+year. At the same time, the company is developing rail transportation of grain as one of its priority
+sustainable logistics solutions. During the 2024/2025 reporting year, more than 600,000 tonnes of
+grain and mineral fertilisers were transported in total. The volume of rail transportation was 18.8%
+higher than the volume transported by road. This approach helps reduce greenhouse gas
+emissions from transportation, as rail transport generates significantly lower CO₂ emissions per
+tonne transported compared with road transport.
+
+LATRAPS is gradually electrifying its vehicle fleet. This initiative forms part of a broader energy
+transition aimed at reducing fossil fuel consumption and shifting towards more sustainable energy
+solutions. Over the next five years, the company plans to advance fleet electrification in several
+areas, including the transition to electric vehicles for office-related needs, assessing opportunities
+to introduce electric commercial vehicles, and developing electric vehicle charging infrastructure at
+the company’s facilities. LATRAPS already uses electric equipment in its day-to-day operations.
+The company currently has six electric pallet trucks and forklifts, which are used in warehouse and
+logistics processes.
+
+Global developments are increasingly affecting the long-term competitiveness of Latvian
+agricultural products. Fluctuations in energy prices, rising transport infrastructure costs and the
+restructuring of supply chains are putting pressure on transportation costs across the region.
+Given that rail transportation costs increased by approximately 12% on average over the past
+year, the use of rail transport for grain shipments may decline during the next operating period.
+To provide more competitive transportation solutions, LATRAPS has developed the digital
+platform STROPS, which connects owners of agricultural cargo with transport providers.
+The platform helps optimise regional transportation by offering more flexible and potentially
+more cost-effective transport alternatives. In 2026, the platform will be expanded with new
+functionality enabling farms to submit cargo transportation requests and receive the most
+competitive price offers.
+
+Grain volumes transported by different modes of transport (t)
+
+Grain
+
+Rail
+
+Grain
+
+Road transport
+
+Mineral
+fertilizers
+
+Road transport
+
+2023 - 24
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+2024 - 25
+
+240,776
+285,860
+247,299
+
+229,631
+201,261
+266,250
+
+65,572
+85,757
+69,325
+
+2025 - 26
+
+21
+
+
+=== pdf p.22 ===
+Greenhouse gas (GHG) emissions – Scopes 1 and 2
+
+SUSTAINABILITY REPORT
+
+Environmental
+impact
+
+Greenhouse gas (GHG) emissions – Scopes
+1 and 2
+LATRAPS calculated its greenhouse gas (GHG) emissions using the GHG Protocol
+methodology, based on data for the 2023/2024 reporting year, and continues to perform these
+calculations annually in accordance with the established methodology. The calculation covered
+the company's main areas of activity, including insurance, logistics, machinery sales and
+servicing, fuel sales, the supply of mineral fertilisers and plant protection products, procurement
+of grain (rapeseed, wheat and peas), the operation of eight grain primary processing facilities,
+and oil production. The calculation methodology did not include all emissions generated by the
+company and its supply chain (Scope 3).
+Emissions (Scope 1 and 2)
+Emissions
+
+2023_24
+
+2024_25
+
+2025_26
+
+Scope 1 CO2 (kg)
+
+4,628,219
+
+3,423,371
+
+4,704,380
+
+Scope 2 CO2 (kg)
+
+904,266
+
+674,247
+
+834,907
+
+GHG emission reduction targets and
+climate transition (C3)
+2025/2026
+
+2026/2027
+
+2027/2028
+
+Increasing the share of
+renewable energy in
+own operations
+
+Solar park at the
+Eleja grain primary
+processing facility –
+217 MWh/year
+
+Solar parks at two
+grain primary
+processing facilities –
+an average of 217
+MWh/year at each
+facility
+
+Solar farms and
+charging stations at
+other grain primary
+processing facilities –
+an average of 217
+MWh/year at each
+facility
+
+Fleet
+electrification
+
+10
+
+Additional 10
+electric
+vehicles
+
+Additional 10
+electric
+vehicles
+
+The most significant direct emission sources within Scope 1 are associated with grain primary
+processing operations and transportation. Scope 2 emissions are comparatively low and are
+primarily associated with purchased electricity. Energy consumption during grain primary
+processing is significantly influenced by weather conditions and the quality of the harvested crop.
+In wetter years, grain requires longer drying and primary processing, which consequently
+increases electricity and other energy consumption. Therefore, the company's energy
+consumption is closely linked to seasonal and climatic conditions.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+22
+
+
+=== pdf p.23 ===
+Pollution of air, water and soil (B4)
+
+SUSTAINABILITY REPORT
+
+Environmental
+impact
+
+Air pollution measurements are carried out only when required by the relevant regulatory authorities.
+During the reporting period, no complaints related to air pollution caused by the company's activities
+were received, and no violations were identified during inspections conducted by the competent
+authorities. This confirms the company's compliance with applicable regulatory requirements and
+effective environmental management. Given the nature of the company's operations, its impact on
+water and soil pollution is assessed as limited. The company ensures compliance with applicable
+environmental requirements in these areas as well. For example, wastewater treatment is carried out
+at the malt facility, and pollution monitoring is conducted twice a year.
+
+Pollution of air, water and soil (B4)
+Air pollution
+Policies and approach
+
+The most significant pollution-related environmental aspect of LATRAPS operations is air
+pollution, which mainly arises from grain primary processing activities, particularly during the
+drying process. These processes are energy-intensive and associated with emissions.
+Therefore, the company identifies air pollution as a significant area of environmental impact
+within its operations.
+
+Circulation and use of mineral fertilisers
+and plant protection products
+The substances used in LATRAPS' operations that are of concern or of high concern are primarily
+associated with the circulation and use of mineral fertilisers and plant protection products.
+These substances are identified as a significant environmental aspect with a high impact potential.
+The use of these substances may have adverse effects on soil and water, affecting ecosystem
+balance and potentially human health through the food chain.
+
+Action area
+
+To ensure compliance with air quality standards and the requirements of permits for polluting
+activities.
+
+In the long term, inappropriate or excessive use of these substances may reduce soil fertility,
+contribute to the development of pest resistance, negatively affect crop yield stability, and impact
+the surrounding environment, including groundwater, local water bodies, biodiversity and human
+health.
+
+Actions and measures
+
+In 2023, the average use of pesticides in Europe was approximately 1.6 kg/ha, slightly above the
+global average. In Latvia, pesticide use for certain crops, such as grain, is lower, at approximately 1.1
+kg/ha, indicating moderate pesticide use.
+
+The company ensures compliance with applicable regulatory requirements by adhering to the
+conditions of the B-category permits for polluting activities, which establish requirements for
+emission limits, monitoring and management.
+
+Policies and approach
+
+In 2025, B-category permits were granted for the Aizkraukle, Jekabpils, Bauska and Eleja
+facilities, with the Jaunpagasts facility covered from 2026.
+In accordance with these permits, LATRAPS regularly monitors air pollution, ensures control
+of technological processes and implements the necessary measures to reduce emissions.
+
+Given LATRAPS role in the agricultural supply chain and its cooperation with farmers, responsible,
+management and use of these substances is essential to reducing environmental risks and
+supporting sustainable agricultural development. LATRAPS' approach is to use plant protection
+products and mineral fertilisers efficiently in agricultural processes, promoting economically justified
+and responsible use.
+
+The company systematically evaluates opportunities to improve technological processes and
+reduce air pollution, including by optimising the use of energy resources and introducing more
+efficient equipment. Air pollution management is integrated into the company's operational
+processes and forms part of its broader approach to sustainable and responsible business
+operations.
+1
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Source: https://www.fao.org/faostat/en/#data/RP
+
+23
+
+
+=== pdf p.24 ===
+Actions and measures
+
+SUSTAINABILITY REPORT
+
+Impacts, risks and opportunities
+
+Environmental
+impact
+
+To achieve its objectives, LATRAPS strengthens farmers' knowledge and competencies by
+providing training and practical solutions for the precise and optimised use of plant protection
+products, mineral fertilisers and other substances. This approach helps reduce environmental
+impacts, maintain soil health and support agricultural productivity in the long term.
+
+Impacts
+
+Risks
+
+Opportunities
+
+Incorrect or excessive use
+of mineral fertilisers and
+plant protection products
+may contribute to nutrient
+runoff and pollution and
+negatively affect
+ecosystem balance.
+
+Stricter regulatory
+requirements concerning the
+use of chemical substances
+may affect product
+availability and costs.
+
+To promote more sustainable
+agricultural practices by
+introducing precision fertilisation,
+integrated pest management and
+other science-based approaches.
+
+The company organises both in-person and online training. In the digital environment, LATRAPS
+has developed educational content in an online video format, which is available across various
+platforms, including YouTube and social media. During the first season, up to 10 training sessions
+were organised, followed by further 10 sessions in the second season, providing broad access to
+the knowledge base on the correct use of fertilisers and plant protection products.
+
+There is also a reputational
+risk if responsible use of these
+substances is not ensured
+throughout the supply chain.
+
+LATRAPS provides solutions
+and knowledge by educating its
+members on the responsible
+use of chemical substances.
+This contributes to improved soil
+health, long-term yield stability
+and enhanced competitiveness,
+while reducing environmental
+impacts.
+
+In addition, LATRAPS organises in-person training sessions and seminars addressing topical
+issues related to sustainable agriculture, efficient resource use and the reduction of
+environmental impacts. Six training sessions were held in 2025 and two in 2026.
+
+In the long term, there
+is a risk that
+inappropriate use may
+reduce soil fertility and
+contribute to the
+development of
+resistance among
+pests, diseases and
+weeds.
+
+Agricultural productivity may
+decline in the long term if
+sustainable soil management
+and plant protection practices
+are not followed.
+
+Action area
+
+Use mineral fertilisers, plant protection products and micronutrients efficiently, promoting
+economically justified and responsible use in agricultural activities.
+
+Sustainable crop
+production and resource
+efficiency
+
+Legume development
+and innovation (peas)
+
+Research and
+scientific
+cooperation
+
+Training regarding crop rotation,
+the impact of pesticide use and
+ways to mitigate these impacts, as
+well as practical solutions for
+sustainable farming. One of the
+most significant activities is the
+development and implementation
+of the AGRO Calculator, which
+helps farmers make data-driven
+decisions regarding crop rotation
+and soil sustainability. The impact
+of pesticide use on beekeeping
+was also analysed, and the
+responsible use of plant protection
+products was supported.
+
+Particular attention is being
+paid to the development of
+legumes, especially peas, as
+promising crops for the
+future. The training covered
+pea cultivation technologies,
+variety selection principles,
+factors affecting yield and
+protein content, as well as
+the impact of pests and
+diseases. The company also
+organised thematic events,
+such as a pea growers'
+gathering, promoting
+knowledge exchange among
+industry participants.
+
+As part of the training
+activities, discussions
+were held on grain
+production trials and
+current research
+topics, and the results of
+specific studies were
+presented. Scientists
+were actively involved in
+these events,
+strengthening
+cooperation between
+scientific research and
+agricultural practice.
+
+The training activities strengthened cooperation between farmers, company employees and
+scientists, thereby enhancing knowledge transfer and supporting LATRAPS' strategic transition
+towards sustainable, high-value-added agriculture.
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+24
+
+
+=== pdf p.25 ===
+Biodiversity (B5)
+
+SUSTAINABILITY REPORT
+
+Environmental
+impact
+
+Biodiversity (B5)
+The company’s impact on biodiversity is assessed as limited. At the same time, the
+company ensures compliance with the applicable environmental requirements in these
+areas.
+
+Water resources (B6)
+The company’s impact on water consumption is assessed as limited. At the same time, the
+company monitors water consumption and ensures its responsible use in accordance with the
+applicable environmental legislation and regulatory requirements. The company’s impact on
+water consumption is assessed as limited, and the company ensures that water consumption is
+monitored, and that water is used appropriately in accordance with the applicable legislation
+and regulatory requirements governing environmental matters.
+
+Water consumption by
+LATRAPS (m3)
+
+2023 - 24
+
+2024 - 25
+
+800
+
+970
+2,195
+
+2025 - 26
+
+Resource use,
+circular economy and waste
+management (B7)
+The company’s impact related to resource use, the circular economy and waste management is
+assessed as limited. At the same time, the company ensures compliance with the applicable
+environmental requirements in these areas.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+25
+
+
+=== pdf p.26 ===
+SUSTAINABILITY REPORT
+Social impact
+
+Social
+impact
+B8 Workforce – General characteristics
+C5 Additional (general) workforce
+characteristics
+B9 Workforce – Health and safety
+B10 Workforce – Remuneration, collective
+bargaining and training
+
+
+=== pdf p.27 ===
+Workforce – General characteristics (B8)
+
+SUSTAINABILITY REPORT
+
+Social
+impact
+
+Workforce – General characteristics (B8)
+LATRAPS identifies its workforce as a material sustainability topic with a high impact materiality,
+particularly in three areas: adequate remuneration, occupational health and safety, and
+employee training and development. These topics were identified as priorities as a result of the
+double materiality assessment and are closely integrated into the company’s management and
+human resources development approach.
+
+Policies and approach
+
+The company’s Human Resource Policy sets out principles concerning fair remuneration, a safe
+and inclusive working environment, and employees’ professional development. The principles of
+the Human Resource Policy are also recommended for implementation in companies affiliated
+with LATRAPS .
+
+Impacts, risks and opportunities
+Impacts
+• LATRAPS’ activities
+directly affect employees’
+well-being, working
+conditions, and
+opportunities for
+professional
+development.
+• Competitive remuneration, a
+safe working environment,
+and accessible training
+opportunities contribute to
+employee satisfaction,
+productivity, and
+long-term retention
+within the company.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Action area
+
+The strategic objective of human resources management is to maintain an inclusive and safe
+working environment at LATRAPS that fosters an engaged and self-motivated team while
+ensuring the continuous development of employees’ competencies and high performance.
+
+220
+
+30/06/2024
+
+Risks
+
+Opportunities
+
+• The main risks are
+related to attracting and
+retaining
+employees, particularly
+given labour-market
+competition
+and the seasonal nature of
+the sector.
+• Insufficient training
+opportunities or inadequate
+remuneration levels may
+negatively affect employee
+motivation and increase
+employee turnover.
+
+• The company has an
+opportunity to strengthen its
+competitiveness
+by developing employees’
+competencies, improving
+employee engagement, and
+fostering a strong
+organisational culture.
+• Investments in employee
+development and wellbeing contribute to higher
+productivity, innovation,
+and operational efficiency.
+
+217
+217
+
+Headcount
+
+30/06/2025
+
+30/06/2026
+
+27
+
+
+=== pdf p.28 ===
+Additional (general) workforce characteristics (C5)
+
+SUSTAINABILITY REPORT
+
+Social
+impact
+
+Additional (general) workforce characteristics (C5)
+Policies and approach
+
+Distribution of employees by age
+
+Equal treatment is one of the fundamental principles of LATRAPS’ Human Resource Policy.
+The company provides a working environment that respects employee diversity and promotes
+equal opportunities regardless of gender, age or other personal characteristics. LATRAPS’
+approach is based on fostering an inclusive organisational culture in which every employee
+can participate fully in work processes and develop their potential.
+
+Actions and measures
+
+The company monitors gender equality matters. In 2022, it conducted a study on gender
+equality, analysing employee composition and attitudes towards gender equality.
+During the reporting period, LATRAPS’ workforce structure remained relatively stable. As at 30
+June 2026, the Company employed 81 women and 136 men. The workforce has a higher
+proportion of men, which is primarily related to the nature of the work performed. A significant
+proportion of positions involves physically demanding work and high work intensity, particularly at
+grain primary processing facilities. The age structure indicates a relatively balanced distribution of
+employees. The average employee age was 43 years, supporting a balance between
+accumulated experience and new competencies. The company also employs people with
+disabilities. Their number increased from five employees in 2024 to seven employees in both
+2025 and 2026.
+LATRAPS is committed to maintaining a workplace free from discrimination. No cases of
+discrimination were identified or registered during the reporting period.
+
+43.4
+42.7
+42.7
+
+Average age
+
+Age
+
+30/06/2024
+
+30/06/2025
+
+30/06/2026
+
+Up to 20 years (inclusive)
+
+6
+
+10
+
+9
+
+21–30 years (inclusive)
+
+27
+
+26
+
+27
+
+31–40 (inclusive)
+
+67
+
+66
+
+67
+
+41–50 (inclusive)
+
+47
+
+46
+
+45
+
+51–60 (inclusive)
+
+57
+
+55
+
+54
+
+61–70 (inclusive)
+
+14
+
+12
+
+13
+
+Over 70 years
+
+2
+
+2
+
+2
+
+Employees with disabilities
+2,24
+
+Employees with disabilities
+(%)
+
+3,27
+3,7
+
+Distribution of employees by gender
+Employment-related discrimination incidents
+Female
+
+Male
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+80
+80
+81
+
+0 cases of discrimination reported during the last three years
+
+140
+137
+136
+
+30/06/2024
+
+30/06/2025
+
+30/06/2026
+28
+
+
+=== pdf p.29 ===
+Workforce – Health and safety (B9)
+
+SUSTAINABILITY REPORT
+
+Social
+impact
+
+Workforce – Health and safety (B9)
+Actions and measures
+
+Policies and approach
+
+LATRAPS maintains an inclusive and safe working environment that supports an engaged and
+self-motivated team. The company’s Occupational Health and Safety Policy establishes principles
+for maintaining a safe and inclusive workinig environment, including the prevention of accidents,
+employee training, compliance with internal occupational health and safety instructions, and the
+provision of appropriate workwear.
+Impacts, risks and opportunities
+
+Impacts
+
+Risks
+
+Opportunities
+
+• Grain drying and
+primary processing
+operations are
+technologically intensive
+and involve elevated
+occupational health and
+safety risks, including
+exposure to high
+temperatures and dust
+concentrations,
+operation of mechanical
+equipment, and seasonal
+peaks in work intensity.
+
+• The use of technical
+equipment and periods of
+high work intensity
+are associated with
+operational occupational
+health and safety risks,
+which may affect
+employees’ health and
+the continuity of the
+company’s operations.
+
+• By strengthening its
+safety culture and
+employee engagement,
+providing regular training,
+improving work organization
+and implementing more
+effective occupational health
+and safety solutions,
+LATRAPS can reduce and
+prevent these risks.
+
+LATRAPS implements systematic measures to protect employees’ health and safety and to
+provide a supportive and safe working environment. The company organises annual internal
+occupational health and safety training. Employees also have the opportunity to voluntarily
+acquire first-aid skills.
+To support employee well-being, LATRAPS offers health and accident insurance policies
+annually. In addition, the company reimburses the purchase of vision correction aids and
+provides additional paid leave. These measures contribute to protecting employees’ health,
+improving their well-being and safety, and fostering a sustainable and responsible working
+environment.
+
+Number of occupational accidents
+30/06/2024
+
+30/06/2025
+
+30/06/2026
+
+Number of recordable occupational
+accidents among own
+employees
+
+0
+
+0
+
+0
+
+Number of recordable occupational
+sick leaves among permanent and
+contract staff
+
+0
+
+0
+
+0
+
+Objective
+
+Zero occupational accidents
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+29
+
+
+=== pdf p.30 ===
+Workforce – Remuneration, collective bargaining and training (B10)
+
+SUSTAINABILITY REPORT
+
+Social
+impact
+
+Workforce – Remuneration, collective bargaining and training (B10)
+Policies and approach
+
+Objective
+
+LATRAPS implements a remuneration policy based on the principles of fairness, transparency and
+competitiveness, while ensuring compliance with European Union and national legal requirements
+concerning adequate and minimum remuneration. The company aims to provide employees with
+remuneration that is competitive with market levels. Every year LATRAPS participates in the
+Latvian general remuneration survey “Figure” to assess the competitiveness of its remuneration
+and monitor market developments.
+
+• Competitive remuneration – remuneration above the median for the sector
+• Increase the employee engagement index (TRIM)
+• Increase the proportion of positions for which remuneration reaches the
+defined target level
+• Maintain the employee turnover rate below 15% per year
+
+Remuneration is managed through a structured approach that includes clearly defined
+remuneration levels, development criteria and regular salary reviews. In 2023, significant
+changes were made to the company’s Remuneration Policy, introducing clear criteria for job
+groups based on non-discriminatory, objective and gender-neutral criteria. The continuous
+development of the Remuneration Policy and strengthening of social dialogue contribute to
+employee trust and engagement and support the company’s long-term resilience.
+
+High
+employee
+engagement
+
+100
+80
+60
+
+57
+
++11
+
+–3
+
+68
+
+65
+
+67
+
+63
+
+64
+
+60
+
+59
+
+40
+20
+Low
+employee
+engagement
+
+LATRAPS 2025 TRIM Index
+
+0
+
+2023
+
+2024
+
+148
+
+158
+
+The indicator is statistically
+significant:
+
+higher
+
+Base: n=
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+2025
+172
+
+lower than the previous period
+
+2021
+612
+
+2023
+Latvia*
+
+2025
+
+640
+
+600
+
+The Baltics**
+
+Europe
+
+2,146
+
+256,000
+
+*
+Survey results for employed persons in Latvia
+**
+Average indicator based on representative studies from all Baltic
+countries
+
+30
+
+
+=== pdf p.31 ===
+Impact of seasonality on the working environment
+
+SUSTAINABILITY REPORT
+
+Social
+impact
+
+Impact of seasonality on the working environment
+A comparison of LATRAPS’ TRIM Index with benchmark indicators shows that, following a
+significant increase in the company’s overall employee engagement score in the previous period,
+the engagement index decreased slightly this year, i.e. by 3 points. Nevertheless, LATRAPS
+employee engagement score of 65 points remains at a relatively high level. It is broadly in line with
+the average score for employed persons in Latvia (64 points) and remains above the average
+scores for all sectors in the Baltics and Europe (59 and 60 points, respectively).
+
+Policies and approach
+
+LATRAPS’ operations are characterised by pronounced seasonality, with the most intensive
+working period occurring during the summer, when grain harvesting and primary processing
+activities take place. During this period, the volume of work and operational workload
+increase significantly, affecting employees’ working conditions and work organisation.
+
+Employee turnover rate
+
+14.85
+
+Employee turnover, %
+
+16.10*
+
+13.33
+
+* LATRAPS’ employee turnover rate in 2023/2024, excluding organizational changes at
+the Barkava facility, was 11.43%.
+
+30/06/2024
+
+30/06/2025
+
+Actions and measures
+
+To balance operational requirements with employee health and safety considerations, LATRAPS
+pays particular attention during periods of peak activity to ensuring appropriate working conditions,
+providing safety briefings and maintaining adequate supervision. LATRAPS provides all seasonal
+employees with accident insurance. On average, more than 60 seasonal employees join the
+company’s workforce during the season.
+
+30/06/2026
+Increase in workforce during the season
+
+Actions and measures
+
+LATRAPS implements the following measures:
+• regularly reviewing and adjusting remuneration in line with market trends
+
+64
+
+Seasonal
+employees
+
+30/06/2024
+
+62
+30/06/2025
+
+70
+
+30/06/2026
+
+• maintaining a structured remuneration system
+• using a KPI system to determine the variable component of remuneration
+• engaging employees in dialogue on job value and remuneration
+• continuously improving internal processes to ensure an equal and transparent approach
+to remuneration matters
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+31
+
+
+=== pdf p.32 ===
+SUSTAINABILITY REPORT
+
+Social
+impact
+
+Employee training and development
+Policies and approach
+
+LATRAPS is a company that continuously develops and learns. The company promotes
+knowledge sharing, provides training and strengthens the competencies of employees and
+members, while contributing to community development. That way LATRAPS builds a stable
+foundation for the sustainable development of agriculture in Latvia.
+
+In 2024, LATRAPS developed a Customer Service Standard. In 2025, the company established a
+Customer Service Standard Ambassador Programme. As part of the programme, internal trainers
+received training to enable them to subsequently train other employees working in customer service
+functions.
+LATRAPS increases the annual funding allocated to training per employee, supporting
+continued investment in employee skills and professional development.
+
+Development
+programmes
+
+Objective
+• Provide 100% of employees with access to training opportunities
+
+Professional
+training
+
+• Agronomy and agricultural competencies
+(e.g. pea cultivation technologies, impact of pesticide use
+on beekeeping, pest management in pea cultivation etc.)
+• Professional development for machinery and product sales
+staff
+• Insurance-related training
+• Individual training and conference participation
+
+Skills and
+effectiveness
+
+• Time management
+• Upselling in customer service
+• Presentation skills
+• Stress management and psychological resilience
+• Management of effective negotiation
+
+• Gradually increase annual training expenditure per employee
+
+Actions and measures
+
+LATRAPS provides regular annual training covering key occupational health and safety,
+compliance and professional competency topics across all areas of the company’s operations.
+Training is provided to members of the Executive Board and Management Board, line managers
+and employees, according to their respective roles and responsibilities.
+LATRAPS organises annual internal training on occupational health and safety, fire safety, civil
+protection and environmental protection. In recent years, cybersecurity training has also been
+included. These trainings are attended by all employees. The company also provides first-aid
+training, which is voluntary. In addition, LATRAPS organises regular professional training tailored
+to specific functions. For example, agronomists receive training on products and crop production;
+machinery sales staff and mechanics receive function-specific technical training; crop insurance
+specialists receive relevant insurance training; and production and warehouse employees receive
+training in customer service and sales.
+As part of the 2025/2026 annual training programme, additional training was introduced on the
+updated LATRAPS Code of Ethics and Conflict of Interest Prevention Policy, strengthening
+employees’ understanding of the company’s governance and ethical principles.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+• Management Development Programme (leadership,
+cascading organisational objectives and change
+management)
+• Agronomist and Sales Competency Development Programme
+• Customer Service Standard Ambassador Programme (internal
+trainers)
+• Management Guide
+
+Governance
+
+Annual
+training
+
+• Governance training for the Executive Board (leadership,
+strategy, governance)
+• Ethics Code training.
+• Code of Ethics
+• Occupational health and safety
+• Fire safety
+• Environmental protection and civil protection
+• Cybersecurity
+• First aid
+32
+
+
+=== pdf p.33 ===
+Safety-related impact
+
+SUSTAINABILITY REPORT
+
+Social
+impact
+
+Safety-related impact
+Action area
+
+Policies and approach
+
+Considering the specific nature of the company's operations and the character of its infrastructure,
+LATRAPS identifies safety-related impacts as a material aspect. In accordance with Cabinet
+Regulation No. 563 "Procedures for the Identification and Determination of High-Risk Facilities, as
+well as for the Planning and Implementation of Civil Protection and Disaster Management", the
+company's primary processing facility in Eleja is classified as a Category A high-risk facility, and its
+operations are organised in full compliance with regulatory requirements.
+The safety management framework is based on the company's Civil Protection Policy and Plan,
+which establish emergency response procedures as well as preventive measures. The company
+maintains and manages high-risk facilities and areas, including mineral fertiliser storage facilities,
+gas storage installations and fuel filling stations.
+
+To ensure a safe environment for employees
+and the local community.
+
+Objective
+
+To achieve zero accidents affecting the
+safety and health of employees or the
+local community.
+
+Actions and measures
+
+LATRAPS implements targeted safety measures, including:
+• ensuring that inspections and audits receive positive assessments
+• continuously improving its civil protection and safety management systems
+
+Impacts, risks and opportunities
+
+Impacts
+
+Risks
+
+• Potential impacts include the • Potential for fires and
+explosions at high-risk
+risk of fires, explosions
+facilities.
+or the dispersion of
+• Risks associated with
+emissions (such as smoke
+gas and fuel storage.
+or gases) during
+emergency situations, which • Potential environmental
+and safety impacts
+may affect local communities
+associated with mineral
+in the vicinity of high-risk
+fertiliser storage.
+facilities.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+• conducting regular civil protection training, including training held in 2025 for employees of the
+Eleja primary processing facility and the head-office staff
+Opportunities
+• Strengthen cooperation
+with local communities
+and authorities by
+promoting awareness
+and preparedness for
+emergency situations.
+• Regular practical
+training and cooperation with
+Fire&Rescue services
+and public authorities
+strengthen response
+capabilities and
+help reduce potential impacts.
+
+• conducting practical training in cooperation with the Fire&Rescue services, particularly during the
+summer season
+• cooperating with public authorities to strengthen preparedness in emergency situations
+• organising public awareness campaigns, including a campaign held in Eleja in 2025, to improve
+the awareness of local communities
+
+33
+
+
+=== pdf p.34 ===
+SUSTAINABILITY REPORT
+Governance / Business conduct
+
+Governance /
+Business
+conduct
+B11 Convictions and fines for corruption and
+bribery
+C8 Revenues from certain activities and
+exclusion from EU reference
+benchmarks
+
+
+=== pdf p.35 ===
+Governance or business conduct
+
+SUSTAINABILITY REPORT
+
+Governance /
+Business
+conduct
+
+Governance or business conduct
+Policies and approach
+
+LATRAPS’ governance approach is based on transparency, ethics and responsible business
+conduct by integrating the principles of corporate culture, political engagement and supplier
+management into a unified governance framework.
+In the area of corporate culture, the company has developed a comprehensive set of internal
+policies and regulations that establish principles of employee conduct and define the
+organisation’s values. These include the Code of Ethics, Rules of Conduct for Members of
+Agricultural Cooperative LPKS LATRAPS , Internal Regulations, Regulations on Commercial
+Secrets, Conflict of Interest Prevention Rules, and the Risk Management Process.
+These documents form the foundation for an ethical, safe and transparent working environment
+while ensuring a clear allocation of responsibilities.
+
+Impacts, risks and opportunities
+
+Impacts
+
+Risks
+
+Opportunities
+
+• A strong corporate
+culture fosters trust
+cooperation, while
+structured supplier
+management
+contributes to service
+quality and security of
+supply.
+
+• Reputational risks from
+breaches of the Code of
+Ethics, Conflicts of Interest
+policy or instances of
+commercial bribery.
+• Risks associated with
+suppliers or business
+partners impact the financial
+performance and reputation.
+• Potential risk of conflicts of
+interest or non-compliance,
+which may affect the working
+environment and mutual trust
+in corporate governance.
+
+• LATRAPS has an opportunity to
+further strengthen its governance
+system by improving the customer
+experience, developing supplier
+management processes and
+strengthening internal
+communication.
+• The company can increase its
+influence on sector-specific
+regulation by actively
+participating in discussions and
+developing sustainabilityoriented proposals.
+• Strengthen the reputation by
+improving customer satisfaction and
+promoting transparent and ethical
+cooperation with
+business partners.
+
+In the area of political engagement and lobbying, LATRAPS acts as a representative of
+the sector’s interests, regularly expressing its views and submitting proposals concerning
+regulatory initiatives, particularly at the national level. The company does not organise
+lobbying activities itself; however, it actively participates in sector-related discussions and
+events. At the same time, the company’s operations are significantly influenced by European
+Union-level regulation, where the influence of major sectoral lobby organisations play an
+important role.
+As part of its supplier management framework, LATRAPS has developed several policies and
+procedures, including the Business Partner Due Diligence and Risk Assessment Policy, AML
+Policy, and Whistleblowing Reporting and Review Rules. The company’s approach is to avoid
+cooperation with high-risk partners and, where necessary, to select alternative business partners.
+LATRAPS cooperation terms and conditions are transparent and available through the digital “My
+LATRAPS” portal.
+
+Action area
+
+Improve customer loyalty and the quality of
+cooperation, ensure transparent and
+responsible supplier management, and reduce
+the risks associated with cooperation with
+high-risk partners.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Objective
+
+Maintaining the cooperation
+levels for members – 85%.
+
+35
+
+
+=== pdf p.36 ===
+Revenues from certain activities and exclusion from EU reference benchmarks (C8)
+
+SUSTAINABILITY REPORT
+
+Governance /
+Business
+conduct
+
+Revenues from certain activities and
+exclusion from EU reference benchmarks (C8)
+
+Actions and measures
+
+LATRAPS implements the following measures:
+• ensures the implementation, monitoring and communication of internal policies and ethical
+principles, including through employee training
+• conducts due diligence and risk assessments of suppliers and business partners before
+entering into cooperation
+• uses digital solutions, such as the “My LATRAPS” portal, to ensure transparency
+in business relationships
+• cooperates with public authorities and participates in sector-specific representative
+organisations
+LATRAPS’ membership in non-governmental organisations:
+• Association for Sustainable Agriculture and Rural Environment
+• Baltic Institute of Corporate Governance
+• Employers’ Confederation of Latvia
+• Latvian Association of Agricultural Cooperatives
+• Latvian Association for People Management
+• Latvian Seed Growers Association
+• Association of Agricultural and Industrial Machinery
+• Farmer’s Union "Zemnieku saeima" (“ Farmer’ s Parliament”)
+Whistleblowing cases
+Reported or registered whistleblowing
+cases
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+LATRAPS does not conduct business activities, nor does it derive related revenues from the
+following sectors:
+• controversial weapons (anti-personnel mines, cluster munitions, chemical weapons and
+biological weapons)
+• the cultivation and production of tobacco
+• the fossil fuel sector (coal, oil and gas), i.e. the company does not derive revenues from
+• the exploration, extraction, production, processing or refining of fossil fuels, as defined in Article
+2(62) of Regulation (EU) 2018/1999 of the European Parliament and of the Council, including
+coal, oil and gas; or the production of chemicals
+LATRAPS does, however, store, distribute and transport fuel, mineral fertilisers and plant
+protection products for trading purposes. The business partners from which products are
+purchased for subsequent resale are located in EU Member States, including the Czech
+Republic, Lithuania, Latvia, Poland, Finland and Germany. This information is disclosed in the
+company’s annual report.
+LATRAPS is not excluded from EU reference benchmarks aligned with the Paris
+Agreement, as described in Paragraph 241 of the VSME standard.
+
+30/06/2024
+
+30/06/2025
+
+30/06/2026
+
+0
+
+0
+
+0
+
+36
+
+
+=== pdf p.37 ===
+Convictions and fines for corruption and bribery (B11)
+
+SUSTAINABILITY REPORT
+
+Governance /
+Business
+conduct
+
+Anti-corruption
+
+Convictions and fines for corruption
+and bribery (B11)
+
+Policies and approach
+LATRAPS’ approach to anti-corruption is based on the principles of integrity, transparency and
+ethical business conduct, which are essential to maintaining trust in the cooperative’s relationships
+with members, customers and business partners. The company systematically strengthens
+members’ trust by promoting integrity and open communication at all levels of its operations.
+Transparent and ethical business conduct also strengthens the company’s competitiveness and
+access to financing.
+
+Convictions and fines for corruption
+and bribery
+
+30/06/2024
+
+30/06/2025
+
+30/06/2026
+
+0
+
+0
+
+0
+
+Objective
+
+Zeros tolerance for corruption
+
+Actions and measures
+
+LATRAPS implements a range of measures to prevent corruption and promote ethical business
+conduct. These include adhering to ethical standards and conflict-of-interest prevention principles,
+conducting due diligence and risk assessments of business partners, informing employees about the
+principles of ethical conduct, ensuring access to a whistleblowing mechanism, and regularly
+assessing risks and strengthening internal controls.
+In 2025, LATRAPS placed increased emphasis on the management of conflicts of interest within
+the company by introducing specific requirements governing:
+• the identification of potential conflicts of interest,
+• the obligation to refrain from decision-making in situations involving a conflict of interest,
+• requirements concerning the holding of multiple positions and the acceptance of gifts.
+Members of the Management Board and Executive Board, as well as employees, are regularly
+informed and trained on conflict-of-interest risks and their prevention. This is particularly
+important given the specific nature of a cooperative and the principle of member representation.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+37
+
+
+=== pdf p.38 ===
+SUSTAINABILITY REPORT
+Product quality
+
+Product
+quality
+
+
+=== pdf p.39 ===
+Product quality
+
+SUSTAINABILITY REPORT
+
+Product
+quality
+
+Product quality
+
+Standards and certification
+
+Policies and approach
+
+LATRAPS’ approach to product quality is based on a structured quality and food safety
+management system covering the entire value chain – from the acceptance of raw materials
+through to their sale. The company has implemented a food safety system and an internal quality
+management system in accordance with GMP+ and ISCC standards. These standards establish
+requirements for product quality, process management, raw material traceability and compliance
+with applicable regulatory requirements.
+This approach also ensures compliance with European Union requirements concerning food
+and animal feed safety, including requirements relating to risks associated with toxins, mineral
+fertilisers, genetically modified organisms (GMOs) and other quality parameters.
+Processes and risk management
+
+LATRAPS complies with internationally recognised quality and sustainability standards, including:
+• ISCC2 (International Sustainability and Carbon Certification) – an international certification
+system that verifies sustainable, traceable and responsible supply chains, particularly in
+the bioeconomy and agricultural sectors. The certification ensures the sustainable and
+responsible sourcing of agricultural raw materials, full traceability of raw materials and products
+throughout the supply chain, and the monitoring and reporting of greenhouse gas (GHG)
+emissions. This contributes to the company’s efforts to mitigate climate change and comply with
+European Union sustainability requirements. The certification covers all crops (rapeseed and
+wheat) accepted at LATRAPS facilities that are intended for use in the energy sector (for
+biofuel production).
+• GMP+ (Good Manufacturing Practice Plus) – a quality and safety standard for the animal
+feed supply chain, supporting the safe trading, storage and handling of products while reducing
+the risks of contamination and non-compliance. The scope of the GMP+ certification covers the
+collection, storage, handling and trading of of grains, oilseeds and protein crops.
+
+To ensure product quality, LATRAPS implements systematic processes based on the identification
+and mitigation of risks:
+
+Actions and measures
+
+LATRAPS implements the following measures:
+• maintains its food safety and quality management systems
+Quality control
+of raw
+materials
+upon receipt
+
+Compliance with
+technical
+specifications
+throughout all
+processes
+
+Laboratory
+controls and
+product testing
+(at all grain
+acceptance sites in
+Latvia)
+
+Use and
+verification of
+quality
+certificates
+
+• conducts laboratory controls and quality inspections
+
+Ensuring
+traceability
+throughout the
+supply chain
+
+• ensures compliance with technical specifications and quality requirements
+• maintains compliance with ISCC and GMP+ certification requirements and conducts
+audits
+• invests in the development of quality control systems and infrastructure
+• cooperates with suppliers and farmers to ensure product quality
+
+These processes support a preventive approach to risk mitigation and help maintain
+consistent product quality.
+
+• implements and monitors quality requirements for grains, mineral fertilisers and other
+products
+
+Action area
+
+Maintain management systems and certification in the selected areas of operation, ensuring
+high product quality in accordance with EU requirements and traceability throughout all
+processes.
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+2
+
+ISCC certification granted to LATRAPS (Eleja, Jelgava County), available in the public database.
+
+3
+
+GMP+ certification for animal feed, available in the public GMP+ register.
+
+39
+
+
+=== pdf p.40 ===
+SUSTAINABILITY REPORT
+Innovation and science – the future
+
+Innovation
+and science
+– the future
+
+41
+
+
+=== pdf p.41 ===
+Innovation and science
+
+SUSTAINABILITY REPORT
+
+Innovation
+and science
+– the future
+
+Innovation and science
+Policies and approach
+
+LATRAPS’ approach to innovation and development
+is based on close cooperation with scientific
+institutions to support data-driven decision-making
+and promote sustainable agricultural development.
+The company integrates findings from scientific
+research into its operations, providing its members
+with better, more cost-effective and more
+sustainable solutions.
+The main cooperation partners in achieving these
+objectives are Latvia University of Life Sciences and
+Technologies ( LBTU ), the Institute for Plant
+Protection “Agrihorts”, and the Latvian Plant
+Protection Research Centre ( LAAPC ). In cooperation
+with these organisations, LATRAPS carries out
+various scientific studies, trials and educational
+activities.
+
+Objective
+Invest at least EUR 100,000 annually in science
+and innovation.
+
+Actions and measures
+LATRAPS implements the following measures:
+• initiates and co-finances scientific research
+• conducts trials in agricultural practice
+• collects and analyses data on crop yields,
+quality, cultivation technologies and risks
+• develops sustainable cultivation technologies
+• strengthens cooperation among farmers,
+scientists and the company’s experts
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Project
+LATRAPS initiated the research project “The potential impact of increasing pea cultivation areas in Latvia on the spread of pests and other
+harmful organisms, as well as on potential yield in other crop groups”, which is being implemented by a team of scientists from the Latvia
+University of Life Sciences and Technologies ( LBTU ). The project focuses on the following areas:
+• the prevalence and impact of the most significant pea pests (e.g. pea moth, striped weevil and others)
+• the diversity of pathogenic fungi in pea fields in Latvia
+• the impact of legume cover crops on the spread of harmful organisms (monitoring of farms)
+• the effects of peas on the yield indicators of the subsequent crop and on soil quality indicators, with particular focus on nitrogen (N)
+balance
+In addition, LATRAPS conducts practical trials focused on:
+• improving wheat cultivation technologies
+• testing rapeseed cultivation solutions
+• improving pea cultivation and productivity
+• researching flax cultivation technologies
+
+Key findings from wheat trials:
+
+Key findings from pea trials:
+
+• Early sowing of wheat makes it possible to significantly
+reduce the seeding rate to as low as 200 seeds/m², while
+also reducing the risk of lodging.
+
+• In Latvia, it is possible to achieve very good pea
+yields with high protein content even under
+challenging weather conditions.
+
+• When wheat is sown after wheat, yields increase with higher
+amounts of nitrogen (N) supplied to the soil. Increasing the
+amount of N fertiliser increases protein content.
+
+• Variety potential is often assessed based on yield and
+protein content; however, in practice, varietal resistance to
+lodging is also highly important.
+
+• A winter wheat trial examining the use of various bacterial
+products showed that applying bacterial products with lower
+amounts of N fertiliser resulted in higher yields compared
+with treatments where bacterial products were not used.
+
+• An agronomically and economically justified seeding rate
+is 100–110 germinating seeds/m².
+
+• Wheat sown after peas and rapeseed is less susceptible to
+disease.
+• Controlling sterile brome in wheat is challenging;
+however, herbicide effectiveness can be increased by adding
+urea or N fertiliser (urea-ammonium mix).
+
+• Sowing winter wheat after peas resulted in an increase in
+wheat yield of up to approximately 600 kg/ha.
+• During the 2024 and 2025 seasons, pea striped weevils
+could be successfully controlled using contact insecticides;
+however, no agro-economic benefit was observed. Herbicide
+effectiveness can be increased by adding urea or N fertiliser
+(urea-ammonium mix).
+
+41
+
+
+=== pdf p.42 ===
+SUSTAINABILITY REPORT
+Innovation and science – the future
+
+Innovation
+and science
+– the future
+
+Available educational materials (seminar recordings)
+
+AGRO Calculator
+
+Pea growing technologies – experience, innovation and practical solutions:
+• Factors affecting pea yields and protein content
+• Pea pests in Latvia
+• Pea diseases in 2025
+• Slugs and their species found in Latvia
+
+LATRAPS is developing a digital solution – the AGRO Calculator – as part of the
+operational programme activity “Producer organisation agronomist consultations for
+members in the field of sustainable production methods”. The aim of the solution is to
+provide farmers with science- and data-based support, promoting sustainable, efficient and
+economically viable farming practices.
+
+Supporting LATRAPS members in promoting
+sustainable agriculture
+LATRAPS has begun developing its digital transformation by creating digital tools designed to
+facilitate decision-making by members and agronomists and support more efficient and
+sustainable agricultural practices. The development and continuous improvement of these tools
+will continue in the coming years, supporting increasingly efficient, sustainable and competitive
+farming.
+
+LATRAPS GEO Meteo
+LATRAPS is developing a digital tool for the remote analysis of meteorological data for fields
+managed by its members, using freely available satellite data, including historical data. The aim
+is to strengthen data-driven decision-making in agriculture and improve the efficiency of
+agronomic processes. The first version of the tool will be available to members from 2026.
+
+The developed tool will enable users to perform the necessary calculations and assess different
+crop production scenarios, including the most profitable crop choices, fertilisation and plant
+protection solutions, as well as soil management methods. This will help farmers make informed
+decisions about the optimal farm management strategy, while reducing the consumption of
+production inputs, minimising environmental impacts and improving the economic performance of
+farms.
+The tool will be available both to LATRAPS agronomists to perform calculations during the
+advisory process, and to farmer members enabling them to apply accumulated data and analytical
+insights in their day-to-day farming practices.
+The AGRO Calculator will:
+• provide structured and verifiable information on the impact of crop choices on farm
+revenues
+• help optimise agricultural production processes
+• contribute to reducing the use of mineral fertilisers and plant protection products
+• strengthen farmers’ competitiveness in the long term
+
+The tool will enable users to analyse several key agro-climatic parameters, including: air
+temperature (maximum, minimum, daily average and distribution by ten-day periods), precipitation
+levels, snow cover, soil temperature, frost risk, and soil moisture levels. Data will be available at
+both daily and ten-day intervals, allowing users to compare different periods and retain data for
+further analysis.
+The tool will enable more precise assessment of the agro-climatic conditions of individual fields
+and support informed, data-driven agronomic decisions, particularly regarding the use of plant
+protection products and fertilisers, whose effectiveness is significantly influenced by weather
+conditions. As a result, the tool will support more efficient use of resources, reduce environmental
+impacts and improve crop quality.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+42
+
+
+=== pdf p.43 ===
+SUSTAINABILITY REPORT
+
+44
+
+
+=== pdf p.44 ===
+Peas are our future – Limited Liability company SIA ASNS Ingredient
+
+SUSTAINABILITY REPORT
+
+Peas are our future – Limited Liability
+company SIA ASNS Ingredient
+The Limited Liability Company ASNS Ingredient is a strategically significant project of the
+LATRAPS Group , marking an important transformation in Latvian agriculture – a shift from
+being an exporter of primary agricultural products to becoming a producer of high value-added
+food ingredients. Legumes, particularly peas, are crops with strong future potential and at the
+same time contributing to sustainable agriculture, the achievement of climate targets and the
+development of new market opportunities.
+The new pea protein isolate plant being built in Jelgava will be the largest of its kind in
+Northern Europe and, thanks to its advanced technological solutions, will also be among the
+most modern facilities in the world, ensuring high levels of efficiency and productivity. Total
+investment will amount to EUR 132 million. Construction is progressing according to schedule
+and is expected to be completed by the end of 2026, with the plant scheduled to open in early
+2027. The facility will occupy an approximately 10-hectare site and will process up to 70,000
+tonnes of peas annually.
+The primary objective of ASNS Ingredient is to establish a complete value chain – from field to
+processing – using peas grown by Latvian farmers as the main raw material. Alongside the
+development of the plant, LATRAPS is actively working to identify high-yielding, lodging-resistant
+pea varieties with high protein content and to further develop pea cultivation technologies.
+The plant will produce several high value-added products:
+• Pea protein isolate produced using a wet extraction process to ensure high solubility and a
+neutral taste
+• Modified protein with enhanced water-binding, gelling and emulsification properties
+• Pea starch with a high amylose content and pronounced gelling properties
+• Pea fibre produced through an extrusion process and suitable for structuring plant-based food
+products
+These products have a wide range of applications across the food, medical and agricultural
+sectors, particularly in the plant-based food segment, where global demand is growing rapidly.
+The project is technologically complex and also includes the development of associated
+infrastructure, including energy supply, heat supply, water treatment and biogas production
+solutions. Some of these solutions will be developed in cooperation with external partners and
+may potentially be offered to the market as standalone services.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+Energy production and emissions reduction
+The plant’s energy supply system is designed to use a wood-chip boiler house,
+replacing fossil fuels for heat generation. Planned annual energy production is
+approximately 130,000 MWh. Compared with the use of natural gas, this solution is
+expected to reduce CO₂ emissions by approximately 24,170 tonnes per year.
+At the same time, the company is considering various additional renewable energy
+solutions. The plant’s design retains the option to develop solar energy infrastructure in
+the future, including the installation of solar panels on building rooftops.
+
+Biogas and water treatment solutions
+The plant’s technological solutions are being developed with the aim of moving towards
+a closed-loop model, in which process by-products are reused and returned to the
+production cycle. Following appropriate chemical analyses, the aerobic sludge
+generated during the process water treatment and ash from the boiler house are
+expected to be suitable for agricultural use, returning nutrients to the soil.
+Anaerobic sludge, meanwhile, has the potential to become a commercially viable
+product. The evaluation of technological solutions is currently ongoing, including further
+analysis of process water composition and clarification of data on potential byproducts. Consequently, comprehensive impact assessments are still being developed.
+
+By-product management
+The outer pea hulls and fibre fractions generated during pea processing are
+planned to be sold on the market, whereas damaged peas and mechanical
+impurities are intended to be used for energy production together with wood
+chips.
+
+Energy efficiency solutions
+
+It is expected to implement several energy-efficiency solutions in the plant,
+including an absorption heat pump for cooling generation. This technology is still
+relatively uncommon in Latvia, but it enables more efficient use of thermal energy
+and reduces electricity consumption.
+
+44
+
+
+=== pdf p.45 ===
+SUSTAINABILITY REPORT
+
+The ASNS Ingredient project significantly contributes to:
+• diversification of agricultural crops and a transition
+towards wider cultivation of legumes
+• natural nitrogen fixation, thereby reducing the
+need for mineral fertilisers
+• creation of higher added value within the local
+economy
+• shorter supply chains and a lower
+transport-related impact
+• strengthening Latvia’s competitiveness in global
+markets
+The project is one of the most significant investment
+projects undertaken in Latvia in recent years. It has
+received substantial government and institutional support
+and is considered an important step in the development
+of the bioeconomy and the creation of a sustainable food
+system, while also creating new opportunities for
+innovation and exports.
+The project’s cooperation partners include the Rural
+Support Service, Rietumu Banka, the Jelgava City
+Council, the Development Finance Institution ALTUM,
+and the Investment and Development Agency of Latvia
+( LIAA ).
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+45
+
+
+=== pdf p.46 ===
+SUSTAINABILITY REPORT
+
+
+=== pdf p.47 ===
+Latvia’s malt producer – LATMALT
+
+SUSTAINABILITY REPORT
+
+Latvia’s malt producer – LATMALT
+More than ten years ago, the malt house SIA LATMALT (hereinafter – LATMALT ) was
+established in Stalgene village. It is currently the only company in Latvia producing locally
+sourced barley, rye and wheat malt. The company has made a significant contribution to the
+development of local food and beer production, created new jobs in the region and strengthened
+the added value of Latvian agriculture.
+LATMALT’s operations are based on the careful selection and processing of high-quality grain
+into malt. The production process begins with the selection and soaking of suitable grains,
+followed by germination, during which natural enzymes are activated. The malt is then dried and
+kilned, giving each product its characteristic taste, aroma and colour. The finished malt is used in
+beer brewing and baking of bread, making it an important ingredient in Latvia’s food and beverage
+industries.
+LATMALT offers a wide range of malt products:
+• light barley malt with a sweet taste and clean malt aroma
+• Munich malt – a medium-roasted caramel malt with a pronounced balance of sweetness and
+bitterness
+• wheat malt, suitable for producing top-fermented beers with a pronounced wheat aroma
+• dark barley malts with a richer flavour profile
+• rye malt with a pronounced rye bread aroma and high enzyme activity
+The company’s flexible production technologies allow the properties of malt to be tailored to
+customers’ needs and enable the production of both small and large batches. LATMALT products
+are used by breweries and bakeries in Latvia, providing locally sourced, high-quality ingredients.
+For the LATMALT team, malt production and entrepreneurship are not merely a business but
+rather a long-term investment in the future, the prosperity of future generations of Latvians, and a
+safe and well-managed environment. The company implements sustainability-promoting measures
+and practices in its day-to-day operations, including the following areas:
+
+Energy efficiency and CO₂ emissions reduction
+
+Malt production is energy-intensive, so the company continuously seeks solutions to
+reduce its CO₂ footprint through the use of renewable energy sources. To support this
+goal, a solar farm has been built, generating an average of 120 MWh of electricity per
+year and covering 18.5% of the plant’s total electricity consumption.
+
+Responsible resource use and circular economy practices
+The malting process requires significant volumes of water resources; therefore, the
+company aims to reduce water consumption, for example, by increasing production
+automation, which helps minimise water use in production and sanitation activities, and
+also ensuring that water is discharged back into the environment in compliance with the
+quality requirements set out in the Cabinet Regulations.
+
+Sludge generated during the wastewater treatment process, along with other organic
+waste, is used for biogas production. By-products generated during the cleaning of
+grain and malt are sold to third parties. During grain germination, another production
+by-product is generated
+– sprouts and rootlets, which, due to their high protein content, are used as a
+valuable feed product and sold to third parties for use as animal feed.
+
+Social impact
+
+The company ensures compliance with labour rights, employment and occupational
+health and safety requirements. Remuneration is determined according to the
+position and qualifications of employees, with the company proactively ensuring that
+wages exceed the statutory minimum wage.
+The company has implemented an occupational health and safety management
+system. Risk assessments are carried out regularly, and employee training and
+emergency response drills are organised.
+No cases of child labour, forced labour or discrimination have been identified within the
+company.
+
+Good governance and ethical principles
+The company has implemented ethics and disciplinary policies, including an employee
+grievance procedure that ensures confidentiality and protection against potential
+mobbing or bossing.
+
+Over the past three years, the company has not received any fines or
+warnings for non-compliance with environmental requirements.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+47
+
+
+=== pdf p.48 ===
+SUSTAINABILITY REPORT
+
+Responsibility for sustainability matters is
+assigned at the management level within the
+company. The company complies with national
+legislation and applicable requirements relating
+to the environment, labour rights, employment
+and occupational health and safety. Where
+necessary, policies and procedures are
+introduced to systematically manage
+sustainability risks.
+In cooperation with its customers, the
+company uses the SEDEX platform as a
+tool for sustainability risk management and
+information exchange.
+LATMALT’s development is an important
+example of strengthening the local bioeconomy
+and circular economy, whereby agricultural raw
+materials from Latvia are processed into
+products with higher added value. At the
+same time, the company contributes to regional
+employment, the development of local supply
+chains and the competitiveness of Latvian food
+products.
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+48
+
+
+=== pdf p.49 ===
+SUSTAINABILITY REPORT
+VSME
+Report Index
+
+VSME
+Report Index
+
+Module
+
+BASIC MODULE
+
+Page
+
+B1 – Basis for preparation
+
+5
+
+B2 – Practices, policies and future initiatives for transitioning towards a more sustainable
+economy
+
+10
+
+B3 – Energy and greenhouse gas emissions
+
+18–22
+
+B4 – Pollution of air, water and soil
+
+253
+
+B5 – Biodiversity
+
+25
+
+B6 – Water
+
+25
+
+B7 – Resource use, circular economy and waste management
+
+25
+
+B8 – Workforce – General characteristics
+
+27
+
+B9 – Workforce – Health and safety
+
+29
+
+B10 – Workforce – Remuneration, collective bargaining and training
+
+30–32
+
+B11 – Convictions and fines for corruption and bribery
+
+28
+
+COMPREHENSIVE MODULE C1 – Strategy: Business model and sustainability – Related Initiatives
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+6
+
+C2 – Description of practices, policies and future initiatives for transitioning towards a more
+sustainable economy
+
+11–14
+
+C3 – GHG reduction targets and climate transition
+
+22
+
+C4 – Climate risks
+
+18
+
+C5 – Additional (general) workforce characteristics
+
+28
+
+C6 – Additional own workforce information - Human rights policies and processes
+
+-
+
+C7 – Severe negative human rights incidents
+
+-
+
+C8 – Revenues from certain activities and exclusion from EU reference benchmarks
+
+36
+
+C9 – Gender diversity ratio in the governance body
+
+-
+
+49
+
+
+=== pdf p.50 ===
+SUSTAINABILITY REPORT
+Appendix “LATRAP
+facilities”
+
+Appendix
+“LATRAP
+facilities”
+
+1
+
+Eleja facility
+
+Agricultural Produce Processing Facility – Lietuvas iela 16A, Eleja, Eleja Parish, Jelgava County, LV-3023
+
+2
+
+Bauska facility
+
+Agricultural Produce Processing Facility – Īslīces iela 9, Bauska, Bauska County, LV-3901
+
+3
+
+Jaunpagasts facility
+
+Agricultural Produce Processing Facility – Lielā iela 39, Jaunpagasts, Virbu Parish, Talsi County, LV-3292
+
+4
+
+Saldus facility
+
+Agricultural Produce Processing Facility – “Grīšļi”, Saldus Parish, Saldus County, LV-3862
+
+5
+
+Madona facility
+
+Agricultural Produce Processing Facility – Saules iela 68, Madona, Madona County, LV-4801
+
+6
+
+Daugavpils facility
+
+Agricultural Produce Processing Facility – Viršu iela 56, k-1, Daugavpils, LV-5413
+
+7
+
+Aizkraukle facility
+
+Agricultural Produce Processing Facility – Jaunceltnes iela 20, Aizkraukle, Aizkraukle County, LV-5101
+
+8
+
+Jekabpils facility
+
+Agricultural Produce Processing Facility – Ārijas Elksnes iela 6, Jekabpils, LV-5202
+
+9
+
+Rezekne office
+
+Office – Atbrīvošanas aleja 167A, Rezekne, LV-4604
+
+10
+
+Eleja store
+
+Store – Lietuvas iela 16A, Eleja, Eleja Parish, Jelgava County, LV-3023
+
+11
+
+Fuel depot
+
+Sloka fuel depot – Jūrkalnes iela 10, Jurmala, LV-2011
+
+SUSTAINABILITY REPORT FOR THE PERIOD FROM 01/ 07/ 2025 TO 30/ 06/ 2026
+
+50
+
+
+=== pdf p.51 ===

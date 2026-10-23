@@ -1,0 +1,4572 @@
+
+=== pdf p.1 ===
+Valstybės investicinis kapitalas UAB
+FINANCIAL STATEMENTS
+PREPARED ACCORDING TO THE INTERNATIONAL FINANCIAL
+REPORTING STANDARDS ADOPTED FOR APPLICATION
+IN THE EUROPEAN UNION
+
+16th April 2025
+
+
+=== pdf p.2 ===
+TABLE OF CONTENT
+
+INDEPENDENT AUDITOR‘S REPORT .............................................................................. 3
+STATEMENT OF FINANCIAL POSITION .......................................................................... 6
+STATEMENT OF COMPREHENSIVE INCOME ................................................................... 7
+STATEMENT OF CHANGES IN EQUITY ........................................................................... 8
+CASH FLOW STATEMENT ............................................................................................ 9
+NOTES TO THE FINANCIAL STATEMENTS ................................................................ 10-22
+MANAGEMENT REPORT........................................................................................23-54
+
+2
+
+
+=== pdf p.3 ===
+INDEPENDENT AUDITOR‘S REPORT
+To the shareholder of Valstybės Investicinis Kapitalas UAB:
+Report on the Audit of the Separate and the Consolidated Financial Statements
+Opinion
+We have audited the accompanying financial statements of Valstybės Investicinis Kapitalas UAB (hereafter –
+„the Company“), which comprise the statement of financial position of the Company as at 31 December
+2024, the statement of comprehensive income, the statement of changes in equity, the statement of cash
+flows for the year then ended, and the notes to the financial statements, including a summary of significant
+accounting policies.
+In our opinion, the accompanying Company’s financial statements present fairly, in all material respects, the
+financial position of the Company as at 31 December 2024 and its financial performance and its cash flows
+for the year then ended in accordance with International Financial Reporting Standards as adopted by the
+European Union.
+Basis for Opinion
+We conducted our audit in accordance with International Standards on Auditing (ISAs). Our responsibilities
+under those standards are further described in the Auditor’s Responsibilities for the Audit of the Financial
+Statements section of our report. We are independent of the Company and the Group in accordance with the
+International Ethics Standards Board for Accountants’ International Code of Ethics for Professional
+Accountants (including International Independence Standards) (IESBA Code) together with the requirements
+of the Law on Audit of Financial Statements and Other Assurance Services of the Republic of Lithuania that
+are relevant to audit in the Republic of Lithuania, and we have fulfilled our other ethical responsibilities in
+accordance with the Law on Audit of Financial Statements and Other Assurance Services of the Republic of
+Lithuania and the IESBA Code.
+We believe that the audit evidence we have obtained is sufficient and appropriate to provide a basis for our
+opinion.
+Key Audit Matters
+Key audit matters are those matters that, in our professional judgement, were of most significance in our
+audit of the financial statements of the current period. We did not identify any key audit matters during the
+audit of Valstybės Investicinis Kapitalas UAB.
+Other matter
+The Company's financial statements for the year ended 31 December 2023 were audited by another auditor,
+who expressed an unqualified opinion on those financial statements on 9 April 2024.
+Other information
+The other information comprises the information included in the Company’s management report, including
+the requirements for the information on corporate governance matters and remuneration, but does not
+include the financial statements and our auditor’s report thereon. Management is responsible for the other
+information.
+Our opinion on the financial statements does not cover the other information and we do not express any
+form of assurance conclusion thereon, except as specified below.
+In connection with our audit of the financial statements, our responsibility is to read the other information
+and, in doing so, consider whether the other information is materially inconsistent with the financial
+statements or our knowledge obtained in the audit or otherwise appears to be materially misstated. If,
+based on the work we have performed, we conclude that there is a material misstatement of this other
+information, we are required to report that fact. We have nothing to report in this regard.
+
+3
+
+
+=== pdf p.4 ===
+In addition, our responsibility is to consider whether information included in the Company’s management
+report, including the requirements for the information on corporate governance matters and remuneration,
+for the financial year for which the financial statements are prepared is consistent with the financial
+statements and whether management report, including the requirements for the information on corporate
+governance matters and remuneration, has been prepared in compliance with applicable legal requirements.
+Based on the work carried out in the course of audit of financial statements, in our opinion, in all material
+respects:
+•
+The financial information presented in the Company’s management report, including the
+requirements for the information on corporate governance matters and remuneration, is consistent
+with the financial statements; and
+•
+The Company’s management report, including the requirements for the information on corporate
+governance matters and remuneration, has been prepared in accordance with the requirements of
+the Law on Reporting by Undertakings and Groups of Undertakings of the Republic of Lithuania.
+
+Responsibilities
+Statements
+
+of
+
+Management
+
+and
+
+Those
+
+Charged
+
+with
+
+Governance
+
+for
+
+the
+
+Financial
+
+Management is responsible for the preparation and fair presentation of the financial statements in accordance
+with International Financial Reporting Standards as adopted by the European Union, and for such internal
+control as management determines is necessary to enable the preparation of financial statements that are
+free from material misstatement, whether due to fraud or error.
+In preparing the financial statements, management is responsible for assessing the Company’s ability to
+continue as a going concern, disclosing, as applicable, matters related to going concern and using the going
+concern basis of accounting unless management either intends to liquidate the Company or to cease
+operations, or has no realistic alternative but to do so.
+Those charged with governance are responsible for overseeing the Company’s financial reporting process.
+Auditor’s Responsibilities for the Audit of the Financial Statements
+Our objectives are to obtain reasonable assurance about whether the financial statements as a whole are
+free from material misstatement, whether due to fraud or error, and to issue an auditor’s report that
+includes our opinion. Reasonable assurance is a high level of assurance, but is not a guarantee that an audit
+conducted in accordance with ISAs will always detect a material misstatement when it exists. Misstatements
+can arise from fraud or error and are considered material if, individually or in the aggregate, they could
+reasonably be expected to influence the economic decisions of users taken on the basis of these financial
+statements.
+As part of an audit in accordance with ISAs, we exercise professional judgement and maintain professional
+scepticism throughout the audit. We also:
+•
+
+Identify and assess the risks of material misstatement of the financial statements, whether due to
+fraud or error, design and perform audit procedures responsive to those risks, and obtain audit
+evidence that is sufficient and appropriate to provide a basis for our opinion. The risk of not
+detecting a material misstatement resulting from fraud is higher than for one resulting from error,
+as fraud may involve collusion, forgery, intentional omissions, misrepresentations, or the override of
+internal control.
+
+•
+
+Obtain an understanding of internal control relevant to the audit in order to design audit procedures
+that are appropriate in the circumstances, but not for the purpose of expressing an opinion on the
+effectiveness of the Company’s internal control.
+
+•
+
+Evaluate the appropriateness of accounting policies used and the reasonableness of accounting
+estimates and related disclosures made by management.
+
+•
+
+Conclude on the appropriateness of management’s use of the going concern basis of accounting
+and, based on the audit evidence obtained, whether a material uncertainty exists related to events
+or conditions that may cast significant doubt on the Company’s ability to continue as a going
+concern. If we conclude that a material uncertainty exists, we are required to draw attention in our
+auditor’s report to the related disclosures in the financial statements or, if such disclosures are
+inadequate, to modify our opinion. Our conclusions are based on the audit evidence obtained up to
+the date of our auditor’s report. However, future events or conditions may cause the Company to
+cease to continue as a going concern.
+
+•
+
+Evaluate the overall presentation, structure and content of the financial statements, including the
+disclosures, and whether the financial statements represent the underlying transactions and events
+in a manner that achieves fair presentation.
+
+We communicate with those charged with governance regarding, among other matters, the planned scope
+and timing of the audit and significant audit findings, including any significant deficiencies in internal control
+that we identify during our audit.
+
+4
+
+
+=== pdf p.5 ===
+We also provide those charged with governance with a statement that we have complied with relevant
+ethical requirements regarding independence, and communicate with them all relationships and other
+matters that may reasonably be thought to bear on our independence, and where applicable, related
+safeguards.
+From the matters communicated with those charged with governance, we determine those matters that
+were of most significance in the audit of the financial statements of the current period and are therefore the
+key audit matters. We describe these matters in our auditors’ report unless law or regulation precludes
+public disclosure about the matter or when, in extremely rare circumstances, we determine that a matter
+should not be communicated in our report because the adverse consequences of doing so would reasonably
+be expected to outweigh the public interest benefits of such communication.
+Report on Other Legal and Regulatory Requirements
+Under the decision of the Management Board on 21 January 2025 we were elected for the first time to audit
+the Company’s financial statements. The total uninterrupted term of appointment is 1 year.
+We confirm that our audit opinion expressed in the Opinion section of our report is consistent with the audit
+report for the financial statements presented to the Company and its Management Board.
+We confirm that to the best of our knowledge and belief, services provided to the Company are consistent
+with the requirements of the law and regulations and do not comprise non-audit services referred to in
+Article 5(1) of the Regulation (EU) No 537/2014 of the European Parliament and of the Council. During the
+audit period, we did not provide services other than the audit of financial statements.
+The audit engagement partner on the audit resulting in this independent auditor’s report is Romanas
+Skrebnevskis.
+
+Conclusion on the compliance of the financial statements format with the European Single
+Electronic Reporting Requirements
+The Company's management has adopted a single electronic reporting format for the Company's financial
+statements in order to comply with the requirements of Article 3 of Commission Delegated Regulation (EU)
+2019/815 supplementing Directive 2004/109/EC of the European Parliament and of the Council with regard
+to regulatory technical standards establishing a single electronic reporting format (hereinafter referred to as
+the ESEF Regulation). According to these requirements, the Company's financial statements must be
+presented in XHTML format. We confirm that the single electronic reporting format for the financial
+statements for the year ended 31 December 2024 complies with the ESEF Regulation in this respect.
+
+Auditor Romanas Skrebnevskis
+Auditor‘s Certificate No. 000471
+ROSK Consulting UAB
+Company’s audit certificate No. 001514
+Vilnius, Lietuva
+16 April 2025
+The auditor's electronic signature is used herein to sign only the Independent Auditor's Report.
+
+5
+
+
+=== pdf p.6 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+STATEMENT OF FINANCIAL POSITION
+
+ASSETS
+
+Notes
+
+31/12/2024
+
+31/12/2023
+
+-
+
+27 210
+
+Non-current assets
+Other non-current assets
+Shares of associated companies
+
+3.1
+
+459 375
+
+-
+
+Financial assets at fair value the change in
+which is recognised in profit or loss
+
+3.2
+
+187 815 781
+
+198 410 147
+
+Deferred income tax assets
+
+4 929
+
+4 929
+
+Total non-current assets
+
+188 280 085
+
+198 442 286
+
+33 703
+
+43 491
+
+20 118 450
+
+1 772 664
+
+20 152 153
+
+1 816 155
+
+208 432 238
+
+200 258 441
+
+Current assets
+Deferred charges
+Cash and cash equivalents
+
+3.3
+
+Total current assets
+TOTAL ASSETS
+EQUITY AND LIABILITIES
+Equity
+Authorised capital
+
+3.4
+
+Retained earnings (loss)
+Total equity
+
+101 200 000
+
+101 200 000
+
+6 811 857
+
+(1 324 007)
+
+108 011 857
+
+99 875 993
+
+Non-current liabilities
+Issued bonds
+
+3.5
+
+Total non-current liabilities
+
+24 970 849
+
+99 870 819
+
+24 970 849
+
+99 870 819
+
+Current liabilities
+Issued bonds
+
+3.5
+
+74 944 118
+
+491 205
+
+Amounts payable to employees
+
+3.6
+
+5 586
+
+13 384
+
+Other amounts payable and accrued expenses
+
+3.7
+
+8 623
+
+7 040
+
+75 449 532
+
+511 629
+
+100 420 381
+208 432 238
+
+100 382 448
+200 258 441
+
+Total current liabilities
+Total liabilities
+TOTAL EQUITY AND LIABILITIES
+
+The notes provided below form an integral part of these financial statements.
+These financial statements were authorised on 16 April 2025 by:
+On behalf of Valstybės investicinis kapitalas UAB
+
+Chief Financier
+
+Vaidas Daktariūnas
+Managing Director
+
+Inga Čėsnienė
+Authorised person of Nordgain UAB
+
+6
+
+
+=== pdf p.7 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+STATEMENT OF COMPREHENSIVE INCOME
+
+OPERATING INCOME
+
+Notes
+
+Financial
+year
+ended on
+31/12/2024
+
+Financial
+year
+ended on
+31/12/2023
+
+Sales
+
+-
+
+-
+
+(Cost) of sales
+
+-
+
+-
+
+Other income (resold)
+
+-
+
+-
+
+GROSS PROFIT
+
+-
+
+-
+
+Operating (expenses)
+
+3.8
+
+(289 348)
+
+(183 343)
+
+Interest expenses
+
+3.9
+
+(1 001 112)
+
+(995 321)
+
+(1 290 460)
+
+(1 178 664)
+
+20 690
+
+-
+
+9 405 634
+
+19 987 719
+
+8 135 864
+
+18 809 055
+
+OPERATING (LOSS)
+Other income from financial activities
+Change in the value of financial assets
+accounted at their fair value, a change of
+which is recognised as profit or loss
+
+3.10
+
+PROFIT BEFORE TAXES
+
+Income tax profit (expenses)
+
+3.11
+
+-
+
+-
+
+NET PROFIT
+
+3.12
+
+8 135 864
+
+18 809 055
+
+-
+
+-
+
+0,80
+
+1,859
+
+OTHER COMPREHENSIVE INCOME
+Basic and diluted earnings per share
+(EUR per share)
+
+3.13
+
+The notes provided below form an integral part of these financial statements.
+These financial statements were authorised on 16 April 2025 by:
+
+On behalf of Valstybės investicinis kapitalas UAB
+
+Chief Financier
+
+Vaidas Daktariūnas
+Managing Director
+
+Inga Čėsnienė
+Authorised person of Nordgain UAB
+
+7
+
+
+=== pdf p.8 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+STATEMENT OF CHANGES IN EQUITY
+
+Authorised
+capital
+
+Retained earnings (loss)
+
+Total
+
+Balance on 31 December 2022
+
+101 200 000
+
+(20 133 062)
+
+81 066 938
+
+Net profit (loss)
+Balance on 31 December 2023
+Net profit (loss)
+Balance on 31 December 2024
+
+101 200 000
+101 200 000
+
+18 809 055
+(1 324 007)
+8 135 864
+6 811 857
+
+18 809 055
+99 875 993
+8 135 864
+108 011 857
+
+The notes provided below form an integral part of these financial statements.
+These financial statements were authorised on 16 April 2025 by:
+
+On behalf of Valstybės investicinis kapitalas UAB
+
+Chief Financier
+
+Vaidas Daktariūnas
+Managing Director
+
+Inga Čėsnienė
+Authorised person of Nordgain UAB
+
+8
+
+
+=== pdf p.9 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+CASH FLOW STATEMENT
+
+Notes
+
+Financial
+year
+ended on
+31/12/2024
+
+Cash flows from operating activities
+Revenue of reporting period
+
+Financial
+year
+ended on
+31/12/2023
+
+(346 529)
+
+(247 160)
+
+(82 173)
+
+(53 315)
+
+(75 688)
+
+(66 366)
+
+(143 461)
+
+(64 980)
+
+Wage payments
+Paid taxes
+
+(20 000)
+(25 207)
+
+(20 000)
+(42 499)
+
+Net cash flows from operating activities
+Investment acquisition
+
+(346 529)
+
+(247 160)
+
+(459 375)
+
+-
+
+Other revenue
+Payments of reporting period
+Wage payments
+Paid taxes
+Payments to suppliers
+Expenses related to issue of bonds
+
+3.1
+
+Received interest
+Net cash flows from investing activity
+
+20 690
+
+-
+
+(438 685)
+
+-
+
+20 000 000
+(869 000)
+19 131 000
+
+1 500 000
+(869 000)
+631 000
+
+-
+
+-
+
+18 345 786
+
+383 840
+
+1 772 664
+
+1 388 824
+
+20 118 450
+
+1 772 664
+
+Cash flows from financing activities
+Investment return
+Bonds interest paid
+Net cash flows from financing activities
+Effect of foreign exchange difference on the
+balance of cash and cash equivalents
+
+3.2
+
+Net increase (decrease) in cash flows
+Cash and cash equivalents at beginning of
+the period
+Cash and cash equivalents at the end of
+the period
+
+3.3
+
+These financial statements were authorised on 16 April 2025 by:
+
+On behalf of Valstybės investicinis kapitalas UAB
+
+Chief Financier
+
+Vaidas Daktariūnas
+Managing Director
+
+Inga Čėsnienė
+Authorised person of Nordgain UAB
+
+9
+
+
+=== pdf p.10 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+NOTES TO THE FINANCIAL STATEMENTS
+
+1.
+
+General information
+
+Valstybės investicinis kapitalas UAB (hereinafter referred to as the Company or Enterprise) is a
+limited liability company registered in the Republic of Lithuania. Its business seat is at:
+Gedimino pr. 38,
+Vilnius,
+Republic of Lithuania
+The business purpose of the Company is to help the Lithuanian economy to recover from the
+consequences of COVID-19 coronavirus in accordance with the provisions laid down in the Activity
+description of the Measure 'Business Aid Fund' approved by the Minister of Economy and Innovation of the
+Republic of Lithuania and the Minister of Finance of the Republic of Lithuania, by financing the measures of
+business aid and capital market development from the funds attracted by the state and capital market
+measures.
+The Company was registered on 26 August 2020. On 31 December 2024 and 31 December 2023, the
+Republic of Lithuania owns 100% of the authorised capital of the company, code 111105555.
+The registered authorised capital of the Company is EUR 101 200 000, consisting of 10 120 000 ordinary
+registered shares of the par value of EUR 10 each. The authorised capital did not change during both
+periods. On 31 December 2024 and 31 December 2023, all shares were fully paid.
+On 31 December 2024 and on 31 December 2023, the average yearly number of the Company's
+employees was 1.
+Financial year of the Company coincides with a calendar year.
+2.
+
+BASIS FOR PREPARATION OF FINANCIAL STATEMENTS
+
+The main accounting policies applied during preparation of the Company's financial statements for the
+financial year that ended on 31 December 2024 are as follows:
+2.1. Confirmation of Compliance
+The Company prepared its financial statements according to the International Financial Reporting
+Standards (IFRS) applicable in the European Union (hereinafter referred to as the EU).
+2.2. Basis for presentation of financial statements
+Financial statements were prepared on the basis of the historical cost, except for revaluation of certain
+financial instruments, which in the end of every reporting period are evaluated at their revalued or fair
+value, as explained further down in the accounting policy.
+Financial year of the Company starts on 1 January and finishes on 31 December.
+Financial reports were prepared in Euro (EUR).
+The below-described accounting policy was consistently applied to all periods provided in the present
+financial reports, unless otherwise stated.
+2.3. Equity
+Equity consists of the paid share of the authorised capital, retained profit (loss).
+Subscribed authorised capital is accounted and disclosed in the financial statements at its full value,
+irrespective of the paid-up amount. Unpaid shares are accounted and disclosed in the financial statements
+for the contra account (item) of the authorised capital.
+If a decision is made to increase or reduce the authorised capital, the increase or reduction is registered in
+accounting when amendments to the articles of association of the company are registered following the
+procedure established by legal acts.
+2.4. Expense recognition
+Expenses are recognised based on accrual and comparison principles in the reporting period when revenue
+associated with these expenses is earned, regardless of the timing of payment for these expenses.
+
+10
+
+
+=== pdf p.11 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+At present, expenses of the company consist of salary and labour related taxes, vacation payments,
+accounting service expenses, insurance expenses, board members' remunerations, recruitment and
+deferred income tax expenses.
+
+2.5. Profit tax and deferred profit tax
+Profit tax expenses consist of the expenses of the profit tax and deferred profit tax of the current year.
+Income tax is assessed in accordance with the requirements laid down in the tax laws of the Republic of
+Lithuania.
+2.5.1. Current year tax
+Current year income tax is paid on the basis of taxable profit. Taxed income is different from the income
+presented in the income (loss) and other general income statement because of taxable or accountable
+income or expenses of the next year and income or expenses which were never taxed or accounted.
+Company's liability regarding current year's income tax is assessed according to the income tax tariff that
+was effective on the day of preparation of the report of financial position. Standard income tax tariff
+applicable to companies of the Republic of Lithuania for the year that ended on 31 December 2024 is 15
+per cent (on 31 December 2023 – 15 per cent).
+2.5.2. Deferred tax
+Deferred tax is recognised as the differences between the carrying amounts of assets and liabilities in the
+financial statements and the corresponding tax bases. Deferred tax liabilities are recognised jointly for all
+temporary differences. Deferred tax asset is recognised at the amount that is likely to reduce the taxable
+income in the future through realisation of temporary differences. The above-mentioned deferred assets
+and liabilities are not recognised, if temporary differences are related to prestige or initial recognition of
+assets or liabilities (of others than during business merger), at the moment of a rise (transactions) of
+which no impact is made on taxable or financial income.
+Deferred tax assets are subject to revision on the closing day of every reporting period and are reduced if
+the Company does not expect to have sufficient taxed profit for such assets realisation down to the
+amount expected to reduce the taxed profit in the future.
+Deferred tax assets and liabilities are evaluated according to the effective tax rate to be applied in the
+year in which the temporary differences are planned to be covered or paid, based on the tax rates (and
+tax laws) which are or will be approved before the end of the reporting period. Deferred tax assets and
+liabilities reflect taxation consequences expected by the Company for the end of the reporting period in
+order to pay or cover its assets or liabilities.
+2.5.3. Current year's and deferred tax for the period
+Tax for the current year and deferred tax are accounted as expenses in profit or losses.
+Deferred income assets are accounted in the report on financial position when the management expects
+planned taxable income to be received in the nearest future, that will be sufficient for realisation of assets.
+If some deferred tax assets are likely not to be realised, then the deferred tax amount concerned is not
+recognised in financial statements.
+2.6.
+
+Financial measures
+
+Financial assets and financial liabilities are evaluated at their fair value during initial recognition.
+Transaction expenses that are directly related to acquisition and spending of financial assets (except for
+financial assets and financial liabilities, changes in the fair value of which are recognised through income
+or losses) during the initial recognition are added to or deducted from the fair value of financial assets or
+financial liabilities, accordingly. Transaction expenses that are directly related to financial assets or
+financial liabilities, presented at their fair value through income or losses, are recognised at once in the
+income or losses.
+Financial measure is any agreement resulting in financial assets for one company and financial liability of
+equity measure for the other.
+Recognition and recognition cancellation in the report of financial position
+
+11
+
+
+=== pdf p.12 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+The Company recognises financial assets or financial liabilities in its report on financial position at the
+time and only when it becomes a party to the contractual terms of a measure.
+Purchase or sale of financial assets are recognised by the Company or their recognition is cancelled on the
+day of concluding a transaction. Recognition of financial assets is cancelled by the Company in the report
+on financial position at the time and only when:
+−
+−
+
+the validity term of contractual rights to cash flows from financial assets expires; or
+the Company transfers its financial assets to the other party.
+
+The Company stops recognising financial liability (or a part of the financial liability) in the report of
+financial position at the time and only when the obligation concerned is cancelled, i.e., when the duty laid
+down in the agreement:
+−
+is fulfilled; or
+−
+revoked; or
+−
+expires.
+Financial assets are divided by the Company into the following categories:
+−
+measured at the amortised cost,
+−
+measured at their fair value, any change of which is recognised as profit or loss.
+The Company attributes debt financial assets to an appropriate category depending the business model of
+financial assets management and contractual properties of cash flows for appropriate financial assets.
+Business model applied to the group of financial assets is determined considering how all groups of
+financial assets are managed in joint pursuit of specific business goal of the Company.
+Company's investments into equity securities when the Company has no control over or significant impact
+on the company into which it invested are accounted at the fair value, any changes in the value of which
+are recognised as income or losses.
+The Company attributes cash and cash equivalents to the assets evaluated at the amortised cost.
+The Company evaluates all financial liabilities at the amortised cost.
+The Company attributes trade liabilities, bonds, borrowed amounts to the financial liabilities evaluated at
+the amortised cost.
+During the initial recognition of bonds, expenses related to bonds distribution and any discount arising
+during distribution are recognised at the acquisition cost of bonds and recognised in the income (loss)
+statement within the bond term (until their redemption) by applying the calculated interest rate.
+Cash and cash equivalents
+Cash and cash equivalents consist of cash on hand, cash in transit and cash in bank, demand deposits
+and other current highly liquid investments of maximum three months maturity (from the acquisition
+day) that can be easily converted into the known cash amounts and which are subject to insignificant
+risk of fluctuations in value.
+Cash and cash equivalents in the statements of cash flows comprise of cash on hand, short-term bank
+deposits, other current highly liquid investments.
+2.7.
+
+Payments to employees
+
+Short-term payments to employees are recognised as current expenses during the period of service
+provision by employees. Payments include salaries, wages, social insurance benefits, bonuses, paid
+leave, etc. There are no long-term benefits for employees.
+2.8.
+
+Evaluation at the fair value
+
+Most accounting principles and revelations of the Company require establishment of the fair value of
+financial and non-financial assets and liabilities. The fair value is a price, at which on the day of valuation
+the asset would be sold, or a liability would be transferred under an orderly transaction concluded
+between market participants on the main market, and if none exists – on the most favourable market
+accessible by the Company on the day of valuation. The fair value of a liability shows the effect of risk of
+its default. Fair values are established according to quoted market prices, analyses of discounted cash
+flows, and option price models, whichever applies.
+When establishing the fair value of an asset or liability, the Company refers to available market data,
+whenever possible. Fair values are presented in the below-stated three hierarchical levels of air value,
+based on variables applied in the valuation methods:
+1st level: prices quoted on the active markets of the same asset or liability (unadjusted).
+
+12
+
+
+=== pdf p.13 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+2nd level: other variables, except for the quoted asset or liability prices included into the 1st level, which
+are monitored directly (i.e., same as prices) or indirectly (i.e., derived from prices).
+3rd level: asset or liability variables not based on monitored market data (not monitored variables).
+If variables used to establish the fair value of an asset or liability can be attributed to different
+hierarchical levels of the fair value, the hierarchical level of the fair value, to which the total fair value
+established is attributed, must be determined on the basis of the lowest level variable relevant for
+establishing the total fair value.
+The Company recognises amounts moved between the hierarchical levels of fair value in the end of the
+reporting period, in which the change took place.
+2.9.
+
+Related parties
+
+Parties recognised related to the Company include shareholders, Board members, their family members
+and companies having direct or indirect (via intermediary) control of the Company or under control
+separately or together with the other party, which is recognised as related party, provided that the latter
+relationship entitles one of the parties to control the other party or make significant impact on the other
+party when making financial and management decisions.
+2.10. Contingencies
+Contingent liabilities are not recognised in financial statements, except for contingent liabilities in business
+mergers. Contingent liabilities are disclosed in the financial statements unless the probability that these
+liabilities will cause the outflow of economic resources is remote.
+Contingent assets are not recognized in the financial statements, but they are disclosed in the financial
+statement when it is likely that economic benefits will flow to the entity.
+2.11. Post-balance sheet events
+Events after the reporting period, which provide additional information about the Company's situation on
+the day of preparation of the report on financial position (adjusting events) are reflected in the financial
+statements. Post-reporting events, other than adjusting events, occurring after the balance sheet date are
+disclosed in the notes when their impact is significant.
+2.12. Important accounting estimates and management's decisions
+The Company conducted the analysis and made the conclusion that it does not have control of Pagalbos
+verslui fondas (limited partnership, hereinafter referred to as the Fund) and does not make significant
+impact on the Fund. During the reporting period, the Company had no power to manage the Fund, held
+no voting rights granted by equity measures, had no possibility to manage important activity directly or
+through other economic entities. The Company is entitled to variable return, however it cannot make
+direct decisions on the amount of a variable return or period, when it has to be paid.
+The Company's investment into the Fund is evaluated at the fair value determined on the basis of the net
+assets of the Fund. All investments by the Fund are evaluated at the fair value, the carrying amount of
+current amounts receivable and payable and of cash and cash equivalents of the Fund is very close to
+their fair value, therefore the net assets of the Fund are also evaluated at the fair value.
+2.13. Initial application of the amendments to the new effective standards during the
+reporting period
+Application of new and revised International Financial Reporting Standards (IFRSs)
+(a) New and/or amended standards and interpretations effective from 1 January 2024:
+The following standards, amendments to the existing standards and interpretations issued by the
+International Accounting Standards Board (IASB) and adopted by the European Union (further – EU) are
+effective for the current period and were adopted by the Company:
+•
+•
+
+Amendments to IFRS 16 “Leases”: Lease liability in a sale and leaseback (effective for annual periods
+beginning on or after 1 January 2024).
+Amendments of IAS 1 “Presentation of Financial Statements”: Classification of Liabilities as Current
+and Non-Current Date; Classification of Liabilities as Current and Non-Current – Deferral of the
+
+13
+
+
+=== pdf p.14 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+•
+•
+
+Effective Date; Non-Current Liabilities with Covenants (effective for annual periods beginning on or
+after 1 January 2024);
+Amendments to IAS 7 “Statement of Cash Flows” and IFRS 7 “Financial Instruments”: Disclosures:
+Supplier Finance Arrangements (effective for annual periods beginning on or after 1 January 2024).
+The application of these standards, amendments and interpretations did not have a material impact
+on the Company’s financial statements.
+
+(b) Standards, amendments and interpretations to existing standards issued by IASB, adopted by EU,
+but not yet effective:
+At the date of authorisation of these financial statements, the Company has not early adopted the
+following new and revised IFRS standards, amendments and interpretations that have been issued
+but are not yet effective:
+•
+
+Amendments to IAS 21 The Effects of Changes in Foreign Exchange Rates: Lack of Exchangeability
+(effective for annual periods beginning on or after 1 January 2025).
+
+The management of the Company does not expect that the adoption of these standards, amendments
+and interpretations listed above will have a material impact on the financial statements of the Company
+in future periods.
+(c) Standards, amendments and interpretations to existing standards that are not yet effective and have
+not been endorsed by EU:
+IFRSs currently endorsed by EU are not significantly different from the standards, endorsed by IASB,
+except the standards, amendments and interpretations that were not endorsed by EU (the effective dates
+are applicable to IFRS to full extent). These standards, amendments and interpretations are listed below:
+•
+•
+•
+•
+•
+
+IFRS 19 Subsidiaries without Public Accountability: Disclosures (effective for annual periods
+beginning on or after 1 January 2027);
+IFRS 18 Presentation and Disclosure in Financial Statements (effective for annual periods beginning
+on or after 1 January 2027).
+Amendments to the Classification and Measurement of Financial Instruments (Amendments to IFRS
+9 and IFRS 7) (effective for annual periods beginning on or after 1 January 2026).
+Annual Improvements to IFRS – Volume 11 (effective for annual periods beginning on or after 1
+January 2026).
+Contracts Referencing Nature-dependent Electricity Amendments to IFRS 9 and IFRS 7 (effective for
+annual periods beginning on or after 1 January 2026).
+
+The management of the Company does not expect that the adoption of these standards, amendments
+and interpretations listed above will have a material impact on the financial statements of the Company
+in future periods.
+2.14. Management of financial risks and capital
+Any type of investment is inseparable from risk. Investments into the Fund involve long-term risk. The
+main types of risks encountered by the Company in its daily activities include credit risk, operational risk,
+liquidity risk, and market risk, risk of price fluctuations of securities. Optimal and balanced risk
+management serves as the basis for effective assurance of the Company's activity stability.
+Credit risk. It is a risk of the other party's inability to fulfil its obligations to the Company. The
+Company applies measures ensure transactions are concluded with trustworthy clients and the amount of
+transactions does not exceed the credit risk limits at all times. The Company has not issued guarantees
+for other parties' obligations. Credit risk is insignificant for the Company. The Company's maximum
+credit risk is equal to all of its financial assets – EUR 188,275,156.
+Liquidity risk. It is a risk of incapability to fulfil own payment obligations in time. The Company
+manages the liquidity risk by reserving sufficient quantity of cash and cash equivalents, securing
+financing, fulfilment of planned obligations. Before the next financial year, the Company makes the
+Company's budget for the next year, while necessary amount or cash or cash equivalents needed to
+cover the Company's liabilities is called by the Company (as investment repayment) from the Fund
+before the new financial year starts.
+The Company seeks to ensure sufficient cash and cash equivalent flows to meet its obligations. The table
+presents liabilities by payment terms on an undiscounted basis
+
+14
+
+
+=== pdf p.15 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+31 December 2024
+Cash and cash
+equivalents
+Financial assets
+Trade debts
+Bonds and bonds interest
+Other current liabilities
+
+Less than 1 year
+
+1 - 2 years
+
+2 - 5 years
+
+Total
+
+20 118 450
+
+20 118 450
+
+187 815 781
+
+187 815 781
+
+(2 741)
+
+(2 741)
+
+(75 756 203)
+
+(726 072)
+
+(25 686 928)
+
+(102 169 203)
+
+(11 469)
+
+(11 469)
+
+Total assets
+
+207 934 231
+
+-
+
+-
+
+207 934 231
+
+Total liabilities
+
+(75 772 694)
+
+(726 072)
+
+(25 686 928)
+
+(102 183 413)
+
+Net risk
+
+132 161 537
+
+(726 072)
+
+(25 686 928)
+
+105 750 817
+
+31 December 2023
+Cash and cash
+equivalents
+Financial assets
+Trade debts
+Bonds and bonds
+interest
+Other current liabilities
+Total assets
+Total liabilities
+Net risk
+
+Less than 1 year
+
+1 - 2 years
+
+2 - 5 years
+
+Total
+
+1 772 664
+
+-
+
+-
+
+1 772 664
+
+198 410 147
+(2 721)
+
+-
+
+-
+
+198 410 147
+(2 721)
+
+(874 647)
+
+(75 780 455)
+
+(26 413 000)
+
+(103 068 101)
+
+(17 703)
+
+-
+
+-
+
+(17 703)
+
+200 182 811
+
+-
+
+-
+
+200 182 811
+
+(895 071)
+
+(75 780 455)
+
+(26 413 000)
+
+(103 088 525)
+
+199 287 741
+
+(75 780 455)
+
+(26 413 000)
+
+97 094 286
+
+Market risk. It is a risk of incurring losses by the Company because of fluctuation of market variables.
+The Company had no financial instruments aimed at managing the risk of interest rate fluctuations, as
+the Company has no financial instruments with variable interest rate. The Company invests all its
+financial means available into Limited partnership Pagalbos verslui fondas and EPSO-G Invest UAB. Since
+all the operations by the Company are in Euro, and open positions of foreign currency are insignificant,
+the market risk is irrelevant for the Company.
+Fair value of financial assets and financial liabilities
+Fair value is defined as the amount, for which assets or services can be exchanged or for which mutual
+obligation between unrelated parties can be offset, which intend to buy or sell assets or offset their
+mutual obligation. Fair value of financial assets and financial liabilities is based on quoted market prices,
+models of discounted cash flows, or option price models, whichever the circumstances are. In other
+words, fair value is a price, at which on the day of valuation the asset would be sold or a liability would
+be transferred under an orderly transaction concluded between market participants on the main market,
+and if none exists – on the most favourable market accessible by the Company on the day of valuation.
+Where applicable, fair value is established according to the published price on the active market, by
+applying the models of discounted cash flow value and option valuation. When establishing the fair value
+of assets or liabilities, the Company refers to monitored market data, wherever possible. Fair values are
+attributed to different levels of fair value according to the variables applied in valuation methods:
+1st level: prices quoted on the active markets of the same asset or liability (unadjusted).
+2nd level: other variables, except for the quoted asset or liability prices included into the 1st
+level, which are monitored directly (i.e., same as prices) or indirectly (i.e., derived from prices).
+3rd level: asset or liability variables not based on monitored market data (not monitored
+variables).
+Company's investment into the Fund and issued bonds belongs to the 3rd level hierarchy.
+If variables used to establish the fair value of an asset or liability can be attributed to different
+hierarchical levels of the fair value, the hierarchical level fo the fair value, to which the total fair value
+established is attributed, must be determined on the basis of the lowest level variable relevant for
+establishing the total fair value.
+The Company recognises amounts moved between the hierarchical levels of fair value in the end of the
+reporting period, in which the change took place.
+
+15
+
+
+=== pdf p.16 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+Amortised cost of assets and liabilities recorded in the report on financial position on 31 December 2024
+does not differ from the accounting values of assets and liabilities.
+Fair value of bonds is established according to the market price of the same or similar bond market or
+coupon at that time applied for the same term bonds. The Company based its evaluation on the
+Government's securities coupons. On 31 December 2024, the fair value of the Company's bonds was
+approximately EUR 0.65 million smaller than the accounted value (31 December 2023 – EUR 3.9 million).
+The Fund conducted fair value sensitivity analysis of the bonds and issued loans exposed to changing
+discount rate. Change of 1% of the discount rate upwards and downwards results in the change of the
+fair portfolio value accordingly: +2,502 EUR 24 million and EUR – 2,434 million. The Table provides
+information about the changes in the fair value following the changes in the discount rate by separate
+types of financial assets.
+Financial assets (continued)
+Change in the discount rate
+Fair value of loans
+Change in the fair value of
+loans
+
+-
+
+Fair value of bonds
+Change in the fair value of
+bonds
+
+-1,0%
+
+0%
+
++1%
+
++2%
+
+5 074 467
+
+4 989 944
+
+4 907 341
+
+4 826 608
+
+4 747 696
+
+-
+
+80 733
+
+159 645
+
+111 068 060
+
+108 633 721
+
+106 265 373
+
+-
+
+2 434 339
+
+4 802 687
+
+115 975 401
+
+113 541 062
+
+111 172 714
+
+-
+
+2 434 339
+
+4 802 687
+
+167 126
+
+-
+
+116 143 564
+-
+
+Fair value of the portfolio
+Change in the fair value of the
+portfolio
+
+-2%
+
+5 075 504
+
+113 570 581
+-
+
+121 050 905
+-
+
+5 075 504
+
+82 603
+
+2 502 521
+118 477 922
+
+-
+
+2 502 521
+
+Capital management
+The key goal of capital management is to ensure the Company sustains its appropriate capital structure,
+as required by laws (look below).
+The Company's capital consists of the authorised capital, share premiums, reserve, and retained
+earnings. The Company's capital can be financed from shareholder's contributions and liabilities (in this
+case, by bonds).
+The ratio between liabilities and capital (D/E) on 31/12/2024 was 0.930 (31/12/2023 - 1.005).
+The Company manages and modifies the structure of its capital considering changes in economic
+conditions and specific risk of its business. To maintain or modify the capital structure, the Company can
+issue new shares. According to the Companies Law of the Republic of Lithuania, the equity capital of the
+Company must account for minimum 50% of its authorised capital. In 2024 and on 31 December 2023,
+the Company observed the above-mentioned requirement of the law. In case of discrepancies, the
+management would exert necessary actions stipulated in the Law on Joint Stock Companies of the
+Republic of Lithuania.
+
+16
+
+
+=== pdf p.17 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+3. NOTES
+3.1. Shares of associated companies
+Shares of associated companies on 31 December:
+Year ending
+on
+31/12/2024
+
+Year ending
+on
+31/12/2023
+
+UAB „EPSO G Invest“
+
+459 375
+
+-
+
+Total
+
+459 375
+
+-
+
+The Company's board decided to invest into EPSO-G Invest UAB. The Company acquired 49% of the
+newly-issued shares of EPSO-G Invest UAB, the emission value of which is EUR 18,375,000. In 2024,
+EUR 459,375 was paid.
+3.2.
+
+Financial assets at fair value the change in which is recognised as profit or loss
+
+According to the Members'' Agreement of 6 October 2020, including all subsequent amendments and
+supplements (hereinafter referred to as the Agreement), the Company undertook an obligation to invest
+up to EUR 250,000,000 (two hundred fifty million Euro) into Limited partnership Pagalbos verslui fondas.
+The Company's investment obligation includes all transfers under Payment calls and transfer amount
+may not exceed the investment obligation amount at any time.
+The Company invested EUR 7 000 000 into Limited partnership Pagalbos verslui fondas under the call,
+the money was transferred on 26 November 2020. The above-mentioned investment was revalued in the
+end of 2020, its value decreased to EUR 2,875,183 and amounted to EUR 4,124,817 on 31 December
+2020. During 2021, the amount of EUR 143,000,000 was invested at the payment call into Limited
+partnership Pagalbos verslui fondas, EUR 11,000,000 was transferred on 22 March 2021, EUR
+82,000,000 was transferred on 25 March 2021, EUR 30,000,000 – on 4 October 2021, EUR 20,000,000 –
+on 6 December 2021. The value of the investment of EUR 143,000,000 was reduced in the end of the
+year by the amount of EUR 4,860,624 and amounted to EUR 142,264,193 on 31/12/2021. In the period
+from 1 January 2022 until 31 December 2022, the amount of EUR 50,000,000 was invested into Limited
+partnership Pagalbos verslui fondas at the payment call, EUR 25,000,000 of which was transferred on 10
+March 2022, EUR 25,000,000 – on 8 July 2022. On 28 December 2022, the limited partner's share of
+EUR 1,000,000 was repaid to the Fund. On 27 December 2023, the limited partner's share of EUR
+1,500,000 was repaid to the Fund. On 28 December 2024, the limited partner's share of EUR 20,000,000
+was repaid to the Fund.
+Despite it is stated in the Company's accounting policy that investments are revalued once a year – in
+the end of a year, however, following the receipt of unaudited quarterly reports of Limited partnership
+Pagalbos verslui fondas, because of significant change in the value, it was decided to revalue the
+investments every quarter, once financial statements are received.
+The investment was revaluated for the end of 2024 according to the audited annual financial statements
+of Limited partnership Pagalbos verslui fondas. Its value increased during the reporting year by EUR
+9,405,634 and amounted to EUR 187,815,781 on 31/12/2024.
+The Company's has the right to withdraw from the activity of Limited partnership Pagalbos verslui fondas
+following the rules described in the agreement. When withdrawing, accounts are settled with the
+Company following the below-mentioned principles: (a) if the Fund is under liquidation, accounts are
+settled with the Company following the rules laid down in Paragraph 12 of the Agreement – upon sale of
+the assets, payment of the Fund's taxes and fees, money is transferred; (b) if the Company's rights and
+duties regarding the Fund are taken over by the other person, the Company's withdrawal conditions
+(including return of Called liabilities) are discussed in a separate agreement between the Company, full
+member and taking-over person (new Limited partner); (c) if the Company withdraws from the Fund
+without transferring its rights and duties to a third party, accounts are settled with the Company
+regarding the Called liabilities following the rules laid down in Paragraph 12 of the Agreement – assets
+are sold, Fund's taxes and fees are paid, money is transferred (while Uncalled liabilities of the Company
+expire).
+
+17
+
+
+=== pdf p.18 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+3.3. Cash and cash equivalents
+Cash and equivalents consisted of the following:
+Year ending on 31/12/2024
+
+Year ending on 31/12/2023
+
+Cash at bank
+
+20 118 450
+
+1 772 664
+
+Total
+
+20 118 450
+
+1 772 664
+
+3.4. Authorised capital
+According to the Agreement of Association of 7 August 2020, the Shareholders contributed EUR
+100,200,000 to form the authorised capital. All shares of the Company are ordinary registered nonmaterial shares, and their number is 10,020,000.
+On 17 March 2021, the increase of the authorised capital was registered, and 100,000 ordinary registered
+non-material shares were additionally issued. On the reporting day, the registered authorised capital of
+the Company was EUR 101,200,200, consisting of 10,120,000 ordinary registered shares of par value EUR
+10 each. All shares were fully paid up.
+3.5. Issued bonds
+In 2021, 1 series 2 parts of bonds were issued for the total value of EUR 50,000,000 (ISIN code
+LT0000405664) (the decisions of the Company's Board were adopted on 9 July 2021, No. 25, 15
+September 2021, No. 27, 25 November 2021, No. 30 and 31, accordingly).
+In 2022, 2 series 1 part bonds were issued for the value of EUR 25,000,000 (ISIN code LT0000406258),
+(the decisions of the Company's Board were adopted on 1 March 2022, No. 3 and No. 4), and 3 series 1
+part bonds – for the value of EUR 25,000,000 (ISIN code LT0000406613) (the decisions of the
+Company's Board were adopted on 28 June 2022, No. 7, No. 8, and No. 9). No bonds were issued in
+2023.
+Bond maturity dates: LT0000405664: 25 September 2025; LT0000406258: 8 March 2025;
+LT0000406613: 30 June 2027. Bonds interest rates: LT0000405664- 0%; LT0000406258 - 0.65 %;
+LT0000406613- 2.826%. Bonds issue terms and conditions stipulate the Company's right to redeem the
+Bonds earlier, i.e., one year precisely before the Bonds maturity date. Bonds early redemption dates:
+LT0000405664: 22 September 2024; LT0000406258: 8 March 2024; LT0000406613: 30 June 2026.
+Year ending on 31/12/2024
+
+Year ending on 31/12/2023
+
+Issued bonds (non-current
+liabilities)
+
+25 000 000
+
+100 000 000
+
+Bonds issue expenses
+
+(29 151)
+
+(129 181)
+
+24 970 849
+
+99 870 819
+
+Total
+
+Year ending on 31/12/2024
+
+Year ending on 31/12/2023
+
+Issued bonds (current
+liabilities)
+
+75 491 205
+
+491 205
+
+Bonds issue expenses
+
+(55 882)
+
+-
+
+75 435 323
+
+491 205
+
+Total
+
+18
+
+
+=== pdf p.19 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+3.6. Amounts payable to employees
+Amounts payable on 31 December:
+Year ending on 31/12/2024
+
+Year ending on 31/12/2023
+
+Taxes due
+
+1 557
+
+(2)
+
+Wages payable
+
+2 579
+
+-
+
+Vacation reserve accruals
+
+450
+
+13 386
+
+Other amounts payable to
+employees
+
+1 000
+
+-
+
+Total
+
+5 586
+
+13 384
+
+3.7. Other amounts payable and accrued expenses
+Amounts payable on 31 December:
+Year ending on 31/12/2024
+Remunerations payable to the
+members of the Board
+Taxes payable on the
+remuneration to the members
+of the Board
+Short-term trade payables to
+suppliers
+Other amounts payables
+Total
+
+Year ending on 31/12/2023
+
+3 497
+
+2 731
+
+1 926
+
+1 587
+
+2 741
+
+2 721
+
+459
+
+-
+
+8 623
+
+7 040
+
+3.8. Operating expenses
+Operating expenses on 31 December consisted:
+
+Year ending on
+31/12/2024
+
+Year ending on
+31/12/2023
+
+Wages and related taxes
+
+(135 981)
+
+(98 778)
+
+Expenses of Board members'
+remuneration
+
+(40 581)
+
+(52 109)
+
+Accounting expenses
+
+(15 536)
+
+(15 536)
+
+Legal assistance expenses
+
+(38 963)
+
+(594)
+
+Consulting expenses
+
+(34 516)
+
+-
+
+Expenses of IT services and
+licences
+
+(2 810)
+
+-
+
+Audit expenses
+
+(7 260)
+
+(7 260)
+
+19
+
+
+=== pdf p.20 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+Bank fee expenses
+Other administrative expenses
+
+Total
+
+(148)
+
+(112)
+
+(13 553)
+
+(8 955)
+
+(289 348)
+
+(183 343)
+
+3.9. Interest expenses
+Interest expenses on 31 December consisted:
+Year ending on 31/12/2024
+
+Year ending on 31/12/2023
+
+Bonds interest expenses
+
+(1 001 112)
+
+(995 321)
+
+Total
+
+(1 001 112)
+
+(995 321)
+
+3.10. Change in the value of financial assets accounted at their fair value, a change of which is
+recognised as profit or (loss).
+Increase in the value of financial assets accounted at their fair value, a change of which is recognised as
+profit or loss, for the year ending on 31 December 2024:
+Year ending on 31/12/2024
+
+Year ending on 31/12/2023
+
+Increase (decrease) in the value
+of non-current financial assets
+
+9 405 634
+
+19 987 719
+
+Total
+
+9 405 634
+
+19 987 719
+
+3.11. Profit (loss) distribution project
+On 31 December 2024, the Company's profit was EUR 8,135,864. The Company's retained earnings as of
+December 31, 2024 are EUR 6,811,856. It will be proposed to transfer the entire distributable profit of
+EUR 6,811,856 to the statutory reserve.
+3.12. Income tax and deferred income tax
+Income tax for the year ending on 31 December:
+
+Year ending on
+31/12/2024
+
+Year ending on
+31/12/2023
+
+Taxable income
+
+20 690
+
+Total expenses:
+
+(1 290 460)
+
+(1 178 664)
+
+Authorised deductions
+
+(1 290 460)
+
+(1 178 664)
+
+Unauthorised deductions
+
+-
+
+5
+
+(1 269 770)
+
+(1 178 659)
+
+Profit (loss)
+
+20
+
+
+=== pdf p.21 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+Recognised deferred income
+tax asset from transferrable
+losses
+
+-
+
+-
+
+Unrecognised deferred income
+tax asset from transferrable
+losses
+
+203 163
+
+176 799
+
+-
+
+-
+
+Income tax
+
+In 2024, the Company operated at a profit. Income tax is assessed in accordance with the requirements
+laid down in the Lithuanian tax laws. On 31 December 2024, the standard income tax tariff in Lithuania
+was 15 per cent (on 31 December 2023 – 15 per cent). Deferred income tax asset is sold, if the
+Company expects profit generation in the future. In 2020, the recognized income tax asset shown on the
+balance sheet will be written off in the post-reporting period because it will not be used. During 20212024, deferred income tax asset is not recognised as following receipt of dividends by the Company from
+Limited Partnership Pagalbos Verslui Fondas, the income will be tax exempt. The Company does not
+expect generation of income from other sources in the future.
+3.13. Basic and diluted earnings (loss) per share
+Basic earnings (loss) per share are calculated by dividing the net income (loss) of the period by the
+weighted average of the number of ordinary shares issued during the period concerned. The weighted
+average of shares in 2024 was 10,120,000 shares.
+Earnings (loss) per share:
+
+2024
+
+2023
+
+January – December
+
+January – December
+
+Net profit (loss)
+
+8 135 864
+
+18 809 055
+
+Weighted average number of
+issued ordinary shares
+
+10 120 000
+
+10 120 000
+
+0,8039
+
+1,8586
+
+Basic and diluted earnings
+(loss) per share
+
+3.14. Transactions with related parties
+The key managerial staff of the Company consists of the director general and board members. The Fund
+is considered as other related parties.
+In 2024, the Company had one transaction with an related party: the investment repayment of EUR 20
+000 000 was made in December 2024.
+
+21
+
+
+=== pdf p.22 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+Salary for the main managers
+
+2024
+
+2023
+
+Remunerations and other
+short-term payments to
+employees
+
+145 859
+
+92 857
+
+Remunerations to the Board's
+members
+
+40 581
+
+52 109
+
+Total
+
+186 440
+
+144 966
+
+3.15. Segment information
+The company operates in one segment.
+3.16. Rights and obligations not disclosed in the Statement of Financial Position
+The Republic of Lithuania guaranteed for the bonds issued by the Company up to EUR 150,000,000. The
+Company acquired 49% of the newly issued shares of EPSO-G Invest UAB, the emission value of which is
+EUR 18.4 million. A commitment to invest another EUR 52.7 million was undertaken, making the total
+maximum investment into the project of up to EUR 71.1 million. In 2024, EUR 459,375 was paid.
+3.17. Events after the date of the Statement of Financial Position
+No events that would impact the present financial reports or should be additionally revealed took place in
+the period from the end of the financial year till the day of the approval of the present financial
+statements.
+On behalf of Valstybės investicinis kapitalas UAB
+
+Chief Financier
+
+Vaidas Daktariūnas
+Managing Director
+
+Inga Čėsnienė
+Authorised person of Nordgain UAB
+
+22
+
+
+=== pdf p.23 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+VALSTYBĖS INVESTICINIS KAPITALAS UAB
+MANAGEMENT REPORT FOR 2024
+
+Assessment of the compliance of the annual statement of 2024 of the Company with the provisions of
+the business transparency guidelines of state-managed companies, management code of companies
+listed by NASDAQ Vilnius AB, and the Law on Financial Statements of Entities or of Groups of Entities (or
+the Law on State and Municipal Companies) and of other good accountability practices.
+DESCRIPTION AND PURPOSES OF THE COMPANY'S ACTIVITIES
+General information
+Valstybės investicinis kapitalas UAB (hereinafter referred to as the VIK or the Company) is a limited
+liability company registered in the Republic of Lithuania. The Company was registered on 26 August
+2020.
+The Company is registered at the address: Gedimino ave. 38, Vilnius.
+The tax payer's code of the Company – 305611945.
+Electronic mail address: info@vika.lt.
+Shareholder: The State
+Institution representing the state: Ministry of Finance of the RoL
+Share owned by the state: 100%
+The Company has no branches or representative offices.
+Manager's Address
+We are a state investment company investing into the Lithuanian economic development and strategic
+fields through management companies, funds, or other financial instruments. Our purpose is to promote
+capital and financial markets in attracting institutional investors' funds and investing them in a
+sustainable manner. Limited partnership Pagalbos verslui fondas and EPSO-G Invest UAB serve as the
+platforms for investments into economic recovery, defence and security project development.
+Based on the thorough analysis of investment opportunities and the approval of the general meeting of
+shareholders, the Company's Board adopted the decision on 9 December 2024 to invest into an
+ammunition plant planned to be developed in Lithuania by a Germany-registered defence industry
+company Rheinmetall AG indirectly, via EPSO-G Invest UAB company founded specifically for this
+purpose. The Company acquired 49% of the newly issued shares of EPSO-G Invest UAB, the emission
+value of which is EUR 18.4 million. A commitment to invest another EUR 52.7 million was undertaken,
+making the total maximum investment into the project of up to EUR 71.1 million.
+Valstybės investicinis kapitalas UAB (VIK) was founded to help Lithuanian business to overcome
+pandemic caused challenges.
+The Company made the total investment of EUR 200
+million in Limited partnership Pagalbos verslui fondas and
+the latter amount of the investment was determined by
+the real demand of Lithuanian businesses.
+All bonds of the value of EUR 100 million issued by VIK
+are listed on the stock exchange of Nasdaq Vilnius AB and
+can participate in the operations of the monetary policy of
+the European Central Bank.
+Limited partnership Pagalbos verslui fondas finished the
+period of active investment and VIK is not currently
+making any investment into Limited partnership Pagalbos
+verslui fondas. In 2024, the investment of EUR 20 million
+and in February 2025, the investment of EUR 26 million
+paid back to the Company (the total investment of EUR
+48.5 million returned to VIK).
+
+23
+
+
+=== pdf p.24 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+It must be noted that VIK is fulfilling its obligations to the investors in a proper manner, i.e., in March
+and June 2024, interest was paid for the issued securities, and on 10 March 2025, the emission of EUR
+25 million worth bonds was redeemed according to the emission terms and conditions. In September
+2025, the Company still has EUR 50 million of bonds to redeem.
+VIK activity description and activity model
+The Minister of Finance of the Republic of Lithuania passed the Order No. 1K-371 on 21 November 2024
+updating the goals aspired by the government and the expectations for Valstybės investicinis kapitalas
+UAB.
+The activity of the Company will continue focusing on the long-term strengthening and modernisation of
+the Lithuanian economy. The key goals of the Company remain the same, such as: successful finalisation
+of participation in the founded Limited partnership Pagalbos verslui fondas, which helped the economy to
+recover from the COVID-19 pandemic consequences, redemption of the bonds with the state guarantee
+issued for the latter purpose, further contribution to the Lithuanian capital market development, private
+capital attraction to important projects and investment into strategically significant fields for the national
+economy. VIK activity model will be b based on earmarked investments pursuing not only financial return
+but also contributing to achievement of national strategic goals established in the important state
+documents, such as the National Energy Independence Strategy and National Energy and Climate Plan.
+When building the investment portfolio and choosing activity directions, the Company focuses on and
+prioritises investments that strengthen national defence and security.
+Company's investment into strategic defence industry project. In November 2024, the Company
+received an invitation to consider its potential participation in the implementation of the investment of
+Germany-registered defence industry company Rheinmetall AG (hereinafter – RhM) into an ammunition
+plant to be constructed in Lithuania (hereinafter – the Project).
+The Government of the Republic of Lithuania adopted the Resolution No. 573 on 10 July 2024
+recognising the large-scale project Lithuanian Centre of Excellence for Ammunition as securing urgent
+needs of the national defence and security. It must be noted that the Project investor is German capital
+company Rheinmetall AG, while state-controlled companies ESPO-G UAB and Giraitė Ammunition Plant
+AB, together with VIK, are invited to the Project. VIK must contribute to the Project with its investments
+and adhere to all the conditions and principles of the Project implementation. The Protocol further
+stipulates redemption of the investments of Valstybės investicinis kapitalas UAB by Giraitė Ammunition
+Plant AB upon finalisation of the Project and further assurance of implementation of the obligations
+stipulated in the Project agreements.
+Based on the thorough analysis of investment opportunities and the approval of the general meeting of
+shareholders, the Company's Board decided to invest into the Project indirectly, via EPSO-G Invest UAB
+company founded specifically for this purpose.
+It must be noted that at the request of the German partners, all investments are made into the capital of
+a newly founded company to enable capitalisation of the new company to attract borrowed money for
+potential development and additional investments in the future.
+•
+•
+•
+
+The Company acquired 49% of the newly issued shares of EPSO-G Invest UAB, the emission
+value of which is EUR 18,375,000;
+a commitment to make an extra investment of EUR 52,675,000 was made;
+total maximum investment amount into the Project is up to EUR 71,050,000.
+
+Considering the geopolitical situation, investment into defence and security strengthening is among the
+central interests of the state of the Republic of Lithuania, therefore successful implementation of the
+Project is an integral part of the Government's strategy of the Republic of Lithuania.
+The purpose of the Project is to enhance defence capacities of the Republic of Lithuania and to contribute
+to regional security by manufacturing 155 mm artillery ammunition. The location of the plant
+construction is Baisiogala, Radviliškis District. The total preliminary value of the project is from EUR 260
+million to EUR 300 million.
+Considering the former expectations of the Government from VIK's activity, attraction of funds from
+private investors, to make adequate preparations for investment into the ammunition plant to be
+developed in Lithuania, the approved EUR 400 million debt security (hereinafter - DS) programme with
+the unconditional state guarantee is planned to be updated. Fitch Ratings international rating agency
+gave the A rating for the above-mentioned programme. Securities of the bond programme when needed
+are issued in lots. It should be noted that DS distributed by VIK do not certify any rights to objects or
+commodities that are immovable by nature, or any rights or duties to acquire or transfer such securities.
+
+24
+
+
+=== pdf p.25 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+Valstybės investicinis kapitalas UAB issued DS in total for EUR 100 million during the period of its
+operation.
+All bonds distributed by the company are included into the Debt securities list of Nasdaq Baltics from 3
+September 2021. The state guarantee was issued to secure obligations of the bonds.
+DS distribution process of VIK is standard and complies with the practice currently applied on the
+market. VIK contracts legal and financial service providers for DS emission distribution services. Luminor
+Bank AS Lithuanian Branch, being the organiser of DS distribution, undertook an obligation to act as an
+intermediary in DS distribution process from its beginning till the end, i.e., undertook an obligation to
+provide all services related to DS issue and its offer to third parties, including preparation for DS issue,
+DS issue organisation, DS offer for investors, coordination of DS issue in the process of obtaining an
+external independent credit rating, etc.
+It was agreed in writing that VIK will pay a remuneration to the organiser for intermediation in DS
+transactions as a per cent from the DS earnings, but only if VIK's DS are successfully distributed. If the
+organiser fails in distributing VIK DS issue, i.e., providing the main service of intermediation in DS
+transactions, the organiser will receive no remuneration from VIK.
+The main activity of VIK comprises the following:
+➢
+
+management of assets owned by the state that were transferred to VIK;
+
+➢
+
+financing of legal persons of any form or entities of any other form of activity intended to
+implement the goals of VIK's activity and/or participation in their activity, including
+establishment of legal persons of any form or entities of any other activity form;
+
+➢
+
+issue of bonds;
+
+➢
+
+attraction of private investments.
+
+On the reporting day, the registered authorised capital of the Company was EUR 101,200,000, consisting
+of 10,120,000 ordinary registered shares of par value of EUR 10 each.
+According to the Agreement of Association of 7 August 2020, the shareholder contributed EUR
+100,200,000 to form the authorised capital. All shares of the Company were ordinary registered nonmaterial shares, and their number was 10,020,000.
+On 30 December 2020, the amount of EUR 1,000,000 was received from the shareholder for increasing
+the authorised capital.
+On 17 March 2021, the increase of the authorised capital was registered and 100,000 ordinary registered
+non-material shares were additionally issued.
+All shares were fully paid up.
+Financial year of the Company coincides with a calendar year.
+The Company prepared its financial statements according to the International Financial Reporting
+Standards (IFRS) applicable in the European Union (hereinafter referred to as the EU).
+Description of the activity during the reporting period
+On 8 March 2024, the interest of the Securities issue LT0000406258 was paid.
+On 1 July 2024, the interest of the Securities issue LT0000406613 was paid.
+On 21 November 2024, the Company's shareholder the Ministry of Finance updated the company's
+articles of association and the goals and expectations aspired by the state from the Company.
+On 25 November 2024, the Company's shareholder the Ministry of Finance decided to appoint a new
+board.
+On 13 December 2024, the Company signed the share subscription agreement and the shareholders'
+agreement of EPSO-G Invest UAB and agreed on participation in the capital of EPSO-G Invest UAB and
+Rheinmetall Defence Lietuva UAB in order to invest into Rheinmetall Defence Lietuva UAB and to achieve
+successful development of the artillery ammunition plant construction and ammunition trade business.
+
+25
+
+
+=== pdf p.26 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+On 16 December 2024, the Company made its first payment of EUR 459,375 for the acquired shares of
+EPSO-G Invest UAB under the EPSO-G Invest UAB shareholders' agreement.
+On 20 December 2024, the Company received EUR 20 million from the Fund, as the limited partner's
+repayment of the investment into the Fund.
+Significant events after the end of the financial year
+No events that would impact the present financial reports or should be additionally revealed took place in
+the period from the end of the financial year till the day of the approval of the present financial
+statements.
+On 27 January 2025, the Company's Board appointed Vaidas Daktariūnas to the office of Managing
+Director of Valstybės investicinis kapitalas UAB from 27 January 2025.
+On 25 February 2025, the Company made its second payment of EUR 17,915,625 for the acquired
+shares of EPSO-G Invest UAB under the EPSO-G Invest UAB shareholders' agreement.
+On 25 February 2025, the Company received EUR 26million from the Fund, as the limited partner's
+repayment of the investment into the Fund.
+On 10 March 2025, the Company completed the successful redemption of the bonds emission of EUR
+25,000,000, ISIN code LT0000406258, according to the emission terms and conditions. The bonds were
+issued on 8 March 2022 with 0.65% annual interest rate. All liabilities to investors were completed in
+time and full extent.
+
+STRATEGY AND ITS IMPLEMENTATION
+The strategic directions, mission, vision, and goals of the Company
+The main activity goals of VIK include capital market development, attraction of private investments and
+investment into strategically important fields for the Lithuanian economy. Notwithstanding the
+Company's ongoing activity related to the assistance to the Lithuanian economy in recovering from the
+COVID-19 pandemic consequences, in particular, its pursuit of successful finalisation of its participation
+in Limited partnership Pagalbos verslui fondas (hereinafter – the Fund), and redemption of the bonds
+issued for the latter purpose with the state guarantee, the focus of its activity is broader and oriented
+towards long-term strategic needs of the state.
+VIK cooperates with private limited liability company Valstybės investicijų valdymo agentūra, and
+through their jointly established Fund helped the Lithuanian economy to recover from the consequences
+of the pandemic (COVID-19), by financing the measures helping businesses and developing the capital
+market from the funds attracted through the state and capital market instruments. For this purpose, if it
+was needed, VIK would have tried to attract up to EUR 400 million from private investors and invest it.
+The updated letter of the Ministry of Finance of the Republic of Lithuania regarding the state (shareholder
+of VIK) expectations names the strategic investment fields to be prioritised by the Company:
+
+•
+
+Strengthening of the defence and security industry;
+
+•
+
+Transformation of the Green Deal and Digital Economy;
+
+•
+
+Energy decarbonisation and climate neutrality.
+
+Besides, the Company must actively search for opportunities to invest into fields contributing to
+achievement of the goals and implementation of the objectives set in the National Energy Independence
+Strategy, National Energy and Climate Plan, and other strategic documents of the government.
+It must be noted that the specific purpose of the activity of VIK determines definition of the mission,
+strategy and vision of VIK in the letter of shareholder's expectations rather than in separate documents
+and coincides with the established purposes of activity of VIK.
+Coherence
+
+26
+
+
+=== pdf p.27 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+The Company's position is to ensure maximum reflection of the matters of coherence and sustainability
+in daily activities. The activity specifics of the Company determine the fact that the company has not
+acquired any property, does not rent or uses the company's office, vehicles, or other equipment on any
+other grounds, and has no other direct expenses that would affect the environment, therefore,
+conducting an analysis of the main environmental, social and economic effects is inexpedient.
+Furthermore, the company promotes and aspires compliance of green procurements through public
+procurements carried out via CPO LT.
+Information on the Company's research and development activities
+The Company has not carried out any research and development activities.
+Business plans and forecasts of the Company
+The Company plans to proceed with the activity oriented to financing of important projects for the
+Lithuanian economy, capital market development, and financial stability assurance. Based on the
+achievements and considering the dynamic economic and geopolitical environment, the Company plans
+the following main business directions and forecasts for the future periods.
+•
+
+Successful stage of Pagalbos verslui fondas and further development of the capital market
+
+The Company participates as a successful partner of limited partnership Pagalbos verslui fondas, into
+which the Company invested EUR 200 million. The stage was equally financed from the authorised capital
+of the Company and bond emissions with the state guarantee. Upon completion of this stage, the
+Company will continue its active participation on the capital market, enhancing trust among institutional
+investors, increasing its awareness and issuing new bond emissions to finance strategic goals.
+•
+
+Preparation for financing defence projects
+
+To ensure smooth financing of the strategic investment into the ammunition plant, the Company renews
+the medium-term bond programme of EUR 400 million.
+Bond emission of EUR 25-50 million is planned for autumn 2025, earmarked for the Rheinmetall Defence
+Lietuva project. The latter emission will not exceed the state guarantee limit of EUR 54,5 million for
+defence projects in 2025 established for the Company (out of the total borrowing limit of EUR 89,5
+million). It should be noted that the Company's investment in the share capital of Rheinmetall Defence
+Lietuva and the construction of the artillery ammunition plant may result in a financial loss until the fullscale production operation. Financing defence projects through the issuance of bonds will require 3-4
+years of interest costs until the planned dividends start to be paid.
+•
+
+Investment into energy transformation
+
+In 2025, the borrowing limit of EUR 35 million was established for the Company for financing investment
+projects in the field of Renewable energy resources (out of the total limit of EUR 89,5 million). It must be
+noted that state guarantee would not be granted for attracting the latter funds.
+•
+
+Maintaining financial stability and market position
+
+The strategic goal of the Company is to sustain the high credit rating of A granted by international rating
+agency Fitch Ratings to the bond programme. The rating linked to the rating of the Republic of Lithuania
+because of the state guarantee plays an important role in attracting investors under favourable
+conditions. The Company will continue cooperating with the rating agency and observe strict financial
+discipline.
+Compliance of the achieved operating results with the set targets
+In 2024, the Company successfully paid interests for bonds, the set targets were reached.
+Considering the national security and defence needs and geopolitical situation, the Company made a
+significant step by joining the efforts to strengthen the Lithuanian defence industry. With the
+shareholders' approval, the decision was made to invest indirectly, through specially founded EPSO-G
+Invest UAB, into an artillery ammunition plant planned to be constructed in Lithuania by German
+company Rheinmetall AG. The project is expected not only to enhance the Lithuanian defence capacities
+but also to generate financial return. Dividend payment is planned from 2030.
+
+27
+
+
+=== pdf p.28 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+ANALYSIS OF FINANCIAL AND PERFORMANCE RESULTS
+Income
+In 2024 and 2023, the Company had no sales. The construction of the activity model of the Company is
+such that apart from receipt of investments with return the Company plans no additional incomes in the
+nearest future.
+Expenses
+The Company's operating expenses, other expenses and interest expenses on 31 December 2024 were
+EUR 1,290,460. In 2024, the increase in the value of the Investment into Limited partnership Pagalbos
+verslui fondas was made – EUR 9,405,634 according to the audited financial statements of Limited
+partnership Pagalbos verslui fondas.
+It is stated in the financial statements of Limited partnership Pagalbos verslui fondas that when
+estimating the positions of the investment portfolio at the fair value, the data of individual credit risk
+assessment of appropriate segments of financial markets and internal companies were observed.
+
+Structure of the operating expenses in 2024
+Picture 1. Structure of the operating expenses in 2024
+
+Wages and related expenses account for the major share of the operating expenses in 2024.
+Increase in operating expenses is observed in 2024, which is mainly impacted by the rise in salary and
+related labour expenses.
+Table 2. Groups of the Company's expenses and their change
+
+Operating and other expenses
+
+2024
+
+2023
+
+Change %
+
+(289 348)
+
+(183 343)
+
+58%
+
+28
+
+
+=== pdf p.29 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+Activity result of the Company
+The net profit of the Company in 2024 was EUR 8,136 million (in 2023 the Company's net profit was EUR
+18,809 million). The main reason for the net profit decrease was smaller rise in the value of the noncurrent financial assets than in the previous reporting period.
+
+Profit (loss) per one share
+Ordinary income (loss) per share is calculated by dividing the net income (loss) of the period by the
+weighted average of the number of ordinary shares issued during the period concerned. The weighted
+average of shares in 2024 was 10,120,000 shares.
+
+Income (loss) per share:
+
+2024
+
+2023
+
+Net profit (loss)
+
+8 135 864
+
+18 809 055
+
+Weighted average of issued ordinary
+shares
+
+10 120 000
+
+10 120 000
+
+Ordinary income (loss) per share
+
+0,804
+
+1,859
+
+Table 3 Balance groups of the Company and their changes
+
+31/12/2024
+
+31/12/2023
+
+Change in
+EUR
+
+Change %
+
+Non-current assets
+
+188 280 085
+
+198 442 286
+
+-10 162 201
+
+-5%
+
+Current assets
+
+20 152 153
+
+1 816 155
+
+18 335 998
+
+1010%
+
+TOTAL ASSETS
+
+208 432 238
+
+200 258 441
+
+8 173 797
+
+4%
+
+Total equity
+
+108 011 856
+
+99 875 993
+
+8 135 863
+
+8%
+
+Fixed liabilities
+
+99 932 190
+
+99 870 819
+
+61 371
+
+0%
+
+488 192
+
+511 629
+
+-23 437
+
+-5%
+
+100 420 382
+
+100 382 448
+
+37 934
+
+0%
+
+Balance sheet analysis
+
+Current liabilities
+TOTAL LIABILITIES
+
+Minor decrease in the value of the non-currents assets and increase in the current assets are observed in
+2024, caused by the repayment of the investments of EUR 20,000,000 on 20/12/2024.
+On 31 December 2024, the Company had EUR 20,118,450 on its bank account.
+During 2024, the Company acquired the shares of EPSO-G UAB for EUR 459,375, which were accounted
+in the balance sheet of 2024 at their acquisition cost.
+
+29
+
+
+=== pdf p.30 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+Table 4 Main financial indicators of the Company
+
+Main financial indicators
+Income
+Operating expenses (-)
+Other incomes from financial activities
+
+31/12/2024
+
+31/12/2023
+
+-
+
+-
+
+(1 290 460)
+
+(1 178 664)
+
+20 690
+
+Financial assets at fair value the change
+in which is recognised in profit or loss
+
+9 405 634
+
+19 987 719
+
+Net profit (loss)
+
+8 135 864
+
+18 809 055
+
+Current ratio
+
+41,28
+
+3,55
+
+Critical liquidity ratio
+
+41,28
+
+3,55
+
+Absolute cash liquidity ratio
+
+41,21
+
+3,46
+
+19 663 961
+
+1 304 526
+
+Net profit ratio
+
+-
+
+-
+
+Asset turnover ratio
+
+-
+
+-
+
+Liquidity indicators
+
+Working capital
+Profitability ratios
+
+Return on assets ROA %
+
+3.98%
+
+9.86%
+
+Return on equity ROE %
+
+7.83%
+
+20.79%
+
+Debt-to-equity ratio
+
+92.97%
+
+100.51%
+
+All financial data provided in this report were calculated according to the International Financial
+Reporting Standards (IFRS), adopted for application in the EU, unless otherwise stated.
+Income tax
+Income tax is assessed in accordance with the requirements laid down in the Lithuanian tax laws. On 31
+December 2024, the standard income tax tariff in Lithuania was 15 per cent Deferred income tax asset is
+sold, if the Company expects profit generation in the future. Deferred income tax assets of 31 December
+2024 is not recognised. On 31 December 2023, deferred income tax asset is not recognised as following
+receipt of dividends by the Company from Limited Partnership Pagalbos verslui fondas, the income will be
+tax exempt.
+The net result of the Company in 2024 was profit of EUR 8,135,864. the retained profit of the Company
+on 31 December 2024 was EUR 6,811,856. The total distributable profit of EUR 6,811,856 will be
+suggested to be transferred to the required reserve.
+
+RISK FACTORS
+Key risk factors and their management policy
+The Company's activity must comply with Commission Decision No. C(2020) 3534 (final) of 26 May 2020
+‘State Aid SA.57008(2020/N) – Lithuania COVID-19: Aid Fund for Business’ (as subsequently amended
+and supplemented) (hereinafter referred to as the Aid Scheme) and the provisions of the Description of
+Activities of the Measure ‘Aid Fund for Business’ approved by the Minister of the Economy and Innovation
+of the Republic of Lithuania and the Minister of Finance of the Republic of Lithuania (as subsequently
+amended and supplemented) Such specifics of the activity of the Company determines limited need for
+risk management policy. On the other hand, general risk management controls are implemented in the
+company.
+Credit risk. It is a risk of the other party's inability to fulfil its obligations to the Company. The
+Company applies measures ensure transactions are concluded with trustworthy clients and the amount of
+transactions does not exceed the credit risk limits at all times. The Company has not issued guarantees
+
+30
+
+
+=== pdf p.31 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+for other parties' obligations. The company encounters the risk of the other party's inability to fulfil its
+obligations to the Company.
+Liquidity risk. It is a risk of incapability to fulfil own payment obligations in time. The Company
+manages the liquidity risk by reserving sufficient quantity of cash and cash equivalents, securing
+financing, fulfilment of planned obligations.
+Market risk. It is a risk of incurring losses by the Company because of fluctuation of market variables.
+The Company had no financial instruments aimed at managing the risk of interest rate fluctuations, as
+the Company has no financial instruments with variable interest rate. The Company invests all its
+financial means available into Limited partnership Pagalbos verslui fondas and EPSO-G Invest UAB. Since
+all the operations by the Company are in Euro, and open positions of foreign currency are insignificant,
+the market risk is irrelevant for the Company.
+
+INVESTMENT PROJECTS
+Main investment projects under implementation and implemented.
+During 2020, the Company invested EUR 7 million into Limited partnership Pagalbos verslui fondas at the
+call.
+During 2021, the Company invested EUR 143 000 000 into Limited partnership Pagalbos verslui fondas at
+the calls.
+During 2022, the Company invested EUR 50 000 000 into Limited partnership Pagalbos verslui fondas at
+the calls.
+According to the Members' Agreement of 6 October 2020, including all subsequent amendments and
+supplements, the Company invested EUR 200,000,000 in total into Limited partnership Pagalbos verslui
+fondas.
+On 16 December 2024, the Company made its first payment of EUR 459,375 for the acquired shares of
+EPSO-G Invest UAB under the EPSO-G Invest UAB shareholders' agreement.
+On 25 February 2025, the Company made its second payment of EUR 17,915,625 for the acquired
+shares of EPSO-G Invest UAB under the EPSO-G Invest UAB shareholders' agreement.
+The Company acquired 49% of the newly issued shares of EPSO-G Invest UAB in total, and the limit for
+the total maximum investment amount into the project is EUR 71,1 million,
+Planned investment projects
+According to the updated programme of EUR 400 million, the Company plans issuing bonds to attract
+additional funds, should the Company assume additional obligations. The Company is analysing potential
+financing of other important projects.
+Investment policy
+The specifics of the Company's activity determine limited need for investment policy. The Company's
+activity is based on the Commission Decision No. C(2020) 3534 (final) of 26 May 2020 ‘State Aid
+SA.57008(2020/N) – Lithuania COVID-19: Aid Fund for Business’ (as subsequently amended and
+supplemented) (hereinafter referred to as the Aid Scheme) and the provisions of the Description of
+Activities of the Measure ‘Aid Fund for Business’ approved by the Minister of the Economy and Innovation
+of the Republic of Lithuania and the Minister of Finance of the Republic of Lithuania (as subsequently
+amended and supplemented)
+On 8 December 2022, the board adopted the decision (minutes No. 12 of the meeting) approving the
+policy of investment of free funds into Limited liability company Valstybės investicinis kapitalas. It
+established the possibility of investing free funds of the Company into the following financial instruments:
+•
+•
+•
+•
+
+Term deposits in the banks of the European Union Member States, Switzerland, and European
+Economic Area Member States or their branches, including in the Bank of Lithuania;
+Government's debt securities;
+Debt securities of commercial banks;
+Investment units of investment funds of money market
+
+31
+
+
+=== pdf p.32 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+The purpose of the Company's investments according to the policy of investment of free funds is
+temporary investment of free funds of the Company until the need for their use in implementation of the
+Company's projects or repayment to the owners of the bonds issued by the Company, shareholders or
+creditors of the Company arises; and when implementing the latter purpose, free funds of the Company
+must be invested according to the following sequence of priorities:
+•
+•
+•
+
+Security of investments – the priority goal of investment is to ensure security of invested
+money, i.e., guarantee that a part of invested money would always be recovered.
+Liquidity assurance – money must be managed to provide the Company with a possibility to
+carry out its usual activity and fulfil its obligations.
+Maximisation of the return on investments – money must be managed to ensure receipt of
+maximum possible return on investment following the principles for assurance of investment
+security and liquidity.
+
+The Company has not made any investment according to the policy of investment of free funds in 2024.
+MANAGEMENT STRUCTURE, MANAGEMENT AND SUPERVISION BODIES OF THE COMPANY
+Main shareholders of the Company, their rights
+The Government of the Republic of Lithuania adopted the resolution on 13 April 2022 to transfer all
+10,120,000 ordinary registered non-material shares owned by the state and managed by trust by the
+Ministry of the Economy and Innovation of the Republic of Lithuania, which grant 100% votes at the
+general meeting of shareholders of VIK, to the Ministry of Finance of the Republic of Lithuania to
+manage, use and dispose by trust. The Company has not acquired and does not hold any shares of its
+own.
+The rights and duties of the shareholders of VIK are established by the Joint Stock Companies Law and
+other laws of the Republic of Lithuania.
+Rights granted by VIK's shares are exercised following the procedure established by the Joint Stock
+Companies Law, other laws, and legal acts, and Articles of Association of the Company.
+On 31 December 2024, 100% of the Company's authorised capital was owned by the Republic of
+Lithuania, company code 111105555.
+Governing bodies of the Company (structure)
+VIK has the following governing bodies:
+•
+
+general meeting of shareholders
+
+•
+
+board - collegial governing body of the company;
+
+•
+
+head of the company – Managing Director – one-person governing body of the company;
+
+•
+
+no supervisory board is formed in the company.
+
+The management of the Company consists of the Managing Director and board members. Parties
+recognised related to the Company include shareholders, Board members, their family members and
+companies having direct or indirect (via intermediary) control of the Company or under control separately
+or together with the other party, which is recognised as related party, provided that the latter relationship
+entitles one of the parties to control the other party or make significant impact on the other party when
+making financial and management decisions.
+The Company has its management structures and jobs approved, and updated on
+Picture 2 below).
+
+November 2024 (see
+
+Picture 2. Management structure of the Company
+
+32
+
+
+=== pdf p.33 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+General meeting of shareholders and its activity
+Competences of the general meeting of shareholders, the procedure of its convocation, decision-making
+are the same as established in the Joint Stock Companies Law, except for the cases stipulated in Article
+23 of the Articles of Association. If all shares of VIK are owned by the same person, his/her written
+resolutions are equivalent to resolutions of the general meeting of shareholders. The general meeting of
+shareholders has the following additional competence:
+•
+
+To establish the remuneration for board and committee (if any) members for work following the
+procedure applicable in the board and appropriate committees:
+
+•
+
+to adopt decisions on signing agreements with members of the board and committees (if any)
+and establishment of their conditions, including the maximum remuneration for members and
+chair of the board and appropriate committees;
+
+•
+
+to set the goals for the board and audit committee (if any) and the procedure of accountability
+for their performance to the general meeting of shareholders.
+
+Rights of the general meeting of shareholders are exercised by and the manager of all VIK shares is the
+Ministry of Finance. The general meeting of shareholders discussed and adopted the decisions on election
+of audit company for 2024-2025, approval of the collection of financial statements, and profit (loss)
+distribution, amendment to the articles of association, board appointment.
+
+The Board of the Company and its activity
+Members of the Board are elected by the general meeting of shareholders for 4 years. The procedure of
+election and recall of the Board and its individual members coincides with the procedure established in
+the Joint Stock Companies Law. The Board consists of 3 members, two of whom are independent
+members. Competences and decision-making procedure of the Board are the same as established in the
+Joint Stock Companies Law.
+
+33
+
+
+=== pdf p.34 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+The Board also has the following additional competence:
+•
+
+to consider and approve the policy of investment of temporary free funds,
+
+•
+
+to give approval to VIK's head to conclude a transaction of the value over EUR 50,000 (fifty
+thousand Euro), excluding VAT,
+
+•
+
+to consider and adopt decisions on implementation of appropriate resolutions of the general
+meeting of shareholders;
+
+•
+
+to consider and adopt decision on the issue of VIK's bonds, as stipulated in Article 55(4) of the
+Joint Stock Companies Law,
+
+•
+
+to establish indicators applicable to assessment of the performance of VIK's head and their
+planned values, which determine the variable value of monthly salary of VIK's head.
+
+No committees have been formed in the Company. Performance of the Audit committee's functions
+stipulated in legal acts is delegated to the Board.
+Independent Board members are elected through public competition in accordance with the provisions of
+the Description of recruitment to collegial supervisory or governing body of state or municipal enterprise,
+state- or municipality-controlled company or its affiliate approved by the Resolution No. 631 of the
+Government of the Republic of Lithuania of 17 June 2015, a candidate to the office of representatives of
+the Ministry of Finance – through public recruitment. Board members must meet the general, special, and
+if applicable, independence requirements established by the Law on the Management, Use and Disposal
+of State and Municipal Assets.
+Candidates are appointed as Board members, upon review of the information about the candidates to the
+Board members' offices established by legal acts provided by the Special Investigation Service. In case of
+resignation or recall of a member of the Board, a new Board member is elected till the end of the current
+term of office following the same procedure as for the new board. During the reporting period, the Board
+of the Company was formed (elected) by the Decision No. 1K-375 of the Minister of Finance of 25
+November 2024.
+Board of Valstybės investicinis kapitalas, UAB
+
+Jolanta Diaukštienė
+
+Chair, independent member. Head of HR of the law firm Norkus &
+Partners COBALT, legal entity code 305964660.
+
+Mindaugas Kekys
+
+Independent member. Head of Finance and Asset Management Group,
+AB Via Lietuva, legal entity code 188710638
+
+Edmundas Kiškis
+
+Board member representing the Ministry of Finance. Head of the
+Borrowing and Investment Division of State Treasury Department, legal
+entity code 288601650.
+
+Šarūnas Ruzgys
+
+Chair, independent member (until 26/08/2024). Head of Administration
+and Chairman of the Board, Finora Bank, UAB, legal entity code
+305156796
+
+Jonas Bložė
+
+Marius Alubeckas
+
+Independent member (until 26/08/2024). Partner, Attorney-at-law, law
+firm ZETA LAW, legal entity code 300085249.
+Board member representing the Ministry of Finance (until 26/08/2024).
+Chief Specialist of the Financial Instruments Division of Investment
+Department, legal entity code 288601650.
+
+Description of the Board's activity during the reporting period
+The Company's Board held 10 meetings during 2024. The meetings were actively attended by the Board
+members, where they adopted decisions regarding investment matters, Company's organisational
+
+34
+
+
+=== pdf p.35 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+matters, operational budget and other operational matters of the Company. One member of the Board
+withdrew from one meeting of the Board because of a potential conflict of interests. Detailed information
+about participation of the Board members in the meetings is provided in the Table.
+Table 5. Statistics of the Board's meetings
+Live and remote,
+number
+
+Written procedure,
+number
+
+TOTAL, number
+
+5
+
+0
+
+5
+
+Mindaugas Kekys
+(independent member)
+
+6
+
+0
+
+6
+
+Edmundas Kiškis
+
+6
+
+0
+
+6
+
+3
+
+1
+
+4
+
+3
+
+1
+
+4
+
+3
+
+1
+
+4
+
+Jolanta Diaukštienė
+(Chair, independent member)
+
+(Board member representing the Ministry of Finance)
+
+Šarūnas Ruzgys
+(Chair, independent member)
+
+Jonas Bložė
+(independent member)
+
+Marius Alubeckas
+(Board member representing the Ministry of Finance)
+
+The Board adopted the following most important decisions:
+Board's meeting minutes No. 1 of 14 February 2024.
+At the above-mentioned meeting, the Board decided to approve the activity purposes of the Head of the
+Company for 2024 and the Company's budget for 2024, and the variable remuneration component of the
+Head of the Company for 2023.
+Board's meeting minutes No. 2 of 29 March 2024.
+At the above-mentioned meeting, the Board decided to approve the sequence of submitted offers
+regarding the issue of the Company's debt securities, by inviting the bank at the top of the list to sign an
+agreement.
+Board's resolution No. 3 of 9 April 2024.
+The Board adopted the above-mentioned resolution approving the management report for 2023 and
+submitting the management report for 2023 to the sole shareholder of the Company for familiarisation
+and the financial statements for 2023, prepared according to the International Financial Accounting
+Standards applicable in the European Union, together with the independent auditor's report and profit
+(loss) distribution draft for approval.
+On 26 July 2024, the Board adopted the resolution No. 4 approving the amendments to the agreements
+of the members and activity signed on 6 October 2020 regarding the activity of Limited partnership
+Pagalbos verslui fondas and between the Company and Valstybės investicijų valdymo agentūra UAB
+(code 305612545).
+Board's meeting minutes No. 5 of 26 November 2024.
+The decision was adopted at the meeting to elect Jolanta Diaukštienė as the chair of the Board of
+Valstybės investicijų valdymo agentūra UAB.
+Board's meeting minutes No. 6 of 29 November 2024.
+The Board decided to update the governing structure and employees’ positions of Valstybės investicijų
+valdymo agentūra UAB at the meeting.
+Board's meeting minutes No. 7 of 5 December 2024.
+The Board decided to recall Managing Director of Valstybės investicijų valdymo agentūra UAB Robertas
+Vyšniauskas from 6 December 2024.
+Board's meeting minutes No. 8 of 5 December 2024.
+At the meeting, the Board decided to appoint Vaidas Daktariūnas to the office of Acting Managing
+Director of Valstybės investicijų valdymo agentūra UAB from 7 December 2024.
+Board's meeting minutes No. 13 of 11 December 2024.
+
+35
+
+
+=== pdf p.36 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+At the meeting, it was decided to approve EPSO-G Invest UAB share subscription agreement,
+shareholders' agreement and to assign the Director of the Company to draft and sign the abovementioned agreements.
+Head of the Company, his/her qualification, other held positions and salary
+The year 2024 faced changes in the Company's management. From 7 December 2024, Vaidas
+Daktariūnas was appointed as Acting Managing Director of the Company.
+The new head has 15 years' experience in the field of incentive financing. His competences include
+development and implementation of financial instruments, project financing in the sectors of renewable
+energy resources, energy efficiency, agriculture, digital transformation and strategic project
+management. He actively participated in the Scale Up initiative of the European Bank of Investment and
+the European Commission as an expert contributing to enhancement of financial instruments intended for
+investing into energy efficiency and renewable energy.
+His previous professional experience embraces various positions in the National Development Bank, LTG
+Digital at Information Technology Centre of LTG Group, National promotional institutions. Currently,
+Vaidas Daktariūnas is the Director of non-profit organization VšĮ “Vienetai ir dvejetai", legal entity code
+301693667.
+The office of the Managing Director was held by Robertas Vyšniauskas until 6 December 2024.
+Robertas Vyšniauskas now is an independent Board member (chair of the Board) and a member of the
+Audit Committee of EPSO-G, UAB and Vilniaus vystymo kompanija, UAB, independent member of the
+supervisory board (chair of the supervisory board) and a member of the Audit and Remuneration and
+Appointment Committees of KN Energies AB.
+Gross salary of the Managing Director for 2024 and compensation for unused vacation and severance
+compensation amount to EUR 95 861,03. The variable remuneration component for 2023 amounted to
+EUR 22,139.50, for 2024 – EUR 22,373.11.
+The gross salary for the new Managing Director for 2024 was EUR 4,485.12.
+
+DIVIDENDS POLICY
+The Company has not paid dividends. The letter of expectations of VIK's shareholder sets forth the goal
+for the company's activity to be non-detrimental (ROE>0). The return on equity (ROE) of the Company
+must be positive at the end of the investment cycle and return of all investments, while the interim
+target must be positive cash flow.
+The procedure of payment of dividends and profit contributions applicable to the Company is regulated
+by the Resolution of the Government of the Republic of Lithuania No. 665 of 6 June 2012 On the
+approval of the description of the procedure of exercising property and non-property rights by the state
+in state-owned companies.
+
+AUDIT
+Auditor of annual financial statements
+Audit is conducted on the basis of the Agreement on public procurement of services with ROSK
+consulting UAB signed on 6 March 2025, No. 20250306-1.
+Signing of the Agreement from the Company's signed was represented by Managing Director Vaidas
+Daktariūnas.
+Audit remuneration for 2024 and 2025 is EUR 15,000 (excl. VAT).
+Object of procurement – inspection of the yearly financial statements of Valstybės investicinis kapitalas
+UAB prepared following the International Financial Reporting Standards adopted for application in the
+European Union (IFRS), of the audit conducted according to the International Auditing Standards (IAS),
+
+36
+
+
+=== pdf p.37 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+and of the annual report for 2024 and 2025, and expression of the opinion, if the financial data contained
+in the annual report coincide with the data of the audited annual financial statements.
+INFORMATION ABOUT AFFILIATES (ASSOCIATED COMPANIES)
+The Company is related to the following companies:
+•
+
+Limited partnership Pagalbos verslui fondas. Status of the company: Limited partnership.
+
+About the Fund: The Fund was founded by implementing the European Commission's Decision No.
+C(2020) State Aid SA.57008(2020/N) – Lithuania COVID-19: Aid Fund for Business’. The government
+invests into this fund through Valstybės investicinis kapitalas UAB. According to the Resolution No. 512 of
+the Government of 6 May 2020, the fund is managed by Valstybės investicijų valdymo agentūra UAB
+(VIVA).
+•
+
+EPSO-G Invest UAB. Status of the company: Shareholder.
+
+About the Company: The only purpose of the activity of EPSO-G Invest UAB is investment into
+Rheinmetall Defence Lietuva UAB and management of the above-mentioned investment.
+
+INFORMATION ABOUT ADHERENCE TO THE TRANSPARENCY GUIDELINES AND THE CODE OF
+MANAGEMENT
+VIK adheres to the Resolution No. 1052 of the Government of the Republic of Lithuania of 14 July 2010
+'On approval of the description of the guidelines for assurance of activity transparency of state-controlled
+companies' (hereinafter referred to as the Transparency Guidelines). VIK prepared the disclosure of
+adherence to the requirements and recommendations laid down in the Transparency Guidelines, which is
+enclosed as annex to this management report.
+Implementation of the Transparency Guidelines is essentially ensured through information disclosed in
+the management report, information publication on the websites https://www.vika.lt/ and
+https://nasdaqbaltic.com/, to provide interest holders with information in accessible and comprehensible
+form. Considering that the Company's activities are specific, and it employed one employee during the
+reporting period, the Company complies with all applicable legal requirements and fundamental ethical
+principles related to the prevention of corruption and bribery. The Company adheres to a zero-tolerance
+policy regarding any manifestations of corruption and bribery. When analysing non-financial performance
+results, we confirm that any direct or indirect offering, promising, or giving of bribes is strictly prohibited
+within the Company's activities. Emphasis is particularly placed on the prohibition against bribing foreign
+officials, should the need arise in the Company's activities to conclude international business
+transactions. Although due to the Company's size and the nature of its activities there is no need to
+implement complex internal control systems, compliance with these principles is ensured through direct
+management control, the responsibility of the CEO, and the obligation to act in accordance with laws and
+the highest ethical standards. The Company's commitment to transparency is also reflected in the
+disclosure of its adherence to the Transparency Guidelines.
+INFORMATION ON REMUNERATION
+On 31 December 2024 and on 31 December 2023, the average yearly number of the Company's
+employees was 1. The yearly wage bill in 2024 consisted of EUR 100,346.51 fixed and EUR 44,512.61
+variable component; In 2023: EUR 73,798.34 fixed and EUR 19,058.70 variable component.
+The average monthly salary (gross) of the employees by the position held (excluding variable part,
+severance compensation and unpaid vacation compensation):
+Managing Director
+2024 - EUR 6,214.75.
+2023 - EUR 6,149.86.
+2022 - EUR 5,294.08.
+Policy of remuneration of the Company's head. On 8 December 2022, the board adopted the decision
+(minutes No. 12 of the meeting) approving the policy of remuneration of Limited liability company
+Valstybės investicinis kapitalas. The following is established in it:
+
+37
+
+
+=== pdf p.38 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+•
+•
+
+•
+•
+
+Remuneration of the Company's employee consists of the fixed part of remuneration and
+variable part. The fixed part of remuneration is reviewed on a yearly basis, considering the
+trends on the labour market.
+The fixed monthly part of the salary of the Company's head is established by the board's
+decision. Variable component of the monthly salary by the board's decision can be established in
+per cent for the financial year or quarter, having assessed the fulfilment of the tasks of the
+employee and achievement of the Company's performance assessment indicators for
+establishment of the variable part of the employee's monthly salary for previous financial year or
+previous quarter, accordingly.
+Monthly variable part of the remuneration of the Company's head may not exceed 50% of the
+monthly fixed amount of remuneration established for the head.
+When calculating the average salary of an employee, the variable part of salary is added to the
+period, for which it was calculated, disregarding the date of estimation and disbursement.
+
+Factual remuneration of the Board's members during the current year
+On 25 November 2024, the Minister of Finance of the Republic of Lithuania passed the Order No. 1K-375
+On Formation of the Board of Valstybės investicinis kapitalas UAB, in which the salary for the members of
+the newly appointed Board is established. Salary for Board's members is established according to the
+signed Agreements on Board members' activity between the Managing Director representing the
+Company and Board members.
+Monthly salary of the members of the Company's Board of the first term of office: (i) for an independent
+member of the Board – 1/4 of the average monthly salary of the head of the Company in 2021, i.e., EUR
+1,524.22 (one thousand five hundred twenty four Euro 22 cent) before taxes; (ii) for a civil servant
+holding the position of a member of the Company's Board – 1/8 of the average monthly salary of the
+head of the Company in 2021, i.e., EUR 762.11 (seven hundred sixty two Euro 11 cent) before taxes; (ii)
+for the chair of the Company's Board – 1/3 of the average monthly salary of the head of the Company in
+2021, i.e., EUR 2,032.29 (two thousand thirty two Euro and 29 cent) before taxes is fixed from 5 August
+2022.
+The salary for the Board members of the new term of office fixed according to the Order of the Minister
+of Finance No. 1K-375 is as follows: (i) for an independent member of the Board – 1/4 of the average
+monthly salary of the head of the Company in 2023, i.e., EUR 1,935.40 (one thousand nine hundred
+thirty five Euro 40 cent) before taxes; (ii) for a civil servant holding the position of a member of the
+Company's Board – 1/8 of the average monthly salary of the head of the Company in 2023, i.e., EUR
+967.70 (nine hundred sixty seven Euro 70 cent) before taxes; (ii) for the chair of the Company's Board –
+1/3 of the average monthly salary of the head of the Company in 2023, i.e., EUR 2 580.54 (two
+thousand five hundred eighty Euro and 54 cent) before taxes.
+Estimated salary to the Board members of the Company for 2024 was EUR 40,580.92.
+
+38
+
+
+=== pdf p.39 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+ANNEX I TO THE MANAGEMENT REPORT
+Provisions of the code of management of companies listed on Nasdaq Vilnius approved by the Board of
+Nasdaq Vilnius AB at the meeting on 15 January 2019 (Minutes No. 19-63), and information about (non)compliance with them in VIK's activities.
+
+PRINCIPLES/RECOMMENDATIONS
+
+1.
+
+Yes/No/Irrelevant
+
+Explanations:
+
+PRINCIPLE: GENERAL MEETING OF SHAREHOLDERS, EQUITABLE TREATMENT OF
+SHAREHOLDERS, AND SHAREHOLDERS' RIGHTS
+
+The corporate governance framework should ensure the equitable treatment of all
+shareholders.
+The corporate governance framework should protect the rights of shareholders.
+
+1.1. All shareholders should be provided with equal
+opportunity to access the information and/or documents
+established and to participate in the decision-making
+process where significant corporate matters are
+discussed.
+
+Irrelevant
+
+1.2. It is recommended that the company’s capital
+should consist only of the shares that grant the same
+rights to voting, ownership, dividend and other rights to
+all of their holders.
+
+Yes
+
+1.3. It is recommended that investors should have
+access to the information concerning the rights
+attached to the shares of the new issue or those issued
+earlier in advance, i.e. before they purchase shares.
+
+Irrelevant
+
+1.4. Exclusive transactions that are particularly
+important to the company, such as transfer of all or
+almost all assets of the company which in principle
+would mean the transfer of the company, should be
+subject to approval of the general meeting of
+shareholders.
+
+Yes
+
+1.5. Procedures for convening and conducting a general
+meeting of shareholders should provide shareholders
+with equal opportunities to participate in the general
+meeting of shareholders and should not prejudice the
+rights and interests of shareholders. The chosen venue,
+date and time of the general meeting of shareholders
+should not prevent active participation of shareholders
+at the general meeting. In the notice of the general
+meeting of shareholders being convened, the company
+should specify the last day on which the proposed draft
+decisions should be submitted at the latest.
+
+Yes
+
+1.6. With a view to ensure the right of shareholders
+living abroad to access the information, it is
+recommended, where possible, that documents
+prepared for the general meeting of shareholders in
+advance should be announced publicly not only in
+Lithuanian language but also in English and/or other
+foreign languages in advance. It is recommended that
+the minutes of the general meeting of shareholders
+
+Irrelevant
+
+Irrelevant at the
+moment, as all
+shares are owned
+by a single
+shareholder – the
+state of the Republic
+of Lithuania.
+
+No new share
+distribution for new
+shareholders /
+investors is in
+progress or planned.
+
+Irrelevant at the
+moment, as all
+shares are owned
+by a single
+shareholder – the
+state of the Republic
+of Lithuania.
+
+39
+
+
+=== pdf p.40 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+after the signing thereof and/or adopted decisions
+should be made available publicly not only in Lithuanian
+language but also in English and/or other foreign
+languages. It is recommended that this information
+should be placed on the website of the company Such
+documents may be published to the extent that their
+public disclosure is not detrimental to the company or
+the company’s commercial secrets are not revealed.
+
+Irrelevant
+
+Irrelevant at the
+moment, as all
+shares are owned
+by a single
+shareholder – the
+state of the Republic
+of Lithuania.
+
+Irrelevant
+
+Irrelevant at the
+moment, as all
+shares are owned
+by a single
+shareholder – the
+state of the Republic
+of Lithuania.
+
+1.9. It is recommended that the notice on the draft
+decisions of the general meeting of shareholders being
+convened should specify new candidatures of members
+of the collegial body, their proposed remuneration and
+the proposed audit company if these issues are included
+into the agenda of the general meeting of shareholders.
+Where it is proposed to elect a new member of the
+collegial body, it is recommended that the information
+about his/her educational background, work experience
+and other managerial positions held (or proposed)
+should be provided.
+
+Irrelevant
+
+Irrelevant at the
+moment, as all
+shares are owned
+by a single
+shareholder – the
+state of the Republic
+of Lithuania.
+
+1.10. Members of the company’s collegial management
+body, heads of the administration or other competent
+persons related to the company who can provide
+information related to the agenda of the general
+meeting of shareholders should take part in the general
+meeting of shareholders. Proposed candidates to
+member of the collegial body should also participate in
+the general meeting of shareholders in case the election
+of new members is included into the agenda of the
+general meeting of shareholders.
+
+Yes
+
+1.7. Shareholders who are entitled to vote should be
+furnished with the opportunity to vote at the general
+meeting of shareholders both in person and in absentia.
+Shareholders should not be prevented from voting in
+writing in advance by completing the general voting
+ballot.
+1.8. With a view to increasing the shareholders’
+opportunities to participate effectively at general
+meetings of shareholders, it is recommended that
+companies should apply modern technologies on a
+wider scale and thus provide shareholders with the
+conditions to participate and vote in general meetings
+of shareholders via electronic means of communication.
+In such cases the security of transmitted information
+must be ensured and it must be possible to identify the
+participating and voting person.
+
+2. PRINCIPLE: SUPERVISORY BOARD
+2.1. FUNCTIONS AND LIABILITY OF THE SUPERVISORY BOARD
+The supervisory board of the company should ensure representation of the interests of the
+company and its shareholders, accountability of this body to the shareholders and objective
+monitoring of the company’s operations and its management bodies as well as constantly
+provide recommendations to the management bodies of the company. The supervisory
+board should ensure the integrity and transparency of the company’s financial accounting
+and control system.
+2.1.1. Members of the supervisory board should act in
+good faith, with care and responsibility for the benefit
+and in the interests of the company and its
+shareholders and represent their interests, having
+
+Irrelevant
+
+40
+
+
+=== pdf p.41 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+regard to the interests of employees and public welfare.
+2.1.2. Where decisions of the supervisory board may
+have a different effect on the interests of the company’s
+shareholders, the supervisory board should treat all
+shareholders impartially and fairly. It should ensure
+that shareholders are properly informed about the
+company’s strategy, risk management and control, and
+resolution of conflicts of interest.
+
+Irrelevant
+
+2.1.3. The supervisory board should be impartial in
+passing decisions that are significant for the company’s
+operations and strategy. Members of the supervisory
+board should act and pass decisions without an external
+influence from the persons who elected them.
+
+Irrelevant
+
+2.1.4. Members of the supervisory board should clearly
+voice their objections in case they believe that a
+decision of the supervisory board is against the
+interests of the company. Independent members of the
+supervisory board should: a) maintain independence of
+their analysis and decision-making; b) not seek or
+accept any unjustified privileges that might compromise
+their independence.
+
+Irrelevant
+
+2.1.5. The supervisory board should oversee that the
+company’s tax planning strategies are designed and
+implemented in accordance with the legal acts in order
+to avoid faulty practice that is not related to the longterm interests of the company and its shareholders,
+which may give rise to reputational, legal or other risks.
+
+Irrelevant
+
+2.1.6. The company should ensure that the supervisory
+board is provided with sufficient resources (including
+financial ones) to discharge their duties, including the
+right to obtain all the necessary information or to seek
+independent professional advice from external legal,
+accounting or other experts on matters pertaining to
+the competence of the supervisory board and its
+committees.
+
+Irrelevant
+
+2.2. FORMATION OF THE SUPERVISORY BOARD
+The procedure of the formation of the supervisory board should ensure proper resolution of
+conflicts of interest and effective and fair corporate governance.
+2.2.1. The members of the supervisory board elected by
+the general meeting of shareholders should collectively
+ensure the diversity of qualifications, professional
+experience and competences and seek for gender
+equality. With a view to maintain a proper balance
+between the qualifications of the members of the
+supervisory board, it should be ensured that members
+of the supervisory board, as a whole, should have
+diverse knowledge, opinions and experience to duly
+perform their tasks.
+
+Irrelevant
+
+2.2.2. Members of the supervisory board should be
+appointed for a specific term, subject to individual reelection for a new term in office in order to ensure
+necessary development of professional experience.
+
+Irrelevant
+
+2.2.3. Chair of the supervisory board should be a
+person whose current or past positions constituted no
+obstacle to carry out impartial activities. A former
+manager or management board member of the
+company should not be immediately appointed as chair
+
+Irrelevant
+
+41
+
+
+=== pdf p.42 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+of the supervisory board either. Where the company
+decides to depart from these recommendations, it
+should provide information on the measures taken to
+ensure impartiality of the supervision.
+2.2.4. Each member should devote sufficient time and
+attention to perform his duties as a member of the
+supervisory board. Each member of the supervisory
+board should undertake to limit his other professional
+obligations (particularly the managing positions in other
+companies) so that they would not interfere with the
+proper performance of the duties of a member of the
+supervisory board. Should a member of the supervisory
+board attend less than a half of the meetings of the
+supervisory board throughout the financial year of the
+company, the shareholders of the company should be
+notified thereof.
+
+Irrelevant
+
+2.2.5. When it is proposed to appoint a member of the
+supervisory board, it should be announced which
+members of the supervisory board are deemed to be
+independent. The supervisory board may decide that,
+despite the fact that a particular member meets all the
+criteria of independence, he/she cannot be considered
+independent due to special personal or company-related
+circumstances.
+
+Irrelevant
+
+2.2.6. The amount of remuneration to members of the
+supervisory board for their activity and participation in
+meetings of the supervisory board should be approved
+by the general meeting of shareholders.
+
+Irrelevant
+
+2.2.7. Every year the supervisory board should carry
+out an assessment of its activities. It should include
+evaluation of the structure of the supervisory board, its
+work organisation and ability to act as a group,
+evaluation of the competence and work efficiency of
+each member of the supervisory board, and evaluation
+whether the supervisory board has achieved its
+objectives. The supervisory board should, at least once
+a year, make public respective information about its
+internal structure and working procedures.
+
+Irrelevant
+
+3. PRINCIPLE: BOARD
+3.1. FUNCTIONS AND LIABILITY OF THE BOARD
+The management board should ensure the implementation of the company’s strategy and
+good corporate governance with due regard to the interests of its shareholders, employees
+and other interest groups.
+3.1.1. The management board should ensure the
+implementation of the company’s strategy approved by
+the supervisory board if the latter has been formed at
+the company. In such cases where the supervisory
+board is not formed, the management board is also
+responsible for the approval of the company’s strategy.
+
+Yes
+
+3.1.2. As a collegial management body of the company,
+the management board performs the functions assigned
+to it by the Law and in the articles of association of the
+company, and in such cases where the supervisory
+board is not formed in the company, it performs inter
+alia the supervisory functions established in the Law. By
+performing the functions assigned to it, the
+management board should take into account the needs
+
+Yes
+
+42
+
+
+=== pdf p.43 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+of the company’s shareholders, employees and other
+interest groups by respectively striving to achieve
+sustainable business development.
+3.1.3. The management board should ensure
+compliance with the laws and the internal policy of the
+company applicable to the company or a group of
+companies to which this company belongs. It should
+also establish the respective risk management and
+control measures aimed at ensuring regular and direct
+liability of managers.
+3.1.4. Moreover, the management board should ensure
+that the measures included into the OECD Good
+Practice Guidance on Internal Controls, Ethics and
+Compliance are applied at the company in order to
+ensure
+
+Yes
+
+Yes
+
+adherence to the applicable laws, rules and standards.
+3.1.5. When appointing the manager of the company,
+the management board should take into account the
+appropriate
+balance
+between
+the
+candidate’s
+qualifications, experience and competence.
+
+Yes
+
+3.2. FORMATION OF THE MANAGEMENT BOARD
+3.2.1. The members of the management board elected
+by the supervisory board or, if the supervisory board is
+not formed, by the general meeting of shareholders
+should collectively ensure the required diversity of
+qualifications, professional experience and competences
+and seek for gender equality With a view to maintain a
+proper balance in terms of the current qualifications
+possessed by the members of the management board,
+it should be ensured that the members of the
+management board would have, as a whole, diverse
+knowledge, opinions and experience to duly perform
+their tasks.
+
+Yes
+
+3.2.2. Names and surnames of the candidates to
+become members of the management board,
+information
+on
+their
+educational
+background,
+qualifications,
+professional
+experience,
+current
+positions, other important professional obligations and
+potential conflicts of interest should be disclosed
+without violating the requirements of the legal acts
+regulating the handling of personal data at the meeting
+of the supervisory board in which the management
+board or individual members of the management board
+are elected. In the event that the supervisory board is
+not formed, the information specified in this paragraph
+should be submitted to the general meeting of
+shareholders. The management board should, on yearly
+basis, collect data provided in this paragraph on its
+members and disclose it in the company’s management
+report.
+
+Yes
+
+3.2.3. All new members of the management board
+should be familiarised with their duties and the
+structure and operations of the company.
+
+Yes
+
+3.2.4. Members of the management board should be
+appointed for a specific term, subject to individual reelection for a new term in office in order to ensure
+necessary development of professional experience and
+
+Yes
+
+43
+
+
+=== pdf p.44 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+sufficiently frequent reconfirmation of their status
+3.2.5. Chair of the management board should be a
+person whose current or past positions constitute no
+obstacle to carry out impartial activity Where the
+supervisory board is not formed, the former manager of
+the company should not be immediately appointed as
+chair of the management board. Where the company
+decides to depart from these recommendations, it
+should provide information on the measures taken to
+ensure impartiality of the supervision.
+
+Yes
+
+3.2.6. Each member of the management board should
+devote sufficient time and attention to perform his
+duties as a member of the supervisory board. Should a
+member of the management board attend less than a
+half of the meetings of the management board
+throughout the financial year of the company, the
+supervisory board of the company or, if the supervisory
+board is not formed at the company, the general
+meeting of shareholders should be notified thereof.
+
+Yes
+
+3.2.7. In the event that the management board is
+elected in the cases established by the Law where the
+supervisory board is not formed at the company, and
+some of its members will be independent, it should be
+announced which members of the management board
+are deemed as independent. The management board
+may decide that, despite the fact that a particular
+member meets all the criteria of independence
+established by the Law, he/she cannot be considered
+independent due to special personal or company-related
+circumstances.
+
+Yes
+
+3.2.8. The general meeting of shareholders of the
+company should approve the amount of remuneration
+to the members of the management board for their
+activity and participation in the meetings of the
+management board.
+
+Yes
+
+3.2.9. The members of the management board should
+act in good faith, with care and responsibility for the
+benefit and the interests of the company and its
+shareholders with due regard to other stakeholders.
+When adopting decisions, they should not act in their
+personal interest; they should be subject to no-compete
+agreements and they should not use the business
+information or opportunities related to the company’s
+operations in violation of the company’s interests.
+
+Yes
+
+3.2.10. Every year the management board should carry
+out an assessment of its activities. It should include
+evaluation of the structure of the management board,
+its work organisation and ability to act as a group,
+evaluation of the competence and work efficiency of
+each member of the management board, and
+evaluation whether the management board has
+achieved its objectives. Every year the management
+board, at least once a year, make public respective
+information about its internal structure and working
+procedures in observance of the legal acts regulating
+the processing of personal data.
+
+Yes
+
+44
+
+
+=== pdf p.45 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+4. PRINCIPLE: Rules of procedure of the supervisory board and the management board of
+the company
+The rules of procedure of the supervisory board, if it is formed at the company, and of the
+management board should ensure efficient operation and decision-making of these bodies
+and promote active cooperation between the company’s management bodies.
+4.1. The management board and the supervisory board,
+if the latter is formed at the company, should act in
+close cooperation in order to attain benefit for the
+company and its shareholders. Good corporate
+governance requires an open discussion between the
+management board and the supervisory board. The
+management board should regularly and, where
+necessary, immediately inform the supervisory board
+about any matters significant for the company that are
+related to planning, business development, risk
+management and control, and compliance with the
+obligations at the company. The management board
+should inform he supervisory board about any
+derogations in its business development from the
+previously formulated plans and objectives by
+specifying the reasons for this.
+
+Yes
+
+specifying the reasons for this.
+4.2. It is recommended that meetings of the company’s
+collegial bodies should be held at the respective
+intervals, according to the pre-approved schedule. Each
+company is free to decide how often meetings of the
+collegial bodies should be convened but it is
+recommended that these meetings should be convened
+at such intervals that uninterruptable resolution of
+essential corporate governance issues would be
+ensured. Meetings of the company’s collegial bodies
+should be convened at least once per quarter.
+
+Yes
+
+4.3. Members of a collegial body should be notified of
+the meeting being convened in advance so that they
+would have sufficient time for proper preparation for
+the issues to be considered at the meeting and a fruitful
+discussion could be held and appropriate decisions
+could be adopted. Along with the notice of the meeting
+being convened all materials relevant to the issues on
+the agenda of the meeting should be submitted to the
+members of the collegial body The agenda of the
+meeting should not be changed or supplemented during
+the meeting, unless all members of the collegial body
+present at the meeting agree with such change or
+supplement to the agenda, or certain issues that are
+important to the company require immediate resolution.
+
+Yes
+
+4.4. In order to coordinate the activities of the
+company’s collegial bodies and ensure effective
+decision-making process, the chairs of the company’s
+collegial supervision and management bodies should
+mutually agree on the dates and agendas of the
+meetings and close cooperate in resolving other matters
+related to corporate governance. Meetings of the
+company’s supervisory board should be open to
+members of the management board, particularly in
+such cases where issues concerning the removal of the
+management board members, their responsibility or
+remuneration are discussed.
+
+Yes
+
+45
+
+
+=== pdf p.46 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+5. PRINCIPLE: NOMINATION, REMUNERATION AND AUDIT COMMITTEES
+5.1. PURPOSE AND FORMATION OF COMMITTEES
+The committees formed at the company should increase the work efficiency of the
+supervisory board or, where the supervisory board is not formed, of the management board
+which performs the supervisory functions by ensuring that decisions are based on due
+consideration and help organise its work in such a way that the decisions it takes would be
+free of material conflicts of interest. Committees should exercise independent judgment
+and integrity when performing their functions and provide the collegial body with
+recommendations concerning the decisions of the collegial body.
+5.1.1. Taking due account of the company-related
+circumstances and the chosen corporate governance
+structure, the supervisory board of the company or,
+in cases where the supervisory board is not formed, the
+management board which performs the supervisory
+functions, establishes committees. It is recommended
+that the collegial body should form the nomination,
+remuneration and audit committees.
+
+Irrelevant
+
+5.1.2. Companies may decide to set up fewer than
+three committees. In such case companies should
+explain in detail why they have chosen the alternative
+approach, and how the chosen approach corresponds
+with the objectives set for the three different
+committees.
+
+Irrelevant
+
+5.1.3. In the cases established by the legal acts the
+functions assigned to the committees formed at
+companies may be performed by the collegial body
+itself. In such case the provisions of this Code
+pertaining to the committees (particularly those related
+to their role, operation and transparency) should apply,
+where relevant, to the collegial body as a whole.
+
+Yes
+
+5.1.4. Committees established by the collegial body
+should normally be composed of at least three
+members. Subject to the requirements of the legal acts,
+committees could be comprised only of two members as
+well. Members of each committee should be selected on
+the basis of their competences by giving priority to
+independent members of the collegial body. The chair of
+the management board should not serve as the chair of
+committees.
+
+Yes
+
+5.1.5. The authority of each committee formed should
+be determined by the collegial body itself. Committees
+should perform their duties according to the authority
+delegated to them and regularly inform the collegial
+body about their activities and performance on a
+regular basis. The authority of each committee defining
+its role and specifying its rights and duties should be
+made public at least once a year (as part of the
+information disclosed by the company on its governance
+structure and practice on an annual basis). In
+compliance with the legal acts regulating the processing
+of personal data, companies should also include in their
+management reports the statements of the existing
+committees on their composition, the number of
+meetings and attendance over the year as well as the
+main directions of their activities and performance.
+
+Irrelevant
+
+5.1.6. With a view to ensure the independence and
+impartiality of the committees, the members of the
+collegial body who are not members of the committees
+
+Irrelevant
+
+46
+
+
+=== pdf p.47 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+should normally have a right to participate in the
+meetings of the committee only if invited by the
+committee. A committee may invite or request that
+certain employees of the company or experts would
+participate in the meeting. Chair of each committee
+should have the possibility to maintain direct
+communication with the shareholders. Cases where
+such practice is to be applied should be specified in the
+rules regulating the activities of the committee.
+5.2. NOMINATION COMMITTEE
+5.2.1. The key functions of the nomination committee
+should be the following: 1) to select candidates to fill
+vacancies in the membership of supervisory and
+management bodies and the administration and
+recommend the collegial body to approve them The
+nomination committee should evaluate the balance of
+skills, knowledge and experience in the management
+body, prepare a description of the functions and
+capabilities required to assume a particular position and
+assess the time commitment expected;
+
+Irrelevant
+
+2) assess, on a regular basis, the structure, size and
+composition of the supervisory and management bodies
+as well as the skills, knowledge and activity of its
+members, and provide the collegial body with
+recommendations on how the required changes should
+be sought; ; 4) devote the attention necessary to
+ensure succession planning.
+5.2.2. When dealing with issues related to members of
+the collegial body who have employment relationships
+with the company and the heads of the administration,
+the manager of the company should be consulted by
+granting him/her the right to submit proposals to the
+Nomination Committee.
+
+Irrelevant
+
+5.3. REMUNERATION COMMITTEE
+5.3.1. The key functions of the remuneration committee
+should be the following: 1) submit to the collegial body
+proposals on the remuneration policy applied to
+members of the supervisory and management bodies
+and the heads of the administration for approval. Such
+policy should include all forms of remuneration,
+including the fixed-rate remuneration, performancebased remuneration, financial incentive schemes,
+pension arrangements and termination payments as
+well as conditions which would allow the company to
+recover the amounts or suspend the payments by
+specifying the circumstances under which it would be
+expedient to do so; 2) submit to the collegial body
+proposals regarding individual remuneration for
+members of the collegial bodies and the heads of the
+administration in order to ensure that they would be
+consistent with the company’s remuneration policy and
+the evaluation of the performance of the persons
+concerned; 3) review, on a regular basis, the
+remuneration policy and its implementation.
+
+Irrelevant
+
+The functions of the
+remuneration
+committee are
+performed by the
+management board.
+
+5.4. AUDIT COMMITTEE
+5.4.1. The key functions of the audit committee are
+defined in the legal acts regulating the activities of the
+
+Irrelevant
+
+The functions of the
+remuneration
+
+47
+
+
+=== pdf p.48 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+audit committee.
+
+committee are
+performed by the
+management board.
+
+5.4.2. All members of the committee should be
+provided with detailed information on specific issues of
+the company’s accounting system, finances and
+operations. The heads of the company’s administration
+should inform the audit committee about the methods
+of accounting for significant and unusual transactions
+where the accounting may be subject to different
+approaches.
+
+Irrelevant
+
+5.4.3. The audit committee should decide whether the
+participation of the chair of the management board, the
+manager of the company, the chief finance officer (or
+senior employees responsible for finance and
+accounting), the internal and external auditors in its
+meetings is required (and, if required, when). The
+committee should be entitled, when needed, to meet
+the relevant persons without members of the
+management bodies present.
+
+Irrelevant
+
+5.4.4. The audit committee should be informed about
+the internal auditor’s work programme and should be
+furnished with internal audit reports or periodic
+summaries. The audit committee should also be
+informed about the work programme of external
+auditors and should receive from the audit firm a report
+describing all relationships between the independent
+audit firm and the company and its group.
+
+Irrelevant
+
+5.4.5. The audit committee should examine whether the
+company complies with the applicable provisions
+regulating the possibility of lodging a complaint or
+reporting anonymously his/her suspicions of potential
+violations committed at the company and should also
+ensure that there is a procedure in place for
+proportionate and independent investigation of such
+issues and appropriate follow-up actions.
+
+Irrelevant
+
+5.4.6. The audit committee should submit to the
+supervisory board or, where the supervisory board is
+not formed, to the management board its activity report
+at least once in every six months, at the time that
+annual and half-yearly reports are approved.
+
+Irrelevant
+
+6. PRINCIPLE: PREVENTION AND DISCLOSURE OF CONFLICTS OF INTEREST
+The corporate governance framework should encourage members of the company’s
+supervisory and management bodies to avoid conflicts of interest and ensure a transparent
+and effective mechanism of disclosure of conflicts of interest related to members of the
+supervisory and management bodies.
+Any member of the company’s supervisory and
+management body should avoid a situation where
+his/her personal interests are or may be in conflict with
+the company’s interests. In case such a situation did
+occur, a member of the company’s supervisory or
+management body should, within a reasonable period of
+time, notify other members of the same body or the
+body of the company which elected him/her or the
+company’s shareholders of such situation of a conflict of
+interest, indicate the nature of interests and, where
+possible, their value.
+
+Yes
+
+48
+
+
+=== pdf p.49 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+7. PRINCIPLE: REMUNERATION POLICY OF THE COMPANY
+The remuneration policy and the procedure for review and disclosure of such policy
+established the company should prevent potential conflicts of interest and abuse in
+determining remuneration of members of the collegial bodies and heads of the
+administration, in addition it should ensure the publicity and transparency of the company’s
+remuneration policy and its long-term strategy.
+7.1. The company should approve and post the
+remuneration policy on the website of the company;
+such policy should be reviewed on a regular basis and
+be consistent with the company’s long-term strategy.
+
+Yes
+
+7.2. The remuneration policy should include all forms of
+remuneration, including the fixed-rate remuneration,
+performance-based remuneration, financial incentive
+schemes, pension arrangements and termination
+payments as well as the conditions specifying the cases
+where the company can recover the disbursed amounts
+or suspend the payments.
+
+Yes
+
+7.3. With a view to avoid potential conflicts of interest,
+the remuneration policy should provide that members
+of the collegial bodies which perform the supervisory
+functions should not receive remuneration based on the
+company’s performance.
+
+Yes
+
+7.4. The remuneration policy should provide sufficient
+information on the policy regarding termination
+payments. Termination payments should not exceed a
+fixed amount or a fixed number of annual wages and in
+general should not be higher than the non-variable
+component of remuneration for two years or the
+equivalent thereof. Termination payments should not be
+paid if the contract is terminated due to inadequate
+performance.
+
+Irrelevant
+
+7.5. In the event that the financial incentive scheme is
+applied at the company, the remuneration policy should
+contain sufficient information about the retention of
+shares after the award thereof. Where remuneration is
+based on the award of shares, shares should not be
+vested at least for three years after the award thereof.
+After vesting, members of the collegial bodies and
+heads of the administration should retain a certain
+number of shares until the end of their term in office,
+subject to the need to compensate for any costs related
+to the acquisition of shares.
+
+Irrelevant
+
+7.6. The company should publish information about the
+implementation of the remuneration policy on its
+website, with a key focus on the remuneration policy in
+respect of the collegial bodies and managers in the next
+and, where relevant, subsequent financial years. It
+should also contain a review of how the remuneration
+policy was implemented during the previous financial
+year. The information of such nature should not include
+any details having a commercial value. Particular
+attention should be paid on the major changes in the
+company’s remuneration policy, compared to the
+previous financial year.
+
+Yes
+
+7.7. It is recommended that the remuneration policy or
+any major change of the policy should be included on
+the agenda of the general meeting of shareholders. The
+schemes under which members and employees of a
+collegial body receive remuneration in shares or share
+
+Yes
+
+49
+
+
+=== pdf p.50 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+options should be approved by the general meeting of
+shareholders.
+8. PRINCIPLE: ROLE OF STAKEHOLDERS IN CORPORATE GOVERNANCE
+The corporate governance framework should recognise the rights of stakeholders
+entrenched in the laws or mutual agreements and encourage active cooperation between
+companies and stakeholders in creating the company value, jobs and financial
+sustainability. In the context of this principle the concept “stakeholders” includes investors,
+employees, creditors, suppliers, clients, local community and other persons having certain
+interests in the company concerned.
+8.1. The corporate governance framework should
+ensure that the rights and lawful interests of
+stakeholders are protected.
+
+Yes
+
+8.2. The corporate governance framework should create
+conditions for stakeholders to participate in corporate
+governance in the manner prescribed by law. Examples
+of participation by stakeholders in corporate governance
+include the participation of employees or their
+representatives in the adoption of decisions that are
+important for the company, consultations with
+employees or their representatives on corporate
+governance and other important matters, participation
+of employees in the company’s authorised capital,
+involvement of creditors in corporate governance in the
+cases of the company’s insolvency, etc.
+
+No
+
+8.3. Where stakeholders participate in the corporate
+governance process, they should have access to
+relevant information.
+
+Yes
+
+8.4. Stakeholders should be provided with the
+possibility of reporting confidentially any illegal or
+unethical practices to the collegial body performing the
+supervisory function.
+
+Yes
+
+9. PRINCIPLE: DISCLOSURE OF INFORMATION
+The corporate governance framework should ensure the timely and accurate disclosure of
+all material corporate issues, including the financial situation, operations and governance of
+the company.
+9.1. In accordance with the company’s procedure on
+confidential information and commercial secrets and the
+legal acts regulating the processing of personal data,
+the information publicly disclosed by the company
+should include but not be limited to the following:
+9.1.1. operating and financial results of the company;
+9.1.2. objectives and non-financial information of the
+company; 9.1.3. persons holding a stake in the
+company or controlling it directly and/or indirectly
+and/or together with related persons as well as the
+structure of the group of companies and their
+relationships by specifying the final beneficiary; 9.1.4.
+members
+of
+the
+company’s
+supervisory
+and
+management bodies who are deemed independent, the
+manager of the company, the shares or votes held by
+them at the company, participation in corporate
+governance of other companies, their competence and
+remuneration; 9.1.5. reports of the existing committees
+on their composition, number of meetings and
+attendance of members during the last year as well as
+the main directions and results of their activities; 9.1.6.
+potential key risk factors, the company’s risk
+management and supervision policy; 9.1.7. the
+
+Yes
+
+50
+
+
+=== pdf p.51 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+company’s transactions with related parties; 9.1.8.
+main issues related to employees and other
+stakeholders (for instance, human resource policy,
+participation of employees in corporate governance,
+award of the company’s shares or share options as
+incentives, relationships with creditors, suppliers, local
+community, etc.); 9.1.9. structure and strategy of
+corporate governance; 9.1.10. initiatives and measures
+of social responsibility policy and anti-corruption fight,
+significant current or planned investment projects. This
+list is deemed minimum and companies are encouraged
+not to restrict themselves to the disclosure of
+information included into this list. This principle of the
+Code does not exempt companies from their obligation
+to disclose information as provided for in the applicable
+legal acts.
+9.2. When disclosing the information specified in
+paragraph 9.1.1 of recommendation 9.1, it is
+recommended that the company which is a parent
+company in respect of other companies should disclose
+information about the consolidated results of the whole
+group of companies.
+
+Yes
+
+9.3. When disclosing the information specified in
+paragraph 9.1.4 of recommendation 9.1, it is
+recommended that the information on the professional
+experience and qualifications of members of the
+company’s supervisory and management bodies and the
+manager of the company as well as potential conflicts of
+interest which could affect their decisions should be
+provided. It is further recommended that the
+remuneration or other income of members of the
+company’s supervisory and management bodies and the
+manager of the company should be disclosed, as
+provided for in greater detail in Principle 7.
+
+Yes
+
+9.4. Information should be disclosed in such manner
+that no shareholders or investors are discriminated in
+terms of the method of receipt and scope of
+information. Information should be disclosed to all
+parties concerned at the same time.
+
+Yes
+
+10. PRINCIPLE: SELECTION OF THE COMPANY'S AUDIT FIRM
+The company’s audit firm selection mechanism should ensure the independence of the
+report and opinion of the audit firm.
+10.1. With a view to obtain an objective opinion on the
+company’s financial condition and financial results, the
+company’s annual financial statements and the financial
+information provided in its management report should
+be audited by an independent audit firm.
+
+Yes
+
+10.2. It is recommended that the audit firm would be
+proposed to the general meeting of shareholders by the
+supervisory board or, if the supervisory board is not
+formed at the company, by the management board of
+the company.
+
+Yes
+
+10.3. In the event that the audit firm has received
+remuneration from the company for the non-audit
+services provided, the company should disclose this
+publicly. This information should also be available to the
+supervisory board or, if the supervisory board is not
+formed at the company, by the management board of
+
+Yes
+
+51
+
+
+=== pdf p.52 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+the company when considering which audit firm should
+be proposed to the general meeting of shareholders.
+
+II. ANNEX TO THE MANAGEMENT REPORT
+VIK adheres to the Resolution No. 1052 of the Government of the Republic of Lithuania of 14 July 2010
+'On approval of the description of the guidelines for assurance of activity transparency of state-controlled
+companies' (hereinafter referred to as the Transparency Guidelines).
+PRINCIPLES/RECOMMENDATIONS
+
+Yes/No/Irrelevant
+
+General Requirements
+Information should ensure the timely and accurate disclosure of all material
+corporate issues, including the financial situation, operations and governance of
+the company.
+
+Yes
+
+Information should be disclosed in such manner that no shareholders or investors
+are discriminated in terms of the method of receipt and scope of information.
+Information should be disclosed to all parties concerned at the same time.
+
+Yes
+
+It is recommended to publish notices about material events before or after the
+trading session of Vilnius Stock Exchange to provide all shareholders and
+investors of the Company with equal opportunities to access the information and
+make appropriate investment decisions.
+
+Yes
+
+It is recommended to publish the company's management report, the collection
+of financial statements and other periodical reports prepared by the company on
+the company's website, placement of the company's notices about material
+events and dynamics of the prices of the company's shares on the stock
+exchange is also recommended.
+
+Yes
+
+Modes of information dissemination should ensure unbiased, timely and costeffective access to the information for information users, and in the cases
+established by the legislation – free access. Use of information technologies is
+recommended for spreading information at the larger scale, for example,
+publishing information on the company's website. It is recommended to publish
+and place information on the company's website not only in Lithuanian but also in
+the English language, if possible and needed – in other languages as well.
+
+Yes
+
+In the event that the audit firm has received remuneration from the company for
+the non-audit services provided, the company should disclose this to its
+shareholders. This information should also be available to the supervisory board
+or, if the supervisory board is not formed at the company, by the management
+board of the company when considering which audit firm should be proposed to
+the general meeting of shareholders.
+
+Yes
+
+The company's activity and financial results are disclosed.
+
+Yes
+
+The holding company discloses consolidated results.
+
+Irrelevant
+
+Persons owning or controlling the package of the company's shares are disclosed.
+
+Yes
+
+Members of the company's supervisory and management boards, the head of the
+company, and their remunerations are disclosed. It is recommended that the
+information on the professional experience and qualifications of members of the
+company’s supervisory and management bodies and the manager of the company
+as well as potential conflicts of interest which could affect their decisions should
+be provided. It is further recommended that the remuneration or other income of
+members of the company’s supervisory and management bodies and the
+manager of the company should be disclosed.
+
+Yes
+
+Potential predicted material risk factors are disclosed.
+
+Yes
+
+Transactions of the company and associated persons, also transactions concluded
+
+Yes
+
+52
+
+
+=== pdf p.53 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+outside the course of the usual activity of the company are disclosed.
+Main matters concerning the employees and other stakeholders are disclosed.
+Disclosure of information about the relations of the company and stakeholders,
+such as, employees, creditors, suppliers, local community, including the corporate
+policy regarding human resources, programmes of involvement of employees in
+the company's share capital, etc. is recommended.
+
+Yes
+
+The structure and strategy of the company's management are disclosed.
+
+Yes
+
+Material information about the governance procedure effective in the Company.
+
+Yes
+
+Powers of every committee defining its role and naming its rights and duties.
+
+Irrelevant
+
+Minutes of the general meetings of shareholders (in Lithuanian and English
+and/or other foreign languages) are published. Such documents may be
+published on the company's website of public access to the extent that their
+public disclosure is not detrimental to the company or the company’s commercial
+secrets are not revealed.
+
+Not applicable, as
+VIK has only one
+shareholder.
+
+Report of the remuneration policy is published
+
+Yes
+
+Report on compliance by the company with the Code of Corporate Governance of
+the companies listed on NASDAQ QMX Vilnius is published.
+
+Yes
+
+Transparency guidelines stipulate publishing of information on Internet
+Goals and objectives of the company set by the shareholder:
+
+Yes
+
+Financial results;
+
+Yes
+
+Operating results;
+
+Yes
+
+Present number of the staff;
+
+Yes
+
+Yearly wage bill;
+
+Yes
+
+Monthly salary of the managers and their deputies;
+
+Yes
+
+Purchases and investments made, in progress and planned during the financial
+year;
+
+Yes
+
+Transparency guidelines stipulate publishing of information on Internet
+Accounting is kept according to the International Financial Accounting Standards.
+
+Yes
+
+Collection of annual financial statements is audited according to the international
+standards of auditing.
+
+Yes
+
+Management report is published on the website by 30 April.
+
+Yes
+
+The management report contains the following:
+Activity strategy and goals (financial and non-financial), unless it constitutes a
+commercial secret of the state-governed company (if activity strategy and goals
+of a state-governed company contains information considered as commercial
+secret, a shortened activity strategy and goals excluding the above-mentioned
+information is published (presented);
+
+Yes
+
+Compliance of the achieved operating results with the activity goals of the stategoverned company;
+
+Yes
+
+Man events with material importance for the activity of a state-governed
+company that took place during the reporting period;
+
+Yes
+
+Information about the market of services provided or products manufactured,
+unless it is a commercial secret;
+
+Yes
+
+53
+
+
+=== pdf p.54 ===
+Valstybės investicinis kapitalas (UAB) (Limited Liability Company), company code: 305611945
+Gedimino pr. 38, LT-01104 Vilnius, Republic of Lithuania
+Financial statements for the year that ended on 31 December 2024
+(all amounts are in Euro, unless otherwise stated)
+
+Main clients and their main groups, unless it is a commercial secret. If stategoverned companies disclose information about segments, the main clients are
+presented by separate segments;
+
+Yes
+
+Investments during the reporting period, major investment projects in progress
+or planned;
+
+Yes
+
+Total yearly wage bill, average monthly salary by positions and/or divisions;
+
+Yes
+
+Social, environmental initiatives and policy under implementation;
+Information about adherence to the Transparency guidelines: it is specified how
+they are implemented, which clauses are disregarded and why;
+Main financial indicators describing the activity (profitability, liquidity, asset
+effectiveness), their dynamics during 3 years;
+
+Irrelevant
+Yes
+Published from the
+day the Company
+was incorporated
+
+Management bodies;
+Information about the audit of annual financial statements completed (the entity
+that conducted the audit, remuneration for auditing); other significant
+information affecting the activity of the state-governed company came to light
+prior to the publication of the management report;
+
+Yes
+
+Information and reports that a listed company must disclose according to the Law
+on Financial Reporting of the Republic of Lithuania and the Code of Corporate
+Governance of the companies listed on NASDAQ OMX Vilnius
+
+Yes
+
+Dividends policy;
+Information about the progress of implementation of the activity strategy and
+goals (financial and non-financial).
+
+Irrelevant
+
+Yes
+
+https://www.vika.lt/
+By 30 April, information about special liabilities under implementation,
+conclusions by an independent auditor on yearly financial statements are
+published on the website.
+
+Irrelevant
+
+A shareholder is provided with the following together with the management
+report:
+Information about the salary of the managers in the last year
+
+Yes
+
+to determine the variable element of the managers' monthly performance result
+indicators, implementation of the above-mentioned indicators, variable part of the
+managers' monthly salary fixed (in Euro and the percentage of the fixed part of
+the managers' monthly salary) and paid variable part of monthly salary (in Euro
+and the percentage of the fixed part of the managers' monthly salary).
+
+Yes
+
+Interim report
+State-governed companies of the category I or II prepare an interim report for 6
+months, which is published on the website by 31 August. Interim report briefly
+present the most significant information about the indicators characterising the
+activity of the state-governed company and their changes compared to the
+previous periods.
+
+Yes
+
+A collection of 6 months' interim financial statements is prepared and published
+on Internet by 31 August.
+
+Yes
+
+54
+Dokumentą elektroniniu parašu
+pasirašė VAIDAS,DAKTARIŪNAS
+Data: 2025-04-16 11:49:02
+
+Dokumentą elektroniniu parašu
+pasirašė INGA,ČĖSNIENĖ
+Data: 2025-04-16 11:34:28
+
+
+=== pdf p.55 ===

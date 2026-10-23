@@ -1,0 +1,3648 @@
+
+=== pdf p.1 ===
+SUSTAINABILITY REPORT 2025
+
+
+=== pdf p.2 ===
+2
+
+SUSTAINABILITY REPORT 2025
+Table of Contents
+
+Table of Contents
+1 GENERAL PRINCIPLES FOR PREPARING THE SUSTAINABILITY REPORT
+2 SUSTAINABLE DEVELOPMENT STRATEGY
+3 MANAGEMENT OF SUSTAINABLE DEVELOPMENT
+4 DOUBLE MATERIALITY ASSESSMENT
+5 STAKEHOLDER ENGAGEMENT IN THE DOUBLE MATERIALITY ASSESSMENT
+6 ENVIRONMENTAL INFORMATION
+6.1 Climate risk analysis
+6.2 Climate change
+6.2.1 Material impacts, risks, and opportunities
+6.2.2 Transition plan for climate change mitigation
+6.2.3 Policies, measures, and targets
+6.2.4 Energy consumption and energy efficiency
+6.2.5 Scope 1–3 GHG emissions and total GHG emissions
+6.2.6 GHG removal, credits, and pricing
+6.2.7 Potential financial impact from material physical
+		 and transition risks and climate-related opportunities
+6.3 Pollution
+6.3.1 Material impacts, risks, and opportunities
+6.3.2 Policies, measures, and targets
+6.3.3 Air pollution
+6.3.4 Water pollution
+6.4 Water and marine resources
+6.5 Biodiversity and ecosystems
+6.6 Resource use and circular economy
+6.6.1 Material impacts, risks, and opportunities
+6.6.2 Policies, measures, and targets
+6.6.3 Anticipated financial impact related to resource use
+		 and circular economy
+
+4
+5
+7
+8
+11
+15
+16
+17
+17
+18
+19
+20
+21
+23
+23
+24
+24
+24
+25
+26
+27
+28
+29
+29
+29
+31
+
+7 SOCIAL INFORMATION
+7.1 Own workforce
+7.1.1 Material impacts, risks, and opportunities
+7.1.2 Policies, measures, and targets
+7.1.3 Composition of the workforce
+7.1.4 Diversity indicators
+7.1.5 Remuneration principles
+7.1.6 Training and skills development
+7.1.7 Occupational health and safety
+7.2 Workers in the value chain
+7.2.1 Material impacts, risks, and opportunities
+7.2.2 Policies, measures, and targets
+7.3 Affected communities
+7.3.1 Material impacts, risks, and opportunities
+7.3.2 Policies, measures, and targets
+7.3.3 High-quality public space and regional development
+7.3.4 Access to services
+7.4 Consumers and end-users
+7.4.1 Material impacts, risks, and opportunities
+7.4.2 Policies, measures, and targets
+7.4.3 Access to services and information
+7.4.4 Health, safety, and security
+
+32
+33
+33
+33
+34
+35
+36
+36
+37
+38
+38
+38
+39
+39
+39
+40
+42
+43
+43
+43
+43
+44
+
+
+=== pdf p.3 ===
+3
+
+SUSTAINABILITY REPORT 2025
+Table of Contents
+
+8 GOVERNANCE INFORMATION
+8.1 Business conduct
+8.1.1 Material impacts, risks, and opportunities
+8.1.2 Corporate culture and business conduct policy
+8.1.3 Innovation and digitalisation
+8.1.4 Safety and security
+8.1.5 Risk management
+8.1.6 Relationships with customers and suppliers
+8.1.7 Prevention and detection of corruption and bribery
+8.1.8 Political influence and lobbying
+8.1.9 Payment practices and tax conduct
+
+45
+47
+47
+47
+48
+49
+52
+53
+53
+54
+55
+
+
+=== pdf p.4 ===
+4
+
+SUSTAINABILITY REPORT 2025
+General Principles for Preparing the Sustainability Report
+
+1 General Principles for Preparing
+the Sustainability Report
+The sustainability report of AS Tallinna Sadam (hereinafter also Tallinna Sadam, the Company or the
+Group) has been prepared for the financial year covering the period from 1 January to 31 December
+2025. The report reflects the Group's sustainability-related activities, performance, and impacts
+in the environmental, social, and governance areas (hereinafter also ESG) during the reporting period.
+The sustainability report has not been prepared to the mandatory extent of the requirements
+of the Corporate Sustainability Reporting Directive CSRD1 of the European Union, nor does it fully
+comply with the requirements of the European Sustainability Reporting Standards ESRS2. However,
+the report has been prepared following the principles of the CSRD and ESRS and is based on the
+framework set out in the ESRS. Due to the legal status of the Company and the applicable reporting
+requirements, not all disclosure requirements arising from the directive and standards are applicable
+and mandatory for Tallinna Sadam; therefore, this report does not include all data points and disclosure
+obligations defined in the ESRSs.
+The report includes the 2025 consolidated sustainability data of Tallinna Sadam's subsidiaries. Data
+for the associate Green Marine AS has not been included in the sustainability report, as Tallinna Sadam
+lacks a controlling influence over the company, despite a 51% shareholding.
+In assessing sustainability activities and impacts, in addition to the indicators set out in the ESRSs,
+company-specific metrics, developed to monitor and evaluate the achievement of Tallinna Sadam's
+strategic environmental, social and business objectives, are also used.
+The sustainability report has been prepared voluntarily with the aim of increasing transparency, supporting responsible and sustainable management and meeting the expectations of the owner and
+stakeholders.
+The sustainability report primarily covers topics and data points that, as a result of the double materiality assessment, have been assessed as material to Tallinna Sadam. Additionally, certain topics
+whose impact was not assessed as material in the double materiality assessment, but which Tallinna
+Sadam considers important for informing stakeholders and ensuring a comprehensive overview, have
+also been disclosed.
+
+1
+
+Corporate Sustainability Reporting Directive
+
+2
+
+European Sustainability Reporting Standards prepared by the European Financial Reporting Advisory Group (EFRAG)
+
+
+=== pdf p.5 ===
+5
+
+SUSTAINABILITY REPORT 2025
+Sustainable Development Strategy
+
+2 Sustainable Development Strategy
+The sustainable development strategy focuses on how sustainability considerations are systematically
+integrated into Tallinna Sadam's strategy, business model, and value chain. The Group's sustainability
+objectives are aligned with the overall strategy and reflect the integration of key ESG3 impact areas
+into the strategic framework. Such alignment ensures that the Group meets regulatory requirements
+and stakeholder expectations and creates long-term value through sustainable management
+and operating principles. More environmentally friendly operations and the systematic handling
+of environmental issues increase the competitiveness of Tallinna Sadam. The Group implements
+energy-efficient technologies and green innovations, which have helped improve resource efficiency.
+In this way, economic performance has been aligned with environmental responsibility.
+
+especially the Baltic Sea ecosystem. Cooperation is carried out with local governments, research
+institutions, and the largest ports of the Baltic Sea. Sustainability is a principle that guides the organisation to act responsibly both today and in the future.
+
+The Group's value chain reflects the results of the double materiality assessment, during which
+the main stages where the Group's activities have the greatest environmental, social, and
+economic impact were identified. The results of the analysis were used to integrate sustainability
+considerations into the Group's strategic framework, thereby ensuring the management of
+sustainability-related financial risks and opportunities, as well as responsibility towards stakeholders and the environment.
+
+The Company's goal for sustainable development is to contribute to achieving climate neutrality,
+increasing energy efficiency, and promoting the circular economy. Protecting the Baltic Sea as
+a sensitive ecosystem and maintaining a clean urban space are of key importance, given that
+Tallinna Sadam's activities are located in densely populated areas. An important role is also played
+by the provision of the Ferry service, which ensures the connection between Estonia's main islands
+and the mainland, as well as by innovation and responsible business and development activities.
+
+In its business and development activities, Tallinna Sadam has consistently contributed to reducing negative environmental impacts, while bearing responsibility for the natural ecosystem, and
+
+Through its activities, Tallinna Sadam contributes to the fulfilment of Estonia's national climate goals,
+the European Union Green Deal, and the UN Sustainable Development Goals.
+
+3
+
+ESG — Environmental, Social, and Governance principle
+
+Economic, environmental, and social aspects are taken into account when making business decisions.
+Tallinna Sadam aims to be a reliable partner for customers and investors, and an attractive employer
+for both current and future employees. The sustainable development strategy is the basis for all
+the organisation's activities, and one of its most important directions is the management of environmental impacts.
+
+
+=== pdf p.6 ===
+6
+
+SUSTAINABILITY REPORT 2025
+Sustainable Development Strategy
+
+Figure 1. Tallinna Sadam Sustainable Development Strategy
+
+IMPACT FROM OPERATING ACTIVITIES
+
+PASSENGERS
+
+CARGO
+
+PRIORITIES
+
+MAIN TARGETS
+
+GOVERNANCE PRIORITIES
+
+SHIPPING
+
+SOCIAL PRIORITIES
+
+The most innovative and
+competitive port of the Baltic Sea
+
+Port area is part of the common space,
+in coherence with the community
+
+•
+•
+
+•
+•
+
+Fulfillment of the dividend policy
+Committed employees
+
+REAL ESTATE
+
+Quick access and fluency
+0 complaints, serious occupational
+or other accidents
+
+ENVIRONMENTAL PRIORITIES
+
+Climate neutrality by 2050
+•
+•
+•
+
+•
+•
+•
+•
+
+Innovation
+Development based on R&D
+Sustainable business development
+and choice of partners
+Employer attractiveness
+
+•
+•
+•
+
+High quality public space and regional
+development
+Health, safety, security
+Access to services and information
+
+•
+•
+•
+•
+
+Recycling 70% of ship waste
+in the circular economy
+90% of our energy needs
+from renewable sources
+0 marine pollution cases
+
+Energy efficiency and sustainable consumption
+Marine environment protection
+Increasing circular economy
+Mitigation of climate change and prevention
+of air pollution
+
+
+=== pdf p.7 ===
+7
+
+SUSTAINABILITY REPORT 2025
+Management of Sustainable Development
+
+3 Management of Sustainable Development
+Goals are managed and monitored at the management level, involving experts from various fields,
+including energy, environment, waste management, safety, personnel, and communications.
+In addition to internal activities, partners, customers, suppliers, and other stakeholders are also
+involved in achieving goals and value-based operations.
+Sustainable development is an organic part of Tallinna Sadam's management. Strategic objectives
+serve as the basis for evaluating business projects, making management decisions, and in the daily
+activities of employees. To achieve the sustainable development goals, core activities and action
+plans have been defined and are monitored using a system of metrics with target levels developed
+in 2020 and updated during the double materiality assessment in 2024–2025.
+The ESG action plans are managed by the Group's ESG working group, which includes the Head
+of the Environmental Management Department, the Head of the Marketing and Communication
+Department, and the Investor Relations Manager. The working group is responsible for the development, supervision, and reporting of action plans in the E, S, and G areas. Additionally, the Group has
+an internal audit department whose task is to provide an independent and impartial assessment
+of the effectiveness of the Group's risk management and processes. Follow-up audits are performed
+regularly to verify that the risks identified in the risk assessment report are updated and mitigated.
+The Group cooperates with external experts and consultants when additional or expert knowledge
+is required in certain areas. In 2025, external support was used from the consulting firm Civitta Eesti
+AS in the double materiality assessment process, climate risk assessment, and ESG data analysis.
+Experts from the TalTech Estonian Maritime Academy were also involved in the data collection and
+
+calculation processes for Scope 1, 2, and 3 greenhouse gas (hereinafter also GHG) emissions.
+As a rule, experts for advisory services are selected through tenders, where a significant criterion
+is the provision of advisory services by providers with experience in the relevant field. Methodologies
+for collecting data and KPIs are developed and implemented in cooperation with internal financial
+and subject-matter experts to ensure accuracy, consistency, and data quality.
+Looking ahead, all major business development and growth projects are linked to sustainable
+development themes and support the achievement of set goals and the shaping of a human-friendly
+natural environment in the Baltic Sea region.
+To implement the sustainable development strategy, annual goals are set, to which all employees
+of the company contribute. The management of Tallinna Sadam is based on the principle that daily
+business decisions and investments must support the development of both the company and the
+surrounding environment and society.
+In 2025, Tallinna Sadam received the ‘Rohevõsu 2025’ recognition, earning third place in the green
+companies ranking as part of the Estonia's TOP 1000 successful companies assessment compiled
+by Äripäev. Eesti Pakendiringlus, which established the green company award, will plant 250 trees
+on behalf of Tallinna Sadam. The green companies ranking was compiled using an ESG assessment
+methodology based on the sustainability principles highlighted in the reports of Estonia's TOP 100
+most successful companies. All participating companies were analysed based on a uniform model
+and their ESG level was calculated.
+
+
+=== pdf p.8 ===
+8
+
+SUSTAINABILITY REPORT 2025
+Double Materiality Assessment
+
+4 Double Materiality Assessment
+From 2024–2025, we conducted a double materiality (impacts, risks, and opportunities, i.e. IRO)
+assessment in accordance with the European Sustainability Reporting Standard (ESRS). The aim
+of the assessment was to define material topics, taking into account both the organisation's impact
+on the environment and society and the potential impact of these impacts, risks, and opportunities
+on the company's financial position. The assessment took place in workshops for each business area
+of Tallinna Sadam — passengers, cargo, shipping, and real estate — involving specialists from
+the respective fields. The workshops were led by sustainability experts from Civitta Eesti AS, who
+supported the process with methodology, the assessment framework, and discussion management.
+
+In addition, for each topic, it was noted whether it directly affects the company, entities operating
+in its value chain, or both. An impact is considered actual if it has already occurred, and potential
+if there is a probability of its occurrence. In the assessment or scoring, scales for evaluating the
+criteria were agreed upon with the Tallinna Sadam ESG working group, based on the company's
+risk management and environmental aspect assessment procedures. In the assessment of impact
+materiality, the criteria used were the scale, scope, irremediability, and likelihood of the impact;
+in the case of financial materiality, the scale and likelihood were assessed. All assessments were
+given on a uniform five-point scale.
+
+The first stage of the double materiality assessment involved compiling an initial list of sustainabilityrelated topics. This was based on ESRS 1 Appendix A (the ‘long list’), an analysis of the company's
+business activities, relevant industry reports, existing sustainability reporting standards and guidelines, and reports from companies operating in similar sectors.
+
+After assessment based on the criteria, the values obtained were added up, resulting in a score
+for each risk or opportunity. Subsequently, an arithmetic mean was calculated for all relevant
+impacts, risks, and opportunities (separately for positive and negative impacts), which was used
+as the materiality threshold. Aggregate scores that exceeded the arithmetic mean of the respective
+group were classified as material.
+
+Based on the list of topics obtained, a catalogue of impacts, risks, and opportunities was compiled,
+reflecting both actual and potential, positive and negative aspects. The company's management,
+selected stakeholders, and an independent consulting partner were involved in the assessment,
+helping to evaluate the relevance of the topics in the context of the company's activities and value
+chain.
+As a result of the assessment, impact-material topics (positive and negative) and financially material
+topics (risks and opportunities) relevant to the business lines were mapped in accordance with ESRS
+requirements. The compiled list with the corresponding topics was structured into a materiality
+assessment form, which allowed topics to be assessed based on predefined criteria, depending
+on the nature of the company's activities and materiality factors.
+For the double materiality assessment, the establishment of key performance indicators, action
+plans, and this report, the following time horizons have been defined:
+• Short-term: 0–1 years (reporting year)
+• Medium-term: 1–5 years
+• Long-term: 5+ years
+
+By consolidating all impacts, risks, and opportunities across business lines that exceeded the materiality threshold, the results were aggregated into Tallinna Sadam's double materiality matrix (Figure
+2) of impacts, risks, and opportunities (Impacts, Risks, and Opportunities (hereinafter IROs)).
+Since the IROs derived from the topics included in the long list were assessed separately for each
+business area (passenger transport, cargo transport, shipping, and real estate), a topic is considered
+doubly material for the Tallinna Sadam group even if it is material in only one business area.
+The matrix presents Tallinna Sadam's IROs, grouped according to ESRS areas. A detailed description
+of the IROs and their connection to ESRS topics is provided in the respective E, S, and G chapters.
+
+
+=== pdf p.9 ===
+9
+
+SUSTAINABILITY REPORT 2025
+Double Materiality Assessment
+
+Shortage of skilled labor
+Community engagement
+Safety of end-users
+Risk management
+Compliance to rules and regulations
+
+DOUBLE MATERIAL TOPICS
+
+Handling of dangerous goods
+
+Climate change mitigation
+
+IMPACT-MATERIAL TOPICS
+
+FINANCIALLY MATERIAL TOPICS
+
+Environmental
+
+NON-MATERIAL TOPICS
+
+Financial materiality
+
+Figure 2. Double materiality matrix of AS Tallinna Sadam
+
+Air pollution
+
+Social
+
+Training and skills development of employees
+Remuneration
+Ensuring employee safety
+Access to the port
+Provision of vital services
+Innovation and digitalization
+Management of partner relations
+
+Water and plastic pollution
+Waste management and circular economy
+Consumption of non-renewable resources
+Access to information
+Security
+
+Impact materiality
+
+Governance
+
+
+=== pdf p.10 ===
+10
+
+SUSTAINABILITY REPORT 2025
+Double Materiality Assessment
+
+The IROs identified during the double materiality assessment are closely linked to Tallinna Sadam's
+business lines and business model. For example, topics related to climate change and energy
+use directly affect the company's infrastructure development plans, the choice of energy sources,
+and the content of services offered to customers. These sustainability aspects have been taken
+into account in setting strategic objectives and in the business development plans and investment
+decisions supporting their implementation. As a result of the double materiality assessment,
+the Group's doubly material topics are:
+
+E
+
+ENVIRONMENTAL
+
+• Climate change mitigation
+
+S
+
+SOCIAL
+
+• Training and skills development of employees
+• Remuneration
+• Ensuring employee safety
+• Access to the harbour
+• Provision of vital services
+
+G
+
+GOVERNANCE
+
+• Innovation and digitalisation
+• Management of partner relations
+
+The results of the assessment were approved by the Management Board of the Group.
+Based on the results of the customer satisfaction survey conducted in 2025, the material
+topics have not changed. The ESG working group reviews and, if necessary, updates the results
+of the double materiality assessment annually or in the event of significant changes in the company's operations.
+
+
+=== pdf p.11 ===
+11
+
+SUSTAINABILITY REPORT 2025
+Stakeholder Engagement in the Double Materiality Assessment
+
+5 Stakeholder Engagement
+in the Double Materiality Assessment
+In order for Tallinna Sadam to properly assess its impact on the environment and society and to
+identify material risks and opportunities, it is important to actively involve stakeholders associated
+with all business lines. Feedback from stakeholders provides additional input that supports the identification of material reportable topics and subsequent reporting.
+The impacts, risks, and opportunities (IROs) identified based on stakeholder assessments and
+the results of the company's internal analysis form the basis of Tallinna Sadam's sustainable
+development strategy and define the topics on which the company focuses in its management
+and reporting.
+Tallinna Sadam's main stakeholders to be involved were identified through value chain mapping,
+based on the stakeholders' potential impact and importance to Tallinna Sadam's operations
+(e.g. stakeholders accounting for a large share of the company's total revenue or playing
+an important role in the long term) and Tallinna Sadam's impact on stakeholders (e.g. suppliers
+accounting for a large share of the company's cost base). The parties in the value chain were
+mapped taking into account Tallinna Sadam's main business lines and the size of the companies,
+which also served as the basis for the double materiality assessment process. The parties
+included:
+• Group employees;
+• Tallinna Sadam's customers and end-users of services (including travel operators,
+agents, terminal operators, developers, and tenants);
+• specific customers and suppliers of TS Laevad and TS Shipping;
+• Group-wide stakeholders (including investors and financiers, industrial parks,
+government agencies);
+• Suppliers (including construction companies, support, and utility service providers).
+
+After mapping Tallinna Sadam's value chain and defining the stakeholders, a web-based survey was
+selected as the engagement channel. Although feedback is collected annually through employee and
+customer satisfaction surveys, direct communication from business line managers and administrative
+managers, and community events, which allow for more frequent ongoing feedback than an annual
+sustainability questionnaire, the ESG working group decided to conduct a separate survey covering
+sustainability topics and to assess the importance of sustainability themes annually in customer
+satisfaction surveys. The questionnaire for own employees was sent to all company employees
+working in the Group's parent company and the subsidiaries TS Laevad OÜ and TS Shipping OÜ.
+The purpose of stakeholder engagement was to assess the objectivity of the double materiality
+assessment and, if necessary, to take stakeholder evaluations into account when assessing impact
+and financial materiality. Stakeholders were asked to provide assessments of Tallinna Sadam’s
+environmental, social, and governance areas on a seven-point scale (1 – not aware; 7 – Tallinna
+Sadam's activity is significant), which allowed for the highlighting of areas and topics considered
+most important. Based on stakeholder feedback, topics directly related to Tallinna Sadam's core
+activities and its role in public service emerged as the most significant.
+Based on the results of the employee survey, the most important environmental topics for Tallinna
+Sadam are the development of the circular economy and waste management, as well as the prevention of marine pollution. In the social area, employees consider the most important topics to be
+ensuring safety for employees, passengers, and customers, as well as accessibility to services, i.e.
+the provision of vital services, including ensuring vessel traffic and the exchange of goods in harbours and between Estonia's main islands. In the area of business governance, employees most
+value Tallinna Sadam's innovation and digitalisation activities and their purposeful management,
+as well as the assessment, mitigation, and management of risks related to the entire Group.
+
+
+=== pdf p.12 ===
+12
+
+SUSTAINABILITY REPORT 2025
+Stakeholder Engagement in the Double Materiality Assessment
+
+Figure 3. Parties mapped in the value chain of AS Tallinna Sadam
+
+EMPLOYEES
+
+CUSTOMERS & PARTNERS
+
+•
+
+Current and future employees
+of Tallinna Sadam group
+
+•
+
+Operators (cargo terminals and passenger ships)
+
+•
+
+Passengers (international and local)
+
+Trade unions
+
+•
+
+Charterers of the icebreaker
+
+•
+
+Agents, lease holders
+
+•
+
+Suppliers
+
+•
+
+Financiers
+
+•
+
+Parties in logistics chain
+
+•
+
+Supervision and other institutions
+
+•
+
+SOCIETY & COMMUNITY
+
+INVESTORS
+
+•
+
+Local municipalities
+
+•
+
+Estonian state (controlling shareholder)
+
+•
+
+Local communities
+
+•
+
+International institutional investors
+
+•
+
+Cooperation organizations and networks
+
+•
+
+Estonian investment and pension funds
+
+•
+
+Education and research institutions
+
+•
+
+Retail investors
+
+•
+
+Public and media
+
+•
+
+Potential investors
+
+
+=== pdf p.13 ===
+13
+
+SUSTAINABILITY REPORT 2025
+Stakeholder Engagement in the Double Materiality Assessment
+
+Figure 4. Detailed mapping of AS Tallinna Sadam's value chain by customer and supplier
+
+PASSENGER HARBOURS SEGMENT
+PUBLIC SPACE
+
+PORT INFRASTRUCTURE
+
+PASSENGER TERMINALS
+
+PORT SERVICES
+
+MARITIME TRANSPORT
+
+•
+•
+
+Including:
+Land, quays, ramps, connecting
+walkways, utility networks, etc.
+Development, construction,
+maintenance, management
+Letting of vacant premises
+
+•
+•
+
+Including:
+Vessel traffic management,
+waste management, onshore
+electricity supply, pollution
+abatement, utility services
+Tugging and piloting, bunkering
+
+Ferry and ship operators:
+Tallink
+Viking Line
+Eckerö Line
+Cruise operators
+
+ROAD TRANSPORT
+
+PORT INFRASTRUCTURE
+
+CARGO TERMINALS
+
+PORT SERVICES
+
+MARITIME TRANSPORT
+
+•
+•
+
+Including:
+Land, quays, ramps, utility networks, etc.
+Development, construction,
+maintenance, management
+Granting of rights of superficies
+
+•
+•
+•
+
+Activities of cargo operators:
+Superstructure construction
+and management
+Loading, unloading, storage
+and warehousing
+Processing and adding value to cargo
+
+Including:
+Vessel traffic management,
+waste management, pollution
+abatement, utility services
+Tugging and piloting, bunkering
+
+•
+•
+•
+
+TICKET SALES
+
+TRAFFIC MANAGEMENT
+IN HARBOUR AREA
+
+User-friendly port area
+Attractive place to spend time
+
+•
+•
+•
+
+Traffic management in onshore harbour
+area (incl. Smart Port system)
+Services at terminals
+
+•
+•
+
+•
+•
+•
+•
+
+CARGO HARBOURS SEGMENT
+
+Rail transport
+Road transport
+
+•
+•
+•
+
+•
+
+Agents
+Carriers
+Freight forwarders
+
+•
+
+FERRY SEGMENT
+FERRIES
+
+•
+•
+
+MARITIME TRANSPORT
+
+•
+•
+
+Technical readiness of the ferries
+Safe manning
+
+Operation of ferries
+Onboard services
+
+Factors:
+SEGMENT OTHER (icebreaker Botnica)
+ICEBREAKER
+
+Icebreaking in Estonia
+
+Offshore work
+
+•
+•
+
+•
+
+•
+
+Technical readiness of the icebreaker
+Safe manning
+
+Services provided by the Tallinna Sadam Group
+
+Icebreaking operations on the northern
+coast of Estonia in the winter
+
+Services provided by partners
+
+Offshore work projects abroad
+in the summer
+
+• Geopolitics,
+incl. the environment
+• Economic environment
+• Supply chains
+• Competition
+• Safety and security
+• Information technology
+• Workforce
+• Regulations
+• Epidemics
+• Weather
+
+
+=== pdf p.14 ===
+14
+
+SUSTAINABILITY REPORT 2025
+Stakeholder Engagement in the Double Materiality Assessment
+
+The questionnaire for cooperation partners was answered by companies across Tallinna Sadam's entire
+value chain; customers, suppliers, financiers, public administration institutions, and other partners were
+involved. The results of the external cooperation partners' survey are presented in figure 5.
+Based on the survey of cooperation partners, the prevention of marine and water pollution and
+the development of renewable energy solutions were rated as the most important in the environmental area. In the social area, ensuring safety for passengers, customers, and employees, and the
+functioning of vital services, including vessel traffic and the exchange of goods between harbours
+and the main islands, stood out. In the area of governance, innovation and digitalisation, as well as
+maintaining relations with customers and partners, were rated as most important. The assessments
+from stakeholders were consistent with Tallinna Sadam's internal double materiality analysis and
+did not lead to changes in the materiality matrix.
+Tallinna Sadam's cooperation partners are well-versed in the field of sustainability — over 80%
+of respondents have a sustainable development strategy in place or under development, and
+a large proportion of companies already disclose sustainability-related information, have assessed
+the company's and/or products' footprint, and have implemented resource efficiency measures in
+their operations. It can also be concluded from the cooperation partners' responses that the more
+companies have implemented sustainable development strategies and knowledge, the more thorough their responses, additional comments, and expectations for Tallinna Sadam are.
+
+Figure 5. Results of respondents to the cooperation partners' questionnaire
+RESPONSES FROM PARTNERS
+
+Main sustainability related risks, where stakeholders
+see potentially negative impact of their activities
+•
+
+Risks arising from greenhouse gas reduction requirements.
+
+•
+
+Additional financial cost resulting from an increase in the share
+of renewable fuel.
+
+•
+
+Financial risks due to stricter environmental requirements in general.
+
+•
+
+The impact of climate change on operations (due to increased
+extreme weather conditions).
+
+•
+
+Shortage of qualified personnel and labor force.
+
+•
+
+Reputational damage, loss of customers and employee dissatisfaction
+due to lack of commitment to sustainability strategy.
+
+Division by type of stakeholders
+
+14%
+
+Suppliers
+
+31%
+
+Clients
+
+7%
+
+Financiers
+
+11%
+
+Public administration institutions
+and partner ports
+
+Partners' opinions on cooperation with Tallinna Sadam
+and expectations for the future
+•
+
+We are very satisfied with the cooperation with Tallinna Sadam.
+We appreciate the professionalism, flexibility and quick response
+of your team. The cooperation has been smooth and effective.
+
+•
+
+Further engagement of partners in developing the ESG strategy,
+including presenting GHG results and a strategy and action plan
+to increase the development of waste management and renewable
+energy solutions.
+
+
+=== pdf p.15 ===
+15
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6 E Environmental Information
+This chapter presents information on environmental topics identified as material for Tallinna Sadam
+through impact materiality, financial materiality or double materiality assessment. The coverage
+of topics is based on the structure of the European Sustainability Reporting Standards (ESRS) and
+includes the following: climate change (E1, see section 6.2), pollution (E2, see section 6.3), and
+resource use and circular economy (E5, see section 6.6).
+In addition, an overview is provided of water and marine resources (E3, see section 6.4) and
+biodiversity and ecosystems (E4, see section 6.5). These topics were not assessed as material
+but are included to ensure integrity and a comprehensive overview.
+As climate change mitigation was the only doubly material topic in the environmental area, an
+additional climate risk analysis was conducted based on the TCFD4 framework to assess climaterelated physical and transition risks in more detail and to support the validation of the materiality
+assessment. The results of the climate risk assessment are presented in the following sub-chapter.
+
+4
+
+TCFD — Task Force on Climate-related Financial Disclosures
+
+
+=== pdf p.16 ===
+16
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.1 Climate risk analysis
+A climate risk assessment was conducted for the Tallinna Sadam Group using the TCFD (Task Force
+on Climate-related Financial Disclosures) framework. The assessment was carried out across the Group
+and by business lines in cooperation with the consulting firm Civitta Eesti AS, following a similar logic
+to the double materiality assessment.
+Climate-related impacts, risks, and opportunities were already identified as material during the double
+materiality assessment, which is why they were further addressed in a separate climate risk analysis.
+The focus was on:
+• physical risks arising from temperature changes, increased frequency of storms,
+increased precipitation, and fluctuations in water levels, etc.;
+• transition risks, which include regulatory changes, technological developments, changes
+in market and consumer behaviour (reputational risk), supply chain vulnerability, etc.
+
+Figure 6. Climate risk assessment criteria
+ASSESSED CLIMATE SCENARIOS:
+Prevention of global warming (target 1.5°C) — RCP 1.9
+Gradual transition to a low-emission economy,
+with the average temperature increase not exceeding 2°C by 2100.
+
+Low global warming (up to 2°C) — RCP 2.6
+Late transition to a low-emission economy, rapid regulatory changes,
+with the average temperature increase of up to 2°C by 2100.
+
+In the analysis, we used Copernicus climate maps, IPCC WGI Atlas data, and Estonian future climate
+scenarios up to the year 2100 as input. In addition, the working groups assessed impacts more
+broadly based on cognitive experience. Transition risks were assessed in the Estonian and EU context,
+considering the goals for transitioning to a climate-neutral economy by 2050. The assessment analysed the risk category, the impact on assets, the probability of occurrence in different scenarios, and
+the time horizon in terms of risk realisation and the scale of impact.
+
+High global warming (> 2°C) — RCP 4.5
+No transition to a low-emission economy, regulatory easing leading
+to a temperature increase of over 4°C by 2100
+
+In the assessment of climate risks, no physical or transition risks were identified whose impact on
+Tallinna Sadam's assets or operations was rated as high based on the risk management procedures
+and methodology.
+
+ASSESSMENT CRITERIA:
+
+Probability of occurrence for each scenario
+(Answer options: ‘Small’, ‘Average’, ‘High’)
+Time of risk realization, i.e. the timeframe when the risk may materialize
+(Answer options: ‘1 year’, ‘1–5 years’, ‘5+ year’)
+Moment of risk realization, i.e. when within the timeframe
+the risk will materialize
+(Answer options: ‘1 year’, ‘1–5 years’, ‘5+ year’)
+Is there a financial impact on assets or operations when the risk materializes
+(Answer options: ‘Yes’ or ‘No’)
+
+
+=== pdf p.17 ===
+17
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.2 E1 Climate change
+6.2.1 Material impacts, risks, and opportunities
+As negative impacts, the company's activities affect the climate primarily through greenhouse gas
+(GHG) emissions related to shipping. Additional impacts include exhaust gases from vehicles moving
+within the harbour area and atmospheric air pollution arising from the use of fossil-based thermal
+energy. The use of non-renewable energy sources in the value chain also has a negative impact.
+As a positive impact, Tallinna Sadam uses and produces renewable electricity in its operations
+(solar panels, seawater heating and cooling), which supports the mitigation of climate impacts
+in line with sustainable development goals.
+The development of onshore power supply (OPS) and alternative fuels offers an opportunity
+to move towards carbon-free, innovative, and forward-looking business models, reduce emissions
+from vessels stationary at the port, and strengthen the company's competitiveness in an economic
+environment moving towards climate neutrality.
+As a risk, however, this same development requires significant investment volumes, the readiness
+of technical solutions, and compliance with regulatory requirements, which may increase costs
+or slow down the implementation of planned activities.
+Climate-related impacts, risks, and opportunities directly affect Tallinna Sadam's business model
+and strategic choices, as the competitiveness and sustainability of operations of harbours depend
+on energy efficiency, compliance with stricter environmental requirements, and the ability to move
+towards climate-neutral service provision. Therefore, climate-related activities and the transition
+plan are closely linked to the company's long-term strategy and investment decisions.
+
+
+=== pdf p.18 ===
+18
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.2.2 Transition plan for climate change mitigation
+
+The following investments are planned for the implementation of the transition plan:
+
+The following plan describes the specific stages of action leading to the long-term policies and
+targets (presented in section 6.2.3), supporting the achievement of climate neutrality for Tallinna
+Sadam and zero emissions for vessels stationary at the port by 2050. The transition plan is
+implemented through chronologically structured activities consistent with European Union climate
+goals and Tallinna Sadam's sustainable development directions.
+
+• In Muuga Harbour. Onshore power supply (OPS) connections for quays 13, 14, 15, 16, and 17.
+To install the onshore power supply (OPS) connection at quay 17, the quay front wall will also
+be strengthened to the extent of EUR 3.58 million. The total estimated cost of the investment is
+EUR 20.3 million, of which up to EUR 10.15 million (50%) is financed by the Connecting Europe
+Facility (CEF — CEF-T-2023-SUSTMOBGEN-MOS-WORKS) under the TWIN-PORT VI project.
+
+The plan is divided into the following periods and activities:
+
+• In Old City Harbour. By 2030, construction of onshore power supply (OPS) for cruise ships at
+two quays in Old City Harbour. For this purpose, it is planned to establish an electricity network
+connection with the Elering main grid over a period of more than 3 years, a new 110/10kV
+substation, and onshore power supply (OPS) infrastructure with connection devices for cruise
+ships. The capacity of the substation to be built will cover the need to supply two cruise ships
+with onshore power supply (OPS) at quays 26 and 27, as well as the need to supply future
+hybrid and fully electric ro-pax vessels. The total estimated cost of the investment is
+EUR 39.7 million. Of this, EUR 35.7 million constitutes the PoTOPS (Port of Tallinn OPS —
+onshore power supply) project. Up to EUR 10.7 million (30%) of the PoTOPS budget is covered
+by the Connecting Europe Facility (CEF) Alternative Fuels Infrastructure Facility (AFIF) grant.
+
+2025–2030:
+• Construction of onshore power supply (OPS) for cruise ships at two quays in Old City Harbour;
+• Construction of a 110/10 kV substation in Old City Harbour;
+• Onshore power supply (OPS) connections at Muuga Harbour at quays 13, 14, 15, 16, and 17
+for ro-pax and container ships;
+• Creation of alternative fuel bunkering capabilities for vessels;
+• Construction of additional charging points for electric vehicles and equipment;
+• Adoption of electric and carbon-free fuel-powered vehicles and equipment in harbours;
+• Improving the energy efficiency of outdoor lighting.
+2030-2050:
+• New port buildings to be 100% climate-neutral;
+• Transition of the auxiliary fleet to alternative fuels;
+• Functioning climate-neutral FIN-EST and SWED-EST green corridors on the Tallinn-Helsinki,
+Muuga–Vuosaari, Tallinn-Stockholm, and Paldiski-Kapellskär routes;
+• Transition of ferries to alternative fuels and/or electrification;
+• Alternative fuel hubs (HUB) in Muuga Harbour and Paldiski South Harbour;
+• Construction of infrastructure for fully electric or hybrid ro-pax vessels in Old City Harbour.
+
+
+=== pdf p.19 ===
+19
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.2.3 Policies, measures, and targets
+Tallinna Sadam treats climate change as both a strategic risk and an opportunity to develop carbonfree, innovative, and forward-looking business models. The topic of climate change was assessed
+as material during the double materiality analysis, which sets a clear expectation for Tallinna Sadam
+to develop GHG emission reduction measures and an action plan. In shaping climate policy, European
+Union climate goals are taken into account, including the ‘Fit for 55’ package, under which the EU
+has committed to reducing greenhouse gas emissions by at least 55% by 2030 compared to 1990
+levels.
+Tallinna Sadam applies a proactive approach, identifying environmental and climate risks early and
+planning activities to prevent or mitigate their impact. At the heart of climate policy is a gradual
+transition to renewable energy sources and the reduction of greenhouse gas emissions along
+the entire value chain. The climate policy is closely integrated with Tallinna Sadam's sustainable
+development strategy and is reflected in investment decisions and action plans.
+Tallinna Sadam's long-term goal is to achieve climate neutrality for the company's operations
+and zero emissions for vessels stationary at the port by 2050. At the same time, Tallinna Sadam
+monitors opportunities for the sustainable consumption of natural resources and has set a goal
+of increasing energy efficiency and using renewable energy for 90% of its own energy consumption.
+
+Development of alternative fuels and green energy
+As a significant measure, Tallinna Sadam is planning an alternative fuel HUB in Muuga and Paldiski
+South Harbour, which will create the prerequisites for the transition of shipping and transport
+to more environmentally friendly fuels. The HUB includes the production, storage, and bunkering
+of alternative fuels and supports the growing need of both maritime transport and industry
+for sustainable energy solutions.
+
+In Muuga Harbour, JetGas Eesti plans to build a liquefied methane terminal, where five tanks
+with a total capacity of 5,000 m3 are planned. The terminal will primarily enable the procurement
+and bunkering of bioLNG, but also other methane fuels. The terminal is planned to become fully
+operational in 2030.
+Green ammonia production is being developed in Estonia by the company Derivaat NH3, which plans
+to establish a green ammonia plant in Paldiski South Harbour. Derivaat NH3 aims to produce up
+to 20,000 tonnes of green ammonia per year, with the start of production planned for 2028.
+Renewable energy production and storage is a new business and growth area for Tallinna Sadam,
+supporting the company's long-term sustainability goals. Increasing the availability of alternative
+fuels allows for the reduction of greenhouse gas emissions, improvement of air quality, and moving
+step-by-step towards achieving climate neutrality and zero emissions for vessels stationary
+at the port by 2050.
+
+Servicing of fully electric and hybrid vessels
+To accommodate and serve fully electric and hybrid vessels, Tallinna Sadam is developing the electricity infrastructure in Old City Harbour. The 110/10 kV substation building complex to be constructed in Old City Harbour will be located in the immediate vicinity of the cruise terminal. The completion
+of the substation is planned for 2028. The electricity infrastructure is a prerequisite for the introduction of fully electric ro-pax type passenger ships on the Tallinn–Helsinki route, where Viking Line
+plans to introduce a fully electric passenger ship specifically designed for the Tallinn–Helsinki route
+starting from 2030.
+In Muuga Harbour, the construction of the onshore power supply (OPS) connection for vessels is
+underway; the quayside power supply for ro-pax and container ships is planned to be completed
+by the end of 2027 as part of the TwinPort VI project co-financed by the European Union.
+
+
+=== pdf p.20 ===
+20
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.2.4 Energy consumption and energy efficiency
+Since 2021, the parent company Tallinna Sadam has been purchasing only renewable electricity for
+its own use. In 2025, the company's purchase of renewable electricity was 12.3 GWh. In addition, we
+produced 5.2% of our electricity consumption using solar panels in Old City Harbour, Muuga Harbour,
+and Paldiski South Harbour. The Old City Harbour cruise terminal building is heated and cooled by
+seawater, and the output of the terminal's solar panels covered 54% of the cruise terminal's electricity consumption. Total energy consumption (heat and electricity) was 16.8 GWh, of which the share
+of renewable energy was 77%.
+During the navigation of the Botnica, the principles of the SEEMP (Ship Energy Efficiency Management
+Plan) are followed, including the optimisation of the vessel's course and speed with the aim of avoiding strong headwinds and swell (weather routing). This approach has made it possible to reduce fuel
+consumption and ensure safer ocean crossings. In 2025, icebreaking services were provided in Estonian
+waters, and the vessel participated in a rescue operation in Northern Canada.
+Since 2024, TS Laevad has been purchasing electricity only from renewable sources for its fleet
+and office premises. The ferries of TS Laevad — Piret, Tõll, Leiger, and Tiiu — are equipped with the
+innovative Blueflow Energy Management fuel consumption monitoring system, which helps improve
+navigators' driving techniques in real time, use optimal speed according to the navigation area, and
+
+plan the necessary cleaning of the ship's underwater hull to save fuel, thereby reducing the negative
+environmental impact resulting from marine fuel. For energy efficiency purposes, the replacement of
+lighting with LED technology continued on the vessels, digital logbooks were installed, and the ventilation system was optimised. Compared to the base year 2019, when the monitoring system was not
+yet implemented, the average fuel consumption of the vessels per scheduled trip in 2025 was 15%
+lower (2024: 11%). In 2025, the GHG emissions of TS Laevad decreased not only due to the fuel
+consumption monitoring system but also in connection with the consumption of electricity from renewable energy sources, resulting in GHG emissions per scheduled trip for TS Laevad being 3% lower
+in 2025 than in 2024. In cooperation with the onshore power supply (OPS) equipment manufacturer
+Shore Link OÜ, TS Laevad tested onshore power supply (OPS) capabilities over a two-week period.
+As part of this, the ferry Piret was connected to the onshore power supply (OPS) equipment installed
+quayside at Virtsu Harbour. The purpose of the test is to evaluate the technical and operational possibilities for connecting ferries to a land-based power source, which in the future would allow for
+the charging of electric vessel batteries while the vessel is stationary at the quay. As a result of
+the test, changes were made to the charging system at Saarte Liinid's harbours, and the tests are
+planned to continue.
+To assess the fulfilment of energy efficiency and sustainable consumption targets, we use the metrics presented in table 1.
+
+Table 1. Metrics for energy efficiency and sustainable consumption targets
+Target
+
+Target level 2030
+
+Base year 2019
+
+2024
+
+2025
+
+Share of renewable energy in self-consumption*
+
+90%
+
+0.4%
+
+73%
+
+77%
+
+External lighting modernisation rate
+
+100%
+
+31%
+
+58%
+
+64%
+
+130
+
+197
+
+178
+
+172
+
+Maintain at the level
+of 0.3–0.4
+
+0.4
+
+0.6
+
+0.4
+
+Building energy efficiency (kWh/m2 per year)
+MPSV Botnica Energy Efficiency Operational Index (EEOI)5
+
+*
+
+including electricity and heat energy
+
+5
+
+EEOI = FC * CF / D * m,
+where FC — fuel consumption in tonnes; CF — conversion factor for diesel fuel used; D — distance traveled in miles; m — cargo volume (m = 1)
+
+
+=== pdf p.21 ===
+21
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.2.5 Scope 1-3 GHG emissions and total GHG emissions
+
+Changes in Scope 3 (visiting vessels) calculations
+
+GHG emissions associated with Tallinna Sadam's activities are calculated based on the 2006
+guidelines6 of the Intergovernmental Panel on Climate Change (IPCC). The Company has been
+measuring its emissions since 2019, based on the ownership or control of the emission source
+across different scopes7:
+• Scope 1 — Direct emission sources of Tallinna Sadam: vessels, vehicles, other equipment,
+and boiler houses owned by Tallinna Sadam.
+• Scope 2 — Indirect emission sources of Tallinna Sadam: purchased electricity and thermal
+energy for buildings and infrastructure owned by Tallinna Sadam.
+• Scope 3 — Other indirect emission sources: tenants, operators, vessels visiting the port,
+traffic passing through the port and ro-ro cargo, cargo handling equipment, and railway
+traffic.
+
+Until 2023, monitoring and reporting of only CO2 emissions from visiting vessels were required under
+International Maritime Organization (IMO) and EU-level regulations. However, as of 2024, the EU has
+expanded reporting requirements to include emissions of other greenhouse gases.
+
+As the major impacts directly related to Tallinna Sadam's GHG emissions (Scope 1-2) are fuel for
+ferries, electricity and heat consumption, and the choice of transport vehicles, energy efficiency and
+the increased use of renewable energy sources are the key drivers for GHG reduction. More than half
+of total GHG emissions (Scope 1-3) consist of GHG emissions from vessels visiting our harbours, the
+reduction of which we can only influence indirectly by creating environmentally friendly port services
+and encouraging their use.
+The total GHG emissions resulting from Tallinna Sadam's activities in a broader scope, i.e. including
+operators, tenants, and vessel calls (Scope 1, 2, and 3 combined), were 57,034 tonnes of CO2
+in 2024, which is a 54% decrease compared to 2019 (base year) (2023: 72,279 tonnes of CO2),
+primarily due to the higher use of electricity from renewable energy sources in 2024 and a decrease
+in emissions related to vessel calls.
+
+Changes have occurred in EMSA8 reporting since 2024 due to the amendment of the MRV (Monitoring,
+Reporting and Verification) Regulation, which added other greenhouse gases to CO₂. The MRV
+Regulation (EU 2015/757) regulates the monitoring, reporting, and verification of greenhouse gas
+emissions from ships. Although only CO₂ emissions are still considered within the EU ETS for the
+years 2024–2025, EMSA reporting now also reflects CO₂ equivalent, which is higher than actual
+CO₂ in tonnes, as it includes methane and nitrous oxide emissions in addition to CO₂.
+Tallinna Sadam's own direct and indirect GHG emissions (Scope 1 and 2 combined) were 19,261
+tonnes of CO2 in 2025 (21,597 tonnes of CO2 in 2024). Of this, 75% is related to the operation
+of the Ferry service between the Estonian mainland and the main islands. Compared to the previous
+year, the Group's CO2 emissions decreased by approximately 11% (a 42% decrease compared
+to the 2019 base year). The decrease in emissions was mainly due to the lower fuel consumption
+of the Botnica in connection with the reduction in the vessel's charter time in 2025 and maintenance
+work; emissions also decreased due to TS Laevad's transition to electricity produced from renewable
+energy sources and the lower fuel consumption of ferries achieved through energy efficiency measures. As the number of scheduled trips by TS Laevad was 0.6% lower compared to 2024, CO2 emissions per scheduled trip in 2025 were 3% lower than in 2024 (16% lower than in 2019). The main
+reason for the decrease was the mild winter and light ice conditions in 2025, in contrast to the heavy
+ice in the winter of 2024, which resulted in significantly higher fuel consumption (and thus emissions) for the vessels.
+
+6
+
+https://www.ipcc.ch/report/2006-ipcc-guidelines-for-national-greenhouse-gas-inventories
+
+7
+
+Impact areas are based on the GloMEEP (Global Maritime Energy Efficiency Partnerships) guide for port emissions assessment: Port Emissions Toolkit, Guide No. 1: Assessment of port emissions
+
+8
+
+EMSA (European Maritime Safety Agency) is an EU agency that supports Member States and the European Commission in maritime safety, prevention of marine pollution, and management of maritime environmental reporting, including the MRV system.
+
+
+=== pdf p.22 ===
+22
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+Table 2. Metrics for GHG emission reduction and climate neutrality targets
+Target
+Tallinna Sadam's own GHG emissions, Scope 1 and 2 (tonnes of CO2 equivalent)
+
+Target level 2030
+
+Base year 2019
+
+2024
+
+2025
+
+2050 = 0; (–55% 2030)
+
+33,086
+
+21,5979
+
+19,261
+
+26%
+
+100%
+
+80%
+
+77%
+
+TS Laevad CO2 emissions per line voyage (%; 2020 = 100%)
+
+19,261 tonnes
+CO₂ equivalent
+
+0%
+
+Electricity consumption
+
+94%
+
+Vessels owned
+by Tallinna Sadam
+
+2%
+
+Movable equipment
+
+4%
+
+Heat consumption
+
+Figure 8. Direct and indirect GHG emissions of the Tallinna Sadam Group
+(Scope 1 and 2 total) 2019–2025
+
+thousand tonnes CO2 equivalent
+
+Figure 7. Direct and indirect GHG emissions of the Tallinna Sadam Group
+(Scope 1 and 2 total) by source in 2025
+
+35
+
+33.1
+
+30
+
+27.8
+23.8
+
+25
+
+20
+
+23.8
+21.6
+
+21.6
+
+20.6
+
+19.3
+18.8
+
+15
+
+20.7
+10
+
+5
+
+11.1
+
+9
+
+The GHG emission volume for 2024 was adjusted due to a change in the emission factor in 2025.
+SEI (Stockholm Environment Institute) publishes the actual emission factors every summer for the preceding year
+
+21.1
+
+20.3
+
+18.0
+
+7.5
+
+0
+2019
+
+18.9
+
+2020
+
+1.6
+
+1.3
+
+1.3
+
+2021
+
+2022
+
+2023
+
+2024
+
+Heat consumption
+
+Vessels owned by Tallinna Sadam
+
+Movable equipment
+
+Electricity consumption
+
+2025
+
+
+=== pdf p.23 ===
+23
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.2.6 GHG removal, credits, and pricing
+
+thousand tonnes CO2 equivalent
+
+Figure 9. Total GHG emissions resulting from Tallinna Sadam's
+activities (including operators, tenants, visiting vessels)
+Scope 1, 2 and 3 total 2019–2024
+
+Tallinna Sadam does not participate in the carbon market and does not use offsetting or removal
+measures to reduce greenhouse gas emissions. Climate targets and emission reductions are
+achieved through the company's own activities. Tallinna Sadam does not apply an internal CO₂
+pricing mechanism. The need to introduce such a system will be assessed in the future based
+on the company's development and the regulatory environment.
+
+140
+
+123.9
+120
+
+100
+
+122.0
+
+9.5
+
+112.9
+
+8.9
+
+16.5
+
+8.4
+
+13.0
+
+6.2.7 Olulistest füüsilistest ja üleminekuriskidest
+ning kliimaga seotud võimalustest tulenev võimalik finantsmõju
+
+13.4
+83.2
+6.1
+11.6
+
+80
+
+50.5
+56.9
+
+60
+
+71.3
+
+46.2
+
+40
+
+20
+
+47.4
+
+72.3
+4.6
+9.5
+
+57.0
+5.0
+8.8
+
+40.6
+28.0
+
+34.2
+
+28.9
+
+19.2
+
+17.6
+
+15.4
+
+2022
+
+2023
+
+2024*
+
+0
+2019
+
+*
+
+2020
+
+2021
+
+Heat consumption
+
+Vessels owned by Tallinna Sadam
+
+Movable equipment
+
+Electricity consumption
+
+from 2024, vessels' CO2 equivalent (including CH4 and N20)
+
+The results of the climate risk analysis (section 6.1) show that the impact of physical and transition
+risks on Tallinna Sadam's assets and operations is low in all assessed climate scenarios.The probability of risks materialising is small, and the estimated impact does not lead to significant financial
+consequences for the company's operations.
+Climate-related opportunities — such as improving energy efficiency, developing services related
+to alternative fuels, and supporting climate-neutral shipping — may increase the company's
+competitiveness and revenue potential in the longer term. It is currently not possible to reliably
+quantify the potential positive financial impact of these opportunities, as the impact depends
+on the long-term market and regulatory context and the wider adoption of technological solutions.
+
+
+=== pdf p.24 ===
+24
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.3 E2 Pollution
+6.3.1 Material impacts, risks, and opportunities
+
+6.3.2 Policies, measures, and targets
+
+Marine pollution has been identified as a negative impact and environmental risk for the company.
+Negative impacts may include water pollution, primarily during vessel bunkering and the loading
+and unloading of hazardous cargo, during which pollutants may enter the sea. As a risk, large-scale
+pollution could cause significant environmental and financial damage, although the probability
+of such an accident occurring is low according to the risk assessment procedure. Negative impacts
+may also arise from the underwater cleaning and maintenance of vessels and the reception
+of ship waste, during which pollutants, including microplastics, may enter the marine environment.
+For Tallinna Sadam, excessive sewage from cruise ships and ferries in Old City Harbour also
+constitutes a risk. Although this does not cause direct pollution of the marine environment, it may
+lead to additional costs due to higher pollution fees applied by the water utility AS Tallinna Vesi.
+
+In its activities, Tallinna Sadam is guided by environmental principles centred on the prevention
+of pollution and environmental impacts. Tallinna Sadam's goal is to prevent the generation
+of pollution and to protect the Baltic Sea as a sensitive ecosystem. The pollution prevention policy
+is based on the principle that pollution must be prevented and avoided throughout the entire
+operational process, relying on the avoidance of contamination.
+
+With regard to atmospheric pollution, in addition to GHG (addressed as an IRO in section 6.2),
+the air quality in the port area may be affected by dust generation during cargo loading, especially
+when handling bulk peat. Unfavourable weather conditions (primarily strong winds) may cause dust
+to spread across the port territory, which in turn affects the environment, residents of neighbouring
+properties, and the activities of companies operating in the area. Risks related to dust are mitigated
+by operators through continuous monitoring of handling activities and weather conditions, including
+the suspension of work if environmental permit conditions are not met. However, dust prevention
+may be limited, particularly in situations where the specific nature of handling processes or weather
+conditions restrict dust suppression measures.
+
+This principle is an integral part of Tallinna Sadam's sustainable development strategy and is
+implemented through coordinated action in the development of port services and in cooperation
+with shipping companies and other value chain participants.
+Tallinna Sadam uses company-specific metrics to assess pollution impacts, which support the monitoring of strategic environmental targets and ensure transparent and purposeful reporting.
+
+
+=== pdf p.25 ===
+25
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.3.3 Air pollution
+In addressing potential air pollution associated with Tallinna Sadam's activities, we have focused
+on several key areas: monitoring GHG emission sources (section 6.2.5), odour issues arising from
+cargo at oil terminals, air pollution from vessels, and the differentiation of vessel dues based on
+the vessel's contribution to reducing air pollution. To achieve cleaner outdoor air, we have initiated
+several projects and created innovative solutions in various fields.
+To reduce traffic loads in the Old City Harbour area and improve the noise levels and air quality of
+the region, more heavy-duty vehicles and other vehicles are being redirected from Old City Harbour
+to Muuga Harbour and Paldiski South Harbour, where ro-pax vessels serve vehicles on the Paldiski–
+Kapellskär and Muuga–Vuosaari routes. Double ramps are in use in both Old City Harbour and
+Muuga Harbour, allowing for a significant increase in the speed of loading and unloading vehicles.
+At the same time, faster loading and unloading reduces emissions from road traffic (including CO2).
+The share of ro-ro units in Paldiski South Harbour and Muuga Harbour accounted for 37% of all
+Tallinna Sadam ro-ro units in 2025 (2024: 36%).
+Due to sanctions imposed on Russian and Belarusian goods and a significant decrease in the transit
+of liquid fuels and petroleum products through Muuga Harbour, air monitoring at three stationary
+
+monitoring stations has been suspended since 2024 by agreement with the Environmental Board;
+as of 2025, air monitoring continues at only one monitoring station, Muuga-1. Necessary air pollution monitoring was also carried out using an electronic odour sensor (e-nose) monitoring system.
+E-noses are positioned in the Muuga Harbour area for odour nuisance control, enabling the rapid identification of potential odour nuisances and the location of the source to resolve the issue
+immediately. In 2025, no air pollution limit exceedances were recorded, and the port received no
+complaints. The aforementioned air monitoring is carried out in cooperation with the oil operators
+in Muuga Harbour.
+We provide discounts on vessel dues for more environmentally friendly vessels based on the ESI10
+index. In 2025, we provided discounts based on the ESI index for a total of 2,739 vessel calls,
+accounting for 38% (2024: 38%) of the total number of vessel calls.
+Additionally, we offer onshore power supply (OPS) and automated mooring services to liners
+in Old City Harbour, which have helped reduce air pollution caused by vessels, as well as noise and
+vibration. The Smart Port traffic management system has been developed in Muuga Harbour, Paldiski
+South Harbour, and Old City Harbour, making the movement of vehicles onto vessels smooth and
+fast, reducing unnecessary idling and the resulting emissions.
+
+Table 3. Air pollution reduction metrics
+Target
+
+10
+
+Target level 2030
+
+Base year 2019
+
+2024
+
+2025
+
+Share of vessel calls receiving ESI (Environmental Ship Index) discounts (%)
+
+50%
+
+18%
+
+38%
+
+38%
+
+Shore power utilisation time of liner vessels as a percentage of total port call duration in Old City Harbour (%)
+
+50%
+
+0%
+
+63%
+
+58%
+
+Share of cargo port ro-ro units of the total number of ro-ro units (%)
+
+50%
+
+29%
+
+36%
+
+37%
+
+ESI — Environmental Ship Index
+
+
+=== pdf p.26 ===
+26
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+Tallinna Sadam contributes to ensuring the cleanliness of the Baltic Sea by helping to prevent
+the discharge of sewage from vessels into the sea. For this purpose, a sewage pipeline has been
+constructed in Old City Harbour on the cruise quays, on all frequently used liner quays, and
+a microtunnel with a sewage reception capacity of up to 1,200 m3/h. A sewage pipeline with
+a capacity of up to 40 m3/h has been constructed on three quays in Muuga Harbour. Thanks
+to these investments, cruise ships and ferries calling at Old City Harbour, as well as ro-pax type
+ferries calling at Muuga Harbour, can discharge sewage in unlimited quantities and without
+additional fees.
+In 2025, ferries and cruise ships discharged a total of approximately 62 thousand m³ of sewage
+in Old City Harbour (2024: 123 thousand m³). The decrease was related to a reduction in sewage
+volumes from ferries, as one ferry operator decided to discharge sewage only at the Port of Helsinki.
+Sewage volumes from cruise ships increased slightly, mainly due to the share of vessels discharging
+sewage in harbours increasing to 83% (2024: 74%). In the case of ferries, the corresponding share
+indicator is not material, as their dense sailing schedule and typically short visiting times limit
+the possibilities for discharging sewage.
+We measure pollutants entering the marine environment from water discharges in all ports
+in accordance with the environmental permit, generally once per quarter.
+To prevent marine and environmental pollution, pollution response plans for the harbour waters
+and territory have been established, containing clear operational guidelines for incident prevention
+and rapid response. Control measures and work procedures have been defined for all work processes
+involving environmental and safety risks, and the availability of pollution response equipment
+is ensured. Pollution response training and drills are conducted regularly to ensure the readiness
+of employees to act in the event of potential pollution incidents. All training sessions and drills are
+documented — including participants and content, as well as any conclusions and improvement
+proposals made.
+
+Only significant marine pollution incidents that may have a substantial impact on the state
+of the marine environment or require extensive pollution response and clean-up operations
+are reflected in the report. Small-scale and quickly liquidated pollution incidents that do not have
+a significant impact on the environment are not addressed in the report. In 2025, no significant
+marine pollution incidents occurred.
+
+Figure 10. Quantities of sewage received from cruise
+and passenger vessels in Old City Harbour
+thousand m3
+
+6.3.4 Water pollution
+
+200
+
+100%
+
+94%
+
+180
+
+80%
+
+84%
+
+160
+
+83%
+
+80%
+
+74%
+
+140
+
+70%
+
+120
+
+60%
+
+98
+
+100
+
+50%
+
+80
+60
+
+87
+
+40%
+
+98
+
+30%
+
+38
+
+32
+
+40
+20
+
+90%
+
+67
+39
+
+34
+
+0
+2021
+
+2022
+
+2023
+
+24
+
+30
+
+2024
+
+2025
+
+20%
+10%
+0
+
+Sewage from
+international
+route ferries
+
+Sewage from cruise ships
+Sewage from international route ferries
+
+Table 4. Share of cruise vessel sewage discharge
+and the number of pollution incidents
+Target
+Share of cruise vessel calls that discharged sewage in the Old City Harbour
+Number of pollution incidents in the water areas
+
+Target level 2030
+
+Base year 2019
+
+2024
+
+2025
+
+100%
+
+81%
+
+74%
+
+83%
+
+0
+
+0
+
+0
+
+0
+
+
+=== pdf p.27 ===
+27
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.4 E3 Water and marine resources
+Although water and marine resources were not identified as a material topic as a result of Tallinna
+Sadam's double materiality assessment, an overview of water use and related activities is provided
+below.
+Tallinna Sadam addresses the use of water and marine resources within its sustainability strategy,
+which sets out principles for the sustainable use of water resources and the prevention of potential
+environmental damage. During the reporting period, we focused on mapping the water use situation;
+the development of a more detailed water resource use policy is an ongoing process.
+
+Water withdrawal and water consumption
+Tallinna Sadam uses water in its own operations, for the functioning of harbour infrastructure, and
+for sale to customers and vessels. In Muuga Harbour, water is withdrawn from three boreholes based
+on an environmental permit issued by the Environmental Board, and the company complies with all
+requirements and measures set out in the permit to ensure the sustainable use of water resources
+and to prevent pollution. In Old City Harbour and Paldiski South Harbour, drinking water from the public
+water supply system is used. The quantities of water withdrawn are determined based on measurement. For the sustainable use of water, water-saving devices are implemented, the condition
+of pipelines is monitored, and regular maintenance of equipment is performed to reduce water
+losses. To reduce the consumption of drinking water, an underground rainwater collection tank has
+been installed in the area in front of Old City Harbour's D-terminal for watering plants. No water
+was reused or stored during the reporting period.
+
+Marine resources
+To ensure that no sewage is discharged from vessels into the harbour waters, Tallinna Sadam
+contributes to the reception of sewage, which is addressed in section 6.6. Sewage from the vessels
+of TS Laevad, owned by Tallinna Sadam, is discharged into the collection tanks of AS Saarte Liinid's
+harbours.
+The management of ballast water from vessels is important for the protection of the marine environment, as invasive species and hazardous substances can enter the port through ballast water.
+Ballast water management is carried out based on international requirements, and the discharge
+of ballast water from visiting vessels into the port's harbour waters is restricted or prohibited.
+Vessels may pump ballast water located in the segregated tanks of dry bulk carriers and tankers
+overboard only if the ballast water meets the requirements set out in international conventions
+and does not contain oil or other substances harmful to the environment.
+We have also tightened other environmental restrictions for vessels. For example, underwater
+hull cleaning services for vessels in Tallinna Sadam's harbour waters can only be provided on
+the condition that cleaning waste is collected to prevent it from entering the marine environment.
+The collection of waste from hull cleaning is necessary because the entry of any waste, as well
+as algae, potential invasive species, microplastics, and nitrogen, phosphorus, and other nutrients
+into the marine environment, contributes to the eutrophication of the already sensitive Baltic Sea
+environment.
+Monitoring of the marine environment associated with construction activities is addressed
+in section 6.5.
+
+Table 5. Water consumption of AS Tallinna Sadam
+Metric
+Total drinking water consumption volume (boreholes and public water supply)
+including water sales to vessels
+Total volume of recycled and reused water
+
+2024
+
+2025
+
+136,568
+
+138,487
+
+62,564
+
+61,311
+
+0
+
+0
+
+
+=== pdf p.28 ===
+28
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.5 E4 Biodiversity and ecosystems
+Although biodiversity and ecosystems were not identified as a material topic as a result of Tallinna
+Sadam's double materiality assessment, the following section addresses the monitoring of the state
+of the marine environment and related activities to provide an overview of the potential impact of
+port activities on the Baltic Sea ecosystem.
+To assess the potential impacts of port activities, we monitor the species diversity of the sea
+in the areas adjacent to the harbours. The long-term goal is that the number of species in the benthic communities near Old City Harbour (in Tallinn Bay) and Muuga Harbour does not differ from
+the average values of the reference area (Kakumäe Bay). The selected metric reflects the potential
+impact of port activities on the marine ecosystem, as the species composition of benthic communities is sensitive to changes in water transparency, the intensity of eutrophication, dredging, and other
+stress factors.
+In our assessment, we use data from the annual national environmental monitoring (Estonian Marine
+Institute and the Environment Agency of the Ministry of Climate) concerning the number of benthic
+species in Muuga Bay and Tallinn Bay. According to the 2025 monitoring data, the state of the sea
+near Muuga Harbour was 87% (2024: 97%) and near Old City Harbour remained at the same level
+as the reference area (100%).
+With every activity, we monitor our impact on the natural environment, for which we carry out
+pre-construction, during-construction, and post-construction marine environment monitoring.
+
+The purpose of the monitoring is to assess the impact resulting from the port's activities and
+the impact of filling and dredging works on the benthic fauna, flora, fish stock, and coastal processes
+in the surrounding area.
+During the period from 11 October 2025 to 15 November 2025, dredging works with a total volume
+of 334,900 m3 were carried out in Paldiski South Harbour in connection with the construction
+of quay 6A. During the dredging works, suspended solids monitoring was conducted in accordance
+with the requirements of environmental permits No. KL-511943 and L.VV/325236. To monitor
+the level and spread of suspended solids, spot measurements at monitoring stations, continuous
+monitoring at buoy stations, and satellite monitoring were performed. The work was carried out by
+the Marine Systems Institute of Tallinn University of Technology. The results indicate a short-term
+and local impact caused by the dredging works, which was mainly limited to the dredged area and
+the immediate vicinity of the harbour waterfront. Continuous monitoring at the buoy stations showed
+that the level of suspended solids remained predominantly low during the dredging period. Satellite
+monitoring, performed using Sentinel-2/MSI and Sentinel-3/OLCI satellite images with low cloud
+cover, showed moderate spatial variation in suspended solids during the period preceding the dredging, which was consistent with prevailing wind conditions. On a cloud-free satellite image from
+19 October 2025 taken during the dredging works, suspended solids concentrations in the surface
+layer of the water were predominantly in the range of 5–10 mg/l, being higher in the immediate
+vicinity of Paldiski South Harbour and in the near-shore areas of Pakri Bay. In the central part
+of Pakri Bay, the level of suspended solids remained lower. A thorough environmental monitoring
+report has been submitted to the Environmental Board.
+
+Table 6. Benthic (seafloor) biodiversity metrics
+Target
+
+Target level 2030
+
+Base year 2019
+
+2024
+
+2025
+
+Benthic biodiversity indicator of Muuga Bay (compared to the reference area)
+
+100%
+
+100%
+
+97%
+
+87%
+
+Benthic biodiversity indicator of Tallinn Bay (compared to the reference area)
+
+100%
+
+100%
+
+100%
+
+100%
+
+
+=== pdf p.29 ===
+29
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.6 E5 Resource use and circular economy
+6.6.1 Material impacts, risks, and opportunities
+As negative impacts, the implementation of circular economy solutions has been limited to date.
+Ship waste is not diverted to recycling to a sufficient extent, which means that the reuse potential
+of resources remains largely unrealised. If waste is handled incorrectly, part of it may enter
+the environment.
+In addition, significant consumption of non-renewable marine fuels occurs in the value chain,
+which is one of the main sources of environmental impact (see section 6.2). Given the high number
+of vessel calls and the associated energy demand, the impact is extensive.
+As a positive impact, the company has a system in place through which all waste from vessels
+is received. This creates a strong basis for its environmentally sound management and enables
+the further diversion of waste into recycling, i.e. circulation or reuse.
+
+6.6.2 Policies, measures, and targets
+Tallinna Sadam follows the principles of the circular economy, which centre on the efficient use
+of resources, the prevention of waste generation, and the promotion of reuse. The objective of
+the company's circular economy policy is to reduce the environmental footprint by diverting waste
+into recycling or reuse to the greatest extent possible and avoiding landfilling. The implementation
+of the circular economy broadly supports the sustainable development strategy and contributes
+to the achievement of climate goals.
+The long-term goal is to divert at least 70% of waste collected from vessels into the circular
+economy. Sufficient capacities are ensured in Tallinna Sadam's harbours for the reception of all
+ship waste, including bilge water, oily residues, sewage, garbage, and scrubber waste.
+In 2025, according to unaudited data, 58% of ship waste was diverted into recycling (2024: 55%).
+The recycling rate is affected by both the composition of the waste by type and the capacity
+of waste managers to process these materials. The share of landfilled waste is minimal — a total
+of 98% of the received waste was diverted into recovery (including incineration) and recycling
+(2024: 98%).
+
+Table 7. Share of vessel waste diverted to the circular economy
+Target
+Share of ship waste directed to circular economy
+
+Target level 2030
+
+Base year 2019
+
+2024
+
+2025
+
+70%
+
+54%
+
+55%
+
+58%
+
+
+=== pdf p.30 ===
+30
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+Figure 12. Quantities of vessel waste
+
+5,000
+
+81
+
+88
+
+4,000
+
+113
+3,000
+
+2,000
+
+1,736
+
+2,020
+
+136
+
+70
+
+1,789
+
+1,671
+
+thousand m3
+
+tommes
+
+Figure 11. Circular economy of vessel waste
+
+250
+
+200
+
+150
+
+175
+130
+
+100
+
+1,681
+
+131
+
+87
+
+1,000
+
+1,381
+
+2,016
+
+1,939
+
+2,258
+
+2,503
+
+69
+
+50
+
+0
+
+17
+14
+
+24
+15
+
+24
+11
+
+25
+11
+
+27
+10
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+0
+2021
+
+Recycling
+
+2022
+
+2023
+
+Incineration
+
+2024
+
+2025
+
+Land filling
+
+The significant quantity of waste received from vessels makes it a substantial output flow in terms
+of port operations, especially when compared to the relatively small amounts of waste generated
+by the port's own activities.
+
+Bilge water and
+oily sludge
+
+Garbage
+
+Sewage
+
+Hazardous waste
+
+Scrubber waste
+
+In 2025, separate waste collection continued in Tallinna Sadam's office spaces, passenger terminals,
+and on the ferries of TS Laevad, providing an additional contribution to diverting waste into the circular
+economy.
+
+
+=== pdf p.31 ===
+31
+
+SUSTAINABILITY REPORT 2025
+E • Environmental Information
+
+6.6.3 Anticipated financial impact related
+to resource use and circular economy
+For Tallinna Sadam, the anticipated financial impact of effects related to the circular economy is
+not material in the short, medium or long term. The handling costs of waste collected from vessels
+are covered by the waste fees paid by the vessels, which allows for an increase in the recycling rate
+without significant additional cost. The company's goal is to divert at least 70% of ship waste into
+the circular economy by 2030.
+
+Onshore power supply
+
+From the perspective of resource use, the impact is related to both Tallinna Sadam's own activities
+and the value chain. The company's fleet, including the auxiliary fleet, currently uses predominantly
+fossil fuels, but according to the transition plan (see section 6.2.2), the goal is to transition this
+to alternative fuels between 2030 and 2050.
+In the value chain, the main factor is the use of non-renewable fuels in shipping. From the port's
+point of view, an important goal is to ensure zero emissions for vessels stationary at the harbours,
+which will be achieved through onshore power supply (OPS) solutions and improving the availability
+of alternative fuels (see section 6.2.3).
+
+Tallinna Sadam's associate Green Marine AS takes care of waste management
+
+
+=== pdf p.32 ===
+32
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7 S Social Information
+This chapter presents information on social topics identified as material for Tallinna Sadam through
+impact materiality, financial materiality or double materiality assessment. The coverage of topics is
+based on the structure of the European Sustainability Reporting Standards (ESRS) and includes own
+workforce (S1, section 7.1), workers in the value chain (S2, section 7.2), affected communities
+(S3, section 7.3), and consumers and end-users (S4, section 7.4).
+In Tallinna Sadam's sustainable development strategy (chapter 2), there are three main priorities
+concerning social impact:
+• quality public space and regional development;
+• health, safety, and security;
+• access to services and information.
+Key focuses, targets, and metrics have been established for each priority.
+
+
+=== pdf p.33 ===
+33
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7.1 S1 Own workforce
+
+7.1.2 Policies, measures, and targets
+
+7.1.1 Material impacts, risks, and opportunities
+
+The focuses of Tallinna Sadam's personnel strategy for the coming years are: a sense of unity and good
+cooperation, supporting development and health, smart work processes and efficient work organisation,
+and innovativeness. The goal of the personnel strategy is committed people in the right roles.
+
+During the assessment, training and skills development, as well as health and safety, emerged as
+doubly material positive impacts on the own workforce, to which the Tallinna Sadam Group pays
+systematic and consistent attention. Training employees and developing their skills supports both
+the professional growth of employees and the long-term performance of the organisation, enabling
+increased efficiency, knowledge development, and reduced long-term recruitment and training costs.
+In the field of health and safety, a positive impact is primarily manifested in the company's
+contribution to the implementation of safety requirements and instructions and, in the shipping
+sector, also in the use of practices that exceed legal requirements. A more detailed overview is
+provided in sections 7.1.2, 7.1.6, and 7.1.7.
+In addition, work-life balance and regulated working hours emerged as positive material impact
+topics for the own workforce. Flexible work arrangement solutions, including flexible working hours
+and reasonable work schedules, support employee well-being and contribute to maintaining job
+satisfaction and work capacity. Regulated working hours, including restrictions on overtime and long
+shifts, have a clear positive impact on employee health and occupational safety.
+Adequate wages were identified as a doubly material negative impact. For certain positions, there
+is a risk that the wage is not in line with the responsibility and volume of tasks, which may lead
+to employee turnover and additional costs related to recruitment and training. There is also a risk
+of a shortage of skilled labour, where an insufficient salary level creates wage pressure when trying
+to find competent specialists. To mitigate this, the company utilises wage surveys and compares
+the annual total compensation of employees with the median level of the salary market, with
+the aim of keeping wages competitive.
+Shortage of skilled labour, especially in the shipping sector, as well as a lack of succession,
+the departure of key employees, and age-related risks, were highlighted as financially material risks.
+The shortage of skilled labour is a broader macroeconomic problem, exacerbated by the declining
+popularity of certain jobs and limited education and succession opportunities. In the future context,
+this is a growing risk as the population ages and national restrictions on foreign labour exist.
+Opportunities to mitigate these risks are directly related to training and developing employees,
+which creates the prerequisites for both internal succession and the optimisation of long-term costs
+through the development of internal competences. In the field of health and safety, there is also
+a financially material risk related to the possible occurrence of occupational accidents and diseases
+and the need to make additional investments to ensure safety.
+
+The main metrics are our people's engagement index and voluntary turnover. We also monitor our
+reputation as an employer and participate in the employer reputation survey conducted by Kantar
+Emor. To monitor employee engagement, we conduct an annual employee engagement survey.
+We measure the employee engagement index on a 7-point scale. In 2025, 71% of employees
+responded to the survey, and the engagement index was 6.0 on a 7-point scale (2024: 5.7 points).
+Voluntary employee turnover in 2025 was 4.0% (2024: 8.5%); the goal is to keep this figure within
+9%. In the employer reputation survey conducted by Kantar Emor, Tallinna Sadam ranked 7th
+in the target group of salaried employees (2024: 8th place).
+To notice the efforts and good results of our people, we have a good tradition of presenting
+the ‘Star of the Quarter’ recognition once a quarter. With this tradition, the management recognises
+employees every quarter who have stood out particularly for their diligence, representation of our
+values or initiative over the past months. In addition, at the end of each year, colleagues can choose
+and recognize the ‘Performers of the Year’ — people who have best represented the values of
+Tallinna Sadam.
+At Tallinna Sadam, we support people's professional development as well as their physical and
+mental health. The priority of recent years has been the development of information security
+knowledge and digital skills, and increasing management quality based on Tallinna Sadam's
+management principles. By 2025, 98% of the target group among Tallinna Sadam employees has
+completed information security training. Since 2022, the ‘Sadama Akadeemia’ (Port Academy)
+seminar series has also been held, during which experts in their fields talk to us about trends and
+developments in business, information technology, energy, and other areas important to us. With new
+employees in mind, we organise a new employee information day approximately 3 times a year,
+the aim of which is to introduce new employees to the company's goals, various fields of activity,
+and management.
+In addition to supporting the good physical and mental health of employees and developing professional skills, we pay special attention to developing safety and environmental skills, the aim of which is,
+among other things, to prevent serious occupational accidents.
+To maintain health, we cover employees' sports expenses up to an agreed limit and allow our people
+to take a week of extra vacation during the winter months. Every year, it has been our good tradition
+to organise a health month, as part of which we have invited interesting speakers on health topics
+
+
+=== pdf p.34 ===
+34
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+A performance management system helps us move towards common goals at Tallinna Sadam,
+ensuring that the company's strategic goals are communicated to every team and specialist.
+When setting targets, we consider it important that the expected results are clearly agreed upon
+and measurable. We use the target-setting and risk management software PlanPro, which also
+contributes to improving the quality of target-setting: employee targets are visible to everyone
+and directly linked to the company's goals. Employees are subject to either an annual or quarterly
+performance fee system based on the achievement of agreed targets.
+In recruitment and promotion, we are guided by the employee's values, experience, and competences, excluding discrimination based on gender, age, nationality, etc. In 2025 and the preceding year,
+no cases of discrimination occurred at Tallinna Sadam.
+
+Tallinna Sadam employs nearly 450 people. The average number of employees in the Group in 2025
+was 425 people (2024: 438 people). A diverse workforce with a wide range of experience helps ensure
+the company's sustainable development. The growth in average wages in 2025 was due to wage
+increase agreements resulting from collective agreement negotiations in all three companies.
+
+Figure 13. Number of employees and labour costs (EUR thousand)
+
+600
+500
+
+60,000
+
+469
+
+468
+
+461
+
+438
+
+50,000
+
+425
+
+400
+
+40,000
+
+300
+
+20,920
+
+23,165
+
+25,147
+
+25,722
+
+26,555
+
+30,000
+
+200
+
+20,000
+
+100
+
+10,000
+
+0
+
+0
+2021
+
+2022
+
+2023
+
+Weighted average number of employees
+
+2024
+
+2025
+
+Personnel expenses
+
+thousand EUR
+
+Regular information days for all employees, which take place both on-site at the company and as
+live webcasts, help maintain a unified information space. During the information days, we provide
+an overview of the fulfilment of the company's goals and important projects and talk about
+developments in the business environment. We also gather once a year for a strategy day with
+the company's managers and field specialists.
+
+7.1.3 Composition of the workforce
+
+number of employees
+
+and organised other activities that help raise health awareness or introduce new ways to maintain
+one's health. To maintain mental health, we offer employees mental health counselling with specialists from our partner Meliva AS. To maintain a sense of unity and pay attention to healthy lifestyles,
+we organised several large and small events and team activities in 2025.
+
+
+=== pdf p.35 ===
+35
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7.1.4 Diversity indicators
+The average length of service of Tallinna Sadam's employees is 9.6 years. It is highest (15.4 years)
+among employees associated with harbour operations and lowest in our young subsidiary TS Laevad
+(6.6 years). The gender distribution of employees is determined by the company's core activities,
+which are port management and shipping. Men are more likely to seek employment as crew members, quay sailors, and repair workers. As of the end of 2025, the 14-member management team
+of Tallinna Sadam, consisting of the extended management board and managers of subsidiaries,
+includes 5 women, meaning the share of women in management is 33% (2024: 29%). We have set
+a target to increase the proportion of female managers to 45% by 2030. The gender pay gap indicator, i.e., the ratio of women's average hourly wage to men's average hourly wage, was 71% in 2025
+(2024: 70%). The share of women in the company is low, but women work more as top specialists
+and in managerial, higher-paid positions.
+
+At 31 December 2025, 11% of people working in the Tallinna Sadam Group were up to 35 years
+old (2024: 14%). To ensure succession for specialists in higher age groups, we signed a cooperation
+agreement with the Estonian Maritime Academy in 2019, which serves as a basis for promoting
+internships and scientific cooperation; in 2025, we offered internships to 23 students from the Maritime
+Academy and the Maritime School. In addition, another 10 young people from other schools completed
+professional internships at Tallinna Sadam. Future sailors, motormen, and electro mechanicians take
+their first steps at TS Laevad. The quality of the internship experience is born from the cooperation
+of the internship supervisors, the entire vessel crew, and the shore teams who support the interns daily.
+TS Laevad received recognition from the Estonian Employers' Confederation as a Top 3 best regional
+internship provider. The competition recognises employers and students who have stood out
+in internship management and contributed to the development of the Estonian internship culture.
+
+Figure 14. Age distribution of AS Tallinna Sadam employees
+
+Figure 15. Gender distribution of AS Tallinna
+Sadam employees at 31 December 2025
+
+125
+
+100
+
+75
+
+83
+61
+
+50
+
+Total 425
+employees
+
+72
+
+52
+25
+
+0
+
+19
+7
+< 30
+
+Women
+
+17
+30–39
+
+31
+
+33
+
+40–49
+
+50–59
+
+Men
+
+22
+60–69
+
+16
+≥ 70
+
+27%
+
+Women
+
+73%
+
+Men
+
+
+=== pdf p.36 ===
+36
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7.1.5 Remuneration principles
+
+7.1.6 Training and skills development
+
+The objective of Tallinna Sadam's remuneration system is to ensure fair, transparent, and competitive compensation that supports the recruitment, retention, and motivation of qualified employees
+and is consistent with the company's values — the principles of openness, smartness, and reliability.
+The remuneration principles are public to all employees, but individual salaries remain confidential.
+
+Tallinna Sadam supports the continuous professional development of its employees to ensure
+the efficient and safe performance of work tasks and adaptation to a changing work environment
+and industry requirements. Training activities are based on the company's strategy, the development
+trends of the fields of activity, and the specific needs of units and employees. Priority training areas
+include professional competences, information security and IT, management and cooperation skills,
+the financial and economic sector, business and infrastructure development, as well as harbour
+management and environmental protection.
+
+An employee's total remuneration consists of monetary and non-monetary components, including
+base salary, performance fees, recognition measures, and benefits supporting employee development and well-being. Base salaries are reviewed once a year, assessing the employee's skills,
+responsibility, and workload, and comparing the salary with the median level of the salary market.
+Employee labour costs for the period 2021–2025 are presented in figure 13.
+The goal of the performance fee system is to ensure that employees' individual and team targets
+are in line with the company's strategic directions and the principles of responsible business.
+Each year, 3–6 main targets are set for the Group, along with individual sub-targets for employees.
+The main targets include the company's economic and operational goals as well as Tallinna
+Sadam's most important development projects. Their fulfilment affects the size of the employees'
+performance fees.
+As a rule, the fulfilment of the Group's main targets constitutes 60% of an employee's performance
+fee, while the fulfilment of individual targets accounts for 40%. Employee performance is assessed
+by the responsible managers according to established performance management principles.
+Assessments are performed once a year in connection with the approval of the annual report.
+Tallinna Sadam offers employees additional benefits, including training, coverage of travel expenses,
+health and well-being allowances, and other measures supporting professional development and
+working conditions.
+
+Training needs are assessed regularly during performance interviews, based on which the personnel
+department consolidates the information received from managers and plans group training and development programmes. Various forms of learning are used to develop employees, including internal
+training, open courses, and independent learning.
+Tallinna Sadam primarily finances professional training directly related to the employee's position
+and competence needs. Training applications are approved if the training supports the unit's goals, is
+necessary for the employee's work, and corresponds to training priorities and the budget. The impact
+of the training and the application of what has been learned is monitored by the employee's direct
+manager and is assessed, among other things, during the annual performance interview.
+In 2025, employees in the Tallinna Sadam Group participated in an average of 13.4 training hours.
+At TS Shipping, team training remains a consistent focus. In 2025, regular training days took place
+at sea to ensure operational readiness, and a helicopter drill was also conducted on the Botnica.
+Systematic contributions were made to the training of the crew and interns. To simplify daily work,
+a digital quality management system was implemented, and laptops and tablets were added for
+the crew's use. As a result, workflows and information exchange were significantly simplified, and
+the volume of paper documents decreased.
+Training was conducted for TS Laevad employees to support employee development and ensure
+compliance with industry requirements. Service sector employees completed the training ‘Coping
+with difficult customers and own emotions’. Employees coming into contact with vehicles in their
+work completed traffic controller training, and office employees completed team cooperation training.
+
+
+=== pdf p.37 ===
+37
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7.1.7 Occupational health and safety
+Occupational safety is one of Tallinna Sadam's main priorities. Approximately 40% of the workforce
+consists of office workers, whose main work environment risks are related to low mobility resulting
+from forced positions and working with computers. The remaining 60% of employees are engaged
+in high-risk work, such as working at heights or at night, as well as performing hot work, operating
+hazardous equipment (e.g. gangways, ramps), and handling equipment located on vessels, quays,
+and in passenger terminals.
+We constantly analyse work environment risks and improve working conditions, taking into account
+employees' suggestions for modernising workplaces. We regularly direct employees to health checks,
+ensure awareness of work environment hazard factors and protective measures, procure personal
+protective equipment and aids, and promote a healthy lifestyle. In addition, internal occupational
+safety inspections are regularly carried out in the company's harbours, during which the compliance
+of the work environment with safety requirements is assessed and potential improvement needs
+
+are identified. An occupational accident is considered any health damage to an employee that occurs
+while performing work tasks. In 2025, we registered one occupational accident in which an employee
+sustained an injury while performing work tasks.
+We consistently organise occupational safety training for both new and existing employees, according
+to the risks of their field of work. Training includes, among others, training for working at heights, first
+aid providers, fire safety, and forklift drivers, as well as training for work environment commissioners.
+In addition, we use an e-learning environment that enables safety inductions and knowledge testing
+to ensure better accessibility and reporting of training. A digitalised solution for issuing personal
+protective equipment and work clothes has also been developed.
+These solutions have helped improve the accessibility of occupational safety information, simplify
+the management of training and personal protective equipment, and increase employee awareness
+of occupational safety requirements and risk prevention.
+
+Table 8. Coverage by the occupational health and safety management system is 100% of employees
+Total
+Coverage by the occupational health and safety management system
+
+425
+
+Work-related injuries
+
+1
+
+Work-related fatalities
+
+0
+
+Incidents of discrimination
+
+0
+
+Number of complaints submitted by own workforce
+
+0
+
+
+=== pdf p.38 ===
+38
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7.2 S2 Workers in the value chain
+We have a broad customer base, which largely consists of the Republic of Estonia and large
+international companies, several of which are listed on various stock exchanges. Tallinna Sadam's
+largest customers are passenger vessel operators, cargo terminal operators, and the Republic of
+Estonia through contracts for ferries and the multi-purpose vessel Botnica. The value chain also
+includes suppliers, i.e. various construction companies, utility providers, service partners, etc.
+
+7.2.1 Material impacts, risks, and opportunities
+With regard to workers in the value chain, health and safety, as well as training and skills development, were identified as primary positive impacts. Tallinna Sadam has established clear occupational
+safety requirements for cooperation partners, arising from both contractual agreements and international norms and standards. In the shipping sector, safety practices exceeding legal minimum
+requirements are applied in several cases, the impact of which extends across the entire value chain.
+The implementation of these principles is supported by regular cooperation and supervision of partners, aimed at preventing occupational safety risks and ensuring a uniform safety culture throughout
+the value chain.
+In addition, joint exercises and training sessions are conducted in cooperation with partners and
+customers, supporting lifelong learning and contributing to the development of the skills and
+knowledge of value chain workers in both shipping and harbour operations. Through training and
+joint exercises, awareness of safety requirements is increased and the risk of occupational accidents
+is reduced, thereby supporting both employee well-being and the quality of services throughout
+the value chain.
+Risks related to negative impacts on workers in the value chain are primarily associated with insufficient training of the cooperation partners' employees, which may result in occupational accidents
+and subsequent financial loss. To mitigate this risk, Tallinna Sadam sets minimum requirements
+for the competence and training of partners' employees and encourages participation in joint training
+and exercises to improve safety awareness and readiness.
+An additional risk identified was the lack of adequate wages in value chain companies, which may
+lead to the partners' inability to ensure the necessary workforce and thus to the non-fulfilment
+of contractual obligations. To manage this risk, Tallinna Sadam considers the ability of cooperation
+
+partners to fulfil contractual obligations and assesses risks related to workforce sustainability when
+selecting partners. If necessary, topics related to workforce and service continuity are addressed
+in contractual terms and in cooperation with partners, with the aim of reducing the risk of service
+interruptions and financial losses throughout the value chain.
+
+7.2.2 Policies, measures, and targets
+Tallinna Sadam considers workers in the value chain an essential part of ensuring the quality, reliability, and safety of its services. Although value chain workers are not direct employees of Tallinna
+Sadam, their working conditions, competence, and safety awareness directly affect the smoothness
+of harbour operations and the ferry service, occupational safety, and the quality
+of services provided to customers and end-users.
+The central goal in managing the social impact related to value chain workers is to ensure that
+agreed principles of occupational safety, health, and competence are followed throughout Tallinna
+Sadam's value chain and that the risk of occupational accidents is minimised.
+Targets:
+• ensure a high level of occupational health and safety throughout the value chain;
+• shape a common safety culture among cooperation partners and service providers;
+• support the competence and readiness of value chain workers through training
+and joint exercises;
+• reduce the risk of occupational accidents, environmental and other incidents, service
+interruptions, and associated financial and reputational damage.
+The sustainable development goal is 0 serious occupational accidents and 0 serious incidents.
+Cooperation and measures in the field of safety and security, including skills development, are
+addressed in section 8.1.4.
+Tallinna Sadam monitors the risk of inadequate wages for value chain workers, although we lack realistic means to influence it. In cooperation agreements, we have stipulated minimum requirements
+for the workforce and monitor their fulfilment.
+The goal for the coming years is to develop and implement a set of business continuity measures
+across the value chain in Tallinna Sadam's harbours for the export and import of strategic goods
+and by TS Laevad to ensure the ferry connection.
+
+
+=== pdf p.39 ===
+39
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7.3 S3 Affected communities
+Affected communities are primarily the residents and businesses in the immediate vicinity
+of the harbours' and the operational areas of shipping companies. From the perspective of affected
+communities, sustainable development priorities include quality public space and regional development, cooperation with stakeholders, as well as access to services. The targets, in turn, include
+integrating port areas with an attractive urban space, ensuring fast and convenient access and
+smooth traffic flows, the construction of light traffic paths, and the involvement of stakeholders
+in the decision-making process.
+
+7.3.1 Material impacts, risks, and opportunities
+
+a stage. Such opposition can cause project delays, additional costs, and the need to make changes
+to original development plans, having a negative impact on both the company's financial results
+and reputation.
+To mitigate this risk, Tallinna Sadam applies principles of early and consistent involvement, cooperating with local governments, communities, and other interest groups. The goal is to ensure the
+transparency of developments, take local interests into account, and reduce the risk of social tensions arising already in the planning phase.
+In addition, impacts on land were identified as a material negative topic, including issues related
+to access to resources and infrastructure and the potential impact on communities' use of space.
+Examples include issues related to access solutions in the area of Saaremaa Harbour and in the vicinity
+of Nuudi Road near Muuga Harbour, where harbour operations and infrastructure developments may
+affect the movement possibilities and land use of local residents.
+
+With regard to affected communities, issues related to accessibility, including the generation
+of traffic loads and congestion resulting from harbour operations and cargo flows, were identified
+as material negative impacts. The daily functioning and development activities of the harbours may
+affect the mobility of local residents, access to the living environment, and public infrastructure,
+which has a direct impact on the well-being and quality of life of communities, especially in areas
+in the immediate vicinity of the harbours.
+
+The management of these impacts is based on the requirements of planning and environmental procedures, as well as cooperation with local governments and communities, to find a balance between
+the development needs of the harbours and the preservation of the local living environment and
+cultural space.
+
+To mitigate these impacts, Tallinna Sadam cooperates with local governments and other parties
+to plan and implement traffic management solutions, build light traffic paths, and public transport
+connections to reduce congestion and improve accessibility around the harbours. The aim of the mitigation measures is to balance the needs arising from harbour operations with the interests of local
+communities and the preservation of the living environment.
+
+7.3.2 Policies, measures, and targets
+
+Issues related to community involvement in the planning and implementation of new developments
+were assessed as a financially material risk. Development projects may meet with opposition
+from local residents and communities, especially if involvement is insufficient or occurs at too late
+
+One of the central themes in our business activities and future plans is awareness of sustainable
+development principles and sharing our knowledge, as well as addressing the impact of our fields
+of activity on society. As a port authority operating in six different local government units, we
+have a responsibility to local communities. We also cooperate with interest groups in international
+organisations. We participate in several working groups aimed at increasing the competitiveness
+of maritime and logistics in our region.
+
+
+=== pdf p.40 ===
+40
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7.3.3 High-quality public space and regional development
+High-quality public space as a sustainable development goal is primarily related to the Old City
+Harbour area. Tallinna Sadam is shaping Old City Harbour into a natural part of the heart of
+the capital, where the sea, the port, vessels, movement, and greenery meet. Harbour operations
+are integrated with a modern and attractive urban space so that passengers arriving by ship,
+as well as city citizens and visitors, feel comfortable in the area. As a result of the development
+being carried out in stages and in cooperation with the community, an area that has been closed
+to many until now will open to everyone, and new activities will bring city life to the port. Promenades, parks, and seaside movement paths will be built, public transport and light traffic connections
+with the city centre will be improved, and opportunities for cultural and health-supporting events
+will be created. In 2025, 40% of the public area of Old City Harbour has been enhanced; the goal
+for 2030 is 50%.
+
+Molumba OÜ architects´ conceptual design for the renovation of the A-terminal at the Old City Harbour
+
+The next project for enhancing the Old City Harbour area is related to the terminal A quarter. In 2025,
+the design of the terminal A quarter continued, which includes the construction of a new terminal A
+along with the buildings and facilities necessary for port functions. Public transport stops (tram, bus)
+and a bicycle parking area are also provided; parking for cars (including taxis) is planned predominantly on an underground floor or in a parking house. In December 2024, a tramline was completed,
+allowing passengers and port visitors to choose a more environmentally friendly way of moving from
+the port to the city and vice versa. An important goal is also the creation of a new high-quality public
+space around the passenger terminal A, an essential part of which is a continuous linear promenade.
+In March 2025, cooperation with the ‘Sadama asum’ (Port district) gained momentum when Tallinna
+Sadam organised the first meeting directed at businesses and residents of the district, held at
+the Old City Harbour cruise terminal. This event was the starting point for shaping a broader form
+of cooperation in resolving issues binding the port and the local city district and promoting dialogue.
+
+Conceptual design of the Tallinna Sadam's new office building at the Old City Harbour
+
+
+=== pdf p.41 ===
+41
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+At the meeting, the history of the port and development plans were introduced, and cooperation
+opportunities were discussed, taking into account both business and community perspectives.
+In 2025, four ‘Sadama asum’ events took place. The district includes, in addition to the Old City
+Harbour area, for example, the Tallinn University campus, the Rotermann quarter, and several
+cultural and business points, which is why the need for cooperation is broad-based.
+
+by making bicycle routes from cities to ships and vice versa more convenient. In 2025, we have
+continued with the implementation of the projects. For example, from the perspective of affected
+communities and end-consumers, the development of light traffic paths and the creation of more
+convenient waiting areas and check-in solutions for passengers traveling with bicycles have been taken into focus. In 2025, the number of ship passengers with bicycles in Old City Harbour was 9,749.
+
+Together with stakeholders, we celebrated the 35th anniversary of the Tallinn–Stockholm shipping
+line and the 60th anniversary of the Tallinn–Helsinki line. For the 60th anniversary of the reopening
+of the Tallinn–Helsinki shipping line, we organised an enjoyable public event at Old City Harbour, the
+central part of which was a grand open-air memory game, which may have been one of the most
+crowded of its kind in Estonia.
+
+In November 2025, we initiated green cooperation with the Port of Stockholm, i.e. Swed-Est Green
+Collaboration. Its goal is to promote environmentally friendly and fossil-fuel-free port services
+in the ports of Tallinn and Stockholm, as well as Paldiski South Harbour and the Port of Kapellskär,
+and to offer future-proof, sustainable solutions to passengers and cargo hauliers. The memorandum
+includes a series of specific projects and activities in all four ports to implement common goals.
+
+In September, the maritime economy month took place, as part of which we organised visits for
+maritime enthusiasts to Muuga Harbour, Old City Harbour and Paldiski South Harbour together with
+our customers.
+
+In the Green Tiger project, we cooperate with various Estonian companies to increase awareness
+of green changes and strive for a balanced economic model. In 2025, the Green Tiger main roadmap
+was prepared, which consolidates five sectoral roadmaps (energy, transport, construction, land use,
+and industry and circular economy) and provides guidelines for both the state and the private sector
+on how to achieve a shift in Estonian society towards a balanced economy. According to the vision
+of a balanced economy, electricity is produced in a distributed manner and from renewable sources;
+buildings and grids communicate, and smart consumption and storage keep the system in balance.
+Transport seamlessly connects public transport, light traffic, and demand-based solutions; supply
+chains are transparent and efficient.
+
+Captains' benches and a marker for the historical location of the Estonian Maritime Museum were
+added to the public space of Old City Harbour, valuing the maritime heritage of the port and the city.
+Additionally, Jazzkaar urban space projects took place in the spring.
+A focus of sustainable development is, among other things, the enhancement of traffic safety and
+the reduction of vehicle waiting times to ensure fast access and passability. Through the Smart
+Port application, we monitor the average waiting time of vehicles in the port area. By 2030, we
+have set a goal that the waiting time should not exceed 45 minutes. In 2025, it was 65 minutes for
+passenger cars and 99 minutes for trucks. Shorter idling saves both emissions released into the air
+and unproductive time, and provides an opportunity to enhance the large-scale parking areas used
+until now.
+To reduce the traffic load in Old City Harbour and the city centre, Tallinna Sadam has focused on
+directing the growth of heavy-duty vehicles from the Old City Harbour ferry lines to cargo ports,
+i.e. to the ro-ro lines visiting Muuga Harbour and Paldiski South Harbour, as addressed in section
+6.3.3.
+Cooperation with other ports, shipping companies, research institutions, and other partners is
+essential for implementing the goals. In October 2024, the steering committee of the FIN-EST
+Green Corridor cooperation project between the ports and cities of Tallinn and Helsinki and shipping
+companies took an important step towards promoting climate-neutral maritime transport and port
+services by confirming a list of 19 joint projects. These include, for example, various studies for
+the adoption of green fuels and carbon capture, developments of zero-emission infrastructure in
+ports, improvement of waste management to increase recycling by ensuring better sorting possibilities for waste generated by both vessels and passengers, and the promotion of bicycle tourism
+
+In 2025, Tallinna Sadam deepened its cooperation with universities through several practical and
+applied projects focusing on mobility, access to the port, the quality of urban space, and maritime
+innovation. On 26 June 2025, Tallinna Sadam and Tallinn University signed a framework agreement
+aimed at improving mobility solutions in the ‘Sadama asum’. The cooperation includes research into
+urban space and mobility, where students and researchers work on developing movement routes
+between the port and the city. Special attention is paid to the user experience of pedestrians and
+better coherence of different modes of movement.
+Cooperation also continued with the Estonian Academy of Arts (EKA) as part of the international
+study project ‘From the Gate to the City’. EKA students worked together with Aalto University students, focusing on the role of the ports of Tallinn and Helsinki in the urban space when noticing
+heritage. During the project, movement routes between the ports and urban space, the cultural
+significance of port areas, accessibility, and spatial quality were analysed, and proposals were
+developed for better integration of ports with the urban environment. The project was implemented
+in cooperation with Tallinna Sadam, the Port of Helsinki, and the ICOMOS University Forum.
+In addition, Tallinna Sadam actively cooperates with TalTech and the Estonian Maritime Academy
+in the field of maritime innovation. At the MarineHäkk 2025 hackathon, organised by the TalTech
+Estonian Maritime Academy and the TalTech Centre for New Entrepreneurship, the focus was on
+
+
+=== pdf p.42 ===
+42
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+the challenge of retrofitting vessels — upgrading existing vessels to reduce emissions and increase
+energy efficiency. Tallinna Sadam supported the event with a prize fund, encouraging cooperation
+between universities and companies and the development of technology-based solutions in the maritime sector.
+
+7.3.4 Access to services
+
+Tallinna Sadam also contributes to community life through various social and charitable initiatives.
+Traditionally, we organise a donor day in cooperation with the Blood Centre, in which Tallinna Sadam
+employees, cooperation partners, and other voluntary blood donors participate.
+
+Accessibility to the service is an important focus of sustainable development and an area of impact also
+from the perspective of ferries. Although the trips for the connection to the main islands are ordered
+by the state, we cooperate with the local governments of the islands in designing specific schedules
+to take the needs of local residents and businesses into account as well as possible. Inevitably, the
+demand for travelling to the islands fluctuates and depends on the season, days of the week, and times
+of day. To assess the accessibility of the service, in addition to customer feedback, we also monitor
+the annual average number of lane metres left behind by the ferries. We have set a target that this
+indicator should not exceed 12 m by 2030. In 2025, the corresponding figure was 16.5 m, which is
+higher than the previous year. The indicator was primarily affected by the increase in the number of
+passengers and vehicles on the ferry lines and the state's decision not to increase the number of trips.
+
+As part of the ‘Annetame Aega’ (Donate Time) call, the Tallinna Sadam mixed choir ‘Laulude Lemmik’
+(consisting of our current and former employees and partners) brought Christmas joy to the residents
+of the Nõmme Social House. The choir performed, and after the concert, a sing-along with the residents
+and a conversation and snack table took place.
+
+Tallinn Maritime Days 2025
+
+TS Laevad cooperates with the tourism associations of Hiiumaa and Saaremaa, local governments, and
+businesses to promote local life and ensure the connection between the main islands and the mainland.
+
+The ferry Tiiu in port
+
+
+=== pdf p.43 ===
+43
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+7.4 S4 Consumers and end-users
+The end-users of the Tallinna Sadam Group are passengers moving through the ports, port visitors,
+and domestic ferry passengers. The sustainable development priorities affecting end-users are
+related to access to services and information, as well as health, safety, and security, and high-quality
+public space.
+
+7.4.1 Material impacts, risks, and opportunities
+With regard to end-users, access to services was identified as a doubly material positive impact.
+Access to quality information, as well as health and safety and personal security when consuming
+the service, were identified as material positive impacts.
+
+In the field of health, safety, and personal security, a positive impact is manifested for end-users
+through ensuring a safe and secure environment in the ports and port-related areas. Tallinna Sadam
+pays attention to traffic safety, the safety of promenades and public areas, and seasonal risks, including snow and ice control. Security is also ensured in the Muuga free zone, Paldiski South Harbour and
+the Old City Harbour area by implementing corresponding security measures and supervision. The aim
+of these measures is to prevent accidents and ensure a safe service experience for end-users.
+
+7.4.2 Policies, measures, and targets
+The social dimension of Tallinna Sadam's sustainable development strategy is based on the principle
+that, in addition to their economic role, ports are also important providers of public space, connectivity,
+and security of supply. From the perspective of end-users, this primarily means ensuring the availability, safety, and security of services and a high-quality visitor experience.
+
+A doubly material positive impact resulting from the activities of the Tallinna Sadam Group is manifested for end-users primarily through access to services, which plays a central role in the provision
+of vital services. TS Laevad enables a regular shipping connection between the main islands and
+the mainland, ensuring movement opportunities for island residents and visitors and uninterrupted
+supply of goods necessary for life, including food, medicines, fuels, and other essential goods. Such
+connectivity is of critical importance from the standpoint of the functioning of the regions, social
+cohesion, and the well-being of the residents.
+
+The objective related to end-users is to ensure the reliability and continuity of services, maintain
+a high level in safety and security indicators, and provide a high-quality and accessible service that
+strengthens the role of Tallinna Sadam and its subsidiaries as providers of reliable connectivity and
+security of supply. The fulfilment of these objectives is assessed through service continuity, safety indicators, system reliability, and customer satisfaction.
+
+In addition to vital services, Tallinna Sadam's activities support the import and export of strategic
+goods, which takes place through the ports and is important for both the country's security of supply
+and the functioning of the economy. Trade through the ports helps ensure the functioning of supply
+chains and broadly supports the Estonian economy and security.
+
+7.4.3 Access to services and information
+
+A positive impact is also manifested in enabling the movement of people by sea, including through
+passenger and ferry traffic. The ports create the prerequisite for international and domestic connectivity, supporting movement for work, tourism, and private purposes. Tallinna Sadam ensures access
+to services through the development and management of port infrastructure and in cooperation with
+shipping companies and other partners, aimed at ensuring the reliability and continuity of services
+even in extraordinary situations.
+Furthermore, access to high-quality and up-to-date information, including vessel schedules and
+information related to the conditions of passenger transport and use of services, is important for
+end-users. Operational information is available primarily through web-based channels and supports
+passengers' informed choices and the smooth use of services. Although the impact is assessed
+as relatively minor, it is direct and extends partially across the value chain, also including service
+providers and other parties.
+
+Tallinna Sadam's policy towards end-users focuses on ensuring the continuity of vital services, creating
+a safe and secure environment, and providing accessible and high-quality information. The functioning of the connection between the main islands and the mainland is part of the national security
+of supply, which is why the company treats the ferry connection and the movement of strategic
+goods as a service of critical importance. Similarly, Tallinna Sadam's ports play an important role
+in ensuring the export and import of strategic goods and enabling the movement of passengers.
+To ensure this, port infrastructure is consistently developed and maintained, and cooperation
+is carried out with shipping companies, state agencies, and other partners. The goal for the coming
+years is the systematic establishment and implementation of a set of business continuity measures
+in Tallinna Sadam's harbours for the export and import of strategic goods and to ensure the uninterrupted functioning of the ferry connection by TS Laevad.
+Development of the visitor experience and service culture also holds an important place. Tallinna
+Sadam sees itself as the gateway to Tallinn and Estonia, being the first and last contact with
+the country for many visitors. Based on this responsibility, a ‘Service Compass’ has been created,
+
+
+=== pdf p.44 ===
+44
+
+SUSTAINABILITY REPORT 2025
+S • Social Information
+
+which consolidates the principles of good service and guides employees and partners to provide
+professional, hospitable, and respectful service. Common expectations for companies operating
+in the port area are formulated in the Port Community Code of Conduct to shape a uniform service
+and safety culture throughout the port community.
+In 2025, we conducted a survey among passengers at Old City Harbour with the help of the Rait
+Faktum research company. The main objective of the study was to determine the evaluations of
+passengers passing through Old City Harbour concerning the visitor experience, collect feedback on
+existing services, and identify expectations for the services offered at Old City Harbour. Additionally,
+we asked about passengers' expectations for sustainable travel services. Based on the study, the
+visitor experience at Old City Harbour as a whole is very good across all terminals and target groups.
+In terminal A, 23.8% rated the experience as ‘very good’ and 72.5% as ‘good’; in terminal D, 61% as
+‘very good’ and 39% as ‘good’. Among passengers travelling by car, 48% considered their experience
+‘very good’ and 50% ‘good’. There were no negative ratings.
+In all groups, the terminals were rated as clean, safe, and the services well-organised. Ticket gates,
+self-service kiosks, and checkout service were highly rated; car passengers highlighted good organisation and the helpfulness of staff. Accessibility works well — people come to the port mainly
+on foot or by public transport. Individual comfort and service elements were highlighted as areas
+for improvement: the functioning of the children's area, the Wi-Fi quality in terminal D, and the need
+for practical additional facilities (tourist info, luggage trolleys, silence cabins, better availability
+of Estonian design and souvenirs).
+Environmental issues are important to passengers. At the same time, interest in information about
+their CO₂ footprint is moderate, and the willingness to pay a surcharge for a greener choice is rather
+low.
+Additionally, passengers at Old City Harbour can provide feedback year-round by logging into
+the Wi-Fi network. On a 6-point scale, the rating for the experience of staying at the port in 2025
+was 5.45, the quality of service was rated at 5.13, and the general order at 5.18. The rating was
+given by 51,390 people.
+TS Laevad consistently contributes to the development of services; for example, in 2025, the
+children's playrooms on the ferries Piret and Tõll on the Saaremaa line were updated and relocated
+to offer families a more comfortable and safer travel environment. The update of children's rooms
+on the Hiiumaa line will take place in 2026. The Net Promoter Score (NPS) among ferry passengers
+in 2025 was 79.1%, which is the best satisfaction result in the history of TS Laevad's operations.
+
+Alongside access to services, great attention is paid to access to information. Both Tallinna Sadam
+and ferry passengers are provided with up-to-date and operational information about vessel
+schedules and travel conditions primarily through web channels. Customers also receive timely
+info about the schedule and its changes, and the conditions prevailing in the port and on the
+vessels, depending on the need for info sharing, at the ports, on vessels, and through social media
+channels and direct communication. For passengers with special needs, information has also been
+shared through the Estonian Chamber of Disabled People. Taking feedback into account, TS Laevad
+developed its e-ticket booking system in 2025, changing the logic for displaying sold-out trips
+to reduce the misleading impression of a total lack of tickets and increase transparency and ease
+of use. Such developments support informed travel choices and improve the service user experience.
+The protection of confidential data is very important from the perspective of both Tallinna Sadam
+and TS Laevad. The goal is that we do not have any information security incidents with a high
+impact. In 2025, an information security compliance audit was conducted. The audit found no
+observations with high or greater risk, and no high-impact information security incidents occurred.
+
+7.4.4 Health, safety, and security
+In the field of safety and security, the goal is to ensure the safety and security of all persons operating and present in the port areas. To this end, risks of dangerous situations are regularly assessed.
+All incidents occurring at the port are registered, analysed, and safety measures are updated accordingly. Readiness for various situations is also practiced in exercises. Smart surveillance and access
+systems are used for the guarding and protection of port areas, and attention is paid to traffic safety,
+maintenance of public areas, and seasonal risks, including snow and ice control. We have set a goal
+to minimise interruptions of critical surveillance systems by implementing system monitoring capabilities.
+The security of the Muuga free zone and Old City Harbour is ensured in cooperation with competent
+authorities by implementing technical and organisational security measures. In addition, personal
+data is protected, and employees' information security awareness is raised through regular training.
+The increase in safety and awareness is also supported by annual maritime safety days on TS Laevad's
+ferries, where, in cooperation with the police and volunteers, knowledge about maritime security is
+shared and the importance of wearing a life jacket is emphasised.
+Safety and security are described in more detail in section 8.1.4.
+
+
+=== pdf p.45 ===
+45
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+8 G Governance Information
+Governance model and administrative, management, and supervisory bodies
+The Management Bodies of Tallinna Sadam are the General Meeting of Shareholders,
+the Supervisory Board, and the Management Board. In their activities, the Supervisory Board
+and the Management Board are guided by the company's strategy, values, current legislation,
+and the principles of the Good Corporate Governance Code. The objective of the management
+system is to ensure transparent, reliable, and sustainability-oriented corporate governance.
+
+The role of the Supervisory Board in sustainability management
+The Supervisory Board directs the strategic management of the Group, confirms targets and development trends, and exercises supervision over the activities of the Management Board. As part of
+its work plan, the Supervisory Board addresses risks related to the Group's core activities and focus
+themes arising from regulations, including sustainability and climate-related factors, and monitors
+the implementation of strategic projects. At least half of the members of the Supervisory Board
+(at 31 December 2025, 5/7, including the chairman of the Management Board) are independent,
+which supports the objectivity and balance of supervision.
+
+The role of the Management Board in sustainability management
+The Management Board is responsible for the implementation of the company's strategy,
+day-to-day management, and the fulfilment of sustainability and climate-related targets.
+The Management Board regularly provides the Supervisory Board with overviews of the Group's
+performance indicators, risks, safety, personnel and working conditions, environmental impacts,
+and other sustainability aspects important for strategic and investment decisions. Sustainability
+information is presented to the Supervisory Board together with financial and risk management
+reports.
+To ensure the sustainability competence of the management bodies, regular overviews of the
+company's sustainability and climate-related targets, risks, and major regulatory developments
+are presented to the Supervisory Board and the Management Board. If necessary, the competence
+of the management bodies is supported with additional information to ensure that sustainability
+topics are considered in the company's strategy and activities. The chairman of the Management
+Board is a member of the Supervisory Board of the Green Tiger, a cooperation platform for environmentally conscious companies, contributing more broadly to the implementation of sustainable
+goals to increase social awareness of green changes and strive for a balanced economic model.
+
+
+=== pdf p.46 ===
+46
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+The role of the Audit Committee and internal audit
+The Audit Committee supports the Supervisory Board by monitoring the performance of risk management, internal control, and reporting systems, and by assessing the reliability of the presented
+financial and non-financial information, including sustainability indicators.
+The internal audit unit regularly provides the committees and the Supervisory Board with overviews
+of risks, control measures, and conclusions. The internal audit department provides an independent
+and objective assessment of the performance of Tallinna Sadam's management, risk management,
+and internal control systems and supports the Management Board and the Supervisory Board in
+ensuring transparent and responsible management. Additionally, the internal audit department deals
+with ethics, manages the whistleblowing hotline, and processes incoming tips. To prevent corruption
+risks, the internal audit organises the process of declaring the business interests of management
+bodies and key persons. An overview of the conclusions and recommendations of the internal audit
+and their implementation is regularly provided to the Audit Committee and the Supervisory Board.
+
+Dialogue between employees and management bodies
+Regular dialogue with management takes place through employee representatives and occupational
+safety commissioners. The Management Board systematically receives overviews of working conditions, the personnel situation, and employee satisfaction, and important topics are made available
+to the management bodies, if necessary. Feedback from employees concerning management and
+other topics takes place regularly through employee satisfaction surveys, which are addressed
+in section 7.1.2.
+
+Remuneration principles and performance fees
+of the Management Board
+The Remuneration Committee addresses the principles of remuneration for members of the
+Management Board, their annual targets, and contractual terms, and ensures that the remuneration
+of the Management Board is consistent with the achievement of the company's strategic goals.
+The performance-based remuneration of the Management Board is based on Tallinna Sadam's
+performance management system, under which the Group's main targets and the individual targets
+of the members of the Management Board are set each year. The main targets include economic
+and operational results and the company's strategic development projects, including the achievement of sustainability and climate-related targets. The fulfilment of sustainability and climate
+indicators is part of the assessed performance, which directly affects the Management Board's
+performance fee.
+Typically, the fulfilment of the Group's main targets constitutes 60% of the Management Board's
+performance fee and the fulfilment of individual targets 40%. The fulfilment of targets is assessed
+by the Remuneration Committee, and the Supervisory Board makes decisions on the payment
+of performance fees in connection with the approval of the annual report.
+Due to the restrictions established in the State Assets Act, Tallinna Sadam does not have long-term
+bonus systems, and the existing short-term bonus system is not linked to Tallinna Sadam's shares
+or share-related instruments.
+
+
+=== pdf p.47 ===
+47
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+8.1 G1 Business conduct
+8.1.1 Material impacts, risks, and opportunities
+For Tallinna Sadam, innovation and digitalisation are important management topics identified during
+the double materiality assessment, primarily as positive opportunities to support the company's
+business model and long-term competitiveness. As a positive opportunity, Tallinna Sadam's activities
+have an impact through the development of innovative and digital-based solutions, including the use
+and further development of Smart Port systems. An additional opportunity identified is the potential
+future adoption of autonomous and self-driving vessels and related technologies. Innovation is also
+treated as an opportunity in areas with the potential to support the company's strategic goals and
+sustainability targets, including the adoption of alternative fuels, carbon capture solutions, selfdriving vehicles, onshore power supply (OPS), and automated mooring devices.
+Relationship management with suppliers, including payment practices, was also assessed as doubly
+material, having a positive impact on both the functioning of the supply chain and the reliability
+of cooperation partners.
+Management-related aspects associated with the effectiveness of risk management, compliance
+with regulatory requirements, ensuring safety, and relationship management with customers and
+suppliers were identified as risks that, if realised, could have a negative impact on Tallinna Sadam's
+activities, financial position or reputation.
+
+8.1.2 Corporate culture and business conduct policy
+At the heart of Tallinna Sadam's strategy is the fulfilment of the company's vision — to be the most
+innovative port on the Baltic Sea — meeting the expectations of the owners and the dividend
+promise, promoting a high business culture, and ensuring sustainable development. The company
+operates as a modern maritime gateway to the Baltic Sea, combining the service of goods and passengers, shipping, and seaside real estate development into a single logistical whole.
+Corporate culture is closely linked to strategic goals and is expressed in day-to-day management,
+decision-making processes, and relationships with stakeholders. Tallinna Sadam's activities are
+guided by three core values: openness, smartness, and reliability.
+Openness — readiness to listen to communities, share information honestly, and test new ideas
+and approaches.
+Smartness — the ability to make the right decisions at the right time, find and implement innovative
+solutions that increase the company's competitiveness.
+Reliability — keeping promises, professionalism, high-quality work, and a respectful attitude
+towards employees, customers, and cooperation partners.
+Tallinna Sadam considers value-based management and responsible and sustainable business
+activities important. The organisational culture values expertise, caring, and social responsibility,
+which serve as the basis for strong trust in society and an international reputation as the carrier
+of Estonia's image as a maritime nation.
+
+
+=== pdf p.48 ===
+48
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+8.1.3 Innovation and digitalisation
+Innovation plays an important role in Tallinna Sadam's corporate culture, as it supports the growth
+of the company's competitiveness in the Baltic Sea region and helps achieve strategic and sustainability goals. Through innovation, new technologies, digital solutions, and automation are implemented,
+which increase operational efficiency and profitability and help reduce the environmental footprint
+resulting from the company's activities. The development of innovation is also supported by piloting
+new business projects in cooperation with partners. As a practical example of implementing innovation, Tallinna Sadam participated in Estonia's first BIM-based building permit procedure, resulting
+in the issuance of Estonia's first BIM building permit for a substation to be built near the Old City
+Harbour cruise terminal. This was an important step in the digitalisation of the construction sector,
+which also received the Innovation Project of the Year award and reflects the company's role in testing and implementing innovative solutions.
+Digitalisation also supports Tallinna Sadam's shipping activities. In 2025, electronic logbooks were
+introduced on TS Laevad's ferries, including the MARPOL section, which enables the digital logging
+of data related to oil and waste management. This step helps standardise workflows, improve data
+quality, and support compliance with international environmental requirements according to the
+MARPOL Convention.
+In addition, TS Shipping has contributed to the technological development and digital capability
+of vessels in recent years. Navigation, DP, and technical systems have been updated, and electronic
+logbooks were implemented. To support team development, digital training solutions, including webbased training, are also applied.
+
+
+=== pdf p.49 ===
+49
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+Tallinna Sadam contributes daily to ensuring safety and security in all its business areas. Thanks
+to thorough preventive work, only a few incidents with more serious consequences have occurred
+at Tallinna Sadam over the last ten years. There have been no dangerous situations involving a large
+number of fatalities or injuries.
+In Tallinna Sadam's harbours, a safety management system has been implemented to comply with
+the requirements for water traffic safety and security, environmental protection, and safe handling
+of cargo arising from the Ports Act. As part of the system, a continuous risk assessment of potentially
+dangerous situations takes place, and safety measures are updated as necessary. Harbour safety is
+regulated in more detail in the Port Rules.
+To ensure readiness to act in dangerous situations, exercises are organised regularly, and consistent
+cooperation is carried out with supervisory agencies, local governments, communities, and operators,
+including handlers of hazardous substances operating on the port territory. As part of NATO joint
+exercises and missions, allied vessels also regularly call at Tallinna Sadam's harbours.
+In February, a business continuity exercise was held at the Old City Harbour passenger terminal,
+during which the continuity of passenger service under conditions of an extensive power outage was
+practiced. To ensure local government tasks in conditions of disruption and restoration of a vital
+service, the crisis management procedures, joint activities, and business continuity of Lääne-Harju
+Rural Municipality and vital service providers were practiced during the ‘Kevadmurd’ exercise held
+from 23–24 April. On 3 June, the pollution control exercise ‘Puhas Meri 2025’ took place at Muuga
+Harbour. From 24–30 November, the Defence Forces organised the staff exercise Decisive Lancer
+2025 (DeLa25), during which strategic level management of national defence was practiced.
+The exercise allowed for practicing the organisation of broad-based national defence as a whole,
+requiring participants to respond to both military and hybrid threats while ensuring the business
+continuity of the state's basic functions and the combat capability of the Defence Forces. In addition,
+regular security exercises were carried out in the ports, during which the effectiveness of security
+plans was practiced in various scenarios.
+In 2025, we conducted a total of 11 fire drills, in which operators and cooperation partners participated in addition to Tallinna Sadam employees. In addition, fire safety inspections of six port
+buildings were carried out by a level 5 fire safety specialist. In 2025, two fire incidents occurred
+in the ports, which had no consequences for human health or life and were resolved operationally.
+The purpose of implementing security requirements in the ports is to ensure the safety of vessels,
+passengers, cargo, and people operating in the port areas (including employees) and to prevent
+offences. In all ports belonging to Tallinna Sadam, heightened security requirements arising from
+
+Figure 16. Number of drills
+Number
+
+8.1.4 Safety and security
+
+50
+
+46
+
+40
+
+35
+
+34
+
+38
+
+36
+
+31
+
+30
+
+20
+
+24
+
+20
+
+22
+
+24
+
+3
+
+1
+
+1
+
+1
+
+10
+
+10
+
+11
+
+10
+
+3
+
+10
+
+0
+
+6
+2
+
+1
+
+3
+
+3
+
+3
+
+2021
+
+2022
+
+2023
+
+2024
+
+2025
+
+Crisis management
+
+Pollution control
+
+Fire drill
+
+Security
+
+the ISPS6 Code are implemented based on a security plan founded on a risk analysis carried out
+by the Transport Administration and the Internal Security Service.
+The effectiveness of security measures is tested during regular exercises. Old City Harbour has
+been designated as a national defence object, as a result of which additional security measures
+are implemented there. All our ports are areas with access restrictions, where entry takes place on
+the basis of permits; manned guarding is ensured in the ports, and modern technical surveillance
+systems supporting the ensuring of security are in constant improvement. Based on the State
+Borders Act, all our ports are designated as border crossing points open to international ship traffic,
+where border control is performed by the Police and Border Guard Board.
+
+
+=== pdf p.50 ===
+50
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+During 2025, the Transport Administration conducted full security inspections in all harbours, and
+new security certificates were issued for all security facilities, proving that security requirements
+have been met in Tallinna Sadam's harbours.
+To ensure the safety and quality of the vessel Botnica, TS Shipping has implemented an integrated
+management system that includes the requirements of major international maritime conventions
+(ISM, SOLAS, MARPOL, STCW, etc.) and ISO standards (9001:2015, 14001:2015, 45001:2018).
+In addition, international offshore industry guidelines and best practices are followed. TS Shipping
+is a member of the International Marine Contractors Association (IMCA) and applies IMCA guidelines,
+recommendations, and best practices in its activities. Based on the aforementioned requirements
+and guidelines, approximately twenty different safety and security-related exercises and training
+sessions are organised on the vessel each year. Joint exercises are also regularly conducted to practice
+cooperation between the ship and shore crews.
+
+In June, a joint pollution control exercise ‘Puhas Meri 2025’ was held in Muuga Harbour in cooperation
+with the Port of Tallinn, the Navy, the State Fleet, and Finnish and Swedish partners
+
+TS Laevad applies requirements arising from the ISPS Code to ensure security. To ensure fire safety,
+life-saving and fire-fighting drills take place on the ferries once a week in accordance with SOLAS
+requirements. Various joint exercises are conducted on the ferries in cooperation with the Police and
+Border Guard Board, the Internal Security Service, and the Rescue Board. Part of ensuring business
+continuity is cooperation in crisis management and participation in crisis management exercises.
+A Defence Forces exercise took place on board the ferry Tiiu, focusing on the search and detention
+of a malicious person or group of persons and the search for prohibited items attempted to be
+brought onto the vessel (weapons, narcotics). During the exercise, passenger areas were searched,
+all passengers were checked, and malicious persons were detained. The Military Police Guard
+Battalion participated in the exercise along with partners from law enforcement agencies and allies.
+
+Pollution control exercise ‘Puhas Meri 2025’
+
+
+=== pdf p.51 ===
+51
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+The Western Prefecture, in cooperation with TS Laevad, organised a maritime search and rescue
+(SAR) exercise in the Väinameri Sea and on the coast and in the harbours within the exercise area.
+The exercise was practiced on the passenger ferry Piret in the sea area between Virtsu and Kuivastu
+and at Virtsu Harbour. The objective of the joint exercise was to practice the readiness and mutual
+cooperation of national and voluntary responding maritime rescue units and the passenger ferry
+crew in resolving a maritime rescue incident involving a passenger ferry.
+A scenario was prepared for the participants of the maritime rescue exercise, according to which
+a major accident occurred at sea with the passenger ferry Piret, which was in distress along with
+the 31 passengers on board.
+
+TS Laevad seafarers with mooring lines
+
+11 maritime rescue teams from both the mainland and the islands, as well as the ferry Piret's own
+fast rescue boat, responded to the major accident. In addition, shore support activities, which are
+established in the event of such large-scale accidents, were practiced in the harbour. Among other
+things, searches at sea, water and surface rescue, first aid and transport of casualties, navigation
+and communication, and shore activities were practiced.
+In addition, it has become a tradition to organise Maritime Safety Days on the ferries in the summer
+in cooperation with the Police and Border Guard Board and voluntary rescuers, during which
+the correct use of life jackets is introduced to passengers and other important info on maritime
+safety is provided. In preserving the marine environment and waste management, TS Laevad is
+guided by MARPOL requirements. The entire Safety Management System (SMS) is implemented
+on all TS Laevad vessels, the fulfilment of which is audited annually by the Transport Administration.
+
+Life jacket awareness campaign in cooperation with the Police and Border Guard Board
+
+
+=== pdf p.52 ===
+52
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+8.1.5 Risk management
+In accordance with the risk management framework, we regularly monitor and assess the risks
+affecting Tallinna Sadam's activities, which are divided into three main categories: external environment risks, business area risks, and operational risks. All risks are assigned risk severity levels (low,
+medium, high or extreme) and mitigation measures, which depend on the nature of the specific risk.
+An overview of the principles and methods of managing and mitigating the Group's financial risks
+can be found in note 4 to the annual financial statements.
+Among external environment risks, the Group's activities are most affected by the global unstable
+economy, including potential overheating of the economy, rapid inflation, and economic crisis.
+Risks related to the business activities of our major customers and the low readiness of potential
+customers for investment can have a significant impact, as well as international and European-wide
+restrictive environmental requirements and regulations (European Union Green Deal, including
+the ‘Fit for 55’ climate package, decarbonisation of vessels, etc.), the impact of which is reflected
+in the long term in potential changes in the demand for harbour services and the cost base. We also
+assess potential energy supply interruptions caused by failures and/or energy deficits as a high risk
+(though occurring rarely).
+Great attention is paid to the management of information security risks and ensuring cybersecurity. Much work went into the implementation of the E-ITS information security standard, which is
+mandatory for Tallinna Sadam. The E-ITS main audit held at the end of the year found that Tallinna
+Sadam implements the Information Security Management System (ISMS) systematically and
+at a good level. No findings with a high or critical risk level were found. DDoS attacks were constant in 2025, but their impact was marginal thanks to protection measures. The volume of emails
+containing phishing and malware was very high. In addition, constant scanning of Tallinna Sadam's
+
+systems was carried out from the network, which indicates that a consistent search for security
+vulnerabilities is underway so that they can be exploited. Furthermore, information security training
+is regularly organised for employees, and in 2025, the proportion of employees in the target group
+who had completed it was 98% (2024: 77%).
+The passenger business area is most affected by the decrease in ship calls due to the chartering
+of passenger vessels to other markets because of high fuel prices and the lack of passengers,
+as well as the increase in additional costs related to the implementation of regulations arising
+from European climate policy in maritime transport, which in turn raises the price of the service
+and reduces demand (especially in the cruise business) in the Baltic Sea region. In the cargo area,
+the main risk is the restructuring of supply chains and logistics resulting from the loss of the eastern
+market and general economic policy, due to which certain types of cargo no longer move through our
+harbours. In the real estate area, significant risks are related to the potential delay of local government planning processes and potential litigation. In the shipping area, the greatest risks are related
+to icebreaking services and offshore work, including the failure to find employment during the nonicebreaking period, potential technical problems of the Botnica, and the risk that the state will not
+extend the contract for the provision of icebreaking services after 2032. Among operational risks,
+significant risks are related to the potential decrease in the market value of subsidiaries and significant assets. Other risks related to Tallinna Sadam's activities, including environmental, safety and
+security, compliance, and personnel-related risks, are estimated to remain at either a medium or low
+level (considering risk mitigation measures).
+Climate-related physical and transition risks are addressed separately in the climate risk analysis
+(see section 6.1), which was conducted based on the TCFD framework and the results of which show
+that the impact of climate risks on Tallinna Sadam's activities and assets is assessed as low across
+all time horizons, considering existing mitigation and prevention measures.
+
+
+=== pdf p.53 ===
+53
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+8.1.6 Relationships with customers and suppliers
+Our largest customers are passenger vessel operators, cargo terminal operators, and the Republic
+of Estonia through service contracts for the ferries and the icebreaker Botnica. As end-users
+of the services, our customers also include passengers of the ferries on the Saaremaa and Hiiumaa
+lines, as well as passengers of international ship operators, along with cargo hauliers and owners.
+In customer communication, we follow the principles of openness and involvement. Meetings
+with key customers take place regularly, and at least once a year we introduce Tallinna Sadam's
+important intentions, projects, and investments to customers.
+We monitor customer satisfaction in six customer groups: cargo terminal operators, shipping line
+operators, ship agents, tenants, passengers, and Marina customers.
+
+in a total of 8 procurements (proceedings are ongoing in 2 and proceedings have been terminated
+without a contract in 6). Of the financial volume of concluded contracts, 75% included the relevant
+criteria (2024: 79%).
+Together with our partners, we have set a goal that visitors and passengers feel welcome with
+us and that there is a hospitable culture and sense of place in our harbours and on our vessels.
+In cooperation with shipping companies, we mapped services for passengers in all harbours and
+continued to make the customer journey more pleasant (e.g. toilets in Muuga Harbour, table tennis
+in the Old City Harbour passenger terminal). In March, we participated with the entire Old City
+Harbour community in the ‘Notice, praise, and recognise the service provider’ service mission within
+the framework of Good Service Month.
+
+In 2025, the customer satisfaction index on a six-point scale was 5.22 (2024: 5,38). As part
+of the double materiality assessment, we have also investigated the satisfaction of suppliers and
+other cooperation partners with Tallinna Sadam as a business partner. The corresponding indicators
+were 5.73 and 5.71 on a 6-point scale.
+
+The subsidiary TS Laevad wishes to offer its passengers the best travel experience in Estonia and
+regularly measures the satisfaction of customers using the ferry service based on the Net Promoter
+Score (NPS) methodology. The satisfaction index reached a record level in 2025, being more than
+79.1% (2024: 79%). Passengers are satisfied with the smooth service both in the harbours and
+on the ferries, the convenient ticket sales environment, and the flexibility offered by the e-ticket.
+
+As part of the conducted double materiality analysis, we investigated the contribution of partners
+to sustainable development topics. 63 organisations participated in the survey, including customers,
+suppliers, financiers, public administration agencies, and other cooperation partners. 83% of the respondents have a sustainable development strategy in place or under development, and a large part
+of the companies already disclose sustainability-related information, have assessed the footprint of
+the company and/or products, and have implemented resource efficiency measures in their activities.
+The customer satisfaction survey conducted at the end of 2025 showed that sustainability-related
+ratings remained at the same level compared to the previous period and did not change significantly.
+
+In cooperation with customers and stakeholders of the Group's business areas, several events and
+conferences took place in 2025. The focus of the Paldiski Association of Entrepreneurs' conference
+‘Teistmoodi Paldiski’ was on industrial development. In the presentations and panel discussion
+at the conference, our representatives emphasised that the prerequisite for the progress of
+the Estonian economy is a stable and predictable course of development, especially in the case
+of energy policy, to create the prerequisites for bringing large industrial investments to Estonia.
+At the XXI International Maritime Conference, we emphasised the role of ports in the maritime
+of the future.
+
+When ordering products, services, and construction work, we base our decisions on environmental
+sustainability criteria already when preparing procurement requirements and exclude the offering of
+solutions that burden the environment. In 2025, a total of 101 procurements were organised, including small procurements only on the TS website, mini-competitions, the dynamic purchasing system
+and related restricted procurement procedures, and negotiated procedures without prior publication
+(2024: 87). Of all these, 92 procurements count towards the fulfilment of the sustainable criteria
+target (2024: 70). In 60 of these 92 procurements (55 in the Public Procurement Register and 5 small
+procurements on the TS website), environmentally friendly criteria have been set as a condition
+of conformity, i.e. 65% (2024: 87%). In these 60 procurements, contracts have not been concluded
+
+8.1.7 Prevention and detection of corruption and bribery
+We have consolidated our values and ethical principles into a single Code of Ethics, in which we
+have also formulated more detailed ethical expectations for our partners. In addition, we opened
+a misconduct reporting channel and prepared guidelines for submitting and processing the relevant
+reports. Relevant notifications can be submitted by both Group's employees and external persons,
+confidentially or anonymously, if desired.
+
+
+=== pdf p.54 ===
+54
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+8.1.8 Political influence and lobbying
+Figure 17. The main cooperation organisations of Tallinna Sadam
+
+European Maritime
+Information
+Sharing and
+Analysis Centre
+EcoPorts
+Cruise Baltic
+
+Estonian Association
+for Environmental
+Management
+
+Cruise Europe
+
+Paldiski Association
+of Entrepreneurs
+
+An environmental initiative
+of the European
+ports sector
+
+Rail Baltica
+Business Network
+Estonia
+
+Other organisations in which we participate can be found on our website.
+
+Estonian Logistics
+and Ports Union
+
+Green Tiger
+An organization focusing
+on environmental issues
+of the Estonian society
+
+The Estonian
+Employers’
+Confederation
+
+EM-ISAC,
+cyber security
+
+Hydrogen Valley
+Estonia
+
+Estonian Maritime
+Cluster
+
+Baltic Ports
+Organization
+(BPO)
+
+Estonian
+Shipowners'
+Association
+
+
+=== pdf p.55 ===
+55
+
+SUSTAINABILITY REPORT 2025
+G • Governance Information
+
+8.1.9 Payment practices and tax conduct
+In its business activities, Tallinna Sadam follows good payment practices and considers timely and
+correct settlement with its suppliers important. Invoices are paid to suppliers within the deadlines
+agreed in contracts or on invoices, and unjustified payment delays are avoided. Payments are made
+based on the principles in force in the company, and suppliers are treated equally, regardless
+of their size.
+Tallinna Sadam is a responsible taxpayer and follows tax-related legislation and good tax conduct
+practices in its activities. The company pays taxes by the deadlines specified in the legislation and
+submits tax reports in a timely and correct manner. Tallinna Sadam does not engage in transactions
+aimed at creating tax benefits or avoiding the payment of taxes based on tax legislation. The company operates in an international business environment and is guided by OECD tax guidelines in its
+activities. If questions concerning taxation arise, Tallinna Sadam consults with the Tax and Customs
+Board as necessary. In the event of taxation issues arising from green tax legislation, the company
+involves tax auditors and tax law compliance experts in the resolution to ensure that tax accounting
+complies with current requirements.
+
+
+=== pdf p.56 ===
