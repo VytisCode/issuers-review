@@ -251,3 +251,14 @@ table.sortable th[data-k].on .arr { color: var(--accent); }
 .mbody:focus { outline: 2px solid var(--accent-2); }
 .grid > *, .ready > * { min-width: 0; }
 .icard table.sect { display: block; overflow-x: auto; }
+
+/* ESG Engagement */
+table.esgt td.ys { min-width: 220px; max-width: 360px; }
+table.esgt td.ys .small { margin-top: 4px; line-height: 1.4; }
+.pill { display: inline-block; min-width: 18px; text-align: center; font-size: 11px; font-weight: 700; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 4px; margin-right: 4px; }
+.card.engage { border-left: 4px solid var(--warn); margin: 12px 0; }
+.card.engage ol { margin: 6px 0 12px 20px; }
+h4.bad { color: var(--bad); }
+ol.srcs { font-size: 13px; padding-left: 22px; }
+ol.srcs li { margin: 2px 0; overflow-wrap: anywhere; }
+label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; }

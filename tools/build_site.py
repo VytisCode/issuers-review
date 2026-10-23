@@ -13,6 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import common as C  # noqa: E402
+import build_esg  # noqa: E402
 
 REPO = "VytisCode/issuers-review"
 SITE_LANGS = ["en", "lt"]
@@ -209,6 +210,8 @@ def main():
            "filings": [f for f in filings if f.get("baseline") != "yes"],
            "readiness": readiness(news, filings)}
     out["email"] = {lg: email(lg, out["readiness"]) for lg in SITE_LANGS}
+    out["esg"] = {lg: build_esg.site(lg) for lg in SITE_LANGS}
+    build_esg.main()
     archive = C.load_json(C.DATA / "sources_archive.json")
     for key, iss in C.issuers().items():
         reps = C.reports(key)

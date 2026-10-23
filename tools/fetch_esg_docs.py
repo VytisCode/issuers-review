@@ -111,7 +111,9 @@ def main(out_dir):
                 cands = item.get("urls", []) if isinstance(item, dict) else [item]
                 name = f"{issuer}_{year}" + (f"_{i + 1}" if i else "")
                 done = manifest.get(name, {}).get("pages")
-                if done and (manifest[name].get("format") == "esef" or (out / "raw" / f"{name}.txt").exists()):
+                txt_ok = (out / "text" / f"{name}.txt").exists() and (out / "text" / f"{name}.txt").stat().st_size > 2000
+                esef_ok = manifest.get(name, {}).get("format") == "esef" and manifest[name].get("url") == cands[0] and txt_ok
+                if done and (esef_ok or (out / "raw" / f"{name}.txt").exists()):
                     continue
                 log.append(f"{name}:")
                 data, url = get_pdf(cands, year[-4:], log)

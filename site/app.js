@@ -10,7 +10,7 @@
 
   const TX = {
     en: {
-      overview: "Overview", email: "Email", news: "News", securities: "Securities", isin: "ISIN list", tools: "Analysis tools", about: "How it works",
+      overview: "Overview", esg: "ESG", email: "Email", news: "News", securities: "Securities", isin: "ISIN list", tools: "Analysis tools", about: "How it works",
       heroTitle: "Issuers review", heroSub: "Automated, sourced reviews of the companies behind our bonds and shares – public data only, one template for every issuer.",
       issuers: "issuers", held: "securities held", newsTracked: "news items tracked", nextReports: "next issuer reports",
       searchNow: "↻ Search for new reports and news now", autoWeekly: "Runs automatically every Monday (free, no AI). Last run:", notYet: "not yet",
@@ -39,7 +39,7 @@
       generated: "Public sources only; figures as published by the issuers. Generated",
     },
     lt: {
-      overview: "Apžvalga", email: "Laiškas", news: "Naujienos", securities: "Vertybiniai popieriai", isin: "ISIN sąrašas", tools: "Analizės įrankiai", about: "Kaip veikia",
+      overview: "Apžvalga", esg: "ESG", email: "Laiškas", news: "Naujienos", securities: "Vertybiniai popieriai", isin: "ISIN sąrašas", tools: "Analizės įrankiai", about: "Kaip veikia",
       heroTitle: "Emitentų apžvalga", heroSub: "Automatinės, šaltiniais pagrįstos turimų obligacijų ir akcijų emitentų apžvalgos – tik vieši duomenys, vienas šablonas visiems.",
       issuers: "emitentai", held: "turimi VP", newsTracked: "sekamos naujienos", nextReports: "artimiausios ataskaitos",
       searchNow: "↻ Ieškoti naujų ataskaitų ir naujienų dabar", autoWeekly: "Automatiškai kiekvieną pirmadienį (nemokamai, be AI). Paskutinė paieška:", notYet: "dar nevykdyta",
@@ -682,9 +682,103 @@
     };
   }
 
+  /* ---------- ESG Engagement (metinės tvarumo ataskaitos; emitentai tarpusavyje nelyginami) ---------- */
+  const GX = {
+    en: { title: "ESG Engagement", sub: "Sustainability progress of each issuer by report year – measured only against the issuer's own targets and its own previous year (issuers are not compared with each other). Every statement links to the source page. Engagement is suggested only for real gaps after checking the SEB sector policies.",
+      xls: "Excel (all years)", issuer: "Issuer", instr: "Held", dir: "Direction", eng: "Engagement", onlyEng: "Engagement needed or monitor only", search: "Search issuer",
+      legend: "Direction per year: Improving – most own targets and key metrics moved the right way; Mixed – some better, some worse; Worsening – mostly worse; Stable – little change; Limited data – the report gives too little to judge; Baseline year – first year reported, nothing to compare with.",
+      summary: "Summary", framework: "Reporting and assurance", targets: "Own targets and progress", target: "Target", metrics: "Key metrics", metric: "Metric", unit: "Unit",
+      evidence: "Evidence", concerns: "Gaps and concerns", sources: "Sources", why: "Why", policies: "SEB policies checked", questions: "Questions to the issuer",
+      dl: "⬇ Download email to issuer (.eml)", copy: "Copy email text", copied: "Copied.", back: "← ESG overview", edit: "✎ Edit ESG data", none: "No ESG data yet.",
+      emailHint: "Opens in Outlook as a draft. English, no signature – add yours.", bond: "bonds", share: "shares", notReported: "not reported", calc: "calculated by the tool",
+      greetings: "Dear Investor Relations team,", intro: (n, ins, rep) => `We are holders of ${n} ${ins} and review our issuers' sustainability disclosures once a year. Having read ${rep}, we would appreciate your comments on the following:`,
+      thanks: "Thank you in advance for your reply. Public answers or a pointer to the relevant page of your next report are equally welcome." },
+    lt: { title: "ESG Engagement", sub: "Kiekvieno emitento tvarumo pažanga pagal ataskaitinius metus – vertinama tik pagal paties emitento tikslus ir jo ankstesnius metus (emitentai tarpusavyje nelyginami). Kiekvienas teiginys susietas su šaltinio puslapiu. Engagement siūlomas tik realioms spragoms, įvertinus SEB sektorių politikas.",
+      xls: "Excel (visi metai)", issuer: "Emitentas", instr: "Turima", dir: "Kryptis", eng: "Engagement", onlyEng: "Tik kur reikia engagement ar stebėti", search: "Ieškoti emitento",
+      legend: "Kryptis pagal metus: Gerėja – dauguma savų tikslų ir pagrindinių rodiklių juda tinkama linkme; Nevienareikšmiška – vieni geriau, kiti blogiau; Blogėja – daugiausia blogiau; Stabilu – mažai pokyčių; Mažai duomenų – ataskaitoje per mažai informacijos įvertinti; Atskaitos metai – pirmi skelbti metai, nėra su kuo lyginti.",
+      summary: "Santrauka", framework: "Atskaitomybė ir užtikrinimas", targets: "Savi tikslai ir pažanga", target: "Tikslas", metrics: "Pagrindiniai rodikliai", metric: "Rodiklis", unit: "Vnt.",
+      evidence: "Įrodymai", concerns: "Spragos ir rūpesčiai", sources: "Šaltiniai", why: "Kodėl", policies: "Patikrintos SEB politikos", questions: "Klausimai emitentui",
+      dl: "⬇ Atsisiųsti laišką emitentui (.eml)", copy: "Kopijuoti laiško tekstą", copied: "Nukopijuota.", back: "← ESG apžvalga", edit: "✎ Taisyti ESG duomenis", none: "ESG duomenų dar nėra.",
+      emailHint: "Atsidaro Outlook kaip juodraštis. Anglų kalba, be parašo – pridėkite savo.", bond: "obligacijos", share: "akcijos", notReported: "neskelbiama", calc: "apskaičiuota įrankio" },
+  };
+  const gx = k => (GX[LANG] || GX.en)[k];
+  const G = () => (D.esg && (D.esg[LANG] || D.esg.en)) || { years: [], rows: [], labels: {} };
+  const TRC = { improving: "good", stable: "info", mixed: "warn", worsening: "bad", limited: "info", baseline: "info" };
+  const TSC = { met: "good", on_track: "good", behind: "warn", missed: "bad", new: "info", no_data: "info", changed: "warn" };
+  const ENC = { none: "good", watch: "warn", engage: "bad" };
+  const gchip = (map, cls, k) => `<span class="chip ${cls[k] || "info"}">${esc((G().labels[map] || {})[k] || k)}</span>`;
+  let GF = { q: "", eng: false };
+  function esgEmail(r) {
+    const E = GX.en, e = r.engagement, ins = r.instruments.map(x => x === "share" ? "shares" : "bonds").join(" and ");
+    const rep = e.subject || `your latest annual and sustainability report`;
+    const body = [E.greetings, "", E.intro(r.name, ins, rep), "", ...e.questions.map((q, i) => `${i + 1}. ${q}`), "", E.thanks, ""].join("\r\n");
+    return { subject: `${r.name}: questions on sustainability disclosures`, body };
+  }
+  function esgPage(arg) {
+    const g = G();
+    if (arg) return esgIssuer(g, arg);
+    setTimeout(initEsg);
+    return `<h1>${gx("title")}</h1><p class="sub">${gx("sub")}</p>
+      <div class="filters"><input id="gQ" placeholder="${gx("search")}" value="${esc(GF.q)}"><label class="chk"><input type="checkbox" id="gEng" ${GF.eng ? "checked" : ""}> ${gx("onlyEng")}</label>
+        <a class="btn" href="files/esg_engagement_${LANG === "lt" ? "lt" : "en"}.xlsx" download>⬇ ${gx("xls")}</a></div>
+      <div id="gT"></div><p class="muted small">${gx("legend")}</p>`;
+  }
+  function initEsg() {
+    const $ = id => document.getElementById(id); if (!$("gT")) return;
+    const g = G();
+    const render = () => {
+      const rows = g.rows.filter(r => (!GF.q || r.name.toLowerCase().includes(GF.q.toLowerCase())) && (!GF.eng || r.engagement.level !== "none"));
+      $("gT").innerHTML = rows.length ? `<div class="tbl-wrap"><table class="esgt"><tr><th>${gx("issuer")}</th>${g.years.map(y => `<th>${y}</th>`).join("")}<th>${gx("dir")}</th><th>${gx("eng")}</th></tr>
+        ${rows.map(r => `<tr><td><a href="#esg/${r.id}"><b>${esc(r.name)}</b></a>${r.green ? leaf({ green: "yes" }) : ""}<div class="muted small">${esc(r.country)} · ${r.instruments.map(x => gx(x === "share" ? "share" : "bond")).join(", ")}</div></td>
+          ${g.years.map(y => { const d = r.years[y]; return `<td class="ys">${d ? gchip("trend", TRC, d.trend) + `<div class="small">${d.summary}</div>` : `<span class="muted">${gx("notReported")}</span>`}</td>`; }).join("")}
+          <td>${gchip("trend", TRC, r.trend)}</td><td>${gchip("engage", ENC, r.engagement.level)}</td></tr>`).join("")}</table></div>` : `<p class="muted">${gx("none")}</p>`;
+    };
+    $("gQ").oninput = e => { GF.q = e.target.value; render(); };
+    $("gEng").onchange = e => { GF.eng = e.target.checked; render(); };
+    render();
+  }
+  function esgIssuer(g, id) {
+    const r = g.rows.find(x => x.id === id);
+    if (!r) return `<p><a href="#esg">${gx("back")}</a></p><p class="muted">${gx("none")}</p>`;
+    const ys = g.years, P = g.labels.pillar || {};
+    const e = r.engagement;
+    setTimeout(() => {
+      const b = document.getElementById("gDl"); if (!b) return;
+      const m = esgEmail(r);
+      b.onclick = () => {
+        const eml = `To: ${e.contact || ""}\r\nSubject: ${m.subject}\r\nX-Unsent: 1\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=utf-8\r\nContent-Transfer-Encoding: 8bit\r\n\r\n${m.body}`;
+        const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([eml], { type: "message/rfc822" })); a.download = `${r.id}_esg_questions.eml`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+      };
+      document.getElementById("gCp").onclick = () => navigator.clipboard.writeText(`${m.subject}\n\n${m.body}`).then(() => { document.getElementById("gMsg").textContent = gx("copied"); });
+    });
+    const val = (m, y) => { const v = m.vals[y]; if (!v) return "–"; const n = v.v === null || v.v === undefined || v.v === "" ? "–" : (typeof v.v === "number" ? v.v.toLocaleString(loc) : esc(v.v));
+      return `${n}${v.calc ? `<span class="muted" data-tip="${gx("calc")}">ᶜ</span>` : ""}${v.n ? `<sup class="cite"><a href="${esc(v.url)}" target="_blank" rel="noopener">${v.n}</a></sup>` : ""}${v.note ? `<div class="muted small">${esc(v.note)}</div>` : ""}`; };
+    const mys = ["FY2023", ...ys].filter(y => r.metrics.some(m => m.vals[y]));
+    const ev = ys.filter(y => r.years[y]).reverse();
+    return `<p><a href="#esg">${gx("back")}</a></p>
+      <h1>${esc(r.name)}${r.green ? leaf({ green: "yes" }) : ""}</h1>
+      <p class="muted">${esc(r.sector)} · ${r.held.map(h => `${esc(h.isin)}${leaf(h)}`).join(", ")}</p>
+      <p>${gchip("trend", TRC, r.trend)} ${gchip("engage", ENC, e.level)}</p>
+      <div class="verdict ${e.level === "engage" ? "v-action" : e.level === "watch" ? "v-watch" : ""}">${r.summary}</div>
+      ${e.level !== "none" ? `<div class="card engage"><h3>${gx("eng")}: ${esc(g.labels.engage[e.level])}</h3><p><b>${gx("why")}:</b> ${e.reason}</p>
+        ${e.policies.length ? `<p class="muted small">${gx("policies")}: ${e.policies.map(esc).join("; ")}</p>` : ""}
+        ${e.questions.length ? `<h4>${gx("questions")}</h4><ol>${e.questions.map(q => `<li>${esc(q)}</li>`).join("")}</ol>
+        <div class="row"><button class="btn primary" id="gDl">${gx("dl")}</button><button class="btn" id="gCp">${gx("copy")}</button><span id="gMsg" class="runst ok"></span></div><p class="muted small">${gx("emailHint")}</p>` : ""}</div>` : ""}
+      <h2>${gx("framework")}</h2><div class="grid">${ev.map(y => `<div class="card"><h3>${y} ${gchip("trend", TRC, r.years[y].trend)}</h3><p>${r.years[y].framework}</p><p class="small">${r.years[y].summary}</p></div>`).join("")}</div>
+      ${r.targets.length ? `<h2>${gx("targets")}</h2><div class="tbl-wrap"><table><tr><th>${gx("target")}</th>${ys.map(y => `<th>${y}</th>`).join("")}<th>${t("status")}</th></tr>
+        ${r.targets.map(x => `<tr><td><span class="pill">${esc(x.p)}</span> ${x.name}</td>${ys.map(y => `<td>${x.y[y] || "–"}</td>`).join("")}<td>${gchip("tstatus", TSC, x.status)}</td></tr>`).join("")}</table></div>` : ""}
+      ${r.metrics.length ? `<h2>${gx("metrics")}</h2><div class="tbl-wrap"><table><tr><th>${gx("metric")}</th><th>${gx("unit")}</th>${mys.map(y => `<th class="n">${y}</th>`).join("")}</tr>
+        ${r.metrics.map(m => `<tr><td><span class="pill">${esc(m.p)}</span> ${esc(m.name)}${m.note ? `<div class="muted small">${m.note}</div>` : ""}</td><td class="muted">${esc(m.unit)}</td>${mys.map(y => `<td class="n">${val(m, y)}</td>`).join("")}</tr>`).join("")}</table></div>` : ""}
+      <h2>${gx("evidence")}</h2><div class="grid">${ev.map(y => { const d = r.years[y];
+        return `<div class="card"><h3>${y}</h3>${["E", "S", "G"].map(p => { const it = d.evidence.filter(x => x.p === p); return it.length ? `<h4>${esc(P[p] || p)}</h4><ul class="b">${it.map(x => `<li>${x.t}</li>`).join("")}</ul>` : ""; }).join("")}
+          ${d.concerns.length ? `<h4 class="bad">${gx("concerns")}</h4><ul class="b">${d.concerns.map(x => `<li>${x}</li>`).join("")}</ul>` : ""}</div>`; }).join("")}</div>
+      <h2>${gx("sources")}</h2><ol class="srcs">${r.sources.map(s => `<li>${s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title)}${s.page ? `, p. ${esc(s.page)}` : ""}</li>`).join("")}</ol>
+      <p><a class="btn sm" href="${gh("edit/main/" + r.yaml)}" target="_blank" rel="noopener">${gx("edit")}</a> <span class="muted small">${t("lastAnalysis")}: ${esc(r.analysis_date)}</span></p>`;
+  }
+
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
-    const map = { overview, email: emailPage, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
+    const map = { overview, email: emailPage, esg: () => esgPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
     document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = t(k); a.classList.toggle("on", k === page || (page === "issuer" && k === "overview")); });
     document.querySelector(".brand").textContent = t("heroTitle");
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
