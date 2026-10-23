@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with: {python-version: "3.12"}
-      - run: pip install -r requirements.txt && sudo apt-get install -y -qq poppler-utils
+      - run: pip install -r requirements.txt && sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
       - name: Previous texts (esg-text branch)
         run: |
           git fetch origin esg-text:esg-text 2>/dev/null && git worktree add out esg-text || (git worktree add --detach out && cd out && git checkout --orphan esg-text && git rm -rfq . || true)
