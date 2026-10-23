@@ -45,6 +45,7 @@ def texts(rep, lang):
         "business": [h(x, True) for x in rep.get("business", [])],
         "financials": [h(x, True) for x in rep.get("financials", [])],
         "investor": [h(x, True) for x in rep.get("investor", [])],
+        "covenants": [h(x, True) for x in rep.get("covenants", [])],
         "press": [h(x, True) for x in rep.get("press", [])],
         "market": [h(x, True) for x in rep.get("market", [])],
         "plans": [{"plan": h(p["plan"]), "outcome": h(C.tr(p["outcome"], lang) + (f" [{p['src']}]" if p.get("src") else "")),

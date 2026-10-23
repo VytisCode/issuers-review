@@ -159,6 +159,12 @@ investor:
     lv: "Secinājums: finanšu stāvoklis salīdzinājumā ar 2025. gada beigām būtībā nav mainījies; kredītrādītāji atbilst stratēģijas robežām, reitingi stabili. Sekot: 9 mēn. pārskatam (2026-11-11), vēja un cenu ietekmei uz Zaļo ražošanu, FFO / parāda rādītāja atgriešanās līdz ≥23 %."
     et: "Järeldus: finantsseisund on võrreldes 2025. aasta lõpuga sisuliselt muutumatu; krediidinäitajad on strateegia piirides, reitingud stabiilsed. Jälgida: 9 kuu aruanne (11.11.2026), tuule ja hindade mõju Rohelisele tootmisele, FFO / netovõla tagasipöördumine ≥23%-ni."
 
+covenants:
+  - lt: "**Finansinių apribojimų obligacijose nėra:** emitento teigimu, jo obligacijose nėra skolos sąlygų (covenants), išskyrus investicinio lygio reitingo išlaikymą EIB paskoloms. Drausmę palaiko reitingai ir paties emitento tikslai (grynoji skola / EBITDA 3–4x, FFO / grynoji skola ≥23 %) [S8; S1 p.10]."
+    en: "**No financial covenants in the bonds:** the issuer states its bonds carry no covenant constraints, except maintaining the investment grade rating for the EIB loans. Discipline comes from the ratings and the issuer's own targets (net debt / EBITDA 3-4x, FFO / net debt ≥23%) [S8; S1 p.10]."
+    lv: "**Obligācijās nav finanšu ierobežojumu:** emitents norāda, ka tā obligācijām nav kovenantu, izņemot investīciju līmeņa reitinga saglabāšanu EIB aizdevumiem. Disciplīnu nodrošina reitingi un emitenta mērķi (neto parāds / EBITDA 3–4x, FFO / neto parāds ≥23 %) [S8; S1 p.10]."
+    et: "**Võlakirjadel finantskovenante pole:** emitendi sõnul pole tema võlakirjadel kovenante, välja arvatud investeerimisjärgu reitingu hoidmine EIP laenude jaoks. Distsipliini tagavad reitingud ja emitendi eesmärgid (netovõlg / EBITDA 3–4x, FFO / netovõlg ≥23%) [S8; S1 p.10]."
+
 esg:
   policies:
   - investments

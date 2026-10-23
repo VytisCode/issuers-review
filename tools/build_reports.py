@@ -237,6 +237,8 @@ def model(rep, lang, tmpdir):
     blocks += [("h2", t("plans")), ("table", [t("plan"), t("outcome"), t("why"), t("status")], rows, [4.6, 4.6, 5.6, 2.4], {})]
 
     blocks += [("h2", t("investor")), ("bullets", [rich(x, True) for x in rep.get("investor", [])])]
+    if rep.get("covenants"):  # skolos sąlygos (covenants) – tik jei yra ką aptarti
+        blocks += [("h3", t("covenants")), ("bullets", [rich(x, True) for x in rep["covenants"]])]
 
     # rinka ir aplinka: analitiko punktai (kodėl keitėsi rodikliai, aplinkos veiksniai) + automatinė ECB palūkanų lentelė
     mk = C.market_table()
