@@ -12,8 +12,8 @@ years:
   FY2025:
     trend: mixed
     framework:
-      lt: "Tvarumo ataskaita pagal ESRS; riboto užtikrinimo paslauga [E1 p.17]. Užtikrinimo išvados šiame PDF nerasta."
-      en: "ESRS sustainability statement; limited assurance engagement [E1 p.17]. The assurance report itself was not found in this PDF."
+      lt: "Tvarumo ataskaita pagal ESRS; KPMG Baltics riboto užtikrinimo išvada be išlygų [E1 p.205; E1 p.208]."
+      en: "ESRS sustainability statement; unqualified KPMG Baltics limited assurance conclusion [E1 p.205; E1 p.208]."
     assurance: limited
     summary:
       lt: "Žaliasis finansavimas 176 mln. EUR (102 mln. 2024 m.); Scope 1 −5 %, Scope 2 (rinkos metodas) −13 % [E1 p.44]. Finansuojami išmetimai +12 % [E1 p.44]. 2024 m. pažadas parengti išmetimų mažinimo planą iki 2025 m. pabaigos įvykdytas – Pereinamojo laikotarpio planas (1 versija) [E2 p.51; E1 p.37]."
@@ -87,6 +87,6 @@ engagement:
       fix: {lt: "Kitais metais patikrinti, ar nustatyti kiekybiniai tikslai.", en: "Check next year whether quantified targets were set."}
   policies: [investments, financial_general, climate_nature]
   reason:
-    lt: "SEB finansų sektoriaus lūkesčiai iš esmės atitinkami: tikslas iki 2050 m., Pereinamojo laikotarpio planas, PCAF finansuojami išmetimai, ribotas užtikrinimas [E1 p.37; E1 p.44; E1 p.17]. Paskolų portfelio išmetimai stabilūs, todėl kreiptis nebūtina; stebėti, ar po 2026–2027 m. stebėsenos etapo bus nustatyti kiekybiniai mažinimo tikslai (2 etapas) [E1 p.37; E1 p.43]."
-    en: "SEB's financial-sector expectations are broadly met: 2050 target, transition plan, PCAF financed emissions, limited assurance [E1 p.37; E1 p.44; E1 p.17]. Lending emissions are stable, so engagement is not needed; watch whether quantified reduction targets (Phase 2) are set after the 2026–2027 monitoring phase [E1 p.37; E1 p.43]."
+    lt: "SEB finansų sektoriaus lūkesčiai iš esmės atitinkami: tikslas iki 2050 m., Pereinamojo laikotarpio planas, PCAF finansuojami išmetimai, KPMG ribotas užtikrinimas [E1 p.37; E1 p.44; E1 p.205]. Paskolų portfelio išmetimai stabilūs, todėl kreiptis nebūtina; stebėti, ar po 2026–2027 m. stebėsenos etapo bus nustatyti kiekybiniai mažinimo tikslai (2 etapas) [E1 p.37; E1 p.43]."
+    en: "SEB's financial-sector expectations are broadly met: 2050 target, transition plan, PCAF financed emissions, KPMG limited assurance [E1 p.37; E1 p.44; E1 p.205]. Lending emissions are stable, so engagement is not needed; watch whether quantified reduction targets (Phase 2) are set after the 2026–2027 monitoring phase [E1 p.37; E1 p.43]."
   questions: []

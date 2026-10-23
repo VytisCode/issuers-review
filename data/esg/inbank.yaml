@@ -1,0 +1,57 @@
+# ESG Engagement: Inbank. FY2025 vadovybės ataskaita - paveikslėliai, tekstas gautas OCR. Puslapiai - PDF puslapiai.
+issuer: inbank
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Inbank Consolidated Annual Report 2025", url: "https://ib-cdn.inbank.eu/documents/ee/en/pdf/reports/inbank_annual_report_2025.pdf", date: 2026-03}
+  E2: {title: "Inbank Consolidated Annual Report 2024", url: "https://nasdaqbaltic.com/market/upload/reports/inb/2024_ar_en_eur_con_00.pdf", date: 2025-03}
+trend: limited
+summary:
+  lt: "Vartojimo finansavimo bankas, kurio veikla turi mažą klimato riziką [E1 p.24]. 2024 m. žadėta pirmąją ESRS tvarumo ataskaitą paskelbti 2025 m. metinėje ataskaitoje [E2 p.24], tačiau 2025 m. bankas nurodo, kad CSRD jam nebetaikoma (mažiau nei 1 000 darbuotojų) [E1 p.23]. Kiekybinių ESG rodiklių ir tikslų nerasta. Žaliasis finansavimas Lenkijoje augo 63 % iki 146 mln. EUR [E1 p.14]."
+  en: "A consumer finance bank whose business carries low climate risk [E1 p.24]. In 2024 it promised the first ESRS sustainability report in the 2025 annual report [E2 p.24], but in 2025 the bank says CSRD no longer applies to it (fewer than 1,000 employees) [E1 p.23]. No quantified ESG metrics or targets found. Green financing in Poland grew 63% to EUR 146m [E1 p.14]."
+years:
+  FY2025:
+    trend: limited
+    framework:
+      lt: "Trumpas ESG skyrius vadovybės ataskaitoje; CSRD netaikoma (mažiau nei 1 000 darbuotojų ir apyvarta mažesnė nei 450 mln. EUR) [E1 p.23]. Užtikrinimo nėra."
+      en: "Short ESG section in the management report; CSRD does not apply (fewer than 1,000 employees and turnover below EUR 450m) [E1 p.23]. No assurance."
+    assurance: none
+    summary:
+      lt: "Žaliasis finansavimas (saulės elektrinės, šilumos siurbliai, su EIB parama) – stipriausias augimo šaltinis Lenkijoje: +63 % iki 146 mln. EUR [E1 p.14; E1 p.23]. Išmetimų duomenų nėra."
+      en: "Green financing (solar panels, heat pumps, backed by the EIB) was the strongest growth driver in Poland: +63% to EUR 146m [E1 p.14; E1 p.23]. No emissions data."
+    evidence:
+      - {p: E, lt: "Žaliojo finansavimo produktai (saulės elektrinės, šilumos siurbliai) su EIB parama [E1 p.23].", en: "Green financing products (solar panels, heat pumps) backed by the EIB [E1 p.23]."}
+      - {p: E, lt: "Žiedinė ekonomika: naudotų automobilių finansavimas, elektronikos nuoma [E1 p.23].", en: "Circular economy: financing of pre-owned cars, electronics rental [E1 p.23]."}
+      - {p: S, lt: "Stažuočių programa, parama vaikų sveikatos fondui [E1 p.24].", en: "Internship programme, donations to a children's health foundation [E1 p.24]."}
+    concerns:
+      - {lt: "2024 m. žadėta ESRS ataskaita už 2025 m. neparengta – CSRD bankui nebetaikoma [E2 p.24; E1 p.23].", en: "The ESRS report promised for 2025 was not prepared because CSRD no longer applies [E2 p.24; E1 p.23]."}
+      - {lt: "Nuosavų ir finansuojamų išmetimų duomenų bei tikslų nerasta.", en: "No own or financed emissions data or targets found."}
+  FY2024:
+    trend: limited
+    framework:
+      lt: "ESG skyrius metinėje ataskaitoje; diegiamas CSRD, pirmoji ESRS ataskaita numatyta 2026 m. I ketv. [E2 p.24]."
+      en: "ESG section in the annual report; CSRD being implemented, first ESRS report planned for Q1 2026 [E2 p.24]."
+    assurance: none
+    summary:
+      lt: "2024 m. – pasirengimo metai; kiekybinių ESG rodiklių nerasta [E2 p.24]."
+      en: "2024 was a preparation year; no quantified ESG metrics found [E2 p.24]."
+    evidence:
+      - {p: E, lt: "Žaliojo finansavimo produktai su EIB parama [E2 p.24].", en: "Green financing products backed by the EIB [E2 p.24]."}
+    concerns: []
+targets: []
+metrics:
+  - {p: E, name: {lt: "Žaliojo finansavimo pardavimai Lenkijoje", en: "Green financing sales in Poland"}, unit: "mln. EUR", better: up, FY2025: {v: 146, src: "E1 p.14", note: {lt: "+63 %", en: "+63%"}}}
+engagement:
+  level: watch
+  severity: minor
+  verdict:
+    lt: "Mažos klimato rizikos vartojimo finansavimo bankas, žaliasis finansavimas auga [E1 p.14; E1 p.24]. Spraga – nėra jokių išmetimų duomenų, o žadėta ESRS ataskaita atšaukta dėl pasikeitusių taisyklių. Smulkmena; kreiptis nebūtina."
+    en: "A low climate-risk consumer finance bank with growing green financing [E1 p.14; E1 p.24]. The gap: no emissions data at all, and the promised ESRS report was dropped after the rules changed. Minor; no need to write."
+  issues:
+    - what: {lt: "Nėra išmetimų duomenų ir ESG tikslų.", en: "No emissions data or ESG targets."}
+      why: {lt: "Negalime vertinti pažangos; žadėta ESRS ataskaita nebus rengiama [E2 p.24; E1 p.23].", en: "We cannot assess progress; the promised ESRS report will not be prepared [E2 p.24; E1 p.23]."}
+      fix: {lt: "Kitais metais patikrinti, ar bus savanoriška ataskaita (pvz. VSME).", en: "Check next year for a voluntary report (e.g. VSME)."}
+  policies: [investments, financial_general, climate_nature]
+  reason:
+    lt: "Maža klimato rizika, bet nėra išmetimų duomenų [E1 p.23]."
+    en: "Low climate risk, but no emissions data [E1 p.23]."
+  questions: []

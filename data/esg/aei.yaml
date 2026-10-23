@@ -1,0 +1,34 @@
+# ESG Engagement: AEI (Atsinaujinančios energetikos investicijos). E1 - ESEF (be PDF), puslapiai - ataskaitos puslapiai. 2024 m. ESEF tekstas automatiškai neperskaitytas.
+issuer: aei
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "AEI Annual Report 2025 (ESEF)", url: "https://nasdaqbaltic.com/market/upload/reports/aei/2025_ar_en_con_esef.zip", date: 2026-04}
+trend: limited
+summary:
+  lt: "Uždarojo tipo AEI investicinė bendrovė (vėjo, saulės, kaupikliai Lietuvoje, Latvijoje, Lenkijoje), kurios tikslas – tvarios investicijos pagal SFDR 9 straipsnį [E1 p.66]. Finansuojama žaliosiomis obligacijomis; poveikio ataskaita skelbiama atskirai [E1 p.66]. Patvirtinti elgesio ir partnerių elgesio kodeksai [E1 p.66]. Kiekybinių poveikio rodiklių (pvz., išvengtų išmetimų) metinėje ataskaitoje nerasta."
+  en: "A closed-end renewable energy investment company (wind, solar, storage in Lithuania, Latvia and Poland) whose objective is sustainable investment under SFDR Article 9 [E1 p.66]. Financed with green bonds; an impact report is published separately [E1 p.66]. A Code of Conduct and a Partner Code of Conduct are in place [E1 p.66]. No quantified impact metrics (e.g. avoided emissions) found in the annual report."
+years:
+  FY2025:
+    trend: limited
+    framework:
+      lt: "Tvarumo informacija vadovybės ataskaitoje; SFDR 9 str. produktas; žaliųjų obligacijų poveikio ataskaita – atskirai [E1 p.66]. Užtikrinimo nerasta."
+      en: "Sustainability information in the management report; SFDR Article 9 product; green bond impact report published separately [E1 p.66]. No assurance found."
+    assurance: none
+    summary:
+      lt: "Lenkijoje PV Energy Projects portfelio (67,8 MW) veikia 49,8 MW, PL SUN – 66 MW [E1 p.64]. Parduoti trys projektai (pvz., 2,6 MW saulės elektrinė Lietuvoje) [E1 p.64]. Žaliųjų obligacijų: 32,69 mln. EUR (2025/2027) ir 20,75 mln. EUR (2021/2025 programa) [E1 p.66]."
+      en: "In Poland, 49.8 MW of the PV Energy Projects portfolio (67.8 MW) and 66 MW of PL SUN are operating [E1 p.64]. Three projects were sold (e.g. a 2.6 MW solar plant in Lithuania) [E1 p.64]. Green bonds: EUR 32.69m (2025/2027) and EUR 20.75m (2021/2025 programme) [E1 p.66]."
+    evidence:
+      - {p: E, lt: "Valdomas 185,5 MW vėjo parkų portfelis (UAB Žaliosios investicijos) [E1 p.32].", en: "Manages a 185.5 MW wind farm portfolio (UAB Žaliosios investicijos) [E1 p.32]."}
+      - {p: S, lt: "Partnerių elgesio kodeksas – tiekėjai turi patvirtinti, kad jo laikosi [E1 p.66].", en: "Partner Code of Conduct: suppliers must confirm they follow it [E1 p.66]."}
+      - {p: G, lt: "Valdymo įmonės interesų konfliktų ir antikorupcijos procedūros [E1 p.66].", en: "Management company's conflict of interest and anti-bribery procedures [E1 p.66]."}
+    concerns:
+      - {lt: "Išvengtų išmetimų ar pagamintos energijos rodiklių metinėje ataskaitoje nerasta – jie atskiroje poveikio ataskaitoje, kurios automatiškai nepavyko gauti.", en: "No avoided-emissions or generation metrics in the annual report; they are in a separate impact report that could not be retrieved automatically."}
+targets: []
+metrics: []
+engagement:
+  level: none
+  policies: [investments, electricity_renewables, climate_nature]
+  reason:
+    lt: "Veikla pati yra AEI plėtra (SFDR 9 str.), finansuojama žaliosiomis obligacijomis [E1 p.66]. ESG rizikos ir spragos nereikšmingos; kreiptis nereikia. Poveikio rodiklius galima pridėti iš atskiros žaliųjų obligacijų ataskaitos."
+    en: "The business itself is renewable energy development (SFDR Article 9), financed with green bonds [E1 p.66]. No material ESG risks or gaps; no engagement needed. Impact metrics can be added from the separate green bond report."
+  questions: []
