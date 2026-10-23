@@ -6,7 +6,7 @@ prepared_by: Claude (automatiškai)
 next_report: "Q3 2026 results - expected late October / November 2026"
 rating: "No public credit rating found"
 ratings: []
-verdict: {status: ok, lt: "**Pozicija tvarkinga.** I pusm. pelnas 8,3 mln. EUR (+2 %), ROE 9,6 % [I1 p.5, p.9]. Kapitalas viršija reikalavimus: CET1 13,15 % (reikalaujama 9,85 %), bendras kapitalas 18,38 % (14,66 %) [I2 p.2-3].", en: "**Position OK.** 1H profit EUR 8.3m (+2%), ROE 9.6% [I1 p.5, p.9]. Capital is above requirements: CET1 13.15% (requirement 9.85%), total capital 18.38% (14.66%) [I2 p.2-3]."}
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** I pusm. pelnas 8,3 mln. EUR (+2 %), ROE 9,6 % [I1 p.5, p.9]. Kapitalas viršija reikalavimus: CET1 13,15 % (reikalaujama 9,85 %), bendras kapitalas 18,38 % (14,66 %) [I2 p.2-3].", en: "**Position OK.** 1H profit EUR 8.3m (+2%), ROE 9.6% [I1 p.5, p.9]. Capital is above requirements: CET1 13.15% (requirement 9.85%), total capital 18.38% (14.66%) [I2 p.2-3].", plain: {lt: "**Viskas tvarkinga.** Pelnas stabilus (8,3 mln. EUR per pusmetį) [I1 p.5, p.9]. Kapitalo turi daugiau, nei reikalaujama [I2 p.2-3].", en: "**All fine.** Profit is stable (EUR 8.3m in the half-year) [I1 p.5, p.9]. Capital is above requirements [I2 p.2-3]."}}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [net_profit, nii, total_income, cost_income, roe, cor, loans, deposits, equity, cet1, total_capital, leverage, nsfr, npl]
 highlights: [net_profit, roe, cet1, total_capital]

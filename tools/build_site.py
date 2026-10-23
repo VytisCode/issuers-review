@@ -39,7 +39,8 @@ def texts(rep, lang):
     esg = rep.get("esg", {})
     items = C.esg_items(rep)
     out = {
-        "verdict": h(rep.get("verdict", "")),
+        # svetainėje - paprasta kalba (verdict.plain), jei yra; Word/PDF lieka verdict
+        "verdict": h((rep.get("verdict") or {}).get("plain") or rep.get("verdict", "")),
         "summary": [h(x, True) for x in rep.get("quick_summary", [])],
         "business": [h(x, True) for x in rep.get("business", [])],
         "financials": [h(x, True) for x in rep.get("financials", [])],
