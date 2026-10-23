@@ -174,8 +174,10 @@
  "ast_FY2024": {
   "issuer": "ast",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://www.ast.lv/sites/default/files/editor/AST_Ilgtspejas_gada_parskats_2024_ALL_EN_active.cleaned.pdf",
+  "title": "AST Annual Report 2024",
+  "pages": 293,
+  "kb": 2823
  },
  "aei_FY2025": {
   "issuer": "aei",
@@ -314,5 +316,21 @@
   "title": "Nortal Group Modern Slavery Statement 2026",
   "pages": 10,
   "kb": 2092
+ },
+ "coop-pank_FY2025_2": {
+  "issuer": "coop-pank",
+  "year": "FY2025",
+  "url": "https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2025/Sustainability_Report.pdf",
+  "title": "Coop Pank Sustainability Report 2025",
+  "pages": 10,
+  "kb": 322
+ },
+ "coop-pank_FY2024_2": {
+  "issuer": "coop-pank",
+  "year": "FY2024",
+  "url": "https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2024/Sustainability-report.pdf",
+  "title": "Coop Pank Sustainability Report 2024",
+  "pages": 6,
+  "kb": 161
  }
 }
