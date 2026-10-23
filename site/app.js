@@ -1078,7 +1078,11 @@
   function ddArchHtml(msg) {
     if (!DDL) return `<div class="row ddpw"><input id="ddPw" type="password" placeholder="${esc(da("pw"))}" autocomplete="current-password"><label class="chk small"><input type="checkbox" id="ddRem" checked> ${da("rem")}</label><button class="btn primary" id="ddOpen">${da("open")}</button></div>
       ${msg ? `<p class="bad small">${esc(msg)}</p>` : ""}<p class="muted small">${da("lost")}</p>`;
-    const docs = DDL.filter(x => x.type !== "zip"), zipOf = id => DDL.find(z => z.type === "zip" && ((D.dd.zips || {})[z.id] || z.parent) === id);
+    const docs = DDL.filter(x => x.type !== "zip"), zipOf = id => {
+      const par = z => (D.dd.zips || {})[z.id] || z.parent, me = DDL.find(x => x.id === id);
+      // tas pats DD kita kalba (tas pats ISIN ir data) naudoja tą patį dokumentacijos ZIP
+      return DDL.find(z => z.type === "zip" && par(z) === id) || DDL.find(z => { if (z.type !== "zip") return false; const p = DDL.find(x => x.id === par(z)); return p && me && p.isin === me.isin && p.date === me.date; });
+    };
     if (!docs.length) return `<p class="muted">${da("none")}</p>`;
     const c = da("cols");
     const zb = x => { const z = zipOf(x.id); return z ? ` <button class="btn sm" data-dd="${esc(z.id)}">⬇ ${da("zip")}</button>` : (D.dd.pending || []).includes(x.id) ? ` <span class="muted small">${da("zipWait")}</span>` : ""; };
