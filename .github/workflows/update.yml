@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["reports/**", "config/**", "data/history/**", "site/**", "tools/**", "assets/**"]
+    paths: ["reports/**", "config/**", "data/history/**", "site/**", "tools/**", "assets/**", "data/dd/**"]
 
 permissions:
   contents: write
