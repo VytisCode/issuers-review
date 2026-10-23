@@ -1,0 +1,60 @@
+# ESG Engagement: Hepsor. Puslapiai - PDF puslapiai.
+issuer: hepsor
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Hepsor 2025 Audited Consolidated Annual Report", url: "https://www.adaur.ee/wp-content/2026/04/Hepsor_2025_ENG.pdf", date: 2026-04}
+  E2: {title: "Hepsor 2024 Audited Consolidated Annual Report", url: "https://hepsor.ee/wp-content/uploads/2025/04/Hepsor_2024_ENG.pdf", date: 2025-04}
+trend: limited
+summary:
+  lt: "Nedidelis vystytojas (26 darbuotojai) skelbia tvarumo ataskaitą jau penktus metus, apskaičiuoja Scope 1–3 ir kiekvieno pradedamo statyti pastato gyvavimo ciklo išmetimus [E1 p.50; E1 p.52]. Kiekybinių ESG tikslų nėra, užtikrinimo nėra, elgesio ar antikorupcijos kodekso nėra (formalizuota tik pinigų plovimo prevencija) [E1 p.54]. Bendri išmetimai stabilūs: 14 614 t (2025 m.) vs 14 580 t [E1 p.52]."
+  en: "A small developer (26 staff) that has published a sustainability report for five years, calculating Scope 1–3 and the lifecycle emissions of every building that starts construction [E1 p.50; E1 p.52]. No quantified ESG targets, no assurance, and no code of conduct or anti-corruption policy (only anti-money laundering is formalised) [E1 p.54]. Total emissions are stable: 14,614 t (2025) vs 14,580 t [E1 p.52]."
+years:
+  FY2025:
+    trend: stable
+    framework:
+      lt: "Tvarumo ataskaita metinėje ataskaitoje, penkti metai iš eilės; standartas nenurodytas, užtikrinimo nėra [E1 p.50]. 2025 m. suformuluoti „žaliojo mąstymo“ principai su matuojamais rodikliais [E1 p.50]."
+      en: "Sustainability report in the annual report for the fifth year; no standard stated and no assurance [E1 p.50]. 'Green mindset' principles with measurable indicators defined in 2025 [E1 p.50]."
+    assurance: none
+    summary:
+      lt: "Biuro veiklos išmetimai (rinkos metodas) 800 t (−2 %); bendri išmetimai su vystymo projektais 14 614 t (+0,2 %) [E1 p.52]. Scope 2 apimtis išplėsta (pridėti Estijos nuomojamų pastatų bendri plotai), todėl nepalyginama [E1 p.51]."
+      en: "Office emissions (market-based) 800 t (−2%); total including development projects 14,614 t (+0.2%) [E1 p.52]. Scope 2 boundary widened (common areas of Estonian rental buildings added), so not comparable [E1 p.51]."
+    evidence:
+      - {p: E, lt: "„StokOfiss U34“ (Latvija) gavo BREEAM „Very Good“ sertifikatą baigtam pastatui [E1 p.50].", en: "StokOfiss U34 (Latvia) obtained BREEAM Very Good for the completed building [E1 p.50]."}
+      - {p: E, lt: "Kiekvieno pradedamo statyti pastato gyvavimo ciklo (50 m.) išmetimai skaičiuojami kasmet [E1 p.52].", en: "Lifecycle (50-year) emissions calculated every year for each building that starts construction [E1 p.52]."}
+      - {p: E, lt: "Verslo kelionių išmetimai −80 % [E1 p.52].", en: "Business travel emissions −80% [E1 p.52]."}
+      - {p: S, lt: "Klientų pasitenkinimo apklausos po užbaigimo Latvijoje; Estijoje – nuo 2026 m. [E1 p.53].", en: "Post-completion client satisfaction surveys in Latvia; in Estonia from 2026 [E1 p.53]."}
+    concerns:
+      - {lt: "Atskiro elgesio kodekso nėra, formaliai reglamentuota tik pinigų plovimo prevencija [E1 p.54].", en: "No separate code of conduct; only anti-money laundering is formally regulated [E1 p.54]."}
+      - {lt: "Scope 1 išaugo nuo 6,3 iki 31,6 t dėl šaldymo agentų nuomojamuose pastatuose [E1 p.51].", en: "Scope 1 rose from 6.3 t to 31.6 t because of refrigerants in rental buildings [E1 p.51]."}
+      - {lt: "Kiekybinių išmetimų mažinimo tikslų nerasta.", en: "No quantified emission reduction targets found."}
+  FY2024:
+    trend: stable
+    framework:
+      lt: "Atsakingo verslo ataskaita pagal CSRD ir listinguojamų MVĮ standarto (LSME) projektą, dvigubo reikšmingumo vertinimas su išorės ekspertais; užtikrinimo nėra [E2 p.44]."
+      en: "Responsible business report based on the CSRD and the draft standard for listed SMEs (LSME), with a double materiality assessment done with external experts; no assurance [E2 p.44]."
+    assurance: none
+    summary:
+      lt: "Biuro veiklos išmetimai 818 t (+1,9 %); AEI dalis energijos suvartojime 13 % [E2 p.51; E2 p.50]. „StokOfiss U34“ gavo BREEAM „Very Good“ projektavimo etapo sertifikatą [E2 p.48]."
+      en: "Office emissions 818 t (+1.9%); renewable share of energy use 13% [E2 p.51; E2 p.50]. StokOfiss U34 obtained a BREEAM Very Good design-stage certificate [E2 p.48]."
+    evidence:
+      - {p: E, lt: "Pirmą kartą skelbiamas energijos suvartojimas: 542 MWh, iš jų 87 % iškastinio kuro [E2 p.50].", en: "Energy use disclosed for the first time: 542 MWh, 87% fossil [E2 p.50]."}
+      - {p: E, lt: "Biuro Scope 3 688,7 t (−13,4 %) [E2 p.50].", en: "Office Scope 3 688.7 t (−13.4%) [E2 p.50]."}
+    concerns:
+      - {lt: "Iškastinio kuro dalis energijos suvartojime 87 % [E2 p.50].", en: "Fossil share of energy use 87% [E2 p.50]."}
+targets: []
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2e", better: down, FY2023: {v: 2.28, src: "E2 p.49"}, FY2024: {v: 6.3, src: "E1 p.51"}, FY2025: {v: 31.6, src: "E1 p.51"}}
+  - {p: E, name: {lt: "Biuro veiklos išmetimai (rinkos metodas)", en: "Office operations emissions (market-based)"}, unit: "t CO2e", better: down, FY2023: {v: 803, src: "E2 p.51"}, FY2024: {v: 818, src: "E1 p.52"}, FY2025: {v: 800, src: "E1 p.52"}}
+  - {p: E, name: {lt: "Bendri išmetimai su vystymo projektais (rinkos metodas)", en: "Total emissions incl. development projects (market-based)"}, unit: "t CO2e", better: down, FY2024: {v: 14580, src: "E1 p.52"}, FY2025: {v: 14614, src: "E1 p.52"}}
+  - {p: E, name: {lt: "Išmetimai pajamų milijonui (biuras)", en: "Emissions per EUR m revenue (office)"}, unit: "t CO2e/mln. EUR", better: down, FY2024: {v: 21.3, src: "E1 p.52"}, FY2025: {v: 22.6, src: "E1 p.52"}}
+engagement:
+  level: engage
+  policies: [investments, real_estate, climate_nature, anti_corruption]
+  reason:
+    lt: "SEB nekilnojamojo turto politika tikisi pereinamojo plano pastatams ir antikorupcijos politikos; Hepsor neturi kiekybinių išmetimų tikslų ir elgesio ar antikorupcijos kodekso (formalizuota tik pinigų plovimo prevencija) [E1 p.54]. Atsižvelgiant į mažą įmonės dydį, užtenka paprastų žingsnių."
+    en: "The SEB Real Estate policy expects a transition plan for buildings and an anti-corruption policy; Hepsor has no quantified emission targets and no code of conduct or anti-corruption policy (only anti-money laundering is formalised) [E1 p.54]. Given the company's small size, simple steps would be enough."
+  subject: "Hepsor: bondholder questions on climate targets and business conduct policy"
+  questions:
+    - "You already calculate Scope 1–3 and lifecycle emissions for each new building. Do you plan to set quantified targets, for example for the energy class or lifecycle emissions of new developments?"
+    - "Your report says there is no separate code of conduct and only anti-money laundering is formally regulated. Would you consider adopting a short code of conduct with an anti-corruption policy and a whistleblowing channel?"
+    - "Do you plan to obtain external assurance or to report under the voluntary SME standard (VSME) in the coming years?"

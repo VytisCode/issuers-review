@@ -1,0 +1,70 @@
+# ESG Engagement: LATRAPS. Finansiniai metai liepa–birželis: FY2025 = 2025-07-01–2026-06-30, FY2024 = 2024/25. Puslapiai - PDF puslapiai.
+issuer: latraps
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "LATRAPS Sustainability Report 01/07/2025–30/06/2026", url: "https://nasdaqbaltic.com/market/upload/reports/latra/2026_esg_en.pdf", date: 2026-10}
+  E2: {title: "LATRAPS Annual Report 01/07/2024–30/06/2025", url: "https://nasdaqbaltic.com/market/upload/reports/latra/2025_ar_en_las.pdf", date: 2025-10}
+trend: limited
+summary:
+  lt: "Pirmoji tvarumo ataskaita (2025/26 m.) pagal savanorišką MVĮ standartą (VSME), be užtikrinimo [E1 p.3; E1 p.5]. Scope 1 svyruoja pagal derlių ir grūdų džiovinimą: 4 628 → 3 423 → 4 704 t [E1 p.22]. Išmetimų mažinimo tikslo nėra – tik veiksmai (saulės elektrinės, elektromobiliai, perėjimas nuo SND prie SGD) ir tikslas +50 % AEI gamybos per 5 metus [E1 p.19; E1 p.22]. Klimato rizikos vertinimas dar neatliktas [E1 p.18]."
+  en: "First sustainability report (2025/26) under the voluntary SME standard (VSME), without assurance [E1 p.3; E1 p.5]. Scope 1 swings with the harvest and grain drying: 4,628 → 3,423 → 4,704 t [E1 p.22]. No emission reduction target, only actions (solar, EVs, LPG to LNG) and a +50% renewable generation goal over 5 years [E1 p.19; E1 p.22]. No climate risk assessment yet [E1 p.18]."
+years:
+  FY2025:
+    trend: mixed
+    framework:
+      lt: "Pirmoji tvarumo ataskaita pagal VSME, atsižvelgiant į ESRS; apima tik LATRAPS (be LATMALT ir ASNS Ingredient); 2025 m. atliktas dvigubo reikšmingumo vertinimas; užtikrinimo nerasta [E1 p.5]."
+      en: "First sustainability report under VSME, with reference to ESRS; covers LATRAPS only (not LATMALT or ASNS Ingredient); double materiality assessment done in 2025; no assurance found [E1 p.5]."
+    assurance: none
+    summary:
+      lt: "Scope 1 +37 %, Scope 2 +24 % – daugiau džiovinimo (oro sąlygos, derlius) [E1 p.22]. Įrengtos keturios saulės elektrinės (230 kW), įgyvendintos visos 2025 m. energijos efektyvumo priemonės [E1 p.19; E1 p.20]."
+      en: "Scope 1 +37%, Scope 2 +24%, driven by more grain drying (weather, harvest) [E1 p.22]. Four solar plants installed (230 kW), and all 2025 energy-efficiency measures completed [E1 p.19; E1 p.20]."
+    evidence:
+      - {p: E, lt: "Keturios saulės elektrinės Elejoje, 230 kW, ~217 MWh per metus [E1 p.19].", en: "Four solar plants at Eleja, 230 kW, ~217 MWh a year [E1 p.19]."}
+      - {p: E, lt: "SND (~5 160 MWh per metus) Elejoje iki 2026 m. keičiamos SGD [E1 p.19].", en: "LPG (~5,160 MWh a year) at Eleja to be replaced with LNG by 2026 [E1 p.19]."}
+      - {p: E, lt: "2024/25 m. geležinkeliu pervežta 18,8 % daugiau nei keliais [E1 p.21].", en: "In 2024/25, rail volumes were 18.8% above road volumes [E1 p.21]."}
+      - {p: E, lt: "Mokymai ir sprendimai tiksliam augalų apsaugos produktų ir trąšų naudojimui [E1 p.24].", en: "Training and solutions for precise use of plant protection products and fertilisers [E1 p.24]."}
+      - {p: S, lt: "Registruotų nelaimingų atsitikimų darbe 0 trejus metus [E1 p.29].", en: "Zero recordable work accidents for three years [E1 p.29]."}
+      - {p: G, lt: "Apkaltinamųjų nuosprendžių ir baudų už korupciją 0 [E1 p.37].", en: "Zero convictions and fines for corruption [E1 p.37]."}
+    concerns:
+      - {lt: "Klimato rizikos vertinimas dar neatliktas [E1 p.18].", en: "No formal climate risk assessment yet [E1 p.18]."}
+      - {lt: "Scope 3 neapskaičiuotas; išmetimų mažinimo tikslo nėra [E1 p.22].", en: "Scope 3 not calculated; no emission reduction target [E1 p.22]."}
+  FY2024:
+    trend: limited
+    framework:
+      lt: "Atskiros tvarumo ataskaitos nebuvo (2025/26 m. – pirmoji) [E1 p.3]; metinėje ataskaitoje ESG duomenų nerasta [E2 p.2]. Rodikliai – iš 2025/26 m. ataskaitos palyginamųjų duomenų."
+      en: "No separate sustainability report (the 2025/26 report is the first) [E1 p.3]; no ESG data found in the annual report [E2 p.2]. Metrics come from the comparatives in the 2025/26 report."
+    assurance: none
+    summary:
+      lt: "Scope 1 −26 % (3 423 t), Scope 2 −25 % (674 t) – mažiau džiovinimo [E1 p.22]."
+      en: "Scope 1 −26% (3,423 t), Scope 2 −25% (674 t), on less grain drying [E1 p.22]."
+    evidence:
+      - {p: E, lt: "Pervežta daugiau nei 600 tūkst. t grūdų ir trąšų; geležinkeliu – 18,8 % daugiau nei keliais [E1 p.21].", en: "More than 600 thousand t of grain and fertiliser transported; rail 18.8% above road [E1 p.21]."}
+      - {p: S, lt: "Registruotų nelaimingų atsitikimų darbe 0 [E1 p.29].", en: "Zero recordable work accidents [E1 p.29]."}
+    concerns: []
+targets:
+  - p: E
+    name: {lt: "AEI gamyba savo reikmėms +50 % per penkerius metus", en: "Renewable generation for own use +50% over five years"}
+    FY2024: {lt: "nerasta", en: "not found"}
+    FY2025: {lt: "Elejoje 4 saulės elektrinės (230 kW); kitais metais – dar dvi [E1 p.19; E1 p.22]", en: "4 solar plants at Eleja (230 kW); two more next year [E1 p.19; E1 p.22]"}
+    status: new
+  - p: E
+    name: {lt: "Po 10 papildomų elektromobilių kasmet 2025/26–2027/28 m.", en: "10 additional electric vehicles each year 2025/26–2027/28"}
+    FY2024: {lt: "nerasta", en: "not found"}
+    FY2025: {lt: "Tikslas nustatytas [E1 p.22]", en: "Target set [E1 p.22]"}
+    status: new
+  - p: G
+    name: {lt: "Nulinė tolerancija korupcijai", en: "Zero tolerance for corruption"}
+    FY2024: {lt: "0 nuosprendžių [E1 p.37]", en: "0 convictions [E1 p.37]"}
+    FY2025: {lt: "0 nuosprendžių [E1 p.37]", en: "0 convictions [E1 p.37]"}
+    status: met
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2", better: down, FY2023: {v: 4628, src: "E1 p.22", note: {lt: "2023/24 m.", en: "2023/24"}}, FY2024: {v: 3423, src: "E1 p.22"}, FY2025: {v: 4704, src: "E1 p.22"}}
+  - {p: E, name: {lt: "Scope 2 išmetimai", en: "Scope 2 emissions"}, unit: "t CO2", better: down, FY2023: {v: 904, src: "E1 p.22"}, FY2024: {v: 674, src: "E1 p.22"}, FY2025: {v: 835, src: "E1 p.22"}}
+  - {p: S, name: {lt: "Registruoti nelaimingi atsitikimai darbe", en: "Recordable work accidents"}, unit: "", better: down, FY2023: {v: 0, src: "E1 p.29"}, FY2024: {v: 0, src: "E1 p.29"}, FY2025: {v: 0, src: "E1 p.29"}}
+engagement:
+  level: watch
+  policies: [investments, agriculture, climate_nature]
+  reason:
+    lt: "SEB žemės ūkio politikos apribojimai (miškų naikinimas, nelegalūs pesticidai ir pan.) nepažeisti; skatinamas tikslus augalų apsaugos produktų naudojimas [E1 p.24]. Pirmoji ataskaita – stebėti, ar bus nustatytas išmetimų tikslas, apskaičiuotas Scope 3 ir atliktas klimato rizikos vertinimas [E1 p.18; E1 p.22]."
+    en: "SEB Agriculture policy restrictions (deforestation, illegal pesticides, etc.) are not breached; precise use of plant protection products is promoted [E1 p.24]. This is the first report: watch whether an emissions target is set, Scope 3 calculated and a climate risk assessment done [E1 p.18; E1 p.22]."
+  questions: []
