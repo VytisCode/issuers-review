@@ -259,7 +259,9 @@ def main():
     # užšifruotas DD archyvas (tools/dd_vault.py): raktas ir įrašai - į data.js, failai - į docs/dd/
     ddir = C.DATA / "dd"
     if (ddir / "key.json").exists():
-        out["dd"] = {"key": json.loads((ddir / "key.json").read_text()), "items": json.loads((ddir / "index.json").read_text())}
+        jobs = [json.loads(f.read_text()) for f in sorted((ddir / "jobs").glob("*.json"))] if (ddir / "jobs").exists() else []
+        out["dd"] = {"key": json.loads((ddir / "key.json").read_text()), "items": json.loads((ddir / "index.json").read_text()),
+                     "pending": [j["parent"] for j in jobs if not j.get("done")]}
         (C.DOCS / "dd").mkdir(exist_ok=True)
         for f in ddir.glob("*.bin"):
             shutil.copy2(f, C.DOCS / "dd" / f.name)

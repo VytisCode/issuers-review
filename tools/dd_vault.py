@@ -9,7 +9,11 @@ Slaptažodis niekur nesaugomas. Pametus - `init --force` (naujas raktas) ir visu
 
   python tools/dd_vault.py init                      # vieną kartą: sukuria raktą, atspausdina slaptažodį
   python tools/dd_vault.py add FAILAS.docx --issuer ignitis --name "Ignitis grupė" --isin XS... --lang lt --title "..."
+  python tools/dd_vault.py add ... --sources SALTINIAI.json  # + vieši šaltiniai ZIP'ui ([{key,title,url}]), ZIP sukuria GitHub Actions
+  python tools/dd_vault.py remove ID                 # pašalina įrašą (ir jo ZIP)
   python tools/dd_vault.py rekey                     # pamiršus slaptažodį: naujas raktas, visi DD iš projekto failų iš naujo
+Dokumentacijos ZIP: data/dd/jobs/<DD id>.json (tik vieši šaltinių URL) -> tools/dd_sources.py (update.yml) atsisiunčia,
+supakuoja, užšifruoja viešuoju raktu ir prideda įrašą {type: zip, parent: <DD id>}.
 Atviras sąrašas (failų keliai + metaduomenys) laikomas tik projekto failuose: MANIFEST (ne repo).
 """
 import argparse
@@ -53,31 +57,60 @@ def init(force=False, pw=None):
     print("Slaptažodis (perduokite savininkui, niekur nesaugokite):", pw)
 
 
-def add(path, meta, record=True):
+def add_bytes(data, meta):
+    """Užšifruoja baitus viešuoju raktu ir prideda įrašą į index.json; grąžina id."""
     pub = serialization.load_der_public_key(base64.b64decode(json.loads(KEY.read_text())["pub"]))
-    data = Path(path).read_bytes()
     k, fiv, miv = AESGCM.generate_key(256), secrets.token_bytes(12), secrets.token_bytes(12)
     eid = secrets.token_hex(8)
-    meta = {**meta, "file": Path(path).name, "bytes": len(data)}
+    meta = {**meta, "bytes": len(data)}
     (DIR / f"{eid}.bin").write_bytes(fiv + AESGCM(k).encrypt(fiv, data, None))
     idx = json.loads(INDEX.read_text())
     idx.append({"id": eid, "k": b64(pub.encrypt(k, OAEP)), "iv": b64(miv),
                 "meta": b64(AESGCM(k).encrypt(miv, json.dumps(meta, ensure_ascii=False).encode(), None))})
     INDEX.write_text(json.dumps(idx, indent=1) + "\n")
+    return eid
+
+
+def add(path, meta, sources=None, record=True):
+    eid = add_bytes(Path(path).read_bytes(), {**meta, "type": "dd", "file": Path(path).name})
+    if sources:
+        (DIR / "jobs").mkdir(exist_ok=True)
+        (DIR / "jobs" / f"{eid}.json").write_text(json.dumps({"parent": eid, "name": f"{Path(path).stem}_documents.zip",
+                                                              "sources": sources}, ensure_ascii=False, indent=1))
     if record and MANIFEST.parent.exists():
         man = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else []
-        man = [m for m in man if m["path"] != str(Path(path).resolve())] + [{"path": str(Path(path).resolve()), "meta": meta}]
+        man = [m for m in man if m["path"] != str(Path(path).resolve())] + [{"path": str(Path(path).resolve()), "id": eid, "meta": meta, "sources": sources or []}]
         MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
-    print(f"Pridėta: {eid} ({meta['file']})")
+    print(f"Pridėta: {eid} ({Path(path).name})" + (" + ZIP užduotis" if sources else ""))
+    return eid
+
+
+def remove(eid):
+    """Pašalina DD įrašą ir su juo susijusį ZIP (ZIP atpažįstamas pagal data/dd/zips.json)."""
+    zips = json.loads((DIR / "zips.json").read_text()) if (DIR / "zips.json").exists() else {}
+    ids = {eid, *[z for z, parent in zips.items() if parent == eid]}
+    idx = [x for x in json.loads(INDEX.read_text()) if x["id"] not in ids]
+    INDEX.write_text(json.dumps(idx, indent=1) + "\n")
+    for i in ids:
+        (DIR / f"{i}.bin").unlink(missing_ok=True)
+        (DIR / "jobs" / f"{i}.json").unlink(missing_ok=True)
+    (DIR / "zips.json").write_text(json.dumps({z: p for z, p in zips.items() if p != eid}, indent=1) + "\n")
+    if MANIFEST.exists():
+        MANIFEST.write_text(json.dumps([m for m in json.loads(MANIFEST.read_text()) if m.get("id") != eid], ensure_ascii=False, indent=1))
+    print("Pašalinta:", ", ".join(sorted(ids)))
 
 
 def rekey(pw=None):
     man = json.loads(MANIFEST.read_text())
     for f in DIR.glob("*.bin"):
         f.unlink()
+    (DIR / "zips.json").write_text("{}\n")
     init(True, pw)
+    new = []
     for m in man:
-        add(m["path"], {k: v for k, v in m["meta"].items() if k not in ("file", "bytes")}, record=False)
+        m["id"] = add(m["path"], m["meta"], m.get("sources"), record=False)
+        new.append(m)
+    MANIFEST.write_text(json.dumps(new, ensure_ascii=False, indent=1))
 
 
 if __name__ == "__main__":
@@ -85,7 +118,8 @@ if __name__ == "__main__":
     sub = ap.add_subparsers(dest="cmd", required=True)
     i = sub.add_parser("init"); i.add_argument("--force", action="store_true"); i.add_argument("--password")
     r = sub.add_parser("rekey"); r.add_argument("--password")
-    a = sub.add_parser("add"); a.add_argument("file")
+    rm = sub.add_parser("remove"); rm.add_argument("id")
+    a = sub.add_parser("add"); a.add_argument("file"); a.add_argument("--sources")
     for f in ("issuer", "name", "isin", "lang", "title", "decision", "sfdr"):
         a.add_argument("--" + f, default="")
     a.add_argument("--date", default=dt.date.today().isoformat())
@@ -94,5 +128,8 @@ if __name__ == "__main__":
         init(x.force, x.password)
     elif x.cmd == "rekey":
         rekey(x.password)
+    elif x.cmd == "remove":
+        remove(x.id)
     else:
-        add(x.file, {k: getattr(x, k) for k in ("issuer", "name", "isin", "lang", "title", "decision", "sfdr", "date")})
+        add(x.file, {k: getattr(x, k) for k in ("issuer", "name", "isin", "lang", "title", "decision", "sfdr", "date")},
+            json.loads(Path(x.sources).read_text()) if x.sources else None)

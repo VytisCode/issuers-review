@@ -72,6 +72,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: python -u tools/archive_sources.py
 
+      - name: DD documentation ZIPs (public sources, encrypted with the DD archive key)
+        continue-on-error: true
+        run: python -u tools/dd_sources.py
+
       - name: Build dashboard
         run: python -u tools/build_site.py
 
