@@ -452,6 +452,12 @@
       return `<tr><td><a href="${esc(m.src)}" target="_blank" rel="noopener">${esc(m.label[LANG] || m.label.en)}</a></td><td class="n"><b>${pc(m.now)}</b> <span class="muted">${esc(m.last)}</span></td><td class="n">${pc(m.m3)}</td><td class="n">${pc(m.m12)}</td>
         <td class="n">${ch === null ? "–" : `${ch > 0.005 ? "▲" : ch < -0.005 ? "▼" : "•"} ${fmt(Math.abs(ch).toFixed(2), "")} p. p.`}</td></tr>`; }).join("")}</table></div><p class="muted small">${tp("mNote")}</p>`;
   }
+  // Antraštė skaitytojo kalba (vertimas, jei originalas kita kalba) + originalas mažomis raidėmis
+  const NL = { lt: "lt", lv: "lv", et: "et", en: "en" };
+  function ntitle(n) {
+    const tr = ((D.news_tr || {})[LANG] || {})[n.id];
+    return tr && n.lang !== LANG ? { t: tr, orig: `<div class="muted small orig" lang="${esc(NL[n.lang] || "")}">${esc((n.lang || "").toUpperCase())}: ${esc(n.title)}</div>` } : { t: n.title, orig: "" };
+  }
   function highlights(sel) {
     const all = ((D.news_highlights || {})[LANG] || (D.news_highlights || {}).en || []).filter(d => !sel || d.issuer === sel);
     if (!all.length) return `<section class="hl"><h2>${tp("hl")}</h2><p class="muted">${tp("none")}</p></section>`;
@@ -459,13 +465,13 @@
     return `<section class="hl"><h2>${tp("hl")}</h2><p class="muted small">${tp("hlSub")}</p><div class="hlgrid">${groups.map(k => `
       <div class="hlcol ${k}"><h3><span class="chip ${TCLS[k]}">${esc(tp(k))}</span></h3>${all.filter(d => d.topic === k).slice(0, 6).map(d => `
         <div class="hli"><div class="hlm"><a href="#issuer/${esc(d.issuer)}">${esc(byId[d.issuer]?.name || d.issuer)}</a> · ${esc(d.date)}</div>
-        <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.title)}</a>
+        <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(ntitle(d).t)}</a>${ntitle(d).orig}
         <div class="muted small">${esc(d.source)}${d.more ? ` · +${d.more} ${tp("similar")}` : ""}</div></div>`).join("")}</div>`).join("")}</div></section>`;
   }
   function newsTable(rows) {
     if (!rows.length) return `<p class="muted">${t("noNews")}</p>`;
     return `<div class="tbl-wrap"><table><tr><th>${t("date")}</th><th>${t("issuer")}</th><th>${t("headline")}</th><th>${t("source")}</th><th>${t("flag")}</th></tr>${rows.map(n => `<tr><td class="nowrap">${esc(n.date)}</td><td>${esc(byId[n.issuer]?.name || n.issuer)}</td>
-      <td><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>${n.topics ? ` ${topicChips(n.topics)}` : ""}</td><td>${esc(n.source)} <span class="muted">${esc(n.lang)}</span></td>
+      <td><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(ntitle(n).t)}</a>${n.topics ? ` ${topicChips(n.topics)}` : ""}${ntitle(n).orig}</td><td>${esc(n.source)} <span class="muted">${esc(n.lang)}</span></td>
       <td>${n.flag === "review" ? `<span class="chip bad" data-tip="${esc(n.keywords)}">${t("review")}</span>` : ""}</td></tr>`).join("")}</table></div>`;
   }
   function news(sel) {
@@ -475,7 +481,7 @@
     setTimeout(() => {
       const fi = document.getElementById("fi"), ff = document.getElementById("ff"), fq = document.getElementById("fq"), nl = document.getElementById("nl");
       const f = () => { const q = fq.value.toLowerCase();
-        nl.innerHTML = newsTable(D.news.filter(n => (!fi.value || n.issuer === fi.value) && (!ff.value || n.flag === ff.value) && (!q || n.title.toLowerCase().includes(q))).slice(0, 300)); };
+        nl.innerHTML = newsTable(D.news.filter(n => (!fi.value || n.issuer === fi.value) && (!ff.value || n.flag === ff.value) && (!q || (n.title + " " + ntitle(n).t).toLowerCase().includes(q))).slice(0, 300)); };
       [fi, ff, fq].forEach(e => e.oninput = f); f();
     });
     return h;
