@@ -889,10 +889,10 @@
       when: { lt: "ESG puslapyje prie emitento parašyta „Siūloma parašyti“.", en: "an issuer is marked “Suggest writing” on the ESG page." },
       steps: { lt: ["you: Emitento ESG puslapyje perskaitykite „Kas negerai“ ir 💡 užuominas.", "code: „Atsisiųsti laišką emitentui (.eml)“ – atsidaro Outlook juodraštis anglų kalba.", "you: Įrašykite gavėją (IR kontaktą) ir parašą, išsiųskite.", "ai: Gavę atsakymą – nukopijuokite užklausą, įklijuokite Claude projekte ir po ja įklijuokite atsakymo tekstą."], en: ["you: On the issuer's ESG page read “What is wrong” and the 💡 hints.", "code: “Download email to issuer (.eml)” – opens an English Outlook draft.", "you: Add the recipient (IR contact) and your signature, send.", "ai: When the reply arrives – copy the prompt, paste it into the Claude project and paste the reply text below it."] },
       prompt: { lt: f => `Emitentas ${f.name || "[emitentas]"} atsakė į ESG laišką. Įvertink atsakymą, atnaujink ESG vertinimą ir engagement būseną.\n\nAtsakymas:\n[įklijuokite atsakymo tekstą]`, en: f => `${f.name || "[issuer]"} replied to our ESG letter. Assess the reply and update the ESG assessment and engagement status.\n\nReply:\n[paste the reply text]` } },
-    { id: "dd", kind: "ai", kw: "dd due diligence naujas instrumentas nauja emisija pirkimas term sheet sfdr new instrument issue",
+    { id: "dd", kind: "ai", kw: "dd due diligence naujas instrumentas nauja emisija pirkimas term sheet sfdr new instrument issue atlikti dd atsisiųsti archyvas slaptažodis completed download archive password",
       t: { lt: "Naujas Due Diligence (naujas instrumentas)", en: "New Due Diligence (new instrument)" },
       when: { lt: "prieš perkant naują obligaciją ar akciją (esamo ar naujo emitento).", en: "before buying a new bond or share (existing or new issuer)." },
-      steps: { lt: ["you: Surinkite tekstą: term sheet, brokerio laišką, IPT (galima tik kopijuoti–įklijuoti). Palyginamąsias alternatyvas Claude parenka pats.", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte ir užpildykite [skliaustus].", "ai: Claude parašys DD (Word, dashboard kalba) projekto failuose – ne viešoje svetainėje.", "you: Peržiūrėkite, papildykite sankcijų / žiniasklaidos ekrano kopijomis ir įkelkite į komandos failus."], en: ["you: Collect the text: term sheet, broker email, IPT (copy-paste is enough). Claude picks the comparable alternatives itself.", "ai: Copy the prompt, paste it into the Claude project and fill in the [brackets].", "ai: Claude writes the DD (Word, dashboard language) in the project files – not on the public site.", "you: Review it, add the sanctions / media screenshots and file it with the team files."] },
+      steps: { lt: ["you: Surinkite tekstą: term sheet, brokerio laišką, IPT (galima tik kopijuoti–įklijuoti). Palyginamąsias alternatyvas Claude parenka pats.", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte ir užpildykite [skliaustus].", "ai: Claude parašys DD (Word, dashboard kalba) projekto failuose – ne viešoje svetainėje.", "you: Peržiūrėkite, papildykite sankcijų / žiniasklaidos ekrano kopijomis ir įkelkite į komandos failus.", "code: Atliktus DD rasite DD puslapio apačioje „Atlikti DD“ (užšifruoti, atsidaro su slaptažodžiu)."], en: ["you: Collect the text: term sheet, broker email, IPT (copy-paste is enough). Claude picks the comparable alternatives itself.", "ai: Copy the prompt, paste it into the Claude project and fill in the [brackets].", "ai: Claude writes the DD (Word, dashboard language) in the project files – not on the public site.", "you: Review it, add the sanctions / media screenshots and file it with the team files.", "code: Completed DDs are at the bottom of the DD page, “Completed DDs” (encrypted, open with the password)."] },
       prompt: { lt: f => `Atlik Due Diligence naujam instrumentui (Word, lietuvių kalba).\nISIN: ${f.isin || "[ISIN]"}\nEmitentas: ${f.name || "[emitentas]"}\nInformacija (term sheet, brokerio laiškas, IPT):\n[įklijuokite tekstą]`, en: f => `Do a Due Diligence for a new instrument (Word, English).\nISIN: ${f.isin || "[ISIN]"}\nIssuer: ${f.name || "[issuer]"}\nInformation (term sheet, broker email, IPT):\n[paste the text]` } },
     { id: "manual", kind: "you", kw: "nortal slaptažodis portalas įkelti ataskaitą password portal upload",
       t: { lt: "Slaptažodžiu apsaugotos ataskaitos (Nortal)", en: "Password-protected reports (Nortal)" },
@@ -1028,7 +1028,67 @@
         <label class="fl">${dx("green")} <select id="dGreen">${opt("", dx("gU"), DF.green)}${opt("yes", dx("gY"), DF.green)}${opt("no", dx("gN"), DF.green)}</select></label>
         <label class="fl">${dx("rank")} <input id="dRank" value="${esc(DF.rank)}" placeholder="${esc(dx("rankPh"))}"></label>
         <h4>${dx("paste")}</h4><ul class="b small">${dx("pasteL").map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="muted small">${dx("cmp")}</p></div>
-      <div id="dOut"></div></div>`;
+      <div id="dOut"></div></div>${ddArchive()}`;
+  }
+  /* Atlikti DD - užšifruotas archyvas (tools/dd_vault.py). Slaptažodis tik naršyklėje (jei pažymėta „Prisiminti“). */
+  const DA = {
+    en: { h: "Completed DDs", sub: "The files are encrypted – the public website cannot read them. Enter the password once; with “Remember on this computer” it is stored only in this browser.",
+      pw: "Password", open: "Unlock", rem: "Remember on this computer", forget: "Forget password", bad: "Wrong password.", none: "No DDs yet.", dl: "Download", lost: "Forgot the password? Write to Claude: “Create a new DD password” – all DDs are re-encrypted from the project files, nothing is lost.",
+      cols: ["Date", "Issuer", "ISIN", "Document", "Language", "Decision", "SFDR", ""] },
+    lt: { h: "Atlikti DD", sub: "Failai užšifruoti – vieša svetainė jų perskaityti negali. Įveskite slaptažodį vieną kartą; pažymėjus „Prisiminti šiame kompiuteryje“, jis saugomas tik šioje naršyklėje.",
+      pw: "Slaptažodis", open: "Atrakinti", rem: "Prisiminti šiame kompiuteryje", forget: "Pamiršti slaptažodį", bad: "Neteisingas slaptažodis.", none: "DD dar nėra.", dl: "Atsisiųsti", lost: "Pamiršote slaptažodį? Parašykite Claude: „Sukurk naują DD slaptažodį“ – visi DD bus užšifruoti iš naujo iš projekto failų, niekas neprarandama.",
+      cols: ["Data", "Emitentas", "ISIN", "Dokumentas", "Kalba", "Sprendimas", "SFDR", ""] }
+  };
+  const da = k => (DA[LANG] || DA.en)[k];
+  let DDK = null, DDL = null;  // atrakintas raktas ir iššifruotas sąrašas (tik atmintyje)
+  const ub64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+  async function ddUnlock(pw) {
+    const K = D.dd.key, enc = new TextEncoder();
+    const base = await crypto.subtle.importKey("raw", enc.encode(pw), "PBKDF2", false, ["deriveKey"]);
+    const kek = await crypto.subtle.deriveKey({ name: "PBKDF2", salt: ub64(K.salt), iterations: K.iter, hash: "SHA-256" }, base, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
+    const pk = await crypto.subtle.decrypt({ name: "AES-GCM", iv: ub64(K.iv) }, kek, ub64(K.priv));
+    const priv = await crypto.subtle.importKey("pkcs8", pk, { name: "RSA-OAEP", hash: "SHA-256" }, false, ["decrypt"]);
+    const list = [];
+    for (const it of D.dd.items) {
+      const k = await crypto.subtle.importKey("raw", await crypto.subtle.decrypt({ name: "RSA-OAEP" }, priv, ub64(it.k)), "AES-GCM", false, ["decrypt"]);
+      const meta = JSON.parse(new TextDecoder().decode(await crypto.subtle.decrypt({ name: "AES-GCM", iv: ub64(it.iv) }, k, ub64(it.meta))));
+      list.push({ ...meta, id: it.id, key: k });
+    }
+    DDK = priv; DDL = list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
+  }
+  async function ddDownload(id) {
+    const it = DDL.find(x => x.id === id); if (!it) return;
+    const buf = new Uint8Array(await (await fetch(`dd/${id}.bin`)).arrayBuffer());
+    const data = await crypto.subtle.decrypt({ name: "AES-GCM", iv: buf.slice(0, 12) }, it.key, buf.slice(12));
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([data], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+    a.download = it.file; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  }
+  function ddArchive() {
+    if (!D.dd) return "";
+    setTimeout(initDdArch);
+    return `<div class="card" id="ddArch" style="margin-top:16px"><h3>🔒 ${da("h")} ${kindTag("code")}</h3><p class="muted small">${da("sub")}</p><div id="ddArchIn"></div></div>`;
+  }
+  function ddArchHtml(msg) {
+    if (!DDL) return `<div class="row ddpw"><input id="ddPw" type="password" placeholder="${esc(da("pw"))}" autocomplete="current-password"><label class="chk small"><input type="checkbox" id="ddRem" checked> ${da("rem")}</label><button class="btn primary" id="ddOpen">${da("open")}</button></div>
+      ${msg ? `<p class="bad small">${esc(msg)}</p>` : ""}<p class="muted small">${da("lost")}</p>`;
+    if (!DDL.length) return `<p class="muted">${da("none")}</p>`;
+    const c = da("cols");
+    return `<div class="tbl-wrap"><table><tr>${c.map(x => `<th>${x}</th>`).join("")}</tr>${DDL.map(x => `<tr><td>${esc(x.date)}</td><td>${byId[x.issuer] ? `<a href="#issuer/${x.issuer}">${esc(x.name)}</a>` : esc(x.name)}</td><td>${esc(x.isin)}</td><td>${esc(x.title)}</td><td>${esc(String(x.lang).toUpperCase())}</td><td>${esc(x.decision)}</td><td>${esc(x.sfdr)}</td>
+      <td><button class="btn sm" data-dd="${esc(x.id)}">⬇ ${da("dl")}</button></td></tr>`).join("")}</table></div>
+      <p class="small"><button class="btn sm" id="ddForget">${da("forget")}</button></p>`;
+  }
+  async function initDdArch(msg) {
+    const box = document.getElementById("ddArchIn"); if (!box) return;
+    if (!DDL) { let pw = null; try { pw = localStorage.getItem("ddpw"); } catch (e) { /* ignore */ }
+      if (pw) { try { await ddUnlock(pw); } catch (e) { try { localStorage.removeItem("ddpw"); } catch (x) { /* ignore */ } } } }
+    box.innerHTML = ddArchHtml(msg);
+    const $ = id => document.getElementById(id);
+    if ($("ddOpen")) {
+      const go = async () => { const pw = $("ddPw").value; try { await ddUnlock(pw); if ($("ddRem").checked) try { localStorage.setItem("ddpw", pw); } catch (e) { /* ignore */ } initDdArch(); } catch (e) { initDdArch(da("bad")); } };
+      $("ddOpen").onclick = go; $("ddPw").onkeydown = e => { if (e.key === "Enter") go(); };
+    }
+    if ($("ddForget")) $("ddForget").onclick = () => { try { localStorage.removeItem("ddpw"); } catch (e) { /* ignore */ } DDK = DDL = null; initDdArch(); };
+    box.querySelectorAll("[data-dd]").forEach(b => b.onclick = () => ddDownload(b.dataset.dd));
   }
   function ddOut() {
     const i = byId[DF.iss], gr = GD().rows.find(r => r.id === DF.iss), name = i ? i.name : DF.name;
