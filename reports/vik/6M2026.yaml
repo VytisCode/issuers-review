@@ -87,10 +87,10 @@ esg:
         lt: "Neigiamų naujienų nerasta (2026-10-22)."
         en: "No adverse news found (2026-10-22)."
     int_promoting:
-      status: 'no'
+      status: 'yes'
       evidence:
-        lt: "VIK nurodo, kad tvarumas nėra pagrindinis jos tikslas – prioritetas yra gynyba ir saugumas [K1 p.13-14]."
-        en: "VIK states that sustainability is not a primary objective; the priority is defence and security [K1 p.13-14]."
+        lt: "**Socialinė nauda – šalies saugumas:** VIK finansuoja Lietuvos gynybos ir saugumo pramonę, pvz., amunicijos gamyklą Baisogaloje [K1 p.4, p.11]. Investuodami prisidedame prie šalies saugumo – tai priskiriame ESG „S“ (socialinei) daliai (savininko vertinimas, 2026-10-23). Pati VIK nurodo, kad tvarumas nėra jos pagrindinis tikslas, o prioritetas – gynyba ir saugumas [K1 p.13-14]."
+        en: "**Social benefit – national security:** VIK finances Lithuania's defence and security industry, e.g. the ammunition plant in Baisogala [K1 p.4, p.11]. By investing we contribute to national security, which we assign to the 'S' (social) part of ESG (owner's assessment, 2026-10-23). VIK itself states that sustainability is not its primary objective; the priority is defence and security [K1 p.13-14]."
     int_taxonomy:
       status: 'no'
       evidence:

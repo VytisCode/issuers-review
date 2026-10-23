@@ -49,6 +49,7 @@ engagement:
 brief:
   good:
     - {lt: "Valstybės įmonė, finansuojanti gynybos pramonę (pvz., artilerijos sviedinių gamyklą Baisogaloje), obligacijas garantuoja valstybė [E1 p.4; E1 p.5].", en: "A state company financing the defence industry (e.g. an artillery shell plant in Baisogala); its bonds are state-guaranteed [E1 p.4; E1 p.5]."}
+    - {lt: "Veikla stiprina Lietuvos saugumą – tai socialinė (ESG „S“) nauda (savininko vertinimas, 2026-10-23) [E1 p.4].", en: "Its work strengthens Lithuania's security – a social ('S' in ESG) benefit (owner's assessment, 2026-10-23) [E1 p.4]."}
     - {lt: "2025 m. patvirtino korupcijos prevencijos politiką [E1 p.36].", en: "Adopted an anti-corruption policy in 2025 [E1 p.36]."}
   bad:
     - {lt: "Pati įmonė sako, kad tvarumas nėra jos pagrindinis tikslas – tvarumo skaičių ir tikslų nėra [E1 p.16].", en: "The company itself says sustainability is not its main goal – no sustainability figures or targets [E1 p.16]."}
