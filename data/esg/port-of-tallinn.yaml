@@ -1,0 +1,85 @@
+# ESG Engagement: Tallinna Sadam (Port of Tallinn). Puslapiai - PDF puslapiai.
+issuer: port-of-tallinn
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Tallinna Sadam Sustainability Report 2025", url: "https://www.ts.ee/wp-content/uploads/2026/04/Sustainability_Report_2025.pdf", date: 2026-04}
+  E2: {title: "Tallinna Sadam Group Annual Report 2024", url: "https://www.ts.ee/wp-content/uploads/2025/04/Tallinna_Sadam_Group-_Annual_Report_2024.pdf", date: 2025-04}
+trend: improving
+summary:
+  lt: "Tikslas – klimato neutralumas iki 2050 m., nuosavi Scope 1+2 −55 % iki 2030 m. nuo 2019 m. [E1 p.22]. 2025 m. Scope 1+2 19 261 t, t. y. −42 % nuo 2019 m. ir −11 % per metus [E1 p.21]. Pereinamasis planas – krantinių elektros tiekimas (OPS) kruiziniams laivams iki 2030 m. ir alternatyvių kuro rūšių centras [E1 p.18; E1 p.19]. Ataskaita savanoriška, pagal ESRS principus, be užtikrinimo [E1 p.4]."
+  en: "Target: climate neutrality by 2050, with own Scope 1+2 −55% by 2030 vs 2019 [E1 p.22]. 2025 Scope 1+2 was 19,261 t, −42% vs 2019 and −11% y/y [E1 p.21]. The transition plan covers onshore power supply (OPS) for cruise ships by 2030 and an alternative-fuels hub [E1 p.18; E1 p.19]. The report is voluntary, follows ESRS principles and has no assurance [E1 p.4]."
+years:
+  FY2025:
+    trend: improving
+    framework:
+      lt: "Savanoriška darnumo ataskaita pagal CSRD ir ESRS principus, ne visa apimtimi; užtikrinimo nerasta [E1 p.4]. Klimato pereinamasis planas 2025–2030 ir 2030–2050 m. [E1 p.18]."
+      en: "Voluntary sustainability report following CSRD and ESRS principles, not to their full extent; no assurance found [E1 p.4]. Climate transition plan for 2025–2030 and 2030–2050 [E1 p.18]."
+    assurance: none
+    summary:
+      lt: "Scope 1+2 −11 % (mažiau dirbo ledlaužis Botnica, keltai – AEI elektra, švelni žiema) [E1 p.21]. AEI dalis savo sunaudojamoje energijoje 77 %, laivų atliekų perdirbimas 58 % (tikslas 70 % 2030 m.) [E1 p.20; E1 p.29]."
+      en: "Scope 1+2 −11% (less Botnica icebreaker time, renewable electricity for ferries, mild winter) [E1 p.21]. Renewables 77% of own energy use; ship waste recycled 58% (target 70% in 2030) [E1 p.20; E1 p.29]."
+    evidence:
+      - {p: E, lt: "Scope 1+2: 33 086 t (2019 m.) → 21 597 t (2024 m.) → 19 261 t (2025 m.); 94 % – nuosavi laivai [E1 p.22].", en: "Scope 1+2: 33,086 t (2019) → 21,597 t (2024) → 19,261 t (2025); 94% from own vessels [E1 p.22]."}
+      - {p: E, lt: "Perkama tik AEI elektra (12,3 GWh); saulės elektrinės pagamino 5,2 % sunaudojamos elektros [E1 p.20].", en: "Only renewable electricity purchased (12.3 GWh); solar panels produced 5.2% of electricity used [E1 p.20]."}
+      - {p: E, lt: "OPS kruiziniams laivams dviejose Senojo miesto uosto krantinėse iki 2030 m.; OPS Muugos uosto krantinėse 13–17 [E1 p.18].", en: "OPS for cruise ships at two Old City Harbour quays by 2030; OPS at Muuga quays 13–17 [E1 p.18]."}
+      - {p: E, lt: "Jūros taršos incidentų 0; kruizinių laivų, atidavusių nuotekas uoste, dalis 83 % (2024 m. 74 %) [E1 p.26].", en: "Zero marine pollution incidents; cruise calls discharging sewage in port 83% (2024: 74%) [E1 p.26]."}
+      - {p: S, lt: "Vienas nelaimingas atsitikimas darbe; tikslas – 0 sunkių nelaimingų atsitikimų [E1 p.37; E1 p.38].", en: "One occupational accident; target of zero serious accidents [E1 p.37; E1 p.38]."}
+      - {p: G, lt: "Bendras Etikos kodeksas, atidarytas pranešimų apie pažeidimus kanalas (taip pat anonimiškai) [E1 p.53].", en: "Single Code of Ethics; misconduct reporting channel opened (also anonymous) [E1 p.53]."}
+    concerns:
+      - {lt: "Užtikrinimo nėra; laivų atliekų perdirbimo duomenys neaudituoti [E1 p.4; E1 p.29].", en: "No assurance; ship waste recycling data unaudited [E1 p.4; E1 p.29]."}
+      - {lt: "Ekologiškų kriterijų dalis pirkimuose 65 % (2024 m. 87 %) [E1 p.53].", en: "Share of procurements with environmental criteria 65% (2024: 87%) [E1 p.53]."}
+  FY2024:
+    trend: improving
+    framework:
+      lt: "Darnumo informacija metinėje ataskaitoje; atliktas dvigubo reikšmingumo vertinimas, ataskaita pagal CSRD – nuo 2025 m. [E2 p.14; E2 p.15]. Užtikrinimo nerasta."
+      en: "Sustainability information in the annual report; double materiality assessment done, CSRD reporting from 2025 [E2 p.14; E2 p.15]. No assurance found."
+    assurance: none
+    summary:
+      lt: "Scope 1+2 21 656 t (2023 m. 23 839 t); Scope 1–3 72 277 t, −42 % nuo 2019 m. [E2 p.27; E2 p.28]. Taršos incidentų uosto akvatorijose 9 (2023 m. 5) [E2 p.25]."
+      en: "Scope 1+2 21,656 t (2023: 23,839 t); Scope 1–3 72,277 t, −42% vs 2019 [E2 p.27; E2 p.28]. Pollution incidents in harbour basins 9 (2023: 5) [E2 p.25]."
+    evidence:
+      - {p: E, lt: "AEI dalis energijos suvartojime 73 % (tikslas 90 % 2030 m.); pastatų energijos sąnaudos 178 kWh/m² [E2 p.24].", en: "Renewables 73% of energy use (target 90% in 2030); buildings 178 kWh/m² [E2 p.24]."}
+      - {p: E, lt: "Laivų atliekų perdirbimas 55 % (2023 m. 49 %) [E2 p.25].", en: "Ship waste recycled 55% (2023: 49%) [E2 p.25]."}
+      - {p: S, lt: "Vienas nelaimingas atsitikimas darbe (lūžo kulkšnis) [E2 p.33].", en: "One occupational accident (broken ankle) [E2 p.33]."}
+    concerns:
+      - {lt: "Taršos incidentų uosto akvatorijose 9 (tikslas 0) [E2 p.25]. 2025 m. ataskaitoje skaičiuojami tik reikšmingi incidentai – 2024 m. jų 0 [E1 p.26].", en: "Pollution incidents in harbour basins 9 (target 0) [E2 p.25]. The 2025 report counts only significant incidents, of which 2024 had 0 [E1 p.26]."}
+      - {lt: "Kruizinių laivų, atidavusių nuotekas, dalis krito iki 74 % (2023 m. 84 %) [E2 p.25].", en: "Cruise calls discharging sewage fell to 74% (2023: 84%) [E2 p.25]."}
+targets:
+  - p: E
+    name: {lt: "Nuosavi Scope 1+2 −55 % iki 2030 m. (bazė 2019 m. 33 086 t), 0 iki 2050 m.", en: "Own Scope 1+2 −55% by 2030 (2019 base 33,086 t), zero by 2050"}
+    FY2024: {lt: "21 656 t (−35 %, apskaičiuota įrankio) [E2 p.27]", en: "21,656 t (−35%, calculated by the tool) [E2 p.27]"}
+    FY2025: {lt: "19 261 t (−42 %) [E1 p.21]", en: "19,261 t (−42%) [E1 p.21]"}
+    status: on_track
+  - p: E
+    name: {lt: "AEI dalis savo energijos suvartojime 90 % 2030 m.", en: "Renewables 90% of own energy use in 2030"}
+    FY2024: {lt: "73 % [E2 p.24]", en: "73% [E2 p.24]"}
+    FY2025: {lt: "77 % [E1 p.20]", en: "77% [E1 p.20]"}
+    status: on_track
+  - p: E
+    name: {lt: "70 % laivų atliekų nukreipiama perdirbti", en: "70% of ship waste diverted to recycling"}
+    FY2024: {lt: "55 % [E2 p.25]", en: "55% [E2 p.25]"}
+    FY2025: {lt: "58 % [E1 p.29]", en: "58% [E1 p.29]"}
+    status: on_track
+  - p: E
+    name: {lt: "TS Laevad CO2 vienam reisui 26 % nuo 2020 m. lygio 2030 m.", en: "TS Laevad CO2 per voyage at 26% of the 2020 level in 2030"}
+    FY2024: {lt: "80 % [E1 p.22]", en: "80% [E1 p.22]"}
+    FY2025: {lt: "77 % [E1 p.22]", en: "77% [E1 p.22]"}
+    status: behind
+  - p: E
+    name: {lt: "0 jūros taršos incidentų", en: "Zero marine pollution incidents"}
+    FY2024: {lt: "9 (visi incidentai) [E2 p.25]", en: "9 (all incidents) [E2 p.25]"}
+    FY2025: {lt: "0 (reikšmingi) [E1 p.26]", en: "0 (significant) [E1 p.26]"}
+    status: changed
+metrics:
+  - {p: E, name: {lt: "Nuosavi Scope 1+2 išmetimai", en: "Own Scope 1+2 emissions"}, unit: "t CO2e", better: down, FY2023: {v: 23839, src: "E2 p.27"}, FY2024: {v: 21597, src: "E1 p.22", note: {lt: "2024 m. ataskaitoje 21 656", en: "21,656 in the 2024 report"}}, FY2025: {v: 19261, src: "E1 p.22"}}
+  - {p: E, name: {lt: "AEI dalis savo energijos suvartojime", en: "Renewables share of own energy use"}, unit: "%", better: up, FY2023: {v: 74, src: "E2 p.24"}, FY2024: {v: 73, src: "E2 p.24"}, FY2025: {v: 77, src: "E1 p.20"}}
+  - {p: E, name: {lt: "Pastatų energijos sąnaudos", en: "Building energy use"}, unit: "kWh/m²", better: down, FY2023: {v: 183, src: "E2 p.24"}, FY2024: {v: 178, src: "E2 p.24"}, FY2025: {v: 172, src: "E1 p.20"}}
+  - {p: E, name: {lt: "Laivų atliekų perdirbimas", en: "Ship waste recycled"}, unit: "%", better: up, FY2023: {v: 49, src: "E2 p.25"}, FY2024: {v: 55, src: "E2 p.25"}, FY2025: {v: 58, src: "E1 p.29"}}
+  - {p: S, name: {lt: "Nelaimingi atsitikimai darbe", en: "Occupational accidents"}, unit: "", better: down, FY2024: {v: 1, src: "E2 p.33"}, FY2025: {v: 1, src: "E1 p.37"}}
+engagement:
+  level: none
+  policies: [investments, shipping, climate_nature]
+  reason:
+    lt: "SEB laivybos politikos esminiai lūkesčiai įvykdyti: dekarbonizacijos planas iki 2050 m., SEEMP ir EEOI taikymas ledlaužiui, kasmet skelbiami išmetimai [E1 p.18; E1 p.20; E1 p.22]. Išorinio užtikrinimo trūkumas – dėl savanoriškos ataskaitos [E1 p.4]."
+    en: "Core SEB Shipping policy expectations are met: a decarbonisation plan to 2050, SEEMP and EEOI applied to the icebreaker, and annual emissions disclosure [E1 p.18; E1 p.20; E1 p.22]. The lack of external assurance reflects the voluntary report [E1 p.4]."
+  questions: []

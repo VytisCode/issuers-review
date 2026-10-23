@@ -67,6 +67,8 @@ def get_pdf(cands, year, log):
             continue
         if data[:5] == b"%PDF-" or data[:2] == b"PK":
             return data, final
+        if re.search(r"\.x?html?$", final.split("?")[0], re.I) and b"ix:header" in data[:400000]:
+            return data, final  # ESEF ataskaita kaip vienas XHTML failas (pvz. filings.xbrl.org)
         if b"<html" in data[:2000].lower() or "html" in ctype:
             for u in pdf_links(data.decode("utf-8", "ignore"), final, year):
                 try:
@@ -81,12 +83,15 @@ def get_pdf(cands, year, log):
 
 
 def esef_pages(data):
-    """ESEF ZIP (XHTML): didžiausias .xhtml/.html failas -> puslapiai pagal „page-break“ žymes (PDF nėra, todėl nuoroda be #page)."""
-    z = zipfile.ZipFile(io.BytesIO(data))
-    names = [n for n in z.namelist() if n.lower().endswith((".xhtml", ".html", ".htm"))]
-    if not names:
-        return [""]
-    doc = z.read(max(names, key=lambda n: z.getinfo(n).file_size)).decode("utf-8", "ignore")
+    """ESEF ZIP (XHTML) arba vienas XHTML: didžiausias .xhtml/.html failas -> puslapiai pagal „page-break“ žymes (PDF nėra, todėl nuoroda be #page)."""
+    if data[:2] == b"PK":
+        z = zipfile.ZipFile(io.BytesIO(data))
+        names = [n for n in z.namelist() if n.lower().endswith((".xhtml", ".html", ".htm"))]
+        if not names:
+            return [""]
+        doc = z.read(max(names, key=lambda n: z.getinfo(n).file_size)).decode("utf-8", "ignore")
+    else:
+        doc = data.decode("utf-8", "ignore")
     parts = re.split(r"<(?:div|p|hr)[^>]*page-break-(?:after|before)[^>]*>", doc, flags=re.I) if "page-break" in doc else re.split(r'<div[^>]*class="[^"]*\bpage\b[^"]*"[^>]*>', doc)
     out = []
     for part in parts:
@@ -120,7 +125,8 @@ def main(out_dir):
                 if not data:
                     manifest[name] = {"issuer": issuer, "year": year, "url": "", "error": "nepavyko atsisiųsti"}
                     continue
-                if data[:2] == b"PK":
+                esef = data[:5] != b"%PDF-"
+                if esef:
                     pages = esef_pages(data)
                 else:
                     pdf = out / "pdf.tmp"
@@ -135,7 +141,7 @@ def main(out_dir):
                 (out / "text" / f"{name}.txt").write_text(body, encoding="utf-8")
                 title = item.get("title", "") if isinstance(item, dict) else ""
                 manifest[name] = {"issuer": issuer, "year": year, "url": url, "title": title, "pages": len(pages), "kb": len(data) // 1024}
-                if data[:2] == b"PK":
+                if esef:
                     manifest[name]["format"] = "esef"
                 log.append(f"  ✓ {url} ({len(pages)} psl.)")
     man_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
