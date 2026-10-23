@@ -702,11 +702,11 @@
       emailHint: "Atsidaro Outlook kaip juodraštis. Anglų kalba, be parašo – pridėkite savo.", bond: "obligacijos", share: "akcijos", notReported: "neskelbiama", calc: "apskaičiuota įrankio" },
   };
   const gx = k => (GX[LANG] || GX.en)[k];
-  const G = () => (D.esg && (D.esg[LANG] || D.esg.en)) || { years: [], rows: [], labels: {} };
+  const GD = () => (D.esg && (D.esg[LANG] || D.esg.en)) || { years: [], rows: [], labels: {} };
   const TRC = { improving: "good", stable: "info", mixed: "warn", worsening: "bad", limited: "info", baseline: "info" };
   const TSC = { met: "good", on_track: "good", behind: "warn", missed: "bad", new: "info", no_data: "info", changed: "warn" };
   const ENC = { none: "good", watch: "warn", engage: "bad" };
-  const gchip = (map, cls, k) => `<span class="chip ${cls[k] || "info"}">${esc((G().labels[map] || {})[k] || k)}</span>`;
+  const gchip = (map, cls, k) => `<span class="chip ${cls[k] || "info"}">${esc((GD().labels[map] || {})[k] || k)}</span>`;
   let GF = { q: "", eng: false };
   function esgEmail(r) {
     const E = GX.en, e = r.engagement, ins = r.instruments.map(x => x === "share" ? "shares" : "bonds").join(" and ");
@@ -715,7 +715,7 @@
     return { subject: `${r.name}: questions on sustainability disclosures`, body };
   }
   function esgPage(arg) {
-    const g = G();
+    const g = GD();
     if (arg) return esgIssuer(g, arg);
     setTimeout(initEsg);
     return `<h1>${gx("title")}</h1><p class="sub">${gx("sub")}</p>
@@ -725,7 +725,7 @@
   }
   function initEsg() {
     const $ = id => document.getElementById(id); if (!$("gT")) return;
-    const g = G();
+    const g = GD();
     const render = () => {
       const rows = g.rows.filter(r => (!GF.q || r.name.toLowerCase().includes(GF.q.toLowerCase())) && (!GF.eng || r.engagement.level !== "none"));
       $("gT").innerHTML = rows.length ? `<div class="tbl-wrap"><table class="esgt"><tr><th>${gx("issuer")}</th>${g.years.map(y => `<th>${y}</th>`).join("")}<th>${gx("dir")}</th><th>${gx("eng")}</th></tr>
@@ -779,7 +779,7 @@
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
     const map = { overview, email: emailPage, esg: () => esgPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
-    document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = t(k); a.classList.toggle("on", k === page || (page === "issuer" && k === "overview")); });
+    document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = k === "esg" ? "ESG" : t(k); a.classList.toggle("on", k === page || (page === "issuer" && k === "overview")); });
     document.querySelector(".brand").textContent = t("heroTitle");
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
     document.documentElement.lang = LANG;

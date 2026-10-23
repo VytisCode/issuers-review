@@ -1,0 +1,116 @@
+# ESG Engagement: Ignitis grupė. Šaltiniai - metinės integruotos ataskaitos (puslapiai - PDF puslapiai, sutampa su spausdintais „N / 451“).
+issuer: ignitis
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Ignitis Group Integrated Annual Report 2025", url: "https://ignitisgrupe.lt/sites/default/files/public/inline-files/Integrated%20Annual%20Report%202025.pdf", date: 2026-02-25}
+  E2: {title: "Ignitis Group Integrated Annual Report 2024", url: "https://ignitisgrupe.lt/sites/default/files/public/inline-files/Integrated%20Annual%20Report%202024.pdf", date: 2025-02-27}
+trend: mixed
+summary:
+  lt: "Ilgalaikė kryptis aiški: SBTi patvirtinti tikslai, „net zero“ 2040–2050 m., sparčiai auga žalieji pajėgumai [E1 p.29; E1 p.196]. Tačiau 2025 m. išmetimai išaugo: Scope 1 +55 %, anglies intensyvumas 248 g/kWh, kai 2028 m. tikslas 190 g/kWh. Priežastis – Elektrėnų dujų blokų balansavimo paslaugos sinchronizacijai, be jų intensyvumas būtų 208 g/kWh [E1 p.29; E1 p.198]. Saugos ir socialiniai tikslai vykdomi."
+  en: "The long-term direction is clear: SBTi-validated targets, net zero by 2040–2050 and rapid growth of green capacity [E1 p.29; E1 p.196]. Emissions rose in 2025, however: Scope 1 +55% and carbon intensity 248 g/kWh against a 2028 target of 190 g/kWh. The cause was balancing services from the Elektrėnai gas units for synchronisation; without them intensity would be 208 g/kWh [E1 p.29; E1 p.198]. Safety and social targets are on track."
+years:
+  FY2025:
+    trend: mixed
+    framework:
+      lt: "Darnumo ataskaita pagal CSRD/ESRS, riboto užtikrinimo patikra – KPMG [E1 p.18; E1 p.444]. SBTi tikslai pakartotinai patvirtinti 2025 m., bazė pakeista į 2023 m. [E1 p.196]."
+      en: "Sustainability statement under CSRD/ESRS, limited assurance by KPMG [E1 p.18; E1 p.444]. SBTi targets revalidated in 2025 with a new 2023 baseline [E1 p.196]."
+    assurance: limited
+    summary:
+      lt: "Išmetimai augo dėl balansavimo paslaugų (Scope 1 +55 %, iš viso +10 %), žaliosios gamybos dalis krito iki 70,2 %, bet žalieji pajėgumai pasiekė 2,1 GW, sauga ir socialiniai rodikliai gerėjo [E1 p.5; E1 p.198]."
+      en: "Emissions grew because of balancing services (Scope 1 +55%, total +10%) and the green share of generation fell to 70.2%. Green capacity reached 2.1 GW, and safety and social metrics improved [E1 p.5; E1 p.198]."
+    evidence:
+      - {p: E, lt: "Įtraukta į CDP Climate A sąrašą (4 % geriausių vertintų įmonių) [E1 p.8].", en: "Included in the CDP Climate A List (top 4% of scored companies) [E1 p.8]."}
+      - {p: E, lt: "Įrengti žalieji pajėgumai 2,1 GW (2024 m. 1,4 GW); Kelmės VE (314 MW) pradėjo veikti 2025 m. birželį [E1 p.7; E1 p.27].", en: "Installed green capacity 2.1 GW (2024: 1.4 GW); Kelmė wind farm (314 MW) reached COD in June 2025 [E1 p.7; E1 p.27]."}
+      - {p: E, lt: "SF6 nuotėkis 0 g (2024 m. 100 g) [E1 p.191].", en: "SF6 leakage 0 g (2024: 100 g) [E1 p.191]."}
+      - {p: E, lt: "Su taksonomija suderinta pakoreguoto EBITDA dalis 81,4 % – jau virš 2028 m. tikslo ≥70–75 % [E1 p.29].", en: "Taxonomy-aligned share of Adjusted EBITDA 81.4%, already above the 2028 target of ≥70–75% [E1 p.29]."}
+      - {p: S, lt: "Mirtinų nelaimingų atsitikimų nebuvo; darbuotojų TRIR 0,72 (2024 m. 1,12), rangovų 0,72 (0,84) [E1 p.240; E1 p.159].", en: "No fatalities; employee TRIR 0.72 (2024: 1.12), contractors 0.72 (0.84) [E1 p.240; E1 p.159]."}
+      - {p: S, lt: "eNPS 65,6, moterų dalis aukščiausioje vadovybėje 29,4 % (tikslas ~33 % 2028 m.) [E1 p.29].", en: "eNPS 65.6; women in top management 29.4% (target ~33% by 2028) [E1 p.29]."}
+      - {p: S, lt: "Sunkių žmogaus teisių pažeidimų, susijusių su darbuotojais, – 0 [E1 p.254].", en: "Severe human rights incidents connected to own workforce: 0 [E1 p.254]."}
+      - {p: G, lt: "Nauja stebėtojų taryba (2025 m. spalis): 6 iš 9 nepriklausomi, įkurtas Darnumo komitetas [E1 p.8].", en: "New Supervisory Board (Oct 2025): 6 of 9 independent; Sustainability Committee formed [E1 p.8]."}
+    concerns:
+      - {lt: "Anglies intensyvumas (Scope 1 ir 2) 248 g/kWh, +25 % per metus, tolsta nuo 2028 m. tikslo 190 g/kWh [E1 p.196].", en: "Carbon intensity (Scope 1 & 2) 248 g/kWh, +25% year on year, moving away from the 2028 target of 190 g/kWh [E1 p.196]."}
+      - {lt: "Su taksonomija suderintos investicijos 84,7 % – žemiau tikslo ≥85–90 % [E1 p.29].", en: "Taxonomy-aligned investments 84.7%, below the ≥85–90% target [E1 p.29]."}
+      - {lt: "Dalis 2024 m. energijos ir išmetimų rodiklių perskaičiuota, todėl palyginimai su 2024 m. ataskaita ne visur tiesioginiai [E1 p.197; E1 p.198].", en: "Some 2024 energy and emission figures were restated, so comparisons with the 2024 report are not always direct [E1 p.197; E1 p.198]."}
+  FY2024:
+    trend: improving
+    framework:
+      lt: "Pirmoji visa CSRD/ESRS darnumo ataskaita, riboto užtikrinimo patikra – KPMG [E2 p.9]."
+      en: "First full CSRD/ESRS sustainability statement, limited assurance by KPMG [E2 p.9]."
+    assurance: limited
+    summary:
+      lt: "Bendri išmetimai sumažėjo 7,2 %, anglies intensyvumas – 18 % iki 199 g/kWh; Scope 1 išaugo 14,8 % dėl didesnės gamybos [E2 p.29; E2 p.199]."
+      en: "Total emissions fell 7.2% and carbon intensity 18% to 199 g/kWh; Scope 1 rose 14.8% on higher generation [E2 p.29; E2 p.199]."
+    evidence:
+      - {p: E, lt: "Anglies intensyvumas 199 g/kWh (2023 m. 222), siekiant 20–40 % sumažinimo iki 2027 m. [E2 p.29].", en: "Carbon intensity 199 g/kWh (2023: 222), aiming at a 20–40% cut by 2027 [E2 p.29]."}
+      - {p: E, lt: "EcoVadis vertinimas išplėstas visai grupei [E2 p.9].", en: "EcoVadis assessment extended to the whole Group [E2 p.9]."}
+      - {p: S, lt: "Mirtinų atsitikimų nebuvo; darbuotojų TRIR 1,12 (tikslas <1,5 2027 m.) [E2 p.29; E2 p.235].", en: "No fatalities; employee TRIR 1.12 (target <1.5 by 2027) [E2 p.29; E2 p.235]."}
+      - {p: S, lt: "eNPS 65,2 (2023 m. 57,5), moterų dalis aukščiausioje vadovybėje 27,7 % (2023 m. 23,1 %) [E2 p.29].", en: "eNPS 65.2 (2023: 57.5); women in top management 27.7% (2023: 23.1%) [E2 p.29]."}
+      - {p: G, lt: "Patvirtintų korupcijos atvejų 0 (2023 m. – 2) [E2 p.270].", en: "Confirmed corruption incidents 0 (2023: 2) [E2 p.270]."}
+    concerns:
+      - {lt: "Scope 1 išaugo 14,8 % (476 tūkst. t) dėl didesnės dujų elektrinių gamybos [E2 p.199].", en: "Scope 1 up 14.8% (476 thousand t) on higher gas-fired generation [E2 p.199]."}
+targets:
+  - p: E
+    name: {lt: "Anglies intensyvumas (Scope 1 ir 2): 2028 m. – 190 g CO2e/kWh (ankstesnis tikslas: −20–40 % iki 2027 m.)", en: "Carbon intensity (Scope 1 & 2): 190 g CO2e/kWh in 2028 (earlier target: −20–40% by 2027)"}
+    FY2024: {lt: "199 g/kWh (2023 m. 222) [E2 p.29]", en: "199 g/kWh (2023: 222) [E2 p.29]"}
+    FY2025: {lt: "248 g/kWh; be balansavimo paslaugų – 208 [E1 p.196; E1 p.29]", en: "248 g/kWh; 208 without balancing services [E1 p.196; E1 p.29]"}
+    status: behind
+  - p: E
+    name: {lt: "SBTi: ne su elektros gamyba susiję Scope 1+2 išmetimai −42 % iki 2030 m. (bazė 2023 m. 260 tūkst. t)", en: "SBTi: Scope 1+2 emissions not related to power generation −42% by 2030 (2023 base 260 thousand t)"}
+    FY2024: {lt: "196 tūkst. t [E1 p.196]", en: "196 thousand t [E1 p.196]"}
+    FY2025: {lt: "181 tūkst. t (−30,4 % nuo bazės) [E1 p.196]", en: "181 thousand t (−30.4% vs base) [E1 p.196]"}
+    status: on_track
+  - p: E
+    name: {lt: "SBTi: elektros gamybos intensyvumas 15 g CO2e/kWh 2030 m. (bazė 2023 m. 107)", en: "SBTi: power generation intensity 15 g CO2e/kWh by 2030 (2023 base 107)"}
+    FY2024: {lt: "83 g/kWh [E1 p.196]", en: "83 g/kWh [E1 p.196]"}
+    FY2025: {lt: "108 g/kWh (+0,9 % nuo bazės) [E1 p.196]", en: "108 g/kWh (+0.9% vs base) [E1 p.196]"}
+    status: behind
+  - p: E
+    name: {lt: "Net zero 2040–2050 m.", en: "Net zero by 2040–2050"}
+    FY2024: {lt: "Patvirtinta strategijoje [E2 p.29]", en: "Confirmed in strategy [E2 p.29]"}
+    FY2025: {lt: "SBTi 2040 m. tikslai patvirtinti 2025 m. [E1 p.196; E1 p.10]", en: "SBTi 2040 targets validated in 2025 [E1 p.196; E1 p.10]"}
+    status: on_track
+  - p: E
+    name: {lt: "Įrengti žalieji pajėgumai: 4–5 GW iki 2030 m.", en: "Installed green capacity: 4–5 GW by 2030"}
+    FY2024: {lt: "1,4 GW [E1 p.27]", en: "1.4 GW [E1 p.27]"}
+    FY2025: {lt: "2,1 GW [E1 p.27]", en: "2.1 GW [E1 p.27]"}
+    status: on_track
+  - p: G
+    name: {lt: "Su taksonomija suderintos investicijos ≥85–90 %", en: "Taxonomy-aligned investments ≥85–90%"}
+    FY2024: {lt: "92,7 % (perskaičiuota) [E1 p.29]", en: "92.7% (restated) [E1 p.29]"}
+    FY2025: {lt: "84,7 % [E1 p.29]", en: "84.7% [E1 p.29]"}
+    status: behind
+  - p: S
+    name: {lt: "0 mirtinų atsitikimų; darbuotojų TRIR <1,0 2028 m. (ankstesnis tikslas <1,5 2027 m.)", en: "Zero fatalities; employee TRIR <1.0 in 2028 (earlier target <1.5 in 2027)"}
+    FY2024: {lt: "0 mirčių, TRIR 1,12 [E2 p.29]", en: "0 fatalities, TRIR 1.12 [E2 p.29]"}
+    FY2025: {lt: "0 mirčių, TRIR 0,72 [E1 p.29; E1 p.240]", en: "0 fatalities, TRIR 0.72 [E1 p.29; E1 p.240]"}
+    status: met
+  - p: S
+    name: {lt: "Moterų dalis aukščiausioje vadovybėje ~33 % iki 2028 m. (anksčiau ~30 % iki 2027 m.)", en: "Women in top management ~33% by 2028 (earlier ~30% by 2027)"}
+    FY2024: {lt: "27,7 % [E2 p.29]", en: "27.7% [E2 p.29]"}
+    FY2025: {lt: "29,4 % [E1 p.29]", en: "29.4% [E1 p.29]"}
+    status: on_track
+  - p: S
+    name: {lt: "eNPS ≥50", en: "eNPS ≥50"}
+    FY2024: {lt: "65,2 [E2 p.29]", en: "65.2 [E2 p.29]"}
+    FY2025: {lt: "65,6 [E1 p.29]", en: "65.6 [E1 p.29]"}
+    status: met
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 414, src: "E2 p.199"}, FY2024: {v: 476, src: "E1 p.198"}, FY2025: {v: 736, src: "E1 p.198"}}
+  - {p: E, name: {lt: "Scope 2 išmetimai (rinkos metodas)", en: "Scope 2 emissions (market-based)"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 183, src: "E2 p.199"}, FY2024: {v: 118, src: "E1 p.198"}, FY2025: {v: 113, src: "E1 p.198"}}
+  - {p: E, name: {lt: "Scope 3 išmetimai", en: "Scope 3 emissions"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 3765, src: "E2 p.199"}, FY2024: {v: 3484, src: "E1 p.198", note: {lt: "perskaičiuota", en: "restated"}}, FY2025: {v: 3638, src: "E1 p.198"}}
+  - {p: E, name: {lt: "Iš viso išmetimų (rinkos metodas)", en: "Total GHG emissions (market-based)"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 4363, src: "E2 p.199"}, FY2024: {v: 4077, src: "E1 p.198"}, FY2025: {v: 4487, src: "E1 p.198"}}
+  - {p: E, name: {lt: "Anglies intensyvumas (Scope 1 ir 2)", en: "Carbon intensity (Scope 1 & 2)"}, unit: "g CO2e/kWh", better: down, FY2023: {v: 222, src: "E2 p.29"}, FY2024: {v: 199, src: "E1 p.196"}, FY2025: {v: 248, src: "E1 p.196"}}
+  - {p: E, name: {lt: "Įrengti žalieji pajėgumai", en: "Installed green capacity"}, unit: "GW", better: up, FY2023: {v: 1.3, src: "E2 p.6"}, FY2024: {v: 1.4, src: "E1 p.27"}, FY2025: {v: 2.1, src: "E1 p.27"}}
+  - {p: E, name: {lt: "Atsinaujinanti energija suvartotoje energijoje", en: "Energy consumption from renewable sources"}, unit: "MWh", better: up, FY2024: {v: 2582440, src: "E1 p.197"}, FY2025: {v: 2753316, src: "E1 p.197"}}
+  - {p: S, name: {lt: "Darbuotojų TRIR", en: "Employee TRIR"}, unit: "", better: down, FY2023: {v: 0.79, src: "E2 p.29"}, FY2024: {v: 1.12, src: "E1 p.159"}, FY2025: {v: 0.72, src: "E1 p.159"}}
+  - {p: S, name: {lt: "Mirtini nelaimingi atsitikimai (darbuotojai ir rangovai)", en: "Fatalities (employees and contractors)"}, unit: "", better: down, FY2024: {v: 0, src: "E1 p.240"}, FY2025: {v: 0, src: "E1 p.240"}}
+  - {p: S, name: {lt: "Moterys aukščiausioje vadovybėje", en: "Women in top management"}, unit: "%", better: up, FY2023: {v: 23.1, src: "E2 p.29"}, FY2024: {v: 27.7, src: "E1 p.29"}, FY2025: {v: 29.4, src: "E1 p.29"}}
+  - {p: G, name: {lt: "Su taksonomija suderintas pakoreguotas EBITDA", en: "Taxonomy-aligned Adjusted EBITDA"}, unit: "%", better: up, FY2024: {v: 71.6, src: "E1 p.29", note: {lt: "perskaičiuota (buvo 72,0)", en: "restated (was 72.0)"}}, FY2025: {v: 81.4, src: "E1 p.29"}}
+  - {p: G, name: {lt: "Patvirtinti korupcijos atvejai", en: "Confirmed corruption incidents"}, unit: "", better: down, FY2023: {v: 2, src: "E2 p.270"}, FY2024: {v: 0, src: "E2 p.270"}}
+engagement:
+  level: none
+  policies: [investments, fossil_fuels, electricity_renewables, climate_nature]
+  reason:
+    lt: "SEB iškastinio kuro ir atsinaujinančios energetikos politikų reikalavimai įvykdyti: skelbiami Scope 1–3 išmetimai, yra SBTi patvirtinti trumpo, vidutinio ir ilgo laikotarpio tikslai bei pereinamasis planas [E1 p.196; E1 p.198]. 2025 m. intensyvumo augimą emitentas paaiškina laikinomis reguliuojamomis balansavimo paslaugomis [E1 p.29]. Verta stebėti 2026 m., ar intensyvumas grįžta link tikslo."
+    en: "SEB Fossil Fuels and Renewable Energy policy requirements are met: Scope 1–3 emissions are disclosed, and there are SBTi-validated short-, medium- and long-term targets and a transition plan [E1 p.196; E1 p.198]. The issuer explains the 2025 rise in intensity by temporary regulated balancing services [E1 p.29]. Worth checking in 2026 whether intensity returns towards the target."
+  questions: []

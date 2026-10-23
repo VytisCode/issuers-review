@@ -1,0 +1,123 @@
+# ESG Engagement: Latvenergo. Puslapiai - PDF puslapiai (sutampa su spausdintais).
+issuer: latvenergo
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Latvenergo Group Annual Report 2025", url: "https://nasdaqbaltic.com/market/upload/reports/elek/2025_ar_en_con.pdf", date: 2026-04}
+  E2: {title: "Latvenergo Group Annual Report 2024", url: "https://nasdaqbaltic.com/market/upload/reports/elek/2024_ar_en_eur_con_ias.pdf", date: 2025-04}
+trend: improving
+summary:
+  lt: "Aiški tikslų sistema (Darnumo strategija 2024–2026, kasmet skelbiama pažanga): klimato neutralumas elektros gamyboje iki 2040 m., visoje veikloje iki 2050 m., Scope 1 −47 % iki 2030 m. [E1 p.26; E1 p.112]. 2025 m. dauguma tikslų vykdomi, išleista pirmoji 400 mln. EUR Europos žaliųjų obligacijų emisija [E1 p.9]. Atsilieka mažmeninės prekybos išmetimai, vandens intensyvumas ir visuomenės parama VE ir SE plėtrai [E1 p.26; E1 p.28]."
+  en: "A clear target framework (Sustainability Strategy 2024–2026, with progress reported every year): climate neutrality in power generation by 2040 and in all operations by 2050, and Scope 1 −47% by 2030 [E1 p.26; E1 p.112]. Most targets were on track in 2025, and the first EUR 400m European Green Bond was issued [E1 p.9]. Behind on retail emissions, water intensity and public support for wind and solar build-out [E1 p.26; E1 p.28]."
+years:
+  FY2025:
+    trend: improving
+    framework:
+      lt: "Darnumo ataskaita pagal ESRS, riboto užtikrinimo patikra – Ernst & Young Baltic [E1 p.6; E1 p.207]. Moody's „Net Zero“ vertinimas NZ-3: Scope 1 ir 2 tikslai iki 2030 m. atitinka 1,5 °C scenarijų [E1 p.115; E1 p.116]. ISO 14001, 45001, 50001 [E1 p.66]."
+      en: "Sustainability statement under ESRS, limited assurance by Ernst & Young Baltic [E1 p.6; E1 p.207]. Moody's Net Zero Assessment NZ-3: Scope 1 and 2 targets to 2030 consistent with 1.5 °C [E1 p.115; E1 p.116]. ISO 14001, 45001, 50001 [E1 p.66]."
+    assurance: limited
+    summary:
+      lt: "Scope 1 −2 %, bendri išmetimai −1 %; Scope 1 −17 % nuo 2021 m. Atsinaujinančių šaltinių dalis gamyboje 66 %, „žalią“ elektrą renkasi 12 % mažmeninių klientų (2024 m. 9 %) [E1 p.26; E1 p.122]."
+      en: "Scope 1 −2% and total emissions −1%; Scope 1 −17% since 2021. Renewables 66% of generation; 12% of retail customers choose green electricity (2024: 9%) [E1 p.26; E1 p.122]."
+    evidence:
+      - {p: E, lt: "Išleistos pirmosios Europos žaliosios obligacijos (EuGB), 400 mln. EUR; parengta EuGB informacinė lentelė [E1 p.9; E1 p.187].", en: "Inaugural European Green Bond (EuGB), EUR 400m, with an EuGB factsheet [E1 p.9; E1 p.187]."}
+      - {p: E, lt: "Daugiau nei du trečdaliai investicijų, 548 mln. EUR, skirta vėjo ir saulės parkams [E1 p.20].", en: "More than two-thirds of investment, EUR 548m, went to wind and solar parks [E1 p.20]."}
+      - {p: E, lt: "Parengtas Biologinės įvairovės pereinamasis planas 2026–2028 m.; atkurta 13,1 km upių buveinių (tikslas 25 km iki 2026 m.) [E1 p.27].", en: "Biodiversity Transition Plan 2026–2028 prepared; 13.1 km of river habitat improved (target 25 km by 2026) [E1 p.27]."}
+      - {p: E, lt: "Elektros skirstymo nuostoliai 3,66 % (tikslas <4 %); sertifikuota žalia elektra savoms reikmėms 80 % (tikslas 79 %) [E1 p.26].", en: "Distribution losses 3.66% (target <4%); certified green electricity for own use 80% (target 79%) [E1 p.26]."}
+      - {p: S, lt: "Sunkių nelaimingų atsitikimų 0; teigiamas darbuotojų gerovės vertinimas 80 % (tikslas ≥65 %) [E1 p.28].", en: "Serious accidents 0; positive employee well-being score 80% (target ≥65%) [E1 p.28]."}
+      - {p: S, lt: "Klientų pasitenkinimo indeksas Latvijoje 107 (tikslas >100) [E1 p.28].", en: "Customer satisfaction index in Latvia 107 (target >100) [E1 p.28]."}
+      - {p: G, lt: "Korupcijos ir etikos pažeidimų su reikšmingu poveikiu – 0; politinių įmokų – 0 [E1 p.28].", en: "Corruption or ethics breaches with significant impact: 0; political contributions: 0 [E1 p.28]."}
+    concerns:
+      - {lt: "Mažmeninės elektros prekybos išmetimai +8 % nuo 2022 m. bazės, kai tikslas −20 % iki 2030 m. [E1 p.26].", en: "Retail electricity emissions +8% vs the 2022 base against a −20% target for 2030 [E1 p.26]."}
+      - {lt: "Vandens sąnaudos 0,51 m³/MWh (2024 m. 0,46), tikslas 0,16 m³/MWh 2030 m. [E1 p.28].", en: "Water use 0.51 m³/MWh (2024: 0.46) against a target of 0.16 m³/MWh in 2030 [E1 p.28]."}
+      - {lt: "Latvijos gyventojų parama VE ir SE plėtrai krito iki 56 % (2024 m. 77 %), tikslas ≥70 % [E1 p.28].", en: "Public support for wind and solar build-out in Latvia fell to 56% (2024: 77%) against a ≥70% target [E1 p.28]."}
+  FY2024:
+    trend: mixed
+    framework:
+      lt: "Pirmoji darnumo ataskaita pagal ESRS, riboto užtikrinimo patikra – Ernst & Young Baltic [E2 p.72; E2 p.242]. Patvirtinta Darnumo strategija 2024–2026 su kiekybiniais tikslais [E2 p.20]."
+      en: "First sustainability statement under ESRS, limited assurance by Ernst & Young Baltic [E2 p.72; E2 p.242]. Sustainability Strategy 2024–2026 adopted with quantified targets [E2 p.20]."
+    assurance: limited
+    summary:
+      lt: "Scope 1 +9 % ir bendri išmetimai +13 %, nes daugiau gaminta termofikacinėse elektrinėse; vis dėlto Scope 1 −16 % nuo 2021 m., atsinaujinančių šaltinių dalis 66 % [E2 p.117; E2 p.20]."
+      en: "Scope 1 +9% and total emissions +13% on higher CHP generation; Scope 1 still −16% since 2021, with renewables at 66% [E2 p.117; E2 p.20]."
+    evidence:
+      - {p: E, lt: "Atsinaujinančių šaltinių dalis gamyboje 66 % (tikslas 80 % 2030 m.) [E2 p.20].", en: "Renewables 66% of generation (target 80% in 2030) [E2 p.20]."}
+      - {p: E, lt: "Elektromobilių dalis parke 11,6 % (tikslas 51 % 2030 m.) [E2 p.20].", en: "Electric cars 11.6% of fleet (target 51% in 2030) [E2 p.20]."}
+      - {p: E, lt: "100 % tvarios biomasės kuro; 95 % perdirbamų medžiagų įrengiamose vėjo jėgainėse [E2 p.21].", en: "100% sustainable biomass fuel; 95% recyclable materials in wind turbines installed [E2 p.21]."}
+      - {p: S, lt: "Sunkių nelaimingų atsitikimų 0; darbuotojų gerovės vertinimas 70 %; parama VE ir SE plėtrai 77 % [E1 p.28].", en: "Serious accidents 0; employee well-being score 70%; support for wind and solar build-out 77% [E1 p.28]."}
+    concerns:
+      - {lt: "Mažmeninės prekybos išmetimai +23 % nuo 2022 m. bazės (tikslas −20 %) [E2 p.20].", en: "Retail emissions +23% vs the 2022 base (target −20%) [E2 p.20]."}
+      - {lt: "Scope 1 išaugo 9 %, bendri išmetimai – 13 % [E2 p.117].", en: "Scope 1 rose 9% and total emissions 13% [E2 p.117]."}
+targets:
+  - p: E
+    name: {lt: "Scope 1 išmetimai −47 % iki 2030 m. (bazė 2021 m. 928 tūkst. t); klimato neutrali elektros gamyba iki 2040 m.", en: "Scope 1 emissions −47% by 2030 (2021 base 928 thousand t); climate-neutral power generation by 2040"}
+    FY2024: {lt: "−16 % [E1 p.26]", en: "−16% [E1 p.26]"}
+    FY2025: {lt: "−17 % [E1 p.26]", en: "−17% [E1 p.26]"}
+    status: behind
+  - p: E
+    name: {lt: "Gamybos intensyvumas 0,06 t CO2/MWh 2030 m.", en: "Generation intensity 0.06 t CO2/MWh in 2030"}
+    FY2024: {lt: "0,095 [E1 p.26]", en: "0.095 [E1 p.26]"}
+    FY2025: {lt: "0,100 [E1 p.26]", en: "0.100 [E1 p.26]"}
+    status: behind
+  - p: E
+    name: {lt: "Atsinaujinančių šaltinių dalis gamyboje 80 % 2030 m.", en: "Renewables share of generation 80% in 2030"}
+    FY2024: {lt: "66 % [E1 p.26]", en: "66% [E1 p.26]"}
+    FY2025: {lt: "66 % [E1 p.26]", en: "66% [E1 p.26]"}
+    status: on_track
+  - p: E
+    name: {lt: "Mažmeninės prekybos išmetimai −20 % iki 2030 m. (bazė 2022 m.)", en: "Retail trade emissions −20% by 2030 (2022 base)"}
+    FY2024: {lt: "+23 % [E1 p.26]", en: "+23% [E1 p.26]"}
+    FY2025: {lt: "+8 % [E1 p.26]", en: "+8% [E1 p.26]"}
+    status: behind
+  - p: E
+    name: {lt: "Elektromobilių dalis parke 51 % 2030 m.", en: "Electric cars 51% of fleet in 2030"}
+    FY2024: {lt: "11,6 % [E1 p.26]", en: "11.6% [E1 p.26]"}
+    FY2025: {lt: "15,6 % [E1 p.26]", en: "15.6% [E1 p.26]"}
+    status: on_track
+  - p: E
+    name: {lt: "„Žalią“ elektrą renkasi 30 % mažmeninių klientų 2030 m.", en: "30% of retail customers choose green electricity in 2030"}
+    FY2024: {lt: "9 % [E1 p.26]", en: "9% [E1 p.26]"}
+    FY2025: {lt: "12 % [E1 p.26]", en: "12% [E1 p.26]"}
+    status: on_track
+  - p: E
+    name: {lt: "Vandens sąnaudos 0,16 m³/MWh 2030 m.", en: "Water use 0.16 m³/MWh in 2030"}
+    FY2024: {lt: "0,46 [E1 p.28]", en: "0.46 [E1 p.28]"}
+    FY2025: {lt: "0,51 [E1 p.28]", en: "0.51 [E1 p.28]"}
+    status: behind
+  - p: E
+    name: {lt: "Biologinės įvairovės išsaugojimo planas iki 2025 m. pabaigos", en: "Biodiversity conservation plan by end-2025"}
+    FY2024: {lt: "Pradėtas rengti [E1 p.27]", en: "Drafting started [E1 p.27]"}
+    FY2025: {lt: "Parengtas planas 2026–2028 m. [E1 p.27]", en: "Plan for 2026–2028 prepared [E1 p.27]"}
+    status: met
+  - p: S
+    name: {lt: "Sunkių nelaimingų atsitikimų 0 kasmet", en: "Zero serious accidents every year"}
+    FY2024: {lt: "0 [E1 p.28]", en: "0 [E1 p.28]"}
+    FY2025: {lt: "0 [E1 p.28]", en: "0 [E1 p.28]"}
+    status: met
+  - p: S
+    name: {lt: "Gyventojų parama VE ir SE plėtrai ≥70 % kasmet", en: "Public support for wind and solar build-out ≥70% every year"}
+    FY2024: {lt: "77 % [E1 p.28]", en: "77% [E1 p.28]"}
+    FY2025: {lt: "56 % [E1 p.28]", en: "56% [E1 p.28]"}
+    status: missed
+  - p: G
+    name: {lt: "0 korupcijos ir etikos pažeidimų su reikšmingu poveikiu", en: "Zero corruption or ethics breaches with significant impact"}
+    FY2024: {lt: "0 [E1 p.28]", en: "0 [E1 p.28]"}
+    FY2025: {lt: "0 [E1 p.28]", en: "0 [E1 p.28]"}
+    status: met
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 717, src: "E2 p.117"}, FY2024: {v: 799, src: "E1 p.122", note: {lt: "2024 m. ataskaitoje 780", en: "780 in the 2024 report"}}, FY2025: {v: 780, src: "E1 p.122"}}
+  - {p: E, name: {lt: "Scope 2 išmetimai (rinkos metodas)", en: "Scope 2 emissions (market-based)"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 107, src: "E2 p.117"}, FY2024: {v: 114, src: "E1 p.122"}, FY2025: {v: 109, src: "E1 p.122"}}
+  - {p: E, name: {lt: "Pagrindiniai Scope 3 išmetimai", en: "Key Scope 3 emissions"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 3002, src: "E2 p.117"}, FY2024: {v: 3413, src: "E1 p.122"}, FY2025: {v: 3392, src: "E1 p.122"}}
+  - {p: E, name: {lt: "Iš viso išmetimų (rinkos metodas)", en: "Total GHG emissions (market-based)"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 3826, src: "E2 p.117"}, FY2024: {v: 4327, src: "E1 p.122"}, FY2025: {v: 4281, src: "E1 p.122"}}
+  - {p: E, name: {lt: "Gamybos išmetimų intensyvumas", en: "Generation emission intensity"}, unit: "t CO2/MWh", better: down, FY2024: {v: 0.095, src: "E1 p.26"}, FY2025: {v: 0.100, src: "E1 p.26"}}
+  - {p: E, name: {lt: "Atsinaujinančių šaltinių dalis gamyboje", en: "Renewables share of generation"}, unit: "%", better: up, FY2024: {v: 66, src: "E1 p.26"}, FY2025: {v: 66, src: "E1 p.26"}}
+  - {p: E, name: {lt: "Elektros skirstymo nuostoliai", en: "Electricity distribution losses"}, unit: "%", better: down, FY2024: {v: 3.62, src: "E1 p.26"}, FY2025: {v: 3.66, src: "E1 p.26"}}
+  - {p: E, name: {lt: "Vandens sąnaudos gamybai", en: "Water use per MWh generated"}, unit: "m³/MWh", better: down, FY2024: {v: 0.46, src: "E1 p.28"}, FY2025: {v: 0.51, src: "E1 p.28"}}
+  - {p: S, name: {lt: "Sunkūs nelaimingi atsitikimai", en: "Serious accidents"}, unit: "", better: down, FY2024: {v: 0, src: "E1 p.28"}, FY2025: {v: 0, src: "E1 p.28"}}
+  - {p: S, name: {lt: "Teigiamas darbuotojų gerovės vertinimas", en: "Positive employee well-being score"}, unit: "%", better: up, FY2024: {v: 70, src: "E1 p.28"}, FY2025: {v: 80, src: "E1 p.28"}}
+engagement:
+  level: none
+  policies: [investments, fossil_fuels, electricity_renewables, climate_nature]
+  reason:
+    lt: "SEB iškastinio kuro politikos reikalavimai (dujų termofikacinės elektrinės) įvykdyti: skelbiami Scope 1–3 išmetimai, yra trumpo ir ilgo laikotarpio tikslai, pereinamasis planas, ISO 14001 ir 50001 [E1 p.122; E1 p.115; E1 p.66]. Atsilikimai (mažmeniniai išmetimai, vanduo) emitento atvirai atskleisti ir stebimi."
+    en: "SEB Fossil Fuels policy requirements (gas CHP plants) are met: Scope 1–3 emissions are disclosed, and there are short- and long-term targets, a transition plan, and ISO 14001 and 50001 [E1 p.122; E1 p.115; E1 p.66]. The gaps (retail emissions, water) are openly disclosed and tracked by the issuer."
+  questions: []
