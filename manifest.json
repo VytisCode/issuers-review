@@ -149,16 +149,18 @@
   "year": "FY2025",
   "url": "https://nasdaqbaltic.com/market/upload/reports/altm/2025_ar_en.pdf",
   "title": "ALTUM Annual Report 2025",
-  "pages": 186,
-  "kb": 6230
+  "pages": 185,
+  "kb": 6230,
+  "ocr": true
  },
  "altum_FY2024": {
   "issuer": "altum",
   "year": "FY2024",
   "url": "https://nasdaqbaltic.com/market/upload/reports/altm/2024_ar_en_eur_00_ias.pdf",
   "title": "ALTUM Annual Report 2024",
-  "pages": 179,
-  "kb": 4670
+  "pages": 178,
+  "kb": 4670,
+  "ocr": true
  },
  "rigas-udens_FY2025": {
   "issuer": "rigas-udens",
