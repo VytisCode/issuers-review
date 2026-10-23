@@ -1,0 +1,79 @@
+# ESG Engagement: Akropolis Group. Puslapiai - PDF puslapiai. Abi ataskaitos lietuvių kalba.
+issuer: akropolis
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Akropolis Group konsoliduotoji 2025 m. metinė vadovybės ataskaita (su tvarumo ataskaita)", url: "https://akropolis.eu/view-file/739_AKROPOLIS%20GROUP,%20UAB%20Konsoliduotoji%20metin%C4%97%20vadovyb%C4%97s%20ataskaita%202025.pdf", date: 2026-04}
+  E2: {title: "Akropolis Group konsoliduotoji 2024 m. metinė vadovybės ataskaita", url: "https://akropolis.eu/media/AKROPOLIS_GROUP_UAB_Konsoliduotoji_metine_vadovybes_ataskaita_2024.pdf", date: 2025-04}
+trend: mixed
+summary:
+  lt: "2024 m. patvirtinti tikslai iki 2030 m.: Scope 1+2 −65 % ir Scope 3 (5 ir 13 kat.) −55 % vienam m², visiems centrams „BREEAM In-Use Very Good“ [E2 p.24]. 2024 m. intensyvumas sumažėjo perpus, 2025 m. nepakito (27 kg CO2e/m²) [E1 p.122]. 2025 m. pirmoji ESRS ataskaita, tačiau PwC pateikė sąlyginę riboto užtikrinimo išvadą, nes neįtraukta įsigyta „Galio Group“ [E1 p.100; E1 p.101]."
+  en: "Targets adopted in 2024 for 2030: Scope 1+2 −65% and Scope 3 (cat. 5 and 13) −55% per m², and BREEAM In-Use Very Good for all centres [E2 p.24]. Intensity halved in 2024 and was flat in 2025 (27 kg CO2e/m²) [E1 p.122]. 2025 was the first ESRS report, but PwC issued a qualified limited-assurance conclusion because the acquired Galio Group was left out [E1 p.100; E1 p.101]."
+years:
+  FY2025:
+    trend: mixed
+    framework:
+      lt: "Pirmoji tvarumo ataskaita pagal ESRS su savanorišku ribotu užtikrinimu [E1 p.6]. PwC išvada sąlyginė: „Galio Group“ (konsoliduota nuo 2025-10-01) neįtraukta į tvarumo ataskaitos apimtį, todėl ataskaita reikšmingai iškraipyta dėl apimties [E1 p.100; E1 p.101]."
+      en: "First sustainability statement under ESRS, with voluntary limited assurance [E1 p.6]. PwC's conclusion is qualified: Galio Group (consolidated from 1 Oct 2025) was left out of the statement's scope, so the statement is materially misstated as to scope [E1 p.100; E1 p.101]."
+    assurance: limited_qualified
+    summary:
+      lt: "Scope 1 −39 %, bet Scope 2 (rinkos metodas) +17 %, nes AEI dalis energijoje krito nuo 58 % iki 51 % [E1 p.124; E1 p.122]. Intensyvumo tikslai 2025 m. nepajudėjo, energijos intensyvumas pagerėjo iki 114 kWh/m² [E1 p.122]. Visi centrai turi „BREEAM In-Use“ sertifikatus [E1 p.7]."
+      en: "Scope 1 −39%, but Scope 2 (market-based) +17% as the renewable share of energy fell from 58% to 51% [E1 p.124; E1 p.122]. The intensity targets did not move in 2025; energy intensity improved to 114 kWh/m² [E1 p.122]. All centres hold BREEAM In-Use certificates [E1 p.7]."
+    evidence:
+      - {p: E, lt: "Scope 1 1 107 t (2024 m. 1 819 t); Scope 2 rinkos metodu 7 991 t (6 831 t); Scope 3 19 798 t (19 507 t) [E1 p.124].", en: "Scope 1 1,107 t (2024: 1,819 t); Scope 2 market-based 7,991 t (6,831 t); Scope 3 19,798 t (19,507 t) [E1 p.124]."}
+      - {p: E, lt: "Visas energijos suvartojimas 39 894 MWh (−9 %); AEI dalis 51 % (2024 m. 58 %) [E1 p.122].", en: "Total energy use 39,894 MWh (−9%); renewable share 51% (2024: 58%) [E1 p.122]."}
+      - {p: E, lt: "Visi Grupės pastatai – tarp 15 % energiją efektyviausiai vartojančių Lietuvoje ir Latvijoje (pagal energinio naudingumo sertifikatus) [E1 p.122].", en: "All Group buildings are in the top 15% most energy-efficient in Lithuania and Latvia (by energy performance certificates) [E1 p.122]."}
+      - {p: E, lt: "Metais anksčiau nei planuota gauti „BREEAM In-Use“ sertifikatai; „Very Good“ – Klaipėdoje ir Šiauliuose [E1 p.6; E1 p.7].", en: "BREEAM In-Use certificates obtained a year ahead of plan; Very Good in Klaipėda and Šiauliai [E1 p.6; E1 p.7]."}
+      - {p: S, lt: "Su darbu susijusių mirčių nėra, registruojamų traumų rodiklis (TRIR) 0 [E1 p.142].", en: "No work-related fatalities; TRIR 0 [E1 p.142]."}
+      - {p: G, lt: "Korupcijos ar kyšininkavimo atvejų, dėl kurių taikytos sankcijos, nenustatyta [E1 p.156].", en: "No corruption or bribery cases leading to legal sanctions [E1 p.156]."}
+    concerns:
+      - {lt: "Sąlyginė užtikrinimo išvada dėl „Galio Group“ neįtraukimo; poveikio auditorius negalėjo įvertinti [E1 p.101].", en: "Qualified assurance conclusion over the exclusion of Galio Group; the auditor could not quantify the effect [E1 p.101]."}
+      - {lt: "Scope 2 (rinkos metodas) +17 %, AEI dalis −7 p. p. [E1 p.124; E1 p.122].", en: "Scope 2 (market-based) +17%, renewable share −7 pp [E1 p.124; E1 p.122]."}
+  FY2024:
+    trend: improving
+    framework:
+      lt: "Savanoriška tvarumo ataskaita (nuo 2022 m.), remiantis GRI standartais [E2 p.20]; užtikrinimo nebuvo [E1 p.101]. 2024 m. patvirtinti tvarumo tikslai iki 2030 m. [E2 p.24]."
+      en: "Voluntary sustainability report (since 2022) with reference to GRI standards [E2 p.20]; no assurance [E1 p.101]. Sustainability targets to 2030 adopted in 2024 [E2 p.24]."
+    assurance: none
+    summary:
+      lt: "Scope 1+2 intensyvumas 54 → 27 kg CO2e/m² (−50 %), Scope 3 intensyvumas 81 → 42 kg/m² (−48 %), daugiausia dėl daugiau perkamos žaliosios elektros [E2 p.24; E2 p.25]. Energijos intensyvumas bendrose patalpose išaugo iki 126 kWh/m² [E2 p.24]."
+      en: "Scope 1+2 intensity 54 → 27 kg CO2e/m² (−50%), Scope 3 intensity 81 → 42 kg/m² (−48%), mostly from more green electricity purchased [E2 p.24; E2 p.25]. Energy intensity in common areas rose to 126 kWh/m² [E2 p.24]."
+    evidence:
+      - {p: E, lt: "Padidinti žaliosios elektros pirkimai; Šiaulių ir Klaipėdos centrai pasirašė nutolusios saulės elektrinės sutartis [E2 p.24].", en: "Green electricity purchases increased; Šiauliai and Klaipėda centres signed remote solar contracts [E2 p.24]."}
+      - {p: E, lt: "Planuojama įrengti beveik 100 naujų elektromobilių įkrovimo vietų [E2 p.24].", en: "Almost 100 new EV charging points planned [E2 p.24]."}
+    concerns:
+      - {lt: "Energijos intensyvumas bendrose patalpose 119 → 126 kWh/m² (tikslas 110) [E2 p.24].", en: "Energy intensity in common areas 119 → 126 kWh/m² (target 110) [E2 p.24]."}
+targets:
+  - p: E
+    name: {lt: "Scope 1+2 −65 % vienam m² iki 2030 m. (bazė 2023 m. 54 kg CO2e/m²)", en: "Scope 1+2 −65% per m² by 2030 (2023 base 54 kg CO2e/m²)"}
+    FY2024: {lt: "27 kg (−50 %) [E2 p.24]", en: "27 kg (−50%) [E2 p.24]"}
+    FY2025: {lt: "27 kg (−50 %) [E1 p.122]", en: "27 kg (−50%) [E1 p.122]"}
+    status: on_track
+  - p: E
+    name: {lt: "Scope 3 (5 ir 13 kat.) −55 % vienam m² iki 2030 m. (bazė 81 kg CO2e/m²)", en: "Scope 3 (cat. 5 and 13) −55% per m² by 2030 (base 81 kg CO2e/m²)"}
+    FY2024: {lt: "42 kg (−48 %) [E2 p.24]", en: "42 kg (−48%) [E2 p.24]"}
+    FY2025: {lt: "42 kg (−52 %) [E1 p.122]", en: "42 kg (−52%) [E1 p.122]"}
+    status: on_track
+  - p: E
+    name: {lt: "Energijos intensyvumas bendrose patalpose 110 kWh/m² iki 2030 m.", en: "Energy intensity in common areas 110 kWh/m² by 2030"}
+    FY2024: {lt: "126 kWh/m² [E2 p.24]", en: "126 kWh/m² [E2 p.24]"}
+    FY2025: {lt: "114 kWh/m² [E1 p.122]", en: "114 kWh/m² [E1 p.122]"}
+    status: on_track
+  - p: E
+    name: {lt: "„BREEAM In-Use Very Good“ visuose esamuose pastatuose iki 2030 m.", en: "BREEAM In-Use Very Good for all existing buildings by 2030"}
+    FY2024: {lt: "Įvairūs lygiai (Good – Very Good) [E1 p.122]", en: "Mixed levels (Good – Very Good) [E1 p.122]"}
+    FY2025: {lt: "Įvairūs lygiai; visi centrai sertifikuoti [E1 p.122; E1 p.7]", en: "Mixed levels; all centres certified [E1 p.122; E1 p.7]"}
+    status: on_track
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2e", better: down, FY2023: {v: 2106, src: "E2 p.25"}, FY2024: {v: 1819, src: "E1 p.124", note: {lt: "2024 m. ataskaitoje 1 886", en: "1,886 in the 2024 report"}}, FY2025: {v: 1107, src: "E1 p.124"}}
+  - {p: E, name: {lt: "Scope 2 (rinkos metodas)", en: "Scope 2 (market-based)"}, unit: "t CO2e", better: down, FY2024: {v: 6831, src: "E1 p.124"}, FY2025: {v: 7991, src: "E1 p.124"}}
+  - {p: E, name: {lt: "Scope 3 išmetimai", en: "Scope 3 emissions"}, unit: "t CO2e", better: down, FY2024: {v: 19507, src: "E1 p.124", note: {lt: "2024 m. ataskaitoje 20 414", en: "20,414 in the 2024 report"}}, FY2025: {v: 19798, src: "E1 p.124"}}
+  - {p: E, name: {lt: "Scope 1+2 intensyvumas", en: "Scope 1+2 intensity"}, unit: "kg CO2e/m²", better: down, FY2023: {v: 54, src: "E1 p.122"}, FY2024: {v: 27, src: "E1 p.122"}, FY2025: {v: 27, src: "E1 p.122"}}
+  - {p: E, name: {lt: "AEI dalis energijos suvartojime", en: "Renewable share of energy use"}, unit: "%", better: up, FY2024: {v: 58, src: "E1 p.122"}, FY2025: {v: 51, src: "E1 p.122"}}
+  - {p: E, name: {lt: "Energijos intensyvumas bendrose patalpose", en: "Energy intensity, common areas"}, unit: "kWh/m²", better: down, FY2023: {v: 119, src: "E1 p.122"}, FY2024: {v: 126, src: "E1 p.122"}, FY2025: {v: 114, src: "E1 p.122"}}
+engagement:
+  level: watch
+  policies: [investments, real_estate, climate_nature]
+  reason:
+    lt: "SEB nekilnojamojo turto politikos lūkesčiai iš esmės įvykdyti: pastatų išmetimų tikslai, BREEAM, energijos valdymas, tvarumo ataskaita [E1 p.121; E1 p.122]. Stebėti: sąlyginė PwC išvada dėl „Galio Group“ neįtraukimo ir AEI dalies sumažėjimas – 2026 m. ataskaitoje turi būti visa grupė [E1 p.101; E1 p.122]."
+    en: "SEB Real Estate policy expectations are broadly met: building emission targets, BREEAM, energy management and a sustainability report [E1 p.121; E1 p.122]. To watch: PwC's qualified conclusion over excluding Galio Group, and the lower renewable share; the 2026 report should cover the whole Group [E1 p.101; E1 p.122]."
+  questions: []
