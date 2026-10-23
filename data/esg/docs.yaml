@@ -1,0 +1,63 @@
+# ESG polapio šaltiniai: emitentų metinės / tvarumo ataskaitos (FY = ataskaitiniai metai).
+# Kiekvienam metų įrašui - adresų sąrašas: imamas pirmas veikiantis; tinklapyje ieškoma PDF nuorodos su tų metų skaičiumi.
+# Tekstą puslapiais atsisiunčia tools/fetch_esg_docs.py (GitHub Actions „ESG documents“) į šaką esg-text.
+ignitis:
+  FY2025: [{title: "Ignitis Group Integrated Annual Report 2025", urls: ["https://ignitisgrupe.lt/sites/default/files/public/inline-files/Integrated%20Annual%20Report%202025.pdf"]}]
+  FY2024: [{title: "Ignitis Group Integrated Annual Report 2024", urls: ["https://ignitisgrupe.lt/sites/default/files/public/inline-files/Integrated%20Annual%20Report%202024.pdf", "https://ignitisgrupe.lt/en/reports-presentations-and-fact-sheets"]}]
+luminor:
+  FY2025: [{title: "Luminor Bank Annual Report 2025", urls: ["https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2025-en.pdf", "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2025-lv.pdf", "https://luminor.lv/en/financial-reports", "https://www.luminor.ee/en/financial-reports"]}]
+  FY2024: [{title: "Luminor Bank Annual Report 2024", urls: ["https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2024-en.pdf", "https://luminor.lv/sites/default/files/docs/finansu_parskati/luminor_bank_annual_report_2024-lv.pdf", "https://luminor.lv/en/financial-reports", "https://www.luminor.ee/en/financial-reports"]}]
+port-of-tallinn:
+  FY2025: [{title: "Tallinna Sadam Sustainability Report 2025", urls: ["https://www.ts.ee/wp-content/uploads/2026/04/Sustainability_Report_2025.pdf"]}]
+  FY2024: [{title: "Tallinna Sadam Sustainability Report 2024", urls: ["https://www.ts.ee/wp-content/uploads/2025/04/Sustainability_Report_2024.pdf", "https://www.ts.ee/wp-content/uploads/2025/03/Sustainability_Report_2024.pdf", "https://www.ts.ee/en/sustainability/", "https://www.ts.ee/en/investor/"]}]
+lhv:
+  FY2025: [{title: "LHV Group Annual Sustainability Report 2025", urls: ["https://www.lhv.ee/assets/files/LHV_Group_Annual_Sustainability_Report_2025-EN.pdf"]}]
+  FY2024: [{title: "LHV Group Annual Sustainability Report 2024", urls: ["https://www.lhv.ee/assets/files/LHV_Group_Annual_Sustainability_Report_2024-EN.pdf", "https://www.lhv.ee/assets/files/investor/LHV_Group_Annual_Report_2024-EN.pdf", "https://investor.lhv.ee/en/reports", "https://www.lhv.ee/en/esg"]}]
+latvenergo:
+  FY2025: [{title: "Latvenergo Group Annual Report 2025", urls: ["https://nasdaqbaltic.com/market/upload/reports/elek/2025_ar_en_con.pdf"]}]
+  FY2024: [{title: "Latvenergo Group Annual Report 2024", urls: ["https://nasdaqbaltic.com/market/upload/reports/elek/2024_ar_en_con.pdf", "https://nasdaqbaltic.com/market/upload/reports/elek/2024_ar_en_esef.pdf", "https://nasdaqbaltic.com/market/upload/reports/elek/2024_ar_en.pdf"]}]
+artea:
+  FY2025: [{title: "Artea bankas Annual Report 2025", urls: ["https://nasdaqbaltic.com/market/upload/reports/roe1/2025_ar_en_con.pdf", "https://nasdaqbaltic.com/market/upload/reports/roe1/2025_ar_en_esef.pdf", "https://cdn.artea.lt/mainweb/uploads/media/69cbc6f608b68/annual-report-2025-lt-final.pdf"]}]
+  FY2024: [{title: "Šiaulių bankas Integrated Annual Report 2024", urls: ["https://nasdaqbaltic.com/market/upload/reports/roe1/2024_ar_en_con.pdf", "https://nasdaqbaltic.com/market/upload/reports/roe1/2024_ar_en_esef.pdf", "https://nasdaqbaltic.com/market/upload/reports/roe1/2024_ar_en.pdf"]}]
+citadele:
+  FY2025: [{title: "Citadele Annual Report 2025", urls: ["https://www.cblgroup.com/media/W1siZiIsIjIwMjYvMDMvMTkvOG9icXc4MzVubV9DaXRhZGVsZV9Bbm51YWxfcmVwb3J0XzIwMjUucGRmIl1d?sha=e68c93f08d3acc0c"]}]
+  FY2024: [{title: "Citadele Annual Report 2024", urls: ["https://www.cblgroup.com/en/investors/announcements/2025/citadele-banka-audited-annual-report-for-2024/", "https://www.cblgroup.com/en/investors/financial-reports/"]}]
+inbank:
+  FY2025: [{title: "Inbank Consolidated Annual Report 2025", urls: ["https://inbank.eu/documents/ee/en/pdf/reports/inbank_annual_report_2025.pdf", "https://inbank.eu/investors/reporting", "https://nasdaqbaltic.com/market/upload/reports/inb/2025_ar_en_eur_con_00.pdf"]}]
+  FY2024: [{title: "Inbank Consolidated Annual Report 2024", urls: ["https://nasdaqbaltic.com/market/upload/reports/inb/2024_ar_en_eur_con_00.pdf", "https://inbank.eu/documents/ee/en/pdf/reports/inbank_annual_report_2024.pdf"]}]
+vik:
+  FY2025: [{title: "VIK Annual Report 2025", urls: ["https://nasdaqbaltic.com/market/upload/reports/vika/2025_ar_en_esef.pdf"]}]
+  FY2024: [{title: "VIK Annual Report 2024", urls: ["https://nasdaqbaltic.com/market/upload/reports/vika/2024_ar_en_esef.pdf", "https://nasdaqbaltic.com/market/upload/reports/vika/2024_ar_en.pdf", "https://nasdaqbaltic.com/market/upload/reports/vika/2024_ar_lt_esef.pdf"]}]
+altum:
+  FY2025: [{title: "ALTUM Annual Report 2025", urls: ["https://nasdaqbaltic.com/market/upload/reports/altm/2025_ar_en.pdf", "https://nasdaqbaltic.com/market/upload/reports/altm/2025_ar_en_con.pdf"]}]
+  FY2024: [{title: "ALTUM Annual Report 2024", urls: ["https://nasdaqbaltic.com/market/upload/reports/altm/2024_ar_en.pdf", "https://nasdaqbaltic.com/market/upload/reports/altm/2024_ar_en_con.pdf", "https://nasdaqbaltic.com/market/upload/reports/altm/2024_ar_en_esef.pdf"]}]
+rigas-udens:
+  FY2025: [{title: "Rīgas ūdens Annual Report 2025", urls: ["https://nasdaqbaltic.com/market/upload/reports/h2o/2025_ar_en.pdf"]}]
+  FY2024: [{title: "Rīgas ūdens Annual Report 2024", urls: ["https://nasdaqbaltic.com/market/upload/reports/h2o/2024_ar_en.pdf", "https://www.rigasudens.lv/en/financial-reports"]}]
+ast:
+  FY2025: [{title: "AST Annual Report 2025", urls: ["https://nasdaqbaltic.com/market/upload/reports/ast/2025_ar_en_con.pdf"]}]
+  FY2024: [{title: "AST Annual Report 2024", urls: ["https://nasdaqbaltic.com/market/upload/reports/ast/2024_ar_en_con.pdf", "https://nasdaqbaltic.com/market/upload/reports/ast/2024_ar_en.pdf", "https://nasdaqbaltic.com/market/upload/reports/ast/2024_ar_en_esef.pdf"]}]
+aei:
+  FY2025: [{title: "AEI Annual Report 2025", urls: ["https://nasdaqbaltic.com/market/upload/reports/aei/2025_ar_en_eur_con_ias.pdf", "https://nasdaqbaltic.com/market/upload/reports/aei/2025_ar_en_eur_con_00.pdf", "https://nasdaqbaltic.com/market/upload/reports/aei/2025_ar_en.pdf", "https://nasdaqbaltic.com/market/upload/reports/aei/2025_ar_lt_eur_con_ias.pdf"]}]
+  FY2024: [{title: "AEI Annual Report 2024", urls: ["https://nasdaqbaltic.com/market/upload/reports/aei/2024_ar_en_eur_con_ias.pdf", "https://nasdaqbaltic.com/market/upload/reports/aei/2024_ar_en_eur_00.pdf", "https://nasdaqbaltic.com/market/upload/reports/aei/2024_ar_en.pdf", "https://nasdaqbaltic.com/market/upload/reports/aei/2024_ar_lt_eur_00.pdf"]}]
+latraps:
+  FY2025: [{title: "LATRAPS Sustainability Report FY2025/26", urls: ["https://nasdaqbaltic.com/market/upload/reports/latra/2026_esg_en.pdf"]}]
+  FY2024: [{title: "LATRAPS Sustainability Report FY2024/25", urls: ["https://nasdaqbaltic.com/market/upload/reports/latra/2025_esg_en.pdf", "https://nasdaqbaltic.com/market/upload/reports/latra/2025_ar_en_las.pdf"]}]
+maxima:
+  FY2025: [{title: "Maxima Grupė Consolidated Management Report 2025", urls: ["https://www.maximagrupe.eu/uploads/2026%20konsoliduotos%20vadovyb%C4%97s%20ataskaitos/2026%2004%2007%20Consolidated%20Management%20Report%202025%201.pdf"]}]
+  FY2024: [{title: "Maxima Grupė Consolidated Management Report 2024", urls: ["https://www.maximagrupe.eu/uploads/2025%20ataskaitos/MXG%20Consolidated%20Management%20Report%202024%20(signed).pdf"]}]
+eesti-energia:
+  FY2025: [{title: "Eesti Energia Annual Report 2025", urls: ["https://public-docs.enefit.com/ettevottest/investorile/2025/EE-aruanne-2025-EN_FINAL.pdf"]}]
+  FY2024: [{title: "Eesti Energia Annual Report 2024", urls: ["https://public-docs.enefit.com/ettevottest/investorile/2024/EE-aruanne-2024-EN_FINAL.pdf", "https://public-docs.enefit.com/ettevottest/investorile/2024/EE-aruanne-2024-EN.pdf", "https://www.enefit.com/en/investorile"]}]
+akropolis:
+  FY2025: [{title: "Akropolis Group Consolidated Annual Management Report 2025", urls: ["https://akropolis.eu/view-file/739_AKROPOLIS%20GROUP,%20UAB%20Konsoliduotoji%20metin%C4%97%20vadovyb%C4%97s%20ataskaita%202025.pdf", "https://www.akropolis.eu/lt/investuotojams"]}]
+  FY2024: [{title: "Akropolis Group Annual Report 2024", urls: ["https://www.akropolis.eu/lt/investuotojams", "https://www.akropolis.eu/en/investors"]}]
+bigbank:
+  FY2025: [{title: "Bigbank Annual Report 2025", urls: ["https://static.bigbank.eu/investor/assets/2026/02/Bigbank_aastaaruanne_2025.pdf"]}]
+  FY2024: [{title: "Bigbank Annual Report 2024", urls: ["https://investor.bigbank.eu/en/reporting/", "https://investor.bigbank.eu/et/reporting/"]}]
+coop-pank:
+  FY2025: [{title: "Coop Pank Annual Report 2025", urls: ["https://res30f.cooppank.ee/image/upload/investor_lehed/uldkoosolekud/teated/eng/26/Coop_Pank_annual_report_consolidated_2025_eng.pdf"]}]
+  FY2024: [{title: "Coop Pank Annual Report 2024", urls: ["https://res30f.cooppank.ee/image/upload/investor_lehed/uldkoosolekud/teated/eng/25/Coop_Pank_annual_report_consolidated_2024_eng.pdf", "https://www.cooppank.ee/en/investor/reporting"]}]
+hepsor:
+  FY2025: [{title: "Hepsor Annual Report 2025", urls: ["https://www.adaur.ee/wp-content/2026/04/Hepsor_2025_ENG.pdf", "https://hepsor.ee/en/for-investors/stock/reports-2/"]}]
+  FY2024: [{title: "Hepsor Annual Report 2024", urls: ["https://hepsor.ee/en/for-investors/stock/reports-2/"]}]

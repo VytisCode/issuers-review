@@ -1,0 +1,35 @@
+# ESG šaltiniai: atsisiunčia metines / tvarumo ataskaitas (data/esg/docs.yaml) ir jų tekstą puslapiais išsaugo šakoje „esg-text“.
+# Paleidžiama rankiniu būdu arba pakeitus data/esg/docs.yaml. Nemokama, be AI.
+name: ESG documents
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [data/esg/docs.yaml, tools/fetch_esg_docs.py]
+permissions:
+  contents: write
+concurrency:
+  group: esg-docs
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: {python-version: "3.12"}
+      - run: pip install -r requirements.txt && sudo apt-get install -y -qq poppler-utils
+      - name: Previous texts (esg-text branch)
+        run: |
+          git fetch origin esg-text:esg-text 2>/dev/null && git worktree add out esg-text || (git worktree add --detach out && cd out && git checkout --orphan esg-text && git rm -rfq . || true)
+      - name: Download reports and extract text
+        run: python tools/fetch_esg_docs.py out
+      - name: Commit
+        run: |
+          cd out
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "ESG tekstai $(date -u +%F)" || echo "nėra pakeitimų"
+          git push origin esg-text
