@@ -6,6 +6,7 @@ Paleidžiama GitHub Actions (workflow „ESG documents“), nes ten pasiekiami v
 Kiekvienam dokumentui galima nurodyti kelis adresus: imamas pirmas veikiantis; jei adresas - tinklapis, jame ieškoma PDF nuorodų
 su tų metų skaičiumi ir žodžiais annual / sustainability / report. Be AI.
 
+Šakoje: text/ - tekstas su išdėstymu (lentelėms), raw/ - skaitymo tvarka (stulpeliams).
 Naudojimas: python tools/fetch_esg_docs.py [išvesties katalogas, numatytas build/esg-text]
 """
 import base64
@@ -99,6 +100,7 @@ def esef_pages(data):
 def main(out_dir):
     out = Path(out_dir)
     (out / "text").mkdir(parents=True, exist_ok=True)
+    (out / "raw").mkdir(parents=True, exist_ok=True)
     docs = C.load_yaml(C.DATA / "esg" / "docs.yaml")
     man_path = out / "manifest.json"
     manifest = json.loads(man_path.read_text()) if man_path.exists() else {}
@@ -108,7 +110,8 @@ def main(out_dir):
             for i, item in enumerate(items or []):
                 cands = item.get("urls", []) if isinstance(item, dict) else [item]
                 name = f"{issuer}_{year}" + (f"_{i + 1}" if i else "")
-                if manifest.get(name, {}).get("pages"):
+                done = manifest.get(name, {}).get("pages")
+                if done and (manifest[name].get("format") == "esef" or (out / "raw" / f"{name}.txt").exists()):
                     continue
                 log.append(f"{name}:")
                 data, url = get_pdf(cands, year[-4:], log)
@@ -122,6 +125,9 @@ def main(out_dir):
                     pdf.write_bytes(data)
                     txt = subprocess.run(["pdftotext", "-layout", str(pdf), "-"], capture_output=True).stdout.decode("utf-8", "ignore")
                     pages = txt.split("\f")
+                    # antra versija skaitymo tvarka (be -layout): kelių stulpelių puslapiai skaitomi stulpelis po stulpelio
+                    raw = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True).stdout.decode("utf-8", "ignore").split("\f")
+                    (out / "raw" / f"{name}.txt").write_text("".join(f"\n=== pdf p.{n} ===\n{p}" for n, p in enumerate(raw, 1)), encoding="utf-8")
                     pdf.unlink()
                 body = "".join(f"\n=== pdf p.{n} ===\n{p}" for n, p in enumerate(pages, 1) if p.strip() or n < len(pages))
                 (out / "text" / f"{name}.txt").write_text(body, encoding="utf-8")
