@@ -22,7 +22,7 @@
       download: "Download", pdf: "PDF", docx: "Word", newsTitle: "News", allIssuers: "All issuers", all: "All", reviewOnly: "To review only", searchHeadlines: "Search headlines",
       newsSub: "Google News and regional media in each issuer's local language(s). 'Review' = an adverse keyword (investigation, fine, court, sanctions…) was found in the headline – a pointer, not a conclusion.",
       noNews: "No news yet – it appears after the first automatic search.", date: "Date", issuer: "Issuer", headline: "Headline", source: "Source", flag: "Flag", review: "Review",
-      metric: "Metric", change: "Change", why: "What changed and why", legendColors: "Green change: the metric is improving; red: worsening. Latest value background: green good level, amber average, red weak (tool benchmarks).", plan: "Plan / target", outcome: "Outcome", status: "Status", legend: "* taken from the report summary; ᶜ calculated by the tool. Hover a number to see its source; small blue numbers in the text open the source document at the cited page.",
+      metric: "Metric", change: "Change", why: "What changed and why", legendColors: "Green change: the metric is improving; red: worsening. Latest value background: green good level, amber average, red weak (internal benchmarks).", plan: "Plan / target", outcome: "Outcome", status: "Status", legend: "* taken from the report summary; ᶜ own calculation. Hover a number to see its source; small blue numbers in the text open the source document at the cited page.",
       met: "Met", partly: "Partly", not_met: "Not met", pending: "In progress", changed: "Revised", needsReview: "Needs review",
       secTitle: "Securities", secSub: "All tracked ISINs. When a maturity date passes, the security is marked 'Matured' automatically and drops out of the reports.",
       maturityChart: "Held bonds maturing per year", bondsCount: "Number of bonds (excluding perpetuals)", isinCol: "ISIN", instrument: "Instrument", heldCol: "Held", coupon: "Coupon", maturity: "Maturity", note: "Note",
@@ -51,7 +51,7 @@
       download: "Atsisiųsti", pdf: "PDF", docx: "Word", newsTitle: "Naujienos", allIssuers: "Visi emitentai", all: "Visos", reviewOnly: "Tik peržiūrai", searchHeadlines: "Paieška antraštėse",
       newsSub: "Google News ir regiono žiniasklaida emitento šalies kalba(-omis). „Peržiūrėti“ – antraštėje rasta neigiamų žodžių (tyrimas, bauda, teismas, sankcijos…). Tai pagalba, ne išvada.",
       noNews: "Naujienų dar nėra – jos atsiras po pirmos automatinės paieškos.", date: "Data", issuer: "Emitentas", headline: "Antraštė", source: "Šaltinis", flag: "Žyma", review: "Peržiūrėti",
-      metric: "Rodiklis", change: "Pokytis", why: "Kas pasikeitė ir kodėl", legendColors: "Žalias pokytis – rodiklis gerėja, raudonas – blogėja. Paskutinės reikšmės fonas: žalias – geras lygis, geltonas – vidutinis, raudonas – silpnas (įrankio orientyrai).", plan: "Planas / tikslas", outcome: "Rezultatas", status: "Būsena", legend: "* paimta iš ataskaitos santraukos; ᶜ apskaičiuota įrankio. Užveskite pelę ant skaičiaus – matysite šaltinį; maži mėlyni skaičiai tekste atidaro šaltinį reikiamame puslapyje.",
+      metric: "Rodiklis", change: "Pokytis", why: "Kas pasikeitė ir kodėl", legendColors: "Žalias pokytis – rodiklis gerėja, raudonas – blogėja. Paskutinės reikšmės fonas: žalias – geras lygis, geltonas – vidutinis, raudonas – silpnas (vidiniai orientyrai).", plan: "Planas / tikslas", outcome: "Rezultatas", status: "Būsena", legend: "* paimta iš ataskaitos santraukos; ᶜ mūsų skaičiavimas. Užveskite pelę ant skaičiaus – matysite šaltinį; maži mėlyni skaičiai tekste atidaro šaltinį reikiamame puslapyje.",
       met: "Įvykdyta", partly: "Iš dalies", not_met: "Neįvykdyta", pending: "Dar vykdoma", changed: "Pakeista", needsReview: "Reikia peržiūrėti",
       secTitle: "Vertybiniai popieriai", secSub: "Visi sekami ISIN. Kai išpirkimo data praeina, popierius automatiškai pažymimas „Išpirkta“ ir nebeįtraukiamas į ataskaitas.",
       maturityChart: "Turimų obligacijų išpirkimai pagal metus", bondsCount: "Obligacijų skaičius (be neterminuotų)", isinCol: "ISIN", instrument: "Priemonė", heldCol: "Turima", coupon: "Kuponas", maturity: "Išpirkimas", note: "Pastaba",
@@ -691,7 +691,7 @@
       evidence: "Evidence", allFacts: "All facts", concerns: "Gaps and concerns", sources: "Sources", why: "Why", policies: "SEB policies checked (internal only, not mentioned to the issuer)", questions: "Questions to the issuer",
       sev: "How serious", gaps: "What is wrong", gWhy: "Why it matters", gFix: "What would help", hint: "How the answer helps you", preview: "Email preview",
       dl: "⬇ Download email to issuer (.eml)", copy: "Copy email text", copied: "Copied.", back: "← ESG overview", edit: "✎ Edit ESG data", none: "No ESG data yet.",
-      emailHint: "Opens in Outlook as a draft. English, no signature – add yours.", bond: "bonds", share: "shares", notReported: "not reported", calc: "calculated by the tool",
+      emailHint: "Opens in Outlook as a draft. English, no signature – add yours.", bond: "bonds", share: "shares", notReported: "not reported", calc: "own calculation",
       greetings: "Dear Investor Relations team,", intro: (n, ins) => `We hold ${n} ${ins} and are carrying out our annual review of the issuers in our portfolio, which includes a look at sustainability information.`,
       ask: "We would be grateful if you could help us with a few questions:",
       thanks: "Thank you in advance. A short reply or a link to the relevant page or document is perfectly fine.", regards: "Kind regards," },
@@ -702,7 +702,7 @@
       evidence: "Įrodymai", allFacts: "Visi faktai", concerns: "Spragos ir rūpesčiai", sources: "Šaltiniai", why: "Kodėl", policies: "Patikrintos SEB politikos (tik vidiniam naudojimui, emitentui neminimos)", questions: "Klausimai emitentui",
       sev: "Kiek rimta", gaps: "Kas negerai", gWhy: "Kodėl svarbu", gFix: "Kas padėtų", hint: "Kaip atsakymas jums padės", preview: "Laiško peržiūra",
       dl: "⬇ Atsisiųsti laišką emitentui (.eml)", copy: "Kopijuoti laiško tekstą", copied: "Nukopijuota.", back: "← ESG apžvalga", edit: "✎ Taisyti ESG duomenis", none: "ESG duomenų dar nėra.",
-      emailHint: "Atsidaro Outlook kaip juodraštis. Anglų kalba, be parašo – pridėkite savo.", bond: "obligacijos", share: "akcijos", notReported: "neskelbiama", calc: "apskaičiuota įrankio" },
+      emailHint: "Atsidaro Outlook kaip juodraštis. Anglų kalba, be parašo – pridėkite savo.", bond: "obligacijos", share: "akcijos", notReported: "neskelbiama", calc: "mūsų skaičiavimas" },
   };
   const gx = k => (GX[LANG] || GX.en)[k];
   const GD = () => (D.esg && (D.esg[LANG] || D.esg.en)) || { years: [], rows: [], labels: {} };
