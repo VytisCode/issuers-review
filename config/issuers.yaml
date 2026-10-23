@@ -275,6 +275,8 @@ aei:
 latraps:
   name: LATRAPS
   legal_name: LPKS "LATRAPS"
+  fiscal_year_end: "06-30"  # finansiniai metai liepa-birželis (FY2026 = 2025-07..2026-06)
+  report_frequency: semiannual  # First North: tik pusmečio ir metinės ataskaitos
   country: LV
   sector: Agricultural cooperative (grain and rapeseed trading, storage, malt; pea protein plant under construction)
   owner: 1,214 Latvian farmer members

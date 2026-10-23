@@ -10,7 +10,7 @@
 
   const TX = {
     en: {
-      overview: "Overview", news: "News", securities: "Securities", isin: "ISIN list", tools: "Analysis tools", about: "How it works",
+      overview: "Overview", email: "Email", news: "News", securities: "Securities", isin: "ISIN list", tools: "Analysis tools", about: "How it works",
       heroTitle: "Issuers review", heroSub: "Automated, sourced reviews of the companies behind our bonds and shares – public data only, one template for every issuer.",
       issuers: "issuers", held: "securities held", newsTracked: "news items tracked", nextReports: "next issuer reports",
       searchNow: "↻ Search for new reports and news now", autoWeekly: "Runs automatically every Monday (free, no AI). Last run:", notYet: "not yet",
@@ -39,7 +39,7 @@
       generated: "Public sources only; figures as published by the issuers. Generated",
     },
     lt: {
-      overview: "Apžvalga", news: "Naujienos", securities: "Vertybiniai popieriai", isin: "ISIN sąrašas", tools: "Analizės įrankiai", about: "Kaip veikia",
+      overview: "Apžvalga", email: "Laiškas", news: "Naujienos", securities: "Vertybiniai popieriai", isin: "ISIN sąrašas", tools: "Analizės įrankiai", about: "Kaip veikia",
       heroTitle: "Emitentų apžvalga", heroSub: "Automatinės, šaltiniais pagrįstos turimų obligacijų ir akcijų emitentų apžvalgos – tik vieši duomenys, vienas šablonas visiems.",
       issuers: "emitentai", held: "turimi VP", newsTracked: "sekamos naujienos", nextReports: "artimiausios ataskaitos",
       searchNow: "↻ Ieškoti naujų ataskaitų ir naujienų dabar", autoWeekly: "Automatiškai kiekvieną pirmadienį (nemokamai, be AI). Paskutinė paieška:", notYet: "dar nevykdyta",
@@ -69,6 +69,9 @@
     },
   };
   const t = k => TX[LANG][k] ?? k;
+  // žalioji obligacija – žalias lapelis (kaip investavimo platformose)
+  const LEAF_TIP = { en: "Green bond (as labelled by the issuer)", lt: "Žalioji obligacija (taip ją žymi emitentas)" };
+  const leaf = s => s && s.green === "yes" ? ` <span class="leaf" data-tip="${LEAF_TIP[LANG] || LEAF_TIP.en}" aria-label="${LEAF_TIP[LANG] || LEAF_TIP.en}"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M13 2C6 2 2 6 2 11c0 1 .2 2 .6 2.8L1 15.4l.6.6 1.6-1.6C4 14.8 5 15 6 15c5 0 8-5 7-13zM4 13c2-4 5-6.5 8-8-3 2-5.5 4.5-8 8z" fill="currentColor"/></svg></span>` : "";
   const T = i => (i.t && (i.t[LANG] || i.t.en)) || {};
   const CHIP = { met: "good", partly: "warn", not_met: "bad", pending: "info", changed: "warn" };
   const chip = s => `<span class="chip ${CHIP[s] || "info"}">${esc(t(s))}</span>`;
@@ -151,7 +154,7 @@
       const d = s.maturity_date ? days(s.maturity_date) : null, mat = s.status === "matured";
       const term = s.type === "share" ? c2("share") : s.maturity_date ? esc(s.maturity_date) : c2("perp");
       const chip = mat ? ` <span class="chip warn">${t("maturedS")}</span>` : d !== null && d < 365 ? ` <span class="chip info">${d} ${t("daysLeft")}</span>` : "";
-      return `<tr class="${mat ? "dim" : ""}"><td><div class="sn">${esc(s.name)}</div><div class="mono muted">${esc(s.isin)}${chip}</div></td>
+      return `<tr class="${mat ? "dim" : ""}"><td><div class="sn">${esc(s.name)}${leaf(s)}</div><div class="mono muted">${esc(s.isin)}${chip}</div></td>
         <td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td>
         <td class="n">${term}${s.call_date && !mat ? `<div class="muted">${c2("call")} ${esc(s.call_date)}</div>` : ""}</td>
         <td class="n">${s.amount_m ? fmt(s.amount_m, "") + " " + unitLbl("m") : "–"}</td><td class="n">${issueRating(s)}</td></tr>`;
@@ -181,7 +184,8 @@
       s2: "Search for new reports and news", s2d: "Press the button below. GitHub opens: press <b>Run workflow</b>, then the green <b>Run workflow</b>. Come back to this page – a status line shows the progress (3–5 min).",
       s2w: "Why: adds new ISINs, marks sold ones, finds new issuer reports, news and sanctions matches.",
       s3: "Ask Claude to analyse", s3d: "In the Claude project <b>Issuers review analyst</b> write: <i>„Išanalizuok visas naujas ataskaitas“</i>. Claude replies there when the reviews are ready (a few hours for many issuers).",
-      s3w: "Why: the review text and figures are written by AI from the issuer reports.", s4: "Download", s4d: "New Word / PDF / Excel files appear on the cards below. Older reviews stay in history.",
+      s3w: "Why: the review text and figures are written by AI from the issuer reports.", s4: "Download", s4d: "New Word / PDF files and source ZIPs appear on the cards below. Older reviews stay in history.",
+      s5: "Tell colleagues", s5d: "Open <a href=\"#email\">Email</a>: a short draft for colleagues is ready – edit if needed and copy into Outlook.",
       manual: "Upload these yourself (password-protected reports):", manualHow: "download the new report and attach it in the Claude project together with the message in step 3.", manualChip: "Reports uploaded by you",
       now: "Right now:", newRep: "issuers with a new report", noAn: "held securities without an analysis", allOk: "nothing waiting for analysis",
       run: "Search running – started", wait: "please wait…", done: "Search finished", loading: "updating the page…", reload: "Reload page", fail: "Search failed – tell Claude in the project chat.", last: "Last search:" },
@@ -190,7 +194,8 @@
       s2: "Ieškokite naujų ataskaitų ir naujienų", s2d: "Spauskite mygtuką žemiau. Atsidarys GitHub: spauskite <b>Run workflow</b>, tada žalią <b>Run workflow</b>. Grįžkite į šį puslapį – būsenos eilutė rodys eigą (3–5 min.).",
       s2w: "Kodėl: prideda naujus ISIN, pažymi parduotus, randa naujas emitentų ataskaitas, naujienas ir sankcijų sutapimus.",
       s3: "Paprašykite Claude analizės", s3d: "Claude projekte <b>Issuers review analyst</b> parašykite: <i>„Išanalizuok visas naujas ataskaitas“</i>. Claude ten atsakys, kai apžvalgos bus paruoštos (daug emitentų – kelios valandos).",
-      s3w: "Kodėl: apžvalgų tekstą ir skaičius iš emitentų ataskaitų rašo AI.", s4: "Atsisiųskite", s4d: "Nauji Word / PDF / Excel failai atsiras kortelėse žemiau. Senos apžvalgos lieka istorijoje.",
+      s3w: "Kodėl: apžvalgų tekstą ir skaičius iš emitentų ataskaitų rašo AI.", s4: "Atsisiųskite", s4d: "Nauji Word / PDF failai ir šaltinių ZIP atsiras kortelėse žemiau. Senos apžvalgos lieka istorijoje.",
+      s5: "Praneškite kolegoms", s5d: "Atidarykite <a href=\"#email\">Laiškas</a>: trumpas laiško kolegoms juodraštis paruoštas – pataisykite, jei reikia, ir nukopijuokite į Outlook.",
       manual: "Šias ataskaitas įkelkite patys (apsaugotos slaptažodžiu):", manualHow: "atsisiųskite naują ataskaitą ir prisekite ją Claude projekte kartu su 3 žingsnio žinute.", manualChip: "Ataskaitas pateikiate patys",
       now: "Dabar:", newRep: "emitentai su nauja ataskaita", noAn: "turimi VP be analizės", allOk: "nieko nelaukia analizės",
       run: "Paieška vyksta – pradėta", wait: "palaukite…", done: "Paieška baigta", loading: "atnaujinamas puslapis…", reload: "Perkrauti puslapį", fail: "Paieška nepavyko – parašykite Claude projekto pokalbyje.", last: "Paskutinė paieška:" }
@@ -209,6 +214,7 @@
         <div id="runStatus" class="runst muted">${g("last")} ${esc(st.news?.date || t("notYet"))}</div>`)}
       ${step(3, g("s3"), g("s3d"), g("s3w"), `${man}<p>${g("now")} ${now}</p>`)}
       ${step(4, g("s4"), g("s4d"), "")}
+      ${step(5, g("s5"), g("s5d"), "")}
     </ol></details>`;
   }
   function localStorage_get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
@@ -245,13 +251,59 @@
   addEventListener("visibilitychange", () => { if (!document.hidden && document.getElementById("runStatus") && !timer) { watchUntil = Math.max(watchUntil, Date.now() + 1000); checkRun(); } });
 
   /* ---------- pages ---------- */
+  /* ---------- ar jau metas generuoti: dabartinių analizių laikotarpis ir paskelbtos naujesnės ataskaitos ---------- */
+  const RXT = {
+    en: { cur: "Current analyses", curSub: "Period of the latest report each review is based on", of: "of", issuersW: "issuers", dataTo: "Data up to", oldest: "oldest analysis",
+      next: "New reports", pub: "published", wait: "still expected", nearest: "Next expected:", lastExp: "last expected:", details: "Status by issuer",
+      go: "✓ Good time to generate: all (or nearly all) new reports are out.", most: "Most issuers have published – you can generate now, or wait for the rest.", early: "Too early – most issuers have not published yet. Expected by",
+      done: "already analysed", published: "published – waiting for analysis", maybe: "new document found – check", late: "date passed – not found yet", waiting: "expected", manual: "you upload it",
+      iss: "Issuer", curA: "Current analysis", nextR: "Next report (expected)", st: "Status", how: "Detected automatically (no AI) from new documents on issuer pages and news headlines; updated with every search.",
+      greenStat: "green bonds held" },
+    lt: { cur: "Dabartinės analizės", curSub: "Už kokį laikotarpį yra naujausia ataskaita, kuria remiasi apžvalga", of: "iš", issuersW: "emitentų", dataTo: "Duomenys iki", oldest: "seniausia analizė",
+      next: "Naujos ataskaitos", pub: "paskelbė", wait: "dar laukiama", nearest: "Artimiausia:", lastExp: "paskutinė numatyta:", details: "Būsena pagal emitentą",
+      go: "✓ Metas generuoti: visos (ar beveik visos) naujos ataskaitos paskelbtos.", most: "Dauguma emitentų jau paskelbė – galite generuoti dabar arba palaukti likusių.", early: "Dar per anksti – dauguma emitentų dar nepaskelbė. Numatoma iki",
+      done: "jau išanalizuota", published: "paskelbta – laukia analizės", maybe: "rastas naujas dokumentas – patikrinti", late: "data praėjo – dar nerasta", waiting: "laukiama", manual: "pateikiate patys",
+      iss: "Emitentas", curA: "Dabartinė analizė", nextR: "Kita ataskaita (numatoma)", st: "Būsena", how: "Atpažįstama automatiškai (be AI) iš naujų dokumentų emitentų puslapiuose ir naujienų antraščių; atsinaujina po kiekvienos paieškos.",
+      greenStat: "turimos žaliosios obligacijos" }
+  };
+  const RX = k => (RXT[LANG] || RXT.en)[k];
+  function readyCards() {
+    const R = D.readiness; if (!R) return "";
+    const n = R.rows.length, top = R.periods[0] || ["–", 0];
+    const ends = R.rows.map(r => r.end).filter(Boolean).sort();
+    const oldest = R.rows.filter(r => r.analysis_date).sort((a, b) => a.analysis_date.localeCompare(b.analysis_date))[0];
+    const cnt = k => R.rows.filter(r => r.status === k).length;
+    const done = cnt("done"), pub = cnt("published"), ready = done + pub, manual = cnt("manual"), pending = n - ready - manual;
+    const pct = x => (100 * x / n).toFixed(1) + "%";
+    const share = ready / Math.max(1, n - manual);
+    const verdict = share >= 0.95 ? `<p class="rv good">${RX("go")}</p>` : share >= 0.7 ? `<p class="rv warn">${RX("most")}</p>` : `<p class="rv">${RX("early")} ${esc(R.last_expected || "–")}.</p>`;
+    const nearest = R.rows.filter(r => ["waiting", "late"].includes(r.status) && r.expected).sort((a, b) => a.expected.localeCompare(b.expected));
+    const lbl = { done: "good", published: "good", maybe: "warn", late: "bad", waiting: "info", manual: "warn" };
+    const rows = R.rows.slice().sort((a, b) => ["published", "maybe", "late", "waiting", "manual", "done"].indexOf(a.status) - ["published", "maybe", "late", "waiting", "manual", "done"].indexOf(b.status) || (a.expected || "9").localeCompare(b.expected || "9"))
+      .map(r => `<tr><td><a href="#issuer/${r.id}">${esc(r.name)}</a></td><td>${esc(r.period)} <span class="muted">· ${esc(r.analysis_date)}</span></td>
+        <td>${r.status === "done" ? "–" : r.expected ? (r.exact ? "" : "~") + esc(r.expected) : "–"}</td>
+        <td><span class="chip ${lbl[r.status]}">${RX(r.status)}${r.status === "waiting" && r.expected ? "" : ""}</span>${(r.found || []).slice(0, 1).map(f => ` <a class="muted small" href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title.slice(0, 60))} ↗</a>`).join("")}</td></tr>`).join("");
+    return `<section class="ready">
+      <div class="card rc"><div class="rl">${RX("cur")}</div><div class="rbig">${esc(top[0])}</div><div class="muted">${top[1]} ${RX("of")} ${n} ${RX("issuersW")}</div>
+        <div class="rper">${R.periods.map(([p, c]) => `<span class="chip ${p === top[0] ? "info" : ""}">${esc(p)} · ${c}</span>`).join(" ")}</div>
+        <p class="muted small">${RX("curSub")}. ${RX("dataTo")} ${esc(ends[ends.length - 1] || "–")}; ${RX("oldest")}: ${oldest ? esc(oldest.name + " " + oldest.period) : "–"}.</p></div>
+      <div class="card rc"><div class="rl">${RX("next")} · ${esc(R.target_label)}</div><div class="rbig">${ready} <small>/ ${n}</small></div>
+        <div class="muted">${RX("pub")} ${ready} ${RX("of")} ${n}; ${RX("wait")} ${pending}${manual ? ` · ${RX("manual")}: ${manual}` : ""}</div>
+        <div class="rbar" title="${ready}/${n}"><span class="b1" style="width:${pct(done)}"></span><span class="b2" style="width:${pct(pub)}"></span><span class="b3" style="width:${pct(cnt("maybe"))}"></span></div>
+        ${verdict}
+        <p class="muted small">${nearest.length ? `${RX("nearest")} ${nearest.slice(0, 3).map(r => `${esc(r.name)} ${(r.exact ? "" : "~") + esc(r.expected.slice(5))}`).join(" · ")}; ${RX("lastExp")} ${esc(R.last_expected)}` : ""}</p>
+        <details><summary>${RX("details")}</summary><div class="tbl-wrap"><table class="rtab"><tr><th>${RX("iss")}</th><th>${RX("curA")}</th><th>${RX("nextR")}</th><th>${RX("st")}</th></tr>${rows}</table></div><p class="muted small">${RX("how")}</p></details></div>
+    </section>`;
+  }
+
   function overview() {
     const st = D.status || {};
     const held = D.securities.filter(s => s.held === "yes" && s.status === "active").length;
     let h = `<section class="hero"><h1>${t("heroTitle")}</h1><p>${t("heroSub")}</p>
       <div class="stats"><div><b>${D.issuers.length}</b><span>${t("issuers")}</span></div><div><b>${held}</b><span>${t("held")}</span></div>
-      <div><b>${D.news.length}</b><span>${t("newsTracked")}</span></div><div><b>${esc((D.issuers.map(i => i.calendar.match(/\d{4}-\d{2}-\d{2}/)?.[0]).filter(Boolean).sort()[0]) || "Nov 2026")}</b><span>${t("nextReports")}</span></div></div></section>`;
-    h += guide(st) + `<div class="grid">`;
+      <a class="stat" href="#securities/green"><b>${D.securities.filter(s => s.held === "yes" && s.status === "active" && s.green === "yes").length}${leaf({ green: "yes" })}</b><span>${RX("greenStat")}</span></a>
+      <div><b>${D.news.length}</b><span>${t("newsTracked")}</span></div></div></section>`;
+    h += readyCards() + guide(st) + `<div class="grid">`;
     D.issuers.forEach(i => {
       const secs = D.securities.filter(s => s.issuer === i.id && s.held === "yes").sort((a, b) => (a.status === "matured") - (b.status === "matured") || String(a.maturity_date || "9999").localeCompare(String(b.maturity_date || "9999")));
       const matured = secs.filter(s => s.status === "matured").length, soon = secs.filter(s => s.status === "active" && s.maturity_date && days(s.maturity_date) < 365).length;
@@ -335,7 +387,7 @@
   function secRow(s) {
     const d = s.maturity_date ? days(s.maturity_date) : null;
     const st = s.status === "matured" ? `<span class="chip warn">${t("maturedS")}</span>` : d !== null && d < 365 ? `<span class="chip info">${d} ${t("daysLeft")}</span>` : `<span class="chip good">${t("active")}</span>`;
-    return `<tr><td class="mono">${esc(s.isin)}</td><td>${esc(s.name)}</td><td>${s.held === "yes" ? t("yes") : t("no")}</td><td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td>
+    return `<tr><td class="mono">${esc(s.isin)}</td><td>${esc(s.name)}${leaf(s)}</td><td>${s.held === "yes" ? t("yes") : t("no")}</td><td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td>
       <td>${esc(s.maturity_date || (s.type === "share" ? t("share") : t("perpetual")))}${s.call_date ? `<br><span class="muted">call ${esc(s.call_date)}</span>` : ""}</td><td>${st}</td>
       <td class="muted">${s.verified === "review" ? "⚠ " : ""}${esc(s.status_note)}</td></tr>`;
   }
@@ -397,7 +449,8 @@
       matChart: "Bonds held by maturity year", all: "All securities ever tracked", soldTag: "sold / not held", lastChange: "Last change",
       search: "Search: issuer, name, ISIN", allIss: "All issuers", allCtry: "All countries", allTypes: "All types", allSt: "Any status",
       tBond: "Bond (dated)", tPerp: "Perpetual / AT1", tShare: "Share", sActive: "Active", sSoon: "Matures within 12 m", sMat: "Matured", sNoan: "No analysis yet", sPend: "Details pending",
-      shown: "shown", of: "of", country: "Country", amount: "Issue size", irating: "Issuer rating", erating: "Issue rating", clear: "Clear filters", sortHint: "Click a column header to sort" },
+      shown: "shown", of: "of", country: "Country", amount: "Issue size", irating: "Issuer rating", erating: "Issue rating", clear: "Clear filters", sortHint: "Click a column header to sort",
+      gAll: "Green and other", gYes: "Green bonds only", gNo: "Not green", green: "Green bond", yes: "yes", csvHint: "Download the rows shown (e.g. a list of green bonds) as a CSV file for Excel" },
     lt: { title: "Vertybiniai popieriai", sub: "Jūsų turimi vertybiniai popieriai. Čia juos pridėkite arba pašalinkite – įrankis tada žino, kuriuos emitentus apžvelgti.",
       mine: "Mano vertybiniai popieriai", add: "Pridėti vertybinius popierius", addHint: "Įrašykite arba įklijuokite vieną ar kelis ISIN kodus (pvz., iš banko išrašo) ir spauskite Pridėti.", addBtn: "Pridėti", remove: "Pašalinti",
       saving: "Saugoma…", saved: "Išsaugota", failed: "Nepavyko išsaugoti – bandykite dar kartą.", loadFail: "Nepavyko įkelti išsaugoto sąrašo – rodomas paskutinis sinchronizuotas.",
@@ -407,7 +460,8 @@
       matChart: "Turimos obligacijos pagal išpirkimo metus", all: "Visi kada nors sekti vertybiniai popieriai", soldTag: "parduota / neturima", lastChange: "Paskutinis pakeitimas",
       search: "Paieška: emitentas, pavadinimas, ISIN", allIss: "Visi emitentai", allCtry: "Visos šalys", allTypes: "Visi tipai", allSt: "Bet kokia būsena",
       tBond: "Obligacija (su terminu)", tPerp: "Neterminuota / AT1", tShare: "Akcija", sActive: "Galioja", sSoon: "Išperkama per 12 mėn.", sMat: "Išpirkta", sNoan: "Be analizės", sPend: "Laukia duomenų",
-      shown: "rodoma", of: "iš", country: "Šalis", amount: "Emisija", irating: "Emitento reitingas", erating: "Emisijos reitingas", clear: "Išvalyti filtrus", sortHint: "Paspauskite stulpelio antraštę, kad surikiuotumėte" }
+      shown: "rodoma", of: "iš", country: "Šalis", amount: "Emisija", irating: "Emitento reitingas", erating: "Emisijos reitingas", clear: "Išvalyti filtrus", sortHint: "Paspauskite stulpelio antraštę, kad surikiuotumėte",
+      gAll: "Žaliosios ir kitos", gYes: "Tik žaliosios obligacijos", gNo: "Ne žaliosios", green: "Žalioji obligacija", yes: "taip", csvHint: "Atsisiųsti rodomas eilutes (pvz., žaliųjų obligacijų sąrašą) CSV failu Excel'iui" }
   };
   const sx = k => (SX[LANG] || SX.en)[k];
   const parseIsins = v => [...new Set((v.toUpperCase().match(/[A-Z]{2}[A-Z0-9]{9}\d/g) || []))];
@@ -426,7 +480,7 @@
     const d = s.maturity_date ? days(s.maturity_date) : null;
     const st = !s.name ? "pend" : s.status === "matured" ? "mat" : !iss || !iss.files.length ? "noan" : d !== null && d < 365 ? "soon" : "active";
     const ir = iss && (iss.ratings || []).length ? iss.ratings.map(r => (r.agency ? r.agency + " " : "") + r.grade).join("; ") : "";
-    return { x, s, iss, type, d, st, ir, irank: Math.min(99, ...(iss?.ratings || []).map(r => rRank(r.grade))), erank: s.issue_rating ? Math.min(...s.issue_rating.split(";").map(rRank)) : 99,
+    return { x, s, iss, type, d, st, ir, green: s.green === "yes", irank: Math.min(99, ...(iss?.ratings || []).map(r => rRank(r.grade))), erank: s.issue_rating ? Math.min(...s.issue_rating.split(";").map(rRank)) : 99,
       name: iss ? iss.name : s.issuer || "", country: iss ? iss.country : "", mat: type === "share" ? "~" : s.maturity_date || "9999", cpn: s.coupon_pct ? +s.coupon_pct : -1, amt: s.amount_m ? +s.amount_m : -1 };
   }
   function myRow(o) {
@@ -436,13 +490,14 @@
     const st = { mat: `<span class="chip warn">${t("maturedS")}</span>`, soon: `<span class="chip info">${o.d} ${t("daysLeft")}</span>`, noan: `<span class="chip warn">${sx("sNoan")}</span>`, active: `<span class="chip good">${t("active")}</span>` }[o.st];
     const irB = iss && (iss.ratings || []).length ? iss.ratings.map(r => `<span class="rbadge mini ${IG.test(r.grade) ? "ig" : "hy"}">${esc((r.agency || "") + " " + r.grade)}</span>`).join(" ") : `<span class="muted">–</span>`;
     return `<tr><td>${iss ? `<a href="#issuer/${iss.id}">${esc(iss.name)}</a>` : `<span class="muted">${esc(s.issuer || "–")}</span>`}</td><td>${esc(o.country)}</td>
-      <td><div class="sn">${esc(s.name)}</div><div class="mono muted">${esc(x)}</div></td>
+      <td><div class="sn">${esc(s.name)}${leaf(s)}</div><div class="mono muted">${esc(x)}</div></td>
       <td class="n">${s.coupon_pct ? fmt(s.coupon_pct, "%") : "–"}</td><td class="n">${s.type === "share" ? c2("share") : esc(s.maturity_date || c2("perp"))}${s.call_date ? `<div class="muted">${c2("call")} ${esc(s.call_date)}</div>` : ""}</td>
       <td class="n">${s.amount_m ? fmt(s.amount_m, "") + " " + unitLbl("m") : "–"}</td><td>${irB}</td><td>${issueRating(s)}</td><td>${st}</td>${rm}</tr>`;
   }
-  let SF = { q: "", iss: "", ctry: "", type: "", st: "", k: "name", dir: 1 };
+  let SF = { q: "", iss: "", ctry: "", type: "", st: "", green: "", k: "name", dir: 1 };
   function securities(arg) {
-    if (arg === "noan") SF = { ...SF, q: "", iss: "", ctry: "", type: "", st: "noanp" };
+    if (arg === "noan") SF = { ...SF, q: "", iss: "", ctry: "", type: "", green: "", st: "noanp" };
+    if (arg === "green") SF = { ...SF, q: "", iss: "", ctry: "", type: "", st: "", green: "yes" };
     const all = D.securities.slice().sort((a, b) => (a.maturity_date || "9999").localeCompare(b.maturity_date || "9999"));
     const years = {};
     all.filter(x => x.held === "yes" && x.type === "bond" && x.status === "active" && x.maturity_date).forEach(x => { const y = x.maturity_date.slice(0, 4); years[y] = (years[y] || 0) + 1; });
@@ -454,7 +509,8 @@
       <div class="filters secf"><input type="search" id="sfQ" placeholder="${sx("search")}"><select id="sfIss"></select><select id="sfCtry"></select>
         <select id="sfType"><option value="">${sx("allTypes")}</option><option value="bond">${sx("tBond")}</option><option value="perp">${sx("tPerp")}</option><option value="share">${sx("tShare")}</option></select>
         <select id="sfSt"><option value="">${sx("allSt")}</option><option value="active">${sx("sActive")}</option><option value="soon">${sx("sSoon")}</option><option value="mat">${sx("sMat")}</option><option value="noanp">${sx("sNoan")} / ${sx("sPend")}</option></select>
-        <button class="btn sm" id="sfClear">${sx("clear")}</button><span class="muted small" id="sfCount"></span></div>
+        <select id="sfGreen"><option value="">${sx("gAll")}</option><option value="yes">🍃 ${sx("gYes")}</option><option value="no">${sx("gNo")}</option></select>
+        <button class="btn sm" id="sfClear">${sx("clear")}</button><button class="btn sm" id="sfCsv" title="${sx("csvHint")}">⤓ CSV</button><span class="muted small" id="sfCount"></span></div>
       <div class="tbl-wrap"><table id="myTbl" class="sortable"><tr>${[["name", sx("issuer")], ["country", sx("country")], ["sec", sx("sec")], ["cpn", sx("coupon"), "n"], ["mat", sx("term"), "n"], ["amt", sx("amount"), "n"], ["irank", sx("irating")], ["erank", sx("erating")], ["st", sx("status")]]
           .map(([k, l, c]) => `<th class="${c || ""}" data-k="${k}" title="${sx("sortHint")}">${l} <span class="arr"></span></th>`).join("")}<th></th></tr></table></div>
       <details class="guide" style="margin-top:14px"><summary>${sx("replace")}</summary><p class="muted">${sx("replaceHint")}</p><textarea id="isins" rows="8"></textarea>
@@ -463,6 +519,14 @@
       <details class="guide"><summary>${sx("all")} (${all.length})</summary><div class="tbl-wrap" style="margin-top:10px"><table><tr><th>${t("isinCol")}</th><th>${t("instrument")}</th><th>${t("heldCol")}</th><th class="n">${t("coupon")}</th><th>${t("maturity")}</th><th>${t("status")}</th><th>${t("note")}</th></tr>${all.map(x => secRow({ ...x, name: x.issuer ? (byId[x.issuer]?.name || x.issuer) + " – " + x.name : x.name })).join("")}</table></div></details>`;
     setTimeout(initSecurities);
     return h;
+  }
+  let LAST_ROWS = [];
+  function csvDownload() {
+    const q = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
+    const head = [sx("issuer"), sx("country"), "ISIN", sx("sec"), sx("green"), sx("coupon"), sx("term"), "Call", sx("amount"), sx("irating"), sx("erating"), sx("status")];
+    const lines = LAST_ROWS.map(o => [o.name, o.country, o.x, o.s.name || "", o.green ? sx("yes") : "", o.s.coupon_pct || "", o.s.maturity_date || "", o.s.call_date || "", o.s.amount_m || "", o.ir, o.s.issue_rating || "", sx({ mat: "sMat", soon: "sSoon", noan: "sNoan", active: "sActive", pend: "sPend" }[o.st])].map(q).join(";"));
+    const blob = new Blob(["\ufeff" + [head.map(q).join(";"), ...lines].join("\r\n")], { type: "text/csv;charset=utf-8" });
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = `securities_${D.today}${SF.green === "yes" ? "_green" : ""}.csv`; a.click();
   }
   function initSecurities() {
     const tbl = document.getElementById("myTbl"); if (!tbl) return;
@@ -474,15 +538,16 @@
       const opts = (sel, all, vals) => { const cur = SF[sel === "sfIss" ? "iss" : "ctry"]; $(sel).innerHTML = `<option value="">${all}</option>` + vals.map(([v, l]) => `<option value="${esc(v)}" ${v === cur ? "selected" : ""}>${esc(l)}</option>`).join(""); };
       opts("sfIss", sx("allIss"), [...new Map(info.filter(o => o.iss).map(o => [o.iss.id, o.iss.name])).entries()].sort((a, b) => a[1].localeCompare(b[1])));
       opts("sfCtry", sx("allCtry"), [...new Set(info.map(o => o.country).filter(Boolean))].sort().map(c => [c, c]));
-      $("sfQ").value = SF.q; $("sfType").value = SF.type; $("sfSt").value = SF.st;
+      $("sfQ").value = SF.q; $("sfType").value = SF.type; $("sfSt").value = SF.st; $("sfGreen").value = SF.green;
       const q = SF.q.toLowerCase();
       const rows = info.filter(o => (!q || `${o.name} ${o.s.name || ""} ${o.x}`.toLowerCase().includes(q)) && (!SF.iss || o.iss?.id === SF.iss) && (!SF.ctry || o.country === SF.ctry)
-        && (!SF.type || o.type === SF.type) && (!SF.st || (SF.st === "noanp" ? ["noan", "pend"].includes(o.st) : o.st === SF.st)));
+        && (!SF.type || o.type === SF.type) && (!SF.green || (SF.green === "yes") === o.green) && (!SF.st || (SF.st === "noanp" ? ["noan", "pend"].includes(o.st) : o.st === SF.st)));
       const key = o => SF.k === "sec" ? (o.s.name || "~") : SF.k === "st" ? ["pend", "noan", "mat", "soon", "active"].indexOf(o.st) : o[SF.k];
       rows.sort((a, b) => { const A = key(a), B = key(b); return (typeof A === "number" ? A - B : String(A || "~").localeCompare(String(B || "~"))) * SF.dir || a.mat.localeCompare(b.mat); });
       tbl.innerHTML = head + (rows.map(myRow).join("") || `<tr><td colspan="10" class="muted">${sx("none")}</td></tr>`);
-      tbl.querySelectorAll("th[data-k]").forEach(th => { th.querySelector(".arr").textContent = th.dataset.k === SF.k ? (SF.dir > 0 ? "▲" : "▼") : ""; th.onclick = () => { SF.dir = SF.k === th.dataset.k ? -SF.dir : 1; SF.k = th.dataset.k; render(); }; });
+      tbl.querySelectorAll("th[data-k]").forEach(th => { th.querySelector(".arr").textContent = th.dataset.k === SF.k ? (SF.dir > 0 ? "▲" : "▼") : "↕"; th.classList.toggle("on", th.dataset.k === SF.k); th.onclick = () => { SF.dir = SF.k === th.dataset.k ? -SF.dir : 1; SF.k = th.dataset.k; render(); }; });
       $("sfCount").textContent = `${sx("shown")} ${rows.length} ${sx("of")} ${MY.length}`;
+      LAST_ROWS = rows;
       document.getElementById("myCount").textContent = `(${MY.length})`;
       document.getElementById("isins").value = MY.join("\n");
       tbl.querySelectorAll("button.rm").forEach(b => b.onclick = () => { if (confirm(`${sx("remove")} ${b.dataset.i}?`)) { BAD = []; save(MY.filter(x => x !== b.dataset.i)); } });
@@ -498,8 +563,9 @@
         }).catch(() => msg(`✗ ${sx("failed")}`, "bad"));
     };
     $("sfQ").oninput = e => { SF.q = e.target.value; render(); $("sfQ").focus(); };
-    [["sfIss", "iss"], ["sfCtry", "ctry"], ["sfType", "type"], ["sfSt", "st"]].forEach(([id, k]) => $(id).onchange = e => { SF[k] = e.target.value; render(); });
-    $("sfClear").onclick = () => { SF = { ...SF, q: "", iss: "", ctry: "", type: "", st: "" }; render(); };
+    [["sfIss", "iss"], ["sfCtry", "ctry"], ["sfType", "type"], ["sfSt", "st"], ["sfGreen", "green"]].forEach(([id, k]) => $(id).onchange = e => { SF[k] = e.target.value; render(); });
+    $("sfClear").onclick = () => { SF = { ...SF, q: "", iss: "", ctry: "", type: "", st: "", green: "" }; render(); };
+    $("sfCsv").onclick = csvDownload;
     const fallback = () => D.securities.filter(s => s.held === "yes" && s.status !== "matured").map(s => s.isin);
     const start = () => { render(); };
     if (MY) start();
@@ -558,9 +624,67 @@
         <li>${en ? "Reports in EN and LT (LV, EE ready to switch on)" : "Ataskaitos EN ir LT (LV, EE paruošta įjungti)"}</li></ul></div></div>`;
   }
 
+  /* ---------- laiškas kolegoms (be AI, iš apžvalgų verdiktų) ---------- */
+  const MX = {
+    en: { title: "Email to colleagues", sub: "Drafted automatically (no AI) from the verdicts of the latest reviews: more space for issuers that need attention, one line for stable ones, plus maturities and calls in the next 12 months. Edit the text directly below, then copy it into Outlook.",
+      lang: "Email language", sp: "SharePoint link", spHint: "Paste the link to the SharePoint folder. It is stored only in this browser, never in the public website.", subj: "Subject",
+      copyS: "Copy subject", copyB: "Copy email", copied: "Copied – paste into Outlook (Ctrl+V).", fail: "Copy failed – select the text and press Ctrl+C.", reset: "Restore generated text" },
+    lt: { title: "Laiškas kolegoms", sub: "Paruošta automatiškai (be AI) iš naujausių apžvalgų verdiktų: daugiau vietos emitentams, kuriems reikia dėmesio, stabiliems – viena eilutė, pabaigoje išpirkimai ir call datos per 12 mėn. Tekstą galite taisyti tiesiai žemiau, tada nukopijuokite į Outlook.",
+      lang: "Laiško kalba", sp: "SharePoint nuoroda", spHint: "Įklijuokite SharePoint aplanko nuorodą. Ji saugoma tik šioje naršyklėje, viešoje svetainėje neskelbiama.", subj: "Tema",
+      copyS: "Kopijuoti temą", copyB: "Kopijuoti laišką", copied: "Nukopijuota – įklijuokite į Outlook (Ctrl+V).", fail: "Nepavyko nukopijuoti – pažymėkite tekstą ir spauskite Ctrl+C.", reset: "Atkurti sugeneruotą tekstą" }
+  };
+  const mx = k => (MX[LANG] || MX.en)[k];
+  let ELANG = "en";
+  function emailHtml(lg) {
+    const e = D.email[lg]; if (!e) return "";
+    const E = e.E, G = e.groups;
+    let sp = ""; try { sp = localStorage.getItem("sharepoint") || ""; } catch (x) { /* ignore */ }
+    const spLink = sp ? `<a href="${esc(sp)}">${E.sp}</a>` : `[${E.sp}]`;
+    const P = "margin:0 0 10px", H = "margin:16px 0 6px;font-size:15px", UL = "margin:0 0 10px;padding-left:20px";
+    const src = i => i.url ? ` (<a href="${esc(i.url)}">${E.src}</a>)` : "";
+    const leafE = g => g ? " 🍃" : "";
+    const big = (key, color) => (G[key] || []).length ? `<p style="${H};color:${color}"><b>${E[key]}</b></p>` + G[key].map(i => `<p style="margin:8px 0 4px"><b>${esc(i.name)}</b> – ${esc(i.text)}${src(i)}</p>${(i.points || []).length ? `<ul style="${UL}">${i.points.map(([a, b]) => `<li>${a ? `<b>${esc(a)}:</b> ` : ""}${esc(b)}</li>`).join("")}</ul>` : ""}`).join("") : "";
+    const ok = (G.ok || []).length ? `<p style="${H};color:#1b7f3b"><b>${E.ok}</b></p><ul style="${UL}">${G.ok.map(i => `<li><b>${esc(i.name)}</b> – ${esc(i.text)}</li>`).join("")}</ul>` : "";
+    const soon = `<p style="${H}"><b>${E.mat}</b></p>` + (e.soon.length ? `<ul style="${UL}">${e.soon.map(x => `<li>${esc(x.date)} – ${esc(x.name)}${leafE(x.green)} (${esc(x.isin)}): ${esc(x.what)}${x.amount ? `, EUR ${esc(x.amount)}m` : ""}</li>`).join("")}</ul>` : `<p style="${P}">${E.none_mat}</p>`);
+    return `<div style="font-family:Calibri,Arial,sans-serif;font-size:14px;line-height:1.45;color:#1b2430">
+      <p style="${P}">${E.hi}</p><p style="${P}">${E.intro.replace("{periods}", esc(e.periods)).replace("{n}", e.n).replace("{h}", e.h).replace("{sp}", spLink)}</p>
+      <p style="${P}"><b>${E.glance.split("{")[0]}${E.glance.slice(E.glance.split("{")[0].length).split(" · ").map(x => [x, (G[{ "{a}": "action", "{w}": "watch", "{o}": "ok" }[(x.match(/\{[awo]\}/) || [""])[0]]] || []).length]).filter(([, c]) => c).map(([x, c]) => x.replace(/\{[awo]\}/, c)).join(" · ")}</b></p>
+      ${big("action", "#b42318")}${big("watch", "#9a6400")}${ok}${soon}<p style="${P}">${E.bye}</p></div>`;
+  }
+  function emailPage() {
+    setTimeout(initEmail);
+    let sp = ""; try { sp = localStorage.getItem("sharepoint") || ""; } catch (x) { /* ignore */ }
+    return `<h1>${mx("title")}</h1><p class="sub">${mx("sub")}</p>
+      <div class="card mailbar"><div class="row"><span class="muted">${mx("lang")}:</span> <span class="seg" id="elang">${["en", "lt"].map(l => `<button class="btn sm ${l === ELANG ? "on" : ""}" data-l="${l}">${l.toUpperCase()}</button>`).join("")}</span></div>
+        <label class="fl">${mx("sp")} <input id="spUrl" type="url" value="${esc(sp)}" placeholder="https://…sharepoint…"></label><p class="muted small">${mx("spHint")}</p></div>
+      <div class="card mail"><label class="fl">${mx("subj")} <input id="mSubj" value="${esc(D.email[ELANG]?.subject || "")}"></label>
+        <div id="mBody" class="mbody" contenteditable="true" spellcheck="false">${emailHtml(ELANG)}</div>
+        <div class="row bar-actions"><button class="btn" id="cpS">${mx("copyS")}</button><button class="btn primary" id="cpB">${mx("copyB")}</button><button class="btn sm" id="mReset">${mx("reset")}</button><span id="mMsg" class="runst"></span></div></div>`;
+  }
+  function initEmail() {
+    const $ = id => document.getElementById(id); if (!$("mBody")) return;
+    const msg = (t2, cls) => { $("mMsg").className = "runst " + (cls || ""); $("mMsg").textContent = t2; };
+    const regen = () => { $("mBody").innerHTML = emailHtml(ELANG); $("mSubj").value = D.email[ELANG]?.subject || ""; };
+    document.querySelectorAll("#elang button").forEach(b => b.onclick = () => { ELANG = b.dataset.l; document.querySelectorAll("#elang button").forEach(x => x.classList.toggle("on", x === b)); regen(); });
+    $("spUrl").onchange = e => { try { localStorage.setItem("sharepoint", e.target.value.trim()); } catch (x) { /* ignore */ } regen(); };
+    $("mReset").onclick = regen;
+    $("cpS").onclick = () => navigator.clipboard.writeText($("mSubj").value).then(() => msg(mx("copied"), "ok"), () => msg(mx("fail"), "bad"));
+    $("cpB").onclick = async () => {
+      const html = $("mBody").innerHTML, text = $("mBody").innerText;
+      try {
+        if (window.ClipboardItem) await navigator.clipboard.write([new ClipboardItem({ "text/html": new Blob([html], { type: "text/html" }), "text/plain": new Blob([text], { type: "text/plain" }) })]);
+        else await navigator.clipboard.writeText(text);
+        msg(mx("copied"), "ok");
+      } catch (x) {
+        const r = document.createRange(); r.selectNodeContents($("mBody")); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        msg(document.execCommand("copy") ? mx("copied") : mx("fail"), "ok");
+      }
+    };
+  }
+
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
-    const map = { overview, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
+    const map = { overview, email: emailPage, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
     document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = t(k); a.classList.toggle("on", k === page || (page === "issuer" && k === "overview")); });
     document.querySelector(".brand").textContent = t("heroTitle");
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));

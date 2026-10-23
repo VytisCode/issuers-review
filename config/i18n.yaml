@@ -92,3 +92,4 @@ country_LT:       {lt: "Lietuva", en: "Lithuania", lv: "Lietuva", et: "Leedu"}
 country_LV:       {lt: "Latvija", en: "Latvia", lv: "Latvija", et: "Läti"}
 country_EE:       {lt: "Estija", en: "Estonia", lv: "Igaunija", et: "Eesti"}
 country_FI:       {lt: "Suomija", en: "Finland", lv: "Somija", et: "Soome"}
+green_bond:       {lt: "Žalioji obligacija", en: "Green bond", lv: "Zaļā obligācija", et: "Roheline võlakiri"}

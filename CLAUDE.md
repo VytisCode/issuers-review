@@ -12,11 +12,12 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 6. Sankcijų ir žiniasklaidos patikras daro savininkas – įrankis tik pateikia radinius (`found` / `not_found` / `review`) su nuorodomis.
 
 ## Failų žemėlapis
-- `config/issuers.yaml` – emitentai (šalis, sektorius, ataskaitų puslapiai, žiniasklaidos kalbos, SEB politikos); `config/securities.csv` – ISIN, kuponai, datos (`status` matured skaičiuojamas automatiškai).
+- `config/issuers.yaml` – emitentai (šalis, sektorius, ataskaitų puslapiai, žiniasklaidos kalbos, SEB politikos); `config/securities.csv` – ISIN, kuponai, datos (`status` matured skaičiuojamas automatiškai; `green` – žalioji obligacija: tuščia = pagal pavadinimą „green“/EuGB, `yes`/`no` – rankinis sprendimas pagal emitento skelbimą).
 - `config/seb_policies.yaml` – SEB politikų santrauka (`verified: no` – SEB PDF nepavyko perskaityti automatiškai) ir ESG klausimynas.
 - `config/metrics.yaml`, `config/i18n.yaml` – rodiklių ir antraščių vertimai.
 - `reports/<emitentas>/<laikotarpis>.yaml` – ataskaitos turinys; `data/history/<emitentas>.csv` – rodikliai (metric, period, value, unit, source, page, verified, note).
 - `tools/build_reports.py` (Word/PDF → `docs/files/`), `tools/archive_sources.py` (šaltinių ZIP → GitHub Release `sources`), `tools/build_site.py` (`docs/data.js`, kopijuoja `site/` → `docs/`), `tools/fetch_news.py`, `tools/check_filings.py`, `tools/fetch_market.py` (ECB palūkanos, infliacija → `data/market.csv`), `tools/fetch_prices.py` (Nasdaq Baltic obligacijų kotiruotės → `data/prices.csv`), `tools/common.py`. PDF šriftas – Inter (`assets/fonts`), Word – Calibri.
+- Svetainėje: Apžvalgos kortelės „Dabartinės analizės“ / „Naujos ataskaitos“ (`build_site.readiness`, be AI: nauji dokumentai + naujienų antraštės; `fiscal_year_end`, `report_frequency: semiannual` – issuers.yaml), puslapis „Laiškas“ (`build_site.email`, iš verdiktų; SharePoint nuoroda tik naršyklėje).
 - `site/` – dashboard šaltinis (`index.html`, `app.js`, `style.css`); `docs/` – generuojama, ranka netaisyti.
 
 ## Kaip atlikti analizę (nauja emitento ataskaita)

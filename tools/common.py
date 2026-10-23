@@ -191,7 +191,50 @@ def securities():
     for r in rows:
         m = r.get("redeemed_date") or r.get("maturity_date") or ""
         r["status"] = "matured" if m and m <= TODAY else "active"
+        # žalioji obligacija: stulpelis green (yes/no) – rankinis sprendimas; tuščias – pagal pavadinimą (green / EuGB, kaip skelbia emitentas)
+        g = (r.get("green") or "").strip().lower()
+        r["green"] = g if g in ("yes", "no") else ("yes" if r.get("type") == "bond" and GREEN_RX.search(r.get("name", "")) else "no")
     return rows
+
+
+GREEN_RX = re.compile(r"\bgreen\b|\bEuGB\b|žalio|zaļ|roheli", re.I)
+
+
+def period_end(period, fy_end="12-31"):
+    """Laikotarpio pabaigos data: 6M2026 -> 2026-06-30; FY2026 -> 2026-12-31. fy_end – finansinių metų pabaiga (LATRAPS: 06-30)."""
+    m = re.match(r"(FY|12M|Q4|9M|Q3|3Q|6M|1H|H1|Q2|2Q|3M|Q1|1Q)(\d{4})$", str(period))
+    if not m:
+        return ""
+    months = {"FY": 12, "12M": 12, "Q4": 12, "9M": 9, "Q3": 9, "3Q": 9, "6M": 6, "1H": 6, "H1": 6, "Q2": 6, "2Q": 6, "3M": 3, "Q1": 3, "1Q": 3}[m.group(1)]
+    y, fm = int(m.group(2)), int(fy_end[:2])
+    mon = (fm - 12 + months - 1) % 12 + 1  # finansinių metų mėnuo -> kalendorinis
+    if mon > fm:
+        y -= 1
+    last = {2: 28, 4: 30, 6: 30, 9: 30, 11: 30}.get(mon, 31)
+    return f"{y}-{mon:02d}-{last}"
+
+
+def quarter_label(end):
+    """2026-09-30 -> 9M 2026 (Q3)."""
+    y, mo = end[:4], int(end[5:7])
+    return {3: f"Q1 {y}", 6: f"6M {y} (Q2)", 9: f"9M {y} (Q3)", 12: f"FY {y}"}.get(mo, end)
+
+
+_EXP_MONTHS = {m: i for i, m in enumerate(["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"], 1)}
+
+
+def expected_date(text, after=""):
+    """Numatoma kitos ataskaitos data iš teksto: pirma YYYY-MM-DD (ne ankstesnė už after), kitaip „November 2026“ -> mėnesio pabaiga (orientacinė)."""
+    text = plain(str(text or ""))
+    for d in re.findall(r"\d{4}-\d{2}-\d{2}", text):
+        if d >= after:
+            return d, True
+    m = re.search(r"(january|february|march|april|may|june|july|august|september|october|november|december)\s+(\d{4})", text, re.I)
+    if m:
+        mon = _EXP_MONTHS[m.group(1).lower()]
+        last = {2: 28, 4: 30, 6: 30, 9: 30, 11: 30}.get(mon, 31)
+        return f"{m.group(2)}-{mon:02d}-{last}", False
+    return "", False
 
 
 def history(issuer):

@@ -47,6 +47,8 @@ for _n in ("Inter-Regular", "Inter-Medium", "Inter-SemiBold", "Inter-Bold", "Int
 pdfmetrics.registerFontFamily("Inter-Regular", normal="Inter-Regular", bold="Inter-SemiBold", italic="Inter-Italic", boldItalic="Inter-SemiBold")
 ACCENT, ACCENT_LIGHT, INK, MUTED, LINE, SERIES = "12355B", "EEF3F8", "1B2430", "667085", "D5DCE4", "2A78D6"
 HAIR, PANEL = "E6EAF0", "F4F6F9"
+LEAF = C.ROOT / "assets" / "icons" / "leaf.png"  # žalioji obligacija (kaip svetainėje)
+GREEN_INK = "1B7F3B"
 VERDICT_FILL = {"ok": ("E3F3E8", "1B7F3B"), "watch": ("FDF1D8", "9A6400"), "action": ("FDE7E5", "B42318")}
 STATUS_KEYS = {"met": "st_met", "partly": "st_partly", "not_met": "st_not_met", "pending": "st_pending", "changed": "st_changed"}
 STATUS_FILL = {"met": "E3F3E8", "partly": "FDF1D8", "not_met": "FDE7E5", "pending": "EAF1F8", "changed": "FDF1D8"}
@@ -164,7 +166,7 @@ def model(rep, lang, tmpdir):
         mat = s["maturity_date"] or (t("perpetual") if s["type"] == "bond" else t("share"))
         cpn = C.fmt_num(s["coupon_pct"], "%", lang) if s["coupon_pct"] else ""
         er = "" if s["type"] == "share" else (s.get("issue_rating") or t("not_rated"))
-        held.append((s["isin"], s["name"], " · ".join(x for x in (cpn, mat) if x), er))
+        held.append((s["isin"], s["name"], " · ".join(x for x in (cpn, mat) if x), er, t("green_bond") if s.get("green") == "yes" else ""))
     blocks.append(("sidebar", t("key_facts"), [(t("rating"), rich(rep.get("rating", ""))), (t("analysis_date"), [("t", str(rep["analysis_date"]), False)]),
                                                (t("next_report"), rich(rep.get("next_report", ""))), (t("country"), [("t", country, False)] if country else [])],
                    t("held_short"), held))
@@ -184,7 +186,8 @@ def model(rep, lang, tmpdir):
         cpn = C.fmt_num(s["coupon_pct"], "%", lang) if s["coupon_pct"] else "–"
         note = ("⚠ " if s.get("verified") == "review" else "") + s.get("status_note", "")
         er = "" if s["type"] == "share" else (s.get("issue_rating") or t("not_rated")) + (f" ({s['issue_rating_note']})" if s.get("issue_rating_note") else "")
-        rows.append([s["isin"], s["name"], cpn, mat, er, note])
+        name = [("t", s["name"], False)] + ([("g", t("green_bond"), None)] if s.get("green") == "yes" else [])
+        rows.append([s["isin"], name, cpn, mat, er, note])
     blocks += [("h2", t("instruments")), ("table", [t("isin"), t("instrument"), t("coupon"), t("maturity"), t("issue_rating"), t("note")], rows,
                                           [2.6, 4.0, 1.9, 2.0, 2.8, 3.9], {"num": [2]})]
 
@@ -356,6 +359,13 @@ def hyperlink(par, url, text, size=None, sup=False, color=SERIES):
 def add_segs(par, segs, size=None, color=None):
     prev_c = False
     for kind, a, b in segs:
+        if kind == "g":  # žalios obligacijos žyma: lapelis + tekstas
+            par.add_run(" ").add_picture(str(LEAF), height=Pt((size or 10) * 0.85))
+            r = par.add_run(" " + a)
+            r.font.size, r.font.bold = Pt((size or 10) * 0.85), True
+            r.font.color.rgb = RGBColor.from_string(GREEN_INK)
+            prev_c = False
+            continue
         if kind == "t":
             run = par.add_run(a)
             run.bold = b
@@ -532,8 +542,11 @@ def to_docx(blocks, path, footer_text):
                 p = tight(a.add_paragraph())
                 add_segs(p, segs, size=9) if segs else run(p, "–", 9)
             run(tight(b.paragraphs[0], 0, 2), held_title, 9, True, ACCENT)
-            for isin, name, terms, er in held:
-                run(tight(b.add_paragraph(), 4, 0), name, 8.5, True, INK)
+            for isin, name, terms, er, green in held:
+                p = tight(b.add_paragraph(), 4, 0)
+                run(p, name, 8.5, True, INK)
+                if green:
+                    add_segs(p, [("g", green, None)], size=8.5)
                 run(tight(b.add_paragraph()), isin + (f"  ·  {terms}" if terms else ""), 7.5, False, MUTED)
                 if er:
                     run(tight(b.add_paragraph()), er, 7.5, False, ACCENT)
@@ -702,7 +715,10 @@ def esc(s):
 def segs_html(segs):
     out, prev_c = [], False
     for kind, a, b in segs:
-        if kind == "t":
+        if kind == "g":
+            out.append(f' <img src="{LEAF}" width="7" height="7" valign="-1"/> <font name="Inter-SemiBold" size="6.8" color="#{GREEN_INK}">{esc(a)}</font>')
+            prev_c = False
+        elif kind == "t":
             out.append(f"<b>{esc(a)}</b>" if b else esc(a))
             prev_c = False
         else:
@@ -789,11 +805,11 @@ def to_pdf(blocks, path, footer_text):
                 side += [Paragraph(esc(k).upper(), st["sk"]), Paragraph(segs_html(segs) or "–", st["sv"])]
             if held:
                 side += [Spacer(1, 12), Paragraph(esc(held_title), st["sh"])]
-                for isin, name, terms, er in held:
-                    side.append(Paragraph(esc(name), st["si"]))
+                for isin, name, terms, er, green in held:
+                    side.append(Paragraph(esc(name) + (f' <img src="{LEAF}" width="7" height="7" valign="-1"/>' if green else ""), st["si"]))
                     side.append(Paragraph(esc(isin) + (f"  ·  {esc(terms)}" if terms else ""), st["ss"]))
-                    if er:
-                        side.append(Paragraph(f'<font color="#{ACCENT}">{esc(er)}</font>', st["ss"]))
+                    if er or green:
+                        side.append(Paragraph(" · ".join(x for x in (f'<font color="#{GREEN_INK}">{esc(green)}</font>' if green else "", f'<font color="#{ACCENT}">{esc(er)}</font>' if er else "") if x), st["ss"]))
         elif kind == "verdict":
             fill, ink = VERDICT_FILL.get(rest[0], VERDICT_FILL["ok"])
             flow += [boxed(Paragraph(segs_html(rest[1]), st["verdict"]),

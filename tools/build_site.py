@@ -58,6 +58,140 @@ def texts(rep, lang):
     return out
 
 
+# laikotarpio žymės ataskaitų pavadinimuose (kad būtų galima atpažinti, už kokį ketvirtį paskelbta ataskaita)
+PERIOD_RX = {3: r"\bQ1\b|\b1Q\b|3M|three months|first quarter|I ketv|3 mėn|3 kuu|3 mēn|january.?march|sausio.?kovo",
+             6: r"\bQ2\b|\b2Q\b|6M|\bH1\b|\b1H\b|six months|half.?year|first half|II ketv|6 mėn|pusmeč|6 kuu|poolaasta|6 mēn|pusgad|january.?june|sausio.?birželio",
+             9: r"\bQ3\b|\b3Q\b|9M|nine months|third quarter|III ketv|9 mėn|9 kuu|9 mēn|january.?september|sausio.?rugsėjo|jaanuar.?september",
+             12: r"\bQ4\b|\b4Q\b|12M|annual|full.?year|metin|aastaaruanne|gada pārskats|twelve months|IV ketv|12 mėn"}
+
+
+NOT_REPORT_RX = r"tegevusmahud|volumes|traffic|passenger|krovin|calendar|kalend|will publish|to publish|avaldab|paskelbs|publicēs|webinar|investor call|conference call|audiokonver|veebiseminar"
+
+
+def readiness(news, filings):
+    """Ar jau metas generuoti naujas apžvalgas: kokio laikotarpio dabartinės analizės ir kiek emitentų jau paskelbė naujesnę ataskaitą.
+    Tikslinis laikotarpis - paskutinio pasibaigusio ketvirčio pabaiga. Paskelbimas atpažįstamas be AI: nauji emitentų puslapių dokumentai
+    (data/filings.csv) ir naujienos su to ketvirčio žyme pavadinime."""
+    import re
+    from datetime import date, timedelta
+    today = date.fromisoformat(C.TODAY)
+    qe = [date(today.year - (1 if m > today.month or (m == today.month and today.day < 28) else 0), m, 1) for m in (3, 6, 9, 12)]
+    target_m = max(qe)
+    target = f"{target_m.year}-{target_m.month:02d}-{30 if target_m.month in (6, 9) else 31}"
+    rows = []
+    for key, iss in C.issuers().items():
+        reps = C.reports(key)
+        last = reps[-1] if reps else {}
+        fy = iss.get("fiscal_year_end", "12-31")
+        end = C.period_end(last.get("period", ""), fy) if last else ""
+        adate = str(last.get("analysis_date", ""))
+        exp, exact = C.expected_date(last.get("next_report") or iss.get("report_calendar", ""), adate)
+        # pusmetinės ataskaitos (pvz. LATRAPS): emitento tikslinis laikotarpis - paskutinis pasibaigęs pusmetis
+        months = [int(fy[:2]), (int(fy[:2]) + 6 - 1) % 12 + 1] if iss.get("report_frequency") == "semiannual" else [3, 6, 9, 12]
+        own = max(f"{int(target[:4]) - (1 if mo > int(target[5:7]) else 0)}-{mo:02d}-{30 if mo in (6, 9) else 31}" for mo in months)
+        found = []
+        if not end or end < own:
+            rx = re.compile(PERIOD_RX[int(own[5:7])] if fy == "12-31" else r"(?!)", re.I)
+            year = own[:4]
+            for f in filings:
+                if f["issuer"] == key and f.get("baseline") != "yes" and f["first_seen"] > adate and f.get("kind") in ("interim", "annual"):
+                    found.append({"date": f["first_seen"], "title": f["title"], "url": f["url"], "sure": bool(rx.search(f["title"] + " " + f["url"]))})
+            for n in news:
+                if n["issuer"] == key and n["date"] > own and rx.search(n["title"]) and not re.search(NOT_REPORT_RX, n["title"], re.I) and (year in n["title"] or n["date"][:4] == year):
+                    found.append({"date": n["date"], "title": n["title"], "url": n["url"], "sure": True})
+            found.sort(key=lambda x: (not x["sure"], x["date"]))
+        if end and end >= own:
+            st = "done"
+        elif iss.get("manual_reports"):
+            st = "manual"
+        elif any(x["sure"] for x in found):
+            st = "published"
+        elif found:
+            st = "maybe"
+        elif exp and exp < C.TODAY:
+            st = "late"
+        else:
+            st = "waiting"
+        rows.append({"id": key, "name": iss["name"], "period": last.get("period", ""), "end": end, "analysis_date": adate,
+                     "expected": exp, "exact": exact, "status": st, "found": found[:3]})
+    periods = {}  # pagal duomenų datą (laikotarpio pabaigą): 6M2026, 1H2026 ir LATRAPS FY2026 – visi „6M 2026 (Q2)“
+    for r in rows:
+        if r["end"]:
+            lab = C.quarter_label(r["end"])
+            periods[lab] = periods.get(lab, 0) + 1
+    return {"target": target, "target_label": C.quarter_label(target), "rows": rows,
+            "periods": sorted(periods.items(), key=lambda kv: (-kv[1], kv[0])),
+            "last_expected": max([r["expected"] for r in rows if r["status"] in ("waiting", "late") and r["expected"]] or [""])}
+
+
+EMAIL = {
+    "en": {"subject": "Issuer review completed – {period}", "hi": "Hi all,",
+           "intro": "The issuer review based on the latest published reports ({periods}) is complete: {n} issuers, {h} securities held. Full reviews (PDF / Word) and source files are in {sp}.",
+           "glance": "At a glance: {a} need attention · {w} on watch · {o} stable",
+           "action": "Needs attention", "watch": "Watch list", "ok": "Stable – no action", "mat": "Upcoming maturities and calls (next 12 months)",
+           "matures": "matures", "call": "call date", "none_mat": "No maturities or calls in the next 12 months.", "src": "source",
+           "bye": "Questions and comments are welcome.", "sp": "SharePoint"},
+    "lt": {"subject": "Emitentų apžvalga atlikta – {period}", "hi": "Sveiki,",
+           "intro": "Atlikta emitentų apžvalga pagal naujausias paskelbtas ataskaitas ({periods}): {n} emitentai, {h} turimi vertybiniai popieriai. Išsamios apžvalgos (PDF / Word) ir šaltinių failai – {sp}.",
+           "glance": "Trumpai: {a} reikia dėmesio · {w} stebime · {o} stabilūs",
+           "action": "Reikia dėmesio", "watch": "Stebime", "ok": "Stabilūs – veiksmų nereikia", "mat": "Artėjantys išpirkimai ir call datos (12 mėn.)",
+           "matures": "išpirkimas", "call": "call data", "none_mat": "Per artimiausius 12 mėn. išpirkimų ir call datų nėra.", "src": "šaltinis",
+           "bye": "Klausimai ir pastabos – laukiami.", "sp": "SharePoint"},
+}
+
+
+def _sentences(text, n):
+    import re
+    parts = re.split(r"(?<=[.!?])\s+(?=[A-ZĄČĘĖĮŠŲŪŽ0-9])", text.strip())
+    return " ".join(parts[:n]).strip()
+
+
+def email(lang, readiness_info):
+    """Laiškas kolegoms (be AI): sudaromas iš kiekvieno emitento verdikto ir santraukos. Daugiau vietos – reikia dėmesio / stebimiems,
+    stabiliems – viena eilutė. Pabaigoje - išpirkimai ir call datos per 12 mėn. SharePoint nuoroda įrašoma svetainėje (saugoma tik naršyklėje)."""
+    import re
+    from datetime import date, timedelta
+    E, out = EMAIL[lang], {"action": [], "watch": [], "ok": []}
+    secs = [x for x in C.securities() if x.get("held") == "yes" and x["status"] == "active"]
+    for key, iss in C.issuers().items():
+        reps = C.reports(key)
+        if not reps:
+            continue
+        rep = reps[-1]
+        v = rep.get("verdict") or {}
+        st = v.get("status") or "ok"
+        cites = C.Citations(rep.get("sources", {}))
+        segs = cites.parse(C.tr(v, lang))
+        url = next((b for k, a, b in segs if k == "c" and b), "")
+        txt = C.plain(C.tr(v, lang))
+        first, _, rest_ = txt.partition(". ")
+        if rest_ and len(first.split()) <= 3:  # „Position OK.“ / „Worth watching.“ – žyma, ne turinys
+            txt = rest_
+        item = {"name": iss["name"], "period": rep.get("period", ""), "url": url, "green": any(x["green"] == "yes" and x["issuer"] == key for x in secs)}
+        item["text"] = _sentences(txt, 2) if len(_sentences(txt, 2)) <= 230 else _sentences(txt, 1)
+        if st != "ok":
+            pts = []
+            for q in rep.get("quick_summary", [])[:2]:
+                q = C.plain(C.tr(q, lang))
+                head, _, rest = q.partition(":")
+                pts.append((head.strip(), _sentences(rest, 1)) if rest else ("", _sentences(q, 1)))
+            item["points"] = pts
+        out.setdefault(st, []).append(item)
+    today = date.fromisoformat(C.TODAY)
+    soon = []
+    for x in secs:
+        for k, lab in (("maturity_date", E["matures"]), ("call_date", E["call"])):
+            d = x.get(k)
+            if d and C.TODAY <= d <= (today + timedelta(days=365)).isoformat():
+                soon.append((d, x, lab))
+    soon.sort(key=lambda t: t[0])
+    per = ", ".join(p for p, _ in readiness_info["periods"][:3])
+    main_period = readiness_info["periods"][0][0] if readiness_info["periods"] else ""
+    return {"subject": E["subject"].format(period=main_period), "E": E, "groups": out, "soon": [{"date": d, "name": x["name"], "isin": x["isin"], "what": lab,
+            "amount": x.get("amount_m", ""), "green": x["green"] == "yes", "issuer": C.issuers().get(x["issuer"], {}).get("name", x["issuer"])} for d, x, lab in soon],
+            "periods": per, "n": len(C.issuers()), "h": len(secs)}
+
+
 def main():
     langs = C.settings().get("languages", ["lt"])
     M = C.metrics()
@@ -72,7 +206,9 @@ def main():
                       for sid, last, now, m3, m12, src in C.market_table()],
            # svarbiausios naujienos (30 d.): tos pačios temos pranešimai sujungti, „kita“ tema nerodoma, nebent antraštėje neigiamas žodis
            "news_highlights": {lg: [d for d in C.news_digest(None, days=30, lang=lg)[0] if d["topic"] != "kita"][:40] for lg in SITE_LANGS},
-           "filings": [f for f in filings if f.get("baseline") != "yes"]}
+           "filings": [f for f in filings if f.get("baseline") != "yes"],
+           "readiness": readiness(news, filings)}
+    out["email"] = {lg: email(lg, out["readiness"]) for lg in SITE_LANGS}
     archive = C.load_json(C.DATA / "sources_archive.json")
     for key, iss in C.issuers().items():
         reps = C.reports(key)
