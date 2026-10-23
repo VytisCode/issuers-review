@@ -207,14 +207,14 @@
     const now = [newRep ? `<a class="chip bad" href="#overview/x/c-${(D.issuers.find(i => i.new_filings.length) || {}).id}">${newRep} ${g("newRep")} →</a>` : "", noAn ? `<a class="chip warn" href="#securities/noan">${noAn} ${g("noAn")} →</a>` : ""].join("") || `<span class="chip good">${g("allOk")}</span>`;
     const manual = D.issuers.filter(i => i.manual);
     const man = manual.length ? `<p class="manual">⚠ ${g("manual")} ${manual.map(i => `<a href="#issuer/${i.id}"><b>${esc(i.name)}</b></a>`).join(", ")} – ${g("manualHow")}</p>` : "";
-    const step = (n, a, d, w, extra = "") => `<li><div class="gn">${n}</div><div><b>${a}</b><p>${d}</p>${extra}<p class="muted gw">${w}</p></div></li>`;
-    return `<details class="guide" ${localStorage_get("guide") === "closed" ? "" : "open"}><summary>${g("title")}</summary><p class="muted">${g("when")}</p><ol class="steps">
-      ${step(1, g("s1"), g("s1d"), g("s1w"))}
-      ${step(2, g("s2"), g("s2d"), g("s2w"), `<div class="row bar-actions"><a class="btn primary" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${t("searchNow")}</a></div>
-        <div id="runStatus" class="runst muted">${g("last")} ${esc(st.news?.date || t("notYet"))}</div>`)}
-      ${step(3, g("s3"), g("s3d"), g("s3w"), `${man}<p>${g("now")} ${now}</p>`)}
-      ${step(4, g("s4"), g("s4d"), "")}
-      ${step(5, g("s5"), g("s5d"), "")}
+    const step = (n, a, d, w, extra = "", k = "") => `<li class="k-${k}"><div class="gn">${n}</div><div><b>${a}</b> ${kindTag(k)}<p>${d}</p>${extra}<p class="muted gw">${w}</p></div></li>`;
+    return `<details class="guide" ${localStorage_get("guide") === "closed" ? "" : "open"}><summary>${g("title")}</summary><p class="muted">${g("when")}</p>${kindLegend()}<ol class="steps">
+      ${step(1, g("s1"), g("s1d"), g("s1w"), "", "you")}
+      ${step(2, g("s2"), g("s2d"), g("s2w"), `<div class="row bar-actions"><a class="btn primary code" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${t("searchNow")}</a></div>
+        <div id="runStatus" class="runst muted">${g("last")} ${esc(st.news?.date || t("notYet"))}</div>`, "code")}
+      ${step(3, g("s3"), g("s3d"), g("s3w"), `<div class="row">${promptBtn(L(JOBS[0].prompt)({}))}</div>${man}<p>${g("now")} ${now}</p>`, "ai")}
+      ${step(4, g("s4"), g("s4d"), "", "", "code")}
+      ${step(5, g("s5"), g("s5d"), "", "", "code")}
     </ol></details>`;
   }
   function localStorage_get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
@@ -283,7 +283,7 @@
       .map(r => `<tr><td><a href="#issuer/${r.id}">${esc(r.name)}</a></td><td>${esc(r.period)} <span class="muted">· ${esc(r.analysis_date)}</span></td>
         <td>${r.status === "done" ? "–" : r.expected ? (r.exact ? "" : "~") + esc(r.expected) : "–"}</td>
         <td><span class="chip ${lbl[r.status]}">${RX(r.status)}${r.status === "waiting" && r.expected ? "" : ""}</span>${(r.found || []).slice(0, 1).map(f => ` <a class="muted small" href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title.slice(0, 60))} ↗</a>`).join("")}</td></tr>`).join("");
-    return `<section class="ready">
+    return `<section class="ready" id="ready">
       <div class="card rc"><div class="rl">${RX("cur")}</div><div class="rbig">${esc(top[0])}</div><div class="muted">${top[1]} ${RX("of")} ${n} ${RX("issuersW")}</div>
         <div class="rper">${R.periods.map(([p, c]) => `<span class="chip ${p === top[0] ? "info" : ""}">${esc(p)} · ${c}</span>`).join(" ")}</div>
         <p class="muted small">${RX("curSub")}. ${RX("dataTo")} ${esc(ends[ends.length - 1] || "–")}; ${RX("oldest")}: ${oldest ? esc(oldest.name + " " + oldest.period) : "–"}.</p></div>
@@ -336,7 +336,7 @@
       <div class="kv"><span>${t("lastAnalysis")}</span><b>${esc(i.period)} · ${esc(i.analysis_date)}</b><span>${t("rating")}</span><b>${ratingBadges(i)}<span class="muted rtxt">${X.rating || ""}</span></b><span>${t("nextReport")}</span><b>${X.next_report || ""}</b></div></div>
       <div class="dlbox"><b>${t("download")}</b>${dlButtons(i)}</div></div>
       <div class="row"><a class="btn" href="${gh("edit/main/" + i.yaml)}" target="_blank" rel="noopener">${t("edit")}</a>
-      <a class="btn" href="${issueUrl("Analysis: " + i.name, "Update the " + i.name + " review using the latest report.\n\n(Created from the dashboard)")}" target="_blank" rel="noopener">${t("requestAnalysis")}</a>
+      ${promptBtn(L(JOBS[1].prompt)({ name: i.name }), t("requestAnalysis"))}
       <a class="btn" href="${esc(i.ir_page)}" target="_blank" rel="noopener">${t("issuerReports")}</a></div>`;
     if (i.new_filings.length) h += `<div class="note" id="sec-new"><b>${t("newReport")}:</b><ul class="b">${i.new_filings.map(f => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title)}</a> <span class="muted">(${esc(f.first_seen)})</span></li>`).join("")}</ul></div>`;
     if (X.verdict) h += `<div class="verdict v-${i.verdict || "ok"}">${X.verdict}</div>`;
@@ -501,7 +501,7 @@
     const all = D.securities.slice().sort((a, b) => (a.maturity_date || "9999").localeCompare(b.maturity_date || "9999"));
     const years = {};
     all.filter(x => x.held === "yes" && x.type === "bond" && x.status === "active" && x.maturity_date).forEach(x => { const y = x.maturity_date.slice(0, 4); years[y] = (years[y] || 0) + 1; });
-    let h = `<h1>${sx("title")}</h1><p class="sub">${sx("sub")}</p>
+    let h = `<h1>${sx("title")}</h1><p class="sub">${sx("sub")}</p>${jobHow("isin")}
       <div class="card addbox"><h3>${sx("add")}</h3><p class="muted">${sx("addHint")}</p>
         <div class="row addrow"><input id="newIsin" placeholder="LT0000115768, XS1646530565 …" autocomplete="off"><button class="btn primary" id="addBtn">+ ${sx("addBtn")}</button></div>
         <div id="addMsg" class="runst"></div></div>
@@ -587,7 +587,7 @@
   }
   function tools() {
     const all = [...new Set(D.issuers.flatMap(i => Object.keys(i.history)))];
-    const h = `<h1>${t("tools")}</h1><p class="sub">${t("toolsSub")}</p><h2>${t("cmpTitle")}</h2>
+    const h = `<h1>${t("tools")}</h1><p class="sub">${t("toolsSub")}</p>${jobsHub()}<h2>${t("cmpTitle")}</h2>
       <div class="filters"><select id="cm">${all.map(m => `<option value="${m}">${esc(M(m))}</option>`).join("")}</select></div><div id="ct"></div>`;
     setTimeout(() => {
       const cm = document.getElementById("cm"), ct = document.getElementById("ct");
@@ -654,7 +654,7 @@
   function emailPage() {
     setTimeout(initEmail);
     let sp = ""; try { sp = localStorage.getItem("sharepoint") || ""; } catch (x) { /* ignore */ }
-    return `<h1>${mx("title")}</h1><p class="sub">${mx("sub")}</p>
+    return `<h1>${mx("title")}</h1><p class="sub">${mx("sub")}</p>${jobHow("email")}
       <div class="card mailbar"><div class="row"><span class="muted">${mx("lang")}:</span> <span class="seg" id="elang">${["en", "lt"].map(l => `<button class="btn sm ${l === ELANG ? "on" : ""}" data-l="${l}">${l.toUpperCase()}</button>`).join("")}</span></div>
         <label class="fl">${mx("sp")} <input id="spUrl" type="url" value="${esc(sp)}" placeholder="https://…sharepoint…"></label><p class="muted small">${mx("spHint")}</p></div>
       <div class="card mail"><label class="fl">${mx("subj")} <input id="mSubj" value="${esc(D.email[ELANG]?.subject || "")}"></label>
@@ -722,9 +722,9 @@
     const g = GD();
     if (arg) return esgIssuer(g, arg);
     setTimeout(initEsg);
-    return `<h1>${gx("title")}</h1><p class="sub">${gx("sub")}</p>
+    return `<h1>${gx("title")}</h1><p class="sub">${gx("sub")}</p><div class="hows">${jobHow("esg")}${jobHow("engage")}</div>
       <div class="filters"><input id="gQ" placeholder="${gx("search")}" value="${esc(GF.q)}"><label class="chk"><input type="checkbox" id="gEng" ${GF.eng ? "checked" : ""}> ${gx("onlyEng")}</label>
-        <a class="btn" href="files/esg_engagement_${LANG === "lt" ? "lt" : "en"}.xlsx" download>⬇ ${gx("xls")}</a></div>
+        <a class="btn code" href="files/esg_engagement_${LANG === "lt" ? "lt" : "en"}.xlsx" download>⬇ ${gx("xls")}</a></div>
       <div id="gT"></div><p class="muted small">${gx("legend")}</p>`;
   }
   function initEsg() {
@@ -776,7 +776,8 @@
         ${e.issues.length ? `<h4>${gx("gaps")}</h4><ul class="gaps">${e.issues.map(i => `<li><b>${i.what}</b><div class="small"><span class="muted">${gx("gWhy")}:</span> ${i.why}</div><div class="small"><span class="muted">${gx("gFix")}:</span> ${i.fix}</div></li>`).join("")}</ul>` : `<p><b>${gx("why")}:</b> ${e.reason}</p>`}
         ${e.questions.length ? `<h4>${gx("questions")}</h4><ol>${e.questions.map((q, i) => `<li>${esc(q.q)}${e.hints[i] ? `<div class="hint small">💡 <b>${gx("hint")}:</b> ${e.hints[i]}</div>` : ""}</li>`).join("")}</ol>
         <details class="facts"><summary>${gx("preview")}</summary><pre class="mailpre">${esc(esgEmail(r).subject)}\n\n${esc(esgEmail(r).body)}</pre></details>
-        <div class="row"><button class="btn primary" id="gDl">${gx("dl")}</button><button class="btn" id="gCp">${gx("copy")}</button><span id="gMsg" class="runst ok"></span></div><p class="muted small">${gx("emailHint")}</p>` : ""}
+        <div class="row"><button class="btn primary code" id="gDl">${gx("dl")}</button><button class="btn" id="gCp">${gx("copy")}</button><span id="gMsg" class="runst ok"></span></div><p class="muted small">${gx("emailHint")}</p>` : ""}
+        ${jobHow("engage", { name: r.name })}
         ${e.policies.length ? `<p class="muted small">${gx("policies")}: ${e.policies.map(esc).join("; ")}</p>` : ""}</div>` : ""}
       <h2>${gx("framework")}</h2><div class="grid">${ev.map(y => `<div class="card"><h3>${y} ${gchip("trend", TRC, r.years[y].trend)}</h3><p>${r.years[y].framework}</p><p class="small">${r.years[y].summary}</p></div>`).join("")}</div>
       ${r.targets.length ? `<h2>${gx("targets")}</h2><div class="tbl-wrap"><table><tr><th>${gx("target")}</th>${ys.map(y => `<th>${y}</th>`).join("")}<th>${t("status")}</th></tr>
@@ -790,6 +791,151 @@
       <p><a class="btn sm" href="${gh("edit/main/" + r.yaml)}" target="_blank" rel="noopener">${gx("edit")}</a> <span class="muted small">${t("lastAnalysis")}: ${esc(r.analysis_date)}</span></p>`;
   }
 
+  /* ---------- darbo įrankis: AI / kodo spalvos, išskleidžiamos instrukcijos, prompt kopijavimas, paieška ---------- */
+  const WX = {
+    en: { ai: "🤖 AI · Claude", code: "⚙ Automatic, no AI", you: "✋ You", legend: "Colours:", when: "When", copyP: "📋 Copy prompt for Claude", copied: "Copied – paste it into the Claude project chat (Ctrl+V).", fail: "Copy failed – select the text and press Ctrl+C.",
+      jobs: "Jobs and instructions", jobsSub: "Every job you do with this tool, step by step. Purple – a message to Claude (AI); teal – the code does it by itself, free; grey – you do it yourself. Copy a prompt, paste it into the Claude project chat and fill in the [brackets].",
+      qs: "Search: ESG, DD, missing reports…", noRes: "Nothing found. Try: ESG, Engagement, DD, missing, monitor, ISIN, email.", tryW: "Try:", open: "Open" },
+    lt: { ai: "🤖 AI · Claude", code: "⚙ Automatiškai, be AI", you: "✋ Jūs patys", legend: "Spalvos:", when: "Kada", copyP: "📋 Kopijuoti užklausą Claude", copied: "Nukopijuota – įklijuokite Claude projekto pokalbyje (Ctrl+V).", fail: "Nepavyko nukopijuoti – pažymėkite tekstą ir spauskite Ctrl+C.",
+      jobs: "Darbai ir instrukcijos", jobsSub: "Visi darbai su šiuo įrankiu žingsnis po žingsnio. Violetinė – žinutė Claude (AI); žalsvai mėlyna – kodas atlieka pats, nemokamai; pilka – darote patys. Nukopijuokite užklausą, įklijuokite Claude projekto pokalbyje ir užpildykite [skliaustus].",
+      qs: "Paieška: ESG, DD, trūksta ataskaitų…", noRes: "Nieko nerasta. Bandykite: ESG, Engagement, DD, trūksta, stebėti, ISIN, laiškas.", tryW: "Bandykite:", open: "Atidaryti" }
+  };
+  const wx = k => (WX[LANG] || WX.en)[k];
+  const L = x => x && (x[LANG] || x.en);
+  const kindTag = k => k ? `<span class="kind ${k}">${wx(k)}</span>` : "";
+  const kindLegend = () => `<p class="kinds small"><span class="muted">${wx("legend")}</span> ${kindTag("ai")} ${kindTag("code")} ${kindTag("you")}</p>`;
+  const promptBtn = (text, label) => `<button type="button" class="btn ai sm" data-prompt="${esc(text)}">${label || wx("copyP")}</button>`;
+  const nextFY = () => { const y = GD().years; return "FY" + ((+String(y[y.length - 1] || "FY2025").slice(2)) + 1); };
+  // Standartiniai darbai. Žingsnio pradžia "ai:" / "code:" / "you:" – spalvotas taškas.
+  const JOBS = [
+    { id: "review", kind: "ai", kw: "atnaujinti apžvalgas analizė ketvirtis naujos ataskaitos generuoti update reviews quarterly analyse",
+      t: { lt: "Atnaujinti apžvalgas po naujų ataskaitų", en: "Update the reviews after new reports" },
+      when: { lt: "kartą per ketvirtį arba kai kortelė „Naujos ataskaitos“ rodo, kad metas generuoti.", en: "once a quarter, or when the “New reports” card says it is a good time." },
+      steps: { lt: ["you: <a href=\"#securities\">Vertybiniai popieriai</a> – atnaujinkite ISIN sąrašą.", "code: <a href=\"#overview\">Apžvalga</a> – „Ieškoti naujų ataskaitų ir naujienų dabar“ (3–5 min.).", "code: Kortelėje <a href=\"#overview/x/ready\">Naujos ataskaitos</a> patikrinkite, ar dauguma emitentų jau paskelbė.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte. Nortal ataskaitą prisekite kartu.", "code: Kai Claude atsakys – Word / PDF kortelėse, laiškas kolegoms <a href=\"#email\">Laiškas</a> puslapyje."],
+        en: ["you: <a href=\"#securities\">Securities</a> – update the ISIN list.", "code: <a href=\"#overview\">Overview</a> – “Search for new reports and news now” (3–5 min).", "code: In the <a href=\"#overview/x/ready\">New reports</a> card check that most issuers have published.", "ai: Copy the prompt and paste it into the Claude project. Attach the Nortal report.", "code: When Claude replies – Word / PDF on the cards, email to colleagues on the <a href=\"#email\">Email</a> page."] },
+      prompt: { lt: () => "Išanalizuok visas naujas ataskaitas.", en: () => "Analyse all new reports." } },
+    { id: "one", kind: "ai", kw: "vienas emitentas analizė atnaujinti apžvalgą one issuer analysis",
+      t: { lt: "Atnaujinti vieno emitento apžvalgą", en: "Update one issuer's review" },
+      when: { lt: "emitentas paskelbė ataskaitą, o kitų laukti nenorite.", en: "an issuer has published and you do not want to wait for the rest." },
+      steps: { lt: ["you: Atidarykite emitento puslapį (paieška viršuje).", "ai: Spauskite „Kopijuoti užklausą Claude“ ir įklijuokite Claude projekte."], en: ["you: Open the issuer page (search at the top).", "ai: Press “Copy prompt for Claude” and paste it into the Claude project."] },
+      prompt: { lt: f => `Atnaujink ${f.name || "[emitentas]"} apžvalgą pagal naujausią ataskaitą.`, en: f => `Update the ${f.name || "[issuer]"} review using the latest report.` } },
+    { id: "isin", kind: "you", kw: "isin sąrašas pridėti pašalinti pirkau pardaviau vertybiniai popieriai list add remove bought sold",
+      t: { lt: "Atnaujinti ISIN sąrašą", en: "Update the ISIN list" },
+      when: { lt: "nupirkus ar pardavus VP.", en: "after buying or selling a security." },
+      steps: { lt: ["you: <a href=\"#securities\">Vertybiniai popieriai</a> → „Pridėti“ naujus ISIN, „Pašalinti“ parduotus (arba apačioje pakeiskite visą sąrašą).", "code: Sąrašas išsaugomas iškart; nauji emitentai ir išpirktos obligacijos pažymimi kitą rytą arba po paieškos.", "ai: Naujam emitentui reikės analizės – žr. „Atnaujinti apžvalgas“."], en: ["you: <a href=\"#securities\">Securities</a> → “Add” new ISINs, “Remove” sold ones (or replace the whole list at the bottom).", "code: The list is saved at once; new issuers and matured bonds are flagged next morning or after a search.", "ai: A new issuer needs an analysis – see “Update the reviews”."] } },
+    { id: "search", kind: "code", kw: "paieška naujos ataskaitos naujienos sankcijos workflow mygtukas search new reports news sanctions",
+      t: { lt: "Ieškoti naujų ataskaitų ir naujienų", en: "Search for new reports and news" },
+      when: { lt: "vyksta automatiškai kiekvieną pirmadienį; rankiniu būdu – prieš analizę.", en: "runs every Monday by itself; by hand before an analysis." },
+      steps: { lt: ["code: <a href=\"#overview\">Apžvalga</a> → „Ieškoti naujų ataskaitų ir naujienų dabar“ → GitHub „Run workflow“ → žalias „Run workflow“.", "code: Grįžkite į puslapį – būsenos eilutė rodo eigą; puslapis atsinaujins pats."], en: ["code: <a href=\"#overview\">Overview</a> → “Search for new reports and news now” → GitHub “Run workflow” → green “Run workflow”.", "code: Come back to the page – the status line shows progress; the page reloads by itself."] } },
+    { id: "esg", kind: "ai", kw: "esg engagement metinė tvarumo ataskaita metai atnaujinti annual sustainability update",
+      t: { lt: "Metinis ESG Engagement atnaujinimas", en: "Annual ESG Engagement update" },
+      when: { lt: "kartą per metus, kai emitentai paskelbia metines / tvarumo ataskaitas (paprastai balandį–gegužę).", en: "once a year, after issuers publish annual / sustainability reports (usually April–May)." },
+      steps: { lt: ["ai: Nukopijuokite užklausą ir įklijuokite Claude projekte. Claude suras ataskaitas, nemokamai jas parsisiųs ir įvertins naujus metus; ankstesni metai lieka.", "code: ESG lentelė ir Excel atsinaujina patys.", "you: <a href=\"#esg\">ESG</a> → pažymėkite „Tik kur reikia engagement ar stebėti“ ir peržiūrėkite vertinimus."], en: ["ai: Copy the prompt and paste it into the Claude project. Claude finds the reports, downloads them for free and assesses the new year; earlier years stay.", "code: The ESG table and Excel update by themselves.", "you: <a href=\"#esg\">ESG</a> → tick “Engagement needed or monitor only” and review the assessments."] },
+      prompt: { lt: () => `Atnaujink ESG Engagement apžvalgą už ${nextFY()} visiems emitentams: rask naujas metines / tvarumo ataskaitas ir įvertink pažangą pagal pačių emitentų tikslus ir ankstesnius metus.`, en: () => `Update the ESG Engagement review for ${nextFY()} for all issuers: find the new annual / sustainability reports and assess progress against each issuer's own targets and previous years.` } },
+    { id: "engage", kind: "you", kw: "engagement laiškas emitentui atsakymas eml outlook esg letter reply",
+      t: { lt: "ESG laiškas emitentui ir jo atsakymas", en: "ESG letter to an issuer and its reply" },
+      when: { lt: "ESG puslapyje emitentas pažymėtas „Reikia engagement“.", en: "an issuer is marked “Engagement needed” on the ESG page." },
+      steps: { lt: ["you: Emitento ESG puslapyje perskaitykite „Kas negerai“ ir 💡 užuominas.", "code: „Atsisiųsti laišką emitentui (.eml)“ – atsidaro Outlook juodraštis anglų kalba.", "you: Įrašykite gavėją (IR kontaktą) ir parašą, išsiųskite.", "ai: Gavę atsakymą – nukopijuokite užklausą, įklijuokite Claude projekte ir po ja įklijuokite atsakymo tekstą."], en: ["you: On the issuer's ESG page read “What is wrong” and the 💡 hints.", "code: “Download email to issuer (.eml)” – opens an English Outlook draft.", "you: Add the recipient (IR contact) and your signature, send.", "ai: When the reply arrives – copy the prompt, paste it into the Claude project and paste the reply text below it."] },
+      prompt: { lt: f => `Emitentas ${f.name || "[emitentas]"} atsakė į ESG laišką. Įvertink atsakymą, atnaujink ESG vertinimą ir engagement būseną.\n\nAtsakymas:\n[įklijuokite atsakymo tekstą]`, en: f => `${f.name || "[issuer]"} replied to our ESG letter. Assess the reply and update the ESG assessment and engagement status.\n\nReply:\n[paste the reply text]` } },
+    { id: "dd", kind: "ai", kw: "dd due diligence naujas instrumentas nauja emisija pirkimas term sheet sfdr new instrument issue",
+      t: { lt: "Naujas Due Diligence (naujas instrumentas)", en: "New Due Diligence (new instrument)" },
+      when: { lt: "prieš perkant naują obligaciją ar akciją (esamo ar naujo emitento).", en: "before buying a new bond or share (existing or new issuer)." },
+      steps: { lt: ["you: Surinkite tekstą: term sheet, brokerio laišką, IPT, palyginamuosius (galima tik kopijuoti–įklijuoti).", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte ir užpildykite [skliaustus].", "ai: Claude parašys DD anglų kalba (Word) projekto failuose – ne viešoje svetainėje.", "you: Peržiūrėkite, papildykite sankcijų / žiniasklaidos ekrano kopijomis ir įkelkite į komandos failus."], en: ["you: Collect the text: term sheet, broker email, IPT, comparables (copy-paste is enough).", "ai: Copy the prompt, paste it into the Claude project and fill in the [brackets].", "ai: Claude writes the DD in English (Word) in the project files – not on the public site.", "you: Review it, add the sanctions / media screenshots and file it with the team files."] },
+      prompt: { lt: f => `Atlik Due Diligence naujam instrumentui (Word, anglų kalba).\nISIN: ${f.isin || "[ISIN]"}\nEmitentas: ${f.name || "[emitentas]"}\nInformacija (term sheet, brokerio laiškas, IPT, palyginamieji):\n[įklijuokite tekstą]`, en: f => `Do a Due Diligence for a new instrument (Word, English).\nISIN: ${f.isin || "[ISIN]"}\nIssuer: ${f.name || "[issuer]"}\nInformation (term sheet, broker email, IPT, comparables):\n[paste the text]` } },
+    { id: "manual", kind: "you", kw: "nortal slaptažodis portalas įkelti ataskaitą password portal upload",
+      t: { lt: "Slaptažodžiu apsaugotos ataskaitos (Nortal)", en: "Password-protected reports (Nortal)" },
+      when: { lt: "Nortal paskelbė naują ataskaitą investuotojų portale.", en: "Nortal has published a new report in its investor portal." },
+      steps: { lt: ["you: Atsisiųskite ataskaitą iš portalo.", "ai: Claude projekte prisekite failą ir įklijuokite užklausą."], en: ["you: Download the report from the portal.", "ai: In the Claude project attach the file and paste the prompt."] },
+      prompt: { lt: () => "Įkeliu Nortal [laikotarpis] ataskaitą – atnaujink apžvalgą ir ESG.", en: () => "Attached is the Nortal [period] report – update the review and ESG." } },
+    { id: "email", kind: "code", kw: "laiškas kolegoms outlook sharepoint email colleagues",
+      t: { lt: "Laiškas kolegoms", en: "Email to colleagues" },
+      when: { lt: "po apžvalgų atnaujinimo.", en: "after the reviews are updated." },
+      steps: { lt: ["code: <a href=\"#email\">Laiškas</a> – juodraštis paruoštas automatiškai iš verdiktų (be AI).", "you: Vieną kartą įklijuokite SharePoint nuorodą (saugoma tik naršyklėje), pataisykite tekstą.", "you: „Kopijuoti laišką“ → Outlook (Ctrl+V)."], en: ["code: <a href=\"#email\">Email</a> – the draft is generated from the verdicts (no AI).", "you: Paste the SharePoint link once (stored in this browser only), edit the text.", "you: “Copy email” → Outlook (Ctrl+V)."] } },
+    { id: "checks", kind: "you", kw: "sankcijos žiniasklaida patikra neigiamos naujienos sanctions adverse media checks",
+      t: { lt: "Sankcijų ir žiniasklaidos patikros", en: "Sanctions and adverse media checks" },
+      when: { lt: "prieš tvirtinant apžvalgą.", en: "before signing off a review." },
+      steps: { lt: ["code: Įrankis randa sutapimus ir antraštes (<a href=\"#news\">Naujienos</a>, „peržiūrėti“).", "you: Patikrinkite nuorodas ir sprendimą įrašykite: emitento puslapyje „✎ Taisyti ataskaitą“."], en: ["code: The tool finds matches and headlines (<a href=\"#news\">News</a>, “review”).", "you: Check the links and record your decision: issuer page “✎ Edit report”."] } }
+  ];
+  function jobHow(id, fill = {}, opts = {}) {
+    const j = JOBS.find(x => x.id === id); if (!j) return "";
+    const steps = L(j.steps).map(s => { const m = s.match(/^(ai|code|you):\s*/); return `<li>${m ? `<span class="kd ${m[1]}" title="${esc(wx(m[1]))}"></span>${s.slice(m[0].length)}` : s}</li>`; }).join("");
+    const p = j.prompt ? L(j.prompt)(fill) : "";
+    return `<details class="howto k-${j.kind}"${opts.anchor ? ` id="job-${j.id}"` : ""}${opts.open ? " open" : ""}><summary>${opts.anchor ? "" : "ℹ "}<b>${L(j.t)}</b> ${kindTag(j.kind)}</summary>
+      <p class="small"><b>${wx("when")}:</b> ${L(j.when)}</p><ol class="hsteps">${steps}</ol>
+      ${p ? `<div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div>` : ""}</details>`;
+  }
+  function jobsHub() { return `<h2>${wx("jobs")}</h2><p class="sub">${wx("jobsSub")}</p>${kindLegend()}<div class="jobs">${JOBS.map(j => jobHow(j.id, {}, { anchor: true })).join("")}</div>`; }
+  function toast(msg, cls) {
+    let el = document.getElementById("toast"); if (!el) { el = document.createElement("div"); el.id = "toast"; document.body.appendChild(el); }
+    el.className = "toast " + (cls || ""); el.textContent = msg; el.hidden = false; clearTimeout(el._t); el._t = setTimeout(() => { el.hidden = true; }, 3500);
+  }
+  document.addEventListener("click", async e => {
+    const b = e.target.closest("[data-prompt]"); if (!b) return;
+    const text = b.dataset.prompt;
+    try { await navigator.clipboard.writeText(text); toast(wx("copied"), "ok"); }
+    catch (x) { const ta = document.createElement("textarea"); ta.value = text; document.body.appendChild(ta); ta.select(); const ok = document.execCommand("copy"); ta.remove(); toast(wx(ok ? "copied" : "fail"), ok ? "ok" : "bad"); }
+  });
+
+  /* Paieška viršuje: puslapiai, darbai, emitentai, ISIN ir dinaminiai sąrašai (trūkstamos ataskaitos, stebėti, engagement) */
+  const nz = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  function qIndex() {
+    const lt = LANG === "lt", R = D.readiness || { rows: [] }, g = GD();
+    const S = (title, kw, href, kind, items, sub) => ({ title, kw, href, kind, items: items || [], sub: sub || "" });
+    const missing = R.rows.filter(r => r.status !== "done");
+    const watch = D.issuers.filter(i => ["watch", "action"].includes(i.verdict));
+    const eng = g.rows.filter(r => r.engagement.level !== "none").sort((a, b) => (b.engagement.level === "engage") - (a.engagement.level === "engage"));
+    const newRep = D.issuers.filter(i => i.new_filings.length);
+    const out = [
+      S(lt ? "Kokių ataskaitų dar trūksta iki generavimo" : "Which reports are still missing before generating", "trūksta trukstamos laukiama ataskaitos generuoti metas ready missing waiting reports", "#overview/x/ready", "code",
+        missing.map(r => ({ label: `${r.name} – ${RX(r.status)}${r.expected && r.status !== "published" ? ` (~${r.expected})` : ""}`, href: `#issuer/${r.id}` })), `${missing.length} / ${R.rows.length}`),
+      S(lt ? "Stebėjimo reikalaujantys emitentai" : "Issuers that need monitoring", "stebeti stebejimas demesio rizika verdiktas watch action monitor attention", "#overview", "you",
+        watch.map(i => ({ label: `${i.name} – ${c2(i.verdict === "action" ? "vAction" : "vWatch")}`, href: `#issuer/${i.id}` })), String(watch.length)),
+      S(lt ? "ESG Engagement – kam reikia laiško ar stebėti" : "ESG Engagement – letters needed or monitor", "esg engagement laiskas emitentui spragos tvarumas letter gaps sustainability", "#esg", "you",
+        eng.map(r => ({ label: `${r.name} – ${(g.labels.engage || {})[r.engagement.level] || r.engagement.level}`, href: `#esg/${r.id}` })), String(eng.length)),
+      S(lt ? "Nauja ataskaita – laukia analizės" : "New report – analysis needed", "nauja ataskaita analize new report filings", "#overview", "ai",
+        newRep.map(i => ({ label: i.name, href: `#issuer/${i.id}/sec-new` })), String(newRep.length)),
+      S(lt ? "ESG apžvalga (lentelė)" : "ESG overview (table)", "esg tvarumas sustainability lentele table", "#esg", "code"),
+      S(lt ? "ESG Excel (visi metai)" : "ESG Excel (all years)", "esg excel xlsx atsisiusti download", `files/esg_engagement_${lt ? "lt" : "en"}.xlsx`, "code"),
+      S(lt ? "Naujienos peržiūrai" : "News to review", "naujienos ziniasklaida spauda news media review", "#news", "code"),
+      S(lt ? "Žaliosios obligacijos" : "Green bonds", "zaliosios green bonds eugb", "#securities/green", "code"),
+      S(lt ? "Turimi VP be analizės" : "Held securities without analysis", "be analizes nauji emitentai without analysis new issuers", "#securities/noan", "ai"),
+      S(lt ? "Rodiklių palyginimas" : "Metric comparison", "palyginimas rodikliai comparison metrics tools", "#tools", "code")
+    ];
+    JOBS.forEach(j => out.push(S(L(j.t), j.kw, `#tools/x/job-${j.id}`, j.kind, [], lt ? "instrukcija" : "how-to")));
+    D.issuers.forEach(i => out.push(S(i.name, `${i.legal_name} ${i.country} ${i.sector} ${i.id}`, `#issuer/${i.id}`, "", [], `${i.country} · ${lt ? "apžvalga" : "review"}`)));
+    g.rows.forEach(r => out.push(S(`${r.name} · ESG`, `esg ${r.id}`, `#esg/${r.id}`, "", [], (g.labels.engage || {})[r.engagement.level] || "")));
+    D.securities.filter(s => s.held === "yes" && s.issuer).forEach(s => out.push(S(s.isin, `${s.name || ""} ${s.issuer}`, `#issuer/${s.issuer}`, "", [], `${(byId[s.issuer] || {}).name || s.issuer} · ${s.name || ""}`)));
+    return out;
+  }
+  const QSUGG = { lt: ["ESG", "Engagement", "DD", "trūksta", "stebėti", "ISIN", "laiškas"], en: ["ESG", "Engagement", "DD", "missing", "monitor", "ISIN", "email"] };
+  function qsRender(q) {
+    const box = document.getElementById("qsr");
+    const words = nz(q).split(/\s+/).filter(Boolean);
+    if (!words.length) { box.innerHTML = `<div class="qsh muted small">${wx("tryW")} ${(QSUGG[LANG] || QSUGG.en).map(s => `<button type="button" class="chip" data-q="${esc(s)}">${esc(s)}</button>`).join(" ")}</div>${kindLegend()}`; box.hidden = false; return; }
+    const hits = qIndex().map(x => { const tt = nz(x.title), all = tt + " " + nz(x.kw) + " " + nz(x.sub);
+      if (!words.every(w => all.includes(w))) return null;
+      const tok = new Set(all.split(/[^a-z0-9]+/));
+      return { x, s: words.filter(w => tok.has(w)).length * 3 + (tt.startsWith(words[0]) ? 3 : 0) + (words.every(w => tt.includes(w)) ? 2 : 0) + (x.items.length ? 1 : 0) + (x.kind ? 1 : 0) }; })
+      .filter(Boolean).sort((a, b) => b.s - a.s).slice(0, 10).map(h => h.x);
+    box.innerHTML = hits.length ? hits.map(x => `<div class="qi"><a href="${esc(x.href)}"${x.href.startsWith("files/") ? " download" : ""}>${x.kind ? `<span class="kd ${x.kind}"></span>` : ""}<b>${esc(x.title)}</b>${x.sub ? ` <span class="muted small">${esc(x.sub)}</span>` : ""}</a>
+      ${x.items.length ? `<div class="qsub">${x.items.slice(0, 8).map(it => `<a href="${esc(it.href)}">${esc(it.label)}</a>`).join("")}${x.items.length > 8 ? `<a href="${esc(x.href)}" class="muted">+${x.items.length - 8} →</a>` : ""}</div>` : ""}</div>`).join("") + kindLegend()
+      : `<p class="muted small qsh">${wx("noRes")}</p>`;
+    box.hidden = false;
+  }
+  function initSearch() {
+    const inp = document.getElementById("qs"), box = document.getElementById("qsr"); if (!inp) return;
+    inp.addEventListener("input", () => qsRender(inp.value));
+    inp.addEventListener("focus", () => qsRender(inp.value));
+    inp.addEventListener("keydown", e => {
+      if (e.key === "Escape") { box.hidden = true; inp.blur(); }
+      if (e.key === "Enter") { const a = box.querySelector(".qi a"); if (a) { if (a.hasAttribute("download")) a.click(); else location.hash = a.getAttribute("href"); box.hidden = true; inp.blur(); } }
+    });
+    box.addEventListener("mousedown", e => { const c = e.target.closest("[data-q]"); if (c) { e.preventDefault(); inp.value = c.dataset.q; qsRender(inp.value); } });
+    box.addEventListener("click", e => { if (e.target.closest("a")) { box.hidden = true; inp.value = ""; } });
+    document.addEventListener("click", e => { if (!e.target.closest(".qs")) box.hidden = true; });
+    addEventListener("keydown", e => { if (e.key === "/" && !/INPUT|TEXTAREA/.test(document.activeElement.tagName) && !document.activeElement.isContentEditable) { e.preventDefault(); inp.focus(); } });
+  }
+
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
     const map = { overview, email: emailPage, esg: () => esgPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
@@ -799,10 +945,12 @@
     document.documentElement.lang = LANG;
     $app.innerHTML = (map[page] || overview)();
     if (!map[page] || page === "overview") watchRuns();
-    if (sec) setTimeout(() => { const el = document.getElementById(sec); if (el) { el.scrollIntoView({ behavior: "smooth", block: "start" }); el.classList.add("flash"); } }, 60);
+    const qs = document.getElementById("qs"); if (qs) qs.placeholder = wx("qs");
+    if (sec) setTimeout(() => { const el = document.getElementById(sec); if (el) { if (el.tagName === "DETAILS") el.open = true; el.scrollIntoView({ behavior: "smooth", block: "start" }); el.classList.add("flash"); } }, 60);
     document.getElementById("foot").textContent = `${t("generated")} ${D.generated}.`;
   }
   document.querySelectorAll("#langs button").forEach(b => b.onclick = () => { LANG = b.dataset.l; try { localStorage.setItem("lang", LANG); } catch (e) { /* ignore */ } route(); });
   addEventListener("hashchange", () => { scrollTo(0, 0); route(); });
+  initSearch();
   route();
 })();
