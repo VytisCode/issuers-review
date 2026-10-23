@@ -328,3 +328,15 @@ details.howto[open] summary { margin-bottom: 4px; }
 @media (max-width: 760px) { .todo { grid-template-columns: auto 1fr; } .todo .ta { grid-column: 2; } }
 .nextc, .soon { margin: 0 0 12px; } .nextc p { margin: 4px 0 8px; }
 @media (max-width: 760px) { .navdd { left: auto; right: 0; } }
+/* --- ESG paprasta kalba --- */
+.brief { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 12px 0; }
+.brief > div { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; }
+.brief h3 { margin: 0 0 4px; font-size: 15px; } .brief h3.good { color: var(--good); } .brief h3.warn { color: var(--warn); }
+ul.bl { margin: 4px 0; padding-left: 20px; } ul.bl li { margin: 3px 0; }
+ul.bl.good li::marker { content: "✓  "; color: var(--good); } ul.bl.bad li::marker { content: "!  "; color: var(--warn); font-weight: 700; }
+.esgt td.ys ul.bl { font-size: 13.5px; }
+.verdict.means { font-size: 15px; }
+@media (max-width: 760px) { .brief { grid-template-columns: 1fr; } }
+.esgt th:nth-child(2) { width: 55%; }
+.sebbox { margin: 0 0 12px; } .sebbox h3 { margin: 0 0 4px; font-size: 15px; } .sebbox p { margin: 4px 0; }
+.sebl { margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--line); }
