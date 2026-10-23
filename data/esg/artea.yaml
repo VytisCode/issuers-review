@@ -1,0 +1,89 @@
+# ESG Engagement: Artea bankas (buv. Šiaulių bankas). E1 - lietuviška metinė ataskaita. E2 - ESEF (XHTML be puslapių), todėl FY2024 rodikliai - iš E1 palyginamųjų duomenų. Puslapiai - PDF puslapiai.
+issuer: artea
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "AB Artea bankas metinis pranešimas 2025 (LT)", url: "https://cdn.artea.lt/mainweb/uploads/media/69cbc6f608b68/annual-report-2025-lt-final.pdf", date: 2026-03}
+  E2: {title: "Šiaulių bankas / Artea Annual Report 2024 (ESEF)", url: "https://nasdaqbaltic.com/market/upload/reports/roe1/2024_ar_en_eur_con_ias_esef.zip", date: 2025-03}
+trend: mixed
+summary:
+  lt: "SBTi signataras nuo 2024 m. sausio: įsipareigojimas – grynasis nulis iki 2050 m., paskolų portfelio tikslai bus suderinti su SBTi iki 2027 m. vidurio [E1 p.109; E1 p.65]. 2025 m. valdyba patvirtino tikslą Scope 1+2 −35 % iki 2030 m. (bazė 2024 m.): 606 → 534 t [E1 p.62]. Tvarus finansavimas auga (žaliosios paskolos 49,6 → 85,1 mln. EUR) [E1 p.62]. Tačiau finansuojami išmetimai +30 %, AEI dalis energijoje 57 → 49 % [E1 p.115; E1 p.114]."
+  en: "SBTi signatory since January 2024: commitment to net zero by 2050, with loan portfolio targets to be aligned with SBTi by mid-2027 [E1 p.109; E1 p.65]. In 2025 the board approved a Scope 1+2 target of −35% by 2030 (2024 base): 606 → 534 t [E1 p.62]. Sustainable finance is growing (green loans EUR 49.6m → 85.1m) [E1 p.62]. However, financed emissions rose 30% and the renewable share of energy fell 57 → 49% [E1 p.115; E1 p.114]."
+years:
+  FY2025:
+    trend: mixed
+    framework:
+      lt: "Tvarumo informacija pagal ESRS vadovybės ataskaitoje; audito komitetas prižiūri tvarumo ataskaitos užtikrinimo procedūras [E1 p.17]. Užtikrinimo išvados šiame PDF nerasta."
+      en: "ESRS sustainability information in the management report; the audit committee oversees the sustainability assurance procedures [E1 p.17]. The assurance report itself was not found in this PDF."
+    assurance: limited
+    summary:
+      lt: "Scope 1 −20 %, bet Scope 2 (rinkos metodas) +13 % – dalis sąskaitų be faktinių duomenų, suvartojimas modeliuotas [E1 p.115; E1 p.114]. Finansuojami išmetimai 441 597 → 573 448 t (+30 %) [E1 p.115]. Žaliosios paskolos, renovacijos ir AEI projektai auga [E1 p.62]."
+      en: "Scope 1 −20%, but market-based Scope 2 +13% because some invoices lacked actual data and use was modelled [E1 p.115; E1 p.114]. Financed emissions 441,597 → 573,448 t (+30%) [E1 p.115]. Green loans, renovations and renewable projects are growing [E1 p.62]."
+    evidence:
+      - {p: E, lt: "2025 m. nustatyti ŠESD mažinimo tikslai pagal SBTi standartą [E1 p.114].", en: "GHG reduction targets set under the SBTi standard in 2025 [E1 p.114]."}
+      - {p: E, lt: "Renovacijų finansavimas 1 → 1,26 mlrd. EUR, AEI projektai 67,4 → 95,4 mln. EUR [E1 p.62].", en: "Renovation financing EUR 1bn → 1.26bn, renewable projects EUR 67.4m → 95.4m [E1 p.62]."}
+      - {p: E, lt: "Verslo kelionių išmetimai −27 %, darbuotojų kelionių į darbą −65 % [E1 p.115].", en: "Business travel emissions −27%, employee commuting −65% [E1 p.115]."}
+      - {p: S, lt: "Klientų rekomendavimo indeksas 85 % (tikslas – išlaikyti 2024 m. lygį) [E1 p.62].", en: "Customer recommendation index 85% (target: keep the 2024 level) [E1 p.62]."}
+      - {p: S, lt: "Registruotų nelaimingų atsitikimų darbe 0 [E1 p.126].", en: "Zero recordable work accidents [E1 p.126]."}
+      - {p: G, lt: "Pranešėjų kanalas pagal Pranešėjų apsaugos įstatymą, taip pat klientams ir partneriams [E1 p.131; E1 p.132].", en: "Whistleblowing channel under the Whistleblower Protection Law, also open to clients and partners [E1 p.131; E1 p.132]."}
+    concerns:
+      - {lt: "Finansuojami išmetimai +30 % (Banko +40 %) [E1 p.115].", en: "Financed emissions +30% (Bank +40%) [E1 p.115]."}
+      - {lt: "AEI dalis energijoje 57,2 → 48,8 % [E1 p.114].", en: "Renewable share of energy 57.2 → 48.8% [E1 p.114]."}
+      - {lt: "2024 m. ataskaitoje klaidingai nurodyta aukštos ASV rizikos paskolų suma: turėjo būti 770,4 mln. EUR, o ne 1 829,2 mln. EUR [E1 p.56].", en: "The 2024 report misstated high ESG-risk business loans: EUR 770.4m, not EUR 1,829.2m [E1 p.56]."}
+  FY2024:
+    trend: baseline
+    framework:
+      lt: "Pirmoji tvarumo ataskaita pagal ESRS su ribotu užtikrinimu (audito komitetas prižiūrėjo užtikrinimo procesą) [E2]. Rodikliai – iš 2025 m. ataskaitos palyginamųjų (perskaičiuoti) [E1 p.115]."
+      en: "First ESRS sustainability statement with limited assurance (the audit committee oversaw the assurance process) [E2]. Metrics are the restated comparatives in the 2025 report [E1 p.115]."
+    assurance: limited
+    summary:
+      lt: "Prisijungta prie SBTi (2024 m. sausis) [E1 p.109]. Scope 1+2 606 t – 2030 m. tikslo bazė [E1 p.62]. Žaliosios paskolos 49,6 mln. EUR [E1 p.62]."
+      en: "Joined SBTi (January 2024) [E1 p.109]. Scope 1+2 606 t, the base for the 2030 target [E1 p.62]. Green loans EUR 49.6m [E1 p.62]."
+    evidence:
+      - {p: E, lt: "AEI dalis energijoje 57,2 % [E1 p.114].", en: "Renewable share of energy 57.2% [E1 p.114]."}
+      - {p: S, lt: "Klientų rekomendavimo indeksas 85 % [E1 p.62].", en: "Customer recommendation index 85% [E1 p.62]."}
+    concerns: []
+targets:
+  - p: E
+    name: {lt: "Scope 1+2 −35 % iki 2030 m. (bazė 2024 m.)", en: "Scope 1+2 −35% by 2030 (2024 base)"}
+    FY2024: {lt: "bazė 606 t [E1 p.62]", en: "base 606 t [E1 p.62]"}
+    FY2025: {lt: "534 t (−12 %, apskaičiuota įrankio) [E1 p.62]", en: "534 t (−12%, calculated by the tool) [E1 p.62]"}
+    status: on_track
+  - p: E
+    name: {lt: "Grynasis nulis iki 2050 m.; paskolų portfelio tikslai suderinti su SBTi iki 2027 m. vidurio", en: "Net zero by 2050; loan portfolio targets aligned with SBTi by mid-2027"}
+    FY2024: {lt: "Prisijungta prie SBTi [E1 p.109]", en: "Joined SBTi [E1 p.109]"}
+    FY2025: {lt: "Rengiamas pertvarkos planas; finansuojami išmetimai +30 % [E1 p.65; E1 p.115]", en: "Transition plan in preparation; financed emissions +30% [E1 p.65; E1 p.115]"}
+    status: new
+  - p: E
+    name: {lt: "Didinti tvaraus finansavimo apimtis", en: "Grow sustainable finance volumes"}
+    FY2024: {lt: "Žaliosios paskolos 49,62 mln. EUR; AEI 67,4 mln. EUR [E1 p.62]", en: "Green loans EUR 49.62m; renewables EUR 67.4m [E1 p.62]"}
+    FY2025: {lt: "Žaliosios paskolos 85,1 mln. EUR; AEI 95,4 mln. EUR [E1 p.62]", en: "Green loans EUR 85.1m; renewables EUR 95.4m [E1 p.62]"}
+    status: on_track
+  - p: S
+    name: {lt: "Išlaikyti klientų rekomendavimo indeksą", en: "Keep the customer recommendation index"}
+    FY2024: {lt: "85 % [E1 p.62]", en: "85% [E1 p.62]"}
+    FY2025: {lt: "85 % [E1 p.62]", en: "85% [E1 p.62]"}
+    status: met
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai (grupė)", en: "Scope 1 emissions (Group)"}, unit: "t CO2e", better: down, FY2024: {v: 311.69, src: "E1 p.115", note: {lt: "perskaičiuota", en: "restated"}}, FY2025: {v: 248.76, src: "E1 p.115"}}
+  - {p: E, name: {lt: "Scope 2 išmetimai (rinkos metodas, grupė)", en: "Scope 2 emissions (market-based, Group)"}, unit: "t CO2e", better: down, FY2024: {v: 250.98, src: "E1 p.115"}, FY2025: {v: 284.78, src: "E1 p.115", note: {lt: "dalis suvartojimo modeliuota", en: "part of consumption modelled"}}}
+  - {p: E, name: {lt: "Finansuojami išmetimai (Scope 3 kat. 15)", en: "Financed emissions (Scope 3 cat. 15)"}, unit: "t CO2e", better: down, FY2024: {v: 441596.87, src: "E1 p.115", note: {lt: "perskaičiuota", en: "restated"}}, FY2025: {v: 573447.97, src: "E1 p.115"}}
+  - {p: E, name: {lt: "AEI dalis energijoje", en: "Renewable share of energy"}, unit: "%", better: up, FY2024: {v: 57.21, src: "E1 p.114"}, FY2025: {v: 48.78, src: "E1 p.114"}}
+  - {p: E, name: {lt: "Žaliųjų paskolų apimtis", en: "Green loan volume"}, unit: "mln. EUR", better: up, FY2024: {v: 49.62, src: "E1 p.62"}, FY2025: {v: 85.1, src: "E1 p.62"}}
+engagement:
+  level: watch
+  severity: minor
+  verdict:
+    lt: "Bankas juda tinkama kryptimi: SBTi įsipareigojimas, savas veiklos tikslas vykdomas, tvarus finansavimas auga [E1 p.62; E1 p.109]. Finansuojamų išmetimų tikslai dar rengiami (iki 2027 m. vidurio), todėl kreiptis anksti."
+    en: "The bank is moving in the right direction: SBTi commitment, its own operations target on track, sustainable finance growing [E1 p.62; E1 p.109]. Financed-emission targets are still being prepared (by mid-2027), so it is too early to write."
+  issues:
+    - what: {lt: "Finansuojami išmetimai išaugo 30 %, o jų mažinimo tikslų dar nėra.", en: "Financed emissions rose 30%, and there are no reduction targets for them yet."}
+      why: {lt: "Tai didžioji banko klimato poveikio dalis [E1 p.115; E1 p.65].", en: "This is most of the bank's climate impact [E1 p.115; E1 p.65]."}
+      fix: {lt: "Patikrinti 2026–2027 m. ataskaitose, ar paskelbti SBTi suderinti portfelio tikslai.", en: "Check the 2026–2027 reports for SBTi-aligned portfolio targets."}
+    - what: {lt: "2024 m. ataskaitoje buvo klaida (aukštos ASV rizikos paskolos).", en: "The 2024 report contained an error (high ESG-risk loans)."}
+      why: {lt: "Bankas pats ją ištaisė, bet tai rodo duomenų kokybės spragas [E1 p.56].", en: "The bank corrected it itself, but it points to data quality gaps [E1 p.56]."}
+      fix: {lt: "Kitais metais patikrinti, ar nėra naujų taisymų.", en: "Check next year for further corrections."}
+  policies: [investments, financial_general, climate_nature]
+  reason:
+    lt: "Gera kryptis, bet finansuojamų išmetimų tikslai dar rengiami, o patys išmetimai +30 % [E1 p.65; E1 p.115]."
+    en: "Good direction, but financed-emission targets are still being prepared and the emissions rose 30% [E1 p.65; E1 p.115]."
+  questions: []

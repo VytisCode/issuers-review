@@ -88,11 +88,20 @@ def garbled(text):
     return len(chars) > 2000 and sum(c.isalpha() for c in chars) / len(chars) < 0.55
 
 
-def ocr_pages(pdf, lang="eng"):
-    """Neįskaitomo PDF puslapiai per OCR (tesseract, nemokamas). Lėta (~2-4 s puslapiui), todėl tik kai tekstas neįskaitomas."""
+def blank_pages(pages):
+    """Puslapiai be teksto sluoksnio (paveikslėliai, pvz. Inbank vadovybės ataskaita): mažiau nei 8 žodžiai."""
+    return [n for n, p in enumerate(pages, 1) if len(p.split()) < 8]
+
+
+def ocr_pages(pdf, lang="eng", only=None):
+    """Neįskaitomo PDF puslapiai per OCR (tesseract, nemokamas). Lėta (~2-4 s puslapiui), todėl tik kai tekstas neįskaitomas.
+    only - tik šie puslapių numeriai (kiti grąžinami tušti)."""
     n = int(re.search(r"Pages:\s+(\d+)", subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout).group(1))
     out = []
     for i in range(1, n + 1):
+        if only is not None and i not in only:
+            out.append("")
+            continue
         png = subprocess.run(["pdftoppm", "-r", "200", "-f", str(i), "-l", str(i), "-gray", "-png", str(pdf)], capture_output=True).stdout
         out.append(subprocess.run(["tesseract", "-", "-", "-l", lang, "--psm", "4"], input=png, capture_output=True).stdout.decode("utf-8", "ignore"))
     return out
@@ -135,7 +144,10 @@ def main(out_dir):
                 txt_ok = (out / "text" / f"{name}.txt").exists() and (out / "text" / f"{name}.txt").stat().st_size > 2000
                 esef_ok = manifest.get(name, {}).get("format") == "esef" and manifest[name].get("url") == cands[0] and txt_ok
                 bad_txt = txt_ok and not manifest[name].get("ocr") and garbled((out / "text" / f"{name}.txt").read_text(encoding="utf-8", errors="ignore"))
-                if done and not bad_txt and (esef_ok or (out / "raw" / f"{name}.txt").exists()):
+                raw_p = out / "raw" / f"{name}.txt"
+                no_text = (raw_p.exists() and not manifest[name].get("ocr") and not manifest[name].get("ocr_blank")
+                           and len(blank_pages(re.split(r"\n=== pdf p\.\d+ ===\n", raw_p.read_text(encoding="utf-8", errors="ignore"))[1:])) >= 5)
+                if done and not bad_txt and not no_text and (esef_ok or (out / "raw" / f"{name}.txt").exists()):
                     continue
                 log.append(f"{name}:")
                 data, url = get_pdf(cands, year[-4:], log)
@@ -154,9 +166,17 @@ def main(out_dir):
                     # antra versija skaitymo tvarka (be -layout): kelių stulpelių puslapiai skaitomi stulpelis po stulpelio
                     raw = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True).stdout.decode("utf-8", "ignore").split("\f")
                     ocr = garbled(txt)
+                    lang = item.get("ocr_lang", "eng") if isinstance(item, dict) else "eng"
+                    blank = [] if ocr else [b for b in blank_pages(raw) if b < len(raw)]
                     if ocr:
                         log.append("  … tekstas neįskaitomas, daromas OCR")
-                        pages = raw = ocr_pages(pdf, item.get("ocr_lang", "eng") if isinstance(item, dict) else "eng")
+                        pages = raw = ocr_pages(pdf, lang)
+                    elif len(blank) >= 5:
+                        # dalis puslapių - tik paveikslėliai: OCR tik jiems
+                        log.append(f"  … {len(blank)} psl. be teksto, daromas OCR tik jiems")
+                        o = ocr_pages(pdf, lang, set(blank))
+                        pages = [o[i] if (i + 1) in blank and i < len(o) else p for i, p in enumerate(pages)]
+                        raw = [o[i] if (i + 1) in blank and i < len(o) else p for i, p in enumerate(raw)]
                     (out / "raw" / f"{name}.txt").write_text("".join(f"\n=== pdf p.{n} ===\n{p}" for n, p in enumerate(raw, 1)), encoding="utf-8")
                     pdf.unlink()
                 body = "".join(f"\n=== pdf p.{n} ===\n{p}" for n, p in enumerate(pages, 1) if p.strip() or n < len(pages))
@@ -167,6 +187,8 @@ def main(out_dir):
                     manifest[name]["format"] = "esef"
                 elif ocr:
                     manifest[name]["ocr"] = True
+                if not esef and not ocr:
+                    manifest[name]["ocr_blank"] = len(blank)
                 log.append(f"  ✓ {url} ({len(pages)} psl.)")
     man_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
     print("\n".join(log))
