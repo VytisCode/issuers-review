@@ -1,0 +1,77 @@
+# ESG Engagement: Bigbank. Šaltiniai estų kalba. Puslapiai - PDF puslapiai.
+issuer: bigbank
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Bigbank AS 2025. aasta konsolideeritud majandusaasta aruanne (ET)", url: "https://static.bigbank.eu/investor/assets/2026/02/Bigbank_aastaaruanne_2025.pdf", date: 2026-02}
+  E2: {title: "Bigbank AS 2024. aasta konsolideeritud majandusaasta aruanne (ET)", url: "https://static.bigbank.eu/investor/assets/2024/04/Bigbank_AS_Annual_Report_2024-ET.pdf", date: 2025}
+trend: stable
+summary:
+  lt: "Vartojimo ir MVĮ paskolų bankas, kurio tiesioginis poveikis mažas: Scope 1+2 (rinkos metodas) 2 044 → 1 652 t [E1 p.77]. ESRS ataskaita su EY ribotu užtikrinimu [E1 p.4; E1 p.218]. Išmetimų mažinimo tikslų nėra – pirmiausia bus apskaičiuoti finansuojami išmetimai, tačiau 2024 m. žadėtas Scope 3 skaičiavimas 2025 m. dar neatliktas [E2 p.125; E1 p.75]. Visi metiniai kokybiniai tvarumo tikslai įvykdyti (pvz., nulinės taršos lizingas verslui) [E2 p.65; E1 p.52]."
+  en: "A consumer and SME lender with a small direct footprint: Scope 1+2 (market-based) 2,044 → 1,652 t [E1 p.77]. ESRS statement with EY limited assurance [E1 p.4; E1 p.218]. No emission reduction targets: financed emissions will be calculated first, but the Scope 3 calculation promised for 2025 has not been done yet [E2 p.125; E1 p.75]. All annual qualitative sustainability goals were met (e.g. zero-emission leasing for businesses) [E2 p.65; E1 p.52]."
+years:
+  FY2025:
+    trend: stable
+    framework:
+      lt: "Konsoliduota tvarumo ataskaita pagal ESRS; EY riboto užtikrinimo ataskaita [E1 p.43; E1 p.4; E1 p.218]. Scope 3 neatskleidžiamas (mažiau nei 750 darbuotojų – pereinamoji nuostata) [E1 p.76]."
+      en: "Consolidated ESRS sustainability statement; EY limited assurance report [E1 p.43; E1 p.4; E1 p.218]. Scope 3 not disclosed (fewer than 750 employees, phase-in) [E1 p.76]."
+    assurance: limited
+    summary:
+      lt: "Scope 1 316,6 → 285,8 t, Scope 2 (rinkos metodas) 1 727,4 → 1 366,0 t (mažesni šalių emisijos koeficientai, geresni duomenys) [E1 p.76]. Didelės klimato rizikos sektoriai sudaro 0,45 % portfelio [E1 p.75]. Nulinės taršos lizingas verslui pradėtas Baltijos šalyse [E1 p.52]."
+      en: "Scope 1 316.6 → 285.8 t, market-based Scope 2 1,727.4 → 1,366.0 t (lower national emission factors, better data) [E1 p.76]. High climate-risk sectors are 0.45% of the portfolio [E1 p.75]. Zero-emission leasing for businesses launched in the Baltics [E1 p.52]."
+    evidence:
+      - {p: E, lt: "Įsipareigojimas nefinansuoti iškastinio kuro gavybos; dabar tokių paskolų 0 [E1 p.75].", en: "Commitment not to finance fossil fuel production; currently zero such lending [E1 p.75]."}
+      - {p: E, lt: "2024 m. Scope 1+2 perskaičiuoti nauju įrankiu (Scope 1 85,1 → 316,6 t) [E1 p.76].", en: "2024 Scope 1+2 restated with a new tool (Scope 1 85.1 → 316.6 t) [E1 p.76]."}
+      - {p: S, lt: "Registruotų nelaimingų atsitikimų darbe 0 (abu metus) [E1 p.86].", en: "Zero recordable work accidents (both years) [E1 p.86]."}
+      - {p: S, lt: "MVĮ prieiga prie finansavimo: verslo klientų +31 %, 90 % naujų verslo paskolų – mikroįmonėms [E1 p.51].", en: "SME access to finance: business clients +31%, 90% of new business loans to micro-enterprises [E1 p.51]."}
+      - {p: G, lt: "Apkaltinamųjų nuosprendžių ir baudų už korupciją nėra [E1 p.96].", en: "No convictions or fines for corruption [E1 p.96]."}
+    concerns:
+      - {lt: "Finansuojamų išmetimų bazė dar neapskaičiuota, mažinimo tikslų nėra [E1 p.75].", en: "Financed-emissions baseline not yet calculated; no reduction targets [E1 p.75]."}
+      - {lt: "Išmetimų duomenys nepatikrinti trečiosios šalies [E1 p.76].", en: "Emissions data not validated by a third party [E1 p.76]."}
+  FY2024:
+    trend: baseline
+    framework:
+      lt: "Pirmoji tvarumo ataskaita pagal ESRS su riboto užtikrinimo ataskaita [E2 p.4; E2 p.56]. Išmetimai skaičiuoti pirmą kartą [E2 p.125]."
+      en: "First ESRS sustainability statement with a limited assurance report [E2 p.4; E2 p.56]. Emissions calculated for the first time [E2 p.125]."
+    assurance: limited
+    summary:
+      lt: "Visi 2024 m. tvarumo tikslai pasiekti; verslo klientų +29,8 % [E2 p.65]. Išmetimų mažinimo tikslų nėra, nes iki 2024 m. pėdsakas nebuvo matuojamas [E2 p.125]."
+      en: "All 2024 sustainability goals met; business clients +29.8% [E2 p.65]. No emission targets because the footprint had not been measured before 2024 [E2 p.125]."
+    evidence:
+      - {p: E, lt: "Scope 1 85,1 t (vėliau perskaičiuota į 316,6 t) [E2 p.127; E1 p.76].", en: "Scope 1 85.1 t (later restated to 316.6 t) [E2 p.127; E1 p.76]."}
+      - {p: E, lt: "Žadėta 2025 m. apskaičiuoti portfelio Scope 3 išmetimus [E2 p.125].", en: "Promised to calculate portfolio Scope 3 emissions in 2025 [E2 p.125]."}
+    concerns: []
+targets:
+  - p: E
+    name: {lt: "Apskaičiuoti finansuojamus (Scope 3 kat. 15) išmetimus ir nustatyti mažinimo tikslus", en: "Calculate financed (Scope 3 cat. 15) emissions and set reduction targets"}
+    FY2024: {lt: "Žadėta atlikti 2025 m. [E2 p.125]", en: "Promised for 2025 [E2 p.125]"}
+    FY2025: {lt: "Bazė dar neapskaičiuota; bus kitą laikotarpį [E1 p.75; E1 p.77]", en: "Baseline not yet calculated; next period [E1 p.75; E1 p.77]"}
+    status: behind
+  - p: E
+    name: {lt: "Nulinės taršos lizingas verslo klientams Baltijos šalyse", en: "Zero-emission leasing for business clients in the Baltics"}
+    FY2024: {lt: "Paruoštas [E2 p.65]", en: "Prepared [E2 p.65]"}
+    FY2025: {lt: "Pradėtas [E1 p.52]", en: "Launched [E1 p.52]"}
+    status: met
+  - p: E
+    name: {lt: "Nefinansuoti iškastinio kuro gavybos", en: "No financing of fossil fuel production"}
+    FY2024: {lt: "nerasta", en: "not found"}
+    FY2025: {lt: "0 [E1 p.75]", en: "0 [E1 p.75]"}
+    status: met
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2e", better: down, FY2024: {v: 316.6, src: "E1 p.76", note: {lt: "perskaičiuota (anksčiau 85,1)", en: "restated (previously 85.1)"}}, FY2025: {v: 285.8, src: "E1 p.76"}}
+  - {p: E, name: {lt: "Scope 2 išmetimai (rinkos metodas)", en: "Scope 2 emissions (market-based)"}, unit: "t CO2e", better: down, FY2024: {v: 1727.4, src: "E1 p.76"}, FY2025: {v: 1366.0, src: "E1 p.76"}}
+  - {p: E, name: {lt: "Scope 1+2 intensyvumas (rinkos metodas)", en: "Scope 1+2 intensity (market-based)"}, unit: "t CO2e/mln. EUR", better: down, FY2024: {v: 584, src: "E1 p.77"}, FY2025: {v: 423.5, src: "E1 p.77"}}
+engagement:
+  level: watch
+  severity: minor
+  verdict:
+    lt: "Mažos klimato rizikos bankas (didelės rizikos sektoriai – 0,45 % portfelio), tiesioginiai išmetimai mažėja [E1 p.75; E1 p.76]. Vienintelė spraga – vėluoja finansuojamų išmetimų skaičiavimas. Kreiptis nereikia; patikrinti kitais metais."
+    en: "A low climate-risk bank (high-risk sectors are 0.45% of the portfolio) with falling direct emissions [E1 p.75; E1 p.76]. The only gap is the delayed financed-emissions calculation. No need to write; check next year."
+  issues:
+    - what: {lt: "2024 m. žadėtas finansuojamų išmetimų skaičiavimas 2025 m. neatliktas.", en: "The financed-emissions calculation promised for 2025 was not done."}
+      why: {lt: "Be bazės neįmanoma nustatyti mažinimo tikslų [E2 p.125; E1 p.75].", en: "Without a baseline no reduction targets can be set [E2 p.125; E1 p.75]."}
+      fix: {lt: "2026 m. ataskaitoje patikrinti, ar paskelbta bazė ir tikslai.", en: "Check the 2026 report for a baseline and targets."}
+  policies: [investments, financial_general, climate_nature]
+  reason:
+    lt: "Mažos rizikos portfelis, bet vėluoja finansuojamų išmetimų skaičiavimas [E1 p.75]."
+    en: "Low-risk portfolio, but the financed-emissions calculation is delayed [E1 p.75]."
+  questions: []

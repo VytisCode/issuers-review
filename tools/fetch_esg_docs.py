@@ -117,7 +117,13 @@ def esef_pages(data):
         doc = z.read(max(names, key=lambda n: z.getinfo(n).file_size)).decode("utf-8", "ignore")
     else:
         doc = data.decode("utf-8", "ignore")
-    parts = re.split(r"<(?:div|p|hr)[^>]*page-break-(?:after|before)[^>]*>", doc, flags=re.I) if "page-break" in doc else re.split(r'<div[^>]*class="[^"]*\bpage\b[^"]*"[^>]*>', doc)
+    doc = re.sub(r"<(style|script)\b.*?</\1>", " ", doc, flags=re.I | re.S)  # CSS / JS (pdf2htmlEX šriftai) - ne tekstas
+    if 'class="pf ' in doc:  # pdf2htmlEX: kiekvienas PDF puslapis - <div class="pf ...">
+        parts = re.split(r'<div[^>]*class="pf [^"]*"[^>]*>', doc)[1:]
+    elif "page-break" in doc:
+        parts = re.split(r"<(?:div|p|hr)[^>]*page-break-(?:after|before)[^>]*>", doc, flags=re.I)
+    else:
+        parts = re.split(r'<div[^>]*class="[^"]*\bpage\b[^"]*"[^>]*>', doc)
     out = []
     for part in parts:
         t = re.sub(r"<(?:br|/p|/div|/tr|/h\d)[^>]*>", "\n", part, flags=re.I)
@@ -142,7 +148,8 @@ def main(out_dir):
                 name = f"{issuer}_{year}" + (f"_{i + 1}" if i else "")
                 done = manifest.get(name, {}).get("pages")
                 txt_ok = (out / "text" / f"{name}.txt").exists() and (out / "text" / f"{name}.txt").stat().st_size > 2000
-                esef_ok = manifest.get(name, {}).get("format") == "esef" and manifest[name].get("url") == cands[0] and txt_ok
+                esef_ok = (manifest.get(name, {}).get("format") == "esef" and manifest[name].get("url") == cands[0] and txt_ok
+                           and "@font-face" not in (out / "text" / f"{name}.txt").read_text(encoding="utf-8", errors="ignore")[:200000])
                 bad_txt = txt_ok and not manifest[name].get("ocr") and garbled((out / "text" / f"{name}.txt").read_text(encoding="utf-8", errors="ignore"))
                 raw_p = out / "raw" / f"{name}.txt"
                 no_text = (raw_p.exists() and not manifest[name].get("ocr") and not manifest[name].get("ocr_blank")

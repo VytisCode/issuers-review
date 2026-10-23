@@ -1,0 +1,70 @@
+# ESG Engagement: Coop Pank. E1/E2 - tvarumo ataskaitos (metinės ataskaitos dalis, atskiri PDF). Puslapiai - PDF puslapiai.
+issuer: coop-pank
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Coop Pank Sustainability Report 2025", url: "https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2025/Sustainability_Report.pdf", date: 2026-03}
+  E2: {title: "Coop Pank Sustainability Report 2024", url: "https://res30f.cooppank.ee/image/upload/investor_lehed/aruandlus/ENG/2024/Sustainability-report.pdf", date: 2025-03}
+trend: stable
+summary:
+  lt: "Nedidelis Estijos bankas, išmetimus (įskaitant finansuojamus, pagal PCAF) skaičiuoja nuo 2021 m. [E1 p.5]. Visas pėdsakas 248 855 → 212 758 t, 99,7 % – finansuojami išmetimai; tačiau bazinių metų nėra ir metai tarpusavyje ne visai palyginami [E1 p.3; E1 p.6]. Išmetimų mažinimo tikslų ir pereinamojo plano dar nėra; ataskaita neaudituota, ESRS prievolė atidėta dvejiems metams [E1 p.2; E1 p.3; E1 p.1]."
+  en: "A small Estonian bank that has measured emissions, including financed emissions under PCAF, since 2021 [E1 p.5]. Total footprint 248,855 → 212,758 t, 99.7% financed; but there is no base year and the years are not fully comparable [E1 p.3; E1 p.6]. No emission reduction targets or transition plan yet; the report is not audited, and the ESRS obligation is postponed by two years [E1 p.2; E1 p.3; E1 p.1]."
+years:
+  FY2025:
+    trend: stable
+    framework:
+      lt: "Tvarumo ataskaita iš dalies pagal ESRS struktūrą, neaudituota; ESRS prievolė (už 2025 m.) atidėta dvejiems metams pagal „Omnibus I“ [E1 p.1]."
+      en: "Sustainability report partly following the ESRS structure, not audited; the ESRS obligation (for 2025) is postponed by two years under Omnibus I [E1 p.1]."
+    assurance: none
+    summary:
+      lt: "Finansuojami išmetimai 248 304 → 212 113 t, intensyvumas 3 039 → 2 680 t/mln. EUR pajamų [E1 p.4]. Biuro išmetimai 551 → 645 t (Scope 1+2 mažėjo, Scope 3 kapitalo prekės augo) [E1 p.4]. Finansuojamų saulės ir vėjo parkų galia 81,3 MW [E1 p.3]."
+      en: "Financed emissions 248,304 → 212,113 t; intensity 3,039 → 2,680 t per EUR m of income [E1 p.4]. Office emissions 551 → 645 t (Scope 1+2 down, Scope 3 capital goods up) [E1 p.4]. Financed solar and wind capacity 81.3 MW [E1 p.3]."
+    evidence:
+      - {p: E, lt: "Saulės ir vėjo parkų finansavimas – apie 3,8 % verslo portfelio; EIB pakete ≥17 mln. EUR klimato projektams [E1 p.3].", en: "Solar and wind financing is about 3.8% of the corporate portfolio; the EIB deal earmarks ≥EUR 17m for climate projects [E1 p.3]."}
+      - {p: E, lt: "Nuo 2025 m. PCAF vertinimas apima ir valstybės bei įmonių obligacijas [E1 p.5].", en: "Since 2025 the PCAF assessment also covers sovereign and corporate bonds [E1 p.5]."}
+      - {p: E, lt: "78 % parduotų automobilių lizingų – naudoti automobiliai [E1 p.5].", en: "78% of car leasing sales were second-hand cars [E1 p.5]."}
+      - {p: S, lt: "Grynųjų pinigų paslaugos daugiau nei 320 Coop parduotuvių; 63,3 % kasdienės bankininkystės klientų – už Talino/Harju ribų [E1 p.6; E1 p.7].", en: "Cash services in more than 320 Coop stores; 63.3% of everyday banking clients are outside Tallinn/Harju [E1 p.6; E1 p.7]."}
+      - {p: G, lt: "Atsakingo verslo indekso aukso lygis nuo 2025 m. [E1 p.1].", en: "Gold level in the Responsible Business Index since 2025 [E1 p.1]."}
+      - {p: G, lt: "Nefinansuojami lošimai, tabakas, ginklai (ne Estijos ar NATO gynybai) ir kt.; 2025 m. pabaigoje tokių paskolų nėra [E1 p.7].", en: "No financing of gambling, tobacco, weapons (other than for Estonian or NATO defence), etc.; no such loans at end-2025 [E1 p.7]."}
+    concerns:
+      - {lt: "Išmetimų mažinimo tikslų ir pereinamojo plano nėra [E1 p.2; E1 p.3].", en: "No emission reduction targets or transition plan [E1 p.2; E1 p.3]."}
+      - {lt: "Finansuojamų išmetimų bazinių metų nėra, metai ne visai palyginami; PCAF duomenų kokybė pablogėjo 3,1 → 3,5 [E1 p.5; E1 p.6].", en: "No base year for financed emissions and years not fully comparable; PCAF data quality worsened 3.1 → 3.5 [E1 p.5; E1 p.6]."}
+      - {lt: "Nuo 2025 m. nebedalyvaujama CDP [E1 p.2].", en: "No longer reporting to CDP from 2025 [E1 p.2]."}
+  FY2024:
+    trend: limited
+    framework:
+      lt: "Trumpa tvarumo ataskaita metinėje ataskaitoje, užtikrinimo nerasta; 2024 m. atliktas dvigubo reikšmingumo ir UNEP FI poveikio vertinimas [E2 p.1; E2 p.2]."
+      en: "Short sustainability report in the annual report, no assurance found; double materiality and UNEP FI impact assessments done in 2024 [E2 p.1; E2 p.2]."
+    assurance: none
+    summary:
+      lt: "Visas pėdsakas 214 023 → 248 855 t (+16 %, apskaičiuota įrankio) [E2 p.3]. Finansuojamų saulės ir vėjo parkų galia 80,9 MW [E2 p.2]."
+      en: "Total footprint 214,023 → 248,855 t (+16%, calculated by the tool) [E2 p.3]. Financed solar and wind capacity 80.9 MW [E2 p.2]."
+    evidence:
+      - {p: E, lt: "Scope 1 37 t, Scope 2 163 t [E1 p.4].", en: "Scope 1 37 t, Scope 2 163 t [E1 p.4]."}
+      - {p: G, lt: "Atsakingo verslo indekso sidabro lygis (2023 m.) [E2 p.1].", en: "Silver level in the Responsible Business Index (2023) [E2 p.1]."}
+    concerns:
+      - {lt: "Pereinamojo plano ir išmetimų tikslų nėra [E2 p.2; E2 p.3].", en: "No transition plan or emission targets [E2 p.2; E2 p.3]."}
+targets: []
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2e", better: down, FY2024: {v: 37, src: "E1 p.4"}, FY2025: {v: 30, src: "E1 p.4"}}
+  - {p: E, name: {lt: "Scope 2 išmetimai", en: "Scope 2 emissions"}, unit: "t CO2e", better: down, FY2024: {v: 163, src: "E1 p.4"}, FY2025: {v: 129, src: "E1 p.4"}}
+  - {p: E, name: {lt: "Finansuojami išmetimai (Scope 3 kat. 15)", en: "Financed emissions (Scope 3 cat. 15)"}, unit: "t CO2e", better: down, FY2024: {v: 248304, src: "E1 p.4"}, FY2025: {v: 212113, src: "E1 p.4", note: {lt: "metai ne visai palyginami", en: "years not fully comparable"}}}
+  - {p: E, name: {lt: "Išmetimų intensyvumas pajamoms", en: "Emission intensity per income"}, unit: "t CO2e/mln. EUR", better: down, FY2024: {v: 3039, src: "E1 p.4"}, FY2025: {v: 2680, src: "E1 p.4"}}
+  - {p: E, name: {lt: "Visas anglies pėdsakas", en: "Total carbon footprint"}, unit: "t CO2e", better: down, FY2023: {v: 214023, src: "E2 p.3"}, FY2024: {v: 248855, src: "E1 p.3"}, FY2025: {v: 212758, src: "E1 p.3"}}
+engagement:
+  level: watch
+  severity: minor
+  verdict:
+    lt: "Mažas bankas, kuris jau kelerius metus skaičiuoja ir skelbia finansuojamus išmetimus, o pėdsakas 2025 m. sumažėjo [E1 p.3; E1 p.5]. Trūksta tikslų ir pereinamojo plano, bet ESRS prievolė atidėta. Kreiptis kol kas nebūtina."
+    en: "A small bank that has measured and published financed emissions for several years, and the footprint fell in 2025 [E1 p.3; E1 p.5]. Targets and a transition plan are missing, but the ESRS obligation is postponed. No need to write yet."
+  issues:
+    - what: {lt: "Nėra išmetimų mažinimo tikslų ir pereinamojo plano.", en: "No emission reduction targets or transition plan."}
+      why: {lt: "Be jų negalime įvertinti, ar finansuojami išmetimai mažės ilgainiui [E1 p.2; E1 p.3].", en: "Without them we cannot judge whether financed emissions will fall over time [E1 p.2; E1 p.3]."}
+      fix: {lt: "Kitais metais patikrinti; jei vis dar nebus – svarstyti trumpą laišką.", en: "Check next year; if still missing, consider a short letter."}
+    - what: {lt: "Ataskaita neaudituota, bazinių metų nėra.", en: "Report not audited, no base year."}
+      why: {lt: "Skaičiai ne visai palyginami tarp metų [E1 p.1; E1 p.6].", en: "Figures are not fully comparable across years [E1 p.1; E1 p.6]."}
+      fix: {lt: "Laukti, kol bus nustatyti baziniai metai.", en: "Wait for a base year to be set."}
+  policies: [investments, financial_general, climate_nature]
+  reason:
+    lt: "Skaičiuoja finansuojamus išmetimus, bet tikslų ir plano dar nėra [E1 p.3]."
+    en: "Measures financed emissions, but no targets or plan yet [E1 p.3]."
+  questions: []

@@ -1,0 +1,59 @@
+# ESG Engagement: ALTUM (Latvijos plėtros finansų institucija). PDF šriftai neįskaitomi - tekstas gautas OCR, todėl skaičiai tikrinti pagal kontekstą. Puslapiai - PDF puslapiai.
+issuer: altum
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "ALTUM Annual Report 2025", url: "https://nasdaqbaltic.com/market/upload/reports/altm/2025_ar_en.pdf", date: 2026-03}
+  E2: {title: "ALTUM Annual Report 2024", url: "https://nasdaqbaltic.com/market/upload/reports/altm/2024_ar_en_eur_00_ias.pdf", date: 2025-03}
+trend: improving
+summary:
+  lt: "Valstybės plėtros finansų institucija, kurios tvarumo poveikis – per finansavimą. 2025 m. aplinkosaugos tikslams skirtų naujų paskolų dalis 30 % (2024 m. 23 %), finansuotų projektų numatomas CO2 sumažėjimas 21,4 tūkst. t per metus (15,3 tūkst. t) [E1 p.15; E1 p.16]. Nuosavi Scope 1+2 išmetimai maži: 78 t (−64 % nuo 2018 m.) [E1 p.178]. ESRS ataskaita privaloma tik nuo 2027 m. [E1 p.179]."
+  en: "A state development finance institution whose sustainability impact comes through financing. In 2025, 30% of new loans went to environmental goals (2024: 23%), and the financed projects are expected to cut CO2 by 21.4 thousand t a year (15.3 thousand t) [E1 p.15; E1 p.16]. Own Scope 1+2 emissions are small: 78 t (−64% vs 2018) [E1 p.178]. ESRS reporting becomes mandatory only from 2027 [E1 p.179]."
+years:
+  FY2025:
+    trend: improving
+    framework:
+      lt: "Tvarumo informacija metinės ataskaitos ir valdysenos ataskaitos skyriuose, ne pagal ESRS (privaloma nuo 2027 m.) [E1 p.179]. Išmetimų skaičiavimą patvirtino techninis ekspertas SIA energi [E1 p.178]."
+      en: "Sustainability information in the annual and governance report sections, not under ESRS (mandatory from 2027) [E1 p.179]. The emissions calculation was approved by the technical expert SIA energi [E1 p.178]."
+    assurance: none
+    summary:
+      lt: "Aplinkosaugos tikslams skirtų paskolų dalis 23 → 30 %; SME tvarumo paskolos 39 mln. EUR, daugiabučių renovacija 48 mln. EUR (14 mln. 2024 m.) [E1 p.15]. Scope 1+2 +12 % dėl išplėstos apimties (įtrauktos nuomojamos patalpos) [E1 p.178]."
+      en: "Share of loans for environmental goals 23 → 30%; SME sustainability loans EUR 39m, apartment building renovation EUR 48m (EUR 14m in 2024) [E1 p.15]. Scope 1+2 +12% due to a wider boundary (rented premises added) [E1 p.178]."
+    evidence:
+      - {p: E, lt: "Finansuoti projektai numatomai sumažins CO2 21 392 t per metus; 47 % – baterijų kaupikliai [E1 p.16].", en: "Financed projects are expected to cut CO2 by 21,392 t a year; 47% from battery storage [E1 p.16]."}
+      - {p: E, lt: "Nuo 2025 m. lapkričio visos tvarios SME ir žemės ūkio paskolos (pagal EIB „Green Checker“) gauna kainos nuolaidą visam terminui [E1 p.14].", en: "Since November 2025 all sustainable SME and agricultural loans (per the EIB Green Checker) get a price discount for the full term [E1 p.14]."}
+      - {p: E, lt: "Pereinamojo laikotarpio finansavimo produktas žemės ūkiui nuo 2025 m. lapkričio [E1 p.14].", en: "Transition financing product for agriculture since November 2025 [E1 p.14]."}
+      - {p: S, lt: "Socialiniams tikslams skirtos paskolos +26 mln. EUR (įperkamas būstas, regioninės hipotekos) [E1 p.15].", en: "Loans for social goals +EUR 26m (affordable housing, regional mortgages) [E1 p.15]."}
+      - {p: G, lt: "ESG vertinimo modelis diegiamas paskolų išdavimo procese [E1 p.76].", en: "ESG scoring model being integrated into loan origination [E1 p.76]."}
+    concerns:
+      - {lt: "Kiekybinio finansuojamų išmetimų mažinimo tikslo nerasta – tik bendras tikslas mažinti portfelio CO2 [E1 p.14].", en: "No quantified financed-emissions reduction target found, only a general goal to reduce portfolio CO2 [E1 p.14]."}
+  FY2024:
+    trend: mixed
+    framework:
+      lt: "Tvarumo skyrius metinėje ataskaitoje („Contribution to sustainability“), ne pagal ESRS [E2 p.146; E2 p.147]."
+      en: "Sustainability section in the annual report ('Contribution to sustainability'), not under ESRS [E2 p.146; E2 p.147]."
+    assurance: none
+    summary:
+      lt: "Aplinkosaugos tikslams skirtų naujų paskolų dalis 23 %; numatomas CO2 sumažėjimas 15,3 tūkst. t (2023 m. 20,9 tūkst. t); daugiabučių renovacijos paskolos sumažėjo iki 14 mln. EUR [E2 p.11]."
+      en: "Share of new loans for environmental goals 23%; expected CO2 reduction 15.3 thousand t (2023: 20.9 thousand t); apartment renovation loans fell to EUR 14m [E2 p.11]."
+    evidence:
+      - {p: E, lt: "SME tvarumo paskolos 36 mln. EUR (+7 mln.) [E2 p.11].", en: "SME sustainability loans EUR 36m (+EUR 7m) [E2 p.11]."}
+      - {p: E, lt: "Žaliosios obligacijos (CICERO „Medium Green“) išpirktos 2024-10-17 [E2 p.102].", en: "Green bonds (CICERO Medium Green) redeemed on 17 October 2024 [E2 p.102]."}
+    concerns:
+      - {lt: "Finansuotų projektų numatomas CO2 sumažėjimas mažesnis nei 2023 m. [E2 p.11].", en: "Expected CO2 reduction from financed projects lower than in 2023 [E2 p.11]."}
+targets:
+  - p: E
+    name: {lt: "Mažinti finansuojamo portfelio CO2, finansuojant tvarius projektus (strategija 2025–2027)", en: "Reduce portfolio CO2 by financing sustainable projects (strategy 2025–2027)"}
+    FY2024: {lt: "Aplinkosaugos paskolos 23 % naujų [E2 p.11]", en: "Environmental loans 23% of new lending [E2 p.11]"}
+    FY2025: {lt: "Aplinkosaugos paskolos 30 % naujų [E1 p.15]", en: "Environmental loans 30% of new lending [E1 p.15]"}
+    status: on_track
+metrics:
+  - {p: E, name: {lt: "Scope 1+2 išmetimai", en: "Scope 1+2 emissions"}, unit: "t CO2e", better: down, FY2023: {v: 89, src: "E2 p.164"}, FY2024: {v: 69, src: "E1 p.178"}, FY2025: {v: 78, src: "E1 p.178", note: {lt: "išplėsta apimtis", en: "wider boundary"}}}
+  - {p: E, name: {lt: "Aplinkosaugos tikslams skirtų naujų paskolų dalis", en: "Share of new loans for environmental goals"}, unit: "%", better: up, FY2024: {v: 23, src: "E2 p.11"}, FY2025: {v: 30, src: "E1 p.15"}}
+  - {p: E, name: {lt: "Finansuotų projektų numatomas CO2 sumažėjimas per metus", en: "Expected annual CO2 reduction from financed projects"}, unit: "t CO2e", better: up, FY2023: {v: 20944, src: "E2 p.11"}, FY2024: {v: 15323, src: "E1 p.16"}, FY2025: {v: 21392, src: "E1 p.16"}}
+engagement:
+  level: none
+  policies: [investments, financial_general, climate_nature]
+  reason:
+    lt: "Valstybės plėtros institucija, kurios veikla pati skirta pertvarkai finansuoti; žaliųjų paskolų dalis auga [E1 p.15]. ESRS ataskaita bus nuo 2027 m. [E1 p.179], todėl kreiptis nereikia."
+    en: "A state development institution whose business is itself financing the transition; the share of green lending is growing [E1 p.15]. ESRS reporting comes from 2027 [E1 p.179], so no engagement is needed."
+  questions: []
