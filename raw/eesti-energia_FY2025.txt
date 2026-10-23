@@ -260,7 +260,6 @@ Chairman of the Management Board and CEO of Eesti Energia
 === pdf p.7 ===
 Key Figures and Ratios
 
-
 === pdf p.8 ===
 MANAGEMENT REPORT
 Key Figures and Ratios
@@ -438,7 +437,6 @@ Net debt / EBITDA
 
 === pdf p.9 ===
 Operating Environment
-
 
 === pdf p.10 ===
 MANAGEMENT REPORT
@@ -1036,9 +1034,7 @@ Source: Platts
 
 
 === pdf p.16 ===
-Riskijuhtimine
 Key Events in 2025
-
 
 === pdf p.17 ===
 EESTI ENERGIA ANNUAL REPORT 2025
@@ -1650,7 +1646,6 @@ Value-Based
 Organisational Culture and
 Dedicated Employeess
 
-
 === pdf p.30 ===
 MANAGEMENT REPORT
 Organisational culture
@@ -1858,7 +1853,6 @@ Stronger Structure and Clearer Focus
 
 === pdf p.37 ===
 Governance
-
 
 === pdf p.38 ===
 MANAGEMENT REPORT
@@ -2826,7 +2820,6 @@ was €568 thousand (2024: €504 thousand).
 === pdf p.49 ===
 Risk Management
 
-
 === pdf p.50 ===
 MANAGEMENT REPORT
 Risk management
@@ -3158,7 +3151,6 @@ We identify business-critical services and review them regularly.
 
 === pdf p.54 ===
 Financial Results
-
 
 === pdf p.55 ===
 MANAGEMENT REPORT
@@ -4268,7 +4260,6 @@ Other EBITDA
 === pdf p.66 ===
 Cash Flows
 
-
 === pdf p.67 ===
 MANAGEMENT REPORT
 Cash Flows
@@ -4434,7 +4425,6 @@ totalled +€8.5 million.
 === pdf p.69 ===
 Investment
 
-
 === pdf p.70 ===
 EESTI ENERGIA ANNUAL REPORT 2025
 
@@ -4573,7 +4563,6 @@ Other
 
 === pdf p.72 ===
 Financing
-
 
 === pdf p.73 ===
 EESTI ENERGIA ANNUAL REPORT 2025
@@ -4816,7 +4805,6 @@ Eesti Energia's financial policy aims to maintain an investment-grade credit rat
 
 === pdf p.76 ===
 Outlook for 2026
-
 
 === pdf p.77 ===
 MANAGEMENT REPORT

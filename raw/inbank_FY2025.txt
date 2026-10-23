@@ -1,75 +1,2038 @@
 
 === pdf p.1 ===
+(in)bank
+
+2025
+Annual Report
+
+Consolidated financial
+statements for the financial year
+01.01.2025-31.12.2025
+
 
 === pdf p.2 ===
+Contents Page 12 Company
+
+information
+
+Overview
+
+02. Inbank in numbers
+
+03 Annual highlights
+
+04 Key performance measures
+05 Business model
+
+08 Products and technology M anagement rep ort Business name
+
+Management report Address
+Niine 11, 10414
+
+12 CEO statement Tallinn, Estonia
+
+15 People and culture
+
+21 Environmental, social and governance . .
+Registration date
+
+05.10.2010
+Governance
+
+24 Chairman's statement
+25 Corporate governance report
+34 Group structure
+
+Registration code
+12001988
+
+(Commercial Register of
+the Republic of Estonia)
+
+Legal entity identifier
+
+Consolidated financial 2138005M92IEIQVEL297
+
+statements (LEI-code)
+36 Consolidated financial statements
+
+" i" ~ VAT number
+41 Notes to the consolidated financial statements EE101400240
+98 Management board’s declaration Phone
+
+99 Independent auditor's report +372 640 8080
+
+Email
+info@inbank.ee
+
+Governance Website
+
+www.inbank.eu
+
+Auditor
+PricewaterhouseCoopers AS
+
+Supervisory Board
+
+Page 36 Erkki Raasuke (Chairman),
+
+Jan Andresoo, Roberto de
+Silvestri, Triinu Bucheton,
+Raino Paron, Isabel Faragalli,
+Sergei Anikin
+
+. Management Board
+C ] d ¢ d Priit Poldoja (Chairman),
+OonsoO 1 a e Marko Varik, Piret Paulus,
+Maciej Pieczkowski, Margus
+
+financial statements Keetain, Erk Kal, Evelin
+
+inbank does not hold any public ratings provided by international rating agencies. European Single Electronic Format (ESEF) markup document is submitted in Estonian in machine-readable .xhtm| format to the Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.3 ===
+VET
+. ‘ . a A. .
+
+~—_
+
+c aa
+
+soy dae I
+
 
 === pdf p.4 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 02
+
+Inbank in numbers
+
+Active customer Active merchants Originated
+contracts volume
+
+€7/0m
+
+900,000+
+
+Five markets across
+Baltics and CEE
+
+Years of
+profitability
+
+14+
+
+Loan and rental
+portfolio
+
+Also collecting deposits in Germany, . ce
+Austria, and the Netherlands, with 460+ people from 26 nationalities C4 27b l }
+bonds listed on Nasdaq Tallinn e
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
+
 
 === pdf p.5 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 03
+
+Annual highlights
+
+December
+
+Signed an exclusive partnership with Otomoto
+(part of OLX Group), Central and Eastern Europe’s
+largest car classifieds portal, highlighting the
+strength of our car classifieds offering.
+
+March Increased our stake in Mobire Group to 100%,
+becoming its sole owner of the Baltics’ leading
+full-service car rental company and
+strengthening our position in car financing.
+
+Strengthened our governance to support our next
+stage of growth by appointing Erkki Raasuke as
+Chairman of the Supervisory Board, and
+welcoming Isabel Faragalli and Sergei Anikin
+
+as new members.
+
+Issued €5.3 million in new shares through a
+direct offering, increasing Inbank’s equity market
+value to an all-time high of €236 million and
+supporting Mobire Group's expansion in
+
+the Baltics.
+
+September
+
+Reflecting strong investor confidence, our 6.25%
+subordinated bond issue attracted 935 investors
+and raised €8 million. The initial issue was
+oversubscribed 4.3 times, with total
+subscriptions of €21.6 million.
+
+November
+
+Launched a partnership with Germany's leading
+online comparison portal CHECK24 to expand
+our presence in the German deposit market and
+further diversify our funding.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.6 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 04
+
+Key performance measures
+
+(in millions of €)
+
+Originated volume Total net income Net profit
+410% year-on-year 413% year-on-year +57% year-on-year
+770 85 a1
+680 697 75 19
+= 575 60
+43 n 12
+10
+‘21 22 23 24 25 ‘21 22 23 24 25 ‘21 22 23 24 25
+Key financial indicators 2021 2022 2023 2024 2025 Change 2025/2024 Explanations of ratios and terms.
+Total net income 42.6 51.4 60.2 75.5 85.1 13% Originated volume Total volume of credit and rental products originated, purchased, or acquired through Inbank’s
+Net profit 110 on 102 122 192 57% embedded finance and direct-to-consumer platform
+Originated volume 5293| s749| 6805  6967| 7696 10% Loan and rental portfolio Total of loans and receivables to private persons and rental portfolio
+Total assets 7870 | 10205 | 13206 14358 | 15800 10% Return on equity (ROE) Profit for the period divided by total equity (average over the period)
+Loan and rental portfolio 63a7| 918.2 | 10342 11851 | 12767 1% Portfolio yield Interest income based on EIR from loan portfolio and net rental income divided by loan and rental
+Customer deposits 617.9 | 828.9 ) 10816 | 1171.4 | 1301.41 1% Funding cost Interest expense divided by interest-bearing liabilities (average over the period)
+Equity 79.0 | 1019 | 1241 1476 | 171.0 16% Total income margin Total net income excluding net gains or losses from financial items divided by total assets
+(average over the period)
+Ratios Total net income Net interest, fee and commission income, rental income, and gains or losses from financial items
+Portfolio yield 10.6% 10.2% 10.9% 11.3% 1.1% Cost / income Total operating expenses divided by total net income
+Funding cost 17% 2.6% 4.5% 4.4% 4.0% Impairments / portfolio Impairment on loans and receivables divided by loan and rental portfolio (average over the period)
+Total income margin 65% | 5.9% | 5.2% | 5.4% 5.5% Net profit Profit for the period
+Impairments / portfolio 1.3% 1.5% 1.4% 1.5% 1.6%
+Cost / Income 56.3% | 59.0% | 614% 611% | 54.4% There have been updates to the terminology and calculation principles of the key financial indicators and ratios used in the reporting.
+geturn on equity tea% | 234%; 93% 90%] 123% To more accurately reflect the scale of Inbank's business activities, “Gross Merchandise Value” has been replaced with “Originated
+
+Volume”, whereby the total value of merchandise financed has been replaced with the total volume of credit and rental products
+originated. The definition of the “Loan and rental portfolio” has been refined to include additional asset categories in the rental portfolio,
+aligning its scope with that of the loan portfolio. The “Portfolio yield” ratio replaces the previously used “Retail portfolio effective interest
+rate (EIR)” ratio. Portfolio yield includes income from the loan and rental portfolios. Net gains/losses from financial items are excluded
+from the “Total income margin” ratio. The “Impairments / portfolio" ratio includes both the loan and rental portfolios, replacing the
+previously used “Impairment losses to loan portfolio” ratio. These updates aim to provide a clearer picture of Inbank’s underlying
+business results. Please refer to the revised definitions above for further details.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.7 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 05
+
+Strategy and
+business model
+
+Inbank is on a mission to bring financing to the point of
+sale - where everyday shopping happens. With over
+6,000 retailers in our network, we help merchant
+partners sell more by making financing easier, smarter,
+and more accessible for over 600,000 unique
+customers.
+
+We build seamless financing solutions for retail in all its
+forms, from brick-and-mortar stores to online
+platforms. Whether it’s sneakers, solar panels, or pre-
+loved cars, our technology delivers fast, hassle-free
+financing exactly when and where customers need it.
+
+Strategy
+
+Inbank is a technology-driven consumer finance
+company operating through a large and diversified,
+partner-based distribution model. We operate at the
+intersection of retail and finance, leveraging a digital-
+first B2B2C model to deliver flexible, intuitive, and
+seamless financing experiences. With deep expertise
+in regulated banking, we are committed to offering
+fully compliant and responsible financial products to
+end customers.
+
+Our strategy is focused on profitable, underpenetrated
+consumer finance segments, where we can grow
+sustainably by combining strong risk management with
+scalable execution. We differentiate through automated
+credit decisioning and a simplified application process
+that delivers a fast, smooth experience for both
+merchants and customers.
+
+ape . European addressable lending market (€bn) Strategic focus
+Positioning and Ticket size, € 500 1,000 25,000 50,000
+. t
+strategic focus ~4.3tn
+- . Total
+We operate in consumer finance, a large, growing, and lending Bay Inbank embedded g3 a
+highly profitable segment with an addressable market 3 fi 1 fi q 3 o
+of €1.3tn in the EU and return on equity levels of up to cel nance p atform g ral a
+20% making it an inherently attractive business model ~370bn 2 9 a Fy - O44 2
+for Inbank. We are well positioned to capture market Embedded lending ae az Mtsre let (since GayeEley S wo 3
+share by strengthening our partner and customer base 22 na Channel-based underwriting amp =
+in existing geographies and expanding into new EU 75bn Multi-channel distribution
+markets with our fully automated embedded ~ Compliant fi ing plat
+finance platform. Target markets Segment GU PENSULEN Teng) Else
+Within this space, we compete in the €1,000-€25,000 oe ays
+uncollateralized lending segment, where universal Digital BNPL Traditional :
+players banks and credit
+
+banks often lack efficient setups for smaller-ticket, off-
+platform customers, while neobanks and Buy Now Pay
+Later (BNPL) providers typically lack the underwriting
+capabilities needed for higher ticket sizes and Total addressable lending market outstanding balance in Europe, 2027
+regulated lending.
+
+specialists
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.8 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 06
+
+Our competitive
+advantages
+
+Our innovation does not come from reinventing hire For us, automated credit decisioning sits at the heart of
+purchase, a familiar credit product, but from fully our business. It is not just a step in the process, but the
+automating its delivery - embedding financing into engine that drives everything we do. That is why we
+merchants’ sales flows and scaling it through better focus on building a flexible, vertical and partner
+processes and technology, thereby disintermediating specific credit engine designed to deliver an optimal
+everyday financing from universal banks. risk-return profile for Inbank, our partners, and
+
+end customers.
+Competing through superior processes and innovative
+
+products requires full control over our strategic assets Across each market we serve, we win by delivering
+so we can respond rapidly to market shifts and stay more convenient processes, seamless application
+ahead. That is why we develop and own our flows, parameterized product setup, and fully
+
+core technology. automated credit decisions - making financing faster,
+
+easier, and better aligned with partner needs. We can
+flexibly adapt our embedded finance solutions to
+diverse market requirements and a wide range of use
+cases, in ways competitors struggle to match.
+
+Diverse product offering Vertical-specific flexibility
+
+From BNPL (free to end-customers) designed Our technology adapts to the needs of different
+to boost merchant sales, to higher-volume merchant segments, enabling tailored product
+financing allowing merchants to participate in and risk setups.
+
+the financial services revenue stream.
+
+Tailormade risk and
+
+Channel flexibility & product engines
+
+easy integration Allow us to deliver the most relevant offer
+
+A seamless integration layer and multi-channel and consistently win in competitive scenarios.
+approach ensure fast adoption across
+
+merchants.
+
+Responsible lender with competitive
+
+pricing
+Deep merchant integration We are a fully compliant, EU-licensed bank. Our
+We build complex, technically advanced focus on prime customers and our diversified
+solutions embedded directly into merchant EU deposit funding base enable competitive
+ecosystems, increasing merchant stickiness pricing across all markets.
+
+over time.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.9 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 07
+
+Business model Monetization model
+We are building a resilient and diversified business Diversified product suite Our product portfolio is built around a self-reinforcing
+model across all target markets, supported by our large ecosystem powered by our large merchant distribution
+and loyal merchant and customer network. . . network. We focus on repeat transactions and long-
+Business-to-Business- term relationships creating a virtuous circle: we help
+Embedding our financing solutions into merchants’ to-Consumer merchants sell more, while making buying and
+business flows has been part of our DNA from the financing seamless for customers.
+beginning, and today around 80% of our business is Vertical agnostic online and
+generated through our merchant network. We focus on Ghillne ey Ear Salles Maximizing Customer
+channels and partnerships where we have a clear and Lifetime Value
+sustainable competitive advantage, rather than ENEIL testes Peace
+competing on price or commissions alone, as such Acquisition
+positions are easily replicated. Instead, we rely on Onboard new merchants
+product superiority, exclusivity, and deep integrations and acquire customers
+to create meaningful value for our merchant partners’ Core through our 6,000-
+bottom line. partner network
+. @ Monetization
+Some products, such as BNPL and 0% hire purchase, Maximazing customer
+are free for the end customer and designed to boost P lifetime value through
+Direct-to-Consumer 9
+merchant sales; we earn fees from merchants by cross-sell and upsell
+supporting demand generation and customer from BNPL and
+acquisition. Other products involve larger financing . _ instalments to higher-
+- es Selection of D2C supplementary financing, margin loans
+volumes, allowing merchants to participate in the insurance, and savings products
+financial services revenue stream. Retention
+Engage customers and
+In addition to our core product, supplementary Unsecured Payment protection Deposits build loyalty through
+offerings such as high-margin personal loans and add- loans insurance personalized communi-
+on products like payment protection insurance enable cation and relevant offers
+us to generate interest and fee income from our large that drive repeat usage
+customer base. Complementary
+Our platform can also facilitate financing business of Growth strategy
+both Inbank co-owned joint ventures and entirely
+external financial institutions. This model allows us Technology & Whether through expanding our product offering,
+to generate recurring fee income from technology product solution winning new partnerships and growing existing ones,
+services and the originate-to-distribute or entering new markets, we focus on scalable growth
+business model. End-to-end modular finance built on our competitive advantages.
+
+platform for financial institutions
+
+Inbank’s long-term growth pillars
+
+Underwriti Modul: EU banki eee -
+cnn ng platform license ng Distribution expansion: Expanding our merchant
+partner network and strengthening existing fe. oe a
+partnerships in each market we operate. a x yr
+Emerging
+
+Growing customer base: Acquiring new customers
+through B2B2C channels to enable cross-sell of D2C
+loans and fee-based products.
+
+Product innovation: Innovating existing product
+offering and adding new installment products for
+existing partners and customers.
+
+Geographic expansion: Entering attractive new
+consumer finance markets with our embedded finance
+solution driven by superior processes, credit
+decisioning, and technology.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmp| format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.10 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 og
+
+Products and
+technology
+
+" Q&A with co-founder Technology
+
+Jan Andresoo We build market-agnostic products with scalable
+~_ technology that powers financing for thousands of
+merchants and millions of consumers.
+What makes Inbank unique? What is impacting the sector in the coming period? ; . .
+Inbank operates a single multi-market, multi-tenant
+First, we are a specialized player focusing specifically There are two important aspects to point out. First, embedded finance platform built for scalable
+? on the “pay later” domain. Our distribution strategy is we need to continuously improve our credit expansion across Europe. The market-agnostic
+built around partnerships with merchants. This itself underwriting capabilities, because the core of our architecture separates core functionality from light
+- creates a need for technologically superior service: business is to use credit as a payment enabler. We localization layers, enabling fast rollout tonew =
+maximum automation, ease of integration, and a need to continue working on how to automate in a jurisdictions and supporting both Inbank entities, joint
+seamless customer journey. Additionally, | would like to highly regulated area, especially when the new ventures and external financial institutions, generating
+highlight that our automated credit underwriting consumer credit directive will be enforced. Secondly, recurring fee income from technology services.
+engine is capable of making automated credit we see a big shift in banking, and a need for
+decisions up to €25,000, and it’s all within the specialization. It gives us the opportunity to
+regulated consumer credit framework. It all makes us cooperate with big international universal banks as a
+pretty unique. The previously mentioned aspects purely product and technology provider. This allows Our product and
+enabled us to create a unique ecosystem of close to us to commercialize our business knowledge without q 9
+6,000 merchants and 600,000 unique customers, the need to deploy additional capital. technology principles
+which mutually enforces continuous growth -
+merchants selling goods to people, they end up as our ~~ What makes Inbank effective as a product-driven When building products, we are guided by a product
+customers, and customers again buying from our organisation? superiority mindset that supports our performance,
+merchants, an endless wheel. growth, and scalability targets. By continuously
+| believe that figuring out the right operational model improving our products and processes, we drive
+aoe for a tech-heavy, complex service — one that requires revenue growth by deepening mutually beneficial
+SSE Ste a mer cheantsland panels maro tor trying, testing, and adjusting to market needs merchant partnerships and strengthening
+. —is critical. On the one hand, we need to standardise customer loyalty.
+
+and contain agility. On the other hand, we must make
+sure that we are not just a development hub for things
+that are not needed in the market. The key question is
+how to ensure that sales, tech, risk, and pricing teams
+work in a continuous, operationally active mode
+towards our customers and partners. It is challenging.
+
+Conversion. Our product must help our merchants sell
+more. It means our payments and financing solutions
+have to reduce barriers to buy, especially when we are
+talking about more expensive durable goods. For
+customers, we provide convenience and flexibility.
+
+Productization
+We design and build our processes around standard
+retail product offering.
+
+They can divide their purchases over a longer period. Simplicity a ,
+Sounds like a simple task, but in reality it’s complex — A A A F We continuously simplify the customer journey and
+we ae operating na Nigh regulated 260, ee ee a ere cea ‘improve conversion
+three counterparties, and transactions need to be . :
+delivered utomaticelly on the spot. Therefore, we TL ele ras Le tee SN ete PLETE Automatization
+need to be technologically solid ail our support and created cross-domain operational units. It was a We automate wherever possible, with automated
+ji : id move, and the results were visible quite quickly: credit decisioning at the core.
+service has to be outstanding. Ha to see that our se awd E fe)
+NPS towards merchants is 33% rca 65% DELS EI TMIEALY, Cate (ele, Clie) oars a EET)
+Tals also (ells SaTeaiin ° ia —much wider operational interaction between us and Reusability
+g- the market. We build on experience and reuse proven solutions
+across markets.
+Jan Andresoo Scalability , ;
+Co-Founder, Head of Products and Channels We build our technical architecture to enable scale.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.11 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 og
+
+Products
+
+Business-to-business-to- (h)) iT
+consumer (B2B2C) ERNE
+Our merchant offering includes Buy Now, Pay Later, Merchant solutions : "
+
+rental services, and embedded financing through Ranging from Buy Now, Pay Later to instalments, we
+
+online and marketplace channels such as Classifieds, provide customers with greater flexibility, convenience, 29545 <
+serving verticals from consumer electronics and DIY to and a seamless experience across online and in-store
+sustainable energy systems, vehicles and mobility, and shopping.
+
+fashion, beauty, and healthcare. Our solutions are se oe o-
+integrated directly into customer journeys at the point Auto marketplaces and dealers
+of sale - across all channels, whether online, offline, or Our digital car financing solutions deliver best-in-class 11
+door-to-door. customer journeys and strong conversion rates for car VL U
+classifieds and dealers.
+This diverse product set, paired with channel flexibility, ~ . Lh be »
+an easy integration layer, and a tailormade product/ Green finance | bd
+risk-engine set-up, enables Inbank to consistently win Residential solar panels and heat pumps are financed
+in the marketplace delivering the most relevant offer with ease through a fast, fully automated process at ~
+to merchants. the vendor's point of sale, supporting the transition to
+sustainable energy.
+Rental services
+Covering full-service car rental and consumer
+electronics, our rental solutions make installments
+more convenient and affordable while supporting the iy a
+circular economy. \ i 7
+-*
+—
+Active Online sales . ,
+merchants - 5
+= .
+RE \ Wea <
+Pr D , \"
+J = ‘
+. = oe
+7 / "
+« ——— =
+
+Merchant Merchant . =
+retention rate NPS
+
+8% 83
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.12 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 10
+
+Products
+
+Direct-to-Consumer (D2C)
+
+Consumer loans are one of the key drivers of Inbank’s Direct lending
+profitability. Our B2B2C model creates a strong cross- Reliable and fast, Inbank’s multipurpose loans provide
+sell channel across a large customer base. Through flexible financing for any need, with 90% of credit
+D2C, we offer segmented, purpose-driven loan . decisions made automatically within seconds.
+products with distinct pricing and risk profiles, enabling
+sharper targeting and stronger price differentiation. Savings
+
+With deposits 99% guaranteed by the Estonian national
+Inbank’s main funding source is competitively priced guarantee fund, we offer a simple and reliable way to
+term deposits, which strengthen our resilience and grow savings, easy to open online in just a few clicks.
+
+support sustainable growth. Our deposit portfolio
+stands at €1.3bn and is supported by a diverse client
+base across key currencies. With our EU banking
+license, we are able to collect deposits across Europe
+both directly and through platforms such as Raisin
+and Check24.
+
+Active Returning
+customers customers
+
+600,000 34%
+
+Customer Deposit
+NPS contracts
+
+65 122,000
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
+
 
 === pdf p.13 ===
+Management report
+
+“~~ :
+
+SS
+
+\\ =<—S hy
+\ . DA
+; “4 *
+
+'<,
+
 
 === pdf p.14 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 12
+
+Statement
+from the CEO
+
+Since our founding in 2010, Inbank has been rethinking
+
+how financial services can be better embedded into Originated volume
+merchants’ sales flows and how we can build per product
+smoother journeys to make financing more accessible 770
+for our customers. By using modern technology and 680 697
+constant process innovation we are changing the
+habits around how people buy and borrow responsibly. 575 90 We
+As a result, Inbank continues to win in every market B20) 88
+where we operate, while delivering our 14th 70 86 178
+consecutive year of profitability. ‘ee 210
+67 95
+Inbank’s 2025 was, in many respects, a year of two 134 75 97 89 eS
+
+halves. In the first quarter, we were still recovering
+
+from the higher interest rates and slower growth of
+
+2024. However, in spring we decided to speed up our 235 278 282 254 272
+growth ambitions and accelerated sales across most
+
+markets and product groups.
+
+‘21 22 23 24 25
+Sales, margins and revenue
+j For the full year, our originated volume (OV) grew by Portfolio per
+oe ~ 10% and reached a record €770 million. Our loan and produc
+Priit Pold a rental portfolio also grew by 11% to €1,28 billion. Green 1277
+EO. -founder financing in Poland was the strongest contributor to 1155
+IEC), te ele sales, growing by 63% to €146 million. Merchant 1034
+solutions remained our largest segment in terms of 198
+originated volume, growing by 7% to €272 million, 818 173
+mainly driven by a very strong demand for Buy Now Pay 163
+“ , . Later (BNPL) products in the Baltics. Direct lending also 639 350 385
+Inbank’s goal is to serve our showed very strong growth, increasing by 33% to €119 a2 250
+partners with the best and million in originated volume. 12 163
+8 8 ug 243 268 325
+most convenient financing After record sales in 2024, car financing witnessed a 156 15
+products while building a slight setback in 2025, with sales declining by 15% to 2B 275 aM
+long-term profitable €178 million. Rental services originated volume was 2B
+: ; : stable at €54 million. Both, car financing and car rental 1 ; 1 1 ;
+portfolio that delivers 20% volumes were significantly impacted by the introduction a az 2) a 35
+ROE for our shareholders.” of Estonia’s car tax at the beginning of the year.
+. . . @ Merchant solutions | Green financing
+Regionally, sales growth was driven by an acceleration
+in CEE. Lower interest rates in Poland and new Auto marketplace and dealers
+partnerships in Czechia contributed to a 23% increase Direct lending Rental services
+
+in originate volume to €309 million. At the same time,
+Baltic originated volume grew by 3% to €462 million.
+CEE share of Inbank’s loan and rental portfolio
+increased to 44% from 41% a year ago. We expect this
+trend to continue with Poland being the largest market
+in CEE, and Inbank gaining further traction in Czechia.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.15 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 13
+
+i With CEE’s share of the business increasing and ]
+a interest rates declining, Inbank’s total portfolio yield Product portfolio and
+, \ showed a slight decline throughout the year, ending growth trends
+2025 at 11.12%, compared to 11.26% a year earlier. At
+the same time, total funding costs dropped more With our market presence growing, our business keeps
+noticeably to 4.02% from 4.40% in 2024. As a result, evolving. Inbank’s goal is to serve our partners with the
+Inbank’s total income margin improved to 5.52% best and most convenient financing products while
+from 5.36%. building a long-term, profitable portfolio that delivers
+20% ROE for our shareholders. As a result, our
+
+In the second half of the year, margins were also business develops through a combination of market
+impacted by rapidly dropping interest rates in Poland, trends and deliberate choices.
+where nearly half of our portfolio is floating rate. Over
+the year, the Warsaw Interbank Offered Rate (WIBOR) In 2025, we saw a continued strong demand in BNPL,
+
+; lar dropped by almost 2%. This change is expected to as more merchants adopted our best-in-class
+
+; ietary, modular, further impact Inbank’s funding cost in 2026 as products. At the end of the year, we also launched the
+
+4 A propr! deposits reprice with a slight lag to the market rates. BNPL in Poland. At the same time, solar panel financing
+
+accelerated in Poland, driving growth in our green
+
+Inbank's total net income grew by 13% to €85.1 million financing portfolio. A year earlier we saw an extremely
+in 2025, while operating expenses remained at the ; strong demand for car financing. We believe that by
+2024 level at €46.3 million. As a result, Inbank’s profit building a diversified distribution and product range,
+
+vuxvawse*"e"°="" For 2025 grew by an impressive 57% to €19.2 million. Inbank can serve the largest number of customers,
+
+Return on equity (ROE) reached 12.3% and cost-income while building a profitable and diversified loan portfolio.
+
+ratio dropped to 54.4%. In 2024, results included some — While conditions shift across markets, products and
+
+extraordinary costs, excluding these, Inbank’s net profit customer segments, having a diversified portfolio
+
+in 2024 would have been €15 million and on this basis, allows Inbank to be more selective in reaching our
+
+our core profit in 2025 grew by 25%. return targets. We ended 2025 with a very well
+diversified portfolio of more than 900,000 active
+customer contracts with car financing representing the
+
+Credit quality largest share at 30% the remaining product groups
+
+accounted for 10-25% each of the portfolio.
+
+In 2025, we made steady improvements in our financial
+performance. While the growth rate was below our
+historical average, we improved margins and kept
+operating expenses under control. Risk costs increased
+slightly faster than the portfolio, but still ended within
+our target at 1.59% of the average portfolio, compared
+to an impressive 1.49% a year earlier. Over the past five
+years, Inbank’s impairments to the average loan and
+rental portfolio have remained below our 1.6% target,
+reflecting our dynamic credit underwriting and strong
+risk control capabilities. As the loan portfolio continues
+to shift towards lower margin markets and product
+groups, we expect risk costs to decline slightly further
+in the coming years. Our underwriting algorithm will
+also continue to evolve as we serve an ever-growing
+number of partners and customers.
+
+To further solidify our position in full-service car rental,
+Inbank acquired the remaining 33% stake in Mobire
+becoming 100% owner of the business. We are pleased
+with Mobire’s performance and market potential and
+continue to invest in its growth as we see its business
+model gaining market share from traditional leasing
+companies. After the acquisition, Mobire will continue
+to operate independently under CEO Andrus Valma,
+who also became a significant shareholder of Inbank.
+
+We also continued to build traction with our electronics
+rental product, primarily in cooperation with Apple
+premium resellers across most of our markets. With the
+implementation of the European Consumer Credit
+Directive Act Il expected in November 2026, we see
+significant potential to support telecommunication
+companies with our rental and financing products. As
+0% financing becomes regulated as a credit product,
+we also expect shifts in the BNPL market. As a
+regulated bank with strong credit underwriting
+capabilities, Inbank is well positioned to benefit as the
+European BNPL landscape evolves.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.16 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 14
+
+Finally, Inbank continued to perform strongly in the car W:
+classifieds financing. In early 2025, we extended our ay forward
+
+exclusive cooperation with auto24 in Estonia and
+Autoplius in Lithuania. In December, we also secured
+an exclusive partnership with Poland's leading car
+classifieds marketplace, Otomoto (part of OLX Group).
+This cooperation was launched in February 2026 and is
+a clear proof of Inbank’s superior product offering for
+digital marketplaces. Building on learnings from our
+existing partnerships, we look forward to extending
+our digital marketplace financing capabilities to new
+European markets.
+
+By rethinking how financing products can be better
+distributed through partner channels and embedded
+conveniently into merchant's sales flows, Inbank is
+disintermediating consumer financing from traditional
+universal banks. As a testament to the success of this
+strategy, we continue to gain market share across all
+our markets. As a “pay later” specialist with a superior
+technology foundation, wide product range and diverse
+partner base, Inbank is shaping a new category in the
+European market.
+
+We are excited about where we stand with our product
+capabilities, serving a wide range of verticals through
+online, in-store, call centre and door-to-door channels.
+Inbank has built a broad and deep set of capabilities to
+help our merchant partners increase sales. Going
+forward, we intend to package these capabilities into a
+scalable Merchant Platform. Improving self-onboarding
+and the merchant dashboard will allow Inbank to
+acquire and serve an increasing number of small and
+mid-sized merchants. As a final step of unifying our
+tech stack, we will complete the migration of our
+Lithuanian merchants partners to the common Inbank
+platform during Q1 2026.
+
+We look forward to the coming years as we accelerate
+Inbank's growth and profitability. Having a strong
+product and technology foundation enables us to
+execute our growth strategy by expanding merchant
+reach and deepening penetration across all markets.
+Bringing on new merchants increases customer
+acquisition, and as our customer base grows, our
+service becomes more valuable to merchants. “Pay
+later” products also drive customer loyalty, with half of
+first time customers returning to use another Inbank
+product. This creates a virtuous circle in which an ever-
+growing number of partners and customers increase
+the value of the Inbank platform. We have already
+achieved this network effect in our most mature
+markets. But still a lot of work and significant
+
+Funding, capital and opportunities lie ahead as we take the value of Inbank’s
+5 5 embedded finance platform to more merchants and
+
+“By rethinking how governance customers in existing and new European markets.
+financing products can be With Inbank’s risk-weighted assets growing in line with
+better distributed through our ROE, we were able to fund growth through internal Priit Pdldoja
+
+profit generation during 2025. Nevertheless, following CEO and Co-founder
+partner channels and . the acquisition of the remaining stake in Mobire, we
+embedded conveniently into decided to issue €5.3 million worth of new shares in
+
+’ December. After the successful issue, Inbank’s
+merchant 5 sales flows, . valuation increased to an all-time high of €236 million.
+Inbank is disintermediating Inbank's capitalisation remained solid throughout the ‘
+3 year, with total capital ratio and CET 1 capital ratio “ <=
+Cons buonkey financing from ending 2025 at 18.81% and 14.13% respectively.
+traditional universal banks.”
+
+In January, Inbank repaid €8 million of Tier 2 bonds,
+
+and in October we issued €8 million of new Tier 2
+
+bonds at 6.25%. The bond issue attracted nearly 1000
+
+investors and the original issue was oversubscribed 4,3
+
+times by. Maintaining a wide investor base and
+
+broadening our appeal to new investors is an important
+
+step as we contemplate a potential IPO in 2027.
+
+In April, we further strengthened our Supervisory
+Board by appointing seasoned banking professional
+Erkki Raasuke as an independent Chairman. We also
+elected two new members Isabel Faragalli, a former
+investment banker at Credit Suisse with more than 25
+years of experience in debt capital markets and Sergei
+Anikin, a seasoned tech leader with experience at
+Skype and numerous tech scale-ups to the Supervisory
+Board. Former Chairman and co-founder Jan Andresoo
+remained as a member of the Board.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.17 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 15
+
+People and culture
+
+At Inbank, we believe that our people are the driving
+force behind our success. Our team is made up of high-
+performing professionals who are deeply passionate
+about their craft, and we are committed to providing
+
+an environment where they can thrive.
+
+Inbankers onboarded Nationalities
+in 2025 represented
+
+141 26
+
+People across Europe, : Average age Women in
+30% in Tech 6 i leadership roles
+
+460+ ° 36 46%
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmp| format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
+
 
 === pdf p.18 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 16
+
+Working at
+Inbank
+
+Organization
+
+Our culture and organization are shaped by our growth
+ambitions, ensuring we remain agile and move fast in
+response to market changes. That's why we strive to
+keep our structure flat, empowering high-performing,
+autonomous teams to act like owners — so ideas and
+execution aren't slowed down by bureaucracy. At the
+same time, we make an effort to avoid silos and always
+measure success as One Inbank, prioritizing what's
+best for the entire organization.
+
+Inbank is also a founder-led company, with Priit and
+Jan having skin in the game and being still very actively
+involved in setting and executing the strategy. While
+our leadership principles and values are very much
+driven by the founders, Inbank has become a large
+international organization where the Management
+Board and a value-adding Supervisory Board play an
+increasingly important role in setting the direction and
+making key strategic choices.
+
+Team composition 2023 2024 2025
+Total FTEs 417 442 463
+Tech 35% 33% 30%
+Commercial 42% 42% 48%
+Business support 23% 25% 22%
+Founders
+Local markets Product & Technology Enabling Units
+Sales, marketing, and customer care ~ Designing and developing our ~ Finance, risk, legal, and people, ensuring
+delivering partner and customer products and customer offering governance, compliance, and scalable
+success growth
+We hire strong business leaders with We attract top product engineers and We bring in highly specialized bankers,
+exceptional sales and partner-servicing business-oriented product managers to finance, compliance, and legal experts
+skills, supported by excellent customer build and scale market-leading products. to manage our balance sheet and
+care teams. risks effectively.
+Management Board Supervisory Board
+Executive body responsible for the day-to-day management Provides governance, oversight, and strategic direction,
+of the company and the implementation of its strategy. ensuring the company’s long-term sustainable success.
+One Inbank
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.19 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 7
+
+Culture Diversity Wellbeing
+
+We foster a culture of trust and autonomy, giving our At Inbank, we believe in meritocracy, ensuring equal We're committed to supporting both mental and
+
+employees the freedom to take ownership of their work opportunities for everyone to succeed regardless of physical wellbeing with a variety of benefits. These
+
+while providing the support and resources they need to age, gender, ethnicity, or background. We're also proud include sports compensation tailored to individual
+
+succeed. Whether it’s through professional growth to have 46% of leadership roles held by women. preferences, additional health insurance with access to
+
+opportunities, flexible working arrangements, or psychological support and paid health days.
+
+celebrating milestones together, we ensure that We also have a Whistleblowing Procedure in place to —er
+
+everyone feels valued and empowered. foster a safe, transparent, and ethical workplace, Inbankers with 3+ years of tenure enjoy an extra week vpereeeetit
+further reinforcing our commitment to diversity of paid annual leave. Staying active is also part of our
+
+Our culture is anchored in shared values across all and inclusion. culture, with yoga classes, running marathons, and
+
+teams, with some local flavor. We do not tolerate office tennis and padel meetups bringing us together.
+
+politics - our culture values directness, openness, and oo
+
+telling it as it is. Being brutally honest is not always Conder diversity 2023 2024 2025 In 2025, we held a wellbeing month, with each week
+easy, but it helps us move faster, surface issues early, (% of total FTE) |Women| Men|Women| Men|Women! Men focused on a different area: movement, healthy eating,
+and learn quickly. These behaviors and expectations sleep and recovery, and mental and emotional
+
+are reflected in our Leadership Principles, which guide Overall 53%) 47%) 52%) 48%) 53%) 47% wellbeing. We also ran our traditional walking
+how we lead and work together across the group as Leadership 46%) 54%! 50%) 50%! 46%) 54% challenge, encouraging everyone to take steps toward
+One Inbank. Management 25%| 75%| 25%| 75%| 25%| 75%| ~— feeling better every day.
+
+Board
+
+Supervisory 14%| 86% 20%) 80%) 29%) 71% .
+Engagement Board Collaboration
+We value feedback and encourage everyone to share Age and nationality breakdown 2023 2024 2025 We make it a priority to work across teams and borders
+their thoughts openly. This commitment is reflected in {of total FTE) to ensure we're growing together, not apart. In 2025,
+our 86% response rate to the 2025 Employee Nationalities 1 26 26 84% of employees reported strong collaboration across
+Engagement Survey, well above the industry units and teams to achieve shared goals.Teams
+benchmark. It shows that Inbankers feel heard and Average age 36 36 36 working from different locations are encouraged to
+empowered to contribute to shaping our shared future. <30 7% 23% 21% meet in person regularly to foster brainstorming and in-
+
+. 30-50 7% n% 73% person connections.
+
+Biannual pulse checks help us stay close to employee
+sentiment, identify emerging topics early, and take >50 6% 6% 6%
+action without delay. We prioritize employee voice and : :
+use feedback to guide decisions and continuously Communication
+improve. i . age
+
+Personal impact Openness is at the core of our culture. In addition to
+
+7 . internal communication through our Intranet and Slack,
+
+Employee Engagement Survey 2023 | 2024 | 2025 Being part of the Inbank team means making a we host regular all-hands calls, where the CEO and
+Response rate 83%| 89%| 86% meaningful weave a ae ributes 96% of Inbankers function leads share updates on business results,
+
+eel their work directly contributes to the company's management meetings, and company news with all
+eNPS score 34 8 22 goals. This highlights how our employees find value Inbankers. In addition, we foster a no-silos culture
+Individual work contributes to Inbank’s goals 96%] 95%| 96% and purpose in their dally tasks, g inbonk to ne it where everyone is encouraged to reach out directly to
+
+important role they play in driving Inbank towards its i i
+Personal and professional development is 38%| 86%| 87% tee ic objecti y Play 9 the people closest to the information, regardless of
+supported strategic objectives. level, to get what they need to do their work well.
+'ssues discussed honestly and openly 91%) 92%} 93% In 2025, we launched HiBob as our new HR platform to
+Satisfaction with internal communication 92%] 85%| 92% Flexibility improve the employee experience, increase data
+Strong collaboration across units and teams to - -| 84% accuracy, and simplify HR processes. It also
+achieve shared goals Remote work has become the norm, but at Inbank, we strengthens performance management by making goal
+Trust in decisions made by Management Board . -| 94% see flexibility as much more than that. Whether it’s setting, feedback, and reviews more structured,
+
+working from home a few days a week, relocating for a consistent, and easy to track.
+few months, keeping flexible hours, or working part-
+
+time, we're open to and supportive of individual
+
+arrangements. This approach is reflected in our Events
+
+Employee Engagement Survey, where 93% of
+Inbankers said they are satisfied with the flexibility in
+their work schedule.
+
+(Inbank eNPS and Employee Engagement Survey, September 2025)
+
+While we're serious about our work and results, we
+never miss a chance to celebrate our successes. From
+smaller team events to holiday gatherings or playing
+sports together, there’s always something happening.
+We believe it’s important to reward ourselves for our
+accomplishments and bring teams together.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmp| format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.20 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 18
+
+Leadership
+principles
+
+Our leadership principles are designed not only to help
+managers become great leaders but also to give every
+Inbanker a clear sense of our culture and what we
+value. These principles serve as a guide for how we
+work, lead, and grow together.
+
+Here for our partners and customers Build empowered teams
+
+There would be no Inbank without our partners and You cannot create something truly great alone.
+
+customers. Leaders ensure that internal challenges Leaders hire and keep the best talent, giving them the
+
+never stand in the way of delivering excellence to our freedom and support to grow into their true potential.
+
+partners and customers. They cut through the noise, They provide purpose and clear direction, empowering
+
+remove obstacles, and keep the focus on what truly people to get things done and make a real impact as a
+
+matters. Everything else can wait. team. Leaders create a space where people feel
+energized, connected, and valued.
+
+Set the bar high
+
+While getting things done and delivering results is key, Champion meritocracy
+
+it's the commitment to high standards that defines We don't let hierarchy stand in the way of getting
+
+success. Leaders constantly raise the bar to drive things done. Leaders encourage collaboration,
+
+uncompromising quality, inspiring their teams to push transparency, and the free exchange of ideas,
+
+boundaries and reach new heights. regardless of job title or rank. They reward and
+promote based on contribution, not politics or tenure,
+
+Act like owners so that everyone with talent, performance, and impact —
+
+We provide direction and context, not checklists. has an equal chance to succeed.
+
+Leaders have an owner's mindset by taking personal
+
+responsibility for the problem and delivering the Act on opportunities, but never bet the bank
+
+solution. They don’t wait for permission, they have the Exciting things don’t happen in comfort zones, which is
+
+freedom and responsibility to deliver results. They why we value initiative and calculated risk-taking. Our
+
+constantly ask themselves, “Would | make this decision leaders are curious by nature, always on the lookout
+
+if this were my company?” and act accordingly. for new opportunities. They're ready to seize new
+possibilities, whether within or beyond our domain, but
+
+Put Inbank first . they do it smartly, never putting everything on the line.
+
+We measure success as One Inbank, not as individual
+
+teams. Leaders look beyond their domains and Make decisions, don’t over analyze
+
+prioritize what's best for the entire organization. They Indecision is worse than a bad decision. Leaders step
+
+never say, “That’s not my job” or turn a blind eye when up and make the call - a ‘no’ is also a decision. They
+
+things slip through the cracks. Instead, they take synthesize available information, form an opinion and
+
+initiative, find the right person to address the issue, act with confidence, even without all the answers.
+
+and ensure it gets resolved. Once a decision is made, they and their teams commit
+to it fully.
+
+Brutally honest, never rude
+
+Avoiding hard truths and sparing feelings ultimately
+compromises standards. Leaders don’t assign blame or
+dwell on the past. Instead, they focus on guiding their
+teams toward actionable solutions while creating an
+environment of trust. Leaders tell it like it is, but always
+with empathy — honesty is no excuse for disrespect.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmp| format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.21 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 19
+
+Le adership Learning and growth
+
+We believe people know best what they need to grow,
+and talent so we give everyone the freedom to create their own
+self-development plans based on their interests and
+goals. From acquiring new professional skills and
+development attending industry events to learning languages or
+receiving personal coaching, we offer a wide range
+of opportunities to support every Inbanker’s
+
+We encourage our people to explore different career growth journey.
+
+paths, discover what they're great at, and grow into
+their full potential. While we're working every day to
+reinvent the industry, we encourage our people to also
+be reinventing themselves. Here at Inbank, people are
+challenged but also supported.
+
+From 2025, we introduced Growth talks — structured
+conversations focused on employees’ development and
+career growth at Inbank. Unlike performance
+discussions, they are led by the employee, with the
+manager supporting and helping align ideas with
+
+: i i! 9
+Onboarding business needs. In the first year, around 85% of
+
+employees participated.
+
+All newcomers are welcomed to our HQ in Tallinn for an
+in-person onboarding experience. This two-day event .
+gives them the opportunity to meet the founders, learn Leadership development
+
+about Inbank’s mission, values, and business model,
+
+and understand how they can make an impact. It also In 2025, we also introduced a series of leadership
+includes an introduction to the organization's main trainings to strengthen core leadership skills and
+functions and the founding story. deepen their understanding of the Inbank business
+model. The program is designed to build practical
+To ensure a smooth transition, we also have a Buddy capabilities, share best practices, and align leaders
+Programme to help new Inbankers navigate their first around our Leadership Principles so we lead with a
+steps, get to know how things work, and feel common mindset and move forward as one Inbank.
+
+supported as they settle in.
+
+. Future talen
+Talent spotting uture talent
+Once a year, we run fairly-compensated student intern
+
+We regularly bring together heads of business units programs across our locations to help young people
+and the CEO to identify team strengths, unique skill gain practical knowledge and make their transition into
+sets, and areas for growth across the organization. the workforce smoother. Many of them even land their
+These sessions help us align different parts of the first job at Inbank. We also regularly host students at
+business while also recognizing top talent. By doing our offices and participate in career fairs to showcase
+So, we create opportunities for self-development, career opportunities and provide a glimpse of life ida
+whether through promotion or taking on a new at Inbank.
+challenge in a completely different area. This approach
+ensures that our people continue to grow and thrive
+within the organization. Interns 2023 | 2024 | 2025
+
+- Onboarded 7 12 22
+In 2025, we introduced a Key Role Assessment Retained 10 8 12
+
+procedure to map business-critical roles, identify
+potential gaps in skills and capabilities, and ensure
+effective succession planning.
+
+Strategic alignment
+
+Twice a year, we hold a group management meeting
+(GMM) to align our leadership community and top
+specialists with Inbank’s strategy, business model, and
+performance, while connecting people across locations
+and building strong bonds.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.22 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 20
+
+Recognition and
+compensation
+
+We believe in rewarding and promoting based on
+impact and results, not politics or tenure. Our
+commitment to fairness drives us to use market data to
+ensure everyone is compensated appropriately
+
+and competitively.
+
+Annual bonuses Sabbatical
+
+Apart from the provided compensation package, top Our fully compensated sabbatical program is designed
+performers have the opportunity to receive annual for high-performing employees to take a 6-week break
+cash bonuses determined by their individual every 4 years to recharge and refresh. In 2025, 25
+contributions and performance, as evaluated during Inbankers took this opportunity to rest, explore new
+the annual review process. passions, and return with renewed energy and purpose.
+Stock options Recognition
+
+Building something truly great requires having skin in We believe in recognizing those who go the extra mile,
+the game. That's why we allocate up to 1% of the whether it’s launching a new product, securing a
+company’s equity annually to inspire top talent with a partnership, or going above and beyond to support a
+sense of ownership. colleague. While we regularly celebrate milestones and
+
+achievements, we also take time to spotlight personal
+contributions at our annual Employee Awards. Award
+
+ESOP programme 2023 2024 2025 categories include Team Player, Professional, Rising
+Total stock options 672,325 | 624,400 | 601,993 Star, True Inbanker, and Hall of Fame. Team and project
+outstanding awards include Deal of the Year, Innovation of the Year,
+Employees and top 64 75 96 and Moonshot.
+
+management eligible
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmp| format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.23 ===
+Overview Management report Governance —_—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 2
+
+Environmental,
+social and
+governance
+
+Sustainability remains an important priority for Inbank, Sustainable financing Diverse and inclusive
+
+and we continue to advance our environmental, social
+and governance approach to support long-term work culture
+
+success and maintain trust with partners, customers, Inbank is dedicated to exploring business opportunities
+
++ that align with environmental and social sustainability. . 7 . 7
+employees, and investors. As Inbank has fewer than We offer a range of sustainable financing solutions that At Inbank, we cultivate a diverse and inclusive work
+
+1,000 employees and turnover below €450 million, we contribute to climate change mitigation and accelerate Culture that ensures equal opportunities for all
+
+are not currently required to report under the the transition to renewable employees. We prioritize continuous professional
+
+Corporate Sustainability Reporting Directive (CSRD). energy solutions. development to help our team enhance their skills,
+resilience, and adaptability. As a flexible employer, we
+
+One standout example is our green financing products, are dedicated to supporting the mental and physical
+
+which promote renewable energy installations and well-being of our employees.
+
+energy efficiency improvements, delivering a positive . .
+environmental impact. Additionally, Inbank supports Learn more about working at Inbank in the People and
+
+the circular economy by offering financing for pre- Culture chapter.
+loved cars and premium electronics rentals.
+
+Beyond financial goals, we prioritize efficient resource
+management and creating value for our stakeholders.
+By making financing more accessible, we help
+customers choose products with a longer lifetime,
+supporting more conscious consumption. We foster a
+culture that promotes responsible business practices
+as we drive growth and innovation.
+
+. Regulatory compliance
+
+E | Energy-efficient practices and digital solutions Green financing and high ethics
+
+Sustainable financing Powered by the European Investment Bank,
+s People Inbank’s green financing options enable
+customers to install solar panels or upgrade
+to more efficient heating pumps, providing
+eco-friendly home improvements.
+
+Inbank is committed to staying aligned with evolving
+regulatory requirements, including data privacy,
+consumer protection, and sustainable finance, while
+upholding high ethical standards across all operations.
+We diligently adhere to guidelines, standards, and
+
+Energy-efficient practices regulations applicable to financial institutions to ensure
+soe . compliance and integrity.
+and fully digital services
+
+G | Regulatory compliance and high ethics
+
+Car financing
+
+Our competitively priced car loan products
+offer customers an easy way to upgrade to
+a practical and affordable pre-loved vehicle,
+supporting a more sustainable approach to
+car ownership.
+
+We aim to reduce Inbank’s operational carbon footprint
+by adopting energy-efficient practices. All our products
+and services are fully digital and scalable, minimizing
+environmental impact, enhancing convenience for
+partners and customers, and improving operational
+efficiency.
+
+Our investments focus on automating and accelerating
+credit processing through paperless digital application
+processes, digital identification, data-driven credit Rental services
+
+decisions, and operational automation. Inbank’'s rental services provide a hassle-free
+way to access the latest tech, appliances, and
+tools. By choosing a circular way of living,
+customers can extend the lifespan of every
+product they use and contribute to reducing
+waste in the world.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.24 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 22
+
+Our approach
+
+Risk management is an essential part of responsible Inbank strives to make a positive impact in the
+governance and is embedded in both our day-to-day communities where we work and live by supporting the
+operations and long-term strategic planning. growth of young talent. We are passionate about
+
+learning and sharing best practices, which is why we
+continue to run Inbank’s Internship Program. This
+
+Environmental program bridges the gap between academic
+knowledge and practical work experience, equipping
+
+Environmental criteria address Inbank’s impact on the interns with the skills they need to build successful
+
+environment and the risks arising from associated future careers.
+
+events. These can be categorized into climate change,
+
+use of natural resources, pollution and waste, and Each year, we donate to the Colonna Charity
+
+environmental opportunities. Foundation, which focuses on improving the health and
+well-being of children through various initiatives,
+
+Climate change-related risks are driven by two main including projects aimed at addressing mental health
+
+factors: physical risks and transition risks. Inbank does challenges. Additionally, all proceeds from selling
+
+not hold assets that are vulnerable to physical risks branded merchandise at Inbank Fan Shop are donated
+
+stemming from climate change. Similarly, transition to charities selected by our team. In 2025, we donated
+
+risks, along with the use of natural resources, pollution, to The Gift of Life cancer treatment foundation.
+and waste, are not significant due to the nature of
+Inbank’s business activities.
+
+Governance
+Social Inbank has robust corporate governance procedures in
+place to build and maintain the trust of all
+Inbank upholds social criteria to the highest standards, | Stakeholders. We believe that strong governance is
+focusing on employee well-being, customer security, achieved by managing the business responsibly,
+and ethical business practices. We are dedicated to efficiently, and sustainably.
+providing a safe and healthy work environment,
+offering robust training and development opportunities, Inbank’s governance principles, together with the
+and supporting a positive work-life balance for Chairman of the Supervisory Board's statement, are
+all employees. outlined in the Corporate Governance Report, and our
+risk management principles are explained in Note 3 to
+For customers, Inbank has built strong foundations for the Consolidated Financial Statements.
+data security and privacy, ensuring the quality of its
+products while creating social opportunities through Inbank’s bonds are listed on the Nasdaq Baltic Stock
+accessible financing solutions. Risks in this area Exchange, and we prioritize the provision of fair,
+include employment and safety practices, customer detailed, transparent, and timely information to all
+relationships, and regulatory interactions, all of which stakeholders on our strategy, business, and financial
+are managed with care. Inbank also applies internal performance. Our public reports are prepared with the
+regulations for sourcing and outsourcing activities, principle of being clear, accessible, and useful for the
+carefully selecting business partners and vendors. reader at all times.
+
+We are active members of several professional
+networks and associations, including the Estonian
+Banking Association. Additionally, we hold a board seat
+at FinanceEstonia, contributing to the development and
+growth of the financial sector in the region.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.25 ===
 
 === pdf p.26 ===
+Overview Management report — Governance _—_Consolidated financial statements AS Inbank Consolidated Annual Report 2025-24
+
+Chairman’s
+statement
+
+On behalf of the Supervisory Board, | am pleased to This structure allows for in-depth discussions of more
+present the Corporate Governance Report for 2025. specific topics among the committee members with
+Inbank’s Supervisory Board provides governance, relevant expertise before making recommendations to
+oversight, and strategic direction, ensuring the the Supervisory Board for final decisions.
+company’s long-term sustainable success,
+safeguarding the interests of shareholders and Committee members work closely with leaders from
+stakeholders, and upholding the highest standards of Internal Audit, Risk Control, Compliance, People, and
+corporate integrity and performance. external audit.
+We operate as a value-adding board, going beyond In decision-making, the Supervisory Board seeks
+oversight to actively provide strategic insights and consensus whenever possible. Majority members are
+guidance. It involves close alignment with the expected to consider minority views carefully, and
+Management Board in strategy development, key minority members are encouraged to communicate
+decisions, and investment agendas focused on long- their perspectives clearly to influence the majority.
+term value creation. The economic interests of While unanimous decisions are ideal, once decisions
+Supervisory Board members are aligned through share are made, the entire Supervisory Board is expected to
+option-based remuneration. support their implementation fully.
+The Supervisory Board advises and supports Board-only sessions are held after each meeting to
+management, shares industry insights, facilitates facilitate immediate feedback and continuous
+networks and strategic partnerships, engages actively improvement, enhancing trust among members and
+in goal setting and performance management, and raising the bar for Board effectiveness.
+supports talent and organisational development.
+Erkki Raasuke Supervisory Board members often work directly As Chairman, | hold regular discussion and update
+with their management counterparts between meetings with the CEO, Chief of Staff, Head of Internal
+Chairman of the Supervisory Board board meetings. Audit, and Head of Risk Control.
+The Supervisory Board has seven members with broad Looking back at 2025, the Supervisory Board would
+experience in corporate governance, capital markets, like to thank all Inbank’s employees for their dedication
+a . financial services, corporate finance, risk and and contribution. We have witnessed several important
+We recognise the regulatory matters, scaling operations, and technology — developments that demonstrate how Inbank is growing
+’ implementation. In 2025, the General Meetin stronger and more mature. We recognise the
+Management Board Ss appointed me as Chairman with former Chairman Jan Management Board's ambitions and commitment, and
+ambitions and Andresoo continuing to serve as a member and taking look forward to continuing our growth journey together.
+. an active leadership role in shaping Inbank’s products
+commitment, and and channels strategy. We further strengthened the
+Board with the election of two new independent Erkki Raasuke
+look forward to members - Isabel Margaret Anne Faragalli, an expert in Chairman of the Supervisory Board
+
+continuing our growth capital markets, and Sergei Anikin, a technology leader.
+
+. a These changes marked an important step toward a
+
+journey together. more diverse and independently governed Supervisory a
+Board, which is essential as Inbank continues its ~
+journey toward becoming a public company.
+
+The Board's work is guided by an annual calendar, and
+each meeting is structured to ensure a well-balanced
+allocation of time to business performance, future
+development, and risk and oversight matters.
+
+The Supervisory Board operates through two
+
+committees, the Audit and Risk Committee and the
+Remuneration Committee.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.27 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 25
+
+Corporate
+governance
+report
+
+Inbank adheres to the Corporate Governance Governing Bodies
+Recommendations (CGR) issued by the Estonian
+Financial Supervisory Authority, applying these As a consolidated group, Inbank’s key strategic and
+principles in a manner consistent with our business management decisions are made centrally, enabling us
+model and organisational structure. We also follow the to operate with a unified set of objectives and policies.
+requirements set out in the Estonian Commercial The General Meeting of the Shareholders serves as the
+Code, the Credit Institutions Act, and other highest governing body. Inbank maintains a two-tier
+relevant regulations. board structure consisting of the Supervisory Board and
+the Management Board, each with clearly defined roles
+In instances where Inbank does not fully apply a CGR and responsibilities that ensure oversight, transparency,
+recommen-dation, the approach taken and the and effective control throughout the organisation.
+
+rationale are explained at the end of this section.
+This structure allows for in-depth discussions of more
+specific topics among the committee members with
+relevant expertise before making recommendations to
+the Supervisory Board for final decisions.
+
+General Meeting is Inbank’s highest governing body,
+where shareholders decide on key matters such as the
+Annual Report, profit distribution, share capital changes,
+and the election of Supervisory Board members.
+
+General
+
+Meeting
+
+Supervisory Board provides governance, oversight,
+
+and strategic direction, supervising and advising the Pt
+Management Board to support long-term success and Supervisory
+safeguard shareholders’ interests. Board
+
+Audit and Risk Committee oversees financial
+reporting, internal controls, risk and capital
+management, compliance, and external audit.
+
+Audit and Risk Remuneration
+Remuneration Committee oversees remuneration Committee Committee
+principles and their alignment with risk management,
+own funds, and liquidity.
+Management Board is the executive body responsible
+for day-to-day management and for developing and
+implementing Inbank’s strategy, ensuring effective Management Management
+execution, strong internal controls, and Committees Board
+sustainable growth.
+Credit Committee oversees the Group's credit risk
+profile and framework and makes the most significant
+credit decisions, including setting product Credit CEE Baltic Product and Growth
+requirements and limits within its delegated authority. Committee Business Business Technology
+Asset and Liability Management Committee oversees
+funding, liquidity, and market risk management, ensuring
+risks stay within the Supervisory Board-approved risk
+appetite and that related internal rules are developed Asset and Liability Finance Risk People Legal
+and updated. Management Comm. Control
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.28 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 26
+
+General Meeting Report of Shareholders’ Meetings in 2025 Supervisory Board Supervisory Board Committees
+The General Meeting of the shareholders is the highest Annual General Meeting ~ 31 March 2025 Inbank’s Supervisory Board provides governance, Audit and Risk Committee (ARC) .
+governing body at Inbank. The competence of the Overview of the Company's 2024 financial results oversight, and strategic direction, ensuring the The Audit and Risk Committee supports the Supervisory
+General Meeting is laid down in legislation and the and activities company’s long-term sustainable success, Board by overseeing Inbank’s financial reporting and
+Articles of Association. For example, the General - safeguarding the interests of shareholders and the effectiveness of accounting and reporting
+Meeting can amend the articles of association, Approval of the Company’s consolidated annual report stakeholders, and upholding the highest standards of processes, as well as the efficiency and effectiveness
+increase or decrease the share capital, elect and of the financial year 2024 corporate integrity and performance. of internal controls, Internal Audit, and risk and capital
+remove members of the Supervisory Board, approve Deciding on the distribution of the Company's profit management. It also monitors legal and regulatory
+the annual report and decide on the distribution of of the financial year 2024 In accordance with the articles of association, Inbank’s compliance and oversees the external audit process,
+profit, decide on the dissolution, merger, division or - — Supervisory Board consists of five to seven members, including the external auditor's independence and
+transformation of the company. Amendment of the articles of association of who are elected by the General Meeting for a three- performance.
+the Company year term. As of December 31, 2025, the supervisory . . .
+The General Meeting at Inbank is called by the Election of new members of the Supervisory Board board had seven members. On March 31, 2025, the Inbank’s Audit and Risk Committee has four members.
+Management Board. Ordinary General Meetings are - , general meeting appointed existing member Erkki Effective as of 1 January 2026, Raino Paron was
+announced to the shareholders at least three weeks Approval of Supervisory Board members Raasuke as chairman and elected Isabel Faragalli and appointed as the Chairman, taking over from former
+before and an extraordinary General Meeting, at least remunerations Sergei Anikin as new members. Former chairman Jan committee Chairman Erkki Raasuke, who continues as
+one week before. The Supervisory Board determines Approval of the issue of share options to the Andresoo continues to serve as a member of the a member alongside Jan Andresoo and Triinu Bucheton.
+the agenda of the General Meeting. Supervisory Board members Supervisory Board.
+— ~ The members of the Committee do not receive
+A notice of the General Meeting is sent to the of ihe Suporvicony Beard py bonus to the sao The Supervisory Board holds regular meetings both in any remuneration.
+shareholders via email and published in a daily person and remotely, with dates agreed annually in
+national newspaper. advance. In 2025, the Supervisory Board held 6
+. ; meetings and on 12 occasions decisions were adopted Remuneration Committee (RC)
+
+The agenda of the General Meeting, draft resolution Extraordinary General Meeting - 12 December 2025 remotely. All members attended at least half of the The Remuneration Committee supports the Supervisory
+proposals from the Supervisory Board and other Overview of the financial results and the future plans meetings held in 2025. No conflicts of interest related Board by evaluating the implementation of Inbank’s
+relevant materials are made available to the of the Company to the agenda items were declared by the members remuneration principles and assessing how
+shareholders prior to the General Meeting on Inbank's — - - during 2025. remuneration-related decisions align with risk
+website. Shareholders may vote on the draft Decision on the increase of the share capital management requirements, as well as own funds and
+resolutions prepared in respect of the items on the All the members of the Supervisory Board receive liquidity considerations.
+agenda of a General Meeting using electronic means monthly remuneration, and submit a declaration of
+prior to the General Meeting. economic interests and conflict of economic interests The Remuneration Committee has three members,
+
+_ once a year. Transactions with the members of the appointed by the Supervisory Board. Jan Andresoo
+Each shareholder has the right to participate in the Supervisory Board are disclosed in Note 28 of the serves as Chairman, with Roberto de Silvestri and
+General Meeting, to speak out at the General Meeting financial statements and are entered into under Raino Paron as members.
+on the topics presented on the agenda, to submit market conditions.
+substantiated questions, and make recommendations. The members of the Committee do not receive
+Inbank’s Articles of Association do not grant specific any remuneration.
+
+controlling or voting rights to different types of shares.
+Remuneration paid to the members of
+
+A General Meeting has a quorum if shares representing the Supervisory Board in 2025
+
+. Gross in thousands of € Basic remuneration Performance-related Total remuneration
+more than two thirds of all votes are present at the remuneration
+meeting. A resolution of a General Meeting (including
+amendments to the Articles of Association) is adopted Name Position 2024 2025 2024 2025 2024 2025
+if more than two thirds of the votes represented at the Erkki Raasuke* Chairman 26 34 - - 26 34
+General Meeting are in favour, unless otherwise Jan Andresoo*™*™ Member, Chairman of the 80 156 5 15 85 m1
+
+provided for by law. Remuneration Committee
+
+Roberto de Silvestri | Member 6 7 - - 6 7
+
+Triinu Bucheton Member 13 16 - - 13 16
+
+Raino Paron Member, Chairman of the 6 7 - - 6 7
+Audit and Risk Committee
+
+Isabel Margaret Anne _| Member - 14 - - - 14
+
+Faragalli
+
+Sergei Anikin Member - 14 - - - 14
+
+* In 2025, Erkki Raasuke also served as the Chairman of the Audit and Risk Committee, which was reflected in his annual remuneration.
++* Jan Andresoo's remuneration for 2025 included salary for his work as Head of Products and Channels, as unanimously decided at the
+Annual General Meeting on March 31, 2025. In 2025 based on the shareholders’ decision Jan Andresoo was awarded a one-off
+performance pay for his work during the year 2024, which was paid out in April 2025.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.29 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 27
+
+Supervisory Board
+
+Ls
+
+am
+
+Erkki Raasuke Jan Andresoo Roberto de Silvestri Triinu Bucheton
+
+Chairman of the Supervisory Board Member of the Supervisory Board Member of the Supervisory Board Member of the Supervisory Board
+
+Date of first appointment: 1 April 2023 Date of first appointment: 5 October 2010 Date of first appointment: 15 October 2010 Date of first appointment: 19 June 2014
+
+Start of current term: 1 April 2023 Start of current term: 31 March 2024 Start of current term: 31 March 2024 Start of current term: 31 March 2024
+
+Committee membership: ARC Committee membership: RC (Chair) Committee membership: RC Committee membership: ARC
+
+Experience: Erkki Raasuke is a seasoned financial Experience: Jan Andresoo co-founded Inbank in 2010 Experience: Roberto de Silvestri is an established Experience: Triinu Bucheton is an investor and
+
+executive, non-executive board member, and strategic and served as CEO until 2021, with a strong focus on entrepreneur and investor. He is the founder and head experienced consultant specializing in real estate, M&A
+
+advisor with extensive experience in banking and product strategy. He chaired Inbank’s supervisory of Colonna Capital, one of the largest players in the transactions, and corporate structuring and
+
+corporate governance. From 1994 to 2011, Erkki board from 2021 to 2025. Previously, he was CEO of Baltic real estate market. He is also founder of the management. She spent over ten years as part of the
+
+worked at Hansapank and later Swedbank, holding Swedbank Leasing and Swedbank P&C Insurance Colonna Charity Foundation. Previously, he held management team overseeing the real estate portfolio
+
+various Senior leadership roles, incluging ean eee pots arth tens of Estonian Business School positions at Finter Bank Zurich, Finavest Monaco and ° roonne capital one ofthe largest players inthe
+airman of the Board. Between ani , he roup - . He has contributed to the launc! G&G Private Finance. Roberto holds a Law degree from altic real estate market. Earlier in her career, she has
+
+advised the Ministry of Economic Affairs and and scale-up of Coop Finants, Veriff, and PSP the Universita di Genova and a degree in asec also worked at Ellex law firm, PwC and EY. Triinu holds
+
+Communications, focusing on state-owned enterprise Maksekeskus. He also co-founded Paywerk, a cross- Management from SDA Bocconi in Milan a master’s degree in Law from the University of Tartu
+
+governance. He later served as Managing Director of border BNPL e-commerce platform, in 2021, which was cs . and an MBA from Estonian Business School.
+
+LHV Group, CEO of Luminor Bank and as CFO at acquired by Swedbank in 2024. Jan holds a master’s External Appointments: Honorary Consul of Estonia in . . .
+
+Skeleton Technologies. Erkki holds a master’s degree in _—_ degree in International Business Administration from Monaco, Member of the Supervisory Board at External Appointments: Honorary Consul of Monaco in
+
+Economics from the Tallinn University Estonian Business School. Sihtasutus Colonna Charity Foundation, Member of the Estonia, Member of the bor of thet Board at Colonna
+
+of Technology. . Management Board at CGM Monaco and at various Charity Foundation, Member of the Management Board
+
+External Appointments: Member of the Board at Eesti . . at various holding and real estate development
+
+External Appointments: Chairman of the Supervisory E-Kaubanduse Liit and OU JP Consult holding and real estate development companies companies
+
+Board at the Estonian Business and Innovation Agenc: .
+
+(EIS), Member of the Supervisory Board at Eetonan y Shares held by the member: 30,000 Shares held by the member: 923,036 Shares held by the member: 0
+
+Multiomics Company OU, Member of the Management _ Shares held by related parties: 1,121,337 Shares held by related parties: 0 Shares held by related parties: 137,479
+Board at Ussilaka OU Issued share options: 10,000
+Shares held by the member: 7,000
+
+Shares held by related parties: 9,000
+
+Issued share options: 22,500 Issued share options: 0
+
+Meeting attendance: 6/6
+
+Meeting attendance: 6/6 Meeting attendance: 6/6
+
+Issued share options: 8,000
+
+Meeting attendance: 6/6
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.30 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 28
+
+Supervisory Board
+
+Raino Paron Isabel Margaret Sergei Anikin
+
+Member of the Supervisory Board Anne Faragalli Member of the Supervisory Board
+
+Date of first appointment: 15 October 2010 Member of the Supervisory Board Date of first appointment: 1 April 2025
+
+Start of current term: 31 March 2024 Date of first appointment: 1 April 2025 Start of current term: 1 April 2025
+
+Committee membership: ARC (Chair), RC Start of current term: 1 April 2025 Committee membership: N/A
+
+Experience: Raino Paron is Counsel at law firm Ellex Committee membership: N/A Experience: Sergei Anikin is a recognized technology
+Raidla. From 1998 to 2026, he was a Partner of the firm . a leader, angel investor, and board member with
+
+and led its Banking and Finance practice. Prior to Experience: Isabel Margaret Anne Faragalli is an extensive experience in scaling startups and driving
+joining Ellex, he worked at the World Bank in experienced investment professional with over 30 innovation. As of November 2025, he works as Director
+Washington, D.C. He has contributed to the years of experience in investment banking, asset of Engineering at Bolt, Europe's leading shared mobility
+development of Estonia's financial and corporate legal management, and structured finance. and delivery app. Previously, he served as CTO at
+
+framework, participating in the drafting of key She is Head of Investments Europe at Spectrum Asset Pipedrive, where he helped scale the company froma
+legislation, including the Credit Institutions Act andthe | Management, leading investment strategy, asset 20-person startup to its acquisition by Vista Equity
+Financial Supervision Authority Act. Raino also took origination, and business development across Europe. Partners, growing the engineering organization from 10
+part in establishing the Tallinn stock exchange (now Previously, she spent over 20 years at the Credit to over 400 and increasing annual recurring revenue
+Nasdaq Tallinn). His work has supported landmark Suisse group within the Investment Banking Division, from $1 million to $100 million. Sergei has also held
+capital markets transactions in Estonia, including early focusing on capital markets solutions and credit _ leadership roles at Tuum, Microsoft, Skype, and
+
+IPOs and bond issuances. He holds a master’s degree structuring for Banks and consumer credit companies Hansabank (now Swedbank) and holds a master’s
+
+in law from Georgetown Law (with distinction) and across Europe, and has also held senior roles at EFG degree in Data Processing from TalTech.
+
+a bachelor’s degree in law from the University of Tartu Bank, Swiss Re and, Man Investments. Isabel holds an . | |
+
+(cum laude) MSc in Finance & Financial Law from the University External Appointments: Chairman of the Supervisory
+. of London and is a qualified English lawyer (non- Board at Bisly, Chairman of the Supervisory Board
+
+External Appointments: Member of the Supervisory practicing). at Katana
+
+Board at Tallink Grupp, Member of the Management Sh. held by th ber: 0
+
+Board at FinanceEstonia, Chairman of the Arbitration Shares held by the member: 0 ares held by the member:
+
+Court at Nasdaq Tallinn Shares held by related parties: 0 Shares held by related parties: 0
+
+Shares held by the member: 29,384 Issued share options: 3,000 Issued share options: 3,000
+
+Shares held by related parties: 716,166 Meeting attendance: 5/6* Meeting attendance: 5/6*
+
+Issued share options: 0
+
+* Isabel Margaret Anne Faragalli and Sergei Anikin did not attend all Supervisory Board meetings in 2025, as they
+
+Meeting attendance: 6/6 were appointed on April 1, 2025. Following their appointment, they attended all meetings held thereafter.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.31 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025-29
+
+Management
+Board
+
+Inbank’s Management Board is the executive body
+responsible for the day-to-day management of the
+company and the implementation of its strategy. It
+includes the CEO and other seasoned experts covering
+finance, risk, legal, product and technology, sales,
+business development, and growth. The Management
+Board ensures effective execution of decisions,
+maintains strong internal controls, and drives
+sustainable growth across the organization.
+
+The functions of Inbank’s Management Board are
+regulated by the Articles of Association, the
+Commercial Code and the Credit Institutions Act. In
+accordance with the Articles of Association, Inbank’s
+management board consists of three to nine members,
+who are elected for a three-year term.
+
+The Supervisory Board elects the members of the
+Management Board, and appoints the Chairman of the
+Management Board, who also serves as the CEO. The
+Management Board approves a document that sets out
+each member's areas of responsibility. The
+Management Board develops Inbank’s strategy and
+financial plan, which are submitted to the Supervisory
+Board for approval. Information on Management Board
+remuneration is disclosed in Note 28 to the
+Consolidated Financial Statements in aggregate.
+
+The Management Board members submit a declaration
+of economic interests once a year. Transactions with
+the members of the Management Board are disclosed
+in Note 28 of the financial statements and are entered
+into under market conditions.
+
+In 2025, Management Board remuneration remained
+broadly unchanged, and no severance payments were
+paid to Management Board members.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.32 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 30
+
+Management Board
+
+Priit Poldoja Marko Varik Piret Paulus Maciej Pieczkowski
+
+CEO CFO, Deputy CEO Head of Growth and Business Development Head of CEE Business
+Chairman of the Management Board Member of the Management Board Member of the Management Board Member of the Management Board
+Date of first appointment: 5 October 2010 Date of first appointment: 18 March 2015 Date of first appointment: 5 May 2017 Date of first appointment: 19 October 2020
+Start of current term: 12 March 2024 Start of current term: 12 March 2024 Start of current term: 1 November 2025 Start of current term: 30 October 2023
+Experience: Priit Példoja is a seasoned banking and Experience: Marko Varik is an experienced finance Experience: Piret Paulus is a seasoned consumer Experience: Maciej Pieczkowski has 25+ years of
+financial services executive with over 30 years of executive with a strong background in financial and risk _ finance expert with 20+ years of experience in the experience in banking and financial services with a
+experience in banking and fintech. As CEO, he is management in the banking industry. He has worked at industry. As Head of Growth and Business Development __ strong background in product management, business
+responsible for the strategic direction of Inbank, the Inbank for over 10 years, including two terms as CFO at Inbank, she is responsible for driving the growth development, growth strategies and leadership. As Head
+implementation of short- and long-term plans. He and a period as Chief Risk Officer from 2019 to 2022. agenda and group-wide business development activities. of CEE Business, he is responsible for developing and
+began his career at Dai-Ichi Kangyo Bank and went on In his current role as CFO, he is responsible for Between 2004 and 2011, she held senior roles at implementing Inbank’s business strategy in the region
+to hold senior executive roles at Hansabank (now financial planning, performance steering, balance sheet Swedbank, leading the Credit Cards and Consumer and managing local sales, marketing, and customer
+Swedbank), serving as CEO in 2005-2008. Priit has strategy, financial risk management (first line of Finance units. Before joining Inbank, she managed Coop _ support functions. Before joining Inbank, Maciej held
+played a key role in scaling standout fintech ventures defence), data availability and reporting. He also Finants (later Coop Bank), a joint venture between Managing Director positions in BPH Bank (part of the CE
+like Maksekeskus and Coop Finants, the financial arm serves as Inbank’s Deputy CEO. Earlier in his career, he Inbank (formerly Cofi) and Coop Eesti. She also serves International Group). He has also held leadership roles at
+of Estonia’s leading supermarket chain. Priit holds a held various roles at Swedbank and served as CFO of as the Member of the Management Board at Bank Pekao and Xelion Doradcy Finansowi (both
+bachelor’s degree in Business and Finance from Mount Coop Finance (now Coop Bank). He holds a bachelor’s FinanceEstonia. Piret studied Mathematics at the UniCredit Group). He has a master’s in Finance from the
+Saint Mary's College. degree in mathematics from the University of Tartu. University of Tartu and later obtained a bachelor’s Krakow University of Economics.
+degree in Communication Management from the
+Appointments within Inbank group: Supervisory Board Appointments within Inbank group: Supervisory Board University of Tartu. 9 Shares held by the member: 3,500
+Chairman: AS Inbank Finance; AS Inbank Rent Member: Mobire Group OU; Management Board ao.
+External Appointments: Chairman of the Supervisory Member: AS Inbank Finance; AS Inbank Rent; Inbank Appointments within Inbank group: Management Board Shares held by related parties: 0
+* U; i U Chairman: SIA Inbank Rent; Management Board ions:
+Board at AS SmartCap, Member of the Supervisory Ventures OU; Inbank Holdings OU Member: AS Inbank Finance; AS inbank Rent; Inbank Issued share options: 40,000
+Board at Aus Design OU, Member of the Management External Appointments: Member of the Management Rent s.r.o.; IB InRent Sp. z 0.0; Inbank Rent UAB
+Board at Cofi Investeeringud OU, Member of the Board at Canyon Invest OU
+Management Board at Lamu Investeeringud OU . External Appointments: Member of the Management
+Shares held by the member: 39,448 Shares held by the member: 20,000 Board at FinanceEstonia, Member of the Management
+y “_ Shares held by related parties: 155,889 Board at Perlio Holdings OU, Member of the
+Shares held by related parties: 1,285,875 . Management Board at Team Playgolf MTU
+Issued share options: 40,000
+Issued share options: 40,000 Shares held by the member: 17,500
+
+Shares held by related parties: 128,300
+Issued share options: 25,000
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.33 ===
+Overview Management report Governance —_ Consolidated financial statements AS Inbank Consolidated Annual Report 2025 31
+
+Management Board
+
+Margus Kastein Erik Kaju Evelin Lindvers Ivar Kurvits
+Head of Baltic Business Chief Product and Technology Officer Head of Risk Control Chief of Staff
+Member of the Management Board Member of the Management Board Member of the Management Board Member of the Management Board
+Date of first appointment: 19 October 2020 Date of first appointment: 1 November 2022 Date of first appointment: 7 August 2023 Date of first appointment: 16 March 2022
+Start of current term: 30 October 2023 Start of current term: 1 November 2025 Start of current term: 7 August 2023 Start of current term: 17 October 2024
+Experience: Margus Kastein has over 25 years of
+experience in hucinees development and Teadership Experience: Erik Kaju is an experienced product and Experience: Evelin Lindvers is an experienced risk and Experience: Ivar Kurvits is an accomplished legal
+within the fast-moving consumer goods (FMCG) technology leader with a strong track record in building compliance professional with more than 20 years of professional with a strong background in corporate
+industry. As Head of Baltic Business, he is responsible scalable digital solutions and driving innovation in experience in the financial services industry. As governance. As Chief of Staff at Inbank, he is
+for developing and implementing Inbank’s business financial services. As Chief Product and Technology Inbank’s Head of Risk Control, she is responsible for responsible for managing and coordinating the
+strategy in the region and managing local sales Officer, he is responsible for designing and executing the group's compliance and risk control areas, governance framework, facilitating the executive
+marketing, and customer support functions in, Inbank’s product and technology strategy and leads a including credit, financial and non-financial risk. Earlier decision-making process, managing high-priority
+addition he serves as Chairman of the Supervisory team of more than 150 product experts and software in her career, she worked for more than a decade at projects, and overseeing the legal unit. Before joining
+Board of Mobire Group, Inbank’s wholly owned engineers. Before joining Inbank, he was Director of Hansapank (now Swedbank) in the credit area. From Inbank, he served as General Counsel at Eesti Energia,
+subsidiary. Prior to joining Inbank, he held leadership Engineering at Wise, a global fintech headquartered in 2008 to 2021, she served as certified Auditor at PwC, a fully integrated energy group, from 2010 to 2015.
+positions at Saku Olletehas and served as CEO of Saku London, from 2014 to 2022. Earlier he worked as a and in 2019 she also joined PwC's Board. Evelin holds a Earlier he worked at Sorainen as an attorney at law. He
+(Estonia) and Aldaris (Latvia) Breweries from 2011 to Software Engineer at Knowit Net Result and bachelor’s degree in Accounting and Finance from holds a bachelor’s degree in Law from the University of
+2016, the largest brewing factories in the region. He Proekspert.He holds a bachelor’s degree in Information Estonian Business School and is a sworn financial Tartu and an LL.M. in Commercial Law from the
+has also served as CEO of Ingman Jaatised part of the Technology Systems Development from the Estonian auditor certified in Estonia. University of Edinburgh, and has attended executive
+
+i an Ct ; Information Technology College, and a master’s degree . trainings at INSEAD and Harvard Business School.
+Arla Group. He holds an Executive MBA in Strategic in Computer Systems trom Talis University 9 Appointments within Inbank group: Supervisory Board 9
+Management from the University of Tartu. Member: AS Inbank Finance, AS Inbank Rent Appointments within Inbank group: Supervisory Board
+
+of Technology.
+
+Appointments within Inbank group: Supervisory Board Member: Mobire Group OU; AS Inbank Rent; AS Inbank
+
+Chairman: Mobire Group OU; Management Board External Appointments: Member of the Management External Appointments: Member of the Management Finance; Management Board Member: Inbank Ventures
+Member: AS Inbank Finance; SIA Inbank Latvia; AS Board at E2B OU, Member of the Management Board at oard at Evelis| OU; Inbank Holdings OU
+
+Inbank Rent; Inbank Holdings OU; Inbank Ventures OU Embedded Finance Platform Syndicate OU, Member of Shares held by the member: 0 - .
+
+External Appointments: M t Board Memb the Management Board at Vikerlase Arimaja OU, Member External Appointments: Member M4 ine Management
+at Parim Enne MTU, Management Board Member at _0f te Management Board at E2SPEED OU Shares held by related parties: 250 Management Board at Kurvits Holdings OU
+Tarkma Sadama Selts MTU Shares held by the member: 0 Issued share options: 20,000 Shares held by the member: 1
+
+Shares held by the member: 5711 Shares held by related parties: 0 ;
+
+Shares held by related parties: 4978 Shares held by related parties: 52,909
+
+Issued share options: 40,000
+
+Issued share options: 50,000 Issued share options: 40,000
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.34 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 32
+
+Remuneration Governing body Exceptions and
+principles appointments explanations to the CGR
+Inbank has a performance-driven remuneration policy Inbank is careful in selecting members of its governing Corporate Governance Recommendations (CGR) Exceptions and explanations
+that supports a results-oriented Management Board bodies (Supervisory Board and Management Board),
+while complying with the Credit Institutions Act. The ensuring that each appointment supports the 1.2.2 The shareholders shall be permitted to examine Communication between Inbank and its shareholders is
+policy supports long-term value creation and the company’s long-term strategy and governance needs. information regarding questions shareholders have carried out promptly and immediately; therefore, it is
+achievement of strategic goals, while reinforcing Recruitment of members of governing bodies complies presented to the Issuer in connection with the holding also ensured that any questions from shareholders are
+Inbank’s values and maintaining a sound risk culture. with the requirements and procedures set out in the of the General Meeting if this information is connected answered and any clarifications of the items on the
+Credit Institutions Act. with an agenda item of the General Meeting. agenda are given either directly to the shareholder or
+Remuneration consists of two components: a fixed at the General Meeting.
+base salary and individual performance pay. . The recruiting body evaluates the Suitability of each 1.2.2 Information to shareholders must also be provided _Inbank has an international investor base, therefore
+Performance pay represents the smaller portion of new member. In determining the suitability of in Estonian. General Meetings are held primarily in English. The
+total remuneration and does not exceed 25%. candidates for the governing bodies, Inbank relies on 1.3.1 The General Meeting shall be conducted in the language of each General Meeting depends on the
+Performance-based remuneration is paid annually its internal procedures and the Fit and Proper Estonian language. presence of non-Estonian shareholders. In cases there
+based on performance reviews conducted in Q1 each assessment process of the Estonian Financial aren't any, the meeting will be held in Estonian. All
+year. The amount of performance pay depends on the Supervision Authority. Candidates must meet the information about the convening of the General
+achievement of goals set for the financial year that requirements arising from laws and regulations, meeting (notice, draft resolutions and other relevant
+reflect Inbank’s strategy, taking into account both complement the governing body in terms of materials) are provided both in English and Estonian.
+individual and company performance. The Supervisory knowledge, skills, and experience, have sufficient time
+Board assesses the achievement of these goals after to perform their duties, and be competent to fulfill the 1.3.1 The Chairman of the Supervisory Board and In 2025, the Chairman of the Management Board was
+the end of the financial year. responsibilities of a member of a governing body. members of the Management Board cannot be elected elected Chairman of the General Meeting, as he is also
+Suitability is assessed by considering reputation, as Chair of the General Meeting. a representative of the shareholders.
+In 2022, shareholders established a management expertise, skills, managerial experience, and other 1.3.2 Members of the Management Board, the Chairman __ The participation of Supervisory Board members
+option program comprising up to 130,000 time-vested relevant factors, including conflicts of interest and of the Supervisory Board and if possible, the members depends on the topics covered at the General Meeting;
+options with a €15.50 strike price (120,667 - independence. of the Supervisory Board and at least one of the however, the Chairman of the Supervisory Board
+outstanding) and up to 250,000 share award options auditors shall participate in the General Meeting. always attends. The CEO and the CFO are also always
+with a €1 strike price (232,500 outstanding). Inbank applies the principle of diversity when selecting present, as are the majority of other Management
+the members of its governing bodies, ensuring that the Board members. The auditor did not attend any
+governing bodies have the required competence, meetings in 2025, as no agenda items required the
+experience and personal qualities to fulfill their auditor's participation.
+obligations. Diversity is considered across age, gender, ———— — ————
+educational and professional background, and 1.3.3 Issuers shall make participation in the General Inbank does not currently enable online participation in
+geographical origin. Inbank has not set a specific Meeting possible by means of communication ; the General Meeting, as a fully interactive solution with
+target for gender diversity. equipment (Internet) if the technical equipment is 7 secure voting would be disproportionately costly given
+available and where doing so is not too cost prohibitive the current shareholder base. However, shareholders
+for the Issuer. can vote digitally in advance, allowing those who
+cannot attend in person to exercise their voting rights.
+2.2.7 Basic wages, performance pay, severance Inbank applies Clause 2.2.7 of the CGR in an adjusted
+packages, other payable benefits and bonus schemes form and does not publish detailed information on
+of a Management Board member as well as their individual Management Board members’ benefits and
+essential features (incl. features based on comparison, bonus principles on its website. Remuneration is
+incentives and risk) shall be published in clear and disclosed in Note 28 to the Consolidated Financial
+unambiguous form on website of the Issuer and in the Statements as part of the total remuneration paid to
+Corporate Governance Recommendations Report. senior management and to members of the
+Information published shall be deemed clear and Management Board and Supervisory Board. Inbank
+unambiguous if it directly expresses the amount of considers this level of disclosure to provide sufficient
+expense to the Issuer or the amount of foreseeable transparency for shareholders to assess the
+expense as of the day of disclosure. Company's governance and performance.
+5.6 The Issuer shall disclose the dates and places of Inbank regularly shares information with its
+meetings with analysts and presentations and press shareholders and the public through the General
+conferences organized for analysts, investors or Meeting, the Tallinn Stock Exchange, and direct
+institutional investors on its website. communication. Inbank does not organize other public
+
+meetings, presentations, or press conferences and
+therefore does not disclose such dates and locations
+on its website.
+
+6.1.1 Together with annual report, the Supervisory Board The Supervisory Board approves the Annual Report,
+
+shall make available to shareholders the written report including the Corporate Governance Report, which
+concerning the annual report specified in § 333 outlines how the Supervisory Board organizes and
+subsection 1 of Commercial Code. oversees the Company, as part of its statutory
+
+responsibilities.
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
 
 === pdf p.35 ===
+Overview Management report Governance —_Consolidated financial statements AS Inbank Consolidated Annual Report 2025 33.
+
+Shares and
+shareholders
+
+Inbank is committed to transparent and fair treatment Dividends
+of all shareholders. Information related to shares,
+
+shareholders, and shareholder rights is communicated Inbank is a growth company that reinvests its profits
+ina timely manner in accordance with applicable to support expansion and therefore does not
+regulations, primarily via Nasdaq Tallinn and email. This regularly pay dividends to shareholders. This
+ensures equal access to information and supports approach may be revisited as the company’s strategy
+informed decision-making by investors. and capital position evolve.
+
+Shareholder structure * . . .
+as of 31.12.2025 Disclosing information
+30% Inbank treats all shareholders equally and ensures that
+0 all shareholders are informed of important
+Founders and circumstances at the same time through Nasdaq
+employees announcements and email. All key investor information
+
+is published on our Investor Relations page (inbank.eu/
+investors), which serves as the central source for
+annual and interim reports, investor presentations,
+public announcements, and information on governance
+including the Management Board and Supervisory
+
+70% Board. The Investor Relations page is available in
+Financial English, but annual and interim reports are published in
+investors both Estonian and English.
+
+Financial reporting
+
+Main shareholders
+
+Owner Shares | Ownership % and auditing
+
+Cofi Investeeringud OU 2,737,500 24% Every year Inbank prepares and publishes its annual
+Other (274 shareholders) 8,785,663 76% report and quarterly interim reports. The annual report
+Total 19,523,163 100% is audited. Inbank presents an annual report signed by
+
+the Chairman of the Management Board, which has
+
+Outstanding options 601,993 been previously approved by the Management Board
+and the Supervisory Board of AS Inbank, to
+shareholders at the General Meeting. The General
+
+h rel Meeting has selected PricewaterhouseCoopers AS
+
+Ss are 1ssue (registry code 10142876) as the auditor for the
+
+In December 2025, Inbank raised €5.3 million through a_ financial year 01.01.2025 ~ 31.12.2025. Inbank follows
+
+direct share offering to existing and new investors. A the auditor rotation principle.
+
+total of 265,000 new shares were issued to 25
+
+investors at an offer price of €20 per share, comprising The auditor has provided other assurance services to
+
+a nominal value of €0.10 and a share premium of Inbank in 2025, as required by the Credit Institutions
+€19.90. Following registration of the share capital Act and the Securities Markets Act, and has provided
+increase in the Estonian Commercial Register, Inbank’s other services in compliance with the requirements of
+
+share capital was €1,178,816.30 and the total number of _ the Auditors Activities Act.
+shares was 11,788,163.
+
+Translation of the consolidated financial statements in pdf-format without European Single Electronic Format (ESEF) markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here.
 
 === pdf p.36 ===
+Overview Management report Governance —_Consolidated financial statements
+
+Group legal
+structure
+
+AS Inbank Consolidated Annual Report 20:
+
+Parent Company
+AS Inbank
+
+Financing and funding
+Founded 2010
+
+EU banking license since 2015
+Estonia
+
+100% 100% 100% 100% Branch Branch Branch
+Inbank . Inbank . Inbank SIA Inbank AS Inbank AS Inbank Spdlka AS Inbank
+Holdings OU Ventures OU Finance AS Latvia Filialas Ascyjna-Oddzal Odstepny Zavod
+Holdit Holding C Financit Financit Financing and fundi WARES Financing and fundi
+lolding company Jolding Company inancing inancing inancing and funding inancing and funding
+Estonia Estonia Estonia Latvia Lithuania mineneingengiunding Czechia
+Poland
+
+100% 100%
+Mobire _ AS Inbank
+Group OU Rent
+Full-service car rental Rental Services
+Estonia Estonia
+
+I
+100% 100% 100% 100% 100% 100% 100%
+Mobire Mobire Mobire SIA Inbank Inbank IB InRent SP Inbank Rent
+Eesti AS Latvija SIA Lietuva UAB Rent Rent UAB Z.0.0 S.r.0.
+Full-service car rental Full-service car rental Full-service car rental Rental Services Rental Services Rental Services Rental Services
+Estonia Latvia Lithuania Latvia Lithuania Poland Czechia
+
+Translation of the consolidated financial statements in paf-format without European Single Electronic Format (ESEF
+
+markups. The original document is submitted in machine-readable .xhtmpl format to Nasdaq Tallinn Stock Exchange and digitally signed. The document can be found here
+
+34
 
 === pdf p.37 ===
 

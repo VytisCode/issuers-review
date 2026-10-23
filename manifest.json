@@ -45,7 +45,8 @@
   "url": "https://www.ts.ee/wp-content/uploads/2025/04/Tallinna_Sadam_Group-_Annual_Report_2024.pdf",
   "title": "Tallinna Sadam Sustainability Report 2024",
   "pages": 163,
-  "kb": 15340
+  "kb": 15340,
+  "ocr_blank": 4
  },
  "lhv_FY2025": {
   "issuer": "lhv",
@@ -69,7 +70,8 @@
   "url": "https://nasdaqbaltic.com/market/upload/reports/elek/2025_ar_en_con.pdf",
   "title": "Latvenergo Group Annual Report 2025",
   "pages": 277,
-  "kb": 23883
+  "kb": 23883,
+  "ocr_blank": 14
  },
  "latvenergo_FY2024": {
   "issuer": "latvenergo",
@@ -85,7 +87,8 @@
   "url": "https://cdn.artea.lt/mainweb/uploads/media/69cbc6f608b68/annual-report-2025-lt-final.pdf",
   "title": "Artea bankas Annual Report 2025",
   "pages": 220,
-  "kb": 13672
+  "kb": 13672,
+  "ocr_blank": 4
  },
  "artea_FY2024": {
   "issuer": "artea",
@@ -102,7 +105,8 @@
   "url": "https://www.cblgroup.com/media/W1siZiIsIjIwMjYvMDMvMTkvOG9icXc4MzVubV9DaXRhZGVsZV9Bbm51YWxfcmVwb3J0XzIwMjUucGRmIl1d?sha=e68c93f08d3acc0c",
   "title": "Citadele Annual Report 2025",
   "pages": 211,
-  "kb": 14569
+  "kb": 14569,
+  "ocr_blank": 13
  },
  "citadele_FY2024": {
   "issuer": "citadele",
@@ -110,7 +114,8 @@
   "url": "https://www.cblgroup.com/files/pdf/Citadele_Annual_report_2024.pdf",
   "title": "Citadele Annual Report 2024",
   "pages": 189,
-  "kb": 13143
+  "kb": 13143,
+  "ocr_blank": 13
  },
  "inbank_FY2025": {
   "issuer": "inbank",
@@ -118,7 +123,8 @@
   "url": "https://ib-cdn.inbank.eu/documents/ee/en/pdf/reports/inbank_annual_report_2025.pdf",
   "title": "Inbank Consolidated Annual Report 2025",
   "pages": 110,
-  "kb": 45768
+  "kb": 45768,
+  "ocr_blank": 38
  },
  "inbank_FY2024": {
   "issuer": "inbank",
@@ -192,7 +198,8 @@
   "url": "https://www.ast.lv/sites/default/files/editor/AST_Ilgtspejas_gada_parskats_2024_ALL_EN_active.cleaned.pdf",
   "title": "AST Annual Report 2024",
   "pages": 293,
-  "kb": 2823
+  "kb": 2823,
+  "ocr_blank": 14
  },
  "aei_FY2025": {
   "issuer": "aei",
@@ -250,7 +257,8 @@
   "url": "https://public-docs.enefit.com/ettevottest/investorile/2025/EE-aruanne-2025-EN_FINAL.pdf",
   "title": "Eesti Energia Annual Report 2025",
   "pages": 110,
-  "kb": 13268
+  "kb": 13268,
+  "ocr_blank": 11
  },
  "eesti-energia_FY2024": {
   "issuer": "eesti-energia",
@@ -258,7 +266,8 @@
   "url": "https://public-docs.enefit.com/ettevottest/investorile/eesti-energia-aastaaruanne-2024-eng.pdf",
   "title": "Eesti Energia Annual Report 2024",
   "pages": 223,
-  "kb": 86204
+  "kb": 86204,
+  "ocr_blank": 4
  },
  "akropolis_FY2025": {
   "issuer": "akropolis",
@@ -274,7 +283,8 @@
   "url": "https://akropolis.eu/media/AKROPOLIS_GROUP_UAB_Konsoliduotoji_metine_vadovybes_ataskaita_2024.pdf",
   "title": "Akropolis Group Annual Report 2024",
   "pages": 67,
-  "kb": 24904
+  "kb": 24904,
+  "ocr_blank": 20
  },
  "bigbank_FY2025": {
   "issuer": "bigbank",
@@ -282,7 +292,8 @@
   "url": "https://static.bigbank.eu/investor/assets/2026/02/Bigbank_aastaaruanne_2025.pdf",
   "title": "Bigbank Annual Report 2025",
   "pages": 228,
-  "kb": 5048
+  "kb": 5048,
+  "ocr_blank": 4
  },
  "bigbank_FY2024": {
   "issuer": "bigbank",
