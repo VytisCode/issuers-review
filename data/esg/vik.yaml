@@ -1,0 +1,47 @@
+# ESG Engagement: Valstybės investicinis kapitalas (VIK). Puslapiai - PDF puslapiai.
+issuer: vik
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Valstybės investicinis kapitalas UAB Annual Report 2025", url: "https://nasdaqbaltic.com/market/upload/reports/vika/2025_ar_en_esef.pdf", date: 2026-04}
+  E2: {title: "Valstybės investicinis kapitalas UAB Annual Report and Financial Statements 2024", url: "https://nasdaqbaltic.com/market/upload/reports/vika/2024_ar_en_eur_solo_ias.pdf", date: 2025-04}
+trend: limited
+summary:
+  lt: "Valstybės investicinė bendrovė, finansuojanti gynybos ir saugumo pramonę (pvz., 155 mm artilerijos sviedinių gamyklą Baisogaloje) iš valstybės garantuotų obligacijų [E1 p.4; E1 p.5]. Pati bendrovė skelbia, kad tvarumas nėra pagrindinis jos tikslas – taikomas tik tiek, kiek dera su strategija [E1 p.16]. Kiekybinių ESG rodiklių ir tikslų nerasta. 2025 m. patvirtinta Korupcijos prevencijos politika, numatyta tvarumo vadovo pareigybė [E1 p.36; E1 p.30]."
+  en: "A state investment company financing the defence and security industry (e.g. the 155 mm artillery ammunition plant in Baisogala) with state-guaranteed bonds [E1 p.4; E1 p.5]. The company says sustainability is not a primary objective and is applied only where it fits the strategy [E1 p.16]. No quantified ESG metrics or targets found. A Corruption Prevention Policy was adopted in 2025, and a sustainability manager role is planned [E1 p.36; E1 p.30]."
+years:
+  FY2025:
+    trend: limited
+    framework:
+      lt: "Metiniame pranešime yra skyrius „Tvarumas“, tačiau ESG rodiklių ir standarto nėra; tvarumas nėra atskiras prioritetas [E1 p.16]."
+      en: "The annual report has a 'Sustainability' section, but no ESG metrics or reporting standard; sustainability is not a separate priority [E1 p.16]."
+    assurance: none
+    summary:
+      lt: "Valdysenos pažanga: 2025-07-01 valdyba patvirtino ir paskelbė Korupcijos prevencijos politiką; organizacinėje struktūroje – tvarumo vadovas [E1 p.36; E1 p.30]. Aplinkos ir socialinių rodiklių nėra."
+      en: "Governance progress: the board adopted and published a Corruption Prevention Policy on 1 July 2025; the organisation chart includes a sustainability manager [E1 p.36; E1 p.30]. No environmental or social metrics."
+    evidence:
+      - {p: G, lt: "Korupcijos prevencijos politika patvirtinta 2025-07-01, paskelbta interneto svetainėje [E1 p.36].", en: "Corruption Prevention Policy adopted on 1 July 2025 and published on the website [E1 p.36]."}
+      - {p: G, lt: "Tvarumo rizika įtraukta į rizikų valdymą (ES teisės nesilaikymas, tiekėjų ir partnerių tvarumo principai) [E1 p.24].", en: "Sustainability risk included in risk management (non-compliance with EU law, suppliers' and partners' sustainability principles) [E1 p.24]."}
+      - {p: S, lt: "Investicijos skirtos šalies gynybai ir ekonominiam atsparumui (Rheinmetall Defence Lietuva projektas) [E1 p.4; E1 p.16].", en: "Investments serve national defence and economic resilience (Rheinmetall Defence Lietuva project) [E1 p.4; E1 p.16]."}
+    concerns:
+      - {lt: "Pati bendrovė nurodo, kad tvarumas nėra pagrindinis tikslas; ESG rodiklių ir tikslų nėra [E1 p.16].", en: "The company states that sustainability is not a primary objective; no ESG metrics or targets [E1 p.16]."}
+  FY2024:
+    trend: limited
+    framework:
+      lt: "Atskiros tvarumo informacijos nėra; bendrovėje dirbo 1 darbuotojas [E2 p.10]. Laikomasi valstybės įmonių skaidrumo gairių [E2 p.37]."
+      en: "No separate sustainability information; the company had 1 employee [E2 p.10]. State-company transparency guidelines are followed [E2 p.37]."
+    assurance: none
+    summary:
+      lt: "ESG duomenų nerasta. Taikomas nulinės tolerancijos korupcijai principas [E2 p.37]."
+      en: "No ESG data found. A zero-tolerance approach to corruption applies [E2 p.37]."
+    evidence:
+      - {p: G, lt: "Nulinė tolerancija korupcijai ir kyšininkavimui [E2 p.37].", en: "Zero tolerance for corruption and bribery [E2 p.37]."}
+    concerns: []
+targets: []
+metrics: []
+engagement:
+  level: none
+  policies: [investments, arms_defence, climate_nature]
+  reason:
+    lt: "SEB ginklų ir gynybos politikos apribojimai nepažeisti: finansuojama konvencinės amunicijos (155 mm) gamyba NATO šalyje, ne kontroversiniai ginklai [E1 p.5]. Tai maža valstybės specialiosios paskirties bendrovė su valstybės garantija, todėl ESG ataskaitų trūkumas nėra pagrindas kreiptis."
+    en: "SEB Arms & Defence policy restrictions are not breached: it finances conventional ammunition (155 mm) production in a NATO country, not controversial weapons [E1 p.5]. It is a small state special-purpose company with a state guarantee, so the lack of ESG reporting is not a reason to engage."
+  questions: []

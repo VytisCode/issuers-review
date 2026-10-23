@@ -82,6 +82,22 @@ def get_pdf(cands, year, log):
     return None, None
 
 
+def garbled(text):
+    """Ar PDF tekstas neįskaitomas (šriftai be Unicode lentelės): per mažai raidžių tarp ne tarpo simbolių."""
+    chars = [c for c in text[:400000] if not c.isspace()]
+    return len(chars) > 2000 and sum(c.isalpha() for c in chars) / len(chars) < 0.55
+
+
+def ocr_pages(pdf, lang="eng"):
+    """Neįskaitomo PDF puslapiai per OCR (tesseract, nemokamas). Lėta (~2-4 s puslapiui), todėl tik kai tekstas neįskaitomas."""
+    n = int(re.search(r"Pages:\s+(\d+)", subprocess.run(["pdfinfo", str(pdf)], capture_output=True, text=True).stdout).group(1))
+    out = []
+    for i in range(1, n + 1):
+        png = subprocess.run(["pdftoppm", "-r", "200", "-f", str(i), "-l", str(i), "-gray", "-png", str(pdf)], capture_output=True).stdout
+        out.append(subprocess.run(["tesseract", "-", "-", "-l", lang, "--psm", "4"], input=png, capture_output=True).stdout.decode("utf-8", "ignore"))
+    return out
+
+
 def esef_pages(data):
     """ESEF ZIP (XHTML) arba vienas XHTML: didžiausias .xhtml/.html failas -> puslapiai pagal „page-break“ žymes (PDF nėra, todėl nuoroda be #page)."""
     if data[:2] == b"PK":
@@ -118,7 +134,8 @@ def main(out_dir):
                 done = manifest.get(name, {}).get("pages")
                 txt_ok = (out / "text" / f"{name}.txt").exists() and (out / "text" / f"{name}.txt").stat().st_size > 2000
                 esef_ok = manifest.get(name, {}).get("format") == "esef" and manifest[name].get("url") == cands[0] and txt_ok
-                if done and (esef_ok or (out / "raw" / f"{name}.txt").exists()):
+                bad_txt = txt_ok and not manifest[name].get("ocr") and garbled((out / "text" / f"{name}.txt").read_text(encoding="utf-8", errors="ignore"))
+                if done and not bad_txt and (esef_ok or (out / "raw" / f"{name}.txt").exists()):
                     continue
                 log.append(f"{name}:")
                 data, url = get_pdf(cands, year[-4:], log)
@@ -126,6 +143,7 @@ def main(out_dir):
                     manifest[name] = {"issuer": issuer, "year": year, "url": "", "error": "nepavyko atsisiųsti"}
                     continue
                 esef = data[:5] != b"%PDF-"
+                ocr = False
                 if esef:
                     pages = esef_pages(data)
                 else:
@@ -135,6 +153,10 @@ def main(out_dir):
                     pages = txt.split("\f")
                     # antra versija skaitymo tvarka (be -layout): kelių stulpelių puslapiai skaitomi stulpelis po stulpelio
                     raw = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True).stdout.decode("utf-8", "ignore").split("\f")
+                    ocr = garbled(txt)
+                    if ocr:
+                        log.append("  … tekstas neįskaitomas, daromas OCR")
+                        pages = raw = ocr_pages(pdf, item.get("ocr_lang", "eng") if isinstance(item, dict) else "eng")
                     (out / "raw" / f"{name}.txt").write_text("".join(f"\n=== pdf p.{n} ===\n{p}" for n, p in enumerate(raw, 1)), encoding="utf-8")
                     pdf.unlink()
                 body = "".join(f"\n=== pdf p.{n} ===\n{p}" for n, p in enumerate(pages, 1) if p.strip() or n < len(pages))
@@ -143,6 +165,8 @@ def main(out_dir):
                 manifest[name] = {"issuer": issuer, "year": year, "url": url, "title": title, "pages": len(pages), "kb": len(data) // 1024}
                 if esef:
                     manifest[name]["format"] = "esef"
+                elif ocr:
+                    manifest[name]["ocr"] = True
                 log.append(f"  ✓ {url} ({len(pages)} psl.)")
     man_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1), encoding="utf-8")
     print("\n".join(log))
