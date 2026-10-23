@@ -313,3 +313,18 @@ details.howto[open] summary { margin-bottom: 4px; }
 .ddform .fl[hidden] { display: none; }
 .brand { white-space: nowrap; }
 @media (min-width: 1100px) and (max-width: 1250px) { nav a { padding: 6px 7px; } }
+/* --- paprastesnis meniu ir „Ką daryti dabar“ --- */
+.navmore { position: relative; }
+.navmore summary { list-style: none; cursor: pointer; color: var(--text-2); padding: 6px 10px; border-radius: 6px; font-size: 14px; white-space: nowrap; }
+.navmore summary::-webkit-details-marker { display: none; }
+.navmore.on summary, .navmore summary:hover, .navmore[open] summary { background: var(--surface-2); color: var(--text); }
+.navdd { position: absolute; left: 0; top: calc(100% + 4px); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: 0 8px 24px rgba(0,0,0,.15); padding: 6px; z-index: 12; min-width: 200px; display: grid; }
+.navdd a { white-space: nowrap; }
+.todos { list-style: none; padding: 0; margin: 12px 0 16px; display: grid; gap: 10px; }
+.todo { display: grid; grid-template-columns: auto 1fr auto; gap: 10px 12px; align-items: start; background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--you); border-radius: 10px; padding: 12px 14px; }
+.todo.k-ai { border-left-color: var(--ai); } .todo.k-code { border-left-color: var(--code); }
+.todo .kd { margin-top: 7px; } .todo b { font-size: 15.5px; } .todo p { margin: 2px 0 6px; } .todo .qsub { padding: 0; }
+.todo .ta { align-self: center; }
+@media (max-width: 760px) { .todo { grid-template-columns: auto 1fr; } .todo .ta { grid-column: 2; } }
+.nextc, .soon { margin: 0 0 12px; } .nextc p { margin: 4px 0 8px; }
+@media (max-width: 760px) { .navdd { left: auto; right: 0; } }
