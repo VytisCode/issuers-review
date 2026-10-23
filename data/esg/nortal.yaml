@@ -1,0 +1,50 @@
+# ESG Engagement: Nortal. Grupės ataskaitos už slaptažodžio (manual_reports) - viešai rasti tik JK padalinio anglies mažinimo planas ir grupės šiuolaikinės vergovės pareiškimas. Puslapiai - PDF puslapiai.
+issuer: nortal
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Nortal UK Carbon Reduction Plan 2025", url: "https://nortal.com/hubfs/Carbon_Reduction_Plan_Nortal_UK_2025.pdf", date: 2025-05}
+  E2: {title: "Nortal Group Modern Slavery Statement 2026", url: "https://nortal.com/hubfs/Modern_Slavery_Statement_Nortal_Group_2026.pdf", date: 2026}
+trend: limited
+summary:
+  lt: "IT paslaugų bendrovė su mažu aplinkos pėdsaku. Grupės tvarumo ataskaitos viešai nerasta (investuotojų ataskaitos – už slaptažodžio). Vieši dokumentai: JK padalinio (45 darbuotojai) anglies mažinimo planas – grynasis nulis iki 2050 m., 2025 m. išmetimai 75,9 t, tikslas 50 t iki 2030 m. [E1 p.2; E1 p.3]; grupės šiuolaikinės vergovės pareiškimas su tiekėjų elgesio kodeksu [E2 p.4]."
+  en: "An IT services company with a small environmental footprint. No group sustainability report was found publicly (investor reports are password-protected). Public documents: the UK unit's (45 staff) carbon reduction plan with net zero by 2050, 2025 emissions of 75.9 t and a 50 t target for 2030 [E1 p.2; E1 p.3]; and the group modern slavery statement with a supplier code of conduct [E2 p.4]."
+years:
+  FY2025:
+    trend: limited
+    framework:
+      lt: "Grupės tvarumo ataskaitos nerasta. JK padalinio anglies mažinimo planas (JK viešųjų pirkimų forma) ir grupės šiuolaikinės vergovės pareiškimas, patvirtintas kiekvienos įmonės valdybos [E1 p.2; E2 p.6]."
+      en: "No group sustainability report found. The UK unit's carbon reduction plan (UK public procurement template) and the group modern slavery statement approved by each company's board [E1 p.2; E2 p.6]."
+    assurance: none
+    summary:
+      lt: "JK padalinys: Scope 1 – 0, Scope 2 – 0,51 t, Scope 3 – 75,4 t (2025 m. – bazė) [E1 p.3]. Grupė: nulinė tolerancija šiuolaikinei vergovei, tiekėjų elgesio kodeksas, gerinamas „pažink savo tiekėją“ procesas [E2 p.3; E2 p.4]."
+      en: "UK unit: Scope 1 zero, Scope 2 0.51 t, Scope 3 75.4 t (2025 is the base year) [E1 p.3]. Group: zero tolerance for modern slavery, a supplier code of conduct, and an improved Know Your Supplier process [E2 p.3; E2 p.4]."
+    evidence:
+      - {p: E, lt: "JK padalinys: grynasis nulis iki 2050 m.; tikslas 50 t CO2e iki 2030 m. (−30 %) [E1 p.2; E1 p.3].", en: "UK unit: net zero by 2050; target 50 t CO2e by 2030 (−30%) [E1 p.2; E1 p.3]."}
+      - {p: E, lt: "Nuotolinis darbas, debesų infrastruktūra, nėra įmonės automobilių [E1 p.5].", en: "Remote work, cloud infrastructure, no company vehicles [E1 p.5]."}
+      - {p: S, lt: "Tiekėjai privalo laikytis elgesio kodekso; esami tiekėjai reguliariai peržiūrimi [E2 p.4].", en: "Suppliers must follow the code of conduct; existing suppliers are reviewed regularly [E2 p.4]."}
+      - {p: G, lt: "Darbuotojai skatinami pranešti apie įtarimus; mokymai apie šiuolaikinės vergovės riziką [E2 p.3; E2 p.5].", en: "Employees are encouraged to report concerns; training on modern slavery risks [E2 p.3; E2 p.5]."}
+    concerns:
+      - {lt: "Grupės lygio išmetimų, tikslų ir tvarumo ataskaitos viešai nerasta.", en: "No group-level emissions, targets or sustainability report found publicly."}
+targets:
+  - p: E
+    name: {lt: "JK padalinys: 50 t CO2e iki 2030 m., grynasis nulis iki 2050 m.", en: "UK unit: 50 t CO2e by 2030, net zero by 2050"}
+    FY2024: {lt: "nerasta", en: "not found"}
+    FY2025: {lt: "Bazė 75,91 t [E1 p.3]", en: "Base 75.91 t [E1 p.3]"}
+    status: new
+metrics:
+  - {p: E, name: {lt: "JK padalinio išmetimai (Scope 1–3)", en: "UK unit emissions (Scope 1–3)"}, unit: "t CO2e", better: down, FY2025: {v: 75.91, src: "E1 p.3", note: {lt: "tik JK padalinys (45 darbuotojai)", en: "UK unit only (45 staff)"}}}
+engagement:
+  level: watch
+  severity: minor
+  verdict:
+    lt: "IT paslaugos – maža aplinkos rizika, todėl ESG spraga nedidelė. Trūksta tik grupės lygio duomenų; galbūt jie yra investuotojų portale. Pirmiausia patikrinkite portale (Nortal ataskaitas įkeliate patys)."
+    en: "IT services carry low environmental risk, so the ESG gap is small. Only group-level data is missing; it may be in the investor portal. Check the portal first (you upload Nortal reports yourself)."
+  issues:
+    - what: {lt: "Grupės tvarumo ataskaitos ar grupės išmetimų viešai nerasta.", en: "No group sustainability report or group emissions found publicly."}
+      why: {lt: "Vieši dokumentai apima tik JK padalinį ir šiuolaikinę vergovę [E1 p.2; E2 p.3].", en: "Public documents cover only the UK unit and modern slavery [E1 p.2; E2 p.3]."}
+      fix: {lt: "Įkelkite investuotojų portalo metinę ataskaitą – papildysiu. Jei ten nėra, kitais metais galima paklausti.", en: "Upload the annual report from the investor portal and I will add it. If it is not there, ask next year."}
+  policies: [investments, climate_nature, human_rights, anti_corruption]
+  reason:
+    lt: "Maža aplinkos rizika; trūksta tik grupės lygio duomenų."
+    en: "Low environmental risk; only group-level data is missing."
+  questions: []
