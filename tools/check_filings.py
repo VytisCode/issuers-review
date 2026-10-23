@@ -46,6 +46,9 @@ def links(page_url, text):
             yield href, (label or name)[:200], name
 
 
+NAV_LABELS = {"reports", "fact sheet", "ataskaitos", "aruanded", "pārskati", "investor relations", "investors"}
+
+
 def kind(s):
     for k, rx in KIND:
         if re.search(rx, s, re.I):
@@ -67,6 +70,9 @@ def main():
                 errors.append(f"{key}: {page}: {e}")
                 continue
             for href, label, name in links(page, text):
+                # Puslapių nuorodos su šiandienos data (pvz. Nasdaq Baltic ?date=2026-10-23) - ne naujas dokumentas
+                if re.search(r"[?&]date=\d{4}-\d{2}-\d{2}", href) or label.lower() in NAV_LABELS:
+                    continue
                 rid = hashlib.sha1(href.encode()).hexdigest()[:12]
                 if rid in known:
                     continue
