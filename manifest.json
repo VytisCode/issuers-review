@@ -359,5 +359,11 @@
   "year": "FY2025",
   "url": "",
   "error": "nepavyko atsisiųsti"
+ },
+ "maxima_FY2025_2": {
+  "issuer": "maxima",
+  "year": "FY2025",
+  "url": "",
+  "error": "nepavyko atsisiųsti"
  }
 }
