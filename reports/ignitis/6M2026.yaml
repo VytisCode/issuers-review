@@ -135,7 +135,7 @@ plans:
     outcome: {lt: "Įrengta 2,1 GW, statoma 0,7 GW", en: "2.1 GW installed, 0.7 GW under construction", lv: "Uzstādīti 2,1 GW, būvniecībā 0,7 GW", et: "Paigaldatud 2,1 GW, ehitusel 0,7 GW"}
     status: pending
     src: "S6; S1 p.17"
-    why: {lt: "Vykdoma: 2,1 GW įrengta + 0,7 GW statoma = 2,8 GW, t. y. tikslo apatinė riba (apskaičiuota įrankio) [S1 p.17].", en: "Progressing: 2.1 GW installed + 0.7 GW under construction = 2.8 GW, the bottom of the target range (calculated by the tool) [S1 p.17]."}
+    why: {lt: "Vykdoma: 2,1 GW įrengta + 0,7 GW statoma = 2,8 GW, t. y. tikslo apatinė riba (mūsų skaičiavimas) [S1 p.17].", en: "Progressing: 2.1 GW installed + 0.7 GW under construction = 2.8 GW, the bottom of the target range (own calculation) [S1 p.17]."}
 
 investor:
   - lt: "Turimos priemonės: akcijos (IGN1L) ir trys obligacijos (2027, 2028, 2030). Obligacijos neužtikrintos, joms taikomas emitento reitingas BBB+ (S&P) [S8]."

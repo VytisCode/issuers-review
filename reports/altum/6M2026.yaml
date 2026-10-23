@@ -6,7 +6,7 @@ prepared_by: Claude (automatiškai)
 next_report: "9M 2026 interim report - 2026-11-26 to 2026-11-30 [T3]"
 rating: "Moody's Baa1 long-term issuer rating, P-2 short-term, outlook stable (affirmed 2025-01-28) [T1 p.3, p.13]"
 ratings: [{agency: "Moody's", grade: "Baa1", outlook: "stable", scope: ""}]
-verdict: {status: ok, lt: "**Pozicija tvarkinga.** Altum – 100 % valstybinė Latvijos plėtros finansų institucija su Moody's Baa1 reitingu [T1 p.13]. I pusm. pelnas 10,1 mln. EUR (+15 %), nuosavo kapitalo dalis apie 25 % (apskaičiuota įrankio), 180 dienų likvidumo rodiklis 227 % [T1 p.3].", en: "**Position OK.** Altum is Latvia's 100% state-owned development finance institution, rated Baa1 by Moody's [T1 p.13]. 1H profit EUR 10.1m (+15%), equity ratio about 25% (calculated by the tool), 180-day liquidity ratio 227% [T1 p.3]."}
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** Altum – 100 % valstybinė Latvijos plėtros finansų institucija su Moody's Baa1 reitingu [T1 p.13]. I pusm. pelnas 10,1 mln. EUR (+15 %), nuosavo kapitalo dalis apie 25 % (mūsų skaičiavimas), 180 dienų likvidumo rodiklis 227 % [T1 p.3].", en: "**Position OK.** Altum is Latvia's 100% state-owned development finance institution, rated Baa1 by Moody's [T1 p.13]. 1H profit EUR 10.1m (+15%), equity ratio about 25% (own calculation), 180-day liquidity ratio 227% [T1 p.3]."}
 periods: [FY2025, 6M2025, 6M2026]
 ratios: [net_profit, nii, cost_income, roe, loans, total_assets, equity, equity_ratio]
 highlights: [net_profit, roe, equity, equity_ratio]
@@ -21,8 +21,8 @@ sources:
 quick_summary:
   - lt: "**Pelnas auga:** I pusm. pelnas 10,1 mln. EUR (8,8 mln.), ROE 4,6 % (4,2 %); grynosios palūkanų pajamos 10,1 mln. EUR [T1 p.3]."
     en: "**Profit up:** 1H profit EUR 10.1m (8.8m), ROE 4.6% (4.2%); net interest income EUR 10.1m [T1 p.3]."
-  - lt: "**Sparčiai auga paramos portfelis:** paskolos 707,1 mln. EUR (+32 % per metus), garantijos 737,7 mln. EUR; visas portfelis 1 704,8 mln. EUR (+26 %; pokyčiai apskaičiuoti įrankio) [T1 p.3]."
-    en: "**Support portfolio growing fast:** loans EUR 707.1m (+32% year on year), guarantees EUR 737.7m; total portfolio EUR 1,704.8m (+26%; changes calculated by the tool) [T1 p.3]."
+  - lt: "**Sparčiai auga paramos portfelis:** paskolos 707,1 mln. EUR (+32 % per metus), garantijos 737,7 mln. EUR; visas portfelis 1 704,8 mln. EUR (+26 %; pokyčiai – mūsų skaičiavimas) [T1 p.3]."
+    en: "**Support portfolio growing fast:** loans EUR 707.1m (+32% year on year), guarantees EUR 737.7m; total portfolio EUR 1,704.8m (+26%; changes are own calculation) [T1 p.3]."
   - lt: "**Rizika padengta:** rizikos padengimas 392,7 mln. EUR; TCE / TMA 18,5 %; likvidumas 180 dienų – 227 % (prieš metus 387 %) [T1 p.3]."
     en: "**Risk covered:** total risk coverage EUR 392.7m; TCE / TMA 18.5%; 180-day liquidity 227% (387% a year ago) [T1 p.3]."
   - lt: "**Naujos programos:** planuojamas 100 mln. EUR fondas „Augimui ir gynybai“, 50 mln. EUR NIB finansavimas, 0 % garantijų mokestis tvariems MVĮ projektams [T1 p.13-15]."

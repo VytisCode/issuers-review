@@ -3,7 +3,7 @@
 # stock: true - būklės rodiklis (skola, kapitalas, LTM santykiai) - lyginamas su naujausiu ankstesniu laikotarpiu;
 #   kiti (srautai) lyginami tik su tuo pačiu laikotarpiu prieš metus (6M2026 su 6M2025).
 # good / weak: lygio ribos (žalia, jei geriau už good; raudona, jei blogiau už weak; tarp jų - geltona).
-#   Tai įrankio orientyrai (rinkos praktika) arba reguliaciniai minimumai - basis paaiškina. Ribas galima keisti čia.
+#   Tai vidiniai orientyrai (rinkos praktika) arba reguliaciniai minimumai - basis paaiškina. Ribas galima keisti čia.
 revenue:           {better: up}
 adj_ebitda:        {better: up}
 ebitda:            {better: up}

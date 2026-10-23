@@ -34,8 +34,8 @@ quick_summary:
     en: "**Management changes:** S. Mizak left the board (March 2026) and CRO J. Lebedinska-Ļitvinova stepped down (May 2026); E. Näsäkkälä is nominated as the new CRO [C1 p.5, p.11]."
 
 business:
-  - lt: "Paskolos 3 947 mln. EUR (+4,9 % nuo 2025 m. pab.), indėliai 4 325 mln. EUR (apskaičiuota įrankio) [C1 p.2, p.15]."
-    en: "Loans EUR 3,947m (+4.9% since YE2025), deposits EUR 4,325m (calculated by the tool) [C1 p.2, p.15]."
+  - lt: "Paskolos 3 947 mln. EUR (+4,9 % nuo 2025 m. pab.), indėliai 4 325 mln. EUR (mūsų skaičiavimas) [C1 p.2, p.15]."
+    en: "Loans EUR 3,947m (+4.9% since YE2025), deposits EUR 4,325m (own calculation) [C1 p.2, p.15]."
   - lt: "Sąnaudų / pajamų santykis 50,3 % (47,1 %), rizikos kaina 0,3 %, trečios stadijos paskolos 1,9 % (2,1 %) [C1 p.2, p.4]."
     en: "Cost/income 50.3% (47.1%), cost of risk 0.3%, stage 3 loans 1.9% (2.1%) [C1 p.2, p.4]."
   - lt: "Žaliasis finansavimas I pusm. – 56,4 mln. EUR (7,5 % naujų paskolų); 2025 m. – 176,2 mln. EUR [C1 p.7; C2 p.24]."
@@ -57,7 +57,7 @@ plans:
     outcome: {lt: "I pusm. – 56,4 mln. EUR", en: "1H: EUR 56.4m"}
     status: pending
     src: "C2 p.22; C1 p.7"
-    why: {lt: "Vykdoma: per pusmetį pasiekta 75 % metinio tikslo (apskaičiuota įrankio) [C1 p.7].", en: "In progress: 75% of the annual target reached in the half year (calculated by the tool) [C1 p.7]."}
+    why: {lt: "Vykdoma: per pusmetį pasiekta 75 % metinio tikslo (mūsų skaičiavimas) [C1 p.7].", en: "In progress: 75% of the annual target reached in the half year (own calculation) [C1 p.7]."}
   - plan: {lt: "Vizija – tapti Baltijos šalių bankininkystės čempionu", en: "Vision: become the Baltic banking champion"}
     outcome: {lt: "Paskolų portfelis auga, ROE 13,7 %", en: "Loan book growing, ROE 13.7%"}
     status: pending

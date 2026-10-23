@@ -47,7 +47,7 @@ years:
 targets:
   - p: E
     name: {lt: "Nuosavi Scope 1+2 −55 % iki 2030 m. (bazė 2019 m. 33 086 t), 0 iki 2050 m.", en: "Own Scope 1+2 −55% by 2030 (2019 base 33,086 t), zero by 2050"}
-    FY2024: {lt: "21 656 t (−35 %, apskaičiuota įrankio) [E2 p.27]", en: "21,656 t (−35%, calculated by the tool) [E2 p.27]"}
+    FY2024: {lt: "21 656 t (−35 %, mūsų skaičiavimas) [E2 p.27]", en: "21,656 t (−35%, own calculation) [E2 p.27]"}
     FY2025: {lt: "19 261 t (−42 %) [E1 p.21]", en: "19,261 t (−42%) [E1 p.21]"}
     status: on_track
   - p: E

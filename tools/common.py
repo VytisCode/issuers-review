@@ -237,10 +237,23 @@ def expected_date(text, after=""):
     return "", False
 
 
+# Senesnė formuluotė istorijos pastabose (CSV tik papildomas, todėl keičiama rodant)
+CALC_WORDING = [("apskaičiuota įrankio", "mūsų skaičiavimas"), ("Apskaičiuota įrankio", "Mūsų skaičiavimas"),
+                ("calculated by the tool", "own calculation"), ("Calculated by the tool", "Own calculation")]
+
+
+def calc_wording(text):
+    for a, b in CALC_WORDING:
+        text = text.replace(a, b)
+    return text
+
+
 def history(issuer):
     """{metric: {period: row}} iš data/history/<issuer>.csv."""
     out = {}
     for r in read_csv(DATA / "history" / f"{issuer}.csv"):
+        if r.get("note"):
+            r["note"] = calc_wording(r["note"])
         out.setdefault(r["metric"], {})[r["period"]] = r
     return out
 

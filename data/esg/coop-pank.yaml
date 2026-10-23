@@ -36,8 +36,8 @@ years:
       en: "Short sustainability report in the annual report, no assurance found; double materiality and UNEP FI impact assessments done in 2024 [E2 p.1; E2 p.2]."
     assurance: none
     summary:
-      lt: "Visas pėdsakas 214 023 → 248 855 t (+16 %, apskaičiuota įrankio) [E2 p.3]. Finansuojamų saulės ir vėjo parkų galia 80,9 MW [E2 p.2]."
-      en: "Total footprint 214,023 → 248,855 t (+16%, calculated by the tool) [E2 p.3]. Financed solar and wind capacity 80.9 MW [E2 p.2]."
+      lt: "Visas pėdsakas 214 023 → 248 855 t (+16 %, mūsų skaičiavimas) [E2 p.3]. Finansuojamų saulės ir vėjo parkų galia 80,9 MW [E2 p.2]."
+      en: "Total footprint 214,023 → 248,855 t (+16%, own calculation) [E2 p.3]. Financed solar and wind capacity 80.9 MW [E2 p.2]."
     evidence:
       - {p: E, lt: "Scope 1 37 t, Scope 2 163 t [E1 p.4].", en: "Scope 1 37 t, Scope 2 163 t [E1 p.4]."}
       - {p: G, lt: "Atsakingo verslo indekso sidabro lygis (2023 m.) [E2 p.1].", en: "Silver level in the Responsible Business Index (2023) [E2 p.1]."}

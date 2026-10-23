@@ -32,8 +32,8 @@ quick_summary:
     en: "**Weaker quarter:** Q2 EBITDA EUR 55.7m (76.9m), net loss EUR 8.6m (profit 27.3m) [E1 p.5]."
   - lt: "**Svertas didėja:** grynoji skola 1 224 mln. EUR, 4,1 karto EBITDA (prieš metus 3,6) [E1 p.5]. Nepanaudotos kredito linijos 420 mln. EUR [E3]."
     en: "**Leverage rising:** net debt EUR 1,224m, 4.1x EBITDA (3.6x a year earlier) [E1 p.5]. Undrawn credit lines EUR 420m [E3]."
-  - lt: "**Perėjimas prie atsinaujinančios energijos:** 2025 m. atsinaujinanti gamyba 2 257 GWh iš 3 623 GWh (62 %, apskaičiuota įrankio); 872 MW vėjo ir 172 MW saulės [E2 p.8, p.18]."
-    en: "**Shift to renewables:** 2,257 GWh of 3,623 GWh generated from renewables in 2025 (62%, calculated by the tool); 872 MW wind and 172 MW solar [E2 p.8, p.18]."
+  - lt: "**Perėjimas prie atsinaujinančios energijos:** 2025 m. atsinaujinanti gamyba 2 257 GWh iš 3 623 GWh (62 %, mūsų skaičiavimas); 872 MW vėjo ir 172 MW saulės [E2 p.8, p.18]."
+    en: "**Shift to renewables:** 2,257 GWh of 3,623 GWh generated from renewables in 2025 (62%, own calculation); 872 MW wind and 172 MW solar [E2 p.8, p.18]."
   - lt: "**Nauja strategija 2030+ (2026-09-17):** palaipsniui atsisakoma skalūnų elektros gamybos, iki 350 MW lankstesnių (ir dujinių) pajėgumų, elektros ir skalūnų alyvos verslų atskyrimas [E6]."
     en: "**New Strategy 2030+ (2026-09-17):** gradual phase-out of oil shale power, up to 350 MW of cleaner dispatchable (incl. gas) capacity, separation of the power and shale oil businesses [E6]."
 
@@ -46,8 +46,8 @@ business:
 financials:
   - lt: "2025 m. pajamos 1 646,9 mln. EUR (1 785,2 mln.), EBITDA 317,2 mln. EUR (398,2 mln.), nuostolis 82,6 mln. EUR su 197,6 mln. EUR nuvertėjimu; investicijos 459,2 mln. EUR [E2 p.8]."
     en: "FY2025 revenue EUR 1,646.9m (1,785.2m), EBITDA EUR 317.2m (398.2m), loss EUR 82.6m including EUR 197.6m impairment; investments EUR 459.2m [E2 p.8]."
-  - lt: "Nuosavas kapitalas 2026-06-30 – 2 045 mln. EUR; turto 4 901 mln. EUR; nuosavo kapitalo dalis apie 42 % (apskaičiuota įrankio) [E1 p.5, p.32]. 2025-05 valstybė įnešė 100 mln. EUR kapitalo [E4 p.3]."
-    en: "Equity EUR 2,045m at 2026-06-30; total assets EUR 4,901m; equity ratio about 42% (calculated by the tool) [E1 p.5, p.32]. The state injected EUR 100m of equity in May 2025 [E4 p.3]."
+  - lt: "Nuosavas kapitalas 2026-06-30 – 2 045 mln. EUR; turto 4 901 mln. EUR; nuosavo kapitalo dalis apie 42 % (mūsų skaičiavimas) [E1 p.5, p.32]. 2025-05 valstybė įnešė 100 mln. EUR kapitalo [E4 p.3]."
+    en: "Equity EUR 2,045m at 2026-06-30; total assets EUR 4,901m; equity ratio about 42% (own calculation) [E1 p.5, p.32]. The state injected EUR 100m of equity in May 2025 [E4 p.3]."
   - lt: "Skola 2026-06-30 – 1 666 mln. EUR; 2026-05-28 išleista 300 mln. EUR 4,6 % žalioji obligacija (2031) [E3]."
     en: "Debt EUR 1,666m at 2026-06-30; a EUR 300m 4.6% green bond (2031) was issued on 2026-05-28 [E3]."
 
@@ -63,7 +63,7 @@ plans:
     src: "E7 p.19-20"
     why: {lt: "Laukiama duomenų [E7 p.19-20].", en: "Awaiting data [E7 p.19-20]."}
   - plan: {lt: "Anglies dioksido neutrali elektros gamyba iki 2045 m.", en: "Carbon-neutral electricity by 2045"}
-    outcome: {lt: "Atsinaujinanti gamyba 2025 m. – 62 % (apskaičiuota įrankio)", en: "Renewables 62% of 2025 output (calculated by the tool)"}
+    outcome: {lt: "Atsinaujinanti gamyba 2025 m. – 62 % (mūsų skaičiavimas)", en: "Renewables 62% of 2025 output (own calculation)"}
     status: pending
     src: "E7 p.18; E2 p.8"
     why: {lt: "Dalis gamybos vis dar iš skalūnų [E2 p.8].", en: "Part of output still comes from oil shale [E2 p.8]."}

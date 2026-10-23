@@ -6,7 +6,7 @@ prepared_by: Claude (automatiškai)
 next_report: "9M 2026 interim report - expected November 2026"
 rating: "Fitch A+ on the EUR 400m bond programme, linked to Lithuania's rating through the state guarantee [K1 p.10, p.17-18]"
 ratings: [{agency: "Fitch", grade: "A+", outlook: "", scope: "bond programme"}]
-verdict: {status: ok, lt: "**Pozicija tvarkinga.** VIK 100 % priklauso valstybei, obligacijų programai Fitch suteikė A+ reitingą, susietą su valstybės garantija [K1 p.9-10, p.17-18]. I pusm. pelnas 7,1 mln. EUR, nuosavo kapitalo dalis 70 % (apskaičiuota įrankio) [K1 p.20-21].", en: "**Position OK.** VIK is 100% state-owned and Fitch rates its bond programme A+, linked to the state guarantee [K1 p.9-10, p.17-18]. 1H profit EUR 7.1m, equity ratio 70% (calculated by the tool) [K1 p.20-21]."}
+verdict: {status: ok, lt: "**Pozicija tvarkinga.** VIK 100 % priklauso valstybei, obligacijų programai Fitch suteikė A+ reitingą, susietą su valstybės garantija [K1 p.9-10, p.17-18]. I pusm. pelnas 7,1 mln. EUR, nuosavo kapitalo dalis 70 % (mūsų skaičiavimas) [K1 p.20-21].", en: "**Position OK.** VIK is 100% state-owned and Fitch rates its bond programme A+, linked to the state guarantee [K1 p.9-10, p.17-18]. 1H profit EUR 7.1m, equity ratio 70% (own calculation) [K1 p.20-21]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [total_assets, equity, equity_ratio, net_profit]
 highlights: [total_assets, equity, equity_ratio, net_profit]
@@ -40,8 +40,8 @@ business:
 financials:
   - lt: "Turtas 169,4 mln. EUR, nuosavas kapitalas 118,9 mln. EUR; I pusm. pelnas 7,1 mln. EUR, daugiausia dėl 8,0 mln. EUR tikrosios vertės padidėjimo [K1 p.20-21]."
     en: "Total assets EUR 169.4m, equity EUR 118.9m; 1H profit EUR 7.1m, mainly from an EUR 8.0m fair value gain [K1 p.20-21]."
-  - lt: "2025 m. pelnas 3,8 mln. EUR (2024 m. – 8,1 mln.); išleistų obligacijų likutis 2026-06-30 – apie 50,6 mln. EUR (apskaičiuota įrankio) [K2 p.22; K3 p.5; K1 p.20]."
-    en: "FY2025 profit EUR 3.8m (2024: 8.1m); bonds outstanding at 2026-06-30 about EUR 50.6m (calculated by the tool) [K2 p.22; K3 p.5; K1 p.20]."
+  - lt: "2025 m. pelnas 3,8 mln. EUR (2024 m. – 8,1 mln.); išleistų obligacijų likutis 2026-06-30 – apie 50,6 mln. EUR (mūsų skaičiavimas) [K2 p.22; K3 p.5; K1 p.20]."
+    en: "FY2025 profit EUR 3.8m (2024: 8.1m); bonds outstanding at 2026-06-30 about EUR 50.6m (own calculation) [K2 p.22; K3 p.5; K1 p.20]."
 
 plans:
   - plan: {lt: "Grąžinti visą 200 mln. EUR Verslo paramos fondo investiciją iki 2028 m. vidurio", en: "Recover the full EUR 200m Business Support Fund investment by mid-2028"}

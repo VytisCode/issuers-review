@@ -46,7 +46,7 @@ targets:
   - p: E
     name: {lt: "Scope 1+2 −35 % iki 2030 m. (bazė 2024 m.)", en: "Scope 1+2 −35% by 2030 (2024 base)"}
     FY2024: {lt: "bazė 606 t [E1 p.62]", en: "base 606 t [E1 p.62]"}
-    FY2025: {lt: "534 t (−12 %, apskaičiuota įrankio) [E1 p.62]", en: "534 t (−12%, calculated by the tool) [E1 p.62]"}
+    FY2025: {lt: "534 t (−12 %, mūsų skaičiavimas) [E1 p.62]", en: "534 t (−12%, own calculation) [E1 p.62]"}
     status: on_track
   - p: E
     name: {lt: "Grynasis nulis iki 2050 m.; paskolų portfelio tikslai suderinti su SBTi iki 2027 m. vidurio", en: "Net zero by 2050; loan portfolio targets aligned with SBTi by mid-2027"}

@@ -6,7 +6,7 @@ prepared_by: Claude (automatiškai)
 next_report: "Q3 2026 interim report - expected late October / November 2026"
 rating: "nerasta (no credit rating found)"
 ratings: []
-verdict: {status: watch, lt: "**Stebėti.** I pusm. Hepsor patyrė 2,2 mln. EUR nuostolį, nes mažai butų perduota pirkėjams (23 vs 102) [H1 p.6, p.20]. Nuosavo kapitalo dalis sumažėjo iki 23,1 %, o obligacijų sąlyga reikalauja ne mažiau 20 % [H1 p.20; H4]. Pardavimų sutartys auga (129 butai, +36 %, apskaičiuota įrankio), pajamos tikėtinos baigus projektus [H1 p.6].", en: "**Watch.** Hepsor posted a EUR 2.2m loss in 1H because few homes were handed over (23 vs 102) [H1 p.6, p.20]. The equity ratio fell to 23.1%, while the bond covenant requires at least 20% [H1 p.20; H4]. Sales contracts are rising (129 homes, +36%, calculated by the tool), and revenue should follow as projects complete [H1 p.6]."}
+verdict: {status: watch, lt: "**Stebėti.** I pusm. Hepsor patyrė 2,2 mln. EUR nuostolį, nes mažai butų perduota pirkėjams (23 vs 102) [H1 p.6, p.20]. Nuosavo kapitalo dalis sumažėjo iki 23,1 %, o obligacijų sąlyga reikalauja ne mažiau 20 % [H1 p.20; H4]. Pardavimų sutartys auga (129 butai, +36 %, mūsų skaičiavimas), pajamos tikėtinos baigus projektus [H1 p.6].", en: "**Watch.** Hepsor posted a EUR 2.2m loss in 1H because few homes were handed over (23 vs 102) [H1 p.6, p.20]. The equity ratio fell to 23.1%, while the bond covenant requires at least 20% [H1 p.20; H4]. Sales contracts are rising (129 homes, +36%, own calculation), and revenue should follow as projects complete [H1 p.6]."}
 periods: [FY2024, FY2025, 6M2025, 6M2026]
 ratios: [revenue, ebitda, net_profit, total_assets, equity, equity_ratio, net_debt]
 highlights: [revenue, net_profit, equity_ratio, net_debt]
@@ -26,8 +26,8 @@ quick_summary:
     en: "**Loss due to the cycle:** 1H revenue EUR 6.2m (22.1m), EBITDA EUR -0.9m, net loss EUR 2.2m (profit 0.3m); revenue is recognised only on handover [H1 p.4, p.20]."
   - lt: "**Pardavimai auga:** sudaryta 129 butų pirminių sutarčių už 25,7 mln. EUR (95 ir 18,5 mln. prieš metus); statoma 513 būstų [H1 p.6; H5]."
     en: "**Sales rising:** 129 first-time home sales contracts for EUR 25.7m (95 and 18.5m a year earlier); 513 homes under construction [H1 p.6; H5]."
-  - lt: "**Skola auga:** palūkanų skola 58,7 mln. EUR (2025 m. pab. 47,7 mln.); grynoji skola apie 56,2 mln. EUR (apskaičiuota įrankio); pinigai 2,5 mln. EUR [H1 p.20, p.23]."
-    en: "**Debt rising:** interest-bearing loans EUR 58.7m (47.7m at end-2025); net debt about EUR 56.2m (calculated by the tool); cash EUR 2.5m [H1 p.20, p.23]."
+  - lt: "**Skola auga:** palūkanų skola 58,7 mln. EUR (2025 m. pab. 47,7 mln.); grynoji skola apie 56,2 mln. EUR (mūsų skaičiavimas); pinigai 2,5 mln. EUR [H1 p.20, p.23]."
+    en: "**Debt rising:** interest-bearing loans EUR 58.7m (47.7m at end-2025); net debt about EUR 56.2m (own calculation); cash EUR 2.5m [H1 p.20, p.23]."
   - lt: "**Naujos obligacijos:** 2026-09 išleista 5 mln. EUR 9,5 % obligacijų (2029), paklausa 2,4 karto didesnė [H4]."
     en: "**New bonds:** EUR 5m of 9.5% bonds (2029) issued in September 2026, 2.4x oversubscribed [H4]."
 

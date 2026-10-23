@@ -6,7 +6,7 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 ## Taisyklės
 1. **Viskas nemokama.** Jei kažkas kainuotų – nedaryk, paaiškink ir lauk patvirtinimo. AI naudojamas tik paprašius (mygtukas ar žinutė), automatinis rinkimas – be AI.
 2. **Faktai, ne interpretacijos.** Kiekvienas skaičius ir teiginys – su šaltiniu `[S# p.N]`. Nerasta → rašyk „nerasta“ ir žymėk `review`. Niekada nepildyk iš atminties.
-3. **Skaičiai – kaip skelbia emitentas.** Paties apskaičiuoti rodikliai žymimi `verified: calc` ir tekste „apskaičiuota įrankio“. Iš santraukos, ne iš originalo teksto, paimti – `verified: check`.
+3. **Skaičiai – kaip skelbia emitentas.** Paties apskaičiuoti rodikliai žymimi `verified: calc` ir tekste „mūsų skaičiavimas“. Iš santraukos, ne iš originalo teksto, paimti – `verified: check`.
 4. **Istorija neperrašoma:** `data/history/*.csv` tik papildoma (taisyti galima tik aiškią klaidą). Senos ataskaitos `reports/*/*.yaml` netrinamos – nauja analizė = naujas failas.
 5. **Kalbos:** `config/settings.yaml` `languages` (savininko sprendimas 2026-10-22: kol kas tik `lt`). Tekstus rašyk bent `lt`; `en`/`lv`/`et` – kai bus įjungtos.
 6. Sankcijų ir žiniasklaidos patikras daro savininkas – įrankis tik pateikia radinius (`found` / `not_found` / `review`) su nuorodomis.

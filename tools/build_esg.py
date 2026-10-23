@@ -183,7 +183,7 @@ def xlsx(path=None, lang="lt"):
                 "sub": "Kiekvienas emitentas vertinamas pagal savo tikslus ir ankstesnius metus (tarpusavyje nelyginami). "
                        "Kiekvienas faktas turi šaltinį su PDF puslapiu – spauskite nuorodą.",
                 "legend": "Spalvos: žalia – gerai / pagal planą, geltona – nevienareikšmiška / atsilieka / stebėti, raudona – blogėja / nepasiekta / reikia kreiptis, pilka – mažai duomenų.",
-                "made": "Parengta", "calc": "apskaičiuota įrankio"},
+                "made": "Parengta", "calc": "mūsų skaičiavimas"},
          "en": {"s1": "Overview", "s2": "Metrics", "s3": "Targets", "s4": "Evidence", "s5": "Sources",
                 "title": "ESG progress by issuer", "issuer": "Issuer", "country": "Country", "held": "Holdings",
                 "trend": "Overall direction", "engage": "Engagement", "reason": "Assessment and gaps", "status": "status", "summary": "summary",
@@ -194,7 +194,7 @@ def xlsx(path=None, lang="lt"):
                 "sub": "Each issuer is assessed against its own targets and prior years (issuers are not compared with each other). "
                        "Every fact has a source with the PDF page – click the link.",
                 "legend": "Colours: green – good / on track, amber – mixed / behind / monitor, red – worsening / missed / engagement needed, grey – limited data.",
-                "made": "Prepared", "calc": "calculated by the tool"}}[lang]
+                "made": "Prepared", "calc": "own calculation"}}[lang]
     NAVY, INK, MUTED, LINE, BAND = "12355B", "1F2933", "6B7280", "D9DEE7", "F6F8FB"
     F = "Calibri"
     f_body, f_head = Font(name=F, size=10, color=INK), Font(name=F, size=10, bold=True, color="FFFFFF")

@@ -71,8 +71,8 @@ plans:
 investor:
   - lt: "**Turima priemonė:** 8,00 % žaliosios obligacijos LT0000134439, išleistos 2025-06-13, išpirkimas 2027-12-13; likutis 32,7 mln. EUR [E1 p.21]. 5 % obligacija LT0000405938 išpirkta 2026-06-17 ir nebeturima [E2 p.1]."
     en: "**Instrument held:** 8.00% green bonds LT0000134439, issued 2025-06-13, maturing 2027-12-13; outstanding EUR 32.7m [E1 p.21]. The 5% bond LT0000405938 was redeemed on 2026-06-17 and is no longer held [E2 p.1]."
-  - lt: "**Sąlygos (kovenantai):** nuosavo kapitalo dalis ≥50 % (yra 54,5 %, apskaičiuota įrankio), svertas ≤75 %, minimalus likvidumas 1,5 mln. EUR; 2026-06-30 laikomasi [E1 p.21]. 2025 m. pab. kapitalo dalis buvo 50,8 % – arti ribos [E3 p.3]."
-    en: "**Covenants:** equity ratio ≥50% (54.5%, calculated by the tool), leverage ≤75%, minimum liquidity EUR 1.5m; met at 2026-06-30 [E1 p.21]. At end-2025 the equity ratio was 50.8%, close to the floor [E3 p.3]."
+  - lt: "**Sąlygos (kovenantai):** nuosavo kapitalo dalis ≥50 % (yra 54,5 %, mūsų skaičiavimas), svertas ≤75 %, minimalus likvidumas 1,5 mln. EUR; 2026-06-30 laikomasi [E1 p.21]. 2025 m. pab. kapitalo dalis buvo 50,8 % – arti ribos [E3 p.3]."
+    en: "**Covenants:** equity ratio ≥50% (54.5%, own calculation), leverage ≤75%, minimum liquidity EUR 1.5m; met at 2026-06-30 [E1 p.21]. At end-2025 the equity ratio was 50.8%, close to the floor [E3 p.3]."
   - lt: "**Eilė:** turimos obligacijos išperkamos po 2026-12 obligacijos, todėl jų grąžinimas priklauso nuo sėkmingo turto pardavimo ir 2026-12 išpirkimo. Obligacijų užtikrinimas ataskaitose nerastas."
     en: "**Order:** the held bonds mature after the December 2026 bond, so their repayment depends on successful asset sales and the December 2026 redemption. Bond security was not found in the reports."
   - lt: "Išvada: padidinta rizika – nuostolinga veikla, trumpalaikio likvidumo trūkumas ir artėjantis išpirkimas; stebėti turto pardavimus ir 2026-12-04 išpirkimą."

@@ -38,10 +38,10 @@ quick_summary:
     en: "**Why:** the CEO names higher fuel prices and unplanned ship repairs after the ice season [P2]."
     lv: "Pēc valdes priekšsēdētāja teiktā, 2. cet. rentabilitāti samazināja augošas degvielas cenas un ledus apstākļu izraisīti ārkārtas kuģu remonti [P2]."
     et: "Juhatuse esimehe sõnul vähendasid II kv kasumlikkust kütusehindade tõus ja jääoludest tingitud erakorralised laevaremondid [P2]."
-  - lt: "**Balansas tvirtas:** grynoji skola 145,8 mln. EUR, t. y. 2,78x 12 mėn. koreguotos EBITDA; nuosavas kapitalas sudaro 59,8 % turto (abu rodikliai apskaičiuoti įrankio) [P1]."
-    en: "**Balance sheet solid:** net debt EUR 145.8m, or 2.78x LTM adjusted EBITDA; equity is 59.8% of assets (both ratios calculated by the tool) [P1]."
-    lv: "Parāds stabils: neto parāds 145,8 milj. EUR, neto parāds / 12 mēn. koriģētā EBITDA 2,78x, pašu kapitāla īpatsvars 59,8 % (abus rādītājus aprēķinājis rīks) [P1]."
-    et: "Võlg stabiilne: netovõlg 145,8 mln eurot, netovõlg / 12 kuu korrigeeritud EBITDA 2,78x, omakapitali määr 59,8% (mõlemad suhtarvud arvutas tööriist) [P1]."
+  - lt: "**Balansas tvirtas:** grynoji skola 145,8 mln. EUR, t. y. 2,78x 12 mėn. koreguotos EBITDA; nuosavas kapitalas sudaro 59,8 % turto (abu rodikliai – mūsų skaičiavimas) [P1]."
+    en: "**Balance sheet solid:** net debt EUR 145.8m, or 2.78x LTM adjusted EBITDA; equity is 59.8% of assets (both ratios are own calculation) [P1]."
+    lv: "Parāds stabils: neto parāds 145,8 milj. EUR, neto parāds / 12 mēn. koriģētā EBITDA 2,78x, pašu kapitāla īpatsvars 59,8 % (abus rādītājus pašu aprēķins) [P1]."
+    et: "Võlg stabiilne: netovõlg 145,8 mln eurot, netovõlg / 12 kuu korrigeeritud EBITDA 2,78x, omakapitali määr 59,8% (mõlemad suhtarvud oma arvutus) [P1]."
   - lt: "**Dividendai viršija politiką:** 0,073 EUR akcijai (iš viso 19,2 mln. EUR) – 85 % 2025 m. pelno, kai politikos minimumas 70 %; išmokėta 2026-05-20 [P1 p.14-15]."
     en: "**Dividend above policy:** EUR 0.073 per share (EUR 19.2m in total), 85% of 2025 profit against a policy minimum of 70%; paid 2026-05-20 [P1 p.14-15]."
     lv: "Dividende 0,073 EUR uz akciju, kopā 19,2 milj. EUR – 85 % no 2025. g. peļņas (politika – vismaz 70 %); izmaksāta 2026-05-20 [P1 p.14-15]."
@@ -90,10 +90,10 @@ plans:
     src: "P3; P1 p.14"
     why: {lt: "Įvykdyta: išmokėta 85 % pelno, kai politika – ≥70 %. Tačiau 2026 m. 6 mėn. pelnas sumažėjo iki 6,0 mln. EUR (10,3 mln.) dėl kuro ir remonto sąnaudų bei mažesnių skystų krovinių, todėl kitų metų dividendų bazė gali būti mažesnė [P1; P2].", en: "Met: 85% payout versus the ≥70% policy. But 6M 2026 profit fell to EUR 6.0m (10.3m) on fuel and repair costs and lower liquid bulk, so next year's dividend base may be smaller [P1; P2]."}
   - plan: {lt: "1 ir 2 apimties emisijos −55 % iki 2030 m. (bazė 2019 m. – 33 086 t CO2e), klimatui neutrali veikla iki 2050 m.", en: "Scope 1+2 emissions −55% by 2030 (2019 base 33,086 t CO2e), climate-neutral operations by 2050", lv: "1. un 2. tvēruma emisijas −55 % līdz 2030. g. (2019. g. bāze – 33 086 t CO2e), klimatneitrāla darbība līdz 2050. g.", et: "1. ja 2. ulatuse heide −55% aastaks 2030 (2019 baas 33 086 t CO2e), kliimaneutraalne tegevus aastaks 2050"}
-    outcome: {lt: "2025 m. – 19 261 t CO2e (−41,8 % nuo 2019 m.; apskaičiuota įrankio)", en: "2025: 19,261 t CO2e (−41.8% vs 2019; calculated by the tool)", lv: "2025. g. – 19 261 t CO2e (−41,8 % pret 2019. g.; aprēķinājis rīks, pārbaudīt)", et: "2025: 19 261 t CO2e (−41,8% vs 2019; arvutas tööriist, kontrollida)"}
+    outcome: {lt: "2025 m. – 19 261 t CO2e (−41,8 % nuo 2019 m.; mūsų skaičiavimas)", en: "2025: 19,261 t CO2e (−41.8% vs 2019; own calculation)", lv: "2025. g. – 19 261 t CO2e (−41,8 % pret 2019. g.; pašu aprēķins, pārbaudīt)", et: "2025: 19 261 t CO2e (−41,8% vs 2019; oma arvutus, kontrollida)"}
     status: pending
     src: "P6 p.19, p.22"
-    why: {lt: "Vykdoma: iki 2025 m. pasiekta −41,8 %; iki 2030 m. reikia dar apie 13 p. p. (apskaičiuota įrankio) [P6 p.19, p.22].", en: "Progressing: −41.8% reached by 2025; about 13 p.p. more is needed by 2030 (calculated by the tool) [P6 p.19, p.22]."}
+    why: {lt: "Vykdoma: iki 2025 m. pasiekta −41,8 %; iki 2030 m. reikia dar apie 13 p. p. (mūsų skaičiavimas) [P6 p.19, p.22].", en: "Progressing: −41.8% reached by 2025; about 13 p.p. more is needed by 2030 (own calculation) [P6 p.19, p.22]."}
   - plan: {lt: "Perspektyvos (2026-08): naujos ro-ro ir konteinerių linijos, Muuga pramonės parkas, Senojo miesto uosto nekilnojamojo turto konkursas", en: "Outlook (2026-08): new ro-ro and container lines, Muuga industrial park, Old City Harbour real estate tender", lv: "Perspektīvas (2026-08): jaunas ro-ro un konteineru līnijas, Mūgas industriālais parks, Vecpilsētas ostas nekustamā īpašuma konkurss", et: "Väljavaade (08.2026): uued ro-ro ja konteinerliinid, Muuga tööstuspark, Vanasadama kinnisvarakonkurss"}
     outcome: {lt: "Nauja – vertinti kitoje apžvalgoje", en: "New - assess in the next review", lv: "Jauns – izvērtēt nākamajā pārskatā", et: "Uus – hinnata järgmises ülevaates"}
     status: pending
@@ -154,8 +154,8 @@ esg:
     int_taxonomy:
       status: 'yes'
       evidence:
-        lt: 'Klimatui neutrali veikla iki 2050 m.; 1+2 apimties emisijos −55 % iki 2030 m., palyginti su 2019 m. [P6 p.19]. Pažanga: 2025 m. – 19 261 t CO2e, −41,8 % nuo 2019 m. (apskaičiuota įrankio) [P6 p.22].'
-        en: 'Climate-neutral operations by 2050; Scope 1+2 emissions −55% by 2030 versus 2019 [P6 p.19]. Progress: 19,261 t CO2e in 2025, −41.8% versus 2019 (calculated by the tool) [P6 p.22].'
+        lt: 'Klimatui neutrali veikla iki 2050 m.; 1+2 apimties emisijos −55 % iki 2030 m., palyginti su 2019 m. [P6 p.19]. Pažanga: 2025 m. – 19 261 t CO2e, −41,8 % nuo 2019 m. (mūsų skaičiavimas) [P6 p.22].'
+        en: 'Climate-neutral operations by 2050; Scope 1+2 emissions −55% by 2030 versus 2019 [P6 p.19]. Progress: 19,261 t CO2e in 2025, −41.8% versus 2019 (own calculation) [P6 p.22].'
     int_yellow_flag:
       status: 'yes'
       evidence:
@@ -164,8 +164,8 @@ esg:
     int_seb_policies:
       status: 'yes'
       evidence:
-        lt: '**Taikoma:** SEB investicijų politika [SP1 p.5] ir laivybos politika, nes keltų segmentas sudaro 31,4 % 2026 m. 6 mėn. pajamų, daugiau nei 15 % riba (apskaičiuota įrankio) [P1 p.9; SP2 p.5]. Transporto politika netaikoma (tik kelių, geležinkelių ir oro transportas) [SP7 p.4]. **Atitinka:** bendrovės valdymo ar tarptautinių normų pažeidimų nėra [E1]; kasmetinė tvarumo ataskaita su klimato duomenimis [P6]; klimato neutralumas iki 2050 m. ir planas keltus perkelti prie alternatyvių kuro rūšių ar elektros – atitinka SEB dekarbonizacijos plano lūkestį [P6 p.18-19; SP2 p.7]; skystų krovinių (naftos produktų) mažėja, 2026 m. 6 mėn. −33,8 % [P1 p.6]. **Galėtų būti geriau:** viešose ataskaitose neaprašyti laivybos dalykai (laivų energijos efektyvumo planai, CII reitingai, laivų perdirbimas) [SP2 p.5-6] ir žmogaus teisių patikra, pranešėjų kanalas, antikorupcijos politika [SP2 p.7; SP4 p.8].'
-        en: '**Applicable:** the SEB Investments policy [SP1 p.5] and the Shipping policy, because the ferry segment is 31.4% of 6M 2026 revenue, above the 15% threshold (calculated by the tool) [P1 p.9; SP2 p.5]. The Transportation policy does not apply (road, rail and air only) [SP7 p.4]. **Met:** no governance or international-norm breach by the company [E1]; annual sustainability report with climate data [P6]; climate neutrality by 2050 and a plan to move ferries to alternative fuels or electrification, in line with SEB''s decarbonisation-plan expectation [P6 p.18-19; SP2 p.7]; liquid bulk (oil products) handling is declining, −33.8% in 6M 2026 [P1 p.6]. **Could be improved:** public reports do not describe shipping-specific items (ship energy efficiency plans, CII ratings, ship recycling) [SP2 p.5-6] or human rights due diligence, whistleblowing and anti-corruption policies [SP2 p.7; SP4 p.8].'
+        lt: '**Taikoma:** SEB investicijų politika [SP1 p.5] ir laivybos politika, nes keltų segmentas sudaro 31,4 % 2026 m. 6 mėn. pajamų, daugiau nei 15 % riba (mūsų skaičiavimas) [P1 p.9; SP2 p.5]. Transporto politika netaikoma (tik kelių, geležinkelių ir oro transportas) [SP7 p.4]. **Atitinka:** bendrovės valdymo ar tarptautinių normų pažeidimų nėra [E1]; kasmetinė tvarumo ataskaita su klimato duomenimis [P6]; klimato neutralumas iki 2050 m. ir planas keltus perkelti prie alternatyvių kuro rūšių ar elektros – atitinka SEB dekarbonizacijos plano lūkestį [P6 p.18-19; SP2 p.7]; skystų krovinių (naftos produktų) mažėja, 2026 m. 6 mėn. −33,8 % [P1 p.6]. **Galėtų būti geriau:** viešose ataskaitose neaprašyti laivybos dalykai (laivų energijos efektyvumo planai, CII reitingai, laivų perdirbimas) [SP2 p.5-6] ir žmogaus teisių patikra, pranešėjų kanalas, antikorupcijos politika [SP2 p.7; SP4 p.8].'
+        en: '**Applicable:** the SEB Investments policy [SP1 p.5] and the Shipping policy, because the ferry segment is 31.4% of 6M 2026 revenue, above the 15% threshold (own calculation) [P1 p.9; SP2 p.5]. The Transportation policy does not apply (road, rail and air only) [SP7 p.4]. **Met:** no governance or international-norm breach by the company [E1]; annual sustainability report with climate data [P6]; climate neutrality by 2050 and a plan to move ferries to alternative fuels or electrification, in line with SEB''s decarbonisation-plan expectation [P6 p.18-19; SP2 p.7]; liquid bulk (oil products) handling is declining, −33.8% in 6M 2026 [P1 p.6]. **Could be improved:** public reports do not describe shipping-specific items (ship energy efficiency plans, CII ratings, ship recycling) [SP2 p.5-6] or human rights due diligence, whistleblowing and anti-corruption policies [SP2 p.7; SP4 p.8].'
     engagement:
       status: 'no'
       evidence:
@@ -174,8 +174,8 @@ esg:
     indicators:
       status: 'yes'
       evidence:
-        lt: 1+2 apimties emisijos 2025 m. – 19 261 t CO2e, −41,8 % nuo 2019 m. (apskaičiuota įrankio) [P6 p.22]; tikslas – −55 % iki 2030 m. ir klimato neutralumas iki 2050 m. [P6 p.19].
-        en: Scope 1+2 emissions 19,261 t CO2e in 2025, −41.8% versus 2019 (calculated by the tool) [P6 p.22]; target −55% by 2030 and climate neutrality by 2050 [P6 p.19].
+        lt: 1+2 apimties emisijos 2025 m. – 19 261 t CO2e, −41,8 % nuo 2019 m. (mūsų skaičiavimas) [P6 p.22]; tikslas – −55 % iki 2030 m. ir klimato neutralumas iki 2050 m. [P6 p.19].
+        en: Scope 1+2 emissions 19,261 t CO2e in 2025, −41.8% versus 2019 (own calculation) [P6 p.22]; target −55% by 2030 and climate neutrality by 2050 [P6 p.19].
   comments:
     exclusion:
       lt: ''

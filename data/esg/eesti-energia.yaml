@@ -50,7 +50,7 @@ years:
 targets:
   - p: E
     name: {lt: "Visa energijos gamyba anglies neutrali iki 2045 m. (penki etapai su tarpiniais tikslais)", en: "All energy production carbon neutral by 2045 (five phases with interim targets)"}
-    FY2024: {lt: "Scope 1 2 929 tūkst. t (−58 % nuo 2022 m., apskaičiuota įrankio) [E2 p.94]", en: "Scope 1 2,929 thousand t (−58% vs 2022, calculated by the tool) [E2 p.94]"}
+    FY2024: {lt: "Scope 1 2 929 tūkst. t (−58 % nuo 2022 m., mūsų skaičiavimas) [E2 p.94]", en: "Scope 1 2,929 thousand t (−58% vs 2022, own calculation) [E2 p.94]"}
     FY2025: {lt: "nerasta", en: "not found"}
     status: no_data
   - p: E
