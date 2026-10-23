@@ -1,0 +1,86 @@
+# ESG Engagement: Eesti Energia. Puslapiai - PDF puslapiai.
+# 2025 m.: rastas tik nepatikrintas metinis pranešimas (sutrumpintos finansinės ataskaitos); darnumo ataskaita (ESRS), kurią jis mini [E1 p.38], automatiškai nerasta.
+issuer: eesti-energia
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Eesti Energia Annual Report 2025 (unaudited, condensed financial statements)", url: "https://public-docs.enefit.com/ettevottest/investorile/2025/EE-aruanne-2025-EN_FINAL.pdf", date: 2026-02}
+  E2: {title: "Eesti Energia Annual Report 2024", url: "https://public-docs.enefit.com/ettevottest/investorile/eesti-energia-aastaaruanne-2024-eng.pdf", date: 2025-03}
+trend: improving
+summary:
+  lt: "Tikslas – visa energijos gamyba anglies neutrali iki 2045 m., penkių etapų kelias su tarpiniais tikslais; skalūnų elektros atsisakoma ne vėliau kaip 2035 m. [E2 p.94; E2 p.24]. Scope 1 2022–2024 m. sumažėjo nuo 6,9 iki 2,9 mln. t, didėja atsinaujinančių šaltinių gamyba [E2 p.94; E1 p.8]. 2024 m. specialusis auditas nustatė taršos ribų viršijimus; 2025 m. tik vienas toks incidentas [E2 p.24; E1 p.24]. 2025 m. ESG rodiklių (Scope 1–3) nerasta – darnumo ataskaita automatiškai nerasta."
+  en: "Target: all energy production carbon neutral by 2045, via a five-phase path with interim targets; oil-shale electricity to be phased out by 2035 at the latest [E2 p.94; E2 p.24]. Scope 1 fell from 6.9m t to 2.9m t in 2022–2024, and renewable generation keeps growing [E2 p.94; E1 p.8]. A 2024 special audit found exceedances of emission limits; in 2025 there was only one such incident [E2 p.24; E1 p.24]. 2025 ESG metrics (Scope 1–3) not found, because the sustainability report was not found automatically."
+years:
+  FY2025:
+    trend: limited
+    framework:
+      lt: "Metiniame pranešime nurodoma, kad darnumo ataskaita yra metinės ataskaitos dalis [E1 p.38], tačiau rastame dokumente jos nėra (tik vadovybės ataskaita ir sutrumpintos finansinės ataskaitos) [E1 p.2]. Užtikrinimas – nerasta."
+      en: "The annual report says the sustainability report is part of the annual report [E1 p.38], but the document found does not contain it (only the management report and condensed financial statements) [E1 p.2]. Assurance: not found."
+    assurance: none_found
+    summary:
+      lt: "Atsinaujinančių šaltinių gamyba +6 % iki 2 257 GWh, neatsinaujinančių −18 % iki 1 366 GWh [E1 p.56; E1 p.58]. Enefit 140 išmetimai sumažinti beveik 80 %, oro taršos incidentas tik vienas [E1 p.5; E1 p.24]. Scope 1–3 – nerasta."
+      en: "Renewable generation +6% to 2,257 GWh, non-renewable −18% to 1,366 GWh [E1 p.56; E1 p.58]. Enefit 140 emissions cut by almost 80%, and only one air-emissions incident [E1 p.5; E1 p.24]. Scope 1–3: not found."
+    evidence:
+      - {p: E, lt: "Atsinaujinančių šaltinių elektros gamyba 2 257 GWh (2024 m. 2 129 GWh); vėjo parkai pagamino 1 809 GWh [E1 p.8; E1 p.56].", en: "Renewable electricity generation 2,257 GWh (2024: 2,129 GWh); wind farms produced 1,809 GWh [E1 p.8; E1 p.56]."}
+      - {p: E, lt: "Seniausioje skalūnų alyvos gamykloje Enefit 140 įrengta nauja antrinio oro sistema – išmetimai sumažėjo beveik 80 % [E1 p.5].", en: "New secondary air system at the oldest shale oil plant, Enefit 140, cut its emissions by almost 80% [E1 p.5]."}
+      - {p: E, lt: "Aplinkos taryba nusprendė nepradėti nusižengimų bylų dėl Eesti elektrinės išmetimų viršijimų ir stebėsenos trūkumų; 2025 m. – vienas oro taršos incidentas (prieš kelerius metus – dešimtys) [E1 p.24].", en: "The Environmental Board decided not to start misdemeanour proceedings over emission exceedances and missing monitoring at the Eesti power plant; one air-emissions incident in 2025 (dozens a few years ago) [E1 p.24]."}
+      - {p: E, lt: "Pradėtas 53,1 MWh baterijų kaupiklis; pasirašyta sutartis statyti 100 MW vandeniliui pritaikytą elektrinę [E1 p.5].", en: "53.1 MWh battery storage launched; agreement signed to build a 100 MW hydrogen-ready power plant [E1 p.5]."}
+      - {p: S, lt: "Įsteigtas saugos komitetas; 5 nelaimingi atsitikimai be darbo laiko praradimo ir 7 su praradimu [E1 p.34].", en: "Safety committee set up; 5 workplace accidents without and 7 with lost working time [E1 p.34]."}
+    concerns:
+      - {lt: "2025 m. darnumo ataskaita (ESRS) ir Scope 1–3 duomenys automatiškai nerasti; rastas dokumentas – nepatikrintas [E1 p.38; E1 p.2].", en: "The 2025 sustainability report (ESRS) and Scope 1–3 data were not found automatically; the document found is unaudited [E1 p.38; E1 p.2]."}
+      - {lt: "Skalūnų alyvos verslas tęsiamas (pagaminta 378,4 tūkst. t) [E1 p.63].", en: "The shale oil business continues (378.4 thousand t produced) [E1 p.63]."}
+  FY2024:
+    trend: improving
+    framework:
+      lt: "Darnumo ataskaita – metinės ataskaitos dalis, neaudituota, ne pagal ESRS (ESRS – nuo 2025 m.) [E2 p.86]. 2023 m. Scope 1–3 patikrino Nomine Consult OÜ, 2024 m. – bus tikrinami 2025 m. [E2 p.94]. ISO 14001 ir EMAS [E2 p.91]."
+      en: "Sustainability report included in the annual report, unaudited and not under ESRS (ESRS from 2025) [E2 p.86]. 2023 Scope 1–3 verified by Nomine Consult OÜ; 2024 figures to be verified in 2025 [E2 p.94]. ISO 14001 and EMAS [E2 p.91]."
+    assurance: none
+    summary:
+      lt: "Scope 1 −20 % iki 2 929 tūkst. t (Eesti elektrinė veikė ne visą laiką, Balti 11 blokas sustabdytas); SOx −44 %, NOx −33 %; atsinaujinančių šaltinių gamyba +35 % [E2 p.94; E2 p.63]. Tačiau specialusis auditas nustatė taršos ribų viršijimus, o darbe žuvo vienas žmogus [E2 p.24; E2 p.40]."
+      en: "Scope 1 −20% to 2,929 thousand t (Eesti plant on part-time operation, Balti unit 11 out of service); SOx −44%, NOx −33%; renewable generation +35% [E2 p.94; E2 p.63]. However, a special audit found exceedances of emission limits, and there was one workplace fatality [E2 p.24; E2 p.40]."
+    evidence:
+      - {p: E, lt: "Scope 1 6 907 → 3 669 → 2 929 tūkst. t CO2e (2022–2024); viso pėdsakas 5,1 mln. t [E2 p.94].", en: "Scope 1 6,907 → 3,669 → 2,929 thousand t CO2e (2022–2024); total footprint 5.1m t [E2 p.94]."}
+      - {p: E, lt: "Elektros gamybos CO2 intensyvumas jau atitinka savininko lūkesčius 2030 m.; skalūnų elektros planuojama atsisakyti ne vėliau kaip 2035 m. [E2 p.24].", en: "Carbon intensity of electricity generation already in line with the owner's 2030 expectation; oil-shale electricity to be phased out by 2035 at the latest [E2 p.24]."}
+      - {p: E, lt: "Atsinaujinančių šaltinių gamyba +550 GWh (+35 %); neatsinaujinančių 1 661 GWh (−18 %) [E2 p.63; E2 p.65].", en: "Renewable generation +550 GWh (+35%); non-renewable 1,661 GWh (−18%) [E2 p.63; E2 p.65]."}
+      - {p: E, lt: "Aušinimo vanduo 521 → 396 mln. m³, kasyklų vanduo 118 → 108 mln. m³ [E2 p.93].", en: "Cooling water 521 → 396 million m³, mine water 118 → 108 million m³ [E2 p.93]."}
+      - {p: G, lt: "Pranešėjų apsauga pagal ES direktyvą, kasmetiniai etikos ir antikorupcijos mokymai [E2 p.60].", en: "Whistleblower protection under the EU directive; annual ethics and anti-corruption training [E2 p.60]."}
+    concerns:
+      - {lt: "Finansų ministerijos užsakytas specialusis auditas: viršytos teršalų ribos Enefit-140 ir Enefit Power elektrinėse, stebėsenos sistemų trūkumai; dalis problemų dar sprendžiama [E2 p.24].", en: "Special audit commissioned by the Ministry of Finance: emission limit exceedances at Enefit-140 and Enefit Power plants, weak monitoring systems; some issues still being addressed [E2 p.24]."}
+      - {lt: "Nusižengimų bylos dėl Eesti elektrinės (matavimai, išmetimų ribos) ir trys – chemijos pramonėje (Enefit 140) [E2 p.95].", en: "Misdemeanour proceedings concerning the Eesti power plant (measurements, emission limits) and three in the chemical industry (Enefit 140) [E2 p.95]."}
+      - {lt: "Vienas mirtinas nelaimingas atsitikimas darbe, 12 atsitikimų su darbo laiko praradimu [E2 p.40].", en: "One workplace fatality and 12 accidents with lost working time [E2 p.40]."}
+targets:
+  - p: E
+    name: {lt: "Visa energijos gamyba anglies neutrali iki 2045 m. (penki etapai su tarpiniais tikslais)", en: "All energy production carbon neutral by 2045 (five phases with interim targets)"}
+    FY2024: {lt: "Scope 1 2 929 tūkst. t (−58 % nuo 2022 m., apskaičiuota įrankio) [E2 p.94]", en: "Scope 1 2,929 thousand t (−58% vs 2022, calculated by the tool) [E2 p.94]"}
+    FY2025: {lt: "nerasta", en: "not found"}
+    status: no_data
+  - p: E
+    name: {lt: "Skalūnų elektros gamybos atsisakyti ne vėliau kaip 2035 m.", en: "Phase out oil-shale electricity by 2035 at the latest"}
+    FY2024: {lt: "Neatsinaujinanti gamyba 1 661 GWh (−18 %) [E2 p.65]", en: "Non-renewable generation 1,661 GWh (−18%) [E2 p.65]"}
+    FY2025: {lt: "1 366 GWh (−18 %) [E1 p.58]", en: "1,366 GWh (−18%) [E1 p.58]"}
+    status: on_track
+  - p: E
+    name: {lt: "Laikytis taršos ribų (po specialiojo audito)", en: "Comply with emission limits (after the special audit)"}
+    FY2024: {lt: "Viršijimai, nusižengimų bylos [E2 p.24; E2 p.95]", en: "Exceedances, misdemeanour proceedings [E2 p.24; E2 p.95]"}
+    FY2025: {lt: "Pagrindiniai išmetimai atitinka reikalavimus, vienas incidentas [E1 p.24]", en: "Main emissions compliant, one incident [E1 p.24]"}
+    status: on_track
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 3669, src: "E2 p.94"}, FY2024: {v: 2929, src: "E2 p.94", note: {lt: "preliminarus, bus tikrinamas", en: "preliminary, to be verified"}}}
+  - {p: E, name: {lt: "Scope 2 išmetimai", en: "Scope 2 emissions"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 359, src: "E2 p.94"}, FY2024: {v: 360, src: "E2 p.94"}}
+  - {p: E, name: {lt: "Scope 3 išmetimai", en: "Scope 3 emissions"}, unit: "tūkst. t CO2e", better: down, FY2023: {v: 1818, src: "E2 p.94"}, FY2024: {v: 1842, src: "E2 p.94"}}
+  - {p: E, name: {lt: "SOx išmetimai", en: "SOx emissions"}, unit: "tūkst. t", better: down, FY2023: {v: 2.5, src: "E2 p.94"}, FY2024: {v: 1.4, src: "E2 p.94"}}
+  - {p: E, name: {lt: "NOx išmetimai", en: "NOx emissions"}, unit: "tūkst. t", better: down, FY2023: {v: 2.7, src: "E2 p.94"}, FY2024: {v: 1.8, src: "E2 p.94"}}
+  - {p: E, name: {lt: "Atsinaujinančių šaltinių elektros gamyba", en: "Renewable electricity generation"}, unit: "GWh", better: up, FY2024: {v: 2129, src: "E1 p.8"}, FY2025: {v: 2257, src: "E1 p.8"}}
+  - {p: E, name: {lt: "Neatsinaujinančių šaltinių elektros gamyba", en: "Non-renewable electricity generation"}, unit: "GWh", better: down, FY2024: {v: 1661, src: "E2 p.65"}, FY2025: {v: 1366, src: "E1 p.58"}}
+  - {p: S, name: {lt: "Nelaimingi atsitikimai su darbo laiko praradimu", en: "Accidents with lost working time"}, unit: "", better: down, FY2024: {v: 12, src: "E2 p.40"}, FY2025: {v: 7, src: "E1 p.34"}}
+engagement:
+  level: engage
+  policies: [investments, fossil_fuels, electricity_renewables, climate_nature]
+  reason:
+    lt: "SEB iškastinio kuro politika reikalauja skelbti Scope 1–3 ir trumpo, vidutinio ir ilgo laikotarpio tikslus, tikisi pereinamojo plano; netradicinė nafta (skalūnų alyva) leidžiama pagal Baltijos išimtį iki 2030 m. 2025 m. darnumo duomenų nerasta, tarpiniai tikslai skaičiais neskelbiami [E2 p.94], o 2024 m. nustatyti taršos ribų viršijimai [E2 p.24]."
+    en: "The SEB Fossil Fuels policy requires Scope 1–3 disclosure and short-, medium- and long-term targets, and expects a transition plan; unconventional oil (shale oil) is allowed under the Baltic exception until 2030. No 2025 sustainability data was found, interim targets are not published as numbers [E2 p.94], and emission limit exceedances were found in 2024 [E2 p.24]."
+  subject: "Eesti Energia: questions from a bondholder on 2025 sustainability reporting and transition targets"
+  questions:
+    - "Where can we find the audited 2025 sustainability statement (ESRS) with Scope 1, 2 and 3 emissions, and who provided the assurance?"
+    - "Your 2024 report describes a five-phase path to carbon neutrality by 2045 with interim targets. Could you share the quantified interim targets and 2025 progress against them?"
+    - "What is the planned shale oil production profile after 2030, including Enefit 280-2, and how does it fit the 2045 target?"
+    - "Are any measures from the 2024 special audit on emission limits and continuous monitoring still open, and are any proceedings pending?"

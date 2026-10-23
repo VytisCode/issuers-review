@@ -1,0 +1,85 @@
+# ESG Engagement: Rīgas ūdens. Puslapiai - PDF puslapiai. 2024 m. ataskaita - latvių kalba.
+issuer: rigas-udens
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "Rīgas ūdens Annual Report 2025 (with Sustainability Report)", url: "https://nasdaqbaltic.com/market/upload/reports/h2o/2025_ar_en.pdf", date: 2026-04}
+  E2: {title: "Rīgas ūdens 2024. gada ilgtspējas un gada pārskats (LV)", url: "https://nasdaqbaltic.com/market/upload/reports/h2o/2024_ar_lv_eur_00_ias.pdf", date: 2025-04}
+trend: improving
+summary:
+  lt: "Strategijoje 2040 – Scope 1+2 −50 % (−30 % iki 2030 m.) ir energetiškai neutralūs nuotekų valymo įrenginiai [E1 p.68]. 2025 m. pirmoji pilna ESRS ataskaita su ribotu užtikrinimu (2024 m. – be užtikrinimo) [E1 p.2; E2 p.28]. Dauguma metinių tikslų pasiekti; atsilieka vandens nuostoliai (2024 m. 13,6 % vs ≤12,5 %), jų bazė bus perskaičiuota 2026 m. [E2 p.46; E1 p.99]."
+  en: "Strategy 2040 targets Scope 1+2 −50% (−30% by 2030) and energy-neutral wastewater treatment plants [E1 p.68]. 2025 was the first full ESRS report with limited assurance (2024: no assurance) [E1 p.2; E2 p.28]. Most annual targets were met; water losses lag (2024: 13.6% vs ≤12.5%), and their baseline will be recalculated in 2026 [E2 p.46; E1 p.99]."
+years:
+  FY2025:
+    trend: improving
+    framework:
+      lt: "Pirmoji pilna ataskaita pagal ESRS, riboto užtikrinimo patikra (nepriklausomas auditorius) [E1 p.2; E1 p.34; E1 p.203]. Peržiūrėta GHG metodika, pridėtas Scope 3 [E1 p.48]. Moksliškai pagrįstų (SBTi) tikslų dar nėra [E1 p.52]."
+      en: "First full report under ESRS, limited assurance by the independent auditor [E1 p.2; E1 p.34; E1 p.203]. GHG methodology revised and Scope 3 added [E1 p.48]. No science-based targets yet [E1 p.52]."
+    assurance: limited
+    summary:
+      lt: "Scope 1 −9,1 %, Scope 1+2 (rinkos metodas) −5,3 % [E1 p.77]. Metiniai tikslai pasiekti: GHG mažinimas 226,67 t (tikslas 148,25 t), AEI dalis valykloje 26,7 %, atnaujinta 14,7 km vandentiekio [E1 p.68; E1 p.99]. Du darbuotojai mirė dėl staigaus sveikatos pablogėjimo (ne dėl darbo aplinkos) [E1 p.123]."
+      en: "Scope 1 −9.1%, Scope 1+2 (market-based) −5.3% [E1 p.77]. Annual targets met: GHG reduction 226.67 t (target 148.25 t), renewable share at the treatment plant 26.7%, 14.7 km of water mains renewed [E1 p.68; E1 p.99]. Two employees died after a sudden deterioration in health (not workplace factors) [E1 p.123]."
+    evidence:
+      - {p: E, lt: "Scope 1 2 923 t CO2e (2024 m. 3 216 t); Scope 1+2 rinkos metodu 24 522 t (2024 m. 25 898 t) [E1 p.77].", en: "Scope 1 2,923 t CO2e (2024: 3,216 t); Scope 1+2 market-based 24,522 t (2024: 25,898 t) [E1 p.77]."}
+      - {p: E, lt: "Baigtos statyti saulės elektrinės nuotekų valykloje ir vandens ruošimo stotyje; pradėta metantankų rekonstrukcija ir metano nuotėkio stebėsena [E1 p.73].", en: "Solar plants completed at a wastewater plant and a drinking-water plant; methane-tank reconstruction and methane leak monitoring started [E1 p.73]."}
+      - {p: E, lt: "Išvalytų nuotekų dalis 98,01 % (tikslas ≥98 %) [E1 p.68].", en: "Treated wastewater share 98.01% (target ≥98%) [E1 p.68]."}
+      - {p: E, lt: "Atnaujinta 14,7 km vandentiekio (tikslas ≥13 km), išplauta 333,5 km tinklų (tikslas ≥240 km) [E1 p.99].", en: "14.7 km of water mains renewed (target ≥13 km); 333.5 km of network flushed (target ≥240 km) [E1 p.99]."}
+      - {p: S, lt: "Registruoti nelaimingi atsitikimai 5 (2024 m. 2), įskaitant 2 mirtis, nesusijusias su darbo aplinka; dažnis 3,92 (2024 m. 1,57) [E1 p.123].", en: "Registered work accidents 5 (2024: 2), including 2 deaths not related to workplace factors; frequency 3.92 (2024: 1.57) [E1 p.123]."}
+      - {p: G, lt: "Patvirtintų korupcijos ar kyšininkavimo atvejų nėra, bylų nėra [E1 p.144].", en: "No confirmed corruption or bribery incidents and no proceedings [E1 p.144]."}
+    concerns:
+      - {lt: "Daugiau gamtinių dujų sunaudota šildymui, nes neveikė biodujų kogeneracinės jėgainės šilumokaitis [E1 p.77].", en: "More natural gas was used for heating because the biogas CHP plant's heat exchanger was not working [E1 p.77]."}
+      - {lt: "Vandens nuostolių duomenys neapibrėžti – bazė bus perskaičiuota 2026 m. (tikslas −30 % lieka) [E1 p.99].", en: "Water-loss data is uncertain, so the baseline will be recalculated in 2026 (the −30% target stays) [E1 p.99]."}
+  FY2024:
+    trend: mixed
+    framework:
+      lt: "Ataskaita taikant ESRS reikalavimus, kiek jie atitinka įmonės praktiką; nepriklausomo užtikrinimo nėra [E2 p.28]."
+      en: "Report applying ESRS requirements as far as they fit the company's practice; no independent assurance [E2 p.28]."
+    assurance: none
+    summary:
+      lt: "Dauguma 2024 m. tikslų pasiekti (išvalytos nuotekos 98,46 %, sutaupyta 1 786 MWh energijos), bet vandens nuostoliai 13,6 % (tikslas ≤12,5 %) ir dumblo apdorojimas metantankuose 67,77 % (tikslas ≥70 %) [E2 p.44; E2 p.46]."
+      en: "Most 2024 targets met (treated wastewater 98.46%, 1,786 MWh energy saved), but water losses were 13.6% (target ≤12.5%) and sludge treated in digesters 67.77% (target ≥70%) [E2 p.44; E2 p.46]."
+    evidence:
+      - {p: E, lt: "Išvalytų nuotekų dalis 98,46 % (tikslas >95 %) [E2 p.44].", en: "Treated wastewater share 98.46% (target >95%) [E2 p.44]."}
+      - {p: E, lt: "Sutaupyta 1 786,08 MWh energijos (tikslas ≥500 MWh); techninio vandens sumažinta 280 000 m³ (tikslas 250 000 m³) [E2 p.46].", en: "1,786.08 MWh of energy saved (target ≥500 MWh); process water cut by 280,000 m³ (target 250,000 m³) [E2 p.46]."}
+      - {p: S, lt: "Labai patenkintų ir patenkintų klientų 89 % (tikslas >83 %) [E2 p.45].", en: "Very satisfied or satisfied customers 89% (target >83%) [E2 p.45]."}
+    concerns:
+      - {lt: "Vandens nuostoliai 13,6 % (tikslas ≤12,5 %); parengtas mažinimo veiksmų planas [E2 p.46].", en: "Water losses 13.6% (target ≤12.5%); a reduction action plan was prepared [E2 p.46]."}
+      - {lt: "Dumblo apdorojimas metantankuose 67,77 % (tikslas ≥70 %); plėtros projekto pirkimas vėluoja nuo 2022 m. [E2 p.44].", en: "Sludge treated in digesters 67.77% (target ≥70%); the expansion project's procurement has been delayed since 2022 [E2 p.44]."}
+targets:
+  - p: E
+    name: {lt: "Scope 1+2 −30 % iki 2030 m., −50 % iki 2040 m. (bazė – 2020–2023 m. vidurkis 9 249 t)", en: "Scope 1+2 −30% by 2030, −50% by 2040 (base: 2020–2023 average 9,249 t)"}
+    FY2024: {lt: "Scope 1+2 (vietos metodas) 8 574 t [E1 p.77]", en: "Scope 1+2 (location-based) 8,574 t [E1 p.77]"}
+    FY2025: {lt: "Sumažinta 226,67 t per metus (tikslas 148,25 t); Scope 1+2 8 405 t [E1 p.68; E1 p.77]", en: "Cut by 226.67 t a year (target 148.25 t); Scope 1+2 8,405 t [E1 p.68; E1 p.77]"}
+    status: on_track
+  - p: E
+    name: {lt: "Energetiškai neutralūs nuotekų valymo įrenginiai: AEI ≥85 % 2030 m., 100 % 2040 m.", en: "Energy-neutral wastewater treatment: renewables ≥85% in 2030, 100% in 2040"}
+    FY2024: {lt: "nerasta", en: "not found"}
+    FY2025: {lt: "26,7 % (tikslas ≥26,6 %) [E1 p.68]", en: "26.7% (target ≥26.6%) [E1 p.68]"}
+    status: on_track
+  - p: E
+    name: {lt: "Vandens nuostoliai −30 % iki 2030 m. (nuo 2023 m.)", en: "Water losses −30% by 2030 (vs 2023)"}
+    FY2024: {lt: "13,6 % (2024 m. tikslas ≤12,5 %) [E2 p.46]", en: "13.6% (2024 target ≤12.5%) [E2 p.46]"}
+    FY2025: {lt: "Bazė perskaičiuojama 2026 m. [E1 p.99]", en: "Baseline being recalculated in 2026 [E1 p.99]"}
+    status: behind
+  - p: E
+    name: {lt: "Išvalytų nuotekų dalis ≥98 %", en: "Treated wastewater share ≥98%"}
+    FY2024: {lt: "98,46 % [E2 p.44]", en: "98.46% [E2 p.44]"}
+    FY2025: {lt: "98,01 % [E1 p.68]", en: "98.01% [E1 p.68]"}
+    status: met
+  - p: E
+    name: {lt: "100 % nuotekų dumblo apdorojama metantankuose 2026 m.", en: "100% of sewage sludge treated in digesters in 2026"}
+    FY2024: {lt: "67,77 % (tikslas ≥70 %) [E2 p.44]", en: "67.77% (target ≥70%) [E2 p.44]"}
+    FY2025: {lt: "Pradėta metantankų rekonstrukcija [E1 p.73]", en: "Digester reconstruction started [E1 p.73]"}
+    status: behind
+metrics:
+  - {p: E, name: {lt: "Scope 1 išmetimai", en: "Scope 1 emissions"}, unit: "t CO2e", better: down, FY2023: {v: 2793.65, src: "E1 p.77"}, FY2024: {v: 3215.91, src: "E1 p.77", note: {lt: "pataisyta; iki pataisos 3 208,96", en: "corrected; 3,208.96 before correction"}}, FY2025: {v: 2923.24, src: "E1 p.77"}}
+  - {p: E, name: {lt: "Scope 2 (rinkos metodas)", en: "Scope 2 (market-based)"}, unit: "t CO2e", better: down, FY2023: {v: 20682.87, src: "E1 p.77"}, FY2024: {v: 22681.62, src: "E1 p.77"}, FY2025: {v: 21598.68, src: "E1 p.77"}}
+  - {p: E, name: {lt: "Scope 1+2 (vietos metodas)", en: "Scope 1+2 (location-based)"}, unit: "t CO2e", better: down, FY2023: {v: 8409.85, src: "E1 p.77"}, FY2024: {v: 8581.43, src: "E1 p.77"}, FY2025: {v: 8405.22, src: "E1 p.77"}}
+  - {p: E, name: {lt: "Išvalytų nuotekų dalis", en: "Treated wastewater share"}, unit: "%", better: up, FY2024: {v: 98.46, src: "E2 p.44"}, FY2025: {v: 98.01, src: "E1 p.68"}}
+  - {p: S, name: {lt: "Registruoti nelaimingi atsitikimai darbe", en: "Registered work accidents"}, unit: "", better: down, FY2024: {v: 2, src: "E1 p.123"}, FY2025: {v: 5, src: "E1 p.123", note: {lt: "įskaitant 2 mirtis dėl sveikatos, ne darbo aplinkos", en: "incl. 2 health-related deaths, not workplace factors"}}}
+engagement:
+  level: none
+  policies: [investments, climate_nature, human_rights]
+  reason:
+    lt: "Vandentvarka – SEB sektoriaus politika netaikoma; bendri klimato ir žmogaus teisių lūkesčiai įvykdyti: ESRS ataskaita su užtikrinimu, išmetimų tikslai iki 2030 ir 2040 m., korupcijos atvejų nėra [E1 p.2; E1 p.68; E1 p.144]. Vandens nuostolių atsilikimas atskleistas, yra veiksmų planas [E2 p.46]."
+    en: "Water utility, so no SEB sector policy applies; general climate and human-rights expectations are met: an ESRS report with assurance, emission targets for 2030 and 2040, no corruption cases [E1 p.2; E1 p.68; E1 p.144]. The water-loss gap is disclosed and there is an action plan [E2 p.46]."
+  questions: []

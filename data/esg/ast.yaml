@@ -1,0 +1,72 @@
+# ESG Engagement: Augstsprieguma tīkls (AST). Puslapiai - PDF puslapiai (sutampa su spausdintais).
+issuer: ast
+analysis_date: 2026-10-23
+sources:
+  E1: {title: "AST Group Annual Report 2025 (with Sustainability Report)", url: "https://nasdaqbaltic.com/market/upload/reports/ast/2025_ar_en_con.pdf", date: 2026-04}
+  E2: {title: "AST Sustainability and Annual Report 2024", url: "https://www.ast.lv/sites/default/files/editor/AST_Ilgtspejas_gada_parskats_2024_ALL_EN_act.pdf", date: 2025-04}
+trend: mixed
+summary:
+  lt: "Grupės Scope 1 sumažėjo 47 % nuo 2020 m. (daugiausia dujų dukterinė Conexus), Conexus siekia −30 % iki 2028 m. [E1 p.92; E1 p.86]. Patronuojanti AST 2025 m. pripažino, kad ankstesnis tikslas (−3 % per metus) nustatytas be pilnų skaičiavimų, nes perdavimo nuostoliai po sinchronizacijos išaugo; naujas planas – 2026 m. I pusm. [E1 p.86]. Darnumo ataskaita pagal ESRS, ribotas užtikrinimas – KPMG [E1 p.8]."
+  en: "Group Scope 1 is down 47% since 2020 (mostly the gas subsidiary Conexus), and Conexus targets −30% by 2028 [E1 p.92; E1 p.86]. In 2025 the parent AST acknowledged that its earlier target (−3% a year) was set without full calculations, as transmission losses rose after synchronisation; a new plan is due in H1 2026 [E1 p.86]. Sustainability statement under ESRS, limited assurance by KPMG [E1 p.8]."
+years:
+  FY2025:
+    trend: mixed
+    framework:
+      lt: "Darnumo ataskaita pagal ESRS, riboto užtikrinimo patikra – KPMG Baltics [E1 p.8; E1 p.168]. Pirmą kartą apskaičiuotas Scope 3 (bazė – 2025 m.) [E1 p.93]. ISO 14001, 45001, 50001 (Conexus) [E1 p.84]."
+      en: "Sustainability statement under ESRS, limited assurance by KPMG Baltics [E1 p.8; E1 p.168]. Scope 3 calculated for the first time (base year 2025) [E1 p.93]. ISO 14001, 45001, 50001 (Conexus) [E1 p.84]."
+    assurance: limited
+    summary:
+      lt: "Grupės Scope 1 −10 %, Scope 1+2 (rinkos metodas) −4 % [E1 p.92]. Scope 2 dabar apima perdavimo nuostolius – todėl patronuojančios AST išmetimai +22 % nuo 2020 m. ir senasis tikslas peržiūrimas [E1 p.92; E1 p.86]."
+      en: "Group Scope 1 −10% and Scope 1+2 (market-based) −4% [E1 p.92]. Scope 2 now includes transmission losses, so the parent AST's emissions are +22% vs 2020 and the old target is under review [E1 p.92; E1 p.86]."
+    evidence:
+      - {p: E, lt: "Grupės Scope 1: 60 373 t (2020 m.) → 35 514 t (2024 m.) → 32 038 t (2025 m.) [E1 p.92].", en: "Group Scope 1: 60,373 t (2020) → 35,514 t (2024) → 32,038 t (2025) [E1 p.92]."}
+      - {p: E, lt: "Pirmą kartą paskelbtas Scope 3: grupė 95 680 t CO2e; bendri išmetimai (rinkos metodas) 232 915 t [E1 p.93].", en: "First Scope 3 disclosure: Group 95,680 t CO2e; total emissions (market-based) 232,915 t [E1 p.93]."}
+      - {p: E, lt: "„Žaliųjų pastočių“ bandomasis projektas: SF6 įranga keičiama alternatyvomis su mažesniu klimato poveikiu [E1 p.85].", en: "Green Substation pilot: SF6 equipment replaced with alternatives with lower climate impact [E1 p.85]."}
+      - {p: E, lt: "Keičiami transformatoriai mažinant perdavimo nuostolius, statomos jungtys atsinaujinančios energijos gamintojams [E1 p.84].", en: "Transformers replaced to cut transmission losses; connections built for renewable generators [E1 p.84]."}
+      - {p: E, lt: "Conexus metano mažinimo priemonės: gręžinių rekonstrukcija (4,0 mln. EUR), mobilūs kompresoriai [E1 p.86].", en: "Conexus methane measures: well reconstruction (EUR 4.0m), mobile compressors [E1 p.86]."}
+      - {p: S, lt: "Mirtinų nelaimingų atsitikimų 0; grupėje 2 registruoti nelaimingi atsitikimai [E1 p.117].", en: "Zero fatalities; 2 recordable work accidents in the Group [E1 p.117]."}
+      - {p: G, lt: "Patvirtintų korupcijos atvejų 0 [E1 p.141].", en: "Zero confirmed corruption cases [E1 p.141]."}
+    concerns:
+      - {lt: "Patronuojančios AST išmetimų tikslas nebeatitinka situacijos; naujas mažinimo planas su tikslais – tik 2026 m. I pusm. [E1 p.86].", en: "The parent AST's emissions target no longer fits; a new reduction plan with targets is due only in H1 2026 [E1 p.86]."}
+      - {lt: "Patronuojančios AST Scope 1+2 (rinkos metodas) 103 239 t, +22 % nuo 2020 m. (dėl perdavimo nuostolių) [E1 p.92].", en: "Parent AST Scope 1+2 (market-based) 103,239 t, +22% vs 2020 (driven by transmission losses) [E1 p.92]."}
+  FY2024:
+    trend: improving
+    framework:
+      lt: "Pirmoji darnumo ataskaita pagal ESRS, riboto užtikrinimo patikra – KPMG Baltics [E2 p.9; E2 p.152]."
+      en: "First sustainability statement under ESRS, limited assurance by KPMG Baltics [E2 p.9; E2 p.152]."
+    assurance: limited
+    summary:
+      lt: "Grupės Scope 1 −41 % nuo 2020 m.; Conexus išmetimai −11 % nuo 2020 m. (tikslas −30 % iki 2028 m.) [E2 p.90; E2 p.85]. Scope 2 skaičiuotas be perdavimo nuostolių [E2 p.90]."
+      en: "Group Scope 1 −41% since 2020; Conexus emissions −11% since 2020 (target −30% by 2028) [E2 p.90; E2 p.85]. Scope 2 was calculated without transmission losses [E2 p.90]."
+    evidence:
+      - {p: E, lt: "Grupės Scope 1 35 514 t (2020 m. 60 373 t) [E2 p.90].", en: "Group Scope 1 35,514 t (2020: 60,373 t) [E2 p.90]."}
+      - {p: E, lt: "Conexus tikslai iki 2028 m.: metano −50 %, Inčukalnio saugyklos GHG −20 %, dujų perdavimo GHG −60 % [E2 p.85].", en: "Conexus targets to 2028: methane −50%, Inčukalns storage GHG −20%, gas transmission GHG −60% [E2 p.85]."}
+      - {p: S, lt: "Mirtinų nelaimingų atsitikimų 0 (AST); grupėje 2 registruoti nelaimingi atsitikimai [E2 p.109].", en: "Zero fatalities (AST); 2 recordable work accidents in the Group [E2 p.109]."}
+      - {p: G, lt: "Patvirtintų korupcijos atvejų 0 [E2 p.128].", en: "Zero confirmed corruption cases [E2 p.128]."}
+    concerns:
+      - {lt: "Scope 2 rinkos metodu neskelbtas, perdavimo nuostoliai neįtraukti [E2 p.90].", en: "Market-based Scope 2 not disclosed; transmission losses not included [E2 p.90]."}
+targets:
+  - p: E
+    name: {lt: "AST (patronuojanti): bendrų GHG mažinimas kasmet nuo 2020 m. bazės", en: "AST (parent): annual reduction of total GHG vs the 2020 base"}
+    FY2024: {lt: "Tikslas −2,4 % per metus [E2 p.85]; 2024 m. +0 % per metus, −7 % nuo 2020 m. (be nuostolių) [E2 p.90]", en: "Target −2.4% a year [E2 p.85]; 2024: 0% y/y, −7% vs 2020 (excl. losses) [E2 p.90]"}
+    FY2025: {lt: "Tikslas peržiūrimas, naujas planas 2026 m. I pusm. [E1 p.86]", en: "Target under review, new plan in H1 2026 [E1 p.86]"}
+    status: changed
+  - p: E
+    name: {lt: "Conexus: GHG (Scope 1) −30 % iki 2028 m. nuo 2020 m.", en: "Conexus: GHG (Scope 1) −30% by 2028 vs 2020"}
+    FY2024: {lt: "−11 % (2024 m. tikslas −6 %) [E1 p.86]", en: "−11% (2024 target −6%) [E1 p.86]"}
+    FY2025: {lt: "Priemonės vykdomos; 2025 m. pažanga atskirai nenurodyta [E1 p.86]", en: "Measures under way; 2025 progress not stated separately [E1 p.86]"}
+    status: on_track
+metrics:
+  - {p: E, name: {lt: "Grupės Scope 1 išmetimai", en: "Group Scope 1 emissions"}, unit: "t CO2e", better: down, FY2024: {v: 35514, src: "E2 p.90"}, FY2025: {v: 32038, src: "E1 p.92"}}
+  - {p: E, name: {lt: "Grupės Scope 2 (rinkos metodas, su nuostoliais)", en: "Group Scope 2 (market-based, incl. losses)"}, unit: "t CO2e", better: down, FY2024: {v: 106787, src: "E1 p.92", note: {lt: "perskaičiuota 2025 m. ataskaitoje", en: "restated in the 2025 report"}}, FY2025: {v: 105196, src: "E1 p.92"}}
+  - {p: E, name: {lt: "Grupės Scope 3", en: "Group Scope 3"}, unit: "t CO2e", better: down, FY2025: {v: 95680, src: "E1 p.93"}}
+  - {p: E, name: {lt: "AST elektros perdavimo nuostoliai", en: "AST electricity transmission losses"}, unit: "MWh", better: down, FY2024: {v: 195870, src: "E1 p.89"}, FY2025: {v: 193540, src: "E1 p.89"}}
+  - {p: S, name: {lt: "Mirtini nelaimingi atsitikimai", en: "Fatalities"}, unit: "", better: down, FY2024: {v: 0, src: "E2 p.109"}, FY2025: {v: 0, src: "E1 p.117"}}
+  - {p: G, name: {lt: "Patvirtinti korupcijos atvejai", en: "Confirmed corruption cases"}, unit: "", better: down, FY2024: {v: 0, src: "E2 p.128"}, FY2025: {v: 0, src: "E1 p.141"}}
+engagement:
+  level: watch
+  policies: [investments, electricity_renewables, climate_nature]
+  reason:
+    lt: "SEB elektros ir AEI politikos lūkesčiai tinklams (nuostolių mažinimas, AEI integravimas), ISO 14001/50001, metinė darnumo ataskaita – įvykdyti [E1 p.84; E1 p.8]. Stebėti: 2026 m. turi būti patvirtintas grupės klimato pereinamasis planas su naujais tikslais [E1 p.86]."
+    en: "SEB Electricity & Renewables expectations for grids (loss reduction, renewables integration), ISO 14001/50001 and an annual sustainability report are met [E1 p.84; E1 p.8]. To watch: the Group climate transition plan with new targets is due for approval in 2026 [E1 p.86]."
+  questions: []
