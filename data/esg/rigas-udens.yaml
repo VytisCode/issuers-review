@@ -83,3 +83,12 @@ engagement:
     lt: "Vandentvarka – SEB sektoriaus politika netaikoma; bendri klimato ir žmogaus teisių lūkesčiai įvykdyti: ESRS ataskaita su užtikrinimu, išmetimų tikslai iki 2030 ir 2040 m., korupcijos atvejų nėra [E1 p.2; E1 p.68; E1 p.144]. Vandens nuostolių atsilikimas atskleistas, yra veiksmų planas [E2 p.46]."
     en: "Water utility, so no SEB sector policy applies; general climate and human-rights expectations are met: an ESRS report with assurance, emission targets for 2030 and 2040, no corruption cases [E1 p.2; E1 p.68; E1 p.144]. The water-loss gap is disclosed and there is an action plan [E2 p.46]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Tikslas – iki 2040 m. per pusę sumažinti savo išmetimus [E1 p.68].", en: "Target: halve own emissions by 2040 [E1 p.68]."}
+    - {lt: "2025 m. pirmoji pilna tvarumo ataskaita, ją tikrino auditorius [E1 p.2].", en: "First full sustainability report in 2025, checked by an auditor [E1 p.2]."}
+    - {lt: "Dauguma metinių tikslų pasiekti [E2 p.46].", en: "Most annual targets met [E2 p.46]."}
+  bad:
+    - {lt: "Vamzdynuose prarandama daugiau vandens nei planuota; skaičiavimas bus pataisytas 2026 m. [E2 p.46; E1 p.99].", en: "More water is lost in the pipes than planned; the calculation will be revised in 2026 [E2 p.46; E1 p.99]."}
+  means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}

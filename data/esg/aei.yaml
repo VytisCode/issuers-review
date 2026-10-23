@@ -32,3 +32,12 @@ engagement:
     lt: "Veikla pati yra AEI plėtra (SFDR 9 str.), finansuojama žaliosiomis obligacijomis [E1 p.66]. ESG rizikos ir spragos nereikšmingos; kreiptis nereikia. Poveikio rodiklius galima pridėti iš atskiros žaliųjų obligacijų ataskaitos."
     en: "The business itself is renewable energy development (SFDR Article 9), financed with green bonds [E1 p.66]. No material ESG risks or gaps; no engagement needed. Impact metrics can be added from the separate green bond report."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Pati veikla yra žalioji energija: vėjo ir saulės elektrinės, energijos kaupikliai [E1 p.66].", en: "The business itself is green energy: wind and solar plants and batteries [E1 p.66]."}
+    - {lt: "Pinigus skolinasi žaliosiomis obligacijomis, apie poveikį skelbia atskirą ataskaitą [E1 p.66].", en: "It borrows through green bonds and publishes a separate impact report [E1 p.66]."}
+    - {lt: "Turi elgesio kodeksą sau ir tiekėjams [E1 p.66].", en: "It has a code of conduct for itself and its suppliers [E1 p.66]."}
+  bad:
+    - {lt: "Metinėje ataskaitoje nėra skaičių, kiek CO2 padeda išvengti – jie tik atskiroje poveikio ataskaitoje.", en: "The annual report has no figures on CO2 avoided – they are only in the separate impact report."}
+  means: {lt: "Viskas gerai, nieko daryti nereikia.", en: "All fine, nothing to do."}

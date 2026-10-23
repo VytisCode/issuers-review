@@ -55,3 +55,12 @@ engagement:
     lt: "Maža klimato rizika, bet nėra išmetimų duomenų [E1 p.23]."
     en: "Low climate risk, but no emissions data [E1 p.23]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Bankas, kurio veikla mažai veikia klimatą [E1 p.24].", en: "A bank whose business has little climate impact [E1 p.24]."}
+    - {lt: "Žaliosios paskolos (saulės elektrinės, šilumos siurbliai) Lenkijoje išaugo 63 % iki 146 mln. EUR [E1 p.14].", en: "Green loans (solar panels, heat pumps) in Poland grew 63% to EUR 146m [E1 p.14]."}
+  bad:
+    - {lt: "Nėra jokių išmetimų skaičių ir tikslų.", en: "No emission figures or targets at all."}
+    - {lt: "Žadėtos pilnos tvarumo ataskaitos nebus – pasikeitus taisyklėms ji bankui nebeprivaloma [E2 p.24; E1 p.23].", en: "The promised full sustainability report will not come – after a rule change it is no longer required [E2 p.24; E1 p.23]."}
+  means: {lt: "Smulkmena. Rašyti nereikia.", en: "Minor. No need to write."}

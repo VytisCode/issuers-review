@@ -731,23 +731,23 @@
 
   /* ---------- ESG Engagement (metinės tvarumo ataskaitos; emitentai tarpusavyje nelyginami) ---------- */
   const GX = {
-    en: { title: "ESG Engagement", sub: "Sustainability progress of each issuer by report year – measured only against the issuer's own targets and its own previous year (issuers are not compared with each other). Every statement links to the source page. Engagement is suggested only for real gaps after checking the SEB sector policies.",
-      xls: "Excel (all years)", issuer: "Issuer", instr: "Held", dir: "Direction", eng: "Engagement", onlyEng: "Engagement needed or monitor only", search: "Search issuer",
+    en: { title: "ESG Engagement", sub: "Whether issuers keep their sustainability promises. Each is judged only against its own targets and its previous year. We suggest a letter only when there is a real gap. Every statement links to its source.",
+      xls: "Excel (all years)", issuer: "Issuer", instr: "Held", dir: "Direction", eng: "Contacting the issuer", onlyEng: "Show only those needing attention", search: "Search issuer",
       legend: "Direction per year: Improving – most own targets and key metrics moved the right way; Mixed – some better, some worse; Worsening – mostly worse; Stable – little change; Limited data – the report gives too little to judge; Baseline year – first year reported, nothing to compare with.",
       summary: "Summary", framework: "Reporting and assurance", targets: "Own targets and progress", target: "Target", metrics: "Key metrics", metric: "Metric", unit: "Unit",
       evidence: "Evidence", allFacts: "All facts", concerns: "Gaps and concerns", sources: "Sources", why: "Why", policies: "SEB policies checked (internal only, not mentioned to the issuer)", questions: "Questions to the issuer",
-      sev: "How serious", gaps: "What is wrong", gWhy: "Why it matters", gFix: "What would help", hint: "How the answer helps you", preview: "Email preview",
+      sev: "How serious", good: "What is good", bad: "What is not", means: "What it means for us", brief: "In short", todoC: "What to do", byYear: "Details by year", details: "More detail", gaps: "What is wrong", gWhy: "Why it matters", gFix: "What would help", hint: "How the answer helps you", preview: "Email preview",
       dl: "⬇ Download email to issuer (.eml)", copy: "Copy email text", copied: "Copied.", back: "← ESG overview", edit: "✎ Edit ESG data", none: "No ESG data yet.",
       emailHint: "Opens in Outlook as a draft. English, no signature – add yours.", bond: "bonds", share: "shares", notReported: "not reported", calc: "own calculation",
       greetings: "Dear Investor Relations team,", intro: (n, ins) => `We hold ${n} ${ins} and are carrying out our annual review of the issuers in our portfolio, which includes a look at sustainability information.`,
       ask: "We would be grateful if you could help us with a few questions:",
       thanks: "Thank you in advance. A short reply or a link to the relevant page or document is perfectly fine.", regards: "Kind regards," },
-    lt: { title: "ESG Engagement", sub: "Kiekvieno emitento tvarumo pažanga pagal ataskaitinius metus – vertinama tik pagal paties emitento tikslus ir jo ankstesnius metus (emitentai tarpusavyje nelyginami). Kiekvienas teiginys susietas su šaltinio puslapiu. Engagement siūlomas tik realioms spragoms, įvertinus SEB sektorių politikas.",
-      xls: "Excel (visi metai)", issuer: "Emitentas", instr: "Turima", dir: "Kryptis", eng: "Engagement", onlyEng: "Tik kur reikia engagement ar stebėti", search: "Ieškoti emitento",
+    lt: { title: "ESG Engagement", sub: "Ar emitentai laikosi savo tvarumo pažadų. Kiekvienas vertinamas tik pagal jo paties tikslus ir praėjusius metus. Laišką emitentui siūlome tik tada, kai yra tikra spraga. Prie kiekvieno teiginio – nuoroda į šaltinį.",
+      xls: "Excel (visi metai)", issuer: "Emitentas", instr: "Turima", dir: "Kryptis", eng: "Kreipimasis į emitentą", onlyEng: "Rodyti tik tuos, kur reikia dėmesio", search: "Ieškoti emitento",
       legend: "Kryptis pagal metus: Gerėja – dauguma savų tikslų ir pagrindinių rodiklių juda tinkama linkme; Nevienareikšmiška – vieni geriau, kiti blogiau; Blogėja – daugiausia blogiau; Stabilu – mažai pokyčių; Mažai duomenų – ataskaitoje per mažai informacijos įvertinti; Atskaitos metai – pirmi skelbti metai, nėra su kuo lyginti.",
       summary: "Santrauka", framework: "Atskaitomybė ir užtikrinimas", targets: "Savi tikslai ir pažanga", target: "Tikslas", metrics: "Pagrindiniai rodikliai", metric: "Rodiklis", unit: "Vnt.",
       evidence: "Įrodymai", allFacts: "Visi faktai", concerns: "Spragos ir rūpesčiai", sources: "Šaltiniai", why: "Kodėl", policies: "Patikrintos SEB politikos (tik vidiniam naudojimui, emitentui neminimos)", questions: "Klausimai emitentui",
-      sev: "Kiek rimta", gaps: "Kas negerai", gWhy: "Kodėl svarbu", gFix: "Kas padėtų", hint: "Kaip atsakymas jums padės", preview: "Laiško peržiūra",
+      sev: "Kiek rimta", good: "Kas gerai", bad: "Kas negerai", means: "Ką tai reiškia mums", brief: "Trumpai", todoC: "Ką daryti", byYear: "Išsamiau pagal metus", details: "Išsamiau", gaps: "Kas negerai", gWhy: "Kodėl svarbu", gFix: "Kas padėtų", hint: "Kaip atsakymas jums padės", preview: "Laiško peržiūra",
       dl: "⬇ Atsisiųsti laišką emitentui (.eml)", copy: "Kopijuoti laiško tekstą", copied: "Nukopijuota.", back: "← ESG apžvalga", edit: "✎ Taisyti ESG duomenis", none: "ESG duomenų dar nėra.",
       emailHint: "Atsidaro Outlook kaip juodraštis. Anglų kalba, be parašo – pridėkite savo.", bond: "obligacijos", share: "akcijos", notReported: "neskelbiama", calc: "mūsų skaičiavimas" },
   };
@@ -765,6 +765,13 @@
     const body = [E.greetings, "", intro, "", E.ask, "", ...e.questions.map((q, i) => `${i + 1}. ${q.q}`), "", E.thanks, "", E.regards, ""].join("\r\n");
     return { subject: e.subject || `${r.name}: a few questions from a bondholder`, body };
   }
+  function esgBrief(r, compact) {
+    const B = r.brief || {}; if (!B.good?.length && !B.bad?.length) return compact ? `<div class="small">${r.summary}</div>` : `<div class="verdict">${r.summary}</div>`;
+    const ul = (cls, xs) => xs.length ? `<ul class="bl ${cls}">${xs.map(x => `<li>${x}</li>`).join("")}</ul>` : "";
+    if (compact) return ul("good", B.good) + ul("bad", B.bad);
+    return `<div class="brief"><div><h3 class="good">✓ ${gx("good")}</h3>${ul("good", B.good)}</div><div><h3 class="warn">! ${gx("bad")}</h3>${ul("bad", B.bad)}</div></div>`
+      + (B.means ? `<div class="verdict means ${r.engagement.level === "engage" ? "v-action" : r.engagement.level === "watch" ? "v-watch" : ""}"><b>👉 ${gx("means")}:</b> ${B.means}</div>` : "");
+  }
   function esgPage(arg) {
     const g = GD();
     if (arg) return esgIssuer(g, arg);
@@ -779,10 +786,10 @@
     const g = GD();
     const render = () => {
       const rows = g.rows.filter(r => (!GF.q || r.name.toLowerCase().includes(GF.q.toLowerCase())) && (!GF.eng || r.engagement.level !== "none"));
-      $("gT").innerHTML = rows.length ? `<div class="tbl-wrap"><table class="esgt"><tr><th>${gx("issuer")}</th>${g.years.map(y => `<th>${y}</th>`).join("")}<th>${gx("dir")}</th><th>${gx("eng")}</th></tr>
-        ${rows.map(r => `<tr><td><a href="#esg/${r.id}"><b>${esc(r.name)}</b></a>${r.green ? leaf({ green: "yes" }) : ""}<div class="muted small">${esc(r.country)} · ${r.instruments.map(x => gx(x === "share" ? "share" : "bond")).join(", ")}</div></td>
-          ${g.years.map(y => { const d = r.years[y]; return `<td class="ys">${d ? gchip("trend", TRC, d.trend) + `<div class="small">${d.summary}</div>` + esgFacts(g, d) : `<span class="muted">${gx("notReported")}</span>`}</td>`; }).join("")}
-          <td>${gchip("trend", TRC, r.trend)}</td><td>${gchip("engage", ENC, r.engagement.level)}</td></tr>`).join("")}</table></div>` : `<p class="muted">${gx("none")}</p>`;
+      $("gT").innerHTML = rows.length ? `<div class="tbl-wrap"><table class="esgt"><tr><th>${gx("issuer")}</th><th>${gx("brief")}</th><th>${gx("todoC")}</th></tr>
+        ${rows.map(r => `<tr><td><a href="#esg/${r.id}"><b>${esc(r.name)}</b></a>${r.green ? leaf({ green: "yes" }) : ""}<div class="muted small">${esc(r.country)} · ${r.instruments.map(x => gx(x === "share" ? "share" : "bond")).join(", ")}</div><div>${gchip("trend", TRC, r.trend)}</div></td>
+          <td class="ys">${esgBrief(r, true)}<details class="facts"><summary>${gx("byYear")}</summary>${g.years.slice().reverse().map(y => { const d = r.years[y]; return d ? `<h4>${y} ${gchip("trend", TRC, d.trend)}</h4><div class="small">${d.summary}</div>${esgFacts(g, d)}` : ""; }).join("")}</details></td>
+          <td>${gchip("engage", ENC, r.engagement.level)}${r.brief?.means ? `<div class="small">${r.brief.means}</div>` : ""}</td></tr>`).join("")}</table></div>` : `<p class="muted">${gx("none")}</p>`;
     };
     $("gQ").oninput = e => { GF.q = e.target.value; render(); };
     $("gEng").onchange = e => { GF.eng = e.target.checked; render(); };
@@ -817,7 +824,7 @@
       <h1>${esc(r.name)}${r.green ? leaf({ green: "yes" }) : ""}</h1>
       <p class="muted">${esc(r.sector)} · ${r.held.map(h => `${esc(h.isin)}${leaf(h)}`).join(", ")}</p>
       <p>${gchip("trend", TRC, r.trend)} ${gchip("engage", ENC, e.level)}</p>
-      <div class="verdict ${e.level === "engage" ? "v-action" : e.level === "watch" ? "v-watch" : ""}">${r.summary}</div>
+      ${esgBrief(r)}${r.brief?.good?.length ? `<details class="facts"><summary>${gx("details")}</summary><p class="small">${r.summary}</p></details>` : ""}
       ${e.level !== "none" ? `<div class="card engage"><h3>${gx("eng")}: ${esc(g.labels.engage[e.level])}${e.severity ? ` · ${gx("sev")}: <span class="chip ${SEV[e.severity] || "info"}">${esc((g.labels.severity || {})[e.severity] || e.severity)}</span>` : ""}</h3>
         ${e.verdict ? `<p>${e.verdict}</p>` : ""}
         ${e.issues.length ? `<h4>${gx("gaps")}</h4><ul class="gaps">${e.issues.map(i => `<li><b>${i.what}</b><div class="small"><span class="muted">${gx("gWhy")}:</span> ${i.why}</div><div class="small"><span class="muted">${gx("gFix")}:</span> ${i.fix}</div></li>`).join("")}</ul>` : `<p><b>${gx("why")}:</b> ${e.reason}</p>`}
@@ -879,11 +886,11 @@
     { id: "esg", kind: "ai", kw: "esg engagement metinė tvarumo ataskaita metai atnaujinti annual sustainability update",
       t: { lt: "Metinis ESG Engagement atnaujinimas", en: "Annual ESG Engagement update" },
       when: { lt: "kartą per metus, kai emitentai paskelbia metines / tvarumo ataskaitas (paprastai balandį–gegužę).", en: "once a year, after issuers publish annual / sustainability reports (usually April–May)." },
-      steps: { lt: ["ai: Nukopijuokite užklausą ir įklijuokite Claude projekte. Claude suras ataskaitas, nemokamai jas parsisiųs ir įvertins naujus metus; ankstesni metai lieka.", "code: ESG lentelė ir Excel atsinaujina patys.", "you: <a href=\"#esg\">ESG</a> → pažymėkite „Tik kur reikia engagement ar stebėti“ ir peržiūrėkite vertinimus."], en: ["ai: Copy the prompt and paste it into the Claude project. Claude finds the reports, downloads them for free and assesses the new year; earlier years stay.", "code: The ESG table and Excel update by themselves.", "you: <a href=\"#esg\">ESG</a> → tick “Engagement needed or monitor only” and review the assessments."] },
+      steps: { lt: ["ai: Nukopijuokite užklausą ir įklijuokite Claude projekte. Claude suras ataskaitas, nemokamai jas parsisiųs ir įvertins naujus metus; ankstesni metai lieka.", "code: ESG lentelė ir Excel atsinaujina patys.", "you: <a href=\"#esg\">ESG</a> → pažymėkite „Rodyti tik tuos, kur reikia dėmesio“ ir peržiūrėkite vertinimus."], en: ["ai: Copy the prompt and paste it into the Claude project. Claude finds the reports, downloads them for free and assesses the new year; earlier years stay.", "code: The ESG table and Excel update by themselves.", "you: <a href=\"#esg\">ESG</a> → tick “Show only those needing attention” and review the assessments."] },
       prompt: { lt: () => `Atnaujink ESG Engagement apžvalgą už ${nextFY()} visiems emitentams: rask naujas metines / tvarumo ataskaitas ir įvertink pažangą pagal pačių emitentų tikslus ir ankstesnius metus.`, en: () => `Update the ESG Engagement review for ${nextFY()} for all issuers: find the new annual / sustainability reports and assess progress against each issuer's own targets and previous years.` } },
     { id: "engage", kind: "you", kw: "engagement laiškas emitentui atsakymas eml outlook esg letter reply",
       t: { lt: "ESG laiškas emitentui ir jo atsakymas", en: "ESG letter to an issuer and its reply" },
-      when: { lt: "ESG puslapyje emitentas pažymėtas „Reikia engagement“.", en: "an issuer is marked “Engagement needed” on the ESG page." },
+      when: { lt: "ESG puslapyje prie emitento parašyta „Siūloma parašyti“.", en: "an issuer is marked “Suggest writing” on the ESG page." },
       steps: { lt: ["you: Emitento ESG puslapyje perskaitykite „Kas negerai“ ir 💡 užuominas.", "code: „Atsisiųsti laišką emitentui (.eml)“ – atsidaro Outlook juodraštis anglų kalba.", "you: Įrašykite gavėją (IR kontaktą) ir parašą, išsiųskite.", "ai: Gavę atsakymą – nukopijuokite užklausą, įklijuokite Claude projekte ir po ja įklijuokite atsakymo tekstą."], en: ["you: On the issuer's ESG page read “What is wrong” and the 💡 hints.", "code: “Download email to issuer (.eml)” – opens an English Outlook draft.", "you: Add the recipient (IR contact) and your signature, send.", "ai: When the reply arrives – copy the prompt, paste it into the Claude project and paste the reply text below it."] },
       prompt: { lt: f => `Emitentas ${f.name || "[emitentas]"} atsakė į ESG laišką. Įvertink atsakymą, atnaujink ESG vertinimą ir engagement būseną.\n\nAtsakymas:\n[įklijuokite atsakymo tekstą]`, en: f => `${f.name || "[issuer]"} replied to our ESG letter. Assess the reply and update the ESG assessment and engagement status.\n\nReply:\n[paste the reply text]` } },
     { id: "dd", kind: "ai", kw: "dd due diligence naujas instrumentas nauja emisija pirkimas term sheet sfdr new instrument issue",

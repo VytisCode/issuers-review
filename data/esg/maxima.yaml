@@ -104,3 +104,13 @@ engagement:
       hint: {lt: "Jei atsakys su priemonėmis ir tikslu – užtenka. Kitais metais tikrinsime, ar TRIR mažėja.", en: "A reply with measures and a target is enough. Next year we check whether TRIR falls."}
     - q: "Your report mentions that the supplier engagement target (78.3% of suppliers by emissions with science-based targets by 2027) will be reviewed in 2026 after the sale of the Polish and Bulgarian operations. Do you already know whether the target will change?"
       hint: {lt: "Pasikeitus tikslui atnaujinsime tikslų lentelę (būsena „Pakeistas“), kad kitais metais vertintume pagal naują [E1 p.72].", en: "If the target changes we update the target table (status Revised) and assess against the new one next year [E1 p.72]."}
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Turi tarptautiškai patvirtintą (SBTi) tikslą iki 2030 m. 42 % sumažinti savo CO2 išmetimus (lyginant su 2021 m.) [E2 p.124].", en: "Has an internationally approved (SBTi) target to cut its own CO2 by 42% by 2030 (vs 2021) [E2 p.124]."}
+    - {lt: "Jau sumažino 24,5 % – greičiau nei reikia pagal planą [E1 p.72].", en: "Already down 24.5% – ahead of plan [E1 p.72]."}
+    - {lt: "Tvarumo ataskaitą abu metus tikrino auditorius PwC [E1 p.54].", en: "The auditor PwC checked the sustainability report in both years [E1 p.54]."}
+  bad:
+    - {lt: "Išmetamo maisto daugėja: +15 % nuo 2023 m., nors tikslas – sumažinti 30 % [E1 p.81].", en: "Food waste is growing: +15% since 2023, while the target is −30% [E1 p.81]."}
+    - {lt: "Nelaimingų atsitikimų darbe padaugėjo 13 % [E1 p.88].", en: "Work accidents rose 13% [E1 p.88]."}
+  means: {lt: "Smulkmena, bet verta paklausti: 2026 m. planuojama nauja obligacijų emisija [E1 p.3]. Laiškas su 2 klausimais paruoštas žemiau.", en: "Minor, but worth asking: a new bond issue is planned for 2026 [E1 p.3]. A letter with 2 questions is ready below."}

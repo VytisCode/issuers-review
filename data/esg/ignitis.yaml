@@ -114,3 +114,12 @@ engagement:
     lt: "SEB iškastinio kuro ir atsinaujinančios energetikos politikų reikalavimai įvykdyti: skelbiami Scope 1–3 išmetimai, yra SBTi patvirtinti trumpo, vidutinio ir ilgo laikotarpio tikslai bei pereinamasis planas [E1 p.196; E1 p.198]. 2025 m. intensyvumo augimą emitentas paaiškina laikinomis reguliuojamomis balansavimo paslaugomis [E1 p.29]. Verta stebėti 2026 m., ar intensyvumas grįžta link tikslo."
     en: "SEB Fossil Fuels and Renewable Energy policy requirements are met: Scope 1–3 emissions are disclosed, and there are SBTi-validated short-, medium- and long-term targets and a transition plan [E1 p.196; E1 p.198]. The issuer explains the 2025 rise in intensity by temporary regulated balancing services [E1 p.29]. Worth checking in 2026 whether intensity returns towards the target."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Turi tarptautiškai patvirtintus (SBTi) klimato tikslus ir planą nulinius išmetimus pasiekti 2040–2050 m. [E1 p.29; E1 p.196].", en: "Has internationally approved (SBTi) climate targets and a plan for net zero by 2040–2050 [E1 p.29; E1 p.196]."}
+    - {lt: "Sparčiai stato vėjo ir saulės elektrines [E1 p.29].", en: "Building wind and solar plants fast [E1 p.29]."}
+    - {lt: "Saugos ir socialiniai tikslai vykdomi.", en: "Safety and social targets are on track."}
+  bad:
+    - {lt: "2025 m. išmetimai išaugo (+55 %), nes Elektrėnų dujų elektrinė teikė tinklo balansavimo paslaugas po prisijungimo prie Europos elektros tinklo. Įmonė sako, kad tai laikina [E1 p.29; E1 p.198].", en: "2025 emissions rose (+55%) because the Elektrėnai gas plant provided grid balancing after joining the European grid. The company says this is temporary [E1 p.29; E1 p.198]."}
+  means: {lt: "Viskas gerai, rašyti nereikia. 2026 m. pažiūrėsime, ar išmetimai vėl mažėja.", en: "All fine, no need to write. In 2026 check that emissions fall again."}

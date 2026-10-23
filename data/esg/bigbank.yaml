@@ -75,3 +75,12 @@ engagement:
     lt: "Mažos rizikos portfelis, bet vėluoja finansuojamų išmetimų skaičiavimas [E1 p.75]."
     en: "Low-risk portfolio, but the financed-emissions calculation is delayed [E1 p.75]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Bankas mažai teršia: savo išmetimai sumažėjo 2 044 → 1 652 t [E1 p.77].", en: "A low-polluting bank: own emissions fell 2,044 → 1,652 t [E1 p.77]."}
+    - {lt: "Taršioms šakoms tenka tik 0,45 % paskolų [E1 p.75].", en: "Only 0.45% of loans go to polluting sectors [E1 p.75]."}
+    - {lt: "Tvarumo ataskaitą tikrino auditorius EY [E1 p.218].", en: "The sustainability report was checked by the auditor EY [E1 p.218]."}
+  bad:
+    - {lt: "Žadėjo 2025 m. apskaičiuoti klientų (paskolų) išmetimus, bet dar nepadarė [E2 p.125; E1 p.75].", en: "It promised to calculate its borrowers' emissions in 2025 but has not done it yet [E2 p.125; E1 p.75]."}
+  means: {lt: "Smulkmena. Rašyti nereikia – patikrinti kitų metų ataskaitoje.", en: "Minor. No need to write – check next year's report."}

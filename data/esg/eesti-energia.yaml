@@ -101,3 +101,14 @@ engagement:
       hint: {lt: "Gavus skaičius, galėsime kasmet tikrinti pažangą ir tikslas taps „Pagal planą“ arba „Atsilieka“. Jei skaičių nėra – lieka „Stebėti“.", en: "With numbers we can track progress each year and the target becomes On track or Behind. If there are none, it stays at Monitor."}
     - q: "Could you give us a short outlook for shale oil production after 2030?"
       hint: {lt: "Atsakymas parodys, ar skalūnų alyva bus mažinama iki obligacijų išpirkimo – tai pagrindinė ilgalaikė rizika.", en: "The answer shows whether shale oil will be reduced before the bonds mature, which is the main long-term risk."}
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Planuoja iki 2045 m. visą energiją gaminti be CO2, iš skalūnų elektros gamybos pasitrauks ne vėliau kaip 2035 m. [E2 p.94; E2 p.24].", en: "Plans CO2-free energy by 2045 and will stop oil-shale power by 2035 at the latest [E2 p.94; E2 p.24]."}
+    - {lt: "Savo išmetimai per 2 metus sumažėjo daugiau nei perpus: 6,9 → 2,9 mln. t [E2 p.94].", en: "Own emissions more than halved in 2 years: 6.9 → 2.9m t [E2 p.94]."}
+    - {lt: "Taršos ribų viršijimų beveik nebeliko (2025 m. – vienas) [E1 p.24].", en: "Pollution limit breaches almost stopped (one in 2025) [E1 p.24]."}
+  bad:
+    - {lt: "Neradome 2025 m. tvarumo ataskaitos ir išmetimų skaičių.", en: "We could not find the 2025 sustainability report or emission figures."}
+    - {lt: "Tarpinių tikslų skaičiais nėra – negalime patikrinti, ar planas vykdomas.", en: "No interim targets in numbers – we cannot check if the plan is on track."}
+    - {lt: "Skalūnų alyvos gamyba tęsiasi (378 tūkst. t), planai po 2030 m. neaiškūs [E1 p.63].", en: "Shale oil production continues (378 thousand t); plans after 2030 are unclear [E1 p.63]."}
+  means: {lt: "Vidutinė problema – siūlome išsiųsti trumpą laišką su 3 klausimais (paruoštas žemiau).", en: "Moderate – we suggest sending a short letter with 3 questions (ready below)."}

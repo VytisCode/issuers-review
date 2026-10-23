@@ -45,3 +45,11 @@ engagement:
     lt: "SEB ginklų ir gynybos politikos apribojimai nepažeisti: finansuojama konvencinės amunicijos (155 mm) gamyba NATO šalyje, ne kontroversiniai ginklai [E1 p.5]. Tai maža valstybės specialiosios paskirties bendrovė su valstybės garantija, todėl ESG ataskaitų trūkumas nėra pagrindas kreiptis."
     en: "SEB Arms & Defence policy restrictions are not breached: it finances conventional ammunition (155 mm) production in a NATO country, not controversial weapons [E1 p.5]. It is a small state special-purpose company with a state guarantee, so the lack of ESG reporting is not a reason to engage."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Valstybės įmonė, finansuojanti gynybos pramonę (pvz., artilerijos sviedinių gamyklą Baisogaloje), obligacijas garantuoja valstybė [E1 p.4; E1 p.5].", en: "A state company financing the defence industry (e.g. an artillery shell plant in Baisogala); its bonds are state-guaranteed [E1 p.4; E1 p.5]."}
+    - {lt: "2025 m. patvirtino korupcijos prevencijos politiką [E1 p.36].", en: "Adopted an anti-corruption policy in 2025 [E1 p.36]."}
+  bad:
+    - {lt: "Pati įmonė sako, kad tvarumas nėra jos pagrindinis tikslas – ESG skaičių ir tikslų nėra [E1 p.16].", en: "The company itself says sustainability is not its main goal – no ESG figures or targets [E1 p.16]."}
+  means: {lt: "Rašyti nereikia: tai maža valstybės įmonė su valstybės garantija, gamina įprastinę amuniciją NATO šalyje [E1 p.5].", en: "No need to write: a small state company with a state guarantee, producing conventional ammunition in a NATO country [E1 p.5]."}

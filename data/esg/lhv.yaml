@@ -83,3 +83,12 @@ engagement:
     lt: "SEB finansų sektoriaus lūkesčiai atitinkami: klimato tikslai su terminais, PCAF finansuojami išmetimai, PwC užtikrinimas [E1 p.20; E1 p.22; E1 p.59]. Pagrindiniai rodikliai 2025 m. gerėjo, todėl kreiptis nereikia."
     en: "SEB's financial-sector expectations are met: dated climate targets, PCAF financed emissions and PwC assurance [E1 p.20; E1 p.22; E1 p.59]. Key indicators improved in 2025, so no engagement is needed."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Tvarumo ataskaitą abu metus tikrino auditorius PwC [E1 p.59].", en: "The auditor PwC checked the sustainability report in both years [E1 p.59]."}
+    - {lt: "Daugėja paskolų energiją taupantiems būstams: 24,3 → 29,3 % (tikslas 50 % iki 2030 m.) [E1 p.25; E1 p.20].", en: "More loans for energy-efficient homes: 24.3 → 29.3% (target 50% by 2030) [E1 p.25; E1 p.20]."}
+    - {lt: "Biurų elektra vis žalesnė, savi išmetimai mažėja [E1 p.24; E1 p.21].", en: "Office power is greener and own emissions are falling [E1 p.24; E1 p.21]."}
+  bad:
+    - {lt: "Klientų (paskolų) išmetimai auga kartu su paskolų portfeliu [E1 p.22].", en: "Borrowers' emissions grow with the loan book [E1 p.22]."}
+  means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}

@@ -78,3 +78,11 @@ engagement:
     lt: "SEB elektros ir AEI politikos lūkesčiai tinklams (nuostolių mažinimas, AEI integravimas), ISO 14001/50001, metinė darnumo ataskaita – įvykdyti [E1 p.84; E1 p.8]. Stebėti: 2026 m. turi būti patvirtintas grupės klimato pereinamasis planas su naujais tikslais [E1 p.86]."
     en: "SEB Electricity & Renewables expectations for grids (loss reduction, renewables integration), ISO 14001/50001 and an annual sustainability report are met [E1 p.84; E1 p.8]. To watch: the Group climate transition plan with new targets is due for approval in 2026 [E1 p.86]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Grupės išmetimai nuo 2020 m. sumažėjo 47 % [E1 p.92].", en: "Group emissions are down 47% since 2020 [E1 p.92]."}
+    - {lt: "Tvarumo ataskaitą tikrino auditorius KPMG [E1 p.8].", en: "The sustainability report was checked by the auditor KPMG [E1 p.8]."}
+  bad:
+    - {lt: "Pats AST (be dukterinių įmonių) senojo tikslo nebepasieks: po prisijungimo prie Europos elektros tinklo išaugo elektros nuostoliai. Naujas planas žadamas 2026 m. I pusmetį [E1 p.86].", en: "AST itself (without subsidiaries) will miss its old target: grid losses rose after joining the European grid. A new plan is promised for H1 2026 [E1 p.86]."}
+  means: {lt: "Smulkmena. Rašyti nereikia – 2026 m. pažiūrėsime, ar paskelbtas naujas planas.", en: "Minor. No need to write – in 2026 check that the new plan is out."}

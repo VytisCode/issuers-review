@@ -121,3 +121,11 @@ engagement:
     lt: "SEB iškastinio kuro politikos reikalavimai (dujų termofikacinės elektrinės) įvykdyti: skelbiami Scope 1–3 išmetimai, yra trumpo ir ilgo laikotarpio tikslai, pereinamasis planas, ISO 14001 ir 50001 [E1 p.122; E1 p.115; E1 p.66]. Atsilikimai (mažmeniniai išmetimai, vanduo) emitento atvirai atskleisti ir stebimi."
     en: "SEB Fossil Fuels policy requirements (gas CHP plants) are met: Scope 1–3 emissions are disclosed, and there are short- and long-term targets, a transition plan, and ISO 14001 and 50001 [E1 p.122; E1 p.115; E1 p.66]. The gaps (retail emissions, water) are openly disclosed and tracked by the issuer."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Aiškūs tikslai: elektros gamyba be CO2 iki 2040 m., visa veikla – iki 2050 m. [E1 p.26].", en: "Clear targets: CO2-free power by 2040, all operations by 2050 [E1 p.26]."}
+    - {lt: "Dauguma tikslų vykdomi; 2025 m. išleido 400 mln. EUR žaliųjų obligacijų [E1 p.9].", en: "Most targets on track; issued EUR 400m of green bonds in 2025 [E1 p.9]."}
+  bad:
+    - {lt: "Keli tikslai atsilieka: elektros pardavimų išmetimai, vandens sąnaudos ir gyventojų parama vėjo ir saulės elektrinėms. Įmonė tai pati atvirai skelbia [E1 p.26; E1 p.28].", en: "A few targets lag: emissions from power sales, water use and public support for wind and solar. The company discloses this openly [E1 p.26; E1 p.28]."}
+  means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}

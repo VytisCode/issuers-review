@@ -16,14 +16,14 @@ import common as C  # noqa: E402
 
 ESG_DIR = C.DATA / "esg"
 TREND = {"improving": {"lt": "Gerėja", "en": "Improving"}, "stable": {"lt": "Stabilu", "en": "Stable"},
-         "mixed": {"lt": "Nevienareikšmiška", "en": "Mixed"}, "worsening": {"lt": "Blogėja", "en": "Worsening"},
+         "mixed": {"lt": "Vieni geriau, kiti blogiau", "en": "Some better, some worse"}, "worsening": {"lt": "Blogėja", "en": "Worsening"},
          "limited": {"lt": "Mažai duomenų", "en": "Limited data"}, "baseline": {"lt": "Atskaitos metai", "en": "Baseline year"}}
 TSTATUS = {"met": {"lt": "Pasiekta", "en": "Met"}, "on_track": {"lt": "Pagal planą", "en": "On track"},
            "behind": {"lt": "Atsilieka", "en": "Behind"}, "missed": {"lt": "Nepasiekta", "en": "Missed"},
            "new": {"lt": "Naujas tikslas", "en": "New target"}, "no_data": {"lt": "Nėra duomenų", "en": "No data"},
            "changed": {"lt": "Pakeistas", "en": "Revised"}}
-ENGAGE = {"none": {"lt": "Nereikia", "en": "Not needed"}, "watch": {"lt": "Stebėti", "en": "Monitor"},
-          "engage": {"lt": "Reikia", "en": "Needed"}}
+ENGAGE = {"none": {"lt": "Viskas gerai", "en": "All fine"}, "watch": {"lt": "Tik stebėti", "en": "Just monitor"},
+          "engage": {"lt": "Siūloma parašyti", "en": "Suggest writing"}}
 # Savininkui: kiek rimta spraga (įrankio vertinimas, ne emitento)
 SEVERITY = {"minor": {"lt": "Smulkmena", "en": "Minor"}, "moderate": {"lt": "Vidutinė", "en": "Moderate"},
             "major": {"lt": "Didelė", "en": "Major"}}
@@ -116,6 +116,9 @@ def site(lang):
             "instruments": sorted({s["type"] or "bond" for s in held}), "green": any(s.get("green") == "yes" for s in held),
             "held": [{"isin": s["isin"], "name": s["name"], "type": s["type"], "green": s.get("green")} for s in held],
             "trend": e.get("trend", "limited"), "summary": h(e.get("summary")),
+            # paprasta kalba: kas gerai / kas negerai / ką tai reiškia mums
+            "brief": {"good": [h(x) for x in (e.get("brief") or {}).get("good", [])], "bad": [h(x) for x in (e.get("brief") or {}).get("bad", [])],
+                      "means": h((e.get("brief") or {}).get("means"))},
             "years": yr, "targets": targets, "metrics": metrics,
             "engagement": {"level": eng.get("level", "none"), "reason": h(eng.get("reason")),
                            "severity": eng.get("severity", ""), "verdict": h(eng.get("verdict")),

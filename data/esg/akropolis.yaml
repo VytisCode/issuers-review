@@ -88,3 +88,13 @@ engagement:
     lt: "SEB nekilnojamojo turto politikos lūkesčiai iš esmės įvykdyti: pastatų išmetimų tikslai, BREEAM, energijos valdymas, tvarumo ataskaita [E1 p.121; E1 p.122]. Stebėti: sąlyginė PwC išvada dėl „Galio Group“ neįtraukimo ir AEI dalies sumažėjimas – 2026 m. ataskaitoje turi būti visa grupė [E1 p.101; E1 p.122]."
     en: "SEB Real Estate policy expectations are broadly met: building emission targets, BREEAM, energy management and a sustainability report [E1 p.121; E1 p.122]. To watch: PwC's qualified conclusion over excluding Galio Group, and the lower renewable share; the 2026 report should cover the whole Group [E1 p.101; E1 p.122]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Turi aiškius tikslus iki 2030 m.: savo CO2 išmetimus vienam m² sumažinti 65 %, visiems centrams gauti „žaliojo pastato“ sertifikatą (BREEAM) [E2 p.24].", en: "Clear 2030 targets: cut own CO2 per m² by 65% and get a green building certificate (BREEAM) for every centre [E2 p.24]."}
+    - {lt: "2024 m. išmetimai vienam m² sumažėjo perpus [E1 p.122].", en: "In 2024 emissions per m² halved [E1 p.122]."}
+    - {lt: "2025 m. – pirmoji pilna tvarumo ataskaita, ją tikrino auditorius PwC [E1 p.100].", en: "2025 brought the first full sustainability report, checked by the auditor PwC [E1 p.100]."}
+  bad:
+    - {lt: "Auditorius pateikė išvadą su išlyga: į ataskaitą neįtraukta nupirkta „Galio Group“ [E1 p.101].", en: "The auditor gave a qualified opinion: the acquired Galio Group was left out of the report [E1 p.101]."}
+    - {lt: "Žaliosios energijos dalis sumažėjo nuo 58 % iki 51 % [E1 p.122].", en: "The share of green energy fell from 58% to 51% [E1 p.122]."}
+  means: {lt: "Smulkmenos. Rašyti nereikia – kitais metais pažiūrėsime, ar „Galio Group“ įtraukta.", en: "Minor. No need to write – next year check that Galio Group is included."}

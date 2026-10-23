@@ -76,3 +76,12 @@ engagement:
     lt: "SEB žemės ūkio politikos apribojimai (miškų naikinimas, nelegalūs pesticidai ir pan.) nepažeisti; skatinamas tikslus augalų apsaugos produktų naudojimas [E1 p.24]. Pirmoji ataskaita – stebėti, ar bus nustatytas išmetimų tikslas, apskaičiuotas Scope 3 ir atliktas klimato rizikos vertinimas [E1 p.18; E1 p.22]."
     en: "SEB Agriculture policy restrictions (deforestation, illegal pesticides, etc.) are not breached; precise use of plant protection products is promoted [E1 p.24]. This is the first report: watch whether an emissions target is set, Scope 3 calculated and a climate risk assessment done [E1 p.18; E1 p.22]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Pirmą kartą paskelbė tvarumo ataskaitą (pagal supaprastintą standartą mažesnėms įmonėms) [E1 p.3].", en: "Published its first sustainability report (under a simplified standard for smaller companies) [E1 p.3]."}
+    - {lt: "Planuoja per 5 metus pusantro karto padidinti žaliosios energijos gamybą [E1 p.19].", en: "Plans to raise its own green energy output by half within 5 years [E1 p.19]."}
+  bad:
+    - {lt: "Nėra tikslo mažinti išmetimus; išmetimai svyruoja priklausomai nuo derliaus [E1 p.22].", en: "No emission reduction target; emissions swing with the harvest [E1 p.22]."}
+    - {lt: "Klimato rizikos dar neįvertino [E1 p.18].", en: "Climate risk not assessed yet [E1 p.18]."}
+  means: {lt: "Smulkmena. Rašyti dar anksti – kitais metais pažiūrėsime, ar atsiras tikslas.", en: "Minor. Too early to write – next year check for a target."}

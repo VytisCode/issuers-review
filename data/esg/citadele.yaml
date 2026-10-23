@@ -90,3 +90,12 @@ engagement:
     lt: "SEB finansų sektoriaus lūkesčiai iš esmės atitinkami: tikslas iki 2050 m., Pereinamojo laikotarpio planas, PCAF finansuojami išmetimai, KPMG ribotas užtikrinimas [E1 p.37; E1 p.44; E1 p.205]. Paskolų portfelio išmetimai stabilūs, todėl kreiptis nebūtina; stebėti, ar po 2026–2027 m. stebėsenos etapo bus nustatyti kiekybiniai mažinimo tikslai (2 etapas) [E1 p.37; E1 p.43]."
     en: "SEB's financial-sector expectations are broadly met: 2050 target, transition plan, PCAF financed emissions, KPMG limited assurance [E1 p.37; E1 p.44; E1 p.205]. Lending emissions are stable, so engagement is not needed; watch whether quantified reduction targets (Phase 2) are set after the 2026–2027 monitoring phase [E1 p.37; E1 p.43]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Visi metiniai tikslai įvykdyti, pvz., naujų žaliųjų paskolų 176 mln. EUR (tikslas 100 mln.) [E1 p.44].", en: "All annual targets met, e.g. EUR 176m of new green loans (target 100m) [E1 p.44]."}
+    - {lt: "Priimtas planas, kaip iki 2050 m. pasiekti nulinius išmetimus [E1 p.37].", en: "Adopted a plan to reach net zero by 2050 [E1 p.37]."}
+    - {lt: "Paskolų klientų išmetimai nedidėja [E1 p.44].", en: "Emissions of its borrowers are not rising [E1 p.44]."}
+  bad:
+    - {lt: "Bendri „finansuojami“ išmetimai +12 %, bet tik todėl, kad bankas valdo daugiau klientų investicijų [E1 p.44].", en: "Total 'financed' emissions +12%, but only because the bank manages more client investments [E1 p.44]."}
+  means: {lt: "Viskas gerai, rašyti nereikia.", en: "All fine, no need to write."}

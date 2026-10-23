@@ -115,3 +115,12 @@ engagement:
     lt: "SEB finansų sektoriaus lūkesčiai (tikslai, finansuojami išmetimai, užtikrinimas) iš esmės atitinkami: tikslai su terminais, PwC užtikrinimas, finansuojami išmetimai mažėja [E1 p.18; E1 p.52; E1 p.182]. Bankas pats atskleidžia du nepasiektus tikslus, todėl kreiptis nebūtina – stebėti, ar 2026 m. atsigaus pereinamojo laikotarpio planų dalis [E1 p.18]."
     en: "SEB's financial-sector expectations (targets, financed emissions, assurance) are broadly met: dated targets, PwC assurance and falling financed emissions [E1 p.18; E1 p.52; E1 p.182]. The bank itself discloses the two missed targets, so engagement is not needed; watch whether the transition-plan share recovers in 2026 [E1 p.18]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Bankas pats skelbia tikslų lentelę ir atvirai rodo, ko nepasiekė [E1 p.18].", en: "The bank publishes a target table and openly shows what it missed [E1 p.18]."}
+    - {lt: "Pasiekė: mažiau savo išmetimų, daugiau paskolų taupiems būstams, 305 mln. EUR tvaraus finansavimo [E1 p.18].", en: "Achieved: lower own emissions, more loans for efficient homes, EUR 305m of sustainable finance [E1 p.18]."}
+    - {lt: "Klientų išmetimai mažėja; ataskaitą tikrino auditorius PwC [E1 p.52; E1 p.182].", en: "Borrowers' emissions are falling; the auditor PwC checked the report [E1 p.52; E1 p.182]."}
+  bad:
+    - {lt: "Nepasiekti du tikslai: tik 75 % taršių klientų turi pertvarkos planus (tikslas 90 %), žalioji elektra 76 % (tikslas 100 %) [E1 p.18].", en: "Two targets missed: only 75% of high-emission borrowers have transition plans (target 90%), green power 76% (target 100%) [E1 p.18]."}
+  means: {lt: "Smulkmena, rašyti nereikia.", en: "Minor, no need to write."}

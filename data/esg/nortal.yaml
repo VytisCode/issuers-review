@@ -48,3 +48,12 @@ engagement:
     lt: "Maža aplinkos rizika; trūksta tik grupės lygio duomenų."
     en: "Low environmental risk; only group-level data is missing."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "IT bendrovė – aplinkai daro mažai įtakos.", en: "An IT company – small environmental impact."}
+    - {lt: "JK padalinys turi tikslą iki 2030 m. sumažinti išmetimus maždaug 30 % [E1 p.3].", en: "The UK unit plans to cut emissions by about 30% by 2030 [E1 p.3]."}
+    - {lt: "Tiekėjai turi laikytis elgesio kodekso (žmogaus teisės) [E2 p.4].", en: "Suppliers must follow a code of conduct (human rights) [E2 p.4]."}
+  bad:
+    - {lt: "Viešai neradome visos grupės tvarumo ataskaitos – ji gali būti investuotojų portale su slaptažodžiu.", en: "We found no group sustainability report publicly – it may be in the password-protected investor portal."}
+  means: {lt: "Smulkmena. Jei portale yra metinė ataskaita – įkelkite ją, papildysiu.", en: "Minor. If the portal has the annual report, upload it and I will add it."}

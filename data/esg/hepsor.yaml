@@ -71,3 +71,12 @@ engagement:
       hint: {lt: "Jei nurodys tikslą ar terminą – įrašome jį į tikslų lentelę ir kitais metais tikriname pažangą.", en: "If they name a target or a date, we add it to the target table and track it next year."}
     - q: "Your report mentions that there is no separate code of conduct yet. Are you planning to adopt one, including anti-corruption rules and a whistleblowing channel?"
       hint: {lt: "Patvirtinus kodeksą ar su terminu – spraga uždaryta arba „Stebėti“. Jei neplanuoja – kitais metais svarstyti dar kartą.", en: "If adopted or planned with a date, the gap is closed or Monitor. If not planned, reconsider next year."}
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Maža įmonė (26 darbuotojai), bet tvarumo ataskaitą skelbia jau 5 metus [E1 p.50].", en: "A small company (26 staff) that has published a sustainability report for 5 years [E1 p.50]."}
+    - {lt: "Skaičiuoja visų savo naujų pastatų CO2 pėdsaką [E1 p.52].", en: "It calculates the CO2 footprint of every new building [E1 p.52]."}
+  bad:
+    - {lt: "Nėra jokio tikslo mažinti išmetimus.", en: "No emission reduction target at all."}
+    - {lt: "Nėra elgesio ir antikorupcijos kodekso – aprašyta tik pinigų plovimo prevencija [E1 p.54].", en: "No code of conduct or anti-corruption policy – only anti-money-laundering rules [E1 p.54]."}
+  means: {lt: "Smulkmena, bet lengvai pataisoma – galima išsiųsti trumpą laišką (paruoštas žemiau).", en: "Minor but easy to fix – you can send a short letter (ready below)."}

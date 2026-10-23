@@ -68,3 +68,12 @@ engagement:
     lt: "Skaičiuoja finansuojamus išmetimus, bet tikslų ir plano dar nėra [E1 p.3]."
     en: "Measures financed emissions, but no targets or plan yet [E1 p.3]."
   questions: []
+# Trumpai paprasta kalba (rodoma ESG puslapio viršuje): kas gerai, kas negerai, ką tai reiškia mums
+brief:
+  good:
+    - {lt: "Nedidelis bankas, bet jau nuo 2021 m. skaičiuoja ir savo, ir klientų išmetimus [E1 p.5].", en: "A small bank that has counted both its own and its borrowers' emissions since 2021 [E1 p.5]."}
+    - {lt: "Bendras pėdsakas 2025 m. sumažėjo: 248 855 → 212 758 t [E1 p.3].", en: "Total footprint fell in 2025: 248,855 → 212,758 t [E1 p.3]."}
+  bad:
+    - {lt: "Nėra tikslo mažinti išmetimus ir nėra plano [E1 p.2].", en: "No emission reduction target and no plan [E1 p.2]."}
+    - {lt: "Ataskaitos niekas netikrino (auditas nebūtinas – prievolė atidėta 2 metams) [E1 p.1].", en: "Nobody checked the report (audit not required – the obligation was postponed by 2 years) [E1 p.1]."}
+  means: {lt: "Smulkmena. Rašyti kol kas nereikia.", en: "Minor. No need to write for now."}
