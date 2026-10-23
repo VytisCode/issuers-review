@@ -257,10 +257,14 @@ def main():
         if f.is_file():
             shutil.copy2(f, C.DOCS / f.name)
     (C.DOCS / ".nojekyll").write_text("")
+    # SEB politikų metinė peržiūra (savininko prašymas 2026-10-23): nuoroda, peržiūros data, politikų priėmimo datos
+    sp = C.load_yaml(C.ROOT / "config" / "seb_policies.yaml")
+    out["seb"] = {"reviewed": str(sp.get("reviewed", "")), "url": sp.get("index_url", ""),
+                  "policies": [{"name": p.get("name", k), "adopted": str(p.get("adopted", ""))} for k, p in (sp.get("policies") or {}).items()]}
     # užšifruotas DD archyvas (tools/dd_vault.py): raktas ir įrašai - į data.js, failai - į docs/dd/
     ddir = C.DATA / "dd"
+    jobs = [json.loads(f.read_text()) for f in sorted((ddir / "jobs").glob("*.json"))] if (ddir / "jobs").exists() else []
     if (ddir / "key.json").exists():
-        jobs = [json.loads(f.read_text()) for f in sorted((ddir / "jobs").glob("*.json"))] if (ddir / "jobs").exists() else []
         out["dd"] = {"key": json.loads((ddir / "key.json").read_text()), "items": json.loads((ddir / "index.json").read_text()),
                      "pending": [j["parent"] for j in jobs if not j.get("done")],
                      "zips": json.loads((ddir / "zips.json").read_text()) if (ddir / "zips.json").exists() else {}}

@@ -283,7 +283,7 @@
   /* ---------- Darbai: „Ką daryti dabar“ – tik tai, ką reikia padaryti, su vienu mygtuku ---------- */
   const HX = {
     en: { title: "What to do now", sub: "Only the jobs that need you. Each has one button.", none: "✓ Nothing to do right now.",
-      newRep: n => `${n} issuer(s) published new reports`, newRepD: "Copy the prompt and paste it into the Claude project chat. Claude updates the reviews and replies when they are ready.", which: "Which ones?", ready: (a, n) => `${a} of ${n} issuers have published the latest report – the more, the better value from one run.`,
+      seb: "Time to check the SEB sustainability policies", sebD: d => `Last checked ${d}. Open the SEB page, compare the dates and upload any updated policies to the Claude project.`, newRep: n => `${n} issuer(s) published new reports`, newRepD: "Copy the prompt and paste it into the Claude project chat. Claude updates the reviews and replies when they are ready.", which: "Which ones?", ready: (a, n) => `${a} of ${n} issuers have published the latest report – the more, the better value from one run.`,
       noAn: n => `${n} held securities have no analysis yet`, bad: n => `${n} ISIN(s) look invalid – fix them in the list`, badD: "The format or check digit does not match – most likely a typo.", noAnD: "New issuers from the ISIN list.", noAnP: "Analyse the new issuers whose securities we hold but have no review yet.",
       mat: n => `${n} held bonds have matured – remove them from the list`, matD: "Securities page → Remove.",
       news: n => `${n} news items to check (30 days)`, newsD: "Headlines that may matter to an investor (deals, regulators, management).",
@@ -291,7 +291,7 @@
       soon: "Coming up (60 days)", next: "Next", nextD: "Expected issuer reports:", search: "Last search for new reports and news:", searchP: "Search for new reports and news now.", searchB: "🔎 Search now (copy prompt)", gh: "or start it in GitHub",
       auto: "The search also runs by itself every morning.", allJobs: "All jobs and instructions →", go: "Open →" },
     lt: { title: "Ką daryti dabar", sub: "Tik darbai, kuriems reikia jūsų. Prie kiekvieno – vienas mygtukas.", none: "✓ Šiuo metu nieko daryti nereikia.",
-      newRep: n => `${n} ${pl(n, "emitentas paskelbė", "emitentai paskelbė", "emitentų paskelbė")} naujas ataskaitas`, newRepD: "Nukopijuokite užklausą ir įklijuokite Claude projekto pokalbyje. Claude atnaujins apžvalgas ir atsakys, kai bus paruošta.", which: "Kurie?", ready: (a, n) => `Naujausią ataskaitą jau paskelbė ${a} iš ${n} emitentų – kuo daugiau, tuo naudingiau leisti vieną kartą.`,
+      seb: "Metas patikrinti SEB tvarumo politikas", sebD: d => `Paskutinį kartą tikrinta ${d}. Atidarykite SEB puslapį, palyginkite datas ir atnaujintas politikas įkelkite į Claude projektą.`, newRep: n => `${n} ${pl(n, "emitentas paskelbė", "emitentai paskelbė", "emitentų paskelbė")} naujas ataskaitas`, newRepD: "Nukopijuokite užklausą ir įklijuokite Claude projekto pokalbyje. Claude atnaujins apžvalgas ir atsakys, kai bus paruošta.", which: "Kurie?", ready: (a, n) => `Naujausią ataskaitą jau paskelbė ${a} iš ${n} emitentų – kuo daugiau, tuo naudingiau leisti vieną kartą.`,
       noAn: n => `${n} ${pl(n, "turimas VP", "turimi VP", "turimų VP")} dar be analizės`, bad: n => `${n} ${pl(n, "ISIN atrodo neteisingas", "ISIN atrodo neteisingi", "ISIN atrodo neteisingų")} – pataisykite sąraše`, badD: "Netinka ISIN formatas arba kontrolinis skaitmuo – greičiausiai klaida perrašant.", noAnD: "Nauji emitentai iš ISIN sąrašo.", noAnP: "Išanalizuok naujus emitentus, kurių VP turime, bet apžvalgos dar nėra.",
       mat: n => `${n} ${pl(n, "turima obligacija išpirkta", "turimos obligacijos išpirktos", "turimų obligacijų išpirkta")} – pašalinkite iš sąrašo`, matD: "Vertybiniai popieriai → Pašalinti.",
       news: n => `${n} ${pl(n, "naujiena", "naujienos", "naujienų")} patikrinti (30 d.)`, newsD: "Antraštės, kurios gali rūpėti investuotojui (sandoriai, priežiūros institucijos, vadovai).",
@@ -323,6 +323,8 @@
     if (nw.length) card("you", hx("news")(nw.length), hx("newsD"), `<a class="btn" href="#news">${hx("go")}</a>`, [...new Set(nw.map(n => n.issuer))].map(id => [(byId[id] || {}).name || id, `#news/${id}`]));
     const eng = gd.rows.filter(r => r.engagement.level === "engage");
     if (eng.length) card("you", hx("esg")(eng.length), hx("esgD"), `<a class="btn" href="#esg/${eng[0].id}">${hx("go")}</a>`, eng.map(r => [r.name, `#esg/${r.id}`]));
+    // SEB politikų peržiūra kartą per metus
+    if (D.seb && D.seb.reviewed && days(D.seb.reviewed) <= -365) card("you", hx("seb"), hx("sebD")(D.seb.reviewed), `<a class="btn" href="#tools/x/job-seb">${hx("go")}</a>`, [["sebgroup.com → Policies ↗", D.seb.url]]);
     const soon = ((D.email[LANG] || D.email.en || {}).soon || []).filter(x => days(x.date) <= 60);
     const nearest = R.rows.filter(r => ["waiting", "late"].includes(r.status) && r.expected).sort((a, b) => a.expected.localeCompare(b.expected)).slice(0, 4);
     const manual = D.issuers.filter(i => i.manual);
@@ -904,6 +906,13 @@
       t: { lt: "Laiškas kolegoms", en: "Email to colleagues" },
       when: { lt: "po apžvalgų atnaujinimo.", en: "after the reviews are updated." },
       steps: { lt: ["code: <a href=\"#email\">Laiškas</a> – juodraštis paruoštas automatiškai iš verdiktų (be AI).", "you: Pataisykite tekstą, laiško pabaigoje įrašykite nuorodą į failus.", "you: „Kopijuoti laišką“ → Outlook (Ctrl+V)."], en: ["code: <a href=\"#email\">Email</a> – the draft is generated from the verdicts (no AI).", "you: Edit the text and add the link to the files at the end of the email.", "you: “Copy email” → Outlook (Ctrl+V)."] } },
+    { id: "seb", kind: "you", kw: "seb politikos sektorių politika atnaujinti metinė peržiūra nuoroda sustainability policies sector policy yearly update link",
+      t: { lt: "SEB tvarumo politikų metinė peržiūra", en: "Yearly review of SEB sustainability policies" },
+      when: { lt: "kartą per metus (priminimas atsiras „Darbuose“, kai nuo paskutinės peržiūros praeis metai).", en: "once a year (a reminder appears in “To do” a year after the last review)." },
+      steps: { lt: [`you: Atidarykite SEB politikų puslapį: <a href="${esc((D.seb || {}).url || "https://sebgroup.com/sustainability/our-sustainability-strategy/policies")}" target="_blank" rel="noopener">sebgroup.com → Policies ↗</a>`, "you: Palyginkite politikų datas su sąrašu žemiau. Atsisiųskite tik naujesnes (įrankis jų pats parsisiųsti negali – SEB svetainė blokuoja automatinį skaitymą).", "ai: Claude projekte prisekite PDF failus ir įklijuokite užklausą.", "ai: Claude atnaujins įrankyje naudojamą SEB politikų santrauką ir pažymės, kurių emitentų vertinimus tai keičia."], en: [`you: Open the SEB policies page: <a href="${esc((D.seb || {}).url || "https://sebgroup.com/sustainability/our-sustainability-strategy/policies")}" target="_blank" rel="noopener">sebgroup.com → Policies ↗</a>`, "you: Compare the policy dates with the list below. Download only the newer ones (the tool cannot fetch them itself – the SEB site blocks automated reading).", "ai: In the Claude project attach the PDF files and paste the prompt.", "ai: Claude updates the SEB policy summary used by the tool and flags which issuer assessments change."] },
+      extra: () => { const S = D.seb || {}; if (!(S.policies || []).length) return "";
+        return `<p class="small"><b>${LANG === "lt" ? "Įrankyje dabar naudojamos" : "Currently used in the tool"}</b> (${LANG === "lt" ? "peržiūrėta" : "reviewed"} ${esc(S.reviewed)}):</p><div class="tbl-wrap"><table class="small"><tr><th>${LANG === "lt" ? "Politika" : "Policy"}</th><th>${LANG === "lt" ? "Priimta" : "Adopted"}</th></tr>${S.policies.map(x => `<tr><td>${esc(x.name)}</td><td class="nw">${esc(x.adopted)}</td></tr>`).join("")}</table></div>`; },
+      prompt: { lt: () => "Įkeliu atnaujintas SEB tvarumo politikas: [pavadinimai]. Atnaujink SEB politikų santrauką įrankyje ir pasakyk, kurių emitentų ESG vertinimai dėl to keičiasi.", en: () => "Attached are updated SEB sustainability policies: [names]. Update the SEB policy summary in the tool and tell me which issuers' ESG assessments change." } },
     { id: "checks", kind: "you", kw: "sankcijos žiniasklaida patikra neigiamos naujienos sanctions adverse media checks enamechecker ofac sanctionsmap es sankcijų žemėlapis",
       t: { lt: "Sankcijų ir žiniasklaidos patikros", en: "Sanctions and adverse media checks" },
       when: { lt: "prieš tvirtinant apžvalgą.", en: "before signing off a review." },
@@ -914,7 +923,7 @@
     const steps = L(j.steps).map(s => { const m = s.match(/^(ai|code|you):\s*/); return `<li>${m ? `<span class="kd ${m[1]}" title="${esc(wx(m[1]))}"></span>${s.slice(m[0].length)}` : s}</li>`; }).join("");
     const p = j.prompt ? L(j.prompt)(fill) : "";
     return `<details class="howto k-${j.kind}"${opts.anchor ? ` id="job-${j.id}"` : ""}${opts.open ? " open" : ""}><summary>${opts.anchor ? "" : "ℹ "}<b>${L(j.t)}</b> ${kindTag(j.kind)}</summary>
-      <p class="small"><b>${wx("when")}:</b> ${L(j.when)}</p><ol class="hsteps">${steps}</ol>
+      <p class="small"><b>${wx("when")}:</b> ${L(j.when)}</p><ol class="hsteps">${steps}</ol>${j.extra ? j.extra() : ""}
       ${p ? `<div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div>` : ""}</details>`;
   }
   function jobsHub() { return `<h2>${wx("jobs")}</h2><p class="sub">${wx("jobsSub")}</p>${kindLegend()}<div class="jobs">${JOBS.map(j => jobHow(j.id, {}, { anchor: true })).join("")}</div>`; }
@@ -1210,7 +1219,7 @@
     document.querySelector(".brand").textContent = t("heroTitle");
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
     document.documentElement.lang = LANG;
-    $app.innerHTML = (map[page] || overview)();
+    $app.innerHTML = (map[page] || map.overview)();
     setTimeout(() => glossify($app), 80);
     if (!map[page] || page === "overview") watchRuns();
     const qs = document.getElementById("qs"); if (qs) qs.placeholder = wx("qs");
