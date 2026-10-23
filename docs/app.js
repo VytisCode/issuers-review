@@ -688,16 +688,19 @@
       xls: "Excel (all years)", issuer: "Issuer", instr: "Held", dir: "Direction", eng: "Engagement", onlyEng: "Engagement needed or monitor only", search: "Search issuer",
       legend: "Direction per year: Improving – most own targets and key metrics moved the right way; Mixed – some better, some worse; Worsening – mostly worse; Stable – little change; Limited data – the report gives too little to judge; Baseline year – first year reported, nothing to compare with.",
       summary: "Summary", framework: "Reporting and assurance", targets: "Own targets and progress", target: "Target", metrics: "Key metrics", metric: "Metric", unit: "Unit",
-      evidence: "Evidence", allFacts: "All facts", concerns: "Gaps and concerns", sources: "Sources", why: "Why", policies: "SEB policies checked", questions: "Questions to the issuer",
+      evidence: "Evidence", allFacts: "All facts", concerns: "Gaps and concerns", sources: "Sources", why: "Why", policies: "SEB policies checked (internal only, not mentioned to the issuer)", questions: "Questions to the issuer",
+      sev: "How serious", gaps: "What is wrong", gWhy: "Why it matters", gFix: "What would help", hint: "How the answer helps you", preview: "Email preview",
       dl: "⬇ Download email to issuer (.eml)", copy: "Copy email text", copied: "Copied.", back: "← ESG overview", edit: "✎ Edit ESG data", none: "No ESG data yet.",
       emailHint: "Opens in Outlook as a draft. English, no signature – add yours.", bond: "bonds", share: "shares", notReported: "not reported", calc: "calculated by the tool",
-      greetings: "Dear Investor Relations team,", intro: (n, ins, rep) => `We are holders of ${n} ${ins} and review our issuers' sustainability disclosures once a year. Having read ${rep}, we would appreciate your comments on the following:`,
-      thanks: "Thank you in advance for your reply. Public answers or a pointer to the relevant page of your next report are equally welcome." },
+      greetings: "Dear Investor Relations team,", intro: (n, ins) => `We hold ${n} ${ins} and are carrying out our annual review of the issuers in our portfolio, which includes a look at sustainability information.`,
+      ask: "We would be grateful if you could help us with a few questions:",
+      thanks: "Thank you in advance. A short reply or a link to the relevant page or document is perfectly fine.", regards: "Kind regards," },
     lt: { title: "ESG Engagement", sub: "Kiekvieno emitento tvarumo pažanga pagal ataskaitinius metus – vertinama tik pagal paties emitento tikslus ir jo ankstesnius metus (emitentai tarpusavyje nelyginami). Kiekvienas teiginys susietas su šaltinio puslapiu. Engagement siūlomas tik realioms spragoms, įvertinus SEB sektorių politikas.",
       xls: "Excel (visi metai)", issuer: "Emitentas", instr: "Turima", dir: "Kryptis", eng: "Engagement", onlyEng: "Tik kur reikia engagement ar stebėti", search: "Ieškoti emitento",
       legend: "Kryptis pagal metus: Gerėja – dauguma savų tikslų ir pagrindinių rodiklių juda tinkama linkme; Nevienareikšmiška – vieni geriau, kiti blogiau; Blogėja – daugiausia blogiau; Stabilu – mažai pokyčių; Mažai duomenų – ataskaitoje per mažai informacijos įvertinti; Atskaitos metai – pirmi skelbti metai, nėra su kuo lyginti.",
       summary: "Santrauka", framework: "Atskaitomybė ir užtikrinimas", targets: "Savi tikslai ir pažanga", target: "Tikslas", metrics: "Pagrindiniai rodikliai", metric: "Rodiklis", unit: "Vnt.",
-      evidence: "Įrodymai", allFacts: "Visi faktai", concerns: "Spragos ir rūpesčiai", sources: "Šaltiniai", why: "Kodėl", policies: "Patikrintos SEB politikos", questions: "Klausimai emitentui",
+      evidence: "Įrodymai", allFacts: "Visi faktai", concerns: "Spragos ir rūpesčiai", sources: "Šaltiniai", why: "Kodėl", policies: "Patikrintos SEB politikos (tik vidiniam naudojimui, emitentui neminimos)", questions: "Klausimai emitentui",
+      sev: "Kiek rimta", gaps: "Kas negerai", gWhy: "Kodėl svarbu", gFix: "Kas padėtų", hint: "Kaip atsakymas jums padės", preview: "Laiško peržiūra",
       dl: "⬇ Atsisiųsti laišką emitentui (.eml)", copy: "Kopijuoti laiško tekstą", copied: "Nukopijuota.", back: "← ESG apžvalga", edit: "✎ Taisyti ESG duomenis", none: "ESG duomenų dar nėra.",
       emailHint: "Atsidaro Outlook kaip juodraštis. Anglų kalba, be parašo – pridėkite savo.", bond: "obligacijos", share: "akcijos", notReported: "neskelbiama", calc: "apskaičiuota įrankio" },
   };
@@ -706,13 +709,14 @@
   const TRC = { improving: "good", stable: "info", mixed: "warn", worsening: "bad", limited: "info", baseline: "info" };
   const TSC = { met: "good", on_track: "good", behind: "warn", missed: "bad", new: "info", no_data: "info", changed: "warn" };
   const ENC = { none: "good", watch: "warn", engage: "bad" };
+  const SEV = { minor: "good", moderate: "warn", major: "bad" };
   const gchip = (map, cls, k) => `<span class="chip ${cls[k] || "info"}">${esc((GD().labels[map] || {})[k] || k)}</span>`;
   let GF = { q: "", eng: false };
   function esgEmail(r) {
     const E = GX.en, e = r.engagement, ins = r.instruments.map(x => x === "share" ? "shares" : "bonds").join(" and ");
-    const rep = e.subject || `your latest annual and sustainability report`;
-    const body = [E.greetings, "", E.intro(r.name, ins, rep), "", ...e.questions.map((q, i) => `${i + 1}. ${q}`), "", E.thanks, ""].join("\r\n");
-    return { subject: `${r.name}: questions on sustainability disclosures`, body };
+    const intro = [E.intro(r.name, ins), e.noticed].filter(Boolean).join(" ");
+    const body = [E.greetings, "", intro, "", E.ask, "", ...e.questions.map((q, i) => `${i + 1}. ${q.q}`), "", E.thanks, "", E.regards, ""].join("\r\n");
+    return { subject: e.subject || `${r.name}: a few questions from a bondholder`, body };
   }
   function esgPage(arg) {
     const g = GD();
@@ -767,10 +771,13 @@
       <p class="muted">${esc(r.sector)} · ${r.held.map(h => `${esc(h.isin)}${leaf(h)}`).join(", ")}</p>
       <p>${gchip("trend", TRC, r.trend)} ${gchip("engage", ENC, e.level)}</p>
       <div class="verdict ${e.level === "engage" ? "v-action" : e.level === "watch" ? "v-watch" : ""}">${r.summary}</div>
-      ${e.level !== "none" ? `<div class="card engage"><h3>${gx("eng")}: ${esc(g.labels.engage[e.level])}</h3><p><b>${gx("why")}:</b> ${e.reason}</p>
-        ${e.policies.length ? `<p class="muted small">${gx("policies")}: ${e.policies.map(esc).join("; ")}</p>` : ""}
-        ${e.questions.length ? `<h4>${gx("questions")}</h4><ol>${e.questions.map(q => `<li>${esc(q)}</li>`).join("")}</ol>
-        <div class="row"><button class="btn primary" id="gDl">${gx("dl")}</button><button class="btn" id="gCp">${gx("copy")}</button><span id="gMsg" class="runst ok"></span></div><p class="muted small">${gx("emailHint")}</p>` : ""}</div>` : ""}
+      ${e.level !== "none" ? `<div class="card engage"><h3>${gx("eng")}: ${esc(g.labels.engage[e.level])}${e.severity ? ` · ${gx("sev")}: <span class="chip ${SEV[e.severity] || "info"}">${esc((g.labels.severity || {})[e.severity] || e.severity)}</span>` : ""}</h3>
+        ${e.verdict ? `<p>${e.verdict}</p>` : ""}
+        ${e.issues.length ? `<h4>${gx("gaps")}</h4><ul class="gaps">${e.issues.map(i => `<li><b>${i.what}</b><div class="small"><span class="muted">${gx("gWhy")}:</span> ${i.why}</div><div class="small"><span class="muted">${gx("gFix")}:</span> ${i.fix}</div></li>`).join("")}</ul>` : `<p><b>${gx("why")}:</b> ${e.reason}</p>`}
+        ${e.questions.length ? `<h4>${gx("questions")}</h4><ol>${e.questions.map((q, i) => `<li>${esc(q.q)}${e.hints[i] ? `<div class="hint small">💡 <b>${gx("hint")}:</b> ${e.hints[i]}</div>` : ""}</li>`).join("")}</ol>
+        <details class="facts"><summary>${gx("preview")}</summary><pre class="mailpre">${esc(esgEmail(r).subject)}\n\n${esc(esgEmail(r).body)}</pre></details>
+        <div class="row"><button class="btn primary" id="gDl">${gx("dl")}</button><button class="btn" id="gCp">${gx("copy")}</button><span id="gMsg" class="runst ok"></span></div><p class="muted small">${gx("emailHint")}</p>` : ""}
+        ${e.policies.length ? `<p class="muted small">${gx("policies")}: ${e.policies.map(esc).join("; ")}</p>` : ""}</div>` : ""}
       <h2>${gx("framework")}</h2><div class="grid">${ev.map(y => `<div class="card"><h3>${y} ${gchip("trend", TRC, r.years[y].trend)}</h3><p>${r.years[y].framework}</p><p class="small">${r.years[y].summary}</p></div>`).join("")}</div>
       ${r.targets.length ? `<h2>${gx("targets")}</h2><div class="tbl-wrap"><table><tr><th>${gx("target")}</th>${ys.map(y => `<th>${y}</th>`).join("")}<th>${t("status")}</th></tr>
         ${r.targets.map(x => `<tr><td><span class="pill">${esc(x.p)}</span> ${x.name}</td>${ys.map(y => `<td>${x.y[y] || "–"}</td>`).join("")}<td>${gchip("tstatus", TSC, x.status)}</td></tr>`).join("")}</table></div>` : ""}
