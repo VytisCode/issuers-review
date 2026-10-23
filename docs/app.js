@@ -1034,11 +1034,11 @@
   /* Atlikti DD - užšifruotas archyvas (tools/dd_vault.py). Slaptažodis tik naršyklėje (jei pažymėta „Prisiminti“). */
   const DA = {
     en: { h: "Completed DDs", sub: "The files are encrypted – the public website cannot read them. Enter the password once; with “Remember on this computer” it is stored only in this browser.",
-      zip: "Documents (ZIP)", zipWait: "ZIP is being prepared (a few minutes)",
+      zip: "Documents (ZIP)", zipWait: "ZIP is being prepared (a few minutes)", dlFail: "Download failed – the archive was just updated. Reload the page in a few minutes (Ctrl+F5) and try again.",
       pw: "Password", open: "Unlock", rem: "Remember on this computer", forget: "Forget password", bad: "Wrong password.", none: "No DDs yet.", dl: "Download", lost: "Forgot the password? Write to Claude: “Create a new DD password” – all DDs are re-encrypted from the project files, nothing is lost.",
       cols: ["Date", "Issuer", "ISIN", "Document", "Language", "Decision", "SFDR", ""] },
     lt: { h: "Atlikti DD", sub: "Failai užšifruoti – vieša svetainė jų perskaityti negali. Įveskite slaptažodį vieną kartą; pažymėjus „Prisiminti šiame kompiuteryje“, jis saugomas tik šioje naršyklėje.",
-      zip: "Dokumentai (ZIP)", zipWait: "ZIP ruošiamas (kelios minutės)",
+      zip: "Dokumentai (ZIP)", zipWait: "ZIP ruošiamas (kelios minutės)", dlFail: "Nepavyko atsisiųsti – archyvas ką tik atnaujintas. Po kelių minučių perkraukite puslapį (Ctrl+F5) ir bandykite dar kartą.",
       pw: "Slaptažodis", open: "Atrakinti", rem: "Prisiminti šiame kompiuteryje", forget: "Pamiršti slaptažodį", bad: "Neteisingas slaptažodis.", none: "DD dar nėra.", dl: "Atsisiųsti", lost: "Pamiršote slaptažodį? Parašykite Claude: „Sukurk naują DD slaptažodį“ – visi DD bus užšifruoti iš naujo iš projekto failų, niekas neprarandama.",
       cols: ["Data", "Emitentas", "ISIN", "Dokumentas", "Kalba", "Sprendimas", "SFDR", ""] }
   };
@@ -1061,8 +1061,12 @@
   }
   async function ddDownload(id) {
     const it = DDL.find(x => x.id === id); if (!it) return;
-    const buf = new Uint8Array(await (await fetch(`dd/${id}.bin`, { cache: "no-store" })).arrayBuffer());
-    const data = await crypto.subtle.decrypt({ name: "AES-GCM", iv: buf.slice(0, 12) }, it.key, buf.slice(12));
+    let data;
+    try {
+      const r = await fetch(`dd/${id}.bin`, { cache: "no-store" }); if (!r.ok) throw new Error(r.status);
+      const buf = new Uint8Array(await r.arrayBuffer());
+      data = await crypto.subtle.decrypt({ name: "AES-GCM", iv: buf.slice(0, 12) }, it.key, buf.slice(12));
+    } catch (e) { alert(da("dlFail")); return; }
     const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([data], { type: it.type === "zip" ? "application/zip" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
     a.download = it.file; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
   }
@@ -1074,7 +1078,7 @@
   function ddArchHtml(msg) {
     if (!DDL) return `<div class="row ddpw"><input id="ddPw" type="password" placeholder="${esc(da("pw"))}" autocomplete="current-password"><label class="chk small"><input type="checkbox" id="ddRem" checked> ${da("rem")}</label><button class="btn primary" id="ddOpen">${da("open")}</button></div>
       ${msg ? `<p class="bad small">${esc(msg)}</p>` : ""}<p class="muted small">${da("lost")}</p>`;
-    const docs = DDL.filter(x => x.type !== "zip"), zipOf = id => DDL.find(z => z.type === "zip" && z.parent === id);
+    const docs = DDL.filter(x => x.type !== "zip"), zipOf = id => DDL.find(z => z.type === "zip" && ((D.dd.zips || {})[z.id] || z.parent) === id);
     if (!docs.length) return `<p class="muted">${da("none")}</p>`;
     const c = da("cols");
     const zb = x => { const z = zipOf(x.id); return z ? ` <button class="btn sm" data-dd="${esc(z.id)}">⬇ ${da("zip")}</button>` : (D.dd.pending || []).includes(x.id) ? ` <span class="muted small">${da("zipWait")}</span>` : ""; };
