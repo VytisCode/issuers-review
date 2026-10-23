@@ -48,6 +48,11 @@ jobs:
         continue-on-error: true
         run: python -u tools/fetch_news.py
 
+      - name: Translate headlines (free Google Translate, no AI)
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: python -u tools/translate_news.py
+
       - name: New reports on issuer pages
         if: github.event_name != 'push'
         continue-on-error: true

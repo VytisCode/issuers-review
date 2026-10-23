@@ -428,7 +428,7 @@ def news_digest(issuer=None, days=90, end=None, lang="en"):
     for c in clusters:
         items = sorted(c["items"], key=lambda r: r["date"], reverse=True)
         best = sorted(items, key=lambda r: {lang: 0, "en": 1}.get(r["lang"], 2))[0]  # skaitytojo kalba, tada anglų, naujausia
-        out.append({"issuer": c["issuer"], "topic": c["topic"], "date": items[0]["date"], "title": best["title"], "url": best["url"],
+        out.append({"id": best.get("id", ""), "issuer": c["issuer"], "topic": c["topic"], "date": items[0]["date"], "title": best["title"], "url": best["url"],
                     "source": best["source"], "lang": best["lang"], "more": len(items) - 1, "flag": best["flag"], "keywords": best.get("keywords", "")})
     out.sort(key=lambda x: x["date"], reverse=True)
     out.sort(key=lambda x: NEWS_ORDER.index(x["topic"]))

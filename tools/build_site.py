@@ -203,6 +203,8 @@ def main():
            "status": C.load_json(C.DATA / "source_status.json"), "issuers": [], "securities": secs,
            "metrics": {lg: {k: C.tr(v, lg) for k, v in M.items()} for lg in SITE_LANGS},
            "news": news[:600],
+           # antraščių vertimai (tools/translate_news.py): {kalba: {naujienos id: tekstas}}
+           "news_tr": {lg: {r["id"]: r["text"] for r in C.read_csv(C.DATA / "news_tr.csv") if r["to"] == lg} for lg in SITE_LANGS} if (C.DATA / "news_tr.csv").exists() else {},
            "market": [{"id": sid, "label": {lg: C.tr(C.i18n()["mk_" + sid], lg) for lg in SITE_LANGS}, "last": last, "now": now, "m3": m3, "m12": m12, "src": src}
                       for sid, last, now, m3, m12, src in C.market_table()],
            # svarbiausios naujienos (30 d.): tos pačios temos pranešimai sujungti, „kita“ tema nerodoma, nebent antraštėje neigiamas žodis
