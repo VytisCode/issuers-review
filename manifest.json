@@ -74,8 +74,10 @@
  "latvenergo_FY2024": {
   "issuer": "latvenergo",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://nasdaqbaltic.com/market/upload/reports/elek/2024_ar_en_eur_con_ias.pdf",
+  "title": "Latvenergo Group Annual Report 2024",
+  "pages": 251,
+  "kb": 35972
  },
  "artea_FY2025": {
   "issuer": "artea",
@@ -88,8 +90,11 @@
  "artea_FY2024": {
   "issuer": "artea",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://nasdaqbaltic.com/market/upload/reports/roe1/2024_ar_en_eur_con_ias_esef.zip",
+  "title": "Šiaulių bankas Integrated Annual Report 2024",
+  "pages": 1,
+  "kb": 10712,
+  "format": "esef"
  },
  "citadele_FY2025": {
   "issuer": "citadele",
@@ -132,8 +137,10 @@
  "vik_FY2024": {
   "issuer": "vik",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://nasdaqbaltic.com/market/upload/reports/vika/2024_ar_en_eur_solo_ias.pdf",
+  "title": "VIK Annual Report 2024",
+  "pages": 55,
+  "kb": 1401
  },
  "altum_FY2025": {
   "issuer": "altum",
@@ -146,8 +153,10 @@
  "altum_FY2024": {
   "issuer": "altum",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://nasdaqbaltic.com/market/upload/reports/altm/2024_ar_en_eur_00_ias.pdf",
+  "title": "ALTUM Annual Report 2024",
+  "pages": 179,
+  "kb": 4670
  },
  "rigas-udens_FY2025": {
   "issuer": "rigas-udens",
@@ -160,8 +169,10 @@
  "rigas-udens_FY2024": {
   "issuer": "rigas-udens",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://nasdaqbaltic.com/market/upload/reports/h2o/2024_ar_lv_eur_00_ias.pdf",
+  "title": "Rīgas ūdens Annual Report 2024",
+  "pages": 192,
+  "kb": 7314
  },
  "ast_FY2025": {
   "issuer": "ast",
@@ -182,14 +193,20 @@
  "aei_FY2025": {
   "issuer": "aei",
   "year": "FY2025",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://nasdaqbaltic.com/market/upload/reports/aei/2025_ar_en_con_esef.zip",
+  "title": "AEI Annual Report 2025",
+  "pages": 1,
+  "kb": 6852,
+  "format": "esef"
  },
  "aei_FY2024": {
   "issuer": "aei",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://nasdaqbaltic.com/market/upload/reports/aei/2024_ar_en_eur_con_ias_esef.zip",
+  "title": "AEI Annual Report 2024",
+  "pages": 1,
+  "kb": 9913,
+  "format": "esef"
  },
  "latraps_FY2025": {
   "issuer": "latraps",
@@ -234,8 +251,10 @@
  "eesti-energia_FY2024": {
   "issuer": "eesti-energia",
   "year": "FY2024",
-  "url": "",
-  "error": "nepavyko atsisiųsti"
+  "url": "https://public-docs.enefit.com/ettevottest/investorile/eesti-energia-aastaaruanne-2024-eng.pdf",
+  "title": "Eesti Energia Annual Report 2024",
+  "pages": 223,
+  "kb": 86204
  },
  "akropolis_FY2025": {
   "issuer": "akropolis",
