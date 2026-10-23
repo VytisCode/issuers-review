@@ -256,6 +256,13 @@ def main():
         if f.is_file():
             shutil.copy2(f, C.DOCS / f.name)
     (C.DOCS / ".nojekyll").write_text("")
+    # užšifruotas DD archyvas (tools/dd_vault.py): raktas ir įrašai - į data.js, failai - į docs/dd/
+    ddir = C.DATA / "dd"
+    if (ddir / "key.json").exists():
+        out["dd"] = {"key": json.loads((ddir / "key.json").read_text()), "items": json.loads((ddir / "index.json").read_text())}
+        (C.DOCS / "dd").mkdir(exist_ok=True)
+        for f in ddir.glob("*.bin"):
+            shutil.copy2(f, C.DOCS / "dd" / f.name)
     (C.DOCS / "data.js").write_text("window.DATA = " + json.dumps(out, ensure_ascii=False, default=str) + ";\n", encoding="utf-8")
     print(f"docs/data.js: {len(out['issuers'])} emitentai, {len(secs)} VP, {len(news)} naujienos, {len(out['filings'])} nauji dokumentai")
 
