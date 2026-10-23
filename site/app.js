@@ -10,7 +10,7 @@
 
   const TX = {
     en: {
-      overview: "Overview", esg: "ESG", email: "Email", news: "News", securities: "Securities", isin: "ISIN list", tools: "Analysis tools", about: "How it works",
+      overview: "Overview", dd: "DD", esg: "ESG", email: "Email", news: "News", securities: "Securities", isin: "ISIN list", tools: "Analysis tools", about: "How it works",
       heroTitle: "Issuers review", heroSub: "Automated, sourced reviews of the companies behind our bonds and shares – public data only, one template for every issuer.",
       issuers: "issuers", held: "securities held", newsTracked: "news items tracked", nextReports: "next issuer reports",
       searchNow: "↻ Search for new reports and news now", autoWeekly: "Runs automatically every Monday (free, no AI). Last run:", notYet: "not yet",
@@ -39,7 +39,7 @@
       generated: "Public sources only; figures as published by the issuers. Generated",
     },
     lt: {
-      overview: "Apžvalga", esg: "ESG", email: "Laiškas", news: "Naujienos", securities: "Vertybiniai popieriai", isin: "ISIN sąrašas", tools: "Analizės įrankiai", about: "Kaip veikia",
+      overview: "Apžvalga", dd: "DD", esg: "ESG", email: "Laiškas", news: "Naujienos", securities: "Vertybiniai popieriai", isin: "ISIN sąrašas", tools: "Analizės įrankiai", about: "Kaip veikia",
       heroTitle: "Emitentų apžvalga", heroSub: "Automatinės, šaltiniais pagrįstos turimų obligacijų ir akcijų emitentų apžvalgos – tik vieši duomenys, vienas šablonas visiems.",
       issuers: "emitentai", held: "turimi VP", newsTracked: "sekamos naujienos", nextReports: "artimiausios ataskaitos",
       searchNow: "↻ Ieškoti naujų ataskaitų ir naujienų dabar", autoWeekly: "Automatiškai kiekvieną pirmadienį (nemokamai, be AI). Paskutinė paieška:", notYet: "dar nevykdyta",
@@ -901,6 +901,7 @@
       S(lt ? "Turimi VP be analizės" : "Held securities without analysis", "be analizes nauji emitentai without analysis new issuers", "#securities/noan", "ai"),
       S(lt ? "Rodiklių palyginimas" : "Metric comparison", "palyginimas rodikliai comparison metrics tools", "#tools", "code")
     ];
+    out.push(S(lt ? "Due Diligence – naujas instrumentas" : "Due Diligence – new instrument", "dd due diligence naujas instrumentas emisija pirkimas sfdr apskaita new issue accounting", "#dd", "ai"));
     JOBS.forEach(j => out.push(S(L(j.t), j.kw, `#tools/x/job-${j.id}`, j.kind, [], lt ? "instrukcija" : "how-to")));
     D.issuers.forEach(i => out.push(S(i.name, `${i.legal_name} ${i.country} ${i.sector} ${i.id}`, `#issuer/${i.id}`, "", [], `${i.country} · ${lt ? "apžvalga" : "review"}`)));
     g.rows.forEach(r => out.push(S(`${r.name} · ESG`, `esg ${r.id}`, `#esg/${r.id}`, "", [], (g.labels.engage || {})[r.engagement.level] || "")));
@@ -936,9 +937,79 @@
     addEventListener("keydown", e => { if (e.key === "/" && !/INPUT|TEXTAREA/.test(document.activeElement.tagName) && !document.activeElement.isContentEditable) { e.preventDefault(); inp.focus(); } });
   }
 
+  /* ---------- Due Diligence: pasiruošimas (DD dokumentas rašomas Claude projekte, į viešą repo nekeliamas) ---------- */
+  const DX = {
+    en: { title: "Due Diligence", sub: "Preparation for a new instrument (existing or new issuer). Claude writes the DD in English as a Word file in the project files – it is never published here, because term sheets and broker emails are not public.",
+      inst: "New instrument", isin: "ISIN", iss: "Issuer", newIss: "– new issuer (not in the tool) –", newName: "Issuer name", green: "Green bond?", gY: "yes (green / EuGB framework)", gN: "no", gU: "not sure",
+      typ: "Type", bond: "Bond", share: "Share", rank: "Ranking (if known)", rankPh: "e.g. senior preferred, SNP, subordinated",
+      paste: "What to paste after the prompt", pasteL: ["Term sheet: amount, coupon, maturity, call dates, ranking, covenants, listing, arrangers", "Broker / bank email or offer (e.g. IPT, timetable, minimum order)", "Comparables from the FI team call (other bonds of similar issuers)", "Use of proceeds / green framework, if a green bond", "Anything else you know: why we look at it, planned amount"],
+      pub: "Public data the tool already has", noPub: "A new issuer – Claude will collect the public data (reports, ratings, sanctions, media) itself.",
+      analysis: "Latest review", esgL: "ESG", targets: "own sustainability targets", noEsg: "no ESG review yet", heldL: "Already held",
+      acc: "Fund accounting table (preliminary)", accNote: "Preliminary – from the tool's data and the SFDR rule; Claude confirms it from the term sheet in the DD.",
+      aType: "Type", aSub: "Subtype", aRat: "Credit rating", aIg: "IG / HY", aSfdr: "SFDR", aCty: "Country / sector",
+      corp: "Corporate", fin: "Financial", fromTs: "from the term sheet", issR: "issuer rating; the issue rating comes from the term sheet", ig: "Investment grade", hy: "High yield", nr: "Not rated – check",
+      sfdr9: "9 – green bond", sfdr8: "8 – issuer has sustainability targets", sfdr6: "6 – no sustainability targets found (check)", sfdrQ: "depends on the green status",
+      prompt: "Prompt for Claude", rule: "SFDR rule: green bond = 9; not green but the issuer has sustainability targets = 8; a fully unsustainable company = 6." },
+    lt: { title: "Due Diligence", sub: "Pasiruošimas naujam instrumentui (esamo ar naujo emitento). Claude parašo DD anglų kalba Word faile projekto failuose – čia jis niekada neskelbiamas, nes term sheet ir brokerių laiškai nėra vieši.",
+      inst: "Naujas instrumentas", isin: "ISIN", iss: "Emitentas", newIss: "– naujas emitentas (įrankyje nėra) –", newName: "Emitento pavadinimas", green: "Žalioji obligacija?", gY: "taip (žalioji / EuGB sistema)", gN: "ne", gU: "nežinau",
+      typ: "Tipas", bond: "Obligacija", share: "Akcija", rank: "Rangas (jei žinomas)", rankPh: "pvz. senior preferred, SNP, subordinuota",
+      paste: "Ką įklijuoti po užklausa", pasteL: ["Term sheet: suma, kuponas, išpirkimas, call datos, rangas, įsipareigojimai (covenants), listingas, organizatoriai", "Brokerio / banko laiškas ar pasiūlymas (pvz. IPT, grafikas, minimali suma)", "Palyginamieji iš FI komandos skambučio (panašių emitentų obligacijos)", "Lėšų panaudojimas / žaliųjų obligacijų sistema, jei žalioji", "Kita, ką žinote: kodėl svarstome, planuojama suma"],
+      pub: "Vieši duomenys, kuriuos įrankis jau turi", noPub: "Naujas emitentas – viešus duomenis (ataskaitas, reitingus, sankcijas, žiniasklaidą) Claude surinks pats.",
+      analysis: "Naujausia apžvalga", esgL: "ESG", targets: "savi tvarumo tikslai", noEsg: "ESG apžvalgos dar nėra", heldL: "Jau turime",
+      acc: "Fondų apskaitos lentelė (preliminari)", accNote: "Preliminari – iš įrankio duomenų ir SFDR taisyklės; Claude patvirtins pagal term sheet DD dokumente.",
+      aType: "Tipas", aSub: "Potipis", aRat: "Kredito reitingas", aIg: "IG / HY", aSfdr: "SFDR", aCty: "Šalis / sektorius",
+      corp: "Įmonių (Corporate)", fin: "Finansų (Financial)", fromTs: "pagal term sheet", issR: "emitento reitingas; emisijos reitingas – pagal term sheet", ig: "Investicinis (IG)", hy: "Spekuliatyvus (HY)", nr: "Be reitingo – patikrinti",
+      sfdr9: "9 – žalioji obligacija", sfdr8: "8 – emitentas turi tvarumo tikslų", sfdr6: "6 – tvarumo tikslų nerasta (patikrinti)", sfdrQ: "priklauso nuo to, ar žalioji",
+      prompt: "Užklausa Claude", rule: "SFDR taisyklė: žalioji obligacija = 9; ne žalioji, bet emitentas turi tvarumo tikslų = 8; visiškai netvari įmonė = 6." }
+  };
+  const dx = k => (DX[LANG] || DX.en)[k];
+  let DF = { isin: "", iss: "", name: "", green: "", type: "bond", rank: "" };
+  function ddPage() {
+    setTimeout(initDd);
+    const opt = (v, l, cur) => `<option value="${esc(v)}"${v === cur ? " selected" : ""}>${esc(l)}</option>`;
+    return `<h1>${dx("title")}</h1><p class="sub">${dx("sub")}</p>${jobHow("dd")}
+      <div class="two"><div class="card ddform"><h3>${dx("inst")}</h3>
+        <label class="fl">${dx("isin")} <input id="dIsin" value="${esc(DF.isin)}" placeholder="LT0000… / XS…" maxlength="12"></label>
+        <label class="fl">${dx("iss")} <select id="dIss">${opt("", dx("newIss"), DF.iss)}${D.issuers.slice().sort((a, b) => a.name.localeCompare(b.name)).map(i => opt(i.id, i.name, DF.iss)).join("")}</select></label>
+        <label class="fl" id="dNameL"${DF.iss ? " hidden" : ""}>${dx("newName")} <input id="dName" value="${esc(DF.name)}"></label>
+        <label class="fl">${dx("typ")} <select id="dType">${opt("bond", dx("bond"), DF.type)}${opt("share", dx("share"), DF.type)}</select></label>
+        <label class="fl">${dx("green")} <select id="dGreen">${opt("", dx("gU"), DF.green)}${opt("yes", dx("gY"), DF.green)}${opt("no", dx("gN"), DF.green)}</select></label>
+        <label class="fl">${dx("rank")} <input id="dRank" value="${esc(DF.rank)}" placeholder="${esc(dx("rankPh"))}"></label>
+        <h4>${dx("paste")}</h4><ul class="b small">${dx("pasteL").map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>
+      <div id="dOut"></div></div>`;
+  }
+  function ddOut() {
+    const i = byId[DF.iss], gr = GD().rows.find(r => r.id === DF.iss), name = i ? i.name : DF.name;
+    const rt = i ? i.ratings || [] : [], ig = rt.length ? (rt.every(r => IG.test(r.grade)) ? dx("ig") : rt.some(r => IG.test(r.grade)) ? dx("ig") + " / " + dx("hy") : dx("hy")) : dx("nr");
+    const hasT = gr && gr.targets.length;
+    const sfdr = DF.type === "share" ? (hasT ? dx("sfdr8") : gr ? dx("sfdr6") : "–") : DF.green === "yes" ? dx("sfdr9") : !DF.green ? dx("sfdrQ") : hasT ? dx("sfdr8") : gr ? dx("sfdr6") : "–";
+    const fin = i && /bank|financ|leasing|lend|insur/i.test(i.sector);
+    const held = i ? D.securities.filter(s => s.issuer === i.id && s.held === "yes" && s.status === "active") : [];
+    const pub = i ? `<div class="kv"><span>${dx("aCty")}</span><b>${esc(i.country)} · ${esc(i.sector)}</b><span>${t("rating")}</span><b>${ratingBadges(i)}</b>
+        <span>${dx("analysis")}</span><b><a href="#issuer/${i.id}">${esc(i.period)} · ${esc(i.analysis_date)}</a></b>
+        <span>${dx("esgL")}</span><b>${gr ? `<a href="#esg/${gr.id}">${esc((GD().labels.engage || {})[gr.engagement.level] || gr.engagement.level)}</a> · ${gr.targets.length} ${dx("targets")}` : dx("noEsg")}</b>
+        <span>${dx("heldL")}</span><b>${held.map(s => esc(s.isin) + leaf(s)).join(", ") || "–"}</b></div>${T(i).verdict ? `<div class="verdict sm v-${i.verdict || "ok"}">${T(i).verdict}</div>` : ""}` : `<p class="muted">${dx("noPub")}</p>`;
+    const acc = [[dx("aType"), DF.type === "share" ? dx("share") : dx("bond")], [dx("aSub"), (fin ? dx("fin") : dx("corp")) + (DF.rank ? " · " + DF.rank : "")],
+      [dx("aRat"), (rt.map(r => `${r.agency} ${r.grade}${r.scope ? ` (${r.scope})` : ""}`).join(", ") || dx("nr")) + (DF.type === "bond" ? ` <span class="muted small">${dx("issR")}</span>` : "")], [dx("aIg"), ig], [dx("aSfdr"), sfdr]];
+    const lt = LANG === "lt", gtxt = { yes: lt ? "taip" : "yes", no: lt ? "ne" : "no", "": lt ? "nežinau" : "not sure" }[DF.green];
+    const p = lt ? `Atlik Due Diligence naujam instrumentui (Word, anglų kalba; į viešą repo nekelk).\nISIN: ${DF.isin || "[ISIN]"}\nEmitentas: ${name || "[emitentas]"}${i ? ` (įrankyje: ${i.id})` : " (naujas emitentas)"}\nTipas: ${DF.type === "share" ? "akcija" : "obligacija"}${DF.rank ? ", " + DF.rank : ""}\nŽalioji: ${gtxt}\nInformacija (term sheet, brokerio laiškas, IPT, palyginamieji):\n[įklijuokite tekstą]`
+      : `Do a Due Diligence for a new instrument (Word, English; do not put it in the public repo).\nISIN: ${DF.isin || "[ISIN]"}\nIssuer: ${name || "[issuer]"}${i ? ` (in the tool: ${i.id})` : " (new issuer)"}\nType: ${DF.type}${DF.rank ? ", " + DF.rank : ""}\nGreen: ${gtxt}\nInformation (term sheet, broker email, IPT, comparables):\n[paste the text]`;
+    return `<div class="card"><h3>${dx("pub")}</h3>${pub}</div>
+      <div class="card" style="margin-top:12px"><h3>${dx("acc")}</h3><div class="tbl-wrap"><table>${acc.map(([a, b]) => `<tr><th>${a}</th><td>${b}</td></tr>`).join("")}</table></div><p class="muted small">${dx("accNote")} ${dx("rule")}</p></div>
+      <div class="card" style="margin-top:12px"><h3>${dx("prompt")} ${kindTag("ai")}</h3><div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div></div>`;
+  }
+  function initDd() {
+    const $ = id => document.getElementById(id); if (!$("dOut")) return;
+    const upd = () => { DF = { isin: $("dIsin").value.trim().toUpperCase(), iss: $("dIss").value, name: $("dName").value.trim(), green: $("dGreen").value, type: $("dType").value, rank: $("dRank").value.trim() };
+      if (!DF.iss && DF.isin) { const s = D.securities.find(x => x.isin === DF.isin && x.issuer); if (s) { DF.iss = s.issuer; $("dIss").value = s.issuer; } }
+      $("dNameL").hidden = !!DF.iss; $("dOut").innerHTML = ddOut(); };
+    ["dIsin", "dName", "dRank"].forEach(id => $(id).oninput = upd); ["dIss", "dGreen", "dType"].forEach(id => $(id).onchange = upd);
+    upd();
+  }
+
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
-    const map = { overview, email: emailPage, esg: () => esgPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
+    const map = { overview, email: emailPage, esg: () => esgPage(arg), dd: ddPage, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
     document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = k === "esg" ? "ESG" : t(k); a.classList.toggle("on", k === page || (page === "issuer" && k === "overview")); });
     document.querySelector(".brand").textContent = t("heroTitle");
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
