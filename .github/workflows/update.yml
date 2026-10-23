@@ -5,7 +5,7 @@ name: Update issuers data
 # Pakeitus ataskaitą ar sąrašus (reports/, config/, data/history/, site/, tools/) - tik persigeneruoja failai ir svetainė.
 on:
   schedule:
-    - cron: "17 5 * * 1"
+    - cron: "17 5 * * *"
   workflow_dispatch:
   push:
     branches: [main]

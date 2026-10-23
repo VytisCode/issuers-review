@@ -13,7 +13,7 @@
       overview: "Overview", dd: "DD", esg: "ESG", email: "Email", news: "News", securities: "Securities", isin: "ISIN list", tools: "Analysis tools", about: "How it works",
       heroTitle: "Issuers review", heroSub: "Automated, sourced reviews of the companies behind our bonds and shares – public data only, one template for every issuer.",
       issuers: "issuers", held: "securities held", newsTracked: "news items tracked", nextReports: "next issuer reports",
-      searchNow: "↻ Search for new reports and news now", autoWeekly: "Runs automatically every Monday (free, no AI). Last run:", notYet: "not yet",
+      searchNow: "↻ Search for new reports and news now", autoWeekly: "Runs automatically every morning (free, no AI). Last run:", notYet: "not yet",
       country: "Country / sector", rating: "Rating", lastAnalysis: "Latest analysis", nextReport: "Next report", instruments: "Instruments",
       newReport: "New report – analysis needed", toReview: "news to review (30 d.)", matured: "matured – remove", within12: "mature within 12 m", esgReview: "ESG items to review",
       nothingNew: "No new events", open: "Open review", back: "← Issuers", todoNav: "To do", issuersNav: "Issuers", moreNav: "More", edit: "✎ Edit report", requestAnalysis: "✦ Request new analysis", issuerReports: "Issuer reports ↗",
@@ -42,7 +42,7 @@
       overview: "Apžvalga", dd: "DD", esg: "ESG", email: "Laiškas", news: "Naujienos", securities: "Vertybiniai popieriai", isin: "ISIN sąrašas", tools: "Analizės įrankiai", about: "Kaip veikia",
       heroTitle: "Emitentų apžvalga", heroSub: "Automatinės, šaltiniais pagrįstos turimų obligacijų ir akcijų emitentų apžvalgos – tik vieši duomenys, vienas šablonas visiems.",
       issuers: "emitentai", held: "turimi VP", newsTracked: "sekamos naujienos", nextReports: "artimiausios ataskaitos",
-      searchNow: "↻ Ieškoti naujų ataskaitų ir naujienų dabar", autoWeekly: "Automatiškai kiekvieną pirmadienį (nemokamai, be AI). Paskutinė paieška:", notYet: "dar nevykdyta",
+      searchNow: "↻ Ieškoti naujų ataskaitų ir naujienų dabar", autoWeekly: "Automatiškai kiekvieną rytą (nemokamai, be AI). Paskutinė paieška:", notYet: "dar nevykdyta",
       country: "Šalis / sektorius", rating: "Reitingas", lastAnalysis: "Paskutinė analizė", nextReport: "Kita ataskaita", instruments: "Priemonės",
       newReport: "Nauja ataskaita – reikia analizės", toReview: "naujienos peržiūrai (30 d.)", matured: "išpirkta – išimti", within12: "išperkama per 12 mėn.", esgReview: "ESG punktai peržiūrai",
       nothingNew: "Naujų įvykių nėra", open: "Atidaryti", back: "← Emitentai", todoNav: "Darbai", issuersNav: "Emitentai", moreNav: "Daugiau", edit: "✎ Taisyti ataskaitą", requestAnalysis: "✦ Paprašyti naujos analizės", issuerReports: "Emitento ataskaitos ↗",
@@ -283,21 +283,21 @@
   /* ---------- Darbai: „Ką daryti dabar“ – tik tai, ką reikia padaryti, su vienu mygtuku ---------- */
   const HX = {
     en: { title: "What to do now", sub: "Only the jobs that need you. Each has one button.", none: "✓ Nothing to do right now.",
-      newRep: n => `${n} issuer(s) published new reports`, newRepD: "Copy the prompt and paste it into the Claude project chat. Claude updates the reviews and replies when they are ready.", which: "Which ones?",
+      newRep: n => `${n} issuer(s) published new reports`, newRepD: "Copy the prompt and paste it into the Claude project chat. Claude updates the reviews and replies when they are ready.", which: "Which ones?", ready: (a, n) => `${a} of ${n} issuers have published the latest report – the more, the better value from one run.`,
       noAn: n => `${n} held securities have no analysis yet`, bad: n => `${n} ISIN(s) look invalid – fix them in the list`, badD: "The format or check digit does not match – most likely a typo.", noAnD: "New issuers from the ISIN list.", noAnP: "Analyse the new issuers whose securities we hold but have no review yet.",
       mat: n => `${n} held bonds have matured – remove them from the list`, matD: "Securities page → Remove.",
       news: n => `${n} news items to check (30 days)`, newsD: "Headlines that may matter to an investor (deals, regulators, management).",
       esg: n => `${n} issuer(s) need an ESG letter`, esgD: "Open the issuer, read “What is wrong”, download the email and send it from Outlook.",
       soon: "Coming up (60 days)", next: "Next", nextD: "Expected issuer reports:", search: "Last search for new reports and news:", searchP: "Search for new reports and news now.", searchB: "🔎 Search now (copy prompt)", gh: "or start it in GitHub",
-      auto: "The search also runs by itself every Monday.", allJobs: "All jobs and instructions →", go: "Open →" },
+      auto: "The search also runs by itself every morning.", allJobs: "All jobs and instructions →", go: "Open →" },
     lt: { title: "Ką daryti dabar", sub: "Tik darbai, kuriems reikia jūsų. Prie kiekvieno – vienas mygtukas.", none: "✓ Šiuo metu nieko daryti nereikia.",
-      newRep: n => `${n} ${pl(n, "emitentas paskelbė", "emitentai paskelbė", "emitentų paskelbė")} naujas ataskaitas`, newRepD: "Nukopijuokite užklausą ir įklijuokite Claude projekto pokalbyje. Claude atnaujins apžvalgas ir atsakys, kai bus paruošta.", which: "Kurie?",
+      newRep: n => `${n} ${pl(n, "emitentas paskelbė", "emitentai paskelbė", "emitentų paskelbė")} naujas ataskaitas`, newRepD: "Nukopijuokite užklausą ir įklijuokite Claude projekto pokalbyje. Claude atnaujins apžvalgas ir atsakys, kai bus paruošta.", which: "Kurie?", ready: (a, n) => `Naujausią ataskaitą jau paskelbė ${a} iš ${n} emitentų – kuo daugiau, tuo naudingiau leisti vieną kartą.`,
       noAn: n => `${n} ${pl(n, "turimas VP", "turimi VP", "turimų VP")} dar be analizės`, bad: n => `${n} ${pl(n, "ISIN atrodo neteisingas", "ISIN atrodo neteisingi", "ISIN atrodo neteisingų")} – pataisykite sąraše`, badD: "Netinka ISIN formatas arba kontrolinis skaitmuo – greičiausiai klaida perrašant.", noAnD: "Nauji emitentai iš ISIN sąrašo.", noAnP: "Išanalizuok naujus emitentus, kurių VP turime, bet apžvalgos dar nėra.",
       mat: n => `${n} ${pl(n, "turima obligacija išpirkta", "turimos obligacijos išpirktos", "turimų obligacijų išpirkta")} – pašalinkite iš sąrašo`, matD: "Vertybiniai popieriai → Pašalinti.",
       news: n => `${n} ${pl(n, "naujiena", "naujienos", "naujienų")} patikrinti (30 d.)`, newsD: "Antraštės, kurios gali rūpėti investuotojui (sandoriai, priežiūros institucijos, vadovai).",
       esg: n => `${n} ${pl(n, "emitentui", "emitentams", "emitentų")} siūloma parašyti ESG laišką`, esgD: "Atidarykite emitentą, perskaitykite „Kas negerai“, atsisiųskite laišką ir išsiųskite iš Outlook.",
       soon: "Artėja (60 d.)", next: "Kas toliau", nextD: "Laukiamos emitentų ataskaitos:", search: "Paskutinė naujų ataskaitų ir naujienų paieška:", searchP: "Paieškok naujų ataskaitų ir naujienų dabar.", searchB: "🔎 Ieškoti dabar (kopijuoti užklausą)", gh: "arba paleisti GitHub",
-      auto: "Paieška ir taip vyksta pati kiekvieną pirmadienį.", allJobs: "Visi darbai ir instrukcijos →", go: "Atidaryti →" }
+      auto: "Paieška ir taip vyksta pati kiekvieną rytą.", allJobs: "Visi darbai ir instrukcijos →", go: "Atidaryti →" }
   };
   const hx = k => (HX[LANG] || HX.en)[k];
   const pl = (n, a, b, c) => { const m = n % 10, h = n % 100; return m === 1 && h !== 11 ? a : m >= 2 && (h < 10 || h > 20) ? b : c; };
@@ -311,12 +311,13 @@
     const it = [], card = (k, title, desc, act, links) => it.push(`<li class="todo k-${k}"><span class="kd ${k}"></span><div class="tb"><b>${title}</b> ${kindTag(k)}<p class="muted">${desc}</p>
       ${links && links.length ? `<div class="qsub">${links.map(([l, h]) => `<a href="${h}">${esc(l)}</a>`).join("")}</div>` : ""}</div><div class="ta">${act}</div></li>`);
     const newIds = [...new Set([...D.issuers.filter(i => i.new_filings.length).map(i => i.id), ...R.rows.filter(r => ["published", "maybe"].includes(r.status)).map(r => r.id)])];
-    if (newIds.length) card("ai", hx("newRep")(newIds.length), hx("newRepD"), promptBtn(L(JOBS[0].prompt)({})), newIds.map(id => [(byId[id] || {}).name || id, `#issuer/${id}`]));
+    if (newIds.length) card("ai", hx("newRep")(newIds.length), `${hx("newRepD")} ${hx("ready")(R.rows.filter(r => ["done", "published", "maybe"].includes(r.status)).length, R.rows.length)}`, promptBtn(L(JOBS[0].prompt)({})), newIds.map(id => [(byId[id] || {}).name || id, `#issuer/${id}`]));
     const noAll = D.securities.filter(s => s.held === "yes" && s.status === "active" && (!s.issuer || !byId[s.issuer] || !byId[s.issuer].files.length));
     const bad = noAll.filter(s => !ISIN_OK(s.isin)), noAn = noAll.filter(s => ISIN_OK(s.isin));
     if (bad.length) card("you", hx("bad")(bad.length), hx("badD"), `<a class="btn" href="#securities">${hx("go")}</a>`, bad.map(s => [s.isin, "#securities"]));
     if (noAn.length) card("ai", hx("noAn")(noAn.length), hx("noAnD"), promptBtn(hx("noAnP")), noAn.slice(0, 8).map(s => [s.isin, "#securities/noan"]));
-    const mat = D.securities.filter(s => s.held === "yes" && s.status === "matured");
+    // Išpirktos paliekamos, kol emitentas turi kitų neišpirktų turimų VP (savininko sprendimas 2026-10-23)
+    const mat = D.securities.filter(s => s.held === "yes" && s.status === "matured" && !D.securities.some(x => x.issuer === s.issuer && x.held === "yes" && x.status === "active"));
     if (mat.length) card("you", hx("mat")(mat.length), hx("matD"), `<a class="btn" href="#securities">${hx("go")}</a>`, mat.map(s => [s.isin + " · " + ((byId[s.issuer] || {}).name || ""), "#securities"]));
     const nw = D.news.filter(n => n.flag === "review" && n.date && days(n.date) >= -30);
     if (nw.length) card("you", hx("news")(nw.length), hx("newsD"), `<a class="btn" href="#news">${hx("go")}</a>`, [...new Set(nw.map(n => n.issuer))].map(id => [(byId[id] || {}).name || id, `#news/${id}`]));
@@ -643,11 +644,11 @@
   function about() {
     const en = LANG === "en";
     const steps = en
-      ? [["1", "Collect (free)", "The ISIN list is read every morning and when you press the search button; news (Google News, local languages), issuer report pages and sanctions lists are scanned every Monday and on the button. No AI, no cost."],
+      ? [["1", "Collect (free)", "The ISIN list is read every morning and when you press the search button; news (Google News, local languages), issuer report pages and sanctions lists are scanned every morning and on request. No AI, no cost."],
          ["2", "Flag", "New reports, adverse headlines and matured bonds are flagged on the overview."],
          ["3", "Analyse (on request)", "Claude reads the new report and fills the fixed template: ratios with page-level sources, summary, plans vs outcomes, investor conclusions, ESG report."],
          ["4", "Review & publish", "The analyst edits text or Word file, completes sanctions and adverse media checks; Word, PDF and Excel rebuild automatically."]]
-      : [["1", "Rinkimas (nemokamai)", "ISIN sąrašas nuskaitomas kas rytą ir paspaudus paieškos mygtuką; naujienos (Google News, vietos kalbomis), emitentų ataskaitų puslapiai ir sankcijų sąrašai tikrinami kiekvieną pirmadienį ir paspaudus mygtuką. Be AI, nemokamai."],
+      : [["1", "Rinkimas (nemokamai)", "ISIN sąrašas nuskaitomas kas rytą ir paspaudus paieškos mygtuką; naujienos (Google News, vietos kalbomis), emitentų ataskaitų puslapiai ir sankcijų sąrašai tikrinami kiekvieną rytą ir paprašius. Be AI, nemokamai."],
          ["2", "Žymėjimas", "Naujos ataskaitos, neigiamos antraštės ir išpirktos obligacijos pažymimos apžvalgoje."],
          ["3", "Analizė (paprašius)", "Claude perskaito naują ataskaitą ir užpildo šabloną: rodikliai su nuorodomis į puslapius, santrauka, planai ir rezultatai, išvados investuotojui, ESG report."],
          ["4", "Peržiūra ir publikavimas", "Analitikas taiso tekstą ar Word failą, atlieka sankcijų ir žiniasklaidos patikras; Word, PDF ir Excel persigeneruoja automatiškai."]];
@@ -851,8 +852,8 @@
     { id: "review", kind: "ai", kw: "atnaujinti apžvalgas analizė ketvirtis naujos ataskaitos generuoti update reviews quarterly analyse",
       t: { lt: "Atnaujinti apžvalgas po naujų ataskaitų", en: "Update the reviews after new reports" },
       when: { lt: "kartą per ketvirtį arba kai kortelė „Naujos ataskaitos“ rodo, kad metas generuoti.", en: "once a quarter, or when the “New reports” card says it is a good time." },
-      steps: { lt: ["you: <a href=\"#securities\">Vertybiniai popieriai</a> – atnaujinkite ISIN sąrašą.", "ai: <a href=\"#overview\">Darbai</a> → „Ieškoti dabar“ – nukopijuokite užklausą Claude (arba palaukite pirmadienio).", "code: Puslapyje <a href=\"#issuers/x/ready\">Emitentai → Naujos ataskaitos</a> patikrinkite, ar dauguma emitentų jau paskelbė.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte. Nortal ataskaitą prisekite kartu.", "code: Kai Claude atsakys – Word / PDF kortelėse, laiškas kolegoms <a href=\"#email\">Laiškas</a> puslapyje."],
-        en: ["you: <a href=\"#securities\">Securities</a> – update the ISIN list.", "ai: <a href=\"#overview\">To do</a> → “Search now” – copy the prompt to Claude (or wait for Monday).", "code: On <a href=\"#issuers/x/ready\">Issuers → New reports</a> check that most issuers have published.", "ai: Copy the prompt and paste it into the Claude project. Attach the Nortal report.", "code: When Claude replies – Word / PDF on the cards, email to colleagues on the <a href=\"#email\">Email</a> page."] },
+      steps: { lt: ["you: <a href=\"#securities\">Vertybiniai popieriai</a> – atnaujinkite ISIN sąrašą.", "ai: <a href=\"#overview\">Darbai</a> → „Ieškoti dabar“ – nukopijuokite užklausą Claude (arba palaukite ryto).", "code: Puslapyje <a href=\"#issuers/x/ready\">Emitentai → Naujos ataskaitos</a> patikrinkite, ar dauguma emitentų jau paskelbė.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte. Nortal ataskaitą prisekite kartu.", "code: Kai Claude atsakys – Word / PDF kortelėse, laiškas kolegoms <a href=\"#email\">Laiškas</a> puslapyje."],
+        en: ["you: <a href=\"#securities\">Securities</a> – update the ISIN list.", "ai: <a href=\"#overview\">To do</a> → “Search now” – copy the prompt to Claude (or wait for the next morning).", "code: On <a href=\"#issuers/x/ready\">Issuers → New reports</a> check that most issuers have published.", "ai: Copy the prompt and paste it into the Claude project. Attach the Nortal report.", "code: When Claude replies – Word / PDF on the cards, email to colleagues on the <a href=\"#email\">Email</a> page."] },
       prompt: { lt: () => "Išanalizuok visas naujas ataskaitas.", en: () => "Analyse all new reports." } },
     { id: "one", kind: "ai", kw: "vienas emitentas analizė atnaujinti apžvalgą one issuer analysis",
       t: { lt: "Atnaujinti vieno emitento apžvalgą", en: "Update one issuer's review" },
@@ -865,7 +866,7 @@
       steps: { lt: ["you: <a href=\"#securities\">Vertybiniai popieriai</a> → „Pridėti“ naujus ISIN, „Pašalinti“ parduotus (arba apačioje pakeiskite visą sąrašą).", "code: Sąrašas išsaugomas iškart; nauji emitentai ir išpirktos obligacijos pažymimi kitą rytą arba po paieškos.", "ai: Naujam emitentui reikės analizės – žr. „Atnaujinti apžvalgas“."], en: ["you: <a href=\"#securities\">Securities</a> → “Add” new ISINs, “Remove” sold ones (or replace the whole list at the bottom).", "code: The list is saved at once; new issuers and matured bonds are flagged next morning or after a search.", "ai: A new issuer needs an analysis – see “Update the reviews”."] } },
     { id: "search", kind: "ai", kw: "paieška paieskok naujos ataskaitos naujienos sankcijos workflow mygtukas search new reports news sanctions",
       t: { lt: "Ieškoti naujų ataskaitų ir naujienų", en: "Search for new reports and news" },
-      when: { lt: "vyksta pati kiekvieną pirmadienį; rankiniu būdu – prieš analizę.", en: "runs by itself every Monday; by hand before an analysis." },
+      when: { lt: "vyksta pati kiekvieną rytą; rankiniu būdu – jei reikia skubiai.", en: "runs by itself every morning; by hand if urgent." },
       steps: { lt: ["ai: <a href=\"#overview\">Darbai</a> → „Ieškoti dabar“ → įklijuokite Claude. Claude paleis paiešką (nemokamai, be AI) ir praneš, ką rado.", "code: Po 3–5 min. puslapyje „Darbai“ atsiras nauji darbai.", "you: Jei norite be Claude: „arba paleisti GitHub“ → „Run workflow“ → žalias „Run workflow“."],
         en: ["ai: <a href=\"#overview\">To do</a> → “Search now” → paste to Claude. Claude starts the search (free, no AI) and tells you what it found.", "code: After 3–5 min new jobs appear on the “To do” page.", "you: Without Claude: “or start it in GitHub” → “Run workflow” → green “Run workflow”."] },
       prompt: { lt: () => "Paieškok naujų ataskaitų ir naujienų dabar.", en: () => "Search for new reports and news now." } },

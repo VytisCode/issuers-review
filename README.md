@@ -7,7 +7,7 @@ pildo vienodą ataskaitos šabloną su šaltiniais ir rodo viską dashboard'e.
 - **Ataskaitos:** `reports/<emitentas>/<laikotarpis>.yaml` – tekstas (taisomas GitHub'e); Word / PDF / Excel generuojami į `docs/files/`.
 - **Rodiklių istorija:** `data/history/<emitentas>.csv` – kiekvienas skaičius su šaltiniu ir puslapiu.
 - **Sąrašai:** `config/issuers.yaml` (emitentai), `config/securities.csv` (ISIN, kuponai, išpirkimo datos), `config/seb_policies.yaml` (SEB politikų santrauka ir ESG klausimynas).
-- **Automatika (nemokama):** `.github/workflows/update.yml` – kas pirmadienį naujienos (`tools/fetch_news.py`) ir naujų ataskaitų paieška (`tools/check_filings.py`), be AI.
+- **Automatika (nemokama):** `.github/workflows/update.yml` – kas rytą naujienos (`tools/fetch_news.py`) ir naujų ataskaitų paieška (`tools/check_filings.py`), be AI.
 - **AI analizė:** paprašykite Claude projekte arba dashboard mygtuku (žr. žemiau).
 
 ## Ką reikia įjungti vieną kartą
