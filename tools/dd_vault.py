@@ -87,10 +87,23 @@ def add(path, meta, sources=None, record=True):
 
 
 def replace(eid):
-    """Pataisytas DD tuo pačiu keliu: užšifruoja iš naujo su tuo pačiu id (ZIP ir vieta sąraše lieka)."""
-    m = next(m for m in json.loads(MANIFEST.read_text()) if m.get("id") == eid)
-    add_bytes(Path(m["path"]).read_bytes(), {**m["meta"], "type": "dd", "file": Path(m["path"]).name}, eid)
-    print("Atnaujinta:", eid, Path(m["path"]).name)
+    """Pataisytas DD (tas pats failas manifest'e): naujas id (kad naršyklė su sena data.js kopija neimtų naujo failo
+    su senu raktu), senas įrašas pašalinamas, ZIP perkeliamas naujam id per data/dd/zips.json."""
+    man = json.loads(MANIFEST.read_text())
+    m = next(m for m in man if m.get("id") == eid)
+    new = add_bytes(Path(m["path"]).read_bytes(), {**m["meta"], "type": "dd", "file": Path(m["path"]).name})
+    INDEX.write_text(json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != eid], indent=1) + "\n")
+    (DIR / f"{eid}.bin").unlink(missing_ok=True)
+    zf = DIR / "zips.json"
+    zips = json.loads(zf.read_text()) if zf.exists() else {}
+    zf.write_text(json.dumps({z: (new if p == eid else p) for z, p in zips.items()}, indent=1) + "\n")
+    job = DIR / "jobs" / f"{eid}.json"
+    if job.exists():
+        j = json.loads(job.read_text()); j["parent"] = new
+        (DIR / "jobs" / f"{new}.json").write_text(json.dumps(j, ensure_ascii=False, indent=1)); job.unlink()
+    m["id"] = new
+    MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+    print("Atnaujinta:", eid, "->", new, Path(m["path"]).name)
 
 
 def remove(eid):

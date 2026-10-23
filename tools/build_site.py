@@ -262,7 +262,8 @@ def main():
     if (ddir / "key.json").exists():
         jobs = [json.loads(f.read_text()) for f in sorted((ddir / "jobs").glob("*.json"))] if (ddir / "jobs").exists() else []
         out["dd"] = {"key": json.loads((ddir / "key.json").read_text()), "items": json.loads((ddir / "index.json").read_text()),
-                     "pending": [j["parent"] for j in jobs if not j.get("done")]}
+                     "pending": [j["parent"] for j in jobs if not j.get("done")],
+                     "zips": json.loads((ddir / "zips.json").read_text()) if (ddir / "zips.json").exists() else {}}
         (C.DOCS / "dd").mkdir(exist_ok=True)
         for f in ddir.glob("*.bin"):
             shutil.copy2(f, C.DOCS / "dd" / f.name)
