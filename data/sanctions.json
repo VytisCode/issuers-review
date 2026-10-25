@@ -1,6 +1,6 @@
 {
  "ignitis": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -12,7 +12,7 @@
   "excluded": []
  },
  "luminor": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -27,7 +27,7 @@
   ]
  },
  "port-of-tallinn": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -39,7 +39,7 @@
   "excluded": []
  },
  "lhv": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -51,7 +51,7 @@
   "excluded": []
  },
  "latvenergo": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -63,7 +63,7 @@
   "excluded": []
  },
  "artea": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -75,7 +75,7 @@
   "excluded": []
  },
  "citadele": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -87,7 +87,7 @@
   "excluded": []
  },
  "inbank": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -99,7 +99,7 @@
   "excluded": []
  },
  "vik": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -111,7 +111,7 @@
   "excluded": []
  },
  "altum": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -123,7 +123,7 @@
   "excluded": []
  },
  "rigas-udens": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -135,7 +135,7 @@
   "excluded": []
  },
  "ast": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -147,7 +147,7 @@
   "excluded": []
  },
  "aei": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -159,7 +159,7 @@
   "excluded": []
  },
  "latraps": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -171,7 +171,7 @@
   "excluded": []
  },
  "maxima": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -188,7 +188,7 @@
   ]
  },
  "eesti-energia": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -200,7 +200,7 @@
   "excluded": []
  },
  "akropolis": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -212,7 +212,7 @@
   "excluded": []
  },
  "bigbank": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -224,7 +224,7 @@
   "excluded": []
  },
  "coop-pank": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -236,7 +236,7 @@
   "excluded": []
  },
  "hepsor": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
@@ -248,7 +248,7 @@
   "excluded": []
  },
  "nortal": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
