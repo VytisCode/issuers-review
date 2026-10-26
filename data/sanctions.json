@@ -1,10 +1,10 @@
 {
  "ignitis": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -12,11 +12,11 @@
   "excluded": []
  },
  "luminor": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -27,11 +27,11 @@
   ]
  },
  "port-of-tallinn": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -39,11 +39,11 @@
   "excluded": []
  },
  "lhv": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -51,11 +51,11 @@
   "excluded": []
  },
  "latvenergo": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -63,11 +63,11 @@
   "excluded": []
  },
  "artea": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -75,11 +75,11 @@
   "excluded": []
  },
  "citadele": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -87,11 +87,11 @@
   "excluded": []
  },
  "inbank": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -99,11 +99,11 @@
   "excluded": []
  },
  "vik": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -111,11 +111,11 @@
   "excluded": []
  },
  "altum": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -123,11 +123,11 @@
   "excluded": []
  },
  "rigas-udens": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -135,11 +135,11 @@
   "excluded": []
  },
  "ast": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -147,11 +147,11 @@
   "excluded": []
  },
  "aei": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -159,11 +159,11 @@
   "excluded": []
  },
  "latraps": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -171,11 +171,11 @@
   "excluded": []
  },
  "maxima": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -188,11 +188,11 @@
   ]
  },
  "eesti-energia": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -200,11 +200,11 @@
   "excluded": []
  },
  "akropolis": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -212,11 +212,11 @@
   "excluded": []
  },
  "bigbank": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -224,11 +224,11 @@
   "excluded": []
  },
  "coop-pank": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -236,11 +236,11 @@
   "excluded": []
  },
  "hepsor": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
@@ -248,11 +248,11 @@
   "excluded": []
  },
  "nortal": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "lists": {
    "EU": "not_found",
    "UN": "not_found",
-   "UK": "not_found",
+   "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
