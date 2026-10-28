@@ -897,6 +897,11 @@
       when: { lt: "prieš perkant naują obligaciją ar akciją (esamo ar naujo emitento).", en: "before buying a new bond or share (existing or new issuer)." },
       steps: { lt: ["you: Surinkite tekstą: term sheet, brokerio laišką, IPT (galima tik kopijuoti–įklijuoti). Palyginamąsias alternatyvas Claude parenka pats.", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte ir užpildykite [skliaustus].", "ai: Claude parašys DD (Word, dashboard kalba) projekto failuose – ne viešoje svetainėje.", "you: Peržiūrėkite, papildykite sankcijų / žiniasklaidos ekrano kopijomis ir įkelkite į komandos failus.", "code: Atliktus DD rasite DD puslapio apačioje „Atlikti DD“ (užšifruoti, atsidaro su slaptažodžiu)."], en: ["you: Collect the text: term sheet, broker email, IPT (copy-paste is enough). Claude picks the comparable alternatives itself.", "ai: Copy the prompt, paste it into the Claude project and fill in the [brackets].", "ai: Claude writes the DD (Word, dashboard language) in the project files – not on the public site.", "you: Review it, add the sanctions / media screenshots and file it with the team files.", "code: Completed DDs are at the bottom of the DD page, “Completed DDs” (encrypted, open with the password)."] },
       prompt: { lt: f => `Atlik Due Diligence naujam instrumentui (Word, lietuvių kalba).\nISIN: ${f.isin || "[ISIN]"}\nEmitentas: ${f.name || "[emitentas]"}\nInformacija (term sheet, brokerio laiškas, IPT):\n[įklijuokite tekstą]`, en: f => `Do a Due Diligence for a new instrument (Word, English).\nISIN: ${f.isin || "[ISIN]"}\nIssuer: ${f.name || "[issuer]"}\nInformation (term sheet, broker email, IPT):\n[paste the text]` } },
+    { id: "fdd", kind: "ai", kw: "funds dd fondas fondų etf due diligence powerpoint pptx liquid funds šablonas index fund ucits kis alternatyvos",
+      t: { lt: "Fondo / ETF Due Diligence (PowerPoint)", en: "Fund / ETF Due Diligence (PowerPoint)" },
+      when: { lt: "prieš perkant naują ETF ar investicinį fondą.", en: "before buying a new ETF or investment fund." },
+      steps: { lt: ["you: DD puslapyje pasirinkite „Fondas“, įrašykite ISIN, fondą ir valdytoją.", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte. Jei turite – po ja įklijuokite Bloomberg skaičius ir kuriam fondui perkama.", "ai: Claude parengia DD PowerPoint faile pagal SEB „Liquid Funds DD“ šabloną projekto failuose – ne viešoje svetainėje. Alternatyvas parenka pats.", "you: Įdėkite eNameChecker ekrano kopiją, peržiūrėkite ir įkelkite į komandos failus.", "code: Atliktus DD rasite DD puslapio apačioje „Atlikti DD“ (užšifruoti)."], en: ["you: On the DD page choose “Fund”, enter the ISIN, the fund and the manager.", "ai: Copy the prompt and paste it into the Claude project. If you have them, paste the Bloomberg figures and the target fund below it.", "ai: Claude prepares the DD as a PowerPoint following the SEB “Liquid Funds DD” template in the project files – not on the public site. It picks the alternatives itself.", "you: Add the eNameChecker screenshot, review it and file it with the team files.", "code: Completed DDs are at the bottom of the DD page, “Completed DDs” (encrypted)."] },
+      prompt: { lt: f => `Atlik fondo / ETF Due Diligence (PowerPoint pagal SEB Liquid Funds DD šabloną).\nISIN: ${f.isin || "[ISIN]"}\nFondas: ${f.name || "[fondas]"}`, en: f => `Do a fund / ETF Due Diligence (PowerPoint, SEB Liquid Funds DD template).\nISIN: ${f.isin || "[ISIN]"}\nFund: ${f.name || "[fund]"}` } },
     { id: "manual", kind: "you", kw: "nortal slaptažodis portalas įkelti ataskaitą password portal upload",
       t: { lt: "Slaptažodžiu apsaugotos ataskaitos (Nortal)", en: "Password-protected reports (Nortal)" },
       when: { lt: "Nortal paskelbė naują ataskaitą investuotojų portale.", en: "Nortal has published a new report in its investor portal." },
@@ -963,7 +968,8 @@
       S(lt ? "Turimi VP be analizės" : "Held securities without analysis", "be analizes nauji emitentai without analysis new issuers", "#securities/noan", "ai"),
       S(lt ? "Rodiklių palyginimas" : "Metric comparison", "palyginimas rodikliai comparison metrics tools", "#tools", "code")
     ];
-    out.push(S(lt ? "Due Diligence – naujas instrumentas" : "Due Diligence – new instrument", "dd due diligence naujas instrumentas emisija pirkimas sfdr apskaita new issue accounting", "#dd", "ai"));
+    out.push(S(lt ? "Due Diligence – naujas instrumentas" : "Due Diligence – new instrument", "dd due diligence naujas instrumentas emisija pirkimas sfdr apskaita new issue accounting", "#dd/bond", "ai"));
+    out.push(S(lt ? "Funds DD – fondas / ETF (PowerPoint)" : "Funds DD – fund / ETF (PowerPoint)", "funds dd fondas fondų etf due diligence powerpoint pptx liquid funds ucits index fund alternatyvos", "#dd/fund", "ai"));
     JOBS.forEach(j => out.push(S(L(j.t), j.kw, `#tools/x/job-${j.id}`, j.kind, [], lt ? "instrukcija" : "how-to")));
     D.issuers.forEach(i => out.push(S(i.name, `${i.legal_name} ${i.country} ${i.sector} ${i.id}`, `#issuer/${i.id}`, "", [], `${i.country} · ${lt ? "apžvalga" : "review"}`)));
     g.rows.forEach(r => out.push(S(`${r.name} · ESG`, `esg ${r.id}`, `#esg/${r.id}`, "", [], (g.labels.engage || {})[r.engagement.level] || "")));
@@ -1011,7 +1017,7 @@
       aType: "Type", aSub: "Subtype", aRat: "Credit rating", aIg: "IG / HY", aSfdr: "SFDR", aCty: "Country / sector",
       corp: "Corporate", fin: "Financial", fromTs: "from the term sheet", issR: "issuer rating; the issue rating comes from the term sheet", ig: "Investment grade", hy: "High yield", nr: "Not rated – check",
       sfdr9: "9 – green bond", sfdr8: "8 – issuer has sustainability targets", sfdr6: "6 – no sustainability targets found (check)", sfdrQ: "depends on the green status",
-      prompt: "Prompt for Claude", cmp: "Claude picks the comparable alternatives itself from bonds that can be bought now (Nasdaq Baltic quotes, recent new issues of similar issuers).", rule: "SFDR rule: green bond = 9; not green but the issuer has sustainability targets = 8; a fully unsustainable company = 6." },
+      prompt: "Prompt for Claude", cmp: "Claude picks the comparable alternatives itself from bonds that can be bought now (Nasdaq Baltic quotes, recent new issues of similar issuers).", rule: "SFDR rule: green bond = 9; not green but the issuer has sustainability targets = 8; a fully unsustainable company = 6.", kBond: "Bond / share", kFund: "Fund / ETF" },
     lt: { title: "Due Diligence", sub: "Pasiruošimas naujam instrumentui (esamo ar naujo emitento). Claude parašo DD Word faile projekto failuose (kalba – kaip nustatyta dashboard) – čia jis niekada neskelbiamas, nes term sheet ir brokerių laiškai nėra vieši.",
       inst: "Naujas instrumentas", isin: "ISIN", iss: "Emitentas", newIss: "– naujas emitentas (įrankyje nėra) –", newName: "Emitento pavadinimas", green: "Žalioji obligacija?", gY: "taip (žalioji / EuGB sistema)", gN: "ne", gU: "nežinau",
       typ: "Tipas", bond: "Obligacija", share: "Akcija", rank: "Rangas (jei žinomas)", rankPh: "pvz. senior preferred, SNP, subordinuota",
@@ -1022,14 +1028,22 @@
       aType: "Tipas", aSub: "Potipis", aRat: "Kredito reitingas", aIg: "IG / HY", aSfdr: "SFDR", aCty: "Šalis / sektorius",
       corp: "Įmonių (Corporate)", fin: "Finansų (Financial)", fromTs: "pagal term sheet", issR: "emitento reitingas; emisijos reitingas – pagal term sheet", ig: "Investicinis (IG)", hy: "Spekuliatyvus (HY)", nr: "Be reitingo – patikrinti",
       sfdr9: "9 – žalioji obligacija", sfdr8: "8 – emitentas turi tvarumo tikslų", sfdr6: "6 – tvarumo tikslų nerasta (patikrinti)", sfdrQ: "priklauso nuo to, ar žalioji",
-      prompt: "Užklausa Claude", cmp: "Palyginamąsias alternatyvas Claude parenka pats iš šiuo metu įsigyjamų obligacijų (Nasdaq Baltic kotiruotės, naujausios panašių emitentų emisijos).", rule: "SFDR taisyklė: žalioji obligacija = 9; ne žalioji, bet emitentas turi tvarumo tikslų = 8; visiškai netvari įmonė = 6." }
+      prompt: "Užklausa Claude", cmp: "Palyginamąsias alternatyvas Claude parenka pats iš šiuo metu įsigyjamų obligacijų (Nasdaq Baltic kotiruotės, naujausios panašių emitentų emisijos).", rule: "SFDR taisyklė: žalioji obligacija = 9; ne žalioji, bet emitentas turi tvarumo tikslų = 8; visiškai netvari įmonė = 6.", kBond: "Obligacija / akcija", kFund: "Fondas / ETF" }
   };
   const dx = k => (DX[LANG] || DX.en)[k];
   let DF = { isin: "", iss: "", name: "", green: "", type: "bond", rank: "" };
+  let DKIND = "bond"; try { DKIND = localStorage.getItem("ddkind") === "fund" ? "fund" : "bond"; } catch (e) { /* ignore */ }
+  const ddSeg = () => `<div class="row" style="margin:0 0 14px"><span class="seg" id="ddKind">${[["bond", dx("kBond")], ["fund", dx("kFund")]].map(([k, l]) => `<button class="btn sm ${k === DKIND ? "on" : ""}" data-k="${k}">${esc(l)}</button>`).join("")}</span></div>`;
+  document.addEventListener("click", e => {
+    const b = e.target.closest("#ddKind [data-k]"); if (!b) return;
+    DKIND = b.dataset.k; try { localStorage.setItem("ddkind", DKIND); } catch (x) { /* ignore */ }
+    if (location.hash === "#dd/" + DKIND) route(); else location.hash = "#dd/" + DKIND;
+  });
   function ddPage() {
+    if (DKIND === "fund") return fundPage();
     setTimeout(initDd);
     const opt = (v, l, cur) => `<option value="${esc(v)}"${v === cur ? " selected" : ""}>${esc(l)}</option>`;
-    return `<h1>${dx("title")}</h1><p class="sub">${dx("sub")}</p>${jobHow("dd")}
+    return `<h1>${dx("title")}</h1><p class="sub">${dx("sub")}</p>${ddSeg()}${jobHow("dd")}
       <div class="two"><div class="card ddform"><h3>${dx("inst")}</h3>
         <label class="fl">${dx("isin")} <input id="dIsin" value="${esc(DF.isin)}" placeholder="LT0000… / XS…" maxlength="12"></label>
         <label class="fl">${dx("iss")} <select id="dIss">${opt("", dx("newIss"), DF.iss)}${D.issuers.slice().sort((a, b) => a.name.localeCompare(b.name)).map(i => opt(i.id, i.name, DF.iss)).join("")}</select></label>
@@ -1039,6 +1053,43 @@
         <label class="fl">${dx("rank")} <input id="dRank" value="${esc(DF.rank)}" placeholder="${esc(dx("rankPh"))}"></label>
         <h4>${dx("paste")}</h4><ul class="b small">${dx("pasteL").map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="muted small">${dx("cmp")}</p></div>
       <div id="dOut"></div></div>${ddArchive()}`;
+  }
+  /* Fondo / ETF DD: PowerPoint pagal SEB „Liquid Funds DD Template“ (failai tik projekto failuose ir užšifruotame archyve) */
+  const FX = {
+    en: { sub: "Preparation for a new ETF or investment fund. Claude prepares the DD as a PowerPoint (SEB “Liquid Funds DD” template) in the project files – it is never published here.",
+      inst: "Fund", isin: "ISIN", name: "Fund name", mgr: "Fund manager (management company)", tick: "Exchange ticker (if known)", tickPh: "e.g. IS0E GY", tgt: "Which of our funds and planned weight (optional)", tgtPh: "e.g. pension fund X, 2%", why: "Why we look at it (optional)",
+      paste: "What you can paste after the prompt (optional)", pasteL: ["Bloomberg: AUM, bid-ask spread, 90D Avg Volume, 1Y tracking error, =BDP(\"… GY equity\";\"FUND_EURO_DIRECT_UCITS\")", "Our fund's current allocation, if the impact on the portfolio matters", "Anything from the manager or broker (presentation, email)"],
+      auto: "Claude collects itself: prospectus, KID, factsheet, index methodology, SFDR disclosures, performance, alternatives (similar ETFs), OFAC and EU sanctions map checks, media checks.",
+      prompt: "Prompt for Claude" },
+    lt: { sub: "Pasiruošimas naujam ETF ar investiciniam fondui. Claude parengia DD PowerPoint faile (SEB „Liquid Funds DD“ šablonas) projekto failuose – čia jis niekada neskelbiamas.",
+      inst: "Fondas", isin: "ISIN", name: "Fondo pavadinimas", mgr: "Fondo valdytojas (valdymo įmonė)", tick: "Biržos tickeris (jei žinomas)", tickPh: "pvz. IS0E GY", tgt: "Kuriam mūsų fondui ir planuojamas svoris (nebūtina)", tgtPh: "pvz. pensijų fondas X, 2 %", why: "Kodėl svarstome (nebūtina)",
+      paste: "Ką galima įklijuoti po užklausa (nebūtina)", pasteL: ["Bloomberg: AUM, bid-ask spread, 90D Avg Volume, 1Y tracking error, =BDP(\"… GY equity\";\"FUND_EURO_DIRECT_UCITS\")", "Dabartinė mūsų fondo sudėtis, jei svarbus poveikis portfeliui", "Valdytojo ar brokerio medžiaga (prezentacija, laiškas)"],
+      auto: "Claude surenka pats: prospektą, KID, faktų lapą, indekso metodiką, SFDR informaciją, rezultatus, alternatyvas (panašius ETF), OFAC ir ES sankcijų žemėlapio patikras, žiniasklaidos patikrą.",
+      prompt: "Užklausa Claude" }
+  };
+  const fx = k => (FX[LANG] || FX.en)[k];
+  let FF = { isin: "", name: "", mgr: "", tick: "", tgt: "", why: "" };
+  function fundPage() {
+    setTimeout(initFund);
+    const inp = (id, k, ph) => `<label class="fl">${fx(k)} <input id="f_${id}" value="${esc(FF[id])}"${ph ? ` placeholder="${esc(ph)}"` : ""}></label>`;
+    return `<h1>${dx("title")}</h1><p class="sub">${fx("sub")}</p>${ddSeg()}${jobHow("fdd")}
+      <div class="two"><div class="card ddform"><h3>${fx("inst")}</h3>
+        ${inp("isin", "isin", "IE00… / LU…")}${inp("name", "name")}${inp("mgr", "mgr")}${inp("tick", "tick", fx("tickPh"))}${inp("tgt", "tgt", fx("tgtPh"))}${inp("why", "why")}
+        <h4>${fx("paste")}</h4><ul class="b small">${fx("pasteL").map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="muted small">${fx("auto")}</p></div>
+      <div id="fOut"></div></div>${ddArchive()}`;
+  }
+  function fundOut() {
+    const lt = LANG === "lt", v = (x, d) => x || d;
+    const p = lt ? `Atlik fondo / ETF Due Diligence (PowerPoint pagal SEB Liquid Funds DD šabloną; į viešą repo nekelk).\nISIN: ${v(FF.isin, "[ISIN]")}\nFondas: ${v(FF.name, "[fondas]")}\nValdytojas: ${v(FF.mgr, "[valdytojas]")}\nTickeris: ${v(FF.tick, "[nežinau]")}\nKuriam fondui / svoris: ${v(FF.tgt, "[nenurodyta]")}\nKodėl svarstome: ${v(FF.why, "[nenurodyta]")}\nBloomberg duomenys (jei turite):\n[įklijuokite arba ištrinkite]`
+      : `Do a fund / ETF Due Diligence (PowerPoint, SEB Liquid Funds DD template; do not put it in the public repo).\nISIN: ${v(FF.isin, "[ISIN]")}\nFund: ${v(FF.name, "[fund]")}\nManager: ${v(FF.mgr, "[manager]")}\nTicker: ${v(FF.tick, "[not known]")}\nTarget fund / weight: ${v(FF.tgt, "[not given]")}\nWhy: ${v(FF.why, "[not given]")}\nBloomberg data (if you have it):\n[paste or delete]`;
+    return `<div class="card">${sancBox(FF.mgr)}</div>
+      <div class="card" style="margin-top:12px"><h3>${fx("prompt")} ${kindTag("ai")}</h3><div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div></div>`;
+  }
+  function initFund() {
+    const box = document.getElementById("fOut"); if (!box) return;
+    const upd = () => { Object.keys(FF).forEach(k => { const el = document.getElementById("f_" + k); if (el) FF[k] = k === "isin" ? el.value.trim().toUpperCase() : el.value.trim(); }); box.innerHTML = fundOut(); };
+    Object.keys(FF).forEach(k => { const el = document.getElementById("f_" + k); if (el) el.oninput = upd; });
+    upd();
   }
   /* Atlikti DD - užšifruotas archyvas (tools/dd_vault.py). Slaptažodis tik naršyklėje (jei pažymėta „Prisiminti“). */
   const DA = {
@@ -1076,7 +1127,7 @@
       const buf = new Uint8Array(await r.arrayBuffer());
       data = await crypto.subtle.decrypt({ name: "AES-GCM", iv: buf.slice(0, 12) }, it.key, buf.slice(12));
     } catch (e) { alert(da("dlFail")); return; }
-    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([data], { type: it.type === "zip" ? "application/zip" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
+    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([data], { type: it.type === "zip" ? "application/zip" : /\.pptx$/i.test(it.file || "") ? "application/vnd.openxmlformats-officedocument.presentationml.presentation" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
     a.download = it.file; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
   }
   function ddArchive() {
@@ -1212,7 +1263,7 @@
 
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
-    const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: ddPage, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
+    const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (arg === "fund" || arg === "bond") DKIND = arg; return ddPage(); }, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
     const cur = map[page] ? (page === "issuer" ? "issuers" : page === "isin" ? "securities" : page) : "overview";
     document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = k === "esg" ? "ESG" : t(k); a.classList.toggle("on", a.getAttribute("href").slice(1) === cur); });
     const nm = document.querySelector(".navmore"); if (nm) { nm.open = false; nm.querySelector("summary").textContent = t("moreNav") + " ▾"; nm.classList.toggle("on", !!nm.querySelector("a.on")); }
