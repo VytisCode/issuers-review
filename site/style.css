@@ -309,7 +309,7 @@ details.howto[open] summary { margin-bottom: 4px; }
 .qsub a:hover { color: var(--text); }
 @media (max-width: 760px) { .top { position: static; } .top .wrap { gap: 8px 12px; padding-top: 6px; padding-bottom: 6px; } .qs { order: 5; flex-basis: 100%; max-width: none; margin-left: 0; } .qsr { left: 0; right: auto; width: 100%; } }
 .ddform .fl { display: block; margin: 0 0 10px; font-size: 13.5px; color: var(--text-2); }
-.ddform input, .ddform select { display: block; width: 100%; box-sizing: border-box; margin-top: 3px; font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
+.ddform input, .ddform select, .ddform textarea { display: block; width: 100%; box-sizing: border-box; margin-top: 3px; font: inherit; font-size: 14px; padding: 7px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--text); }
 .ddform .fl[hidden] { display: none; }
 .brand { white-space: nowrap; }
 @media (min-width: 1100px) and (max-width: 1250px) { nav a { padding: 6px 7px; } }

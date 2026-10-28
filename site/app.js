@@ -900,7 +900,7 @@
     { id: "fdd", kind: "ai", kw: "funds dd fondas fondų etf due diligence powerpoint pptx liquid funds šablonas index fund ucits kis alternatyvos",
       t: { lt: "Fondo / ETF Due Diligence (PowerPoint)", en: "Fund / ETF Due Diligence (PowerPoint)" },
       when: { lt: "prieš perkant naują ETF ar investicinį fondą.", en: "before buying a new ETF or investment fund." },
-      steps: { lt: ["you: DD puslapyje pasirinkite „Fondas“, įrašykite ISIN, fondą ir valdytoją.", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte. Jei turite – po ja įklijuokite Bloomberg skaičius ir kuriam fondui perkama.", "ai: Claude parengia DD PowerPoint faile pagal SEB „Liquid Funds DD“ šabloną projekto failuose – ne viešoje svetainėje. Alternatyvas parenka pats.", "you: Įdėkite eNameChecker ekrano kopiją, peržiūrėkite ir įkelkite į komandos failus.", "code: Atliktus DD rasite DD puslapio apačioje „Atlikti DD“ (užšifruoti)."], en: ["you: On the DD page choose “Fund”, enter the ISIN, the fund and the manager.", "ai: Copy the prompt and paste it into the Claude project. If you have them, paste the Bloomberg figures and the target fund below it.", "ai: Claude prepares the DD as a PowerPoint following the SEB “Liquid Funds DD” template in the project files – not on the public site. It picks the alternatives itself.", "you: Add the eNameChecker screenshot, review it and file it with the team files.", "code: Completed DDs are at the bottom of the DD page, “Completed DDs” (encrypted)."] },
+      steps: { lt: ["you: DD puslapyje pasirinkite „Fondas“, įrašykite ISIN, fondą ir valdytoją.", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte. Alternatyvas galite surašyti laukelyje, kitaip Claude suras pats.", "ai: Claude parengia DD PowerPoint faile pagal SEB „Liquid Funds DD“ šabloną projekto failuose – ne viešoje svetainėje. Alternatyvas parenka pats.", "you: Sankcijų skaidrėje patikrinkite valdymo įmonę (eNameChecker, OFAC, ES žemėlapis) ir įdėkite ekrano kopijas. Paryškintus „nerasta“ duomenis suraskite viduje ir įrašykite (arba įklijuokite Claude – jis atnaujins).", "you: Peržiūrėkite ir įkelkite į komandos failus.", "code: Atliktus DD rasite DD puslapio apačioje „Atlikti DD“ (užšifruoti)."], en: ["you: On the DD page choose “Fund”, enter the ISIN, the fund and the manager.", "ai: Copy the prompt and paste it into the Claude project. You can list alternatives in the field, otherwise Claude finds them.", "ai: Claude prepares the DD as a PowerPoint following the SEB “Liquid Funds DD” template in the project files – not on the public site. It picks the alternatives itself.", "you: On the sanctions slide check the management company (eNameChecker, OFAC, EU map) and add the screenshots. Find the highlighted “not found” figures internally and fill them in (or paste them to Claude to update).", "you: Review it and file it with the team files.", "code: Completed DDs are at the bottom of the DD page, “Completed DDs” (encrypted)."] },
       prompt: { lt: f => `Atlik fondo / ETF Due Diligence (PowerPoint pagal SEB Liquid Funds DD šabloną).\nISIN: ${f.isin || "[ISIN]"}\nFondas: ${f.name || "[fondas]"}`, en: f => `Do a fund / ETF Due Diligence (PowerPoint, SEB Liquid Funds DD template).\nISIN: ${f.isin || "[ISIN]"}\nFund: ${f.name || "[fund]"}` } },
     { id: "manual", kind: "you", kw: "nortal slaptažodis portalas įkelti ataskaitą password portal upload",
       t: { lt: "Slaptažodžiu apsaugotos ataskaitos (Nortal)", en: "Password-protected reports (Nortal)" },
@@ -1056,32 +1056,32 @@
   }
   /* Fondo / ETF DD: PowerPoint pagal SEB „Liquid Funds DD Template“ (failai tik projekto failuose ir užšifruotame archyve) */
   const FX = {
-    en: { sub: "Preparation for a new ETF or investment fund. Claude prepares the DD as a PowerPoint (SEB “Liquid Funds DD” template) in the project files – it is never published here.",
-      inst: "Fund", isin: "ISIN", name: "Fund name", mgr: "Fund manager (management company)", tick: "Exchange ticker (if known)", tickPh: "e.g. IS0E GY", tgt: "Which of our funds and planned weight (optional)", tgtPh: "e.g. pension fund X, 2%", why: "Why we look at it (optional)",
-      paste: "What you can paste after the prompt (optional)", pasteL: ["Bloomberg: AUM, bid-ask spread, 90D Avg Volume, 1Y tracking error, =BDP(\"… GY equity\";\"FUND_EURO_DIRECT_UCITS\")", "Our fund's current allocation, if the impact on the portfolio matters", "Anything from the manager or broker (presentation, email)"],
-      auto: "Claude collects itself: prospectus, KID, factsheet, index methodology, SFDR disclosures, performance, alternatives (similar ETFs), OFAC and EU sanctions map checks, media checks.",
+    en: { sub: "Preparation for a new ETF or investment fund. Claude prepares the DD in English as a PowerPoint (SEB “Liquid Funds DD” template) in the project files – it is never published here.",
+      inst: "Fund", isin: "ISIN", name: "Fund name", mgr: "Fund manager (management company)", tick: "Exchange ticker (if known)", tickPh: "e.g. IS0E GY", tgt: "Which of our funds and planned weight (optional)", tgtPh: "e.g. pension fund X, 2%", why: "Why we look at it (optional)", alt: "Alternatives to compare (optional, one per line: name or ISIN)", altPh: "If empty, Claude finds them itself (EUR share class, justETF, preferably XETRA)",
+      paste: "What you can paste after the prompt (optional)", pasteL: ["Our fund's current allocation, if the impact on the portfolio matters", "Anything from the manager or broker (presentation, email)", "Figures Claude marked as not found, once you have found them internally"],
+      auto: "Claude collects everything from the newest public sources (no Bloomberg): prospectus, KID, factsheet, justETF, exchange data, index methodology, SFDR disclosures, performance, alternatives, media check with saved evidence. Figures not found are highlighted in the file and listed for you. Sanctions: you check the management company with the links on the sanctions slide.",
       prompt: "Prompt for Claude" },
-    lt: { sub: "Pasiruošimas naujam ETF ar investiciniam fondui. Claude parengia DD PowerPoint faile (SEB „Liquid Funds DD“ šablonas) projekto failuose – čia jis niekada neskelbiamas.",
-      inst: "Fondas", isin: "ISIN", name: "Fondo pavadinimas", mgr: "Fondo valdytojas (valdymo įmonė)", tick: "Biržos tickeris (jei žinomas)", tickPh: "pvz. IS0E GY", tgt: "Kuriam mūsų fondui ir planuojamas svoris (nebūtina)", tgtPh: "pvz. pensijų fondas X, 2 %", why: "Kodėl svarstome (nebūtina)",
-      paste: "Ką galima įklijuoti po užklausa (nebūtina)", pasteL: ["Bloomberg: AUM, bid-ask spread, 90D Avg Volume, 1Y tracking error, =BDP(\"… GY equity\";\"FUND_EURO_DIRECT_UCITS\")", "Dabartinė mūsų fondo sudėtis, jei svarbus poveikis portfeliui", "Valdytojo ar brokerio medžiaga (prezentacija, laiškas)"],
-      auto: "Claude surenka pats: prospektą, KID, faktų lapą, indekso metodiką, SFDR informaciją, rezultatus, alternatyvas (panašius ETF), OFAC ir ES sankcijų žemėlapio patikras, žiniasklaidos patikrą.",
+    lt: { sub: "Pasiruošimas naujam ETF ar investiciniam fondui. Claude parengia DD anglų kalba PowerPoint faile (SEB „Liquid Funds DD“ šablonas) projekto failuose – čia jis niekada neskelbiamas.",
+      inst: "Fondas", isin: "ISIN", name: "Fondo pavadinimas", mgr: "Fondo valdytojas (valdymo įmonė)", tick: "Biržos tickeris (jei žinomas)", tickPh: "pvz. IS0E GY", tgt: "Kuriam mūsų fondui ir planuojamas svoris (nebūtina)", tgtPh: "pvz. pensijų fondas X, 2 %", why: "Kodėl svarstome (nebūtina)", alt: "Alternatyvos palyginimui (nebūtina, po vieną eilutėje: pavadinimas ar ISIN)", altPh: "Jei tuščia – Claude suras pats (EUR klasė, justETF, geriau XETRA)",
+      paste: "Ką galima įklijuoti po užklausa (nebūtina)", pasteL: ["Dabartinė mūsų fondo sudėtis, jei svarbus poveikis portfeliui", "Valdytojo ar brokerio medžiaga (prezentacija, laiškas)", "Duomenys, kuriuos Claude pažymėjo „nerasta“, kai juos rasite viduje"],
+      auto: "Claude viską surenka iš naujausių viešų šaltinių (be Bloomberg): prospektą, KID, faktų lapą, justETF, biržos duomenis, indekso metodiką, SFDR informaciją, rezultatus, alternatyvas, žiniasklaidos patikrą su išsaugotais įrodymais. Nerasti duomenys failo viduje paryškinami ir išvardijami jums. Sankcijas valdymo įmonei tikrinate jūs – nuorodos sankcijų skaidrėje.",
       prompt: "Užklausa Claude" }
   };
   const fx = k => (FX[LANG] || FX.en)[k];
-  let FF = { isin: "", name: "", mgr: "", tick: "", tgt: "", why: "" };
+  let FF = { isin: "", name: "", mgr: "", tick: "", tgt: "", why: "", alt: "" };
   function fundPage() {
     setTimeout(initFund);
     const inp = (id, k, ph) => `<label class="fl">${fx(k)} <input id="f_${id}" value="${esc(FF[id])}"${ph ? ` placeholder="${esc(ph)}"` : ""}></label>`;
     return `<h1>${dx("title")}</h1><p class="sub">${fx("sub")}</p>${ddSeg()}${jobHow("fdd")}
       <div class="two"><div class="card ddform"><h3>${fx("inst")}</h3>
-        ${inp("isin", "isin", "IE00… / LU…")}${inp("name", "name")}${inp("mgr", "mgr")}${inp("tick", "tick", fx("tickPh"))}${inp("tgt", "tgt", fx("tgtPh"))}${inp("why", "why")}
+        ${inp("isin", "isin", "IE00… / LU…")}${inp("name", "name")}${inp("mgr", "mgr")}${inp("tick", "tick", fx("tickPh"))}${inp("tgt", "tgt", fx("tgtPh"))}${inp("why", "why")}<label class="fl">${fx("alt")} <textarea id="f_alt" rows="4" placeholder="${esc(fx("altPh"))}">${esc(FF.alt)}</textarea></label>
         <h4>${fx("paste")}</h4><ul class="b small">${fx("pasteL").map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="muted small">${fx("auto")}</p></div>
       <div id="fOut"></div></div>${ddArchive()}`;
   }
   function fundOut() {
     const lt = LANG === "lt", v = (x, d) => x || d;
-    const p = lt ? `Atlik fondo / ETF Due Diligence (PowerPoint pagal SEB Liquid Funds DD šabloną; į viešą repo nekelk).\nISIN: ${v(FF.isin, "[ISIN]")}\nFondas: ${v(FF.name, "[fondas]")}\nValdytojas: ${v(FF.mgr, "[valdytojas]")}\nTickeris: ${v(FF.tick, "[nežinau]")}\nKuriam fondui / svoris: ${v(FF.tgt, "[nenurodyta]")}\nKodėl svarstome: ${v(FF.why, "[nenurodyta]")}\nBloomberg duomenys (jei turite):\n[įklijuokite arba ištrinkite]`
-      : `Do a fund / ETF Due Diligence (PowerPoint, SEB Liquid Funds DD template; do not put it in the public repo).\nISIN: ${v(FF.isin, "[ISIN]")}\nFund: ${v(FF.name, "[fund]")}\nManager: ${v(FF.mgr, "[manager]")}\nTicker: ${v(FF.tick, "[not known]")}\nTarget fund / weight: ${v(FF.tgt, "[not given]")}\nWhy: ${v(FF.why, "[not given]")}\nBloomberg data (if you have it):\n[paste or delete]`;
+    const p = lt ? `Atlik fondo / ETF Due Diligence (PowerPoint pagal SEB Liquid Funds DD šabloną, anglų kalba; į viešą repo nekelk).\nISIN: ${v(FF.isin, "[ISIN]")}\nFondas: ${v(FF.name, "[fondas]")}\nValdytojas: ${v(FF.mgr, "[valdytojas]")}\nTickeris: ${v(FF.tick, "[nežinau]")}\nKuriam fondui / svoris: ${v(FF.tgt, "[nenurodyta]")}\nKodėl svarstome: ${v(FF.why, "[nenurodyta]")}\nAlternatyvos: ${FF.alt ? "\n" + FF.alt : "[surask pats]"}`
+      : `Do a fund / ETF Due Diligence (PowerPoint, SEB Liquid Funds DD template; do not put it in the public repo).\nISIN: ${v(FF.isin, "[ISIN]")}\nFund: ${v(FF.name, "[fund]")}\nManager: ${v(FF.mgr, "[manager]")}\nTicker: ${v(FF.tick, "[not known]")}\nTarget fund / weight: ${v(FF.tgt, "[not given]")}\nWhy: ${v(FF.why, "[not given]")}\nAlternatives: ${FF.alt ? "\n" + FF.alt : "[find them yourself]"}`;
     return `<div class="card">${sancBox(FF.mgr)}</div>
       <div class="card" style="margin-top:12px"><h3>${fx("prompt")} ${kindTag("ai")}</h3><div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div></div>`;
   }
@@ -1089,6 +1089,7 @@
     const box = document.getElementById("fOut"); if (!box) return;
     const upd = () => { Object.keys(FF).forEach(k => { const el = document.getElementById("f_" + k); if (el) FF[k] = k === "isin" ? el.value.trim().toUpperCase() : el.value.trim(); }); box.innerHTML = fundOut(); };
     Object.keys(FF).forEach(k => { const el = document.getElementById("f_" + k); if (el) el.oninput = upd; });
+    const ta = document.getElementById("f_alt"); if (ta) ta.oninput = upd;
     upd();
   }
   /* Atlikti DD - užšifruotas archyvas (tools/dd_vault.py). Slaptažodis tik naršyklėje (jei pažymėta „Prisiminti“). */
