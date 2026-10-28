@@ -141,7 +141,21 @@
    "key": "M6",
    "title": "Banking Dive – DWS to pay $25M to settle SEC ESG, AML probes, 26.09.2023",
    "url": "https://www.bankingdive.com/news/deutsche-dws-25-million-esg-aml-penalty-sec-fixler-hoops-wohrmann-misstatement-goldman-bny/694709/"
+  },
+  {
+   "key": "S23",
+   "title": "extraETF – XDWC performance (EUR), read 26.10.2026",
+   "url": "https://extraetf.com/de/etf-profile/IE00BM67HP23?tab=performance"
+  },
+  {
+   "key": "S24",
+   "title": "extraETF – XDWC tracking difference, read 26.10.2026",
+   "url": "https://extraetf.com/de/etf-profile/IE00BM67HP23?tab=td"
+  },
+  {
+   "key": "S25",
+   "title": "extraETF – XDWC Xetra liquidity (iXLM spread), read 26.10.2026",
+   "url": "https://extraetf.com/de/etf-profile/IE00BM67HP23?tab=analysis"
   }
- ],
- "done": "a0a80f225223828a"
+ ]
 }
