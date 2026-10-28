@@ -1163,6 +1163,7 @@
     if (SC.ter) L.push(`Max TER: ${SC.ter}%`); if (SC.aum) L.push(`Min fund size: EUR ${SC.aum}m`); if (SC.yrs) L.push(`Min track record: ${SC.yrs} years`);
     L.push(`What matters most: ${pick("prio", SC.prio)}`, `Finalists: ${pick("n", SC.n)}`);
     if (SC.note) L.push(`Comment: ${SC.note}`);
+    L.push("Analyse in depth, not only factsheet numbers: index methodology of each candidate (selection, exclusions, weighting, rebalancing), sector / holdings differences, the strategy vs its parent index, price history (cumulative growth, drawdowns, rolling 12-month returns, gaps between funds), fund size trend (inflows / outflows), weighted scorecard with sensitivity and a blunt verdict per fund.");
     return L.join("\n");
   }
   function initScreen() {
