@@ -1352,7 +1352,7 @@
   const REG = { en: { us: "USA", north_america: "North America", europe: "Europe", eurozone: "Eurozone", uk: "UK", japan: "Japan", global: "Global", global_dm: "Global developed", em: "Emerging", em_ex_china: "EM ex China", asia_pacific_dm: "Asia-Pacific developed", other: "Other" },
     lt: { us: "JAV", north_america: "Šiaurės Amerika", europe: "Europa", eurozone: "Euro zona", uk: "JK", japan: "Japonija", global: "Pasaulis", global_dm: "Išsivysčiusios rinkos", em: "Besivystančios", em_ex_china: "Besivyst. be Kinijos", asia_pacific_dm: "Azija ir Ram. vand.", other: "Kita" } };
   const regL = r => ((REG[LANG] || REG.en)[r] || r || "–");
-  const FR_CATS = "Global Equity (developed / all-country)\nUS Equity\nEurope Equity\nJapan Equity\nEmerging Markets Equity\nSector and Thematic Equity\nFactor / Style Equity\nClimate Equity (PAB / CTB) – within region and as a group\nEUR Government Bonds\nEUR Investment Grade Corporate Bonds\nHigh Yield Bonds\nEmerging Markets Debt\nHybrid / Subordinated Bonds\nActive funds – second comparison across all categories";
+  const FR_CATS = "Global Equity (developed / all-country)\nUS Equity\nEurope Equity\nJapan Equity\nEmerging Markets Equity\nSector and Thematic Equity\nFactor / Style Equity\nSEB Index Climate Future (Klimato ateitis) holdings (PAB) – own category; each fund also compared in its regional category\nEUR Government Bonds\nEUR Investment Grade Corporate Bonds\nHigh Yield Bonds\nEmerging Markets Debt\nHybrid / Subordinated Bonds\nActive funds – second comparison across all categories";
   let CH = { mode: 0, fq: "", frList: "", cats: FR_CATS, frOpt: [0, 1, 2, 3], prev: "", mailTo: "", mailNote: "", picks: [], src: 0, port: "", list: "", mgr: "SEB", pl: 0, fund: "", cat: 0, reg: "", sfdr: 0, q: -1, minw: "", off: [], rules: [], rnote: "", pitch: "", focus: [], mkt: 1, note: "" };
   let PFD = null, PFLOAD = false;  // pension-fund-tracker duomenys (atmintyje)
   function pfLoad() {
@@ -1440,6 +1440,7 @@
       "Fund investments:", CH.frList || "[ISIN, name, weight; category optional]", "Categories:", CH.cats || FR_CATS, `Options: ${opts.join("; ") || "none"}`, `Market context: ${E.mktO[CH.mkt]}`];
     if (CH.prev) L.push(`Previous review: ${CH.prev}`);
     if (CH.mailNote) L.push(`Email – stress: ${CH.mailNote}`);
+    L.push("Climate Future (PAB) funds: a separate category of the SEB Index Climate Future (Klimato ateitis) holdings, and each of them is also included and compared in its regional category (e.g. a US PAB ETF in US Equity). In every such pair state what is gained and what is given up versus the standard regional index fund: TER and tracking, return gap 1 / 3 / 5 years, carbon intensity reduction, excluded sectors and largest weight differences (sector and top holdings), concentration, tracking error vs the parent index, SFDR article.");
     L.push("Active funds: compare twice when data allow – within the active-funds group and against passive funds with the same exposure (is the higher management fee earned after costs: excess return, consistency, information ratio). Missing data: mark NOT FOUND in red and list them for the owner.");
     return L.join("\n");
   }
