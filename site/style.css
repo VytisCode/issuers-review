@@ -361,3 +361,7 @@ td.nw{white-space:nowrap}
 .spk { padding: 12px; }
 .spk p { margin: 6px 0 10px; }
 .sview tr.pick td { background: color-mix(in srgb, var(--accent) 8%, transparent); }
+.sview td.vd { font-weight: 600; }
+.sview td.vd.switch, .sview td.vd.keisti { color: var(--bad, #c01e1e); }
+.sview td.vd.keep, .sview td.vd.laikyti { color: var(--good, #2e7d32); }
+.sview td.vd.watch, .sview td.vd.stebėti { color: #b45f06; }

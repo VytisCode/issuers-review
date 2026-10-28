@@ -11,6 +11,7 @@ Slaptažodis niekur nesaugomas. Pametus - `init --force` (naujas raktas) ir visu
   python tools/dd_vault.py add FAILAS.docx --issuer ignitis --name "Ignitis grupė" --isin XS... --lang lt --title "..."
   python tools/dd_vault.py add ... --sources SALTINIAI.json  # + vieši šaltiniai ZIP'ui ([{key,title,url}]), ZIP sukuria GitHub Actions
   python tools/dd_vault.py screen FAILAS.pptx --view VIEW.json --title "..."  # ETF paieška: PowerPoint + peržiūra dashboard'e (meta.view)
+  python tools/dd_vault.py screen FAILAS.pptx --view VIEW.json --title "..." --kind challenge  # turimų pozicijų peržiūra (keisti / laikyti / stebėti)
   python tools/dd_vault.py replace ID                # pataisytas DD (tas pats failas manifest'e) – ZIP lieka
   python tools/dd_vault.py remove ID                 # pašalina įrašą (ir jo ZIP)
   python tools/dd_vault.py rekey                     # pamiršus slaptažodį: naujas raktas, visi DD iš projekto failų iš naujo
@@ -110,15 +111,15 @@ def replace(eid):
     print("Atnaujinta:", eid, "->", new, Path(m["path"]).name)
 
 
-def screen(path, view, title, date):
+def screen(path, view, title, date, kind="screen"):
     """ETF paieška prieš DD: PowerPoint užšifruojamas kaip įprastas failas, o rezultatų lentelė (VIEW.json) - į užšifruotus
     metaduomenis, kad dashboard'as parodytų ją atrakinus (be atsisiuntimo). Pataisymas - `replace ID` (VIEW.json perskaitomas iš naujo)."""
     meta = {"title": title, "date": date, "lang": "en", "view": json.loads(Path(view).read_text())}
-    eid = add(path, meta, record=False, kind="screen")
+    eid = add(path, meta, record=False, kind=kind)
     if MANIFEST.parent.exists():
         man = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else []
         man = [m for m in man if m["path"] != str(Path(path).resolve())]
-        man.append({"path": str(Path(path).resolve()), "id": eid, "type": "screen", "view": str(Path(view).resolve()),
+        man.append({"path": str(Path(path).resolve()), "id": eid, "type": kind, "view": str(Path(view).resolve()),
                     "meta": {"title": title, "date": date, "lang": "en"}, "sources": []})
         MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
     return eid
@@ -162,6 +163,7 @@ if __name__ == "__main__":
     rp = sub.add_parser("replace"); rp.add_argument("id")
     sc = sub.add_parser("screen"); sc.add_argument("file"); sc.add_argument("--view", required=True); sc.add_argument("--title", required=True)
     sc.add_argument("--date", default=dt.date.today().isoformat())
+    sc.add_argument("--kind", default="screen", choices=("screen", "challenge"))
     a = sub.add_parser("add"); a.add_argument("file"); a.add_argument("--sources")
     for f in ("issuer", "name", "isin", "lang", "title", "decision", "sfdr"):
         a.add_argument("--" + f, default="")
@@ -174,7 +176,7 @@ if __name__ == "__main__":
     elif x.cmd == "replace":
         replace(x.id)
     elif x.cmd == "screen":
-        screen(x.file, x.view, x.title, x.date)
+        screen(x.file, x.view, x.title, x.date, x.kind)
     elif x.cmd == "remove":
         remove(x.id)
     else:
