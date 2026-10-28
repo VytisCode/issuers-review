@@ -256,6 +256,13 @@ def main():
     for f in site.iterdir():
         if f.is_file():
             shutil.copy2(f, C.DOCS / f.name)
+    # naršyklė neturi rodyti senos app.js / style.css kopijos po atnaujinimo: ?v=<turinio maiša>
+    import hashlib
+    ver = hashlib.sha1((site / "app.js").read_bytes() + (site / "style.css").read_bytes()).hexdigest()[:8]
+    idx = (site / "index.html").read_text()
+    for n in ("app.js", "style.css"):
+        idx = idx.replace(f'"{n}"', f'"{n}?v={ver}"')
+    (C.DOCS / "index.html").write_text(idx)
     (C.DOCS / ".nojekyll").write_text("")
     # SEB politikų metinė peržiūra (savininko prašymas 2026-10-23): nuoroda, peržiūros data, politikų priėmimo datos
     sp = C.load_yaml(C.ROOT / "config" / "seb_policies.yaml")
