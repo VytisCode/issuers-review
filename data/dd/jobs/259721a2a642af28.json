@@ -1,0 +1,146 @@
+{
+ "parent": "259721a2a642af28",
+ "name": "DD_Funds_XDWC_IE00BM67HP23_2026-10-28_documents.zip",
+ "sources": [
+  {
+   "key": "S1",
+   "title": "DWS – Factsheet XDWC 1C, as of 30.09.2026",
+   "url": "https://etf.dws.com/en-ch/AssetDownload/Index/6e8abd99-c8ac-45f9-9269-378b7db93c9d/Factsheet.pdf"
+  },
+  {
+   "key": "S2",
+   "title": "DWS – KID (EN) 1C, accurate as at 04.08.2026",
+   "url": "https://docs.extraetf.com/download/IE00BM67HP23/en/KID"
+  },
+  {
+   "key": "S3",
+   "title": "DWS – KID (IT) 1C, 04.08.2026",
+   "url": "https://etf.dws.com/download/asset/6313990f-cbbc-4b2a-bea1-e2f31518dc7c"
+  },
+  {
+   "key": "S4",
+   "title": "Xtrackers (IE) plc – Global Supplement to the Prospectus, 17.09.2026",
+   "url": "https://etf.dws.com/download/asset/eb3b73a2-fe27-4357-bd81-64aaf3c79aea"
+  },
+  {
+   "key": "S5",
+   "title": "Xtrackers (IE) plc – First Addendum to the Prospectus, 01.12.2023",
+   "url": "https://docs.extraetf.com/download/IE00BM67HP23/en/PR"
+  },
+  {
+   "key": "S6",
+   "title": "Xtrackers (IE) plc – Prospectus, 15.06.2023 (PDF not machine-readable)",
+   "url": "https://etf.dws.com/download/asset/25f159fa-a123-4a77-9751-682976c15095"
+  },
+  {
+   "key": "S7",
+   "title": "DWS – Factsheet XDWC 1C (UK version), 30.09.2026",
+   "url": "https://etf.dws.com/download/asset/af4bbb70-1ed1-42ff-9620-d3dcf0f3c623"
+  },
+  {
+   "key": "S8",
+   "title": "MSCI – Index factsheet MSCI World Consumer Discretionary (USD), 30.09.2026",
+   "url": "https://www.msci.com/documents/10199/e8096ca8-6a16-4be0-861c-971f21c2a4c6"
+  },
+  {
+   "key": "S9",
+   "title": "MSCI – Index page MSCI World Consumer Discretionary",
+   "url": "https://www.msci.com/indexes/index/106799/msci-world-consumer-discretionary-index"
+  },
+  {
+   "key": "S10",
+   "title": "justETF – XDWC profile (IE00BM67HP23), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BM67HP23"
+  },
+  {
+   "key": "S11",
+   "title": "justETF – iShares profile (IE00BJ5JP212), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ5JP212"
+  },
+  {
+   "key": "S12",
+   "title": "justETF – SPDR profile (IE00BYTRR640), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYTRR640"
+  },
+  {
+   "key": "S13",
+   "title": "justETF – Amundi profile (IE000NM0ALX6), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000NM0ALX6"
+  },
+  {
+   "key": "S14",
+   "title": "Amundi – Monthly factsheet (institutional, EN), 31.07.2026",
+   "url": "https://www.amundietf.fr/pdfDocuments/download/3f37885c-780a-4fe0-a085-33a7e4b9e9da/MonthlyFactsheet_4574264_CL102826_FRA_ENG_ETF_INSTITUTIONNEL_20260731.pdf"
+  },
+  {
+   "key": "S15",
+   "title": "Amundi – KID (EN), February 18, 2026",
+   "url": "https://docs.extraetf.com/download/IE000NM0ALX6/en/KID"
+  },
+  {
+   "key": "S16",
+   "title": "iShares – KID (EN), 09.02.2026",
+   "url": "https://docs.extraetf.com/download/IE00BJ5JP212/en/KID"
+  },
+  {
+   "key": "S17",
+   "title": "State Street SPDR – KID (EN), 19.02.2026",
+   "url": "https://docs.extraetf.com/download/IE00BYTRR640/en/KID"
+  },
+  {
+   "key": "S18",
+   "title": "finanzfluss – XDWC (IE00BM67HP23), 23.10.2026",
+   "url": "https://www.finanzfluss.de/informer/etf/ie00bm67hp23/"
+  },
+  {
+   "key": "S19",
+   "title": "finanzfluss – iShares (IE00BJ5JP212), 26.10.2026",
+   "url": "https://www.finanzfluss.de/informer/etf/ie00bj5jp212/"
+  },
+  {
+   "key": "S20",
+   "title": "finanzfluss – SPDR (IE00BYTRR640), 26.10.2026",
+   "url": "https://www.finanzfluss.de/informer/etf/ie00bytrr640/"
+  },
+  {
+   "key": "S21",
+   "title": "finanzfluss – Amundi (IE000NM0ALX6), 26.10.2026",
+   "url": "https://www.finanzfluss.de/informer/etf/ie000nm0alx6/"
+  },
+  {
+   "key": "S22",
+   "title": "DWS – ETF prospectus library",
+   "url": "https://etf.dws.com/en-gb/information/etf-documents/prospectuses/"
+  },
+  {
+   "key": "M1",
+   "title": "ESG Dive – German prosecutors slap $27M greenwashing fine on DWS, 04.04.2025",
+   "url": "https://www.esgdive.com/news/german-prosecutors-slap-27m-greenwashing-fine-on-deutsche-bank-dws/744507/"
+  },
+  {
+   "key": "M2",
+   "title": "Banking Dive – DWS gets $27M greenwashing fine, 04.04.2025",
+   "url": "https://www.bankingdive.com/news/deutsche-bank-dws-27-million-greenwashing-fine-germany/744565/"
+  },
+  {
+   "key": "M3",
+   "title": "Simmons & Simmons – Historically high ESG fine in Germany, 04.04.2025",
+   "url": "https://www.simmons-simmons.com/en/publications/cm92kzgfo00gcupecc4g59z5i/historically-high-esg-fine-in-germany-for-greenwashing-"
+  },
+  {
+   "key": "M4",
+   "title": "Peters & Peters ESG Enforcement Tracker – DWS €25m (status: closed), 08.04.2025",
+   "url": "https://www.petersandpeters.com/case/german-prosecutors-fine-dws-e25-million-over-greenwashing/"
+  },
+  {
+   "key": "M5",
+   "title": "U.S. SEC – Press release 2023-194, 25.09.2023",
+   "url": "https://www.sec.gov/newsroom/press-releases/2023-194"
+  },
+  {
+   "key": "M6",
+   "title": "Banking Dive – DWS to pay $25M to settle SEC ESG, AML probes, 26.09.2023",
+   "url": "https://www.bankingdive.com/news/deutsche-dws-25-million-esg-aml-penalty-sec-fixler-hoops-wohrmann-misstatement-goldman-bny/694709/"
+  }
+ ]
+}
