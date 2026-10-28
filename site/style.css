@@ -369,3 +369,5 @@ td.nw{white-space:nowrap}
 .chhit { text-align: left; font: inherit; font-size: 13.5px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); cursor: pointer; }
 .chhit:hover { border-color: var(--accent); }
 .ddform .chips label.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.bdl .chips { gap: 6px 16px; }

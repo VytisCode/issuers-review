@@ -912,10 +912,10 @@
       when: { lt: "norite patikrinti, ar rinkoje yra geresnių fondų nei turimi, arba palyginti valdytojų siūlomus fondus su turimais.", en: "you want to check whether better funds than the ones we hold exist, or compare funds pitched by managers with our holdings." },
       steps: { lt: ["you: DD puslapyje pasirinkite „Turimų pozicijų peržiūra“. Pozicijas įveskite ranka (bet kuri šalis) arba paimkite iš LT pensijų fondų portfelių (valdytojas, fondas, kategorija, regionas).", "you: Pažymėkite mandato taisykles (pvz. PAB), į ką žiūrėti ir ar reikia rinkos konteksto; jei valdytojai siūlė fondų – įrašykite.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte.", "ai: Claude kiekvienai pozicijai taiko tą pačią metodiką ir duoda verdiktą Keisti / Laikyti / Stebėti su skaičiais (nauda per metus, keitimo kaštai, atsipirkimas); rezultatas – PowerPoint ir užšifruotas įrašas.", "you: Apačioje „Atliktos ETF paieškos ir peržiūros“ spauskite „Peržiūrėti“; prie siūlomo pakaitalo – „Pilnas DD“."], en: ["you: On the DD page choose “Challenge held positions”. Enter positions manually (any country) or take them from the LT pension fund portfolios (manager, fund, category, region).", "you: Tick the mandate rules (e.g. PAB), what to focus on and whether market context is needed; add funds pitched by managers, if any.", "ai: Copy the prompt and paste it into the Claude project.", "ai: Claude applies one method to every position and gives a verdict Switch / Keep / Watch with numbers (annual advantage, switching cost, break-even); the result is a PowerPoint and an encrypted archive entry.", "you: Under “Completed ETF searches and reviews” press “View”; next to a suggested replacement press “Full DD”."] },
       prompt: { lt: () => "Atlik turimų pozicijų peržiūrą (challenge): [portfelis, pozicijos, mandato taisyklės]", en: () => "Do a challenge review of held positions: [portfolio, positions, mandate rules]" } },
-    { id: "frev", kind: "ai", kw: "fund review ketvirčio fondų peržiūra ketvirtinė fondai etf aktyvūs fondai kategorijos us equity em equity ig credit laiškas short version quick read quarterly review",
+    { id: "frev", kind: "ai", kw: "fund review word pdf atsisiųsti kategorijas pasirinktos ketvirčio fondų peržiūra ketvirtinė fondai etf aktyvūs fondai kategorijos us equity em equity ig credit laiškas short version quick read quarterly review",
       t: { lt: "Ketvirčio fondų peržiūra (Fund review)", en: "Quarterly fund review" },
       when: { lt: "kas ketvirtį peržiūrite visus turimus listinguotus fondus (ETF ir aktyvius) pagal kategorijas.", en: "every quarter you review all held listed funds (ETFs and active funds) by category." },
-      steps: { lt: ["you: DD puslapyje – „Turimų pozicijų peržiūra“ → „Ketvirčio fondų peržiūra“. Įklijuokite fondų sąrašą (arba užpildykite iš LT pensijų fondų portfelio ir pataisykite), patikrinkite kategorijas.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte.", "ai: Claude parengia ilgą versiją (PowerPoint pagal kategorijas), trumpą versiją su nuorodomis į ilgą, laiško juodraštį anglų kalba ir įrodymų ZIP; viskas užšifruota archyve.", "you: Apačioje „Atliktos ETF paieškos ir peržiūros“ – peržiūra, failai, laiško juodraštis su mygtuku „Kopijuoti“."], en: ["you: On the DD page – “Challenge held positions” → “Quarterly fund review”. Paste the fund list (or fill it from an LT pension fund portfolio and correct it), check the categories.", "ai: Copy the prompt and paste it into the Claude project.", "ai: Claude prepares the long version (PowerPoint by category), the short version with references to the long one, an English email draft and evidence ZIPs; all encrypted in the archive.", "you: Under “Completed ETF searches and reviews” – view, files, and the email draft with a “Copy” button."] },
+      steps: { lt: ["you: DD puslapyje – „Turimų pozicijų peržiūra“ → „Ketvirčio fondų peržiūra“. Įklijuokite fondų sąrašą (arba užpildykite iš LT pensijų fondų portfelio ir pataisykite), patikrinkite kategorijas.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte.", "ai: Claude parengia ilgą versiją pagal kategorijas (PowerPoint, Word ir PDF; kiekviena kategorija prasideda fondų suvestinės lentele), trumpą versiją su nuorodomis į ilgą, laiško juodraštį anglų kalba ir įrodymų ZIP; viskas užšifruota archyve.", "you: Apačioje „Atliktos ETF paieškos ir peržiūros“ – peržiūra, laiško juodraštis su mygtuku „Kopijuoti“ ir „Atsisiųsti“: visos kategorijos viename faile arba tik pasirinktos, pasirinktu formatu."], en: ["you: On the DD page – “Challenge held positions” → “Quarterly fund review”. Paste the fund list (or fill it from an LT pension fund portfolio and correct it), check the categories.", "ai: Copy the prompt and paste it into the Claude project.", "ai: Claude prepares the long version by category (PowerPoint, Word and PDF; every category starts with a fund overview table), the short version with references to the long one, an English email draft and evidence ZIPs; all encrypted in the archive.", "you: Under “Completed ETF searches and reviews” – view, the email draft with a “Copy” button, and “Download”: all categories in one file or selected categories only, in the chosen formats."] },
       prompt: { lt: () => "Atlik ketvirčio fondų peržiūrą: [ketvirtis, fondų sąrašas, kategorijos]", en: () => "Do the quarterly fund review: [quarter, fund list, categories]" } },
     { id: "manual", kind: "you", kw: "nortal slaptažodis portalas įkelti ataskaitą password portal upload",
       t: { lt: "Slaptažodžiu apsaugotos ataskaitos (Nortal)", en: "Password-protected reports (Nortal)" },
@@ -1135,6 +1135,7 @@
       regionO: ["Global", "USA", "Europe", "Eurozone", "Japan", "Emerging markets", "Asia-Pacific", "Single country"],
       styleO: ["Market cap", "Equal weight", "Value", "Growth", "Quality", "Min volatility", "Dividend", "Small / mid cap", "Sector", "Theme", "ESG / climate"],
       prompt: "Prompt for Claude", list: "Completed ETF searches and reviews", none: "No searches yet.", view: "View", hide: "Hide", ppt: "PowerPoint", full: "Full DD", mail: "Email draft", evz: "Calculations and extracts (ZIP)",
+      bdl: "Download", bAll: "All categories in one file", bSel: "Selected categories only", bCats: "Categories", bAllC: "All / none", bFmt: "Formats", bShort: "Add the short version", bGo: "Download", bWait: "Preparing…", bNone: "Select at least one category and one format.", bFail: "Could not prepare the files – reload the page (Ctrl+F5) and try again.", bNote: "Selected categories: PDF is merged into one file with the summary and sources; PowerPoint and Word are separate files per category. Several files are downloaded as one ZIP.",
       cols: ["", "ETF", "ISIN / XETRA", "Cost", "Size", "SFDR", "Replication", "Income", "Since", "Note"], picks: "Suggested", crit: "Criteria", sum: "Summary", notes: "Notes" },
     lt: { sub: "Ieškote ETF dar prieš DD? Pasirinkite kriterijus, parašykite komentarą ir nukopijuokite užklausą. Claude suras, palygins viską, ką įmanoma rasti, ir pasiūlys patraukliausius variantus. Rezultatas išsaugomas užšifruotas apačioje („Atliktos ETF paieškos“), jį galima atsisiųsti kaip PowerPoint.",
       h: "Ko ieškote?", what: "Indeksas, strategija ar tema", whatPh: "pvz. S&P 500 Equal Weight", asset: "Turto klasė", region: "Regionas", style: "Strategija / stilius",
@@ -1147,6 +1148,7 @@
       regionO: ["Pasaulis", "JAV", "Europa", "Euro zona", "Japonija", "Besivystančios rinkos", "Azija ir Ramusis vandenynas", "Viena šalis"],
       styleO: ["Pagal kapitalizaciją", "Lygūs svoriai (equal weight)", "Vertės", "Augimo", "Kokybės", "Mažo svyravimo", "Dividendų", "Mažos / vidutinės įmonės", "Sektorius", "Tema", "ESG / klimatas"],
       prompt: "Užklausa Claude", list: "Atliktos ETF paieškos ir peržiūros", none: "Paieškų dar nėra.", view: "Peržiūrėti", hide: "Slėpti", ppt: "PowerPoint", full: "Pilnas DD", mail: "Laiško juodraštis", evz: "Skaičiavimai ir išrašai (ZIP)",
+      bdl: "Atsisiųsti", bAll: "Visos kategorijos viename faile", bSel: "Tik pasirinktos kategorijos", bCats: "Kategorijos", bAllC: "Visos / nė vienos", bFmt: "Formatai", bShort: "Pridėti trumpą versiją", bGo: "Atsisiųsti", bWait: "Ruošiama…", bNone: "Pasirinkite bent vieną kategoriją ir formatą.", bFail: "Nepavyko paruošti failų – perkraukite puslapį (Ctrl+F5) ir bandykite dar kartą.", bNote: "Pasirinktos kategorijos: PDF sujungiamas į vieną failą su santrauka ir šaltiniais; PowerPoint ir Word – atskiri kiekvienos kategorijos failai. Keli failai atsisiunčiami vienu ZIP.",
       cols: ["", "ETF", "ISIN / XETRA", "Kaštai", "Dydis", "SFDR", "Replikavimas", "Pajamos", "Nuo", "Pastaba"], picks: "Siūlomi", crit: "Kriterijai", sum: "Santrauka", notes: "Pastabos" }
   };
   const scx = k => (SCX[LANG] || SCX.en)[k];
@@ -1199,9 +1201,80 @@
   function screenList() {
     const sc = (DDL || []).filter(x => ["screen", "challenge", "fundreview"].includes(x.type)); if (!sc.length) return ["screen", "challenge"].includes(DKIND) ? `<h4>${scx("list")}</h4><p class="muted small">${scx("none")}</p>` : "";
     return `<h4 style="margin-top:16px">${scx("list")}</h4><div class="tbl-wrap"><table>${sc.map(x => `<tr><td>${esc(x.date)}</td><td><b>${esc(x.title)}</b>${x.type === "challenge" || x.type === "fundreview" ? ` <span class="muted small">· ${esc(x.type === "fundreview" ? chx("modeO")[1] : dx("kChal"))}</span>` : ""}</td>
-      <td class="nw"><button class="btn sm" data-sv="${esc(x.id)}">${SOPEN === x.id ? scx("hide") : scx("view")}</button> <button class="btn sm" data-dd="${esc(x.id)}">⬇ ${scx("ppt")}</button>${zipBtns(x.id)}</td></tr>
+      <td class="nw"><button class="btn sm" data-sv="${esc(x.id)}">${SOPEN === x.id ? scx("hide") : scx("view")}</button> ${(x.view || {}).bundle ? `<button class="btn sm" data-bdl="${esc(x.id)}">⬇ ${scx("bdl")}</button>` : `<button class="btn sm" data-dd="${esc(x.id)}">⬇ ${scx("ppt")}</button>`}${zipBtns(x.id)}</td></tr>
+      ${BOPEN === x.id ? `<tr><td colspan="3">${bundleBox(x)}</td></tr>` : ""}
       ${SOPEN === x.id ? `<tr><td colspan="3">${screenView(x)}</td></tr>` : ""}`).join("")}</table></div>`;
   }
+  /* Ketvirčio peržiūros paketas (review_lib.export): PowerPoint, Word ir PDF iš to paties turinio. Atsisiunčiama
+     „visos kategorijos viename faile“ (full.*) arba „tik pasirinktos“: PDF sujungiamas naršyklėje (parts/_cover + kategorijos + _end),
+     PowerPoint ir Word – atskiri kategorijų failai. Keli failai -> vienas ZIP. Bibliotekos kraunamos tik paspaudus. */
+  let BOPEN = null;
+  const BST = { all: true, cats: {}, fmt: { pdf: true, docx: false, pptx: false }, short: false };
+  const FMTN = { pdf: "PDF", docx: "Word", pptx: "PowerPoint" };
+  function bundleBox(x) {
+    const b = x.view.bundle, cats = b.cats || [];
+    const ck = (id, on, lab) => `<label class="chk small${on ? " on" : ""}"><input type="checkbox" data-bk="${id}"${on ? " checked" : ""}> ${esc(lab)}</label>`;
+    return `<div class="sview bdl"><div class="chips">
+        <label class="chk small${BST.all ? " on" : ""}"><input type="radio" name="bmode" data-bk="m:all"${BST.all ? " checked" : ""}> ${scx("bAll")}</label>
+        <label class="chk small${!BST.all ? " on" : ""}"><input type="radio" name="bmode" data-bk="m:sel"${!BST.all ? " checked" : ""}> ${scx("bSel")}</label></div>
+      ${BST.all ? "" : `<p class="small"><b>${scx("bCats")}</b> <button class="btn sm" data-bk="c:*">${scx("bAllC")}</button></p><div class="chips">${cats.map(c => ck("c:" + c.key, !!BST.cats[c.key], c.title)).join("")}</div>`}
+      <p class="small"><b>${scx("bFmt")}</b></p><div class="chips">${(b.formats || ["pptx", "docx", "pdf"]).map(f => ck("f:" + f, !!BST.fmt[f], FMTN[f] || f)).join("")}
+        ${(b.files || {}).short ? ck("s", BST.short, scx("bShort")) : ""}</div>
+      <p class="small"><button class="btn primary" data-bgo="${esc(x.id)}">⬇ ${scx("bGo")}</button> <span class="muted" id="bMsg"></span></p>
+      <p class="muted small">${scx("bNote")}</p></div>`;
+  }
+  const JSLIB = {};
+  function loadJs(url) {
+    return JSLIB[url] || (JSLIB[url] = new Promise((ok, no) => { const s = document.createElement("script"); s.src = url; s.onload = ok; s.onerror = () => { delete JSLIB[url]; no(new Error(url)); }; document.head.appendChild(s); }));
+  }
+  function saveBlob(blob, name) {
+    const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  }
+  async function bundleGet(x) {
+    const msg = document.getElementById("bMsg"), b = x.view.bundle, base = b.base || "review";
+    const fmts = Object.keys(BST.fmt).filter(f => BST.fmt[f]), keys = (b.cats || []).map(c => c.key).filter(k => BST.cats[k]);
+    if (!fmts.length || (!BST.all && !keys.length)) { msg.textContent = scx("bNone"); return; }
+    msg.textContent = scx("bWait");
+    try {
+      await loadJs("https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js");
+      if (!BST.all && fmts.includes("pdf")) await loadJs("https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js");
+      const z = await JSZip.loadAsync(await ddFetch(x.id)), out = [];
+      const get = async (p, name) => { const f = z.file(p); if (f) out.push([name, await f.async("uint8array")]); };
+      for (const f of fmts) {
+        if (BST.all) await get(`full.${f}`, `${base}.${f}`);
+        else if (f === "pdf") {
+          const doc = await PDFLib.PDFDocument.create();
+          for (const p of ["_cover", ...keys, "_end"]) {
+            const fz = z.file(`parts/${p}.pdf`); if (!fz) continue;
+            const src = await PDFLib.PDFDocument.load(await fz.async("uint8array"));
+            (await doc.copyPages(src, src.getPageIndices())).forEach(pg => doc.addPage(pg));
+          }
+          out.push([`${base}_${keys.join("_")}.pdf`, await doc.save()]);
+        } else for (const k of keys) await get(`cat/${k}.${f}`, `${base}_${k}.${f}`);
+        if (BST.short) await get(`short.${f}`, `${base}_short.${f}`);
+      }
+      if (!out.length) throw new Error("empty");
+      if (out.length === 1) saveBlob(new Blob([out[0][1]], { type: MIME[out[0][0].split(".").pop()] }), out[0][0]);
+      else { const zz = new JSZip(); out.forEach(([n, d]) => zz.file(n, d)); saveBlob(await zz.generateAsync({ type: "blob" }), `${base}_${BST.all ? "all" : keys.join("_")}.zip`); }
+      msg.textContent = "";
+    } catch (e) { msg.textContent = scx("bFail"); }
+  }
+  document.addEventListener("change", e => {
+    const k = e.target.dataset && e.target.dataset.bk; if (!k) return;
+    if (k === "m:all" || k === "m:sel") BST.all = k === "m:all";
+    else if (k === "s") BST.short = e.target.checked;
+    else if (k.startsWith("c:")) BST.cats[k.slice(2)] = e.target.checked;
+    else if (k.startsWith("f:")) BST.fmt[k.slice(2)] = e.target.checked;
+    initDdArch();
+  });
+  document.addEventListener("click", e => {
+    const o = e.target.closest("[data-bdl]");
+    if (o) { BOPEN = BOPEN === o.dataset.bdl ? null : o.dataset.bdl; initDdArch(); return; }
+    const all = e.target.closest('[data-bk="c:*"]');
+    if (all) { const x = (DDL || []).find(y => y.id === BOPEN); const cs = (x && x.view.bundle.cats) || []; const on = !cs.every(c => BST.cats[c.key]); cs.forEach(c => { BST.cats[c.key] = on; }); initDdArch(); return; }
+    const g = e.target.closest("[data-bgo]");
+    if (g) { const x = (DDL || []).find(y => y.id === g.dataset.bgo); if (x) bundleGet(x); }
+  });
   // dokumentų ZIP (šaltiniai, update.yml) ir įrodymų ZIP (išrašai, savi skaičiavimai) prie paieškos / peržiūros
   function zipBtns(id) {
     const zs = (DDL || []).filter(z => z.type === "zip" && ((D.dd.zips || {})[z.id] || z.parent) === id).sort((a, b) => (a.kind === "evidence") - (b.kind === "evidence"));
@@ -1363,7 +1436,7 @@
     const E = CHX.en, opts = CH.frOpt.map(i => E.frOptO[i]);
     const L = [`Do the quarterly Fund review${CH.fq ? " for " + CH.fq : ""}: all held listed funds (ETFs and actively managed funds; unlisted alternative funds excluded), by category.`,
       "Method: /mnt/project-files/funds_dd/challenge/metodika.md, section 11 (Fund review) plus the challenge method (verdict KEEP / WATCH / SWITCH per fund, net advantage vs switching cost, peers, market context as facts and scenarios).",
-      "Outputs (English, formal documentary style): (1) long version – PowerPoint by category; (2) short quick-read version with slide references to the long version; (3) email draft to " + (CH.mailTo || "fund managers") + " – casual, short (e.g. \"Hi, finished the Q3 fund review…\"), key points and what needs attention; (4) documents ZIP of every source and evidence ZIP (data extracts, own calculations). Archive: `python tools/dd_vault.py screen <long.pptx> --view <VIEW.json> --kind fundreview --sources <sources.json> --evidence <folder>` (short version and email draft go into the evidence folder and VIEW.email); not in the public repo.",
+      "Outputs (English, formal documentary style), each in PowerPoint, Word and PDF from one content via /mnt/project-files/funds_dd/review_lib.py (Report / Section, export()): (1) long version by category – every category STARTS with the overview table of all funds analysed in it (Section.overview: fund, ISIN, type, TER, SFDR, in LT portfolios since – review_lib.lt_since from the pension fund tracker, weight, return 1Y / 3Y p.a., vs benchmark 3Y p.a., verdict); (2) short quick-read version with references to the long version; (3) email draft to " + (CH.mailTo || "fund managers") + " – casual, short (e.g. \"Hi, finished the Q3 fund review…\"), key points and what needs attention; (4) documents ZIP of every source and evidence ZIP (data extracts, own calculations). Archive the bundle: `python tools/dd_vault.py screen <base>_bundle.zip --view <VIEW.json> --kind fundreview --sources <sources.json> --evidence <folder>`; VIEW.json = {summary, table, email, notes, bundle: <manifest.json from export()>} so the dashboard offers all categories in one file or selected categories only; not in the public repo.",
       "Fund investments:", CH.frList || "[ISIN, name, weight; category optional]", "Categories:", CH.cats || FR_CATS, `Options: ${opts.join("; ") || "none"}`, `Market context: ${E.mktO[CH.mkt]}`];
     if (CH.prev) L.push(`Previous review: ${CH.prev}`);
     if (CH.mailNote) L.push(`Email – stress: ${CH.mailNote}`);
@@ -1488,16 +1561,19 @@
     }
     DDK = priv; DDL = list.sort((a, b) => String(b.date).localeCompare(String(a.date)));
   }
+  const MIME = { zip: "application/zip", pdf: "application/pdf", pptx: "application/vnd.openxmlformats-officedocument.presentationml.presentation", docx: "application/vnd.openxmlformats-officedocument.wordprocessingml.document" };
+  async function ddFetch(id) {
+    const it = DDL.find(x => x.id === id); if (!it) throw new Error("id");
+    const r = await fetch(`dd/${id}.bin`, { cache: "no-store" }); if (!r.ok) throw new Error(r.status);
+    const buf = new Uint8Array(await r.arrayBuffer());
+    return crypto.subtle.decrypt({ name: "AES-GCM", iv: buf.slice(0, 12) }, it.key, buf.slice(12));
+  }
   async function ddDownload(id) {
     const it = DDL.find(x => x.id === id); if (!it) return;
     let data;
-    try {
-      const r = await fetch(`dd/${id}.bin`, { cache: "no-store" }); if (!r.ok) throw new Error(r.status);
-      const buf = new Uint8Array(await r.arrayBuffer());
-      data = await crypto.subtle.decrypt({ name: "AES-GCM", iv: buf.slice(0, 12) }, it.key, buf.slice(12));
-    } catch (e) { alert(da("dlFail")); return; }
-    const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([data], { type: it.type === "zip" ? "application/zip" : /\.pptx$/i.test(it.file || "") ? "application/vnd.openxmlformats-officedocument.presentationml.presentation" : "application/vnd.openxmlformats-officedocument.wordprocessingml.document" }));
-    a.download = it.file; document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+    try { data = await ddFetch(id); } catch (e) { alert(da("dlFail")); return; }
+    const ext = it.type === "zip" ? "zip" : String(it.file || "").split(".").pop().toLowerCase();
+    saveBlob(new Blob([data], { type: MIME[ext] || MIME.docx }), it.file);
   }
   function ddArchive() {
     if (!D.dd) return "";
