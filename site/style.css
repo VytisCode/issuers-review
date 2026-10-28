@@ -346,3 +346,18 @@ abbr.gl { text-decoration: underline dotted var(--muted); text-underline-offset:
 .sxwrap h3 { margin-top: 0; font-size: 1rem; }
 .ddpw { gap: 8px; flex-wrap: wrap; align-items: center; } .ddpw input[type=password] { max-width: 260px; }
 td.nw{white-space:nowrap}
+
+/* ETF paieška: kriterijų „pilių“ mygtukai ir rezultatų peržiūra */
+.ddform .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0 12px; }
+.ddform .chips label { display: inline-flex; align-items: center; padding: 5px 11px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; cursor: pointer; background: var(--surface); color: var(--text); user-select: none; }
+.ddform .chips input { display: none; }
+.ddform .chips label:has(input:checked) { background: var(--accent); color: #fff; border-color: var(--accent); }
+.ddform div.fl { margin: 0 0 4px; }
+.ddform .three { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+@media (max-width: 640px) { .ddform .three { grid-template-columns: 1fr; } }
+.sview { padding: 6px 2px 10px; }
+.sview h4 { margin: 12px 0 6px; }
+.spicks { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-bottom: 12px; }
+.spk { padding: 12px; }
+.spk p { margin: 6px 0 10px; }
+.sview tr.pick td { background: color-mix(in srgb, var(--accent) 8%, transparent); }

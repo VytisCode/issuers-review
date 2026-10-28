@@ -902,6 +902,11 @@
       when: { lt: "prieš perkant naują ETF ar investicinį fondą.", en: "before buying a new ETF or investment fund." },
       steps: { lt: ["you: DD puslapyje pasirinkite „Fondas“, įrašykite ISIN, fondą ir valdytoją.", "ai: Nukopijuokite užklausą, įklijuokite Claude projekte. Alternatyvas galite surašyti laukelyje, kitaip Claude suras pats.", "ai: Claude parengia DD PowerPoint faile pagal SEB „Liquid Funds DD“ šabloną projekto failuose – ne viešoje svetainėje. Alternatyvas parenka pats.", "you: Sankcijų skaidrėje patikrinkite valdymo įmonę (eNameChecker, OFAC, ES žemėlapis) ir įdėkite ekrano kopijas. Raudonai paryškintus „NOT FOUND“ duomenis suraskite viduje ir įklijuokite laukelyje „Papildyti atliktą DD“ – Claude įrašys juos į tą patį failą.", "you: Peržiūrėkite ir įkelkite į komandos failus.", "code: Atliktus DD rasite DD puslapio apačioje „Atlikti DD“ (užšifruoti)."], en: ["you: On the DD page choose “Fund”, enter the ISIN, the fund and the manager.", "ai: Copy the prompt and paste it into the Claude project. You can list alternatives in the field, otherwise Claude finds them.", "ai: Claude prepares the DD as a PowerPoint following the SEB “Liquid Funds DD” template in the project files – not on the public site. It picks the alternatives itself.", "you: On the sanctions slide check the management company (eNameChecker, OFAC, EU map) and add the screenshots. Find the red “NOT FOUND” figures internally and paste them into “Supplement a completed DD” – Claude fills them into the same file.", "you: Review it and file it with the team files.", "code: Completed DDs are at the bottom of the DD page, “Completed DDs” (encrypted)."] },
       prompt: { lt: f => `Atlik fondo / ETF Due Diligence (PowerPoint pagal SEB Liquid Funds DD šabloną).\nISIN: ${f.isin || "[ISIN]"}\nFondas: ${f.name || "[fondas]"}`, en: f => `Do a fund / ETF Due Diligence (PowerPoint, SEB Liquid Funds DD template).\nISIN: ${f.isin || "[ISIN]"}\nFund: ${f.name || "[fund]"}` } },
+    { id: "screen", kind: "ai", kw: "etf paieška screener ieškoti fondo palyginimas kriterijai equal weight ucits xetra eur sfdr search compare shortlist",
+      t: { lt: "ETF paieška ir palyginimas (prieš DD)", en: "ETF search and comparison (before a DD)" },
+      when: { lt: "reikia rasti tinkamą ETF pagal kriterijus, dar prieš pilną DD.", en: "you need to find a suitable ETF by criteria, before a full DD." },
+      steps: { lt: ["you: DD puslapyje pasirinkite „ETF paieška“, pažymėkite kriterijus ir parašykite komentarą.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte.", "ai: Claude suranda visus tinkamus ETF, palygina ir pasiūlo finalistus; rezultatas – PowerPoint ir užšifruotas įrašas archyve.", "you: Apačioje „Atliktos ETF paieškos“ spauskite „Peržiūrėti“; PowerPoint galite atsisiųsti ir persiųsti kolegoms.", "ai: Prie pasirinkto ETF spauskite „Pilnas DD“ – DD forma užsipildys, nukopijuokite užklausą Claude."], en: ["you: On the DD page choose “ETF search”, tick the criteria and write a comment.", "ai: Copy the prompt and paste it into the Claude project.", "ai: Claude finds all matching ETFs, compares them and suggests finalists; the result is a PowerPoint and an encrypted archive entry.", "you: Under “Completed ETF searches” press “View”; download the PowerPoint to forward to colleagues.", "ai: On the chosen ETF press “Full DD” – the DD form fills in; copy the prompt to Claude."] },
+      prompt: { lt: () => "Atlik ETF paiešką ir palyginimą: [ko ieškote, kriterijai]", en: () => "Do an ETF search and comparison: [what you need, criteria]" } },
     { id: "manual", kind: "you", kw: "nortal slaptažodis portalas įkelti ataskaitą password portal upload",
       t: { lt: "Slaptažodžiu apsaugotos ataskaitos (Nortal)", en: "Password-protected reports (Nortal)" },
       when: { lt: "Nortal paskelbė naują ataskaitą investuotojų portale.", en: "Nortal has published a new report in its investor portal." },
@@ -970,6 +975,7 @@
     ];
     out.push(S(lt ? "Due Diligence – naujas instrumentas" : "Due Diligence – new instrument", "dd due diligence naujas instrumentas emisija pirkimas sfdr apskaita new issue accounting", "#dd/bond", "ai"));
     out.push(S(lt ? "Funds DD – fondas / ETF (PowerPoint)" : "Funds DD – fund / ETF (PowerPoint)", "funds dd fondas fondų etf due diligence powerpoint pptx liquid funds ucits index fund alternatyvos", "#dd/fund", "ai"));
+    out.push(S(lt ? "ETF paieška ir palyginimas (prieš DD)" : "ETF search and comparison (before a DD)", "etf paieška screener ieškoti palyginti kriterijai equal weight search compare shortlist", "#dd/screen", "ai"));
     out.push(S(lt ? "Papildyti atliktą Funds DD (NOT FOUND duomenys)" : "Supplement a completed Funds DD (NOT FOUND items)", "papildyti papildymas not found nerasta trūksta supplement missing funds dd fondas etf", "#dd/fund", "ai"));
     JOBS.forEach(j => out.push(S(L(j.t), j.kw, `#tools/x/job-${j.id}`, j.kind, [], lt ? "instrukcija" : "how-to")));
     D.issuers.forEach(i => out.push(S(i.name, `${i.legal_name} ${i.country} ${i.sector} ${i.id}`, `#issuer/${i.id}`, "", [], `${i.country} · ${lt ? "apžvalga" : "review"}`)));
@@ -1018,7 +1024,7 @@
       aType: "Type", aSub: "Subtype", aRat: "Credit rating", aIg: "IG / HY", aSfdr: "SFDR", aCty: "Country / sector",
       corp: "Corporate", fin: "Financial", fromTs: "from the term sheet", issR: "issuer rating; the issue rating comes from the term sheet", ig: "Investment grade", hy: "High yield", nr: "Not rated – check",
       sfdr9: "9 – green bond", sfdr8: "8 – issuer has sustainability targets", sfdr6: "6 – no sustainability targets found (check)", sfdrQ: "depends on the green status",
-      prompt: "Prompt for Claude", cmp: "Claude picks the comparable alternatives itself from bonds that can be bought now (Nasdaq Baltic quotes, recent new issues of similar issuers).", rule: "SFDR rule: green bond = 9; not green but the issuer has sustainability targets = 8; a fully unsustainable company = 6.", kBond: "Bond / share", kFund: "Fund / ETF" },
+      prompt: "Prompt for Claude", cmp: "Claude picks the comparable alternatives itself from bonds that can be bought now (Nasdaq Baltic quotes, recent new issues of similar issuers).", rule: "SFDR rule: green bond = 9; not green but the issuer has sustainability targets = 8; a fully unsustainable company = 6.", kBond: "Bond / share", kFund: "Fund / ETF", kScreen: "ETF search" },
     lt: { title: "Due Diligence", sub: "Pasiruošimas naujam instrumentui (esamo ar naujo emitento). Claude parašo DD Word faile projekto failuose (kalba – kaip nustatyta dashboard) – čia jis niekada neskelbiamas, nes term sheet ir brokerių laiškai nėra vieši.",
       inst: "Naujas instrumentas", isin: "ISIN", iss: "Emitentas", newIss: "– naujas emitentas (įrankyje nėra) –", newName: "Emitento pavadinimas", green: "Žalioji obligacija?", gY: "taip (žalioji / EuGB sistema)", gN: "ne", gU: "nežinau",
       typ: "Tipas", bond: "Obligacija", share: "Akcija", rank: "Rangas (jei žinomas)", rankPh: "pvz. senior preferred, SNP, subordinuota",
@@ -1029,12 +1035,12 @@
       aType: "Tipas", aSub: "Potipis", aRat: "Kredito reitingas", aIg: "IG / HY", aSfdr: "SFDR", aCty: "Šalis / sektorius",
       corp: "Įmonių (Corporate)", fin: "Finansų (Financial)", fromTs: "pagal term sheet", issR: "emitento reitingas; emisijos reitingas – pagal term sheet", ig: "Investicinis (IG)", hy: "Spekuliatyvus (HY)", nr: "Be reitingo – patikrinti",
       sfdr9: "9 – žalioji obligacija", sfdr8: "8 – emitentas turi tvarumo tikslų", sfdr6: "6 – tvarumo tikslų nerasta (patikrinti)", sfdrQ: "priklauso nuo to, ar žalioji",
-      prompt: "Užklausa Claude", cmp: "Palyginamąsias alternatyvas Claude parenka pats iš šiuo metu įsigyjamų obligacijų (Nasdaq Baltic kotiruotės, naujausios panašių emitentų emisijos).", rule: "SFDR taisyklė: žalioji obligacija = 9; ne žalioji, bet emitentas turi tvarumo tikslų = 8; visiškai netvari įmonė = 6.", kBond: "Obligacija / akcija", kFund: "Fondas / ETF" }
+      prompt: "Užklausa Claude", cmp: "Palyginamąsias alternatyvas Claude parenka pats iš šiuo metu įsigyjamų obligacijų (Nasdaq Baltic kotiruotės, naujausios panašių emitentų emisijos).", rule: "SFDR taisyklė: žalioji obligacija = 9; ne žalioji, bet emitentas turi tvarumo tikslų = 8; visiškai netvari įmonė = 6.", kBond: "Obligacija / akcija", kFund: "Fondas / ETF", kScreen: "ETF paieška" }
   };
   const dx = k => (DX[LANG] || DX.en)[k];
   let DF = { isin: "", iss: "", name: "", green: "", type: "bond", rank: "" };
-  let DKIND = "bond"; try { DKIND = localStorage.getItem("ddkind") === "fund" ? "fund" : "bond"; } catch (e) { /* ignore */ }
-  const ddSeg = () => `<div class="row" style="margin:0 0 14px"><span class="seg" id="ddKind">${[["bond", dx("kBond")], ["fund", dx("kFund")]].map(([k, l]) => `<button class="btn sm ${k === DKIND ? "on" : ""}" data-k="${k}">${esc(l)}</button>`).join("")}</span></div>`;
+  let DKIND = "bond"; try { DKIND = ["fund", "screen"].includes(localStorage.getItem("ddkind")) ? localStorage.getItem("ddkind") : "bond"; } catch (e) { /* ignore */ }
+  const ddSeg = () => `<div class="row" style="margin:0 0 14px"><span class="seg" id="ddKind">${[["bond", dx("kBond")], ["fund", dx("kFund")], ["screen", dx("kScreen")]].map(([k, l]) => `<button class="btn sm ${k === DKIND ? "on" : ""}" data-k="${k}">${esc(l)}</button>`).join("")}</span></div>`;
   document.addEventListener("click", e => {
     const b = e.target.closest("#ddKind [data-k]"); if (!b) return;
     DKIND = b.dataset.k; try { localStorage.setItem("ddkind", DKIND); } catch (x) { /* ignore */ }
@@ -1042,6 +1048,7 @@
   });
   function ddPage() {
     if (DKIND === "fund") return fundPage();
+    if (DKIND === "screen") return screenPage();
     setTimeout(initDd);
     const opt = (v, l, cur) => `<option value="${esc(v)}"${v === cur ? " selected" : ""}>${esc(l)}</option>`;
     return `<h1>${dx("title")}</h1><p class="sub">${dx("sub")}</p>${ddSeg()}${jobHow("dd")}
@@ -1071,7 +1078,7 @@
       sup: "Papildyti atliktą DD", supHint: "Peržiūrėję pirmą variantą, įklijuokite, ką radote viduje (spread, apyvarta, tracking error, prospekto citatos, sankcijų patikros rezultatas, Bloomberg BDP rezultatas…). Claude įrašys į tą patį failą ir pakeis jį archyve. Šioje svetainėje niekas nesaugoma.", supPh: "pvz. Bid-ask spread XETRA 0,08 % (Bloomberg, 2026-10-28)\n90D vidutinė apyvarta EUR 1,2 mln.\nSankcijos: atitikmenų nėra (eNameChecker, OFAC, ES žemėlapis)", supP: "Užklausa DD papildymui" }
   };
   const fx = k => (FX[LANG] || FX.en)[k];
-  let FF = { isin: "", name: "", mgr: "", tick: "", tgt: "", why: "", alt: "", sup: "" };
+  let FF = { isin: "", name: "", mgr: "", tick: "", tgt: "", why: "", alt: "", sup: "", scr: "" };
   function fundPage() {
     setTimeout(initFund);
     const inp = (id, k, ph) => `<label class="fl">${fx(k)} <input id="f_${id}" value="${esc(FF[id])}"${ph ? ` placeholder="${esc(ph)}"` : ""}></label>`;
@@ -1084,8 +1091,8 @@
   }
   function fundOut() {
     const lt = LANG === "lt", v = (x, d) => x || d;
-    const p = lt ? `Atlik fondo / ETF Due Diligence (PowerPoint pagal SEB Liquid Funds DD šabloną, anglų kalba; į viešą repo nekelk).\nISIN: ${v(FF.isin, "[ISIN]")}\nFondas: ${v(FF.name, "[fondas]")}\nValdytojas: ${v(FF.mgr, "[valdytojas]")}\nTickeris: ${v(FF.tick, "[nežinau]")}\nKuriam fondui / svoris: ${v(FF.tgt, "[nenurodyta]")}\nKodėl svarstome: ${v(FF.why, "[nenurodyta]")}\nAlternatyvos: ${FF.alt ? "\n" + FF.alt : "[surask pats]"}`
-      : `Do a fund / ETF Due Diligence (PowerPoint, SEB Liquid Funds DD template; do not put it in the public repo).\nISIN: ${v(FF.isin, "[ISIN]")}\nFund: ${v(FF.name, "[fund]")}\nManager: ${v(FF.mgr, "[manager]")}\nTicker: ${v(FF.tick, "[not known]")}\nTarget fund / weight: ${v(FF.tgt, "[not given]")}\nWhy: ${v(FF.why, "[not given]")}\nAlternatives: ${FF.alt ? "\n" + FF.alt : "[find them yourself]"}`;
+    const p = lt ? `Atlik fondo / ETF Due Diligence (PowerPoint pagal SEB Liquid Funds DD šabloną, anglų kalba; į viešą repo nekelk).\nISIN: ${v(FF.isin, "[ISIN]")}\nFondas: ${v(FF.name, "[fondas]")}\nValdytojas: ${v(FF.mgr, "[valdytojas]")}\nTickeris: ${v(FF.tick, "[nežinau]")}\nKuriam fondui / svoris: ${v(FF.tgt, "[nenurodyta]")}\nKodėl svarstome: ${v(FF.why, "[nenurodyta]")}\nAlternatyvos: ${FF.alt ? "\n" + FF.alt : "[surask pats]"}${FF.scr ? `\nPagal: ${FF.scr} – panaudok jos duomenis` : ""}`
+      : `Do a fund / ETF Due Diligence (PowerPoint, SEB Liquid Funds DD template; do not put it in the public repo).\nISIN: ${v(FF.isin, "[ISIN]")}\nFund: ${v(FF.name, "[fund]")}\nManager: ${v(FF.mgr, "[manager]")}\nTicker: ${v(FF.tick, "[not known]")}\nTarget fund / weight: ${v(FF.tgt, "[not given]")}\nWhy: ${v(FF.why, "[not given]")}\nAlternatives: ${FF.alt ? "\n" + FF.alt : "[find them yourself]"}${FF.scr ? `\nBased on: ${FF.scr} – reuse its data` : ""}`;
     return `<div class="card">${sancBox(FF.mgr)}</div>
       <div class="card" style="margin-top:12px"><h3>${fx("prompt")} ${kindTag("ai")}</h3><div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div></div>${FF.sup ? supOut() : ""}`;
   }
@@ -1102,6 +1109,105 @@
     ["f_alt", "f_sup"].forEach(i => { const ta = document.getElementById(i); if (ta) ta.oninput = upd; });
     upd();
   }
+  /* ETF paieška prieš DD: kriterijų gidas -> užklausa Claude; rezultatai - užšifruotame archyve (type "screen", peržiūra meta.view) */
+  const SCX = {
+    en: { sub: "Looking for an ETF before any DD? Pick the criteria, add a comment and copy the prompt. Claude searches, compares everything it can find and suggests the most attractive options. The result is saved encrypted below (“Completed ETF searches”) and can be downloaded as PowerPoint.",
+      h: "What are you looking for?", what: "Index, strategy or theme", whatPh: "e.g. S&P 500 Equal Weight", asset: "Asset class", region: "Region", style: "Strategy / style",
+      must: "Must have", mustO: ["UCITS", "Listed on XETRA (GY)", "Trading currency EUR", "Physical replication", "No currency hedging", "EUR hedged share class"],
+      dist: "Income", distO: ["Any", "Accumulating", "Distributing"], sfdr: "SFDR", sfdrO: ["Not important", "Article 8 preferred if otherwise comparable", "At least Article 8", "Article 9 only"],
+      ter: "Max cost (TER, %)", aum: "Min fund size (EUR m)", yrs: "Min track record (years)", prio: "What matters most (pick up to 3)",
+      prioO: ["Low cost", "Size and liquidity", "Tracking quality", "Sustainability", "Long track record", "Exact index"], n: "Finalists to suggest", nO: ["3", "5", "All that fit"],
+      note: "Free comment", notePh: "Anything else: why we need it, what to avoid, ETFs you already know…",
+      assetO: ["Equity", "Bonds", "Money market", "Commodities", "Multi-asset", "Real estate"],
+      regionO: ["Global", "USA", "Europe", "Eurozone", "Japan", "Emerging markets", "Asia-Pacific", "Single country"],
+      styleO: ["Market cap", "Equal weight", "Value", "Growth", "Quality", "Min volatility", "Dividend", "Small / mid cap", "Sector", "Theme", "ESG / climate"],
+      prompt: "Prompt for Claude", list: "Completed ETF searches", none: "No searches yet.", view: "View", hide: "Hide", ppt: "PowerPoint", full: "Full DD",
+      cols: ["", "ETF", "ISIN / XETRA", "Cost", "Size", "SFDR", "Replication", "Income", "Since", "Note"], picks: "Suggested", crit: "Criteria", sum: "Summary", notes: "Notes" },
+    lt: { sub: "Ieškote ETF dar prieš DD? Pasirinkite kriterijus, parašykite komentarą ir nukopijuokite užklausą. Claude suras, palygins viską, ką įmanoma rasti, ir pasiūlys patraukliausius variantus. Rezultatas išsaugomas užšifruotas apačioje („Atliktos ETF paieškos“), jį galima atsisiųsti kaip PowerPoint.",
+      h: "Ko ieškote?", what: "Indeksas, strategija ar tema", whatPh: "pvz. S&P 500 Equal Weight", asset: "Turto klasė", region: "Regionas", style: "Strategija / stilius",
+      must: "Būtina", mustO: ["UCITS", "Kotiruojamas XETRA (GY)", "Prekybos valiuta EUR", "Fizinis replikavimas", "Be valiutos apsidraudimo", "EUR apdrausta klasė"],
+      dist: "Pajamos", distO: ["Nesvarbu", "Kaupiamasis", "Išmokantis"], sfdr: "SFDR", sfdrO: ["Nesvarbu", "Pirmenybė 8 str., jei kiti rodikliai panašūs", "Ne mažiau 8 str.", "Tik 9 str."],
+      ter: "Didžiausias kaštas (TER, %)", aum: "Mažiausias fondo dydis (mln. EUR)", yrs: "Mažiausia istorija (metai)", prio: "Kas svarbiausia (iki 3)",
+      prioO: ["Maži kaštai", "Dydis ir likvidumas", "Indekso sekimo tikslumas", "Tvarumas", "Ilga istorija", "Tikslus indeksas"], n: "Kiek finalistų pasiūlyti", nO: ["3", "5", "Visus tinkamus"],
+      note: "Laisvas komentaras", notePh: "Kas dar svarbu: kodėl reikia, ko vengti, jau žinomi ETF…",
+      assetO: ["Akcijos", "Obligacijos", "Pinigų rinka", "Žaliavos", "Mišrūs", "Nekilnojamasis turtas"],
+      regionO: ["Pasaulis", "JAV", "Europa", "Euro zona", "Japonija", "Besivystančios rinkos", "Azija ir Ramusis vandenynas", "Viena šalis"],
+      styleO: ["Pagal kapitalizaciją", "Lygūs svoriai (equal weight)", "Vertės", "Augimo", "Kokybės", "Mažo svyravimo", "Dividendų", "Mažos / vidutinės įmonės", "Sektorius", "Tema", "ESG / klimatas"],
+      prompt: "Užklausa Claude", list: "Atliktos ETF paieškos", none: "Paieškų dar nėra.", view: "Peržiūrėti", hide: "Slėpti", ppt: "PowerPoint", full: "Pilnas DD",
+      cols: ["", "ETF", "ISIN / XETRA", "Kaštai", "Dydis", "SFDR", "Replikavimas", "Pajamos", "Nuo", "Pastaba"], picks: "Siūlomi", crit: "Kriterijai", sum: "Santrauka", notes: "Pastabos" }
+  };
+  const scx = k => (SCX[LANG] || SCX.en)[k];
+  // pasirinkimai saugomi indeksais, kad perjungus kalbą neišsibarstytų; užklausa visada angliškai (Claude), komentaras - kaip parašyta
+  let SC = { what: "", asset: [0], region: [], style: [], must: [0, 1, 2], dist: 0, sfdr: 0, ter: "", aum: "", yrs: "", prio: [], n: 1, note: "" };
+  function screenPage() {
+    setTimeout(initScreen);
+    const chips = (k, multi, max) => `<div class="chips" data-sk="${k}"${max ? ` data-max="${max}"` : ""}>${scx(k + "O").map((l, i) => {
+      const on = multi ? SC[k].includes(i) : SC[k] === i;
+      return `<label><input type="${multi ? "checkbox" : "radio"}" name="sc_${k}" value="${i}"${on ? " checked" : ""}>${esc(l)}</label>`; }).join("")}</div>`;
+    const inp = (k, ph) => `<label class="fl">${scx(k)} <input id="sc_${k}" value="${esc(SC[k])}"${ph ? ` placeholder="${esc(ph)}"` : ""}></label>`;
+    return `<h1>${dx("title")}</h1><p class="sub">${scx("sub")}</p>${ddSeg()}${jobHow("screen")}
+      <div class="two"><div class="card ddform"><h3>${scx("h")}</h3>
+        ${inp("what", scx("whatPh"))}
+        <div class="fl">${scx("asset")}</div>${chips("asset", true)}<div class="fl">${scx("region")}</div>${chips("region", true)}<div class="fl">${scx("style")}</div>${chips("style", true)}
+        <div class="fl">${scx("must")}</div>${chips("must", true)}<div class="fl">${scx("dist")}</div>${chips("dist")}<div class="fl">${scx("sfdr")}</div>${chips("sfdr")}
+        <div class="three">${inp("ter", "0.30")}${inp("aum", "100")}${inp("yrs", "3")}</div>
+        <div class="fl">${scx("prio")}</div>${chips("prio", true, 3)}<div class="fl">${scx("n")}</div>${chips("n")}
+        <label class="fl">${scx("note")} <textarea id="sc_note" rows="4" placeholder="${esc(scx("notePh"))}">${esc(SC.note)}</textarea></label></div>
+      <div id="sOut"></div></div>${ddArchive()}`;
+  }
+  function screenPrompt() {
+    const E = SCX.en, pick = (k, v) => (Array.isArray(v) ? v : [v]).map(i => E[k + "O"][i]).join(", ") || "any";
+    const L = [`Do an ETF search and comparison before a DD (PowerPoint in English + encrypted archive entry; do not put it in the public repo).`,
+      `Looking for: ${SC.what || "[index / strategy / theme]"}`, `Asset class: ${pick("asset", SC.asset)}`, `Region: ${pick("region", SC.region)}`, `Strategy / style: ${pick("style", SC.style)}`,
+      `Must have: ${pick("must", SC.must)}`, `Income: ${pick("dist", SC.dist)}`, `SFDR: ${pick("sfdr", SC.sfdr)}`];
+    if (SC.ter) L.push(`Max TER: ${SC.ter}%`); if (SC.aum) L.push(`Min fund size: EUR ${SC.aum}m`); if (SC.yrs) L.push(`Min track record: ${SC.yrs} years`);
+    L.push(`What matters most: ${pick("prio", SC.prio)}`, `Finalists: ${pick("n", SC.n)}`);
+    if (SC.note) L.push(`Comment: ${SC.note}`);
+    return L.join("\n");
+  }
+  function initScreen() {
+    const box = document.getElementById("sOut"); if (!box) return;
+    const show = () => { const p = screenPrompt(); box.innerHTML = `<div class="card"><h3>${scx("prompt")} ${kindTag("ai")}</h3><div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div></div>`; };
+    document.querySelectorAll(".chips[data-sk]").forEach(g => g.onchange = e => {
+      const k = g.dataset.sk, max = +g.dataset.max || 0;
+      if (Array.isArray(SC[k])) {
+        let v = [...g.querySelectorAll("input:checked")].map(x => +x.value);
+        if (max && v.length > max) { e.target.checked = false; v = v.filter(x => x !== +e.target.value); }
+        SC[k] = v;
+      } else SC[k] = +e.target.value;
+      show();
+    });
+    ["what", "ter", "aum", "yrs", "note"].forEach(k => { const el = document.getElementById("sc_" + k); if (el) el.oninput = () => { SC[k] = el.value.trim(); show(); }; });
+    show();
+  }
+  // atliktos paieškos (iššifruotos su DD archyvu)
+  let SOPEN = null;
+  function screenList() {
+    const sc = (DDL || []).filter(x => x.type === "screen"); if (!sc.length) return DKIND === "screen" ? `<h4>${scx("list")}</h4><p class="muted small">${scx("none")}</p>` : "";
+    return `<h4 style="margin-top:16px">${scx("list")}</h4><div class="tbl-wrap"><table>${sc.map(x => `<tr><td>${esc(x.date)}</td><td><b>${esc(x.title)}</b></td>
+      <td class="nw"><button class="btn sm" data-sv="${esc(x.id)}">${SOPEN === x.id ? scx("hide") : scx("view")}</button> <button class="btn sm" data-dd="${esc(x.id)}">⬇ ${scx("ppt")}</button></td></tr>
+      ${SOPEN === x.id ? `<tr><td colspan="3">${screenView(x)}</td></tr>` : ""}`).join("")}</table></div>`;
+  }
+  function screenView(x) {
+    const v = x.view || {}, c = scx("cols"), li = a => (a || []).length ? `<ul class="b small">${a.map(s => `<li>${esc(s)}</li>`).join("")}</ul>` : "";
+    const fb = r => `<button class="btn sm primary" data-fdd="${esc(x.id)}|${esc(r.isin)}">${scx("full")} →</button>`;
+    return `<div class="sview">${(v.criteria || []).length ? `<p class="small"><b>${scx("crit")}:</b> ${esc(v.criteria.join(" · "))}</p>` : ""}
+      <h4>${scx("sum")}</h4>${li(v.summary)}
+      ${(v.picks || []).length ? `<h4>${scx("picks")}</h4><div class="spicks">${v.picks.map((p, i) => `<div class="card spk"><div class="muted small">#${i + 1}</div><b>${esc(p.name)}</b><div class="small">${esc(p.isin)}${p.tick ? " · " + esc(p.tick) : ""}</div><p class="small">${esc(p.why || "")}</p>${fb(p)}</div>`).join("")}</div>` : ""}
+      <div class="tbl-wrap"><table class="small"><tr>${c.map(h => `<th>${h}</th>`).join("")}</tr>${(v.rows || []).map(r => `<tr${r.pick ? ` class="pick"` : ""}><td>${r.pick ? "★" : r.out ? "✕" : ""}</td><td>${esc(r.name)}</td><td>${esc(r.isin)}${r.tick ? `<br><span class="muted">${esc(r.tick)}</span>` : ""}</td><td>${esc(r.ter || "")}</td><td class="nw">${esc(r.aum || "")}</td><td>${esc(r.sfdr || "")}</td><td>${esc(r.repl || "")}</td><td>${esc(r.dist || "")}</td><td>${esc(r.since || "")}</td><td>${esc(r.note || "")}</td></tr>`).join("")}</table></div>
+      ${li(v.notes)}</div>`;
+  }
+  document.addEventListener("click", e => {
+    const s = e.target.closest("[data-sv]");
+    if (s) { SOPEN = SOPEN === s.dataset.sv ? null : s.dataset.sv; initDdArch(); return; }
+    const f = e.target.closest("[data-fdd]"); if (!f) return;
+    const [sid, isin] = f.dataset.fdd.split("|"), x = (DDL || []).find(y => y.id === sid); if (!x) return;
+    const v = x.view || {}, all = [...(v.picks || []), ...(v.rows || [])], r = all.find(y => y.isin === isin) || { isin };
+    const alts = (v.picks || []).filter(p => p.isin !== isin).map(p => `${p.name} (${p.isin})`).join("\n");
+    FF = { ...FF, isin: r.isin, name: r.name || "", mgr: r.mgr || "", tick: r.tick || "", alt: alts, sup: "", scr: `${x.title} (${x.date})` };
+    DKIND = "fund"; try { localStorage.setItem("ddkind", "fund"); } catch (y) { /* ignore */ }
+    location.hash = "#dd/fund"; window.scrollTo(0, 0);
+  });
   /* Atlikti DD - užšifruotas archyvas (tools/dd_vault.py). Slaptažodis tik naršyklėje (jei pažymėta „Prisiminti“). */
   const DA = {
     en: { h: "Completed DDs", sub: "The files are encrypted – the public website cannot read them. Enter the password once; with “Remember on this computer” it is stored only in this browser.",
@@ -1149,17 +1255,17 @@
   function ddArchHtml(msg) {
     if (!DDL) return `<div class="row ddpw"><input id="ddPw" type="password" placeholder="${esc(da("pw"))}" autocomplete="current-password"><label class="chk small"><input type="checkbox" id="ddRem" checked> ${da("rem")}</label><button class="btn primary" id="ddOpen">${da("open")}</button></div>
       ${msg ? `<p class="bad small">${esc(msg)}</p>` : ""}<p class="muted small">${da("lost")}</p>`;
-    const docs = DDL.filter(x => x.type !== "zip"), zipOf = id => {
+    const docs = DDL.filter(x => x.type !== "zip" && x.type !== "screen"), zipOf = id => {
       const par = z => (D.dd.zips || {})[z.id] || z.parent, me = DDL.find(x => x.id === id);
       // tas pats DD kita kalba (tas pats ISIN ir data) naudoja tą patį dokumentacijos ZIP
       return DDL.find(z => z.type === "zip" && par(z) === id) || DDL.find(z => { if (z.type !== "zip") return false; const p = DDL.find(x => x.id === par(z)); return p && me && p.isin === me.isin && p.date === me.date; });
     };
-    if (!docs.length) return `<p class="muted">${da("none")}</p>`;
+    if (!docs.length) return `<p class="muted">${da("none")}</p>${screenList()}`;
     const c = da("cols");
     const zb = x => { const z = zipOf(x.id); return z ? ` <button class="btn sm" data-dd="${esc(z.id)}">⬇ ${da("zip")}</button>` : (D.dd.pending || []).includes(x.id) ? ` <span class="muted small">${da("zipWait")}</span>` : ""; };
     return `<div class="tbl-wrap"><table><tr>${c.map(x => `<th>${x}</th>`).join("")}</tr>${docs.map(x => `<tr><td>${esc(x.date)}</td><td>${byId[x.issuer] ? `<a href="#issuer/${x.issuer}">${esc(x.name)}</a>` : esc(x.name)}</td><td>${esc(x.isin)}</td><td>${esc(x.title)}</td><td>${esc(String(x.lang).toUpperCase())}</td><td>${esc(x.decision)}</td><td>${esc(x.sfdr)}</td>
       <td class="nw"><button class="btn sm" data-dd="${esc(x.id)}">⬇ ${da("dl")}</button>${zb(x)}</td></tr>`).join("")}</table></div>
-      <p class="small"><button class="btn sm" id="ddForget">${da("forget")}</button></p>`;
+      ${screenList()}<p class="small"><button class="btn sm" id="ddForget">${da("forget")}</button></p>`;
   }
   async function initDdArch(msg) {
     const box = document.getElementById("ddArchIn"); if (!box) return;
@@ -1274,7 +1380,7 @@
 
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
-    const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (arg === "fund" || arg === "bond") DKIND = arg; return ddPage(); }, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
+    const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (["fund", "bond", "screen"].includes(arg)) DKIND = arg; return ddPage(); }, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
     const cur = map[page] ? (page === "issuer" ? "issuers" : page === "isin" ? "securities" : page) : "overview";
     document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = k === "esg" ? "ESG" : t(k); a.classList.toggle("on", a.getAttribute("href").slice(1) === cur); });
     const nm = document.querySelector(".navmore"); if (nm) { nm.open = false; nm.querySelector("summary").textContent = t("moreNav") + " ▾"; nm.classList.toggle("on", !!nm.querySelector("a.on")); }

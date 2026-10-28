@@ -10,6 +10,7 @@ Slaptažodis niekur nesaugomas. Pametus - `init --force` (naujas raktas) ir visu
   python tools/dd_vault.py init                      # vieną kartą: sukuria raktą, atspausdina slaptažodį
   python tools/dd_vault.py add FAILAS.docx --issuer ignitis --name "Ignitis grupė" --isin XS... --lang lt --title "..."
   python tools/dd_vault.py add ... --sources SALTINIAI.json  # + vieši šaltiniai ZIP'ui ([{key,title,url}]), ZIP sukuria GitHub Actions
+  python tools/dd_vault.py screen FAILAS.pptx --view VIEW.json --title "..."  # ETF paieška: PowerPoint + peržiūra dashboard'e (meta.view)
   python tools/dd_vault.py replace ID                # pataisytas DD (tas pats failas manifest'e) – ZIP lieka
   python tools/dd_vault.py remove ID                 # pašalina įrašą (ir jo ZIP)
   python tools/dd_vault.py rekey                     # pamiršus slaptažodį: naujas raktas, visi DD iš projekto failų iš naujo
@@ -72,8 +73,8 @@ def add_bytes(data, meta, eid=None):
     return eid
 
 
-def add(path, meta, sources=None, record=True):
-    eid = add_bytes(Path(path).read_bytes(), {**meta, "type": "dd", "file": Path(path).name})
+def add(path, meta, sources=None, record=True, kind="dd"):
+    eid = add_bytes(Path(path).read_bytes(), {**meta, "type": kind, "file": Path(path).name})
     if sources:
         (DIR / "jobs").mkdir(exist_ok=True)
         (DIR / "jobs" / f"{eid}.json").write_text(json.dumps({"parent": eid, "name": f"{Path(path).stem}_documents.zip",
@@ -91,7 +92,10 @@ def replace(eid):
     su senu raktu), senas įrašas pašalinamas, ZIP perkeliamas naujam id per data/dd/zips.json."""
     man = json.loads(MANIFEST.read_text())
     m = next(m for m in man if m.get("id") == eid)
-    new = add_bytes(Path(m["path"]).read_bytes(), {**m["meta"], "type": "dd", "file": Path(m["path"]).name})
+    meta = {**m["meta"], "type": m.get("type", "dd"), "file": Path(m["path"]).name}
+    if m.get("view"):  # ETF paieška: peržiūra iš naujausio VIEW.json
+        meta["view"] = json.loads(Path(m["view"]).read_text())
+    new = add_bytes(Path(m["path"]).read_bytes(), meta)
     INDEX.write_text(json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != eid], indent=1) + "\n")
     (DIR / f"{eid}.bin").unlink(missing_ok=True)
     zf = DIR / "zips.json"
@@ -104,6 +108,20 @@ def replace(eid):
     m["id"] = new
     MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
     print("Atnaujinta:", eid, "->", new, Path(m["path"]).name)
+
+
+def screen(path, view, title, date):
+    """ETF paieška prieš DD: PowerPoint užšifruojamas kaip įprastas failas, o rezultatų lentelė (VIEW.json) - į užšifruotus
+    metaduomenis, kad dashboard'as parodytų ją atrakinus (be atsisiuntimo). Pataisymas - `replace ID` (VIEW.json perskaitomas iš naujo)."""
+    meta = {"title": title, "date": date, "lang": "en", "view": json.loads(Path(view).read_text())}
+    eid = add(path, meta, record=False, kind="screen")
+    if MANIFEST.parent.exists():
+        man = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else []
+        man = [m for m in man if m["path"] != str(Path(path).resolve())]
+        man.append({"path": str(Path(path).resolve()), "id": eid, "type": "screen", "view": str(Path(view).resolve()),
+                    "meta": {"title": title, "date": date, "lang": "en"}, "sources": []})
+        MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+    return eid
 
 
 def remove(eid):
@@ -129,7 +147,8 @@ def rekey(pw=None):
     init(True, pw)
     new = []
     for m in man:
-        m["id"] = add(m["path"], m["meta"], m.get("sources"), record=False)
+        meta = {**m["meta"], "view": json.loads(Path(m["view"]).read_text())} if m.get("view") else m["meta"]
+        m["id"] = add(m["path"], meta, m.get("sources"), record=False, kind=m.get("type", "dd"))
         new.append(m)
     MANIFEST.write_text(json.dumps(new, ensure_ascii=False, indent=1))
 
@@ -141,6 +160,8 @@ if __name__ == "__main__":
     r = sub.add_parser("rekey"); r.add_argument("--password")
     rm = sub.add_parser("remove"); rm.add_argument("id")
     rp = sub.add_parser("replace"); rp.add_argument("id")
+    sc = sub.add_parser("screen"); sc.add_argument("file"); sc.add_argument("--view", required=True); sc.add_argument("--title", required=True)
+    sc.add_argument("--date", default=dt.date.today().isoformat())
     a = sub.add_parser("add"); a.add_argument("file"); a.add_argument("--sources")
     for f in ("issuer", "name", "isin", "lang", "title", "decision", "sfdr"):
         a.add_argument("--" + f, default="")
@@ -152,6 +173,8 @@ if __name__ == "__main__":
         rekey(x.password)
     elif x.cmd == "replace":
         replace(x.id)
+    elif x.cmd == "screen":
+        screen(x.file, x.view, x.title, x.date)
     elif x.cmd == "remove":
         remove(x.id)
     else:
