@@ -1,12 +1,12 @@
 {
  "news": {
   "date": "2026-10-28",
-  "new": 0,
+  "new": 7,
   "errors": []
  },
  "filings": {
   "date": "2026-10-28",
-  "new": 0,
+  "new": 11,
   "baseline": 0,
   "errors": [
    "luminor: https://luminor.lv/en/financial-reports: HTTP Error 403: Forbidden",
