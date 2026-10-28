@@ -365,3 +365,7 @@ td.nw{white-space:nowrap}
 .sview td.vd.switch, .sview td.vd.keisti { color: var(--bad, #c01e1e); }
 .sview td.vd.keep, .sview td.vd.laikyti { color: var(--good, #2e7d32); }
 .sview td.vd.watch, .sview td.vd.stebėti { color: #b45f06; }
+.chhits { display: flex; flex-direction: column; gap: 4px; margin: -4px 0 10px; }
+.chhit { text-align: left; font: inherit; font-size: 13.5px; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); cursor: pointer; }
+.chhit:hover { border-color: var(--accent); }
+.ddform .chips label.on { background: var(--accent); color: #fff; border-color: var(--accent); }
