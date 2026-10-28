@@ -1128,7 +1128,7 @@
       assetO: ["Equity", "Bonds", "Money market", "Commodities", "Multi-asset", "Real estate"],
       regionO: ["Global", "USA", "Europe", "Eurozone", "Japan", "Emerging markets", "Asia-Pacific", "Single country"],
       styleO: ["Market cap", "Equal weight", "Value", "Growth", "Quality", "Min volatility", "Dividend", "Small / mid cap", "Sector", "Theme", "ESG / climate"],
-      prompt: "Prompt for Claude", list: "Completed ETF searches and reviews", none: "No searches yet.", view: "View", hide: "Hide", ppt: "PowerPoint", full: "Full DD",
+      prompt: "Prompt for Claude", list: "Completed ETF searches and reviews", none: "No searches yet.", view: "View", hide: "Hide", ppt: "PowerPoint", full: "Full DD", evz: "Calculations and extracts (ZIP)",
       cols: ["", "ETF", "ISIN / XETRA", "Cost", "Size", "SFDR", "Replication", "Income", "Since", "Note"], picks: "Suggested", crit: "Criteria", sum: "Summary", notes: "Notes" },
     lt: { sub: "Ieškote ETF dar prieš DD? Pasirinkite kriterijus, parašykite komentarą ir nukopijuokite užklausą. Claude suras, palygins viską, ką įmanoma rasti, ir pasiūlys patraukliausius variantus. Rezultatas išsaugomas užšifruotas apačioje („Atliktos ETF paieškos“), jį galima atsisiųsti kaip PowerPoint.",
       h: "Ko ieškote?", what: "Indeksas, strategija ar tema", whatPh: "pvz. S&P 500 Equal Weight", asset: "Turto klasė", region: "Regionas", style: "Strategija / stilius",
@@ -1140,7 +1140,7 @@
       assetO: ["Akcijos", "Obligacijos", "Pinigų rinka", "Žaliavos", "Mišrūs", "Nekilnojamasis turtas"],
       regionO: ["Pasaulis", "JAV", "Europa", "Euro zona", "Japonija", "Besivystančios rinkos", "Azija ir Ramusis vandenynas", "Viena šalis"],
       styleO: ["Pagal kapitalizaciją", "Lygūs svoriai (equal weight)", "Vertės", "Augimo", "Kokybės", "Mažo svyravimo", "Dividendų", "Mažos / vidutinės įmonės", "Sektorius", "Tema", "ESG / klimatas"],
-      prompt: "Užklausa Claude", list: "Atliktos ETF paieškos ir peržiūros", none: "Paieškų dar nėra.", view: "Peržiūrėti", hide: "Slėpti", ppt: "PowerPoint", full: "Pilnas DD",
+      prompt: "Užklausa Claude", list: "Atliktos ETF paieškos ir peržiūros", none: "Paieškų dar nėra.", view: "Peržiūrėti", hide: "Slėpti", ppt: "PowerPoint", full: "Pilnas DD", evz: "Skaičiavimai ir išrašai (ZIP)",
       cols: ["", "ETF", "ISIN / XETRA", "Kaštai", "Dydis", "SFDR", "Replikavimas", "Pajamos", "Nuo", "Pastaba"], picks: "Siūlomi", crit: "Kriterijai", sum: "Santrauka", notes: "Pastabos" }
   };
   const scx = k => (SCX[LANG] || SCX.en)[k];
@@ -1164,7 +1164,7 @@
   }
   function screenPrompt() {
     const E = SCX.en, pick = (k, v) => (Array.isArray(v) ? v : [v]).map(i => E[k + "O"][i]).join(", ") || "any";
-    const L = [`Do an ETF search and comparison before a DD (PowerPoint in English + encrypted archive entry; do not put it in the public repo).`,
+    const L = [`Do an ETF search and comparison before a DD (PowerPoint in English + encrypted archive entry with `--sources <sources.json> --evidence <folder>`: documents ZIP of every source and an evidence ZIP with data extracts and own calculations; do not put it in the public repo).`,
       `Looking for: ${SC.what || "[index / strategy / theme]"}`, `Asset class: ${pick("asset", SC.asset)}`, `Region: ${pick("region", SC.region)}`, `Strategy / style: ${pick("style", SC.style)}`,
       `Must have: ${pick("must", SC.must)}`, `Income: ${pick("dist", SC.dist)}`, `SFDR: ${pick("sfdr", SC.sfdr)}`];
     if (SC.ter) L.push(`Max TER: ${SC.ter}%`); if (SC.aum) L.push(`Min fund size: EUR ${SC.aum}m`); if (SC.yrs) L.push(`Min track record: ${SC.yrs} years`);
@@ -1193,8 +1193,15 @@
   function screenList() {
     const sc = (DDL || []).filter(x => x.type === "screen" || x.type === "challenge"); if (!sc.length) return ["screen", "challenge"].includes(DKIND) ? `<h4>${scx("list")}</h4><p class="muted small">${scx("none")}</p>` : "";
     return `<h4 style="margin-top:16px">${scx("list")}</h4><div class="tbl-wrap"><table>${sc.map(x => `<tr><td>${esc(x.date)}</td><td><b>${esc(x.title)}</b>${x.type === "challenge" ? ` <span class="muted small">· ${esc(dx("kChal"))}</span>` : ""}</td>
-      <td class="nw"><button class="btn sm" data-sv="${esc(x.id)}">${SOPEN === x.id ? scx("hide") : scx("view")}</button> <button class="btn sm" data-dd="${esc(x.id)}">⬇ ${scx("ppt")}</button></td></tr>
+      <td class="nw"><button class="btn sm" data-sv="${esc(x.id)}">${SOPEN === x.id ? scx("hide") : scx("view")}</button> <button class="btn sm" data-dd="${esc(x.id)}">⬇ ${scx("ppt")}</button>${zipBtns(x.id)}</td></tr>
       ${SOPEN === x.id ? `<tr><td colspan="3">${screenView(x)}</td></tr>` : ""}`).join("")}</table></div>`;
+  }
+  // dokumentų ZIP (šaltiniai, update.yml) ir įrodymų ZIP (išrašai, savi skaičiavimai) prie paieškos / peržiūros
+  function zipBtns(id) {
+    const zs = (DDL || []).filter(z => z.type === "zip" && ((D.dd.zips || {})[z.id] || z.parent) === id).sort((a, b) => (a.kind === "evidence") - (b.kind === "evidence"));
+    const docs = zs.some(z => z.kind !== "evidence");
+    return zs.map(z => ` <button class="btn sm" data-dd="${esc(z.id)}">⬇ ${z.kind === "evidence" ? scx("evz") : da("zip")}</button>`).join("") +
+      (!docs && (D.dd.pending || []).includes(id) ? ` <span class="muted small">${da("zipWait")}</span>` : "");
   }
   function screenView(x) {
     const v = x.view || {}, c = scx("cols"), li = a => (a || []).length ? `<ul class="b small">${a.map(s => `<li>${esc(s)}</li>`).join("")}</ul>` : "";
@@ -1326,7 +1333,7 @@
   }
   function chalPrompt() {
     const E = CHX.en, pick = (k, v) => (Array.isArray(v) ? v : [v]).map(i => E[k + "O"][i]).join(", ") || "none given";
-    const L = ["Do a challenge review of positions we already hold: for each one decide Switch / Keep / Watch (PowerPoint in English + encrypted archive entry via `python tools/dd_vault.py screen <pptx> --kind challenge`; not in the public repo).",
+    const L = ["Do a challenge review of positions we already hold: for each one decide Switch / Keep / Watch (PowerPoint in English + encrypted archive entry via `python tools/dd_vault.py screen <pptx> --view <VIEW.json> --kind challenge --sources <sources.json> --evidence <folder>` – documents ZIP of every source and an evidence ZIP with data extracts and own calculations; not in the public repo).",
       "Method: /mnt/project-files/funds_dd/challenge/metodika.md (hard gates, net advantage vs switching cost, break-even, adaptive criteria, peers, market context as facts and scenarios).",
       `Portfolio: ${CH.port || (CH.src ? `${CH.mgr} ${["II+III pillar", "II pillar", "III pillar"][CH.pl]}${CH.fund ? " – " + CH.fund : ""}` : "[portfolio]")}`];
     if (CH.src === 0) L.push("Positions:", CH.list || "[ISIN, name, weight]");

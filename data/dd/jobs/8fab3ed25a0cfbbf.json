@@ -1,0 +1,156 @@
+{
+ "parent": "8fab3ed25a0cfbbf",
+ "name": "Screen_SP500_Equal_Weight_2026-10-28_documents.zip",
+ "sources": [
+  {
+   "key": "J1",
+   "title": "justETF – Xtrackers 1C (IE00BLNMYC90), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BLNMYC90"
+  },
+  {
+   "key": "J2",
+   "title": "justETF – iShares Acc (IE000MLMNYS0), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000MLMNYS0"
+  },
+  {
+   "key": "J3",
+   "title": "justETF – Xtrackers S&S 1C (IE0004MFRED4), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0004MFRED4"
+  },
+  {
+   "key": "J4",
+   "title": "justETF – Amundi ESG Acc (IE000LAP5Z18), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000LAP5Z18"
+  },
+  {
+   "key": "J5",
+   "title": "justETF – Invesco Acc (IE00BNGJJT35), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BNGJJT35"
+  },
+  {
+   "key": "J6",
+   "title": "justETF – Xtrackers 2D (IE000CXLGK86), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000CXLGK86"
+  },
+  {
+   "key": "J7",
+   "title": "justETF – Invesco Dist (IE00BM8QRY62), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BM8QRY62"
+  },
+  {
+   "key": "J8",
+   "title": "justETF – Invesco Swap (IE0000TZZ2B2), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0000TZZ2B2"
+  },
+  {
+   "key": "J9",
+   "title": "justETF – Amundi Swap (LU2991918421), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=LU2991918421"
+  },
+  {
+   "key": "J10",
+   "title": "justETF – Xtrackers S&S 2C EUR-H (IE000IDLWOL4), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000IDLWOL4"
+  },
+  {
+   "key": "J11",
+   "title": "justETF – iShares EUR-H (IE000DVLBQ03), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000DVLBQ03"
+  },
+  {
+   "key": "J12",
+   "title": "justETF – Xtrackers 2C EUR-H (IE0002EI5AG0), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0002EI5AG0"
+  },
+  {
+   "key": "J13",
+   "title": "justETF – Amundi ESG EUR-H (IE000M86QRT4), read 28.10.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000M86QRT4"
+  },
+  {
+   "key": "J14",
+   "title": "justETF – Xtrackers 1C (LU0659579493), liquidated / merged",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=LU0659579493"
+  },
+  {
+   "key": "F1",
+   "title": "DWS – Factsheet Xtrackers S&S 1C, 30.09.2026",
+   "url": "https://etf.dws.com/en-ch/AssetDownload/Index/c765e733-8ed3-4ca2-a88a-42a7890ed598/Factsheet.pdf"
+  },
+  {
+   "key": "F2",
+   "title": "DWS – Factsheet (FR) Xtrackers S&S 2C EUR Hedged, 30.09.2026",
+   "url": "https://etf.dws.com/fr-fr/AssetDownload/Index/030038ec-a565-4dbc-91d9-edc6565fa7e5/Factsheet.pdf"
+  },
+  {
+   "key": "F3",
+   "title": "DWS – Factsheet (ES) same share class 2C EUR Hedged, 30.09.2026",
+   "url": "https://etf.dws.com/es-es/AssetDownload/Index/8275bec6-17cb-4ef4-93bf-855ec669bce9/Factsheet.pdf"
+  },
+  {
+   "key": "K1",
+   "title": "Amundi – KID S&P 500 Equal Weight ESG UCITS ETF Acc, 18.02.2026",
+   "url": "https://docs.extraetf.com/download/IE000LAP5Z18/en/KID"
+  },
+  {
+   "key": "K2",
+   "title": "Xtrackers – KID S&P 500 EW Scored & Screened 1C, 16.02.2026",
+   "url": "https://docs.extraetf.com/download/IE0004MFRED4/en/KID"
+  },
+  {
+   "key": "N1",
+   "title": "ETF Stream – Amundi launches S&P 500 Equal Weight ESG ETF (WELE)",
+   "url": "https://etfstream.com/news/amundi-launches-sp-500-equal-weight-esg-etf"
+  },
+  {
+   "key": "K3",
+   "title": "Invesco – KID S&P 500 Equal Weight UCITS ETF Acc (past performance)",
+   "url": "https://docs.extraetf.com/download/IE00BNGJJT35/en/KID"
+  },
+  {
+   "key": "K4",
+   "title": "iShares – KID S&P 500 Equal Weight UCITS ETF USD Acc (past performance)",
+   "url": "https://docs.extraetf.com/download/IE000MLMNYS0/en/KID"
+  },
+  {
+   "key": "A1",
+   "title": "Xtrackers 1C factsheet 31.05.2024 (archive copy)",
+   "url": "https://finanzfluss.de/document/IE00BLNMYC90/de/factsheet"
+  },
+  {
+   "key": "A2",
+   "title": "iShares Acc factsheet 30.06.2024 (archive copy)",
+   "url": "https://finanzfluss.de/document/IE000MLMNYS0/de/factsheet"
+  },
+  {
+   "key": "A3",
+   "title": "Invesco Acc factsheet 31.12.2024 (archive copy)",
+   "url": "https://finanzfluss.de/document/IE00BNGJJT35/de/factsheet"
+  },
+  {
+   "key": "A4",
+   "title": "Xtrackers S&S 1C factsheet 31.01.2025 (archive copy)",
+   "url": "https://finanzfluss.de/document/IE0004MFRED4/de/factsheet"
+  },
+  {
+   "key": "I1",
+   "title": "S&P Dow Jones Indices – S&P 500 Equal Weight Index",
+   "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500-equal-weight-index/"
+  },
+  {
+   "key": "I2",
+   "title": "S&P DJI – Methodology: S&P Equal Weight ESG (Scored & Screened) Indices",
+   "url": "https://www.spglobal.com/spdji/en/documents/methodologies/methodology-sp-ew-esg-indices.pdf"
+  },
+  {
+   "key": "T1",
+   "title": "Total Real Returns – RSP vs SPY, yearly total return in USD, 2003–2026",
+   "url": "https://totalrealreturns.com/n/RSP,SPY"
+  },
+  {
+   "key": "P1",
+   "title": "Pension fund tracker – LT pension fund portfolios (own calculation)",
+   "url": "https://vytiscode.github.io/pension-fund-tracker/portfolios.html"
+  }
+ ]
+}

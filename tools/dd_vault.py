@@ -12,6 +12,9 @@ Slaptažodis niekur nesaugomas. Pametus - `init --force` (naujas raktas) ir visu
   python tools/dd_vault.py add ... --sources SALTINIAI.json  # + vieši šaltiniai ZIP'ui ([{key,title,url}]), ZIP sukuria GitHub Actions
   python tools/dd_vault.py screen FAILAS.pptx --view VIEW.json --title "..."  # ETF paieška: PowerPoint + peržiūra dashboard'e (meta.view)
   python tools/dd_vault.py screen FAILAS.pptx --view VIEW.json --title "..." --kind challenge  # turimų pozicijų peržiūra (keisti / laikyti / stebėti)
+  python tools/dd_vault.py screen ... --sources SALTINIAI.json --evidence KATALOGAS  # + šaltinių ZIP (Actions) + skaičiavimų / įrodymų ZIP (iš karto)
+  python tools/dd_vault.py sources ID SALTINIAI.json   # šaltinių ZIP užduotis jau esamam įrašui
+  python tools/dd_vault.py evidence ID KATALOGAS       # įrodymų ZIP (vietiniai failai: išrašai, savi skaičiavimai) – pakeičia ankstesnį
   python tools/dd_vault.py replace ID                # pataisytas DD (tas pats failas manifest'e) – ZIP lieka
   python tools/dd_vault.py remove ID                 # pašalina įrašą (ir jo ZIP)
   python tools/dd_vault.py rekey                     # pamiršus slaptažodį: naujas raktas, visi DD iš projekto failų iš naujo
@@ -109,19 +112,71 @@ def replace(eid):
     m["id"] = new
     MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
     print("Atnaujinta:", eid, "->", new, Path(m["path"]).name)
+    if m.get("evidence") and Path(m["evidence"]).exists():  # įrodymai perkuriami iš to paties katalogo
+        evidence(new, m["evidence"])
 
 
-def screen(path, view, title, date, kind="screen"):
+def evidence(eid, folder, record=True):
+    """Vietiniai įrodymai (duomenų išrašai, savi skaičiavimai, generatorius) -> užšifruotas ZIP {type: zip, kind: evidence, parent}.
+    Ankstesnis to paties įrašo įrodymų ZIP pašalinamas. Šaltinių ZIP (iš interneto) daro dd_sources.py per update.yml."""
+    import io
+    import zipfile
+    zf = DIR / "zips.json"
+    zips = json.loads(zf.read_text()) if zf.exists() else {}
+    old = [z for z, p in zips.items() if p == eid and z in EVID()]
+    buf, folder = io.BytesIO(), Path(folder)
+    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+        for f in sorted(folder.rglob("*")):
+            if f.is_file():
+                z.write(f, f.relative_to(folder).as_posix())
+    man = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else []
+    m = next((m for m in man if m.get("id") == eid), None)
+    name = (Path(m["path"]).stem if m else eid) + "_evidence.zip"
+    zid = add_bytes(buf.getvalue(), {"type": "zip", "kind": "evidence", "parent": eid, "file": name})
+    for o in old:
+        (DIR / f"{o}.bin").unlink(missing_ok=True)
+        INDEX.write_text(json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != o], indent=1) + "\n")
+        zips.pop(o, None)
+    zips[zid] = eid
+    zf.write_text(json.dumps(zips, indent=1) + "\n")
+    ev = DIR / "evidence.json"
+    ids = [i for i in (json.loads(ev.read_text()) if ev.exists() else []) if i not in old] + [zid]
+    ev.write_text(json.dumps(ids, indent=1) + "\n")
+    if record and m:
+        m["evidence"] = str(folder.resolve()); MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+    print("Įrodymų ZIP:", zid, name)
+    return zid
+
+
+def EVID():
+    ev = DIR / "evidence.json"
+    return set(json.loads(ev.read_text())) if ev.exists() else set()
+
+
+def sources(eid, src):
+    """Šaltinių ZIP užduotis esamam įrašui (vieši URL [{key,title,url}]); ZIP sukuria update.yml (dd_sources.py)."""
+    (DIR / "jobs").mkdir(exist_ok=True)
+    man = json.loads(MANIFEST.read_text())
+    m = next(m for m in man if m.get("id") == eid)
+    (DIR / "jobs" / f"{eid}.json").write_text(json.dumps({"parent": eid, "name": f"{Path(m['path']).stem}_documents.zip", "sources": src}, ensure_ascii=False, indent=1))
+    m["sources"] = src
+    MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+    print("Šaltinių ZIP užduotis:", eid, len(src))
+
+
+def screen(path, view, title, date, kind="screen", src=None, evid=None):
     """ETF paieška prieš DD: PowerPoint užšifruojamas kaip įprastas failas, o rezultatų lentelė (VIEW.json) - į užšifruotus
     metaduomenis, kad dashboard'as parodytų ją atrakinus (be atsisiuntimo). Pataisymas - `replace ID` (VIEW.json perskaitomas iš naujo)."""
     meta = {"title": title, "date": date, "lang": "en", "view": json.loads(Path(view).read_text())}
-    eid = add(path, meta, record=False, kind=kind)
+    eid = add(path, meta, src, record=False, kind=kind)
     if MANIFEST.parent.exists():
         man = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else []
         man = [m for m in man if m["path"] != str(Path(path).resolve())]
         man.append({"path": str(Path(path).resolve()), "id": eid, "type": kind, "view": str(Path(view).resolve()),
-                    "meta": {"title": title, "date": date, "lang": "en"}, "sources": []})
+                    "meta": {"title": title, "date": date, "lang": "en"}, "sources": src or []})
         MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+    if evid:
+        evidence(eid, evid)
     return eid
 
 
@@ -145,12 +200,15 @@ def rekey(pw=None):
     for f in DIR.glob("*.bin"):
         f.unlink()
     (DIR / "zips.json").write_text("{}\n")
+    (DIR / "evidence.json").write_text("[]\n")
     init(True, pw)
     new = []
     for m in man:
         meta = {**m["meta"], "view": json.loads(Path(m["view"]).read_text())} if m.get("view") else m["meta"]
         m["id"] = add(m["path"], meta, m.get("sources"), record=False, kind=m.get("type", "dd"))
         new.append(m)
+        if m.get("evidence") and Path(m["evidence"]).exists():
+            evidence(m["id"], m["evidence"], record=False)
     MANIFEST.write_text(json.dumps(new, ensure_ascii=False, indent=1))
 
 
@@ -164,6 +222,9 @@ if __name__ == "__main__":
     sc = sub.add_parser("screen"); sc.add_argument("file"); sc.add_argument("--view", required=True); sc.add_argument("--title", required=True)
     sc.add_argument("--date", default=dt.date.today().isoformat())
     sc.add_argument("--kind", default="screen", choices=("screen", "challenge"))
+    sc.add_argument("--sources"); sc.add_argument("--evidence")
+    so = sub.add_parser("sources"); so.add_argument("id"); so.add_argument("file")
+    ev = sub.add_parser("evidence"); ev.add_argument("id"); ev.add_argument("dir")
     a = sub.add_parser("add"); a.add_argument("file"); a.add_argument("--sources")
     for f in ("issuer", "name", "isin", "lang", "title", "decision", "sfdr"):
         a.add_argument("--" + f, default="")
@@ -176,7 +237,11 @@ if __name__ == "__main__":
     elif x.cmd == "replace":
         replace(x.id)
     elif x.cmd == "screen":
-        screen(x.file, x.view, x.title, x.date, x.kind)
+        screen(x.file, x.view, x.title, x.date, x.kind, json.loads(Path(x.sources).read_text()) if x.sources else None, x.evidence)
+    elif x.cmd == "sources":
+        sources(x.id, json.loads(Path(x.file).read_text()))
+    elif x.cmd == "evidence":
+        evidence(x.id, x.dir)
     elif x.cmd == "remove":
         remove(x.id)
     else:
