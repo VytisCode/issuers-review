@@ -336,7 +336,25 @@
         <p>${hx("search")} <b>${esc(st.news?.date || t("notYet"))}</b>. ${hx("auto")}</p>
         <div class="row">${promptBtn(hx("searchP"), hx("searchB"))} <a class="small" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${hx("gh")} ↗</a></div>
         <div id="runStatus" class="runst muted small"></div></div>
-      ${jobHow("review")}<p><a href="#tools">${hx("allJobs")}</a></p>`;
+      ${launcher()}<p><a href="#tools">${hx("allJobs")}</a></p>`;
+  }
+  /* Darbų žemėlapis: visos įrankio dalys pagal sritis, po vieną aiškų įėjimą (savininko prašymas 2026-10-29 – paprasta ir intuityvu) */
+  const LX = {
+    en: { h: "Where to find what", groups: [
+      ["📁", "Portfolio", "#portfolio", [["All investments", "Paste once – sorted into issuers, funds and alternatives", "#portfolio", "code"], ["Securities for the issuers review", "Add or remove ISINs", "#portfolio/x/vp", "you"]]],
+      ["🏢", "Issuers", "#issuers", [["Issuer reviews", "Reports, ratios, conclusions", "#issuers", "ai"], ["News", "Headlines to check", "#news", "you"], ["New DD: bond or share", "Word, from term sheet", "#dd/bond", "ai"], ["Letter to colleagues", "Summary of verdicts", "#email", "code"]]],
+      ["📊", "Funds", "#funds", [["Quarterly fund review", "All held funds by category", "#funds/fundreview", "ai"], ["Challenge held positions", "Switch, keep or watch", "#funds/challenge", "ai"], ["ETF search", "Before a DD", "#funds/screen", "ai"], ["Fund / ETF DD", "PowerPoint, SEB template", "#funds/fund", "ai"]]],
+      ["🌱", "ESG", "#esg", [["Sustainability review", "Own targets, SEB guidelines", "#esg", "ai"], ["Engagement letters", "Questions to issuers", "#esg", "you"]]]] },
+    lt: { h: "Kur ką rasti", groups: [
+      ["📁", "Portfelis", "#portfolio", [["Visos investicijos", "Įklijuojate vieną kartą – suskirstoma į emitentus, fondus ir alternatyvas", "#portfolio", "code"], ["Emitentų apžvalgos vertybiniai popieriai", "Pridėti ar pašalinti ISIN", "#portfolio/x/vp", "you"]]],
+      ["🏢", "Emitentai", "#issuers", [["Emitentų apžvalgos", "Ataskaitos, rodikliai, išvados", "#issuers", "ai"], ["Naujienos", "Antraštės patikrai", "#news", "you"], ["Naujas DD: obligacija ar akcija", "Word, pagal term sheet", "#dd/bond", "ai"], ["Laiškas kolegoms", "Verdiktų santrauka", "#email", "code"]]],
+      ["📊", "Fondai", "#funds", [["Ketvirčio fondų peržiūra", "Visi turimi fondai pagal kategorijas", "#funds/fundreview", "ai"], ["Turimų pozicijų peržiūra", "Keisti, laikyti ar stebėti", "#funds/challenge", "ai"], ["ETF paieška", "Prieš DD", "#funds/screen", "ai"], ["Fondo / ETF DD", "PowerPoint, SEB šablonas", "#funds/fund", "ai"]]],
+      ["🌱", "ESG", "#esg", [["Tvarumo apžvalga", "Savi tikslai, SEB gairės", "#esg", "ai"], ["Engagement laiškai", "Klausimai emitentams", "#esg", "you"]]]] }
+  };
+  function launcher() {
+    const L = LX[LANG] || LX.en;
+    return `<h2 style="margin-top:26px">${L.h}</h2><div class="lgrid">${L.groups.map(([ic, h, href, items]) => `<div class="card lgroup"><h3><a href="${href}"><span class="lic">${ic}</span> ${esc(h)}</a></h3>
+      ${items.map(([n, d, u, k]) => `<a class="ltile" href="${u}"><span class="kd ${k}"></span><span><b>${esc(n)}</b><span class="muted small">${esc(d)}</span></span></a>`).join("")}</div>`).join("")}</div>`;
   }
 
   function issuersPage() {
@@ -346,7 +364,7 @@
       <div class="stats"><div><b>${D.issuers.length}</b><span>${t("issuers")}</span></div><div><b>${held}</b><span>${t("held")}</span></div>
       <a class="stat" href="#securities/green"><b>${D.securities.filter(s => s.held === "yes" && s.status === "active" && s.green === "yes").length}${leaf({ green: "yes" })}</b><span>${RX("greenStat")}</span></a>
       <div><b>${D.news.length}</b><span>${t("newsTracked")}</span></div></div></section>`;
-    h += readyCards() + `<div class="grid">`;
+    h += `<div class="row" style="margin:-6px 0 16px"><a class="btn" href="#dd/bond">${ax("newDD")}</a></div>` + readyCards() + `<div class="grid">`;
     D.issuers.forEach(i => {
       const secs = D.securities.filter(s => s.issuer === i.id && s.held === "yes").sort((a, b) => (a.status === "matured") - (b.status === "matured") || String(a.maturity_date || "9999").localeCompare(String(b.maturity_date || "9999")));
       const matured = secs.filter(s => s.status === "matured").length, soon = secs.filter(s => s.status === "active" && s.maturity_date && days(s.maturity_date) < 365).length;
@@ -545,6 +563,126 @@
       <td class="n">${s.amount_m ? fmt(s.amount_m, "") + " " + unitLbl("m") : "–"}</td><td>${irB}</td><td>${issueRating(s)}</td><td>${st}</td>${rm}</tr>`;
   }
   let SF = { q: "", iss: "", ctry: "", type: "", st: "", green: "", k: "name", dir: 1 };
+  /* Visas portfelis: savininkas įklijuoja visas investicijas (iš Excel; ISIN, pavadinimas, suma, mūsų fondas – stulpelių tvarka
+     nesvarbi). Kodas be AI suskirsto: emitentai (obligacijos, akcijos – issuers review), ETF, aktyvūs fondai (fund review),
+     alternatyvos (PE, VC, NT, infrastruktūra – neįtraukiama), neaiškios (patikslina Claude). Tipas – iš pension-fund-tracker
+     (KIS, turto klasė, index/active), kitaip pagal pavadinimą. Juodraštis – naršyklėje; išsaugoti – užklausa Claude
+     (projekto failai + užšifruotas archyvas, kind portfolio). */
+  const PX = {
+    en: { title: "Portfolio", sub: "All investments in one place. Paste them once – the tool sorts them into issuers (bonds and shares for the issuers review), ETFs and active funds (fund review) and unlisted alternatives (not reviewed). The securities list for the issuers review is below.",
+      h: "All investments", hint: "Paste from Excel: one investment per line with ISIN, name, amount in EUR and which of our funds holds it (column order does not matter). Sorting is done by code, without AI; the draft stays only in this browser.", ph: "ISIN\tName\tAmount EUR\tOur fund\nIE00BFNM3G45\tiShares MSCI USA Screened UCITS ETF\t52 000 000\tSEB pensija 1985–1991\nLT0000132854\tIgnitis 2.0% 2027\t3 000 000\tSEB pensija 58+",
+      sort: "Sort", clear: "Clear", loading: "Loading fund types from the pension fund tracker…", saved: "Saved portfolio", load: "Load", unlock: "Unlock the archive (password) to load a saved portfolio",
+      cls: { iss_known: "Issuers – already reviewed", iss_new: "Issuers – not yet in the review", gov: "Government and supranational bonds – not in the issuers review", etf: "ETF / index fund", active: "Active fund", fund: "Fund – type to be checked", alt: "Alternative (PE, VC, real estate, infrastructure) – excluded", cash: "Cash / deposit / other – excluded", unk: "Unclear – Claude checks", bad: "ISIN looks wrong" },
+      cols: ["ISIN", "Name", "Amount, EUR", "Our fund", "Type", "Source of type"], src: { cfg: "issuers review list", pf: "pension fund tracker", nm: "by name", own: "set by you" },
+      toFr: "Send funds to the quarterly review →", addIss: "Add to the issuers review list", addIssD: "New bonds and shares not yet in the issuers review:", copyIsin: "Copy ISINs",
+      saveP: "Prompt to save the portfolio (Claude)", saveHint: "Claude stores it in the project files and in the encrypted archive, so the next review starts from it and can compare quarters.", total: "Total", n: "positions" },
+    lt: { title: "Portfelis", sub: "Visos investicijos vienoje vietoje. Įklijuokite vieną kartą – įrankis suskirsto į emitentus (obligacijos ir akcijos – emitentų apžvalgai), ETF ir aktyvius fondus (fondų peržiūrai) ir nelistinguotas alternatyvas (neperžiūrima). Žemiau – emitentų apžvalgos vertybinių popierių sąrašas.",
+      h: "Visos investicijos", hint: "Įklijuokite iš Excel: po vieną investiciją eilutėje – ISIN, pavadinimas, suma EUR ir kuris mūsų fondas ją turi (stulpelių tvarka nesvarbi). Skirsto kodas, be AI; juodraštis lieka tik šioje naršyklėje.", ph: "ISIN\tPavadinimas\tSuma EUR\tMūsų fondas\nIE00BFNM3G45\tiShares MSCI USA Screened UCITS ETF\t52 000 000\tSEB pensija 1985–1991\nLT0000132854\tIgnitis 2.0% 2027\t3 000 000\tSEB pensija 58+",
+      sort: "Suskirstyti", clear: "Išvalyti", loading: "Įkeliami fondų tipai iš pensijų fondų duomenų…", saved: "Išsaugotas portfelis", load: "Įkelti", unlock: "Atrakinkite archyvą (slaptažodis), kad įkeltumėte išsaugotą portfelį",
+      cls: { iss_known: "Emitentai – jau apžvelgiami", iss_new: "Emitentai – dar ne apžvalgoje", gov: "Valstybių ir supranacionalinės obligacijos – į emitentų apžvalgą neįtraukiama", etf: "ETF / indeksinis fondas", active: "Aktyvus fondas", fund: "Fondas – tipą patikslinti", alt: "Alternatyva (PE, VC, NT, infrastruktūra) – neįtraukiama", cash: "Pinigai / indėliai / kita – neįtraukiama", unk: "Neaišku – patikrins Claude", bad: "ISIN atrodo neteisingas" },
+      cols: ["ISIN", "Pavadinimas", "Suma, EUR", "Mūsų fondas", "Tipas", "Tipo šaltinis"], src: { cfg: "emitentų apžvalgos sąrašas", pf: "pensijų fondų duomenys", nm: "pagal pavadinimą", own: "nustatėte jūs" },
+      toFr: "Perkelti fondus į ketvirčio peržiūrą →", addIss: "Pridėti į emitentų apžvalgos sąrašą", addIssD: "Naujos obligacijos ir akcijos, kurių dar nėra emitentų apžvalgoje:", copyIsin: "Kopijuoti ISIN",
+      saveP: "Užklausa portfeliui išsaugoti (Claude)", saveHint: "Claude išsaugo jį projekto failuose ir užšifruotame archyve – kita peržiūra prasidės nuo jo ir galės palyginti ketvirčius.", total: "Iš viso", n: "pozicijos" }
+  };
+  const px = k => (PX[LANG] || PX.en)[k];
+  const PCLS = ["iss_known", "iss_new", "gov", "etf", "active", "fund", "alt", "cash", "unk", "bad"];
+  let PORT = { text: "", rows: [], own: {} }; try { PORT = { ...PORT, ...JSON.parse(localStorage.getItem("portfolio") || "{}") }; } catch (e) { /* ignore */ }
+  const portSave = () => { try { localStorage.setItem("portfolio", JSON.stringify(PORT)); } catch (e) { /* ignore */ } };
+  // valstybių, savivaldybių ir supranacionalinės obligacijos – į emitentų apžvalgą neįtraukiamos (savininkas 2026-10-29)
+  const GOV_RE = /republi|respublik|government|treasury|kingdom|karalyst|federal republic|federacin|bundesrepublik|\bbund\b|bundesanleihe|\b(OAT|BTPS?|BONOS?|GILT|DBR|FRTR|SPGB|RAGB|BGB|NETHER|RFGB|LITHUN|LATVIA|ESTONI|POLAND|ROMANI)\b|\bT-?bills?\b|\bUST\b|state of|valstybės obligacij|vyriausyb|ministry of finance|finansų ministerij|\bEIB\b|european investment bank|european union|\bEFSF\b|\bESM\b|world bank|\bIBRD\b|council of europe|nordic investment bank|\bNIB\b|\bKFW\b|municipal|savivaldyb|\b(Lithuania|Latvia|Estonia|Lietuva|Latvija|Estija)\b/i;
+  const ALT_RE = /private equity|venture|\bVC\b|\bPE\b|real estate|nekilnojam|infrastruct|infrastrukt|property|timber|forest|miškų|buyout|secondar|mezzanine|credit opportunit|\bfund (I|II|III|IV|V|VI|VII)\b|\b(I|II|III|IV|V)\s*(SCSp|SCA|LP|KŪB)\b|SCSp|\bKŪB\b|\bLP\b/i;
+  function portNum(s) { const m = String(s).replace(/ /g, " ").match(/-?\d[\d ]*(?:[.,]\d+)?/g) || []; let best = 0; m.forEach(x => { const c = x.replace(/ /g, ""); const v = parseFloat(/,\d{1,2}$/.test(c) && !/\.\d/.test(c) ? c.replace(/\./g, "").replace(",", ".") : c.replace(/,/g, "")); if (Math.abs(v) > Math.abs(best)) best = v; }); return best; }
+  function portParse(text) {
+    return text.split(/\r?\n/).map(l => l.trim()).filter(Boolean).map(l => {
+      const m = l.toUpperCase().match(/\b[A-Z]{2}[A-Z0-9]{9}\d\b/); if (!m) return null;
+      const cells = l.split(/\t|;|\s{2,}/).map(c => c.trim()).filter(c => c && c.toUpperCase() !== m[0]);
+      const numC = cells.filter(c => /^[-\d\s.,€]+(EUR)?$/i.test(c) && /\d/.test(c)), txt = cells.filter(c => !numC.includes(c));
+      const amt = numC.length ? Math.max(...numC.map(portNum)) : 0;
+      const name = txt.slice().sort((a, b) => b.length - a.length)[0] || "";
+      return { isin: m[0], name, amt, port: txt.filter(c => c !== name).join(" · ") };
+    }).filter(Boolean);
+  }
+  function portClass(r) {
+    if (PORT.own[r.isin]) return [PORT.own[r.isin], "own"];
+    if (!ISIN_OK(r.isin)) return ["bad", "nm"];
+    if (D.securities.some(s => s.isin === r.isin && s.held === "yes")) return ["iss_known", "cfg"];
+    const s = PFD && !PFD.err ? PFD.secs.find(x => x[5] === r.isin) : null;
+    if (s) {
+      const a = Array.isArray(s[9]) ? s[9] : [];
+      if (s[1] === "b" && GOV_RE.test(s[0] + " " + (s[8] || "") + " " + r.name)) return ["gov", "pf"];
+      if (s[1] === "b" || s[1] === "e") return ["iss_new", "pf"];
+      if (s[1] === "d" || s[1] === "c" || a[0] === "money_market") return ["cash", "pf"];
+      if (s[1] === "f") {
+        if (["private_equity", "real_estate", "other"].includes(a[0]) || ALT_RE.test(s[0] + " " + (s[8] || ""))) return ["alt", "pf"];
+        if (a[3] === "index" || /\bETF\b/i.test(s[0] + " " + (s[8] || ""))) return ["etf", "pf"];
+        if (a[3] === "active") return ["active", "pf"];
+        return ["fund", "pf"];
+      }
+    }
+    const n = r.name || "";
+    if (ALT_RE.test(n)) return ["alt", "nm"];
+    if (GOV_RE.test(n)) return ["gov", "nm"];
+    if (/\bETF\b|\bETC\b|index fund|indeks/i.test(n)) return ["etf", "nm"];
+    if (/fund|fonds|fondas|sicav|ucits|funds|\bOEIC\b/i.test(n)) return ["fund", "nm"];
+    if (/\d+(?:[.,]\d+)?\s?%|\bnotes?\b|\bbonds?\b|obligac|\b20[2-6]\d\b|\bFRN\b|\bAT1\b|perp/i.test(n) || /^(LT|LV|EE|XS)/.test(r.isin) && /bond|%|20\d\d/i.test(n)) return ["iss_new", "nm"];
+    if (/\b(AB|AS|SA|AG|PLC|NV|ASA|OYJ|AB|INC|CORP|SE)\b|shares?|akcij/i.test(n)) return ["iss_new", "nm"];
+    return ["unk", "nm"];
+  }
+  function portView() {
+    const rows = PORT.rows.map(r => { const [c, s] = portClass(r); return { ...r, c, s }; });
+    const tot = rows.reduce((a, r) => a + (r.amt || 0), 0), fmtE = v => v ? Math.round(v).toLocaleString(LANG === "lt" ? "lt-LT" : "en-GB") : "";
+    const by = c => rows.filter(r => r.c === c);
+    const sum = PCLS.filter(c => by(c).length).map(c => `<span class="pchip c-${c}"><b>${by(c).length}</b> ${esc(px("cls")[c])}${tot ? ` · ${(by(c).reduce((a, r) => a + r.amt, 0) / tot * 100).toFixed(1)}%` : ""}</span>`).join("");
+    const funds = rows.filter(r => ["etf", "active", "fund"].includes(r.c)), newIss = by("iss_new");
+    return `<div class="pchips">${sum}</div><p class="muted small">${px("total")}: ${rows.length} ${px("n")}${tot ? ` · EUR ${fmtE(tot)}` : ""}</p>
+      <div class="row" style="gap:8px;margin:8px 0">${funds.length ? `<button class="btn primary" id="pToFr">${px("toFr")} (${funds.length})</button>` : ""}</div>
+      ${newIss.length ? `<div class="card soft"><b>${px("addIss")}</b><p class="small muted">${px("addIssD")}</p><p class="small">${newIss.map(r => esc(r.isin)).join(", ")}</p>${promptBtn(newIss.map(r => r.isin).join("\n"), px("copyIsin"))} <a class="btn sm" href="#portfolio/x/vp">↓ ${px("addIss")}</a></div>` : ""}
+      <details class="card"><summary><b>${px("cols")[0]} · ${px("cols")[1]} · ${px("cols")[4]}</b> <span class="muted small">(${rows.length})</span></summary><div class="tbl-wrap"><table class="small"><tr>${px("cols").map(h => `<th>${h}</th>`).join("")}</tr>
+        ${rows.map(r => `<tr class="pc-${r.c}"><td class="nw">${esc(r.isin)}</td><td>${esc(r.name)}</td><td class="n">${fmtE(r.amt)}</td><td>${esc(r.port)}</td>
+          <td><select data-pown="${esc(r.isin)}">${PCLS.map(c => `<option value="${c}"${c === r.c ? " selected" : ""}>${esc(px("cls")[c])}</option>`).join("")}</select></td><td class="muted">${esc(px("src")[r.s])}</td></tr>`).join("")}</table></div></details>
+      <div class="pbox"><b class="small">${px("saveP")}</b> ${kindTag("ai")}<p class="muted small">${px("saveHint")}</p>${promptBtn(portPrompt(rows))}</div>`;
+  }
+  function portPrompt(rows) {
+    const L = [`Save our full portfolio (${new Date().toISOString().slice(0, 10)}): write /mnt/project-files/portfolio/portfolio_<date>.csv (isin, name, amount_eur, our_fund, class) and archive it encrypted (python tools/dd_vault.py screen <csv> --view <VIEW.json> --kind portfolio --title "Portfolio <date>"; VIEW = {rows: [{isin, name, amt, port, c}]}), not in the public repo. Check the classes marked unclear or "fund – type to be checked" (ETF / index vs active, unlisted alternatives excluded) and correct them in VIEW. List bonds and shares not yet in the issuers review.`, "isin\tname\tamount_eur\tour_fund\tclass"];
+    rows.forEach(r => L.push([r.isin, r.name, r.amt || "", r.port, r.c].join("\t")));
+    return L.join("\n");
+  }
+  function portfolioPage(arg) {
+    setTimeout(initPort);
+    const sec = securities(arg === "x" ? "" : arg).replace(/<h1>([\s\S]*?)<\/h1>/, '<h2 id="vp" style="margin-top:28px">$1</h2>');
+    return `<h1>${px("title")}</h1><p class="sub">${px("sub")}</p>
+      <div class="card"><h3>${px("h")} ${kindTag("code")}</h3><p class="muted small">${px("hint")}</p>
+        <textarea id="pText" rows="7" placeholder="${esc(px("ph"))}">${esc(PORT.text)}</textarea>
+        <div class="row" style="gap:8px;margin:8px 0"><button class="btn primary" id="pSort">${px("sort")}</button><button class="btn sm" id="pClear">${px("clear")}</button><span id="pMsg" class="muted small"></span><span id="pSaved" class="small"></span></div>
+        <div id="pOut">${PORT.rows.length ? portView() : ""}</div></div>${sec}`;
+  }
+  function initPort() {
+    const $ = id => document.getElementById(id); if (!$("pSort")) return;
+    const draw = () => { $("pOut").innerHTML = PORT.rows.length ? portView() : ""; };
+    const need = () => { if (!PFD) { $("pMsg").textContent = px("loading"); PFCB.push(() => { $("pMsg") && ($("pMsg").textContent = ""); draw(); }); pfLoad(); } };
+    $("pSort").onclick = () => { PORT.text = $("pText").value; PORT.rows = portParse(PORT.text); portSave(); draw(); need(); };
+    $("pClear").onclick = () => { PORT = { text: "", rows: [], own: {} }; portSave(); $("pText").value = ""; draw(); };
+    if (PORT.rows.length) need();
+    // išsaugotas portfelis iš užšifruoto archyvo (jei atrakinta arba slaptažodis prisimintas)
+    (async () => {
+      if (!DDL) { let pw = null; try { pw = localStorage.getItem("ddpw"); } catch (e) { /* ignore */ } if (pw) { try { await ddUnlock(pw); } catch (e) { /* ignore */ } } }
+      const sv = (DDL || []).filter(x => x.type === "portfolio").sort((a, b) => String(b.date).localeCompare(String(a.date)))[0], el = $("pSaved"); if (!el) return;
+      if (sv) { el.innerHTML = `${px("saved")}: <b>${esc(sv.date)}</b> <button class="btn sm" id="pLoad">${px("load")}</button>`;
+        $("pLoad").onclick = () => { const rs = (sv.view || {}).rows || []; PORT.rows = rs.map(r => ({ isin: r.isin, name: r.name, amt: +r.amt || 0, port: r.port || "" })); PORT.own = Object.fromEntries(rs.filter(r => r.c).map(r => [r.isin, r.c])); PORT.text = rs.map(r => [r.isin, r.name, r.amt, r.port].join("\t")).join("\n"); $("pText").value = PORT.text; portSave(); draw(); need(); }; }
+      else if (!DDL && D.dd) el.innerHTML = `<a class="muted" href="#funds/fundreview/ddArch">${px("unlock")}</a>`;
+    })();
+  }
+  document.addEventListener("change", e => {
+    const s = e.target.closest("[data-pown]"); if (!s) return;
+    PORT.own[s.dataset.pown] = s.value; portSave(); const o = document.getElementById("pOut"); if (o) o.innerHTML = portView();
+  });
+  document.addEventListener("click", e => {
+    if (!e.target.closest("#pToFr")) return;
+    const rows = PORT.rows.map(r => ({ ...r, c: portClass(r)[0] })), funds = rows.filter(r => ["etf", "active", "fund"].includes(r.c));
+    const tot = {}; rows.forEach(r => { tot[r.port] = (tot[r.port] || 0) + (r.amt || 0); });
+    CH.frList = funds.map(r => [r.isin, r.name, r.amt && tot[r.port] ? (r.amt / tot[r.port] * 100).toFixed(2) + "%" : "", r.amt ? "EUR " + (r.amt / 1e6).toFixed(2) + "m" : "", r.port, r.c === "active" ? "active" : r.c === "etf" ? "ETF" : ""].filter(Boolean).join(", ")).join("\n");
+    location.hash = "#funds/fundreview";
+  });
   function securities(arg) {
     if (arg === "noan") SF = { ...SF, q: "", iss: "", ctry: "", type: "", green: "", st: "noanp" };
     if (arg === "green") SF = { ...SF, q: "", iss: "", ctry: "", type: "", st: "", green: "yes" };
@@ -650,28 +788,58 @@
     });
     return h;
   }
+  /* Kaip veikia – pristatymui: trys schemos (SVG, šviesi / tamsi tema) ir principai */
   function about() {
-    const en = LANG === "en";
-    const steps = en
-      ? [["1", "Collect (free)", "The ISIN list is read every morning and when you press the search button; news (Google News, local languages), issuer report pages and sanctions lists are scanned every morning and on request. No AI, no cost."],
-         ["2", "Flag", "New reports, adverse headlines and matured bonds are flagged on the overview."],
-         ["3", "Analyse (on request)", "Claude reads the new report and fills the fixed template: ratios with page-level sources, summary, plans vs outcomes, investor conclusions, ESG report."],
-         ["4", "Review & publish", "The analyst edits text or Word file, completes sanctions and adverse media checks; Word, PDF and Excel rebuild automatically."]]
-      : [["1", "Rinkimas (nemokamai)", "ISIN sąrašas nuskaitomas kas rytą ir paspaudus paieškos mygtuką; naujienos (Google News, vietos kalbomis), emitentų ataskaitų puslapiai ir sankcijų sąrašai tikrinami kiekvieną rytą ir paprašius. Be AI, nemokamai."],
-         ["2", "Žymėjimas", "Naujos ataskaitos, neigiamos antraštės ir išpirktos obligacijos pažymimos apžvalgoje."],
-         ["3", "Analizė (paprašius)", "Claude perskaito naują ataskaitą ir užpildo šabloną: rodikliai su nuorodomis į puslapius, santrauka, planai ir rezultatai, išvados investuotojui, ESG report."],
-         ["4", "Peržiūra ir publikavimas", "Analitikas taiso tekstą ar Word failą, atlieka sankcijų ir žiniasklaidos patikras; Word, PDF ir Excel persigeneruoja automatiškai."]];
-    return `<h1>${t("about")}</h1><div class="steps">${steps.map(s => `<div class="step"><span class="num">${s[0]}</span><h3>${esc(s[1])}</h3><p>${esc(s[2])}</p></div>`).join("")}</div>
-      <div class="two" style="margin-top:16px"><div class="card"><h3>${en ? "Sources" : "Šaltiniai"}</h3><ul class="b">
-        <li>${en ? "Issuer annual / interim reports, presentations, press releases" : "Emitentų metinės / tarpinės ataskaitos, prezentacijos, pranešimai"}</li>
-        <li>${en ? "Rating pages (S&P, Moody's, Fitch as published by issuers)" : "Reitingų puslapiai (kaip skelbia emitentai)"}</li>
-        <li>${en ? "Regional media in local languages; Nasdaq Baltic" : "Regiono žiniasklaida vietos kalbomis; Nasdaq Baltic"}</li>
-        <li>${en ? "SEB sector policies for the ESG report" : "SEB sektorių politikos ESG vertinimui"}</li></ul></div>
-      <div class="card"><h3>${en ? "Principles" : "Principai"}</h3><ul class="b">
-        <li>${en ? "Facts, not opinions – every figure links to the source page" : "Faktai, ne nuomonės – kiekvienas skaičius susietas su šaltinio puslapiu"}</li>
-        <li>${en ? "Same template for every issuer; history builds up automatically" : "Vienas šablonas visiems; istorija kaupiasi automatiškai"}</li>
-        <li>${en ? "Public data only; no paid services" : "Tik vieši duomenys; jokių mokamų paslaugų"}</li>
-        <li>${en ? "Reports in EN and LT (LV, EE ready to switch on)" : "Ataskaitos EN ir LT (LV, EE paruošta įjungti)"}</li></ul></div></div>`;
+    const en = LANG === "en", T = (a, b) => en ? a : b;
+    const node = (x, y, w, h, k, title, lines, num) => `<g class="dn ${k}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="12"/>
+      ${num ? `<circle cx="${x + 20}" cy="${y + 22}" r="12" class="dnum"/><text x="${x + 20}" y="${y + 26.5}" text-anchor="middle" class="dnt">${num}</text>` : ""}
+      <text x="${x + (num ? 40 : w / 2)}" y="${y + 27}" ${num ? "" : 'text-anchor="middle"'} class="dt">${esc(title)}</text>
+      ${lines.map((l, i) => `<text x="${x + w / 2}" y="${y + 54 + i * 18}" text-anchor="middle" class="ds">${esc(l)}</text>`).join("")}</g>`;
+    const arr = (x1, y1, x2, y2, dash) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" class="da${dash ? " dash" : ""}" marker-end="url(#ah)"/>`;
+    const defs = `<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" class="dah"/></marker></defs>`;
+    // 1. Informacijos kelias
+    const F = [["src", T("Sources", "Šaltiniai"), T(["Reports, news,", "Nasdaq Baltic, fund", "factsheets, pension funds"], ["Ataskaitos, naujienos,", "Nasdaq Baltic, fondų", "faktų lapai, pensijų fondai"])],
+      ["code", T("Every morning", "Kas rytą"), T(["Automatic collection,", "no AI, free"], ["Automatinis rinkimas,", "be AI, nemokamai"])],
+      ["code", T("To do", "Darbai"), T(["What changed and", "what needs you now"], ["Kas pasikeitė ir", "ką daryti dabar"])],
+      ["you", T("Analyst", "Analitikas"), T(["Copies the prompt,", "adds internal data"], ["Kopijuoja užklausą,", "papildo duomenis"])],
+      ["ai", "Claude", T(["Analysis by method,", "sources with pages"], ["Analizė pagal metodiką,", "šaltiniai su puslapiais"])],
+      ["code", T("Documents", "Dokumentai"), T(["Word, PDF, PowerPoint;", "encrypted archive", "with evidence ZIPs"], ["Word, PDF, PowerPoint;", "užšifruotas archyvas", "su įrodymų ZIP"])]];
+    const fw = 168, fg = 30, fx0 = 10;
+    const flow = `<svg class="dg" viewBox="0 0 1200 250" role="img" aria-label="${T("Information flow", "Informacijos kelias")}">${defs}
+      ${F.map(([k, h, l], i) => node(fx0 + i * (fw + fg), 30, fw, 130, k, h, l, i + 1)).join("")}
+      ${F.slice(1).map((_, i) => arr(fx0 + i * (fw + fg) + fw + 2, 95, fx0 + (i + 1) * (fw + fg) - 4, 95)).join("")}
+      <path d="M ${fx0 + 5 * (fw + fg) + fw / 2} 162 C ${fx0 + 5 * (fw + fg) + fw / 2} 225, ${fx0 + 3 * (fw + fg) + fw / 2} 225, ${fx0 + 3 * (fw + fg) + fw / 2} 166" class="da dash" marker-end="url(#ah)"/>
+      <text x="${fx0 + 4 * (fw + fg) + fw / 2}" y="240" text-anchor="middle" class="ds">${T("Draft → missing data from Bloomberg / Morningstar → final version", "Juodraštis → trūkstami duomenys iš Bloomberg / Morningstar → galutinė versija")}</text></svg>`;
+    // 2. Sritys aplink portfelį
+    const A = [[40, 30, "you", T("Issuers", "Emitentai"), T(["Reviews of held bonds and shares", "News, new bond or share DD"], ["Turimų obligacijų ir akcijų apžvalgos", "Naujienos, naujos obligacijos DD"])],
+      [820, 30, "ai", T("Funds", "Fondai"), T(["Quarterly review, challenge,", "ETF search, fund DD"], ["Ketvirčio peržiūra, pozicijų peržiūra,", "ETF paieška, fondo DD"])],
+      [40, 230, "code", "ESG", T(["Own targets and SEB guidelines,", "engagement letters"], ["Savi tikslai ir SEB gairės,", "engagement laiškai"])],
+      [820, 230, "code", T("Archive", "Archyvas"), T(["Completed DDs and reviews,", "encrypted, with evidence"], ["Atlikti DD ir peržiūros,", "užšifruoti, su įrodymais"])]];
+    const hub = `<svg class="dg" viewBox="0 0 1180 350" role="img" aria-label="${T("Areas", "Sritys")}">${defs}
+      <g class="dn hubc"><rect x="440" y="120" width="300" height="110" rx="55"/><text x="590" y="165" text-anchor="middle" class="dt big">${T("Portfolio", "Portfelis")}</text>
+      <text x="590" y="192" text-anchor="middle" class="ds">${T("all investments, sorted by code", "visos investicijos, skirsto kodas")}</text></g>
+      ${A.map(([x, y, k, h, l]) => node(x, y, 320, 100, k, h, l)).join("")}
+      ${arr(440, 150, 364, 95)}${arr(740, 150, 816, 95)}${arr(440, 205, 364, 268)}${arr(740, 205, 816, 268)}</svg>`;
+    // 3. Ketvirčio fondų peržiūros ciklas
+    const C = [["you", T("Portfolio", "Portfelis"), T(["paste or load"], ["įklijuoti ar įkelti"])], ["ai", T("Draft", "Juodraštis"), T(["Claude, public sources"], ["Claude, vieši šaltiniai"])],
+      ["you", T("Missing data", "Trūkstami duomenys"), T(["≤ 15 exact data points"], ["≤ 15 tikslių duomenų"])], ["ai", T("Final version", "Galutinė versija"), T(["PowerPoint, Word, PDF"], ["PowerPoint, Word, PDF"])],
+      ["you", T("Email to managers", "Laiškas valdytojams"), T(["draft to copy"], ["juodraštis kopijavimui"])], ["code", T("Fund cards", "Fondų kortelės"), T(["next quarter cheaper"], ["kitas ketvirtis pigesnis"])]];
+    const cx = 590, cy = 200, rr = 150, cw = 210, ch = 76;
+    const pos = C.map((_, i) => { const a = -Math.PI / 2 + i * 2 * Math.PI / C.length; return [cx + 1.75 * rr * Math.cos(a), cy + rr * Math.sin(a)]; });
+    const cyc = `<svg class="dg" viewBox="0 0 1180 400" role="img" aria-label="${T("Quarterly fund review", "Ketvirčio fondų peržiūra")}">${defs}
+      <ellipse cx="${cx}" cy="${cy}" rx="${1.75 * rr}" ry="${rr}" class="dring"/>
+      <text x="${cx}" y="${cy - 4}" text-anchor="middle" class="dt big">${T("Quarterly", "Ketvirčio")}</text><text x="${cx}" y="${cy + 22}" text-anchor="middle" class="dt">${T("fund review", "fondų peržiūra")}</text>
+      ${C.map(([k, h, l], i) => node(pos[i][0] - cw / 2, pos[i][1] - ch / 2, cw, ch, k, h, l, i + 1)).join("")}</svg>`;
+    const leg = kindLegend();
+    const P = [[T("Facts with sources", "Faktai su šaltiniais"), T("Every figure links to the source page. Not found is said openly; own calculations are labelled.", "Kiekvienas skaičius – su šaltinio puslapiu. Ko nerasta – sakoma atvirai; savi skaičiavimai pažymėti.")],
+      [T("Free, AI only on request", "Nemokama, AI tik paprašius"), T("Collection runs every morning without AI. Claude works only when the analyst sends a prompt.", "Rinkimas vyksta kas rytą be AI. Claude dirba tik tada, kai analitikas nusiunčia užklausą.")],
+      [T("Public site, private work", "Vieša svetainė, privatus darbas"), T("The site shows public data only. DDs and reviews are encrypted; the password stays in the analyst's browser.", "Svetainėje – tik vieši duomenys. DD ir peržiūros užšifruoti; slaptažodis – tik analitiko naršyklėje.")],
+      [T("History builds up", "Istorija kaupiasi"), T("Old reports are never overwritten; each quarter compares with the previous one.", "Senos ataskaitos neperrašomos; kiekvienas ketvirtis lyginamas su ankstesniu.")]];
+    return `<h1>${T("How it works", "Kaip veikia")}</h1><p class="sub lead">${T("One tool for the whole investment review: issuers, funds, ESG and due diligence. Public data is collected automatically and free of charge, Claude analyses on request, and the analyst decides.", "Vienas įrankis visai investicijų peržiūrai: emitentai, fondai, ESG ir due diligence. Vieši duomenys renkami automatiškai ir nemokamai, Claude analizuoja paprašius, sprendžia analitikas.")}</p>${leg}
+      <div class="card dgc"><h2>1. ${T("How information moves", "Kaip juda informacija")}</h2>${flow}</div>
+      <div class="card dgc"><h2>2. ${T("Four areas around one portfolio", "Keturios sritys aplink vieną portfelį")}</h2>${hub}</div>
+      <div class="card dgc"><h2>3. ${T("Quarterly fund review – the cycle", "Ketvirčio fondų peržiūra – ciklas")}</h2>${cyc}</div>
+      <div class="pgrid">${P.map(([h, d]) => `<div class="card"><h3>${esc(h)}</h3><p class="muted">${esc(d)}</p></div>`).join("")}</div>`;
   }
 
   /* ---------- laiškas kolegoms (be AI, iš apžvalgų verdiktų) ---------- */
@@ -984,11 +1152,11 @@
       S(lt ? "Rodiklių palyginimas" : "Metric comparison", "palyginimas rodikliai comparison metrics tools", "#tools", "code")
     ];
     out.push(S(lt ? "Due Diligence – naujas instrumentas" : "Due Diligence – new instrument", "dd due diligence naujas instrumentas emisija pirkimas sfdr apskaita new issue accounting", "#dd/bond", "ai"));
-    out.push(S(lt ? "Funds DD – fondas / ETF (PowerPoint)" : "Funds DD – fund / ETF (PowerPoint)", "funds dd fondas fondų etf due diligence powerpoint pptx liquid funds ucits index fund alternatyvos", "#dd/fund", "ai"));
-    out.push(S(lt ? "ETF paieška ir palyginimas (prieš DD)" : "ETF search and comparison (before a DD)", "etf paieška screener ieškoti palyginti kriterijai equal weight search compare shortlist", "#dd/screen", "ai"));
-    out.push(S(lt ? "Turimų pozicijų peržiūra (challenge)" : "Challenge held positions", "challenge peržiūra turimos pozicijos keisti laikyti pakeisti geresnis fondas pab pensijų fondai valdytojo pasiūlymas switch keep review holdings replace", "#dd/challenge", "ai"));
-    out.push(S(lt ? "Ketvirčio fondų peržiūra (Fund review)" : "Quarterly fund review", "fund review ketvirčio fondų peržiūra ketvirtinė kategorijos aktyvūs fondai laiškas quarterly", "#dd/challenge", "ai"));
-    out.push(S(lt ? "Papildyti atliktą Funds DD (NOT FOUND duomenys)" : "Supplement a completed Funds DD (NOT FOUND items)", "papildyti papildymas not found nerasta trūksta supplement missing funds dd fondas etf", "#dd/fund", "ai"));
+    out.push(S(lt ? "Funds DD – fondas / ETF (PowerPoint)" : "Funds DD – fund / ETF (PowerPoint)", "funds dd fondas fondų etf due diligence powerpoint pptx liquid funds ucits index fund alternatyvos", "#funds/fund", "ai"));
+    out.push(S(lt ? "ETF paieška ir palyginimas (prieš DD)" : "ETF search and comparison (before a DD)", "etf paieška screener ieškoti palyginti kriterijai equal weight search compare shortlist", "#funds/screen", "ai"));
+    out.push(S(lt ? "Turimų pozicijų peržiūra (challenge)" : "Challenge held positions", "challenge peržiūra turimos pozicijos keisti laikyti pakeisti geresnis fondas pab pensijų fondai valdytojo pasiūlymas switch keep review holdings replace", "#funds/challenge", "ai"));
+    out.push(S(lt ? "Ketvirčio fondų peržiūra (Fund review)" : "Quarterly fund review", "fund review ketvirčio fondų peržiūra ketvirtinė kategorijos aktyvūs fondai laiškas quarterly", "#funds/challenge", "ai"));
+    out.push(S(lt ? "Papildyti atliktą Funds DD (NOT FOUND duomenys)" : "Supplement a completed Funds DD (NOT FOUND items)", "papildyti papildymas not found nerasta trūksta supplement missing funds dd fondas etf", "#funds/fund", "ai"));
     JOBS.forEach(j => out.push(S(L(j.t), j.kw, `#tools/x/job-${j.id}`, j.kind, [], lt ? "instrukcija" : "how-to")));
     D.issuers.forEach(i => out.push(S(i.name, `${i.legal_name} ${i.country} ${i.sector} ${i.id}`, `#issuer/${i.id}`, "", [], `${i.country} · ${lt ? "apžvalga" : "review"}`)));
     g.rows.forEach(r => out.push(S(`${r.name} · ESG`, `esg ${r.id}`, `#esg/${r.id}`, "", [], (g.labels.engage || {})[r.engagement.level] || "")));
@@ -1052,19 +1220,25 @@
   const dx = k => (DX[LANG] || DX.en)[k];
   let DF = { isin: "", iss: "", name: "", green: "", type: "bond", rank: "" };
   let DKIND = "bond"; try { DKIND = ["fund", "screen", "challenge"].includes(localStorage.getItem("ddkind")) ? localStorage.getItem("ddkind") : "bond"; } catch (e) { /* ignore */ }
-  const ddSeg = () => `<div class="row" style="margin:0 0 14px"><span class="seg" id="ddKind">${[["bond", dx("kBond")], ["fund", dx("kFund")], ["screen", dx("kScreen")], ["challenge", dx("kChal")]].map(([k, l]) => `<button class="btn sm ${k === DKIND ? "on" : ""}" data-k="${k}">${esc(l)}</button>`).join("")}</span></div>`;
-  document.addEventListener("click", e => {
-    const b = e.target.closest("#ddKind [data-k]"); if (!b) return;
-    DKIND = b.dataset.k; try { localStorage.setItem("ddkind", DKIND); } catch (x) { /* ignore */ }
-    if (location.hash === "#dd/" + DKIND) route(); else location.hash = "#dd/" + DKIND;
-  });
+  /* Sritys: Emitentai (naujas DD obligacijai / akcijai – #dd/bond) ir Fondai (#funds/<skirtukas>: ketvirčio peržiūra,
+     pozicijų peržiūra, ETF paieška, fondo DD). Seni #dd/<fund|screen|challenge|fundreview> nukreipiami į #funds. */
+  const AX = {
+    en: { funds: "Funds", fundsSub: "Everything about held and new funds: the quarterly review, challenging held positions, ETF search and fund due diligence. Completed work is saved encrypted at the bottom.", portfolio: "Portfolio",
+      tabs: [["fundreview", "Quarterly review"], ["challenge", "Challenge positions"], ["screen", "ETF search"], ["fund", "Fund / ETF DD"]], bondT: "New DD: bond or share", newDD: "＋ New DD (bond or share)", backIss: "← Issuers" },
+    lt: { funds: "Fondai", fundsSub: "Viskas apie turimus ir naujus fondus: ketvirčio peržiūra, turimų pozicijų peržiūra, ETF paieška ir fondo DD. Atlikti darbai saugomi užšifruoti puslapio apačioje.", portfolio: "Portfelis",
+      tabs: [["fundreview", "Ketvirčio peržiūra"], ["challenge", "Pozicijų peržiūra"], ["screen", "ETF paieška"], ["fund", "Fondo / ETF DD"]], bondT: "Naujas DD: obligacija ar akcija", newDD: "＋ Naujas DD (obligacija ar akcija)", backIss: "← Emitentai" }
+  };
+  const ax = k => (AX[LANG] || AX.en)[k];
+  const FTAB = () => DKIND === "challenge" ? (CH.mode === 1 ? "fundreview" : "challenge") : DKIND;
+  const ddSeg = () => DKIND === "bond" ? "" : `<div class="row" style="margin:0 0 14px"><span class="seg tabs" id="ddKind">${ax("tabs").map(([k, l]) => `<a class="btn sm ${k === FTAB() ? "on" : ""}" href="#funds/${k}">${esc(l)}</a>`).join("")}</span></div>`;
+  const ddHead = sub => DKIND === "bond" ? `<p class="small"><a href="#issuers">${ax("backIss")}</a></p><h1>${ax("bondT")}</h1><p class="sub">${sub}</p>` : `<h1>${ax("funds")}</h1><p class="sub">${sub}</p>`;
   function ddPage() {
     if (DKIND === "fund") return fundPage();
     if (DKIND === "screen") return screenPage();
     if (DKIND === "challenge") return chalPage();
     setTimeout(initDd);
     const opt = (v, l, cur) => `<option value="${esc(v)}"${v === cur ? " selected" : ""}>${esc(l)}</option>`;
-    return `<h1>${dx("title")}</h1><p class="sub">${dx("sub")}</p>${ddSeg()}${jobHow("dd")}
+    return `${ddHead(dx("sub"))}${jobHow("dd")}
       <div class="two"><div class="card ddform"><h3>${dx("inst")}</h3>
         <label class="fl">${dx("isin")} <input id="dIsin" value="${esc(DF.isin)}" placeholder="LT0000… / XS…" maxlength="12"></label>
         <label class="fl">${dx("iss")} <select id="dIss">${opt("", dx("newIss"), DF.iss)}${D.issuers.slice().sort((a, b) => a.name.localeCompare(b.name)).map(i => opt(i.id, i.name, DF.iss)).join("")}</select></label>
@@ -1095,7 +1269,7 @@
   function fundPage() {
     setTimeout(initFund);
     const inp = (id, k, ph) => `<label class="fl">${fx(k)} <input id="f_${id}" value="${esc(FF[id])}"${ph ? ` placeholder="${esc(ph)}"` : ""}></label>`;
-    return `<h1>${dx("title")}</h1><p class="sub">${fx("sub")}</p>${ddSeg()}${jobHow("fdd")}
+    return `${ddHead(ax("fundsSub"))}${ddSeg()}<p class="sub small">${fx("sub")}</p>${jobHow("fdd")}
       <div class="two"><div class="card ddform"><h3>${fx("inst")}</h3>
         ${inp("isin", "isin", "IE00… / LU…")}${inp("name", "name")}${inp("mgr", "mgr")}${inp("tick", "tick", fx("tickPh"))}${inp("tgt", "tgt", fx("tgtPh"))}${inp("why", "why")}<label class="fl">${fx("alt")} <textarea id="f_alt" rows="4" placeholder="${esc(fx("altPh"))}">${esc(FF.alt)}</textarea></label>
         <h4>${fx("paste")}</h4><ul class="b small">${fx("pasteL").map(x => `<li>${esc(x)}</li>`).join("")}</ul><p class="muted small">${fx("auto")}</p>
@@ -1162,7 +1336,7 @@
       const on = multi ? SC[k].includes(i) : SC[k] === i;
       return `<label><input type="${multi ? "checkbox" : "radio"}" name="sc_${k}" value="${i}"${on ? " checked" : ""}>${esc(l)}</label>`; }).join("")}</div>`;
     const inp = (k, ph) => `<label class="fl">${scx(k)} <input id="sc_${k}" value="${esc(SC[k])}"${ph ? ` placeholder="${esc(ph)}"` : ""}></label>`;
-    return `<h1>${dx("title")}</h1><p class="sub">${scx("sub")}</p>${ddSeg()}${jobHow("screen")}
+    return `${ddHead(ax("fundsSub"))}${ddSeg()}<p class="sub small">${scx("sub")}</p>${jobHow("screen")}
       <div class="two"><div class="card ddform"><h3>${scx("h")}</h3>
         ${inp("what", scx("whatPh"))}
         <div class="fl">${scx("asset")}</div>${chips("asset", true)}<div class="fl">${scx("region")}</div>${chips("region", true)}<div class="fl">${scx("style")}</div>${chips("style", true)}
@@ -1201,6 +1375,7 @@
   // atliktos paieškos (iššifruotos su DD archyvu)
   let SOPEN = null;
   function screenList() {
+    if (DKIND === "bond") return "";
     const sc = (DDL || []).filter(x => ["screen", "challenge", "fundreview"].includes(x.type)); if (!sc.length) return ["screen", "challenge"].includes(DKIND) ? `<h4>${scx("list")}</h4><p class="muted small">${scx("none")}</p>` : "";
     return `<h4 style="margin-top:16px">${scx("list")}</h4><div class="tbl-wrap"><table>${sc.map(x => `<tr><td>${esc(x.date)}</td><td><b>${esc(x.title)}</b>${x.type === "challenge" || x.type === "fundreview" ? ` <span class="muted small">· ${esc(x.type === "fundreview" ? chx("modeO")[1] : dx("kChal"))}</span>` : ""}${((x.view || {}).bundle || x.view || {}).status ? ` <span class="tag ${((x.view.bundle || x.view).status === "final") ? "fin" : "drf"}">${scx(((x.view.bundle || x.view).status === "final") ? "sFin" : "sDrf")}</span>` : ""}</td>
       <td class="nw"><button class="btn sm" data-sv="${esc(x.id)}">${SOPEN === x.id ? scx("hide") : scx("view")}</button> ${(x.view || {}).bundle ? `<button class="btn sm" data-bdl="${esc(x.id)}">⬇ ${scx("bdl")}</button>` : `<button class="btn sm" data-dd="${esc(x.id)}">⬇ ${scx("ppt")}</button>`}${zipBtns(x.id)}${missLeft(x) ? ` <button class="btn sm miss" data-sv="${esc(x.id)}">${scx("mBadge")}: ${missLeft(x)}</button>` : ""}</td></tr>
@@ -1338,7 +1513,7 @@
     const alts = (v.picks || []).filter(p => p.isin !== isin).map(p => `${p.name} (${p.isin})`).join("\n");
     FF = { ...FF, isin: r.isin, name: r.name || "", mgr: r.mgr || "", tick: r.tick || "", alt: alts, sup: "", scr: `${x.title} (${x.date})` };
     DKIND = "fund"; try { localStorage.setItem("ddkind", "fund"); } catch (y) { /* ignore */ }
-    location.hash = "#dd/fund"; window.scrollTo(0, 0);
+    location.hash = "#funds/fund"; window.scrollTo(0, 0);
   });
   /* Challenge: turimų pozicijų peržiūra (laikyti / keisti / stebėti). Pozicijos - ranka (bet kuri šalis) arba iš LT pensijų fondų
      portfelių (pension-fund-tracker docs/data_pf.js, kraunama tik paspaudus). Metodika - projekto failuose (funds_dd/challenge/metodika.md). */
@@ -1392,6 +1567,7 @@
   const FR_CATS = "Global Equity (developed / all-country)\nUS Equity\nEurope Equity\nJapan Equity\nEmerging Markets Equity\nSector and Thematic Equity\nFactor / Style Equity\nSEB Index Climate Future (Klimato ateitis) holdings (PAB) – own category; each fund also compared in its regional category\nEUR Government Bonds\nEUR Investment Grade Corporate Bonds\nHigh Yield Bonds\nEmerging Markets Debt\nHybrid / Subordinated Bonds\nActive funds – second comparison across all categories";
   let CH = { mode: 0, fq: "", frList: "", cats: FR_CATS, frOpt: [0, 1, 2, 3], prev: "", mailTo: "", mailNote: "", picks: [], src: 0, port: "", list: "", mgr: "SEB", pl: 0, fund: "", cat: 0, reg: "", sfdr: 0, q: -1, minw: "", off: [], rules: [], rnote: "", pitch: "", focus: [], mkt: 1, note: "" };
   let PFD = null, PFLOAD = false;  // pension-fund-tracker duomenys (atmintyje)
+  const PFCB = [];  // laukiantys pension-fund-tracker duomenų (portfelio skirstymas)
   function pfLoad() {
     if (PFD || PFLOAD) return; PFLOAD = true;
     const s = document.createElement("script"); s.src = PF_URL;
@@ -1401,9 +1577,9 @@
         const funds = P.funds.map(f => { const q = {}; for (let i = 0; i < f.r.length; i += 4) (q[f.r[i]] = q[f.r[i]] || new Map()).set(f.r[i + 1], f.r[i + 3]); return { ...f, q }; });
         PFD = { Q: P.quarters, secs: P.secs, funds };
       } catch (e) { PFD = { err: 1 }; }
-      initChal(); if (CHSEARCH) CHSEARCH();
+      initChal(); if (CHSEARCH) CHSEARCH(); PFCB.splice(0).forEach(f => f());
     };
-    s.onerror = () => { PFD = { err: 1 }; initChal(); };
+    s.onerror = () => { PFD = { err: 1 }; initChal(); PFCB.splice(0).forEach(f => f()); };
     document.head.appendChild(s);
   }
   function chalPage() {
@@ -1414,17 +1590,17 @@
     const inp = (k, ph) => `<label class="fl">${chx(k)} <input id="ch_${k}" value="${esc(CH[k])}"${ph ? ` placeholder="${esc(ph)}"` : ""}></label>`;
     const ta = (k, rows) => `<label class="fl">${chx(k)} <textarea id="ch_${k}" rows="${rows}" placeholder="${esc(chx(k + "Ph"))}">${esc(CH[k])}</textarea></label>`;
     const mode = `<div class="chips" data-ck="mode">${chx("modeO").map((l, i) => `<label><input type="radio" name="ch_mode" value="${i}"${CH.mode === i ? " checked" : ""}>${esc(l)}</label>`).join("")}</div>`;
-    if (CH.mode === 1) return `<h1>${dx("title")}</h1><p class="sub">${chx("frSub")}</p>${ddSeg()}${jobHow("frev")}
-      <div class="card ddform">${mode}
+    if (CH.mode === 1) return `${ddHead(ax("fundsSub"))}${ddSeg()}<p class="sub small">${chx("frSub")}</p>${jobHow("frev")}
+      <div class="card ddform">
         <div class="two"><div>${inp("fq", chx("fqPh"))}${ta("frList", 9)}
-          <div class="row" style="gap:8px;margin:-4px 0 12px"><select id="ch_fmgr">${["SEB", "Swedbank", "Luminor", "Artea", "Allianz", "Goindex"].map(m => `<option${m === CH.mgr ? " selected" : ""}>${m}</option>`).join("")}</select><button class="btn sm" id="chFill">${chx("fill")}</button><span id="chFillMsg" class="muted small"></span></div>
+          <div class="row" style="gap:8px;margin:-4px 0 12px"><select id="ch_fmgr">${["SEB", "Swedbank", "Luminor", "Artea", "Allianz", "Goindex"].map(m => `<option${m === CH.mgr ? " selected" : ""}>${m}</option>`).join("")}</select><button class="btn sm" id="chFill">${chx("fill")}</button>${PORT.rows.length ? `<a class="btn sm" href="#portfolio">${LANG === "lt" ? "Imti iš portfelio" : "Take from portfolio"} →</a>` : ""}<span id="chFillMsg" class="muted small"></span></div>
           ${inp("prev", chx("prevPh"))}</div>
         <div><label class="fl">${chx("cats")} <textarea id="ch_cats" rows="9">${esc(CH.cats)}</textarea></label><p class="small" style="margin:-6px 0 10px"><a href="#" id="chCatsDef">${chx("catsDef")}</a></p>
           <div class="fl">${chx("frOpt")}</div>${chips("frOpt", true)}<div class="fl">${chx("mkt")}</div>${chips("mkt")}
           <label class="fl">${chx("mailTo")} <input id="ch_mailTo" value="${esc(CH.mailTo)}" placeholder="${esc(chx("mailToDef"))}"></label>${ta("mailNote", 2)}</div></div></div>
       <div id="chOut" style="margin-top:16px"></div>${ddArchive()}`;
-    return `<h1>${dx("title")}</h1><p class="sub">${chx("sub")}</p>${ddSeg()}${jobHow("chal")}
-      <div class="card ddform">${mode}<label class="fl">${chx("find")} <input id="ch_find" autocomplete="off" placeholder="${esc(chx("findPh"))}"></label><div id="chHits" class="chhits"></div><div id="chPicks"></div>
+    return `${ddHead(ax("fundsSub"))}${ddSeg()}<p class="sub small">${chx("sub")}</p>${jobHow("chal")}
+      <div class="card ddform"><label class="fl">${chx("find")} <input id="ch_find" autocomplete="off" placeholder="${esc(chx("findPh"))}"></label><div id="chHits" class="chhits"></div><div id="chPicks"></div>
         <div class="fl">${chx("src")}</div>${chips("src")}
         ${inp("port", chx("portPh"))}
         <div id="chSrc"></div>
@@ -1473,7 +1649,7 @@
     const E = CHX.en, opts = CH.frOpt.map(i => E.frOptO[i]);
     const L = [`Do the quarterly Fund review${CH.fq ? " for " + CH.fq : ""}: all held listed funds (ETFs and actively managed funds; unlisted alternative funds excluded), by category.`,
       "Method: /mnt/project-files/funds_dd/challenge/metodika.md, section 11 (Fund review) plus the challenge method (verdict KEEP / WATCH / SWITCH per fund, net advantage vs switching cost, peers, market context as facts and scenarios).",
-      "Outputs (English, formal documentary style), each in PowerPoint, Word and PDF from one content via /mnt/project-files/funds_dd/review_lib.py (Report / Section, export()): (1) long version by category – every category STARTS with the overview table of all funds analysed in it (Section.overview: fund, ISIN, type, TER, SFDR, in LT portfolios since – review_lib.lt_since from the pension fund tracker, weight, return 1Y / 3Y p.a., vs benchmark 3Y p.a., verdict); (2) short quick-read version with references to the long version; (3) email draft to " + (CH.mailTo || "fund managers") + " – casual, short (e.g. \"Hi, finished the Q3 fund review…\"), key points and what needs attention; (4) documents ZIP of every source and evidence ZIP (data extracts, own calculations). Archive the bundle: `python tools/dd_vault.py screen <base>_bundle.zip --view <VIEW.json> --kind fundreview --sources <sources.json> --evidence <folder>`; VIEW.json = {summary, table, email, notes, bundle: <manifest.json from export()>} so the dashboard offers all categories in one file or selected categories only; not in the public repo.",
+      "Outputs (English, formal documentary style), each in PowerPoint, Word and PDF from one content via /mnt/project-files/funds_dd/review_lib.py (Report / Section, export()): (1) long version by category – every category STARTS with the overview table of all funds analysed in it (Section.overview: fund, ISIN, type, TER, SFDR, held since (from the owner's list or previous reviews; review_lib.lt_since only as a fallback), weight, return 1Y / 3Y p.a., vs benchmark 3Y p.a., verdict); (2) short quick-read version with references to the long version; (3) email draft to " + (CH.mailTo || "fund managers") + " – casual, short (e.g. \"Hi, finished the Q3 fund review…\"), key points and what needs attention; (4) documents ZIP of every source and evidence ZIP (data extracts, own calculations). Archive the bundle: `python tools/dd_vault.py screen <base>_bundle.zip --view <VIEW.json> --kind fundreview --sources <sources.json> --evidence <folder>`; VIEW.json = {summary, table, email, notes, bundle: <manifest.json from export()>} so the dashboard offers all categories in one file or selected categories only; not in the public repo.",
       "Fund investments:", CH.frList || "[ISIN, name, weight; category optional]", "Categories:", CH.cats || FR_CATS, `Options: ${opts.join("; ") || "none"}`, `Market context: ${E.mktO[CH.mkt]}`];
     if (CH.prev) L.push(`Previous review: ${CH.prev}`);
     if (CH.mailNote) L.push(`Email – stress: ${CH.mailNote}`);
@@ -1484,6 +1660,7 @@
     L.push("Two versions: this first one is the DRAFT – review_lib Report(status=\"draft\"): DRAFT on the cover, NOT FOUND in red. After the owner adds the missing data it becomes FINAL – Report(status=\"final\"): no red anywhere, n/a in grey, unavailable data listed neutrally in the Method section; it must look professional either way.");
     L.push("Missing data: data points not found in public sources go to VIEW.missing (shown on the dashboard with input fields for the owner, who has Morningstar Direct, a Bloomberg terminal and some active-fund reports, but cannot send files): [{k, fund, isin, what (exact data point and period), fmt, where (exact Morningstar Direct data point or Bloomberg field / screen), why (what it changes), prio: 1 = may change a verdict or a flag, 2 = completes a table}]. At most 15 items, priority 1 first; ask only for what changes a conclusion or fills the overview table – nothing that can be found publicly.");
     L.push("Climate Future (PAB) funds: a separate category of the SEB Index Climate Future (Klimato ateitis) holdings, and each of them is also included and compared in its regional category (e.g. a US PAB ETF in US Equity). In every such pair state what is gained and what is given up versus the standard regional index fund: TER and tracking, return gap 1 / 3 / 5 years, carbon intensity reduction, excluded sectors and largest weight differences (sector and top holdings), concentration, tracking error vs the parent index, SFDR article.");
+    L.push("Fund cards: before searching, read /mnt/project-files/funds_dd/fund_cards.json (review_lib.card_get) – reuse static data (TER, SFDR, index, domicile, replication, launch date, manager, share class, ETF or active, with source and date) and refresh only what changes each quarter (assets, returns, tracking difference, events); after the review save every fund with review_lib.card_put. If a value cannot be found this quarter, use the last card value with its date.");
     L.push("Active funds: compare twice when data allow – within the active-funds group and against passive funds with the same exposure (is the higher management fee earned after costs: excess return, consistency, information ratio). Missing data: mark NOT FOUND in red and list them for the owner.");
     return L.join("\n");
   }
@@ -1543,7 +1720,7 @@
       if (k === "src") drawSrc();
       show();
     });
-    const mg = document.querySelector('.chips[data-ck="mode"]'); if (mg) mg.onchange = e => { CH.mode = +e.target.value; const h = CH.mode ? "#dd/fundreview" : "#dd/challenge"; if (location.hash !== h) location.hash = h; else route(); };
+    const mg = document.querySelector('.chips[data-ck="mode"]'); if (mg) mg.onchange = e => { CH.mode = +e.target.value; const h = CH.mode ? "#funds/fundreview" : "#funds/challenge"; if (location.hash !== h) location.hash = h; else route(); };
     if (CH.mode === 1) {
       ["fq", "frList", "cats", "prev", "mailTo", "mailNote"].forEach(k => { const el = document.getElementById("ch_" + k); if (el) el.oninput = () => { CH[k] = el.value; show(); }; });
       document.getElementById("chFill").onclick = frFill;
@@ -1627,7 +1804,7 @@
   function ddArchHtml(msg) {
     if (!DDL) return `<div class="row ddpw"><input id="ddPw" type="password" placeholder="${esc(da("pw"))}" autocomplete="current-password"><label class="chk small"><input type="checkbox" id="ddRem" checked> ${da("rem")}</label><button class="btn primary" id="ddOpen">${da("open")}</button></div>
       ${msg ? `<p class="bad small">${esc(msg)}</p>` : ""}<p class="muted small">${da("lost")}</p>`;
-    const docs = DDL.filter(x => x.type !== "zip" && x.type !== "screen" && x.type !== "challenge" && x.type !== "fundreview"), zipOf = id => {
+    const docs = DDL.filter(x => !["zip", "screen", "challenge", "fundreview", "portfolio"].includes(x.type) && (DKIND === "bond") !== /\.pptx$/i.test(x.file || "")), zipOf = id => {
       const par = z => (D.dd.zips || {})[z.id] || z.parent, me = DDL.find(x => x.id === id);
       // tas pats DD kita kalba (tas pats ISIN ir data) naudoja tą patį dokumentacijos ZIP
       return DDL.find(z => z.type === "zip" && par(z) === id) || DDL.find(z => { if (z.type !== "zip") return false; const p = DDL.find(x => x.id === par(z)); return p && me && p.isin === me.isin && p.date === me.date; });
@@ -1739,7 +1916,7 @@
   ];
   function glossify(root) {
     const src = GLOSS.map(g => g[0].source).join("|"), re = new RegExp(src, "gi"), has = new RegExp(src, "i");
-    const walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement.closest("a,button,input,textarea,select,pre,abbr,.mbody,summary,th,.chip,[contenteditable],script,style") || !has.test(n.data) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => n.parentElement.closest("a,button,input,textarea,select,pre,abbr,.mbody,summary,th,.chip,[contenteditable],script,style,svg") || !has.test(n.data) ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
     const nodes = []; while (walk.nextNode()) nodes.push(walk.currentNode);
     nodes.forEach(n => {
       re.lastIndex = 0;
@@ -1752,11 +1929,14 @@
 
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
-    const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (["fund", "bond", "screen", "challenge"].includes(arg)) DKIND = arg; if (arg === "fundreview") { DKIND = "challenge"; CH.mode = 1; } return ddPage(); }, issuer: () => issuer(arg), news: () => news(arg), securities: () => securities(arg), isin: securities, tools, about };
-    const cur = map[page] ? (page === "issuer" ? "issuers" : page === "isin" ? "securities" : page) : "overview";
-    document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = k === "esg" ? "ESG" : t(k); a.classList.toggle("on", a.getAttribute("href").slice(1) === cur); });
+    const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (arg && arg !== "bond") { location.replace("#funds/" + arg); return ""; } DKIND = "bond"; return ddPage(); },
+      funds: () => { const a = ["fund", "screen", "challenge", "fundreview"].includes(arg) ? arg : (localStorage.getItem("ftab") || "fundreview"); try { localStorage.setItem("ftab", a); } catch (e) { /* ignore */ }
+        if (a === "fundreview") { DKIND = "challenge"; CH.mode = 1; } else { DKIND = a; if (a === "challenge") CH.mode = 0; } return ddPage(); },
+      portfolio: () => portfolioPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => portfolioPage(arg), isin: () => portfolioPage(), tools, about };
+    const cur = map[page] ? (page === "issuer" || page === "dd" ? "issuers" : ["isin", "securities"].includes(page) ? "portfolio" : page) : "overview";
+    document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = k === "esg" ? "ESG" : AX.en[k] ? ax(k) : t(k); a.classList.toggle("on", a.getAttribute("href").slice(1) === cur); });
     const nm = document.querySelector(".navmore"); if (nm) { nm.open = false; nm.querySelector("summary").textContent = t("moreNav") + " ▾"; nm.classList.toggle("on", !!nm.querySelector("a.on")); }
-    document.querySelector(".brand").textContent = t("heroTitle");
+    document.querySelector(".brand").textContent = LANG === "lt" ? "Investicijų peržiūra" : "Investment review"; document.title = document.querySelector(".brand").textContent;
     document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
     document.documentElement.lang = LANG;
     $app.innerHTML = (map[page] || map.overview)();

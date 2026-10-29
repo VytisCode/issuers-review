@@ -378,3 +378,32 @@ td.nw{white-space:nowrap}
 .btn.miss { border-color: #C01E1E; color: #C01E1E; }
 .tag.drf { background: #FFF4DE; color: #8A5A00; border-radius: 8px; padding: 1px 7px; font-size: 11px; }
 .tag.fin { background: #E7F4E4; color: #2E6B31; border-radius: 8px; padding: 1px 7px; font-size: 11px; }
+
+/* darbų žemėlapis ir portfelis (2026-10-29) */
+.lgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.lgroup h3 { margin: 0 0 8px; font-size: 17px; } .lgroup h3 a { color: inherit; text-decoration: none; } .lic { font-size: 20px; }
+.ltile { display: flex; gap: 10px; align-items: flex-start; padding: 8px 6px; border-radius: 8px; text-decoration: none; color: inherit; }
+.ltile:hover { background: #F1F4F8; } .ltile b { display: block; font-size: 14px; } .ltile .kd { margin-top: 6px; flex: none; }
+.ltile span.muted { display: block; }
+.seg.tabs .btn { text-decoration: none; }
+.pchips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
+.pchip { border-radius: 14px; padding: 3px 10px; font-size: 12.5px; background: #EEF1F5; }
+.pchip.c-iss_known, .pchip.c-iss_new { background: #E3ECF7; } .pchip.c-etf, .pchip.c-active { background: #E7F4E4; } .pchip.c-fund { background: #EDF7EA; }
+.pchip.c-alt, .pchip.c-cash, .pchip.c-gov { background: #F1F1F1; color: #666; } .pchip.c-unk, .pchip.c-bad { background: #FFF1E0; color: #8A5A00; }
+#pText { width: 100%; font-family: ui-monospace, monospace; font-size: 12.5px; }
+.card.soft { background: #F7F9FC; }
+tr.pc-alt td, tr.pc-cash td { color: #888; }
+
+/* Kaip veikia – schemos */
+.dgc h2 { margin: 0 0 8px; font-size: 18px; } .dg { width: 100%; height: auto; display: block; }
+.dg .dn rect { fill: var(--surface-2); stroke: var(--line); stroke-width: 1.5; }
+.dg .dn.ai rect { fill: var(--ai-bg); stroke: var(--ai); } .dg .dn.code rect { fill: var(--code-bg); stroke: var(--code); } .dg .dn.you rect { fill: var(--you-bg); stroke: var(--you); }
+.dg .dn.hubc rect { fill: var(--info-bg); stroke: var(--accent); stroke-width: 2; }
+.dg .dt { font-weight: 700; font-size: 16px; fill: var(--text); } .dg .dt.big { font-size: 22px; } .dg .ds { font-size: 13px; fill: var(--text-2); }
+.dg .dnum { fill: var(--accent); } .dg .dn.ai .dnum { fill: var(--ai); } .dg .dn.code .dnum { fill: var(--code); } .dg .dn.you .dnum { fill: var(--you); }
+.dg .dnt { fill: var(--surface); font-size: 13px; font-weight: 700; }
+.dg .da { stroke: var(--muted); stroke-width: 2; fill: none; } .dg .da.dash { stroke-dasharray: 6 5; } .dg .dah { fill: var(--muted); }
+.dg .dring { fill: none; stroke: var(--line); stroke-width: 2; stroke-dasharray: 3 6; }
+.sub.lead { font-size: 17px; max-width: 900px; }
+.pgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 14px; } .pgrid h3 { margin: 0 0 6px; }
+.pbox pre { max-height: 260px; overflow: auto; }

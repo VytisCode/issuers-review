@@ -221,7 +221,7 @@ if __name__ == "__main__":
     rp = sub.add_parser("replace"); rp.add_argument("id")
     sc = sub.add_parser("screen"); sc.add_argument("file"); sc.add_argument("--view", required=True); sc.add_argument("--title", required=True)
     sc.add_argument("--date", default=dt.date.today().isoformat())
-    sc.add_argument("--kind", default="screen", choices=("screen", "challenge", "fundreview"))
+    sc.add_argument("--kind", default="screen", choices=("screen", "challenge", "fundreview", "portfolio"))
     sc.add_argument("--sources"); sc.add_argument("--evidence")
     so = sub.add_parser("sources"); so.add_argument("id"); so.add_argument("file")
     ev = sub.add_parser("evidence"); ev.add_argument("id"); ev.add_argument("dir")
