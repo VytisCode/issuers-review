@@ -1,0 +1,376 @@
+=== pdf p.1 ===
+                                                   Diese Marketinginformation ist ausschließlich für die Verwendung in Deutschland, Österreich, der Schweiz und Liechtenstein. Anleger
+                                                   sollten die Verkaufsunterlagen lesen, bevor sie eine endgültige Anlageentscheidung treffen.
+
+
+
+
+                                                                                                                                              Stand vom 30 Juni 2026
+
+Invesco NASDAQ-100 ESG UCITS ETF Acc
+ NESG
+Anlageziele                                                     Wesentliche Risiken
+Invesco NASDAQ-100 ESG UCITS ETF Acc zielt darauf ab,           Die vollständigen Informationen zu den Risiken erhalten Sie in den Verkaufsunterlagen. Der Wert von Anlagen und die Erträge
+nach Abzug von Gebühren die Entwicklung der                     hieraus unterliegen Schwankungen. Dies kann teilweise auf Wechselkursänderungen zurückzuführen sein. Es ist möglich, dass
+Nettogesamtrendite des NASDAQ-100 ESG Index                     Anleger bei der Rückgabe ihrer Anteile nicht den vollen investierten Betrag zurückerhalten. Der Fonds kann dem Risiko ausgesetzt
+abzubilden.                                                     sein, dass der Entleiher seine Verpflichtung zur Rückgabe der Wertpapiere am Ende der Leihfrist nicht erfüllt und dass er die ihm
+                                                                gestellten Sicherheiten bei einem Ausfall des Entleihers nicht verkaufen kann. Der Fonds beabsichtigt, in Wertpapiere von
+Bei einer Anlage in diesen Fonds handelt es sich um             Emittenten zu investieren, die ihre ESG-Engagements im Verhältnis zu ihren Vergleichsunternehmen besser verwalten. Dies kann
+den Erwerb von Anteilen an einem passiv verwalteten,            sich auf das Engagement des Fonds in bestimmten Emittenten auswirken und es kann dazu führen, dass der Fonds auf bestimmte
+indexnachbildenden Fonds und nicht um den Erwerb                Anlagegelegenheiten verzichtet. Die Entwicklung des Fonds kann von der anderer Fonds abweichen und er kann hinter anderen
+der Vermögenswerte, die vom Fonds gehalten werden.              Fonds zurückbleiben, die sich bei der Anlage in Wertpapieren von Emittenten nicht auf deren ESG-Ratings stützen. Der Fonds
+                                                                könnte in einer bestimmten Region oder in einem Sektor konzentriert oder in einer eingeschränkten Anzahl von Positionen
+Fondsfakten                                                     engagiert sein, was zu stärkeren Schwankungen des Fondswerts als bei einem stärker diversifizierten Fonds führen könnte. Der
+                                                                Wert der Aktien kann durch bestimmte Faktoren wie die Umstände des Emittenten oder Wirtschafts- und Marktbedingungen
+Auflegungsdatum des Fonds                  25 Oktober 2021
+                                                                beeinflusst werden. Dies kann zu Wertschwankungen führen.
+Auflegungsdatum der Anteilsklasse          25 Oktober 2021
+Laufende Kosten 1                               0,25% p.a.      Über den index
+Fondswährung                                           USD      Der Referenzindex soll die Wertentwicklung von Unternehmen im Nasdaq-100 Index (der ""Mutterindex"") widerspiegeln, die
+Währung der Anteilklasse                               USD      bestimmte ESG-Kriterien erfüllen. Die Unternehmen werden auf der Grundlage ihrer Geschäftsaktivitäten, Kontroversen und ESG-
+Währungsgesichert                                      Nein     Risikobewertungen bewertet und gewichtet. Der Referenzindex wird konzipiert, indem zunächst Wertpapiere ausgeschlossen
+Index                        Nasdaq-100 ESG Index (USD)         werden, die: (1) in den Bereichen Erwachsenenunterhaltung, Alkohol, arktische Erdöl- und Erdgasexploration, Cannabis für
+Indexwährung                                           USD      Freizeitzwecke, umstrittene Waffen, Glücksspiel, militärische Waffen, Kernkraft, Erdöl und Erdgas, Ölsande,
+Index Bloomberg Ticker                          NDXESGN         Aufstandsbekämpfung, Schieferenergie, Kleinwaffen, Kraftwerkskohle oder Tabak tätig sind; (2) nicht den Grundsätzen des UN
+                                                                Global Compact entsprechen oder ein hohes Sustainalytics-Kontroversitäts-Rating aufweisen; oder (3) ein hohes Sustainalytics
+Replikationsmethode                               Physisch
+                                                                ESG-Risiko-Rating oder noch keine Bewertung haben.
+OGAW-konform                                             Ja
+Dachfonds                            Invesco Markets II plc      Die frühere Wertentwicklung lässt nicht auf zukünftige Renditen schließen.
+Anlageverwalter           Invesco Capital Management LLC
+                                                                Indexierte Wertentwicklung, % Wachstum seit Auflegung
+Domizil                                              Irland
+                                                                  Invesco NASDAQ-100 ESG UCITS ETF Acc
+Dividendenbehandlung                         Thesaurierend
+ISIN-Code                                 IE000COQKPO9            Nasdaq-100 ESG Index (USD)
+WKN                                               A3CZGT          120
+VALOR                                          113382078
+SEDOL                                            BP5XP92
+Bloomberg Ticker                                 N1ES GY           80
+Fondsvolumen                                USD 2.763,65m
+Nettoinventarwert pro Anteil                    USD 88,97
+Ausgegebene Anteile                            30.972.167          40
+SFDR Klassifizierung                               Artikel 8
+
+
+Risikoindikator                                                     0
+
+Niedrigeres Risiko                             Höheres Risiko
+
+                                                                  -40
+                                                                    Okt-21          Jun-22          Feb-23           Okt-23          Jun-24            Feb-25          Okt-25        Jun-26
+   1         2       3       4        5        6         7
+                                                                 Kumulierte Wertentwicklung zum 30 Juni 2026 (%)
+                                                                                                           1 Jahr                3 Jahre         5 Jahre            10 Jahre    Fondsauflegung
+Der Risikoindikator kann sich ändern und ist auf der             ETF                                        35,95                 106,63               -                   -             108,78
+Grundlage der zum Zeitpunkt der Veröffentlichung
+                                                                 Index                                      36,16                 107,44               -                   -             110,01
+verfügbaren Daten korrekt.
+                                                                 Wertentwicklung je Kalenderjahr (%)
+1 Die laufenden Kosten umfassen die Managementgebühr,
+                                                                                     2025       2024         2023        2022       2021       2020         2019        2018     2017         2016
+die Verwahrungs- und Verwaltungskosten, nicht aber die           ETF                 22,00     25,27         55,05      -31,78         -          -            -           -        -            -
+Transaktionskosten. Kosten können als Ergebnis von               Index               22,17     25,43         55,23      -31,72         -          -            -           -        -            -
+Währungs- und Wechselkursschwankungen steigen oder
+fallen. Weitere Informationen zu den Kosten finden Sie in        Rollierende 12-Monats-Wertentwicklung (%)
+den Verkaufsunterlagen.                                                              06.25    06.24      06.23          06.22       10.21      06.20        06.19       06.18   06.17         06.16
+                                                                                     06.26    06.25      06.24          06.23       06.22      06.21        06.20       06.19   06.18         06.17
+                                                                 ETF                 35,95    14,62      32,60          34,62      -24,94          -            -           -       -             -
+                                                                 Index               36,16    14,76      32,75          34,76      -24,88          -            -           -       -             -
+                                                                 Quelle: Invesco, Bloomberg L.P., FactSet. Die Index-/Benchmark-Performance wird in der Index-/Benchmark-Währung
+                                                                 angegeben. Die angezeigte ETF-Wertentwicklung wird mit Bezug auf den Netto- Inventarwert (NAV), inkl. Wiederanlage der
+                                                                 Bruttoerträge und abzüglich laufender Gebühren und Portfolio-Transaktionskosten in USD berechnet. Weitere Kosten wie z.B.
+                                                                 Depotführungsgebühren und Transaktionskosten können den Ertrag zusätzlich mindern. Die Zahlen spiegeln nicht den aktuellen
+                                                                 Aktienkurs, die Auswirkungen der Spanne zwischen An- und Verkaufskursen oder Broker-Provisionen wider. Der angezeigte Index
+                                                                 gibt die Gesamtrendite abzüglich reinvestierter Dividendenausschüttungen in USD an und dient nur zu Illustrationszwecken.
+                                                                 Erträge können aufgrund von Währungsschwankungen steigen oder fallen. Die ETF-NAV-Wertentwicklung unterscheidet sich von
+                                                                 der des Index aufgrund der laufenden Gebühren und Portfolio-Transaktionskosten und aufgrund der Tatsache, dass der ETF nicht
+                                                                 unbedingt immer alle Wertpapiere im Index in ihrer jeweiligen Gewichtung enthält. Dieser ETF erhebt keinen Ausgabeaufschlag.
+
+=== pdf p.2 ===
+Länderschwerpunkte (%)                                        Wichtige Hinweise
+                                                              Diese Marketinginformation dient lediglich zu Diskussionszwecken und richtet sich an Anleger in Deutschland, Liechtenstein,
+                                                              Österreich und der Schweiz.
+                                                              Informationen über unsere Fonds und die damit verbundenen Risiken finden Sie im Basisinformationsblatt (in den jeweiligen
+                                                              Landessprachen) und im Verkaufsprospekt (Englisch) sowie in den Finanzberichten, die Sie unter www.invesco.eu abrufen
+                                                              können. Eine Zusammenfassung der Anlegerrechte ist in englischer Sprache unter www.invesco.com/ie-manco/en/home.html
+                                                              verfügbar. Die Verwaltungsgesellschaft kann Vertriebsvereinbarungen kündigen.
+                                                              Dies ist Marketingmaterial und kein Anlagerat. Es ist nicht als Empfehlung zum Kauf oder Verkauf einer bestimmten Anlageklasse,
+                                                              eines Wertpapiers oder einer Strategie gedacht. Regulatorische Anforderungen, die die Unparteilichkeit von Anlage- oder
+                                                              Anlagestrategieempfehlungen verlangen, sind daher nicht anwendbar, ebenso wenig wie das Handelsverbot vor deren
+                                                              Veröffentlichung.
+                                                              Auf dem Sekundärmarkt erworbene ETF-Anteile können normalerweise nicht direkt an den ETF zurückgegeben werden. Am
+ Vereinigte Staaten                                  94,5    Sekundärmarkt müssen Anleger Anteile mit Hilfe eines Intermediärs (z.B. eines Brokers) kaufen und verkaufen. Hierfür können
+ Niederlande                                          1,6    Gebühren anfallen. Drüber hinaus bezahlen die Anleger beim Kauf von Anteilen unter Umständen mehr als den aktuellen
+ Vereinigtes Königreich                               1,6    Nettoinventarwert und erhalten beim Verkauf unter Umständen weniger als den aktuellen Nettoinventarwert.
+ Irland                                               1,1
+ Kanada                                               0,6    Nasdaq®, Nasdaq-100® ESG sind eingetragene Warenzeichen von Nasdaq, Inc. (hier zusammen mit den Tochtergesellschaften
+ Brasilien                                            0,4    als die „Unternehmen“ bezeichnet) und lizenziert für die Nutzung durch Invesco. Die Produkte oder das Produkt wurden von den
+ China                                                0,2    Unternehmen nicht auf rechtliche Zulässigkeit oder Eignung geprüft. Die Produkte oder das Produkt werden von den Unternehmen
+ Bargeld und/ oder Derivate                           0,1    nicht herausgegeben, empfohlen, verkauft oder beworben. Die Unternehmen geben keinerlei Garantie und übernehmen keine
+                                                              Haftung in Zusammenhang mit den Produkten oder dem Produkt.
+Quelle: Invesco, per 30 Jun 2026
+                                                              Möglicherweise sind nicht alle Anteilsklassen dieses Fonds in allen Rechtsordnungen zum öffentlichen Vertrieb zugelassen, und
+Sektorschwerpunkte (%)                                        nicht alle Anteilsklassen sind gleich oder eignen sich zwangsläufig für jeden Anleger.
+                                                              Die vollständigen Anlageziele sowie die Anlagepolitik entnehmen Sie bitte dem aktuellen Verkaufsprospekt oder dem Fonds-
+                                                              Supplement.
+                                                              Bei jeder Anlageentscheidung sollten alle Merkmale des Fonds berücksichtigt werden, wie sie in den Verkaufsunterlagen
+                                                              beschrieben sind. Informationen zu Nachhaltigkeitsaspekten finden Sie unter:
+                                                              https://www.invescomanagementcompany.ie/dub-manco
+                                                              Zahlstelle in Liechtenstein: LGT Bank AG, Herrengasse 12, 9490 Vaduz. Das Key Information Document (KID) und der Prospekt
+                                                              sind in deutscher bzw. in englischer Sprache unter https://www.fundinfo.com erhältlich.
+                                                              Vertreter und Zahlstelle in der Schweiz ist BNP PARIBAS, Paris, Succursale de Zurich, Selnaustrasse 16 8002 Zürich. Der
+                                                              Prospekt, das Basisinformationsblatt, die Finanzberichte und die Satzung der Gesellschaft können kostenlos beim Vertreter
+                                                              angefordert werden. Die ETFs sind in Irland domiziliert.
+ Informationstechnologie                             66,0    Dieses Material wurde herausgegeben durch Invesco Investment Management Limited, Ground Floor, 2 Cumberland Place,
+ Kommunikationsdienste                               11,0    Fenian Street, Dublin 2, Irland und Invesco Asset Management (Schweiz) AG, Talacker 34, 8001 Zürich, Schweiz.
+ Konsumgüter                                         10,6
+ Basiskonsumgüter                                     5,2    Glossar
+ Gesundheitswesen                                     3,3    Benchmark: Ein Index, an dem der ETF in Bezug auf die relative Wertentwicklung, das Risiko und andere nützliche Vergleiche
+ Industrie                                            2,1    gemessen wird.
+ Werkstoffe                                           1,4    Ausschüttungsrendite: Die Ausschüttungsrendite ist ein Maß für den gezahlten Cashflow. Sie ist die Summe der Ausschüttungen
+ Versorgungsbetriebe                                  0,2    über 12 Monate geteilt durch den Nettoinventarwert (NAV) des Fonds.
+ Finanzinstitute                                      0,2    ESG: Environmental, Social and Governance - Umwelt, Soziales und Unternehmensführung sind die drei Schlüsselfaktoren zur
+ Bargeld und/ oder Derivate                           0,1    Messung der Nachhaltigkeit und des gesellschaftlichen Nutzens eines Unternehmens.
+Quelle: Invesco, per 30 Jun 2026                              ETF: Exchange Traded Fund: ein Fonds, der genau wie eine normale Aktie an der Börse gehandelt wird. ETFs können wie
+Top Positionen (%)             (Titel gesamt: 89)             gewöhnliche Aktien während der Börsenhandelszeiten ge- und verkauft werden, während bei anderen Fonds nur einmal pro Tag
+Name                                     Gewicht              ein Kurs ermittelt wird.
+NVIDIA CORP USD0.001                        9,33              Faktoren: Ein Investmentansatz, der darauf abzielt, Wertpapiere zu identifizieren und in sie zu investieren, die bestimmte
+APPLE INC USD0.00001                        7,34              quantifizierbare Merkmale aufweisen. Gängige Beispiele für Faktoren sind Value, Quality und Momentum. Eine Faktorstrategie
+ADVANCED MICRO DEVICES USD0.01              5,19              kann auf nur einen Faktor abzielen oder mehrere Faktoren kombinieren.
+MICRON TECHNOLOGY INC USD0.1                5,14              GICS®- Sektor: Global Industry Classification Standard (GICS). Die GICS Struktur besteht aus 11 Sektoren, 24 Industriegruppen,
+MICROSOFT CORP USD0.00000625                4,97              68 Branchen und 157 Teilbranchen, in der S&P und MSCI alle großen öffentlichen Unternehmen kategorisiert haben.
+AMAZON.COM INC USD0.01                      4,19
+TESLA INC USD0.001                          3,11              Hedged: Das beabsichtigte Ergebnis der Verringerung der Belastung des Portfolios durch ein bestimmtes Risiko, z. B. das Risiko
+                                                              von Wechselkursschwankungen ("Währungsabsicherung").
+APPLIED MATERIALS INC USD0.01               3,08
+ALPHABET INC-CL A USD0.001                  2,93              ICB Industrie-Sektor: Die Industry Classification Benchmark (ICB) klassifiziert mehr als 70.000 Unternehmen und 75.000
+INTEL CORP USD0.001                         2,90              Wertpapiere aus aller Welt und ermöglicht damit einen Vergleich zwischen Unternehmen über vier Klassifizierungsebenen und
+                                                              nationale Grenzen hinweg. Das ICB-System wird von der ICB Database unterstützt. Dies ist eine Datenquelle für die globale
+Quelle: Invesco, per 30 Jun 2026
+                                                              Sektorenanalyse, die von der FTSE International Limited geführt wird.
+Informationen über Positionen sind unter etf.invesco.com zu   Index: Referenzindex; ein Vergleichsmaßstab für die Wertentwicklung eines Portfolios.
+finden. Positionen können sich ändern.
+                                                              Laufende Kosten: basieren auf den annualisierten Aufwendungen. Sie verstehen sich ohne Portfolio-Transaktionskosten.
+                                                              OGAW Fonds: Abkürzung für "Organismus für gemeinsame Anlagen in Wertpapieren". Im europäischen Rechtsrahmen versteht
+                                                              man darunter Investmentfonds, die in gesetzlich definierte Arten von Wertpapieren und anderen Finanzinstrumenten investieren
+                                                              (Wertpapierfonds).
+                                                              Replikationsmethode - Physisch: Bei der physischen Replikation investiert ein Fonds direkt in Aktien des Referenz-Index.
+                                                              Replikationsmethode: Strategie, die der Fonds zur Erreichung seines Ziels anwendet.
+                                                              SEDOL: Die Stock Exchange Daily Official List (SEDOL) ist ähnlich der deutschen Wertpapierkennnummer (WKN) eine nationale
+                                                              Identifikationsnummer (National Securities Identifying Number) aus dem Vereinigten Königreich und Irland.
+                                                              OGAW Fonds: Organismen für gemeinsame Anlagen in übertragbare Wertpapiere. Europäischer Regulierungsrahmen für ein
+                                                              Anlageinstrument, das in der gesamten Europäischen Union vermarktet werden kann.
+                                                              VALOR: Die Valorennummer, kurz VALOR, ist in der Schweiz eine eindeutige Kennnummer börsennotierte Wertpapiere und
+                                                              Finanzinstrumente.
+                                                              Volatilität: Wertschwankung.
+                                                              WKN: Die Wertpapierkennnummer, abgekürzt WKN, ist eine in Deutschland verwendete sechsstellige Ziffern- und
+                                                              Buchstabenkombination zur Identifizierung von Wertpapieren.
+
+=== pdf p.3 ===
+                                                   ESG-Beilage
+                                                   Stand: 30. Juni 2026
+Artikel 6 SFDR                                     ESG-Profil1                                                       Fonds             Nicht-ESG Benchmark2
+Zur Erfüllung der Anforderungen von Artikel 6      ESG Fonds-Rating (AAA-CCC)                                               A                                 A
+SFDR haben wir im Nachtrag zum
+Verkaufsprospekt auf etf.invesco.com               ESG-Qualitätswert (0-10)                                               6,7                                6,5
+Informationen zu den Nachhaltigkeitsrisiken        Wert für die E-Säule                                                   5,6                                5,6
+offengelegt.                                       Wert für die S-Säule                                                   4,9                                4,8
+                                                   Wert für die G-Säule                                                   5,7                                5,6
+Artikel 8 SFDR                                     ESG-Abdeckung in %                                                  99,6                               99,0
+Wir sind der Ansicht, dass dieser Fonds
+Umwelt- und soziale Kriterien fördert und die
+Kriterien von Artikel 8 SFDR erfüllt. Nähere
+                                                   CO2-Bilanz1                                                       Fonds             Nicht-ESG Benchmark2
+Einzelheiten sind dem Nachtrag zum
+Verkaufsprospekt und der Methodik des              Scope 1 Emissionen (Tonnen CO2e)                              15.543,2                             27.479,7
+Indexanbieters auf etf.invesco.com zu              Scope 2 Emissionen (Tonnen CO2e)                              21.248,2                             21.600,9
+entnehmen.
+                                                   Gesamt Kohlenstoffintensität (Tonnen CO2e/USD
+                                                                                                                       53,7                               68,2
+                                                   Mio.)
+Invesco's Ansatz zu ESG                            Gewichtete Durchschnittliche Kohlenstoffintensität
+                                                                                                                       46,9                               61,6
+Invesco verfolgt einen anlageorientierten ESG-     (Tonnen CO2e/USD Mio.)
+Ansatz. Wir bieten ein umfassendes Angebot
+an ESG-orientierten Funktionen, die es Kunden      MSCI ESG Rating-Verteilung1                             ESG Trend Momentum1
+ermöglichen, ihre Werte durch Investitionen
+                                                   Nachstehend ist die Verteilung der ESG-                 Der Anteil der vom Fonds oder dem Index
+zum Ausdruck zu bringen. Wo für gewisse
+                                                   Ratings im Fonds und Benchmark von AAA                  gehaltenen Unternehmen, deren ESG-
+Fonds angemessen, integrieren wir auch
+                                                   (beste) bis CCC (schlechteste) dargestellt.             Rating sich gegenüber dem letzten Rating
+finanziell wesentliche ESG-Überlegungen und        100%
+berücksichtigen dabei kritische Faktoren, die                                                              verbessert hat (positiv), unverändert ist
+uns dabei helfen, für unsere Kunden gute                                                                   (stabil) oder sich verschlechtert hat
+Ergebnisse zu erzielen.                             80%                                                    (negativ).
+Nicht alle unsere ETFs bilden einen Index mit                                                              Trend          Fonds        Nicht-ESG Benchmark2
+konkreten ESG-Zielen ab. Auf dieser Seite           60%
+                                                                                                           Positiv          9,6%                         9,2%
+erhalten Sie aber wichtige Informationen, die
+Ihnen helfen können, die langfristigen Risiken      40%                                                    Stabil         85,0%                         84,3%
+und Chancen Ihrer Investments zu erkennen.                                                                 Negativ          5,1%                         6,3%
+Business Involvement Screens – Filter zu Art        20%                                                    Kein
+und Ausmaß spezifischer Aktivitäten – geben                                                                                      -                            -
+                                                                                                           Rating
+Ihnen einen Einblick in potenziell kontroverse       0%
+Geschäftstätigkeiten, denen der Fonds oder                AAA     AA    A    BBB     BB     B      CCC
+Index ausgesetzt sein könnte.                             Fonds             Nicht-ESG Benchmark1           Unternehmensführung                         Fonds
+Alle Informationen zu ESG, CO2-Emissionen                                                                  Unabhängigkeit der
+                                                                                                                                                        75,9%
+und Business involvement stammen aus MSCI                                                                  Unternehmensführung
+ESG Research. Damit sein ESG-Profil bewertet
+                                                                                                           Weibliche Führungskräfte                     31,4%
+werden kann, muss ein Fonds oder Index
+mindestens 10 Wertpapiere oder Komponenten
+haben, und 65% des Fonds-Gewichts müssen
+durch MSCI ESG Research abgedeckt sein.
+                                                   Prüfung und Ausschlüsse von Unternehmen                           Fonds              Non-ESG Benchmark1
+Nähere Einzelheiten sind der MSCI-Methodik         Verstöße gegen UN Global Compact                                         -                                  -
+auf www.msci.com zu entnehmen.                     Zivile Feuerwaffen                                                       -                                  -
+                                                   Kontroverse Waffen                                                       -                                  -
+Wichtige Informationen                             Konventionelle Waffen                                                    -                            0,3%
+Die in diesem Abschnitt enthaltenen
+Informationen dienen nur zur                       Nuklearwaffen                                                            -                            0,3%
+Veranschaulichung. Die Bereitstellung dieser       Tabak                                                                    -                                  -
+Informationen ist kein Hinweis darauf, wie oder    Konventionelle Kohle                                                     -                            0,5%
+ob ESG-Faktoren in einen Fonds integriert
+werden. Sofern in den rechtlichen                  Ölsande                                                                  -                                  -
+Angebotsunterlagen nicht anders angegeben,         Freizeitkonsum von Cannabis                                              -                                  -
+ändern die in diesem Dokument enthaltenen
+ESG Informationen nicht das Anlageziel oder
+die Anlagepolitik des Fonds oder schränken         ESG-Rating-Verteilung nach             AAA       AA     A         BBB        BB       B     CCC     Nicht
+das investierbare Universum des Fonds ein.         Sektoren1,3                                                                                        bewertet
+Das Rating kann von einer Ratingagentur zur        Kommunikationsdienste                    -      0,3%    -         6,4%       2,3%    2,1%    -        -
+anderen variieren. Das Rating kann sich im
+Laufe der Zeit ändern und ist keine Garantie für   Konsumgüter                              -        -    1,6%       3,8%       0,3%      -     -        -
+die zukünftige Wertentwicklung des Fonds.          Basiskonsumgüter                         -      0,4%   0,3%       4,2%       0,2%      -     -        -
+                                                   Energie                                  -        -     -          -          -        -     -        -
+                                                   Finanzinstitute                          -        -     -          -          -        -     -        -
+                                                   Gesundheitswesen                       0,2%     1,2%   0,9%       1,0%        -        -     -        -
+                                                   Industrie                                -        -    0,7%       0,3%        -        -     -        -
+                                                   Informationstechnologie                10,9% 31,3% 9,0%           9,6%        -      1,2%    -        -
+                                                   Werkstoffe                               -      1,4%    -          -          -        -     -        -
+                                                   Immobilien                               -        -     -          -          -        -     -        -
+                                                   Versorgungsbetriebe                      -      0,2%    -          -          -        -     -        -
+                                                   Andere                                 2,9%     0,2%   0,6%       4,2%       1,5%    0,5%   0,2%    0,3%
+
+=== pdf p.4 ===
+Glossar                                                                                            Bestimmte hierin enthaltene Informationen (die
+                                                                                                   „Informationen“) stammen von MSCI Inc., MSCI
+MSCI ESG-Fonds-Bewertung: Das ESG-Rating des Fonds wurde entwickelt, um die                        Solutions LLC oder deren verbundenen
+Widerstandsfähigkeit der Gesamtbestände des Fonds gegenüber langfristigen, finanziell              Unternehmen („MSCI“) oder von
+relevanten ESG-Risiken zu bewerten und soll die Möglichkeit erleichtern, Investmentfonds und       Informationsanbietern (zusammen die „MSCI-
+ETFs auf einer Ratingskala von AAA bis CCC einzustufen oder zu überprüfen. Dieses Rating zielt     Parteien“) bzw. unterliegen deren Urheberrecht
+darauf ab, Transparenz auf Fondsebene zu schaffen und misst die ESG-Eigenschaften des              und wurden möglicherweise zur Berechnung
+Gesamtportfolios. Es wird als direkte Zuordnung von MSCI ESG Quality Scores zu Buchstaben-         von Bewertungen, Signalen oder anderen
+Ratingkategorien berechnet. ESG-Leader sind Unternehmen mit einem ESG-Rating von AAA               Indikatoren verwendet. Die Informationen sind
+oder AA (best in class), ESG-Laggards sind Unternehmen mit einem ESG-Rating von B oder             ausschließlich für den internen Gebrauch
+CCC.                                                                                               bestimmt und dürfen ohne vorherige
+                                                                                                   schriftliche Genehmigung weder ganz noch
+MSCI ESG-Qualitätswert: Berechnet als gewichteter Durchschnitt der ESG-Bewertungen der             teilweise reproduziert oder verbreitet werden.
+zugrundeliegenden Unternehmen, ohne Berücksichtigung der zugrundeliegenden                         Die Informationen dürfen weder für ein
+Unternehmen, für die diese Informationen nicht verfügbar sind. Er wird auf einer Skala von 0 bis   Angebot zum Kauf oder Verkauf oder eine
+10 angegeben, wobei 0 und 10 die niedrigste bzw. höchste mögliche Punktzahl darstellen. MSCI       Bewerbung oder Empfehlung von
+bewertet die zugrundeliegenden Unternehmen nach ihrem Engagement in und ihrem Umgang               Wertpapieren, Finanzinstrumenten oder
+mit den wichtigsten ESG-Themen, die in drei Säulen unterteilt sind: Umwelt, Soziales und           -produkten, Handelsstrategien oder Indizes
+Unternehmensführung.                                                                               verwendet werden, noch stellen sie ein solches
+ESG-Abdeckung in %: Anteil des Fonds und der Benchmark, für den MSCI ESG Research                  Angebot oder eine solche Empfehlung dar, und
+verfügbar ist.                                                                                     sie sollten nicht als Hinweis oder Garantie für
+                                                                                                   eine zukünftige Wertentwicklung verstanden
+Scope 1 CO2-Emission: Direkte Scope 1-Emissionen (tCO2e) eines Unternehmens in                     werden. Einige Fonds können auf MSCI-Indizes
+Verbindung mit seiner Betriebstätigkeit. Die Informationen zu den direkten Emissionen              basieren oder an diese gekoppelt sein, und
+entsprechen dem endgültigen, von MSCI überprüften und genehmigten Wert, basierend auf der          MSCI kann auf der Grundlage des verwalteten
+MSCI-Methodik, die den genauen Wert aus den verfügbaren Quellen auswählt.                          Vermögens des Fonds oder anderer
+                                                                                                   Kennzahlen vergütet werden. MSCI hat eine
+Scope 2 CO2-Emission: Indirekte Scope 2-Emissionen (tCO2e) eines Unternehmens in                   Informationsbarriere zwischen der
+Verbindung mit seinem Energieverbrauch. Die Informationen zu den indirekten Emissionen aus         Indexrecherche und bestimmten Informationen
+dem Energieverbrauch entsprechen dem endgültigen, von MSCI überprüften und genehmigten             eingerichtet. Keine der Informationen kann für
+Wert, basierend auf der MSCI-Methodik, die den genauen Wert aus den verfügbaren Quellen            sich genommen verwendet werden, um zu
+auswählt.                                                                                          bestimmen, welche Wertpapiere wann gekauft
+Gesamtkohlenstoffintensität: Misst die Gesamtkohlenstoffintensität des Fonds oder Index und        oder verkauft werden sollen. Für regulatorische
+die mit seinen Anlagen verbundene Kohlenstoffeffizienz, basierend auf der CO2-Expertise und        Offenlegungen, die gemäß der EU-Verordnung
+dem Research von MSCI ESG Research. Sie verwendet die Daten zur Kohlenstoffintensität des          über die Transparenz und Integrität von ESG-
+Unternehmens (Scope 1 + Scope 2) pro USD 1 Mio. Einnahmen. Für Staatsanleihen werden die           Rating-Aktivitäten (Verordnung (EU) 2024/3005)
+gesamten nationalen CO2-Emissionen je 1 Million USD BIP verwendet.                                 vorgeschrieben sind, besuchen Sie bitte
+                                                                                                   www.msci.com/legal/sustainability-and-climate-
+Gewichtete durchschnittliche Kohlenstoffintensität: Misst den Investitionsgrad zugrunde            resources-and-disclosures für methodische
+liegender Fonds in CO2-intensiven Positionen. Die Berechnung erfolgt als gewichteter               und organisatorische Offenlegungen sowie
+Durchschnitt der Intensitätskennzahlen der einzelnen Bestandteile: bei Unternehmen auf Basis       https://one.msci.com für Offenlegungen auf
+der Scope-1- und Scope-2-Emissionen pro 1 Mio. USD Umsatz und bei Staatsanleihen auf Basis         Rating-Ebene. Die Informationen werden „wie
+der gesamten CO2-Emissionen eines Landes pro 1 Mio. USD BIP.                                       besehen“ zur Verfügung gestellt, und der
+                                                                                                   Nutzer trägt das gesamte Risiko einer Nutzung,
+Unabhängigkeit des Aufsichtsrats/Boards: Gewichteter durchschnittlicher Anteil der                 die er von den Informationen macht oder deren
+Aufsichtsrats-/Board-Mitglieder, die den Unabhängigkeitskriterien von MSCI entsprechen.            Erlaubnis er erteilt. Keine MSCI-Partei
+Frauen in Führungs-/Aufsichtsgremien: Gewichteter durchschnittlicher Anteil weiblicher             gewährleistet oder garantiert die Originalität,
+Mitglieder in Führungs-/Aufsichtsgremien.                                                          Richtigkeit und/oder Vollständigkeit der
+                                                                                                   Informationen, und jede Partei lehnt
+SFDR: Als Teil des EU-Aktionsplans für nachhaltige Finanzen soll die Verordnung über               ausdrücklich alle ausdrücklichen oder
+nachhaltigkeitsbezogene Offenlegungspflichten in Finanzdienstleistungssektor (SFDR, auch           stillschweigenden Garantien ab. Keine der
+bekannt als Offenlegungsverordnung) die Transparenz in puncto Nachhaltigkeit fördern und           MSCI-Parteien haftet für Fehler oder
+sicherstellen, dass die Marktteilnehmer im Finanzdienstleistungssektor ihren Kunden kohärente      Auslassungen in Bezug auf die hierin
+Informationen in Bezug auf die Nachhaltigkeit der von ihnen angebotenen Produkte und               enthaltenen Informationen oder für direkte,
+Dienstleistungen vorlegen. Nähere Informationen zur Einhaltung der SFDR finden Sie in den          indirekte, besondere, Straf-, Folge- oder
+Prospektbeilagen und auf der Website der Verwaltungsgesellschaft.                                  sonstige Schäden (einschließlich entgangener
+                                                                                                   Gewinne), selbst wenn sie auf die Möglichkeit
+Artikel 6: Anforderung gemäß SFDR, zu erläutern, wie Nachhaltigkeitsrisiken bei                    solcher Schäden hingewiesen wurde.
+Anlageentscheidungen berücksichtigt werden, oder zu erklären, warum Nachhaltigkeitsrisiken
+für nicht relevant gehalten werden.                                                                1 ESG- und Kohlenstoffdaten stammen auf
+
+Fonds gemäß Artikel 8: Ein Fonds, der im Einklang mit den in Artikel 8 SFDR erläuterten            Wertpapierebene von MSCI. Alle ESG-
+Kriterien unter anderem Umwelt- und soziale Kriterien oder eine Kombination aus diesen             Kennzahlen werden von FE FundInfo
+Kriterien fördert, vorausgesetzt, die Unternehmen, in die der Fonds investiert, verfolgen eine     berechnet, wobei die MSCI-Methode anhand
+gute Governance-Praxis.                                                                            der zugrunde liegenden Bestände des
+                                                                                                   Portfolios nachgebildet wird. Weitere
+Fonds gemäß Artikel 9: Ein Fonds, der im Einklang mit den in Artikel 9 der SFDR                    Einzelheiten finden Sie in der MSCI-
+beschriebenen Kriterien eine nachhaltige Investition anstrebt.                                     Methodologie www.msci.com
+                                                                                                   2 Die Nicht-ESG-Benchmark NASDAQ - 100
+                                                                                                   Notional NTR Index ist ein relevanter breit
+                                                                                                   angelegter Marktindex zu Vergleichszwecken.
+                                                                                                   3 Die Aufschlüsselung der ESG-Ratings enthält
+                                                                                                   keine Cash-Positionen und daher ergibt die
+                                                                                                   Summe möglicherweise nicht 100%.
+
+=== pdf p.5 ===
+MSCI ESG Business Involvement Screening Research: Research zur Beteiligung eines                  Kontaktinformation
+Unternehmens an Produkten und Dienstleistungen, damit Anleger Unternehmen ausgehend von           Kundenservice
+bestimmten Kriterien und Aspekten wie Ethik, Impact, Compliance oder ESG-Risiko prüfen            E-mail: investorqueries@invesco.com
+können.                                                                                           etf.invesco.com
+Zusammenfassende Begriffsbestimmungen für jede Unternehmensüberprüfung/
+Ausschlussgründe:
+                                                                                                  Herausgegeben von Invesco Investment
+Verstöße gegen UN Global Compact (UNGC): Anteil der Unternehmen im Fonds oder Index,              Management Limited, Ground Floor, 2
+die gegen die Grundsätze des UN Global Compact verstoßen haben. Die Informationen                 Cumberland Place, Fenian Street, Dublin 2,
+basieren auf dem MSCI ESG-Research zu Kontroversen und der Prüfung globaler Normen.               Irland.
+Kontroverse Waffen: Anteil der Unternehmen im Fonds oder Index, die Verbindungen zu               Zugelassen in Irland und reguliert von der
+kontroversen Waffen haben, einschließlich Streumunition, Landminen, biologische und               irischen Zentralbank.
+chemische Waffen, abgereicherte Uranwaffen, Blendwaffen, Brandwaffen und/oder nicht
+entdeckbare Splitter.
+Konventionelle Waffen: Anteil der Unternehmen im Fonds oder Index, die Verbindungen zu
+konventionellen Waffen, Waffensystemen, Komponenten sowie Unterstützungsystemen und
+Diensten haben.
+Nuklearwaffen: Anteil der Unternehmen im Fonds oder Index, die Verbindungen zur Herstellung
+nuklearer Sprengköpfe und/oder kompletter Nuklearraketen haben, Komponenten herstellen, die
+für die ausschließliche Verwendung in Nuklearwaffen (Sprengköpfe und Raketen) entwickelt oder
+signifikant zu diesem Zweck verändert wurden, Abschusssysteme herstellen oder
+zusammenbauen, die ausschließlich für den Abschuss von Nuklearwaffen entwickelt oder
+signifikant verändert wurden, oder die zusätzliche Dienste in Verbindung mit Kernwaffen bieten.
+Zivile Feuerwaffen: Anteil der Unternehmen im Fonds oder Index, die Verbindungen zu
+Feuerwaffen, Kleinwaffen-Munition einschließlich automatisch und halbautomatisch für den
+zivilen Markt haben. Das Research schließt Produkt aus, die ausschließlich für das Militär, die
+Regierung und Polizeikräfte bestimmt sind.
+Tabak: Anteil der Unternehmen im Fonds oder Index, die Verbindungen zu Tabakerzeugnissen
+wie Zigarren, Nelkenzigaretten, rauchfreier Tabak, Schnupftabak, Snus, löslicher und Kautabak
+haben. Dazu gehören auch Unternehmen, die Tabak anbauen oder Tabakblätter verarbeiten.
+Konventionelle Kohle: Anteil der Unternehmen im Fonds oder Index, die Verbindungen zu
+Energie aus Kohle haben oder Einnahmen aus dem Kohlebergbau erzielen.
+Ölsande: Anteil der Unternehmen im Fonds oder Index, die Verbindungen zu Ölsanden haben,
+insbesondere Eigentum und Produktionsaktivitäten.
+Freizeitkonsum von Cannabis: Anteil der Unternehmen im Fonds oder Index, die
+Verbindungen zum Freizeitkonsum von Cannabis haben oder Einnahmen daraus erzielen.
+
+
+
+
+                                              Dieser ESG-Zusatz wird von yourSRI, einer FE Fundinfo (Liechtenstein) Marke, betrieben.
+

@@ -1,0 +1,504 @@
+=== pdf p.1 ===
+       Amundi S&P 500 Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                               FACTSHEET
+
+                                                                                                                                                                                Marketing-
+                                                                                                                                                                                 Anzeige
+ MARKETING-ANZEIGEN ■
+                                                                                                                                                                                30/06/2026
+
+Wesentliche Informationen (Quelle : Amundi)                             Anlageziel                                                              Risiko-indikator (Quelle: Fund Admin)
+
+  Nettoinventarwert (NAV) : 48,53 ( USD )                                 Das Anlageziel des Teilfonds besteht darin, die
+                                                                          Wertentwicklung des S&P 500 Net Zero 2050 Paris-
+  Datum des NAV : 30/06/2026                                              Aligned ESG+ Index (der „Index“) nachzubilden. Der
+  Fondsvolumen : 2.529,46 ( Millionen USD )                               Teilfonds strebt an, ein Tracking-Error-Niveau                           Niedrigeres Risiko                           Höheres Risiko
+
+  ISIN-Code : IE000O5FBC47                                                zwischen dem Teilfonds und seinem Index zu
+                                                                          erreichen, das in der Regel nicht mehr als 1 %                               Der Risiko-Indikator beruht auf der Annahme, dass Sie
+  WKN : ETF137                                                            beträgt.                                                               das Produkt für 5 Jahre lang halten.
+  Nachbildungsart : Physisch                                                                                                                     Der Gesamtrisikoindikator hilft Ihnen, das mit diesem
+                                                                                                                                                 Produkt verbundene Risiko im Vergleich zu anderen
+  Referenzindex : 100% S&P 500 PAB ESG+ INDEX                                                                                                    Produkten einzuschätzen. Er zeigt, wie hoch die
+                                                                                                                                                 Wahrscheinlichkeit ist, dass Sie bei diesem Produkt Geld
+                                                                                                                                                 verlieren, weil sich die Märkte in einer bestimmten Weise
+                                                                                                                                                 entwickeln oder wir nicht in der Lage sind, Sie
+                                                                                                                                                 auszubezahlen.
+
+
+
+
+Wertentwicklung (Quelle: Fondsadministrator) - Die frühere Wertentwicklung lässt nicht auf zukünftige Renditen schließen.
+
+Wertentwicklung des Nettoinventarwertes (NAV) * von 15/07/2020 bis 30/06/2026 (Quelle : Fund Admin)                                             Risikoindikatoren (Quelle: Fund Admin)
+
+     300                                                                                                                                                                               3       seit
+                                                                                                                                                                              1 Jahr
+                                                                                                                                                                                     Jahre Auflegung *
+     250                                                                                                                                         Portfolio Volatilität       12,65% 14,77%   16,84%
+                                                                                                                                                 Referenzindex
+                                                                                                                                                                             12,66% 14,78%            16,85%
+     200                                                                                                                                         Volatilität
+                                                                                                                                                 Tracking Error ex-
+                                                                                                                                                                              0,03% 0,04%              0,04%
+     150                                                                                                                                         post
+                                                                                                                                                 Sharpe Ratio                  0,96      0,93            0,74
+     100                                                                                                                                        * Die Volatilität ist ein statistischer Indikator, der die
+                                                                                                                                                Schwankungen eines Vermögenswerts um seinen Mittelwert
+                                                                                                                                                misst. Beispielsweise entspricht eine Marktschwankung von
+      50                                                                                                                                        +/- 1,5% pro Tag einer Volatilität von 25% pro Jahr. Je höher
+                                                                                                                                                die Volatilität, desto höher das Risiko.
+                   /20
+
+
+
+                             /21
+
+
+
+                                        /21
+
+
+
+                                                  /22
+
+
+
+                                                             /22
+
+
+
+                                                                       /23
+
+
+
+                                                                                  /23
+
+
+
+                                                                                             /24
+
+
+
+                                                                                                       /24
+
+
+
+                                                                                                                 /25
+
+
+
+                                                                                                                            /25
+
+
+
+                                                                                                                                       /26
+
+
+
+
+                                                                                                                                                Der Tracking Error-Indikator misst die Differenz in der
+                 12
+
+
+
+                           06
+
+
+
+                                      12
+
+
+
+                                                06
+
+
+
+                                                           12
+
+
+
+                                                                     06
+
+
+
+                                                                                12
+
+
+
+                                                                                           06
+
+
+
+                                                                                                     12
+
+
+
+                                                                                                               06
+
+
+
+                                                                                                                          12
+
+
+
+                                                                                                                                     06
+
+
+
+
+                                                                                                                                                Wertentwicklung zwischen dem Fonds und dem
+                                                        Portfolio        Referenzindex
+                                                                                                                                                Vergleichsindex
+
+Kumulierte Wertentwicklung* (Quelle: Fondsadministrator)
+
+                                         seit dem 1 Monat 3 Monate         1 Jahr    3 Jahre    5 Jahre    seit dem
+ seit dem                               31/12/2025 29/05/2026 31/03/2026 30/06/2025 30/06/2023 30/06/2021 15/07/2020
+ Portfolio ohne
+                                          7,27%         -0,87%        15,75%            17,75%      69,99%       77,40%           142,67%
+ Ausgabeaufschlag
+ Referenzindex                            7,20%         -0,89%        15,72%            17,61%      69,53%       77,08%           142,72%
+ Abweichung                               0,06%         0,02%         0,04%             0,14%       0,46%        0,32%             -0,05%
+Kalenderjahr Wertentwicklung* (Quelle: Fund Admin)
+
+                                                                     2025          2024             2023         2022              2021
+ Portfolio ohne Ausgabeaufschlag                                    15,33%        26,26%           29,49%      -21,97%            30,94%
+ Referenzindex                                                      15,16%        26,16%           29,54%      -21,95%            31,11%
+ Abweichung                                                         0,17%         0,10%            -0,05%       -0,02%            -0,16%
+
+
+* Quelle : Amundi. Die Entwicklungen in der Vergangenheit lassen keine Rückschlüsse auf aktuelle und künftige Ergebnisse zu und sind keine Garantie für künftige Erträge. Die eventuellen Gewinne oder Verluste
+berücksichtigen nicht die gegebenenfalls vom Anleger zu tragenden Kosten, Gebühren und Abgaben, die bei der Emission oder der Rücknahme von Anteilen anfallen (z.B.: Steuern, Vermittlungsgebühren oder sonstige vom
+Intermediär erhobene Gebühren). Wenn die Performances in einer anderen Währung als dem Euro berechnet werden, können die eventuell entstandenen Gewinne oder Verluste Wechselkursschwankungen unterliegen (d.h. sie
+können zu- oder abnehmen). Der Spread entspricht der Differenz zwischen der Performance des Portfolios und der des Index.
+
+
+
+
+                                                                                            ■ amundietf.com
+                                                                     Für Marketing- und Informationszwecke
+
+=== pdf p.2 ===
+     Amundi S&P 500 Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                                           FACTSHEET
+
+                                                                                                                                                                                           Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                                        Anzeige
+                                                                                                                                                                                           30/06/2026
+
+
+
+
+Das Investmentteam
+
+
+              Lionel Brafman                                                        Christophe Neves                                                        Eric Alcaraz
+
+              Verantwortlicher Indexverwaltung & Multistrategy                      Investmentfondsverwalter                                                Co-Portfolio Manager
+
+
+
+
+Index-Daten (Quelle: Amundi)
+
+
+Beschreibung                                                                                                Die größten Index-Positionen (Quelle : Amundi)
+
+ Der S&P 500 Net Zero 2050 Paris-Aligned ESG+ Indexn ist ein Aktienindex, der die                                                                   % vom Aktiva (Index) % von Aktiva (Parent Index)
+ Wertentwicklung zulässiger Aktienwerten aus dem S&P 500 Index (der                                         NVIDIA CORP                                   8,18%                    7,38%
+ „Hauptindex“) misst, die so ausgewählt und gewichtet werden, dass sie insgesamt                            APPLE INC                                     4,65%                    6,47%
+ mit einem Klimaszenario von 1,5°C globaler Erwärmung vereinbar sind. Er umfasst                            MICROSOFT CORP                                4,52%                    4,28%
+ eine breite Palette von klimabezogenen Zielen, die das Übergangsrisiko, die                                ALPHABET INC CL A                             3,50%                    3,24%
+ Chancen des Klimawandels und physische Risiken abdecken. Der Hauptindex ist
+                                                                                                            LAM RESEARCH CORP                             3,19%                    0,80%
+ ein Aktienindex, der die in den USA gehandelten führenden Wertpapiere
+ repräsentiert.                                                                                             VISA INC-CLASS A SHARES                       2,95%                    0,89%
+                                                                                                            TESLA INC                                     2,86%                    1,81%
+                                                                                                            ABBVIE INC                                    2,85%                    0,70%
+                                                                                                            ALPHABET INC CL C                             2,79%                    2,60%
+Informationen (Quelle : Amundi)                                                                             MASTERCARD INC-CL A                           2,67%                    0,64%
+ Anlageklasse : Aktien                                                                                      Summe                                        38,16%                   28,82%
+ Klassifizierung : USA
+
+
+ Anzahl der Titel : 219
+
+
+
+
+Aufteilung nach Ländern (Quelle : Amundi)                                                                   Aufteilung nach Sektoren (Quelle : Amundi)
+
+
+                                                                                                                                                                                                  42,63 %
+                                                                                                                                              IT
+                                                                                                                                                                                            37,37 %
+
+                                                                                                                                                                   12,23 %
+                                                                                                                                  Finanzwesen
+                                                                                                                                                                   11,87 %
+                                                                                    100,00 %
+                                                                                                                                                                 10,25 %
+                                                                                                                       Kommunikationsdienste
+   Vereinigte Staaten                                                                                                                                            9,76 %
+
+                                                                                                                                                                  10,09 %
+                                                                                    100,00 %                                        Gesundheit
+                                                                                                                                                                 9,07 %
+
+
+                                                                                                                       Zyklische Konsumgüter                     8,80 %
+                                                                                                                                                                 9,38 %
+
+                                                                                                                                                             7,65 %
+                                                                                                                                       Industrie
+                                                                                                                                                              8,88 %
+
+                                                                                                                                                          4,20 %
+                                                                                                                 Nicht-zyklische Konsumgüter
+                                                                                                                                                          4,68 %
+
+                                                                                                                                                        2,02 %
+                                                                                                                                     Immobilien
+                                                                                                                                                        1,88 %
+
+            Sonstige
+                                                                                                                                                     1,52 %
+                                                                                                                                    Grundstoffe
+                                                                                                                                                     1,84 %
+
+                                                                                                                                                    0,62 %
+                                                                                                                   Öffentliche Dienstleistungen
+                                                                                                                                                      2,25 %
+
+
+                                                                                                                                        Energie
+                                                                                                                                                        3,02 %
+
+                        0%        20 %        40 %         60 %      80 %        100 % 120 %                                                       0%        10 %           20 %    30 %    40 %        50 %
+                                     Index          Parent Index                                                                                    Index           Parent Index
+
+
+
+
+                                                                   Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                                   von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                                     Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.3 ===
+     Amundi S&P 500 Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                             FACTSHEET
+
+
+                                                                                                                                                                             Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                          Anzeige
+                                                                                                                                                                             30/06/2026
+
+
+
+
+Nachhaltige Investments (SRI)
+Nachhaltige Investments (Socially Responsible Investments, SRI) spiegeln die in den Anlageentscheidungen gesteckten Ziele hinsichtlich der nachhaltigen Entwicklung wider.
+Gleichzeitig kommen die Kriterien Umwelt, soziales Engagement und Unternehmensführung (ESG) zu den traditionellen Finanzkriterien hinzu.
+
+Nachhaltige Investments zielen daher darauf ab, die wirtschaftliche Leistung sowie die sozialen und ökologischen Auswirkungen durch die Finanzierung von Unternehmen und
+öffentlichen Einrichtungen in Einklang zu bringen, die unabhängig von ihrem Unternehmenssektor zu einer nachhaltigen Entwicklung beitragen. Durch die Beeinflussung der
+Governance und des Verhaltens der Anteilseigner fördert SRI eine verantwortungsvolle Wirtschaft.
+Bewertung nach ESG Kriterien (Quelle: Amundi)
+
+                                         Index                      Parent index                     ESG-Kriterien
+                                                                                                     Bei den Kriterien handelt es sich um nicht-finanzielle Kriterien zur Beurteilung der ESG-
+ Gesamtrating                             7,13                           6,51                        Praktiken (Umwelt, Soziales und Governance) von Unternehmen.
+
+ Umwelt                                   6,73                           6,34                        ESG-Risiken und -Chancen ergeben sich aus weit verbreiteten Trends (z. B.
+ Sozial                                   5,17                           4,91                        Klimawandel, Ressourcenknappheit, demografischer Wandel) sowie aus der Art der
+                                                                                                     Geschäftstätigkeit des Unternehmens.
+ Governance                               5,79                           5,50
+                                                                                                     Die Bewertungen erfolgen anhand einer Skala von 0 bis 10, wobei 10 die beste
+                                                                                                     Bewertung darstellt.
+
+                                                                                                     „E“ steht für Umwelt (Environment) (Klimawandel, natürliche Ressourcen,
+                                                                                                     Umweltverschmutzung und Abfall und Umweltchancen)
+
+                                                                                                     „S“ für Soziales (Social) (Humankapital, Produkthaftung, Chancen für Stakeholder
+                                                                                                     und gesellschaftliche Chancen)
+
+                                                                                                     „G“ für Unternehmensführung (Governance) (Unternehmensführung und
+                                                                                                     Verhaltenskodex)
+
+                                                                                                     Quelle: ESG-Rohdaten für Unternehmen werden von MSCI zur Verfügung gestellt.
+CO2-Fußabdruck
+
+CO2-Bilanz pro Million Euro Investitionen                                                            CO2-Fußabdruck
+                                                                                                     Dieser Indikator misst die Emissionen der Unternehmen des Portfolios in Tonnen CO2-
+                                                                                                     Äquivalenten (tCO2e) pro Million Euro Umsatz.
+                                                              Index Parent Index
+                                                                                                     Es ist ein Indikator für die Emissionen, die durch Unternehmen in diesem Portfolio
+Gesamter CO2-Fußabdruck des Portfolios (Index/Parent Index) : 14,56    44,78                         verursacht werden.
+
+                                                                                                     Definition der Kategorien:
+    40
+                                                                                 Scope 3
+                                                                                                     - Scope 1 : Alle Emissionen, die direkt aus Quellen im Eigentum oder unter der
+                                                                                 Scope 2
+                                                                                                     Kontrolle des Unternehmens entstehen.
+                                                                                 Scope 1
+                                                    10,36
+    30                                                                                               - Scope 2 : Alle indirekten Emissionen, die durch den Kauf oder die Erzeugung von
+                                                                                                     Elektrizität, Dampf oder Hitze generiert werden.
+                                                    5,89
+                                                                                                     - Scope 3 : Alle anderen indirekten Emissionen in vor- und nachgelagerten Bereichen
+    20                                                                                               der Wertschöpfungskette. Aus Gründen der Datenzuverlässigkeit hat sich Amundi
+                                                                                                     dafür entschieden, die Emissionen aus vorgelagerten Aktivitäten von Scope 3 zu
+                                                                                                     verwenden - Quelle: Trucost EEI-O-Modell (Input/Output-Modell, erweitert um die
+                                                                                                     Trucost-Umgebung).
+    10                                              21,11
+                     4,58
+
+                     3,86                                                                            Quelle: Die Daten zu den CO2-Emissionen werden von Trucost zur Verfügung gestellt.
+                                                                                                     Sie entsprechen den jährlichen Emissionen der Unternehmen gemessen in tCO2e
+                     3,52
+     0                                                                                               (Tonnen CO2-Äquivalent), welche die sechs im Kyoto-Protokoll definierten
+                     Index                       Parent Index                                        Treibhausgase beinhalten, deren Ausstoß in Treibhauspotenzial („Global Warming
+                                                                                                     Potential“, GWP) in CO2-Äquivalent umgerechnet wird.
+
+
+
+
+                                                            Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                            von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                              Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.4 ===
+     Amundi S&P 500 Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                            FACTSHEET
+
+
+                                                                                                                                                                            Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                         Anzeige
+                                                                                                                                                                            30/06/2026
+
+
+
+
+Haupteigenschaften (Quelle: Amundi)
+
+ Rechtsform                                                                                                                     ICAV nach irischem Recht
+ OGAW konform                                                                                                                               OGAW
+ Verwaltungsgesellschaft                                                                                                          Amundi Ireland Limited
+ Administrator                                                                                                          HSBC Securities Services (Ireland) DAC
+ Depotbank                                                                                                                      HSBC Continental Europe
+ Unabhängiger Wirtschaftsprüfer                                                                                             PRICEWATERHOUSECOOPERS
+ Auflagedatum der Anlageklasse                                                                                                           22/11/2023
+ Datum der ersten NAV                                                                                                                    15/07/2020
+ Referenzwährung der Anteilsklasse                                                                                                           USD
+ Klassifizierung                                                                                                                                -
+ Ertragsverwendung                                                                                                                      Thesaurierend
+ ISIN-Code                                                                                                                             IE000O5FBC47
+ Mindestanlage am Sekundärmarkt                                                                                                           1 Anteil(e)
+ Häufigkeit der Berechnung des Nettoinventarwerts                                                                                           Täglich
+ Verwaltungsgebühren und sonstige Verwaltungs- oder Betriebskosten                                                                          0,07%
+ Fiskaljahresende                                                                                                                         Dezember
+
+
+
+
+Handelsinformationen (Quelle : Amundi)
+            Börsenplätze                 Währung            Ticker Bloomberg                      INAV Bloomberg                    RIC Reuters                         INAV Reuters
+         Six Swiss Exchange               USD                   PABU SW                              CLUSUSIV                       PABUUSD.S                        CLUSUSDINAV=SOLA
+        Deutsche Boerse (Xetra)           EUR                    ZPA5 GY                             CLUSEUIV                         ZPA5.DE                        CLUSEURINAV=SOLA
+        Deutsche Boerse (Xetra)           USD                    ZPA6 GY                             CLUSUSIV                       ZPA5USD.DE                       CLUSUSDINAV=SOLA
+        Deutsche Boerse (Xetra)           GBP                    ZPA7 GY                             PABLGBIV                       ZPA5GBP.DE                       PABLGBPINAV=SOLA
+            Euronext Paris                EUR                   PABU FP                              CLUSEUIV                         ZPA5.PA                        CLUSEURINAV=SOLA
+                 LSE                      GBP                   CLMT LN                              PABLGBIV                         CLMT.L                         PABLGBPINAV=SOLA
+            Euronext Milan                EUR                   PABUS IM                             CLUSEUIV                        PABUS.MI                        CLUSEURINAV=SOLA
+
+Index-Anbieter
+DER TEILFONDS WIRD VON STANDARD & POOR'S UND SEINEN TOCHTERGESELLSCHAFTEN („S&P“) WEDER GESPONSERT NOCH UNTERSTÜTZT, VERKAUFT ODER GEFÖRDERT. S&P
+MACHT KEINE AUSDRÜCKLICHEN ODER STILLSCHWEIGENDEN ZUSAGEN BZW. ZUSICHERUNGEN UND GIBT KEINE EBENSOLCHEN GARANTIEN GEGENÜBER DEN INHABERN DES
+TEILFONDS ODER MITGLIEDERN DER ÖFFENTLICHKEIT HINSICHTLICH DER RATSAMKEIT EINER ANLAGE IN WERTPAPIEREN IM ALLGEMEINEN BZW. DIESEN TEILFONDS IM
+BESONDEREN ODER DER FÄHIGKEIT DES INDEX ZUR NACHBILDUNG DER WERTENTWICKLUNG BESTIMMTER FINANZMÄRKTE UND/ODER VON TEILEN DIESER FINANZMÄRKTE
+UND/ODER GRUPPEN ODER KLASSEN VON ANLAGEN AB. S&PS EINZIGE BEZIEHUNG ZU AMUNDI BESTEHT IN DER LIZENZIERUNG BESTIMMTER MARKEN UND HANDELSNAMEN
+SOWIE DES INDEX, DER VON S&P OHNE BERÜCKSICHTIGUNG VON AMUNDI ODER DES TEILFONDS ERMITTELT, ZUSAMMENGESTELLT UND BERECHNET WIRD. S&P IST IN KEINER
+WEISE VERPFLICHTET, DIE ANFORDERUNGEN VON AMUNDI ODER DEN ANLEGERN BEI DER ERMITTLUNG, ZUSAMMENSTELLUNG ODER BERECHNUNG DES INDEX IN BETRACHT ZU
+ZIEHEN. S&P IST NICHT VERANTWORTLICH FÜR DIE ERMITTLUNG DER PREISE UND DES NETTOINVENTARWERTES DES TEILFONDS ODER DIE FESTLEGUNG DES ZEITPUNKTS FÜR
+DIE AUFLEGUNG ODER DEN VERTRIEB DES TEILFONDS ODER DIE ERMITTLUNG ODER BERECHNUNG DES ANTEILPREISES S&P TRÄGT KEINE VERPFLICHTUNG ODER HAFTUNG IN
+VERBINDUNG MIT DER VERWALTUNG BZW. VERMARKTUNG DES FONDS ODER DEM HANDEL MIT DEM TEILFONDS. S&P GARANTIERT NICHT DIE RICHTIGKEIT UND/ODER DIE
+VOLLSTÄNDIGKEIT DES INDEX SOWIE DER DARIN ENTHALTENEN DATEN UND S&P ÜBERNIMMT KEINE HAFTUNG FÜR FEHLER, AUSLASSUNGEN ODER UNTERBRECHUNGEN. S&P
+GIBT KEINE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE UND MACHT KEINE EBENSOLCHEN ZUSAGEN BZW. ZUSICHERUNGEN HINSICHTLICH DER DURCH DIE
+NUTZUNG DES INDEX UND DER DARIN ENTHALTENEN DATEN ERZIELBAREN ERGEBNISSE FÜR AMUNDI, DIE ANLEGER ODER SONSTIGE NATÜRLICHE ODER JURISTISCHE
+PERSONEN. S&P GIBT KEINE AUSDRÜCKLICHEN ODER STILLSCHWEIGENDEN GARANTIEN AB, MACHT KEINE EBENSOLCHEN ZUSAGEN BZW. ERKLÄRUNGEN UND SCHLIESST
+AUSDRÜCKLICH JEGLICHE GEWÄHRLEISTUNGEN ODER ZUSICHERUNGEN DER MARKTGÄNGIGKEIT ODER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK ODER EINE BESTIMMTE
+VERWENDUNG SOWIE ALLE ANDEREN AUSDRÜCKLICHEN ODER STILLSCHWEIGENDEN GARANTIEN IM HINBLICK AUF DEN INDEX UND DIE DARIN ENTHALTENEN DATEN AUS.
+INSBESONDERE IST S&P NICHT EINMAL DANN IN IRGENDEINER WEISE FÜR BESONDERE, INDIREKTE ODER FOLGESCHÄDEN (EINSCHLIESSLICH ENTGANGENER GEWINNE) SOWIE
+SCHÄDEN DURCH SCHADENSERSATZ MIT STRAFCHARAKTER HAFTBAR, DIE AUS DER NUTZUNG DES INDEX ODER DER DARIN ENTHALTENEN DATEN ENTSTEHEN, WENN S&P ÜBER
+DIE MÖGLICHKEIT SOLCHER SCHÄDEN IN KENNTNIS GESETZT WURDE.
+
+
+
+
+                                                    Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                    von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                      Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.5 ===
+     Amundi S&P 500 Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                        FACTSHEET
+
+                                                                                                                                                                        Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                     Anzeige
+                                                                                                                                                                        30/06/2026
+
+
+
+Wichtige Hinweise
+
+ Informationen über die Verwaltungsgesellschaft und den Fonds Dieses Dokument enthält Informationen über Amundi ETF ICAV (der "Fonds"), ein offener irischer
+ Umbrella-Fonds für die kollektive Vermögensverwaltung, der nach irischem Recht aufgelegt und von der irischen Zentralbank zum öffentlichen Vertrieb zugelassen wurde. Die
+ Verwaltungsgesellschaft des Fonds ist Amundi Ireland Limited, 1 George's Quay Plaza, George's Quay, Dublin 2, D02 V002, Irland. Amundi Ireland Limited ist von der Central
+ Bank of Ireland zugelassen und unterliegt deren Aufsicht. Informationen über den Fonds sind in den wesentlichen Anlegerinformationen (Basisinformationsblatt) und in dem
+ Verkaufsprospekt enthalten. Die wesentlichen Anlegerinformationen des Fonds müssen interessierten Anlegern vor jeder Zeichnung zur Verfügung gestellt werden. Bei den
+ Fonds handelt es sich um französische, luxemburgische und/oder irische offene Investmentfonds, die entsprechend von der französischen Autorité des Marchés Financiers
+ (französische Finanzmarktaufsichtsbehörde), von der Luxemburger Commission de Surveillance du Secteur Financier (CSSF) oder von der Central Bank of Ireland (irische
+ Finanzmarktaufsichtsbehörde) genehmigt wurden und zur Vermarktung ihrer Anteile oder Aktien in verschiedenen europäischen Ländern (die Vertriebsländer) gemäß Artikel 93
+ der Richtlinie 2009/65/EG berechtigt sind. Für Amundi ETF: Für weitere Informationen über die Fonds kann von Amundi Deutschland GmbH, Arnulfstr. 124-126, 80636
+ München, Deutschland (Tel. +49 (0)89 99 2260) ein kostenloser Verkaufsprospekt angefordert werden. Die aufsichtsrechtlichen Dokumente der Amundi ETFs, die zum
+ öffentlichen Vertrieb in Deutschland zugelassen sind, sind auf Anfrage kostenlos und als gedrucktes Exemplar bei Marcard, Stein & Co. AG, Ballindamm 36, 20095 Hamburg,
+ Deutschland erhältlich. Bei Fonds, die an einem geregelten Markt zugelassen sind, unterliegt die Notierung einem Mechanismus zur Volatilitätskontrolle, um sicherzustellen,
+ dass der ETF-Preis nicht wesentlich von einem Referenzpreis abweicht. Dies ist in den Notierungsregeln des jeweiligen geregelten Marktes festgelegt, insbesondere durch die
+ Einführung eines Handelsstopps-Mechanismus im Falle einer erheblichen Abweichung vom Referenzpreis. Der Fonds bietet keine Kapitalgarantie. Daher ist es möglich, dass
+ das ursprünglich investierte Kapital nicht vollständig zurückgezahlt wird, insbesondere bei einem Wertverlust des Referenzindexes. Zeichnungen von OGAW-Anteilen können
+ mit Risiken verbunden sein. Interessierte Anleger sollten die Informationen über das Risikoprofil des Fonds lesen, das ausführlich im Vekraufsprospekt beschrieben wird. Es
+ hängt von der persönlichen Situation eines Anlegers ab, welcher Betrag für eine Anlage in den Fonds angemessen ist. Um diesen Betrag zu bestimmen, sollten Anleger ihre
+ finanzielle Situation, ihr persönliches Vermögen, ihre derzeitigen und zukünftigen finanziellen Bedürfnisse, aber auch ihre jeweilige Risikobereitschaft bzw. Risikoaversion
+ berücksichtigen. Es wird auch nachdrücklich empfohlen, dass ein Anleger seine Anlagen hinreichend diversifiziert, um nicht ausschließlich den mit dem Fonds verbundenen
+ Risiken ausgesetzt zu sein. Anleger werden daher gebeten, sich zu diesen Punkten von ihren üblichen Beratern (Rechts-, Steuer- und/oder Finanzberater) beraten zu lassen,
+ bevor sie Anteile des Fonds erwerben. Soweit nichts Gegenteiliges vermerkt ist, stammen alle Angaben dieses Dokuments von Amundi Asset Management. Richtlinien zur
+ Portfoliotransparenz und Hinweise zum Sekundärmarkt Informationen zur Portfoliotransparenzstrategie sowie Informationen über die Zusammensetzung des Portfolios
+ sind auf amundietf.com erhältlich. Der indikative Nettoinventarwert wird über die Börsen veröffentlicht. Auf dem Sekundärmarkt erworbene Fondsanteile können in der Regel
+ nicht direkt an den Fonds zurückverkauft werden. Anleger müssen Anteile/Aktien auf einem Sekundärmarkt mit Hilfe eines Intermediärs (z.B. eines Börsenmaklers) kaufen
+ oder verkaufen; diese Hilfe kann gebührenpflichtig sein. Darüber hinaus zahlen Anleger beim Kauf von Anteilen/Aktien u.U. mehr als den aktuellen Nettoinventarwert und
+ erhalten beim Verkauf weniger als den aktuellen Nettoinventarwert dafür zurück.
+
+ Spezifische Informationen ©2021 MSCI ESG Research LLC. Reproduziert mit Genehmigung. Obwohl die Informationsanbieter von Amundi, darunter unter anderem MSCI
+ ESG Research LLC und seine verbundenen Unternehmen (die „ESG-Parteien“), Informationen (die „Informationen“) von Quellen beziehen, die sie als zuverlässig erachten,
+ übernehmen die ESG-Parteien keine Gewähr oder Garantie für die Echtheit, Richtigkeit und/oder Vollständigkeit der hierin enthaltenen Daten und weisen ausdrücklich darauf
+ hin, dass sie keine Garantien ausdrücklicher oder stillschweigender Natur, einschließlich hinsichtlich der Gebrauchsfähigkeit der Daten sowie ihrer Eignung für einen
+ bestimmten Zweck, übernehmen. Diese Informationen sind nur für Ihren internen Gebrauch bestimmt; deren Reproduktion oder Weiterverteilung gleich in welcher Form ist
+ nicht gestattet und sie dürfen nicht als Grundlage oder Komponente eines Finanzinstruments, Produkts oder Index verwendet werden. Des Weiteren sollten diese
+ Informationen nicht als Grundlage für Entscheidungen herangezogen werden, welche Wertpapiere zu kaufen oder zu verkaufen sind oder zu welchem Zeitpunkt diese zu
+ kaufen oder zu verkaufen sind. Die ESG-Parteien haften weder für eventuelle Fehler oder Auslassungen in Zusammenhang mit den hierin enthaltenen Daten noch für
+ etwaige/n direkten, indirekten oder besonderen Schäden, Strafschadenersatz, Folge- oder anderen Schäden (einschließlich entgangenem Gewinn), auch wenn sie auf die
+ Möglichkeit solcher Schäden hingewiesen wurden.
+
+
+
+
+                                                       Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                       von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                         Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+

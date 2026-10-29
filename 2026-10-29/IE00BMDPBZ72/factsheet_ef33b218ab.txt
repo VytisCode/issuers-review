@@ -1,0 +1,213 @@
+=== pdf p.1 ===
+ Franklin S&P 500 Paris Aligned Climate UCITS ETF
+   IE00BMDPBZ72                                                                                                                                                                              Multi-Faktor | Factsheet. Stand: 30. Juni 2026
+ Dies ist eine Marketingmitteilung. Bitte lesen Sie vor jeder abschließenden Anlageentscheidung den Verkaufsprospekt des                                                               Fondsübersicht
+ OGAW und das Basisinformationsblatt (BiB).
+                                                                                                                                                                                       Umbrella des Teilfonds                  Franklin Templeton ICAV
+   Zusammenfassung der Anlageziele                                                                                                                                                     Basiswährung des Fonds                                        USD
+                                                                                                                                                                                       Auflegungsdatum des Fonds                             29.07.2020
+   Ein Engagement in Large-Cap-Aktien der USA zu bieten, die auf den Übergang zu einer CO2-armen Wirtschaft
+                                                                                                                                                                                       Bloomberg-Ticker                                         FLX5 GY
+   ausgerichtet sind. Der Fonds investiert in Aktien von US-Unternehmen mit hoher Marktkapitalisierung, die am
+                                                                                                                                                                                       ISIN                                             IE00BMDPBZ72
+   Übergang zu einer CO2-ärmeren Wirtschaft beteiligt sind oder den Risiken der Klimawende weniger stark ausgesetzt
+                                                                                                                                                                                       WKN                                                       A2P5CL
+   sind. Die Anlagen sind in der Benchmark enthalten.
+                                                                                                                                                                                       Sitz                                                        Irland
+                                                                                                                                                                                       OGAW                                                            Ja
+                                                                                                                                                                                       Struktur des Produkts                                   Physisch
+ Die Wertentwicklung der Vergangenheit ist kein Indikator für die zukünftigen Renditen.
+                                                                                                                                                                                       Methodik                               Vollständige Nachbildung
+ Wertentwicklung seit Auflegung (MiFID) in Währung der Anteilsklasse (%)                                                                                                               Index-Anpassung                                    Vierteljährlich
+                                                                                                                                                                                       Verwendung der Erträge                             Thesaurierend
+        Franklin S&P 500 Paris Aligned Climate UCITS ETF                                         S&P 500 Index-NR (USD)                                                                Geschäftsjahresende                                      30. Juni
+                                                                                                 S&P 500 PAB ESG Index-NR (USD)                                                        Umlaufende Anteile                                     5.700.000
+                                                                                                                                                                                       Kategorie gemäß der
+   48
+           35,71    33,25   35,76                                                                                                                                                      EU-Offenlegungsverordnung
+    32                                                                 21,14             20,97
+                                                                                                   26,78    24,00     26,62
+                                                                                                                                                                      21,88            (SFDR)                                                   Artikel 8
+                                                                                18,98                                                                        18,81             18,69
+                                                                                                                                14,24    14,70    14,11                                Ticker des zugrunde liegenden
+    16
+                                                                                                                                                                                       Index                                                 SP50PAUN
+     0
+
+  - 16                                            -11,01
+                                                                                                                                                                                       Benchmark(s) und Typ
+                                        -13,57             -13,65
+                                                                                                                                                                                       S&P 500 Index-NR                                        Anlage-
+  - 32
+                   07/20-                        06/21-                        06/22-                      06/23-                       06/24-                       06/25-                                                                 universum
+                   06/21                         06/22                         06/23                       06/24                        06/25                        06/26             S&P 500 PAB ESG Index-NR                     Zugrunde liegender
+                                                                                                                                                                                                                                                 Index
+Wertentwicklung in Währung der Anteilsklasse (%)
+                                                                      Kumuliert                                           Jährliche Wertentwicklung                                    Gebühren
+                                   1      3                   Lfd.                                                  Seit                                  Seit Auflegungs-             Gesamtkostenquote (TER)                                    0,07%
+                               Monat Monate                   Jahr     1 Jahr 3 Jahre 5 Jahre                       Aufl. 3 Jahre 5 Jahre                 Aufl.      datum
+Fonds                                                                                                                                                                                  Die Gebühren stellt der Fonds den Anlegern in Rechnung, um die
+                                    -0,60        16,76        8,02        18,81         72,07     80,16        144,50         19,83      12,50            16,30       29.7.2020
+                                                                                                                                                                                       Kosten für den Betrieb des Fonds abzudecken. Zusätzliche Kosten,
+Anlageuniversum                     -0,99        15,10        10,01      21,88          73,35    83,55         144,58         20,12       12,92           16,31                 —      einschließlich Transaktionsgebühren, fallen ebenfalls an. Diese
+Zugrunde liegender                                                                                                                                                                     Kosten werden vom Fonds abgezogen und beeinflussen die
+Index                               -0,61        16,75         7,98      18,69          71,50     79,15         143,21        19,69       12,37           16,20                 —      Gesamtrendite des Fonds. Die Fondsgebühren fallen in mehreren
+                                                                                                                                                                                       Währungen an, sodass die Zahlungen infolge von
+Jährliche Erträge                                                                                                                                                                      Wechselkursschwankungen unterschiedlich hoch sein können.
+                                            2025           2024          2023            2022        2021            2020        2019            2018         2017            2016
+Fonds                                       15,80           26,21        29,75          -21,81       31,16              —          —               —            —               —                                                              Anlage-
+                                                                                                                                                                                       Fondsmerkmale
+                                                                                                                                                                                                                                  Fonds      universum
+Anlageuniversum                              17,43         24,50         25,67          -18,51       28,16              —          —               —            —               —
+Zugrunde liegender Index                    15,66          26,09         29,62          -21,95        31,11             —          —               —            —               —                                                $351,21
+                                                                                                                                                                                       Fondsvolumen (USD)
+                                                                                                                                                                                                                               Millionen
+Die Rendite des Fonds kann infolge von Wechselkursschwankungen steigen oder fallen. Alle Wertentwicklungsdaten werden in der                                                           Anzahl der Positionen                          221           503
+Basiswährung des Fonds angegeben. Die Angaben zur Wertentwicklung beruhen auf dem Nettoinventarwert (NIW) des ETF, der                                                                 Kurs / Buch(wert)                            6,79x          5,69x
+gegebenenfalls vom jeweiligen Marktkurs abweichen kann. Die von Privatanlegern realisierten Renditen können von der Wertentwicklung                                                    Kurs-Gewinn-Verhältnis (letzte
+des NIW abweichen. Die Wertentwicklung der Vergangenheit ist kein Indikator für die zukünftigen Renditen. Die tatsächlichen                                                            zwölf Monate)                              28,45x          27,46x
+Kosten können je nach ausführender Depotbank unterschiedlich ausfallen. Darüber hinaus können Einlagenkosten anfallen, die sich                                                        Eigenkapitalrentabilität                   31,70%          29,17%
+negativ auf den Wert auswirken können. Die anfallenden Kosten können Sie den jeweiligen Preislisten der ausführenden Bank bzw. der
+                                                                                                                                                                                       Dividendenrendite                           1,07%           1,07%
+Depotbank entnehmen. Änderungen der Wechselkurse können sich positiv oder negativ auf dieses Investment auswirken. Angaben zur
+                                                                                                                                                                                       Standardabweichung (5 Jahre)               16,52%          15,71%
+aktuellen Wertentwicklung finden Sie unter https://www.franklinresources.com/all-sites. Einzelheiten sind dem aktuellen
+Verkaufsprospekt bzw. einem Nachtrag zu entnehmen. Wenn die Wertentwicklung des Portfolios oder seiner Benchmark
+umgerechnet wurde, werden für das Portfolio und seine Benchmark gegebenenfalls unterschiedliche Devisenschlusskurse verwendet.
+Wertentwicklung nach BVI-Methode in der jeweiligen Währung der Anteilsklasse. Berechnungsbasis: Nettoinventarwert, ohne
+Ausgabeaufschläge oder sonstige mit dem Kauf/Verkauf verbundene Depot- oder Transaktionskosten bzw. Steuern, die sich bei
+Berücksichtigung negativ auf die Wertentwicklung auswirken könnten. Ausschüttungen wieder angelegt. Bitte entnehmen Sie die
+tatsächlich anfallenden Kosten dem jeweiligen Preisverzeichnis der ausführenden/depotführenden Stelle. Angaben zum Index
+(“Benchmark”) wurden lediglich zu Vergleichszwecken aufgeführt.
+
+=== pdf p.2 ===
+Franklin S&P 500 Paris Aligned Climate UCITS ETF                                                                                                                             Stand: 30. Juni 2026
+
+
+Die zehn größten Werte (in % von Gesamt)                 Handelsinformationen
+                                               Fonds     Börse                                          Ticker           Währung             Bloomberg               Reuters               SEDOL
+NVIDIA CORP                                      8,27    Borsa Italiana                                  USPA                EUR                USPA IM              USPA.MI              BMXB1X3
+ALPHABET INC                                     6,29    Deutsche Börse Xetra                            FLX5                EUR                FLX5 GY              FLX5.DE             BMXB1W2
+APPLE INC                                         4,71   Euronext Amsterdam Exchange                     USPA                EUR               USPA NA               FLX5.AS              BKY8CX6
+MICROSOFT CORP                                   4,50    London Stock Exchange                           500P                GBP                500P LN               500P.L              BMXB1V1
+LAM RESEARCH CORP                                 3,15   London Stock Exchange                           USPA                USD                USPA LN               USPA.L             BMDPBZ7
+TESLA INC                                        3,00    SIX Swiss Exchange                              USPA                USD               USPA SW                USPA.S              BMXB1Y4
+VISA INC                                         2,92
+ADVANCED MICRO DEVICES INC                       2,79    Fondsmanagement
+                                                                                                                                 Unternehmenszugehörigkeit            Branchenerfahrung (Jahre)
+ABBVIE INC                                       2,78
+                                                                                                                                                  (Jahre)
+MASTERCARD INC                                   2,66
+                                                         Dina Ting, CFA                                                                                10                                       30
+                                                         Lorenzo Crosato, CFA                                                                           8                                       27
+Sektorenverteilung (in % des Fondsvolumens)              David McGowan, CFA                                                                             4                                        12
+                                             Anlage-
+                                 Fonds     universum     Welche wesentlichen Risiken bestehen?
+IT                                43,84         38,03    Der Fonds bietet weder eine Kapitalgarantie noch einen Kapitalschutz; Sie erhalten möglicherweise nicht den gesamten investierten
+Finanzwesen                        12,12         11,76   Betrag zurück. Der Fonds unterliegt den folgenden Risiken, die von wesentlicher Relevanz sind: Kontrahentenrisiko: Das Risiko, dass
+Kommunikationsdienste              9,93          9,68    Finanzinstitute oder andere Akteure (die als Kontrahenten von Finanzkontrakten agieren) ihren Verpflichtungen aufgrund von Insolvenz,
+Gesundheitswesen                   9,75          8,89    Konkurs oder aus anderen Gründen nicht nachkommen. Mit Derivaten verbundenes Risiko: Das Risiko des Verlusts in Bezug auf ein
+Zyklische Konsumgüter               8,72          9,31   Finanzinstrument, wenn eine geringfügige Veränderung des Werts einer Basisanlage einen größeren Einfluss auf den Wert des
+Industrie                           7,49         8,93    betreffenden Finanzinstruments haben kann. Derivate können zusätzlichen Liquiditäts-, Kredit- und Kontrahentenrisiken unterliegen.
+                                                         Fremdwährungsrisiko: Das Risiko eines Verlusts aufgrund von Wechselkursschwankungen oder aufgrund von devisenrechtlichen
+Nicht-zyklische Konsumgüter        4,08          4,57
+                                                         Bestimmungen. Indexbezogenes Risiko: Das Risiko, dass quantitative Techniken, die zur Zusammenstellung des Index verwendet
+Immobilien                          1,94          1,83   werden, den der Fonds nachbilden soll, nicht das beabsichtigte Ergebnis erzielen, oder dass das Portfolio des Fonds von der
+Sonstige                            2,12          7,01   Zusammensetzung oder Wertentwicklung seines Index abweicht. Sekundärmarkthandelsrisiko: Das Risiko, dass am Sekundärmarkt
+Liquide Mittel                      0,01         0,00    gekaufte Anteile normalerweise nicht direkt an den Fonds zurückverkauft werden können und dass Anleger daher eventuell mehr als den
+                                                         Nettoinventarwert pro Anteil zahlen, wenn sie Anteile kaufen, oder dass sie weniger als den aktuellen Nettoinventarwert pro Anteil
+                                                         erhalten, wenn sie Anteile verkaufen.
+Marktkapitalisierung (in % des Aktienanteils)            Vollständige Informationen über die Risiken einer Anlage in dem Fonds finden Sie im Verkaufsprospekt des Fonds.
+(USD)
+                                               Fonds     Glossar
+5,0-10,0 Milliarden                              0,08     Gesamtkostenquote (TER): Die Gesamtkostenquote (Total Expense Ratio, TER) enthält die an die Verwaltungsgesellschaft, die
+10,0-25,0 Milliarden                              2,91   Anlageverwaltungsgesellschaft und die Verwahrstelle gezahlten Gebühren sowie gewisse sonstige Aufwendungen. Die
+                                                         Gesamtkostenquote wird wie folgt berechnet: Die wichtigsten relevanten Fondskosten, die im angegebenen Zwölfmonatszeitraum gezahlt
+25,0-50,0 Milliarden                              7,14
+                                                         wurden, geteilt durch das durchschnittliche Nettovermögen im selben Zeitraum. Die Gesamtkostenquote enthält nicht alle vom Fonds
+>50,0 Milliarden                                89,66
+                                                         gezahlten Aufwendungen (so sind zum Beispiel die Aufwendungen des Fonds für den Kauf und Verkauf von Wertpapieren nicht
+K.A.                                             0,21    enthalten). Eine umfassende Liste der Kosten, die vom Fondsvermögen abgezogen werden, ist im Prospekt enthalten. Die aktuellen
+                                                         jährlichen Gesamtkosten sowie hypothetische Performance-Szenarien mit den Auswirkungen, die unterschiedliche Renditen auf eine
+                                                         Anlage in den Fonds haben könnten, sind dem Basisinformationsblatt zu entnehmen. Produktstruktur: Die Struktur des Produkts gibt an,
+                                                         ob ein Index physische Wertpapiere kauft (d.h. physisch) oder ob er die Wertentwicklung des Index mithilfe von Derivaten nachbildet
+                                                         (Swaps, d.h. synthetisch). Methodik: Die Methodik gibt an, ob ein ETF sämtliche Indextitel in derselben Gewichtung hält wie der Index
+                                                         (d.h. physische Replikation) oder ob eine optimierte Teilmenge von Indextiteln gekauft wird (d.h. optimierte Replikation), um die
+                                                         Wertentwicklung des Index wirksam nachzubilden. Kurs- / Buchwert: Der Aktienkurs geteilt durch den Buchwert (d.h. den Nettowert) pro
+                                                         Aktie. Der Wert stellt den gewichteten Durchschnitt der im Portfolio gehaltenen Aktien dar. Das Kurs-Gewinn-Verhältins (letzte 12
+                                                         Monate) ist der Kurs einer Aktie geteilt durch den Gewinn je Aktie im vergangenen Jahr. Für ein Portfolio stellt der Wert den gewichteten
+                                                         Durchschnitt der darin gehaltenen Aktien dar. Eigenkapitalrentabilität: Kennzahl für die Rentabilität eines Unternehmens, die angibt, wie
+                                                         hoch der Gewinn ist, den ein Unternehmen mit dem von den Aktionären investierten Kapital erwirtschaftet. Für ein Portfolio stellt der Wert
+                                                         den gewichteten Durchschnitt der darin gehaltenen Aktien dar. Die Dividendenrendite ist die jährliche erhaltene Dividende für eine Aktie
+                                                         als Prozentsatz ihres Kurses. Der Wert stellt den gewichteten Durchschnitt der im Portfolio gehaltenen Aktien dar. Er ist nicht als Hinweis
+                                                         auf den aus diesem Portfolio erzielten Ertrag zu verstehen. Standardabweichung: Kennzahl über das Ausmaß, in dem die Rendite eines
+                                                         Fonds von dem Durchschnitt früherer Renditen abweicht. Je höher die Standardabweichung ist, umso größer ist die Wahrscheinlichkeit
+                                                         (und das Risiko), dass die Wertentwicklung eines Fonds von der durchschnittlichen Rendite abweicht.
+
+                                                         Informationen zu Portfoliodaten
+                                                         Die Positionen werden nur zu Informationszwecken aufgeführt und sind nicht als Empfehlung zum Kauf oder Verkauf der genannten
+                                                         Wertpapiere zu verstehen.
+
+=== pdf p.3 ===
+Franklin S&P 500 Paris Aligned Climate UCITS ETF                                                                                                                                          Stand: 30. Juni 2026
+
+
+Wichtige Fondsinformationen
+Der Fonds erfüllt die Anforderungen gemäß Artikel 8 der EU-Verordnung über nachhaltigkeitsbezogene Offenlegungspflichten im Finanzdienstleistungssektor (SFDR); der Fonds hat sich in
+seiner Anlagepolitik fest verpflichtet, ökologische und/oder soziale Merkmale zu fördern, und alle Unternehmen, in die er investiert, sind angehalten, eine gute Unternehmensführung zu
+praktizieren.
+Weitere Informationen zu den nachhaltigkeitsbezogenen Aspekten des Fonds sind unter www.franklintempleton.lu/SFDR zu finden. Bitte machen Sie sich vor einer Anlage mit allen Zielen und Merkmalen des
+Fonds vertraut.
+
+Diese Unterlagen enthalten ausschließlich allgemeine Informationen und sind nicht als individuelle Anlageberatung, Empfehlung oder Aufforderung zum Kauf, Verkauf oder Halten eines Wertpapiers oder zur
+Übernahme einer bestimmten Anlagestrategie zur verstehen. Es stellt keine Rechts- oder Steuerberatung dar. Mit Investitionen in ausländische Unternehmen sind besondere Risiken verbunden, darunter
+Währungsschwankungen, wirtschaftliche Instabilität und politische Entwicklungen; Anlagen in Schwellenmärkten sind mit höheren Risiken in Bezug auf dieselben Faktoren verbunden. Wenn sich ein Fonds auf
+bestimmte Länder, Regionen, Branchen, Sektoren oder Arten von Anlagen konzentriert, kann er für ungünstige Entwicklungen in solchen Schwerpunktbereichen anfälliger sein als ein Fonds, der in ein breiteres
+Spektrum von Ländern, Regionen, Branchen, Sektoren oder Anlagen investiert. Um Zweifel auszuschließen: Wenn Sie sich für eine Anlage entscheiden, kaufen Sie Anteile des Fonds und investieren nicht direkt
+in die zugrunde liegenden Vermögenswerte des Fonds.
+Die Anlagerenditen und Kapitalwerte von Franklin Templeton ICAV („der ETF“ oder „der Fonds“) ändern sich in Abhängigkeit von den Marktbedingungen, und Anleger können beim Verkauf ihrer Anteile einen
+Gewinn oder Verlust verzeichnen. Angaben zur standardisierten Wertentwicklung und zur jüngsten Wertentwicklung zum Monatsende für Franklin Templeton ICAV finden Sie unter franklintempleton.de bzw.
+franklintempleton.at. Es besteht keine Garantie, dass das Ziel einer Strategie erreicht wird.
+Alle Wertentwicklungsdaten werden in der Basiswährung des Fonds angegeben. Die Angaben zur Wertentwicklung beruhen auf dem Nettoinventarwert (NIW) des ETF, der gegebenenfalls vom jeweiligen
+Marktkurs abweichen kann. Die von Privatanlegern realisierten Renditen können von der Wertentwicklung des NIW abweichen. Die Wertentwicklung der Vergangenheit ist kein Indikator für die
+zukünftigen Renditen. Die tatsächlichen Kosten können je nach ausführender Depotbank unterschiedlich ausfallen. Darüber hinaus können Einlagenkosten anfallen, die sich negativ auf den Wert auswirken
+können. Die anfallenden Kosten können Sie den jeweiligen Preislisten der ausführenden Bank bzw. der Verwahrstelle entnehmen. Änderungen der Wechselkurse können sich positiv oder negativ auf dieses
+Investment auswirken. Bitte besuchen Sie www.franklinresources.com/all-sites – von dort aus werden Sie zu Ihrer lokalen Franklin Templeton-Website weitergeleitet und dort finden Sie Angaben zur aktuellen
+Wertentwicklung. Einzelheiten sind dem aktuellen Verkaufsprospekt oder dessen Nachträgen zu entnehmen. Die Angaben beziehen sich auf die Vergangenheit und entsprechen nicht unbedingt den aktuellen
+oder künftigen Portfoliomerkmalen. Alle Portfoliopositionen unterliegen Veränderungen.
+Der Fonds kann in Finanzderivate oder andere Instrumente investieren, die eventuell mit spezifischen Risiken verbunden sind. Diese werden in den Fondsdokumenten genauer beschrieben. Eine Anlage in den
+ETF ist mit Risiken verbunden, die im aktuellen Verkaufsprospekt oder dessen Nachträgen sowie im jeweiligen Basisinformationsblatt (BiB) beschrieben sind. Die Fondsdokumente erhalten Sie in Englisch,
+Deutsch und Französisch auf Ihrer lokalen Website oder über den European Facilities Service von FT unter www.eifs.lu/franklintempleton.
+Eine Zusammenfassung der Anlegerrechte steht zudem auf www.franklintempleton.lu/summary-of-investor-rights zur Verfügung. Die Zusammenfassung ist in englischer Sprache verfügbar.
+Franklin Templeton ICAV ist in mehreren EU-Mitgliedstaaten für die Vermarktung gemäß OGAW-Richtlinie registriert. Franklin Templeton ICAV kann diese Registrierung für jede Anteilsklasse und/oder jeden
+Teilfonds jederzeit unter Anwendung des Verfahrens in Artikel 93a der OGAW-Richtlinie beenden.
+Anteile an Franklin Templeton ICAV (außerhalb der USA oder Kanadas ansässig) dürfen Gebietsansässigen der Vereinigten Staaten von Amerika oder Kanada weder direkt noch indirekt angeboten oder verkauft
+werden. ETFs werden wie Aktien gehandelt. Ihr Marktwert schwankt, und sie können zu Kursen gehandelt werden, die über oder unter ihrem Nettoinventarwert liegen. Maklerprovisionen und
+ETF-Aufwendungen schmälern die Renditen. Indizes werden nicht aktiv gemanagt und es ist nicht möglich, direkt in einen Index zu investieren. Gebühren, Aufwendungen oder Ausgabeaufschläge sind darin
+nicht berücksichtigt.
+Herausgegeben von Franklin Templeton International Services, S.à r.l. – unter der Aufsicht der Commission de Surveillance du Secteur Financier – 8A, rue Albert Borschette, L-1246 Luxemburg.
+
+Benchmark(s) S&P 500 PAB ESG Index-NR. Nur zur Indexnachbildung verwendet.
+Der Fonds wird passiv verwaltet und zielt darauf ab, die Benchmark nachzubilden, indem er alle Wertpapiere des Index in einem ähnlichen Verhältnis zu ihrer Gewichtung in der Benchmark hält. Sein Portfolio
+und damit seine Wertentwicklung entsprechen weitgehend denen der Benchmark.
+
+Kleinanleger-Zielgruppe Anleger, die sich der Risiken des Fonds bewusst sind und eine Anlagedauer von mindestens 3 bis 5 Jahren planen. Der Fonds ist gegebenenfalls für Anleger attraktiv, die ein
+langfristiges Anlagewachstum anstreben, an einem Engagement in US-Unternehmen mit hoher Marktkapitalisierung, die auf den Übergang zu einer CO2-armen Wirtschaft ausgerichtet sind, als Teil eines
+diversifizierten Portfolios interessiert sind, ein hohes Risikoprofil aufweisen und erhebliche kurzfristige Veränderungen des Anteilspreises hinnehmen können.
+Produktverfügbarkeit Der Fonds ist allen AnlegerInnen mit zumindest grundlegenden Anlagekenntnissen, mit oder ohne Beratungsbedarf, über zahlreiche Vertriebskanäle zugänglich.
+CFA® und Chartered Financial Analyst® sind Marken des CFA Institute.
+© Morningstar, Inc. Alle Rechte vorbehalten. Die im vorliegenden Dokument enthaltenen Informationen (1) sind für Morningstar und/oder die Inhaltsanbieter von Morningstar urheberrechtlich geschützt, (2)
+dürfen nicht vervielfältigt oder verbreitet werden und (3) werden ohne Gewährleistung ihrer Richtigkeit, Vollständigkeit und Aktualität zur Verfügung gestellt. Weder Morningstar noch deren Inhaltsanbieter sind
+verantwortlich für etwaige Schäden oder Verluste, die aus der Verwendung dieser Informationen entstehen.
+ Quelle: © 2026 S&P Dow Jones Indices LLC. Alle Rechte vorbehalten. Net Returns (NR) bedeutet, dass bei der Auszahlung von Dividenden die Erträge abzüglich Quellensteuer ausgewiesen werden. Mit
+Wirkung zum 7. November 2025 wurde der Referenzindex des Fonds in S&P 500 PAB ESG Index-NR umbenannt. Der S&P 500 PAB ESG Index-NR ist ein Produkt von S&P Dow Jones Indices LLC oder seinen
+verbundenen Unternehmen („SPDJI“) und wurde zur Nutzung durch Franklin Templeton lizenziert. Standard & Poor‘s® und S&P® sind eingetragene Marken von Standard & Poor's Financial Services LLC („S&P“).
+Dow Jones® ist eine eingetragene Marke von Dow Jones Trademark Holdings LLC („Dow Jones“). Diese Marken wurden von SPDJI zur Nutzung lizenziert und für bestimmte Zwecke von Franklin Templeton
+unterlizenziert. Der FRANKLIN S&P 500 PARIS ALIGNED CLIMATE UCITS ETF wird von SPDJI, Dow Jones, S&P und ihren jeweiligen verbundenen Unternehmen nicht gesponsert, empfohlen, verkauft oder
+beworben, und keine dieser Parteien sichert die Ratsamkeit einer Anlage in diesem (diesen) Produkt(en) zu oder kann für Fehler, Auslassungen oder Unterbrechungen des S&P 500 PAB ESG Index-NR haftbar
+gemacht werden. Indizes werden nicht aktiv gemanagt. Es ist nicht möglich, direkt in einen Index zu investieren. Gebühren, Kosten oder Ausgabeaufschläge sind in den Indizes nicht berücksichtigt. Wichtige
+Mitteilungen und Nutzungsbedingungen der Datenanbieter sind verfügbar unter www.franklintempletondatasources.com.
+Herausgegeben in Deutschland und Österreich von Franklin Templeton International Services S.à r.l., Niederlassung Deutschland, Frankfurt, Mainzer Landstr. 16, 60325 Frankfurt/Main, franklintempleton.de,
+franklintempleton.at
+© 2026 Franklin Templeton. Alle Rechte vorbehalten.
+

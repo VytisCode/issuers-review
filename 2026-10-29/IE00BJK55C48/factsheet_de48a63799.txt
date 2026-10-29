@@ -1,0 +1,205 @@
+=== pdf p.1 ===
+PASSIVE
+
+                iShares € High Yield Corp Bond ESG SRI
+ EHYG           UCITS ETF
+                Hedged British Pound (Accumulating)
+                iShares II plc                                                                                              September 2026
+Performance, Portfolio Breakdowns and Net Asset information as at: 30-Sep-2026. All other data as at 05-Oct-2026.
+This document is marketing material. For Investors in the UK. Investors should read the KIID/PRIIPs document and prospectus prior to investing,
+and should refer to the prospectus for the funds full list of risks.
+
+ FUND OVERVIEW                                                                                     PRODUCT INFORMATION
+ The Fund aims to achieve a return on your investment, through a combination of capital            ISIN : IE000YZVB4R7
+ growth and income on the Funds’ investments, which reflects the return of the Bloomberg           Share Class Launch Date : 26-Apr-2023
+ MSCI Euro Corporate High Yield ESG SRI Bond Index, the Fund’s benchmark index (“Index”).
+                                                                                                   Share Class Currency : GBP
+ RISK INDICATOR                                                                                    Total Expense Ratio : 0.27%
+                                                                                                   Use of Income : Accumulating
+ Lower Risk                                                                     Higher Risk        Net Assets of Share Class (M) : 34.57 GBP
+ Potentially Lower Rewards                                         Potentially Higher Rewards
+                                                                                                   KEY FACTS
+                                                                                                   Asset Class : Fixed Income
+      1            2             3             4             5            6             7          Benchmark : Bloomberg MSCI Euro Corporate
+                                                                                                   High Yield ESG SRI Bond Index (EUR)
+CAPITAL AT RISK: The value of investments and the income from them can fall as well as rise Fund Launch Date : 12-Nov-2019
+and are not guaranteed. Investors may not get back the amount originally invested.
+                                                                                            Fund Base Currency : EUR
+KEY RISKS:                                                                                         Net Assets of Fund (M) : 3,769.36 EUR
+    Credit risk, changes to interest rates and/or issuer defaults will have a significant impact   SFDR Classification : Article 8
+    on the performance of fixed income securities. Potential or actual credit rating
+    downgrades may increase the level of risk.                                                     Domicile : Ireland
+    Investment risk is concentrated in specific sectors, countries, currencies or companies.       Methodology : Sampled
+    This means the Fund is more sensitive to any localised economic, market, political,
+    sustainability-related or regulatory events.                                                   Issuing Company : iShares II plc
+    Non-investment grade fixed income securities are more sensitive to changes in interest         Product Structure : Physical
+    rates and present greater ‘Credit Risk’ than higher rated fixed income securities.
+                                                                                                   ISA Eligibility : Yes
+    The benchmark index only excludes companies engaging in certain activities
+    inconsistent with ESG criteria if such activities exceed the thresholds determined by the      SIPP Available : Yes
+    index provider. Such ESG screening may reduce the potential investment universe and            UK Reporting Status : Yes
+    this may adversely affect the value of the Fund’s investments compared to a fund
+    without such screening.                                                                        PORTFOLIO CHARACTERISTICS
+    Counterparty Risk: The insolvency of any institutions providing services such as               Average Weighted Maturity : 3.69 yrs
+    safekeeping of assets or acting as counterparty to derivatives or other instruments, may
+    expose the Share Class to financial loss.                                                      Effective Duration : 3.14 yrs
+    Credit Risk: The issuer of a financial asset held within the Fund may not pay income or        Standard Deviation (3y) : 3.44%
+    repay capital to the Fund when due.
+    Liquidity Risk: Lower liquidity means there are insufficient buyers or sellers to allow the    3y Beta : 1.00
+    Fund to sell or buy investments readily.                                                       Yield to Worst : 6.00
+                                                                                                   Number of Holdings : 346
+
+                                                                                                   Please refer to the Glossary for more details.
+
+=== pdf p.2 ===
+iShares € High Yield Corp Bond ESG SRI
+UCITS ETF
+Hedged British Pound (Accumulating)
+iShares II plc
+
+CALENDAR YEAR PERFORMANCE
+
+
+
+
+                            2021                     2022                       2023                    2024                     2025
+   Share Class                  -                       -                        -                      8.49                     8.00
+   Benchmark                    -                       -                        -                      7.02                     5.60
+
+
+GROWTH OF HYPOTHETICAL 10,000 GBP SINCE INCEPTION
+
+
+
+
+CUMULATIVE & ANNUALISED PERFORMANCE
+                                                 CUMULATIVE (%)                                                ANNUALISED (% p.a.)
+                         1m              3m                 6m          YTD              1y             3y              5y            Since
+                                                                                                                                    Inception
+    Share Class         -1.76           -1.60           1.75            0.45            2.05           7.63              -              7.68
+    Benchmark           -1.85           -1.93           1.11            -0.57           0.42           5.87              -              5.98
+
+The figures shown relate to past performance. Past performance is not a reliable indicator of future performance. Markets could develop very
+differently in the future. It can help you to assess how the fund has been managed in the past Performance is shown on a Net Asset Value
+(NAV) basis, with gross income reinvested where applicable. Performance data is based on the net asset value (NAV) of the ETF which may not be
+the same as the market price of the ETF. Individual shareholders may realize returns that are different to the NAV performance. The return of your
+investment may increase or decrease as a result of currency fluctuations if your investment is made in a currency other than that used in the past
+performance calculation. Source: Blackrock
+  Share Class (GBP)        iShares € High Yield Corp Bond ESG SRI UCITS ETF Hedged British Pound (Accumulating)
+  Benchmark (EUR)          Bloomberg MSCI Euro Corporate High Yield ESG SRI Bond Index (EUR)
+
+=== pdf p.3 ===
+ iShares € High Yield Corp Bond ESG SRI
+ UCITS ETF
+ Hedged British Pound (Accumulating)
+iShares II plc
+
+TOP ISSUERS                                                               MATURITY BREAKDOWN (%)
+SOFTBANK GROUP CORP                                               3.01%
+FIBERCOP SPA                                                      2.91%
+SCHAEFFLER AG                                                     2.62%
+EDP SA                                                            2.29%
+TELEFONICA EUROPE BV                                              2.21%
+ILIAD SA                                                          2.11%
+VALEO SE                                                          1.98%
+STELLANTIS NV                                                     1.92%
+SES SA                                                            1.91%
+FORVIA SE                                                         1.90%
+Total of Portfolio                                               22.86%
+Holdings subject to change
+
+
+
+SECTOR BREAKDOWN (%)
+
+
+
+
+                                                                                                               Fund
+                                                                          Allocations are subject to change. Source: BlackRock
+
+
+
+                                                                          CREDIT RATINGS (%)
+
+
+
+
+                                   Fund
+Allocations are subject to change. Source: BlackRock
+
+
+
+TRADING INFORMATION
+Exchange                                               London Stock
+                                                       Exchange
+Ticker                                                 EHYG
+Bloomberg Ticker                                       EHYG LN
+RIC                                                    EHYG.L
+SEDOL                                                  BM8GDV5                                                 Fund
+Listing Currency                                       GBP                Credit quality ratings on underlying securities of the fund are received from S&P, Moody’s
+                                                                          and Fitch and converted to the equivalent S&P major rating category. This breakdown is
+                                                                          provided by BlackRock and takes the median rating of the three agencies when all three
+                                                                          agencies rate a security the lower of the two ratings if only two agencies rate a security and
+                                                                          one rating if that is all that is provided. Unrated securities do not necessarily indicate low
+                                                                          quality. Below investment-grade is represented by a rating of BB and below. Ratings and
+                                                                          portfolio credit quality may change over time.
+
+=== pdf p.4 ===
+ iShares € High Yield Corp Bond ESG SRI
+ UCITS ETF
+ Hedged British Pound (Accumulating)
+ iShares II plc
+
+GLOSSARY
+SFDR Classification: Article 8: Products that promote environmental           Effective Duration: Effective duration is a measure of a fund's interest-
+or social characteristics and promote good governance practices.              rate sensitivity. Put simply, the longer a fund's duration, the more
+Article 9: Products that have sustainable investments as an objective         sensitive the fund is to shifts in interest rates. So a fund with a duration
+and follow good governance practices. Other: Products that do not             of 10 years is twice as volatile as a fund with a five-year duration.
+meet the criteria to be classified as Article 8 or 9.
+Yield to Maturity: Yield to Maturity (YTM) is the discount rate that
+equates the present value of bond's cash flows with its market price
+(including accrued interest). The fund YTM is the weighted average of
+fund's individual bond holding YTMs based upon Net Asset Value
+('NAV'). The measure does not include fees and expenses. For callable
+bonds, YTM is the Yield-to-Worst.
+ IMPORTANT INFORMATION:
+In the European Economic Area (EEA): this is Issued by BlackRock (Netherlands) B.V. is authorised and regulated by the Netherlands Authority for
+the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: 31-20-549-5200. Trade Register No.
+17068311 For your protection telephone calls are usually recorded. For Ireland and only in relation to Per Se Professionals and/or Eligible
+Counterparties (i.e., Professional Investors), this may also be issued by BlackRock Investment Management (UK) Limited, authorised and regulated
+by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44 (0)20 7743 3000. Registered in
+England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the Financial Conduct Authority website
+for a list of authorised activities conducted by BlackRock.
+In the UK and Non-European Economic Area (EEA) countries (excluding Switzerland),: this is Issued by BlackRock Investment Management
+(UK) Limited, authorised and regulated by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44
+(0)20 7743 3000. Registered in England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the
+Financial Conduct Authority website for a list of authorised activities conducted by BlackRock.
+This is Marketing Material. iShares plc, iShares II plc, iShares III plc, iShares IV plc, iShares V plc, iShares VI plc and iShares VII plc (together 'the
+Companies') are open-ended investment companies with variable capital having segregated liability between their funds organised under the laws
+of Ireland and authorised by the Central Bank of Ireland. The Prospectus (Available in French, German, Polish and English Languages) Key Investor
+Information document (UK only), PRIIPs KID and further information about the Fund and the Share Class, such as details of the key underlying
+investments of the Share Class and share prices, is available on the iShares website at www.ishares.com or by calling +44 (0)845 357 7000 or from
+your broker or financial adviser. The indicative intra-day net asset value of the Share Class is available at http://deutsche-boerse.com and/or http://
+www.reuters.com. A UCITS ETF’s units / shares that have been acquired on the secondary market cannot usually be sold directly back to the UCITS
+ETF itself. Investors who are not Authorised Participants must buy and sell shares on a secondary market with the assistance of an intermediary
+(e.g. a stockbroker) and may incur fees and additional taxes in doing so. In addition, as the market price at which the Shares are traded on the
+secondary market may differ from the Net Asset Value per Share, investors may pay more than the then current Net Asset Value per Share when
+buying shares and may receive less than the current Net Asset Value per Share when selling them. UCITS HAVE NO GUARANTEED RETURN AND
+PAST PERFORMANCE DOES NOT GUARANTEE THE FUTURE ONES
+
+ This document is marketing material and will expire 12 months after issue
+This document is not, and under no circumstances is to be construed as an advertisement or any other step in furtherance of a public offering of
+shares in the United States or Canada. This document is not aimed at persons who are resident in the United States, Canada or any province or
+territory thereof, where the companies/securities are not authorised or registered for distribution and where no prospectus has been filed with any
+securities commission or regulatory authority. The companies/securities may not be acquired or owned by, or acquired with the assets of, an ERISA
+Plan.
+Any research in this document has been procured and may have been acted on by BlackRock for its own purpose. The results of such research are
+being made available only incidentally. The views expressed do not constitute investment or any other advice and are subject to change. They do
+not necessarily reflect the views of any company in the BlackRock Group or any part thereof and no assurances are made as to their accuracy
+
+This document is for information purposes only and does not constitute an offer or invitation to anyone to invest in any BlackRock funds and has
+not been prepared in connection with any such offer.
+© 2026 BlackRock, Inc. All Rights reserved. BLACKROCK, BLACKROCK SOLUTIONS, and iSHARES are trademarks of BlackRock, Inc. or its
+affiliates All other trademarks are those of their respective owners
+

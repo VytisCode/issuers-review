@@ -1,0 +1,430 @@
+=== pdf p.1 ===
+                                                                       Informationsblatt                          28 Februar 2022
+SPDR S&P 500 ESG     ®         ®                                       Umwelt, Soziales &
+                                                                       Gesellschaft
+Screened UCITS ETF
+(Acc)
+
+
+Anlageziel des Fonds                                                   Länder mit Vertriebszulassung
+
+Das Anlageziel des Fonds ist die Nachbildung der Wertentwicklung       Spanien, Schweiz, Schweden, Österreich, Norwegen, Niederlande,
+der Märkte für US-amerikanische Aktien mit großer                      Luxemburg, Italien, Irland, Großbritannien, Frankreich, Finnland,
+Marktkapitalisierung (Large Caps).                                     Deutschland, Dänemark
+
+Der Fonds wird gemäß SFDR als Artikel-8-Fonds eingestuft.              Fondsinformationen
+                                                                       ISIN                           IE00BH4GPZ28
+                                                                       Benchmark                      S&P 500 ESG Exclusions II Index
+Indexbeschreibung
+                                                                       Index Ticker                   SPXCX2UN
+
+Der S&P 500 ESG Exclusions II Index misst die Performance              Index-klassifizierung          Nettogesamtertrag
+der 500 größten Unternehmen an den US-Aktienmärkten,                   Anzahl An Titeln               486
+gewichtet nach Marktkapitalisierung, unter Herausfilterung
+der Wertpapiere von Unternehmen, die eine Beteiligung an den
+                                                                       Schlüsselfaktoren
+Bereichen kontroverse Waffen, zivile Schusswaffen, Tabak und
+Kraftwerkskohle aufweisen und die als nicht in Einklang mit den        Auflagedatum                   02-Dec-2019
+Grundsätzen des United Nations Global Compact agierend                 Share Class Währung            USD
+erachtet werden.                                                       Fonds — Basiswährung           USD
+                                                                       TER                            0,10%
+                                                                       Ertragsverwendung              Thesaurierend
+Steuerstatus                                                           Replikationsmethode            Nachbildung
+                                                                       UCITS-konform                  Ja
+Standardgemäß ist die SSGA bestrebt, alle geltenden steuerlichen
+                                                                       Domizil                        Irland
+Berichtspflichten für alle SPDR ETFs in den folgenden Ländern
+einzuhalten. Anmeldungen erfolgen je nach der Zeitskala, die von       Investment Manager             State Street Global Advisors Europe Limited
+der jeweiligen Steuerbehörde vorgegeben wird, das ganze Jahr           Unteranlageverwalter           State Street Global Advisors Trust Company
+über: Großbritannien, Deutschland, Österreich, Schweiz.                Fonds-Umbrella                 SSGA SPDR ETFs Europe I plc
+                                                                       Volumen Anteilsklasse (Mio.)   US$527,66
+                                                                       Volumen aller Anteilsklassen   US$527,66
+                                                                       (Mio.)
+                                                                       ISA berechtigt                 Ja
+                                                                       SIPP berechtigt                Ja
+                                                                       PEA berechtigt                 Keine
+
+
+Notierung
+Börse                              Börsenticker    Handelswährung   iNAV Code             Bloomberg Code       Reuters Code        SEDOL Code
+Deutsche Börse*                    SPPY            EUR              INSPPYE               SPPY GY              SPPY.DE             BKRSQ86
+Borsa Italiana                     500X            EUR              INSPPYE               500X IM              500X.MI             BKRSQB9
+Euronext Amsterdam                 500X            EUR              INSPPYE               500X NA              500X.AS             BKRSQ75
+SIX Swiss Exchange                 500X            USD              INSPPY                500X SE              500X.S              BH4GPZ2
+*"Primary Listing"
+
+
+
+
+                                                                       1
+
+=== pdf p.2 ===
+Wertentwicklung                                                                        Merkmale
+                Index      Fonds vor      Differenz    Fonds nach       Differenz      Anzahl der Vermögenswerte                     485
+                              Kosten                       Kosten
+                                                                                       †Ausschüttungsrendite                         -
+                             (brutto)                      (netto)
+                                                                                       Kurs-Gewinn-Verhältnis für das laufende       19,74
+Annualisierte Renditen (%)
+                                                                                       Jahr
+1 Jahr         15,63          15,89           0,26          15,78           0,15
+                                                                                       Durchschnittliches Preis/Buch- Verhältnis     4,23
+3 Jahre              -              -              -              -              -
+                                                                                       Durchschnittliche Marktkapitalisierung        US$558.748,78
+5 Jahre              -              -              -              -              -     (Mio.)
+10 Jahre             -              -              -              -              -     Dividendenrendite des Index                   1,42%
+Seit           18,33          18,58           0,25          18,46           0,14       † Dieser Wert misst die historische Dividendenausschüttung je Aktie über zwölf
+Auflage                                                                                Monate, geteilt durch den NIW.
+Kumulative Wertentwicklung (%)                                                         Quelle: State Street Global Advisors Die aufgeführten Merkmale, Bestände,
+                                                                                       Länderallokationen und Sektoren entsprechen dem oben in diesem Factsheet
+1 Monat         -3,23          -3,20          0,03           -3,21          0,02       angegebenen Datum und können sich ändern. Jegliche Bezugnahme auf ein
+3 Monate        -4,43          -4,37          0,06           -4,39          0,04       bestimmtes Unternehmen oder Wertpapier stellt keine Empfehlung zum Kauf,
+                                                                                       Verkauf, Halten oder direkten Investieren in ein solches Unternehmen oder
+1 Jahr         15,63          15,89           0,26          15,78           0,15       Wertpapier dar.
+2 Jahre        52,76          53,35           0,59          53,04           0,29
+3 Jahre              -              -              -              -              -     Top-10-Positionen                                                Gewichtung (%)
+5 Jahre              -              -              -              -              -     APPLE INC                                                                    7,22
+10 Jahre             -              -              -              -              -     MICROSOFT CORP                                                               6,29
+Seit           45,84          46,54           0,70          46,22           0,38       AMAZON.COM INC                                                               3,75
+Auflage
+                                                                                       ALPHABET INC-CL A                                                            2,29
+Jahresrendite (%)
+                                                                                       ALPHABET INC-CL C                                                            2,11
+2022            -8,49          -8,44          0,05           -8,45          0,04
+                                                                                       TESLA INC                                                                    1,99
+2021           28,45          28,71           0,26          28,58           0,13
+                                                                                       NVIDIA CORP                                                                  1,71
+2020           19,29          19,53           0,24          19,41           0,12
+                                                                                       BERKSHIRE HATHAWAY INC-CL B                                                  1,65
+2019             4,02           4,03          0,02            4,02          0,01
+                                                                                       META PLATFORMS INC-CLASS A                                                   1,40
+                                                                                       UNITEDHEALTH GROUP INC                                                       1,25
+                                                                       Fonds (%)
+Standardabweichung (3 Jahre)                                                     -
+                                                                                       Sektorengewichtung                                               Gewichtung (%)
+Annualisierter Tracking Error (3 Jahre)                                          -
+                                                                                       Informationstechnologie                                                     29,14
+Die in der Vergangenheit erzielte Performance ist kein Indikator für die zukünftige
+Performance. In den vorliegenden Performancezahlen sind die Kommissionen und           Gesundheitswesen                                                            13,83
+Kosten für die Ausgabe und Rücknahme sowie den Kauf und Verkauf von Anteilen
+                                                                                       Nicht-Basiskonsumgüter                                                      12,27
+nicht berücksichtigt. Wenn die Performance auf Basis des Nettoinventarwertes in
+einer anderen Währung als der Abrechnungswährung der kollektiven Kapitalanlage         Finanzen                                                                    11,06
+kalkuliert wird, kann der Wert infolge von Wechselkursschwankungen steigen
+                                                                                       Kommunikationsdienste                                                       10,01
+oder fallen.
+Wird der Fonds gemäß seinem offiziellen Nettoinventarwert (NIW)-Kalender               Industrieunternehmen                                                         6,11
+geschlossen, doch es sind dessen ungeachtet Preise für einen maßgeblichen Teil der
+                                                                                       Basiskonsumgüter                                                             5,74
+zugrunde liegenden Wertpapiere ermittelbar, wird ein technischer NIW berechnet.
+Die hierin angegebene frühere Wertentwicklung wurde daher erforderlichenfalls          Energie                                                                      3,82
+auf Grundlage eines technischen NIW und des offiziellen NIW des Fonds zu jedem
+                                                                                       Immobilien                                                                   2,72
+anderen Geschäftstag des betreffenden Zeitraums berechnet.
+Für das Kalenderjahr, in das das Auflegungsdatum entweder des betreffenden Fonds       Material                                                                     2,66
+oder des an die vergangene Wertentwicklung gebundenen Fonds fällt (je nachdem
+                                                                                       Versorgungsunternehmen                                                       2,63
+welches das frühere Datum ist), ist die Angabe der Wertentwicklung im Kalenderjahr
+unvollständig.
+
+                                                                                       Geografische Aufteilung                                          Gewichtung (%)
+                                                                                       USA                                                                       100,00
+
+
+
+
+Kapitalrisiko: Eine Anlage ist mit Risiken verbunden, einschließlich des Risikos eines Kapitalverlusts.
+Die Wertentwicklung der Vergangenheit ist keine Garantie für zukünftige Ergebnisse.
+
+
+
+
+                                                                                       2
+
+=== pdf p.3 ===
+Kontaktieren Sie uns
+
+Besuchen Sie unsere Webseite ssga.com/etfs oder kontaktieren Sie
+Ihren lokalen SPDR ETF Vertreter. Alternativ können Sie auch das
+SPDR ETF Sales & Support Team über spdrseurope@ssga.com
+erreichen.
+
+Frankreich & Luxemburg                             Deutschland
+spdretf_france@ssga.com                            spdrsgermany@ssga.com
++33 1 44 45 40 00                                  +49 69 66774 5016
+Italien                                            Niederlande
+spdretf_italia@ssga.com                            spdr_nl@ssga.com
++39 0232066 140                                    +31 (0)20-7181071
+Nordics                                            Spanien
+spdrseurope@ssga.com                               spdrseurope@ssga.com
++31 (0)20-7181071                                  +39 0232066 140
+Schweiz                                            Großbritannien
+spdrsswitzerland@ssga.com                          spdrseurope@ssga.com
++ 41 (0)44 245 70 00                               +44 (0) 203 395 6888
+
+
+
+
+ssga.com/etfs                                      Marketingmitteilung                               SPDR ETFs ist die Plattform von State Street      Advisors Europe Limited, Brienner Strasse 59,
+                                                   SPDR ETFs sind möglicherweise nicht für Sie       Global Advisors für börsengehandelte              D-80333 München; Spanien: Cecabank, S.A.
+                                                   erhältlich oder geeignet. Die hier erteilten      Indexfonds ("ETF") und enthält Fonds, die von     Alcalá 27, 28014 Madrid (Spanien); Dänemark:
+Glossar                                            Informationen stellen keine Anlageberatung        der Central Bank of Ireland als offene OGAW-      Nordea Bank Denmark A/S, Issuer Services,
+                                                   gemäß Definition nach der Richtlinie über         Investmentgesellschaften genehmigt wurden.        Securities Services Hermes Hus, Helgeshøj Allé
+Kurs-Gewinn-Verhältnis in einem                    Märkte für Finanzinstrumente (2014/65/EG) dar     Für US-Anleger sind die Fonds nicht erhältlich.   33 Postbox 850, DK-0900 Kopenhagen C;
+Geschäftsjahr Zum Berichtsdatum der                und sollten nicht als Grundlage für eine          SSGA SPDR ETFs Europe I plc und SPDR ETFs         Österreich: Erste Bank, Graben 21, 1010 Wien,
+durchschnittliche Kurs jedes zugrunde              Anlageentscheidung herangezogen werden. Sie       Europe II plc („die Gesellschaft“) emittieren     Österreich; Schweden: SKANDINAVISKA
+liegenden Wertpapiers, dividiert durch die         sind auch nicht als Aufforderung zum Kauf oder    SPDR ETFs und bilden eine offene                  ENSKILDA BANKEN AB, Global Transaction
+durchschnittliche EPS-Schätzung des                als Angebot zum Verkauf einer Anlage zu           Investmentgesellschaft mit variablem Kapital      Services ST MH1, SE-106 40
+Wertpapiers für das noch nicht gemeldete           verstehen. Die bestimmten Anlageziele,            und getrennter Haftung zwischen ihren             Stockholm, Schweden.
+nächste Geschäftsjahr.                             Strategien, der steuerliche Status, die           Teilfonds. Die Gesellschaft ist als Organismus    Standard & Poor’s®, S&P® und SPDR® sind
+Durchschnittliches Kurs-Buchwert-                  Risikobereitschaft bzw. der Anlagehorizont        für gemeinsame Anlagen in Wertpapieren            eingetragene Marken der Standard & Poor’s
+Verhältnis Zum Berichtsdatum der                   eines Anlegers oder potenziellen Anlegers sind    (OGAW) nach irischem Recht organisiert und als    Financial Services LLC (S&P); Dow Jones ist
+durchschnittliche Kurs jedes zugrunde              darin nicht berücksichtigt.                       OGAW von der Central Bank of Ireland              eine eingetragene Marke der Dow Jones
+liegenden Wertpapiers, dividiert durch den         Die steuerliche Behandlung hängt von den          zugelassen.                                       Trademark Holdings LLC (Dow Jones); und
+Buchwert je Anteil des Wertpapiers.                individuellen Umständen jedes Kunden ab und       Zusätzliche wichtige Informationen: - Für         diese Marken wurden zur Nutzung durch die
+Dividendenrendite des Index Zum                    kann sich in Zukunft ändern.                      Großbritannien wurde dieses Dokument              S&P Dow Jones Indices LLC (SPDJI) lizenziert
+Berichtsdatum der Durchschnitt der jährlichen      Falls Sie Anlageberatung benötigen, sollten Sie   von State Street Global Advisors Limited          und für bestimmte Zwecke an die State Street
+Dividenden je Anteil von jedem Basiswertpapier     sich an Ihren Steuer-, Finanz- oder sonstigen     („SSGA“) herausgegeben. Zugelassen und            Corporation unterlizenziert. Die Finanzprodukte
+des Index, dividiert durch den Kurs des            Fachberater wenden.                               reguliert von der Financial Conduct Authority,    der State Street Corporation werden von SPDJI,
+Wertpapiers zum Berichtsdatum.                     Bitte lesen Sie die aktuellen Wesentlichen        registriert unter der Nr. 2509928. USt. Nr.       Dow Jones, S&P, deren jeweiligen
+TER Bei der Total Expense Ratio handelt es         Anlegerinformationen und den                      5776591 81. Eingetragener Sitz: 20 Churchill      Konzerngesellschaften und Drittlizenzgebern
+sich um eine Gebühr, die dem Fonds als             Verkaufsprospekt des Fonds, bevor Sie             Place, Canary Wharf, London, E14 5HJ Telefon:     nicht gesponsert, empfohlen, verkauft oder
+Prozentsatz des Nettoinventarwerts zur             eine endgültige Anlageentscheidung                020 3395 6000, Fax: 020 3395 6350, Internet:      beworben, und keine dieser Parteien gibt
+Deckung der mit dem Betrieb und dem                treffen. Die aktuelle englische Fassung des       www.ssga.com. Für die EU wurde dieses             Zusicherungen hinsichtlich der Ratsamkeit
+Management des Vermögensportfolios                 Prospekts und der KIID finden Sie unter           Dokument von State Street Global Advisors         einer Anlage in dieses Produkt bzw. diese
+verbundenen Kosten erhoben wird.                   www.ssga.com. Eine Zusammenfassung                Europe Limited („SSGA“), reguliert von der        Produkte ab, noch haften sie im
+                                                   der Anlegerrechte finden Sie hier: https://       Central Bank of Ireland, herausgegeben.           Zusammenhang damit, einschließlich für Fehler,
+                                                   www.ssga.com/library-content/products/            Adresse des eingetragenen Sitzes: 78 Sir John     Auslassungen oder Unterbrechungen bei
+Nur für professionelle Kunden /                    fund-docs/summary-of-investor-rights/             Rogerson’s Quay, Dublin 2.                        einem Index.
+qualifizierte Anleger. Nicht für den               ssga-spdr-investors-rights-summary.pdf            Registrierungsnummer 49934. Tel.: +353 (0)1       Die hierin erwähnten Marken und
+öffentlichen Vertrieb.                             Beachten Sie, dass die                            776 3000. Fax: +353 (0)1 776 3300. Internet:      Dienstleistungsmarken sind Eigentum ihrer
+Börsengehandelte Indexfonds (ETFs) werden          Verwaltungsgesellschaft beschließen               www.ssga.com.                                     jeweiligen Inhaber. Unabhängige Datendienste
+wie Aktien gehandelt, unterliegen Anlagerisiken    kann, die für die Vermarktung getroffenen         Lokale Vertreter/Zahlstellen von                  machen keinerlei Zusicherungen oder Garantien
+und ihr Marktwert schwankt. Der Wert der           Vereinbarungen zu beenden und die                 SPDR ETFs:                                        bezüglich der Richtigkeit, Vollständigkeit oder
+Anlage kann sowohl fallen als auch steigen, und    Notifizierung gemäß Artikel 93a der               Frankreich: State Street Bank International       Aktualität der Daten und haften nicht für
+die Rendite der Anlage ist deshalb veränderlich.   Richtlinie 2009/65/EG zu löschen.                 GmbH Paris Branch, Cœur Défense -Tour A, 100,     Schäden jeglicher Art im Zusammenhang mit
+Wechselkursänderungen können sich nachteilig       Alle Dokumente in Bezug auf die Fonds sind        Esplanade du Général de Gaulle, 92931 Paris La    der Nutzung dieser Daten.
+auf Wert, Kurs oder Ertrag einer Anlage            kostenlos von den Geschäftsstellen des lokalen    Defense Cedex; Schweiz: State Street Bank         Dieses Werk darf ohne ausdrückliche
+auswirken. Des Weiteren gibt es keine Garantie     Vertreters/Vermittlers zu beziehen, stehen im     GmbH Munich, Niederlassung Zürich,                schriftliche Einwilligung von SSGA weder ganz
+dafür, dass ein ETF sein Anlageziel                Internet unter www.ssga.com zur Verfügung         Beethovenstrasse 19, 8027 Zürich, und die         noch teilweise vervielfältigt, kopiert oder
+erreichen wird.                                    oder sind von State Street Custodial Services     Hauptvertriebsstelle in der Schweiz, State        übertragen und sein Inhalt gegenüber Dritten
+                                                   (Ireland) Limited, 78 Sir John Rogerson's Quay,   Street Global Advisors AG, Beethovenstrasse 19,   nicht offengelegt werden.
+                                                   Dublin 2, Irland, erhältlich.                     8027 Zürich; Deutschland: State Street Global
+
+
+
+
+                                                                                                     3
+
+=== pdf p.4 ===
+R-FactorTM Zusammenfassung                                                           R-Factor-Profil des Fonds
+
+R-Factor™ wird aufgebaut anhand einer transparenten                                  Nicht verfügbar                                                         0,04%
+Bewertungsmethode, die die Materiality Map des Sustainability                        Nachzügler                                                              4,96%
+Accounting Standards Board (SASB), Corporate-Governance-                             Underperformer                                                          0,94%
+Kodizes und Informationen von vier Best-in-Class-ESG-                                Durchschnitt                                                          11,37%
+Datenanbietern nutzt. R-Factor unterstützt die Entwicklung
+                                                                                     Outperformer                                                          30,32%
+nachhaltiger Kapitalmärkte, indem es Anlegern die Möglichkeit
+                                                                                     Spitzenreiter                                                         55,19%
+bietet, in Lösungen zu investieren, die finanziell wesentliche ESG-
+Daten integrieren, und Unternehmen gleichzeitig Anreize gibt, ihre                   Quelle: Factset/SSGA zum Stand vom 31 Jan 2022.
+ESG-Praktiken und die Veröffentlichungs- und Informationspolitik in
+maßgeblichen Bereichen zu optimieren.
+
+Die angezeigten Daten innerhalb des Factsheet für die ESG Sektionen sind die
+aktuellsten zur Verfügung stehenden und haben einen 1-Monats Verzug gegenüber
+dem Berichtsdatum.
+Quelle: Factset/SSGA. Positionen Stand 28 Feb 2022, R-Faktor Stand 31 Jan 2022.
+
+
+
+
+R-Factor
+
+R-Factor-Zusammenfassung                                     Fonds                   Fondsberichterstattung         Anzahl          Prozentualer      Prozentualer
+                                                                                                                                   Anteil an den         Anteil am
+R-Factor                                                     69
+                                                                                                                                       gesamten          gesamten
+Quelle: Factset/SSGA zum Stand vom 31 Jan 2022.                                                                                    Wertpapieren      Marktwert (%)
+                                                                                                                                             (%)
+                                                                                     R-Factor-                      484                    99,79             99,96
+                                                                                     Wertpapierberichterstattung
+                                                                                     Gesamtanzahl der               485
+                                                                                     Wertpapiere im Fonds
+                                                                                     Quelle: Factset/SSGA zum Stand vom 31 Jan 2022.
+
+
+Top-10-Positionen                                                                                                  Fondsgewichtung (%)             R-Factor-Rating
+Apple Inc.                                                                                                                          7,22                          95
+Microsoft Corporation                                                                                                               6,29                          79
+Amazon.com Inc.                                                                                                                     3,75                          67
+Alphabet Inc. Class A                                                                                                               2,29                          70
+Alphabet Inc. Class C                                                                                                               2,11                          70
+Tesla Inc                                                                                                                           1,99                          58
+NVIDIA Corporation                                                                                                                  1,71                          79
+Berkshire Hathaway Inc. Class B                                                                                                     1,65                          22
+Meta Platforms Inc. Class A                                                                                                         1,40                          75
+UnitedHealth Group Incorporated                                                                                                     1,25                          54
+Höchste 5 R-Factor-Ratings
+HP Inc.                                                                                                                             0,11                          100
+Cisco Systems Inc.                                                                                                                  0,66                          97
+Apple Inc.                                                                                                                          7,22                          95
+Host Hotels & Resorts Inc.                                                                                                          0,04                          87
+Adobe Inc.                                                                                                                          0,63                          86
+Niedrigste 5 R-Factor-Ratings
+Live Nation Entertainment Inc.                                                                                                      0,04                          16
+Lennar Corporation Class A                                                                                                          0,07                          18
+D.R. Horton Inc.                                                                                                                    0,08                          22
+Berkshire Hathaway Inc. Class B                                                                                                     1,65                          22
+NVR Inc.                                                                                                                            0,05                          24
+Quelle: Factset/SSGA zum Stand vom 31 Jan 2022.
+Aus der R-Factor-Zusammenfassung gehen lediglich bestimmte ESG-Merkmale hervor, nicht die Wertentwicklung des Fonds. Weitere Informationen und Definitionen der
+angegebenen ESG-Kennzahlen entnehmen Sie bitte dem Abschnitt Wichtige Informationen.
+
+
+
+
+                                                                                     4
+
+=== pdf p.5 ===
+Klimaprofil
+Kohlenstoffintensität                                                                  Gewichteter Durchschnitt Kohlenstoffintensität
+*%% Jedd[d9E(IY^jpm[hj%KI:C_e$                                                     )%% Jedd[d9E(IY^jpm[hj%KI:C_e$
+
+)%%
+                                                                                       (%%
+(%%
+                                                                                       '%%
+'%%
+                                                                                       &%%
+&%%
+
+   %                                                                                        %
+           Chp CW_ @kb I[f Del @Wd Chp CW_ @kb I[f Del @Wd                                          Chp CW_ @kb I[f Del @Wd Chp CW_ @kb I[f Del @Wd
+          (&(&                                     (&(' (&((                                       (&(&                                     (&(' (&((
+
+       <edZi                                                                                    <edZi
+
+
+Kategorien 1 + 2 Kohlenstoffemissionen                                                 Gesamtreserven Kohlenstoffemissionen
+&'%%%%%% Jedd[d9e([                                                                   &-% C_e$Jedd[d9E(
+                                                                                       &*%
+ .%%%%%%
+                                                                                       &'%
+ +%%%%%%                                                                                .%
+                                                                                        +%
+ (%%%%%%
+                                                                                        (%
+           %                                                                                %
+                  Chp CW_ @kb I[f Del @Wd Chp CW_ @kb I[f Del @Wd                                   Chp CW_ @kb I[f Del @Wd Chp CW_ @kb I[f Del @Wd
+                 (&(&                                     (&(' (&((                                (&(&                                     (&(' (&((
+
+       <edZi                                                                                    <edZi
+
+Quelle: SSGA Holdings per Stand 28 Feb 2022. Trucost Daten per Stand 31 Jan 2022.
+
+
+
+
+Stewardship-Profil Q4 2021
+
+Anzahl der Versammlungen mit            492                                             Geschlechterdiversität
+Stimmabgabe
+                                                                                        Frauen im Verwaltungsrat            Anzahl der Wertpapiere
+Anzahl der Länder                       4
+                                                                                        0                                   0
+Vorschläge des Managements              406
+                                                                                        1                                   11
+Stimmen „Dafür“                         89,16%
+                                                                                        2                                   84
+Stimmen „Dagegen“                       10,84%
+                                                                                        3                                   173
+Vorschläge der Aktionäre                31
+                                                                                        4                                   146
+Für das Management                      61,29%
+                                                                                        5                                   47
+Gegen das Management                    38,71%
+                                                                                        6                                   17
+Die Zahlen beruhen auf dem allgemein von State Street Global Advisors verfolgten        7                                   5
+Ansatz zur Stimmabgabe bei den vom Fonds zu Quartalsende gehaltenen
+Unternehmen. Diese Angaben ersetzen nicht den Bericht über die Stimmabgabe,             8                                   2
+der über Ihren Kundenbetreuer angefordert werden kann.                                  9                                   0
+Das Asset-Stewardship-Programm von State Street Global Advisors (SSGA)
+soll mit unseren Fondsunternehmen in Dialog treten zu Fragen, die sich bei allen        10                                  0
+Aspekten im Zusammenhang mit Umwelt, Sozialem und Governance (ESG) auf die              10+                                 0
+langfristige Wertschöpfung auswirken. In der jüngeren Vergangenheit hat SSGA
+ausführliche Vorgaben zu maßgeblichen Governance-Sachverhalten herausgegeben            Nicht verfügbar                     0
+wie effektive unabhängige Führung durch den Verwaltungsrat. Derzeit liegt der           Gesamt                              485
+Fokus von SSGA darauf, Verwaltungsratsgremien dabei zu unterstützen, über
+potenzielle Auswirkungen ökologischer und sozialer Fragen nachzudenken und             Quelle: Factset/SSGA zum Stand vom 31 Jan 2022.
+bei ihrer Aufsicht über die langfristige Strategie als solides Geschäftsgebaren eine
+Nachhaltigkeitsperspektive einzubeziehen.
+
+
+
+
+                                                                                       5
+
+=== pdf p.6 ===
+ssga.com/etfs                                      Governance in einer bestimmten Region und         könnte, wenn die nachgewiesenen und                Erklärungen oder Zusicherungen, ob
+                                                   beziehen sich für gewöhnlich auf Themen wie       wahrscheinlichen fossilen Brennstoff-Reserven      ausdrücklich oder stillschweigend, hinsichtlich
+R-Factor™ R-Factor™ ist ein ESG-Scoring-           Aktionärsrechte, die Unabhängigkeit des           der Indexwerte verbrannt würden, pro               (i) der Ergebnisse, die durch die Verwendung der
+System, das allgemein anerkannte transparente      Verwaltungsrats und die Vergütung von             investierter Million USD. Im Gegensatz zur         Trucost-Daten in dem Bericht erzielt werden
+wesentlichkeitsbezogene Rahmenwerke nutzt,         Führungskräften. Diese Komponente des             Kohlenstoffintensität und den CO2-Emissionen       können, oder hinsichtlich (ii) der Eignung der
+die von einer großen Zahl von Unternehmen          R-Factor™ verwendet die von ISS Governance        ist die Kennzahl der S&P Trucost Total Reserves    Trucost-Daten für den Zweck, zu dem sie im
+und Anlegern unterstützt werden, um einen          bereitgestellten Daten, um den Emittenten         Emissions ein sehr spezifischer Indikator, der     Zusammenhang mit dem Bericht verwendet
+einzigartigen ESG-Score für börsennotierte         gemäß diesen Governance-Kodizes einen             nur für eine sehr begrenzte Zahl von               werden, ab. Keine der lizenzgebenden Parteien
+Unternehmen zu ermitteln. Der Score basiert        Governance-Score zuzuordnen.                      Unternehmen in mineralgewinnenden und              erteilt eine Finanz- oder Anlageberatung oder
+auf ESG-Daten von vier verschiedenen               R-Factor™ Profil Innerhalb jeder                  kohlenstoffintensiven Branchen Anwendung           Empfehlung in Bezug auf den Bericht. Keine der
+Anbietern (Sustainalytics, ISS-Oekom,              Branchengruppe werden die Emittenten,             findet. Diesen Unternehmen werden von              lizenzgebenden Parteien haftet (ob aus
+Vigeo-EIRIS und ISS-Governance), um die            basierend auf dem Perzentil ihrer R-Factor™       Trucost numerische Ergebnisse bezogen auf          Fahrlässigkeit oder anderweitig) anderen
+Gesamtabdeckung zu verbessern und                  Scores, in fünf verschiedene ESG-Performance-     ihre Emissionen gegenüber bestehenden              Personen gegenüber für Fehler in den Trucost-
+Verzerrungen existierender                         Gruppen eingestuft. Ein Unternehmen wird in       Gesamtreserven (Total Reserves Emissions)          Daten oder ist verpflichtet, andere Personen
+Bewertungsmethoden zu beseitigen. R-Factor™        eine der fünf ESG-Performance-Gruppen             zugewiesen, während der Rest der                   über Fehler darin zu informieren.
+soll Unternehmen in die Lage versetzen, bei der    (Nachzügler - 10 % des Universums,                Portfoliobestände aus anderen Branchen keine       FactSet-Abschnitte Geschlechtervielfalt
+Schaffung nachhaltiger Märkte zu helfen.           Underperformer - 20 % des Universums,             numerischen Werte aufweist und stattdessen         Diese Publikation kann urheberrechtlich
+R-Factor™ Scores sind branchenübergreifend         durchschnittlicher Performer - 40 % des           „null", also leere Werte anzeigt. Um einen         geschützte Informationen von FactSet
+vergleichbar. Die ESG- und Corporate-              Universums, Outperformer - 20 % des               umfassenderen Überblick über die gewichteten       enthalten („FactSet-Informationen"), die ohne
+Governance (CorpGov)-Scores basieren ihrer         Universums oder Spitzenreiter - 10 % des          durchschnittlichen fossilen Brennstoff-            die ausdrückliche, vorherige schriftliche
+Konzeption nach auf Themen, die für die            Universums) eingeordnet, indem der R-Factor™      Reserven eines Portfolios in ihrer Gesamtheit zu   Zustimmung von FactSet nicht vervielfältigt,
+Branche und die regulatorische Region eines        Score eines Unternehmens auf einer Skala          erhalten, ersetzt State Street Global Advisors     verwendet, verbreitet, verändert oder in
+Unternehmens wesentlich sind. Eine                 verglichen wird. R-Factor™ Scores werden          leere Ergebnisse durch „Nullen". Obschon           irgendeiner Weise veröffentlicht werden dürfen.
+einheitliche Bewertungsskala ermöglicht die        gewöhnlich mit normierten Ratings auf einer       dadurch das endgültige gewichtete                  Die FactSet-Informationen werden „wie
+Interpretation des endgültigen Score eines         Bewertungsskala von 0-100 verteilt.               Durchschnittsvolumen leicht unterschätzt           besehen" bereitgestellt, und alle Zusicherungen
+Unternehmens, da somit                             Beispiele für die öffentliche Sprache in Bezug    werden könnte, liefert diese Methode ein           und Gewährleistungen, ob mündlich oder
+unternehmensübergreifende Vergleiche               auf den R-Factor finden Sie in der ELR-           realistischeres Ergebnis, da die meisten           schriftlich, ausdrücklich oder stillschweigend
+angestellt werden können.                          Registrierungserklärung hier: https://www.sec.    Unternehmen in den globalen Indizes selbst         (nach allgemeinem Recht oder gesetzlich oder
+Der R-Factor™ Scoring-Prozess setzt sich aus       gov/Archives/edgar/                               keine fossilen Brennstoff-Reserven ihr             anderweitig), werden hiermit ausgeschlossen
+zwei zugrundeliegenden Komponenten                 data/1107414/000119312519192334/                  Eigen nennen.                                      und abgelehnt, soweit dies gesetzlich zulässig
+zusammen. Die erste Komponente basiert auf         d774617d497.htm                                   Geschlechterdiversität Wir verwenden               ist. Insbesondere in Bezug auf die FactSet-
+dem vom Sustainability Accounting Standards        Kohlenstoffintensität Gemessen in Tonnen          derzeit den FactSet-eigenen Datensatz „People",    Informationen lehnt FactSet jegliche
+Board („SASB") veröffentlichten Rahmenwerk.        CO2e/USD Millionen Umsatz. Die Aggregation        um die Anzahl der Frauen im Verwaltungsrat für     stillschweigende Gewährleistung der
+Dieses wird mit Ausnahme von Corporate-            der CO2-Bilanzen von Indexkomponenten pro         jedes Portfoliounternehmen des Fonds zu            Marktgängigkeit und Eignung für einen
+Governance-Belangen für alle ESG-Aspekte des       USD (gleichgewichtet) in der operativen und       ermitteln.                                         bestimmten Zweck ab und übernimmt keine
+Scores verwendet. Das SASB-Rahmenwerk              First-Tier-Lieferkette.                           Die Daten und Kennzahlen wurden zum                Garantie im Hinblick auf Richtigkeit,
+strebt danach, diejenigen ESG-Risiken zu           Gewichteter Durchschnitt                          Zeitpunkt dieses Berichts von den folgenden        Vollständigkeit, Aktualität, Funktionalität und/
+identifizieren, die basierend auf seiner           Kohlenstoffintensität Gemessen in Tonnen          Stellen wie nachstehend erläutert erhoben und      oder Zuverlässigkeit. Die FactSet-Informationen
+Branchenzugehörigkeit für einen Emittenten         CO2e/USD Millionen Umsatz. Der gewichtete         unterliegen den unten aufgeführten Hinweisen.      sind nicht als Anlageberatung zu verstehen.
+von finanzieller Wesentlichkeit sind. Diese        Durchschnitt der Intensitäten der einzelnen       Alle anderen Daten stammen von SSGA.               Sämtliche Meinungen oder Behauptungen in
+Komponente des R-Factor™ Scores wird nur           Unternehmen (Emissionen aus der operativen        Trucost-Abschnitte Kohlenstoffintensität,          einer Veröffentlichung mit FactSet-
+anhand der Kennzahlen der ESG-Datenanbieter        und First-Tier-Lieferkette gegenüber den          Gewichtete durchschnittliche                       Informationen (und/oder die FactSet-
+bestimmt, die sich speziell mit den ESG-Risiken    Umsatz), gewichtet nach dem Anteil der            Kohlenstoffintensität, Scope 1 + 2                 Informationen selbst) stellen nicht die
+befassen, die vom SASB-Rahmenwerk für den          einzelnen Komponenten des Index.                  Kohlenstoffemissionen, Total Reserves              Meinungen oder Überzeugungen von FactSet,
+Emittenten, basierend auf seiner                   Kategorien 1 + 2                                  CO2 Emissions                                      seinen Konzerngesellschaften und/oder
+Branchenzugehörigkeit, als finanziell wesentlich   Kohlenstoffemissionen Gemessen in                 Trucost® ist eine eingetragene Marke von S&P       verbundenen Unternehmen und/oder einem
+identifiziert wurden.                              Tonnen CO2e. Die Treibhausgasemissionen aus       Trucost Limited („Trucost") und wird unter         ihrer jeweiligen Mitarbeiter dar. FactSet haftet
+Die zweite Komponente des Scores ist der           Betriebsabläufen, die sich im Besitz oder unter   Lizenz verwendet. Der ESG-Bericht wird in          nicht für Schäden, die sich aus der Verwendung
+CorpGov-Score. Dieser wird anhand von              der Kontrolle des Unternehmens befinden,          keiner Weise von Trucost oder seinen               dieser Publikation oder der hierin enthalten
+regionenspezifischen Corporate-Governance-         sowie die Treibhausgasemissionen aus dem          Konzerngesellschaften (zusammen die                FactSet-Informationen ergeben.
+Kodizes generiert, die von Anlegern oder           Verbrauch von durch das Unternehmen               „lizenzgebenden Parteien") gesponsert,
+Aufsichtsbehörden entwickelt wurden.               bezogener Elektrizität, Wärme oder Dampf.         empfohlen, verkauft oder beworben, und keine       ©
+                                                                                                                                                         2022 State Street Corporation.
+Governance-Kodizes beschreiben die                 Total Reserves CO2 Emissions Gemessen in          der lizenzgebenden Parteien gibt irgendwelche      Alle Rechte vorbehalten.
+Mindestanforderungen an die Corporate              Tonnen CO2e. Die CO2-Bilanz, die entstehen        Behauptungen oder Prognosen bzw.                   Fälligkeit: 28/02/2023
+
+
+
+
+                                                                                                     6
+

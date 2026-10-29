@@ -1,0 +1,227 @@
+=== pdf p.1 ===
+Basisinformationsblatt
+
+Zweck
+Dieses Informationsblatt stellt Ihnen wesentliche Informationen über dieses Anlageprodukt zur Verfügung. Es handelt sich nicht um
+Werbematerial. Diese Informationen sind gesetzlich vorgeschrieben, um Ihnen dabei zu helfen, die Art, das Risiko, die Kosten sowie die
+möglichen Gewinne und Verluste dieses Produkts zu verstehen, und Ihnen dabei zu helfen, es mit anderen Produkten zu vergleichen.
+Produkt
+iShares MSCI USA Screened UCITS ETF (der „Fonds“), Hedged EUR Accu (die „Anteilsklasse“), ISIN: IE000G2LIHG9, ist in Irland zugelassen
+und wird von BlackRock Asset Management Ireland Limited (die „Verwaltungsgesellschaft“) aufgelegt, die zur BlackRock, Inc-Gruppe gehört.
+Die Verwaltungsgesellschaft ist in Irland zugelassen und wird von der Central Bank of Ireland (die „CBI“) reguliert. Die CBI ist für die Aufsicht
+der Verwaltungsgesellschaft im Sinne des vorliegenden Basisinformationsblattes zuständig.
+Weitere Informationen sind unter www.blackrock.com oder telefonisch unter +49 89427295800 erhältlich. Dieses Dokument wurde erstellt
+am 25 September 2026.
+Um welche Art von Produkt handelt es sich?
+Art: Der Fonds ist ein Teilfonds der iShares IV plc, einer in Irland gegründeten Umbrella-Gesellschaft, die von der irischen Zentralbank als
+Organismus für gemeinsame Anlagen in Wertpapieren („OGAW“) zugelassen ist. Der Fonds ist ein börsengehandelter OGAW, ein sogenannter
+OGAW-ETF.
+Laufzeit: Der Fonds hat keine feste Existenzdauer oder Laufzeit. Dennoch kann der Fonds unter bestimmten Umständen, wie im
+Verkaufsprospekt des Fonds beschrieben, nach schriftlicher Mitteilung an die Anteilinhaber einseitig gekündigt werden, vorbehaltlich der
+Einhaltung des Verkaufsprospekts des Fonds und der geltenden Vorschriften.
+Ziele
+    Die Anteilklasse ist eine Anteilklasse eines Fonds, der durch eine Kombination aus Kapitalwachstum und Erträgen auf das Fondsvermögen
+    die Erzielung einer Rendite aus Ihrer Anlage anstrebt, welche die Rendite des MSCI USA Screened Index, des Referenzindex des Fonds
+    (Index), widerspiegelt.
+    Die Anteilklasse wird über den Fonds passiv verwaltet und strebt an, soweit dies möglich und machbar ist, in die Eigenkapitalinstrumente
+    (z. B. Aktien) zu investieren, aus denen sich der Index zusammensetzt.
+    Der Index misst die Wertentwicklung einer Untergruppe von Eigenkapitalinstrumenten, die Teil des MSCI USA Index (der „Parent-Index“)
+    sind, der Unternehmen aus dem Parent-Index basierend auf den Umwelt-, Sozial- und Governance-Ausschlusskriterien („ESG“) des
+    Indexanbieters ausschließt.
+    Der Index schließt Unternehmen aus dem Parent-Index aus, die vom Indexanbieter definiert werden als: Unternehmen, die mit
+    umstrittenen Waffen und Nuklearwaffen in Verbindung stehen; Unternehmen, die Tabak oder zivile Feuerwaffen produzieren;
+    Unternehmen, die ihre Einnahmen aus den folgenden Aktivitäten erzielen: Stromerzeugung aus Kraftwerkskohle; Vertrieb, Einzelhandel
+    und Lieferung von Tabakerzeugnissen; Vertrieb von zivilen Feuerwaffen; Förderung fossiler Brennstoffe; Produktion oder Vertrieb von
+    Palmöl; Förderung von arktischem Öl und Gas. Unternehmen, die als gegen die Prinzipien des Global Compact der Vereinten Nationen
+    verstoßend eingestuft sind, werden ebenfalls vom Index ausgeschlossen. Die übrigen Wertpapiere werden dann nach ihrer
+    Marktkapitalisierung auf Freefloat-Basis gewichtet. Ferner schließt der Index Unternehmen von der Aufnahme in den Index aus, die nicht
+    mindestens den MSCI ESG Controversies Score erfüllen. Unternehmen können ausgeschlossen werden, damit der Index das vom
+    Indexanbieter festgelegte Niveau der Reduzierung der Kohlenstoffemissionsintensität im Vergleich zum Parent-Index erreicht. Die
+    Anlageverwaltungsgesellschaft wird die oben genannten ESG-Kriterien nur dann berücksichtigen, wenn sie die Wertpapiere auswählt, die
+    der Fonds direkt halten wird. Der Fonds kann zudem ein indirektes Engagement in Wertpapieren eingehen, die diese ESG-Kriterien nicht
+    erfüllen.
+    Der Fonds verfolgt einen verbindlichen und maßgeblichen Ansatz für nachhaltige Anlagen.
+    Der Fonds beabsichtigt, den Index nachzubilden, indem er die Eigenkapitalinstrumente, aus denen sich der Index zusammensetzt, in
+    ähnlichen Anteilen wie der Index hält.
+    Der Fonds kann auch kurzfristige besicherte Ausleihungen seiner Anlagen an bestimmte berechtigte Dritte vornehmen, um zusätzliche
+    Erträge zu erzielen und die Kosten des Fonds auszugleichen.
+    Die Anlageverwaltungsgesellschaft kann derivative Finanzinstrumente (FD) für Direktanlagen einsetzen, um die Anlageziele des Fonds zu
+    erreichen.
+    Der Preis von Eigenkapitalinstrumenten fluktuiert täglich und kann von Faktoren beeinflusst werden, die sich auf die Wertentwicklung der
+    einzelnen Gesellschaften auswirken, die die Wertpapiere ausgeben, sowie von täglichen Bewegungen des Aktienmarktes und größeren
+    wirtschaftlichen und politischen Entwicklungen, die wiederum den Wert Ihrer Anlage beeinflussen können.
+    Das Verhältnis zwischen der Rendite Ihrer Anlage, den Faktoren, die sie beeinflussen, und der Dauer, für die Sie Ihre Anlage halten sollten,
+    wird im nachfolgenden Kapitel behandelt (siehe „Wie lange sollte ich die Anlage halten, und kann ich vorzeitig Geld entnehmen?“).
+    Die Verwahrstelle des Fonds ist die State Street Custodial Services (Ireland) Limited.
+    Weitere Informationen über den Fonds sind in den aktuellen Jahres- und Halbjahresberichten der iShares IV plc enthalten. Diese
+    Dokumente sind kostenlos in Englisch und mehreren weiteren Sprachen verfügbar. Diese sowie weitere (praktische) Informationen,
+    einschließlich der Preise der Anteile, erhalten Sie auf der iShares-Website unter www.ishares.com oder telefonisch unter +49 89427295800
+    oder bei ihrem Makler oder Finanzberater.
+    Ihre Anteile werden thesaurierende Anteile sein (d. h., Erträge werden im Anteilswert enthalten sein).
+    Die Basiswährung des Fonds ist der US-Dollar. Anteile dieser Anteilklasse lauten auf Euro. Dieser Währungsunterschied kann die
+    Wertentwicklung Ihrer Anteile beeinträchtigen.
+    Ihre Aktien werden abgesichert („hedged“), um die Auswirkungen von Wechselkursschwankungen zwischen der Währung, auf die die Aktien
+    lauten, und den Währungen des zugrunde liegenden Portfolios des Fonds oder der Basiswährung des Fonds zu verringern. FD,
+    einschließlich Devisentermingeschäften, werden zu Absicherungszwecken eingesetzt. Die Absicherungsstrategie kann das Währungsrisiko
+    unter Umständen nicht vollständig eliminieren und daher die Wertentwicklung Ihrer Aktien beeinträchtigen. Weitere Informationen finden
+    Sie im Prospekt.
+    Die Anteile sind an verschiedenen Börsen notiert und werden dort gehandelt. Unter normalen Umständen dürfen nur autorisierte
+    Teilnehmer Anteile direkt beim Fonds kaufen und verkaufen. Anleger, die nicht autorisierte Teilnehmer sind (z. B. ausgewählte
+    Finanzinstitute), können grundsätzlich nur Anteile auf dem Sekundärmarkt (z. B. über einen Börsenmakler) zum dann geltenden
+    Marktpreis kaufen oder verkaufen. Der Wert der Anteile steht in direktem Verhältnis zum Wert der dem Fonds zugrunde liegenden
+    Vermögenswerte, abzüglich der Kosten (siehe nachfolgend unter „Welche Kosten entstehen?“). Der geltende Marktpreis, zu dem die Anteile
+    auf dem Sekundärmarkt gehandelt werden, kann vom Wert der Anteile abweichen. Der indikative Nettoinventarwert wird auf den Websites
+    der betreffenden Börsen veröffentlicht.
+Kleinanleger-Zielgruppe: Der Fonds ist für Kleinanleger bestimmt, die Verluste bis zu dem in den Fonds investierten Betrag tragen können
+(siehe „Wie lange sollte ich die Anlage halten, und kann ich vorzeitig Geld entnehmen?“).
+Versicherungsleistungen: Der Fonds bietet keine Versicherungsleistungen an.
+
+
+
+
+                                                                       1
+
+=== pdf p.2 ===
+Welche Risiken bestehen und was könnte ich im Gegenzug dafür bekommen?
+Risikoindikator
+
+Niedrigeres Risiko                                                                                                              Höheres Risiko
+
+
+
+
+                     Der Risikoindikator beruht auf der Annahme, dass Sie das Produkt 5 Jahre halten. Wenn Sie die Anlage frühzeitig
+                     auflösen, kann das tatsächliche Risiko erheblich davon abweichen und Sie erhalten unter Umständen weniger zurück.
+
+   Der Gesamtrisikoindikator hilft Ihnen, das mit diesem Produkt verbundene Risiko im Vergleich zu anderen Produkten einzuschätzen. Er
+   zeigt, wie hoch die Wahrscheinlichkeit ist, dass Sie bei diesem Produkt Geld verlieren, weil sich die Märkte in einer bestimmten Weise
+   entwickeln oder wir nicht in der Lage sind, Sie auszubezahlen.
+   Wir haben dieses Produkt auf einer Skala von 1 bis 7 in die Risikoklasse 4 eingestuft, wobei 4 einer mittleren Risikoklasse entspricht. Das
+   Risiko potenzieller Verluste aus der künftigen Wertentwicklung wird als mittel eingestuft. Ungünstige Marktbedingungen könnten den Wert
+   Ihrer Anlage beeinträchtigen. Diese Bewertung ist ohne Gewähr, kann sich im Laufe der Zeit ändern und ist möglicherweise kein
+   zuverlässiger Hinweis auf das künftige Risikoprofil des Fonds. Die niedrigste Kategorie kann nicht mit einer risikofreien Anlage
+   gleichgesetzt werden.
+   Bitte beachten Sie das Währungsrisiko. Wenn Sie Zahlungen in einer anderen Währung als der Basiswährung des Produkts erhalten,
+   hängt die endgültige Rendite vom Wechselkurs zwischen den beiden Währungen ab. Dieses Risiko ist bei dem oben angegebenen Indikator
+   nicht berücksichtigt.
+   Weitere Informationen zu anderen wesentlichen Risiken, die mit diesem Produkt verbunden sein können, entnehmen Sie bitte dem
+   Prospekt.
+   Dieses Produkt beinhaltet keinen Schutz vor künftigen Marktentwicklungen, sodass Sie das angelegte Kapital ganz oder teilweise verlieren
+   könnten.
+   Wenn das Produkt Ihnen den geschuldeten Betrag nicht zahlen kann, könnten Sie das gesamte angelegte Kapital verlieren.
+Performance-Szenarien
+In den angeführten Zahlen sind sämtliche Kosten des Produkts selbst enthalten, jedoch unter Umständen nicht alle Kosten, die Sie an Ihren
+Berater oder Ihre Vertriebsstelle zahlen müssen, sowie die Kosten Ihres Beraters oder Ihrer Vertriebsstelle. Unberücksichtigt ist auch Ihre
+persönliche steuerliche Situation, die sich ebenfalls auf den am Ende erzielten Betrag auswirken kann. Was Sie bei diesem Produkt am Ende
+herausbekommen, hängt von der künftigen Marktentwicklung ab. Die künftige Marktentwicklung ist ungewiss und lässt sich nicht mit
+Bestimmtheit vorhersagen. Die dargestellten optimistischen, mittleren und pessimistischen Szenarien, die Referenzindizes/Stellvertreter
+verwenden können, veranschaulichen die schlechteste, die durchschnittliche und die beste Wertentwicklung des Produkts in den letzten zehn
+Jahren. Die Märkte könnten sich in der Zukunft vollkommen anders entwickeln.
+Empfohlene Haltedauer : 5 Jahre                                                                   Beispiel für eine Anlage : EUR 10.000
+Szenarien                                                                                 Ausstieg nach 1 Jahr     Ausstieg nach 5 Jahre
+Minimum                 Es gibt keine garantierte Mindestrendite. Sie könnten Ihre Anlage ganz oder teilweise verlieren.
+Stressszenario*         Was Sie nach Abzug der Kosten erhalten könnten                    6.780 EUR                3.610 EUR
+                        Jährliche Durchschnittsrendite                                    -32,2%                   -18,4%
+Pessimistisches         Was Sie nach Abzug der Kosten erhalten könnten                    7.690 EUR                11.310 EUR
+Szenario**
+                        Jährliche Durchschnittsrendite                                    -23,1%                   2,5%
+Mittleres               Was Sie nach Abzug der Kosten erhalten könnten                    11.570 EUR               19.300 EUR
+Szenario**
+                        Jährliche Durchschnittsrendite                                    15,7%                    14,1%
+Optimistisches          Was Sie nach Abzug der Kosten erhalten könnten                    16.030 EUR               24.140 EUR
+Szenario**
+                        Jährliche Durchschnittsrendite                                    60,3%                    19,3%
+*   Das Stressszenario zeigt, was Sie unter extremen Marktbedingungen zurückbekommen könnten.
+** Diese Art von Szenario ergab sich bei einer Anlage in dem Produkt und/oder der/den Benchmark(s) oder dem Stellvertreter zwischen:
+Szenarien                      1 Jahr                                               5 Jahre
+Pessimistisches                Dezember 2021 - Dezember 2022                        Januar 2025 - Januar 2026
+Szenario
+Mittleres                      Juli 2024 - Juli 2025                                April 2020 - April 2025
+Szenario
+Optimistisches                 März 2020 - März 2021                                Oktober 2016 - Oktober 2021
+Szenario
+Was geschieht, wenn BlackRock Asset Management Ireland Limited nicht in der Lage ist, die Auszahlung vorzunehmen?
+Die Vermögenswerte des Fonds werden verwahrt durch seine Verwahrstelle, die State Street Custodial Services (Ireland) Limited (die
+„Verwahrstelle“). Im Falle einer Insolvenz der Verwaltungsgesellschaft sind die Vermögenswerte des Fonds, die von der Verwahrstelle verwahrt
+werden, nicht betroffen. Dennoch kann der Fonds im Falle der Insolvenz der Verwahrstelle oder einer in ihrem Namen handelnden Person
+einen finanziellen Verlust erleiden. Dieses Risiko wird allerdings zu einem gewissen Grad abgemildert durch die Tatsache, dass die
+Verwahrstelle rechtlich verpflichtet ist, ihre eigenen Vermögenswerte von denen des Fonds zu trennen. Die Verwahrstelle ist zudem gegenüber
+dem Fonds und den Anlegern haftbar für jeden Verlust, der unter anderem aus ihrer Fahrlässigkeit, ihrem Betrug oder ihrer vorsätzlichen
+Nichterfüllung von Pflichten entsteht (vorbehaltlich bestimmter Einschränkungen). Als Anteilinhaber des Fonds können Sie keinen Anspruch
+auf das britische Financial Services Compensation Scheme oder einen anderen Entschädigungsplan in Bezug auf den Fonds geltend machen,
+falls der Fonds nicht in der Lage ist, die Auszahlung vorzunehmen.
+
+
+
+
+                                                                      2
+
+=== pdf p.3 ===
+Welche Kosten entstehen?
+Die Person, die Ihnen dieses Produkt verkauft oder Sie dazu berät, kann Ihnen weitere Kosten berechnen. Sollte dies der Fall sein, teilt diese
+Person Ihnen diese Kosten mit und legt dar, wie sich diese Kosten auf Ihre Anlage auswirken werden.
+Kosten im Zeitverlauf: In den Tabellen werden die Beträge dargestellt , die zur Deckung verschiedener Kostenarten von Ihrer Anlage
+entnommen werden. Diese Beträge hängen davon ab, wie viel Sie anlegen, wie lange Sie das Produkt halten und wie gut sich das Produkt
+entwickelt. Die hier dargestellten Beträge veranschaulichen einen beispielhaften Anlagebetrag und verschiedene mögliche Anlagezeiträume.
+Wir haben folgende Annahme zugrunde gelegt:
+    Im ersten Jahr erhalten Sie den angelegten Betrag zurück (0 % jährliche Rendite).
+    Für die übrigen Haltedauern haben wir angenommen, dass sich das Produkt wie im mittleren Szenario gezeigt entwickelt.
+    EUR 10.000 sind angelegt.
+                                                                                             Ausstieg nach 1 Jahr   Ausstieg nach 5 Jahre
+ Gesamtkosten                                                                                10 EUR                 97 EUR
+Jährliche Kostenauswirkungen (*)                                                             0,1%                   0,1%
+(*) Diese Angaben veranschaulichen, wie die Kosten Ihre Rendite pro Jahr während der Haltedauer verringern. Wenn Sie beispielsweise zum
+Ende der empfohlenen Haltedauer aussteigen, wird Ihre durchschnittliche Rendite pro Jahr voraussichtlich 14,2% vor Kosten und 14,1% nach
+Kosten betragen.
+Wir können einen Teil der Kosten zwischen uns und der Person aufteilen, die Ihnen das Produkt verkauft, um die für Sie erbrachten
+Dienstleistungen zu decken. Der Betrag wird Ihnen mitgeteilt.
+ Zusammensetzung der Kosten
+                                                                                                                       Ausstieg nach 1
+ Einmalige Kosten bei Ein- oder Ausstieg                                                                               Jahr
+ Einstiegskosten              Wir erheben keine Zeichnungsgebühr.1                                                     -
+ Ausstiegskosten              Wir erheben keine Rücknahmegebühr.1                                                      -
+ Jährlich anfallende laufende Kosten
+ Verwaltungsgebühren und 0,10% des Werts Ihrer Anlage pro Jahr. Dieser Wert basiert auf einer Kombination aus 10 EUR
+ sonstige Verwaltungs-        geschätzten und tatsächlichen Kostendaten des vergangenen Jahres. Hierin enthalten sind
+ oder Betriebskosten          alle zugrunde liegenden Produktkosten mit Ausnahme von Transaktionskosten, die im
+                              Folgenden unter „Transaktionskosten“ aufgeführt werden.
+Transaktionskosten            0,00% des Werts Ihrer Anlage pro Jahr. Dies ist eine Schätzung der Kosten, die beim Kauf 0 EUR
+                              und Verkauf der zugrunde liegenden Anlagen für das Produkt anfallen. Der tatsächliche
+                              Betrag hängt davon ab, wie viel wir kaufen und verkaufen.
+ Unter bestimmten Bedingungen berechnete Nebenkosten
+ Erfolgsgebühr                Für dieses Produkt fällt keine Erfolgsgebühr an.                                         -
+1Gilt nicht für Anleger auf dem Sekundärmarkt. Anleger, die über Börsen handeln, zahlen Gebühren, die von Börsenmaklern erhoben werden.
+Solche Gebühren können an Börsen, an denen die Anteile notiert sind und gehandelt werden, oder von Börsenmaklern erhoben werden.
+Autorisierte Teilnehmer, die direkt mit dem Fonds oder der Verwaltungsgesellschaft handeln, tragen die damit verbundenen
+Transaktionskosten.
+Wie lange sollte ich die Anlage halten, und kann ich vorzeitig Geld entnehmen? Empfohlene Haltedauer: 5 Jahre
+Die empfohlene Haltedauer wurde auf der Grundlage der Anlagestrategie des Fonds und des Zeitrahmens berechnet, innerhalb dessen
+erwartet wird, dass das Anlageziel des Fonds erreicht werden kann. Jegliche Anlagen sollten auf der Basis Ihres spezifischen Anlagebedarfs
+und Ihrer Risikobereitschaft erwogen werden. BlackRock hat nicht geprüft, ob diese Anlage im Hinblick auf Ihre persönlichen Umstände
+geeignet oder angemessen ist. Falls Sie sich nicht sicher sind, ob der Fonds Ihren Bedürfnissen entspricht, sollten Sie angemessenen
+professionellen Rat einholen. Informationen zur Transaktionshäufigkeit finden Sie unter „Um welche Art von Produkt handelt es sich?“. Ihre
+Rendite kann geringer als erwartet ausfallen, wenn Sie Geld vor Ablauf der empfohlenen Haltedauer entnehmen. Die empfohlene Haltedauer
+ist ein Schätzwert und stellt keine Garantie oder einen Indikator für die künftige Wertentwicklung, das Ertrags- oder Risikoniveau dar. Die
+Ausstiegsgebühren finden Sie im Abschnitt „Welche Kosten entstehen?“.
+Wie kann ich mich beschweren?
+Wenn Sie mit einem Teil unserer Leistungen, die wir Ihnen zur Verfügung stellen, nicht zufrieden sind und sich beschweren möchten, finden
+Sie Informationen zu unserem Prozess für den Umgang mit Beschwerden unter www.blackrock.com/uk/individual/about-blackrock/contact-
+us. Außerdem können Sie sich schriftlich an das Investor Services Team am britischen Geschäftssitz von BlackRock, 12 Throgmorton Avenue,
+London, EC2N 2DL oder per E-Mail an info@ishares.co.uk wenden.
+Sonstige zweckdienliche Angaben
+Die aktuelle Version dieses Dokuments, die Wertentwicklung des Fonds im/in den vergangenen 3 Jahr/Jahren, das vorherige Performance-
+Szenario des Fonds, der aktuelle Jahres- und Halbjahresbericht und alle weiteren Informationen für Anteilseigner sind kostenlos in englischer
+Sprache unter www.blackrock.com oder telefonisch beim Investor Services Team unter +49 89427295800 oder bei Ihrem Vermittler,
+Finanzberater oder Ihrer Vertriebsstelle erhältlich.
+Die hierin genannten Referenzindizes sind geistiges Eigentum des/der Indexanbieter(s). Das Produkt wird nicht von dem/den
+Indexanbieter(n) gesponsert oder unterstützt. Vollständige Haftungsausschlüsse finden Sie im Prospekt des Produkts und/oder auf
+www.blackrock.com.
+Die Vergütungspolitik der Verwaltungsgesellschaft, in der beschrieben wird, wie Vergütungen und Leistungen festgelegt und gewährt werden,
+sowie die damit verbundenen Governance-Regelungen sind unter www.blackrock.com/Remunerationpolicy oder auf Anfrage am Geschäftssitz
+der Verwaltungsgesellschaft erhältlich.
+
+
+
+
+                                                                      3
+

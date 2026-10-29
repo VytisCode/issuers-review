@@ -1,0 +1,154 @@
+=== pdf p.1 ===
+                                                                                  Factsheet
+                                                                                  Marketing Material
+
+
+
+
+Xtrackers S&P 500 Swap UCITS ETF 1C
+Ein Teilfonds von Xtrackers
+
+Dieses Informationsblatt entspricht dem Stand vom 30. Juni 2026 sofern nicht anders angegeben.
+
+
+
+
+Überblick                                                                                     Risiken von Exchange Traded Funds (ETFs)
+̵ Engagement in US-amerikanischen Aktien                                                      Der Fonds schließt ein Derivategeschäft mit einer Vertragspartei ab. Falls
+̵ Besteht aus den 500 größten Blue-Chip-Aktien                                                die Vertragspartei keine Zahlungen leisten kann (zum Beispiel im Falle einer
+                                                                                              Insolvenz), kann dies zu einem Verlust in Ihrer Anlage führen.
+                                                                                              Der Wert einer Aktienanlage ist von einer Reihe von Faktoren abhängig, zu
+Fonds Informationen                                                                           denen unter anderem Marktbedingungen, aktuelle Wirtschaftslage, Branche,
+                                                                                              geografische Region sowie politische Ereignisse gehören.
+ ISIN                                            LU0490618542                                 Der Fonds ist den Bewegungen an den Aktienmärkten in einem einzelnen Land
+                                                                                              oder einer einzelnen Region ausgesetzt, die durch politische bzw. wirtschaftliche
+ Währung der Anteilsklasse                       USD
+                                                                                              Entwicklungen, staatliche Maßnahmen oder Naturereignisse nachteilig
+ Fondswährung                                    USD                                          beeinflusst werden können, von denen ein breiter diversifizierter Fonds nicht
+ Auflegungstermin des Fonds                      26.03.2010                                   beeinträchtigt wäre.
+                                                                                              Der Fonds ist nicht kapitalgeschützt. Der Wert Ihrer Investition kann sowohl
+ Auflegungstermin der Anteilsklasse 26.03.2010
+                                                                                              sinken als auch steigen. Die bisherige Wertentwicklung ist kein zuverlässiger
+ Gesellschaftssitz                               Luxemburg                                    Indikator für die zukünftige Wertentwicklung.
+ Portfoliomethode                                Indirekte Replikation (Swap)                 Folgendes gilt, wenn Sie Fondsanteile in einer anderen Währung als der Währung
+                                                                                              des Fonds oder der Anteilsklasse zeichnen oder abrechnen: Bitte beachten Sie
+                                                 State Street Bank International GmbH,
+ Verwahrstelle                                                                                das Währungsrisiko. Sie erhalten Zahlungen in einer anderen Währung, sodass
+                                                 Luxembourg Branch
+                                                                                              Ihre endgültige Rendite vom Wechselkurs zwischen den beiden Währungen
+ Pauschalgebühr¹                                 0,15% p.a.                                   abhängen wird.
+ Ertragsverwendung                               Thesaurierend
+ Nettoinventarwert (NAV)                         USD 148,43
+                                                                                              Index Informationen
+ Fondsvermögen                                   USD 10,30 Milliarden
+ Im Umlauf befindliche Anteile                                                                 Index Name                           S&P 500 INDEX
+                                                 33,43 Millionen
+ insgesamt                                                                                     Index Provider                       S&P Dow Jones Indices LLC
+¹ Ein Glossar der Begriffe finden Sie unter etf.dws.com                                        Bloomberg Symbol                     SPTR500N
+                                                                                               Index Basiswährung                   USD
+                                                                                               Anzahl der Positionen im Index       503
+Performance
+» Historische Entwicklung (online)                                                            Quelle: Indexanbieter
+
+
+
+
+Notierungs- und Handelsinformationen                                                          Eigenschaften des Index
+                                                                                              Der S&P 500 Net Dividends Reinvested Index (Net USD) zielt darauf ab, die
+                                           Bloomberg             Reuters        Handels-      Wertentwicklung des folgenden Markts abzubilden:
+ Börse
+                                           Ticker                RIC            währung
+                                                                                              ̵ die 500 größten Unternehmen, die in den USA notiert sind
+ Borsa Italiana                            XSPX IM               XSPX.MI         EUR          ̵ Abdeckung von etwa 80% der streubesitzbereinigten Marktkapitalisierung
+ London Stock Exchange                     XSPU LN               XSPU.L          USD          ̵ Gewichtung nach streubesitzbereinigter Marktkapitalisierung
+ London Stock Exchange                     XSPX LN               XSPX.L          GBX          ̵ vierteljährliche Überprüfung
+ SIX - Swiss Exchange                      XSPX SW               XSPX.S          CHF          Weitere Informationen zur Index-, Auswahl- und Gewichtungsmethodik sind
+                                                                                              unter www.us.spindices.com verfügbar.
+ XETRA                                     D5BM GY               D5BM.DE         EUR
+
+=== pdf p.2 ===
+Die 10 größten Index-Bestandteile                                                  Über uns
+                                                                                   Xtrackers, die globale Plattform für ETF- und ETC-Lösungen der DWS,
+ Wertpapier                                  ISIN                Gewichtung
+                                                                                   begann 2007 mit ETFs auf große Leitindizes.
+ NVIDIA CORP                                 US67066G1040             7,46%
+                                                                                   Inzwischen ist Xtrackers mit einem verwalteten UCITS-Vermögen von
+ APPLE INC                                   US0378331005             6,70%
+                                                                                   aktuell rund 336 Mrd. Euro1 einer der größten und etabliertesten ETF-
+ MICROSOFT CORP                              US5949181045             4,86%        Anbieter in Europa2.
+ AMAZON COM INC                              US0231351067             3,57%
+                                                                                   Mit rund 300 Produkten bietet Xtrackers ein breites Spektrum an
+ ALPHABET INC CLASS A                        US02079K3059             2,93%        effizienten, qualitativ hochwertigen ETFs und ETCs auf alle wichtigen
+ BROADCOM INC                                US11135F1012              2,61%       Anlageklassen wie Aktien, Anleihen und Rohstoffe. Die Produktpalette
+ ALPHABET INC CLASS C                        US02079K1079             2,35%        wird kontinuierlich erweitert.
+ META PLATFORMS INC CLASS A                  US30303M1027              2,11%       Derzeit sind Xtrackers Produkte an elf Börsen weltweit gelistet.
+ TESLA INC                                   US88160R1014              1,87%       1
+                                                                                       Quelle: DWS, Stand 30.06.2026
+ BERKSHIRE HATHAWAY INC CLASS B              US0846707026             1,58%        2
+                                                                                       Quelle: Deutsche Bank ETF Research
+
+Quelle: DWS
+
+
+
+
+Mehr Informationen zu Xtrackers by DWS                                             Zusätzliche Information
+DWS International GmbH                E-Mail: Xtrackers@dws.com                    Ein Glossar der Begriffe finden Sie unter etf.dws.com.
+Xtrackers Team                        Website: www.Xtrackers.com
+Mainzer Landstrasse 11-17
+60329 Frankfurt am Main
+
+
+
+Haftungsausschluss
+Dieses Dokument ist als Marketingmitteilung gedacht und begründet keine            Unterlagen zusammen mit den aufsichtsrechtlichen Informationen sowie
+rechtsverbindlichen Verpflichtungen seitens der DWS Group GmbH & Co.               den aktuellen Gründungsunterlagen des Fonds in deutscher Sprache bei
+KGaA und/oder der mit ihr verbundenen Unternehmen (DWS).                           der DWS Investment GmbH, Mainzer Landstraße 11-17, 60329 Frankfurt am
+Dieses Dokument stellt keine Anlageberatung dar. Ohne Einschränkung                Main oder in englischer Sprache bei der DWS Investment S.A., 2, Boulevard
+stellt dieses Dokument kein Angebot, keine Aufforderung zur Abgabe eines           Konrad Adenauer, L-1115 Luxemburg, in gedruckter Form kostenlos oder
+Angebots und keine Empfehlung zum Abschluss einer Transaktion dar.                 in den jeweiligen Sprachen bei Deutschland: https://etf.dws.com/de-de/
+Bevor ein Anleger eine Anlageentscheidung trifft, muss er mit oder                 Österreich: https://etf.dws.com/de-at/ Belgien: https://etf.dws.com/en-
+ohne Unterstützung eines Anlageberaters abwägen, ob die von der DWS                be/ Frankreich: https://etf.dws.com/fr-fr/ Italien: https://etf.dws.com/it-it/
+beschriebenen oder zur Verfügung gestellten Anlagen und Strategien im              Luxemburg: https://etf.dws.com/en-lu/ Spanien: https://etf.dws.com/es-es/
+Hinblick auf seine besonderen Anlagebedürfnisse, Ziele und finanziellen            Niederlande: https://etf.dws.com/nl-nl/ Schweden: https://etf.dws.com/sv-
+Verhältnisse angemessen sind.                                                      se/ und UK/Irland: https://etf.dws.com/en-gb/. Eine Zusammenfassung der
+                                                                                   Anlegerrechte finden Sie auf www.etf.dws.com unter “Über uns - Wie kann
+Die in diesem Dokument enthaltenen Informationen stammen aus Quellen,
+                                                                                   ich mich beschweren?”.
+die wir für zuverlässig und aktuell halten. Die Richtigkeit oder Vollständigkeit
+der Quellen kann jedoch nicht garantiert werden.                                   VERGANGENE LEISTUNGEN SIND KEINE GARANTIE FÜR ZUKÜNFTIGE
+                                                                                   ERGEBNISSE.
+Gemäß den Angaben im Verkaufsprospekt unterliegt der Vertrieb der in
+diesem Dokument genannten Produkte den Beschränkungen der jeweiligen
+Rechtsordnungen. Dieses Dokument und die darin enthaltenen Informationen           © 2026 DWS International GmbH, gegebenenfalls handelnd durch ihre
+dürfen nur in Rechtsordnungen verteilt und veröffentlicht werden, in               Niederlassungen
+denen eine solche Verteilung und Veröffentlichung nach dem in diesen
+Rechtsordnungen geltenden Recht zulässig ist. Die direkte oder indirekte
+Verbreitung dieses Dokuments ist in den USA sowie an oder für Rechnung von
+US-Personen und Personen mit Wohnsitz in den USA verboten.
+                                                                                   Index Haftungsausschluss
+Xtrackers ist ein Organismus für gemeinsame Anlagen in Wertpapieren                Der S&P 500 INDEX ist ein Produkt von S&P Dow Jones Indices LLC oder
+(OGAW) gemäß den geltenden Gesetzen und Vorschriften und wurde als                 seinen verbundenen Unternehmen (“SPDJI”) und wurde zur Nutzung durch
+offene Investmentgesellschaft mit variablem Kapital und getrennter Haftung         DWS lizenziert. S&P®, S&P 500®, US 500, The 500, iBoxx®, iTraxx® und
+zwischen den einzelnen Teilfonds gegründet.                                        CDX® sind eingetragene Marken von Standard & Poor’s Financial Services
+Die Anleger müssen Anteile an Xtrackers OGAW-ETFs auf einem                        LLC (“S&P”); Dow Jones® ist eine eingetragene Marke von Dow Jones
+Sekundärmarkt mit Hilfe eines Vermittlers (z. B. eines Börsenmaklers) kaufen       Trademark Holdings LLC (“Dow Jones”); diese Marken wurden für die
+und in der Regel auch wieder verkaufen, wofür Gebühren anfallen können.            Verwendung durch SPDJI lizenziert und für bestimmte Zwecke von DWS
+Darüber hinaus können Anleger beim Kauf von Anteilen mehr als den aktuellen        unterlizenziert. S&P 500 Swap UCITS ETF wird nicht von SPDJI, Dow Jones,
+Nettoinventarwert zahlen und beim Verkauf weniger als den aktuellen                S&P, ihren jeweiligen verbundenen Unternehmen gesponsert, unterstützt,
+Nettoinventarwert erhalten. Bevor sie eine Anlageentscheidung treffen,             verkauft oder beworben, und keine dieser Parteien gibt eine Zusicherung
+sollten Anleger die Risikofaktoren im Prospekt und im Basisinformationsblatt       hinsichtlich der Ratsamkeit einer Investition in ein solches Produkt
+lesen.                                                                             oder solche Produkte ab, noch haften sie für Fehler, Auslassungen oder
+Die steuerliche Behandlung der Xtrackers OGAW-ETFs hängt von den                   Unterbrechungen des S&P 500 INDEX.
+individuellen Umständen des jeweiligen Anlegers ab.
+Xtrackers wurde im Großherzogtum Luxemburg gegründet, ist im Luxemburger
+Handels- und Gesellschaftsregister unter der Nummer B-119.899 eingetragen
+und hat seinen eingetragenen Sitz in 49, avenue J.F. Kennedy, L-1855
+Luxemburg. Die DWS Investment S.A. fungiert als Verwaltungsgesellschaft
+von Xtrackers. Die Investmentgesellschaft kann beschließen, die für den
+Vertrieb dieses Fonds getroffenen Vereinbarungen zu kündigen.
+Vollständige Informationen über den Fonds, einschließlich aller Risiken
+und Kosten, finden Sie im jeweils aktuellen Verkaufsprospekt. Diese
+stellen zusammen mit dem jeweiligen Basisinformationsblatt die einzigen
+verbindlichen Verkaufsunterlagen für den Fonds dar. Der Anleger erhält diese
+

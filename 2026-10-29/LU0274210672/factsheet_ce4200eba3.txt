@@ -1,0 +1,187 @@
+=== pdf p.1 ===
+                                                                               Factsheet
+                                                                               Marknadsföringsmaterial
+
+
+
+
+Xtrackers MSCI USA Swap UCITS ETF 1C
+En delfond till Xtrackers
+
+Detta faktablad gäller per den 30 september 2026 om inget annat anges.
+
+
+
+
+Överblick                                                                                  Risker med börshandlade fonder
+̵ Indirekt exponering mot amerikanska aktier                                               Värdet på din investering kan minska likaväl som öka och tidigare resultat
+̵ Ger diversifierad exponering mot stora och medelstora amerikanska aktier, med            förutsäger inte framtida avkastning. Investerarkapital kan vara i riskzonen upp till
+  85 % marknadsrepresentation                                                              en total förlust.
+                                                                                           Värdet på en investering i aktier kommer att bero på ett antal faktorer, bland
+                                                                                           annat marknadsförhållanden, ekonomiska förhållanden, sektorer, geografiska
+Fondinformation                                                                            regioner och politiska händelser.
+                                                                                           Fonden är exponerad mot rörelser på aktiemarknaden i ett enskilt land eller
+ ISIN                                          LU0274210672                                en region som kan påverkas negativt av politiska eller ekonomiska händelser,
+                                                                                           regeringsåtgärder eller naturhändelser vilka inte skulle påverka en Fond som
+ Fondens andelsklass                           USD
+                                                                                           investerar i bredare marknader.
+ Fondens Valuta                                USD                                         Fonden kommer att ingå derivatkontrakt med en motpart. Om motparten inte
+ Fondens lanseringsdatum                       2007-01-08                                  erlägger sina betalningar (t.ex. blir insolvent) kan detta leda till förluster för din
+                                                                                           investering.
+ Andelsklass lanseringsdatum                   2007-01-08
+                                                                                           Följande är tillämpligt om du tecknar eller avvecklar aktier i en annan valuta
+ Säte                                          Luxemburg                                   än fondens eller andelsklassens valuta: Var uppmärksam på valutarisken. Du
+ Portföljmetod                                 Indirekt replikering (Swap)                 kommer att få betalningar i en annan valuta. Den slutliga avkastningen beror
+                                                                                           därför på växelkursen mellan de två valutorna.
+                                               State Street Bank International GmbH,
+ Förvaringsinstitut
+                                               Luxembourg Branch
+ Högsta totala avgift¹                         0,15% p.a.                                  Indexinformation
+ Användning av vinst                           Återinvesterande
+                                                                                            Index Name                          MSCI Total Return Net USA Index
+ NAV per andelsklass                           USD 230,77
+                                                                                            Indexleverantör                     MSCI Inc.
+ Fondförmögenhet                               USD 8,82 miljard
+                                                                                            Bloomberg Symbol                    NDDUUS
+ Totala utestående andelar                     23,94 miljoner
+                                                                                            Indexbasvaluta                      USD
+¹ Se ytterligare information / ordlista.
+                                                                                            Antal indexkomponenter              527
+
+                                                                                           Källa: indexleverantör
+Historisk avkastning
+» Historisk avkastning (online)
+                                                                                           Referensindex nyckelfunktioner
+                                                                                           MSCI Total Return Net USA Index strävar efter att spegla utvecklingen på
+Information om notering och handel                                                         följande marknad:
+                                                                                           ̵ Stora och medelstora bolag noterade i USA
+                                           Bloomberg        Reuters          Handlings-
+ Börs                                                                                       – Omfattar ungefär 85 procent av det fritt flytande börsvärdet
+                                           Ticker           RIC              valuta
+                                                                                           ̵ Viktning enligt fritt flytande börsvärde
+ Borsa Italiana                            XMUS IM          XMUS.MI           EUR
+                                                                                           ̵ Kvartalsvis granskning
+ Hong Kong Stock Exchange                  3020 HK          3020.HK           HKD
+                                                                                           Ytterligare information om indexet, urvalet och viktningsmetoden finns på www.
+ London Stock Exchange                     XMUD LN          XMUD.L            USD          msci.com
+ London Stock Exchange                     XMUS LN          XMUS.L            GBX
+ SIX - Swiss Exchange                      XMUS SW          XMUS.S            CHF
+ Stuttgart Stock Exchange                  XMUS GS          XMUS.SG           EUR
+ XETRA                                     XMUS GY          XMUS.DE           EUR
+
+=== pdf p.2 ===
+De 10 Största index komponenterna                                                      Om oss
+                                                                                       Xtrackers, DWS globala plattform för ETF‑ och ETC‑lösningar, startade
+ Emittent                                       ISIN                Vikt
+                                                                                       2007 med ETF:er som följde ledande marknadsindex. Idag, med cirka
+ NVIDIA                                         US67066G1040               7,02%       348 miljarder euro1 i UCITS‑förvaltade tillgångar, är Xtrackers en av de
+ APPLE                                          US0378331005               6,58%       största och mest etablerade ETF‑leverantörerna i Europa2.
+ MICROSOFT                                      US5949181045               4,16%       Med omkring 300 produkter erbjuder Xtrackers ett heltäckande utbud av
+ AMAZON COM INC                                 US0231351067               3,56%       effektiva ETF:er och ETC:er av hög kvalitet inom alla större tillgångsslag,
+ ALPHABET CLASS A                               US02079K3059               3,10%       inklusive aktier, räntebärande värdepapper och råvaror. Produktutbudet
+ BROADCOM INC                                   US11135F1012               2,59%       fortsätter att växa.
+ ALPHABET CLASS C                               US02079K1079               2,44%       Xtrackers produkter är för närvarande noterade på elva börser världen
+ MICRON TECHNOLOGY                              US5951121038               2,02%       över.
+ META PLATFORMS CLASS A                         US30303M1027               1,91%
+                                                                                       1
+                                                                                           Källa: DWS, al 31.08.2026
+
+ TESLA INC                                      US88160R1014               1,69%
+                                                                                       2
+                                                                                           Källa: Deutsche Bank ETF Research Xtrackers
+
+
+Källa: DWS
+
+
+
+
+Ytterligare information om Xtrackers                                                   Ytterligare Information
+DWS International GmbH                  E-post: Xtrackers@dws.com                      För formulärets ordlista, vänligen gå till etf.dws.com.
+Xtrackers team                          Info: Xtrackers.com
+Jakobsbergsgatan 13
+11144 Stockholm
+
+Varning
+Detta dokument är avsett som marknadskommunikation och skapar inga                     fr/ Italien: https://etf.dws.com/it-it/ Luxemburg: https://etf.dws.com/en-lu/
+juridiskt bindande skyldigheter för DWS Group GmbH & Co. KGaA och/eller                Spanien: https://etf.dws.com/es-es/ Nederländerna: https://etf.dws.com/nl-
+dess dotterbolag (DWS).                                                                nl/ Sverige: https://etf.dws.com/sv-se/ och Storbritannien/Irland: https://etf.
+Detta dokument utgör inte investeringsrådgivning. Utan begränsning                     dws.com/en-gb/ . En sammanfattning av investerarnas rättigheter finns på
+utgör detta dokument inte ett erbjudande, en inbjudan att erbjuda eller en             www.etf.dws.com under “About Us - How to Complain?”.
+rekommendation att ingå någon transaktion.                                             Tidigare resultat är ingen garanti för framtida resultat
+Innan investerare fattar ett investeringsbeslut måste de, med eller utan hjälp
+av en investeringsrådgivare, överväga om de investeringar och strategier               © 2026 DWS International GmbH agerar genom sina filialer där så är relevant
+som beskrivs eller tillhandahålls av DWS är lämpliga mot bakgrund av deras
+särskilda investeringsbehov, mål och finansiella omständigheter.
+Informationen i detta dokument har erhållits eller härletts från källor som            Indexfriskrivning
+anses vara tillförlitliga och aktuella. Källornas riktighet eller fullständighet kan
+dock inte garanteras.                                                                  MSCI USA Swap UCITS ETF är inte sponsrade, godkända, sålda
+Enligt informationen i försäljningsprospektet är distributionen av de                  eller marknadsförda av MSCI INC. (“MSCI”) eller någon av dess
+produkter som nämns i detta dokument föremål för restriktioner i de                    samarbetspartners, informationsleverantörer eller andra tredje parter
+relevanta jurisdiktionerna. Detta dokument och informationen häri får                  som är inblandade i, eller relaterade till, sammanställningen, beräkningen
+endast distribueras och publiceras i jurisdiktioner där sådan distribution och         eller skapandet av ett MSCI-index (tillsammans kallade “MSCI-parterna”).
+publicering är tillåten i enlighet med tillämplig lag i dessa jurisdiktioner. Direkt   MSCI-INDEXEN ÄR MSCIS EXKLUSIVA EGENDOM. MSCI OCH MSCI-
+eller indirekt distribution av detta dokument är förbjuden i USA samt till eller       INDEXNAMNEN ÄR SERVICEMÄRKEN SOM TILLHÖR MSCI ELLER DESS
+för räkning av amerikanska personer och personer bosatta i USA.                        DOTTERBOLAG OCH HAR BEVILJATS LICENS FÖR ANVÄNDNING FÖR
+Xtrackers är ett företag för kollektiva investeringar i överlåtbara värdepapper        VISSA ÄNDAMÅL AV PRINCIPAL. INGEN AV MSCI-PARTERNA GÖR NÅGRA
+(UCITS) i enlighet med tillämpliga lagar och förordningar och inrättat som ett         UTTALADE ELLER UNDERFÖRSTÅDDA UTFÄSTELSER ELLER GARANTIER,
+öppet investeringsbolag med rörligt kapital och segregerat ansvar mellan sina          UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, TILL EMITTENTEN ELLER
+respektive avdelningar.                                                                ÄGARNA AV DESSA FONDER ELLER TILL NÅGON ANNAN PERSON ELLER
+Investerare måste köpa och måste vanligtvis sälja andelar i Xtrackers UCITS            ENHET NÄR DET GÄLLER DET TILLRÅDLIGA I ATT INVESTERA I FONDER
+ETF:er på en sekundärmarknad med hjälp av en mellanhand (t.ex. en                      I ALLMÄNHET ELLER I DESSA FONDER I SYNNERHET, ELLER NÄR DET
+aktiemäklare) och kan ådra sig avgifter för detta. Dessutom kan investerare            GÄLLER FÖRMÅGAN HOS NÅGOT MSCI-INDEX ATT FÖLJA MOTSVARANDE
+betala mer än det aktuella nettotillgångsvärdet när de köper andelar och               AKTIEMARKNADSUTVECKLING. MSCI ELLER DESS DOTTERBOLAG
+kan få mindre än det aktuella nettotillgångsvärdet när de säljer dem. Innan            ÄR LICENSGIVARE FÖR VISSA VARUMÄRKEN, SERVICEMÄRKEN
+investerare fattar något investeringsbeslut bör de läsa riskfaktorerna i               OCH HANDELSNAMN OCH FÖR MSCI-INDEXEN SOM FASTSTÄLLS,
+prospektet och faktabladet.                                                            SAMMANSTÄLLS OCH BERÄKNAS AV MSCI UTAN HÄNSYN TILL DESSA
+                                                                                       FONDER ELLER EMITTENTEN ELLER ÄGARNA AV DESSA FONDER ELLER
+Skattebehandlingen av Xtrackers UCITS ETF:er beror på de individuella
+                                                                                       NÅGON ANNAN PERSON ELLER ENHET. INGEN AV MSCI-PARTERNA HAR
+omständigheterna för varje investerare.
+                                                                                       NÅGON SKYLDIGHET ATT TA HÄNSYN TILL BEHOVEN HOS EMITTENTEN
+Xtrackers är bildat i Storhertigdömet Luxemburg, är registrerat i Luxemburgs           ELLER ÄGARNA AV DESSA FONDER ELLER NÅGON ANNAN PERSON
+handels- och bolagsregister under nummer B-119.899 och har sitt säte på 49,            ELLER ENHET NÄR MSCI-INDEXEN FASTSTÄLLS, SAMMANSTÄLLS ELLER
+avenue J.F. Kennedy, L-1855 Luxemburg. DWS Investment S.A. fungerar som                BERÄKNAS. INGEN AV MSCI-PARTERNA ÄR ANSVARIG FÖR ELLER HAR
+förvaltningsbolag för Xtrackers. Investeringsbolaget kan besluta att avsluta de        DELTAGIT I FASTSTÄLLANDET AV TIDPUNKTEN FÖR, PRISERNA PÅ
+arrangemang som gjorts för marknadsföringen av denna fond.                             ELLER KVANTITETERNA AV DESSA FONDER SOM SKA EMITTERAS ELLER
+Fullständig information om fonden, inklusive alla risker och kostnader, finns i        I FASTSTÄLLANDET ELLER BERÄKNINGEN AV DEN EKVATION GENOM
+det relevanta aktuella prospektet. Tillsammans med det relevanta faktabladet           VILKEN ELLER DET VEDERLAG TILL VILKET DESSA FONDER KAN LÖSAS
+utgör dessa de enda bindande försäljningsdokumenten för fonden. Investerare            IN. Vidare har ingen av MSCI-parterna någon skyldighet eller något ansvar
+kan erhålla dessa dokument, tillsammans med lagstadgad information,                    gentemot emittenten eller ägarna av dessa fonder eller någon annan
+samt de senaste konstitutionella dokumenten för fonden på tyska från DWS               person eller enhet i samband med administrationen, marknadsföringen
+Investment GmbH, Mainzer Landstraße 11-17, 60329 Frankfurt am Main eller               eller erbjudandet av MSCI USA Swap UCITS ETF.
+på engelska från DWS Investment S.A., 2, Boulevard Konrad Adenauer, L-1115
+Luxemburg, i tryckt form kostnadsfritt eller tillgängliga på respektive språk          ÄVEN OM MSCI SKA ERHÅLLA INFORMATION FÖR ATT INKLUDERAS I
+från Tyskland: https://etf.dws.com/de-de/ Österrike: https://etf.dws.com/              ELLER FÖR ATT ANVÄNDAS VID BERÄKNINGEN AV MSCI-INDEXEN FRÅN
+de-at/ Belgien: https://etf.dws.com/en-be/ Frankrike: https://etf.dws.com/fr-
+
+=== pdf p.3 ===
+KÄLLOR SOM MSCI ANSER VARA TILLFÖRLITLIGA, GARANTERAR INGEN
+AV MSCI-PARTERNA ORIGINALITETEN, NOGGRANNHETEN OCH/ELLER
+FULLSTÄNDIGHETEN HOS NÅGOT MSCI-INDEX ELLER NÅGON DATA SOM
+INGÅR I DET. INGEN AV MSCI-PARTERNA LÄMNAR NÅGON GARANTI,
+VARE SIG UTTRYCKLIG ELLER UNDERFÖRSTÅDD, FÖR DE RESULTAT SOM
+FONDERNAS EMITTENT, FONDERNAS ÄGARE ELLER NÅGON ANNAN
+PERSON ELLER ENHET KAN UPPNÅ GENOM ATT ANVÄNDA NÅGOT MSCI-
+INDEX ELLER NÅGON DATA SOM INGÅR DÄRI. INGEN AV MSCI-PARTERNA
+SKA HA NÅGOT ANSVAR FÖR EVENTUELLA FEL, UTELÄMNANDEN ELLER
+AVBROTT AV ELLER I SAMBAND MED MSCI-INDEX ELLER DATA SOM
+INGÅR I DET. INGEN AV MSCI-PARTERNA GER NÅGRA UTTRYCKLIGA ELLER
+UNDERFÖRSTÅDDA GARANTIER AV NÅGOT SLAG, OCH MSCI-PARTERNA
+FRÅNSÄGER SIG HÄRMED UTTRYCKLIGEN ALLA GARANTIER FÖR
+SÄLJBARHET OCH LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL, MED AVSEENDE
+PÅ VARJE MSCI-INDEX OCH ALL DATA SOM INGÅR DÄRI. UTAN ATT
+BEGRÄNSA NÅGOT AV DET FÖREGÅENDE SKA NÅGON AV MSCI-PARTERNA
+UNDER INGA OMSTÄNDIGHETER HA NÅGOT ANSVAR FÖR DIREKTA,
+INDIREKTA, SÄRSKILDA SKADOR, STRAFFSKADOR, FÖLJDSKADOR
+ELLER ANDRA SKADOR (INKLUSIVE UTEBLIVEN VINST), ÄVEN OM DE HAR
+UNDERRÄTTATS OM MÖJLIGHETEN AV SÅDANA SKADOR.
+
+Ingen köpare, säljare eller innehavare av detta värdepapper, denna produkt
+eller dessa fonder, eller någon annan person eller enhet, bör använda eller
+hänvisa till något av MSCI:s handelsnamn, varumärke eller servicemärke
+för att sponsra, stödja, marknadsföra eller marknadsföra detta värdepapper
+utan att först kontakta MSCI för att avgöra om MSCI:s tillstånd krävs. Ingen
+person eller enhet får under några omständigheter hävda någon anknytning
+till MSCI utan MSCI:s skriftliga förhandstillstånd.
+

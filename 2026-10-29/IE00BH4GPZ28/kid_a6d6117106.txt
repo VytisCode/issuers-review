@@ -1,0 +1,154 @@
+=== pdf p.1 ===
+Key Investor Information
+This document provides you with key investor information about this fund. It is not marketing material. The information is
+required by law to help you understand the nature and the risks of investing in this fund. You are advised to read it so you
+can make an informed decision about whether to invest. Terms not defined herein are as defined in the Prospectus.
+
+State Street SPDR S&P 500 Leaders UCITS ETF (the "Fund"), a sub-fund of SSGA SPDR
+ETFs Europe I plc (a UCITS authorised Exchange Traded Fund). This Fund is managed by State Street Global Advisors Europe Limited.
+Share Class: State Street SPDR S&P 500 Leaders UCITS ETF (Acc) (ISIN IE00BH4GPZ28)
+
+Objectives and Investment Policy
+Investment Objective The objective of the Fund is to track the U.S.             circumstances the Fund may purchase securities that are not included in
+equity market performance of large cap equity securities.                       the Index.
+Investment Policy The Fund seeks to track the performance of the S&P            The Fund promotes environmental or social characteristics in
+500 Scored & Screened Leaders Index (the "Index") as closely as                 accordance with SFDR Article 8. These environmental and social
+possible.                                                                       characteristics are detailed in the SFDR Annex of the Fund's
+The Fund is an index tracking fund (also known as a passively managed           Supplement.
+fund).                                                                          The Fund may use financial derivative instruments (that is, financial
+The Fund invests primarily in securities included in the Index. These           contracts whose prices are dependent on one or more underlying
+securities include the top 500 companies in the U.S. equity market by           assets) in order to manage the portfolio efficiently.
+market capitalization that are eligible for the S&P 500 Index (the              Save in exceptional circumstances, the Fund will generally only issue
+"Standard Index"), while excluding securities based on their ESG                and redeem shares to certain institutional investors. However, shares of
+characteristics, considering both their ESG rating and their involvement        the Fund may be purchased or sold through brokers on one or more
+in certain controversial business activities as outlined in the Index           stock exchanges. The Fund trades on these stock exchanges at market
+methodology. The adoption of these screens within the Index correspond          prices which may fluctuate throughout the day. Market prices may be
+to the environmental and social factors which the Fund promotes, as             greater or less than the daily net asset value of the Fund.
+further described in the "ESG Screening" and "ESG Best in Class                 The Fund does not currently engage in securities lending.
+Investing" subsection of the "ESG Investing" section of the Prospectus.         Shareholders may redeem shares on any UK business day (other than
+Companies deemed by the Index provider to be compliant with the                 days on which relevant financial markets are closed for business and/or
+United Nations Global Compact are considered to exhibit good                    the day preceding any such day provided that a list of such closed
+governance.                                                                     market days will be published for the Fund on www.ssga.com); and any
+At least 90% of the Fund's assets are invested in securities that are           other day at the Directors' discretion (acting reasonably) provided
+constituents of the Index, while the Index provider applies ESG ratings         Shareholders are notified in advance of any such days.
+on all of the Index constituents. After exclusions are applied to the           Any income earned by the Fund will be retained and reflected in an
+Standard Index Universe, the Index universe is reduced by at least 20%.         increase in the value of the shares.
+There may be potential inconsistencies, inaccuracy or lack of availability      The Shares of the USD Class are issued in U.S. Dollar.
+of the ESG data, particularly when issued by external data providers.           Index Source: The Index is a trademark of S&P Global Inc., or its
+There may also be potential inconsistencies with the ESG screening              affiliates, and have been licensed for use by S&P Dow Jones Indices
+methodology of the Index (criteria, approaches, constraints). Details           LLC ("S&P") and sub-licensed for use to State Street Investment
+about the limits are described in the Supplement.                               Management ("State Street"). The Fund is not sponsored, endorsed,
+The Fund seeks to hold all the securities of the Index with the                 sold or promoted by S&P, its affiliates, or its third party licensors. Please
+approximate weightings as in that Index. The Fund will use a replication        see the Prospectus for the full index disclaimer.
+strategy to create a near mirror-image of the Index. In limited                 Please refer to the Prospectus for more information.
+
+Risk and Reward Profile
+                                                                                effect than if the Fund was more diversified. This concentration may also
+ Lower risk                                                  Higher risk        limit the Fund's liquidity.
+ Potentially lower reward                       Potentially higher reward
+                                                                                Index Tracking Risk: The Fund's performance may not exactly track the
+                                                                                Index. This can result from market fluctuations, changes in the
+    1          2          3          4          5          6          7         composition of the Index, transaction costs, the costs of making changes
+                                                                                to the Fund's portfolio and other Fund expenses.
+Risk Disclaimer The risk category above is not a measure of capital             Liquidity Risk & ETF Liquidity Risk: Lack of a ready market or resale
+loss or gains but of how significant the rises and falls in the Fund's return   restrictions may limit the Fund's ability to sell a security at an
+have been historically.                                                         advantageous time or price or at all. Illiquid securities may trade at a
+For example a fund whose return has experienced significant rises and           discount and may affect the ability to meet redemptions on a timely
+falls will be in a higher risk category, whereas a fund whose return has        basis. Where the Fund invests in illiquid securities or does not trade in
+experienced less significant rises and falls will be in a lower risk            large volumes, the bid offer spreads may widen, the Fund may be
+category.                                                                       exposed to increased valuation risk and reduced ability to trade. Shares
+The lowest category (i.e., category 1) does not mean that a fund is a risk      in the Fund may also trade at prices materially different to the last
+free investment.                                                                available NAV.
+As the Fund's risk category has been calculated using historical                Screening Risk: There is a risk that the index provider may make
+simulated proxy data, it may not be a reliable indication of the Fund's         errors, such as incorrect assessment of the screen criteria and/or
+future risk profile.                                                            include incorrect/exclude correct constituents in the screening process.
+The Fund's risk category shown is not guaranteed and may change in              Share Class Risk: Gains/losses on and the costs of currency hedging
+the future.                                                                     strategies are intended to accrue solely to the relevant Class. However
+Why is this Fund in this category? The Fund is in risk category 6 as            as Share Classes are not segregated the transactions could potentially
+its return has experienced very high rises and falls historically.              result in liabilities for other Classes.
+The following are material risks relevant to the Fund which are not             Please refer to the Prospectus for full details about the risks associated
+adequately captured by the risk category.                                       with this Fund.
+Concentration Risk: When the Fund focuses its investments in a
+particular way, the issues affecting the investments will have a greater
+
+=== pdf p.2 ===
+Key Investor Information
+Charges
+The charges you pay are used to pay the cost of running the Fund,                 The entry and exit charges shown are maximum figures. In some cases,
+including the costs of marketing and distributing it. These charges               you may pay less — your financial advisor or distributor can confirm this.
+reduce the potential growth of your investment.                                   Entry and exit charges do not apply to investors buying or selling shares
+                                                                                  of the Fund on stock exchanges; however, such investors will transact at
+ One-off charges taken before or after you invest                                 market prices and may be subject to broker fees and/or other charges.
+                                                                                  The ongoing charges figure shown here is based on expenses for the
+ Entry charge                                 none                                year ending December 2025. It excludes:
+ Exit charge                                  none                                b   Portfolio transaction costs, except when the Fund pays an entry or
+ This is the maximum that might be taken out of your money before it is               exit charge when buying or selling units in another fund.
+ invested (entry charge) or before the proceeds of your investment are            For more information about charges, please refer to the Prospectus.
+ paid out (exit charge).
+ Charges taken from the Fund over a year
+ Ongoing charge                               0.03%
+ Charges taken from the Fund under certain specific conditions
+ Performance fee                              none
+
+Past Performance
+       percent                                                                    Past performance is not a guide to future results.
+  40                                                                              The past performance shown here takes account of all charges and
+                                                                                  costs. The entry/exit charges are excluded from the calculation of past
+  30                                                                              performance.
+  20
+                                                                                  The Fund was launched in December 2019.
+                                                                                  The Class Acc Shares were launched in December 2019.
+  10                                                                              Past performance has been calculated in U.S. Dollar and is expressed
+                                                                                  as a percentage change in the Fund's net asset value at each year end.
+   0                                                                              The Index of the Fund changed from S&P 500 ESG Exclusions II Index
+ -10                                                                              to S&P 500 ESG Leaders Index on 11/5/2022.
+                                                                                  Prior to 10th February 2025, the Fund was known as SPDR® S&P® 500
+ -20                                                                              ESG Leaders UCITS ETF (Acc), tracking the S&P 500 ESG Leaders
+                                                                                  Index.
+        2016     2017   2018   2019   2020   2021    2022    2023   2024   2025
+                                      19.4   28.6    -18.5   30.5   25.2   17.3
+
+                                      19.3   28.4    -18.6   30.4   25.0   17.1
+                                              A
+                                                                            B
+Q State Street SPDR S&P 500 Leaders UCITS ETF (Acc) (IE00BH4GPZ28)
+Q S&P 500 Scored & Screened Leaders Index
+A The past performance displayed relates to the S&P 500 ESG
+  Exclusions II Index (the previous index the Fund tracked up to 10/5/
+  2022.
+B Prior to 10th February 2025, the Fund was known as
+  SPDR® S&P® 500 ESG Leaders UCITS ETF (Acc), tracking the
+  S&P 500 ESG Leaders Index.
+
+Practical Information
+Depositary State Street Custodial Services (Ireland) Limited.                     Net Asset Valuation Publication The net asset value and indicative net
+Further Information Copies of the prospectus, its supplements (if any),           asset value per share is available at www.ssga.com and upon request
+details of the Fund's portfolio and the latest annual and semi-annual             from the Administrator.
+reports prepared for SSGA SPDR ETFs Europe I plc may be obtained,                 Additionally the indicative net asset value is available via Bloomberg,
+free of charge, from the Administrator or online at www.ssga.com. These           Telekurs and Reuters terminals.
+documents are available in English. For information about other share             Tax Legislation The Fund is subject to the tax laws and regulations of
+classes, please refer to the website.                                             Ireland. Depending on your own country of residence this might have an
+ETF Information As the shares are listed on the stock exchange, you               impact on your investments. For further details, you should consult a tax
+may buy or sell shares in the product, without penalty, on any normal             advisor.
+business day. Please contact your broker, financial adviser or distributor        Liability Statement State Street Global Advisors Europe Limited may
+for information on any costs and charges relating to the sale of the              be held liable for any statement contained in this document that is
+shares.                                                                           misleading, inaccurate or inconsistent with the relevant parts of the
+ETF Shares purchased on the secondary market cannot usually be sold               Prospectus.
+directly back to the Company. In exceptional circumstances, whether as            Switching between Sub-Funds Shareholders have no specific right to
+a result of disruptions in the secondary market or otherwise, investors           convert shares of the Fund into shares of another sub-fund of SSGA
+who have acquired ETF Shares on the secondary market are entitled to              SPDR ETFs Europe I plc. Conversion can only be effected by the
+apply to the Company in writing to have the ETF Shares in question                investor selling/redeeming the shares of the sub-fund and buying/
+registered in their own name, to enable them to access the redemption             subscribing shares of another sub-fund of SSGA SPDR ETFs Europe I
+facilities described in the Prospectus.                                           plc. Detailed information on how to switch between sub-funds is
+Remuneration Policy Details of the up to date remuneration policy of              provided in the Prospectus.
+SSGA SPDR ETFs Europe I plc are available from www.ssga.com.                      Segregation of Assets and Liabilities SSGA SPDR ETFs Europe I plc
+Paper copies are available free of charge on request.                             has segregated liability between its sub-funds. As a consequence, the
+                                                                                  assets of the Fund should not be available to pay the debts of any other
+                                                                                  sub-fund of SSGA SPDR ETFs Europe I plc.
+
+
+
+
+This Fund is authorised in Ireland and regulated by the Central Bank of Ireland. State Street Global Advisors Europe Limited is a Company approved by
+the Central Bank of Ireland, under no. 49934. This key investor information is accurate as at 19 February 2026.
+

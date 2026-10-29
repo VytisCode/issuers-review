@@ -1,0 +1,180 @@
+=== pdf p.1 ===
+                                                    Diese Marketinginformation ist ausschließlich für die Verwendung in Deutschland, Österreich, der Schweiz und Liechtenstein. Anleger
+                                                    sollten die Verkaufsunterlagen lesen, bevor sie eine endgültige Anlageentscheidung treffen.
+
+
+
+
+                                                                                                                                              Stand vom 30 Juni 2026
+
+Invesco S&P 500 UCITS ETF Acc
+ SPXS
+Anlageziele                                                      Wesentliche Risiken
+Invesco S&P 500 UCITS ETF Acc zielt darauf ab, nach              Die vollständigen Informationen zu den Risiken erhalten Sie in den Verkaufsunterlagen. Der Wert von Anlagen und die Erträge
+Abzug von Gebühren die Entwicklung der                           hieraus unterliegen Schwankungen. Dies kann teilweise auf Wechselkursänderungen zurückzuführen sein. Es ist möglich, dass
+Nettogesamtrendite des S&P 500 Index abzubilden.                 Anleger bei der Rückgabe ihrer Anteile nicht den vollen investierten Betrag zurückerhalten. Die Fähigkeit des Fonds die
+Am 15. Dezember wurde eine Aktienteilung durchgeführt.           Wertentwicklung der Benchmark nachzubilden, hängt davon ab, dass die Kontrahenten kontinuierlich die Wertentwicklung der
+Der Nettoinventarwert pro Anteil wurde um den Faktor 100         Benchmark in Übereinstimmung mit den Swap-Vereinbarungen erzielen und wird zudem von der Streuung zwischen der
+gesenkt, während gleichzeitig die Anzahl der Anteile um          Preisgestaltung von Swaps und der Preisgestaltung der Benchmark beeinflusst. Die Insolvenz von Instituten, die Dienstleistungen
+100 erhöht wurde („Aktienteilung“). Dies führte zu einer         wie die Verwahrung von Vermögenswerten anbieten oder die als Kontrahent zu Derivaten oder anderen Instrumenten agieren,
+Erhöhung der Anzahl der im Umlauf befindlichen Anteile,          kann für den Fonds zu einem finanziellen Verlust führen. Der Wert der Aktien kann durch bestimmte Faktoren wie die Umstände
+wobei deren Gesamtnettoinventarwert unverändert blieb.           des Emittenten oder Wirtschafts- und Marktbedingungen beeinflusst werden. Dies kann zu Wertschwankungen führen. Der Fonds
+                                                                 kann Wertpapiere erwerben, die nicht im Referenzindex enthalten sind und kann Swap-Vereinbarungen treffen, um die
+Bei einer Anlage in diesen Fonds handelt es sich um              Wertentwicklung dieser Wertpapiere gegen die Wertentwicklung des Referenzindexes auszutauschen. Der Fonds legt in einer
+den Erwerb von Anteilen an einem passiv verwalteten,             bestimmten geografischen Region an, was zu stärkeren Schwankungen des Fondswerts führen kann als bei einem Fonds mit
+indexnachbildenden Fonds und nicht um den Erwerb                 einem breiter gefassten Anlagemandat.
+der Vermögenswerte, die vom Fonds gehalten werden.               Über den index
+                                                                 Der S&P 500 Index ist ein Finanzindex, der US-amerikanische Aktien mit hoher Marktkapitalisierung umfasst. Er enthält 500
+Fondsfakten                                                      Unternehmen und deckt etwa 80% der verfügbaren Marktkapitalisierung von US-Aktien ab.
+Auflegungsdatum des Fonds                       20 Mai 2010       Die frühere Wertentwicklung lässt nicht auf zukünftige Renditen schließen.
+Auflegungsdatum der Anteilsklasse               20 Mai 2010
+                                                                 Indexierte Wertentwicklung, % Wachstum in den letzten 10 Jahren
+Laufende Kosten 1                                 0,05% p.a.
+                                                                   Invesco S&P 500 UCITS ETF Acc
+Tauschgebühr 1                                    0,07% p.a.
+Fondswährung                                             USD       S&P 500 Index
+Währung der Anteilklasse                                 USD       330
+Währungsgesichert                                        Nein
+Index                                        S&P 500 Index
+Indexwährung                                             USD
+Index Bloomberg Ticker                           SPTR500N          220
+Replikationsmethode                              Synthetisch
+OGAW-konform                                               Ja
+Dachfonds                              Invesco Markets plc
+Anlageverwalter              Assenagon Asset Management
+                                                                   110
+                                                          S.A.
+Depotbank                 Northern Trust Fiduciary Services
+                                           (Ireland) Limited
+Domizil                                                Irland
+Dividendenbehandlung                         Thesaurierend           0
+ISIN-Code                                  IE00B3YCGJ38              Jun-16          Dez-17          Mai-19           Okt-20         Mrz-22            Aug-23          Jan-25        Jun-26
+WKN                                                 A1CYW7        Kumulierte Wertentwicklung zum 30 Juni 2026 (%)
+VALOR                                              11358996                                                 1 Jahr               3 Jahre         5 Jahre           10 Jahre     Fondsauflegung
+SEDOL                                             BW4PZQ5         ETF                                        22,18                 74,95           86,76             317,43              798,30
+Bloomberg Ticker                                    P500 GY       Index                                      21,88                 73,35           83,55             301,92              762,13
+Fondsvolumen                              USD 56.289,74m
+                                                                  Wertentwicklung je Kalenderjahr (%)
+Nettoinventarwert pro Anteil                     USD 15,03
+                                                                                      2025       2024         2023       2022       2021       2020        2019        2018     2017          2016
+Ausgegebene Anteile                           2.704.642.583
+                                                                  ETF                 17,75     24,91         26,18     -18,17      28,64      18,30       31,37       -4,47    21,41         11,54
+SFDR Klassifizierung                                 Artikel 6
+                                                                  Index               17,43     24,50         25,67     -18,51      28,16      17,75       30,70       -4,94    21,10         11,23
+                                                                  Rollierende 12-Monats-Wertentwicklung (%)
+Risikoindikator                                                                       06.25    06.24      06.23          06.22      06.21      06.20       06.19       06.18    06.17         06.16
+                                                                                      06.26    06.25      06.24          06.23      06.22      06.21       06.20       06.19    06.18         06.17
+Niedrigeres Risiko                              Höheres Risiko
+                                                                  ETF                 22,18    15,06      24,45          19,49     -10,66      40,71        7,41       10,32    14,12         17,47
+                                                                  Index               21,88    14,70      24,00          18,98     -11,01      40,14        6,87        9,75    13,71         17,16
+                                                                  Quelle: Invesco, Bloomberg L.P., FactSet. Die Index-/Benchmark-Performance wird in der Index-/Benchmark-Währung
+   1         2       3        4        5        6         7       angegeben. Die angezeigte ETF-Wertentwicklung wird mit Bezug auf den Netto- Inventarwert (NAV), inkl. Wiederanlage der
+                                                                  Bruttoerträge und abzüglich laufender Gebühren und Portfolio-Transaktionskosten in USD berechnet. Weitere Kosten wie z.B.
+Der Risikoindikator kann sich ändern und ist auf der              Depotführungsgebühren und Transaktionskosten können den Ertrag zusätzlich mindern. Die Zahlen spiegeln nicht den aktuellen
+Grundlage der zum Zeitpunkt der Veröffentlichung                  Aktienkurs, die Auswirkungen der Spanne zwischen An- und Verkaufskursen oder Broker-Provisionen wider. Der angezeigte Index
+verfügbaren Daten korrekt.                                        gibt die Gesamtrendite abzüglich reinvestierter Dividendenausschüttungen in USD an und dient nur zu Illustrationszwecken.
+1 Die laufenden Kosten umfassen die Managementgebühr,             Erträge können aufgrund von Währungsschwankungen steigen oder fallen. Die ETF-NAV-Wertentwicklung unterscheidet sich von
+die Verwahrungs- und Verwaltungskosten, nicht aber die            der des Index aufgrund der laufenden Gebühren und Portfolio-Transaktionskosten und aufgrund der Tatsache, dass der ETF nicht
+Transaktionskosten. Die Gesamtkosten ergeben sich aus             unbedingt immer alle Wertpapiere im Index in ihrer jeweiligen Gewichtung enthält. Dieser ETF erhebt keinen Ausgabeaufschlag.
+der Summe der laufenden Kosten und der Swap-Gebühr.
+Die Kosten können aufgrund von Währungs- und
+Wechselkursschwankungen steigen oder sinken. Weitere
+Informationen zu den Kosten finden Sie in den
+Verkaufsunterlagen.
+
+=== pdf p.2 ===
+Länderschwerpunkte (%)                                        Wichtige Hinweise
+                                                              Diese Marketinginformation dient lediglich zu Diskussionszwecken und richtet sich an Anleger in Deutschland, Liechtenstein,
+                                                              Österreich und der Schweiz.
+                                                              Informationen über unsere Fonds und die damit verbundenen Risiken finden Sie im Basisinformationsblatt (in den jeweiligen
+                                                              Landessprachen) und im Verkaufsprospekt (Englisch) sowie in den Finanzberichten, die Sie unter www.invesco.eu abrufen
+                                                              können. Eine Zusammenfassung der Anlegerrechte ist in englischer Sprache unter www.invesco.com/ie-manco/en/home.html
+                                                              verfügbar. Die Verwaltungsgesellschaft kann Vertriebsvereinbarungen kündigen.
+                                                              Dies ist Marketingmaterial und kein Anlagerat. Es ist nicht als Empfehlung zum Kauf oder Verkauf einer bestimmten Anlageklasse,
+                                                              eines Wertpapiers oder einer Strategie gedacht. Regulatorische Anforderungen, die die Unparteilichkeit von Anlage- oder
+                                                              Anlagestrategieempfehlungen verlangen, sind daher nicht anwendbar, ebenso wenig wie das Handelsverbot vor deren
+                                                              Veröffentlichung.
+                                                              Auf dem Sekundärmarkt erworbene ETF-Anteile können normalerweise nicht direkt an den ETF zurückgegeben werden. Am
+ Vereinigte Staaten                                  98,8    Sekundärmarkt müssen Anleger Anteile mit Hilfe eines Intermediärs (z.B. eines Brokers) kaufen und verkaufen. Hierfür können
+ Irland                                               0,5    Gebühren anfallen. Drüber hinaus bezahlen die Anleger beim Kauf von Anteilen unter Umständen mehr als den aktuellen
+ Vereinigtes Königreich                               0,5    Nettoinventarwert und erhalten beim Verkauf unter Umständen weniger als den aktuellen Nettoinventarwert.
+ Niederlande                                          0,1
+ Jersey                                               0,0    Der S&P®500 Index ist ein Produkt der S&P Dow Jones Indices LLC oder ihrer verbundenen Unternehmen („SPDJI“) und wurde
+ Liquidität                                           0,0    zur Nutzung durch Invesco lizenziert. Standard & Poor’s® und S&P® sind eingetragene Warenzeichen der Standard & Poor’s
+                                                              Financial Services LLC („S&P“). Dow Jones® ist ein eingetragenes Warenzeichen der Dow Jones Trademark Holdings LLC („Dow
+Quelle: Invesco, per 31 Mai 2026                              Jones“). Diese Warenzeichen wurden von SPDJI zur Nutzung lizenziert und von Invesco für gewisse Zwecke unterlizenziert. Der
+Sektorschwerpunkte (%)                                        Invesco S&P 500 UCITS ETF wird von SPDJI, Dow Jones, S&P und deren jeweiligen verbundenen Unternehmen nicht
+                                                              gesponsert, empfohlen, verkauft oder beworben. Keine dieser Parteien gibt irgendwelche Zusicherungen hinsichtlich der
+                                                              Ratsamkeit von Anlagen in dieses/diese Produkt(e) ab oder haftet für Fehler, Auslassungen oder Unterbrechungen des S&P®500
+                                                              Index.
+                                                              Möglicherweise sind nicht alle Anteilsklassen dieses Fonds in allen Rechtsordnungen zum öffentlichen Vertrieb zugelassen, und
+                                                              nicht alle Anteilsklassen sind gleich oder eignen sich zwangsläufig für jeden Anleger.
+                                                              Die vollständigen Anlageziele sowie die Anlagepolitik entnehmen Sie bitte dem aktuellen Verkaufsprospekt oder dem Fonds-
+                                                              Supplement.
+                                                              Zahlstelle in Liechtenstein: LGT Bank AG, Herrengasse 12, 9490 Vaduz. Das Key Information Document (KID) und der Prospekt
+                                                              sind in deutscher bzw. in englischer Sprache unter https://www.fundinfo.com erhältlich.
+                                                              Vertreter und Zahlstelle in der Schweiz ist BNP PARIBAS, Paris, Succursale de Zurich, Selnaustrasse 16 8002 Zürich. Der
+ Informationstechnologie                             38,5    Prospekt, das Basisinformationsblatt, die Finanzberichte und die Satzung der Gesellschaft können kostenlos beim Vertreter
+ Finanzinstitute                                     11,3    angefordert werden. Die ETFs sind in Irland domiziliert.
+ Kommunikationsdienste                               10,3    Dieses Material wurde herausgegeben durch Invesco Investment Management Limited, Ground Floor, 2 Cumberland Place,
+ Konsumgüter                                          9,7    Fenian Street, Dublin 2, Irland und Invesco Asset Management (Schweiz) AG, Talacker 34, 8001 Zürich, Schweiz.
+ Industrie                                            8,4
+                                                              Glossar
+ Gesundheitswesen                                     8,3
+                                                              Benchmark: Ein Index, an dem der ETF in Bezug auf die relative Wertentwicklung, das Risiko und andere nützliche Vergleiche
+ Basiskonsumgüter                                     4,5
+                                                              gemessen wird.
+ Energie                                              3,1
+ Versorgungsbetriebe                                  2,1    Derivate: Finanzinstrumente, deren Preis sich nach den Kursschwankungen oder Kurserwartungen eines anderen
+ Sonstige                                             3,7    Finanzinstruments richtet, des sogenannten Basiswerts. Viele Derivate sind so konstruiert, dass sie auf Preisänderungen der
+                                                              Basiswerte überproportional reagieren. Mit Derivaten kann man sowohl Risiken absichern als auch spekulieren. Die wichtigsten
+Quelle: Invesco, per 31 Mai 2026
+                                                              Derivate sind Zertifikate, Optionen, Futures und Swaps.
+Aufgrund von Lizenzbeschränkungen des Indexanbieters          Ausschüttungsrendite: Die Ausschüttungsrendite ist ein Maß für den gezahlten Cashflow. Sie ist die Summe der Ausschüttungen
+sind die Daten der Indexkomponenten verzögert und/oder        über 12 Monate geteilt durch den Nettoinventarwert (NAV) des Fonds.
+eingeschränkt verfügbar.
+                                                              ETF: Exchange Traded Fund: ein Fonds, der genau wie eine normale Aktie an der Börse gehandelt wird. ETFs können wie
+Top Positionen (%)                                            gewöhnliche Aktien während der Börsenhandelszeiten ge- und verkauft werden, während bei anderen Fonds nur einmal pro Tag
+Name                                              Gewicht     ein Kurs ermittelt wird.
+NVIDIA ORD                                           7,50     Faktoren: Ein Investmentansatz, der darauf abzielt, Wertpapiere zu identifizieren und in sie zu investieren, die bestimmte
+APPLE ORD                                            6,60     quantifizierbare Merkmale aufweisen. Gängige Beispiele für Faktoren sind Value, Quality und Momentum. Eine Faktorstrategie
+MICROSOFT ORD                                        4,30     kann auf nur einen Faktor abzielen oder mehrere Faktoren kombinieren.
+AMAZON COM ORD                                       3,60     GICS®- Sektor: Global Industry Classification Standard (GICS). Die GICS Struktur besteht aus 11 Sektoren, 24 Industriegruppen,
+ALPHABET CL A ORD                                    3,30     68 Branchen und 157 Teilbranchen, in der S&P und MSCI alle großen öffentlichen Unternehmen kategorisiert haben.
+BROADCOM ORD                                         2,80
+ALPHABET CL C ORD                                    2,60     Hedged: Das beabsichtigte Ergebnis der Verringerung der Belastung des Portfolios durch ein bestimmtes Risiko, z. B. das Risiko
+MICRON TECHNOLOGY ORD                                2,00     von Wechselkursschwankungen ("Währungsabsicherung").
+META PLATFORMS CL A ORD                              1,90     ICB Industrie-Sektor: Die Industry Classification Benchmark (ICB) klassifiziert mehr als 70.000 Unternehmen und 75.000
+TESLA ORD                                            1,80     Wertpapiere aus aller Welt und ermöglicht damit einen Vergleich zwischen Unternehmen über vier Klassifizierungsebenen und
+                                                              nationale Grenzen hinweg. Das ICB-System wird von der ICB Database unterstützt. Dies ist eine Datenquelle für die globale
+Quelle: Invesco, per 30 Jun 2026
+                                                              Sektorenanalyse, die von der FTSE International Limited geführt wird.
+Informationen über Positionen sind unter etf.invesco.com zu   Index: Referenzindex; ein Vergleichsmaßstab für die Wertentwicklung eines Portfolios.
+finden. Positionen können sich ändern.
+                                                              Laufende Kosten: basieren auf den annualisierten Aufwendungen. Sie verstehen sich ohne Portfolio-Transaktionskosten.
+                                                              OGAW Fonds: Abkürzung für "Organismus für gemeinsame Anlagen in Wertpapieren". Im europäischen Rechtsrahmen versteht
+                                                              man darunter Investmentfonds, die in gesetzlich definierte Arten von Wertpapieren und anderen Finanzinstrumenten investieren
+                                                              (Wertpapierfonds).
+                                                              Replikationsmethode: Strategie, die der Fonds zur Erreichung seines Ziels anwendet.
+                                                              SEDOL: Die Stock Exchange Daily Official List (SEDOL) ist ähnlich der deutschen Wertpapierkennnummer (WKN) eine nationale
+                                                              Identifikationsnummer (National Securities Identifying Number) aus dem Vereinigten Königreich und Irland.
+                                                              Swap: Ein Swap ist ein Derivatkontrakt, bei dem zwei Parteien vereinbaren, getrennte Cashflow- oder Ertragsströme
+                                                              auszutauschen.
+                                                              Synthetische Replikation: Synthetische Fonds besitzen ein diversifiziertes Portfolio von Aktien, das vom Referenzindex
+                                                              abweichen kann. Der ETF schließt Verträge mit einer oder mehreren Banken (jeweils eine Gegenpartei) ab, die sich verpflichten,
+                                                              jede Differenz zwischen der Wertentwicklung des Portfolios und der des Indexes, abzüglich etwaiger Gebühren, zu zahlen. Diese
+                                                              Verträge werden als Swaps bezeichnet. Der Einsatz von Swaps gewährleistet eine genaue Indexnachbildung, birgt jedoch ein
+                                                              Gegenparteirisiko: Wenn eine Gegenpartei die im Rahmen des Swap-Vertrags fällige Indexperformance nicht zahlen würde, wäre
+                                                              der ETF stattdessen auf die Performance seines Aktienportfolios angewiesen, die niedriger ausfallen könnte als die
+                                                              Indexperformance. Das Risiko eines ETF gegenüber einer Swap-Gegenpartei wird durch die OGAW-Verordnung und durch
+                                                              Maßnahmen, die wir ergreifen, weiter eingeschränkt.
+                                                              OGAW Fonds: Organismen für gemeinsame Anlagen in übertragbare Wertpapiere. Europäischer Regulierungsrahmen für ein
+                                                              Anlageinstrument, das in der gesamten Europäischen Union vermarktet werden kann.
+                                                              VALOR: Die Valorennummer, kurz VALOR, ist in der Schweiz eine eindeutige Kennnummer börsennotierte Wertpapiere und
+
+=== pdf p.3 ===
+Finanzinstrumente.
+Volatilität: Wertschwankung.
+WKN: Die Wertpapierkennnummer, abgekürzt WKN, ist eine in Deutschland verwendete sechsstellige Ziffern- und
+Buchstabenkombination zur Identifizierung von Wertpapieren.
+

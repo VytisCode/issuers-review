@@ -1,0 +1,391 @@
+=== pdf p.1 ===
+This document is intended for Investment Professionals                                                                          30 September 2026 Fact Sheet
+This is a marketing communication. Please refer to the prospectus of the fund and to the
+key investor information document before making any final investment decisions.                                     ETF              Index               Equity
+
+
+
+ETF (UCITS compliant)
+
+L&G US Equity UCITS ETF
+USD Accumulating ETF Class
+
+
+
+Fund aim
+                                                                                                                    Fund facts
+The L&G US Equity UCITS ETF (the “ETF”) aims to track the performance of the Solactive Core
+United States Large & Mid Cap Index NTR (the “Index”). Physical Full Replication: The fund aims                     Fund size                $1,528.3m
+to track the Index by buying and holding the same investments as the index, in broadly the same                     Listing date             13 Nov 2018
+proportions, where this is practical. More information on the Index can be found on page 2 of this
+                                                                                                                    Base currency            USD
+document.
+                                                                                                                    Domicile                 Ireland
+Who is this fund for?                                    Fund snapshot
+• The ETF is designed for investors looking for          • Aims to track the performance of the Index               Index
+  growth from an investment in US company                                                                           Solactive Core United States Large &
+                                                         • Invests in a diverse mix of leading US compa-
+  shares.                                                                                                           Mid Cap Index NTR
+                                                           nies from a variety of sectors
+• Although investors can take their money out            • Employs a straightforward, low-cost and                  Index ticker
+  at any time, this ETF may not be appropriate             pragmatic index replication approach                     SFWUSN
+  for those who plan to withdraw their money                                                                        Replication method
+                                                         • Does it promote sustainability charac-
+  within five years.
+                                                           teristics? The Fund promotes a range of                  Physical - full replication
+• This fund is not designed for investors who              environmental and social characteristics
+  cannot afford more than a minimal loss of                which are met by tracking the Index. Further
+  their investment.                                                                                                 Ongoing charge           0.05%
+                                                           information on how such characteristics are
+• If you do not understand the information in              met by the Fund can be found in the Fund
+  this document, the key information document              Supplement
+  or the prospectus, we recommend that you
+  seek additional information or advice to help
+  you decide if this ETF is suitable for you.
+
+
+
+Performance (%) USD Accumulating class
+100
+
+ 75                                                                                                       1 month 6 months         1 year    3 years       5 years
+ 50
+                                                                                           l NAV            ‑0.25       18.27      15.27      85.67          86.47
+ 25
+                                                                                           l Index          ‑0.27       18.21      15.12      84.84          84.72
+  0
+
+-25
+                                                                                           Relative         +0.02       +0.06      +0.15      +0.83          +1.75
+              Sep 22         Sep 23           Sep 24           Sep 25      Sep 26
+
+
+
+Rolling 12-month performance
+
+To 30 September                       2026             2025         2024            2023        2022    2021        2020           2019           2018        2017
+
+NAV                                   15.27            18.32       36.12        21.96	‑17.65            30.19       17.28            -—             -—            -—
+
+Index                                 15.12            18.15       35.89        21.67	‑17.86            29.97       17.02            -—             -—            -—
+
+Relative                              +0.15            +0.17       +0.23        +0.29           +0.21   +0.22       +0.26            -—             -—            -—
+
+Performance for the USD Accumulating ETF class, listed on 13 November 2018. Source: Lipper.
+Performance assumes all ETF charges have been taken and that all income generated by the investments,
+after deduction of tax, remains in the ETF.
+Past performance is not a guide to the future.
+
+=== pdf p.2 ===
+Fact Sheet L&G US Equity UCITS ETF | USD Accumulating ETF Class                                                                 30 September 2026
+
+
+Index breakdown
+The breakdowns below relate to the Index. The ETF’s portfolio may deviate from the below.
+All data source L&G unless otherwise stated. Totals may not sum to 100% due to rounding.
+
+
+
+
+                                                                                                                l Top 10 constituents 39.8%
+                                                                                                                l Rest of Index 60.2%
+                                                                                                                Number of constituents in Index 403
+
+
+
+Currency (%)                                        Sector (%)                                     Top 10 constituents (%)
+l USD                              100.0            l Information Technology              40.1     NVIDIA                                       8.3
+                                                    l Financials                          11.2     Apple                                        7.4
+                                                    l Communication Services              10.5     Microsoft                                    5.9
+                                                    l Health Care                           9.3    Amazon                                       3.7
+                                                    l Consumer Discretionary                8.8    Alphabet A                                   3.1
+                                                    l Industrials                           7.7    Alphabet C                                   2.7
+                                                    l Consumer Staples                      4.3    Broadcom                                     2.6
+                                                    l Energy                                3.4    Meta Platforms                               2.5
+                                                    l Utilities                             1.7    Micron Technology                            1.9
+                                                    l Other                                 3.0    Tesla                                        1.7
+
+
+
+Country (%)
+🇺🇸 United States                    97.3
+
+🇮🇪 Ireland                           1.9
+
+🇨🇭 Switzerland                       0.3
+
+🇧🇲 Bermuda                           0.1
+
+🇬🇧 United Kingdom                    0.1
+
+🇳🇱 Netherlands Antilles              0.1
+
+🇱🇷 Liberia                           0.1
+
+🇳🇱 Netherlands                       0.1
+
+🌐 Other                              0.0
+
+
+
+
+Index description
+The Index is designed to be a benchmark for the U.S. equity market and measures the                Index fund
+performance of large and mid-cap publicly traded U.S. companies which satisfy minimum              management team
+criteria relating to liquidity and size and excludes companies: (a) engaged in pure coal mining;
+(b) involved in the production of controversial weapons, such as cluster weapons, anti-            The skill set and expertise
+personnel mines or biological and chemical weapons; or (c) that, for a continuous period of        we have developed over 35+
+                                                                                                   years in index management has allowed
+three years, have been classified as being in breach of at least one of the UN Global Compact
+                                                                                                   us to continuously evolve our investment
+principles, which is a set of globally accepted standards on human rights, labour, environment     processes. The Index Fund Management
+and corruption.                                                                                    team comprises 30 fund managers
+                                                                                                   with an average experience of 15 years,
+                                                                                                   supported by 33 broader team members.
+                                                                                                   Management oversight is provided by
+                                                                                                   Dave Barron, Global Head of Index, ETFs
+                                                                                                   & Systematic Solutions. The team also
+                                                                                                   has full access to the resources and
+                                                                                                   research of other specialists within L&G,
+                                                                                                   including economists and strategists.
+
+
+
+
+This document is intended for Investment Professionals.                                                                                       2 of 5
+
+=== pdf p.3 ===
+Fact Sheet L&G US Equity UCITS ETF | USD Accumulating ETF Class                                                                                    30 September 2026
+
+
+Key risks
+                                                                                                           Risk and reward profile
+• The value of an investment and any income taken from it is not guaranteed and can go down
+  as well as up; you may not get back the amount you originally invested.
+                                                                                                              1         2      3         4        5        6        7
+• An investment in the ETF involves a significant degree of risk. Any decision to invest should be
+                                                                                                           Lower risk                                          Higher risk
+  based on the information contained in the relevant prospectus. Prospective investors should              Potentially lower rewards           Potentially higher rewards
+  obtain their own independent accounting, tax and legal advice and should consult their own
+  professional advisers to ascertain the suitability of the ETF as an investment.
+                                                                                                           The summary risk indicator is a guide to
+• The value of the shares in the ETF is directly affected by increases and decreases in the value          the level of risk of this product compared
+  of the Index. Accordingly the value of a share in the ETF may go up or down and a shareholder            to other products. It shows how likely
+  may lose some or the entire amount invested.                                                             it is that the product will lose money
+• The ETF's ability to closely track the Index will be affected by its ability to purchase and/or sell     because of movements in the markets
+  the Index constituents and any legal or regulatory restrictions or disruptions affecting them.           or because we are not able to pay you.
+                                                                                                           We have classified this product as class
+• The ETF's ability to closely track the Index will also be affected by transaction costs and              4 out of 7, which is a medium risk class.
+  taxes incurred when adjusting its investment portfolio generally and/or to mirror any periodic           This product does not include any pro-
+  adjustments to the constituents of the Index. There can be no certainty that ETF shares can              tection from future market performance
+  always be bought or sold on a stock exchange or that the market price at which the ETF                   so you could lose some or all of your
+  shares may be traded on a stock exchange will reflect the performance of the Index.                      investment.
+• The ETF is subject to the risk that third party service providers (such as a bank entering into          Be aware of currency risk. You may
+  swaps with the ETF or the ETF's depositary) may go bankrupt or fail to pay money due to the              receive payments in a different currency,
+  ETF or return property belonging to the ETF.                                                             so the final return you will get depend on
+• If the Index provider stops calculating the Index or if the ETF’s license to track the Index is          the exchange rate between the two cur-
+                                                                                                           rencies. This risk is not considered in the
+  terminated, the ETF may have to be closed.
+                                                                                                           indicator shown above. The fund is not
+• It may not always be possible to buy and sell ETF shares on a stock exchange or at prices                covered by an investor compensation
+  closely reflecting the NAV.                                                                              scheme.The value of the Fund may be
+• There is no capital guarantee or protection on the value of the ETF. Investors can lose all the          affected by risks not in the SRI, including
+  capital invested in the ETF.                                                                             failure of a counterparty, custodian, issu-
+                                                                                                           er or index provider and derivative use.
+• Please refer to the “Risk Factors” section of the Issuer’s Prospectus and the Fund Supplement.
+• This Fund may have underlying investments that are valued in currencies that are different
+  from the currency of this share class, in which case exchange rate fluctuations will impact
+  the value of your investment. In addition, the return in the currency of this share class may be
+  different to the return in your own currency.
+• The Fund has a sustainability and/or ESG focus in its investment process which may i) limit
+  the Fund’s exposure to or exclude certain companies, industries or sectors ii) impact the
+  Fund’s investment performance compared to other funds that do not apply such criteria and,
+  iii) differ from an investor’s own sustainability and/or ESG criteria.
+For more information, please refer to the key investor information document on our website.
+
+
+
+
+Trading information                                                                                      Country registration
+Exchange                    Currency ISIN                 SEDOL           Ticker      Bloomberg             Austria                    Denmark                  Finland
+
+London Stock Exchange       USD        IE00BFXR5Q31       BF5CXR3         LGUS        LGUS LN
+                                                                                                            France                     Germany                  Ireland
+London Stock Exchange       GBP        IE00BFXR5Q31       BF5CY14         LGUG        LGUG LN
+Borsa Italiana              EUR        IE00BFXR5Q31       BGLRPM8         LGUS        LGUS IM               Italy                      Luxembourg               Netherlands
+
+Deutsche Börse              EUR        IE00BFXR5Q31       BJT1PC3         ETLS        ETLS GY
+                                                                                                            Norway                     Spain                    Sweden
+Euronext Amsterdam          EUR        IE00BFXR5Q31       BGLRPX9         LGUS        LGUS NA
+SIX Swiss Exchange          USD        IE00BFXR5Q31       BSY1TQ3         LGUS        LGUS SW               Switzerland                United Kingdom
+
+The currency shown is the trading currency of the listing.
+
+
+
+
+This document is intended for Investment Professionals.                                                                                                               3 of 5
+
+=== pdf p.4 ===
+Fact Sheet L&G US Equity UCITS ETF | USD Accumulating ETF Class                                                                           30 September 2026
+
+
+Important information
+A copy of the English version of the prospectus     from us upon request. For further information          includes, inter alia, information on certain risks
+of the Fund is available on LGIM Fund Centre        on our products (including the product                 associated with an investment. The price of any
+and may also be obtained from Legal & General       prospectuses), please visit our website.               securities may go up or down and an investor
+Investment Management, 5 George's Dock              The shares (the “Shares”) discussed in this            may not get back the amount invested. Investors
+Dublin 1, Ireland, D01 X8N7. Where required         document are issued in relation to the relevant        should only invest in a currency-hedged share
+under national rules, the key information           sub-fund (or share class(es) thereof) described        class if they are willing to forego potential gains
+document will also be available in the local        in this document (together, the “Fund”).               from appreciations in the currencies in which
+language of the relevant EEA Member State. A                                                               the Fund’s assets are denominated against the
+summary of investor rights associated with an       Copyright © 2026 Legal & General. This                 currency of denomination of the relevant hedged
+investment in the Fund shall be available from      document is subject to copyright. Any                  share class. Currency hedging employed with
+www.lgim.com/investor_rights                        unauthorised use is strictly prohibited. All rights    respect to the hedged share classes aims to
+                                                    are reserved.                                          reduce currency risk rather than to eliminate it
+We are also obliged to disclose that the
+Management Company has the right to                 No investment advice: We are required to clarify       completely. Investors should also refer to the
+terminate the arrangements made for                 that we are not acting for you in any way in           risk factor entitled “Currency” in the section of
+marketing.                                          relation to the investment or investment activity      the Prospectus entitled “Risk Factors”.
+                                                    to which this document relates. In particular, we      Prospectus: Investors should refer to the
+A decision may be taken at any time to              will not provide any investment services to you
+terminate the arrangements made for the                                                                    section entitled “Risk Factors” in the Fund’s
+                                                    and or advise you on the merits of, or make any        prospectus for further details of these and
+marketing of the Fund in any EEA Member             recommendation to you in relation to, the terms
+State in which it is currently marketed. In such                                                           other risks associated with an investment in
+                                                    of any transaction. None of our representatives        the Shares. The information in this document is
+circumstances, Shareholders in the affected EEA     are authorised to behave in any way which
+Member State will be notified of this decision                                                             designed solely for use in the relevant countries
+                                                    would lead you to believe otherwise. We are not,       in which the Fund has been registered for public
+and will be provided with the opportunity to        therefore, responsible for providing you with the
+redeem their shareholding in the Fund free                                                                 distribution and is not intended for residents
+                                                    protections afforded to some of our clients and        of any other countries. The distribution of the
+of any charges or deductions for at least 30        you should seek your own independent legal,
+working days from the date of such notification.                                                           prospectus and the offering, sale and delivery of
+                                                    investment and tax or other advice as you see          Shares in other jurisdictions may be restricted
+This is a marketing communication. Please refer     fit.                                                   by law.
+to the prospectus of the Fund and to the KID        United States information: This document
+before making any final investment decisions.                                                              For United Kingdom investors: The Fund is a
+                                                    is not, and under no circumstances is to be            recognised scheme under section 264 of the
+In the United Kingdom and outside the               construed as, an advertisement or any other            Financial Services and Markets Act 2000 and so
+European Economic Area, this document               step in furtherance of a public offering of shares     the prospectus may be distributed to investors
+is issued by Legal & General Investment             in the United States or any province or territory      in the United Kingdom. Copies of all documents
+Management Limited, authorised and regulated        thereof, where none of the Fund or the Shares          (i.e. the prospectus, the key investor information
+by the Financial Conduct Authority, No. 119272.     are authorised or registered for distribution          document, the latest annual audited report and
+Registered in England and Wales No. 02091894        and where no prospectus of the Fund has                financial statements and semi-annual unaudited
+with registered office at One Coleman Street,       been filed with any securities commission or           report and financial statements and the
+London, EC2R 5AA.                                   regulatory authority. Neither this document nor        constitution) are available in the United Kingdom
+In the European Economic Area, this document        any copy hereof should be taken, transmitted or        from www.lgim.com.
+is issued by LGIM Managers (Europe) Limited,        distributed (directly or indirectly) into the United
+                                                    States. Neither the Fund nor any of the Shares         For Austrian investors: Investors should base
+authorised by the Central Bank of Ireland as                                                               their investment decision only on the relevant
+a UCITS management company (pursuant                have been or will be registered under the United
+                                                    States Securities Act of 1933 or the Investment        prospectus, the Key Information Document, any
+to European Communities (Undertakings for                                                                  supplements or addenda thereto, copies of the
+Collective Investment in Transferable Securities)   Company Act of 1940 or qualified under any
+                                                    applicable state securities statutes.                  Memorandum and Articles of Association and
+Regulations, 2011 (S.I. No. 352 of 2011), as                                                               the annual and semi-annual report, which can
+amended) and as an alternative investment           No guarantee of accuracy: This document                be obtained free of charge upon request at the
+fund manager with “top up” permissions which        may contain independent market commentary              Paying and Information Agent in Austria, Erste
+enable the firm to carry out certain additional     prepared by us based on publicly available             Bank der oesterreichischen Sparkassen AG,
+MiFID investment services (pursuant to the          information. We do not warrant, guarantee or           Graben 21, 1010 Wien, Österreich and on www.
+European Union (Alternative Investment Fund         otherwise confirm the accuracy or correctness          lgim.com.
+Managers) Regulations 2013 (S.I. No. 257 of         of any information contained herein and any
+2013), as amended). Registered in Ireland with      opinions related to product or market activity         For Dutch investors: The Fund has been
+the Companies Registration Office (No. 609677).     may change. Any third party data providers             registered with the Netherlands Authority for the
+Registered Office: 70 Sir John Rogerson’s Quay,     used to source the information in this document        Financial Markets following the UCITS passport-
+Dublin, 2, Ireland. Regulated by the Central Bank   make no warranties or claims of any kind               procedure pursuant to section 2:72 of the Dutch
+of Ireland (No. C173733).                           relating to such data.                                 Financial Supervision Act.
+LGIM Managers (Europe) Limited operates a           Historical performance is no indication of             For French investors: In France, this material is
+branch network in the European Economic Area,       future performance: Any historical performance         intended exclusively for professional investors
+which is subject to supervision by the Central      included in this document may be based on              (as defined under the MIFID) investing for
+Bank of Ireland. In Italy, the branch office of     back testing. Back testing is the process of           their own account and this material may not
+LGIM Managers (Europe) Limited is subject           evaluating an investment strategy by applying          in any way be distributed to the public. The
+to limited supervision by the Commissione           it to historical data to simulate what the             Fund is a UCITS governed by Irish legislation
+Nazionale per le società e la Borsa (“CONSOB”)      performance of such strategy would have been.          and approved by the Central Bank of Ireland
+and is registered with Banca d’Italia (no.          However, back tested performance is purely             as UCITS compliant with European regulations
+23978.0) with registered office at Piazza della     hypothetical and is provided in this document          although may not have to comply with the
+Repubblica 3, Milano 20121, (Companies’             solely for informational purposes. Back tested         same rules as those applicable to a similar
+Register no. MI - 2557936). In Germany, the         data does not represent actual performance             product approved in France. The Fund has
+branch office of LGIM Managers (Europe)             and should not be interpreted as an indication of      been registered for marketing in France by
+Limited is subject to limited supervision by the    actual or future performance.                          the Authority Financial Markets (Autorité des
+German Federal Financial Supervisory Authority                                                             Marchés Financiers) and may be distributed to
+                                                    No offer for sale: The information contained in        investors in France. Copies of all documents
+(“BaFin”). In the Netherlands, the branch office    this document is neither an offer for sale nor
+of LGIM Managers (Europe) Limited is subject                                                               (i.e. the prospectus, any supplements or
+                                                    a solicitation of an offer to buy securities. This     addenda thereto, the latest annual reports, the
+to limited supervision by the Dutch Authority       document should not be used as the basis for
+for the Financial Markets (“AFM“) and it is                                                                memorandum of incorporation and articles of
+                                                    any investment decision.                               association and Key Information Document) are
+included in the register held by the AFM and
+registered with the trade register of the Chamber   Risk Warnings: The Shares are products                 available in France, free of charge, at the French
+of Commerce under number 74481231.                  involving a significant degree of risk and may         Centralizing Agent, Société Générale, Securities
+Details about the full extent of our relevant       not be suitable for all types of investor. Any         Services, at 1-5 rue du Débarcadère, 92700
+authorisations and permissions are available        decision to invest should be based on the              Colombes - France. Any subscription for Shares
+                                                    information contained in the prospectus of
+                                                    the Fund (or any supplements thereto) which
+
+
+This document is intended for Investment Professionals.                                                                                                4 of 5
+
+=== pdf p.5 ===
+Fact Sheet L&G US Equity UCITS ETF | USD Accumulating ETF Class                                                                               30 September 2026
+
+
+of the Fund will be made on the basis of the           (EU) 2017/565 and therefore does not meet all
+terms of the prospectus and any supplements            legal requirements designed to promote the
+or addenda thereto.                                    independence of investment research and is not
+For German investors: Investors should base            subject to any prohibition on dealing ahead of
+their investment decision only on the relevant         the dissemination of investment research.
+prospectus and the Key Information Document.           For Norwegian Investors: The Fund has been
+The offering of the Shares of the Fund has             registered with the Financial Supervisory
+been notified to the German Financial Services         Authority of Norway (Finanstilsynet), and may
+Supervisory Authority (BaFin) in accordance            be marketed and sold to professional investors             L&G's asset management division is a major
+with section 310 of the German Investment              in Norway.                                                 global investor across public and private
+Code (KAGB). The Key Information Document                                                                         markets, with €1,416.1 billion in assets under
+                                                       For Swiss investors: The Fund described in this
+(in the German language), the prospectus, any                                                                     management (as at 30 June, 2026). Our
+                                                       document will be distributed in Switzerland
+supplements or addenda thereto, copies of                                                                         investment philosophy and processes are
+                                                       exclusively to qualified investors as defined in
+the Memorandum and Articles of Association             the Swiss Collective Investment Schemes Act                designed to create value over the long term.
+and the annual and semi-annual report, can             and its implementing ordinance. The prospectus             We believe that incorporating financially
+be obtained free of charge upon request at             for Switzerland, the key information documents,            material sustainability criteria, when relevant
+the Paying and Information Agent in Germany,           the Constitution, as well as the annual and                to our clients, can create attractive returns
+HSBC Trinkaus & Burkhardt AG, Königsallee              semi-annual reports may be obtained free                   and drive positive change.
+21-23, 40212 Düsseldorf and on www.lgim.               of charge from the current representative                  Source: L&G internal data as at 30 June
+com. The current offering and redemption prices        in Switzerland, FIRST INDEPENDENT FUND
+as well as the net asset value and possible                                                                       2026. The AUM disclosed aggregates the
+                                                       SERVICES LTD., Feldeggstrasse 12, 8008 Zurich.             assets managed by L&G in the UK, LGIMA in
+notifications of the investors can also be             The paying agent in Switzerland is NPB Neue
+requested free of charge at the same address.                                                                     the US and L&G Asia in Hong Kong (2018-
+                                                       Privat Bank AG, Limmatquai 1, 8001 Zurich. As
+This document is a marketing communication                                                                        2019 only). The AUM includes the value of
+                                                       regards distribution in Switzerland, the place of
+within the meaning of Section 63 para. 6 of the                                                                   securities and derivatives positions.
+                                                       jurisdiction and performance is at the registered
+German Securities Trading Act (WpHG). It is not        seat of the representative.
+investment research within the meaning of Art.
+36 of the Commission Delegated Regulation
+
+
+
+
+Contact us
+      Email fundsales@lgim.com                  Visit lgim.com
+
+
+Index disclaimer
+The ETF is not sponsored, promoted, sold or supported by Solactive AG. Nor does Solactive AG offer any express or implicit guarantee or assurance
+either with regard to the results of using the Index and/or Index trade mark or the Index price, at any time or in any other respect.
+The Index is calculated and published by Solactive AG. Solactive AG uses its best efforts to ensure that the Index is calculated correctly. Irrespective of
+its obligations towards the Company, Solactive AG has no obligation to point out errors in the Index to third parties including, but not limited to, investors
+and/or financial intermediaries of the ETF. Solactive AG does not guarantee the accuracy and/or the completeness of the Index or any related data, and
+shall not have any liability for any errors, omissions or interruptions therein.
+Neither publication of the Index by Solactive AG, nor the licensing of the Index or Index trade mark, for the purpose of use in connection with the ETF,
+constitutes a recommendation by Solactive AG to invest capital in said ETF nor does it, in any way, represent an assurance or opinion of Solactive AG
+with regard to any investment in this ETF. In no event shall Solactive AG have any liability for any lost profits or indirect, punitive, special or consequential
+damages or losses, even if notified of the possibility thereof.
+
+This document is intended for Investment Professionals.                                                                                                     5 of 5
+

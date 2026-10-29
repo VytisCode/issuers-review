@@ -1,0 +1,195 @@
+=== pdf p.1 ===
+PASSIV
+
+                iShares Core S&P 500 UCITS ETF
+ SXR8           U.S. Dollar (thesaurierend)
+                iShares VII plc
+                                                                                                                                  Juni 2026
+Informationen zu Wertentwicklung, Portfolioaufteilung und Nettovermögen zum 30. Juni 2026. Alle weiteren Daten per 04.
+Juli 2026.
+Bei diesem Dokument handelt es sich um Werbematerial. Für Anleger in Deutschland. Anleger sollten vor einer Anlage die wesentlichen
+Anlegerinformationen (KIID) / das PRIIPs-Dokument (BiB) und den Verkaufsprospekt lesen und werden auf die vollständige Aufzählung der
+Risiken des Fonds im Verkaufsprospekt verwiesen.
+
+FONDSÜBERBLICK                                                                                  Produktinformationen
+Der Fonds strebt die Nachbildung der Wertentwicklung eines Index an, der aus 500 US- ISIN : IE00B5BMR087
+Unternehmen mit hoher Marktkapitalisierung besteht.                                  Auflegungsdatum der Anteilsklasse : 19. Mai
+WESENTLICHE VORTEILE                                                                 2010
+                                                                                                Basiswährung der Anteilsklasse : USD
+1.    Direkter Zugang zu 500 führenden US-Unternehmen
+                                                                                                Gesamtkostenquote (TER) : 0,07%
+2.    Diversifiziertes Engagement in Unternehmen mit hoher Marktkapitalisierung aus den
+      USA                                                                                       Gewinnverwendung : thesaurierend
+3.    Engagement in einem einzelnen Land und in Unternehmen mit hoher                           Nettovermögen der Anteilsklasse (M) :
+      Marktkapitalisierung                                                                      150.132,18 USD
+                                                                                                ECKDATEN
+ RISIKOINDIKATOR
+                                                                                                Anlageklasse : Aktien
+ Niedrigeres Risiko                                                      Höheres Risiko         Referenzindex : S&P 500 Index
+ Potenziell niedrigere Rendite                                     Potenziell höhere Rendite    Auflegungsdatum des Fonds : 18. Mai 2010
+                                                                                                Nettovermögen des Fonds (M) : 153.606,99
+                                                                                                USD
+       1            2            3            4            5            6             7         SFDR-Klassifizierung : Andere
+                                                                                      Domizil : Irland
+RISIKEN IM ZUSAMMENHANG MIT KAPITAL: Der Wert der Anlagen und die daraus
+entstandenen Erträge sind nicht garantiert und können sowohl fallen als auch steigen. Methodik : Physical Replication
+Anleger erhalten den ursprünglich investierten Betrag eventuell nicht zurück.         Verwaltungsgesellschaft : iShares VII plc
+WESENTLICHE RISIKEN:                                                                            Produktstruktur : Physisch
+     Der Wert von Aktien und aktienähnlichen Papieren kann durch die täglichen
+     Kursbewegungen an den Börsen beeinflusst werden. Weitere Einflussfaktoren sind             PORTFOLIOMERKMALE
+     Meldungen aus Politik und Wirtschaft sowie Unternehmensergebnisse und wichtige             Kurs-Buchwert-Verhältnis : 5,59x
+     Unternehmensereignisse.
+                                                                                                Kurs-Gewinn-Verhältnis : 30,17x
+     Kontrahentenrisiko: Die Zahlungsunfähigkeit von Instituten, die Dienstleistungen wie die
+     Verwahrung von Vermögenswerten anbieten oder als Kontrahent bei Derivategeschäften         3J-Beta : 1,00
+     oder Geschäften mit anderen Instrumenten auftreten, kann zu Verlusten für die              Anzahl der Positionen : 504
+     Aktienklasse führen.
+                                                                                                Weitere Informationen finden Sie im Glossar.
+
+=== pdf p.2 ===
+iShares Core S&P 500 UCITS ETF
+U.S. Dollar (thesaurierend)
+iShares VII plc
+
+WERTENTWICKLUNG IM KALENDERJAHR
+
+
+
+
+                     2016        2017           2018       2019       2020        2021        2022          2023        2024       2025
+  Anteilsklasse      11,54       21,40          -4,72      31,02      18,02       28,36      -18,35         25,92       24,69      17,58
+  Referenzindex      11,23       21,10          -4,94      30,70      17,75       28,16      -18,51         25,67       24,50      17,43
+
+
+THEORETISCHER WERTZUWACHS BEI ANLAGE VON 10.000 USD SEIT AUFLEGUNG
+
+
+
+
+KUMULIERTE & ANNUALISIERTE WERTENTWICKLUNG
+                                                  KUMULIERT (%)                                            ANNUALISIERT (% p.a.)
+                         1M              3M              6M          Seit           1 Jahr        3 Jahre           5 Jahre     Seit Auflage
+                                                                   Jahresan-
+                                                                     fang
+   Anteilsklasse        -0,98           15,13           10,08        10,08          22,03          20,30            13,10          14,23
+  Referenzindex         -0,99           15,10           10,01        10,01          21,88          20,13            12,92          13,98
+
+Die aufgeführten Zahlen beziehen sich auf die Wertentwicklung in der Vergangenheit. Die Wertentwicklung in der Vergangenheit ist kein
+zuverlässiger Indikator für die künftige Entwicklung und sollte nicht der alleinige Entscheidungsfaktor bei der Auswahl eines Produkts oder
+einer Anlagestrategie sein. Die Wertentwicklung der Anteilsklasse und des Referenzindex werden in USD angezeigt, die Wertentwicklung des
+Referenzindex der Währungsgesicherten Anteilsklasse wird in USD angezeigt. Die Wertentwicklung wird auf der Grundlage eines
+Nettoinventarwerts (NIW) mit reinvestiertem Bruttoertrag angezeigt, sofern vorhanden. Aufgrund von Währungsschwankungen kann Ihre Rendite
+höher oder geringer ausfallen, falls Sie in einer anderen Währung als derjenigen investieren, in der die Wertentwicklung in der Vergangenheit
+berechnet wurde.Quelle: BlackRock
+  Anteilsklasse      iShares Core S&P 500 UCITS ETF U.S. Dollar (thesaurierend)
+  Referenzindex      S&P 500 Index
+
+=== pdf p.3 ===
+ iShares Core S&P 500 UCITS ETF
+U.S. Dollar (thesaurierend)
+iShares VII plc
+
+Top-10-Positionen
+NVIDIA CORP                                                           7,51%
+APPLE INC                                                             6,59%
+MICROSOFT CORP                                                        4,29%
+AMAZON.COM INC                                                        3,62%
+ALPHABET INC CLASS A                                                  3,25%
+BROADCOM INC                                                          2,77%
+ALPHABET INC CLASS C                                                  2,59%
+MICRON TECHNOLOGY INC                                                 2,02%
+META PLATFORMS INC CLASS A                                            1,92%
+TESLA INC                                                             1,83%
+Portfolio insgesamt                                                 36,39%
+Die Fonds-Positionen können sich ändern.
+
+
+
+AUFGLIEDERUNG NACH SEKTOREN (%)
+
+
+
+
+                                 Fonds
+Allokationen unterliegen Änderungen. Quelle: BlackRock
+
+
+
+HANDELSINFORMATIONEN
+Börse            Deutsche Börse            London Stock   Euronext
+                 AG                        Exchange       Amsterdam
+Ticker           SXR8                      CSPX           CSPX
+Bloomberg- SXR8 GY                         CSPX LN        CSPX NA
+Ticker
+RIC              SXR8.DE                   CSPX.L         CSP1.AS
+SEDOL            B594LM6                   B50YWZ5        BLWDYR8 NL
+WKN              A0YEDG                    -              -
+Währung          EUR                       USD            EUR
+des
+Angebots
+Dieses Produkt ist ebenfalls gelistet an: Tel Aviv Stock Exchange,Bolsa
+Mexicana De Valores,Santiago Stock Exchange,Bolsa De Valores De
+Colombia,Borsa Italiana,SIX Swiss Exchange
+
+=== pdf p.4 ===
+ iShares Core S&P 500 UCITS ETF
+ U.S. Dollar (thesaurierend)
+ iShares VII plc
+
+GLOSSAR
+SFDR-Klassifizierung: Artikel 8: Produkte, die ökologische oder soziale     KBV (Kurs-Buchwert-Verhältnis): Das entspricht dem Verhältnis des
+Merkmale und Verfahren der guten Unternehmensführung fördern.               aktuellen Schlusskurses der Aktie zum letzten vierteljährlichen
+Artikel 9: Produkte, die nachhaltige Anlagen zum Ziel haben und             Buchwert je Aktie.
+Verfahren der guten Unternehmensführung entsprechen. Andere:
+Produkte, die die Kriterien für die Einstufung als Artikel 8 oder 9 nicht
+erfüllen.
+Kurs-Gewinn: Eine Bewertungsrelation des aktuellen Aktienkurses
+eines Unternehmens gegenüber seinem Gewinn je Aktie im aktuellen
+Prognosejahr, die als aktueller Aktienkurs geteilt durch den aktuellen
+Gewinn je Aktie berechnet wird.
+ WICHTIGE INFORMATIONEN:
+Im Europäischen Wirtschaftsraum (EWR): Das vorliegende Dokument wird von der BlackRock (Netherlands) B.V. herausgegeben, die von der
+niederländischen Behörde für die Finanzmärkte zugelassen wurde und deren Aufsicht untersteht. Eingetragener Geschäftssitz: Amstelplein 1, 1096
+HA, Amsterdam, Niederlande, Tel.: 020 – 549 5200, Tel.: 31-20-549-5200. Handelsregister-Nr. 17068311. Zu Ihrer Sicherheit werden Telefonate in
+der Regel aufgezeichnet. Für Irland sowie ausschließlich in Bezug auf sogenannte geborene professionelle Kunden und/oder geeignete
+Gegenparteien (d. h. professionelle Anleger) kann das vorliegende Dokument auch von der BlackRock Investment Management (UK) Limited
+herausgegeben werden, die von der Financial Conduct Authority zugelassen wurde und deren Aufsicht untersteht. Eingetragener Geschäftssitz:
+12 Throgmorton Avenue, London, EC2N 2DL. Tel.: + 44 (0)20 7743 3000. Eingetragen in England und Wales unter der Nr. 02020394. Zu Ihrer
+Sicherheit werden Telefonate in der Regel aufgezeichnet. Eine Auflistung der zulässigen Tätigkeiten von BlackRock finden Sie auf der Website der
+Financial Conduct Authority.
+Im Vereinigten Königreich und in Ländern außerhalb des Europäischen Wirtschaftsraums (EWR) (ohne die Schweiz): Das vorliegende
+Dokument wird von der BlackRock Investment Management (UK) Limited herausgegeben, die von der Financial Conduct Authority zugelassen
+wurde und deren Aufsicht untersteht. Eingetragener Geschäftssitz: 12 Throgmorton Avenue, London, EC2N 2DL. Tel.: + 44 (0)20 7743 3000.
+Eingetragen in England und Wales unter der Nr. 02020394. Zu Ihrer Sicherheit werden Telefonate in der Regel aufgezeichnet. Eine Auflistung der
+zulässigen Tätigkeiten von BlackRock finden Sie auf der Website der Financial Conduct Authority.
+Bei diesem Dokument handelt es sich um Werbematerial. iShares plc, iShares II plc, iShares III plc, iShares IV plc, iShares V plc, iShares VI plc und
+iShares VII plc (zusammen „die Gesellschaften“) sind offene Investmentgesellschaften mit variablem Kapital und getrennter Haftung zwischen den
+Fonds, die nach irischem Recht organisiert sind und von der Central Bank of Ireland zugelassen wurden. Den Prospekt (in deutscher, englischer,
+französischer und polnischer Sprache verfügbar), die wesentlichen Informationen für den Anleger (nur Vereinigtes Königreich), das PRIIPs BiB und
+weiterführende Informationen zu dem Fonds und der Anteilklasse, beispielsweise Angaben zu den wichtigsten zugrunde liegenden Anlagen der
+Anteilklasse und den Preisen der Anteile, erhalten Sie auf der iShares-Website unter www.ishares.com oder telefonisch unter +44 (0)845 357 7000
+oder bei Ihrem Makler oder Finanzberater. Der indikative Intra-Day-Nettoinventarwert der Anteilklasse ist einsehbar auf http://deutsche-
+boerse.com und/oder http://www.reuters.com. Auf dem Sekundärmarkt erworbene Anteile/Aktien eines ETF mit OGAW-Status können in der Regel
+nicht unmittelbar an den ETF mit OGAW-Status selbst zurückverkauft werden. Anleger, die keine zugelassenen Teilnehmer sind, müssen Anteile mit
+Unterstützung eines Vermittlers (z. B. eines Börsenmaklers) auf einem Sekundärmarkt kaufen und verkaufen, wobei Gebühren und zusätzliche
+Steuern anfallen können. Darüber hinaus kann es sein, dass Anleger beim Kauf von Anteilen mehr als den gegenwärtigen Nettoinventarwert je
+Anteil zahlen und beim Verkauf weniger als den gegenwärtigen Nettoinventarwert je Anteil erhalten, da der Marktpreis, zu dem die Anteile auf dem
+Sekundärmarkt gehandelt werden, unter Umständen vom Nettoinventarwert je Anteil abweicht. OGAW BIETEN KEINE GARANTIERTE RENDITE,
+UND DIE WERTENTWICKLUNG IN DER VERGANGENHEIT IST KEINE GARANTIE FÜR DIE ZUKÜNFTIGE WERTENTWICKLUNG
+
+Bei diesem Dokument handelt es sich um Werbematerial, das zwölf Monate nach der Ausgabe seine Gültigkeit verliert
+Dieses Dokument ist unter keinen Umständen als Werbung oder anderweitige Unterstützung für ein öffentliches Angebot von Anteilen in den USA
+oder Kanada zu verstehen. Dieses Dokument richtet sich nicht an Personen, die in den USA, Kanada oder einer Provinz bzw. einem Hoheitsgebiet
+dieser Länder ansässig sind, wo die Unternehmen/Wertpapiere nicht für den Vertrieb zugelassen oder eingetragen sind und kein Prospekt bei einer
+Wertpapierkommission oder Aufsichtsbehörde hinterlegt wurde. Die Unternehmen/Wertpapiere dürfen nicht von einem ERISA-Plan oder mit dem
+Vermögen eines solchen Plans erworben werden oder sich in dessen Besitz befinden.
+Sämtliche in diesem Dokument enthaltenen Analyseergebnisse wurden von BlackRock beschafft und können von BlackRock für eigene Zwecke
+eingesetzt worden sein. Die Ergebnisse solcher Analysen werden in diesem Rahmen nur beiläufig zur Verfügung gestellt. Die geäußerten Ansichten
+stellen keine Anlageempfehlung oder sonstige Beratung dar und können sich jederzeit ändern. Sie geben nicht zwangsläufig die Ansichten eines
+Unternehmens in der BlackRock-Gruppe oder eines Teils davon wieder, und es wird keine Gewähr für ihre Richtigkeit übernommen.
+
+ Dieses Dokument dient ausschließlich Informationszwecken. Es stellt weder ein Angebot noch eine Aufforderung zur Investition in Fonds von
+BlackRock dar und wurde nicht in Verbindung mit einem solchen Angebot erstellt.
+© 2026 BlackRock, Inc. Alle Rechte vorbehalten. BLACKROCK, BLACKROCK SOLUTIONS und iSHARES sind Marken von BlackRock, Inc. oder
+ihren verbundenen Unternehmen. Alle anderen Marken sind Eigentum der jeweiligen Rechteinhaber.
+

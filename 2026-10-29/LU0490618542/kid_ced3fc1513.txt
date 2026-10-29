@@ -1,0 +1,114 @@
+=== pdf p.1 ===
+ Key Investor Information for Investors in the United Kingdom
+ This document provides you with key investor information about this fund. It is not marketing material. The
+ information is required by law to help you understand the nature and the risks of investing in this fund. You
+ are advised to read it so you can make an informed decision about whether to invest.
+
+Xtrackers S&P 500 Swap UCITS ETF
+Share class: 1C, ISIN: LU0490618542, Security code: DBX0F2, Currency: USD
+a sub-fund of Xtrackers. The management company is DWS Investment S.A., a member of the DWS Group.
+Objectives and investment policy
+The fund is passively managed. INVESTMENT OBJECTIVE: The                      the index (swap index), in order to obtain the return on the swap
+aim is for your investment to reflect the performance of the S&P              index. The gross total return version of the index calculates the
+500 Index (index) which is designed to reflect the performance of             performance of the stocks assuming that all dividends and
+shares of 500 companies representing all major US industries.                 distributions are reinvested on a gross basis. The swap index shall
+DESCRIPTION OF INDEX: The index contains shares of large                      be selected in the absolute discretion of the Investment Manager.
+companies traded on certain eligible US exchanges. A company’s                FURTHER INFORMATION: Certain information (including the latest
+weighting in the index depends on its relative size based on the              share prices of the fund, indicative net asset values, full disclosure
+combined value of a company’s readily available shares as                     on the composition of the fund's portfolio and information on the
+compared to other companies on the stock markets. INDEX                       index constituents) are available on your local DWS website or at
+REBALANCING, CALCULATION AND ADMINISTRATION: The                              www.Xtrackers.com. Transaction costs and taxes, unexpected fund
+index is administered by Standard & Poor's. The index is calculated           costs and market conditions such as volatility or liquidity issues may
+on a total return net basis which means that all dividends and                affect the ability of the fund to track the index. The anticipated level
+distributions by the companies are reinvested in the shares after             of tracking error in normal market conditions is 1 per cent. The
+tax. INVESTMENT POLICY: To achieve the aim, the fund will invest              currency of the fund is USD. Returns and gains are not distributed
+in transferable securities and enter into financial contracts                 but are reinvested in the fund. You may request the redemption of
+(derivatives) with one or more counterparties relating to the                 shares generally on a daily basis.
+transferable securities and the net or gross total return version of
+Risk and reward profile
+     Lower risk                                                 Higher risk
+                                                                              counterparties fails to make payments (for example, becomes
+                                                                              insolvent) this may result in your investment suffering a loss.
+     Potentially lower reward                     Potentially higher reward
+                                                                              CONFLICTS OF INTEREST RISK: DWS entities and related
+    1             2             3   4        5            6              7    companies may act in several roles in relation to the fund such as
+                                                                              distributor and management company which may involve conflicts
+The calculation of the risk and reward profile is based on historical         of interest. NO GUARANTEE RISK: The fund is not guaranteed
+data that cannot be used as a reliable indicator for the future risk          and your investment is at risk. The value of your investment may
+profile. This risk indicator is subject to changes; the classification of     go down as well as up. SHARES RISK: The value of an investment
+the fund may change over time and cannot be guaranteed. Even a                in shares will depend on a number of factors including, but not
+fund that is classified in the lowest category (category 1) does not          limited to, market and economic conditions, sector, geographical
+represent a completely risk-free investment. The fund is classified           region and political events. DERIVATIVES RISK: The fund may
+in category 6 because its share price may fluctuate strongly and              use derivatives to try to reduce movements in currency exchange
+the likelihood of both losses and gains may therefore be high. The            rates between the currency of the fund’s assets and the currency of
+following risks could be of particular significance for the fund: The         the fund’s shares. This may not always be successful and may
+fund does not invest directly in the components of the index and its          result in greater fluctuations in the value of the fund. This may
+returns will be dependent on the performance of the derivatives               negatively affect the value of the fund and your investment. The
+used. COUNTERPARTY RISK: The fund may enter into one or                       derivative used to gain exposure to the swap index may be
+more derivatives with one or more counterparties. If any of the               adjusted to reflect certain expenses in relation to taxes and/or
+counterparties fails to make payments (for example, becomes                   buying, selling, borrowing, financing or custody costs. These
+insolvent) this may result in your investment suffering a loss.               replication costs may result in the fund and your investment
+COUNTERPARTY RISK: The fund may enter into one or more                        suffering a loss.
+derivatives with one or more counterparties. If any of the                    A more detailed description of risks and other general information
+                                                                              can be found in the risk section(s) of the prospectus.
+
+
+Charges
+The charges you pay are used to pay the costs of running the fund, including the costs of marketing and distributing it. These charges
+reduce the potential growth of your investment.
+  One-off charges taken before or after you invest                            Secondary market investors (those who buy or sell shares
+  Entry charge                              None                              on a stock exchange) may be charged certain fees by their
+  Exit charge                               None                              stock broker. These charges, if any, can be obtained from
+  This is the maximum that might be taken out of your money before it is      such stock broker. Authorised participants dealing directly
+  invested (entry charge) and before the proceeds of your investment are paid with the fund will pay the transaction costs related to their
+  out (exit charge).                                                          subscriptions and redemptions.
+  Charges taken from the fund over a year                                     The ongoing charges figure is based on expenses for the
+  Ongoing charges                           0.15 %                            fiscal year ending 31.12.2025. It may vary from year to
+  Charges taken from the fund under certain specific conditions               year. It excludes portfolio transaction costs and
+  Performance fee                           None                              performance fees, if any.
+                                                                              Additional information on costs can be found in the cost
+                                                                              section(s) of the prospectus.
+
+=== pdf p.2 ===
+Past performance
+aaa
+
+
+
+
+                                                                                                            Past performance is not a reliable
+                                                                                                            indicator of future performance. All costs
+                                                                                                            and fees that were withdrawn from the 1C
+                                                                                                            share class of Xtrackers S&P 500 Swap
+                                                                                                            UCITS ETF were deducted during the
+                                                                                                            calculation. The 1C share class of
+                                                                                                            Xtrackers S&P 500 Swap UCITS ETF
+                                                                                                            was launched in 2010.
+
+
+
+
+Practical information
+The depositary is State Street Bank International GmbH,                          and where appropriate take advice on such taxation regimes.
+Luxembourg Branch. Copies of the prospectus and the periodic                     Xtrackers may be held liable solely on the basis of any statement
+reports are available free of charge in the language of this                     contained in this document that is misleading, inaccurate or
+document. The documents as well as other information (including                  inconsistent with the relevant parts of the sales prospectus. This
+the latest share prices as well as the indicative net asset values)              fund is a sub-fund of Xtrackers for which the sales prospectus and
+are available free of charge. The documents are available on your                the periodic reports are prepared as a whole. The assets and
+local DWS website or at www.Xtrackers.com, for full disclosure on                liabilities of each sub-fund are segregated by law. As a result,
+the composition of the fund's portfolio and information on the index             assets of one sub-fund are not available in the event of claims
+constituents please refer to this website as well. Information on the            against or insolvency of another. More share classes may be
+current remuneration policy of the management company,                           available for this fund - please refer to the relevant section of the
+including a description of how remuneration and benefits are                     sales prospectus for further details. You are not permitted to
+calculated      is     published      on      the      Internet     at           exchange your shares in this fund for other funds of Xtrackers. This
+https://www.dws.com/footer/Legal-Resources/dws-remuneration-                     fund is authorised in Luxembourg and is regulated by the
+policy?setLanguage=en. The information will be sent to you in                    Commission de Surveillance du Secteur Financier. DWS
+paper form free of charge upon request. Taxation regimes                         Investment S.A. is authorised in Luxembourg and is regulated by
+applicable to the fund in your jurisdiction may affect your personal             the Commission de Surveillance du Secteur Financier.
+tax situation. Prospective investors should inform themselves of,
+
+This key investor information is accurate as at 16.02.2026.
+
+The index is a trademark of Standard & Poor’s and has been licensed for use by the fund. The fund is not sponsored, endorsed, sold or promoted by Standard &
+Poor’s and Standard & Poor’s does not make any representation regarding the advisability of investing in the fund.
+

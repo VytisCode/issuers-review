@@ -1,0 +1,440 @@
+=== pdf p.1 ===
+Für Privatanleger und professionelle Investoren. Dies ist eine Marketingmitteilung.                                                       30. Juni 2026 Factsheet
+Bevor Sie eine endgültige Anlageentscheidung treffen, lesen Sie bitte den
+Fondsprospekt und das Dokument mit Basisinformationsblatt („KID“).                                                      ETF             Index              Aktien
+
+
+
+ETF (OGAW-konform)
+
+L&G US Equity UCITS ETF
+ETF-Klasse USD thesaurierend
+
+
+
+Anlageziel
+                                                                                                                        Fondsdaten
+Der L&G US Equity UCITS ETF (der „ETF“) soll die Wertentwicklung des Solactive Core United
+States Large & Mid Cap Index NTR (der „Index“) abbilden. Vollständige physische Replikation: Der                        Fondsvolumen            $1.514,9 Mio.
+Fonds versucht, den Index so genau wie möglich nachzubilden, indem er, soweit dies praktikabel                          Auflegungsdatum         13.11.2018
+ist, alle Indexbestandteile in weitgehend derselben Gewichtung wie sie im Index vertreten sind,
+                                                                                                                        Basiswährung            USD
+erwirbt und hält. Weitere Informationen zum Index finden Sie auf Seite 2 dieses Dokuments.
+                                                                                                                        Domizil                 Irland
+Zielgruppe                                                 Kurzüberblick
+• Dieser ETF richtet sich an Anleger,                      • Soll die Performance des Index nachbilden                  Index
+  die mit einer Anlage in Aktien von US-                                                                                Solactive Core United States Large &
+                                                           • Investiert in eine diversifizierte Mischung von
+  amerikanischen Unternehmen Wachstum                                                                                   Mid Cap Index NTR
+                                                             führenden US-amerikanischen Unternehmen
+  erzielen möchten.                                          aus verschiedenen Sektoren.                                Index-Ticker
+• Obwohl Anleger ihr Geld jederzeit                        • Die Indexnachbildung erfolgt nach einem                    SFWUSN
+  entnehmen können, eignet sich dieser ETF                   einfachen, kostenbewussten und pragma-                     Replizierung
+  unter Umständen nicht für Anleger, die                     tischen Ansatz.                                            Physisch (Vollreplikation)
+  beabsichtigen, ihr Geld innerhalb von fünf
+                                                           • Bewirbt er Nachhaltigkeitsmerkmale? Der
+  Jahren abzuziehen.
+                                                             Fonds bewirbt eine Reihe von ökologischen
+• Dieser Fonds ist nicht für Anleger gedacht,                                                                           Laufende Gebühren 0,05%
+                                                             und sozialen Merkmalen, die durch die Nach-
+  die es sich nicht leisten können, mehr als                 bildung des Indexes erfüllt werden. Weitere
+  einen geringen Teil ihrer Investition zu                   Informationen darüber, wie der Fonds diese
+  verlieren.                                                 Merkmale erfüllt, finden Sie im Fund Supple-
+• Falls Sie den Inhalt dieses Dokuments, der                 ment.
+  Basisinformationsblatt („KID“) oder des
+  Prospekts nicht verstehen, empfehlen wir
+  Ihnen, sich weitergehend zu informieren oder
+  beraten zu lassen, damit Sie entscheiden
+  können, ob dieser ETF für Sie geeignet ist.
+
+
+
+Performance (%) ETF-Klasse USD thesaurierend
+100
+
+ 75                                                                                                          1 Monat    6 Monate     1 Jahr     3 Jahre      5 Jahre
+ 50
+                                                                                               l NIW            ‑0,96         9,87     21,74      75,68         82,69
+ 25
+                                                                                               l Index          ‑0,97         9,80     21,58      74,82         80,96
+  0
+
+-25
+                                                                                               Differenz       +0,01        +0,07      +0,16      +0,86         +1,73
+              Juni 22        Juni 23           Juni 24           Juni 25      Juni 26
+
+
+
+Rollierende 12-Monats-Performance
+
+Zum 30 Juni                            2026              2025         2024              2023        2022    2021        2020         2019         2018          2017
+
+NIW                                    21,74             15,63        24,80         19,67	‑13,10            42,25        8,67           -—            -—            -—
+
+Index                                  21,58             15,45        24,55         19,38	‑13,29            41,98        8,44           -—            -—            -—
+
+Differenz                              +0,16             +0,18        +0,25         +0,29           +0,19   +0,27       +0,23           -—            -—            -—
+
+Performance für die ETF-Klasse USD thesaurierend, gelistet seit 13. November 2018. Quelle: Lipper. Bei den
+Performanceangaben wird davon ausgegangen, dass alle ETF-Gebühren belastet wurden und alle durch die
+Anlagen generierten Erträge nach Abzug von Steuern im ETF verbleiben.
+Die in der Vergangenheit erzielte Performance ist kein Hinweis für die Zukunft.
+
+=== pdf p.2 ===
+Factsheet L&G US Equity UCITS ETF | ETF-Klasse USD thesaurierend                                                                       30. Juni 2026
+
+
+Aufschlüsselung des Index
+Die nachstehenden Gliederungen beziehen sich auf den Index. Das ETF-Portfolio kann davon abweichen.
+Sofern nicht anderweitig genannt ist die Quelle aller Angaben L&G. Rundungsbedingt ist es möglich, dass die Summe nicht 100 % ergibt.
+
+
+
+
+                                                                                                                l 10 größte Positionen 37,1%
+                                                                                                                l Restliche Indexpositionen 62,9%
+                                                                                                                Anzahl der Indexpositionen 413
+
+
+
+Währungen (%)                                      Sektoren (%)                                    10 größte Positionen (%)
+l USD                              99,1            l IT                                 38,2       NVIDIA                                        7,4
+l Nicht zugeordnet                   0,9           l Finanzwesen                        11,6       Apple                                         6,6
+                                                   l Kommunikationsdienste              10,2       Microsoft                                     4,3
+                                                   l Nicht-Basiskonsumgüter              9,7       Amazon                                        3,6
+                                                   l Gesundheitswesen                    9,0       Alphabet A                                    3,3
+                                                   l Industrie                           8,7       Alphabet C                                    2,8
+                                                   l Basiskonsumgüter                    4,5       Broadcom                                      2,8
+                                                   l Energie                             2,1       Tesla                                         2,2
+                                                   l Versorgungsbetriebe                 2,0       Micron Technology                             2,1
+                                                   l Sonstige                            4,1       Meta Platforms                                2,0
+
+
+
+Länder (%)
+🇺🇸 Vereinigte Staaten              96,2
+
+🇮🇪 Irland                            2,0
+
+   Nicht zugeordnet                  0,9
+
+🇨🇭 Schweiz                           0,3
+
+🇱🇷 Liberia                           0,1
+
+🇧🇲 Bermuda                           0,1
+
+🇱🇺 Luxemburg                         0,1
+
+🇳🇱 Niederlande                       0,1
+
+🇳🇱 Niederländische Antillen          0,1
+
+🌐 Sonstige                           0,1
+
+
+
+Indexbeschreibung
+Der Index dient als Benchmark für den US-amerikanischen Aktienmarkt und misst die                  Indexfonds-
+Performance von groß- und mittelkapitalisierten börsengehandelten US-amerikanischen                Verwaltungsteam
+Unternehmen, die Mindestkriterien bezüglich Liquidität und Größe erfüllen. Davon
+ausgeschlossen sind Unternehmen, die: (a) im Bereich Steinkohleabbau tätig sind; (b)               Die Fähigkeiten und das
+an der Herstellung umstrittener Waffen wie bspw. Streuwaffen, Antipersonenminen oder               Fachwissen, die wir in
+                                                                                                   über 35 Jahren im Indexmanagement
+biologischer und chemischer Waffen beteiligt sind; oder (c) die für einen ununterbrochenen
+                                                                                                   erworben haben, haben es uns
+Zeitraum von drei Jahren gegen mindestens eines der Prinzipien des Globalen Pakts                  ermöglicht, unsere Anlageprozesse
+der Vereinten Nationen – einer Reihe von weltweit anerkannten Normen bezüglich                     kontinuierlich weiterzuentwickeln. Unser
+Menschenrechte, Arbeit, Umwelt und Korruption – verstossen haben.                                  Team für Indexfondsmanagement
+                                                                                                   umfasst 30 Fondsmanager mit einer
+                                                                                                   durchschnittlichen Berufserfahrung
+                                                                                                   von 15 Jahren, die von 33 weiteren
+                                                                                                   Mitarbeitern aus anderen Teams
+                                                                                                   unterstützt werden. Es wird von Dave
+                                                                                                   Barron, Global Head of Index, ETFs &
+                                                                                                   Systematic Solutions geleitet. Es kann
+                                                                                                   auf alle bei L&G verfügbaren Ressourcen
+                                                                                                   und Analysen anderer Analysten,
+                                                                                                   einschließlich Wirtschaftsfachleuten und
+                                                                                                   Anlagestrategen zugreifen.
+
+
+
+
+Für Privatanleger und professionelle Investoren.                                                                                            2 von 5
+
+=== pdf p.3 ===
+Factsheet L&G US Equity UCITS ETF | ETF-Klasse USD thesaurierend                                                                                        30. Juni 2026
+
+
+Wichtigste Risiken
+                                                                                                      Risiko- und Ertragsprofil
+• Der Wert Ihrer Anlage und jegliche daraus entnommene Erträge sind nicht garantiert und
+  können sowohl steigen als auch fallen. Es ist möglich, dass Sie Ihren ursprünglich angelegten
+                                                                                                         1        2        3           4      5        6        7
+  Betrag nicht zurückerhalten.
+                                                                                                      Geringeres Risiko                               Höheres Risiko
+• Eine Anlage im ETF ist mit erheblichen Risiken verbunden. Jegliche Anlageentscheidung               In der Regel geringerer Ertrag       In der Regel höherer Ertrag
+  sollte auf der Grundlage der im entsprechenden Verkaufsprospekt enthaltenen Informationen
+  erfolgen. Potenzielle Anleger sollten sich in buchhalterischen, steuerlichen und rechtlichen
+                                                                                                      Der Gesamtrisikoindikator hilft Ihnen,
+  Angelegenheiten unabhängig beraten lassen und sich an ihre eigenen fachkundigen Berater
+                                                                                                      das mit diesem Produkt verbundene
+  wenden, um zu prüfen, ob der ETF für sie als Anlage geeignet ist.                                   Risiko im Vergleich zu anderen Produk-
+• Der Wert der ETF-Anteile wird direkt von den Wertsteigerungen und - verlusten des Index             ten einzuschätzen. Er zeigt, wie hoch
+  beeinflusst. Folglich kann der Wert eines ETF-Anteils steigen oder fallen und ein Anteilinhaber     die Wahrscheinlichkeit ist, dass Sie bei
+  kann einen Teil oder den gesamten Betrag seiner Investition verlieren.                              diesem Produkt Geld verlieren, weil sich
+                                                                                                      die Märkte in einer bestimmten Weise
+• Ob es dem ETF gelingt, den Index möglichst exakt nachzubilden, hängt davon ab, ob er
+                                                                                                      entwickeln oder wir nicht in der Lage
+  die Indextitel kaufen und/oder verkaufen kann, sowie von rechtlichen oder regulatorischen
+                                                                                                      sind, Sie auszuzahlen. Wir haben dieses
+  Einschränkungen und Störungen, welche sich auf die Indextitel auswirken.                            Produkt auf einer Skala von 1 bis 7 in
+• Die Fähigkeit des ETF, den Index möglichst exakt nachzubilden, wird ferner durch                    die Risikoklasse 4 eingestuft, was einem
+  Transaktionskosten und Steuern beeinträchtigt, die durch die Anpassung seines                       mittleren Risiko entspricht. Dieses Pro-
+  Anlagenportfolios im Allgemeinen und/oder die Nachbildung von periodischen Anpassungen              dukt bietet keinen Schutz vor künftigen
+  der Indexkomponenten entstehen. Es kann nicht mit Sicherheit davon ausgegangen werden,              Marktentwicklungen, sodass Sie das
+  dass die ETF-Anteile immer an einer Wertpapierbörse gekauft oder verkauft werden können             angelegte Kapital ganz oder teilweise
+  oder dass sich die Wertentwicklung des Index im Preis niederschlägt, zu dem die ETF-Anteile         verlieren könnten.
+  an einer Wertpapierbörse gehandelt werden können.                                                   Bitte beachten Sie das Währungsrisiko.
+• Der ETF ist dem Risiko ausgesetzt, dass externe Dienstleistungsanbieter (wie zum                    Sie erhalten womöglich Zahlungen in
+  Beispiel eine Bank, die mit dem ETF Swap-Kontrakte abschließt oder die Depotbank des                einer anderen Währung, sodass Ihre
+                                                                                                      endgültige Rendite vom Wechselkurs
+  ETF) zahlungsunfähig werden, die dem ETF zustehenden Zahlungen nicht leisten oder
+                                                                                                      zwischen den beiden Währungen
+  Vermögensgegenstände, die dem ETF gehören, nicht zurückgeben können.
+                                                                                                      abhängen wird. Dieses Risiko wird
+• Wenn der Indexanbieter die Indexberechnung einstellt oder die Lizenz des ETF zur                    im oben angegebenen Indikator nicht
+  Indexnachbildung beendet wird, muss der ETF gegebenenfalls geschlossen werden.                      berücksichtigt. Der Fonds ist nicht durch
+• Es ist unter Umständen nicht immer möglich, die Anteile des ETF an einer Börse zu erwerben          ein Entschädigungssystem für Anleger
+  und zu veräußern oder diese zu Preisen zu handeln, die dem NIW nahekommen.                          gedeckt.Der Wert des Fonds kann durch
+                                                                                                      Risiken beeinflusst werden, die im Ges-
+• Der ETF verfügt in Bezug auf seinen Wert über keinerlei Kapitalgarantie oder                        amtrisikoindikator nicht berücksichtigt
+  Schutzmechanismus. Anleger können ihr gesamtes, in den ETF investiertes Kapital verlieren.          werden, einschließlich des Ausfalls einer
+• Bitte lesen Sie den Abschnitt „Risikofaktoren“ im Verkaufsprospekt des Emittenten und in der        Gegenpartei, einer Verwahrstelle, eines
+  Prospektergänzung des Fonds.                                                                        Emittenten oder Indexanbieters und des
+                                                                                                      Einsatzes von Derivaten.
+• Dieser Fonds kann Anlagen halten, die in anderen Währungen als der Basiswährung dieser
+  Anteilsklasse bewertet werden. In einem solchen Fall wirken sich Wechselkursschwankungen
+  auf den Wert Ihrer Anlage aus. Außerdem kann die Rendite in der Basiswährung dieser
+  Anteilsklasse von der Rendite in Ihrer eigenen Währung abweichen.
+• Der Fonds hat einen Nachhaltigkeits- und/oder ESG-Fokus in seinem Anlageprozess, der i) das
+  Engagement des Fonds in bestimmten Unternehmen, Branchen oder Sektoren einschränken
+  oder ausschließen kann, ii) die Anlageperformance des Fonds im Vergleich zu anderen
+  Fonds, die solche Kriterien nicht anwenden, beeinflussen kann und iii) von den eigenen
+  Nachhaltigkeits- und/oder ESG-Kriterien eines Anlegers abweichen kann.
+Weitere Informationen finden Sie im Dokument mit den wesentlichen Anlegerinformationen auf
+unserer Website.
+
+
+
+
+Informationen zum Handel                                                                            Registriert in:
+Börse                     Währung ISIN                  WKN           Ticker      Bloomberg            Österreich                Dänemark                   Finnland
+
+London Stock Exchange     USD        IE00BFXR5Q31       A2N4RG        LGUS        LGUS LN
+                                                                                                       Frankreich                Deutschland                Irland
+London Stock Exchange     GBP        IE00BFXR5Q31       A2N4RG        LGUG        LGUG LN
+Borsa Italiana            EUR        IE00BFXR5Q31       A2N4RG        LGUS        LGUS IM              Italien                   Luxemburg                  Niederlande
+
+Deutsche Börse            EUR        IE00BFXR5Q31       A2N4RG        ETLS        ETLS GY
+                                                                                                       Norwegen                  Spanien                    Schweden
+Euronext Amsterdam        EUR        IE00BFXR5Q31       A2N4RG        LGUS        LGUS NA
+SIX Swiss Exchange        USD        IE00BFXR5Q31       A2N4RG        LGUS        LGUS SW              Schweiz                   Großbritannien
+
+Bolsa Mexicana            MXN        IE00BFXR5Q31       A2N4RG        LGUS        LGUSN MM
+Die angegebene Währung ist die Handelswährung des Wertpapiers.
+
+
+
+Für Privatanleger und professionelle Investoren.                                                                                                               3 von 5
+
+=== pdf p.4 ===
+Factsheet L&G US Equity UCITS ETF | ETF-Klasse USD thesaurierend                                                                        30. Juni 2026
+
+
+Wichtige Informationen
+Der Fondsprospekt ist im LGIM Fund Centre           Niederlanden untersteht die Zweigniederlassung   Die Wertentwicklung in der Vergangenheit
+erhältlich und kann auch bei Legal & General        von LGIM Managers (Europe) Limited in            gibt keinen Aufschluss über die zukünftige
+Investment Management, Dublin Landings              beschränktem Umfang der Aufsicht durch die       Wertentwicklung. In diesem Dokument
+2, Office 1-W-131, North Dock, Dublin 1,            niederländische Finanzmarktaufsichtsbehörde      enthaltene Angaben zur vergangenen
+Irland, angefordert werden. Soweit gemäß            Autoriteit Financiële Markten („AFM“),           Wertentwicklung können auf Backtesting
+den nationalen Vorschriften erforderlich,           ist in deren Register eingetragen und im         beruhen. Backtesting bzw. Rückvergleich ist ein
+sind die Basisinformationsblatt („KID“) auch        Handelsregister der Handelskammer unter          Verfahren zur Beurteilung einer Anlagestrategie,
+in der Landessprache des betreffenden               der Nummer 74481231 registriert. Weitere         bei dem diese auf vergangene Daten
+EWR-Mitgliedstaats erhältlich. Eine                 Informationen zu unseren entsprechenden          angewendet wird, um die Wertentwicklung
+Zusammenfassung der mit einer Anlage im             Zulassungen und Genehmigungen erhalten           dieser Strategie rückblickend zu simulieren.
+Fonds verbundenen Anlegerrechte finden Sie          Sie von uns auf Anfrage. Zusätzliche             Durch Backtesting gewonnene Angaben zur
+unter www.lgim.com/investor_rights.                 Informationen zu unseren Produkten (darunter     Wertentwicklung sind jedoch vollkommen
+Wir sind außerdem verpflichtet, darauf              die entsprechenden Verkaufsprospekte) finden     hypothetisch und werden in diesem Dokument
+hinzuweisen, dass die Verwaltungsgesellschaft       Sie auf unserer Website.                         nur zu Informationszwecken wiedergegeben.
+das Recht hat, die getroffenen                      Die in diesem Dokument aufgeführten              Durch Backtesting gewonnene Daten sind keine
+Vertriebsvereinbarungen zu kündigen.                Anteile (die „Anteile“) werden innerhalb         Angaben zur tatsächlichen Wertentwicklung und
+                                                    des betreffenden, in diesem Dokument             dürfen nicht als Angaben über die tatsächliche
+Die Vereinbarungen für den Vertrieb des                                                              oder zukünftige Wertentwicklung verstanden
+Fonds in einem EWR-Mitgliedstaat, in dem            beschriebenen Teilfonds (bzw. dessen
+                                                    Anteilsklasse(n) (gemeinsam der „Fonds“)         werden.
+er derzeit vertrieben wird, können jederzeit
+beendet werden. In einem solchen Fall werden        aufgelegt.                                       Kein Verkaufsangebot: Die in diesem Dokument
+die Anteilinhaber in dem betroffenen EWR-           Copyright © 2026 Legal & General. Dieses         enthaltenen Angaben sind weder ein Angebot
+Mitgliedstaat von dieser Entscheidung in            Dokument ist urheberrechtlich geschützt.         zum Verkauf noch eine Aufforderung zur
+Kenntnis gesetzt und haben die Möglichkeit,         Jegliche unerlaubte Verwendung ist strengstens   Abgabe eines Angebots für den Kauf von
+ihre Fondsanteile innerhalb von mindestens 30       untersagt. Alle Rechte vorbehalten.              Wertpapieren. Dieses Dokument sollte nicht als
+Arbeitstagen ab dem Datum der entsprechenden                                                         Grundlage für Anlageentscheidungen dienen.
+                                                    Keine Anlageberatung: Wir sind verpflichtet,
+Mitteilung ohne jegliche Gebühren oder Abzüge       darauf hinzuweisen, dass wir in keiner Weise     Risikohinweise: Bei den Anteilen handelt es
+zurückzugeben.                                      in Zusammenhang mit der Anlage oder              sich um Produkte, die mit einem erheblichen
+Dies ist eine Marketingmitteilung. Bevor Sie        Anlagetätigkeit, auf die sich dieses Dokument    Risiko verbunden und gegebenenfalls nicht
+eine endgültige Anlageentscheidung treffen,         bezieht, für Sie tätig sind. Insbesondere        für alle Anlegerkategorien geeignet sind.
+lesen Sie bitte den Fondsprospekt und die           erbringen wir Ihnen gegenüber keine              Anlageentscheidungen sollten auf der
+Basisinformationsblatt („KID“).                     Anlagedienstleistungen oder beraten Sie in       Grundlage der im Prospekt des Fonds (oder
+                                                    Bezug auf die Vorzüge oder die Bedingungen       in den dazugehörigen Prospektergänzungen)
+Im Vereinigten Königreich und außerhalb                                                              enthaltenen Angaben getroffen werden. Im
+des Europäischen Wirtschaftsraums wird              eines Geschäfts oder geben Ihnen gegenüber
+                                                    Empfehlungen darüber ab. Keiner unserer          Prospekt und seinen Ergänzungen sind unter
+dieses Dokument von Legal & General                                                                  anderem Informationen zu den mit einer Anlage
+Investment Management Limited, einer von der        Vertreter ist befugt, durch sein Verhalten in
+                                                    irgendeiner Form diesen Eindruck bei Ihnen       verbundenen Risiken aufgeführt. Der Kurs
+britischen Finanzmarktaufsichtsbehörde FCA                                                           von Wertpapieren kann steigen oder sinken
+zugelassenen und beaufsichtigen Gesellschaft,       zu erwecken. Deswegen sind wir nicht dafür
+                                                    verantwortlich, Ihnen den Schutz zu bieten,      und Anleger erhalten möglicherweise nicht
+herausgegeben, die im Financial Services                                                             den gesamten investierten Betrag zurück.
+Register unter der Nummer 119272 eingetragen        den wir einigen unserer Kunden bieten, und Sie
+                                                    sollten nach eigenem Ermessen unabhängige        Anleger sollten nur in eine Anteilklasse mit
+ist. Eingetragen in England und Wales unter der                                                      Währungsabsicherung investieren, wenn
+Nummer 02091894 und mit dem Sitz in der One         Rechts-, Anlage- und Steuerberatung in
+                                                    Anspruch nehmen.                                 sie bereit sind, auf mögliche Gewinne aus
+Coleman Street London EC2R 5AA.                                                                      der Aufwertung von Währungen, auf die die
+Im Europäischen Wirtschaftsraum wird dieses         Informationen für die USA: Dieses Dokument       Vermögenswerte des Fonds lauten, gegenüber
+Dokument von LGIM Managers (Europe) Limited         ist keine Werbung oder ein anderes Mittel zur    der Währung, auf die die jeweilige abgesicherte
+herausgegeben, die von der irischen Zentralbank     Förderung eines öffentlichen Angebots von        Anteilsklasse lautet, zu verzichten. Durch
+als OGAW-Verwaltungsgesellschaft (gemäß             Anteilen in den USA oder ihren Provinzen und     Währungsabsicherung soll das Währungsrisiko
+den European Communities (Undertakings for          Territorien, in denen weder der Fonds noch       einer abgesicherten Anteilsklasse verringert
+Collective Investment in Transferable Securities)   die Anteile genehmigt oder zum Vertrieb          aber nicht vollständig beseitigt werden.
+Regulations, 2011 (S.I. No. 352 von 2011), in       zugelassen sind und in denen kein Prospekt       Anleger werden auch auf den Risikofaktor
+der jeweils gültigen Fassung) und als Verwalter     der Gesellschaft bei einer Börsenaufsicht        „Currency“ (Währung) im Kapitel „Risk Factors“
+alternativer Investmentfonds mit Zulassung zur      oder sonstigen Aufsichtsbehörde eingereicht      (Risikofaktoren) des Prospekts hingewiesen.
+Erbringung bestimmter zusätzlicher MiFID-           wurde, und sollte unter keinen Umständen als
+                                                    solche/s verstanden werden. Weder dieses         Prospekt: Für weitere Angaben zu diesen
+Finanzdienstleistungen (gemäß den European                                                           und anderen mit Anlagen in den Anteilen
+Union (Alternative Investment Fund Managers)        Dokument noch Kopien desselben dürfen
+                                                    direkt oder indirekt in die USA eingeführt,      verbundenen Risiken werden die Anleger auf
+Regulations 2013 (S.I. No. 257 von 2013) in                                                          das Kapitel „Risk Factors“ (Risikofaktoren)
+der jeweils gültigen Fassung) zugelassen            übermittelt oder vertrieben werden. Weder
+                                                    der Fonds noch die Anteile sind oder werden      im Prospekt des Fonds hingewiesen. Die
+ist. In Irland im Gesellschaftsregister unter                                                        Angaben in diesem Dokument sind nur für die
+der Nummer 609677 eingetragen. Sitz der             in Zukunft gemäß dem US-amerikanischen
+                                                    Wertpapiergesetz von 1933 oder dem Gesetz        Verwendung in den Ländern vorgesehen, in
+Gesellschaft: 70 Sir John Rogerson’s Quay,                                                           denen der Fonds für den öffentlichen Vertrieb
+Dublin, 2, Irland. Von der irischen Zentralbank     über Investmentgesellschaften der Vereinigten
+                                                    Staaten von 1940 registriert oder entsprechen    registriert ist, und sind nicht für in anderen
+mit der Referenznummer C173733 zugelassen                                                            Ländern ansässige Personen bestimmt. Die
+und beaufsichtigt.                                  der geltenden Wertpapiergesetzgebung
+                                                    einzelner Bundesstaaten.                         Verbreitung des Prospekts und das Angebot,
+LGIM Managers (Europe) Limited betreibt                                                              der Verkauf und die Zustellung von Anteilen
+ein Filialnetzwerk im Europäischen                  Keine Gewähr für Richtigkeit: Dieses             können in einzelnen Ländern gesetzlichen
+Wirtschaftsraum, das von der irischen               Dokument enthält möglicherweise von              Einschränkungen unterliegen.
+Zentralbank überwacht wird. Die Zweigstelle von     uns aufgrund öffentlich zugänglicher
+                                                    Informationen zusammengestellte                  Für Anleger im Vereinigten Königreich: Der
+LGIM Managers (Europe) Limited untersteht in                                                         Fonds ist ein nach Section 264 des britischen
+Italien in beschränktem Umfang der Aufsicht         unabhängige Marktkommentare. Wir
+                                                    garantieren, gewährleisten oder bestätigen in    Financial Services and Markets Act 2000
+der italienischen Börsenaufsicht Commissione                                                         anerkannter Organismus für gemeinsame
+Nazionale per le società e la Borsa („CONSOB“)      sonstiger Weise weder die Richtigkeit noch
+                                                    die Fehlerfreiheit der in diesem Dokument        Anlagen („Recognised Scheme“) und der
+und ist bei der italienischen Zentralbank                                                            Prospekt darf an Anleger im Vereinigten
+unter der Nummer 23978.0 eingetragen.               enthaltenen Angaben. Meinungen in Bezug
+                                                    auf Produkte oder Marktaktivität können sich     Königreich abgegeben/verteilt werden.
+Gesellschaftssitz: Piazza della Repubblica                                                           Exemplare aller Dokumente (d.h. des Prospekts,
+3, Mailand 20121, (Handelsregisternummer            ändern. Dritte Datenanbieter, auf die bei der
+                                                    Zusammenstellung der Angaben in diesem           der wesentlichen Informationen für den Anleger
+MI - 2557936). In Deutschland untersteht                                                             (KIID), des letzten geprüften Jahresberichts
+die Zweigniederlassung von LGIM Managers            Dokument zurückgegriffen wird, leisten keine
+                                                    Gewähr und erheben keinen Anspruch in Bezug      und -abschlusses und ungeprüften
+(Europe) Limited in beschränktem Umfang der                                                          Halbjahresberichts und -abschlusses und der
+Aufsicht durch die deutsche Bundesanstalt für       auf solche Daten.
+                                                                                                     Satzung) sind im Vereinigten Königreich unter
+Finanzdienstleistungsaufsicht („BaFin“) In den                                                       www.lgim.com erhältlich.
+
+Für Privatanleger und professionelle Investoren.                                                                                             4 von 5
+
+=== pdf p.5 ===
+Factsheet L&G US Equity UCITS ETF | ETF-Klasse USD thesaurierend                                                                         30. Juni 2026
+
+
+Für Anleger in Österreich: Anleger sollten ihre     Bundesanstalt für Finanzdienstleistungsaufsicht
+Anlageentscheidungen ausschließlich auf der         (BaFin) eine Vertriebsanzeige gemäß Art.
+Grundlage des entsprechenden Prospekts,             310 des Kapitalanlagegesetzbuches (KAGB)
+der Basisinformationsblatt („KID“), jeglicher       eingereicht. Die Basisinformationsblatt
+dazugehörigen Ergänzungen und Anhänge,              („KID“) (auf Deutsch), der Prospekt sowie die
+Kopien der Gründungsurkunde und der Satzung         dazugehörigen Ergänzungen und Anhänge,
+und des Jahres- und Halbjahresberichts treffen,     Kopien der Gründungsurkunde und der Satzung
+die kostenlos auf Anfrage bei der Zahl- und         sowie der Jahres- und Halbjahresbericht sind
+Informationsstelle in Österreich, Erste Bank der    kostenlos auf Anfrage bei der deutschen              Die Vermögensverwaltungssparte von
+oesterreichischen Sparkassen AG, Graben 21,         Zahl- und Informationsstelle, HSBC Trinkaus          L&G zählt zu den bedeutendsten globalen
+1010 Wien, Österreich, oder unter www.lgim.         & Burkhardt AG, Königsallee 21‑23, 40212             Investoren auf öffentlichen und privaten
+com erhältlich sind.                                Düsseldorf, und unter www.lgim.com erhältlich.       Märkten mit einem verwalteten Vermögen
+Für Anleger in den Niederlanden: Der Fonds          Die aktuellen Angebots- und Rücknahmepreise          von 1349,5 Milliarden EUR (Stand: 31.
+ist gemäß Artikel 2:72 des niederländischen         sowie der Nettoinventarwert und eventuelle           Dezember 2025). Unsere Anlagephilosophie
+Finanzaufsichtsgesetzes nach dem OGAW-              Mitteilungen an die Anleger können ebenfalls         und Anlageprozesse sind auf langfristige
+Pass-Verfahren bei der niederländischen             kostenlos unter der angegebenen Adresse              Wertschöpfung ausgerichtet. Wir sind davon
+Finanzmarktbehörde registriert.                     angefordert werden. Bei diesem Dokument              überzeugt, dass durch die Berücksichtigung
+                                                    handelt es sich um eine Marketingmitteilung
+Für Anleger in Frankreich: In Frankreich                                                                 von Nachhaltigkeitskriterien, die die
+                                                    im Sinne von Art. 63 Abs. 6 des deutschen
+ist dieses Dokument ausschließlich für              Wertpapierhandelsgesetzes (WpHG). Es ist             Ansprüche unserer Kunden erfüllen und einen
+professionelle Kunden (gemäß MiFID)                 keine Finanzanalyse im Sinne von Art. 36 der         finanziell relevanten Effekt haben, attraktive
+bestimmt, die auf eigene Rechnung anlegen.          Delegierten Verordnung (EU) 2017/565 und             Renditen erzielt und positive Veränderungen
+Dieses Dokument darf in keiner Weise an die         erfüllt demzufolge nicht alle gesetzlichen           herbeigeführt werden können.
+Öffentlichkeit verteilt werden. Der Fonds ist       Anforderungen an die Unvoreingenommenheit            Quelle: LGIM-interne Daten zum 31.
+ein OGAW nach irischem Recht und wurde              von Finanzanalysen und es gilt auch kein             Dezember 2025. Die Angabe zum verwalteten
+von der irischen Zentralbank als OGAW nach          Handelsverbot im Vorfeld der Veröffentlichung
+europäischen Vorschriften genehmigt, muss                                                                Vermögen ist die Summe der von L&G
+                                                    einer Finanzanalyse.                                 im Vereinigten Königreich, von LGIMA in
+aber unter Umständen nicht dieselben Regeln
+einhalten wie die, die für ähnliche in Frankreich   Für Anleger in Norwegen: Der Fonds ist bei           den USA und von L&G Asia in Hongkong
+genehmigte Produkte gelten. Der Fonds ist zum       der norwegischen Finanzaufsichtsbehörde              verwalteten Vermögenswerte (nur 2018-
+Vertrieb in Frankreich bei der französischen        (Finanstilsynet) registriert und darf                2019). Das verwaltete Vermögen umfasst
+Finanzmarktbehörde (Autorité des Marchés            professionellen Anlegern in Norwegen                 sowohl Wertpapiere als auch Derivate.
+Financiers) registriert und darf an Anleger         angeboten und an sie verkauft werden.
+in Frankreich vertrieben werden. Exemplare          Für Anleger in der Schweiz: Der in
+aller Dokumente (d.h. des Prospekts, jeglicher      diesem Dokument beschriebene Fonds
+dazugehöriger Ergänzungen oder Anhänge, der         wird in der Schweiz ausschließlich an
+letzten Jahresberichte, der Gründungsurkunde        qualifizierte Anleger im Sinne des Schweizer
+und der Satzung und der Basisinformationsblatt      Kollektivanlagengesetzes und der zugehörigen
+(„KID“)) sind in Frankreich kostenlos beim          Verordnung vertrieben. Der Prospekt für
+französischen Zentralverwaltungsagenten             die Schweiz, die Basisinformationsblätter,
+Société Générale, Securities Services, 1-5 rue      der Fondsvertrag sowie der Jahres- und
+du Débarcadère, 92700 Colombes, Frankreich,         Halbjahresbericht des Fonds sind kostenlos
+erhältlich. Anteilszeichnungen erfolgen zu          beim Schweizer Vertreter erhältlich: FIRST
+den im Prospekt und jeglichen dazugehörigen         INDEPENDENT FUND SERVICES LTD.,
+Ergänzungen oder Anhängen aufgeführten              Feldeggstrasse 12, 8008 Zürich. Zahlstelle
+Bedingungen.                                        in der Schweiz ist die NPB Neue Privat Bank
+Für Anleger in Deutschland: Anleger sollten         AG, Limmatquai 1, 8001 Zürich. Für den
+ihre Anlageentscheidungen ausschließlich auf        Vertrieb in der Schweiz sind Erfüllungsort und
+der Grundlage des entsprechenden Prospekts          Gerichtsstand am Sitz des Vertreters begründet.
+und der Basisinformationsblatt („KID“) treffen.
+Für die Anteile des Fonds wurde bei der
+
+
+
+
+Kontakt
+      oder schreiben Sie uns an Deutschland@lgim.com                besuchen Sie unsere Website lgim.com
+
+
+Index Haftungsausschluss
+Der ETF wird von der Solactive AG weder gesponsert, gefördert, vertrieben noch auf sonstige Weise unterstützt. Des Weiteren übernimmt die Solactive
+AG zu keinem Zeitpunkt und in keinerlei Hinsicht eine Garantie (weder ausdrücklich noch implizit) für die durch die Nutzung des Index und/oder der
+Indexmarke erzielten Ergebnisse oder für den Indexwert. Der Index wird von der Solactive AG berechnet und veröffentlicht. Die Solactive AG bemüht
+sich nach besten Kräften darum, dass die Berechnung des Index ordnungsgemäß erfolgt. Unabhängig von ihren Verpflichtungen gegenüber Legal &
+General UCITS ETF Plc besteht für die Solactive AG gegenüber Dritten, einschließlich Anlegern und/oder Finanzintermediären des Finanzinstruments,
+keine Verpflichtung dazu, mögliche Fehler im Index aufzuzeigen. Die Solactive AG gibt keine Garantie für die Richtigkeit und/oder Vollständigkeit des
+Index oder damit in Verbindung stehender Angaben ab und haftet nicht für Fehler oder Auslassungen im oder Unterbrechungen des Index. Weder die
+Veröffentlichung des Index durch die Solactive AG noch die Gewährung einer Lizenz zur Nutzung des Index oder der Index-Marke in Verbindung mit dem
+ETF stellt eine Empfehlung der Solactive AG für eine Kapitalanlage in den genannten ETF oder eine Gewährleistung oder Meinung der Solactive AG in
+Bezug auf Anlagen in diesem ETF dar. Die Solactive AG kann in keinem Fall für entgangene Gewinne, Strafschadensersatzleistungen, indirekte, spezielle
+oder Folgeschäden und Verluste haftbar gemacht werden, selbst wenn sie über das mögliche Auftreten derselben in Kenntnis gesetzt wurde.
+
+Für Privatanleger und professionelle Investoren.                                                                                              5 von 5
+

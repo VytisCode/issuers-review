@@ -1,0 +1,148 @@
+=== pdf p.1 ===
+                                                                             Factsheet
+                                                                             Marketing Material
+
+
+
+
+Xtrackers S&P 500 Swap UCITS ETF 1C
+A sub fund of Xtrackers
+
+This factsheet is as of september 30, 2026 unless otherwise specified
+
+
+
+
+At a Glance                                                                              Key Risks
+̵ Exposure to US-American equities                                                       The value of your investment may go down as well as up and past performance
+̵ Provides diversified exposure to the 500 largest blue chip US stocks                   does not predict future returns. Investor capital may be at risk up to a total loss.
+                                                                                         The value of an investment in shares will depend on a number of factors
+                                                                                         including, but not limited to, market and economic conditions, sector,
+Fund information                                                                         geographical region and political events.
+                                                                                         The Fund is exposed to market movements in a single country or region which
+ ISIN                                        LU0490618542                                may be adversely affected by political or economic developments, government
+                                                                                         action or natural events that do not affect a fund investing in broader markets.
+ Share class currency                        USD
+                                                                                         The Fund will enter into a derivative with a counterparty. If the counterparty fails
+ Fund Currency                               USD                                         to make payments (for example, it becomes insolvent) this may result in your
+ Fund launch date                            26/03/2010                                  investment suffering a loss.
+                                                                                         The following is applicable if you subscribe for or settle shares in a different
+ Share class launch date                     26/03/2010
+                                                                                         currency than the fund or share-class currency: Be aware of currency risk. You
+ Domicile                                    Luxembourg                                  will receive payments in a different currency, so the final return you will get
+ Portfolio Methodology                       Indirect Replication (Swap)                 depend on the exchange rate between the two currencies.
+                                             State Street Bank International GmbH,
+ Custodian
+                                             Luxembourg Branch
+                                                                                         Index key facts
+ All-in fee¹                                 0.15% p.a.
+ Income treatment                            Capitalizing                                 Index name                         S&P 500 INDEX
+ NAV per Share                               USD 155.42                                   Index provider                     S&P Dow Jones Indices LLC
+ Total Fund Assets                           USD 9.05 Billion                             Bloomberg symbol                   SPTR500N
+ Total Shares Outstanding                    26.93 Million                                Index base currency                USD
+ Reporting Fund                              Yes                                          Number of Index constituents       504
+
+¹ A Glossary can be found on etf.dws.com.                                                Source: Index Provider
+
+
+
+Performance
+                                                                                         Reference Index key features
+» Historical Performance (online)
+                                                                                         The S&P 500 Net Dividends Reinvested Index (Net USD) aims to reflect the
+                                                                                         performance of the following market:
+                                                                                         ̵ The 500 Largest companies listed in the USA
+Listing and trading information                                                          ̵ Covers approximately 80% of free-float market capitalisation
+                                                                                         ̵ Weighted by free-float adjusted market capitalisation
+                                            Bloomberg           Reuters    Trading
+ Exchange                                                                                ̵ Reviewed on a quarterly basis
+                                            Ticker              RIC        Currency
+                                                                                         Additional information on the index, selection and weighting methodology is
+ Borsa Italiana                             XSPX IM             XSPX.MI     EUR
+                                                                                         available at www.spglobal.com/spdji/en/
+ London Stock Exchange                      XSPU LN             XSPU.L      USD
+ London Stock Exchange                      XSPX LN             XSPX.L      GBX
+ SIX - Swiss Exchange                       XSPX SW             XSPX.S      CHF
+ XETRA                                      D5BM GY             D5BM.DE     EUR
+
+=== pdf p.2 ===
+Top 10 index constituents                                                           About Xtrackers by DWS
+                                                                                    Xtrackers, DWS’s global platform for Exchange Traded Funds (ETF) and
+Issuer                                        ISIN                Weight
+                                                                                    Exchange-traded commodity (ETC) solutions, began in 2007 with ETFs
+NVIDIA                                        US67066G1040             7.38%        tracking major leading indices.
+APPLE                                         US0378331005             6.59%
+                                                                                    Today, with approximately EUR 348 billion1 in UCITS assets under
+MICROSOFT                                     US5949181045             4.38%        management, Xtrackers is amongst the largest and most established ETF
+AMAZON COM INC                                US0231351067             3.60%        providers in Europe2.
+ALPHABET CLASS A                              US02079K3059              3.13%       With around 300 products, Xtrackers offers a comprehensive range of
+BROADCOM INC                                  US11135F1012             2.73%        efficient, high‑quality ETFs and ETCs across all major asset classes,
+ALPHABET CLASS C                              US02079K1079             2.50%        including equities, fixed income and commodities.
+MICRON TECHNOLOGY                             US5951121038             2.02%        The product offering continues to grow. Xtrackers products are currently
+META PLATFORMS CLASS A                        US30303M1027              1.91%       listed on eleven exchanges worldwide.
+TESLA INC                                     US88160R1014             1.69%        1
+                                                                                        Source: DWS, august 31, 2026
+                                                                                    2
+                                                                                        Source: Deutsche Bank ETF Research
+Source: DWS
+
+
+
+
+Further information on Xtrackers                                                    Additional information
+DWS Investments UK Limited             E-Mail: Xtrackers@dws.com                    A Glossary of Terms is available at Xtrackers.com.
+Xtrackers Team                         Website: www.Xtrackers.com
+21 Moorfields
+London EC2Y 9DB
+United Kingdom
+
+
+
+
+Disclaimer
+This document is intended for information purposes only and does not create         (KIID), all of which are available in English upon request to DWS Investment
+any legally binding obligations on the part of DWS Group GmbH & Co. KGaA            S.A., 2, Boulevard Konrad Adenauer, L-1115 Luxembourg or on www.Xtrackers.
+and/or its affiliates (DWS).                                                        com. A summary of investor rights is available at www.etf.dws.com under
+This document has been prepared without consideration of the investment             “About Us – How to Complain?”.
+needs, objectives or financial circumstances of any investor. Without
+limitation, this document does not constitute an offer, an invitation to offer or   PAST PERFORMANCE DOES NOT PREDICT FUTURE RETURNS.
+a recommendation to enter into any transaction.
+Before making an investment decision, investors need to consider, with or           © DWS Investments UK Limited, 2026. Authorised and regulated by the
+without the assistance of an investment adviser, whether the investments            Financial Conduct Authority.
+and strategies described or provided by DWS are appropriate in light of their
+particular investment needs, objectives and financial circumstances.
+Information in this document has been obtained or derived from sources
+believed to be reliable and current. However, accuracy or completeness of the
+                                                                                    Index Disclaimer
+sources cannot be guaranteed.                                                       The S&P 500 INDEX is a product of S&P Dow Jones Indices LLC or its
+This document is not directed to, or intended for distribution to or use by,        affiliates (“SPDJI”), and has been licensed for use by DWS. S&P®, S&P 500®,
+any person or entity who is a citizen or resident of or located in any locality,    US 500, The 500, iBoxx®, iTraxx® and CDX® are trademarks of S&P Global,
+state, country or other jurisdiction, including the United States, where            Inc. or its affiliates (“S&P”); Dow Jones® is a registered trademark of Dow
+such distribution, publication, availability or use would be contrary to law        Jones Trademark Holdings LLC (“Dow Jones”); these trademarks have been
+or regulation or which would subject DWS to any registration or licensing           licensed for use by SPDJI and sublicensed for certain purposes by DWS.
+requirement within such jurisdiction not currently met within such jurisdiction.    S&P 500 Swap UCITS ETF is not sponsored, endorsed, sold or promoted
+Persons into whose possession this document may come are required to                by SPDJI, Dow Jones, S&P, their respective affiliates, and none of such
+inform themselves of, and to observe, such restrictions.                            parties make any representation regarding the advisability of investing in
+Xtrackers is an undertaking for collective investment in transferable securities    such product(s) nor do they have any liability for any errors, omissions, or
+(UCITS) in accordance with the applicable laws and regulations and set up           interruptions of the S&P 500 INDEX.
+as open-ended investment company with variable capital and segregated
+liability amongst its respective compartments.
+Investors must buy and must usually sell shares in Xtrackers UCITS ETFs on a
+secondary market with the assistance of an intermediary (e.g. a stockbroker)
+and may incur fees for doing so. In addition, investors may pay more than
+the current net asset value when buying shares and may receive less than
+the current net asset value when selling them. Before making any investment
+decision, investors should refer to the Risk Factors in the Prospectus and Key
+Investor Information Document.
+Tax treatment of the Xtrackers UCITS ETFs depends on the individual
+circumstances of each investor.
+Xtrackers is incorporated in the Grand Duchy of Luxembourg, is registered
+with the Luxembourg Trade and Companies’ Register under number B-119.899
+and has its registered office at 49, avenue J.F. Kennedy, L-1855 Luxembourg.
+DWS Investment S.A. acts as the management company of Xtrackers. The
+Investment Company may decide to terminate the arrangements made for
+the marketing of this fund.
+Any investment decision in relation to a fund should be based solely on the
+latest version of the prospectus, the audited annual and, if more recent, un-
+audited semi-annual reports and the Key Investor Information Document
+

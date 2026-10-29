@@ -1,0 +1,144 @@
+=== pdf p.1 ===
+                                   Key Investor Information
+                                   This document provides you with key investor information about this Fund. It is not marketing
+                                   material. The information is required by law to help you understand the nature and the risks of
+                                   investing in this Fund. You are advised to read it so you can make an informed decision about
+                                   whether to invest.
+Invesco S&P 500 UCITS ETF (the "Fund")
+A sub-fund of Invesco Markets plc (the "Umbrella Fund")
+Acc (ISIN: IE00B3YCGJ38) (the "Share Class")
+The Fund is managed by Invesco Investment Management Limited, part of the Invesco Group.
+
+Objectives and Investment Policy
+-   The Fund is a passively managed Exchange-Traded Fund ("ETF"), which aims to achieve the net total return performance of the S&P 500 Index (the
+    "Index")1, less fees, expenses and transaction costs.
+-   To achieve the objective the Fund will use unfunded swaps ("Swaps"). These Swaps are an agreement between the Fund and an approved
+    counterparty to exchange one stream of cash flows against another stream but do not require the Fund to provide collateral, on the basis that the
+    Fund has already invested in a basket of equities and equity related securities (namely shares). Please note that the Fund will purchase securities that
+    are not contained in the Index. The performance of the Index is swapped from the counterparty to the Fund in exchange for the performance of
+    equities and equity related securities held by the Fund.
+-   The Fund's shares are listed on one or more Stock Exchange(s). Investors can buy or sell shares daily through an intermediary directly or on Stock
+    Exchange(s) on which the shares are traded. In exceptional circumstances investors will be permitted to redeem their shares directly from Invesco
+    Markets plc in accordance with the redemption procedures set out in the prospectus, subject to any applicable laws and relevant charges.
+-   The Fund’s base currency is USD.
+-   Dividend Policy: This Share Class does not pay you income, but instead reinvests it to grow your capital, in line with its stated objectives.
+-   Net Asset Value: This is calculated daily and the Fund is open for redemptions on each day on which the United States Federal Reserve System is
+    open. Please refer to the prospectus for further information.
+-   The Index: The Index is an index of listed equities which focuses on the large cap segment of the US market. It includes 500 US companies with a
+    market capitalisation greater than US$ 5 billion and listed on the NYSE or one of the NASDAQ exchange. Index constituents are select ed by the
+    index committee using a series of rules as guideline. The Index is rebalanced on a monthly basis.
+
+Risk and Reward Profile
+Lower Risk                                                         Higher Risk      Other Risks
+                                                                                    -   General Investment Risk: The value of investments, and any income
+Typically lower rewards                                  Typically higher rewards       from them, will fluctuate. This may partly be the result of changes in
+                                                                                        exchange rates. Investors may not get back the full amount invested.
+     1           2         3           4          5          6           7          -   Country Concentration Risk: The Fund is invested in a particular
+                                                                                        geographical region, which might result in greater fluctuations in the
+                                                                                        value of the Fund than for a fund with a broader geographical
+-   The Share Class is in risk category 6 due to the rises and falls of its             investment mandate.
+    price or simulated data in the past.                                            -   Equity Risk: The value of equities and equity-related securities can be
+-   As the Share Class' risk category has been calculated using historical              affected by a number of factors including the activities and results of
+    data, it may not be a reliable indication of the Share Class' future risk           the issuer and general and regional economic and market conditions.
+    profile.                                                                            This may result in fluctuations in the value of the Fund.
+-   The risk category may change in the future and is not guaranteed.               -   Synthetic ETF Risk: The Fund might purchase securities that are not
+-   The lowest category does not mean a risk free investment.                           contained in the reference index and will enter into swap agreements to
+                                                                                        exchange the performance of those securities for the performance of
+                                                                                        the reference index.
+                                                                                    -   Use of Derivatives for Index Tracking Risk: The Fund’s ability to
+                                                                                        track the benchmark’s performance is reliant on the counterparties to
+                                                                                        continuously deliver the performance of the Index in line with the swap
+                                                                                        agreements and would also be affected by any spread between the
+                                                                                        pricing of the swaps and the pricing of the Index. The insolvency of any
+                                                                                        institutions providing services such as safekeeping of assets or acting
+                                                                                        as counterparty to derivatives or other instruments, may expose the
+                                                                                        Fund to financial loss.
+                                                                                    -   For more information on risks, please see the Fund supplement and
+                                                                                        prospectus under "Risk Factors", which is available at
+                                                                                        http://etf.invesco.com (select your country and navigate to the
+                                                                                        Prospectus on the Documents section on the product page).
+
+
+
+
+1
+ This document provides a summary of the principal features of the Index, the complete description of the Index (available from the Index provider) shall
+at all times prevail. Investors should note that the Index is the intellectual property of the Index provider.
+The Fund is not sponsored or endorsed by the Index provider and a full disclaimer can be found in the Fund’s supplement.
+
+=== pdf p.2 ===
+Charges
+The charges you pay are used to pay the costs of running the Fund, including the costs of marketing and distributing it. These charges reduce the
+potential growth of your investment.
+
+    One-off charges taken before or after you invest                              -   *Currently, the Fund is not exercising its entitlement to apply entry and
+                                                                                      exit charges.
+    Entry charge                                               None*              -   The ongoing charge is based on the fee paid to the Manager. The
+    Exit charge                                                None*                  Manager is responsible for discharging from its fee, costs attributable to
+    Any charges shown above are the maximum that might be taken out of                the Investment Manager, Administrator, Depositary as well as the
+    your money before it is invested.                                                 Operational Expenses incurred by the Fund. It excludes portfolio
+                                                                                      transaction costs except in the case of an entry or exit charge paid by
+    Charges taken from the Share Class over the year                                  the Fund when buying or selling shares/units in another fund.
+    Ongoing charge                                             0.05%              -   Because the Fund is an ETF, investors will typically only be able to buy
+    Charges taken from the Share Class under certain specific                         or sell shares in the secondary market. Accordingly, investors may
+                                                                                      incur brokerage and / or transaction fees in connection with their
+    conditions
+                                                                                      dealings. Investors may also bear the costs of "bid-ask" spreads;
+    Performance fee                                             None                  meaning the difference between the prices at which shares can be
+                                                                                      bought and sold. You should discuss these fees and costs with your
+                                                                                      broker before you invest, as they may reduce the amount of your initial
+                                                                                      investment and the amount you receive on disposal.
+                                                                                  -   For more information on charges, please see the relevant charges
+                                                                                      section in the Fund supplement under "General Information Relating to
+                                                                                      the Fund", which is available at http://etf.invesco.com (select your
+                                                                                      country and navigate to the Documents section on the product page).
+
+Past Performance
+                                                                                  -   The Fund launched in 2010.
+    % growth                                                                      -   The Share Class launched in 2010.
+          40                                                                      -   The base currency of the Fund is USD.
+                                                                                  -   Past performance of the Share Class is calculated in USD.
+          30                                                                      -   Performance is calculated after deduction of ongoing charges, portfolio
+                                                                                      transactions costs and is inclusive of gross income reinvested. Any
+          20                                                                          entry /exit charges shown are excluded from the calculation.
+                                                                                  -   Past performance is not a guide to future performance.
+          10
+
+           0
+
+         -10
+
+         -20
+               2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+    Share Class 11.5 21.4 -4.5 31.4 18.3 28.6 -18.2 26.2 24.9 17.8
+    Index       11.2 21.1 -4.9 30.7 17.7 28.2 -18.5 25.7 24.5 17.4
+
+
+Practical Information
+-     Fund Depositary: Northern Trust Fiduciary Services (Ireland) Limited, George’s Court, 54 – 62 Townsend Street, Dublin 2, Ireland.
+-     Tax: This Fund is subject to the tax laws and regulations of Ireland. Depending on your home country of residence, this might have an impact on your
+      investment. For further details, please speak to an adviser. Local taxes may have an impact on the personal tax of your investment in the Fund.
+-     Additional Information: The share prices are published in USD, on each business day. The prices are available from the administrator during normal
+      business hours and on the following website http://etf.invesco.com.
+-     Find out more: This document is specific to the Fund. Further information about the Fund can be obtained from the supplement, the prospectus,
+      annual and interim reports. The prospectus, annual and interim reports are prepared for the Umbrella Fund, of which the Fund is a sub-fund. These
+      documents are available free of charge in English. They can be obtained along with other information, such as share prices, at http://etf.invesco.com
+      (select your country and navigate to the Documents section on the product page), or by calling +353 1 439 8000.
+-     Details of the Manager's remuneration policy are available at www.invescomanagementcompany.ie and a paper copy is available to investors free of
+      charge upon request.
+-     The Umbrella Fund is incorporated in Ireland and authorised by the Central Bank of Ireland as a limited liability umbrella type open ended UCITS
+      investment company with variable capital. Pursuant to Irish law, the assets of the Fund are segregated from other sub-funds in the Umbrella Fund (i.e.
+      the Fund’s assets may not be used to discharge the liabilities of other sub-funds of the Umbrella Fund). This position may be considered differently by
+      the courts in jurisdictions outside of Ireland.
+-     Subject to satisfying certain criteria as set out in the prospectus, investors may be able to exchange their investment in the Fund for shares in another
+      sub-fund of the Umbrella Fund which is being offered at that time.
+-     The Umbrella Fund may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent
+      with the relevant parts of the prospectus.
+
+
+
+
+This Fund is authorised in Ireland and regulated by the Central Bank of Ireland.
+Invesco Investment Management Limited is authorised in Ireland and regulated by the Central Bank of Ireland
+This key investor information is accurate as at 26 June 2026.
+

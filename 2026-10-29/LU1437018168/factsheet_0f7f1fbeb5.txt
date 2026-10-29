@@ -1,0 +1,512 @@
+=== pdf p.1 ===
+         AMUNDI INDEX EURO CORPORATE SRI - UCITS ETF DR
+                                                                                                                                                                                               FACTSHEET
+
+                                                                                                                                                                                               Marketing
+                                                                                                                                                                                             Communication
+ BOND ■
+                                                                                                                                                                                                30/04/2024
+
+
+  IMPORTANT INFORMATION FOR INVESTORS IN FRANCE
+  INVESTORS ATTENTION IS DRAWN TO THE FACT THAT, IN THE OPINION OF THE FRENCH AUTHORITY OF FINANCIAL MARKETS, THIS UCITS FUND COMMUNICATES DISPROPORTIONAITLY ON THE CONSIDERATION
+  OF NON-FINANCIAL CRITERIA IN ITS MANAGEMENT.
+
+
+Key Information (Source: Amundi)                                              Objective and Investment Policy                                                Risk Indicator (Source : Fund Admin)
+
+  Net Asset Value (NAV) : (A) 49.90 ( EUR )                                    The objective of the Sub-Fund is to track the
+                          (D) 44.98 ( EUR )                                    performance of the Bloomberg Barclays MSCI Euro
+                                                                               Corporate ESG Sustainability SRI Index and to minimize
+  NAV and AUM as of : 30/04/2024                                               the tracking error between the net asset value of the Sub-                         Lower Risk                                        Higher Risk
+  Assets Under Management (AUM) :                                              Fund and the performance of the Index. The Sub-Fund
+   5,311.03 ( million EUR )                                                    aims to achieve a level of tracking error of the Sub-Fund                            The risk indicator assumes you keep the product for 4
+  ISIN code : (A) LU1437018168                                                 and its index which will not normally exceed 1%.                               years.
+                                                                               The Index is a coupons reinvested index: coupons paid                          The summary risk indicator is a guide to the level of risk of
+              (D) LU1737653987                                                 by the debt securities comprising the index are included                       this product compared to other products. It shows how
+  Replication type : Physical                                                  in the performance of the Index.                                               likely it is that the product will lose money because of
+  Benchmark :                                                                  The Bloomberg Barclays MSCI Euro Corporate ESG                                 movement in the markets or because we are not able to pay
+   100% BLOOMBERG MSCI EURO CORPORATE ESG                                      Sustainability SRI Index is a bond index representative of                     you.
+   SUSTAINABILITY SRI                                                          investment grade ﬁxed rate corporate bonds
+                                                                               denominated in euro that follows the rules of the
+  Eligibility : Securities account, life insurance                             Bloomberg Barclays Euro Aggregate Corporate Index (the
+                                                                               “ Framework index ”) and applies additional sector and
+                                                                               ESG criteria for stock selection.
+
+Returns (Source: Fund Admin) - Past performance does not predict future returns
+
+Performances from 11/11/2016 to 30/04/2024 (Source : Fund Admin)                                                                                             Risk indicators (Source: Fund Admin)
+
+   120                                                                                                                                                                               1 year 3 years Inception to date *
+            A                                     B                                    C
+                                                                                                                                                              Portfolio volatility   3.89% 5.00%          4.07%
+                                                                                                                                                              Benchmark volatility 3.89% 5.00%            4.06%
+                                                                                                                                                              Ex-post Tracking Error 0.03% 0.04%          0.05%
+   110
+                                                                                                                                                              Sharpe ratio            0.27 -0.83           -0.08
+                                                                                                                                                             * Volatility is a statistical indicator that measures an asset’s variations
+                                                                                                                                                             around its average value. For example, market variations of +/- 1.5% per
+                                                                                                                                                             day correspond to a volatility of 25% per year.
+   100
+                                                                                                                                                             The Tracking Error indicator measures the performance's diﬀerence
+                                                                                                                                                             between the fund and the benchmark
+
+
+    90
+                /17
+
+
+                         /17
+
+
+                                   /18
+
+
+                                            /18
+
+
+                                                        /19
+
+
+                                                                /19
+
+
+                                                                        /20
+
+
+                                                                                 /20
+
+
+                                                                                             /21
+
+
+                                                                                                     /21
+
+
+                                                                                                              /22
+
+
+                                                                                                                      /22
+
+
+                                                                                                                                /23
+
+
+                                                                                                                                          /23
+
+
+                                                                                                                                                    /24
+              04
+
+
+                       10
+
+
+                                 04
+
+
+                                          10
+
+
+                                                      04
+
+
+                                                              10
+
+
+                                                                      04
+
+
+                                                                               10
+
+
+                                                                                           04
+
+
+                                                                                                   10
+
+
+                                                                                                            04
+
+
+                                                                                                                    10
+
+
+                                                                                                                              04
+
+
+                                                                                                                                        10
+
+
+                                                                                                                                                  04
+
+
+
+
+                                                               Portfolio        Benchmark
+
+A : Until the end of this period, the reference indicator of the Sub-Fund was Bloomberg Barclays Euro Aggregate Corporate
+Index
+B : Until the end of this period, the reference indicator of the Sub-Fund was Bloomberg Barclays MSCI Euro Corporate SRI
+Index.
+C : Since the beginning of this period, the reference indicator of the sub-fund is Bloomberg Barclays MSCI Euro Corporate
+ESG Sustainability SRI
+Cumulative returns* (Source: Fund Admin)
+
+                          YTD              1 month             3 months           1 year             3 years          5 years             Since
+ Since                 29/12/2023         28/03/2024          31/01/2024       28/04/2023          30/04/2021       30/04/2019         11/11/2016
+ Portfolio               -0.50%             -0.87%              -0.60%            4.80%              -8.04%           -4.55%              0.03%
+ Benchmark               -0.45%             -0.85%              -0.56%            5.05%              -7.28%           -3.45%              1.67%
+ Spread                  -0.05%             -0.02%              -0.04%           -0.25%              -0.76%           -1.10%             -1.65%
+
+Calendar year performance* (Source: Fund Admin)
+
+                           2023            2022           2021          2020        2019            2018         2017       2016      2015      2014
+ Portfolio                7.66%          -13.78%         -1.19%        2.46%       5.84%           -1.38%       2.23%         -         -         -
+ Benchmark                7.99%          -13.48%         -0.99%        2.62%       6.02%           -1.21%       2.41%         -         -         -
+ Spread                  -0.33%           -0.30%         -0.20%       -0.16%      -0.18%           -0.17%      -0.19%         -         -         -
+
+
+* Source : Amundi. The above cover complete periods of 12 months for each calendar year. Past performance is no predictor of current and future
+results and does not guarantee future yield . Any losses or gains do not take into consideration any costs, commissions and fees incurred by the
+investor in the issue and buyout of the shares (e.g. taxes, brokerage fees or other commissions deducted by the ﬁnancial intermediary). If performance
+is calculated in a currency other than the euro, any losses or gains generated can thereby be aﬀected by exchange rate ﬂuctuations (both upward and
+downward). The discrepancy accounts for the performance diﬀerence between the portfolio and the index.
+
+
+
+
+                                                                                                                                        ■ www.amundi.fr
+                                                                                                                This material is solely for the attention of “professional” investors.
+
+=== pdf p.2 ===
+     AMUNDI INDEX EURO CORPORATE SRI - UCITS ETF DR
+                                                                                                                                                                                                     FACTSHEET
+
+                                                                                                                                                                                                       Marketing
+
+BOND ■                                                                                                                                                                                              Communication
+                                                                                                                                                                                                      30/04/2024
+
+
+
+Portfolio Data (Source: Amundi)
+
+Information (Source: Amundi)                                                                                   Portfolio Indicators (Source: Fund Admin)
+ Asset class : Bond
+                                                                                                                                                                                                        Portfolio
+ Exposure : Eurozone
+                                                                                                                Modified duration ¹                                                                       4.17
+                                                                                                                Median rating ²                                                                          BBB+
+ Holdings : 2739                                                                                                Yield To Maturity                                                                        3.93%
+                                                                                                               ¹ Modiﬁed duration (in points) estimates a bond portfolio’s percentage price change for 1% change in yield
+                                                                                                               ² Based on cash bonds and CDS but excludes other types of derivatives
+
+
+
+Portfolio Breakdown (Source: Amundi)
+
+By maturity (Source: Amundi)                                                                                   By rating (source : Amundi)
+  40 %                                                                                                            50 %
+                                                                                                                                                                          46.47 %
+                                                                                                                                                          43.66 %
+                       31.21 %
+                                 30.10 %                                                                          40 %
+  30 %
+
+
+                                                                                                                  30 %
+  20 %
+                                           16.56 %
+
+                                                                                                                  20 %
+            10.04 %                                  9.35 %
+  10 %
+
+
+                                                                                                                  10 %                       9.43 %
+                                                                   1.92 %
+                                                                            0.63 %    0.19 %
+   0%
+               q
+
+
+
+                       2Y
+
+
+
+                                  5Y
+
+
+
+                                           7Y
+
+
+
+                                                       Y
+
+
+
+                                                                 Y
+
+
+
+                                                                              Y
+
+
+
+                                                                                       Y
+
+
+
+                                                                                                  n
+
+
+
+
+                                                                                                                              0.25 %                                                   0.02 %        0.03 %          0.14 %
+                                                                                                 w
+             Li
+
+
+
+
+                                                     10
+
+
+
+                                                               15
+
+
+
+                                                                            20
+
+
+
+                                                                                     30
+
+
+
+
+                                                                                                                   0%
+                                                                                               no
+                                                                                             nk
+
+
+
+
+                                                                                                                                AAA            AA              A            BBB          BB            NR            Others
+                                                                                            U
+
+
+
+
+                                                 Portfolio                                                                                                             Portfolio
+
+By issuer (Source: Amundi)                                                                                     By country (source : Amundi)
+
+                                                                                                                            France                                                                                 22.02 %
+      Industrials                                                                            54.05 %                 United States                                                                       20.00 %
+                                                                                                                          Germany                                                  12.51 %
+                                                                                                                  United Kingdom                                      8.30 %
+         Financials                                                               45.70 %
+                                                                                                                             Spain                              7.19 %
+                                                                                                                      Netherlands                            5.83 %
+
+    PBF & FONC         0.11 %                                                                                                  Italy                   4.59 %
+                                                                                                                           Sweden                   3.28 %
+                                                                                                                       Switzerland              2.77 %
+  Sovereign EMU                                                                                                              Japan            1.92 %
+                                                                                                                          Australia          1.81 %
+                                                                                                                            Finland          1.64 %
+            Others
+                                                                                                                           Belgium          1.31 %
+                                                                                                                          Denmark           1.24 %
+
+             Cash      0.14 %                                                                                               Ireland         1.06 %
+                                                                                                                            Others                     4.53 %
+
+                      0%         10 %       20 %            30 %        40 %         50 %       60 %                                   0%              5%               10 %           15 %           20 %           25 %
+
+                                                Portfolio                                                                                                             Portfolio
+
+
+
+
+                                                                                          Amundi Asset Management, SAS (French : Société par Actions Simpliﬁée)
+                                                                                                                with a capital of 1 143 615 555 €
+                                                                                           AMF approved Portfolio Management Company- GP number 04000036
+                                                                                  Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                             This material is solely for the attention of “professional” investors.
+
+=== pdf p.3 ===
+     AMUNDI INDEX EURO CORPORATE SRI - UCITS ETF DR
+                                                                                                                                                                                FACTSHEET
+
+
+                                                                                                                                                                                  Marketing
+
+BOND ■                                                                                                                                                                          Communication
+                                                                                                                                                                                 30/04/2024
+
+
+
+
+Principal characteristics (Source : Amundi)
+
+ Fund structure                                                                                                                     SICAV under Luxembourg law
+ UCITS compliant                                                                                                                                  UCITS
+ Management Company                                                                                                                    Amundi Luxembourg SA
+ Administrator                                                                                                                   CACEIS Bank, Luxembourg Branch
+ Custodian                                                                                                                       CACEIS Bank, Luxembourg Branch
+ Independent auditor                                                                                                     PRICEWATERHOUSECOOPERS LUXEMBOURG
+ Share-class inception date                                                                                                                    29/06/2016
+ Date of the ﬁrst NAV                                                                                                                          11/11/2016
+ Share-class reference currency                                                                                                                    EUR
+ Classiﬁcation                                                                                                                               Not applicable
+ Type of shares                                                                                                                             (A) Accumulation
+                                                                                                                                             (D) Distribution
+ ISIN code                                                                                                                                 (A) LU1437018168
+                                                                                                                                           (D) LU1737653987
+ Minimum investment to the secondary market                                                                                                     1 Share(s)
+ Frequency of NAV calculation                                                                                                                     Daily
+ Management fees and other administrative or operating costs                                                                                     0.14%
+ Minimum recommended investment period                                                                                                           4 years
+ French tax wrapper                                                                                                                                  -
+ Fiscal year end                                                                                                                               December
+ Primary Market Maker                                                                                                                            SGCIB
+
+
+
+
+Listing data (source : Amundi)
+                Place                         Hours            CCY      Mnemo             Bloomberg Ticker                    Bloomberg iNAV                   Reuters RIC         Reuters iNAV
+        London Stock Exchange              8:00 - 16:30        GBX       ECRP                 ECRP LN                                -                         AMNECRP.L                -
+             Borsa Italiana                9:00 - 17:30        EUR       ECRP                 ECRP IM                             IECRP                         ECRPI.MI           IECRPINAV.PA
+           Deutsche Börse                  9:00 - 17:30        EUR       A4H8                 A4H8 GY                             IECRP                         A4H8.DE            IECRPINAV.PA
+          Nyse Euronext Paris              9:05 - 17:35        EUR       ECRP                 ECRP FP                             IECRP                        AMECRP.PA           IECRPINAV.PA
+
+
+
+Contact
+
+ETF Sales contact                                                                                 ETF Capital Markets contact
+France & Luxembourg                             +33 (0)1 76 32 65 76                              Téléphone                                              +33 (0)1 76 32 19 93
+Germany & Austria                               +49 (0) 800 111 1928                              Bloomberg IB Chat                                      Capital Markets Amundi ETF
+Italy                                           +39 02 0065 2965                                                                                         Capital Markets Amundi HK ETF
+Switzerland (German)                            +41 44 588 99 36
+                                                                                                  ETF Market Makers contact
+Switzerland (French)                            +41 22 316 01 51
+United Kingdom                                  +44 (0) 20 7 074 9598                             SG CIB                                                 +33 (0)1 42 13 38 63
+UNITED KINGDOM (Instit)                         +44 (0) 800 260 5644                              BNP Paribas                                            +44 (0) 207 595 1844
+Netherlands                                     +31 20 794 04 79
+Nordic countries                                +46 8 5348 2271
+                                                                                                  Amundi contact
+Hong Kong                                       +65 64 39 93 50
+Spain                                           +34 914 36 72 45                                  Amundi ETF
+                                                                                                  90 bd Pasteur
+                                                                                                  CS 21564
+                                                                                                  75 730 Paris Cedex 15 - France
+                                                                                                  Hotline : +33 (0)1 76 32 47 74
+                                                                                                  info@amundietf.com
+
+
+
+
+                                                                             Amundi Asset Management, SAS (French : Société par Actions Simpliﬁée)
+                                                                                                   with a capital of 1 143 615 555 €
+                                                                              AMF approved Portfolio Management Company- GP number 04000036
+                                                                     Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                This material is solely for the attention of “professional” investors.
+
+=== pdf p.4 ===
+     AMUNDI INDEX EURO CORPORATE SRI - UCITS ETF DR
+                                                                                                                                                                             FACTSHEET
+
+
+                                                                                                                                                                              Marketing
+
+BOND ■                                                                                                                                                                      Communication
+                                                                                                                                                                              30/04/2024
+
+
+
+Index Providers
+
+ BLOOMBERG® is a trademark and service mark of Bloomberg Finance L.P. BARCLAYS® is a trademark and service mark of Barclays Bank Plc, used under license. Bloomberg Finance
+ L.P. and its aﬃliates, including Bloomberg Index Services Limited (“BISL”) (collectively, “Bloomberg”), or Bloomberg’s licensors own all proprietary rights in the “BLOOMBERG MSCI EURO
+ CORPORATE ESG SUSTAINABILITY SRI.” Neither Barclays Bank PLC, Barclays Capital Inc., nor any aﬃliate (collectively “Barclays”) nor Bloomberg is the issuer or producer of AMUNDI
+ INDEX EURO CORPORATE SRI and neither Bloomberg nor Barclays has any responsibilities, obligations or duties to investors in AMUNDI INDEX EURO SRI
+ The BLOOMBERG MSCI EURO CORPORATE ESG SUSTAINABILITY SRI Index is licensed for use by Amundi Asset Management as the Issuer of AMUNDI INDEX EURO AGG SRI.
+ The only relationship of Bloomberg and Barclays with the Issuer in respect of Bloomberg Barclays MSCI Euro Aggregate Sustainability SRI Sector Neutral Index is the licensing of the
+ BLOOMBERG MSCI EURO CORPORATE ESG SUSTAINABILITY SRI Index, which is determined, composed and calculated by BISL, or any successor thereto, without regard to the Issuer
+ or the AMUNDI INDEX EURO CORPORATE SRI or the owners of the AMUNDI INDEX EURO AGG SRI.
+ Additionally, Amundi Asset Manager of the Sub-fund may for itself execute transaction(s) with Barclays in or relating to the BLOOMBERG MSCI EURO CORPORATE ESG SUSTAINABILITY
+ SRI Index in connection with the Sub-fund.
+ Investors acquire AMUNDI INDEX EURO CORPORATE SRI from Amundi Asset Manager and investors neither acquire any interest in BLOOMBERG MSCI EURO CORPORATE ESG
+ SUSTAINABILITY SRI Index nor enter into any relationship of any kind whatsoever with Bloomberg or Barclays upon making an investment in the Sub-fund.
+ The Sub-fund are not sponsored, endorsed, sold or promoted by Bloomberg or Barclays. Neither Bloomberg nor Barclays makes any representation or warranty, express or implied,
+ regarding the advisability of investing in the Sub-fund or the advisability of investing in securities generally or the ability of the BLOOMBERG MSCI EURO CORPORATE ESG
+ SUSTAINABILITY SRI Index to track corresponding or relative market performance. Neither Bloomberg nor Barclays has passed on the legality or suitability of the Sub-fund with respect to
+ any person or entity. Neither Bloomberg nor Barclays is responsible for or has participated in the determination of the timing of, prices at, or quantities of the Sub-fund to be issued. Neither
+ Bloomberg nor Barclays has any obligation to take the needs of the Issuer or the owners of the Sub-fund or any other third party into consideration in determining, composing or calculating
+ the BLOOMBERG MSCI EURO CORPORATE ESG SUSTAINABILITY SRI Index. Neither Bloomberg nor Barclays has any obligation or liability in connection with administration, marketing or
+ trading of the Sub-fund.
+ The licensing agreement between Bloomberg and Barclays is solely for the beneﬁt of Bloomberg and Barclays and not for the beneﬁt of the owners of the Sub-fund, investors or other third
+ parties. In addition, the licensing agreement between Amundi Asset Management and Bloomberg is solely for the beneﬁt of Amundi Asset Management and Bloomberg and not for the
+ beneﬁt of the owners of the Sub-fund, investors or other third parties.
+ NEITHER BLOOMBERG NOR BARCLAYS SHALL HAVE ANY LIABILITY TO THE ISSUER, INVESTORS OR OTHER THIRD PARTIES FOR THE QUALITY, ACCURACY AND/OR
+ COMPLETENESS OF THE BLOOMBERG MSCI EURO CORPORATE ESG SUSTAINABILITY SRI OR ANY DATA INCLUDED THEREIN OR FOR INTERRUPTIONS IN THE DELIVERY OF THE
+ Bloomberg Barclays MSCI Euro Aggregate Sustainability SRI Sector Neutral Index. NEITHER BLOOMBERG NOR BARCLAYS MAKES ANY WARRANTY, EXPRESS OR IMPLIED, AS TO
+ RESULTS TO BE OBTAINED BY THE ISSUER, THE INVESTORS OR ANY OTHER PERSON OR ENTITY FROM THE USE OF THE Bloomberg Barclays MSCI Euro Aggregate Sustainability
+ SRI Sector Neutral Index OR ANY DATA INCLUDED THEREIN. NEITHER BLOOMBERG NOR BARCLAYS MAKES ANY EXPRESS OR IMPLIED WARRANTIES, AND EACH HEREBY
+ EXPRESSLY DISCLAIMS ALL WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE WITH RESPECT TO THE Bloomberg Barclays MSCI Euro
+ Aggregate Sustainability SRI Sector Neutral Index OR ANY DATA INCLUDED THEREIN. BLOOMBERG RESERVES THE RIGHT TO CHANGE THE METHODS OF CALCULATION OR
+ PUBLICATION, OR TO CEASE THE CALCULATION OR PUBLICATION OF THE Bloomberg Barclays MSCI Euro Aggregate Sustainability SRI Sector Neutral Index, AND NEITHER
+ BLOOMBERG NOR BARCLAYS SHALL BE LIABLE FOR ANY MISCALCULATION OF OR ANY INCORRECT, DELAYED OR INTERRUPTED PUBLICATION WITH RESPECT TO ANY OF THE
+ Bloomberg Barclays MSCI Euro Aggregate Sustainability SRI Sector Neutral Index. NEITHER BLOOMBERG NOR BARCLAYS SHALL BE LIABLE FOR ANY DAMAGES, INCLUDING,
+ WITHOUT LIMITATION, ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY LOST PROFITS, EVEN IF ADVISED OF THE POSSIBLITY OF SUCH, RESULTING FROM THE
+ USE OF THE Bloomberg Barclays MSCI Euro Aggregate Sustainability SRI Sector Neutral Index OR ANY DATA INCLUDED THEREIN OR WITH RESPECT TO THE AMUNDI INDEX EURO
+ AGG SRI.
+ None of the information supplied by Bloomberg or Barclays and used in this publication may be reproduced in any manner without the prior written permission of both Bloomberg and
+ Barclays Capital, the investment banking division of Barclays Bank PLC. Barclays Bank PLC is registered in England No. 1026167, registered oﬃce 1 Churchill Place London E14 5HP
+
+
+
+Important information
+
+ This document is provided for information purposes only and does not constitute a recommendation, a solicitation, an oﬀer, advice or an invitation to purchase or sell any units or shares of
+ the fund (FCP), collective employee fund (FCPE), SICAV, SICAV sub-fund or SICAV investing primarily in real estate (SPPICAV) (collectively, “the Funds”) described herein and should in no
+ case be interpreted as such. This document is not a contract or commitment of any form. Information contained in this document may be altered without notice. The management company
+ accepts no liability whatsoever, whether direct or indirect, that may arise from the use of information contained in this document. The management company can in no way be held
+ responsible for any decision or investment made on the basis of information contained in this document. The information contained in this document is disclosed to you on a conﬁdential
+ basis and shall not be copied, reproduced, modiﬁed, translated or distributed without the prior written approval of the management company, to any third person or entity in any country or
+ jurisdiction which would subject the management company or any of the funds, to any registration requirements within these jurisdictions or where it might be considered as unlawful. Not
+ all of the funds are systematically registered in all jurisdictions of all investors. Investment involves risk. The past performances shown in this document, and simulations based on these, do
+ not guarantee future results, nor are they reliable indicators of future performance. The value of an investment in units or shares of the funds may ﬂuctuate according to market conditions
+ and cause the value of an investment to go up or down. As a result, fund investors may lose all or part of the capital originally invested. All potential investors in the funds are advised to
+ ascertain whether such an investment is compatible with the laws to which they are subject and the tax implications of such an investment prior to investing, and to familiarise themselves
+ with the legal documents in force for each fund. Concerning mandates, this document is a part of the periodic statement of the management activities of your portfolio and must be read in
+ conjunction with any other periodic statement or notice of conﬁrmation provided by your custodian and related to the transactions of your portfolio. Unless stated otherwise, the
+ management company is the source of the data in this document. The date of the data in this document is that indicated at the top of the document, unless otherwise stated.
+
+
+
+
+ This document is designed exclusively for institutional, professional, qualiﬁed or sophisticated investors and distributors. It is not meant for the general public or private clients of any
+ jurisdiction or those qualiﬁed as 'US Persons'. Approved investors in regard to the European Union are those which are deﬁned as "Professional" investors in Directive 2004/39/EC of 21
+ April 2004 "MiFID" or, as the case may be, as deﬁned under each local legislation and, insofar as the oﬀer in Switzerland is concerned, "qualiﬁed investors" as set forth in the federal Law on
+ Collective Investments (LPCC), the Ordinance on collective investments of 22 November 2006 (OPCC) and the FINMA 08/8 Circular regarding the legislation on collective investments of 20
+ November 2008. This document shall not, under any circumstance, be sent within the European Union to non "Professional" investors as deﬁned by the MFI or under each local legislation,
+ or in Switzerland to those investors which are not deﬁned as "qualiﬁed investors" in the applicable law and regulations.
+
+
+
+
+                                                                                 Amundi Asset Management, SAS (French : Société par Actions Simpliﬁée)
+                                                                                                       with a capital of 1 143 615 555 €
+                                                                                  AMF approved Portfolio Management Company- GP number 04000036
+                                                                         Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                    This material is solely for the attention of “professional” investors.
+

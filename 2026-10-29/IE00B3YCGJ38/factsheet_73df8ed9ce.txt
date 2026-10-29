@@ -1,0 +1,148 @@
+=== pdf p.1 ===
+                                                 This marketing communication is for consumer use in the UK only. Investors should read the legal documents prior to investing.
+
+
+
+
+                                                                                                                                                 As of 30 September 2026
+
+Invesco S&P 500 UCITS ETF Acc
+ SPXS
+Fund objective                                                  Investment risks
+The Invesco S&P 500 UCITS ETF Acc aims to track the net         For complete information on risks, refer to the legal documents. The value of investments, and any income from them, will
+total return performance of the S&P 500 Index, less fees.       fluctuate. This may partly be the result of changes in exchange rates. Investors may not get back the full amount invested. The
+On 15 December 2025, the share class underwent a stock          Fund’s ability to track the benchmark’s performance is reliant on the counterparties to continuously deliver the performance of the
+split. The net asset value per share was decreased by a         benchmark in line with the swap agreements and would also be affected by any spread between the pricing of the swaps and the
+factor of 100, and the number of shares was simultaneously      pricing of the benchmark. The insolvency of any institutions providing services such as safekeeping of assets or acting as
+increased by 100 (“Stock Split”). This resulted in an           counterparty to derivatives or other instruments, may expose the Fund to financial loss. The value of equities and equity-related
+increase in outstanding shares, though their total net asset    securities can be affected by a number of factors including the activities and results of the issuer and general and regional
+value remained unchanged.                                       economic and market conditions. This may result in fluctuations in the value of the Fund. The fund might purchase securities that
+                                                                are not contained in the reference index and will enter into swap agreements to exchange the performance of those securities for
+An investment in this fund is an acquisition of units in a      the performance of the reference index. The Fund is invested in a particular geographical region, which might result in greater
+passively managed, index tracking fund rather than in           fluctuations in the value of the Fund than for a fund with a broader geographical investment mandate.
+the underlying assets owned by the fund.                        About the index
+                                                                The S&P 500 Index is a financial index providing exposure to large capitalisation US equities. It comprises around 500 companies
+ETF information                                                 and covers around 80% of available US equity market capitalisation.
+Fund launch date                               20 May 2010      Past performance does not predict future returns.
+Share class launch date                        20 May 2010
+                                                                Indexed performance, % growth over the last 10 years
+Ongoing charge 1                                 0.05% p.a.
+                                                                  Invesco S&P 500 UCITS ETF Acc
+Swap fee 1                                       0.07% p.a.
+Fund base currency                                      USD       S&P 500 Index
+Share class currency                                    USD       315
+Currency hedged                                           No
+Index                                        S&P 500 Index
+Index currency                                          USD       210
+Index Bloomberg ticker                           SPTR500N
+Replication method                                 Synthetic
+UCITS compliant                                          Yes      105
+Umbrella fund                          Invesco Markets plc
+Investment manager         Assenagon Asset Management
+                                                         S.A.
+                                                                    0
+Custodian                 Northern Trust Fiduciary Services
+                                           (Ireland) Limited
+Domicile                                             Ireland
+UK reporting status                                      Yes     -105
+ISA eligible                                             Yes        Sep-16           Mar-18           Aug-19           Jan-21           Jun-22            Nov-23          Apr-25          Sep-26
+SIPP eligible                                            Yes    Cumulative performance as at 30 September 2026 (%)
+Dividend treatment                             Accumulating                                                   1Y                        3Y               5Y              10Y          Fund inception
+ISIN code                                  IE00B3YCGJ38         ETF                                        15.60                     85.02            89.92            311.46                 818.71
+SEDOL                                              B540668      Index                                      15.34                     83.41            86.74            296.24                 781.28
+Bloomberg ticker                                  SPXS LN
+                                                                Calendar year performance (%)
+Fund size                                 USD 58,957.64m
+                                                                                     2025     2024             2023        2022       2021        2020        2019        2018       2017          2016
+NAV per share                                    USD 15.38
+                                                                ETF                 17.75     24.91            26.18      -18.17      28.64       18.30       31.37       -4.47      21.41         11.54
+Shares in issue                               2,820,696,052
+                                                                Index               17.43     24.50            25.67      -18.51      28.16       17.75       30.70       -4.94      21.10         11.23
+SFDR classification                                 Article 6
+                                                                Standardised rolling 12 month performance (%)
+                                                                                     09.25     09.24    09.23             09.22       09.21       09.20       09.19      09.18       09.17         09.16
+                                                                                     09.26     09.25    09.24             09.23       09.22       09.21       09.20      09.19       09.18         09.17
+1 Ongoing charge includes management fee, custody and
+                                                                ETF                  15.60     17.48    36.24             21.51      -15.52       29.94       15.04       4.16       17.73         18.18
+administration costs but excludes transaction costs. The        Index                15.34     17.14    35.76             21.01      -15.86       29.43       14.49       3.62       17.23         17.88
+swap fee reflects the cost of providing the Fund’s index
+                                                                Source: Invesco, Bloomberg L.P., FactSet. Index/Benchmark performance is shown in the index/benchmark currency. ETF
+exposure. The swap arrangement delivers an enhanced
+                                                                performance shown is calculated with reference to the Net Asset Value, inclusive of net reinvested income and net of ongoing
+return relative to the fund benchmark. The swap fee is
+                                                                charges and portfolio transaction costs, in USD. The figures do not reflect the actual share price, the impact of the bid/offer spread
+included in this enhanced return and is not charged
+                                                                or broker commissions. Returns may increase or decrease as a result of currency fluctuations. ETF NAV performance differs from
+separately. Costs may increase or decrease as a result of
+                                                                that of the index due to the ongoing charges and portfolio transaction costs and due to the fact that the ETF does not necessarily
+currency and exchange rate fluctuations. Consult the legal
+                                                                always hold all the securities in the index in their respective weighting. This ETF does not charge an entry fee.
+documents for further information on costs.
+
+=== pdf p.2 ===
+Geographic allocation (%)                                       Important information
+                                                                For information on our funds and the relevant risks, refer to the Key Information Documents/Key Investor Information Documents
+                                                                (local languages) and Prospectus (English), and the financial reports, available from www.invesco.eu. A summary of investor rights
+                                                                is available in English from www.invesco.com/ie-manco/en/home.html. The management company may terminate marketing
+                                                                arrangements.
+                                                                This is marketing material and not financial advice. It is not intended as a recommendation to buy or sell any particular asset class,
+                                                                security or strategy. Regulatory requirements that require impartiality of investment/investment strategy recommendations are
+                                                                therefore not applicable nor are any prohibitions to trade before publication.
+                                                                If investors are unsure if this product is suitable for them, they should seek advice from a financial adviser.
+                                                                Current tax levels and reliefs may change. Depending on individual circumstances, this may affect investment returns.
+                                                                Views and opinions are based on current market conditions and are subject to change.
+ United States                                          99.8   UCITS ETF’s units / shares purchased on the secondary market cannot usually be sold directly back to UCITS ETF. Investors must
+ Switzerland                                             0.1   buy and sell units / shares on a secondary market with the assistance of an intermediary (e.g. a stockbroker) and may incur fees
+ Netherlands                                             0.1   for doing so. In addition, investors may pay more than the current net asset value when buying units / shares and may receive less
+ Cash                                                    0.0   than the current net asset value when selling them.
+Source: Invesco, as at 31 Aug 2026                              The S&P®500 Index is a product of S&P Dow Jones Indices LLC or its affiliates (“SPDJI”), and has been licensed for use by
+Sector allocation (%)                                           Invesco. Standard & Poor’s® and S&P® are registered trademarks of Standard & Poor’s Financial Services LLC (“S&P”); Dow
+                                                                Jones® is a registered trademark of Dow Jones Trademark Holdings LLC (“Dow Jones”); and these trademarks have been
+                                                                licensed for use by SPDJI and sublicensed for certain purposes by Invesco. Invesco S&P 500 UCITS ETF is not sponsored,
+                                                                endorsed, sold or promoted by SPDJI, Dow Jones, S&P, or their respective affiliates and none of such parties make any
+                                                                representation regarding the advisability of investing in such product(s) nor do they have any liability for any errors, omissions, or
+                                                                interruptions of the S&P®500 Index.
+                                                                Not all share classes of this fund may be available for public sale in all jurisdictions and not all share classes are the same nor do
+                                                                they necessarily suit every investor.
+                                                                For the full objectives and investment policy please consult the current prospectus.
+                                                                Issued by Invesco Asset Management Limited, Perpetual Park, Perpetual Park Drive, Henley-on-Thames, Oxfordshire RG9 1HH,
+                                                                UK. Authorised and regulated by the Financial Conduct Authority. This fund is authorised overseas, not in the UK. The UK
+                                                                Financial Ombudsman Service is unlikely to be able to consider complaints about this fund, its management company, or its
+ Information                                            37.9   depositary. Any losses related to the management company or depositary are unlikely to be covered by the UK Financial Services
+   technology                                                   Compensation Scheme.
+ Financials                                             12.3
+                                                                Glossary
+ Communication                                           9.3
+                                                                Benchmark: An index against which the ETF is measured, in terms of relative performance, risk and other useful comparisons.
+   services
+ Health care                                             9.3   Derivative: Derivatives are financial instruments whose prices are driven by the price shifts or price expectations of another
+ Consumer                                                9.2   financial instrument, which is called the "underlying". Many derivatives are designed to react disproportionately to shifts in the price
+   discretionary                                                of the underlying. Derivatives can be used for both hedging and speculative purposes. The most common derivatives are
+ Industrials                                             8.3   certificates, options, futures and swaps.
+ Consumer staples                                        4.5   Distribution Yield: The distribution yield is a measurement of cash flow being paid. It's the sum of the distributions over 12 months
+ Energy                                                  3.5   divided by the net asset value (NAV) of the fund.
+ Utilities                                               2.0   ETF: Exchange traded fund. A type of fund that is traded on the stockmarket like ordinary shares. ETFs can be bought and sold
+ Others                                                  3.7   during trading hours, like ordinary shares, whereas other types of funds are priced once a day only.
+Source: Invesco, as at 31 Aug 2026                              Factors: An investment approach that seeks to identify and invest in securities that display certain quantifiable characteristics.
+Index components data is delayed and/or limited due to          Common examples of factors include Value, Quality and Momentum. A factor strategy may seek to target just one factor or
+licensing restrictions applied by the index provider.           combine multiple factors.
+Top exposures (%)                                               Hedged: The intended result of reducing the portfolio's exposure to a specific risk, such as the risk of fluctuations between
+Name                                               Weight       currency exchange rates ("currency hedging").
+NVIDIA ORD                                           8.40       ISA: Individual Savings Account. A type of investment account in the UK in which the tax on income is lower than usual, and there
+APPLE ORD                                            7.40       is no tax on profits made from an increase in the value of shares.
+MICROSOFT ORD                                        5.80       Replication Method: Strategy employed by the fund to achieve its objective.
+AMAZON COM ORD                                       3.70       SIPP: Self-Invested Pension Plan. A type of UK pension for which a person makes their own investment decisions.
+ALPHABET CL A ORD                                    3.10
+                                                                Swap: A swap is a derivative contract where two parties agree to exchange separate streams of cashflows or returns.
+BROADCOM ORD                                         2.50
+ALPHABET CL C ORD                                    2.50       Synthetic Replication: Synthetic funds own a diversified portfolio of equities that may differ from the benchmark index. The ETF
+META PLATFORMS CL A ORD                              2.40       contracts with one or more banks (each a counterparty), which agree to pay any difference between the portfolio performance and
+MICRON TECHNOLOGY ORD                                1.80       the index performance, less any applicable fees. These contracts are known as swaps. Using swaps ensures accurate index
+TESLA ORD                                            1.50       tracking but introduces counterparty risk: if a counterparty failed to pay the index performance due under the swap contract, the
+                                                                ETF would instead rely on the performance of its portfolio of equities, which could be lower than the index performance. An ETF's
+Source: Invesco, as at 30 Sep 2026                              exposure to a swap counterparty is limited by the UCITS regulation, and further limited by measures that we impose.
+Please see etf.invesco.com for ETP holdings information.        UCITS: Undertakings for Collective Investment in Transferable Securities. European regulatory framework for an investment
+Holdings are subject to change.                                 vehicle that can be marketed across the European Union.
+                                                                UK Reporting Status: Indicates whether or not the fund has United Kingdom fund tax status, this can lead to a UK investor
+                                                                receiving favourable tax rates on any gain or disposal of holdings in the fund.
+

@@ -1,0 +1,161 @@
+=== pdf p.1 ===
+                                   Key Investor Information
+                                   This document provides you with key investor information about this Fund. It is not marketing
+                                   material. The information is required by law to help you understand the nature and the risks of
+                                   investing in this Fund. You are advised to read it so you can make an informed decision about
+                                   whether to invest.
+Invesco MSCI USA Universal Screened UCITS ETF (the "Fund")
+A sub-fund of Invesco Markets II plc (the "Umbrella Fund")
+Acc (ISIN: IE00BJQRDM08) (the "Share Class")
+The Fund is managed by Invesco Investment Management Limited, part of the Invesco Group.
+
+Objectives and Investment Policy
+-   The Fund is a passively managed Exchange-Traded Fund ("ETF"). The investment objective of the Fund is to achieve the net total return performance
+    of the MSCI USA Universal Select Business Screens Index (the "Index")1, less fees, expenses and transaction costs.
+-   To achieve the investment objective the Fund will, as far as possible and practicable, hold all the securities in the Index in their respective weightings.
+    To replicate the Index, the Fund may invest up to 20% of its Net Asset Value in shares issued by the same body, and up to 35% in exceptional market
+    circumstances.
+-   The Fund's shares are listed on one or more Stock Exchange(s). Investors can buy or sell shares daily through an intermediary directly or on Stock
+    Exchange(s) on which the shares are traded. In exceptional circumstances investors will be permitted to redeem their shares directly from Invesco
+    Markets II plc in accordance with the redemption procedures set out in the prospectus, subject to any applicable laws and relevant charges.
+-   The Fund is an Article 8 Fund (it promotes environmental and/or social characteristics) for the purposes of Regulation (EU) 2019/2088 of the
+    European Parliament and of the Council of 27 November 2019 on sustainability related disclosures in the financial services sector ("SFDR").
+-   The Fund may use derivative instruments for the purposes of managing risk, reducing costs or generating additional capital or income. Derivatives on
+    an index may contain some underlying constituents which may not meet the ESG criteria.
+-   The Fund’s base currency is USD.
+-   Dividend Policy: This Share Class does not pay you income, but instead reinvests it to grow your capital, in line with its stated objectives.
+-   Net Asset Value: This is calculated daily and the Fund is open for redemptions on each day on which the United States Federal Reserve System is
+    open. Please refer to the prospectus for further information.
+-   The Index: The Index tracks the performance of large and mid-capitalisation companies in the USA and aims to represent the performance of an
+    investment strategy that, by adjusting the constituents’ free-float market capitalisation weights based upon certain environmental, social and
+    governance ("ESG") metrics, seeks to increase overall exposure to those companies demonstrating both a robust ESG profile as well as a positive
+    trend in improving that profile. The Index is constructed from the MSCI USA Index (the "Parent Index") by using the index provider’s ESG
+    exclusionary criteria to exclude from the Parent Index securities that: 1) have not been assessed or rated by the Index Provider on the basis of their
+    ESG credentials; 2) have faced very severe controversies pertaining to ESG issues (including UN Global Compact violations) over the last three
+    years; 3) are involved (as defined by the index provider) in any of the following business activities: controversial weapons, conventional weapons,
+    nuclear weapons, oil sands, thermal coal, civilian firearms, recreational cannabis and tobacco; or 4) have an MSCI ESG rating of CCC. Each of the
+    eligible component securities is then assigned a combined ESG score, which reflects the index provider’s assessment of both the security’s current
+    ESG rating, as well as the trend in that rating, defined as the change in the security’s ESG rating over time. This combined ESG score is then applied
+    to re-weight the eligible securities from their free-float market cap weights in the Parent Index to construct the weighting of the Index. Involvement and
+    revenue thresholds are defined by the Index provider. Further information in relation to any revenue thresholds and controversy scoring criteria, can
+    be obtained from the Index provider’s website. The Index is rebalanced on a semi-annual basis. Issuer weights are capped at 5%.
+
+Risk and Reward Profile
+Lower Risk                                                         Higher Risk      Other Risks
+                                                                                    -   General Investment Risk: The value of investments, and any income
+Typically lower rewards                                  Typically higher rewards       from them, will fluctuate. This may partly be the result of changes in
+                                                                                        exchange rates. Investors may not get back the full amount invested.
+     1           2         3           4          5          6           7          -   Country Concentration Risk: The Fund is invested in a particular
+                                                                                        geographical region, which might result in greater fluctuations in the
+                                                                                        value of the Fund than for a fund with a broader geographical
+-   The Share Class is in risk category 6 due to the rises and falls of its             investment mandate.
+    price or simulated data in the past.                                            -   Equity Risk: The value of equities and equity-related securities can be
+-   As the Share Class' risk category has been calculated using historical              affected by a number of factors including the activities and results of
+    data, it may not be a reliable indication of the Share Class' future risk           the issuer and general and regional economic and market conditions.
+    profile.                                                                            This may result in fluctuations in the value of the Fund.
+-   The risk category may change in the future and is not guaranteed.               -   Environmental, Social and Governance Risk: The Fund intends to
+-   The lowest category does not mean a risk free investment.                           invest in securities of issuers that manage their ESG exposures better
+                                                                                        relative to their peers. This may affect the Fund’s exposure to certain
+                                                                                        issuers and cause the Fund to forego certain investment opportunities.
+                                                                                        The Fund may perform differently to other funds, including
+                                                                                        underperforming other funds that do not seek to invest in securities of
+                                                                                        issuers based on their ESG ratings.
+                                                                                    -   Securities Lending Risk: The Fund may be exposed to the risk of the
+                                                                                        borrower defaulting on its obligation to return the securities at the end
+                                                                                        of the loan period and of being unable to sell the collateral provided to it
+                                                                                        if the borrower defaults.
+                                                                                    -   For more information on risks, please see the Fund supplement and
+                                                                                        prospectus under "Risk Factors", which is available at
+                                                                                        http://etf.invesco.com (select your country and navigate to the
+                                                                                        Prospectus on the Documents section on the product page).
+
+
+
+
+1
+ This document provides a summary of the principal features of the Index, the complete description of the Index (available from the Index provider) shall
+at all times prevail. Investors should note that the Index is the intellectual property of the Index provider.
+The Fund is not sponsored or endorsed by the Index provider and a full disclaimer can be found in the Fund’s supplement.
+
+=== pdf p.2 ===
+Charges
+The charges you pay are used to pay the costs of running the Fund, including the costs of marketing and distributing it. These charges reduce the
+potential growth of your investment.
+
+    One-off charges taken before or after you invest                              -   *Currently, the Fund is not exercising its entitlement to apply entry and
+                                                                                      exit charges.
+    Entry charge                                               None*              -   The ongoing charge is based on the fee paid to the Manager. The
+    Exit charge                                                None*                  Manager is responsible for discharging from its fee, costs attributable to
+    Any charges shown above are the maximum that might be taken out of                the Investment Manager, Administrator, Depositary as well as the
+    your money before it is invested.                                                 Operational Expenses incurred by the Fund. It excludes portfolio
+                                                                                      transaction costs except in the case of an entry or exit charge paid by
+    Charges taken from the Share Class over the year                                  the Fund when buying or selling shares/units in another fund.
+    Ongoing charge                                             0.09%              -   Because the Fund is an ETF, investors will typically only be able to buy
+    Charges taken from the Share Class under certain specific                         or sell shares in the secondary market. Accordingly, investors may
+                                                                                      incur brokerage and / or transaction fees in connection with their
+    conditions
+                                                                                      dealings. Investors may also bear the costs of "bid-ask" spreads;
+    Performance fee                                             None                  meaning the difference between the prices at which shares can be
+                                                                                      bought and sold. You should discuss these fees and costs with your
+                                                                                      broker before you invest, as they may reduce the amount of your initial
+                                                                                      investment and the amount you receive on disposal.
+                                                                                  -   The Fund may engage in securities lending, whereby 90% of the
+                                                                                      revenues arising from securities lending will be returned to the Fund
+                                                                                      and 10% of the revenues will be retained by the securities lending
+                                                                                      agent.
+                                                                                  -   For more information on charges, please see the relevant charges
+                                                                                      section in the Fund supplement under "General Information Relating to
+                                                                                      the Fund", which is available at http://etf.invesco.com (select your
+                                                                                      country and navigate to the Documents section on the product page).
+
+Past Performance
+                                                                                  -   The Fund launched in 2019.
+    % growth                                                                      -   The Share Class launched in 2019.
+          30                                                                      -   The base currency of the Fund is USD.
+                                                                                  -   Past performance of the Share Class is calculated in USD.
+          20                                                                      -   Performance is calculated after deduction of ongoing charges, portfolio
+                                                                                      transactions costs and is inclusive of gross income reinvested. Any
+          10                                                                          entry /exit charges shown are excluded from the calculation.
+                                                                                  -   Past performance is not a guide to future performance.
+           0
+
+         -10
+
+         -20
+
+         -30
+                  2016 2017 2018 2019 2020 2021 2022 2023 2024 2025
+    Share Class                        24.0 27.8 -21.6 27.4 24.1 15.5
+    Index                              23.7 27.7 -21.7 27.2 24.0 15.4
+
+
+Practical Information
+-     Fund Depositary: The Bank of New York Mellon SA/NV, Dublin Branch, Riverside Two, Sir John Rogerson's Quay, Dublin 2, D02 KV60, Ireland.
+-     Tax: This Fund is subject to the tax laws and regulations of Ireland. Depending on your home country of residence, this might have an impact on your
+      investment. For further details, please speak to an adviser. Local taxes may have an impact on the personal tax of your investment in the Fund.
+-     Additional Information: The share prices are published in USD, on each business day. The prices are available from the administrator during normal
+      business hours and on the following website http://etf.invesco.com.
+-     Find out more: This document is specific to the Fund. Further information about the Fund can be obtained from the supplement, the prospectus,
+      annual and interim reports.The prospectus, annual and interim reports are prepared for the Umbrella Fund, of which the Fund is a sub-fund. These
+      documents are available free of charge in English. They can be obtained along with other information, such as share prices, at http://etf.invesco.com
+      (select your country and navigate to the Documents section on the product page), or by calling +353 1 439 8000.
+-     Details of the Manager’s remuneration policy are available at www.invescomanagementcompany.ie and a paper copy is available to investors free of
+      charge upon request.
+-     The Umbrella Fund is incorporated in Ireland and authorised by the Central Bank of Ireland as a limited liability umbrella type open ended UCITS
+      investment company with variable capital. Pursuant to Irish law, the assets of the Fund are segregated from other sub-funds in the Umbrella Fund (i.e.
+      the Fund’s assets may not be used to discharge the liabilities of other sub-funds of the Umbrella Fund). This position may be considered differently by
+      the courts in jurisdictions outside of Ireland.
+-     Subject to satisfying certain criteria as set out in the prospectus, investors may be able to exchange their investment in the Fund for shares in another
+      sub-fund of the Umbrella Fund which is being offered at that time.
+-     The Umbrella Fund may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent
+      with the relevant parts of the prospectus.
+-     The Fund and the Index were renamed as of 3 February 2025. The Fund was formerly named "Invesco MSCI USA ESG Universal Screened UCITS
+      ETF" and the Index was formerly named "MSCI USA ESG Universal Select Business Screens Index".
+
+
+
+
+This Fund is authorised in Ireland and regulated by the Central Bank of Ireland.
+Invesco Investment Management Limited is authorised in Ireland and regulated by the Central Bank of Ireland
+This key investor information is accurate as at 26 June 2026.
+

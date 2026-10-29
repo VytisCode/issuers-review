@@ -1,0 +1,122 @@
+=== pdf p.1 ===
+ Key Investor Information for Investors in the United Kingdom
+ This document provides you with key investor information about this fund. It is not marketing material. The
+ information is required by law to help you understand the nature and the risks of investing in this fund. You
+ are advised to read it so you can make an informed decision about whether to invest.
+
+Xtrackers MSCI USA UCITS ETF
+Share class: 1C, ISIN: IE00BJ0KDR00, Security code: A1XB5V, Currency: USD
+a sub-fund of Xtrackers (IE) plc. The management company is DWS Investment S.A., a member of the DWS Group.
+Objectives and investment policy
+The fund is passively managed. INVESTMENT OBJECTIVE: The                      substantial number of the securities in the index. The fund may
+aim is for your investment to reflect the performance, before fees            employ techniques and instruments in order to manage risk, reduce
+and expenses, of the MSCI Total Return Net USA index (index)                  costs and improve results. These techniques and instruments may
+which is designed to reflect the performance of the shares of certain         include the use of financial contracts (derivatives). The fund may
+companies of the United States of America. DESCRIPTION OF                     also engage in secured lending of its investments to certain eligible
+INDEX: The companies making up the index are large and medium                 third parties to generate additional income to offset the costs of the
+sized companies based on the combined value of a company’s                    fund. FURTHER INFORMATION: Certain information (including the
+readily available shares as compared to other companies. A                    latest share prices of the fund, indicative net asset values, full
+company’s weighting in the index depends on its relative size.                disclosure on the composition of the fund's portfolio and information
+INDEX REBALANCING, CALCULATION AND ADMINISTRATION:                            on the index constituents) are available on your local DWS website
+The index is calculated on a total return net basis which means that          or at www.Xtrackers.com. Transaction costs and taxes, unexpected
+all dividends and distributions by the companies are reinvested in            fund costs and market conditions such as volatility or liquidity
+the shares after tax. The index is reviewed and rebalanced on a               issues may affect the ability of the fund to track the index. The
+quarterly basis and may also be rebalanced at other times in order            anticipated level of tracking error in normal market conditions is 1
+to reflect corporate activity such as mergers and acquisitions.               per cent. The currency of the fund is USD. Returns and gains are
+INVESTMENT POLICY: To achieve the aim, the fund will attempt to               not distributed but are reinvested in the fund. You may request the
+replicate the index, before fees and expenses, by buying all or a             redemption of shares generally on a daily basis.
+Risk and reward profile
+     Lower risk                                                 Higher risk
+                                                                              to the fund such as distributor and management company which
+                                                                              may involve conflicts of interest. NO GUARANTEE RISK: The fund
+     Potentially lower reward                     Potentially higher reward
+                                                                              is not guaranteed and your investment is at risk. The value of your
+    1             2             3   4        5            6              7    investment may go down as well as up. REGION
+                                                                              CONCENTRATION RISK: The fund is exposed to market
+The calculation of the risk and reward profile is based on historical         movements in a single country or region which may be adversely
+data that cannot be used as a reliable indicator for the future risk          affected by political or economic developments, government action
+profile. This risk indicator is subject to changes; the classification of     or natural events that do not affect a fund investing in broader
+the fund may change over time and cannot be guaranteed. Even a                markets. RULES BASED INDEX RISK: The index is rules-based
+fund that is classified in the lowest category (category 1) does not          and is not capable of being adjusted to take into account changing
+represent a completely risk-free investment. The fund is classified           market circumstances. As a result you may be negatively affected
+in category 6 because its share price may fluctuate strongly and              by, or may not benefit from, the lack of such adjustments in
+the likelihood of both losses and gains may therefore be high. The            changing market circumstances. DISRUPTIONS/ADJUSTMENT
+following risks could be of particular significance for the fund: The         EVENTS RISK: The index may also be subject to disruption or
+fund will attempt to replicate the performance of the index less              adjustment events which may prevent its calculation or lead to
+costs, but your investment is not expected to match the                       adjustments to the rules of the index which may cause your
+performance        of    the     index     precisely.  EXCEPTIONAL            investment to suffer losses. DERIVATIVES RISK: The fund may
+CIRCUMSTANCES RISK: Exceptional circumstances may arise,                      use derivatives to try to manage its investments more efficiently.
+such as, but not limited to, disruptive market conditions, additional         This may not always be successful and may result in greater
+costs/taxes or extremely volatile markets, which may cause the                fluctuations in the value of the fund. This may negatively affect the
+fund's performance to be substantially different from the                     value of the fund and your investment.
+performance of the index. CONFLICTS OF INTEREST RISK: DWS                     A more detailed description of risks and other general information
+entities and related companies may act in several roles in relation           can be found in the risk section(s) of the prospectus.
+
+
+Charges
+The charges you pay are used to pay the costs of running the fund, including the costs of marketing and distributing it. These charges
+reduce the potential growth of your investment.
+  One-off charges taken before or after you invest                            Secondary market investors (those who buy or sell shares
+  Entry charge                              None                              on a stock exchange) may be charged certain fees by their
+  Exit charge                               None                              stock broker. These charges, if any, can be obtained from
+  This is the maximum that might be taken out of your money before it is      such stock broker. Authorised participants dealing directly
+  invested (entry charge) and before the proceeds of your investment are paid with the fund will pay the transaction costs related to their
+  out (exit charge).                                                          subscriptions and redemptions.
+  Charges taken from the fund over a year                                     The ongoing charges shown here are a cost estimate. It
+  Ongoing charges                           0.03 %                            excludes portfolio transaction costs and performance fees,
+  Charges taken from the fund under certain specific conditions               if any.
+                                                                              Additional information on costs can be found in the cost
+  Performance fee                           None
+                                                                              section(s) of the prospectus.
+  Securities lending fees                   0.00 %
+
+To the extent the fund undertakes securities lending to generate revenue, the fund will ultimately be allocated 82% of the associated
+revenue, the securities lending agent, which will be a Deutsche Bank entity, will be allocated 9% and the remaining 9% will be allocated to
+the DWS entity which monitors such activities, as set out in the sales prospectus and/or supplement, for its own coordination and oversight
+tasks. As securities lending revenue sharing does not increase the costs of running the fund, this has been excluded from the composition of
+costs.
+
+=== pdf p.2 ===
+Past performance
+aaa
+
+
+
+
+                                                                                                             Past performance is not a reliable
+                                                                                                             indicator of future performance. All costs
+                                                                                                             and fees that were withdrawn from the 1C
+                                                                                                             share class of Xtrackers MSCI USA
+                                                                                                             UCITS ETF were deducted during the
+                                                                                                             calculation. The 1C share class of
+                                                                                                             Xtrackers MSCI USA UCITS ETF was
+                                                                                                             launched in 2014.
+
+
+
+
+Practical information
+The depositary is State Street Custodial Services (Ireland) Limited,             such taxation regimes. Xtrackers (IE) plc may be held liable solely
+Ireland. Copies of the prospectus and the periodic reports are                   on the basis of any statement contained in this document that is
+available free of charge in the language of this document. The                   misleading, inaccurate or inconsistent with the relevant parts of the
+documents as well as other information (including the latest share               sales prospectus. This fund is a sub-fund of Xtrackers (IE) plc for
+prices as well as the indicative net asset values) are available free            which the sales prospectus and the periodic reports are prepared
+of charge. The documents are available on your local DWS website                 as a whole in addition to individual supplements per sub-fund. The
+or at www.Xtrackers.com, for full disclosure on the composition of               assets and liabilities of each sub-fund are segregated by law. As a
+the fund's portfolio and information on the index constituents                   result, assets of one sub-fund are not available in the event of
+please refer to this website as well. Information on the current                 claims against or insolvency of another. More share classes may
+remuneration policy of the management company, including a                       be available for this fund - please refer to the relevant section of
+description of how remuneration and benefits are calculated is                   the supplement for further details. You are not permitted to
+published on the Internet at https://www.dws.com/footer/Legal-                   exchange your shares in this fund for other funds of Xtrackers (IE)
+Resources/dws-remuneration-policy?setLanguage=en.                The             plc. This fund is authorised in Ireland and is regulated by the
+information will be sent to you in paper form free of charge upon                Central Bank of Ireland. DWS Investment S.A. is authorised in
+request. Taxation regimes applicable to the fund in your jurisdiction            Luxembourg and is regulated by the Commission de Surveillance
+may affect your personal tax situation. Prospective investors                    du Secteur Financier.
+should inform themselves of, and where appropriate take advice on
+
+This key investor information is accurate as at 14.04.2026.
+
+The MSCI indices are the exclusive property of MSCI Inc. and its subsidiaries (MSCI) and may not be reproduced or extracted and used for any other purpose
+without MSCI’s consent. The fund is not sponsored, endorsed, or promoted by MSCI, and MSCI bears no liability with respect to the fund or any index on which
+such fund is based. The MSCI indices are provided without any warranties of any kind.
+

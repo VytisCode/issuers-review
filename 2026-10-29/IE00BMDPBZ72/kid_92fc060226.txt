@@ -1,0 +1,182 @@
+=== pdf p.1 ===
+                                                           Key Investor Information
+                                                           This document provides you with key investor information about this fund. It is not marketing material.
+                                                           The information is required by law to help you understand the nature and the risks of investing in this
+                                                           fund. You are advised to read it so you can make an informed decision about whether to invest.
+
+
+
+
+Franklin S&P 500 Paris Aligned Climate UCITS ETF
+Class SINGLCLASS • ISIN IE00BMDPBZ72 • A sub-fund of Franklin Templeton ICAV
+The management company is Franklin Templeton International Services S.à r.l.
+
+Objectives and Investment Policy
+Franklin S&P 500 Paris Aligned Climate UCITS ETF (the “Fund”)                         the benchmark. Its portfolio, and thus its performance, closely resemble
+investment objective is to provide exposure to large capitalisation US                that of the benchmark.
+stocks which are aligned to the transition to a low carbon economy.                   Buying and selling shares
+Investment Policy                                                                     You may buy or sell shares daily through a broker on the stock exchange
+The Fund invests in equities of US companies of large market capitalisation           where the shares are traded. Authorised participants, such as selected
+that transition to a lower carbon economy or are less exposed to climate              financial institutions, may buy or sell shares directly with the fund, on any
+transition risks. These investments are included in the benchmark.                    day the London Stock Exchange is open for business (provided that on
+The benchmark is based on the S&P 500 Index, its parent index, and                    such day the markets on which substantially all of the Fund’s investments
+provides exposure to US large capitalisation securities which are better              are traded are open).
+aligned with the move towards a low-carbon economy and is constructed to              Intended retail investor
+follow the EU Paris-aligned Benchmark (EU PAB) Regulations (Regulation                Investors who understand the risks of the Fund and plan to invest for at
+(EU) 2019/2089) (the “PAB Regulations”)                                               least 3 to 5 years. The Fund may appeal to investors who:
+The benchmark overweights companies which are committed to reducing                   • are looking for long-term investment growth
+greenhouse gas emissions and will have a 50% decarbonization. In
+addition, the Green House Gas Intensity of the Index must reduce by 7%                • are interested in exposure to large capitalisation US stocks which are
+annually.                                                                             aligned to the transition to a low carbon economy as part of a diversified
+                                                                                      portfolio
+Derivatives and techniques The Fund may use derivatives for hedging
+and efficient portfolio management.                                                   • have a high risk profile and can tolerate significant short-term changes in
+                                                                                      the share price
+Strategy The investment manager seeks to minimise the difference
+between the Fund’s performance and that of the benchmark (tracking                    Product availability The Fund is available to all investors with at least
+error), regardless of whether the benchmark level rises or falls.                     basic investment knowledge, through a wide range of distribution channels,
+                                                                                      with or without the need for advice.
+SFDR category Article 8 (promotes environmental and/or social
+characteristics under EU regulations).                                                Terms to Understand
+The Index follows the PAB Regulations which are designed to help                      derivatives: Financial instruments whose value is linked to one or more
+investors shift towards a low-carbon economy and align investments to the             rates, indexes, share prices or other values.
+Paris Climate Agreement. The Index tracks the performance of eligible                 equities: Securities that represent partial ownership of a company.
+equity securities, selected and weighted to be collectively compatible with a         efficient portfolio management: A strategy aimed at reducing risk,
+1.5ºC global warming climate scenario and to meet several other climate-              lowering costs or generating additional capital or income for the Fund
+themed objectives. The Index also applies exclusions based on companies’              through the use of derivatives. These strategies must align with the Funds
+involvement in specific business activities.                                          risk profile.
+For more information see www.franklintempleton.ie/29819                               Share Class Currency: USD
+Base currency US dollar (USD).                                                        Treatment of Income: For accumulation shares, income from investments
+Benchmark(s) S&P 500 PAB ESG Index-NR. Used for index tracking only.                  is reinvested in the Fund and reflected in the price of shares.
+The Fund is passively managed and seeks to replicate the benchmark by
+holding all of the Index securities in a similar proportion to their weighting in
+
+
+Risk and Reward Profile
+                                                                                      Such assets have historically been subject to price movements due to such
+                                                                                      factors as general stock market volatility, changes in the financial outlook or
+                                                                                      fluctuations in currency markets. As a result, the performance of the Fund
+   1           2            3          4           5            6           7         can fluctuate significantly over relatively short time periods.
+                                                                                      Risks materially relevant not adequately captured by the indicator:
+
+Lower risk                                                             Higher risk    Counterparty risk: the risk of failure of financial institutions or agents
+Potentially lower rewards                              Potentially higher rewards     (when serving as a counterparty to financial contracts) to perform their
+                                                                                      obligations, whether due to insolvency, bankruptcy or other causes.
+                                                                                      Derivative Instruments risk: the risk of loss in an instrument where a
+What does this indicator mean and what are its limits?                                small change in the value of the underlying investment may have a larger
+                                                                                      impact on the value of such instrument. Derivatives may involve additional
+This indicator is designed to provide you with a measure of the price                 liquidity, credit and counterparty risks.
+movement of this share class based on historical behavior.                            Foreign Currency risk: the risk of loss arising from exchange-rate
+                                                                                      fluctuations or due to exchange control regulations.
+Historical data may not be a reliable indication of the future risk profile of        Index related risk: the risk that quantitative techniques used in creating the
+the Fund. The category shown is not guaranteed to remain unchanged and                Index the Fund seeks to track do not generate the intended result, or that
+may shift over time.                                                                  the portfolio of the Fund deviates from its Index composition or
+                                                                                      performance.
+The lowest category does not mean risk free.                                          Secondary market trading risk: the risk that the shares purchased on the
+                                                                                      secondary market cannot usually be sold directly back to the Fund and that
+As the share class has no sufficient historical data available, simulated data        investors may therefore pay more than the NAV per share when buying
+based on a representative portfolio model or benchmark have been used                 shares or may receive less than the current NAV per Share when selling
+instead.                                                                              shares.
+Why is the Fund in this specific category?                                            For a full discussion of all the risks applicable to this Fund, please refer to
+                                                                                      the “Risk Considerations” section of the current prospectus of Franklin
+The Fund intends to track the performance of the Index which is                       Templeton ICAV.
+constructed of US large capitalisation stocks selected from the Parent
+Index.
+
+
+
+
+                                                                                                                                                                   1/2
+
+=== pdf p.2 ===
+   Franklin S&P 500 Paris Aligned Climate UCITS ETF
+
+
+Charges
+The charges you pay are used to pay the costs of running the Fund,                 *No entry nor exit charges are payable where investors deal in shares in
+including the costs of marketing and distributing it. These charges reduce         the secondary market – i.e. where shares are purchased and sold on a
+the potential growth of your investment.                                           stock exchange. In such cases, investors may pay fees charged by their
+                                                                                   broker. Authorised Participants dealing directly with the Fund may pay an
+One-off charges taken before or after you invest                                   entry charge up to a maximum of 3% and an exit charge up to a maximum
+                                                                                   of 2%.
+Entry charge                     Not applicable*
+                                                                                   The entry and exit charges shown are maximum amounts: you may pay
+Exit charge                            Not applicable*                             less in some cases. For more information please ask your financial adviser.
+This is the maximum that might be taken out of your money before it is             The ongoing charges are based on the expenses for the year ending 31
+invested.                                                                          December 2025. This figure may vary from year to year.
+Charges taken from the Fund over a year                                            For detailed information about charges, please refer to the “Fees and
+Ongoing charges                0.07%                                               Expenses” section of the current prospectus of Franklin Templeton ICAV
+                                                                                   and the Fund supplement.
+Charges taken from the Fund under certain specific conditions
+Performance fee               Not applicable
+                                                                                   •
+
+
+
+
+Past Performance
+                                                                                   • Past performance is not a guide to future performance.
+   40.0
+                                                                                   • The past performance shown here includes all the ongoing charges.
+                                                                                   • The Fund was launched in 2020.
+   30.0
+                                                                                   • Past performance is calculated in the currency of the present share class.
+
+   20.0
+
+
+   10.0
+
+
+    0.0
+
+
+  -10.0
+
+
+  -20.0
+
+
+  -30.0
+           2016   2017   2018   2019   2020   2021   2022    2023   2024   2025
+                                              31.2   -21.8   29.8   26.2   15.8
+                                              28.2   -18.5   25.7   24.5   17.4
+
+
+          Franklin S&P 500 Paris Aligned Climate UCITS ETF Class
+          SINGLCLASS
+          S&P 500 PAB ESG Index-NR
+
+
+Practical Information
+• The Depositary of Franklin Templeton ICAV is The Bank Of New York                  misleading, inaccurate or inconsistent with the relevant parts of the
+  Mellon SA/NV, Dublin Branch, The Shipping Office, Sir John Rogerson’s              prospectus of the Fund.
+  Quay, Dublin 2, Ireland.                                                         • The present Fund is a sub-fund of Franklin Templeton ICAV. The
+• You can obtain further information about the Fund, copies of its                   prospectus and the annual and semi-annual reports refer to all sub-funds
+  prospectus, supplement and its latest annual and semi-annual reports               of Franklin Templeton ICAV. All Funds of Franklin Templeton ICAV have
+  from the website www.franklintempleton.com or free of charge from the              segregated assets and liabilities. As a result, each Fund is operated
+  Administrator, BNY Mellon Fund Services (Ireland) DAC, The Shipping                independently from each other.
+  Office, Sir John Rogerson’s Quay, Dublin 2, Ireland or your financial            • You may not exchange shares with another sub-fund of Franklin
+  adviser. These documents are each available in English and certain other           Templeton ICAV.
+  language(s).
+                                                                                   • The details of the up-to-date remuneration policy of the management
+• The latest Net Asset Value and other practical information on the Fund is          company, including but not limited to, a description of how remuneration
+  available from the Administrator, BNY Mellon Fund Services (Ireland) DAC           and benefits are calculated, the identity of persons responsible for
+  The Shipping Office, Sir John Rogerson’s Quay, Dublin 2, Ireland or                awarding the remuneration and benefits including the composition of the
+  www.franklintempleton.com                                                          remuneration committee, are available at www.franklintempleton.lu and a
+• The indicative Net Asset Value is displayed on major market data vendor            paper copy can be obtained free of charge.
+  terminals.                                                                       • S&P's website (www.standardandpoors.com) contains more detailed
+• Please note that the Irish taxation regime may have an impact on your              information about the Index.
+  personal tax position. Please consult your financial or tax adviser before
+  deciding to invest.
+• Franklin Templeton International Services S.à r.l may be held liable solely
+  on the basis of any statement contained in this document that is
+
+
+
+
+This Fund is authorised in Ireland and is regulated by the Central Bank of Ireland. Franklin Templeton International Services S.à r.l. is authorised in the Grand
+Duchy of Luxembourg and is regulated by the Commission de Surveillance du Secteur Financier.
+This key investor information is accurate as at 19/02/2026.
+                                                                                                                                                             2/2
+

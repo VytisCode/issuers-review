@@ -1,0 +1,182 @@
+=== pdf p.1 ===
+Franklin S&P 500 Paris Aligned Climate UCITS ETF
+  IE00BMDPBZ72                                                                                                                                          Multi-Factor | Factsheet as of 30 September 2026
+This is a marketing communication. Please refer to the prospectus of the UCITS and to the KIID before making any final                                 Fund Overview
+investment decisions.
+                                                                                                                                                       Umbrella                                   Franklin Templeton ICAV
+This product is based overseas and is not subject to UK sustainable investment labelling and disclosure requirements.                                  Fund Base Currency                                               USD
+                                                                                                                                                       Fund Inception Date                                       29/07/2020
+  Investment Overview
+                                                                                                                                                       Valor Number                                                55097166
+  To provide exposure to large capitalisation US stocks which are aligned to the transition to a low carbon economy. The                               ISIN                                                IE00BMDPBZ72
+  Fund invests in equities of US companies of large market capitalisation that transition to a lower carbon economy or are                             Bloomberg                                                    500P LN
+  less exposed to climate transition risks. These investments are included in the benchmark.                                                           Domicile                                                      Ireland
+                                                                                                                                                       UCITS                                                             Yes
+Past performance does not predict future returns.                                                                                                      Product Structure                                            Physical
+                                                                                                                                                       Replication Methodology                              Full Replication
+Performance Over 5 Years (%)                                                                                                                           Frequency of Index
+                                                                                                                                                       Reconstitution                                             Quarterly
+     Franklin S&P 500 Paris Aligned Climate UCITS ETF                                 S&P 500 Index-NR (USD)
+                                                                                                                                                       Use of Income                                          Accumulation
+                                                                                      S&P 500 PAB ESG Index-NR (USD)
+                                                                                                                                                       Fiscal Year End                                             30 June
+  200                                                                                                                                                  Shares Outstanding                                        5,600,000
+   180                                                                                                                                                 EU SFDR Category                                            Article 8
+                                                                                                                                                       Underlying Index Ticker                                  SP50PAUN
+   160
+   140                                                                                                                                                 Benchmark(s) and Type
+   120                                                                                                                                                 S&P 500 Index-NR                               Investment Universe
+   100                                                                                                                                                 S&P 500 PAB ESG Index-NR                          Underlying Index
+
+   80
+     09/21                          10/22                             11/23                        12/24                       01/26           09/26   Charges
+                                                                                                                                                       Total Expense Ratio                                            0.07%
+Discrete Annual Performance (%)
+                                                                                                                                                       The charges are the fees the Fund charges to investors to cover
+                            09/25           09/24         09/23           09/22        09/21     09/20     09/19       09/18       09/17       09/16
+                                                                                                                                                       the costs of running the Fund. Additional costs, including
+                            09/26           09/25         09/24           09/23        09/22     09/21     09/20       09/19       09/18       09/17
+                                                                                                                                                       transaction fees, will also be incurred. These costs are paid out by
+Fund                         14.35           15.74         39.23           23.71       -19.42     32.74        —          —           —           —    the Fund, which will impact on the overall return of the Fund. Fund
+Investment Universe          15.34            17.14        35.76            21.01      -15.86     29.43        —          —           —           —    charges will be incurred in multiple currencies, meaning that
+Underlying Index             14.25           15.61         39.12           23.54       -19.54     32.74        —          —           —           —    payments may increase or decrease as a result of currency
+                                                                                                                                                       exchange fluctuations.
+Total Returns (%)
+                                                              Cumulative                                     Average Annual                                                                                    Investment
+                                                                                                                                                       Fund Characteristics
+                                                                                                                                           Inception                                                Fund          Universe
+                            1-Mo       3-Mo           YTD          1-Yr       3-Yr       5-Yr Inception    3-Yr    5-Yr Inception              Date    Total Net Assets (USD)              $356.94 Million
+Fund                        -0.50       3.45          11.74      14.35        84.28     83.69    152.93    22.59   12.93         16.23     29/7/2020   Number of Holdings                             230              503
+Investment Universe                                                                                                                                    Price to Book                                6.42x             5.58x
+                            -0.38       2.22          12.45      15.34        83.41     86.74    150.01    22.40   13.31         16.01            —
+                                                                                                                                                       Price to Earnings (12-Month
+Underlying Index            -0.51       3.43          11.68      14.25        83.74     82.65    151.55    22.48   12.81         16.12            —                                                  26.31x          24.70x
+                                                                                                                                                       Trailing)
+                                                                                                                                                       Return on Equity                             31.26%          29.65%
+The fund's returns may increase or decrease as a result of changes to foreign exchange rates. All performance data shown is in the fund's
+base currency. Performance data is based on the net asset value (NAV) of the ETF which may not be the same as the market price of the                  Dividend Yield                                 1.12%           1.07%
+ETF. Individual investors may realise returns that are different to the NAV performance. Past performance does not predict future                      Standard Deviation (5 Yr)                    16.29%           15.51%
+returns. The actual costs vary depending on the executing custodian. In addition, deposit costs may be incurred which could have a
+negative effect on the value. Please find out the costs due from the respective price lists from the processing/custodian bank. Changes in
+exchange rates could have positive or negative effects on this investment. Please visit
+https://www.franklintempleton.com/corporate/all-sites for current performance and see the latest prospectus or supplement
+for further details. When performance for either the portfolio or its benchmark has been converted, different foreign exchange closing
+rates maybe used between the portfolio and its benchmark.
+
+=== pdf p.2 ===
+Franklin S&P 500 Paris Aligned Climate UCITS ETF                                                                                                                             as of 30 September 2026
+
+
+Top Equity Issuers (% of Total)                            Trading Information
+                                                  Fund     Exchange                                        Ticker            Currency            Bloomberg                Reuters                 SEDOL
+NVIDIA CORP                                        7.99    Borsa Italiana                                   USPA                  EUR               USPA IM               USPA.MI               BMXB1X3
+ALPHABET INC                                       5.69    Deutsche Börse Xetra                             FLX5                  EUR               FLX5 GY               FLX5.DE              BMXB1W2
+MICROSOFT CORP                                     5.63    Euronext Amsterdam Exchange                      USPA                  EUR              USPA NA                FLX5.AS               BKY8CX6
+APPLE INC                                          5.12    London Stock Exchange                            500P                  GBP               500P LN                500P.L               BMXB1V1
+ADVANCED MICRO DEVICES INC                         2.90    London Stock Exchange                            USPA                  USD               USPA LN                USPA.L              BMDPBZ7
+VISA INC                                           2.84    SIX Swiss Exchange                               USPA                  USD              USPA SW                 USPA.S               BMXB1Y4
+ABBVIE INC                                         2.81
+MASTERCARD INC                                     2.61    Portfolio Management
+                                                                                                                                                   Years with Firm                 Years of Experience
+LAM RESEARCH CORP                                   2.61
+                                                           Dina Ting, CFA                                                                                        10                                 30
+CISCO SYSTEMS INC                                  2.60
+                                                           Lorenzo Crosato, CFA                                                                                   9                                 27
+                                                           David McGowan, CFA                                                                                     5                                  13
+Sector Allocation (% of Total)
+                                            Investment     What are the Risks?
+                                  Fund         Universe     The Fund does not offer any capital guarantee or protection and you may not get back the amount invested. The Fund is subject to the
+Information Technology            44.30            39.71   following risks which are materially relevant: Counterparty risk: the risk of failure of financial institutions or agents (when serving as a
+Financials                        12.60            11.40   counterparty to financial contracts) to perform their obligations, whether due to insolvency, bankruptcy or other causes. Derivative
+Health Care                        11.31            9.26   Instruments risk: the risk of loss in an instrument where a small change in the value of the underlying investment may have a larger
+Communication Services             9.47             9.95   impact on the value of such instrument. Derivatives may involve additional liquidity, credit and counterparty risks. Foreign Currency risk:
+Industrials                        7.25            8.05    the risk of loss arising from exchange-rate fluctuations or due to exchange control regulations. Index related risk: the risk that
+                                                           quantitative techniques used in creating the Index the Fund seeks to track do not generate the intended result, or that the portfolio of the
+Consumer Discretionary               7.11          8.60
+                                                           Fund deviates from its Index composition or performance. Secondary market trading risk: the risk that the shares purchased on the
+Consumer Staples                   3.97             4.37   secondary market cannot usually be sold directly back to the Fund and that investors may therefore pay more than the NAV per share
+Real Estate                         1.98            1.70   when buying shares or may receive less than the current NAV per Share when selling shares.
+Energy                             0.00             3.40   Complete information on the risks of investing in the Fund are set out in the Fund's prospectus.
+Other                              2.02             3.58
+                                                           Glossary
+                                                            Total Expense Ratio: Total Expense Ratio (TER) includes the fees paid to the management company, the investment manager and the
+Market Cap Breakdown (% of Equity) (USD)                   depository, as well as certain other expenses. The TER is calculated by taking the relevant main material costs paid out over the 12-month
+                                                  Fund     period indicated and dividing them by the average net assets over the same period. The TER does not include all expenses paid by the
+5.0-10.0 Billion                                   0.41    fund (for example, it does not include what the fund pays for buying and selling securities). For a comprehensive list of the types of costs
+10.0-25.0 Billion                                  3.71    deducted from fund assets, see the prospectus. For recent all-in annual costs, as well as hypothetical performance scenarios that show
+25.0-50.0 Billion                                  6.34    the effects that different levels of return could have on an investment in the fund, where applicable, see the KIID. Product Structure: The
+                                                           Product Structure indicates whether an ETF is holding physical securities (i.e. Physical) or whether it is tracking the index performance
+>50.0 Billion                                     89.43
+                                                           using derivatives (swaps, i.e. Synthetic). Methodology: The Methodology indicates whether an ETF is holding all index securities in the
+N/A                                                 0.11
+                                                           same weight as the index (i.e. Physical Replication) or whether an optimised subset of index securities is used (i.e. Optimised) in order to
+                                                           efficiently track index performance. Price to Book: The price per share of a stock divided by its book value (i.e., net worth) per share. For a
+                                                           portfolio, the value represents a weighted average of the stocks it holds. Price to Earnings (12-Month Trailing) is the share price of a
+                                                           stock, divided by its per-share earnings over the past year. For a portfolio, the value represents a weighted average of the stocks it holds.
+                                                           Return on Equity: A measure of a corporation's profitability that reveals how much profit a company generates with the money
+                                                           shareholders have invested. For a portfolio, the value represents a weighted average of the stocks it holds. Dividend Yield is the annual
+                                                           dividend received on an equity security as a percentage of the price. For a portfolio, the value represents a weighted average of the stocks
+                                                           it holds. It should not be used as an indication of the income received from this portfolio. Dividend Yield is calculated without the
+                                                           deduction of fees and expenses. Standard Deviation: Measure of the degree to which a fund's return varies from the average of its
+                                                           previous returns. The larger the standard deviation, the greater the likelihood (and risk) that a fund's performance will fluctuate from the
+                                                           average return.
+
+                                                           Portfolio Data Information
+                                                           Holdings are provided for information purposes only and should not be deemed a recommendation to buy or sell the securities
+                                                           mentioned.
+
+=== pdf p.3 ===
+Franklin S&P 500 Paris Aligned Climate UCITS ETF                                                                                                                                           as of 30 September 2026
+
+
+Important Information
+This fund meets the requirements under Article 8 of the EU Sustainable Finance Disclosure Regulation (SFDR); the fund has binding commitments in its investment policy to promote
+environmental and/or social characteristics and any companies in which it invests should follow good governance practices.
+Further information in relation to the sustainability-related aspects of the Fund can be found at www.franklintempleton.lu/SFDR. Please review all of the Fund's objectives and characteristics before investing.
+
+This material is intended to be of general interest only and should not be construed as individual investment advice or a recommendation or solicitation to buy, sell or hold any security or to adopt any
+investment strategy. It does not constitute legal or tax advice. Special risks are associated with foreign investing, including currency fluctuations, economic instability and political developments; investments in
+emerging markets involve heightened risks related to the same factors. To the extent the fund focuses on particular countries, regions, industries, sectors or types of investment from time to time, it may be
+subject to greater risks of adverse developments in such areas at focus than a fund that invests in a wider variety of countries, regions, industries, sectors or investments. For the avoidance of doubt, if you make
+a decision to invest, you will be buying units/shares in the Fund and will not be investing directly in the underlying assets of the Fund.
+Franklin Templeton ICAV ("the ETF" or “Fund”) investment returns and principal values will change with market conditions, and an investor may have a gain or a loss when they sell their shares. Please visit
+www.franklintempleton.com/corporate/all-sites for the Franklin Templeton ICAV standardised and most recent month-end performance. There is no guarantee that any strategy will achieve its objective.
+All performance data shown is in the fund's base currency. Performance data is based on the net asset value (NAV) of the ETF which may not be the same as the market price of the ETF. Individual investors may
+realise returns that are different to the NAV performance. Past performance does not predict future returns. The actual costs vary depending on the executing custodian. In addition, deposit costs may be
+incurred which could have a negative effect on the value. Please find out the costs due from the respective price lists from the processing/custodian bank. Changes in exchange rates could have positive or
+negative effects on this investment. Please visit www.franklintempleton.com/corporate/all-sites to be directed to your local Franklin Templeton website for current performance, and to see the latest Prospectus
+or Supplement for further details. Information is historical and may not reflect current or future portfolio characteristics. All portfolio holdings are subject to change.
+The Fund may use financial derivatives or other instruments which entail specific risks more fully described in the Fund's Documents. An investment in the ETF entails risks which are described in the latest
+Prospectus or Supplement and in the relevant KIID. The Fund's documents are available in English, German and French from your local website or can be requested via FT’s European Facilities Service which is
+available at www.eifs.lu/franklintempleton.
+In addition, a Summary of Investor Rights is available from www.franklintempleton.lu/summary-of-investor-rights. The summary is available in English.
+Franklin Templeton ICAV is notified for marketing in multiple EU Member States under the UCITS Directive. Franklin Templeton ICAV can terminate such notifications for any share class and/or sub-fund at any
+time by using the process contained in Article 93a of the UCITS Directive.
+Franklin Templeton ICAV (domiciled outside of the U.S. or Canada) may not be directly or indirectly offered or sold to residents of the United States of America or Canada. ETFs trade like stocks, fluctuate in
+market value and may trade at prices above or below the ETFs net asset value. Brokerage commissions and ETF expenses will reduce returns. Indices are unmanaged, and one cannot invest directly in an index.
+They do not reflect any fees, expenses or sales charges.
+Issued by Franklin Templeton International Services S.à r.l. – Supervised by the Commission de Surveillance du Secteur Financier – 8A, rue Albert Borschette, L-1246 Luxembourg.
+
+Benchmark(s) S&P 500 PAB ESG Index-NR. Used for index tracking only.
+The Fund is passively managed and seeks to replicate the benchmark by holding all of the Index securities in a similar proportion to their weighting in the benchmark. Its portfolio, and thus its performance,
+closely resemble that of the benchmark.
+
+Intended retail Investor Investors who understand the risks of the Fund and plan to invest for at least 3 to 5 years. The Fund may appeal to investors who are looking for long-term investment growth, are
+interested in exposure to large capitalisation US stocks which are aligned to the transition to a low carbon economy as part of a diversified portfolio, have a high risk profile and can tolerate significant short-term
+changes in the share price.
+Product availability The Fund is available to all investors with at least basic investment knowledge, through a wide range of distribution channels, with or without the need for advice.
+CFA® and Chartered Financial Analyst® are trademarks owned by CFA Institute.
+© Morningstar, Inc. All rights reserved. The information contained here in (1) is proprietary to Morningstar and/or its content providers; (2) may not be copied or distributed; and (3) is not warranted to be
+accurate, complete or timely. Neither Morningstar nor its content providers are responsible for any damages or losses arising from any use of this information.
+ Net Returns (NR) include income net of tax withholding when dividends are paid. Source: © 2026 S&P Dow Jones Indices LLC. All rights reserved. Effective 7 November 2025 the fund's benchmark was
+renamed S&P 500 PAB ESG Index-NR. The S&P 500 PAB ESG Index-NR is a product of S&P Dow Jones Indices LLC or its affiliates ("SPDJI") and has been licensed for use by Franklin Templeton. Standard &
+Poor’s® and S&P® are registered trademarks of Standard & Poor’s Financial Services LLC ("S&P"); Dow Jones® is a registered trademark of Dow Jones Trademark Holdings LLC ("Dow Jones"); and these
+trademarks have been licensed for use by SPDJI and sublicensed for certain purposes by Franklin Templeton. FRANKLIN S&P 500 PARIS ALIGNED CLIMATE UCITS ETF is not sponsored, endorsed, sold or
+promoted by SPDJI, Dow Jones, S&P, their respective affiliates, and none of such parties make any representation regarding the advisability of investing in such product(s) nor do they have any liability for any
+errors, omissions, or interruptions of the S&P 500 PAB ESG Index-NR. Indices are unmanaged, and one cannot invest directly in an index. They do not reflect any fees, expenses or sales charges. Important data
+provider notices and terms available at www.franklintempletondatasources.com.
+Issued in the UK by Franklin Templeton Investment Management Limited (FTIML), registered office: Cannon Place, 78 Cannon Street, London EC4N 6HL. Authorized and regulated in the United Kingdom by the
+Financial Conduct Authority.
+UK Freephone: 0800 305 306 | email: franklintempletonuk@fisglobal.com | www.franklintempleton.co.uk
+© 2026 Franklin Templeton. All rights reserved.
+

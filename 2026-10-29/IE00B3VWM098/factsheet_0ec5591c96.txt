@@ -1,0 +1,188 @@
+=== pdf p.1 ===
+PASSIVE
+
+                iShares MSCI USA Small Cap CTB
+ CUSS           Enhanced ESG UCITS ETF
+                U.S. Dollar (Accumulating)
+                iShares VII plc                                                                                            September 2026
+Performance, Portfolio Breakdowns and Net Asset information as at: 30-Sep-2026. All other data as at 05-Oct-2026.
+This document is marketing material. For Investors in the UK. Investors should read the KIID/PRIIPs document and prospectus prior to investing,
+and should refer to the prospectus for the funds full list of risks.
+
+ FUND OVERVIEW                                                                                    PRODUCT INFORMATION
+ The fund aims to achieve a return on your investment which reflects the return of the MSCI       ISIN : IE00B3VWM098
+ USA Small Cap ESG Enhanced Focus CTB Index.                                                      Share Class Launch Date : 01-Jul-2009
+
+ On 1st June 2022, the benchmark changed from MSCI USA Small Cap Index to MSCI USA                Share Class Currency : USD
+ Small Cap ESG Enhanced Focus CTB Index. The change will be reflected in the benchmark            Total Expense Ratio : 0.43%
+ data.                                                                                            Use of Income : Accumulating
+ RISK INDICATOR                                                                                   Net Assets of Share Class (M) : 2,855.90 USD
+                                                                                                  KEY FACTS
+ Lower Risk                                                                    Higher Risk        Asset Class : Equity
+ Potentially Lower Rewards                                         Potentially Higher Rewards     Benchmark : MSCI USA Small Cap ESG
+                                                                                                  Enhanced CTB Index
+                                                                                                  Fund Launch Date : 01-Jul-2009
+      1            2             3            4             5             6            7
+                                                                                                  Net Assets of Fund (M) : 2,855.90 USD
+CAPITAL AT RISK: The value of investments and the income from them can fall as well as rise SFDR Classification : Article 8
+and are not guaranteed. Investors may not get back the amount originally invested.
+                                                                                            Domicile : Ireland
+KEY RISKS:                                                                                        Methodology : Optimised
+    Shares in smaller companies typically trade in less volume and experience greater price       Issuing Company : iShares VII plc
+    variations than larger companies.
+    The value of equities and equity-related securities can be affected by daily stock market     Product Structure : Physical
+    movements. Other influential factors include political, economic news, company                ISA Eligibility : Yes
+    earnings and significant corporate events.
+                                                                                                  SIPP Available : Yes
+    The benchmark index only excludes companies engaging in certain activities
+    inconsistent with ESG criteria if such activities exceed the thresholds determined by the     UK Reporting Status : Yes
+    index provider. Such ESG screening may reduce the potential investment universe and
+    this may adversely affect the value of the Fund’s investments compared to a fund              PORTFOLIO CHARACTERISTICS
+    without such screening.                                                                       Price to Book Ratio : 2.40x
+    Counterparty Risk: The insolvency of any institutions providing services such as              Price to Earnings Ratio : 19.82x
+    safekeeping of assets or acting as counterparty to derivatives or other instruments, may
+    expose the Share Class to financial loss.                                                     3y Beta : 1.00
+    Liquidity Risk: Lower liquidity means there are insufficient buyers or sellers to allow the   Number of Holdings : 1,537
+    Fund to sell or buy investments readily.
+                                                                                                  Please refer to the Glossary for more details.
+
+=== pdf p.2 ===
+iShares MSCI USA Small Cap CTB Enhanced
+ESG UCITS ETF
+U.S. Dollar (Accumulating)
+iShares VII plc
+
+CALENDAR YEAR PERFORMANCE
+
+
+
+
+                      2016         2017            2018        2019     2020         2021        2022            2023         2024     2025
+   Share Class        19.13        16.49           -10.49      26.56    18.15        18.86       -16.94          15.63     10.71        9.60
+   Benchmark          19.15        16.75           -10.40      26.74    18.32        19.11       -16.79          15.53     11.02        9.77
+
+   During this period performance was achieved under circumstances that no longer apply.
+Prior to 1st June 2022, the Fund used a different benchmark, which is reflected in the benchmark data.
+
+
+GROWTH OF HYPOTHETICAL 10,000 USD SINCE INCEPTION
+
+
+
+
+CUMULATIVE & ANNUALISED PERFORMANCE
+                                                     CUMULATIVE (%)                                              ANNUALISED (% p.a.)
+                         1m                3m                6m         YTD              1y               3y             5y            Since
+                                                                                                                                     Inception
+    Share Class         -5.00              -7.26            10.52      12.84           15.66             15.81           6.36          12.28
+    Benchmark           -4.94              -7.17            10.66      13.01           15.93             16.03           6.50          12.46
+
+The figures shown relate to past performance. Past performance is not a reliable indicator of future performance. Markets could develop very
+differently in the future. It can help you to assess how the fund has been managed in the past Performance is shown on a Net Asset Value
+(NAV) basis, with gross income reinvested where applicable. Performance data is based on the net asset value (NAV) of the ETF which may not be
+the same as the market price of the ETF. Individual shareholders may realize returns that are different to the NAV performance. The return of your
+investment may increase or decrease as a result of currency fluctuations if your investment is made in a currency other than that used in the past
+performance calculation. Source: Blackrock
+  Share Class (USD)          iShares MSCI USA Small Cap CTB Enhanced ESG UCITS ETF U.S. Dollar (Accumulating)
+  Benchmark (USD)            MSCI USA Small Cap ESG Enhanced CTB Index
+
+=== pdf p.3 ===
+ iShares MSCI USA Small Cap CTB Enhanced
+ ESG UCITS ETF
+ U.S. Dollar (Accumulating)
+ iShares VII plc
+
+Top 10 Holdings
+MODERNA                                                           1.06%
+DT MIDSTREAM                                                      0.50%
+US FOODS HOLDING                                                  0.50%
+ASSURANT INC                                                      0.45%
+ROYAL GOLD                                                        0.45%
+EAST WEST BANCORP                                                 0.41%
+WATTS WATER TECHNOLOGIES CLASS A                                  0.40%
+FEDERAL REALTY INVESTMENT TRUST RE                                0.39%
+GUARDANT HEALTH                                                   0.37%
+ANTERO MIDSTREAM                                                  0.36%
+Total of Portfolio                                                4.89%
+Holdings are subject to change.
+
+
+
+SECTOR BREAKDOWN (%)
+
+
+
+
+                                   Fund
+Allocations are subject to change. Source: BlackRock
+
+
+
+TRADING INFORMATION
+Exchange          London Stock            SIX Swiss    Bolsa De Valores
+                  Exchange                Exchange     De Colombia
+Ticker            CUSS                    CSUSS        CUSS
+Bloomberg         CUSS LN                 CSUSS SW     -
+Ticker
+RIC               CUSS.L                  CSUSS.S      -
+SEDOL             B53N420                 B3VWM09      -
+Listing           USD                     USD          COP
+Currency
+This product is also listed on: Bolsa Mexicana De Valores,Borsa
+Italiana,Deutsche Boerse Xetra
+
+=== pdf p.4 ===
+ iShares MSCI USA Small Cap CTB Enhanced
+ ESG UCITS ETF
+ U.S. Dollar (Accumulating)
+ iShares VII plc
+
+GLOSSARY
+SFDR Classification: Article 8: Products that promote environmental           Price to Book Ratio: represents the ratio of the current closing price of
+or social characteristics and promote good governance practices.              the share to the latest quarter's book value per share.
+Article 9: Products that have sustainable investments as an objective
+and follow good governance practices. Other: Products that do not
+meet the criteria to be classified as Article 8 or 9.
+Price to Earnings: A valuation ratio of a company's current share price
+compared to its per-share earnings in the current forecast year,
+calculated as current share price divided by current earnings per share.
+ IMPORTANT INFORMATION:
+In the European Economic Area (EEA): this is Issued by BlackRock (Netherlands) B.V. is authorised and regulated by the Netherlands Authority for
+the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: 31-20-549-5200. Trade Register No.
+17068311 For your protection telephone calls are usually recorded. For Ireland and only in relation to Per Se Professionals and/or Eligible
+Counterparties (i.e., Professional Investors), this may also be issued by BlackRock Investment Management (UK) Limited, authorised and regulated
+by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44 (0)20 7743 3000. Registered in
+England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the Financial Conduct Authority website
+for a list of authorised activities conducted by BlackRock.
+In the UK and Non-European Economic Area (EEA) countries (excluding Switzerland),: this is Issued by BlackRock Investment Management
+(UK) Limited, authorised and regulated by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44
+(0)20 7743 3000. Registered in England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the
+Financial Conduct Authority website for a list of authorised activities conducted by BlackRock.
+This is Marketing Material. iShares plc, iShares II plc, iShares III plc, iShares IV plc, iShares V plc, iShares VI plc and iShares VII plc (together 'the
+Companies') are open-ended investment companies with variable capital having segregated liability between their funds organised under the laws
+of Ireland and authorised by the Central Bank of Ireland. The Prospectus (Available in French, German, Polish and English Languages) Key Investor
+Information document (UK only), PRIIPs KID and further information about the Fund and the Share Class, such as details of the key underlying
+investments of the Share Class and share prices, is available on the iShares website at www.ishares.com or by calling +44 (0)845 357 7000 or from
+your broker or financial adviser. The indicative intra-day net asset value of the Share Class is available at http://deutsche-boerse.com and/or http://
+www.reuters.com. A UCITS ETF’s units / shares that have been acquired on the secondary market cannot usually be sold directly back to the UCITS
+ETF itself. Investors who are not Authorised Participants must buy and sell shares on a secondary market with the assistance of an intermediary
+(e.g. a stockbroker) and may incur fees and additional taxes in doing so. In addition, as the market price at which the Shares are traded on the
+secondary market may differ from the Net Asset Value per Share, investors may pay more than the then current Net Asset Value per Share when
+buying shares and may receive less than the current Net Asset Value per Share when selling them. UCITS HAVE NO GUARANTEED RETURN AND
+PAST PERFORMANCE DOES NOT GUARANTEE THE FUTURE ONES
+
+ This document is marketing material and will expire 12 months after issue
+This document is not, and under no circumstances is to be construed as an advertisement or any other step in furtherance of a public offering of
+shares in the United States or Canada. This document is not aimed at persons who are resident in the United States, Canada or any province or
+territory thereof, where the companies/securities are not authorised or registered for distribution and where no prospectus has been filed with any
+securities commission or regulatory authority. The companies/securities may not be acquired or owned by, or acquired with the assets of, an ERISA
+Plan.
+Any research in this document has been procured and may have been acted on by BlackRock for its own purpose. The results of such research are
+being made available only incidentally. The views expressed do not constitute investment or any other advice and are subject to change. They do
+not necessarily reflect the views of any company in the BlackRock Group or any part thereof and no assurances are made as to their accuracy
+
+This document is for information purposes only and does not constitute an offer or invitation to anyone to invest in any BlackRock funds and has
+not been prepared in connection with any such offer.
+© 2026 BlackRock, Inc. All Rights reserved. BLACKROCK, BLACKROCK SOLUTIONS, and iSHARES are trademarks of BlackRock, Inc. or its
+affiliates All other trademarks are those of their respective owners
+

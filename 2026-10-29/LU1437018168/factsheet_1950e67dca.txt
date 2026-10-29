@@ -1,0 +1,415 @@
+=== pdf p.1 ===
+      Amundi EUR Corporate Bond ESG UCITS ETF
+                                                                                                                                                                                                               FACTSHEET
+
+                                                                                                                                                                                                                Marketing-
+                                                                                                                                                                                                                 Anzeige
+MARKETING-ANZEIGEN ■
+                                                                                                                                                                                                               30/06/2026
+
+
+Wesentliche Informationen (Quelle : Amundi)                                                Anlageziel                                                                              Risiko-indikator (Quelle: Fund Admin)
+
+
+ Nettoinventarwert (NAV) : (C) 54,62 ( EUR )                                                Das Ziel dieses Teilfonds besteht darin, die
+                           (D) 47,02 ( EUR )                                                Wertentwicklung des Bloomberg MSCI ESG Euro
+                                                                                            Corporate Select Index nachzubilden und den
+ Datum des NAV : 30/06/2026                                                                 Tracking Error zwischen dem Nettoinventarwert des                                         Niedrigeres Risiko                     Höheres Risiko
+ ISIN-Code : (C) LU1437018168                                                               Teilfonds und der Wertentwicklung des Index zu
+             (D) LU1737653987                                                               minimieren. Der Teilfonds strebt an, ein Tracking-                                           Der Risiko-Indikator beruht auf der Annahme, dass Sie
+                                                                                            Error-Niveau zwischen dem Teilfonds und seinem                                         das Produkt für 4 Jahre lang halten.
+ WKN : A2ATY6                                                                                                                                                                      Der Gesamtrisikoindikator hilft Ihnen, das mit diesem
+                                                                                            Index zu erreichen, das in der Regel nicht mehr als 1
+ Nachbildungsart : Physisch                                                                 % beträgt.                                                                             Produkt verbundene Risiko im Vergleich zu anderen
+                                                                                            Der Index ist ein Gesamtertragsindex: die von den                                      Produkten einzuschätzen. Er zeigt, wie hoch die
+ Fondsvolumen : 6.464,31 ( Millionen EUR )
+                                                                                                                                                                                   Wahrscheinlichkeit ist, dass Sie bei diesem Produkt Geld
+ Referenzwährung des Teilfonds : EUR                                                        Indexbestandteilen gezahlt werden, sind in der
+                                                                                                                                                                                   verlieren, weil sich die Märkte in einer bestimmten Weise
+                                                                                            Indexrendite enthalten.                                                                entwickeln oder wir nicht in der Lage sind, Sie
+ Referenzwährung der Anteilsklasse : EUR                                                    Der Bloomberg MSCI ESG Euro Corporate Select                                           auszubezahlen.
+ Referenzindex :                                                                            Index ist ein Anleihenindex, der das Universum der
+  100% BLOOMBERG MSCI ESG EURO                                                              auf Euro lautenden festverzinslichen Investment-
+  CORPORATE SELECT INDEX                                                                    Grade-Wertpapiere nachbildet, das den Regeln des
+                                                                                            Bloomberg Barclays Euro Aggregate Corporate Index
+                                                                                            (der „Hauptindex“) folgt, und wendet Sektor- und
+                                                                                            ESG-Kriterien bezüglich der Zulässigkeit von
+                                                                                            Wertpapieren an.
+
+Wertentwicklung (Quelle: Fondsadministrator) - Die frühere Wertentwicklung lässt nicht auf zukünftige Renditen schließen.
+
+Performanceentwicklung (Basis: 100) * von 30/06/2021 bis 30/06/2026 (Quelle: Fund Admin)                                                                                           Hauptmerkmale (Quelle: Amundi)
+          110
+                   A                                                                                                                                                                Rechtsform : OGAW
+                                                                                                                                                                                    Anwendbares Recht :
+                                                                                                                                                                                     nach luxemburgischem Recht
+          100
+                                                                                                                                                                                    Gründungsdatum des Teilfonds : 29/06/2016
+                                                                                                                                                                                    Auflagedatum der Anlageklasse : 29/06/2016
+    (%)
+
+
+
+
+                                                                                                                                                                                    Ertragsverwendung : (C) Thesaurierend
+           90                                                                                                                                                                                           (D) Ausschüttend
+                                                                                                                                                                                    Ausgabeaufschlag (laufend) : -
+                                                                                                                                                                                    Ausgabeaufschlag : 0,00% (im Börsenhandel)
+           80                                                                                                                                                                       Verwaltungsgebühren und sonstige Verwaltungs-
+                                                                                                                                                                                    oder Betriebskosten :
+             /21
+
+                     /21
+
+                             /21
+
+                                     /22
+
+                                             /22
+
+                                                     /22
+
+                                                             /22
+
+                                                                     /23
+
+                                                                             /23
+
+                                                                                     /23
+
+                                                                                             /23
+
+                                                                                                     /24
+
+                                                                                                             /24
+
+                                                                                                                     /24
+
+                                                                                                                             /24
+
+                                                                                                                                     /25
+
+                                                                                                                                             /25
+
+                                                                                                                                                     /25
+
+                                                                                                                                                             /25
+
+                                                                                                                                                                     /26
+
+                                                                                                                                                                             /26
+
+
+
+
+                                                                                                                                                                                     0,14%
+           06
+
+                   09
+
+                           12
+
+                                   03
+
+                                           06
+
+                                                   09
+
+                                                           12
+
+                                                                   03
+
+                                                                           06
+
+                                                                                   09
+
+                                                                                           12
+
+                                                                                                   03
+
+                                                                                                           06
+
+                                                                                                                   09
+
+                                                                                                                           12
+
+                                                                                                                                   03
+
+                                                                                                                                           06
+
+                                                                                                                                                   09
+
+                                                                                                                                                           12
+
+                                                                                                                                                                   03
+
+                                                                                                                                                                           06
+
+
+
+
+                                                                     Portfolio              Referenzindex                                                                           Empfohlene Mindestanlagedauer : 4 Jahre
+A : Seit Beginn dieses Zeitraums ist der Referenzindikator des Teilfonds der Bloomberg Barclays MSCI Euro                                                                           Erfolgsabhängige Gebühr : Nein
+Corporate ESG Sustainability SRI                                                                                                                                                    Performancevergütung (% pro Jahr) : -
+Kumulierte Wertentwicklung* (Quelle: Fondsadministrator)                                                                                                                            Morningstar-Kategorie © :
+                                                                                                                                                                                    EAA FUND EUR CORPORATE BOND
+                                               seit dem 1 Monat 3 Monate         1 Jahr    3 Jahre    5 Jahre    seit dem                                                           Morningstar-Rating © : 3
+ seit dem                                     31/12/2025 29/05/2026 31/03/2026 30/06/2025 30/06/2023 30/06/2021 11/11/2016
+                                                                                                                                                                                    Anzahl der Fonds der Kategorie : 1411
+ Portfolio ohne
+                                                   1,29%             0,44%                 2,32%            2,45%            15,10%                0,43%             9,49%          Datum des Ratings : 31/05/2026
+ Ausgabeaufschlag
+ Referenzindex                                     1,31%             0,44%             2,32%               2,49%             15,58%                1,44%            11,53%
+ Abweichung                                        -0,02%            0,00%             -0,01%              -0,04%            -0,48%                -1,02%           -2,04%         Risikoindikatoren (Quelle: Fund Admin)
+Wertentwicklung des Fonds * (Quelle: Fondsadministrator)                                                                                                                                                               3  seit Auflegung
+                                                                                                                                                                                                              1 Jahr
+                                                                                                                                                                                                                    Jahre         *
+                                                                       2022                   2023                    2024                   2025                   2026            Portfolio Volatilität     2,52% 3,03%      3,79%
+ Per                                                               30/06/2022              30/06/2023              28/06/2024          30/06/2025             30/06/2026            Referenzindex
+                                                                                                                                                                                                              2,54% 3,03%           3,79%
+ seit dem                                                          30/06/2021              30/06/2022              30/06/2023          28/06/2024             30/06/2025            Volatilität
+ Portfolio ohne Ausgabeaufschlag                                    -12,32%                  -0,48%                  6,09%               5,90%                   2,45%              Tracking Error ex-
+                                                                                                                                                                                                              0,05% 0,04%           0,05%
+ Referenzindex                                                      -12,15%                  -0,10%                  6,34%               6,04%                   2,49%              post
+ Abweichung                                                          -0,18%                  -0,39%                  -0,25%              -0,15%                 -0,04%             * Die Volatilität ist ein statistischer Indikator, der die
+                                                                                                                                                                                   Schwankungen eines Vermögenswerts um seinen Mittelwert
+                                                                                                                                                                                   misst. Beispielsweise entspricht eine Marktschwankung von
+                                                                                                                                                                                   +/- 1,5% pro Tag einer Volatilität von 25% pro Jahr. Je höher
+* Andere ertragsmindernde Kosten wie individuelle Konto- und Depotgebühren sind in der Darstellung nicht berücksichtigt. Die
+                                                                                                                                                                                   die Volatilität, desto höher das Risiko.
+angegebene Wertentwicklung deckt für jedes Kalenderjahr vollständige 12-Monats-Zeiträume ab. Die Wertentwicklung in der
+Vergangenheit bietet keine Garantie für den künftigen Wertverlauf. Der Wert der Anlagen kann in Abhängigkeit von der
+Marktentwicklung steigen oder fallen. Quelle : Amundi.
+
+
+
+
+                                                                                                                    ■ amundietf.com
+                                                                                      Für Marketing- und Informationszwecke
+
+=== pdf p.2 ===
+     Amundi EUR Corporate Bond ESG UCITS ETF
+                                                                                                                                                                                                       FACTSHEET
+
+                                                                                                                                                                                                         Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                                                      Anzeige
+                                                                                                                                                                                                         30/06/2026
+
+
+
+
+Index-Daten (Quelle: Amundi)
+
+
+Beschreibung                                                                                                     Die größten Portfolio-Positionen (Quelle : Amundi)
+
+ Der Bloomberg Barclays MSCI Euro Aggregate Sustainable ESG Sustainability SRI                                                                                                                  % des Vermögens
+ Index ist ein Anleihenindex, der das Universum der auf Euro lautenden                                           JPM VAR 03/30 EMTN                                                                  0,10%
+ festverzinslichen Investment-Grade-Wertpapiere nachbildet, das den Regeln des                                   SANTAN 4.875% 10/31 EMTN                                                            0,10%
+ Bloomberg Barclays Euro Aggregate Corporate Index (der „Hauptindex“) folgt, und                                 JPM VAR 01/36 EMTN                                                                  0,10%
+ wendet Sektor- und ESG-Kriterien bezüglich der Zulässigkeit von Wertpapieren an.                                UBS VAR 03/29                                                                       0,10%
+                                                                                                                 VZ VAR 08/56 ..                                                                     0,10%
+                                                                                                                 GS VAR 08/33 EMTN                                                                   0,10%
+                                                                                                                 HSBC VAR 05/33 EMTN                                                                 0,10%
+                                                                                                                 MS VAR 03/29                                                                        0,10%
+                                                                                                                 SANTAN VAR 04/29 EMTN                                                               0,10%
+                                                                                                                 JPM VAR 11/31 EMTN                                                                  0,10%
+
+
+
+Nach Laufzeit (Quelle : Amundi)                                                                                  Nach Rating (Quelle : Amundi)
+   40 %                                                                                                               60 %
+
+
+                                   31,92 %                                                                            50 %
+                        29,95 %                                                                                                                                     47,67 %
+   30 %
+                                                                                                                                                                                     44,52 %
+
+                                                                                                                      40 %
+
+   20 %
+                                             17,48 %
+                                                                                                                      30 %
+
+
+   10 %                                                 9,58 %
+             8,44 %                                                                                                   20 %
+
+                                                                 1,82 %
+                                                                             0,59 %    0,22 %                         10 %
+     0%                                                                                                                                           7,03 %
+                 er
+
+
+
+                         2J
+
+
+
+                                   5J
+
+
+
+                                              7J
+
+
+
+                                                         J
+
+
+
+                                                                   J
+
+
+
+                                                                              J
+
+
+
+                                                                                        J
+
+
+
+                                                                                                   re
+                                                       10
+
+
+
+                                                                 15
+
+
+
+                                                                            20
+
+
+
+                                                                                      30
+
+
+
+                                                                                                 de
+               ig
+
+
+
+
+                                                                                                                                  0,37 %                                                           0,04 %             0,37 %
+             st
+
+
+
+
+                                                                                               An
+
+
+
+
+                                                                                                                       0%
+          fri
+        rz
+
+
+
+
+                                                                                                                                    AAA               AA               A              BBB           NR                Sonstige
+      Ku
+
+
+
+
+                                                    Portfolio                                                                                                           Portfolio
+
+
+Nach Emittent (Quelle : Amundi)                                                                                  Nach Ländern (Quelle : Amundi)
+
+                                                                                                                          Vereinigte Staaten                                                                     21,61 %
+                      Industrie                                                             51,89 %                               Frankreich                                                             18,99 %
+                                                                                                                                Deutschland                                          11,27 %
+                                                                                                                      Vereinigtes Königreich                                   9,49 %
+                 Finanzwerte                                                            47,72 %                                      Spanien                         6,17 %
+                                                                                                                                 Niederlande                        5,33 %
+                                                                                                                                       Italien                 4,30 %
+                PBF & FONC         0,03 %
+                                                                                                                                  Schweden                  3,12 %
+                                                                                                                                       Japan               2,64 %
+                                                                                                                                   Dänemark                2,41 %
+    Staatsanleihen Eurozone
+                                                                                                                                     Schweiz            2,17 %
+                                                                                                                                   Australien          1,89 %
+                      Sonstige                                                                                                        Belgien         1,39 %
+                                                                                                                                    Finnland          1,37 %
+                                                                                                                                     Kanada           1,22 %
+                  Liquiditäten     0,37 %                                                                                          Österreich         1,21 %
+                                                                                                                                    Sonstige                        5,42 %
+
+                                  0%        10 %      20 %       30 %        40 %       50 %    60 %                                             0%            5%             10 %          15 %         20 %          25 %
+                                                   Portfolio                                                                                                          Portfolio
+
+
+Handelsinformationen (Quelle : Amundi)
+              Börsenplätze                              Währung                   Ticker Bloomberg                      INAV Bloomberg                       RIC Reuters                         INAV Reuters
+          Deutsche Boerse (Xetra)                        EUR                          A4H8 GY                               IECRP                             A4H8.DE                          AMECRPINAV=SOLA
+              Euronext Paris                             EUR                          ECRP FP                               IECRP                            AMECRP.PA                         AMECRPINAV=SOLA
+                   LSE                                   GBP                          ECRP LN                                  -                             AMNECRP.L                                 -
+              Euronext Milan                             EUR                          ECRP IM                               IECRP                             ECRPI.MI                         AMECRPINAV=SOLA
+
+
+
+
+                                                                        Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                                        von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                                          Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.3 ===
+     Amundi EUR Corporate Bond ESG UCITS ETF
+                                                                                                                                                                        FACTSHEET
+
+
+                                                                                                                                                                        Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                     Anzeige
+                                                                                                                                                                        30/06/2026
+
+
+
+
+Wichtige Hinweise
+
+ Informationen über die Verwaltungsgesellschaft und den Fonds Teilfonds der Luxemburg SICAV Amundi Index Solutions (der 'Teilfonds' oder der 'Fonds' und die
+ 'SICAV'). Die SICAV ist eine Vereinbarung für gemeinsame Anlagen in Wertpapieren gemäß Teil I des luxemburgischen Gesetzes vom 17. Dezember 2010, die in Form einer
+ Investmentgesellschaft mit variablem Kapital gegründet wurde und unter der Nummer B206810 im Handels- und Gesellschaftsregister Luxemburg eingetragen ist. Der
+ eingetragene Sitz der SICAV befindet sich in 5, allée Scheffer, L-2520 Luxemburg. Der Teilfonds wurde von der Commission de Surveillance du Secteur Financier in
+ Luxemburg zum und von der AMF in Frankreich zum öffentlichen Vertrieb zugelassen. Die SICAV besteht aus anderen Teilfonds, die in dem Prospekt beschrieben sind. Nicht
+ alle Teilfonds werden unbedingt in den Ländern aller Anleger registriert oder zum Vertrieb zugelassen. Informationen über den Fonds sind in den wesentlichen
+ Anlegerinformationen (Basisinformationsblatt) und in dem Verkaufsprospekt enthalten. Die wesentlichen Anlegerinformationen des Fonds müssen interessierten Anlegern vor
+ jeder Zeichnung zur Verfügung gestellt werden. Bei den Fonds handelt es sich um französische, luxemburgische und/oder irische offene Investmentfonds, die entsprechend
+ von der französischen Autorité des Marchés Financiers (französische Finanzmarktaufsichtsbehörde), von der Luxemburger Commission de Surveillance du Secteur Financier
+ (CSSF) oder von der Central Bank of Ireland (irische Finanzmarktaufsichtsbehörde) genehmigt wurden und zur Vermarktung ihrer Anteile oder Aktien in verschiedenen
+ europäischen Ländern (die Vertriebsländer) gemäß Artikel 93 der Richtlinie 2009/65/EG berechtigt sind. Für Amundi ETF: Für weitere Informationen über die Fonds kann von
+ Amundi Deutschland GmbH, Arnulfstr. 124-126, 80636 München, Deutschland (Tel. +49 (0)89 99 2260) ein kostenloser Verkaufsprospekt angefordert werden. Die
+ aufsichtsrechtlichen Dokumente der Amundi ETFs, die zum öffentlichen Vertrieb in Deutschland zugelassen sind, sind auf Anfrage kostenlos und als gedrucktes Exemplar bei
+ Marcard, Stein & Co. AG, Ballindamm 36, 20095 Hamburg, Deutschland erhältlich. Bei Fonds, die an einem geregelten Markt zugelassen sind, unterliegt die Notierung einem
+ Mechanismus zur Volatilitätskontrolle, um sicherzustellen, dass der ETF-Preis nicht wesentlich von einem Referenzpreis abweicht. Dies ist in den Notierungsregeln des
+ jeweiligen geregelten Marktes festgelegt, insbesondere durch die Einführung eines Handelsstopps-Mechanismus im Falle einer erheblichen Abweichung vom Referenzpreis.
+ Der Fonds bietet keine Kapitalgarantie. Daher ist es möglich, dass das ursprünglich investierte Kapital nicht vollständig zurückgezahlt wird, insbesondere bei einem
+ Wertverlust des Referenzindexes. Zeichnungen von OGAW-Anteilen können mit Risiken verbunden sein. Interessierte Anleger sollten die Informationen über das Risikoprofil
+ des Fonds lesen, das ausführlich im Vekraufsprospekt beschrieben wird. Es hängt von der persönlichen Situation eines Anlegers ab, welcher Betrag für eine Anlage in den
+ Fonds angemessen ist. Um diesen Betrag zu bestimmen, sollten Anleger ihre finanzielle Situation, ihr persönliches Vermögen, ihre derzeitigen und zukünftigen finanziellen
+ Bedürfnisse, aber auch ihre jeweilige Risikobereitschaft bzw. Risikoaversion berücksichtigen. Es wird auch nachdrücklich empfohlen, dass ein Anleger seine Anlagen
+ hinreichend diversifiziert, um nicht ausschließlich den mit dem Fonds verbundenen Risiken ausgesetzt zu sein. Anleger werden daher gebeten, sich zu diesen Punkten von
+ ihren üblichen Beratern (Rechts-, Steuer- und/oder Finanzberater) beraten zu lassen, bevor sie Anteile des Fonds erwerben. Soweit nichts Gegenteiliges vermerkt ist,
+ stammen alle Angaben dieses Dokuments von Amundi Asset Management. Richtlinien zur Portfoliotransparenz und Hinweise zum Sekundärmarkt Informationen zur
+ Portfoliotransparenzstrategie sowie Informationen über die Zusammensetzung des Portfolios sind auf amundietf.com erhältlich. Der indikative Nettoinventarwert wird über die
+ Börsen veröffentlicht. Auf dem Sekundärmarkt erworbene Fondsanteile können in der Regel nicht direkt an den Fonds zurückverkauft werden. Anleger müssen Anteile/Aktien
+ auf einem Sekundärmarkt mit Hilfe eines Intermediärs (z.B. eines Börsenmaklers) kaufen oder verkaufen; diese Hilfe kann gebührenpflichtig sein. Darüber hinaus zahlen
+ Anleger beim Kauf von Anteilen/Aktien u.U. mehr als den aktuellen Nettoinventarwert und erhalten beim Verkauf weniger als den aktuellen Nettoinventarwert dafür zurück.
+
+
+
+
+                                                       Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                       von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                         Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+

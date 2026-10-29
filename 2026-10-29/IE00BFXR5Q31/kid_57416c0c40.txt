@@ -1,0 +1,130 @@
+=== pdf p.1 ===
+ Key Investor Information
+ This document provides you with key investor information about this fund. It is not marketing material. The information is required by law to help you
+ understand the nature and the risks of investing in this fund. You are advised to read it so you can make an informed decision about whether to invest.
+
+                                                             L&G US Equity UCITS ETF
+ Share Class USD Accumulating ETF - ISIN: IE00BFXR5Q31. The Fund is a sub-fund of Legal & General UCITS ETF Plc (the "Company").
+                Managed by LGIM Managers (Europe) Limited, a member of the Legal & General group (the "Manager")
+
+ OBJECTIVES AND INVESTMENT POLICY
+• The investment objective of the Fund is to provide exposure to the large and        portfolio management or to assist in tracking the performance of the
+  mid-cap equity market in the United States.                                         Index.
+• The Fund is passively managed and aims to track the performance of the            • The Fund promotes a range of environmental and social characteristics
+  Solactive Core United States Large & Mid Cap Index NTR (the “Index”),               which are met by tracking the Index. Further information on how such
+  before the deduction of fees and expenses.                                          characteristics are met by the Fund can be found in the Fund
+• The Index is designed to provide exposure to large and mid capitalisation           Supplement.
+  companies in the United States that meet size and liquidity criteria in           • This Share Class does not intend to pay dividends. Any income which
+  accordance with its methodology.                                                    may result from the Fund’s investments will be reinvested into the Fund.
+• The Fund seeks to achieve its investment objective by investing primarily in      • Shares in this share class (the “Shares”) are denominated in USD and
+  equity securities that, as far as possible and practicable, make up the Index       can be bought and sold on stock exchanges by ordinary investors using
+  in similar proportions to their weightings in the Index. Where it is not            an intermediary (e.g. a stockbroker). In normal circumstances, only
+  possible or practicable to invest directly in all of the constituents of the        Authorised Participants may buy and sell Shares directly with the
+  Index, the Fund may also invest in equity related securities and instruments        Company. Authorised Participants may redeem their Shares on demand
+  that are not constituents of the Index but have similar risk and performance        in accordance with the “Dealing Timetable” published on www.lgim.com.
+  characteristics, and may use financial derivative instruments for efficient       • The Fund's base currency is denominated in US dollar (USD).
+
+
+
+ RISK AND REWARD PROFILE
+
+Lower Risk                                                        Higher Risk     • The Fund invests in securities valued in currencies that are different
+                                                                                    from the base currency of the Fund. Exchange rate fluctuations will
+                                                                                    impact the value of your investment. Currency hedging techniques may
+Potentially lower rewards                          Potentially higher rewards       be applied to reduce this impact but may not entirely eliminate it
+                                                                                  • Third party service providers (such as counterparties entering into FDIs
+                                                                                    with the Fund or the Company’s depositary) may go bankrupt and fail to
+    1           2           3          4           5          6         7           pay money due to the Fund or return property belonging to the Fund.
+                                                                                  • If the Index provider stops calculating the Index or if the Fund’s license
+                                                                                    to track the Index is terminated, the Fund may have to be closed.
+• The Fund is rated 6 due to the nature of its investments and its risks.         • It may not always be possible to buy and sell Shares on a stock
+  The rating is calculated based on historical data and may not be a
+  reliable indication of the Fund’s future risk profile. The risk category may      exchange or at prices closely reflecting the NAV.
+  shift over time. The lowest category on the above scale does not mean           • There is no capital guarantee or protection on the value of the Fund.
+  "risk free"                                                                       Investors can lose all the capital invested in the Fund.
+The risk and reward indicator may not take account of the following risks         • Please refer to the “Risk Factors” section of the Company’s Prospectus
+of investing in the Fund:                                                           and the Fund Supplement.
+
+=== pdf p.2 ===
+ CHARGES FOR THE FUND
+The charges you pay are used to pay the costs of running the fund, including the costs of marketing and distributing it. These charges reduce the potential
+growth of your investment.
+
+                                                                                               • Ordinary investors (i.e. who buy and sell Shares on stock exchanges) are not
+ One-off charges taken before or after you invest                                                charged entry or exit charges by the Company but may be charged dealing
+                                                                                                 costs and fees by their stockbroker. Please consult your stockbroker and/or
+ Entry charge                                      0.00%*                                        investment adviser for details of such fees.
+                                                                                               • The ongoing charges figure is based on the latest available expenses at 28
+ Exit charge                                       0.00%*                                        February 2026 and may vary from year to year. The ongoing charges figure
+                                                                                                 excludes portfolio transaction costs (except for the custody transaction costs
+ This is the maximum that might be taken out of your money before it                             paid to the Depositary which are included).
+ is invested or before the proceeds of your investment are paid out
+                                                                                               • For more information about charges, please see the "Fees and Expenses"
+                                                                                                 section of the Company’s Prospectus and the "Dealing Procedures" and
+ Charges taken from the Share Class over a year
+                                                                                                 "Dealing Information" sections of the Fund Supplement which are available
+                                                                                                 at: www.lgim.com.
+ Ongoing charge                                    0.05%
+
+ Charges taken from the Share Class over a year
+
+ Performance fee                                   None
+
+*Authorised Participants dealing directly with the Company will pay related
+transaction costs
+
+
+
+
+ PAST PERFORMANCE
+               30
+
+
+               20                                                                                      • The Fund launched in 2018.
+                                                                                                       • This share class launched in 2018.
+               10
+                                                                                                       • The chart shows the annual performance of the Share Class in USD for
+                0                                                                                        each full calendar year over the period displayed in the chart.
+ (return %)
+
+
+
+
+                                                                                                       • Ongoing charges have been included in the calculation of past
+              −10
+                                                                                                         performance. Any entry/exit charges have been excluded from the
+              −20                                                                                        calculation.
+                    2016      2017   2018   2019   2020    2021   2022    2023   2024   2025           • Past performance is not a guide to future performance.
+                                            31.4   21.5    27.0   -20.0   27.7   24.9   18.0
+                                            31.2   21.2    26.8   -20.2   27.3   24.7   17.8
+                Share Class
+                Benchmark
+
+
+
+
+ PRACTICAL INFORMATION
+• The Fund's depositary is The Bank of New York Mellon SA/NV, Dublin Branch.
+• The Fund is one of a number of sub-funds of the Company. The assets and liabilities of each sub-fund are segregated from each other by Irish law.
+  Although the rights of investors and creditors are normally limited to the assets of each sub-fund, the Company is a single legal entity that may operate in
+  jurisdictions which may not recognise such segregation.
+• The Company is resident in Ireland for taxation purposes. This may have an impact on your personal tax position. Please consult your investment or tax
+  adviser for advice on your own tax liabilities.
+• The Manager may held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant
+  parts of the Company's Prospectus.
+• Further information about the Fund and the share class can be obtained from the Company's Prospectus and Fund Supplement and the annual and interim
+  financial statements (that are prepared for the Company as a whole), which are available, in addition to the latest available NAV for the share class and
+  details of the Fund's portfolio, at: http://www.lgim.com. These documents are available free of charge in English and certain other languages.
+• Switching of shares between this share class and other share classes of the Fund and/or other sub-funds of the Company is not permitted.
+• An indicative intra-day net asset value (“iNAV”) for the Share Class will be available at: https://www.solactive.com/.
+• Details of the Manager’s uptodate policy in respect of remuneration, including a description of how remuneration and benefits are calculated and the
+  identities of the persons responsible for awarding same can be accessed from the following website: http://www.lgim.com. A paper copy is also available
+  free of charge from the Manager upon request.
+
+
+
+
+LGIM Managers (Europe) Limited is authorised in Ireland and regulated by the Central Bank of Ireland. Legal & General UCITS ETF Plc is authorised in
+Ireland and regulated by the Central Bank of Ireland.
+This key investor information is accurate as at 30 June 2026
+

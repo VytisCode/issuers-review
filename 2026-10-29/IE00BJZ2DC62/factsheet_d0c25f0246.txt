@@ -1,0 +1,188 @@
+=== pdf p.1 ===
+                                                                                     Factsheet
+                                                                                     Marketing Material
+
+
+
+
+Xtrackers MSCI USA Screened UCITS ETF 1C
+A sub fund of Xtrackers (IE) Plc
+
+This factsheet is as of september 30, 2026 unless otherwise specified
+
+
+
+
+At a Glance                                                                                           Key Risks
+̵ Direct investment in US equities                                                                    The value of your investment may go down as well as up and past performance
+̵ Provides diversified exposure to large and mid-cap equities that exhibit higher                     does not predict future returns. Investor capital may be at risk up to a total loss.
+  ESG characteristics, and lower carbon exposure compared to their peers                              The value of an investment in shares will depend on a number of factors
+                                                                                                      including, but not limited to, market and economic conditions, sector,
+                                                                                                      geographical region and political events.
+Fund information                                                                                      The Fund is exposed to market movements in a single country or region which
+                                                                                                      may be adversely affected by political or economic developments, government
+ ISIN                                       IE00BJZ2DC62                                              action or natural events that do not affect a fund investing in broader markets.
+                                                                                                      The following is applicable if you subscribe for or settle shares in a different
+ Share class currency                       USD
+                                                                                                      currency than the fund or share-class currency: Be aware of currency risk. You
+ Fund Currency                              USD                                                       will receive payments in a different currency, so the final return you will get
+ Fund launch date                           06/03/2015                                                depend on the exchange rate between the two currencies.
+ Share class launch date                    06/03/2015
+ Domicile                                   Ireland                                                   Index key facts
+ Portfolio Methodology                      Direct Replication (physically)
+                                                                                                       Index name                               MSCI USA Select Screened Index*
+                                            State Street Custodial Services (Ireland)
+ Custodian                                                                                             Index provider                           MSCI Inc.
+                                            Limited
+ All-in fee¹                                0.07% p.a.                                                 Bloomberg symbol                         NU737014
+ Income treatment                           Capitalizing                                               Index base currency                      USD
+ NAV per Share                              USD 67.17                                                  Number of Index constituents             474
+ Total Fund Assets                          USD 1.23 Billion                                          Source: Index Provider
+ Total Shares Outstanding                   16.21 Million                                             *On 20/10/2021 the ETF changed its underlying benchmark to track the MSCI USA Select Screened
+                                                                                                      Index and subsequently changed its name to MSCI USA Screened UCITS ETF. Prior to the change the
+ Reporting Fund                             Yes                                                       ETF tracked the RUSSELL MIDCAP INDEX.
+ Annual security lending return²            0.0015%
+ Transparency according to                  Article 8<br />Financial product integrates
+ Regulation (EU) 2019/2088                  ESG characteristics
+                                                                                                      Reference Index key features
+                                                                                                      The MSCI USA SELECT SCREENED aims to reflect the performance of the
+¹ A Glossary can be found on etf.dws.com.                                                             following market:
+² Based on annual revenue from securities lending divided by average fund AuM over the past year or
+since the fund started securities lending (if less than one year ago)                                 ̵ Large and mid-cap companies from the USA
+                                                                                                      ̵ Securities issued by entities failing to meet the following ESG standards,
+                                                                                                        amongst others, are excluded: are associated with controversial weapons, are
+Performance                                                                                             assigned an MSCI ESG Rating of ‘CCC’ or are unrated, derive certain revenues
+» Historical Performance (online)                                                                       from tobacco, conventional weapons, nuclear weapons, civilian firearms,
+                                                                                                        thermal coal, unconventional and/or arctic oil and gas extraction, and palm oil;
+                                                                                                        and any issuer with an MSCI Controversies Score of 0
+                                                                                                      ̵ Reduced greenhouse gas intensity relative to the parent index
+Listing and trading information
+                                                                                                      ̵ Reviewed on a quarterly basis
+                                         Bloomberg               Reuters          Trading             Additional information on the index, selection and weighting methodology is
+ Exchange                                                                                             available at www.msci.com
+                                         Ticker                  RIC              Currency
+ Borsa Italiana                          XRSM IM                 XRSM.MI             EUR
+ BX Swiss                                XRSM BW                 XRSM.BN             CHF
+ London Stock Exchange                   XRMU LN                 XRMU.L              USD
+ London Stock Exchange                   XRSS LN                 XRSS.L              GBX
+ XETRA                                   XRSM GY                 XRSM.DE             EUR
+
+=== pdf p.2 ===
+Top 10 ETF constituents                                                             About Xtrackers by DWS
+                                                                                    Xtrackers, DWS’s global platform for Exchange Traded Funds (ETF) and
+Issuer                                        ISIN                Weight
+                                                                                    Exchange-traded commodity (ETC) solutions, began in 2007 with ETFs
+NVIDIA                                        US67066G1040             8.49%        tracking major leading indices.
+APPLE                                         US0378331005             8.02%
+                                                                                    Today, with approximately EUR 348 billion1 in UCITS assets under
+MICROSOFT                                     US5949181045             5.80%        management, Xtrackers is amongst the largest and most established ETF
+AMAZON COM INC                                US0231351067             3.84%        providers in Europe2.
+ALPHABET CLASS A                              US02079K3059             3.24%        With around 300 products, Xtrackers offers a comprehensive range of
+ALPHABET CLASS C                              US02079K1079             2.56%        efficient, high‑quality ETFs and ETCs across all major asset classes,
+BROADCOM INC                                  US11135F1012             2.55%        including equities, fixed income and commodities.
+META PLATFORMS CLASS A                        US30303M1027             2.53%        The product offering continues to grow. Xtrackers products are currently
+MICRON TECHNOLOGY                             US5951121038             1.92%        listed on eleven exchanges worldwide.
+TESLA INC                                     US88160R1014             1.65%        1
+                                                                                        Source: DWS, august 31, 2026
+                                                                                    2
+                                                                                        Source: Deutsche Bank ETF Research
+Source: DWS
+
+
+
+
+Further information on Xtrackers                                                    Additional information
+DWS Investments UK Limited             E-Mail: Xtrackers@dws.com                    A Glossary of Terms is available at Xtrackers.com.
+Xtrackers Team                         Website: www.Xtrackers.com
+21 Moorfields
+London EC2Y 9DB
+United Kingdom
+
+
+
+
+Disclaimer
+This document is intended for information purposes only and does not create         S.A., 2, Boulevard Konrad Adenauer, L-1115 Luxembourg or on www.Xtrackers.
+any legally binding obligations on the part of DWS Group GmbH & Co. KGaA            com. A summary of investor rights is available at www.etf.dws.com under
+and/or its affiliates (DWS).                                                        “About Us – How to Complain?”.
+This document has been prepared without consideration of the investment
+needs, objectives or financial circumstances of any investor. Without               PAST PERFORMANCE DOES NOT PREDICT FUTURE RETURNS.
+limitation, this document does not constitute an offer, an invitation to offer or
+a recommendation to enter into any transaction.
+                                                                                    This product is based overseas and is not subject to UK sustainable
+Before making an investment decision, investors need to consider, with or           investment labelling and disclosure requirements. Further information in
+without the assistance of an investment adviser, whether the investments            relation to the UK sustainability labelling and disclosure requirements can be
+and strategies described or provided by DWS are appropriate in light of their       found on the UK FCA’s website.
+particular investment needs, objectives and financial circumstances.
+Information in this document has been obtained or derived from sources
+                                                                                    © DWS Investments UK Limited, 2026. Authorised and regulated by the
+believed to be reliable and current. However, accuracy or completeness of the
+                                                                                    Financial Conduct Authority.
+sources cannot be guaranteed.
+This document is not directed to, or intended for distribution to or use by,
+any person or entity who is a citizen or resident of or located in any locality,
+state, country or other jurisdiction, including the United States, where            Index Disclaimer
+such distribution, publication, availability or use would be contrary to law
+                                                                                    The MSCI USA Screened UCITS ETF ARE NOT SPONSORED, ENDORSED,
+or regulation or which would subject DWS to any registration or licensing
+                                                                                    SOLD OR PROMOTED BY MSCI INC. (“MSCI”) OR ANY OF ITS AFFILIATES,
+requirement within such jurisdiction not currently met within such jurisdiction.
+                                                                                    INFORMATION PROVIDERS OR OTHER THIRD PARTY INVOLVED IN, OR
+Persons into whose possession this document may come are required to
+                                                                                    RELATED TO, COMPILING, COMPUTING OR CREATING ANY MSCI INDEX
+inform themselves of, and to observe, such restrictions.
+                                                                                    (COLLECTIVELY, THE “MSCI PARTIES”). THE MSCI INDEXES ARE THE
+Xtrackers (IE) plc is an undertaking for collective investment in transferable      EXCLUSIVE PROPERTY OF MSCI. MSCI AND THE MSCI INDEX NAMES ARE
+securities (UCITS) in accordance with the applicable laws and regulations           SERVICE MARK(S) OF MSCI OR ITS AFFILIATES AND HAVE BEEN LICENSED
+and set up as open-ended investment company with variable capital and               FOR USE FOR CERTAIN PURPOSES BY PRINCIPAL. NONE OF THE MSCI
+segregated liability amongst its respective compartments.                           PARTIES MAKES ANY REPRESENTATION OR WARRANTY, EXPRESS OR
+Investors must buy and must usually sell shares in Xtrackers UCITS ETFs on a        IMPLIED, TO THE ISSUER OR OWNERS OF THESE FUNDS OR ANY OTHER
+secondary market with the assistance of an intermediary (e.g. a stockbroker)        PERSON OR ENTITY REGARDING THE ADVISABILITY OF INVESTING IN FUNDS
+and may incur fees for doing so. In addition, investors may pay more than           GENERALLY OR IN THESE FUNDS PARTICULARLY OR THE ABILITY OF ANY
+the current net asset value when buying shares and may receive less than            MSCI INDEX TO TRACK CORRESPONDING STOCK MARKET PERFORMANCE.
+the current net asset value when selling them. Before making any investment         MSCI OR ITS AFFILIATES ARE THE LICENSORS OF CERTAIN TRADEMARKS,
+decision, investors should refer to the Risk Factors in the Prospectus and Key      SERVICE MARKS AND TRADE NAMES AND OF THE MSCI INDEXES WHICH
+Investor Information Document.                                                      ARE DETERMINED, COMPOSED AND CALCULATED BY MSCI WITHOUT
+Tax treatment of the Xtrackers UCITS ETFs depends on the individual                 REGARD TO THESE FUNDS OR THE ISSUER OR OWNERS OF THESE FUNDS
+circumstances of each investor.                                                     OR ANY OTHER PERSON OR ENTITY. NONE OF THE MSCI PARTIES HAS ANY
+Xtrackers (IE) plc is incorporated in Ireland with registered number 393802         OBLIGATION TO TAKE THE NEEDS OF THE ISSUER OR OWNERS OF THESE
+and has its registered office at 78 Sir John Rogerson’s Quay, Dublin 2, Ireland.    FUNDS OR ANY OTHER PERSON OR ENTITY INTO CONSIDERATION IN
+DWS Investment S.A. acts as the management company of Xtrackers (IE) plc.           DETERMINING, COMPOSING OR CALCULATING THE MSCI INDEXES. NONE
+The Investment Company may decide to terminate the arrangements made                OF THE MSCI PARTIES IS RESPONSIBLE FOR OR HAS PARTICIPATED IN THE
+for the marketing of this fund                                                      DETERMINATION OF THE TIMING OF, PRICES AT, OR QUANTITIES OF THESE
+Any investment decision in relation to a fund should be based solely on the         FUNDS TO BE ISSUED OR IN THE DETERMINATION OR CALCULATION OF
+latest version of the prospectus, the audited annual and, if more recent, un-       THE EQUATION BY OR THE CONSIDERATION INTO WHICH THESE FUNDS ARE
+audited semi-annual reports and the Key Investor Information Document               REDEEMABLE. FURTHER, NONE OF THE MSCI PARTIES HAS ANY OBLIGATION
+(KIID), all of which are available in English upon request to DWS Investment        OR LIABILITY TO THE ISSUER OR OWNERS OF THESE FUNDS OR ANY
+                                                                                    OTHER PERSON OR ENTITY IN CONNECTION WITH THE ADMINISTRATION,
+
+=== pdf p.3 ===
+MARKETING      OR   OFFERING     OF    MSCI   USA    Screened    UCITS    ETF.
+
+ALTHOUGH MSCI SHALL OBTAIN INFORMATION FOR INCLUSION IN OR FOR
+USE IN THE CALCULATION OF THE MSCI INDEXES FROM SOURCES THAT
+MSCI CONSIDERS RELIABLE, NONE OF THE MSCI PARTIES WARRANTS OR
+GUARANTEES THE ORIGINALITY, ACCURACY AND/OR THE COMPLETENESS
+OF ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. NONE OF THE MSCI
+PARTIES MAKES ANY WARRANTY, EXPRESS OR IMPLIED, AS TO RESULTS TO BE
+OBTAINED BY THE ISSUER OF THE FUNDS, OWNERS OF THE FUNDS, OR ANY
+OTHER PERSON OR ENTITY, FROM THE USE OF ANY MSCI INDEX OR ANY DATA
+INCLUDED THEREIN. NONE OF THE MSCI PARTIES SHALL HAVE ANY LIABILITY
+FOR ANY ERRORS, OMISSIONS OR INTERRUPTIONS OF OR IN CONNECTION
+WITH ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. FURTHER, NONE
+OF THE MSCI PARTIES MAKES ANY EXPRESS OR IMPLIED WARRANTIES
+OF ANY KIND, AND THE MSCI PARTIES HEREBY EXPRESSLY DISCLAIM ALL
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, WITH RESPECT TO EACH MSCI INDEX AND ANY DATA INCLUDED
+THEREIN. WITHOUT LIMITING ANY OF THE FOREGOING, IN NO EVENT SHALL
+ANY OF THE MSCI PARTIES HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT,
+SPECIAL, PUNITIVE, CONSEQUENTIAL OR ANY OTHER DAMAGES (INCLUDING
+LOST PROFITS) EVEN IF NOTIFIED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+No purchaser, seller or holder of this security, product or Funds, or any other
+person or entity, should use or refer to any MSCI trade name, trademark or
+service mark to sponsor, endorse, market or promote this security without
+first contacting MSCI to determine whether MSCI’s permission is required.
+Under no circumstances may any person or entity claim any affiliation with
+MSCI without the prior written permission of MSCI.
+
