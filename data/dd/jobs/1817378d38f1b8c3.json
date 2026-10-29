@@ -282,5 +282,6 @@
    "title": "ECB reference rates USD per EUR, daily",
    "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?format=csvdata&startPeriod=2022-12-20&endPeriod=2026-10-28"
   }
- ]
+ ],
+ "done": "da8d3b6a7ecc4019"
 }
