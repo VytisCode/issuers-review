@@ -376,3 +376,5 @@ td.nw{white-space:nowrap}
 .missbox input[type=text] { width: 100%; min-width: 160px; }
 .missbox textarea { width: 100%; }
 .btn.miss { border-color: #C01E1E; color: #C01E1E; }
+.tag.drf { background: #FFF4DE; color: #8A5A00; border-radius: 8px; padding: 1px 7px; font-size: 11px; }
+.tag.fin { background: #E7F4E4; color: #2E6B31; border-radius: 8px; padding: 1px 7px; font-size: 11px; }
