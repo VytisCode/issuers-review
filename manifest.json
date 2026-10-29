@@ -2328,5 +2328,130 @@
   "fetched": "2026-10-29",
   "ok": false,
   "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BMXC7V63",
+  "kind": "factsheet",
+  "url": "https://www.ishares.com/gls-download/literature/fact-sheet/uqab-ishares-s-p-500-paris-aligned-climate-ucits-etf-fund-fact-sheet-en-gb.pdf",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE000O5FBC47",
+  "kind": "factsheet",
+  "url": "https://www.amundietf.co.uk/pdfDocuments/monthly-factsheet/IE000O5FBC47/ENG/GBR/INSTITUTIONNEL/ETF/20260930",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE000O5FBC47/factsheet_6427aa163f.pdf",
+  "sha256": "6427aa163f1abc2d5171f7d6890f65087473e581af6330e5ab0b37c616a0eea2",
+  "bytes": 556721,
+  "final_url": "https://www.amundietf.co.uk/pdfDocuments/monthly-factsheet/IE000O5FBC47/ENG/GBR/INSTITUTIONNEL/ETF/20260930"
+ },
+ {
+  "isin": "IE00BH4GPZ28",
+  "kind": "factsheet",
+  "url": "https://www.ssga.com/library-content/products/factsheets/etfs/emea/factsheet-emea-en_gb-sppy-gy.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00BH4GPZ28/factsheet_8c6811e434.pdf",
+  "sha256": "8c6811e434ca121114ec525b273572ad05ce2dec383c46408e5dbd9ad98e5473",
+  "bytes": 187557,
+  "final_url": "https://www.ssga.com/library-content/products/factsheets/etfs/emea/factsheet-emea-en_gb-sppy-gy.pdf"
+ },
+ {
+  "isin": "IE00BH4GPZ28",
+  "kind": "factsheet",
+  "url": "https://www.ssga.com/library-content/products/factsheets/etfs/emea/factsheet-emea-en_gb-500x-ln.pdf",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B3YCGJ38",
+  "kind": "factsheet",
+  "url": "https://etf.invesco.com/en/content/invesco-sp-500-ucits-etf-acc-factsheet-en",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 425432 B)"
+ },
+ {
+  "isin": "IE00B3YCGJ38",
+  "kind": "factsheet",
+  "url": "https://etf.invesco.com/en/content/invesco-sp-500-ucits-etf-acc-factsheet-gb",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 425432 B)"
+ },
+ {
+  "isin": "IE00BJQRDM08",
+  "kind": "factsheet",
+  "url": "https://etf.invesco.com/en/content/invesco-msci-usa-universal-screened-ucits-etf-acc-factsheet-en",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 425432 B)"
+ },
+ {
+  "isin": "IE000COQKPO9",
+  "kind": "factsheet",
+  "url": "https://etf.invesco.com/en/content/invesco-nasdaq-100-esg-ucits-etf-acc-factsheet-en",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 425432 B)"
+ },
+ {
+  "isin": "LU0274210672",
+  "kind": "factsheet",
+  "url": "https://etf.dws.com/en-gb/AssetDownload/Index/f4755ffd-0e58-4c8a-b637-dfd06944f17a/Factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0274210672/factsheet_ce4200eba3.pdf",
+  "sha256": "ce4200eba3cf7eb5c022fff64727364d3ca2af7228fb97c5680d75c323a9d15f",
+  "bytes": 230090,
+  "final_url": "https://etf.dws.com/download/asset/f4755ffd-0e58-4c8a-b637-dfd06944f17a"
+ },
+ {
+  "isin": "IE00BJZ2DC62",
+  "kind": "factsheet",
+  "url": "https://etf.dws.com/download/asset/a8e9c2d9-5342-4bac-82ec-33e6ac9bf51e",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00BJZ2DC62/factsheet_d0c25f0246.pdf",
+  "sha256": "d0c25f024682f8afc11040490ca83b25b71f4f34d86ad6637f4f9d111c443966",
+  "bytes": 228971,
+  "final_url": "https://etf.dws.com/download/asset/a8e9c2d9-5342-4bac-82ec-33e6ac9bf51e"
+ },
+ {
+  "isin": "IE00BJZ2DC62",
+  "kind": "factsheet",
+  "url": "https://etf.dws.com/download/asset/368eeedb-112e-4ce9-ab69-b5ca401eddc4",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00BJZ2DC62/factsheet_5e3f9376ae.pdf",
+  "sha256": "5e3f9376ae6925efdae01bc7cbdc9e5943d4d3b3b0b34751aab6e230108caa76",
+  "bytes": 230527,
+  "final_url": "https://etf.dws.com/download/asset/368eeedb-112e-4ce9-ab69-b5ca401eddc4"
+ },
+ {
+  "isin": "IE00BMDPBZ72",
+  "kind": "page",
+  "url": "https://www.franklintempleton.ie/investments/options/exchange-traded-funds/products/39282/SINGLCLASS/franklin-s-p-500-paris-aligned-climate-ucits-etf/FLX5",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00BMDPBZ72/page_83fd7a71c7.html",
+  "sha256": "83fd7a71c77944f38bb5528f496acfa619baeb6eb26071be32b40ab6e2b11ba7",
+  "bytes": 2865,
+  "final_url": "https://www.franklintempleton.ie/investments/options/exchange-traded-funds/products/39282/SINGLCLASS/franklin-s-p-500-paris-aligned-climate-ucits-etf/FLX5"
+ },
+ {
+  "isin": "IE00BFXR5Q31",
+  "kind": "page",
+  "url": "https://fundcentres.lgim.com/en/uk/institutional/fund-centre/ETF/US-Equity-UCITS-ETF/",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00BFXR5Q31/page_822f9355b3.html",
+  "sha256": "822f9355b369ae8f73bd99a6f1b9d47cacb077769680ff6647a95190304f7ca7",
+  "bytes": 377741,
+  "final_url": "https://fundcentres.landg.com/en/uk/institutional/fund-centre/ETF/"
  }
 ]

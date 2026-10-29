@@ -1,0 +1,197 @@
+=== pdf p.1 ===
+                                                                                             Factsheet
+                                                                                             Materiale di marketing
+
+
+
+
+Xtrackers MSCI USA Screened UCITS ETF 1C
+Un comparto di Xtrackers (IE) Plc
+
+La presente scheda informativa è al 30 settembre 2026 salvo diversamente specificato.
+
+
+
+
+In breve                                                                                                       Rischi principali
+̵ Investimento diretto in titoli azionari statunitensi                                                         Il Il valore dell’investimento potrebbe sia aumentare come potrebbe diminuire
+̵ Fornisce esposizione a titoli azionari di società ad alta e media capitalizzazione                           e le prestazioni passate non prevedono i rendimenti futuri. Il capitale di
+  che presentano caratteristiche ESG più elevate e un’esposizione al carbonio                                  investimento può essere a rischio fino a una perdita totale.
+  inferiore rispetto ai relativi omologhi                                                                      Il valore di un investimento in azioni dipenderà da una serie di fattori tra i quali, a
+                                                                                                               titolo esemplificativo e non esaustivo, le condizioni economiche e di mercato, il
+                                                                                                               settore, la regione geografica e gli eventi politici.
+Informazioni relative al Fondo                                                                                 Il Fondo è esposto ai movimenti del mercato in un singolo paese o in una
+                                                                                                               singola regione, i quali potrebbero risentire negativamente degli sviluppi
+ Codice ISIN                                         IE00BJZ2DC62                                              politici o economici, degli interventi del governo o di eventi naturali circostanze
+                                                                                                               queste che non influenzerebbero un fondo che investe in mercati di maggiori
+ Valuta della Classe di Azioni                       USD
+                                                                                                               dimensioni.
+ Valuta del Fondo                                    USD                                                       Quanto segue si applica in caso di sottoscrizione o liquidazione di azioni in una
+ Data di lancio del Fondo                            06/03/2015                                                valuta diversa da quella del fondo o della classe di azioni: Attenzione al rischio di
+                                                                                                               cambio. Riceverete pagamenti in una valuta straniera, quindi il rendimento finale
+ Data di lancio della Classe di Azioni               06/03/2015
+                                                                                                               che otterrete dipenderà dal tasso di cambio tra le due valute.
+ Domicilio                                           Irlanda
+ Metodologia d‘investimento                          Replica diretta (fisica)
+                                                     State Street Custodial Services (Ireland)
+                                                                                                               Informazioni sull‘Indice
+ Depositario
+                                                     Limited                                                    Index Name                                  MSCI USA Select Screened Index
+ Commissione annuale massima                                                                                    Index provider                              MSCI Inc.
+                                                     0,07% p.a.
+ applicabile¹
+                                                                                                                Bloomberg                                   NU737014
+ Utilizzo dei proventi                               Capitalizzazione
+                                                                                                                Valuta base dell‘indice                     USD
+ NAV per azione                                      USD 67,17
+                                                                                                                Numero di titoli nell‘indice                474
+ Attivi amministrati del Fondo (AUM)                 USD 1,23 miliardi
+ Totale azioni in circolazione                       16,21 milioni                                             Fonte: Fornitore dell‘indice
+                                                                                                               *In data 20/10/2021 l‘ETF ha cambiato la propria denominazione in MSCI USA Screened UCITS ETF
+ Rendimento annuo da prestito titoli² 0,0015%                                                                  a seguito della variazione dell‘indice di riferimento. Il vecchio indice sottostante, RUSSELL MIDCAP
+ Trasparenza secondo il Regolamento Articolo 8<br />Il prodotto finanziario incor-                             INDEX, è stato sostituito dal MSCI USA Select Screened Index.
+ (UE) 2019/2088                     pora caratteristiche ESG
+¹ Consultare informazioni aggiuntive / glossario.
+² Sulla base dei proventi annuali derivati dal prestito titoli divisi per gli attivi amministrati medi (AUM)
+                                                                                                               Caratteristiche principali dell‘indice di riferimento
+nell‘ultimo anno o da quando il fondo ha avviato il prestito titoli (se meno di un anno fa)                    L’indice MSCI USA SELECT SCREENED è concepito per riflettere l’andamento del
+                                                                                                               seguente mercato:
+Performance storica                                                                                            ̵ Titoli azionari di società statunitensi ad alta e media capitalizzazione
+                                                                                                               ̵ Sono esclusi, tra l’altro, i titoli emessi da soggetti che non soddisfano i seguenti
+» Performance storica (online)
+                                                                                                                 standard ESG: sono associati ad armi controverse, hanno un rating ESG
+                                                                                                                 MSCI di “CCC” o sono privi di rating, traggono alcuni ricavi da tabacco, armi
+                                                                                                                 convenzionali, armi nucleari, armi da fuoco civili, carbone termico, estrazione di
+Informazioni sulla Quotazione e la Negoziazione                                                                  petrolio e gas non convenzionale e/o artico e olio di palma; e qualsiasi emittente
+                                                                                                                 con un Punteggio delle controversie MSCI pari a 0
+                                             Bloomberg                 Reuters            Valuta di            ̵ Riduzione dell’intensità di gas a effetto serra rispetto all’indice capogruppo
+ Borsa
+                                             Ticker                    RIC                negoziazione         ̵ Rivisto con cadenza trimestrale
+ Borsa Italiana                              XRSM IM                   XRSM.MI              EUR                Ulteriori informazioni sulla metodologia dell’indice, di selezione e ponderazione
+                                                                                                               sono disponibili all’indirizzo www.msci.com
+ BX Swiss                                    XRSM BW                   XRSM.BN              CHF
+ London Stock Exchange                       XRMU LN                   XRMU.L               USD
+ London Stock Exchange                       XRSS LN                   XRSS.L               GBX
+ XETRA                                       XRSM GY                   XRSM.DE              EUR
+
+=== pdf p.2 ===
+I 10 principali componenti dell‘ETF                                                  Informazioni su Xtrackers by DWS
+                                                                                     DWS, piattaforma globale specializzata in soluzioni ETF ed ETC, ha
+Emittente                                     ISIN                 Ponderazione
+                                                                                     avviato la propria attività nel 2007 con ETF che replicavano i principali
+NVIDIA                                        US67066G1040              8,49%        indici di riferimento
+APPLE                                         US0378331005              8,02%
+                                                                                     Oggi, con un patrimonio UCITS in gestione di circa 348 miliardi di euro1,
+MICROSOFT                                     US5949181045              5,80%        Xtrackers è uno dei principali e consolidati Provider di ETF in Europa2.
+AMAZON COM INC                                US0231351067              3,84%        Con circa 300 prodotti, offre una gamma ampia e diversificata di ETF ed
+ALPHABET CLASS A                              US02079K3059              3,24%        ETC efficienti e di elevata qualità, che coprono tutte le principali asset
+ALPHABET CLASS C                              US02079K1079              2,56%        class, tra cui azioni, obbligazioni e materie prime.
+BROADCOM INC                                  US11135F1012              2,55%        La gamma è in costante evoluzione e i prodotti Xtrackers sono attualmente
+META PLATFORMS CLASS A                        US30303M1027              2,53%        quotati su undici borse a livello globale..
+MICRON TECHNOLOGY                             US5951121038              1,92%
+                                                                                     1
+                                                                                         Fonte: DWS, al 31.08.2026
+
+TESLA INC                                     US88160R1014              1,65%
+                                                                                     2
+                                                                                         Fonte: Deutsche Bank ETF Research
+
+
+Fonte: DWS
+
+
+
+
+Informazioni sui Xtrackers                                                           Informazioini Aggiuntive
+DWS International GmbH,                     E-Mail: Xtrackers@dws.com                Il Glossario dei Termini è disponibile all’indirizzo Xtrackers.com
+Milan Branch                                Info: Xtrackers.com
+Via Filippo Turati 27
+20121 Milano
+
+Informazioni legali
+Questo documento è inteso come comunicazione di marketing e non crea                 Mainzer Landstraße 11-17, 60329 Francoforte sul Meno o in inglese presso
+alcun obbligo legalmente vincolante da parte di DWS Group GmbH & Co.                 DWS Investment S.A., 2, Boulevard Konrad Adenauer, L-1115 Lussemburgo, in
+KGaA e/o delle sue affiliate (DWS).                                                  forma stampata e gratuita, oppure disponibili nelle rispettive lingue presso
+Il presente documento non costituisce una consulenza sugli investimenti.             Germania: https://etf.dws.com/de-de/ Austria: https://etf.dws.com/de-at/
+Senza limitazioni, il presente documento non costituisce un’offerta, un invito       Belgio: https://etf.dws.com/en-be/ Francia: https://etf.dws.com/fr-fr/ Italia:
+all’offerta o una raccomandazione a effettuare una transazione.                      https://etf.dws.com/it-it/ Lussemburgo: https://etf.dws.com/en-lu/ Spagna:
+Prima di prendere una decisione d’investimento, gli investitori devono               https://etf.dws.com/es-es/ Paesi Bassi: https://etf.dws.com/nl-nl/ Svezia:
+valutare, con o senza l’assistenza di un consulente d’investimento, se gli           https://etf.dws.com/sv-se/ e Regno Unito/Irlanda: https://etf.dws.com/en-
+investimenti e le strategie descritti o forniti da DWS sono appropriati alla luce    gb/ . Una sintesi dei diritti degli investitori è disponibile all’indirizzo www.etf.
+delle loro particolari esigenze d’investimento, dei loro obiettivi e della loro      dws.com alla voce “About Us - How to Complain?”.
+situazione finanziaria.                                                              LA PERFORMANCE PASSATA NON È UNA GARANZIA DEI RISULTATI FUTURI
+Le informazioni contenute nel presente documento sono state ottenute o
+derivate da fonti ritenute affidabili e aggiornate. Tuttavia, l’accuratezza o la     © 2026 DWS International GmbH che agisce attraverso le sue filiali, se del
+completezza delle fonti non possono essere garantite.                                caso.
+In base alle informazioni contenute nel prospetto di vendita, la distribuzione
+dei prodotti menzionati nel presente documento è soggetta alle restrizioni
+delle giurisdizioni competenti. Il presente documento e le informazioni in esso      Avvertenze relative all‘Indice
+contenute possono essere distribuiti e pubblicati solo nelle giurisdizioni in cui
+tale distribuzione e pubblicazione è consentita in conformità alle leggi vigenti     I MSCI USA Screened UCITS ETF NON SONO SPONSORIZZATI, APPROVATI,
+in tali giurisdizioni. La distribuzione diretta o indiretta del presente documento   VENDUTI O PROMOSSI DA MSCI INC. (“MSCI”) O DA QUALSIASI SUO
+è vietata negli Stati Uniti, nonché a o per conto di persone statunitensi o          AFFILIATO, FORNITORE DI INFORMAZIONI O ALTRE TERZE PARTI
+residenti negli Stati Uniti.                                                         COINVOLTE NELLA COMPILAZIONE, NEL CALCOLO O NELLA CREAZIONE
+Xtrackers (IE) plc è un organismo d’investimento collettivo in valori mobiliari      DI QUALSIASI INDICE MSCI (COLLETTIVAMENTE, LE “PARTI MSCI”). GLI
+(OICVM) in conformità alle leggi e ai regolamenti applicabili e costituito come      INDICI MSCI SONO DI PROPRIETÀ ESCLUSIVA DI MSCI. MSCI E I NOMI
+società d’investimento di tipo aperto con capitale variabile e responsabilità        DEGLI INDICI MSCI SONO MARCHI DI SERVIZIO DI MSCI O DELLE SUE
+separata tra i rispettivi comparti.                                                  AFFILIATE E SONO STATI CONCESSI IN LICENZA D’USO PER DETERMINATI
+Gli investitori devono acquistare e solitamente vendere le azioni di Xtrackers       SCOPI DA PRINCIPAL. NESSUNA DELLE PARTI MSCI RILASCIA ALCUNA
+UCITS ETF su un mercato secondario con l’assistenza di un intermediario              DICHIARAZIONE O GARANZIA, ESPRESSA O IMPLICITA, ALL’EMITTENTE
+(ad esempio un agente di borsa) e possono incorrere in commissioni.                  O AI PROPRIETARI DI QUESTI FONDI O A QUALSIASI ALTRA PERSONA
+Inoltre, gli investitori possono pagare più del valore patrimoniale netto            O ENTITÀ IN MERITO ALL’OPPORTUNITÀ DI INVESTIRE IN FONDI IN
+corrente quando acquistano azioni e possono ricevere meno del valore                 GENERALE O IN QUESTI FONDI IN PARTICOLARE O ALLA CAPACITÀ DI
+patrimoniale netto corrente quando le vendono. Prima di prendere qualsiasi           QUALSIASI INDICE MSCI DI SEGUIRE LA CORRISPONDENTE PERFORMANCE
+decisione di investimento, gli investitori devono fare riferimento ai Fattori di     DEL MERCATO AZIONARIO. MSCI O LE SUE AFFILIATE SONO I LICENZIATARI
+rischio contenuti nel Prospetto informativo e nel Documento contenente le            DI ALCUNI MARCHI DI FABBRICA, MARCHI DI SERVIZIO E NOMI
+informazioni chiave.                                                                 COMMERCIALI E DEGLI INDICI MSCI CHE SONO DETERMINATI, COMPOSTI
+                                                                                     E CALCOLATI DA MSCI SENZA ALCUN RIGUARDO PER QUESTI FONDI
+Il trattamento fiscale degli ETF UCITS di Xtrackers dipende dalla situazione
+                                                                                     O PER L’EMITTENTE O I PROPRIETARI DI QUESTI FONDI O QUALSIASI
+individuale di ciascun investitore.
+                                                                                     ALTRA PERSONA O ENTITÀ. NESSUNA DELLE PARTI MSCI HA L’OBBLIGO
+Xtrackers (IE) plc è costituita in Irlanda con numero di registrazione 393802        DI PRENDERE IN CONSIDERAZIONE LE ESIGENZE DELL’EMITTENTE O
+e ha sede legale al 78 Sir John Rogerson’s Quay, Dublino 2, Irlanda. DWS             DEI PROPRIETARI DI QUESTI FONDI O DI QUALSIASI ALTRA PERSONA
+Investment S.A. agisce come società di gestione di Xtrackers (IE) plc. La            O ENTITÀ NEL DETERMINARE, COMPORRE O CALCOLARE GLI INDICI
+Società d’investimento può decidere di porre fine agli accordi presi per la          MSCI. NESSUNA DELLE PARTI MSCI È RESPONSABILE O HA PARTECIPATO
+commercializzazione di questo fondo.                                                 ALLA DETERMINAZIONE DEI TEMPI, DEI PREZZI O DELLE QUANTITÀ DI
+Le informazioni complete sul Fondo, compresi tutti i rischi e i costi, sono          QUESTI FONDI DA EMETTERE O ALLA DETERMINAZIONE O AL CALCOLO
+contenute nel relativo prospetto informativo aggiornato. Insieme al relativo         DELL’EQUAZIONE O DEL CORRISPETTIVO IN CUI QUESTI FONDI SONO
+documento contenente le informazioni chiave, questi costituiscono gli unici          RISCATTABILI. INOLTRE, NESSUNA DELLE PARTI DI MSCI HA ALCUN
+documenti di vendita vincolanti per il Fondo. Gli investitori possono ottenere       OBBLIGO O RESPONSABILITÀ NEI CONFRONTI DELL’EMITTENTE O DEI
+questi documenti, insieme alle informazioni regolamentari e agli ultimi              PROPRIETARI DI QUESTI FONDI O DI QUALSIASI ALTRA PERSONA O ENTITÀ
+documenti costitutivi del Fondo, in tedesco presso DWS Investment GmbH,
+
+=== pdf p.3 ===
+IN RELAZIONE ALL’AMMINISTRAZIONE, ALLA COMMERCIALIZZAZIONE O
+ALL’OFFERTA DI MSCI USA Screened UCITS ETF.
+
+SEBBENE MSCI OTTENGA LE INFORMAZIONI PER L’INCLUSIONE O PER
+L’UTILIZZO NEL CALCOLO DEGLI INDICI MSCI DA FONTI CHE MSCI RITIENE
+AFFIDABILI, NESSUNA DELLE PARTI MSCI ASSICURA O GARANTISCE
+L’ORIGINALITÀ, L’ACCURATEZZA E/O LA COMPLETEZZA DI QUALSIASI
+INDICE MSCI O DI QUALSIASI DATO IN ESSO INCLUSO. NESSUNA DELLE
+PARTI MSCI FORNISCE ALCUNA GARANZIA, ESPRESSA O IMPLICITA, IN
+MERITO AI RISULTATI CHE L’EMITTENTE DEI FONDI, I PROPRIETARI DEI
+FONDI O QUALSIASI ALTRA PERSONA O ENTITÀ POSSONO OTTENERE
+DALL’USO DI QUALSIASI INDICE MSCI O DI QUALSIASI DATO IVI INCLUSO.
+NESSUNA DELLE PARTI MSCI AVRÀ ALCUNA RESPONSABILITÀ PER
+EVENTUALI ERRORI, OMISSIONI O INTERRUZIONI DI O IN RELAZIONE A
+QUALSIASI INDICE MSCI O DATI IN ESSO INCLUSI. INOLTRE, NESSUNA
+DELLE PARTI MSCI FORNISCE GARANZIE ESPRESSE O IMPLICITE DI ALCUN
+TIPO E LE PARTI MSCI DECLINANO ESPRESSAMENTE TUTTE LE GARANZIE
+DI COMMERCIABILITÀ E DI IDONEITÀ PER UNO SCOPO PARTICOLARE, IN
+RELAZIONE A CIASCUN INDICE MSCI E A QUALSIASI DATO IVI INCLUSO.
+SENZA LIMITARE QUANTO SOPRA, IN NESSUN CASO LE PARTI MSCI
+SARANNO RESPONSABILI DI DANNI DIRETTI, INDIRETTI, SPECIALI, PUNITIVI,
+CONSEQUENZIALI O DI QUALSIASI ALTRO TIPO (COMPRESI I MANCATI
+PROFITTI) ANCHE SE AVVISATE DELLA POSSIBILITÀ DI TALI DANNI.
+
+Nessun acquirente, venditore o detentore di questo titolo, prodotto
+o Comparto, o qualsiasi altra persona o entità, deve utilizzare o fare
+riferimento a qualsiasi nome commerciale, marchio di fabbrica o marchio
+di servizio di MSCI per sponsorizzare, appoggiare, commercializzare o
+promuovere questo titolo senza aver prima contattato MSCI per determinare
+se è necessaria l’autorizzazione di MSCI. In nessun caso una persona
+o un’entità può rivendicare un’affiliazione con MSCI senza la previa
+autorizzazione scritta di MSCI.
+
