@@ -371,3 +371,8 @@ td.nw{white-space:nowrap}
 .ddform .chips label.on { background: var(--accent); color: #fff; border-color: var(--accent); }
 
 .bdl .chips { gap: 6px 16px; }
+.missbox { margin: 0 0 12px; }
+.missbox tr.p1 td:first-child { color: #C01E1E; }
+.missbox input[type=text] { width: 100%; min-width: 160px; }
+.missbox textarea { width: 100%; }
+.btn.miss { border-color: #C01E1E; color: #C01E1E; }

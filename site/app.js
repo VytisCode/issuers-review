@@ -1135,6 +1135,7 @@
       regionO: ["Global", "USA", "Europe", "Eurozone", "Japan", "Emerging markets", "Asia-Pacific", "Single country"],
       styleO: ["Market cap", "Equal weight", "Value", "Growth", "Quality", "Min volatility", "Dividend", "Small / mid cap", "Sector", "Theme", "ESG / climate"],
       prompt: "Prompt for Claude", list: "Completed ETF searches and reviews", none: "No searches yet.", view: "View", hide: "Hide", ppt: "PowerPoint", full: "Full DD", mail: "Email draft", evz: "Calculations and extracts (ZIP)",
+      mBadge: "Missing data", mH: "Missing data – what to look up", mHint: "Data points not available from public sources. ● = may change a verdict, ○ = completes the table. Fill in what you find (value, source, date), tick “Not found” otherwise, then copy the prompt to Claude. The draft is kept only in this browser.", mCols: ["", "Fund", "What exactly", "Where to find", "Why it matters", "Value"], mPh: "value, source, date", mNf: "Not found", mNote: "Anything else (optional)", mNotePh: "e.g. notes from the manager's quarterly report…", mP: "Prompt to complete the review",
       bdl: "Download", bAll: "All categories in one file", bSel: "Selected categories only", bCats: "Categories", bAllC: "All / none", bFmt: "Formats", bShort: "Add the short version", bGo: "Download", bWait: "Preparing…", bNone: "Select at least one category and one format.", bFail: "Could not prepare the files – reload the page (Ctrl+F5) and try again.", bNote: "Selected categories: PDF is merged into one file with the summary and sources; PowerPoint and Word are separate files per category. Several files are downloaded as one ZIP.",
       cols: ["", "ETF", "ISIN / XETRA", "Cost", "Size", "SFDR", "Replication", "Income", "Since", "Note"], picks: "Suggested", crit: "Criteria", sum: "Summary", notes: "Notes" },
     lt: { sub: "Ieškote ETF dar prieš DD? Pasirinkite kriterijus, parašykite komentarą ir nukopijuokite užklausą. Claude suras, palygins viską, ką įmanoma rasti, ir pasiūlys patraukliausius variantus. Rezultatas išsaugomas užšifruotas apačioje („Atliktos ETF paieškos“), jį galima atsisiųsti kaip PowerPoint.",
@@ -1148,6 +1149,7 @@
       regionO: ["Pasaulis", "JAV", "Europa", "Euro zona", "Japonija", "Besivystančios rinkos", "Azija ir Ramusis vandenynas", "Viena šalis"],
       styleO: ["Pagal kapitalizaciją", "Lygūs svoriai (equal weight)", "Vertės", "Augimo", "Kokybės", "Mažo svyravimo", "Dividendų", "Mažos / vidutinės įmonės", "Sektorius", "Tema", "ESG / klimatas"],
       prompt: "Užklausa Claude", list: "Atliktos ETF paieškos ir peržiūros", none: "Paieškų dar nėra.", view: "Peržiūrėti", hide: "Slėpti", ppt: "PowerPoint", full: "Pilnas DD", mail: "Laiško juodraštis", evz: "Skaičiavimai ir išrašai (ZIP)",
+      mBadge: "Trūksta duomenų", mH: "Trūkstami duomenys – ką paieškoti", mHint: "Duomenys, kurių nėra viešuose šaltiniuose. ● – gali pakeisti verdiktą, ○ – užpildo lentelę. Įrašykite, ką radote (reikšmė, šaltinis, data), arba pažymėkite „Nerasta“, tada nukopijuokite užklausą Claude. Juodraštis saugomas tik šioje naršyklėje.", mCols: ["", "Fondas", "Kas tiksliai", "Kur rasti", "Kodėl svarbu", "Reikšmė"], mPh: "reikšmė, šaltinis, data", mNf: "Nerasta", mNote: "Kita informacija (nebūtina)", mNotePh: "pvz. pastabos iš valdytojo ketvirčio ataskaitos…", mP: "Užklausa peržiūrai užbaigti",
       bdl: "Atsisiųsti", bAll: "Visos kategorijos viename faile", bSel: "Tik pasirinktos kategorijos", bCats: "Kategorijos", bAllC: "Visos / nė vienos", bFmt: "Formatai", bShort: "Pridėti trumpą versiją", bGo: "Atsisiųsti", bWait: "Ruošiama…", bNone: "Pasirinkite bent vieną kategoriją ir formatą.", bFail: "Nepavyko paruošti failų – perkraukite puslapį (Ctrl+F5) ir bandykite dar kartą.", bNote: "Pasirinktos kategorijos: PDF sujungiamas į vieną failą su santrauka ir šaltiniais; PowerPoint ir Word – atskiri kiekvienos kategorijos failai. Keli failai atsisiunčiami vienu ZIP.",
       cols: ["", "ETF", "ISIN / XETRA", "Kaštai", "Dydis", "SFDR", "Replikavimas", "Pajamos", "Nuo", "Pastaba"], picks: "Siūlomi", crit: "Kriterijai", sum: "Santrauka", notes: "Pastabos" }
   };
@@ -1201,10 +1203,42 @@
   function screenList() {
     const sc = (DDL || []).filter(x => ["screen", "challenge", "fundreview"].includes(x.type)); if (!sc.length) return ["screen", "challenge"].includes(DKIND) ? `<h4>${scx("list")}</h4><p class="muted small">${scx("none")}</p>` : "";
     return `<h4 style="margin-top:16px">${scx("list")}</h4><div class="tbl-wrap"><table>${sc.map(x => `<tr><td>${esc(x.date)}</td><td><b>${esc(x.title)}</b>${x.type === "challenge" || x.type === "fundreview" ? ` <span class="muted small">· ${esc(x.type === "fundreview" ? chx("modeO")[1] : dx("kChal"))}</span>` : ""}</td>
-      <td class="nw"><button class="btn sm" data-sv="${esc(x.id)}">${SOPEN === x.id ? scx("hide") : scx("view")}</button> ${(x.view || {}).bundle ? `<button class="btn sm" data-bdl="${esc(x.id)}">⬇ ${scx("bdl")}</button>` : `<button class="btn sm" data-dd="${esc(x.id)}">⬇ ${scx("ppt")}</button>`}${zipBtns(x.id)}</td></tr>
+      <td class="nw"><button class="btn sm" data-sv="${esc(x.id)}">${SOPEN === x.id ? scx("hide") : scx("view")}</button> ${(x.view || {}).bundle ? `<button class="btn sm" data-bdl="${esc(x.id)}">⬇ ${scx("bdl")}</button>` : `<button class="btn sm" data-dd="${esc(x.id)}">⬇ ${scx("ppt")}</button>`}${zipBtns(x.id)}${missLeft(x) ? ` <button class="btn sm miss" data-sv="${esc(x.id)}">${scx("mBadge")}: ${missLeft(x)}</button>` : ""}</td></tr>
       ${BOPEN === x.id ? `<tr><td colspan="3">${bundleBox(x)}</td></tr>` : ""}
       ${SOPEN === x.id ? `<tr><td colspan="3">${screenView(x)}</td></tr>` : ""}`).join("")}</table></div>`;
   }
+  /* Trūkstami duomenys (VIEW.missing): Claude po peržiūros / DD išvardija konkrečius duomenų taškus, kurių neranda viešai
+     (fondas, kas tiksliai, kur rasti – Morningstar Direct / Bloomberg laukas, kodėl svarbu). Savininkas įrašo reikšmes,
+     juodraštis – tik šioje naršyklėje (localStorage), mygtukas sukuria užklausą Claude: įrašyti į tą pačią ataskaitą ir replace. */
+  const mGet = id => { try { return JSON.parse(localStorage.getItem("miss:" + id) || "{}"); } catch (e) { return {}; } };
+  const mSet = (id, o) => { try { localStorage.setItem("miss:" + id, JSON.stringify(o)); } catch (e) { /* ignore */ } };
+  function missLeft(x) { const m = (x.view || {}).missing || [], d = mGet(x.id); return m.filter(r => !(d[r.k] || "").trim() && !d["nf:" + r.k]).length; }
+  function missPrompt(x) {
+    const m = x.view.missing || [], d = mGet(x.id), got = m.filter(r => (d[r.k] || "").trim()), nf = m.filter(r => d["nf:" + r.k]);
+    const L = [`Complete "${x.title}" (${x.date}, archive id ${x.id}) with the data points below, provided by the owner from internal sources. Write them into the same report (all formats), label each "owner-provided, <source>, <date>", recalculate what they affect (overview table, verdicts, flags, summary, email draft), re-export and replace the archive entry (python tools/dd_vault.py replace ${x.id}). Report back which verdicts changed.`];
+    got.forEach(r => L.push(`- [${r.k}] ${r.fund || ""}${r.isin ? " (" + r.isin + ")" : ""} – ${r.what}: ${d[r.k].trim()}`));
+    if (nf.length) L.push("Not found by the owner (keep NOT FOUND, mention in Open items):", ...nf.map(r => `- [${r.k}] ${r.fund || ""} – ${r.what}`));
+    if ((d._note || "").trim()) L.push("Other information from the owner:", d._note.trim());
+    return L.join("\n");
+  }
+  function missBox(x) {
+    const m = (x.view || {}).missing || []; if (!m.length) return "";
+    const d = mGet(x.id), left = missLeft(x);
+    return `<div class="card missbox"><h4>${scx("mH")} (<span id="ml_${esc(x.id)}">${left}</span> / ${m.length}) ${kindTag("you")}</h4><p class="muted small">${scx("mHint")}</p>
+      <div class="tbl-wrap"><table class="small"><tr>${scx("mCols").map(h => `<th>${h}</th>`).join("")}</tr>${m.map(r => `<tr${r.prio === 1 ? ` class="p1"` : ""}>
+        <td>${r.prio === 1 ? "●" : "○"}</td><td><b>${esc(r.fund || "")}</b>${r.isin ? `<br><span class="muted">${esc(r.isin)}</span>` : ""}</td><td>${esc(r.what)}${r.fmt ? `<br><span class="muted">${esc(r.fmt)}</span>` : ""}</td>
+        <td>${esc(r.where || "")}</td><td class="muted">${esc(r.why || "")}</td>
+        <td><input type="text" data-mk="${esc(x.id)}|${esc(r.k)}" value="${esc(d[r.k] || "")}" placeholder="${esc(scx("mPh"))}"><label class="chk small"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(r.k)}"${d["nf:" + r.k] ? " checked" : ""}> ${scx("mNf")}</label></td></tr>`).join("")}</table></div>
+      <label class="small">${scx("mNote")}<textarea rows="3" data-mk="${esc(x.id)}|_note" placeholder="${esc(scx("mNotePh"))}">${esc(d._note || "")}</textarea></label>
+      <div class="pbox"><b class="small">${scx("mP")}</b> ${kindTag("ai")}<pre id="mp_${esc(x.id)}">${esc(missPrompt(x))}</pre>${promptBtn(missPrompt(x))}</div></div>`;
+  }
+  document.addEventListener("input", e => {
+    const k = e.target.dataset && e.target.dataset.mk; if (!k) return;
+    const [id, key] = k.split("|"), d = mGet(id); d[key] = e.target.type === "checkbox" ? e.target.checked : e.target.value; mSet(id, d);
+    const x = (DDL || []).find(y => y.id === id), pre = document.getElementById("mp_" + id);
+    const ml = document.getElementById("ml_" + id); if (x && ml) ml.textContent = missLeft(x);
+    if (x && pre) { pre.textContent = missPrompt(x); const btn = pre.nextElementSibling; if (btn && btn.dataset) for (const a in btn.dataset) if (/copy|prompt/i.test(a)) btn.dataset[a] = missPrompt(x); }
+  });
   /* Ketvirčio peržiūros paketas (review_lib.export): PowerPoint, Word ir PDF iš to paties turinio. Atsisiunčiama
      „visos kategorijos viename faile“ (full.*) arba „tik pasirinktos“: PDF sujungiamas naršyklėje (parts/_cover + kategorijos + _end),
      PowerPoint ir Word – atskiri kategorijų failai. Keli failai -> vienas ZIP. Bibliotekos kraunamos tik paspaudus. */
@@ -1285,7 +1319,7 @@
   function screenView(x) {
     const v = x.view || {}, c = scx("cols"), li = a => (a || []).length ? `<ul class="b small">${a.map(s => `<li>${esc(s)}</li>`).join("")}</ul>` : "";
     const fb = r => `<button class="btn sm primary" data-fdd="${esc(x.id)}|${esc(r.isin)}">${scx("full")} →</button>`;
-    return `<div class="sview">${(v.criteria || []).length ? `<p class="small"><b>${scx("crit")}:</b> ${esc(v.criteria.join(" · "))}</p>` : ""}
+    return `<div class="sview">${missBox(x)}${(v.criteria || []).length ? `<p class="small"><b>${scx("crit")}:</b> ${esc(v.criteria.join(" · "))}</p>` : ""}
       <h4>${scx("sum")}</h4>${li(v.summary)}
       ${(v.picks || []).length ? `<h4>${scx("picks")}</h4><div class="spicks">${v.picks.map((p, i) => `<div class="card spk"><div class="muted small">#${i + 1}</div><b>${esc(p.name)}</b><div class="small">${esc(p.isin)}${p.tick ? " · " + esc(p.tick) : ""}</div><p class="small">${esc(p.why || "")}</p>${fb(p)}</div>`).join("")}</div>` : ""}
       ${v.table ? `<div class="tbl-wrap"><table class="small"><tr>${v.table.cols.map(h => `<th>${esc(h)}</th>`).join("")}</tr>${v.table.rows.map(r => `<tr>${r.map((x, i) => `<td${i === v.table.hl ? ` class="vd ${esc(String(x).split(" ")[0].toLowerCase())}"` : ""}>${esc(x)}</td>`).join("")}</tr>`).join("")}</table></div>` : ""}
@@ -1443,6 +1477,8 @@
     L.push("Overview table per category: TER and tracking difference 1Y (own calculation from manager factsheets; n/a for active funds). Flags only when they apply (review_lib.flags): any single one of our funds holding ≥ 20% of the target fund's assets (mandate limit, checked for each of our funds separately: LT funds automatically from the pension fund tracker via review_lib.lt_max_holding, fund assets at the same date; LV / EE only if amounts per fund are given, otherwise state \"not checked for LV / EE\" in the Method section), fund below EUR 100m, outflows over 25% in a year, rename / index change / merger / closure. All returns on one basis: same end date, EUR, net of fees, total return – state the date.");
     L.push("One portfolio overlap slide before the categories (equity funds, look-through): top 10 companies, countries (US share) and sectors summed across funds by weight; fund holdings and our portfolio weights from the same period – state each holdings date and flag gaps over one month.");
     L.push("Audience: Lithuanian, Latvian and Estonian portfolios together – keep the LT pension fund (peer) view brief, at most one line per category where it really matters; data lag only in the Method section.");
+    L.push("Data: use the most recent data available at the time of the review (not necessarily the quarter end), but one common date within each comparison table.");
+    L.push("Missing data: data points not found in public sources go to VIEW.missing (shown on the dashboard with input fields for the owner, who has Morningstar Direct, a Bloomberg terminal and some active-fund reports, but cannot send files): [{k, fund, isin, what (exact data point and period), fmt, where (exact Morningstar Direct data point or Bloomberg field / screen), why (what it changes), prio: 1 = may change a verdict or a flag, 2 = completes a table}]. At most 15 items, priority 1 first; ask only for what changes a conclusion or fills the overview table – nothing that can be found publicly.");
     L.push("Climate Future (PAB) funds: a separate category of the SEB Index Climate Future (Klimato ateitis) holdings, and each of them is also included and compared in its regional category (e.g. a US PAB ETF in US Equity). In every such pair state what is gained and what is given up versus the standard regional index fund: TER and tracking, return gap 1 / 3 / 5 years, carbon intensity reduction, excluded sectors and largest weight differences (sector and top holdings), concentration, tracking error vs the parent index, SFDR article.");
     L.push("Active funds: compare twice when data allow – within the active-funds group and against passive funds with the same exposure (is the higher management fee earned after costs: excess return, consistency, information ratio). Missing data: mark NOT FOUND in red and list them for the owner.");
     return L.join("\n");
