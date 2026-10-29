@@ -1222,7 +1222,8 @@
     return L.join("\n");
   }
   function missBox(x) {
-    const m = (x.view || {}).missing || []; if (!m.length) return "";
+    const src = r => String(r.where || "").split(":")[0].trim().toLowerCase();
+    const m = [...((x.view || {}).missing || [])].sort((a, b) => src(a).localeCompare(src(b)) || (a.prio || 2) - (b.prio || 2)); if (!m.length) return "";  // vienu prisijungimu – vienas šaltinis
     const d = mGet(x.id), left = missLeft(x);
     return `<div class="card missbox"><h4>${scx("mH")} (<span id="ml_${esc(x.id)}">${left}</span> / ${m.length}) ${kindTag("you")}</h4><p class="muted small">${scx("mHint")}</p>
       <div class="tbl-wrap"><table class="small"><tr>${scx("mCols").map(h => `<th>${h}</th>`).join("")}</tr>${m.map(r => `<tr${r.prio === 1 ? ` class="p1"` : ""}>
