@@ -1819,5 +1819,60 @@
   "sha256": "932e5eae4fd81c8a9a37e861b851a8bd8b806ec295766961aca1d73a7b66b413",
   "bytes": 157564,
   "final_url": "https://www.justetf.com/api/etfs/IE00BJK55C48/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-28"
+ },
+ {
+  "isin": "IE00B3WJKG14",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B3WJKG14/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-28",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00B3WJKG14/data_3f7785a81a.csv",
+  "sha256": "3f7785a81aecdd7302382e29b7598b7d1f51891942207b23bfa89ddb2fa3bc11",
+  "bytes": 253038,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B3WJKG14/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-28"
+ },
+ {
+  "isin": "IE00B42NKQ00",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B42NKQ00/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-28",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00B42NKQ00/data_81ddd875ca.csv",
+  "sha256": "81ddd875caac5dd374c0dcdb8e171dcf43747db1c559c1abffc0efe620335339",
+  "bytes": 248508,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B42NKQ00/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-28"
+ },
+ {
+  "isin": "IE00BWBXM948",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00BWBXM948/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-28",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00BWBXM948/data_5663a2db27.csv",
+  "sha256": "5663a2db2740e27a3e1102ec58b9aa1f6cb14f93f256581d524dfcdba4079161",
+  "bytes": 266462,
+  "final_url": "https://www.justetf.com/api/etfs/IE00BWBXM948/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-28"
+ },
+ {
+  "isin": "IE00B3WJKG14",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B3WJKG14",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00B3WJKG14/page_c86eb97f40.html",
+  "sha256": "c86eb97f40e62b7a70fa2b9b7e34b8b5fa09fcebea08f0822b9de626dda82bdc",
+  "bytes": 439060,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B3WJKG14"
+ },
+ {
+  "isin": "IE00B42NKQ00",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B42NKQ00",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00B42NKQ00/page_06603ec647.html",
+  "sha256": "06603ec64798d7cef670863f8ad2e093a5f72af1e6e4579837c2dc92d9bd7734",
+  "bytes": 438968,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B42NKQ00"
  }
 ]
