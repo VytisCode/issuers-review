@@ -32,6 +32,8 @@ def text_of(path):
             t = subprocess.run(["pdftotext", "-layout", "-f", str(p), "-l", str(p), str(path), "-"], capture_output=True, text=True).stdout
             out.append(f"=== pdf p.{p} ===\n{t}")
         return "\n".join(out)
+    if path.suffix == ".csv":
+        return path.read_text(errors="ignore")
     html = path.read_text(errors="ignore")
     html = re.sub(r"(?is)<(script|style).*?</\1>", " ", html)
     return re.sub(r"[ \t]+", " ", re.sub(r"<[^>]+>", " ", html))
@@ -49,11 +51,11 @@ def run(out, spec):
         try:
             data, ctype, final = fetch(it["url"])
             pdf = data[:5] == b"%PDF-"
-            if not pdf and ("html" not in ctype or it["kind"] != "page"):
+            if not pdf and it["kind"] not in ("page", "data"):
                 raise ValueError(f"ne PDF ({ctype}, {len(data)} B)")
             h = hashlib.sha256(data).hexdigest()
             d = out / day / it["isin"]; d.mkdir(parents=True, exist_ok=True)
-            fn = d / f"{it['kind']}_{h[:10]}{'.pdf' if pdf else '.html'}"
+            fn = d / f"{it['kind']}_{h[:10]}{'.pdf' if pdf else ('.csv' if it['kind'] == 'data' else '.html')}"
             fn.write_bytes(data)
             (fn.with_suffix(".txt")).write_text(text_of(fn))
             rec.update(ok=True, file=str(fn.relative_to(out)), sha256=h, bytes=len(data), final_url=final)
