@@ -1,5 +1,5 @@
 {
- "parent": "1817378d38f1b8c3",
+ "parent": "d5d89aaf19a7943d",
  "name": "FundReview_Q3_2026_bundle_documents.zip",
  "sources": [
   {
@@ -281,6 +281,16 @@
    "key": "O24",
    "title": "ECB reference rates USD per EUR, daily",
    "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?format=csvdata&startPeriod=2022-12-20&endPeriod=2026-10-28"
+  },
+  {
+   "key": "C57",
+   "title": "iShares S&P 500 Information Technology Sector – justETF (market context)",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B3WJKG14"
+  },
+  {
+   "key": "C58",
+   "title": "iShares S&P 500 Energy Sector – justETF (market context)",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B42NKQ00"
   }
  ]
 }
