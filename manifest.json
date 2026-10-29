@@ -2453,5 +2453,24 @@
   "sha256": "822f9355b369ae8f73bd99a6f1b9d47cacb077769680ff6647a95190304f7ca7",
   "bytes": 377741,
   "final_url": "https://fundcentres.landg.com/en/uk/institutional/fund-centre/ETF/"
+ },
+ {
+  "isin": "ISHARES_SCREENER",
+  "kind": "data",
+  "url": "https://www.ishares.com/uk/individual/en/product-screener/product-screener-v3.1.jsn?dcrPath=/templatedata/config/product-screener-v3/data/en/uk/product-screener/ishares-product-screener-backend-config&siteEntryPassthrough=true",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B5BMR087",
+  "kind": "data",
+  "url": "https://www.ishares.com/uk/individual/en/products/253743/ishares-sp-500-b-ucits-etf-acc-fund/1506575576011.ajax?fileType=csv&fileName=CSPX_holdings&dataType=fund",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00B5BMR087/data_084e172b0f.csv",
+  "sha256": "084e172b0f438ca2f05439dc1e55d640d48824d0f872bf204c3fbf72f813afe3",
+  "bytes": 3312713,
+  "final_url": "https://www.ishares.com/uk/individual/en/products/253743/ishares-sp-500-b-ucits-etf-acc-fund/1506575576011.ajax?fileType=csv&fileName=CSPX_holdings&dataType=fund"
  }
 ]
