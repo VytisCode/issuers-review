@@ -1505,5 +1505,110 @@
   "sha256": "ee3c0273d8ccf4e106649579647a27a4070f3349d63e07a76367eb5a29588f3f",
   "bytes": 205105,
   "final_url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?format=csvdata&startPeriod=2022-12-20&endPeriod=2026-10-28"
+ },
+ {
+  "isin": "LU0456547701",
+  "kind": "kid",
+  "url": "https://seb.se/pow/fmk/KIID/LU/LT/LU0456547701_lt.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0456547701/kid_fe260dc4bf.pdf",
+  "sha256": "fe260dc4bf94203950fabee15dc89b56943db8301839967509382c2e88d5e94c",
+  "bytes": 142078,
+  "final_url": "https://seb.se/pow/fmk/KIID/LU/LT/LU0456547701_lt.pdf"
+ },
+ {
+  "isin": "SE0019892050",
+  "kind": "kid",
+  "url": "https://seb.se/pow/fmk/KIID/SE/LT/SE0019892050_lt.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/SE0019892050/kid_4bfa68f699.pdf",
+  "sha256": "4bfa68f6999e5c76e7b0881da789ecfd6b41cee63a95f7dc68e080e5fbe6ae3b",
+  "bytes": 156384,
+  "final_url": "https://seb.se/pow/fmk/KIID/SE/LT/SE0019892050_lt.pdf"
+ },
+ {
+  "isin": "LU0456547701",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU0456547701/en/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "SE0019892050",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/SE0019892050/en/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B2NSVP60/en/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BFZ89B79",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00BFZ89B79/en/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU2889894270/en/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2009877999",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU2009877999/en/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU1902638607",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU1902638607/en/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU0456547701",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/LU0456547701/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B2NSVP60/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU0490618542",
+  "kind": "factsheet",
+  "url": "https://etf.dws.com/en-gb/AssetDownload/Index/3bf9b12b-ae33-48d9-b6a3-7b890944f876/Factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0490618542/factsheet_e4839d9802.pdf",
+  "sha256": "e4839d9802f6c435ecf6cbf2455b8fe775e20ec1cf7fdc0e425e14a442e0d4fa",
+  "bytes": 225350,
+  "final_url": "https://etf.dws.com/download/asset/3bf9b12b-ae33-48d9-b6a3-7b890944f876"
  }
 ]
