@@ -1,0 +1,777 @@
+=== pdf p.1 ===
+For professional investors only. This is a marketing communication.
+Factsheet | Figures as of 31 August 2026
+
+Robeco Euro Credit Bonds I EUR
+Unconstrained approach across different segments of the European corporate bond market
+ASSET CLASS                                ISIN                                   BENCHMARK (BM)
+Bonds                                      LU0210246277                           Bloomberg Euro Corporates Index
+
+
+Performance                               ⬤ Fund (FD)
+       Indexed value (until 31/08/2026)                                             Period                    Fund %       BM %    Calendar year                    Fund %     BM %
+ 115                                                                                1 M                        -0.11       -0.22   2025                               2.71      3.03
+                                                                                    3 M                        -0.68       -0.75   2024                               4.77      4.74
+ 110
+                                                                                    YTD                           0.10     0.13    2023                               8.48      8.19
+ 105                                                                                1 Year                        0.67     0.78    2022                              -13.14   -13.65
+                                                                                    2 Years                       2.40     2.64    2021                               -0.97    -0.97
+ 100
+                                                                                    3 Years                       4.15     4.17
+  95                                                                                5 Years                       0.03     -0.07
+                                                                                    10 Years                      1.07     0.86
+  90
+                                                                                    Since 01/04/2005              2.44     2.71
+   08/2016        08/2018      08/2020       08/2022      08/2024       08/2026
+Past performance is no guarantee of future results. The value of your investments may fluctuate. All figures in EUR. If the currency in which the past
+performance is displayed differs from the currency of the country in which you reside, then you should be aware that due to exchange rate fluctuations the
+performance shown may increase or decrease if converted into your local currency. Periods shorter than one year are not annualized. Returns net of fees,
+based on transaction prices. Source: Robeco. Fund: Robeco Euro Credit Bonds I EUR.
+
+
+
+
+TOTAL SIZE OF FUND                                SIZE OF SHARE CLASS                            SHARE CLASS CURRENCY                            CLOSE FINANCIAL YEAR
+EUR 756,996,112                                   EUR 642,987,263                                EUR                                             31/12
+
+DAILY TRADABLE                                    DIVIDEND PAYING                                INCEPTION DATE                                  MANAGEMENT COMPANY
+Yes                                               No                                             01/04/2005                                      Robeco Institutional Asset
+                                                                                                                                                 Management B.V.
+
+About the fund                                                                            Fund price                                      Fund codes
+Robeco Euro Credit Bonds is an actively managed fund providing                            31/08/2026                 EUR     167.41       ISIN                         LU0210246277
+diversified exposure to Euro investment grade credits. The fund can invest
+                                                                                          High YTD                                        Bloomberg                       ROECRBI LX
+to a limited extent outside the Benchmark in high yield-rated debt,                                                  EUR     169.35
+securitized debt and non-Euro denominated bonds. All risks from exchange                  (27/02/2026)                                    Sedol                               BZ1C4W9
+rate fluctuations are hedged. The selection of these bonds is based on                    Low YTD
+                                                                                                                             164.92       WKN                                  A0D9JE
+                                                                                                                     EUR
+fundamental analysis. Performance drivers are the top-down beta                           (27/03/2026)
+positioning as well as bottom-up issuer selection. The fund's objective is to                                                             Valoren                             2043423
+provide long-term capital growth.
+                                                                                          Fees                                     %      Legal status
+Fund management
+                                                                                          Management fee                       0.35       Investment company with variable capital
+Jan Willem de Moor, Jan Willem Knoll, Remy Broekmans                                                                                      incorporated under Luxembourg law
+                                                                                          Performance fee                     None
+                                                                                                                                          (SICAV)
+                                                                                          Service fee                          0.12
+                                                                                                                                          Fund structure                      Open-end
+                                                                                          Ongoing charges                      0.49
+                                                                                                                                          UCITS V                                 Yes
+                                                                                                                                          Share class                            I EUR
+                                                                                                                                          This fund is a subfund of Robeco Capital
+                                                                                                                                          Growth Funds, SICAV
+
+
+
+
+Key risks
+• The value of shares is sensitive to market fluctuations, instrument prices, and changes in political, economic, or market conditions. Corporate bonds are
+  more risky and volatile investments compared to government bonds.
+• The fund may use derivatives to achieve its investment objectives. These instruments can create leverage, increasing the fund’s exposure to market
+  fluctuations.
+• A (derivative) counterparty may fail to fulfil its obligations. Counterparty risk is reduced by exchanging collateral.
+• This fund promotes ESG characteristics, but does not have sustainable investing as its objective. Sustainability risks are integrated in the investment
+  decisions and may impact returns.
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                                     Page 1/9
+
+=== pdf p.2 ===
+Factsheet | Figures as of 31 August 2026
+
+Robeco Euro Credit Bonds I EUR
+                       Fund : Robeco Euro Credit Bonds I EUR
+                       Benchmark (BM): Bloomberg Euro Corporates Index
+
+                                                                                                     Top 10 Largest Holdings                            Sector                       %
+Sector %
+
+
+
+
+                                                                                              54.7
+                       Financials                                               42.5
+                                                                      25.0                           BNP Paribas SA                                     Financials                2.91
+                       Industrials                                                     48.7
+                                                                                                     Amazon.com Inc                                     Industrials               2.31
+                                                             6.3
+                       Utilities                               8.8                                   Raiffeisen Bank International AG                   Financials                2.11
+                                                             6.2
+                       Agencies                       0.0                                            ING Groep NV                                       Financials                2.10
+                                                         3.3                                         Erste Group Bank AG                                Financials                2.02
+                       Treasuries                     0.0
+                                                      0.6                                            HSBC Holdings PLC                                  Financials                1.89
+                       Covered                        0.0
+                                                         3.9
+                                                                                                     UBS Group AG                                       Financials                1.72
+                       Cash and other instruments     0.0                                            Eni SpA                                            Industrials               1.69
+                                                                                                     Swedbank AB                                        Financials                1.59
+Subordination type %
+
+
+
+
+                                                                                    75.4
+                       Senior                                                                 89.7
+                                                                                                     Bankinter SA                                       Financials                1.58
+                                                          9.1
+                       Tier 2                            5.9                                         Total                                                                      19.90
+                                                          8.8
+                       Hybrid                           4.4
+                                                                                                     Characteristics                                                  Fund         BM
+                                                       2.8
+                       Tier 1                         0.0                                            Yield to Worst (Hedged to EUR) (%)                                3.91       3.83
+                                                        3.9                                          Maturity (years)                                                  4.66       5.07
+                       Cash and other instruments     0.0
+                                                                                                     Interest Rate Duration (OAD in years)                             4.40       4.42
+                                                                                                     Average Rating                                              A3/BAA1      A3/BAA1
+Rating %
+
+
+
+
+                                                            4.0
+                       AAA                            0.3                                            Risk Points (DTS)                                                 445         398
+                                                                7.7
+                       AA                                       7.6                                  DTS Beta                                                          1.12       1.00
+                                                                             33.5                    Coupon (%)                                                        4.03       3.06
+                       A                                                               43.1
+                                                                                                     Spread Duration (OASD in years)                                   4.15       4.50
+                                                                                         45.9
+                       BAA                                                                  48.9     Credit Spread (OAS in bps)                                       89.72     78.89
+                                                         3.3                                         Outstanding Shares                                          3,840,805            -
+                       BA                             0.0
+                                                       1.2                                           Key risk figures                                                 3 Yrs       5 Yrs
+                       B                              0.0
+                                                      0.5                                            Tracking error ex-post (%)                                        0.22       0.45
+                       Non-rated                      0.0                                            Information ratio                                                 1.99       1.26
+                                                          3.9
+                       Cash and other instruments                                                    Alpha (%)                                                         0.44       0.55
+                                                      0.0
+                                                                                                     Beta                                                              0.99       0.99
+Duration (years)
+
+
+
+
+                                                                                              4.4    Max. monthly gain (%)                                             2.79       4.30
+                       Euro                                                                   4.4
+                                                                                                     Max. monthly loss (%)                                            -2.22       -4.06
+                                                                                                     Standard deviation (%)                                            3.35       5.32
+                                                                                                     Sharpe ratio                                                      0.55       -0.29
+                                                                                                     Ratios are based on gross of fees returns.
+denomination %
+
+
+
+
+                                                                                         93.5
+     Currency
+
+
+
+
+                       Euro                                                                100.0
+                                                                                                     Past performance is no guarantee of future results. The value of your
+                                                       2.1
+                       U.S. Dollar                    0.0                                            investments may fluctuate.
+                                                      0.5
+                       Pound Sterling                 0.0                                            Holdings are subject to change. This is not a buy, sell or hold recommendation
+                                                                                                     for any particular security. The securities shown here are for illustrative
+                                                                                                     purposes only to demonstrate the investment strategy on the date stated
+                                                                                                     above. It cannot be guaranteed the same securities will be considered in the
+                                                                                                     future. No reference can be made to the future development of the securities.
+
+                                                                                                     The allocations shown are for illustrative purposes only. This is the current
+                                                                                                     overview as of the date stated and not a guarantee of future developments. It
+                                                                                                     should not be assumed that any investments in these allocations were or will
+                                                                                                     be profitable. Due to rounding, the sum may not equal 100%.
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                                       Page 2/9
+
+=== pdf p.3 ===
+Factsheet | Figures as of 31 August 2026
+
+Robeco Euro Credit Bonds I EUR
+
+Performance commentary
+Based on transaction prices, the fund's return was -0.11%.
+The portfolio posted a negative return in August, fully driven by an increase in underlying government bond yields. Underlying 5-year yields rose from 2.94% to
+3.06%, while 10-year yields moved from 3.20% to 3.32%. Credit spreads were relatively stable during the month. The average index spread ended the month at
+79 basis points, the same spread as at the end of July. The total return of the index was -0.22%. The portfolio performance was better than that of the index.
+The beta positioning of the portfolio was a little bit above neutral (1). There was a small positive contribution from issuer selection. A strong positive
+contributor was selection within the banking sector, as well as our overweight allocation to the energy sector, while our overweight allocation to banking was a
+small negative contributor. The best-performing individual positions, on a risk adjusted basis, were Teva, TenneT and Booking. Detractors from performance
+were MTR, Beignet (A+ rated structured data center deal) and MetLife.
+Market development
+European investment grade credit spreads ended August at 79 bps, flat on the month after briefly tightening to a low of 76 bps mid-month. The macro backdrop
+was challenging: sovereign yields surged globally, with 30-year US Treasuries at their highest since 2007 and French and German long-end rates hitting multi-
+decade highs. ECB's Schnabel signaled further hikes were warranted given persistent inflation and a resilient Eurozone economy, while rising oil prices amid
+Middle East tensions amplified rate concerns. Primary activity was subdued early on due to the summer lull, then picked up in the second half; Commerzbank
+projects full-year euro IG gross issuance of EUR 660 bln, partly driven by AI-related debt from US hyperscalers. US data showed labor market strength fading as
+July payrolls turned negative, and Fed Chair Warsh delivered a hawkish Jackson Hole speech emphasizing resilient growth and inflation. Eurozone country
+spreads moved sideways, the exception being France, where government bonds underperformed amid approaching budget negotiations and growing focus on
+the 2027 presidential election. 10-year French spreads widened 6 bps to 86 bps over Germany.
+Expectation of fund manager
+Our base case remains an orderly, grinding widening in spreads as the market recalibrates to a less generous technical regime, rather than anything more
+dramatic. But starting valuations leave the asymmetry unattractive enough that we continue to run conservative beta across portfolios, and would rather be
+early reducing risk than late. This puts us at odds with more bullish calls for further tightening. We agree the near-term path of least resistance may be tighter,
+but being right about direction and wrong about asymmetry is an expensive combination in a limited-upside, large-downside asset class. We remain
+constructive on banking sector credit, where capital and asset quality metrics remain strong. Within non-financials, we are cautious and increasingly selective
+on technology and AI-adjacent credit. The strongest hyperscaler names offer some premium to current ratings; we would rather express conviction through
+those strongest balance sheets, while avoiding the weaker, more leveraged data center and software adjacent names where the downside is asymmetric. We
+prefer defensively positioned sectors with durable demand and pricing power over cyclically exposed industrials.
+Top 10 largest holdings
+In our portfolio management, the most relevant issuer positions are those measured in risk points (weight x spread x duration). The largest positions
+consist of a mix of financials and industrials. Often, we have more than one bond holding in a specific name.
+Sector allocation
+In our portfolio management, we do not only factor in weights, but also spreads and spread durations (DTS). On that basis, we are overweight in financials
+and underweight in non-financial corporates. The banking sector remains an overweight, as balance sheets are strong and profitability is high. The fund
+holds an off-benchmark position in covered bonds; spreads for covered bonds are relatively high in a historic perspective and the AAA-rated bonds suit very
+well in our defensive beta positioning. The position in ABS consists of European residential mortgages and auto loans. The agencies category comprises
+issuers that are majority-owned by governments.
+Currency denomination allocation
+Almost all of our bond exposures are denominated in euros. Holdings denominated in GBP or USD are hedged back to the euro benchmark by default.
+Duration allocation
+The policy of the fund is to have a duration position that is neutral against its benchmark.
+Rating allocation
+We have no clear preference for specific rating buckets. Our positioning over the different rating buckets is the result of beta positioning, sector allocation
+and issuer selection.
+Subordination allocation
+In the allocation to the capital structure, we favor the bonds with solid risk-adjusted performance potential while taking into account the beta, sector
+themes, and the credit cycle. The exposure to subordinated bonds that we do have, is limited to positions that have both a good fundamental outlook as
+well as a robust bond structure.
+Past performance is no guarantee of future results. The value of your investments may fluctuate.
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                     Page 3/9
+
+=== pdf p.4 ===
+Factsheet | Figures as of 31 August 2026
+
+Robeco Euro Credit Bonds I EUR
+               Portfolio: Robeco Euro Credit Bonds
+               Index: Bloomberg Euro Corporates Index
+
+
+SDG Impact Alignment 1                                                                                                                               Environmental Footprint 2
+Source: Robeco                                                                                                                                       Carbon source: Robeco data based on Trucost data
+                                                                                                                                                     Waste & water source: Robeco data based on Trucost data
+         50%
+                                                                                                                                                      GHG Emissions                   Waste                               Water use
+                                                              35.7
+
+                                                                                                                                                      Scope 1, 2 & 3                  generation                          m³/mUSD
+                                                    32.9
+
+
+
+
+    37.5%                                                                                                                                             upstream                        Tonnes/mUSD                         68.9% better
+                                                                                                                                                      tCO₂eq/mUSD
+                                 24.9
+
+
+
+
+                                                                                                                                                                                      70.3% better
+                                        23.6
+
+
+
+
+                                                                                        22.6
+                                                                                                                                                      37.2% better
+                                                                           18.6
+
+
+
+
+         25%
+
+
+
+
+                                                                                                                         7.2
+                                                                                                 6.0
+
+
+    12.5%
+
+                                                                                                                  5.0
+                                                                                                            4.6
+                  3.9
+
+
+
+
+                                                                                                                                         3.7
+                        2.0
+
+
+
+
+                                                                                                                                 1.0
+Weight
+
+
+
+
+         0%
+                                                                                                                                                       Portfolio            67.0       Portfolio            3.1            Portfolio         1,224.0
+                 High Positive   Medium         Low Positive                Neutral            Low Negative       Medium          High
+                                 Positive                                                                         Negative       Negative              Index               106.8       Index               10.4            Index             3,939.2
+
+
+Sustainalytics ESG Risk Rating 3                                                                                                                                                      Exclusions 4
+Source: Sustainalytics                                                                                                                                                                Source: Robeco
+
+Overall Risk Rating                                     70%
+                                                                                                        59.5
+                                                                                               56.9
+
+
+
+
+                                                                                                                                                                                       Total exposure
+5.0% worse
+                                                   52.5%                                                                                                                                Portfolio                                      Not exposed
+                                                                                                                                                                                        Index                                                 0.7%
+                                                                                                                  28.8
+
+
+
+
+                                                        35%
+                                                                                                                          23.7
+
+
+
+
+                                                                                                                                                                                       Index Exposure to
+                                                                                  9.2
+
+
+
+
+                                                   17.5%
+                                                                     5.9
+
+
+
+
+                                                                                                                                                                         5.8
+
+
+                                                                                                                                                                               5.1
+
+
+                                                                                                                                                                                           Behavior        Fossil fuels        Other products
+                                                                                                                                   2.7
+
+
+                                                                                                                                               2.4
+                                               Weight
+
+
+
+
+                                                                                                                                                                0.1
+                                                                                                                                                        0.0
+
+
+
+
+ Portfolio                       18.2                   0%
+                                                                     Negligible                       Low          Medium                High             Severe       Not Assessed
+ Index                           17.3
+                                               Risk score:             0-9.99                  10-19.99            20-29.99            30-39.99               40+
+
+
+
+ESG Labeled Bonds 5                                                                                                                                  Engagement 6
+Source: Bloomberg                                                                                                                                    Source: Robeco
+
+
+  Exposure to ESG Labeled Bonds                                                                                                                                                           Portfolio exposure              # companies engaged with
+
+         Portfolio                                                                                                               20.5%                        Environmental                         0.0%                                 0
+         Index                                                                                                                   18.0%                        Social                                1.6%                                 2
+  Green                                                                      Social
+                                                                                                                                                              Governance                            1.3%                                 3
+         Portfolio                                      19.0%                     Portfolio                                       0.6%
+                                                                                                                                                              SDGs                                  4.4%                                 4
+         Index                                          15.9%                     Index                                           1.4%
+  Sustainability                                                                                                                                              Voting Related                        6.5%                                 6
+
+         Portfolio                                         0.9%                                                                                               Enhanced                              0.0%                                 0
+         Index                                             0.6%
+                                                                                                                                                              Total                                12.7%                                14
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                                                                                                    Page 4/9
+
+=== pdf p.5 ===
+Factsheet | Figures as of 31 August 2026
+
+Robeco Euro Credit Bonds I EUR
+
+ESG Important information
+The sustainability information in this factsheet can help investors integrate sustainability considerations in their process. This information is for informational
+purposes only. The reported sustainability information may not at all be used in relation to binding elements for this fund. A decision to invest should take into
+account all characteristics or objectives of the fund as described in the prospectus. The prospectus is available on request and free of charge on the Robeco
+website. The figures shown in the sustainability visuals are calculated on subfund level.
+The fund promotes E&S (i.e. Environmental and Social) characteristics within the meaning of Article 8 of the European Sustainable Finance Disclosure
+Regulation, integrates sustainability risks in the investment process and applies Robeco’s Good Governance policy.The fund applies sustainability indicators,
+including but not limited to, normative, activity-based and region-based exclusions, and engagement.
+To the extent that this document includes an ESG rating based on Robeco’s proprietary frameworks, reference is made to the following webpage, which
+provides further information on the development and underlying methodology of this rating: Sustaina… policies and positions | Robeco Global
+
+Reference
+1. SDG Impact Alignment                                                               4. Exclusions
+This distribution across SDG scores shows the portfolio weight allocated              The charts display the degree of adherence to exclusion applied by
+to companies with a positive, negative and neutral impact alignment with              Robeco. Thresholds are based on revenues unless otherwise indicated.
+the Sustainable Development Goals (SDG) based on Robeco’s SDG                         For more information about the exclusion policy and which level applies,
+Framework. The framework utilizes a three-step approach to assess a                   please refer to the Exclusion Policy and Exclusion List available on
+company’s impact alignment with the relevant SDGs and assign a total                  Robeco.com.
+SDG score. The score ranges from positive to negative impact alignment
+                                                                                      Source: Robeco. We use several data input sources such as Sustainalytics,
+with levels from high, medium or low impact alignment. Only holdings
+                                                                                      RSPO (Roundtable on Sustainable Palm Oil), World Bank, Freedom House,
+mapped as corporates are included in the figures.
+                                                                                      Fund for Peace and International Sanctions. Policy document available:
+2. Environmental Footprint                                                            Exclusion Policy
+Environmental footprint expresses the total resource consumption of the
+                                                                                      5. ESG Labeled Bonds
+portfolio per mUSD invested. Each assessed company's footprint is
+                                                                                      The visual displays the portfolio's exposure to ESG-labeled bonds. This is
+calculated by normalizing resources consumed by the company's
+                                                                                      calculated as a sum of weights for those bonds in the portfolio that have
+enterprise value including cash (EVIC). We aggregate these figures to
+                                                                                      one of above mentioned labels. Index exposure figures are provided
+portfolio level using a weighted average, multiplying each assessed
+                                                                                      alongside the portfolio exposure figures, highlighting the difference with
+portfolio constituent's footprint by its respective position weight. The
+                                                                                      the index.
+equivalent factors that are used for comparison between the portfolio and
+index (where applicable) represent European averages and are based on                 6. Engagement
+third-party sources combined with own estimates. As such, the figures                 Robeco distinguishes between three types of engagement.
+presented are intended for illustrative purposes and are purely an                    Value Engagement focuses on long-term issues that are financially
+indication. Only holdings mapped as corporates are included in the                    material and/or are causing adverse sustainability impacts. The themes
+figures.                                                                              can be broken into Environmental, Social, Governance, or Voting-related.
+                                                                                      SDG Engagement aims to drive a clear and measurable improvement in a
+S&P Global Market Intelligence data © Trucost 2026. All rights in the
+                                                                                      company’s SDG contribution. Enhanced engagement is triggered by
+Trucost data and reports vest in Trucost and/or its licensors. Neither S&P
+                                                                                      misconduct and focuses on companies severely breaching internationals
+Global Market Intelligence, nor its affiliates, nor its licensors accept any
+                                                                                      standards. The report is based on all companies in the portfolio for which
+liability for any errors, omissions or interruptions in the Trucost data
+                                                                                      engagement activities have taken place during the past 12 months. Note
+and/or reports. No further distribution of the Data and/or Reports is
+                                                                                      that companies may be under engagement in multiple categories
+permitted without S&P Global Market Intelligence's express written
+                                                                                      simultaneously. While the total portfolio exposure excludes double
+consent. Reproduction of any information, data or material, including
+                                                                                      counting, it may not equal the sum of individual category exposures.
+ratings is prohibited. The content is not a recommendation to buy, sell or
+hold such investment or security, nor does it address suitability of an
+investment or security and should not be relied on as investment advice.
+3. Sustainalytics ESG Risk Rating
+The chart displays the portfolio's Sustainalytics ESG Risk Rating. This is
+calculated by multiplying each portfolio component's Sustainalytics ESG
+Risk Rating by its respective portfolio weight. The distribution across
+Sustainalytics ESG Risk levels chart shows the portfolio allocations broken
+into Sustainalytics' five ESG risk levels: negligible (0-10), low (10-20),
+medium (20-30), high (30-40) and severe (40+), providing an overview of
+portfolio exposure to the different ESG risk levels. Only holdings mapped
+as corporates are included in the figures.
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                   Page 5/9
+
+=== pdf p.6 ===
+Factsheet | Figures as of 31 August 2026
+
+Robeco Euro Credit Bonds I EUR
+
+Risk management
+Risk management is fully embedded in the investment process to ensure that positions always meet predefined guidelines.
+Fiscal product treatment
+The fund is established in Luxembourg and is subject to the Luxembourg tax laws and regulations. The fund is not liable to pay any corporation, income,
+dividend or capital gains tax in Luxembourg. The fund is subject to an annual subscription tax ('tax d'abonnement') in Luxembourg, which amounts to 0.01% of
+the net asset value of the fund. This tax is included in the net asset value of the fund. The fund can in principle use the Luxembourg treaty network to partially
+recover any withholding tax on its income.
+Dividend policy
+The fund does not distribute a dividend. The income earned by the fund is reflected in its share price. This means that the fund's total performance is reflected
+in its share price performance.
+Registered in
+Austria, Chile, Finland, France, Germany, Ireland, Italy, Luxembourg, Netherlands, Peru, Spain, Switzerland, United Kingdom
+Currency policy
+All currency risks are hedged.
+Derivative policy
+Robeco Euro Credit Bonds make use of derivatives for hedging purposes as well as for investment purposes. These derivatives are very liquid.
+Bloomberg disclaimer
+Bloomberg or Bloomberg’s licensors own all proprietary rights in the Bloomberg Indices. Neither Bloomberg nor Bloomberg’s licensors approves or endorses
+this material, or guarantees the accuracy or completeness of any information herein, or makes any warranty, express or implied, as to the results to be obtained
+therefrom and, to the maximum extent allowed by law, neither shall have any liability or responsibility for injury or damages arising in connection therewith.
+Sustainalytics disclaimer
+The information, methodologies, data and opinions contained or reflected herein are proprietary of Sustainalytics and/or third parties, intended for internal, non-
+commercial use, and may not be copied, distributed or used in any way, including via citation, unless otherwise explicitly agreed in writing. They are provided for
+informational purposes only and (1) do not constitute investment advice; (2) cannot be interpreted as an offer or indication to buy or sell securities, to select a
+project or make any kind of business transactions; (3) do not represent an assessment of the issuer’s economic performance, financial obligations nor of its
+creditworthiness; (4) are not a substitute for a professional advice; (5) past performance is no guarantee of future results. These are based on information
+made available by third parties, subject to continuous change and therefore are not warranted as to their merchantability, completeness, accuracy or fitness for
+a particular purpose. The information and data are provided “as is” and reflect Sustainalytics’ opinion at the date of their elaboration and publication.
+Sustainalytics nor any of its third-party suppliers accept any liability for damage arising from the use of the information, data or opinions contained herein, in
+any manner whatsoever, except where explicitly required by law. Any reference to third party names is for appropriate acknowledgement of their ownership and
+does not constitute a sponsorship or endorsement by such owner. Insofar as applicable, researched companies referred herein may have a relationship with
+different Sustainalytics’ business units. Sustainalytics has put in place adequate measures to safeguard the objectivity and independence of its opinions. For
+more information, contact compliance@sustainalytics.com.
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                    Page 6/9
+
+=== pdf p.7 ===
+Factsheet | Figures as of 31/08/2026
+
+Robeco Euro Credit Bonds I EUR
+
+Important information – Capital at risk
+Unless stated otherwise, Source: Robeco.
+
+Robeco Institutional Asset Management B.V. has a license as manager of Undertakings for Collective Investment in Transferable Securities (UCITS) and
+Alternative Investment Funds (AIFs) (“Fund(s)”) from the Netherlands Authority for the Financial Markets. This is a marketing communication solely intended
+for professional investors, defined as investors qualifying as professional clients, who have requested to be treated as professional clients or who are
+authorized to receive such information under any applicable laws. Robeco Institutional Asset Management B.V. and/or its related, affiliated and subsidiary
+companies (“Robeco”), will not be liable for any damages arising out of the use of this document. Users of this information who provide investment services in
+the European Union have their own responsibility to assess whether they are allowed to receive the information in accordance with MiFID II regulations. To the
+extent this information qualifies as a reasonable and appropriate minor non-monetary benefit under MiFID II, users that provide investment services in the
+European Union are responsible for complying with applicable recordkeeping and disclosure requirements. The content of this document is based upon sources
+of information believed to be reliable and comes without warranties of any kind. Without further explanation this document cannot be considered complete. Any
+opinions, estimates or forecasts may be changed at any time without prior warning. If in doubt, please seek independent advice. This document is intended to
+provide the professional investor with general information about Robeco’s specific capabilities but has not been prepared by Robeco as investment research
+and does not constitute an investment recommendation or advice to buy, hold or sell certain securities or investment products or to adopt any investment
+strategy or legal, accounting or tax advice. All rights relating to the information in this document are and will remain the property of Robeco. This document
+may not be copied or shared with the public. No part of this document may be reproduced or published in any form or by any means without Robeco's prior
+written permission. Investment involves risks. Before investing, please note the initial capital is not guaranteed. Investors should ensure they fully understand
+the risk associated with any Robeco product or service offered in their country of domicile. Investors should also consider their own investment objective and
+risk tolerance level. Historical returns are provided for illustrative purposes only. The price of units may go down as well as up and past performance is no
+guarantee of future results. If the currency in which the past performance is displayed differs from the currency of the country in which you reside, then you
+should be aware that due to exchange rate fluctuations the performance shown may increase or decrease if converted into your local currency. The
+performance data do not take account of the commissions and costs incurred when trading securities in client portfolios or for the issue and redemption of
+units. Unless otherwise stated, performances are i) net of fees based on transaction prices and ii) with dividends reinvested. Please refer to the prospectus of
+the Funds for further details. Performance is quoted net of investment management fees. The ongoing charges mentioned in this document are the ones stated
+in the Fund's latest annual report at closing date of the last calendar year. This document is not directed to or intended for distribution to or for use by any
+person or entity who is a citizen or resident of or located in any locality, state, country or other jurisdiction where such distribution, document, availability or use
+would be contrary to law or regulation or which would subject any Fund or Robeco Institutional Asset Management B.V. to any registration or licensing
+requirement within such jurisdiction. Any decision to subscribe for interests in a Fund offered in a particular jurisdiction must be made solely on the basis of
+information contained in the prospectus, which information may be different from the information contained in this document. Prospective applicants for
+shares should inform themselves as to legal requirements which may also apply and any applicable exchange control regulations and taxes in the countries of
+their respective citizenship, residence or domicile. The Fund information, if any, contained in this document is qualified in its entirety by reference to the
+prospectus, and this document should, at all times, be read in conjunction with the prospectus. Detailed information on the Fund and associated risks is
+contained in the prospectus. The prospectus and the Key Information Document (PRIIP) for the Robeco Funds can all be obtained free of charge from Robeco’s
+websites.
+Parts of the marketing material may involve the use of AI-assisted tools to support the creation and review of marketing materials. These tools are designed to
+help ensure greater consistency and efficiency. All outcomes are reviewed by human evaluators.
+Additional information for US investorsThis document may be distributed in the US by Robeco Institutional Asset Management US, Inc. (“Robeco US”), an
+investment adviser registered with the US Securities and Exchange Commission (SEC). Such registration should not be interpreted as an endorsement or
+approval of Robeco US by the SEC. Robeco Institutional Asset Management B.V. is considered “participating affiliated” and some of their employees are
+“associated persons” of Robeco US as per relevant SEC no-action guidance. Employees identified as associated persons of Robeco US perform activities
+directly or indirectly related to the investment advisory services provided by Robeco US. In those situations these individuals are deemed to be acting on behalf
+of Robeco US. SEC regulations are applicable only to clients, prospects and investors of Robeco US. Robeco US is wholly owned subsidiary of ORIX Corporation
+Europe N.V. (“ORIX”), a Dutch Investment Management Firm located in Rotterdam, the Netherlands. Robeco US is located at 90 Park Avenue, 21st Floor, New
+York, NY 10016.
+Additional information for US Offshore investors – Reg SThe Robeco Capital Growth Funds have not been registered under the United States Investment
+Company Act of 1940, as amended, nor the United States Securities Act of 1933, as amended. None of the shares may be offered or sold, directly or indirectly in
+the United States or to any US Person. A US Person is defined as (a) any individual who is a citizen or resident of the United States for federal income tax
+purposes; (b) a corporation, partnership or other entity created or organized under the laws of or existing in the United States; (c) an estate or trust the income
+of which is subject to United States federal income tax regardless of whether such income is effectively connected with a United States trade or business. In
+the United States, this material may be distributed only to a person who is a “distributor”, or who is not a “US person”, as defined by Regulation S under the U.S.
+Securities Act of 1933 (as amended).
+Additional information for investors with residence or seat in AustraliaThis document is distributed in Australia by Robeco Hong Kong Limited (“RHK”) (ARBN
+156 512 659). RHK is exempt from the requirement to hold an Australian financial services license under section 911A(2)(ep) of the Corporations Act 2001
+(Cth) in respect of the financial services it provides. RHK may only provide financial services to wholesale clients under the exemption. RHK is regulated by the
+Securities and Futures Commission under the laws of Hong Kong, which may differ from Australian laws. This document is distributed only to “wholesale
+clients” within the meaning of the Corporations Act 2001 (Cth). It is not intended for distribution or dissemination, directly or indirectly, to any other class of
+persons. This document is not intended for public distribution in Australia.
+Additional information for investors with residence or seat in AustriaThis information is solely intended for professional investors or eligible counterparties in
+the meaning of the Austrian Securities Oversight Act.
+Additional information for investors with residence or seat in BrazilThe Fund may not be offered or sold to the public in Brazil. Accordingly, the Fund has not
+been nor will be registered with the Brazilian Securities Commission (CVM), nor has it been submitted to the foregoing agency for approval. Documents relating
+to the Fund, as well as the information contained therein, may not be supplied to the public in Brazil, as the offering of the Fund is not a public offering of
+securities in Brazil, nor may they be used in connection with any offer for subscription or sale of securities to the public in Brazil.
+Additional information for investors with residence or seat in Brunei The Prospectus relates to a private collective investment scheme which is not subject to
+any form of domestic regulations by the Autoriti Monetari Brunei Darussalam (“Authority”). The Prospectus is intended for distribution only to specific classes
+of investors as specified in section 20 of the Securities Market Order, 2013, and must not, therefore, be delivered to, or relied on by, a retail client. The Authority
+is not responsible for reviewing or verifying any prospectus or other documents in connection with this collective investment scheme. The Authority has not
+approved the Prospectus or any other associated documents nor taken any steps to verify the information set out in the Prospectus and has no responsibility
+for it. The units to which the Prospectus relates may be illiquid or subject to restrictions on their resale. Prospective purchasers of the units offered should
+conduct their own due diligence on the units.
+Additional information for investors with residence or seat in Canada No securities commission or similar authority in Canada has reviewed or in any way
+passed upon this document or the merits of the securities described herein, and any representation to the contrary is an offence. Robeco Institutional Asset
+Management B.V. relies on the international dealer and international adviser exemption in Quebec and has appointed McCarthy Tétrault LLP as its agent for
+service in Quebec.
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                       Page 7/9
+
+=== pdf p.8 ===
+Factsheet | Figures as of 31/08/2026
+
+Robeco Euro Credit Bonds I EUR
+Additional information for investors with residence or seat in the Republic of Chile Neither Robeco nor the Funds have been registered with the Comisión para
+el Mercado Financiero pursuant to Law no. 18.045, the Ley de Mercado de Valores and regulations thereunder. This document does not constitute an offer of or
+an invitation to subscribe for or purchase shares of the Funds in the Republic of Chile, other than to the specific person who individually requested this
+information on their own initiative. This may therefore be treated as a “private offering” within the meaning of Article 4 of the Ley de Mercado de Valores (an
+offer that is not addressed to the public at large or to a certain sector or specific group of the public).
+Additional information for investors with residence or seat in Colombia This document does not constitute a public offer in the Republic of Colombia. The
+offer of the fund is addressed to less than one hundred specifically identified investors. The fund may not be promoted or marketed in Colombia or to
+Colombian residents, unless such promotion and marketing is made in compliance with Decree 2555 of 2010 and other applicable rules and regulations related
+to the promotion of foreign funds in Colombia. The distribution of this Prospectus and the offering of Shares may be restricted in certain jurisdictions. The
+information contained in this Prospectus is for general guidance only, and it is the responsibility of any person or persons in possession of this Prospectus and
+wishing to make application for Shares to inform themselves of, and to observe, all applicable laws and regulations of any relevant jurisdiction. Prospective
+applicants for Shares should inform themselves of any applicable legal requirements, exchange control regulations and applicable taxes in the countries of
+their respective citizenship, residence or domicile.
+Additional information for investors with residence or seat in the Dubai International Financial Centre (DIFC), United Arab Emirates This material is
+distributed by Robeco Institutional Asset Management B.V. (DIFC Branch) located at Office 209, Level 2, Gate Village Building 7, Dubai International Financial
+Centre, Dubai, PO Box 482060, UAE. Robeco Institutional Asset Management B.V. (DIFC Branch) is regulated by the Dubai Financial Services Authority (“DFSA”)
+and only deals with Professional Clients or Market Counterparties and does not deal with Retail Clients as defined by the DFSA.
+Additional information for investors with residence or seat in France Robeco Institutional Asset Management B.V. is at liberty to provide services in France.
+Robeco France is a subsidiary of Robeco whose business is based on the promotion and distribution of the group's funds to professional investors in France.
+Additional information for investors with residence or seat in Germany This information is solely intended for professional investors or eligible counterparties
+in the meaning of the German Securities Trading Act.
+Additional information for investors with residence or seat in Hong Kong This document is solely intended for professional investors, which has the meaning
+ascribed to it in the Securities and Futures Ordinance (Cap 571) and its subsidiary legislation of Hong Kong. This document is issued by Robeco Hong Kong
+Limited (“Robeco”), which is regulated by the Hong Kong Securities and Futures Commission (“SFC”). The contents of this document have not been reviewed by
+the SFC. If there is any doubt about any of the contents of this document, independent professional advice should be obtained.
+Additional information for investors with residence or seat in Indonesia The Prospectus does not constitute an offer to sell nor a solicitation to buy securities
+in Indonesia.
+Additional information for investors with residence or seat in Italy This document is considered for use solely by qualified investors and private professional
+clients (as defined in Article 26 (1) (b) and (d) of Consob Regulation No. 16190 dated 29 October 2007). If made available to Distributors and individuals
+authorized by Distributors to conduct promotion and marketing activity, it may only be used for the purpose for which it was conceived. The data and
+information contained in this document may not be used for communications with Supervisory Authorities. This document does not include any information to
+determine, in concrete terms, the investment inclination and, therefore, this document cannot and should not be the basis for making any investment decisions.
+Additional information for investors with residence or seat in Japan This document is considered for use solely by qualified investors and is distributed by
+Robeco Japan Company Limited, registered in Japan as a Financial Instruments Business Operator, [registered No. the Director of Kanto Local Financial Bureau
+(Financial Instruments Business Operator), No.2780, Member of Investment Management Association of Japan].
+Additional information for investors with residence or seat in Liechtenstein This document is exclusively distributed to Liechtenstein-based, duly licensed
+financial intermediaries (such as banks, discretionary portfolio managers, insurance companies, fund of funds) which do not intend to invest on their own
+account into Fund(s) displayed in the document. This material is distributed by Robeco Switzerland Ltd, postal address: Josefstrasse 218, 8005 Zurich,
+Switzerland. LGT Bank Ltd., Herrengasse 12, FL-9490 Vaduz, Liechtenstein acts as the representative and paying agent in Liechtenstein. The prospectus, the
+Key Information Documents (PRIIP), the articles of association, the annual and semi-annual reports of the Fund(s) may be obtained from the representative or
+via the website.
+Additional information for investors with residence or seat in Malaysia Generally, no offer or sale of the Shares is permitted in Malaysia unless where a
+Recognition Exemption or the Prospectus Exemption applies: NO ACTION HAS BEEN, OR WILL BE, TAKEN TO COMPLY WITH MALAYSIAN LAWS FOR MAKING
+AVAILABLE, OFFERING FOR SUBSCRIPTION OR PURCHASE, OR ISSUING ANY INVITATION TO SUBSCRIBE FOR OR PURCHASE OR SALE OF THE SHARES IN
+MALAYSIA OR TO PERSONS IN MALAYSIA AS THE SHARES ARE NOT INTENDED BY THE ISSUER TO BE MADE AVAILABLE, OR MADE THE SUBJECT OF ANY
+OFFER OR INVITATION TO SUBSCRIBE OR PURCHASE, IN MALAYSIA. NEITHER THIS DOCUMENT NOR ANY DOCUMENT OR OTHER MATERIAL IN CONNECTION
+WITH THE SHARES SHOULD BE DISTRIBUTED, CAUSED TO BE DISTRIBUTED OR CIRCULATED IN MALAYSIA. NO PERSON SHOULD MAKE AVAILABLE OR MAKE
+ANY INVITATION OR OFFER OR INVITATION TO SELL OR PURCHASE THE SHARES IN MALAYSIA UNLESS SUCH PERSON TAKES THE NECESSARY ACTION TO
+COMPLY WITH MALAYSIAN LAWS.
+Additional information for investors with residence or seat in Mexico The funds have not been and will not be registered with the National Registry of
+Securities or maintained by the Mexican National Banking and Securities Commission and, as a result, may not be offered or sold publicly in Mexico. Robeco
+and any underwriter or purchaser may offer and sell the funds in Mexico on a private placement basis to Institutional and Accredited Investors, pursuant to
+Article 8 of the Mexican Securities Market Law.
+Additional information for investors with residence or seat in New Zealand In New Zealand, this document is only available to wholesale investors within the
+meaning of clause 3(2) of Schedule 1 of the Financial Markets Conduct Act 2013 (FMCA). This document is not intended for public distribution in New Zealand.
+Additional information for investors with residence or seat in Peru The Superintendencia del Mercado de Valores (SMV) does not exercise any supervision
+over this Fund and therefore the management of it. The information the Fund provides to its investors and the other services it provides to them are the sole
+responsibility of the Administrator. This Prospectus is not for public distribution.
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                 Page 8/9
+
+=== pdf p.9 ===
+Factsheet | Figures as of 31/08/2026
+
+Robeco Euro Credit Bonds I EUR
+Additional information for investors with residence or seat in Singapore This document has not been registered with the Monetary Authority of Singapore
+(“MAS”). Accordingly, this document may not be circulated or distributed directly or indirectly to persons in Singapore other than (i) to an institutional investor
+under Section 304 of the SFA, (ii) to a relevant person pursuant to Section 305(1), or any person pursuant to Section 305(2), and in accordance with the
+conditions specified in Section 305, of the SFA, or (iii) otherwise pursuant to, and in accordance with the conditions of, any other applicable provision of the
+SFA. The contents of this document have not been reviewed by the MAS. Any decision to participate in the Fund should be made only after reviewing the
+sections regarding investment considerations, conflicts of interest, risk factors and the relevant Singapore selling restrictions (as described in the section
+entitled “Important information for Singapore Investors”) contained in the prospectus. Investors should consult their professional adviser if you are in doubt
+about the stringent restrictions applicable to the use of this document, regulatory status of the Fund, applicable regulatory protection, associated risks and
+suitability of the Fund to your objectives. Investors should note that only the Sub-Funds listed in the appendix to the section entitled “Important information for
+Singapore Investors” of the prospectus (“Sub-Funds”) are available to Singapore investors. The Sub-Funds are notified as restricted foreign schemes under the
+Securities and Futures Act, Chapter 289 of Singapore (“SFA”) and invoke the exemptions from compliance with prospectus registration requirements pursuant
+to the exemptions under Section 304 and Section 305 of the SFA. The Sub-Funds are not authorized or recognized by the MAS and shares in the Sub-Funds are
+not allowed to be offered to the retail public in Singapore. The prospectus of the Fund is not a prospectus as defined in the SFA. Accordingly, statutory liability
+under the SFA in relation to the content of prospectuses does not apply. The Sub-Funds may only be promoted exclusively to persons who are sufficiently
+experienced and sophisticated to understand the risks involved in investing in such schemes, and who satisfy certain other criteria provided under Section 304,
+Section 305 or any other applicable provision of the SFA and the subsidiary legislation enacted thereunder. You should consider carefully whether the
+investment is suitable for you. Robeco Singapore Private Limited holds a capital markets services license for fund management issued by the MAS and is
+subject to certain clientele restrictions under such license.
+Additional information for investors with residence or seat in Spain Robeco Institutional Asset Management B.V., Sucursal en España with identification
+number W0032687F and having its registered office in Madrid at Calle Serrano 47-14º, is registered with the Spanish Commercial Registry in Madrid, in volume
+19.957, page 190, section 8, sheet M-351927 and with the National Securities Market Commission (CNMV) in the Official Register of branches of European
+investment services companies, under number 24. The investment funds or SICAV mentioned in this document are regulated by the corresponding authorities
+of their country of origin and are registered in the Special Registry of the CNMV of Foreign Collective Investment Institutions marketed in Spain.
+Additional information for investors with residence or seat in South Africa The information contained in this marketing material was provided by Robeco
+Institutional Asset Management B.V (“Robeco”), a company registered in The Netherlands with registration number 24123167. Robeco is licenced as an
+Authorised Financial Services Provider by the Financial Sector Conduct Authority (FSCA) in South Africa with licence number 47602. The content of this
+marketing material is for information purposes only and are not to be interpreted as advice in terms of the FAIS Act.
+Additional information for investors with residence or seat in South Korea No representation is made with respect to the eligibility of any recipients of the
+document to acquire the Funds therein under the laws of South Korea, including but not limited to the Foreign Exchange Transaction Act and Regulations
+thereunder. The Funds have not been registered under the Financial Investment Services and Capital Markets Act of Korea, and none of the Funds may be
+offered, sold or delivered, or offered or sold to any person for re-offering or resale, directly or indirectly, in South Korea or to any resident of South Korea except
+pursuant to applicable laws and regulations of South Korea.
+Additional information for investors with residence or seat in Switzerland The Fund(s) are domiciled in Luxembourg, the Netherlands or Ireland. This
+document is exclusively distributed in Switzerland to qualified investors as defined in the Swiss Collective Investment Schemes Act (CISA). This material is
+distributed by Robeco Switzerland Ltd, postal address: Josefstrasse 218, 8005 Zurich. ACOLIN Fund Services AG, postal address: Leutschenbachstrasse 50,
+8050 Zürich, acts as the Swiss representative of the Fund(s). UBS Switzerland AG, Bahnhofstrasse 45, 8001 Zurich, postal address: Europastrasse 2, P.O. Box,
+CH-8152 Opfikon, acts as the Swiss paying agent for Fund(s) domiciled in Luxembourg and the Netherlands. For Fund(s) domiciled in Ireland, Banque Cantonale
+Vaudoise, Place St-François 14, CH-1003 Lausanne acts as the Swiss paying agent. The prospectus, the Key Information Documents (PRIIP), the articles of
+association, the annual and semi-annual reports of the Fund(s), as well as the list of the purchases and sales which the Fund(s) has undertaken during the
+financial year, may be obtained, on simple request and free of charge, at the office of the Swiss representative ACOLIN Fund Services AG. The prospectuses are
+also available via the website.
+Additional information for investors with residence or seat in Taiwan The Funds may be made available outside Taiwan for purchase outside Taiwan by
+Taiwan resident investors, but may not be offered or sold in Taiwan. The contents of this document have not been reviewed by any regulatory authority in
+Taiwan. If you are in any doubt about any of the contents of this document, you should obtain independent professional advice.
+Additional information for investors with residence or seat in Thailand The Prospectus has not been approved by the Securities and Exchange Commission
+which takes no responsibility for its contents. No offer to the public to purchase the Shares will be made in Thailand and the Prospectus is intended to be read
+by the addressee only and must not be passed to, issued to, or shown to the public generally.
+Additional information for investors with residence or seat in the United Arab Emirates Some Funds referred to in this marketing material have been registered
+with the UAE Securities and Commodities Authority (“the Authority”). Details of all Registered Funds can be found on the Authority’s website. The Authority
+assumes no liability for the accuracy of the information set out in this material/document, nor for the failure of any persons engaged in the investment Fund in
+performing their duties and responsibilities.
+Additional information for investors with residence or seat in the United Kingdom This is a marketing communication. This information is provided by Robeco
+Institutional Asset Management UK Limited, 30 Fenchurch Street, Part Level 8, London EC3M 3BD registered in England no. 15362605. Robeco Institutional
+Asset Management UK Limited is authorised and regulated by the Financial Conduct Authority (FCA – Reference No: 1007814). It is provided for informational
+purposes only and does not constitute investment advice or an invitation to purchase any security or other investment. Subscriptions will only be received and
+shares issued on the basis of the current Prospectus, relevant Key Investor Information Document (KIID) and other supplementary information for the Fund.
+These can be obtained free of charge from Northern Trust Global Serviced Limited, 50 Bank Street, Canary Wharf, London E14 5NT or from our website
+www.robeco.com. This information is directed at Professional Clients only and is not intended for public use.
+Additional information for investors with residence or seat in Uruguay The sale of the Fund qualifies as a private placement pursuant to section 2 of
+Uruguayan law 18,627. The Fund must not be offered or sold to the public in Uruguay, except under circumstances which do not constitute a public offering or
+distribution under Uruguayan laws and regulations. The Fund is not and will not be registered with the Financial Services Superintendency of the Central Bank of
+Uruguay. The Fund corresponds to investment funds that are not investment funds regulated by Uruguayan law 16,774 dated 27 September 1996, as amended.
+© Q2/2026 Robeco
+
+
+
+
+For more information, legal documents and the prospectus, please visit: www.robeco.com/countries                                                      Page 9/9
+

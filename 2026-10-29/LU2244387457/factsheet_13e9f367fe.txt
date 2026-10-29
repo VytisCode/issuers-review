@@ -1,0 +1,398 @@
+=== pdf p.1 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Thesaurierung                            Marketing-Kommunikation
+
+
+ DASHBOARD PER 30.06.2026
+
+                                                                                Anzahl der Positionen des
+              Anlageklasse                    Offizielle Benchmark                                                   Fondsvolumen (in Mio. EUR)
+                                                                                    Referenzenindex
+
+                                        J.P. Morgan Tilted EMU Government
+                 Renten                                                                       76                                  4.074
+                                              Bond IG 3-5 Year (EUR) RI
+
+             Handelswährung                       Vergleichsindex                       SFDR Artikel                    MSCI ESG Fund Rating
+
+
+
+                     EUR                    JPM EMU 3-5 Years (EUR) RI                        8                                     A
+
+
+ BESCHREIBUNG DES INDEX:
+ Benchmark ist der J.P. Morgan ESG EMU Government Bond IG 3- 5 Year (TR) Index, der von JP Morgan veröffentlicht wurde. Die Zusammensetzung des
+ Index wird monatlich überprüft. Der Index wird täglich bewertet. Der Index zielt darauf ab, die Entwicklung der geeigneten festverzinslichen, auf Euro
+ lautenden inländischen Staatsanleihen abzubilden, die von Ländern der Eurozone mit ausgegebenen Anleihen in Höhe von mindestens 80 Mrd. EUR
+ begeben wurden. Wertpapiere müssen mit Investment Grade bewertet und in den nächsten 3 bis 5 Jahren fällig sein, um für die Auswahl in Frage zu
+ kommen. Der Index wendet eine Umwelt-, Sozial- und Governance-Methodik (ESG) an, um Emittenten, die nach ESG-Kriterien höher eingestuft werden,
+ zu übergewichten und um Emittenten, die niedriger rangieren, zu untergewichten oder zu entfernen. Weitere Informationen zum Index, seiner
+ Zusammensetzung und der Regeln für die Überwachung und periodische Neugewichtung sowie Angaben zur allgemein verwendeten Methodik für alle
+ ESG-Indizes von J.P Morgan können unter www.jpmorgan.com abgerufen werden. Der Vergleichsindex ist der JPM EMU 3-5 Years (EUR) RI
+
+
+ WERTENTWICKLUNG (KUMULIERT ÜBER 5 JAHRE) (EUR)
+
+               105
+
+               100
+
+                95
+      (% )
+
+
+
+
+                90
+
+                85
+                              2022                      2023                     2024                      2025                     2026
+
+ Kumulierte Wertentwicklung per 30.06.2026 (in %)
+                                     Bisheriger     1 Monat    3 Monate     6 Monate        1 Jahr     2 Jahre      3 Jahre       4 Jahre      5 Jahre
+
+     ANTEILSKLASSE                        0,55         0,25         1,38        0,55         1,07         6,30         9,73         5,66         -1,05
+
+     REFERENZINDEX                        0,63         0,26         1,42        0,63         1,22         6,62        10,21         6,26         -0,35
+
+     VERGLEICHSINDEX                      0,64         0,26         1,43        0,64         1,24         6,73        10,36         6,44         -0,20
+
+
+
+
+                                                                                                                                            Seite 1 von 8
+
+=== pdf p.2 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Thesaurierung                                            Marketing-Kommunikation
+
+
+ Wertentwicklung im Kalenderjahr per 30.06.2026 (in %)
+                                             2025         2024         2023          2022         2021         2020         2019          2018         2017          2016
+
+      ANTEILSKLASSE                          2,34          2,28         4,90        -9,80             -             -            -            -            -            -
+
+      REFERENZINDEX                          2,49          2,42         5,07        -9,69             -             -            -            -            -            -
+
+      VERGLEICHSINDEX                        2,54          2,48         5,10        -9,68             -             -            -            -            -            -
+
+ (1) Alle Zahlen zur Wertentwicklung sind netto, nach Abzug von Gebühren (in EUR für UCITS ETF, Thesaurierung). Die Wertentwicklung und die Ergebnisse in der
+ Vergangenheit lassen keine Rückschlüsse auf die künftige Wertentwicklung zu.
+ Quelle: BNP Paribas Asset Management
+ Sofern nicht anders angegeben, beziehen sich alle Daten und Performanceangaben auf dieses Datum.
+ Weitere Informationen insbesondere bezüglich der Risiken des Produktes entnehmen Sie bitte dem Verkaufsprospekt und den KIIDs des Fonds.
+
+
+
+
+                                                                                                                                                                Seite 2 von 8
+
+=== pdf p.3 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Thesaurierung                                           Marketing-Kommunikation
+
+
+ BESTÄNDE BENCHMARK: (in %)
+
+                                                                         Gegen                                                                                Gegen
+                                                                Vergleichsindex                                                                      Vergleichsindex
+ Nach Währung (%)                                                                      Nach Land (%)
+  EUR                                                100,00                 - 0,00     Italien                                              23,07                - 2,05
+  Sonstige                                                  -               - 0,00     Frankreich                                           25,87                + 1,22
+ Gesamt                                              100,00                            Deutschland                                          22,37                + 1,14
+                                                                                       Spanien                                              11,52                - 1,02
+                                                                                       Österreich                                            3,72                + 0,18
+                                                                                       Niederlande                                           3,65                + 0,17
+                                                                                       Belgien                                               3,50                + 0,17
+                                                                                       Finnland                                              1,72                + 0,08
+                                                                                       Republik Irland                                       1,68                + 0,14
+                                                                                       Portugal                                              1,35                + 0,06
+                                                                                       Cash                                                      -               - 0,00
+                                                                                       Sonstige                                              1,55                - 0,08
+                                                                                       Gesamt                                             100,00
+
+
+
+
+                                                                         Gegen                                                                                Gegen
+                                                                Vergleichsindex                                                                      Vergleichsindex
+ by Rating (%)                                                                         Nach Fälligkeit (%)
+  AAA                                                  26,02               + 1,31      1 - 3 Jahre                                               -               - 0,00
+  AA+                                                   5,44               + 0,26      3 - 5 Jahre                                          99,92                - 0,00
+  AA                                                    1,68               + 0,14      5 - 7 Jahre                                           0,08                + 0,00
+  A+                                                   29,76               + 1,41      Sonstige                                                  -               - 0,00
+  A                                                    12,87                - 0,96     Cash                                                      -               - 0,00
+  A-                                                    0,51                - 0,05     Gesamt                                             100,00
+  BBB+                                                 23,07                - 2,05
+  BBB                                                   0,65                - 0,06
+  Sonstige                                                  -               - 0,00
+  Cash                                                      -               - 0,00
+ Gesamt                                              100,00
+
+ Datenquelle: BNP Paribas Asset Management, per 30.06.2026.
+ Die hier genannten Unternehmen sind lediglich zu Informationszwecken genannt. Diese Liste ist weder als eine Aufforderung, die entsprechenden Wertpapiere zu erwerben,
+ noch als Anlageempfehlung oder –beratung zu verstehen.
+ Die in den Factsheets gezeigten Daten basieren auf offiziellen Buchhaltungsdaten und basieren auf dem Handelsdatum.
+
+
+
+
+                                                                                                                                                                   Seite 3 von 8
+
+=== pdf p.4 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Thesaurierung                                                Marketing-Kommunikation
+
+
+                                                                                                                                           ESG Global Score
+                                                                                                                                           56,96
+ BNPPAM NACHHALTIGE INDIKATOREN
+
+ ESG-BEITRÄGE
+                                                                               Umweltbeitrag                              Sozialbeitrag              Governance-Beitrag
+ Portfolio                                                                                 4,46                                     3,72                             -1,21
+
+
+
+ PORTFOLIOABDECKUNG
+                                                                      Abdeckung
+ ESG-Kriterien                                                           100,00 %
+
+
+
+ MSCI NACHHALTIGKEITSMERKMALE (WIE AUF DER MSCI-WEBSITE AM VORHERGEHENDEN MONATSENDE VERFÜGBAR)
+
+ MSCI ESG Fund Rating                                                         A
+ MSCI Weighted Average Carbon Intensity (Tonnen CO2e/$ M Umsatz) -                            MSCI Weighted Average Carbon Intensity Coverage.                  0%
+ MSCI ESG Quality Score (0-10)                                                6.28
+
+
+ Gesamte ESG-Score-Abdeckung
+ Die interne ESG-Bewertungsmethodik von BNPP AM bestimmt die ESG-Punktzahl der Emittenten, indem sie Leistung im Vergleich zu Wettbewerbern in einer begrenzten
+ Anzahl von ESG-Schlüsselfragen in Bezug auf die Umwelt (z. B. Klimawandel), soziale Fragen (z. B. Personalmanagement) und Governance (z. B. Unabhängigkeit und
+ Kompetenz der Direktoren) bewertet. Wenn die Verpflichtungen und Praktiken des Emittenten in Bezug auf eine Säule der Bewertung (E, S oder G) besser sind als die
+ Bewertung von Wettbewerbern, erhält er einen positiven "Beitrag" für diese Säule. Jedem Emittenten wird ein Schlusswert von 1 bis 99 zugewiesen, der sich aus dem
+ Ergebnis von 50 als Referenz zuzüglich der Summe der Beiträge aus jeder der drei Säulen ergibt.
+
+ ESG-Beiträge
+ Die ESG-Beiträge werden von den ESG-Analysten von BNP Paribas Asset Management auf Basis detaillierter Kriterien festgelegt, um die Verpflichtungen, Leistung und
+ Praktiken der Unternehmen in den Bereichen Umwelt, Soziales und Governance systematisch zu bewerten. Jeder der oben genannten Beiträge auf Portfolioebene ist der
+ gewichtete Durchschnitt der Beiträge der einzelnen Portfoliobestände.Der Umweltbeitrag (E) berücksichtigt unter anderem den Klimawandel, das Umweltrisikomanagement
+ und die Nutzung natürlicher Ressourcen. Der Sozialbeitrag (S) berücksichtigt unter anderem das Humankapitalmanagement, die Qualität des sozialen Dialogs und den
+ Respekt vor der Vielfalt.Der Governance-Beitrag (G) berücksichtigt unter anderem die Transparenz der Vergütung von Führungskräften, die Bekämpfung der Korruption und
+ die Gleichstellung der Geschlechter.
+
+ Portfolioabdeckung
+ The coverage represents, within an Index replicated by the fund, the percentage of securities that have an ESG score or carbon footprint using BNPP AM’s
+ internalmethodology which can be lower than the full coverage offered per the index provider
+
+ MSCI ESG Fund Rating
+ Das MSCI ESG Rating wird als direkte Abbildung der ESG Quality Scores auf die Ratingkategorien der Buchstaben berechnet (z. B. AAA = 8.6-10). Die ESG-Ratings reichen von
+ führend (AAA: AA), durchschnittlich (A, BBB, BB) bis hinunter (B, CCC).
+
+ MSCI Weighted Average Carbon Intensity
+ Er misst das Engagement eines Fonds in kohlenstoffintensiven Unternehmen. Diese Zahl entspricht den geschätzten Treibhausgasemissionen pro Umsatz von 1 Millionen $ in
+ den Fondsbeständen. Dies ermöglicht Vergleiche zwischen Fonds unterschiedlicher Größe.
+
+ MSCI Weighted Average Carbon Intensity Coverage.
+ Es ist der Prozentsatz der Fondsbestände, für die MSCI Carbon Intensity Daten verfügbar sind. Die Kennzahl MSCI Weighted Average Carbon Intensity wird für Fonds mit
+ beliebiger Deckung angezeigt. Fonds mit geringer Deckung können die Kohlenstoffeigenschaften des Fonds aufgrund der fehlenden Deckung möglicherweise nicht vollständig
+ darstellen.
+
+ MSCI ESG Quality Score (0-10)
+ Der MSCI ESG Quality Score (0-10) für Fonds wird anhand des gewichteten Durchschnitts der ESG-Scores der Fondsbestände berechnet. Der Score berücksichtigt auch den
+ ESG-Ratingtrend der Bestände und das Fondsengagement in Positionen der Kategorie "Laggard". MSCI-Kurse zugrunde liegender Bestände entsprechend ihrer Exposition
+ gegenüber branchenspezifischen ESG-Risiken und ihrer Fähigkeit, diese Risiken im Vergleich zu Wettbewerbern zu steuern.
+
+ Weitere Informationen zu ESG-Indikatoren finden Sie auf der Webseite von                   BNPP       AM:    https://www.bnpparibas-am.com/en/esg-scoring-framework/     &
+ https://www.bnpparibas-am.com/en/measuring-carbon-footprints/
+ Ausführlichere    Informationen     zu       unseren     Nachhaltigkeitsdokumenten           finden         Sie    auf       der      Webseite      von      BNPP      AM:
+ https://www.bnpparibas-am.com/en/sustainability-documents/
+
+
+
+
+                                                                                                                                                               Seite 4 von 8
+
+=== pdf p.5 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Thesaurierung   Marketing-Kommunikation
+
+
+
+
+ Label(s)
+                        Der Fonds wurde von der Belgian Central
+                        Labeling Agency mit demTowards
+                        Sustainability-Label ausgezeichnet.
+                        Das „Towards Sustainability“-Label hilft
+                        allen Arten von Kleinanlegern und
+                        institutionellen Anlegern, die nach
+                        nachhaltigeren Spar- und Anlagelösungen
+                        suchen. Dadurch werden Finanzinstitute
+                        dazu veranlasst, ein vielfältiges und
+                        hochwertiges Spektrum an nachhaltigen
+                        Produkte anzubieten.
+                        Weitere Informationen zum Label finden Sie
+                        auf der Website:
+                        www.towardssustainability.be
+
+
+
+
+                                                                                                                 Seite 5 von 8
+
+=== pdf p.6 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Thesaurierung                                   Marketing-Kommunikation
+
+
+ RISIKOSKALA
+
+ Risikoindikator                                                                        Risikoanalyse (1 Jahr, wöchentlich)                         Fonds
+                                                                                        Volatilität                                                   2,15
+                                                                                        Ex-post Tracking Error                                        0,01
+                                                                                        Tracking Error Offizieller                                    0,02
+                                                                                        Benchmark/Vergleichsindex
+ Geringeres Risiko                                                     Höheres Risiko   Modifizierte Duration (30.06.2026)                            3,74
+ Der Risikoindikator beruht auf der Annahme, dass Sie das Produkt 3 Jahre halten.
+                                                                                        YTM (Verfallrendite) (30.06.2026)                             2,76
+ Sie können Ihr Produkt möglicherweise nicht ohne Weiteres verkaufen oder Sie
+ müssen es unter Umständen zu einem Preis verkaufen, der sich erheblich auf Ihren       Durchschnittlicher Kupon                                      1,99
+ Erlös auswirkt.
+                                                                                        Duration                                                      3,79
+
+
+
+ Der Gesamtrisikoindikator dient als Anhaltspunkt für das mit diesem Produkt verbundene Risiko im Vergleich zu anderen Produkten. Er zeigt, wie hoch
+ die Wahrscheinlichkeit ist, dass Sie bei diesem Produkt Geld verlieren, aufgrund von Marktbewegungen oder weil wir nicht in der Lage sind, Sie
+ auszubezahlen.
+ Wir haben dieses Produkt auf einer Skala von 1 bis 7 in die Risikoklasse 2 eingestuft, wobei 2 einer niedrigen Risikoklasse entspricht.
+ Die Risikokategorie ergibt sich aus der überwiegenden Anlage in Zinsinstrumenten. Der Anleger wird darauf aufmerksam gemacht, dass eine
+ Zinserhöhung einen Rückgang des Wertes der Anlagen in Anleihen und Schuldtiteln sowie Festzinsinstrumenten im Allgemeinen zur Folge hat.
+
+
+
+
+ Sonstige, für das Produkt wesentliche Risiken, die nicht im Gesamtrisikoindikator enthalten sind:
+                  Risiko der Herabstufung des Ratings eines Emittenten oder seines Zahlungsausfalls, was zu einem sinkenden Wert der mit ihm
+     verbundenen Finanzinstrumente führen kann.
+                            Bei einer Betriebsstörung der Verwaltungsgesellschaft, eines ihrer Vertreter oder der Verwahrstelle können verschiedene
+     Störungen für die Anleger auftreten (verzögerte Zahlung, Lieferung usw.).
+ Weitere Einzelheiten zu den Risiken finden Sie im Verkaufsprospekt.
+ Dieses Produkt beinhaltet keinen Schutz vor künftigen Marktentwicklungen, sodass Sie das angelegte Kapital ganz oder teilweise verlieren könnten.
+
+
+
+
+ ÜBERSICHT
+  Gebühren                                                                              Wertpapierkennnummern
+  Maximale Zeichnungsgebühr                                                   3,00%     ISIN-Code                                            LU2244387457
+  Laufende Kosten (31.12.25)                                                  0,15%     Bloomberg Code                                            GEMU FP
+  Max. Verwaltungsgebühr                                                      0,03%     WKN-Code                                                   A2QMK2
+ Indexdaten am 30.06.2026                                                               Notierung                        Bloomberg Code        Reuters Code
+ Name                             J.P. Morgan Tilted EMU Government Bond IG             iNAV                                     IGEMU       IGEMUINAV.PA
+                                                            3-5 Year (EUR) RI
+                                                                                        Euronext Paris                         GEMU FP                 N/A
+                                                                                        Swiss Exchange                        EMUGB SE                 N/A
+                                                                                        Borsa Italiana                        GEMU IM                  N/A
+
+                                                                                        Kennzahlen
+                                                                                        NIW                                                            9,86
+                                                                                        Fondsvolumen (in Mio. Euro)                                4.074,36
+
+ Fondsdaten
+ Rechtsform                                                 Teilfonds der SICAV BNP PARIBAS EASY nach Luxemburger Recht
+ Empfohlener Anlagehorizont (Jahre)                         3 Jahre
+ Referenzindex                                              J.P. Morgan Tilted EMU Government Bond IG 3-5 Year (EUR) RI
+ Domizilierung                                              Luxemburg
+ Auflegungsdatum                                            21.01.2021
+
+                                                                                                                                                 Seite 6 von 8
+
+=== pdf p.7 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Thesaurierung       Marketing-Kommunikation
+
+ Fondsdaten
+ Fondsmanager                                Loic GUYOT
+ Verwaltungsgesellschaft                     BNP PARIBAS ASSET MANAGEMENT Luxembourg
+ Ausgelagerte Verwaltung                     BNP PARIBAS ASSET MANAGEMENT Europe
+ Depotbank                                   BNP PARIBAS, Luxembourg Branch
+ Währung                                     EUR
+ Auftragsausführung                          NIW + 1
+ EU-SFDR Artikel                             Artikel 8 – Förderung von Umwelt- und Sozialkriterien
+
+
+
+
+                                                                                                                     Seite 7 von 8
+
+=== pdf p.8 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Thesaurierung                              Marketing-Kommunikation
+
+
+ GLOSSAR
+ Ex-post Tracking Error
+ Der Tracking Error erfasst die relative Volatilität der Rendite eines Portfolios gegenüber seinem Referenzindex.
+ Volatilität
+ Die Volatilität eines Vermögenswerts ist die Standardabweichung seiner Rendite. Da sie die Streuung misst, bewertet sie die Schwankungen der
+ Wertpapierkurse, was häufig mit deren Risiko gleichgesetzt wird. Die Volatilität kann ex-post (rückwirkend) berechnet oder ex-ante (antizipativ)
+ geschätzt werden.
+ Das Glossar zu den hier genannten Finanzbegriffen finden Sie unter http://www.bnpparibas-am.com
+
+
+ DISCLAIMER
+
+ BNP Paribas Asset Management Europe, die „Verwaltungsgesellschaft“, ist eine vereinfachte Aktiengesellschaft französischen Rechts mit
+ Gesellschaftssitz in: 1 boulevard Haussmann, 75009 Paris, France, RCS Paris 319 378 832 und ist bei der französischen Aufsichtsbehörde “Autorité des
+ marchés financiers” unter der Nummer GP 96002 und der Website www.bnpparibas-am.com registriert.
+ Dieses Material wurde von der Verwaltungsgesellschaft erstellt und herausgegeben.
+
+ Dieses Material wurde ausschließlich zu Informationszwecken erstellt und ist:
+ 1. weder ein Angebot zum Kauf oder Verkauf noch eine Empfehlung zum Kauf oder Verkauf. Ferner ist es nicht die Grundlage oder eine Verbindlichkeit
+ im Hinblick auf Vertragsverhältnisse oder irgendwelcher Zusagen;
+ 2. noch eine Anlageberatung.
+ Dieses Dokument bezieht sich auf ein oder mehrere Finanzinstrumente, die in ihrem Gründungsland zugelassen und reguliert sind
+ Es wurden keinerlei Handlungen vorgenommen, die das (öffentliche) Anbieten der Finanzinstrumente in anderen Ländern als denjenigen, welche im
+ jeweils aktuellsten Verkaufsprospekt und den Wesentlichen Anlegerinformationen (WAI) des jeweiligen Finanzinstrumentes angegeben sind,
+ ermöglichen würden und wo derartige Handlungen erforderlich wären, insbesondere in den USA gegenüber US Personen (gemäß der Definition der
+ Regulation S des United States Securities Act von 1933).
+ Vor jeder Zeichnung in einem Land, in dem die Finanzinstrumente registriert sind, sollten Investoren prüfen, ob es im Hinblick auf die Zeichnung, den
+ Kauf, den Besitz oder den Verkauf der Finanzinstrumente rechtliche Einschränkungen oder Beschränkungen gibt.
+ Investoren, die eine Zeichnung in Erwägung ziehen, sollten den jeweils aktuellsten Verkaufsprospekt und die Wesentlichen Anlegerinformationen (WAI)
+ sorgfältig lesen und die jeweils aktuellsten Halbjahres- bzw. Jahresberichte des Finanzinstrumentes lesen. Diese Unterlagen stehen auf der
+ Internetseite zur Verfügung.
+ Diese Dokumente sind in der Sprache des Landes, in dem der OGAW/Finanzinstrument zum Vertrieb zugelassen ist, und/oder gegebenenfalls in
+ englischer Sprache auf der folgenden Website unter der Rubrik "our funds": https://www.bnpparibas-am.com/
+
+ Meinungsäußerungen, welche in diesem Material enthalten sind, stellen eine Beurteilung der Verwaltungsgesellschaft zum angegebenen Zeitpunkt dar
+ und können sich ohne weitere Mitteilung ändern. Die Verwaltungsgesellschaft ist nicht verpflichtet, die Informationen oder Meinungen, die in diesem
+ Material enthalten sind, zu aktualisieren oder abzuändern. Investoren sollten ihre eigenen Rechts- oder Steuerberater konsultieren, um vor einer
+ Investition in Finanzinstrumente den entsprechenden rechtlichen, buchhalterischen, sitzabhängigen und steuerlichen Rat zu erhalten, um sie in die
+ Lage zu versetzen, eine unabhängige Prüfung der Geeignetheit und etwaiger Konsequenzen einer Investition, sofern zulässig, vorzunehmen. Bitte
+ beachten Sie, dass sich die verschiedenen Arten von Investments, sofern in diesem Material darauf Bezug genommen wird, hinsichtlich der
+ Risikoklassen unterscheiden und es kann nicht zugesichert werden, dass eine bestimmte Investition geeignet, angemessen oder vorteilhaft für das
+ Portfolio eines Investors ist.
+
+ Angesichts wirtschaftlicher Risiken sowie Marktrisiken kann nicht angenommen werden, dass die Finanzinstrumente ihre Anlageziele erreichen. Erträge
+ können, unter anderem, von der Anlagestrategie oder den – zielen des (der) Finanzinstrumente(s), von wesentlichen Markt- und
+ Wirtschaftskonditionen, einschließlich Zinsschwankungen, beeinflusst werden.
+ Die verschiedenen Strategien, die auf Finanzinstrumente angewendet werden, können wesentliche Auswirkungen auf die in diesem Material
+ dargestellten Ergebnisse haben. Ergebnisse der Vergangenheit sind kein Hinweis für künftige Erträge und der Wert einer Investition in ein
+ Finanzinstrument kann sowohl fallen als auch steigen. Investoren erlangen möglicherweise nicht ihren ursprünglich investierten Betrag zurück.
+
+ Die Daten zur Wertentwicklung, sofern angegeben, berücksichtigen weder Vergütungen, noch Kosten, welche beim Kauf oder Verkauf anfallen, noch
+ Steuern.
+
+ Sämtliche Informationen, auf welche in diesem Dokument Bezug genommen wird, werden auf www.bnpparibas-am.com vorgehalten. BNP Paribas Asset
+ Management Europe kann beschließen, den Vertrieb von Finanzinstrumenten in den von den geltenden Vorschriften genannten Fällen einzustellen.
+ "Der nachhaltige Investor für eine Welt im Wandel" spiegelt das Ziel von BNP Paribas Asset Management Europe wider, Nachhaltigkeit in den Rahmen
+ ihrer Geschäftstätigkeit einzubinden. Dabei erfüllen nicht alle Produkte, die von BNP Paribas Asset Management verwaltet werden, die Anforderungen
+ von Artikel 8 (einen Mindestanteil an nachhaltigen Investments) oder von Artikel 9 der Europäischen Verordnung 2019/2088 über die Offenlegung von
+ Informationen zur Nachhaltigkeit im Finanzdienstleistungssektor (SFDR). Weitere Informationen finden Sie unter dem Link
+ www.bnpparibas-am.com/en/sustainability.
+                           Copyright © 2024 Morningstar, Inc. Alle Rechte vorbehalten. Die Anzahl der Sterne des Gesamtratings der einzelnen Fonds
+ wird auf der Basis des gewichteten Durchschnitts der für die drei-, fünf- und zehnjährigen Laufzeiten vergebenen Sterne ermittelt. Die hier enthaltenen
+ Informationen: (1) sind Eigentum von Morningstar und/oder seiner Content Provider; (2) dürfen nicht kopiert oder verbreitet werden; und (3) für ihre
+ Richtigkeit, Vollständigkeit und Zeitnähe wird nicht gehaftet. Weder Morningstar noch seine Content Provider haften für Schäden oder Verluste, die
+ durch die Verwendung dieser Informationen entstehen. Die vergangene Performance ist keine Garantie für die zukünftige Wertentwicklung.
+
+
+
+
+                                                                                                                                              Seite 8 von 8
+

@@ -1,0 +1,289 @@
+=== pdf p.1 ===
+Monthly report 30.6.2026
+
+
+Evli Short Corporate Bond B
+Fixed income fund that invests in short-maturity corporate bonds in a diversiﬁed manner.
+
+
+
+FUND MANAGER'S COMMENT                                                                                                                                                                BASIC INFORMATION
+
+                           The first half of the year was defined by the war of the                                                                                                      Fund Manager                                          Juhamatti Pukka
+                           United States and Israel against Iran. Intended as a                                                                                                          Benchmark                                             ICE BofA 1-3 Year Euro
+                           short operation, it dragged on and soon led to the                                                                                                                                                                  Corporate Index
+                           closure of the Strait of Hormuz, vital to global energy                                                                                                       ISIN                                                  FI0008800511
+                           flows. As oil prices rose, rate-cut expectations turned into                                                                                                  CNMV Registry Number                                  1463
+                           rate-hike expectations, and in June the ECB raised its                                                                                                        Fund Starting Date                                    25.9.1997
+                           key rate by 25 basis points (bps) for the first time since                                                                                                    Current Strategy Starting Date                        1.6.2012
+                           2023. The German yield curve rose especially at the                                                                                                           Morningstar Fund CategoryTM                           EUR Corporate Bond -
+                           short end: the 2-year +40 bps and the 5-year +15 bps.                                                                                                                                                               Short Term
+                           Investment grade spreads ended at the level seen at the                                                                                                       Morningstar RatingTM
+start of the year, having been 20 bps wider at their worst, while high yield tightened
+                                                                                                                                                                                         SFDR                                                  Article 8
+by 6 bps.
+                                                                                                                                                                                         Responsibility Score                                  A
+The fund returned 1.16% (B series) during H1 (benchmark 0.87%). The most                                                                                                                 Carbon Footprint (t CO2e/$M sales)                    102
+positive attribution came from successful selection in financial services, airlines                                                                                                      Subscription Fee, %                                   -
+and services. Negative attribution arose from an overweight and selection in real                                                                                                        Redemption Fee, %                                     -
+estate. The most significant allocation changes were increased weights in                                                                                                                Management and Custody Fee p.a., %                    0.55
+automotive (+2.9%) and technology (+2%), along with a reduced weight in short-                                                                                                           Performance Fee, %                                    -
+dated bank bonds (-2.2%), as market volatility offered opportunities in higher-beta                                                                                                      UCITS                                                 Yes
+sectors.
+
+The outlook for the second half is attractive for short-dated corporate bonds, as
+the ceasefire has brought oil prices back to their pre-war level and the still clearly
+elevated short end of the curve offers ample return potential relative to longer
+maturities.
+
+
+PERFORMANCE 10 YEARS                                                                                                                                                                  RISK AND REWARD PROFILE
+
+                                                                                                                                                                                      Lower risk                                                                       Higher risk
+     %                                                                                                       30.06.2016 – 30.06.2026                                                  Typically lower rewards                                            Typically higher rewards
+   20
+
+   15
+                                                                                                                                                                                          1             2             3             4             5             6             7
+   10
+                                                                                                                                                                                      Read more about the fund risks and calculating the risk category
+     5                                                                                                                                                                                from the Key Investor Document (KID).
+
+     0
+
+    -5
+                                                                                                                                                                                      RECOMMENDED INVESTMENT HORIZON
+                 2017          2018          2019          2020          2021          2022         2023          2024          2025          2026
+                         Fund                      Index                                                                                                                                 at least 2 years
+
+               Performance presented net of fees in euros. Except the funds whose base currency is the
+               Swedish krona, for which performance is presented net of fees in SEK. Past performance is no
+               guarantee of future returns.
+
+
+
+PERFORMANCE, %                                                                                                                                                                        KEY FIGURES, 12 MONTHS
+
+                                                                                                 Fund               Benchmark                   Difference                                                                                  Fund                   Benchmark
+Year-to-Date                                                                                       1.14                          0.87                      0.27                       NAV per B Unit, EUR                                   33.555                                  -
+1 Month                                                                                            0.39                          0.29                      0.10                       Fund Size, EUR million                              2,473.47                                  -
+3 Months                                                                                           2.07                          1.38                      0.70                       Volatility, %                                           1.50                               1.11
+6 Months                                                                                           1.14                          0.87                      0.27                       Sharpe Ratio                                            0.58                              -0.02
+1 Year                                                                                             2.90                          2.01                      0.89                       Tracking Error, %                                       0.54                                  -
+3 Years, annualized return                                                                         4.94                          3.76                      1.19                       Information Ratio                                       1.63                                  -
+5 Years, annualized return                                                                         2.13                          2.35                     -0.22                       R2                                                      0.92                                  -
+Since Current Strategy Launch (1.6.2012)                                                          33.53                         11.10                     22.43                       Beta                                                    1.29                               1.00
+Since Current Strategy Launch, annualized return                                                   2.07                          0.75                      1.32                       Alpha, %                                                0.89                                  -
+Since Launch (25.9.1997)                                                                          99.51                         81.38                     18.13                       TER, %                                                  0.55                                  -
+Since Launch, annualized return                                                                    2.43                          2.09                      0.34                       Portfolio Turnover                                      0.10                                  -
+2025                                                                                               3.80                          3.20                      0.61                       Modified Duration                                       2.14                               1.83
+2024                                                                                               5.47                          5.34                      0.13                       Yield (YTM), %                                          3.95                               3.26
+2023                                                                                               7.44                          3.04                      4.40                       YTW, %                                                  3.84                               3.07
+2022                                                                                              -6.31                         -0.33                     -5.98                       OAS                                                      114                                 55
+                                                                                                                                                                                      Avg. Rating                                            BBB-                                  A-
+
+ If an investor wishes to give feedback about the fund or receive more information, the investor may contact Evli at: Evli Plc, Investor Service, PO Box 1081, FI-00101 or fundinfo@evli.com, or may contact the local distributor of the fund which has sold the fund to the investor.
+ Investors may also send a message via our website: www.evli.com/en/contact-us. Information on how Evli handles client feedback is available at: www.evli.com/en/client-information.
+
+This document is a monthly factsheet and for illustrative purposes only. The information provided is not intended as investment advice or recommendation. Past performance is no guarantee of future returns. The value of the investment may rise or fall and the investors may not
+get back the full amount invested. Investors should read the Key Investor Document (KID), Fund Rules and Fund Prospectus before any subscription. Each of these documents is available in English at www.evli.com free of charge.
+Source: MSCI
+
+
+Evli Fund Management Company Ltd. | Aleksanterinkatu 19, P.O. BOX 1081, FI-00101 Helsinki, Finland | evli.com
+
+=== pdf p.2 ===
+Evli Short Corporate Bond B
+
+RESPONSIBILITY SCORES
+The Fund's responsibility scores are an assessment of the Fund’s holdings from a responsibility perspective. The Fund's rating scale from best to worst is AAA, AA, A,
+BBB, BB, B and CCC. The ESG ratings distribution of the Fund’s holdings are based on MSCI’s analysis. MSCI is an independent ESG research provider offering a
+comprehensive global database.
+
+ Responsibility Score                            A                               Excellent (AAA)
+                                                                                                               ESG means factors related to Environmental, Social and Governance issues.
+                                                                                 Very Good (AA)
+ Environment                                     A                                                             ESG Rating: companies are analysed and measured by how well they manage key risks and
+                                                                                        Good (A)               opportunities arising from ESG factors. The assessment is done within the industry.
+ Social                                        BBB                                Average (BBB)
+                                                                                                               Responsibility Score: based on MSCI's methodology and taking into account the market value-
+                                                                                Satisfactory (BB)              weighted average of the fund's individual companies' ESG ratings.
+ Governance                                      A
+                                                                                        Weak (B)
+ Coverage of the Analysis (%)                    74                             Very Weak (CCC)
+
+
+
+CARBON FOOTPRINT
+Evli uses weighted average carbon intensity to measure the carbon footprint according to the recommendations of the Task Force on Climate-related Financial
+Disclosures (TCFD). According to MSCI’s analysis, the weighted average carbon intensity is categorized as following Very Low (0 to <15), Low (15 to <70), Moderate
+(70 to <250), High (250 to <525), and Very High (>=525).
+
+
+ Carbon Footprint                               102                                                        Read more about Fund’s responsibility from its ESG-report
+                                          (t CO2e/$M sales)
+
+
+
+
+PORTFOLIO STRUCTURE
+
+   Weight
+   Change 3 months
+                                            Sectors                                                                                                 Issuers by country
+ Banking                    -1.55%                                                           13.73%         Finland                1.30%                                                        19.38%
+ Real Estate                    -0.65%                                                12.01%                Sweden              -0.34%                                                       17.83%
+ Capital Goods                   -0.27%                                             11.13%                  Germany            -0.39%                                               14.11%
+ Automotive                       0.30%                                    8.03%                            France           -1.19%                                      9.64%
+ Services                        -0.09%                                 6.82%                               United States      -0.43%                           6.36%
+ Transportation                   0.00%                                 6.76%                               Italy                 -0.15%                       5.90%
+ Telecommunications              -0.21%                                 6.57%                               Denmark                0.26%                      5.22%
+ Financial Services               0.11%                               6.20%                                 Other                  0.65%                                                         19.84%
+ Basic Industry                   0.31%                         4.66%                                       Cash                   0.30%             1.71%
+ Technology & Electronics         1.25%                         4.57%
+ Utility                         -0.02%                         4.38%
+                                                                                                                                                             Ratings
+ Leisure                          0.44%                       3.50%
+                                                                                                           AA               0.38%           1.75%
+ Healthcare                       0.10%                   3.23%
+                                                                                                           A             -1.15%                            10.36%
+ Insurance                        0.04%               1.87%
+                                                                                                           BBB            -1.03%                                                                 39.15%
+ Media                            0.09%               1.80%
+                                                                                                           BB             -0.50%                                                 25.76%
+ Consumer Goods                  -0.18%               1.67%
+                                                                                                           B                0.99%                  4.45%
+ Retail                           0.01%            1.37%
+                                                                                                           CCC              0.03%          0.43%
+ Cash                             0.30%               1.71%
+                                                                                                           Non Rated        0.99%                                   16.38%
+                                                                                                           Cash             0.30%           1.71%
+
+
+
+
+10 LARGEST INVESTMENTS                                                                                     10 LARGEST ISSUERS
+                                                                                                      %                                                                                                   %
+Ferrari Nv 21.5.2030 3.625% At Maturity Fixed                                                       1.23   FINNAIR OYJ                                                                                   2.07
+Kesko Oyj 2.2.2030 3.5% Callable Fixed                                                              1.19   Banco Santander SA                                                                            1.81
+Finnair Plc 24.5.2029 4.75% Callable Fixed                                                          1.17   METSO OUTOTEC OYJ                                                                             1.77
+Eqt 6.4.2028 2.375% Callable Fixed                                                                  1.15   TUI Cruises GmbH                                                                              1.70
+Tui Cruises Gmbh 15.5.2030 5% Callable Fixed                                                        1.07   TDC Net A/S                                                                                   1.62
+Heimstaden Bosta 5.11.2029 3.875% Callable Fixed                                                    1.00   Ford Motor Credit Co LLC                                                                      1.56
+Carnival Corp 15.1.2030 5.75% Callable Fixed                                                        0.97   Schaeffler AG                                                                                 1.55
+Ellevio Ab 20.11.2028 3.768% At Maturity Fixed                                                      0.96   Q-Park Holding I BV                                                                           1.54
+Metso Outotec 7.12.2027 4.875% Callable Fixed                                                       0.95   ZF Friedrichshafen AG                                                                         1.47
+Sig Combibloc Pu 19.3.2030 3.75% Callable Fixed                                                     0.94   HSBC Holdings PLC                                                                             1.44
+
+
+
+Source: MSCI
+
+
+Evli Fund Management Company Ltd. | Aleksanterinkatu 19, P.O. BOX 1081, FI-00101 Helsinki, Finland | evli.com
+
+=== pdf p.3 ===
+Evli Short Corporate Bond B
+
+SHARE CLASS INFORMATION
+Share Class                                                                         A                           B                            IB                         IB2                          QIA                      BSEK                            BFR                          IBFR
+Launch Date                                                              4.12.2000                   25.9.1997                     16.1.2017                    13.8.2025                      9.4.2025                  31.10.2012                      4.7.2022                     4.7.2022
+Currency                                                                      EUR                         EUR                           EUR                          EUR                           EUR                         SEK                           EUR                          EUR
+NAV 30.6.2026                                                               14.651                      33.555                       119.406                      102.263                       103.474                   1,322.387                        33.555                      119.406
+Management and Custody Fee per Year,                                          0.55                        0.55                          0.35                         0.28                          0.35                        0.55                          0.55                         0.35
+%
+TER per Year, %                                                          0.55            0.55             0.35                                                            -                     0.35                             0.55                         0.55                         0.35
+Sales Registration                                           FI,SE,ES,DE,LU FI,SE,FR,ES,IT,P FI,SE,FR,ES,IT,PT                                                       FI,ES              FI,DE,ES,LU                            FI,SE                         FI,FR                        FI,FR
+                                                                                           T,                ,
+                                                                              DE,LT,LV,EE,LU         DE,NL,LU
+ISIN                                                             FI0008800503    FI0008800511     FI4000233242                                            FI4000591854                 FI4000587183                 FI4000043716                 FI4000519087                 FI4000519095
+Bloomberg                                                       EVLEBFA FH      EVLEBFB FH        EVLEIBE FH                                              EVSCIB2 FH                   EVLSCQI FH                  EVLEBSH FH                    EVLBFRX FH                   EVMIBFR FH
+WKN                                                                  A2P1EM           A0ND83           A2JDF7                                                        -                      A4176V                             -                            -                            -
+Clean Share                                                                    No                        No                             Yes                          Yes                            Yes                        No                          No                             Yes
+Minimum Investment                                                          5,000                     1,000                     10,000,000                   50,000,000                     10,000,000                     10,000                       1,000                     10,000,000
+Profit Distribution                                                       Annually               Accumulated                  Accumulated                  Accumulated                       Quarterly                Accumulated                  Accumulated                  Accumulated
+Target Investor                                                             Retail                    Retail                   Institutional                Institutional                  Institutional                    Retail                      Retail                   Institutional
+
+
+
+DICTIONARY                                                                                                                                                                                   BASIC INFORMATION
+Alpha de scribes the effect of the portfo lio man ager’s in vestment choices on the fund’s re turn compared with the re turn of an in dex portfo lio
+with corre spond ing market risk, i.e. the ad ditional re turns attained by the fund in re la tion to its market risk.                                                                           Domicile                                               Finland
+Beta de scribes the sen sitivity of the fund’s value to changes in the bench mark in dex. If the value of the bench mark in dex changes by one                                                   Trade Frequency                                        Daily
+percent, the expected change in the fund’s value is beta x 1 percent. On average, the fund’s value will change more than the value of the
+bench mark in dex if the beta value is greater than 1. A beta value less than 1 in dicates the op po site, i.e. that the fund’s value will change                                                Clearing Time                                          Trade Date + 2
+less than the bench mark value.                                                                                                                                                                  Cut Off Time                                           14:00 EET (Trade date)
+Carbon Footprint Evli uses weighted average carbon in ten sity to mea sure the carbon footprint accord ing to the recommen da tions of the
+Task Force on Climate-re lated Finan cial Disclo sures (TFCD). The funds hold ings’ carbon in ten sity fig ures are based on the emissions fig-                                                  Currency                                               EUR
+ures pro duced by MSCI.
+Du ra tion mea sures the average re payment term (in years) of a fixed in come in stru ment. Mod ified du ra tion in dicates the price sen sitivity of
+                                                                                                                                                                                                 Custodian                                              Skandinaviska Enskilda
+a fixed in come se cu rity to changes in in terest rates. The higher the du ra tion number, the greater the in terest rate risk of the fund portfo lio.                                                                                                 Banken AB (publ) Helsinki
+In forma tion Ra tio de scribes the long-term ability of a portfo lio man ager to add value through active portfo lio man age ment. If the In forma-                                                                                                    branch
+tion Ra tio is zero, the long-term re turn of the fund equals that of the bench mark in dex. In practice this means that the fund has outper-
+formed the bench mark in dex, on average, for five years out of ten. The higher the In forma tion Ra tio, the greater the prob a bility that the fund
+                                                                                                                                                                                                 Auditor                                                Ernst & Young
+will outperform its bench mark. With an IR of 0.5 the fund has outperformed the bench mark, on average, in seven years out of ten, and with                                                      NAV Calculation, Fund Registry                         Evli Fund Management
+an IR of 1.0 in 8.5 years out of ten.                                                                                                                                                            Keeper and Fund Management                             Company Ltd
+OAS de scribes average credit spread to similar ma tu rity govern ment bonds in ba sis points (0.01 percentage points). Mea sures the excess
+yield of corpo rate bonds to risk free rate.                                                                                                                                                     Company
+Portfo lio Turnover is a mea sure of the length of time that a se cu rity re mains in a portfo lio during a given pe riod. The portfo lio turnover rate                                          Global Investment Performance                          Yes
+is calcu lated by sub tracting the sum of sub scrip tions and re demp tions of fund units (EUR S+T) from the sum of the se cu rities bought and                                                  Standards (GIPS ®) Compliant
+sold by the fund (EUR X+Y). The turnover is the above men tioned difference divided by the average market value of the fund, which has
+been calcu lated from the daily market values over the past 12 months. For example, if all assets have been sold and bought once it would                                                        Orders In                                              Shares or currency
+equal to a turnover rate of 1. Portfo lio turnover rate = ((X + Y) - (S + T)) / M x 100 / 2, where X = Se cu rities bought, Y = Se cu rities sold, S =
+Fund's fund units issued / sub scribed, T = Fund's fund units can celled / re deemed, M = Average to tal value of net assets.                                                                    GIPS® is a registered trademark owned by CFA Institute. CFA Institute does not endorse
+R2 (R-squared) de scribes the extent to which the fund’s performance is de pen dent on the performance of the bench mark in dex. R-                                                              or promote this organization, nor does it warrant the accuracy or quality of the content
+squared is the square of the corre la tion co efficient.                                                                                                                                         contained herein.
+SFDR In accordance with the Sustain able Finance Disclo sure Reg u la tion (SFDR), article 8 funds pro mote sustain ability factors among
+other fea tures, and article 9 funds aim to make sustain able in vestments. Other funds ad dress only sustain ability risks in their in vestments
+de cisions (article 6 funds).
+Sharpe Ra tio in dicates the size of re turn rela tive to risk taken. The Sharpe ra tio mea sures the fund’s re turn (with volatility of one percent) in
+excess of a risk-free re turn. The higher the Sharpe ra tio, the more fa vorable the re la tion ship be tween re turn and risk.
+TER (To tal Expense Ra tio) is a mea sure of a fund's to tal expenses in re la tion to its average assets and is expressed as an an nu alized per-
+centage. The expenses in clude all the fund's man age ment and custody fees, but exclude trad ing fees and any po ten tial performance fees.
+TER = A + B + C, where A = Man age ment fee charged from the fund's assets, B = Custo dian fee that may be charged sep a rately from the
+fund's assets, C = Account main te nance and other bank charges that may be charged from the fund's assets.
+Tracking Error in dicates the risk of active portfo lio man age ment in re la tion to the risk of the bench mark in dex. The higher the number, the
+more the fund's performance differs from the bench mark's performance. If the tracking error is 5%, the fund's re turn will de viate in about
+two years out of three ± 5% of the bench mark's re turn. The tracking error is zero if the rela tive weights of the fund's in vestments are exactly
+the same as in the bench mark in dex. Tracking error in creases if in vestment weights are changed rela tive to the weights of the bench mark
+in dex.
+Volatility is a risk mea sure gen erally used in finan cial markets. It re flects variability in the re turn of an in vestment or a portfo lio. The higher
+the volatility, the greater the variability in re turn and the risk in volved. If the fund’s expected re turn is 12% and the volatility is 20%, then the
+fund’s re turn for two years out of three is 12 ± 20%, that is, be tween -8% and +32%. Volatility is calcu lated on the ba sis of the stan dard de vi-
+a tion of weekly re turns and expressed as an an nual percentage.
+Yield (YTM) Estimated an nual rate of re turn to ma tu rity (yield to ma tu rity).
+YTW Lowest estimated an nual rate of re turn, if bonds are callable be fore ma tu rity date (yield to worst).
+
+
+DISCLAIMER
+
+Evli
+This report is intended only for the client's personal and pri vate use. This report is based on sources that Evli considers correct and reli able. However, nei ther Evli nor its employ ees give any guarantee concerning the correctness, ac curacy or completeness of any information,
+views, opinions, es ti mates or forecasts presented in this review, nor are they li able for any damage caused by the use of this publi cation. Evli is not responsi ble for any material or information produced or published by a third party that may be contained in this review. The infor-
+mation provided in the review is not intended as investment advice, or as a solic i tation to buy or sell fi nancial instruments. Past performance is no guarantee of future returns. This publi cation may not be copied, dis tributed, or published in the USA, and it is not intended for citi-
+zens of the USA. This material is not intended for persons res i dent in countries where the ac tiv i ties carried out by Evli have not been authorized by law. This publi cation, or any part thereof, may not be copied, dis tributed or published in any form without Evli's written, advance
+consent. All rights reserved.
+Sources of data: Evli, MSCI, Morningstar, Bloomberg.
+
+Morningstar
+©2026 Morningstar, Inc. All rights reserved. The information contained herein: (1) is propri etary to Morningstar and/or its content providers; (2) may not be copied or dis tributed; and (3) is not warranted to be ac curate, complete, or timely. Nei ther Morningstar nor its content providers
+are responsi ble for any damages or losses aris ing from any use of this information. Past performance is no guarantee of future results.
+Source of index data: ICE Data Indices, LLC is used with permis sion. ICE® is a regis tered trademark of ICE Data Indices, LLC or its affil i ates, and BofA® is a regis tered trademark of Bank of America Corporation li censed by Bank of America Corporation and its affil i ates ("BofA"),
+and may not be used without BofA's prior written approval. The index data referenced herein is the property of ICE Data Indices, LLC, its affil i ates (“ICE Data”) and/or its third party suppli ers and, along with the ICE BofA trademarks, has been li censed for use by EVLI. ICE Data
+and its Third Party Suppli ers ac cept no li abil ity in connec tion with the use of such index data or marks. See www.theice.com for a full copy of the Dis claimer.
+
+MSCI
+Source: MSCI
+Certain information contained herein (the “Information”) is sourced from/copy right of MSCI Inc., MSCI Solutions LLC, or their affil i ates (“MSCI”), or information providers (together the “MSCI Parties”) and may have been used to cal culate scores, signals, or other indi cators. The In-
+formation is for internal use only and may not be reproduced or dis semi nated in whole or part without prior written permis sion. The Information may not be used for, nor does it consti tute, an offer to buy or sell, or a promotion or rec ommendation of, any security, fi nancial instrument
+or product, trading strategy, or index, nor should it be taken as an indi cation or guarantee of any future performance. Some funds may be based on or linked to MSCI indexes, and MSCI may be compensated based on the fund’s as sets under management or other measures. MSCI
+has es tablished an information barrier between index research and certain Information. None of the Information in and of itself can be used to determine which securi ties to buy or sell or when to buy or sell them. For regulatory dis closures mandated under the EU ESG Rating Ac-
+tiv i ties Regulation (Regulation (EU) 2024/3005), please visit www.msci.com/legal/sus tainabil ity-and-climate-res ourc es-and-dis clos ures for methodol ogy and organi zational dis closures and https://one.msci.com for rating level dis closures. The Information is provided “as is” and
+the user as sumes the entire risk of any use it may make or permit to be made of the Information. No MSCI Party warrants or guarantees the origi nal ity, ac curacy and/or completeness of the Information and each ex pressly dis claims all ex press or implied warranties. No MSCI
+Party shall have any li abil ity for any errors or omis sions in connec tion with any Information herein, or any li abil ity for any di rect, indi rect, special, puni tive, consequential or any other damages (including lost profits) even if noti fied of the pos si bil ity of such damages.
+
+
+Evli Fund Management Company Ltd. | Aleksanterinkatu 19, P.O. BOX 1081, FI-00101 Helsinki, Finland | evli.com
+

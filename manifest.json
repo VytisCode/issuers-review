@@ -1874,5 +1874,459 @@
   "sha256": "06603ec64798d7cef670863f8ad2e093a5f72af1e6e4579837c2dc92d9bd7734",
   "bytes": 438968,
   "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B42NKQ00"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "factsheet",
+  "url": "https://www.nb.com/handlers/documents.ashx?item_id=e17c4ef3-bbfe-4c19-8e73-e5aa84597621",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "isin": "FI0008800511",
+  "kind": "page",
+  "url": "https://www.evli.com/en/products-and-services/funds/mutual-funds/eta",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/FI0008800511/page_c0ff1b86d1.html",
+  "sha256": "c0ff1b86d154c46da6f4c9831ed378ba8cda4e716e143a5377b760fdfee0d2d2",
+  "bytes": 176024,
+  "final_url": "https://www.evli.com/en/products-and-services/funds/mutual-funds/eta"
+ },
+ {
+  "isin": "LU1437018168",
+  "kind": "factsheet",
+  "url": "https://www.amundietf.co.uk/pdfDocuments/monthly-factsheet/LU1437018168/ENG/GBR/INSTITUTIONNEL/ETF/20260930",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU1437018168/factsheet_d295415b60.pdf",
+  "sha256": "d295415b604283ade7937707f41f7591d581c2803f258df6a9f225e454c9b8b4",
+  "bytes": 264748,
+  "final_url": "https://www.amundietf.co.uk/pdfDocuments/monthly-factsheet/LU1437018168/ENG/GBR/INSTITUTIONNEL/ETF/20260930"
+ },
+ {
+  "isin": "LU1437018168",
+  "kind": "factsheet",
+  "url": "https://www.amundietf.co.uk/pdfDocuments/monthly-factsheet/LU1437018168/ENG/GBR/INSTITUTIONNEL/ETF/20260831",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU1437018168/factsheet_d7801fbc63.pdf",
+  "sha256": "d7801fbc632c36321591c03a110ec03d18f4361b82cc80eff01fa5f57bf96aae",
+  "bytes": 428946,
+  "final_url": "https://www.amundietf.co.uk/pdfDocuments/monthly-factsheet/LU1437018168/ENG/GBR/INSTITUTIONNEL/ETF/20260831"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "page",
+  "url": "https://www.pimco.com/gb/en/investments/gis/euro-credit-fund/inst-eur-accumulation",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00B2NSVP60/page_b1175ea7a9.html",
+  "sha256": "b1175ea7a994dc733ef604e1f57f645fc464508ae6836fac8b8644dcd79f5f7a",
+  "bytes": 126204,
+  "final_url": "https://www.pimco.com/gb/en/investments/gis/euro-credit-fund/inst-eur-accumulation"
+ },
+ {
+  "isin": "LU0210246277",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/doca/CGF_ECB_FH-fact-202609-profeses.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0210246277/factsheet_ed112d1b3c.pdf",
+  "sha256": "ed112d1b3cff3d97c15cc9f1b79a525716843ea7ce6df9fb38327a212db909ff",
+  "bytes": 511358,
+  "final_url": "https://www.robeco.com/files/doca/CGF_ECB_FH-fact-202609-profeses.pdf"
+ },
+ {
+  "isin": "LU0210246277",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/doca/CGF_ECB_I-fact-202609-profuken.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0210246277/factsheet_0dd277e482.pdf",
+  "sha256": "0dd277e48244b0606b4fd4a1d9e03ef0146181514aba2a7db927a48a389d1f6b",
+  "bytes": 585509,
+  "final_url": "https://www.robeco.com/files/doca/CGF_ECB_I-fact-202609-profuken.pdf"
+ },
+ {
+  "isin": "LU0210246277",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/doca/CGF_ECB_I-fact-202608-profuken.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0210246277/factsheet_5112d3b449.pdf",
+  "sha256": "5112d3b44916b141dc5cd293ae2ce0b7a58bb459376a64e76ba978192bb92bf7",
+  "bytes": 584006,
+  "final_url": "https://www.robeco.com/files/doca/CGF_ECB_I-fact-202608-profuken.pdf"
+ },
+ {
+  "isin": "LU0227757233",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/doca/CGF_HBF_I-fact-202609-profuken.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0227757233/factsheet_371eaeef83.pdf",
+  "sha256": "371eaeef83477f0e9f0f9622fde920eaffc581280a3fe7c8ad9d8f3697167b8e",
+  "bytes": 595553,
+  "final_url": "https://www.robeco.com/files/doca/CGF_HBF_I-fact-202609-profuken.pdf"
+ },
+ {
+  "isin": "LU0227757233",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/doca/CGF_HBF_I-fact-202608-profuken.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0227757233/factsheet_5061457b2e.pdf",
+  "sha256": "5061457b2eef9b13c36499ea9dcdb793d11104925f7b10692f970905d94e1c0b",
+  "bytes": 591479,
+  "final_url": "https://www.robeco.com/files/doca/CGF_HBF_I-fact-202608-profuken.pdf"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "factsheet",
+  "url": "https://www.ubs.com/2/e/files/RET/FS_RET_LU2889894270_GB_EN.pdf",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "factsheet",
+  "url": "https://www.ubs.com/2/e/files/RET/FS_RET_LU0396343682_GB_EN.pdf",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/5dc2c581-6541-45dd-a712-32da196d000e/512",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU2244387457/factsheet_2de9ca3b6a.pdf",
+  "sha256": "2de9ca3b6a904e4f53d97d37a8fc3ee572567ce947917a323dda4c9918a978f6",
+  "bytes": 357411,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/5dc2c581-6541-45dd-a712-32da196d000e/512"
+ },
+ {
+  "isin": "LU0113258742",
+  "kind": "page",
+  "url": "https://www.schroders.com/en-hk/hk/individual/fund-centre/?language=en&location=hk&channel=individual&clientId=schdr&clientVersion=v1&externalId=SCHDR_F0GBR04DV6",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0113258742/page_fd30c48121.html",
+  "sha256": "fd30c4812116923677683ef4afd4051714ec01563cffa48a090f4e8d298551dc",
+  "bytes": 252679,
+  "final_url": "https://www.schroders.com/en-hk/hk/individual/fund-centre/?language=en&location=hk&channel=individual&clientId=schdr&clientVersion=v1&externalId=SCHDR_F0GBR04DV6"
+ },
+ {
+  "isin": "IE00BJK55C48",
+  "kind": "factsheet",
+  "url": "https://www.ishares.com/gls-download/literature/fact-sheet/ehyg-ishares-high-yield-corp-bond-esg-sri-ucits-etf-fund-fact-sheet-en-gb.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00BJK55C48/factsheet_de48a63799.pdf",
+  "sha256": "de48a63799350d56b3b653aba175e15d4057f8acfc317ad1dad4c66aa1c0675a",
+  "bytes": 238810,
+  "final_url": "https://www.ishares.com/gls-download/literature/fact-sheet/ehyg-ishares-high-yield-corp-bond-esg-sri-ucits-etf-fund-fact-sheet-en-gb.pdf"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00BD5BKF38/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00BD5BKF38/de/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00BD5BKF38-factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/IE00BD5BKF38/factsheet_ccaf146f2d.pdf",
+  "sha256": "ccaf146f2d6482b0d38d7b7bca8068d3a494525edaf3626f615751e9d6c31309",
+  "bytes": 156932,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00BD5BKF38-factsheet.pdf"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00BD5BKF38/de/kiid",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00BD5BKF38/en/KID/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "FI0008800511",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/FI0008800511/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "FI0008800511",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/FI0008800511/de/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "FI0008800511",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/FI0008800511-factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/FI0008800511/factsheet_2b4550e605.pdf",
+  "sha256": "2b4550e6053a470842202c2121d9a4546a0cfd375ed85974d3b8d754e973b5d7",
+  "bytes": 507790,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/FI0008800511-factsheet.pdf"
+ },
+ {
+  "isin": "FI0008800511",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/FI0008800511/de/kiid",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "FI0008800511",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/FI0008800511/en/KID/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU0113258742",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/LU0113258742/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU0113258742",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU0113258742/de/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU0113258742",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/LU0113258742-factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU0113258742/factsheet_c7c07880ae.pdf",
+  "sha256": "c7c07880aea9cd96099423f8f8a9a0b89a872013367252c67b7550fa3ef57292",
+  "bytes": 515066,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/LU0113258742-factsheet.pdf"
+ },
+ {
+  "isin": "LU0113258742",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/LU0113258742/de/kiid",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU0113258742",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/LU0113258742/en/KID/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B2NSVP60/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B2NSVP60/de/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B2NSVP60-factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B2NSVP60/de/kiid",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B2NSVP60/en/KID/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/LU2889894270/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU2889894270/de/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/LU2889894270-factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/LU2889894270/de/kiid",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/LU2889894270/en/KID/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/LU2244387457/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU2244387457/factsheet_c8ce561dae.pdf",
+  "sha256": "c8ce561daee3c42c59be41c67ed50f757e0698f56b9baa2290e6205fca4c7c0c",
+  "bytes": 185916,
+  "final_url": "https://docs.extraetf.com/download/LU2244387457/en/MR/"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU2244387457/de/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/LU2244387457-factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU2244387457/factsheet_13e9f367fe.pdf",
+  "sha256": "13e9f367fe06ae03bbdda46e7afec71db61891b39899447a269009ebf71efc3a",
+  "bytes": 245992,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/LU2244387457-factsheet.pdf"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/LU2244387457/de/kiid",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/LU2244387457/en/KID/",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/LU2244387457/kid_1c5cdab880.pdf",
+  "sha256": "1c5cdab88095b43828d405d52232f69fa37ef926d6280a1dfe91952a20bcb62d",
+  "bytes": 108522,
+  "final_url": "https://docs.extraetf.com/download/LU2244387457/en/KID/"
+ },
+ {
+  "isin": "SE0019892050",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/SE0019892050/en/MR/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "SE0019892050",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/SE0019892050/de/factsheet",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "SE0019892050",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/SE0019892050-factsheet.pdf",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "SE0019892050",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/SE0019892050/de/kiid",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "SE0019892050",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/SE0019892050/en/KID/",
+  "fetched": "2026-10-29",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
  }
 ]

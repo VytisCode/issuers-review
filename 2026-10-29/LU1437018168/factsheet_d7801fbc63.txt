@@ -1,0 +1,506 @@
+=== pdf p.1 ===
+       Amundi EUR Corporate Bond ESG UCITS ETF
+                                                                                                                                                                                                                 FACTSHEET
+
+                                                                                                                                                                                                                Marketing
+                                                                                                                                                                                                              Communication
+ BOND ■
+                                                                                                                                                                                                                  31/08/2026
+
+
+  IMPORTANT INFORMATION FOR INVESTORS IN FRANCE
+  INVESTORS ATTENTION IS DRAWN TO THE FACT THAT, IN THE OPINION OF THE FRENCH AUTHORITY OF FINANCIAL MARKETS, THIS UCITS FUND COMMUNICATES
+  DISPROPORTIONAITLY ON THE CONSIDERATION OF NON-FINANCIAL CRITERIA IN ITS MANAGEMENT.
+
+
+Key Information (Source: Amundi)                                                        Objective and Investment Policy                                                     Risk & Reward Profile (SRRI) (Source: Fund Admin)
+
+  Net Asset Value (NAV) : (A) 53.98 ( EUR )                                                 The objective of the Sub-Fund is to track the
+                          (D) 46.46 ( EUR )                                                 performance of the Bloomberg MSCI ESG Euro
+                                                                                            Corporate Select Index and to minimize the tracking
+  NAV and AUM as of : 31/08/2026                                                            error between the net asset value of the Sub-Fund                                  Lower risk, potentially lower rewards
+  Assets Under Management (AUM) :                                                           and the performance of the Index. The Sub-Fund                                     Higher risk, potentially higher rewards
+   6,378.08 ( million EUR )                                                                 aims to achieve a level of tracking error of the Sub-
+                                                                                            Fund and its index which will not normally exceed                               The SRRI represents the risk and return profile as
+  ISIN code : (A) LU1437018168                                                                                                                                              presented in the Key Investor Information Document
+                                                                                            1%.
+              (D) LU1737653987                                                                                                                                              (KIID). The lowest category does not imply that there is
+                                                                                            The Index is a coupons reinvested index: coupons
+  Replication type : Physical                                                                                                                                               no risk. The SRRI is not guaranteed and may change
+                                                                                            paid by the debt securities comprising the index are
+                                                                                            included in the performance of the Index.                                       over time.
+  Benchmark :
+   100% BLOOMBERG MSCI ESG EURO                                                             Bloomberg MSCI ESG Euro Corporate Select Index
+   CORPORATE SELECT INDEX                                                                   is a bond index representative of investment grade
+                                                                                            fixed rate corporate bonds denominated in euro that
+                                                                                            follows the rules of the Bloomberg Barclays Euro
+                                                                                            Aggregate Corporate Index (the “ Framework index ”)
+                                                                                            and applies additional sector and ESG criteria for
+                                                                                            stock selection.
+
+« Technical net asset values may be calculated and published for any calendar day (excluding Saturdays and Sundays) that is neither a business day nor a transaction day. These technical net asset values are
+merely indicative and will not be the basis for purchasing, switching, redeeming and/or transferring shares.”
+
+
+
+
+Returns (Source: Fund Admin) - Past performance does not predict future returns
+
+Performances from 11/11/2016 to 31/08/2026 (Source : Fund Admin)                                                                                                            Risk indicators (Source: Fund Admin)
+
+     120                                                                                                                                                                                                     3                 Inception to
+                                                                                                                                                                                                             1 year
+                                                                                                                                                                                                           years                  date *
+                                                                                                                                                                             Portfolio volatility * 2.56% 3.01%                   3.77%
+     110
+                                                                                                                                                                             Benchmark volatility 2.57% 3.01%                     3.76%
+                                                                                                                                                                             Ex-post Tracking
+                                                                                                                                                                                                    0.05% 0.04%                  0.05%
+                                                                                                                                                                             Error
+                                                                                                                                                                             Sharpe ratio            -0.45 0.41                   -0.01
+     100                                                                                                                                                                    * Volatility is a statistical indicator that measures an asset’s
+                                                                                                                                                                            variations around its average value. For example, market
+                                                                                                                                                                            variations of +/- 1.5% per day correspond to a volatility of
+                                                                                                                                                                            25% per year. The higher the volatility, the higher the risk.
+                                                                                                                                                                            The Tracking Error indicator measures the performance's
+      90
+                                                                                                                                                                            difference between the fund and the benchmark
+              /17
+
+                      /17
+
+                              /18
+
+                                      /18
+
+                                              /19
+
+                                                      /19
+
+                                                              /20
+
+                                                                      /20
+
+                                                                              /21
+
+                                                                                      /21
+
+                                                                                              /22
+
+                                                                                                      /22
+
+                                                                                                              /23
+
+                                                                                                                      /23
+
+                                                                                                                              /24
+
+                                                                                                                                      /24
+
+                                                                                                                                              /25
+
+                                                                                                                                                      /25
+
+                                                                                                                                                              /26
+
+                                                                                                                                                                      /26
+            02
+
+                    08
+
+                            02
+
+                                    08
+
+                                            02
+
+                                                    08
+
+                                                            02
+
+                                                                    08
+
+                                                                            02
+
+                                                                                    08
+
+                                                                                            02
+
+                                                                                                    08
+
+                                                                                                            02
+
+                                                                                                                    08
+
+                                                                                                                            02
+
+                                                                                                                                    08
+
+                                                                                                                                            02
+
+                                                                                                                                                    08
+
+                                                                                                                                                            02
+
+                                                                                                                                                                    08
+
+
+
+
+                                                                      Portfolio             Benchmark
+
+Cumulative returns* (Source: Fund Admin)
+
+                          YTD                 1 month                3 months               1 year              3 years               5 years              Since
+ Since                 31/12/2025            31/07/2026             29/05/2026           29/08/2025           31/08/2023            31/08/2021          11/11/2016
+ Portfolio               0.09%                 -0.26%                 -0.75%               0.71%               12.43%                 -1.45%               8.19%
+ Benchmark               0.13%                 -0.23%                 -0.72%               0.76%               12.87%                 -0.46%             10.23%
+ Spread                  -0.04%                -0.03%                 -0.03%               -0.05%               -0.44%                -0.99%              -2.04%
+
+Calendar year performance* (Source: Fund Admin)
+
+                         2025           2024            2023            2022             2021           2020           2019           2018            2017          2016
+ Portfolio              2.91%          4.49%           7.66%          -13.78%           -1.19%         2.46%          5.84%          -1.38%          2.23%            -
+ Benchmark              3.00%          4.65%           7.99%          -13.48%           -0.99%         2.62%          6.02%          -1.21%          2.41%            -
+ Spread                 -0.09%         -0.16%          -0.33%          -0.30%           -0.20%         -0.16%         -0.18%         -0.17%          -0.19%           -
+
+* Source : Amundi. The above cover complete periods of 12 months for each calendar year. Past performance is no predictor of current and future
+results and does not guarantee future yield . Any losses or gains do not take into consideration any costs, commissions and fees incurred by the
+investor in the issue and buyout of the shares (e.g. taxes, brokerage fees or other commissions deducted by the financial intermediary). If performance
+is calculated in a currency other than the euro, any losses or gains generated can thereby be affected by exchange rate fluctuations (both upward and
+downward). The discrepancy accounts for the performance difference between the portfolio and the index.
+
+
+
+
+                                                                                    Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                                                   AMF approved Portfolio Management Company- GP number 04000036
+                                                                                          Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                                      This material is solely for the attention of “professional” investors.
+
+=== pdf p.2 ===
+     Amundi EUR Corporate Bond ESG UCITS ETF
+                                                                                                                                                                                                       FACTSHEET
+
+                                                                                                                                                                                                        Marketing
+
+BOND ■                                                                                                                                                                                                Communication
+                                                                                                                                                                                                       31/08/2026
+
+
+
+Portfolio Data (Source: Amundi)
+
+Information (Source: Amundi)                                                                                    Portfolio Indicators (Source: Fund Admin)
+ Asset class : Bond
+                                                                                                                                                                                                         Portfolio
+ Exposure : Eurozone
+                                                                                                                 Modified duration ¹                                                                       4.15
+                                                                                                                 Average rating ²                                                                         BBB+
+ Holdings : 3049                                                                                                 Yield To Maturity                                                                        3.84%
+                                                                                                                ¹ Modified duration (in points) estimates a bond portfolio’s percentage price change for 1%
+                                                                                                                change in yield.
+                                                                                                                ² Based on cash bonds and CDS but excludes other types of derivatives
+
+Portfolio Breakdown (Source: Amundi)
+
+By maturity (Source: Amundi)                                                                                    By rating (source : Amundi)
+   40 %                                                                                                               60 %
+
+                                 32.00 %                                                                                                                                   47.94 %
+                       30.50 %                                                                                                                                                              44.58 %
+   30 %
+                                                                                                                      40 %
+
+
+   20 %
+                                           16.97 %
+                                                                                                                      20 %
+
+   10 %      8.88 %                                    9.04 %                                                                                           7.65 %
+                                                                                                                                     0.37 %
+                                                                1.74 %                                                  0%
+                                                                           0.61 %    0.25 %                                                                                                                     -0.56 %
+    0%
+               m
+
+
+
+                       2Y
+
+
+
+                                 5Y
+
+
+
+                                            7Y
+
+
+
+                                                        Y
+
+
+
+                                                                  Y
+
+
+
+                                                                            Y
+
+
+
+                                                                                      Y
+
+
+
+                                                                                                  s
+                                                                                                er
+                                                      10
+
+
+
+                                                                15
+
+
+
+                                                                          20
+
+
+
+                                                                                    30
+             er
+
+
+
+
+                                                                                              th
+
+
+
+
+                                                                                                                     -20 %
+          t-t
+
+
+
+
+                                                                                             O
+        or
+
+
+
+
+                                                                                                                                      AAA                 AA                   A                BBB                 Others
+      Sh
+
+
+
+
+                                                   Portfolio                                                                                                            Portfolio
+
+By issuer (Source: Amundi)                                                                                      By country (source : Amundi)
+
+                                                                                                                        United States                                                                               22.49 %
+
+       Industrials                                                                           52.97 %                           France                                                                 18.92 %
+
+                                                                                                                             Germany                                           11.10 %
+
+                                                                                                                     United Kingdom                                      9.48 %
+          Financials                                                                  47.56 %
+                                                                                                                                 Spain                         6.02 %
+
+                                                                                                                          Netherlands                     5.34 %
+
+                                                                                                                                  Italy                 4.25 %
+     PBF & FONC                  0.03 %
+                                                                                                                              Sweden                3.16 %
+
+                                                                                                                                Japan              2.83 %
+
+                                                                                                                             Denmark             2.28 %
+   Sovereign EMU
+                                                                                                                          Switzerland            2.21 %
+
+                                                                                                                              Australia         1.89 %
+
+                                                                                                                              Belgium          1.44 %
+             Others
+                                                                                                                               Finland         1.34 %
+
+                                                                                                                              Canada           1.30 %
+
+              Cash               -0.56 %                                                                                       Austria         1.28 %
+
+                                                                                                                                Others                   4.67 %
+
+                   -10 %     0%            10 %       20 %      30 %       40 %       50 %    60 %                                        0%            5%              10 %             15 %         20 %            25 %
+                                                  Portfolio                                                                                                        Portfolio
+
+
+
+
+                                                                      Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                                     AMF approved Portfolio Management Company- GP number 04000036
+                                                                            Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                        This material is solely for the attention of “professional” investors.
+
+=== pdf p.3 ===
+     Amundi EUR Corporate Bond ESG UCITS ETF
+                                                                                                                                                                                FACTSHEET
+
+
+                                                                                                                                                                                 Marketing
+
+BOND ■                                                                                                                                                                         Communication
+                                                                                                                                                                                31/08/2026
+
+
+
+
+Principal characteristics (Source : Amundi)
+
+ Fund structure                                                                                                                  SICAV under Luxembourg law
+ UCITS compliant                                                                                                                                UCITS
+ Management Company                                                                                                                 Amundi Luxembourg SA
+ Administrator                                                                                                               CACEIS Bank, Luxembourg Branch
+ Custodian                                                                                                                   CACEIS Bank, Luxembourg Branch
+ Independent auditor                                                                                                                     DELOITTE AUDIT
+ Share-class inception date                                                                                                                  29/06/2016
+ Date of the first NAV                                                                                                                       11/11/2016
+ Share-class reference currency                                                                                                                  EUR
+ Classification                                                                                                                            Not applicable
+ Type of shares                                                                                                                          (A) Accumulation
+                                                                                                                                          (D) Distribution
+ ISIN code                                                                                                                              (A) LU1437018168
+                                                                                                                                        (D) LU1737653987
+ Minimum investment to the secondary market                                                                                                  1 Share(s)
+ Frequency of NAV calculation                                                                                                                    Daily
+ Management fees and other administrative or operating costs                                                                                    0.14%
+ Minimum recommended investment period                                                                                                         4 years
+ Fiscal year end                                                                                                                             September
+ ISA and SIPP Eligible                                                                                                                            Yes
+ UK Distrib/Report Status                                                                                                                         Yes
+ Primary Market Maker                                                                                                                          SGCIB
+
+
+
+
+Listing data (source : Amundi)
+                  Place                    CCY          Bloomberg Ticker                          Bloomberg iNAV                       Reuters RIC                    Reuters iNAV
+          Deutsche Boerse (Xetra)          EUR              A4H8 GY                                   IECRP                             A4H8.DE                     AMECRPINAV=SOLA
+              Euronext Paris               EUR              ECRP FP                                   IECRP                            AMECRP.PA                    AMECRPINAV=SOLA
+                   LSE                     GBP              ECRP LN                                      -                             AMNECRP.L                           -
+              Euronext Milan               EUR              ECRP IM                                   IECRP                             ECRPI.MI                    AMECRPINAV=SOLA
+
+
+Contact
+ETF Sales contact                                                                              ETF Capital Markets contact
+France & Luxembourg                       +33 (0)1 76 32 65 76                                 Téléphone                                                +33 (0)1 76 32 19 93
+Germany & Austria                         +49 (0) 800 111 1928                                 Bloomberg IB Chat                                        Capital Markets Amundi ETF
+Italy                                     +39 02 0065 2965                                                                                              Capital Markets Amundi HK ETF
+Switzerland (German)                      +41 44 588 99 36                                     ETF Market Makers contact
+Switzerland (French)                      +41 22 316 01 51
+United Kingdom                            +44 (0) 20 7 074 9598                                SG CIB                                                   +33 (0)1 42 13 38 63
+United Kingdom (Instit)                   +44 (0) 800 260 5644                                 BNP Paribas                                              +44 (0) 207 595 1844
+Netherlands                               +31 20 794 04 79
+Nordic countries                          +46 8 5348 2271                                      Amundi contact
+Hong Kong                                 +65 64 39 93 50
+                                                                                               Amundi ETF
+Spain                                     +34 914 36 72 45                                     90 bd Pasteur
+                                                                                               CS 21564
+                                                                                               75 730 Paris Cedex 15 - France
+                                                                                               Hotline : +33 (0)1 76 32 47 74
+                                                                                               info-etf@amundi.com
+                                                                                               Facilities Agent
+                                                                                               Amundi (UK) Limited
+                                                                                               77 Coleman Street London
+                                                                                               EC2R 5BJ - United Kingdom
+
+
+
+
+                                                     Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                    AMF approved Portfolio Management Company- GP number 04000036
+                                                           Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                       This material is solely for the attention of “professional” investors.
+
+=== pdf p.4 ===
+     Amundi EUR Corporate Bond ESG UCITS ETF
+                                                                                                                                                                     FACTSHEET
+
+
+                                                                                                                                                                      Marketing
+
+BOND ■                                                                                                                                                              Communication
+                                                                                                                                                                     31/08/2026
+
+
+
+Index Providers
+THE SUB-FUND IS NOT SPONSORED, ENDORSED, SOLD OR PROMOTED BY MSCI INC. ("MSCI"), ANY OF ITS AFFILIATES, ANY OF ITS INFORMATION PROVIDERS OR ANY THIRD
+PARTY INVOLVED IN, OR RELATED TO, COMPILING OR CREATING ANY MSCI INDEX (COLLECTIVELY, THE "MSCI PARTIES"). THE MSCI INDICES ARE THE EXCLUSIVE PROPERTY OF
+MSCI AND ARE SERVICE MARKS OF MSCI OR ITS AFFILIATES. THE MSCI INDICES HAVE BEEN LICENSED FOR USE FOR CERTAIN PURPOSES BY AMUNDI. NONE OF THE MSCI
+PARTIES MAKES ANY REPRESENTATION OR WARRANTY, EXPRESS OR IMPLIED, TO THE ISSUER OR OWNERS OF THIS SUB-FUND OR ANY OTHER PERSON OR ENTITY REGARDING
+THE ADVISABILITY OF INVESTING IN SUBFUNDS GENERALLY OR IN THIS PARTICULAR SUB-FUND OR THE ABILITY OF ANY MSCI INDEX TO TRACK CORRESPONDING STOCK MARKET
+PERFORMANCE. MSCI OR ITS AFFILIATES ARE THE LICENSORS OF CERTAIN TRADEMARKS, SERVICE MARKS AND TRADE NAMES AND OF THE MSCI INDICES WHICH ARE
+DETERMINED, COMPOSED AND CALCULATED BY MSCI WITHOUT REGARD TO AMUNDI OR THIS SUB-FUND OR THIS SUB-FUND'S UNITHOLDERS OR ANY OTHER PERSON OR
+ENTITY. NONE OF THE MSCI PARTIES HAS ANY OBLIGATION TO TAKE THE NEEDS OF THE AMUNDI, THIS SUB-FUND'S UNITHOLDERS OR ANY OTHER PERSON OR ENTITY
+INTOCONSIDERATION IN DETERMINING, COMPOSING OR CALCULATING THE MSCI INDICES. NONE OF THE MSCI PARTIES IS RESPONSIBLE FOR OR HAS PARTICIPATED IN
+DETERMINATION OF THE TIMING OF, PRICES AT, OR QUANTITIES OF THIS SUB-FUND TO BE ISSUED OR IN THE DETERMINATION OR CALCULATION OF THE EQUATION BY OR THE
+CONSIDERATION INTO WHICH THIS SUB-FUND IS REDEEMABLE. FURTHERMORE, NONE OF THE MSCI PARTIES HAS ANY OBLIGATION OR LIABILITY TO THE ISSUER OR OWNERS OF
+THIS SUB-FUND OR ANY OTHER PERSON OR ENTITY IN CONNECTION WITH THE ADMINISTRATION, MARKETING OR OFFERING OF THIS SUB-FUND. ALTHOUGH MSCI SHALL OBTAIN
+INFORMATION FOR INCLUSION IN OR FOR USE IN THE CALCULATION OF THE MSCI INDICES FROM SOURCES THAT MSCI CONSIDERS RELIABLE, NONE OF THE MSCI PARTIES
+WARRANTS OR GUARANTEES THE ORIGINALITY, ACCURACY AND/OR THE COMPLETENESS OF ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. NONE OF THE MSCI PARTIES
+MAKES ANY WARRANTY, EXPRESS OR IMPLIED, AS TO RESULTS TO BE OBTAINED BY THE ISSUER OF THE SUB-FUND, OWNERS OF THE SUB-FUND, OR ANY OTHER PERSON OR
+ENTITY, FROM THE USE OF ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. NONE OF THE MSCI PARTIES SHALL HAVE ANY LIABILITY FOR ANY ERRORS, OMISSIONS OR
+INTERRUPTIONS OF OR IN CONNECTION WITH ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. FURTHERMORE, NONE OF THE MSCI PARTIES MAKES ANY EXPRESS OR IMPLIED
+WARRANTIES OF ANY KIND, AND THE MSCI PARTIES HEREBY EXPRESSLY DISCLAIM ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH
+RESPECT TO EACH MSCI INDEX AND ANY DATA INCLUDED THEREIN. WITHOUT LIMITING ANY OF THE FOREGOING, IN NO EVENT SHALL ANY OF THE MSCI PARTIES HAVE ANY
+LIABILITY FOR ANY DIRECT, INDIRECT, SPECIAL, PUNITIVE, CONSEQUENTIAL OR ANY OTHER DAMAGES (INCLUDING LOST PROFITS) EVEN IF NOTIFIED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+Important information
+
+ Note on the Fund management company and the fund
+ Sub-fund of the Luxembourg SICAV Amundi Index Solutions (the 'Sub-fund' or the 'Fund' and the 'SICAV'). The SICAV is an undertaking for collective investment in
+ transferable securities existing under Part I of the Luxembourg law of 17 December 2010, organised as a société dinvestissement à capital variable and registered with the
+ Luxembourg Trade and Companies Register under number B206810. The SICAV has its registered office at 5, allée Scheffer, L-2520 Luxembourg. The Sub-fund has been
+ authorised for public sale by the Commission de Surveillance du Secteur Financier of Luxembourg and in France by the AMF. The SICAV has other Sub-funds which are
+ described in the prospectus. Not all sub-funds will necessarily be registered or authorized for sale in jurisdictions of all investors.
+
+ The Fund is described in a Key Information Document (KID), or Key Investor Information Document (KIID) for UK investors, and prospectus. The Funds KID, or KIID for UK
+ investors, must be made available to potential subscribers prior to subscription.
+ The Funds reference material (KIID, prospectus, annual and semi-annual reports) can be obtained from Amundi on request, or obtained via the amundietf.com website.
+ In the United Kingdom (the “UK”), this website is being issued by Amundi (UK) Limited, 77 Coleman Street, London EC2R 5BJ, UK. Amundi (UK) Limited is authorised and
+ regulated by the Financial Conduct Authority (“FCA”) and entered on the FCA’s Financial Services Register under number 114503. This may be checked at
+ https://register.fca.org.uk/ and further information of its authorisation is available on request. Each fund and its relevant sub-fund(s) under its respective fund range that is
+ referred to in this website (each, a “Fund”) is a recognised collective investment scheme for the purposes of Section 264 of the Financial Services and Markets Act 2000 (the
+ “FSMA”).
+ Potential investors in the UK should be aware that none of the protections afforded by the UK regulatory system will apply to an investment in a Fund and that compensation
+ will not be available under the UK Financial Services Compensation Scheme.
+ Regarding Funds admitted on a regulated market, the listing is subject to a volatility control mechanisms to ensure that the ETF price does not deviate significantly from a
+ reference price set by the listing rules of the relevant regulated market, notably through the implementation of a trading halt mechanism in case of significant deviation from
+ this reference price.
+
+ The Fund offers no capital guarantee. Investors may not get back the full amount of their initial investment, particularly in the event that the benchmark index falls.
+ Subscribing to a UCITS may involve risks. Potential investors are advised to read the Funds risk profile, which is described in detail in the prospectus. The amount that is
+ reasonable to invest in the Fund will depend on the personal circumstances of each investor. To determine this amount, investors should take into account their financial
+ situation, personal assets, and current and future requirements, as well as considering their willingness to accept risks or conversely their preference to invest cautiously.
+ Investors are also strongly recommended to sufficiently diversify their investments so as to avoid being exposed solely to the risks of this Fund. Investors should therefore
+ seek advice in this regard from their usual advisors (legal, tax, financial and/or accounting) before purchasing any units of the Fund.
+ The source of the data contained in this document is Amundi Asset Management unless otherwise stated.
+
+ Policy regarding portfolio transparency and warning on secondary market
+ The policy regarding portfolio transparency and information on the funds assets are available on amundietf.com. Shares purchased on the secondary market cannot usually
+ be sold directly back to the fund. Investors must buy and sell shares on a secondary market with the assistance of an intermediary (e.g. a stockbroker) and may incur fees for
+ doing so. Investors may pay more than the current net asset value when buying shares and may receive less than the current net asset value when selling them.
+
+
+
+
+                                                         Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                        AMF approved Portfolio Management Company- GP number 04000036
+                                                               Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                           This material is solely for the attention of “professional” investors.
+
