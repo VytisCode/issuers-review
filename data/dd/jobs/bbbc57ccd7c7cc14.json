@@ -1,5 +1,5 @@
 {
- "parent": "d2780259e4b70639",
+ "parent": "bbbc57ccd7c7cc14",
  "name": "FundReview_Q3_2026_bundle_documents.zip",
  "sources": [
   {
@@ -156,7 +156,11 @@
    "key": "B14",
    "title": "ycharts.com – LU1902638607",
    "url": "https://ycharts.com/mutual_funds/M:LU1902638607/holdings/history"
+  },
+  {
+   "key": "J17",
+   "title": "justETF – IE00BJ0KDR00",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BJ0KDR00"
   }
- ],
- "done": "dd9d401a800b5371"
+ ]
 }
