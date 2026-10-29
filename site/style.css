@@ -407,3 +407,5 @@ tr.pc-alt td, tr.pc-cash td { color: #888; }
 .sub.lead { font-size: 17px; max-width: 900px; }
 .pgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-top: 14px; } .pgrid h3 { margin: 0 0 6px; }
 .pbox pre { max-height: 260px; overflow: auto; }
+.pdgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 6px; } @media (max-width: 640px) { .pdgrid { grid-template-columns: 1fr; } }
+.pdiff summary { cursor: pointer; } .pdiff.plus b { color: var(--good); } .pdiff.minus b { color: var(--bad); }

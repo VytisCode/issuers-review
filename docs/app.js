@@ -589,7 +589,7 @@
   let PORT = { text: "", rows: [], own: {} }; try { PORT = { ...PORT, ...JSON.parse(localStorage.getItem("portfolio") || "{}") }; } catch (e) { /* ignore */ }
   const portSave = () => { try { localStorage.setItem("portfolio", JSON.stringify(PORT)); } catch (e) { /* ignore */ } };
   // valstybių, savivaldybių ir supranacionalinės obligacijos – į emitentų apžvalgą neįtraukiamos (savininkas 2026-10-29)
-  const GOV_RE = /republi|respublik|government|treasury|kingdom|karalyst|federal republic|federacin|bundesrepublik|\bbund\b|bundesanleihe|\b(OAT|BTPS?|BONOS?|GILT|DBR|FRTR|SPGB|RAGB|BGB|NETHER|RFGB|LITHUN|LATVIA|ESTONI|POLAND|ROMANI)\b|\bT-?bills?\b|\bUST\b|state of|valstybės obligacij|vyriausyb|ministry of finance|finansų ministerij|\bEIB\b|european investment bank|european union|\bEFSF\b|\bESM\b|world bank|\bIBRD\b|council of europe|nordic investment bank|\bNIB\b|\bKFW\b|municipal|savivaldyb|\b(Lithuania|Latvia|Estonia|Lietuva|Latvija|Estija)\b/i;
+  const GOV_RE = /republi|respublik|government|treasury|kingdom|karalyst|federal republic|federacin|bundesrepublik|\bbund\b|bundesanleihe|\b(OAT|BTPS?|BONOS?|GILT|DBR|FRTR|SPGB|RAGB|BGB|NETHER|RFGB|LITHUN|LATVIA|ESTONI|POLAND|ROMANI)\b|\bT-?bills?\b|\bUST\b|state of|valstybės obligacij|vyriausyb|ministry of finance|finansų ministerij|\bEIB\b|european investment bank|european union|\bEFSF\b|\bESM\b|world bank|\bIBRD\b|council of europe|nordic investment bank|\bNIB\b|\bKFW\b|municipal|savivaldyb|^EU\b|\b(Lithuania|Latvia|Estonia|Lietuva|Latvija|Estija)\b/i;
   const ALT_RE = /private equity|venture|\bVC\b|\bPE\b|real estate|nekilnojam|infrastruct|infrastrukt|property|timber|forest|miškų|buyout|secondar|mezzanine|credit opportunit|\bfund (I|II|III|IV|V|VI|VII)\b|\b(I|II|III|IV|V)\s*(SCSp|SCA|LP|KŪB)\b|SCSp|\bKŪB\b|\bLP\b/i;
   function portNum(s) { const m = String(s).replace(/ /g, " ").match(/-?\d[\d ]*(?:[.,]\d+)?/g) || []; let best = 0; m.forEach(x => { const c = x.replace(/ /g, ""); const v = parseFloat(/,\d{1,2}$/.test(c) && !/\.\d/.test(c) ? c.replace(/\./g, "").replace(",", ".") : c.replace(/,/g, "")); if (Math.abs(v) > Math.abs(best)) best = v; }); return best; }
   function portParse(text) {
@@ -634,13 +634,24 @@
     const by = c => rows.filter(r => r.c === c);
     const sum = PCLS.filter(c => by(c).length).map(c => `<span class="pchip c-${c}"><b>${by(c).length}</b> ${esc(px("cls")[c])}${tot ? ` · ${(by(c).reduce((a, r) => a + r.amt, 0) / tot * 100).toFixed(1)}%` : ""}</span>`).join("");
     const funds = rows.filter(r => ["etf", "active", "fund"].includes(r.c)), newIss = by("iss_new");
-    return `<div class="pchips">${sum}</div><p class="muted small">${px("total")}: ${rows.length} ${px("n")}${tot ? ` · EUR ${fmtE(tot)}` : ""}</p>
+    return `${portDiff(rows)}<div class="pchips">${sum}</div><p class="muted small">${px("total")}: ${rows.length} ${px("n")}${tot ? ` · EUR ${fmtE(tot)}` : ""}</p>
       <div class="row" style="gap:8px;margin:8px 0">${funds.length ? `<button class="btn primary" id="pToFr">${px("toFr")} (${funds.length})</button>` : ""}</div>
       ${newIss.length ? `<div class="card soft"><b>${px("addIss")}</b><p class="small muted">${px("addIssD")}</p><p class="small">${newIss.map(r => esc(r.isin)).join(", ")}</p>${promptBtn(newIss.map(r => r.isin).join("\n"), px("copyIsin"))} <a class="btn sm" href="#portfolio/x/vp">↓ ${px("addIss")}</a></div>` : ""}
       <details class="card"><summary><b>${px("cols")[0]} · ${px("cols")[1]} · ${px("cols")[4]}</b> <span class="muted small">(${rows.length})</span></summary><div class="tbl-wrap"><table class="small"><tr>${px("cols").map(h => `<th>${h}</th>`).join("")}</tr>
         ${rows.map(r => `<tr class="pc-${r.c}"><td class="nw">${esc(r.isin)}</td><td>${esc(r.name)}</td><td class="n">${fmtE(r.amt)}</td><td>${esc(r.port)}</td>
           <td><select data-pown="${esc(r.isin)}">${PCLS.map(c => `<option value="${c}"${c === r.c ? " selected" : ""}>${esc(px("cls")[c])}</option>`).join("")}</select></td><td class="muted">${esc(px("src")[r.s])}</td></tr>`).join("")}</table></div></details>
       <div class="pbox"><b class="small">${px("saveP")}</b> ${kindTag("ai")}<p class="muted small">${px("saveHint")}</p>${promptBtn(portPrompt(rows))}</div>`;
+  }
+  // Pokyčiai nuo paskutinio išsaugoto portfelio: naujos ir dingusios priemonės pagal tipą (pvz. +5 ETF, −4 obligacijos)
+  let PREV = null;
+  function portDiff(rows) {
+    if (!PREV || !(PREV.rows || []).length) return "";
+    const was = new Map(PREV.rows.map(r => [r.isin, r])), now = new Map(rows.map(r => [r.isin, r]));
+    const add = rows.filter(r => !was.has(r.isin)), gone = PREV.rows.filter(r => !now.has(r.isin)).map(r => ({ ...r, c: r.c || portClass(r)[0] }));
+    if (!add.length && !gone.length) return `<p class="small muted">${LANG === "lt" ? "Palyginti su" : "Compared with"} ${esc(PREV.date)}: ${LANG === "lt" ? "sudėtis nepasikeitė" : "no change in holdings"}.</p>`;
+    const grp = (list, sign) => PCLS.filter(c => list.some(r => r.c === c)).map(c => { const l = list.filter(r => r.c === c);
+      return `<details class="pdiff ${sign === "+" ? "plus" : "minus"}"><summary><b>${sign}${l.length}</b> ${esc(px("cls")[c])}</summary><ul class="small">${l.map(r => `<li>${esc(r.isin)} – ${esc(r.name || "")}${r.port ? ` <span class="muted">(${esc(r.port)})</span>` : ""}</li>`).join("")}</ul></details>`; }).join("");
+    return `<div class="card soft"><b>${LANG === "lt" ? "Pokyčiai nuo" : "Changes since"} ${esc(PREV.date)}</b><div class="pdgrid"><div>${grp(add, "+")}</div><div>${grp(gone, "−")}</div></div></div>`;
   }
   function portPrompt(rows) {
     const L = [`Save our full portfolio (${new Date().toISOString().slice(0, 10)}): write /mnt/project-files/portfolio/portfolio_<date>.csv (isin, name, amount_eur, our_fund, class) and archive it encrypted (python tools/dd_vault.py screen <csv> --view <VIEW.json> --kind portfolio --title "Portfolio <date>"; VIEW = {rows: [{isin, name, amt, port, c}]}), not in the public repo. Check the classes marked unclear or "fund – type to be checked" (ETF / index vs active, unlisted alternatives excluded) and correct them in VIEW. List bonds and shares not yet in the issuers review.`, "isin\tname\tamount_eur\tour_fund\tclass"];
@@ -667,7 +678,8 @@
     (async () => {
       if (!DDL) { let pw = null; try { pw = localStorage.getItem("ddpw"); } catch (e) { /* ignore */ } if (pw) { try { await ddUnlock(pw); } catch (e) { /* ignore */ } } }
       const sv = (DDL || []).filter(x => x.type === "portfolio").sort((a, b) => String(b.date).localeCompare(String(a.date)))[0], el = $("pSaved"); if (!el) return;
-      if (sv) { el.innerHTML = `${px("saved")}: <b>${esc(sv.date)}</b> <button class="btn sm" id="pLoad">${px("load")}</button>`;
+      if (sv) { PREV = { date: sv.date, rows: (sv.view || {}).rows || [] }; if (PORT.rows.length) draw();
+        el.innerHTML = `${px("saved")}: <b>${esc(sv.date)}</b> <button class="btn sm" id="pLoad">${px("load")}</button>`;
         $("pLoad").onclick = () => { const rs = (sv.view || {}).rows || []; PORT.rows = rs.map(r => ({ isin: r.isin, name: r.name, amt: +r.amt || 0, port: r.port || "" })); PORT.own = Object.fromEntries(rs.filter(r => r.c).map(r => [r.isin, r.c])); PORT.text = rs.map(r => [r.isin, r.name, r.amt, r.port].join("\t")).join("\n"); $("pText").value = PORT.text; portSave(); draw(); need(); }; }
       else if (!DDL && D.dd) el.innerHTML = `<a class="muted" href="#funds/fundreview/ddArch">${px("unlock")}</a>`;
     })();
