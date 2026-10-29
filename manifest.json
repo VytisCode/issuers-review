@@ -1483,5 +1483,27 @@
   "sha256": "ba7253e3ef5b1078b3eee8cca07a3f959d55c7f90164035d96f5767889d4c373",
   "bytes": 126142,
   "final_url": "https://docs.extraetf.com/download/IE00BJ0KDR00/en/KID/"
+ },
+ {
+  "isin": "ECB_EURUSD",
+  "kind": "data",
+  "url": "https://data-api.ecb.europa.eu/service/data/EXR/M.USD.EUR.SP00.E?format=csvdata&startPeriod=2022-12&endPeriod=2026-09",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/ECB_EURUSD/data_8938ff2235.csv",
+  "sha256": "8938ff22350d2516b5e6ea2a386bb44661b34696775faa8a21b96fb6c0663e46",
+  "bytes": 9753,
+  "final_url": "https://data-api.ecb.europa.eu/service/data/EXR/M.USD.EUR.SP00.E?format=csvdata&startPeriod=2022-12&endPeriod=2026-09"
+ },
+ {
+  "isin": "ECB_EURUSD_D",
+  "kind": "data",
+  "url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?format=csvdata&startPeriod=2022-12-20&endPeriod=2026-10-28",
+  "fetched": "2026-10-29",
+  "ok": true,
+  "file": "2026-10-29/ECB_EURUSD_D/data_ee3c0273d8.csv",
+  "sha256": "ee3c0273d8ccf4e106649579647a27a4070f3349d63e07a76367eb5a29588f3f",
+  "bytes": 205105,
+  "final_url": "https://data-api.ecb.europa.eu/service/data/EXR/D.USD.EUR.SP00.A?format=csvdata&startPeriod=2022-12-20&endPeriod=2026-10-28"
  }
 ]
