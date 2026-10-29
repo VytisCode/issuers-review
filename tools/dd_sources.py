@@ -43,6 +43,13 @@ def run():
             z.writestr("_saltiniai.txt", "\n".join(lines) + "\n")
         zid = V.add_bytes(buf.getvalue(), {"type": "zip", "parent": job["parent"], "file": job["name"], "docs": ok})
         zips[zid] = job["parent"]
+        # tik naujausias dokumentų ZIP prie įrašo (savininkas 2026-10-29: du „Dokumentai (ZIP)“ mygtukai)
+        ev = V.EVID()
+        stale = [z for z, p in zips.items() if p == job["parent"] and z != zid and z not in ev]
+        if stale:
+            V.INDEX.write_text(json.dumps([x for x in json.loads(V.INDEX.read_text()) if x["id"] not in stale], indent=1) + "\n")
+            for z in stale:
+                zips.pop(z, None); (V.DIR / f"{z}.bin").unlink(missing_ok=True)
         job["done"] = zid
         jf.write_text(json.dumps(job, ensure_ascii=False, indent=1))
         print(f"{job['name']}: {ok}/{len(job['sources'])} dokumentų -> {zid}")
