@@ -1,0 +1,345 @@
+=== pdf p.1 ===
+PASSIV
+
+                iShares MSCI Global Semiconductors
+ SEC0           UCITS ETF
+                U.S. Dollar (thesaurierend)
+                iShares IV plc                                                                                                      Juni 2026
+Informationen zu Wertentwicklung, Portfolioaufteilung und Nettovermögen zum 30. Juni 2026. Alle weiteren Daten per 04.
+Juli 2026.
+Bei diesem Dokument handelt es sich um Werbematerial. Für Anleger in Deutschland. Anleger sollten vor einer Anlage die wesentlichen
+Anlegerinformationen (KIID) / das PRIIPs-Dokument (BiB) und den Verkaufsprospekt lesen und werden auf die vollständige Aufzählung der
+Risiken des Fonds im Verkaufsprospekt verwiesen.
+
+FONDSÜBERBLICK                                                                                   Produktinformationen
+Der Fonds strebt, durch eine Kombination aus Kapitalwachstum und Erträgen auf das                ISIN : IE000I8KRLL9
+Fondsvermögen, die Erzielung einer Rendite auf Ihre Anlage an, welche die Rendite des            Auflegungsdatum der Anteilsklasse : 03. Aug.
+MSCI ACWI IMI Semiconductors & Semiconductor Equipment ESG Screened Select Capped                2021
+Index widerspiegelt.
+                                                                                                 Basiswährung der Anteilsklasse : USD
+WESENTLICHE VORTEILE                                                                             Gesamtkostenquote (TER) : 0,35%
+1.    Engagement in Unternehmen mit hoher, mittlerer und geringer Marktkapitalisierung           Gewinnverwendung : thesaurierend
+      in Industrie- und Schwellenländern, die unter Halbleiter und Halbleiterausrüstung
+                                                                                                 Nettovermögen der Anteilsklasse (M) :
+      klassifiziert sind.
+                                                                                                 6.497,81 USD
+2.    Überprüft, um Unternehmen herauszunehmen, die an umstrittenen und nuklearen
+      Waffen, Tabak, zivilen Schusswaffen, Kraftwerkskohle, Ölsand oder konventionellen          ECKDATEN
+      Waffen beteiligt sind, und die gegen den UN Global Compact verstoßen.                      Anlageklasse : Aktien
+3.    Entwickelt für Anleger, die ein ESG-geprüftes globales Halbleiterengagement                Referenzindex : MSCI ACWI IMI
+      wünschen.                                                                                  Semiconductors & Semiconductor Equipment
+                                                                                                 ESG Screened Capped
+ RISIKOINDIKATOR                                                                                 Auflegungsdatum des Fonds : 03. Aug. 2021
+
+ Niedrigeres Risiko                                                       Höheres Risiko         Nettovermögen des Fonds (M) : 6.497,81 USD
+
+ Potenziell niedrigere Rendite                                      Potenziell höhere Rendite    SFDR-Klassifizierung : Artikel 8
+                                                                                                 Domizil : Irland
+                                                                                                 Methodik : Replikation
+       1            2            3             4            5            6            7          Verwaltungsgesellschaft : iShares IV plc
+RISIKEN IM ZUSAMMENHANG MIT KAPITAL: Der Wert der Anlagen und die daraus Produktstruktur : Physisch
+entstandenen Erträge sind nicht garantiert und können sowohl fallen als auch steigen.
+Anleger erhalten den ursprünglich investierten Betrag eventuell nicht zurück.         PORTFOLIOMERKMALE
+                                                                                                 Kurs-Buchwert-Verhältnis : 12,72x
+WESENTLICHE RISIKEN:
+                                                                                             Kurs-Gewinn-Verhältnis : 67,42x
+     Schwellenländer sind im Allgemeinen anfälliger gegenüber wirtschaftlichen oder
+     politischen Störungen als Industrieländer. Weitere Einflussfaktoren sind ein höheres 3J-Beta : 1,00
+     „Liquiditätsrisiko“, Beschränkungen bei der Anlage in oder der Übertragung von Anzahl der Positionen : 260
+     Vermögenswerten, ausfallende oder verzögerte Lieferung von Wertpapieren bzw.
+     verzögerte Zahlungen an den Fonds sowie nachhaltigkeitsbezogene Risiken.                Weitere Informationen finden Sie im Glossar.
+     Das Anlagerisiko ist auf bestimmte Sektoren, Länder, Währungen oder Unternehmen
+     konzentriert. Folglich reagiert der Fonds anfälliger auf lokale wirtschaftliche,
+     marktbezogene, politische, nachhaltigkeitsbezogene oder aufsichtsrechtliche Ereignisse.
+     Der Wert von Aktien und aktienähnlichen Papieren kann durch die täglichen
+     Kursbewegungen an den Börsen beeinflusst werden. Weitere Einflussfaktoren sind
+     Meldungen aus Politik und Wirtschaft sowie Unternehmensergebnisse und wichtige
+     Unternehmensereignisse.
+     Der Referenzindex schließt Unternehmen mit bestimmten nicht mit ESG-Kriterien zu
+     vereinbarenden       Geschäftstätigkeiten  nur  dann     aus,   wenn     mit    diesen
+     Geschäftstätigkeiten die vom Indexanbieter festgelegten Schwellenwerte überschritten
+     werden. Das ESG-Screening kann das potenzielle Anlageuniversum reduzieren. Dies
+     kann, verglichen mit einem Fonds ohne ein solches Screening, negative Auswirkungen
+     auf den Wert der Investitionen des Fonds haben.
+     Kontrahentenrisiko: Die Zahlungsunfähigkeit von Instituten, die Dienstleistungen wie die
+     Verwahrung von Vermögenswerten anbieten oder als Kontrahent bei Derivategeschäften
+     oder Geschäften mit anderen Instrumenten auftreten, kann zu Verlusten für die
+     Aktienklasse führen.
+     Liquiditätsrisiko: Eine geringere Liquidität bedeutet, dass es nicht genügend Käufer oder
+     Verkäufer gibt, um Anlagen leicht zu verkaufen oder zu kaufen.
+
+=== pdf p.2 ===
+iShares MSCI Global Semiconductors UCITS
+ETF
+U.S. Dollar (thesaurierend)
+iShares IV plc
+
+WERTENTWICKLUNG IM KALENDERJAHR
+
+
+
+
+                           2021                     2022                     2023                   2024                    2025
+  Anteilsklasse                -                   -34,84                    64,13                  13,79                   53,46
+  Referenzindex                -                   -34,71                    64,68                  14,17                   53,90
+
+
+THEORETISCHER WERTZUWACHS BEI ANLAGE VON 10.000 USD SEIT AUFLEGUNG
+
+
+
+
+KUMULIERTE & ANNUALISIERTE WERTENTWICKLUNG
+                                                KUMULIERT (%)                                               ANNUALISIERT (% p.a.)
+                         1M             3M             6M            Seit            1 Jahr       3 Jahre         5 Jahre      Seit Auflage
+                                                                   Jahresan-
+                                                                     fang
+   Anteilsklasse       11,72           95,06         114,24         114,24           187,76        62,53             -              36,92
+  Referenzindex        11,77           95,30         114,78         114,78           188,96        63,09             -              37,36
+
+Die aufgeführten Zahlen beziehen sich auf die Wertentwicklung in der Vergangenheit. Die Wertentwicklung in der Vergangenheit ist kein
+zuverlässiger Indikator für die künftige Entwicklung und sollte nicht der alleinige Entscheidungsfaktor bei der Auswahl eines Produkts oder
+einer Anlagestrategie sein. Die Wertentwicklung der Anteilsklasse und des Referenzindex werden in USD angezeigt, die Wertentwicklung des
+Referenzindex der Währungsgesicherten Anteilsklasse wird in USD angezeigt. Die Wertentwicklung wird auf der Grundlage eines
+Nettoinventarwerts (NIW) mit reinvestiertem Bruttoertrag angezeigt, sofern vorhanden. Aufgrund von Währungsschwankungen kann Ihre Rendite
+höher oder geringer ausfallen, falls Sie in einer anderen Währung als derjenigen investieren, in der die Wertentwicklung in der Vergangenheit
+berechnet wurde.Quelle: BlackRock
+  Anteilsklasse      iShares MSCI Global Semiconductors UCITS ETF U.S. Dollar (thesaurierend)
+  Referenzindex      MSCI ACWI IMI Semiconductors & Semiconductor Equipment ESG Screened Capped
+
+=== pdf p.3 ===
+ iShares MSCI Global Semiconductors UCITS
+ ETF
+U.S. Dollar (thesaurierend)
+iShares IV plc
+
+Top-10-Positionen                                                             AUFTEILUNG NACH REGIONEN (%)
+MICRON TECHNOLOGY INC                                                 9,62%
+ADVANCED MICRO DEVICES INC                                            8,17%
+TAIWAN SEMICONDUCTOR MANUFACTURING                                    6,33%
+APPLIED MATERIAL INC                                                  5,75%
+LAM RESEARCH CORP                                                     5,42%
+BROADCOM INC                                                          5,35%
+NVIDIA CORP                                                           5,29%
+SK HYNIX INC                                                          5,17%
+ASML HOLDING NV                                                       4,75%
+INTEL CORPORATION                                                     4,41%
+Portfolio insgesamt                                                  60,26%
+Die Fonds-Positionen können sich ändern.
+
+
+
+AUFGLIEDERUNG NACH SEKTOREN (%)
+
+
+
+
+                                                                                                               Fonds
+                                                                              Ein geografisches Engagement bezieht sich grundsätzlich auf den Sitz der Emittenten der
+                                                                              Wertpapiere, die in dem Produkt gehalten, zusammengesetzt und anschließend als ein Anteil
+                                                                              der Gesamtpositionen des Produkts ausgedrückt werden. In einigen Fällen kann es jedoch
+                                                                              den Ort wiedergeben, in dem der Emittent der Wertpapiere einen Großteil seiner
+                                                                              Geschäftstätigkeit ausübt.
+
+
+
+
+                                 Fonds
+Allokationen unterliegen Änderungen. Quelle: BlackRock
+
+
+
+HANDELSINFORMATIONEN
+Börse            Xetra                     London Stock   Euronext
+                                           Exchange       Amsterdam
+Ticker           SEC0                      SEMI           SEMI
+Bloomberg- SEC0 GY                         INAVSEM3       SEMI NA
+Ticker
+RIC              SEC0.DE                   SEMI.L         SEMIS.AS
+SEDOL            BMCM847                   BRF6W94        BMCM836
+WKN              A3CVRA                    A3CVRA         A3CVRA
+Währung          EUR                       GBP            USD
+des
+Angebots
+Dieses Produkt ist ebenfalls gelistet an: Bolsa Mexicana De
+Valores,Nyse Euronext - Euronext Paris,Borsa Italiana,SIX Swiss
+Exchange
+
+=== pdf p.4 ===
+ iShares MSCI Global Semiconductors UCITS
+ ETF
+ U.S. Dollar (thesaurierend)
+ iShares IV plc
+
+NACHHALTIGKEITSEIGENSCHAFTEN
+Nachhaltigkeitsmerkmale sind spezifische zusätzliche Kennzahlen, die es Anlegern zusammen mit anderen Kennzahlen und Informationen
+ermöglichen, Fonds nach bestimmten ökologischen, sozialen und die Unternehmensführung (Governance) betreffenden Kriterien zu bewerten.
+Nachhaltigkeitsmerkmale geben weder einen Hinweis auf die aktuelle oder künftige Wertentwicklung noch auf das potenzielle Risiko- und
+Ertragsprofil eines Fonds. Sie dienen lediglich der Transparenz und Information. Daher sollten Nachhaltigkeitsmerkmale nicht ausschließlich oder
+isoliert betrachtet werden. Bei ihnen handelt es sich vielmehr um zusätzliche Informationen, die Anleger bei der Beurteilung eines Fonds
+möglicherweise berücksichtigen möchten.
+
+Die Kennzahlen geben keinen Hinweis darauf, ob und wie ein Fonds ESG-Faktoren integriert. Sofern nicht anders in der Fondsdokumentation
+angegeben und im Anlageziel eines Fonds enthalten, ändern die Kennzahlen weder das Anlageziel eines Fonds, noch beschränken sie dessen
+Anlageuniversum, und es gibt keinen Anhaltspunkt dafür, dass ein Fonds eine Anlagestrategie mit ESG- oder Impact-Schwerpunkt verfolgen
+oder Ausschlussfilter anwenden wird. Weitere Informationen über die Anlagestrategie eines Fonds finden Sie im Fondsprospekt.
+
+
+ MSCI ESG % Abdeckung                                         99,53%       MSCI ESG Fonds Rating (AAA-CCC)                                    AA
+
+
+
+ MSCI ESG Qualitätswert – Peer Perzentil                      89,46%       MSCI ESG Qualitätswert (0-10)                                    7,37
+
+
+                                                                                                                                   Equity Sector
+ Fonds in Peer Group                                            1.395      Fonds Lipper Global Classification                       Information
+                                                                                                                                     Technology
+ MSCI-gewichtete durchschnittliche                                         MSCI Gewichtete durchschnittliche
+                                                              99,01%       Kohlenstoffintensität (Tonnen CO2E/                             76,18
+ Kohlenstoffintensität, Deckung in %
+                                                                           Mio. USD VERKÄUFE)
+ MSCI-Daten zum impliziten                                                 MSCI-Daten zum impliziten
+                                                           >2,0-2,5° C                                                                  97,14%
+ Temperaturanstieg (+0-3,0°C)                                              Temperaturanstieg in Prozent
+
+
+
+Sämtliche Daten stammen aus den ESG-Fondsbewertungen von MSCI per 19. Juni 2026 auf Grundlage der Bestände per 31. Mai 2026. Daher
+können die Nachhaltigkeitsmerkmale eines Fonds gegebenenfalls von den ESG-Fondsbewertungen von MSCI abweichen.
+
+Um in die ESG-Fondsbewertung von MSCI aufgenommen zu werden, müssen 65 % (bzw. 50 % für Anleihe- und Geldmarktfonds) sämtlicher
+Wertpapierbestände des Fonds aus Wertpapieren mit ESG-Abdeckung durch MSCI ESG Research abgedeckt sein (bestimmte Barmittelpositionen
+und andere Vermögenswerte ohne Bedeutung für die ESG-Analyse von MSCI werden im Vorfeld von der Ermittlung der Gesamtbestände des Fonds
+ausgeschlossen; der absolute Wert von Short-Positionen wird zwar berücksichtigt, gilt jedoch nicht als abgedeckt), das Beteiligungsdatum des
+Fonds muss weniger als ein Jahr alt sein und der Fonds muss über mindestens zehn Wertpapiere verfügen.
+
+WICHTIGE INFORMATIONEN:
+Ein Teil der in diesem Dokument aufgeführten Informationen (die „Informationen“) wurden von MSCI ESG Research LLC bereitgestellt, ein
+registrierter Anlageberater nach dem US Investment Advisers Act von 1940, und können Daten von Tochtergesellschaften (einschließlich MSCI Inc.
+und seine Niederlassungen („MSCI“) oder Drittanbietern (jeweils ein „Datenanbieter“) enthalten, und dürfen ohne vorherige schriftliche
+Genehmigung weder ganz noch teilweise vervielfältigt oder weiterverbreitet werden. Die Informationen wurden nicht dem US SEC oder einer
+anderen Regulierungsbehörde vorgelegt und wurden nicht zugelassen. Die Informationen dürfen nicht zum Erstellen von oder in Verbindung mit
+abgeleiteten Werken verwendet werden. Des Weiteren stellen die Informationen kein Angebot zum Kauf, Verkauf oder Empfehlung für Wertpapiere,
+Finanzinstrumente oder Produkte oder Handelsstrategien dar und sollten nicht als Maßstab oder Garantie für die zukünftige Wertentwicklung,
+Analyse, Prognose oder Vorhersage verstanden werden. Einige Fonds können auf MSCI-Indizes basieren oder mit ihnen verbunden sein, und MSCI
+kann im Rahmen von Verwaltungs- oder anderen Maßnahmen auf Basis des Fondsvermögens eine Vergütung hierfür erhalten. MSCI hat
+Informationsbarrieren zwischen der Aktienindex-Research und bestimmten Daten errichtet. Keine der Informationen kann alleinstehend zur
+Bestimmung verwendet werden, welche Wertpapiere zu kaufen oder zu verkaufen sind oder wann sie zu kaufen oder zu verkaufen sind. Die
+Informationen werden im gegenwärtigen Zustand zur Verfügung gestellt, und der Nutzer der Informationen trägt das volle Risiko für eine eventuelle
+Verwendung oder eine Entscheidung auf Grundlage dieser Informationen. Weder MSCI ESG Research noch ein anderer Datenanbieter gewähren
+ausdrückliche oder stillschweigende Zusicherungen oder Gewährleistungen (welche ausdrücklich ausgeschlossen sind) noch unterliegen sie einer
+Haftung für Fehler oder Auslassungen in Bezug auf die Informationen oder daraus entstehende Schäden. Durch den oben angeführten
+Haftungsausschluss wird nicht die Haftung ausgeschlossen oder beschränkt, die nach den anwendbaren Gesetzen nicht ausgeschlossen oder
+begrenzt werden kann.
+
+=== pdf p.5 ===
+ iShares MSCI Global Semiconductors UCITS
+ ETF
+ U.S. Dollar (thesaurierend)
+ iShares IV plc
+
+GLOSSAR
+MSCI ESG Fonds Rating (AAA-CCC): Das MSCI ESG Rating wird als               MSCI ESG % Abdeckung: Prozentsatz der Bestände eines Fonds mit
+direkte Abbildung der ESG-Qualitätswerte berechnet und in                   MSCI ESG Ratingdaten.
+Ratingkategorien umgesetzt (z. B. AAA = 8,6-10). Die ESG Ratings            MSCI ESG Qualitätswert – Peer Perzentil: Das ESG-Perzentil des
+reichen von Anführer (AAA, AA), Durchschnitt (A, BBB, BB) zu                Fonds im Vergleich zur Lipper Peer Group.
+Nachzügler (B, CCC).
+                                                                            Fonds in Peer Group: Die Anzahl an Fonds aus der entsprechenden
+MSCI ESG Qualitätswert (0-10): Der MSCI ESG Qualitätswert (0 – 10)          Lipper Global Classification Peer Group, die sich ebenfalls im ESG-
+für Fonds wird als gewichteter Durchschnitt der ESG-Werte der               Bericht befinden.
+Fondsbestände berechnet. Der Wert berücksichtigt ebenfalls ESG-
+Ratingtrends von Beständen und das Engagement des Fonds in                  MSCI-gewichtete durchschnittliche Kohlenstoffintensität %-
+Bestände       von       Nachzüglern.      MSCI-Werte        legen          Abdeckung: Prozentsatz der Bestände des Fonds, für die MSCI-Daten
+Unternehmensbewertungen entsprechend ihrer Exposition gegenüber             zur Kohlenstoffintensität verfügbar sind. Die MSCI-gewichtete
+35    branchenspezifischen     ESG-Risiken  zugrunde   und      sie         durchschnittliche Kohlenstoffintensität wird für Fonds mit jeder
+berücksichtigen ihre Fähigkeit, wie sie im Vergleich zu ihren               Deckung angezeigt. Fonds mit geringer Abdeckung repräsentieren
+Konkurrenten mit diesen Risiken umgehen.                                    angesichts der fehlenden Deckung möglicherweise nicht vollständig
+                                                                            die CO2-Merkmale des Fonds.
+Fonds Lipper Global Classification: Die Fonds Peer Group gemäß der
+Definition der Lipper Global Classification.                                MSCI-Daten zum impliziten Temperaturanstieg in Prozent:
+                                                                            Prozentualer Anteil der Bestände des Fonds, für die Daten von MSCI
+MSCI Gewichtete durchschnittliche Kohlenstoffintensität (Tonnen             zum impliziten Temperaturanstieg verfügbar sind. Die Kennzahl MSCI
+CO2E/Mio. $ VERKÄUFE): Misst das Engagement eines Fonds in                  Implied Temperature Rise wird für Fonds angegeben, bei denen für
+kohlenstoffintensive Unternehmen. Diese Zahl entspricht den                 mindestens 65% der Bestände Daten zu dieser Kennzahl verfügbar
+geschätzten Treibhausgasemissionen pro 1 Million $-Verkäufe der             sind.
+Fondsbestände. So können Fonds unterschiedlicher Größe miteinander
+verglichen werden.                                                          KBV (Kurs-Buchwert-Verhältnis): Das entspricht dem Verhältnis des
+                                                                            aktuellen Schlusskurses der Aktie zum letzten vierteljährlichen
+MSCI-Daten zum impliziten Temperaturanstieg (+0-3,0°C): Der                 Buchwert je Aktie.
+implizite Temperaturanstieg (ITR) gibt einen Hinweis auf die
+Ausrichtung eines Unternehmens oder Portfolios am Temperaturziel
+des Pariser Abkommens. ITR verwendet quelloffene 1,55° C-
+Dekarbonisierungspfade, die vom Network of Central Banks and
+Supervisors for Greening the Financial System (NGFS) stammen. Diese
+Pfade können regional und sektorspezifisch sein und ein Netto-Null-
+Ziel für 2050 festlegen. Wir nutzen diese Funktion für alle THG-
+Bereiche (Scopes). In einer Wirtschaft mit Netto-Null-Emissionen
+werden nicht mehr Treibhausgase emittiert, als der Atmosphäre
+entzogen werden können. Da bei der Berechnung der Kennzahl MSCI
+Implied Temperature Rise (+0-3,0°C) auch das Potenzial eines
+Unternehmens zur Reduktion seiner Emissionen berücksichtigt wird,
+ist diese Kennzahl zukunftsorientiert und ihre Aussagekraft somit
+begrenzt. Daher veröffentlicht BlackRock die ITR-Kennzahl von MSCI
+für seine Fonds in Temperaturbandbreiten. Dies soll die den
+Berechnungen zugrunde liegende Unsicherheit und die Variabilität der
+Kennzahl verdeutlichen.
+SFDR-Klassifizierung: Artikel 8: Produkte, die ökologische oder soziale
+Merkmale und Verfahren der guten Unternehmensführung fördern.
+Artikel 9: Produkte, die nachhaltige Anlagen zum Ziel haben und
+Verfahren der guten Unternehmensführung entsprechen. Andere:
+Produkte, die die Kriterien für die Einstufung als Artikel 8 oder 9 nicht
+erfüllen.
+Kurs-Gewinn: Eine Bewertungsrelation des aktuellen Aktienkurses
+eines Unternehmens gegenüber seinem Gewinn je Aktie im aktuellen
+Prognosejahr, die als aktueller Aktienkurs geteilt durch den aktuellen
+Gewinn je Aktie berechnet wird.
+ WICHTIGE INFORMATIONEN:
+Im Europäischen Wirtschaftsraum (EWR): Das vorliegende Dokument wird von der BlackRock (Netherlands) B.V. herausgegeben, die von der
+niederländischen Behörde für die Finanzmärkte zugelassen wurde und deren Aufsicht untersteht. Eingetragener Geschäftssitz: Amstelplein 1, 1096
+HA, Amsterdam, Niederlande, Tel.: 020 – 549 5200, Tel.: 31-20-549-5200. Handelsregister-Nr. 17068311. Zu Ihrer Sicherheit werden Telefonate in
+der Regel aufgezeichnet. Für Irland sowie ausschließlich in Bezug auf sogenannte geborene professionelle Kunden und/oder geeignete
+Gegenparteien (d. h. professionelle Anleger) kann das vorliegende Dokument auch von der BlackRock Investment Management (UK) Limited
+herausgegeben werden, die von der Financial Conduct Authority zugelassen wurde und deren Aufsicht untersteht. Eingetragener Geschäftssitz:
+12 Throgmorton Avenue, London, EC2N 2DL. Tel.: + 44 (0)20 7743 3000. Eingetragen in England und Wales unter der Nr. 02020394. Zu Ihrer
+Sicherheit werden Telefonate in der Regel aufgezeichnet. Eine Auflistung der zulässigen Tätigkeiten von BlackRock finden Sie auf der Website der
+Financial Conduct Authority.
+Im Vereinigten Königreich und in Ländern außerhalb des Europäischen Wirtschaftsraums (EWR) (ohne die Schweiz): Das vorliegende
+Dokument wird von der BlackRock Investment Management (UK) Limited herausgegeben, die von der Financial Conduct Authority zugelassen
+wurde und deren Aufsicht untersteht. Eingetragener Geschäftssitz: 12 Throgmorton Avenue, London, EC2N 2DL. Tel.: + 44 (0)20 7743 3000.
+Eingetragen in England und Wales unter der Nr. 02020394. Zu Ihrer Sicherheit werden Telefonate in der Regel aufgezeichnet. Eine Auflistung der
+zulässigen Tätigkeiten von BlackRock finden Sie auf der Website der Financial Conduct Authority.
+Bei diesem Dokument handelt es sich um Werbematerial. iShares plc, iShares II plc, iShares III plc, iShares IV plc, iShares V plc, iShares VI plc und
+iShares VII plc (zusammen „die Gesellschaften“) sind offene Investmentgesellschaften mit variablem Kapital und getrennter Haftung zwischen den
+
+=== pdf p.6 ===
+ WICHTIGE INFORMATIONEN:
+Fonds, die nach irischem Recht organisiert sind und von der Central Bank of Ireland zugelassen wurden. Den Prospekt (in deutscher, englischer,
+französischer und polnischer Sprache verfügbar), die wesentlichen Informationen für den Anleger (nur Vereinigtes Königreich), das PRIIPs BiB und
+weiterführende Informationen zu dem Fonds und der Anteilklasse, beispielsweise Angaben zu den wichtigsten zugrunde liegenden Anlagen der
+Anteilklasse und den Preisen der Anteile, erhalten Sie auf der iShares-Website unter www.ishares.com oder telefonisch unter +44 (0)845 357 7000
+oder bei Ihrem Makler oder Finanzberater. Der indikative Intra-Day-Nettoinventarwert der Anteilklasse ist einsehbar auf http://deutsche-
+boerse.com und/oder http://www.reuters.com. Auf dem Sekundärmarkt erworbene Anteile/Aktien eines ETF mit OGAW-Status können in der Regel
+nicht unmittelbar an den ETF mit OGAW-Status selbst zurückverkauft werden. Anleger, die keine zugelassenen Teilnehmer sind, müssen Anteile mit
+Unterstützung eines Vermittlers (z. B. eines Börsenmaklers) auf einem Sekundärmarkt kaufen und verkaufen, wobei Gebühren und zusätzliche
+Steuern anfallen können. Darüber hinaus kann es sein, dass Anleger beim Kauf von Anteilen mehr als den gegenwärtigen Nettoinventarwert je
+Anteil zahlen und beim Verkauf weniger als den gegenwärtigen Nettoinventarwert je Anteil erhalten, da der Marktpreis, zu dem die Anteile auf dem
+Sekundärmarkt gehandelt werden, unter Umständen vom Nettoinventarwert je Anteil abweicht. OGAW BIETEN KEINE GARANTIERTE RENDITE,
+UND DIE WERTENTWICKLUNG IN DER VERGANGENHEIT IST KEINE GARANTIE FÜR DIE ZUKÜNFTIGE WERTENTWICKLUNG
+
+Bei diesem Dokument handelt es sich um Werbematerial, das zwölf Monate nach der Ausgabe seine Gültigkeit verliert
+Dieses Dokument ist unter keinen Umständen als Werbung oder anderweitige Unterstützung für ein öffentliches Angebot von Anteilen in den USA
+oder Kanada zu verstehen. Dieses Dokument richtet sich nicht an Personen, die in den USA, Kanada oder einer Provinz bzw. einem Hoheitsgebiet
+dieser Länder ansässig sind, wo die Unternehmen/Wertpapiere nicht für den Vertrieb zugelassen oder eingetragen sind und kein Prospekt bei einer
+Wertpapierkommission oder Aufsichtsbehörde hinterlegt wurde. Die Unternehmen/Wertpapiere dürfen nicht von einem ERISA-Plan oder mit dem
+Vermögen eines solchen Plans erworben werden oder sich in dessen Besitz befinden.
+Sämtliche in diesem Dokument enthaltenen Analyseergebnisse wurden von BlackRock beschafft und können von BlackRock für eigene Zwecke
+eingesetzt worden sein. Die Ergebnisse solcher Analysen werden in diesem Rahmen nur beiläufig zur Verfügung gestellt. Die geäußerten Ansichten
+stellen keine Anlageempfehlung oder sonstige Beratung dar und können sich jederzeit ändern. Sie geben nicht zwangsläufig die Ansichten eines
+Unternehmens in der BlackRock-Gruppe oder eines Teils davon wieder, und es wird keine Gewähr für ihre Richtigkeit übernommen.
+
+ Dieses Dokument dient ausschließlich Informationszwecken. Es stellt weder ein Angebot noch eine Aufforderung zur Investition in Fonds von
+BlackRock dar und wurde nicht in Verbindung mit einem solchen Angebot erstellt.
+© 2026 BlackRock, Inc. Alle Rechte vorbehalten. BLACKROCK, BLACKROCK SOLUTIONS und iSHARES sind Marken von BlackRock, Inc. oder
+ihren verbundenen Unternehmen. Alle anderen Marken sind Eigentum der jeweiligen Rechteinhaber.
+

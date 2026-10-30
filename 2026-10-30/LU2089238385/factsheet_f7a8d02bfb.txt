@@ -1,0 +1,420 @@
+=== pdf p.1 ===
+       Amundi Prime Japan UCITS ETF
+                                                                                                                                                                              FACTSHEET
+
+                                                                                                                                                                               Marketing-
+                                                                                                                                                                                Anzeige
+ MARKETING-ANZEIGEN ■
+                                                                                                                                                                              30/06/2026
+
+Anlageziel
+
+  Dieser Teilfonds wird passiv verwaltet. Das Ziel dieses Teilfonds besteht darin, die Wertentwicklung des Solactive GBS Japan Large & Mid Cap Index nachzubilden und den
+  Tracking Error zwischen dem Nettoinventarwert des Teilfonds und der Wertentwicklung des Index zu minimieren. Das voraussichtliche Niveau des Tracking Error unter
+  normalen Marktbedingungen ist im Prospekt des Teilfonds angegeben. Der Index ist ein Netto-Gesamtertragsindex: Die von den Indexbestandteilen gezahlten Dividenden
+  nach Abzug der Steuern sind in der Indexrendite enthalten. Der Solactive GBS Japan Large & Mid Cap Index ist ein Aktienindex, der die in Japan notierten und gehandelten
+  Wertpapiere von Unternehmen mit großer und mittelgroßer Kapitalisierung repräsentiert. Weitere Informationen zur Zusammensetzung des Index und seinen
+  Betriebsvorschriften sind im Prospekt und unter solactive.de verfügbar. Der Indexwert ist über Bloomberg (SJPLMCN) erhältlich. Das Engagement im Index wird durch eine
+  direkte Nachbildung erreicht, hauptsächlich durch direkte Anlagen in übertragbaren Wertpapieren und/oder anderen zulässigen Vermögenswerten, die die Indexbestandteile
+  repräsentieren, in einem Verhältnis, das ihrem Anteil im Index sehr nahe kommt. Der Anlageverwalter kann Derivate einsetzen, um die Zu- und Abflüsse zu bewältigen, aber
+  auch, wenn damit ein besseres Engagement in einem Indexbestandteil erreicht werden kann. Um zusätzlich Erträge zum Ausgleich seiner Kosten zu generieren, darf der
+  Teilfonds zudem Wertpapierleihgeschäfte tätigen.
+
+Wertentwicklung des Nettoinventarwertes (NAV) * von 12/03/2019 bis 30/06/2026 (Quelle : Fund Admin)                                               Risikoindikatoren (Quelle: Fund Admin)
+
+     400                                                                                                                                                                              3       seit
+                                                                                                                                                                             1 Jahr
+                                                                                                                                                                                    Jahre Auflegung *
+                                                                                                                                                   Portfolio Volatilität    14,97% 17,30%   18,08%
+     300
+                                                                                                                                                   Referenzindex
+                                                                                                                                                                            14,99% 17,30%         18,08%
+                                                                                                                                                   Volatilität
+     200                                                                                                                                           Tracking Error ex-
+                                                                                                                                                                             0,06% 0,05%          0,11%
+                                                                                                                                                   post
+                                                                                                                                                   Sharpe Ratio               2,83     1,28         0,88
+     100                                                                                                                                          * Die Volatilität ist ein statistischer Indikator, der die
+                                                                                                                                                  Schwankungen eines Vermögenswerts um seinen Mittelwert
+                                                                                                                                                  misst. Beispielsweise entspricht eine Marktschwankung von
+       0                                                                                                                                          +/- 1,5% pro Tag einer Volatilität von 25% pro Jahr. Je höher
+                                                                                                                                                  die Volatilität, desto höher das Risiko.
+              /19
+
+
+                       /19
+
+
+                                /20
+
+
+                                         /20
+
+
+                                                 /21
+
+
+                                                          /21
+
+
+                                                                   /22
+
+
+                                                                            /22
+
+
+                                                                                    /23
+
+
+                                                                                             /23
+
+
+                                                                                                      /24
+
+
+                                                                                                               /24
+
+
+                                                                                                                        /25
+
+
+                                                                                                                                 /25
+
+
+                                                                                                                                         /26
+
+
+
+
+                                                                                                                                                  Der Tracking Error-Indikator misst die Differenz in der
+            06
+
+
+                     12
+
+
+                              06
+
+
+                                       12
+
+
+                                               06
+
+
+                                                        12
+
+
+                                                                 06
+
+
+                                                                          12
+
+
+                                                                                  06
+
+
+                                                                                           12
+
+
+                                                                                                    06
+
+
+                                                                                                             12
+
+
+                                                                                                                      06
+
+
+                                                                                                                               12
+
+
+                                                                                                                                       06
+
+
+
+
+                                                                                                                                                  Wertentwicklung zwischen dem Fonds und dem
+                                                         Portfolio        Referenzindex
+                                                                                                                                                  Vergleichsindex
+
+                                                                                                                                                  Morningstar Rating ©
+Kumulierte Wertentwicklung* (Quelle: Fondsadministrator)
+
+                                         seit dem 1 Monat 3 Monate         1 Jahr    3 Jahre    5 Jahre    seit dem                                Morningstar-Rating © : 3 Sterne
+ seit dem                               31/12/2025 29/05/2026 31/03/2026 30/06/2025 30/06/2023 30/06/2021 12/03/2019                               Morningstar-Kategorie © :
+ Portfolio ohne                                                                                                                                     EAA FUND JAPAN LARGE-CAP BLEND EQUITY
+                                           18,87%         1,52%          15,67%       43,49%         85,08%          128,63%      198,75%
+ Ausgabeaufschlag                                                                                                                                  Datum des Ratings : 31/05/2026
+ Referenzindex                             18,88%         1,48%          15,69%       43,52%         85,15%          128,61%      197,29%          Anzahl der Fonds der Kategorie : 794
+ Abweichung                                -0,01%         0,04%          -0,02%       -0,02%         -0,07%           0,02%        1,45%
+Kalenderjahr Wertentwicklung* (Quelle: Fund Admin)
+
+                                                  2025   2024   2023   2022   2021   2020 2019 2018 2017 2016
+ Portfolio ohne Ausgabeaufschlag                 24,50% 20,57% 28,18% -3,83% 13,39% 8,58% -      -    -    -
+ Referenzindex                                   24,51% 20,62% 28,11% -3,82% 13,41% 8,40% -      -    -    -
+ Abweichung                                      -0,01% -0,05% 0,07% -0,01% -0,03% 0,18% -       -    -    -
+
+* Quelle : Amundi. Die Entwicklungen in der Vergangenheit lassen keine Rückschlüsse auf aktuelle und künftige Ergebnisse zu und sind keine
+Garantie für künftige Erträge. Die eventuellen Gewinne oder Verluste berücksichtigen nicht die gegebenenfalls vom Anleger zu tragenden Kosten,
+Gebühren und Abgaben, die bei der Emission oder der Rücknahme von Anteilen anfallen (z.B.: Steuern, Vermittlungsgebühren oder sonstige vom
+Intermediär erhobene Gebühren). Wenn die Performances in einer anderen Währung als dem Euro berechnet werden, können die eventuell
+entstandenen Gewinne oder Verluste Wechselkursschwankungen unterliegen (d.h. sie können zu- oder abnehmen). Der Spread entspricht der Differenz
+zwischen der Performance des Portfolios und der des Index.
+
+
+
+
+                                                                                             ■ amundietf.com
+                                                                         Für Marketing- und Informationszwecke
+
+=== pdf p.2 ===
+       Amundi Prime Japan UCITS ETF
+                                                                                                                                                                               FACTSHEET
+
+                                                                                                                                                                               Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                            Anzeige
+                                                                                                                                                                               30/06/2026
+
+
+Risiko-indikator (Quelle: Fund Admin)
+                                                                    Wir haben dieses Produkt auf einer Skala von 1 bis 7 in die Risikoklasse 4 eingestuft, wobei 4 einer mittleren
+                                                                    Risikoklasse entspricht. Das Risiko potenzieller Verluste aus der künftigen Wertentwicklung wird als mittel
+                                                                    eingestuft. Bei ungünstigen Marktbedingungen ist es möglich, dass unsere Fähigkeit beeinträchtigt wird, Sie
+                                                                    auszuzahlen. Zusätzliche Risiken: Das Marktliquiditätsrisiko könnte die Schwankungen der Wertentwicklung des
+                                                                    Produkts verstärken. Dieses Produkt beinhaltet keinen Schutz vor künftigen Marktentwicklungen, sodass Sie das
+   Niedrigeres Risiko                   Höheres Risiko
+                                                                    angelegte Kapital ganz oder teilweise verlieren könnten. Neben den im Risikoindikator einberechneten Risiken
+                                                                    können sonstige Risiken die Wertentwicklung des Teilfonds beeinträchtigen. Weitere Informationen finden Sie im
+      Der Risiko-Indikator beruht auf der Annahme, dass Sie         Prospekt des Amundi Index Solutions.
+das Produkt für 5 Jahre lang halten.
+Der Gesamtrisikoindikator hilft Ihnen, das mit diesem
+Produkt verbundene Risiko im Vergleich zu anderen
+Produkten einzuschätzen. Er zeigt, wie hoch die
+Wahrscheinlichkeit ist, dass Sie bei diesem Produkt Geld
+verlieren, weil sich die Märkte in einer bestimmten Weise
+entwickeln oder wir nicht in der Lage sind, Sie
+auszubezahlen.
+
+
+Haupteigenschaften (Quelle: Amundi)
+
+ VL                                                                                                                                             C : 6.702,19 JPY
+                                                                                                                                                D : 6.780,97 JPY
+ Fondsvolumen                                                                                                                            706.221,84 ( Millionen JPY )
+ Verwaltungsgebühren und sonstige Verwaltungs- oder Betriebskosten                                                                                    0,05%
+ Datum des NAV                                                                                                                                     30/06/2026
+ ISIN-Code                                                                                                                                       LU2089238385
+ WKN                                                                                                                                                A2PWML
+ Nachbildungsart                                                                                                                                    Physisch
+ Referenzindex                                                                                                       100% SOLACTIVE GBS JAPAN LARGE & MID CAP INDEX
+ Ertragsverwendung                                                                                                                             (C) Thesaurierend
+                                                                                                                                               (D) Ausschüttend
+ Datum der Letzte Ausschüttung                                                                                                                 09/12/2025 ( JPY )
+ Letzte Ausschüttung                                                                                                                            100,0000 ( JPY )
+ Rechtsform                                                                                                                        OGAW nach luxemburgischem Recht
+ OGAW konform                                                                                                                                         OGAW
+ Verwaltungsgesellschaft                                                                                                                   Amundi Luxembourg SA
+ Administrator                                                                                                                      CACEIS Bank, Luxembourg Branch
+ Depotbank                                                                                                                          CACEIS Bank, Luxembourg Branch
+ Unabhängiger Wirtschaftsprüfer                                                                                                                 DELOITTE AUDIT
+ Auflagedatum der Anlageklasse                                                                                                                     30/01/2019
+ Erster NAV                                                                                                                                      2.500,00 ( JPY )
+ Datum der ersten NAV                                                                                                                              30/01/2019
+ Referenzwährung der Anteilsklasse                                                                                                                      JPY
+ Mindestanlage am Sekundärmarkt                                                                                                                     1 Anteil(e)
+ Häufigkeit der Berechnung des Nettoinventarwerts                                                                                                     Täglich
+ Fiskaljahresende                                                                                                                                   September
+
+
+
+
+                                                              Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                              von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                                Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.3 ===
+     Amundi Prime Japan UCITS ETF
+                                                                                                                                                                                      FACTSHEET
+
+
+                                                                                                                                                                                      Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                                   Anzeige
+                                                                                                                                                                                      30/06/2026
+
+
+
+
+Das Investmentteam
+
+
+         Nobuaki Kato                                               Keisuke NAKAYAMA                                                Satoru KOBAYASHI
+
+         Head_of_Index & Multistrategies Equity (Tokyo)             Investmentfondsverwalter                                        Co-Portfolio Manager
+
+
+
+
+Index-Daten (Quelle: Amundi)
+
+
+Beschreibung                                                                                          Die größten Index-Positionen (Quelle : Amundi)
+
+ Der Solactive GBS Japan Large & Mid Cap Index ist ein Aktienindex, der                                                                                                          % Referenzindex
+ Wertpapiere großer und mittlerer Kapitalisierung repräsentiert, die in Japan gelistet                MITSUBISHI UFJ FIN                                                             3,94%
+ und gehandelt werden.                                                                                TOKYO ELECTRON LTD                                                             3,66%
+                                                                                                      TOYOTA MOTOR CORP                                                              3,17%
+                                                                                                      SUMITOMO MITSUI FINAN                                                          2,60%
+                                                                                                      ADVANTEST                                                                      2,52%
+                                                                                                      SOFTBANK GROUP CORP                                                            2,27%
+Informationen (Quelle : Amundi)                                                                       SONY GROUP CORP (JT)                                                           2,14%
+ Anlageklasse : Aktien                                                                                HITACHI LTD                                                                    2,10%
+ Klassifizierung : Japan                                                                              MIZUHO FINANCIAL GROUP INC                                                     2,05%
+ Referenzwährung des Index : JPY                                                                      MURATA MANUFACT                                                                1,95%
+                                                                                                      Summe                                                                          26,40%
+ Anzahl der Titel : 306
+                                                                                                      Nur zu Illustrationszwecken und keine Empfehlung zum Kauf oder Verkauf von Wertpapieren.
+
+
+
+
+Aufteilung nach Ländern (Quelle : Amundi)                                                             Aufteilung nach Sektoren (Quelle : Amundi)
+
+
+                                                                                                                                 Industrie                                                          23,73 %
+
+
+                                                                                                                                        IT                                               19,38 %
+
+
+                                                                                                                            Finanzwesen                                              17,22 %
+     Japan                                                                  100,00 %
+
+                                                                                                                 Zyklische Konsumgüter                                         14,69 %
+
+
+                                                                                                                 Kommunikationsdienste                         6,47 %
+
+
+                                                                                                                              Gesundheit                    5,23 %
+
+
+                                                                                                                              Grundstoffe                  4,50 %
+
+
+                                                                                                           Nicht-zyklische Konsumgüter                     4,29 %
+
+   Sonstige
+                                                                                                                               Immobilien           2,59 %
+
+
+                                                                                                             Öffentliche Dienstleistungen         1,15 %
+
+
+                                                                                                                                  Energie      0,75 %
+
+              0%          20 %         40 %           60 %   80 %        100 %     120 %                                                     0%         5%           10 %     15 %       20 %      25 %
+                                                 Index                                                                                                      Index
+
+
+
+
+                                                             Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                             von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                               Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.4 ===
+      Amundi Prime Japan UCITS ETF
+                                                                                                                                                                               FACTSHEET
+
+
+                                                                                                                                                                               Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                            Anzeige
+                                                                                                                                                                               30/06/2026
+
+
+Handelsinformationen (Quelle : Amundi)
+                Börsenplätze                         Währung                  Ticker Bloomberg                         INAV Bloomberg                       RIC Reuters        INAV Reuters
+            Deutsche Boerse (Xetra)                   EUR                          PR1J GY                                  IPR1J                             PR1J.DE           IPR1J=BNPP
+                     LSE                              GBP                          PRIJ LN                                    -                                PRIJ.L                -
+                     LSE                              USD                          PRJU LN                                    -                               PRJU.L                 -
+                Euronext Milan                        EUR                         ETFJAP IM                                 IPR1J                            ETFJAP.MI          IPR1J=BNPP
+
+
+
+
+Index-Anbieter
+The financial instrument is not sponsored, promoted, sold or supported in any other manner by Solactive AG nor does Solactive AG offer any express or implicit guarantee or assurance either
+with regard to the results of using the index and/or index trade mark or the index price at any time or in any other respect. The index is calculated and published by Solactive AG. Solactive AG
+uses its best efforts to ensure that the index is calculated correctly. Irrespective of its obligations towards the issuer, Solactive AG has no obligation to point out errors in the index to third
+parties including but not limited to investors and/or financial intermediaries of the financial instrument. Neither publication of the index by Solactive AG nor the licensing of the index or index
+trade mark for the purpose of use in connection with the financial instrument constitutes a recommendation by Solactive AG to invest capital in said financial instrument nor does it in any way
+represent an assurance or opinion of Solactive AG with regard to any investment in this financial instrument.
+
+
+
+
+                                                              Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                              von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                                Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.5 ===
+     Amundi Prime Japan UCITS ETF
+                                                                                                                                                                        FACTSHEET
+
+                                                                                                                                                                        Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                     Anzeige
+                                                                                                                                                                        30/06/2026
+
+
+
+Wichtige Hinweise
+
+ Informationen über die Verwaltungsgesellschaft und den Fonds
+ Teilfonds der Luxemburg SICAV Amundi Index Solutions (der 'Teilfonds' oder der 'Fonds' und die 'SICAV'). Die SICAV ist eine Vereinbarung für gemeinsame Anlagen in
+ Wertpapieren gemäß Teil I des luxemburgischen Gesetzes vom 17. Dezember 2010, die in Form einer Investmentgesellschaft mit variablem Kapital gegründet wurde und unter
+ der Nummer B206810 im Handels- und Gesellschaftsregister Luxemburg eingetragen ist. Der eingetragene Sitz der SICAV befindet sich in 5, allée Scheffer, L-2520
+ Luxemburg. Der Teilfonds wurde von der Commission de Surveillance du Secteur Financier in Luxemburg zum und von der AMF in Frankreich zum öffentlichen Vertrieb
+ zugelassen. Die SICAV besteht aus anderen Teilfonds, die in dem Prospekt beschrieben sind. Nicht alle Teilfonds werden unbedingt in den Ländern aller Anleger registriert
+ oder zum Vertrieb zugelassen.
+ Informationen über den Fonds sind in den wesentlichen Anlegerinformationen (Basisinformationsblatt) und in dem Verkaufsprospekt enthalten. Die wesentlichen
+ Anlegerinformationen des Fonds müssen interessierten Anlegern vor jeder Zeichnung zur Verfügung gestellt werden.
+
+ Bei den Fonds handelt es sich um französische, luxemburgische und/oder irische offene Investmentfonds, die entsprechend von der französischen Autorité des Marchés
+ Financiers (französische Finanzmarktaufsichtsbehörde), von der Luxemburger Commission de Surveillance du Secteur Financier (CSSF) oder von der Central Bank of Ireland
+ (irische Finanzmarktaufsichtsbehörde) genehmigt wurden und zur Vermarktung ihrer Anteile oder Aktien in verschiedenen europäischen Ländern (die Vertriebsländer) gemäß
+ Artikel 93 der Richtlinie 2009/65/EG berechtigt sind.
+ Für Amundi ETF: Für weitere Informationen über die Fonds kann von Amundi Deutschland GmbH, Arnulfstr. 124-126, 80636 München, Deutschland (Tel. +49 (0)89 99 2260)
+ ein kostenloser Verkaufsprospekt angefordert werden. Die aufsichtsrechtlichen Dokumente der Amundi ETFs, die zum öffentlichen Vertrieb in Deutschland zugelassen sind,
+ sind auf Anfrage kostenlos und als gedrucktes Exemplar bei Marcard, Stein & Co. AG, Ballindamm 36, 20095 Hamburg, Deutschland erhältlich.
+ Bei Fonds, die an einem geregelten Markt zugelassen sind, unterliegt die Notierung einem Mechanismus zur Volatilitätskontrolle, um sicherzustellen, dass der ETF-Preis nicht
+ wesentlich von einem Referenzpreis abweicht. Dies ist in den Notierungsregeln des jeweiligen geregelten Marktes festgelegt, insbesondere durch die Einführung eines
+ Handelsstopps-Mechanismus im Falle einer erheblichen Abweichung vom Referenzpreis.
+
+ Der Fonds bietet keine Kapitalgarantie. Daher ist es möglich, dass das ursprünglich investierte Kapital nicht vollständig zurückgezahlt wird, insbesondere bei einem
+ Wertverlust des Referenzindexes. Zeichnungen von OGAW-Anteilen können mit Risiken verbunden sein. Interessierte Anleger sollten die Informationen über das Risikoprofil
+ des Fonds lesen, das ausführlich im Vekraufsprospekt beschrieben wird. Es hängt von der persönlichen Situation eines Anlegers ab, welcher Betrag für eine Anlage in den
+ Fonds angemessen ist. Um diesen Betrag zu bestimmen, sollten Anleger ihre finanzielle Situation, ihr persönliches Vermögen, ihre derzeitigen und zukünftigen finanziellen
+ Bedürfnisse, aber auch ihre jeweilige Risikobereitschaft bzw. Risikoaversion berücksichtigen. Es wird auch nachdrücklich empfohlen, dass ein Anleger seine Anlagen
+ hinreichend diversifiziert, um nicht ausschließlich den mit dem Fonds verbundenen Risiken ausgesetzt zu sein. Anleger werden daher gebeten, sich zu diesen Punkten von
+ ihren üblichen Beratern (Rechts-, Steuer- und/oder Finanzberater) beraten zu lassen, bevor sie Anteile des Fonds erwerben.
+ Soweit nichts Gegenteiliges vermerkt ist, stammen alle Angaben dieses Dokuments von Amundi Asset Management.
+
+ Richtlinien zur Portfoliotransparenz und Hinweise zum Sekundärmarkt
+ Informationen zur Portfoliotransparenzstrategie sowie Informationen über die Zusammensetzung des Portfolios sind auf amundietf.com erhältlich. Der indikative
+ Nettoinventarwert wird über die Börsen veröffentlicht. Auf dem Sekundärmarkt erworbene Fondsanteile können in der Regel nicht direkt an den Fonds zurückverkauft werden.
+ Anleger müssen Anteile/Aktien auf einem Sekundärmarkt mit Hilfe eines Intermediärs (z.B. eines Börsenmaklers) kaufen oder verkaufen; diese Hilfe kann gebührenpflichtig
+ sein. Darüber hinaus zahlen Anleger beim Kauf von Anteilen/Aktien u.U. mehr als den aktuellen Nettoinventarwert und erhalten beim Verkauf weniger als den aktuellen
+ Nettoinventarwert dafür zurück.
+
+
+
+
+                                                       Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                       von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                         Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+

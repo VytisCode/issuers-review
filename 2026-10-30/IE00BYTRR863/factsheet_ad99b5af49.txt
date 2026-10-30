@@ -1,0 +1,224 @@
+=== pdf p.1 ===
+                                                                       Informationsblatt                          28 Februar 2022
+SPDR MSCI World      ®                                                 Aktien
+
+Energy UCITS ETF                                                       31 Januar 2022
+
+
+
+
+                                                                       Fondsinformationen
+Anlageziel des Fonds
+                                                                       ISIN                           IE00BYTRR863
+Das Ziel des Fonds ist die Nachbildung der Performance von             Benchmark                      MSCI World Energy 35/20 Capped Index
+Unternehmen des Energiesektors in Industrieländern weltweit. Der       Index Ticker                   NU731551
+Fonds versucht, die Wertentwicklung des MSCI World Energy Index        Index-klassifizierung          Nettogesamtertrag
+(der „Index“) möglichst genau abzubilden.                              Anzahl An Titeln               50
+
+
+
+Indexbeschreibung                                                      Schlüsselfaktoren
+                                                                       Auflagedatum                   29-Apr-2016
+Der MSCI World Energy 35/20 Capped Index misst die                     Share Class Währung            USD
+Wertentwicklung globaler Aktien, die gemäß dem Global                  Fonds — Basiswährung           USD
+Industry Classification Standard (GICS) dem Energiesektor              TER                            0,30%
+zugerechnet werden.
+                                                                       Ertragsverwendung              Thesaurierend
+                                                                       Replikationsmethode            Nachbildung
+
+Steuerstatus                                                           UCITS-konform                  Ja
+                                                                       Domizil                        Irland
+Standardgemäß ist die SSGA bestrebt, alle geltenden steuerlichen       Investment Manager             State Street Global Advisors Europe Limited
+Berichtspflichten für alle SPDR ETFs in den folgenden Ländern          Unteranlageverwalter           State Street Global Advisors Limited
+einzuhalten. Anmeldungen erfolgen je nach der Zeitskala, die von       Fonds-Umbrella                 SSGA SPDR ETFs Europe II plc
+der jeweiligen Steuerbehörde vorgegeben wird, das ganze Jahr           Volumen Anteilsklasse (Mio.)   US$707,48
+über: Großbritannien, Deutschland, Österreich, Schweiz.
+                                                                       Volumen aller Anteilsklassen   US$707,48
+                                                                       (Mio.)
+                                                                       ISA berechtigt                 Ja
+Länder mit Vertriebszulassung
+                                                                       SIPP berechtigt                Ja
+                                                                       PEA berechtigt                 Keine
+Spanien, Schweiz, Schweden, Österreich, Norwegen, Niederlande,
+Luxemburg, Italien, Irland, Großbritannien, Frankreich, Finnland,      Vor dem 1 Dezember 2020 war die Benchmark des Fonds der MSCI World
+Deutschland, Dänemark                                                  Energy Index.
+
+
+Notierung
+Börse                           Börsenticker      Handelswährung    iNAV Code             Bloomberg Code       Reuters Code        SEDOL Code
+Euronext Amsterdam*             WNRG              EUR               INWNRGE               WNRG NA              WNRG.AS             BYZJ087
+London Stock Exchange           WNRG              USD               INWNRG                WNRG LN              SPWNRG.L            BYYW106
+SIX Swiss Exchange              WNRG              USD               INWNRG                WNRG SE              SPWNRG.S            BYZJ0L0
+Borsa Italiana                  WNRG              EUR               INWNRGE               WNRG IM              WRNG.MI             BHXH6H5
+Bolsa Mexicana de Valores       WNRGN             MXN                                     WNRGN MM             WNRGN.MX            BJCW8R9
+*"Primary Listing"
+
+
+
+
+                                                                       1
+
+=== pdf p.2 ===
+Wertentwicklung                                                                        Merkmale
+                Index      Fonds vor      Differenz    Fonds nach       Differenz      Anzahl der Vermögenswerte                   50
+                              Kosten                       Kosten
+                                                                                       Kurs-Gewinn-Verhältnis für das laufende     10,32
+                             (brutto)                      (netto)
+                                                                                       Jahr
+Annualisierte Renditen (%)
+                                                                                       Durchschnittliches Preis/Buch- Verhältnis   1,85
+1 Jahr         42,71          43,47           0,76          43,05           0,33
+                                                                                       Durchschnittliche Marktkapitalisierung      US$136.633,33
+3 Jahre          4,64           5,22          0,57            4,90          0,26       (Mio.)
+5 Jahre          3,85           4,37          0,52            4,06          0,21       Dividendenrendite des Index                 3,81%
+10 Jahre         0,96           1,28          0,32            0,94         -0,02       Quelle: State Street Global Advisors Die aufgeführten Merkmale, Bestände,
+Seit             4,37           4,63          0,26            4,28         -0,10       Länderallokationen und Sektoren entsprechen dem oben in diesem Factsheet
+Auflage                                                                                angegebenen Datum und können sich ändern. Jegliche Bezugnahme auf ein
+                                                                                       bestimmtes Unternehmen oder Wertpapier stellt keine Empfehlung zum Kauf,
+Kumulative Wertentwicklung (%)                                                         Verkauf, Halten oder direkten Investieren in ein solches Unternehmen oder
+1 Monat          5,03           5,09          0,06            5,06          0,04       Wertpapier dar.
+
+3 Monate       25,98          26,11           0,13          26,02           0,04
+                                                                                       Top-10-Positionen                                            Gewichtung (%)
+1 Jahr         42,71          43,47           0,76          43,05           0,33
+                                                                                       EXXON MOBIL CORP                                                       14,19
+2 Jahre        48,94          50,99           2,05          50,09           1,14
+                                                                                       CHEVRON CORP                                                           11,87
+3 Jahre        14,59          16,48           1,90          15,44           0,85
+                                                                                       SHELL PLC                                                                   8,71
+5 Jahre        20,78          23,84           3,07          22,00           1,23
+                                                                                       TOTALENERGIES SE                                                            5,49
+10 Jahre       10,02          13,51           3,49            9,80         -0,22
+                                                                                       CONOCOPHILLIPS                                                              5,35
+Seit           75,00          80,78           5,78          72,89          -2,11
+Auflage                                                                                BP PLC                                                                      4,12
+Jahresrendite (%)                                                                      ENBRIDGE INC                                                                3,74
+2022           21,28          21,37           0,09          21,31           0,03       EOG RESOURCES INC                                                           2,88
+2021           40,09          40,91           0,81          40,49           0,39       CANADIAN NATURAL RESOURCES                                                  2,81
+2020          -31,46          -30,89          0,57         -31,10           0,36       PIONEER NATURAL RESOURCES CO                                                2,38
+2019           11,45          11,70           0,25          11,37          -0,08
+2018          -15,84          -15,55          0,29         -15,80           0,04       Branchenzuordnung                                            Gewichtung (%)
+2017             4,97           5,55          0,58            5,24          0,27       Erdöl, Erdgas und nicht erneuerbare Brennstoffe                        95,07
+                                                                                       Energiezubehör und -dienste                                                 4,93
+                                                                       Fonds (%)
+Standardabweichung (3 Jahre)                                               34,37
+                                                                                       Geografische Aufteilung                                      Gewichtung (%)
+Annualisierter Tracking Error (3 Jahre)                                     0,22
+                                                                                       USA                                                                    57,63
+Die in der Vergangenheit erzielte Performance ist kein Indikator für die zukünftige
+Performance. In den vorliegenden Performancezahlen sind die Kommissionen und           Kanada                                                                 13,97
+Kosten für die Ausgabe und Rücknahme sowie den Kauf und Verkauf von Anteilen           Großbritannien                                                         12,62
+nicht berücksichtigt. Wenn die Performance auf Basis des Nettoinventarwertes in
+einer anderen Währung als der Abrechnungswährung der kollektiven Kapitalanlage         Frankreich                                                                  5,40
+kalkuliert wird, kann der Wert infolge von Wechselkursschwankungen steigen             Italien                                                                     1,90
+oder fallen.
+Wird der Fonds gemäß seinem offiziellen Nettoinventarwert (NIW)-Kalender               Australien                                                                  1,89
+geschlossen, doch es sind dessen ungeachtet Preise für einen maßgeblichen Teil der     Norwegen                                                                    1,47
+zugrunde liegenden Wertpapiere ermittelbar, wird ein technischer NIW berechnet.
+Die hierin angegebene frühere Wertentwicklung wurde daher erforderlichenfalls          Japan                                                                       1,20
+auf Grundlage eines technischen NIW und des offiziellen NIW des Fonds zu jedem         Spanien                                                                     0,79
+anderen Geschäftstag des betreffenden Zeitraums berechnet.
+Für das Kalenderjahr, in das das Auflegungsdatum entweder des betreffenden Fonds       Finnland                                                                    0,70
+oder des an die vergangene Wertentwicklung gebundenen Fonds fällt (je nachdem          Schweden                                                                    0,31
+welches das frühere Datum ist), ist die Angabe der Wertentwicklung im Kalenderjahr
+unvollständig.                                                                         Österreich                                                                  0,29
+                                                                                       Portugal                                                                    0,23
+                                                                                       Andere                                                                      1,58
+
+
+
+
+Kapitalrisiko: Eine Anlage ist mit Risiken verbunden, einschließlich des Risikos eines Kapitalverlusts.
+Die Wertentwicklung der Vergangenheit ist keine Garantie für zukünftige Ergebnisse.
+
+
+
+
+                                                                                       2
+
+=== pdf p.3 ===
+Kontaktieren Sie uns
+
+Besuchen Sie unsere Webseite ssga.com/etfs oder kontaktieren Sie
+Ihren lokalen SPDR ETF Vertreter. Alternativ können Sie auch das
+SPDR ETF Sales & Support Team über spdrseurope@ssga.com
+erreichen.
+
+Frankreich & Luxemburg                             Deutschland
+spdretf_france@ssga.com                            spdrsgermany@ssga.com
++33 1 44 45 40 00                                  +49 69 66774 5016
+Italien                                            Niederlande
+spdretf_italia@ssga.com                            spdr_nl@ssga.com
++39 0232066 140                                    +31 (0)20-7181071
+Nordics                                            Spanien
+spdrseurope@ssga.com                               spdrseurope@ssga.com
++31 (0)20-7181071                                  +39 0232066 140
+Schweiz                                            Großbritannien
+spdrsswitzerland@ssga.com                          spdrseurope@ssga.com
++ 41 (0)44 245 70 00                               +44 (0) 203 395 6888
+
+
+
+
+ssga.com/etfs                                      als Angebot zum Verkauf einer Anlage zu           unter der Nr. 2509928. USt. Nr. 5776591 81.       Prospekt enthält eine detailliertere
+                                                   verstehen. Die bestimmten Anlageziele,            Eingetragener Sitz: 20 Churchill Place, Canary    Beschreibung der begrenzten Beziehung, die
+                                                   Strategien, der steuerliche Status, die           Wharf, London, E14 5HJ Telefon: 020 3395          MSCI zu SSgA und damit verbundenen
+Glossar                                            Risikobereitschaft bzw. der Anlagehorizont        6000, Fax: 020 3395 6350, Internet: www.ssga.     Finanzprodukten hat.
+                                                   eines Anlegers oder potenziellen Anlegers sind    com. Für die EU wurde dieses Dokument von         Standard & Poor’s®, S&P® und SPDR® sind
+Kurs-Gewinn-Verhältnis in einem                    darin nicht berücksichtigt.                       State Street Global Advisors Europe („SSGA“),     eingetragene Marken der Standard & Poor’s
+Geschäftsjahr Zum Berichtsdatum der                Falls Sie Anlageberatung benötigen, sollten Sie   reguliert von der Central Bank of Ireland,        Financial Services LLC (S&P); Dow Jones ist
+durchschnittliche Kurs jedes zugrunde              sich an Ihren Steuer-, Finanz- oder sonstigen     herausgegeben. Adresse des eingetragenen          eine eingetragene Marke der Dow Jones
+liegenden Wertpapiers, dividiert durch die         Fachberater wenden.                               Sitzes: 78 Sir John Rogerson’s Quay, Dublin 2.    Trademark Holdings LLC (Dow Jones); und
+durchschnittliche EPS-Schätzung des                Bitte lesen Sie die aktuellen Wesentlichen        Registrierungsnummer 49934. Tel.: +353 (0)1       diese Marken wurden zur Nutzung durch die
+Wertpapiers für das noch nicht gemeldete           Anlegerinformationen und den                      776 3000. Fax: +353 (0)1 776 3300. Internet:      S&P Dow Jones Indices LLC (SPDJI) lizenziert
+nächste Geschäftsjahr.                             Verkaufsprospekt des Fonds, bevor Sie             www.ssga.com.                                     und für bestimmte Zwecke an die State Street
+Durchschnittliches Kurs-Buchwert-                  eine endgültige Anlageentscheidung                Für Mexiko, diese Informationen stellen kein      Corporation unterlizenziert. Die Finanzprodukte
+Verhältnis Zum Berichtsdatum der                   treffen. Die aktuelle englische Fassung des       Marketing bzw. kein Angebot von Wertpapieren      der State Street Corporation werden von SPDJI,
+durchschnittliche Kurs jedes zugrunde              Prospekts und der KIID finden Sie unter           dar und sind auch nicht dazu bestimmt und         Dow Jones, S&P, deren jeweiligen
+liegenden Wertpapiers, dividiert durch den         www.ssga.com. Eine Zusammenfassung                nicht derart auszulegen. Die hierin genannten     Konzerngesellschaften und Drittlizenzgebern
+Buchwert je Anteil des Wertpapiers.                der Anlegerrechte finden Sie hier: https://       Fonds wurden und werden nicht nach dem            nicht gesponsert, empfohlen, verkauft oder
+Dividendenrendite des Index Zum                    www.ssga.com/library-content/products/            mexikanischen Wertpapiermarktgesetz (Ley del      beworben, und keine dieser Parteien gibt
+Berichtsdatum der Durchschnitt der jährlichen      fund-docs/summary-of-investor-rights/             Mercado de Valores) registriert und dürfen in     Zusicherungen hinsichtlich der Ratsamkeit
+Dividenden je Anteil von jedem Basiswertpapier     ssga-spdr-investors-rights-summary.pdf            den Vereinigten Mexikanischen Staaten nicht       einer Anlage in dieses Produkt bzw. diese
+des Index, dividiert durch den Kurs des            Beachten Sie, dass die                            öffentlich angeboten oder verkauft werden.        Produkte ab, noch haften sie im
+Wertpapiers zum Berichtsdatum.                     Verwaltungsgesellschaft beschließen               Offenlegungsunterlagen im Zusammenhang mit        Zusammenhang damit, einschließlich für Fehler,
+TER Bei der Total Expense Ratio handelt es         kann, die für die Vermarktung getroffenen         einem der oben aufgeführten Fonds dürfen in       Auslassungen oder Unterbrechungen bei
+sich um eine Gebühr, die dem Fonds als             Vereinbarungen zu beenden und die                 Mexiko nicht öffentlich vertrieben werden, und    einem Index.
+Prozentsatz des Nettoinventarwerts zur             Notifizierung gemäß Artikel 93a der               Anteile der Fonds dürfen nicht in Mexiko          Die hierin erwähnten Marken und
+Deckung der mit dem Betrieb und dem                Richtlinie 2009/65/EG zu löschen.                 gehandelt werden.                                 Dienstleistungsmarken sind Eigentum ihrer
+Management des Vermögensportfolios                 Alle Dokumente in Bezug auf die Fonds sind        Lokale Vertreter/Zahlstellen von                  jeweiligen Inhaber. Unabhängige Datendienste
+verbundenen Kosten erhoben wird.                   kostenlos von den Geschäftsstellen des lokalen    SPDR ETFs:                                        machen keinerlei Zusicherungen oder Garantien
+                                                   Vertreters/Vermittlers zu beziehen, stehen im     Frankreich: State Street Bank International       bezüglich der Richtigkeit, Vollständigkeit oder
+                                                   Internet unter www.ssga.com zur Verfügung         GmbH Paris Branch, Cœur Défense -Tour A, 100,     Aktualität der Daten und haften nicht für
+Nur für professionelle Kunden /                    oder sind von State Street Custodial Services     Esplanade du Général de Gaulle, 92931 Paris La    Schäden jeglicher Art im Zusammenhang mit
+qualifizierte Anleger. Nicht für den               (Ireland) Limited, 78 Sir John Rogerson's Quay,   Defense Cedex; Schweiz: State Street Bank         der Nutzung dieser Daten.
+öffentlichen Vertrieb.                             Dublin 2, Irland, erhältlich.                     GmbH Munich, Niederlassung Zürich,                ©
+                                                                                                                                                         2022 Morningstar, Inc. Alle Rechte
+Börsengehandelte Indexfonds (ETFs) werden          SPDR ETFs ist die Plattform von State Street      Beethovenstrasse 19, 8027 Zürich, und die         vorbehalten. Die hierin enthaltenen
+wie Aktien gehandelt, unterliegen Anlagerisiken    Global Advisors für börsengehandelte              Hauptvertriebsstelle in der Schweiz, State        Informationen (1) sind geschützte Informationen
+und ihr Marktwert schwankt. Der Wert der           Indexfonds ("ETF") und enthält Fonds, die von     Street Global Advisors AG, Beethovenstrasse 19,   von Morningstar und/oder ihren Content-
+Anlage kann sowohl fallen als auch steigen, und    der Central Bank of Ireland als offene OGAW-      8027 Zürich; Deutschland: State Street Global     Anbietern; (2) dürfen nicht vervielfältigt oder
+die Rendite der Anlage ist deshalb veränderlich.   Investmentgesellschaften genehmigt wurden.        Advisors Europe Limited, Brienner Strasse 59,     weitergegeben werden; und (3) ihre Richtigkeit,
+Wechselkursänderungen können sich nachteilig       Für US-Anleger sind die Fonds nicht erhältlich.   D-80333 München; Spanien: Cecabank, S.A.          Vollständigkeit oder Aktualität kann nicht
+auf Wert, Kurs oder Ertrag einer Anlage            SSGA SPDR ETFs Europe I plc und SPDR ETFs         Alcalá 27, 28014 Madrid (Spanien); Dänemark:      zugesichert werden. Weder Morningstar noch
+auswirken. Des Weiteren gibt es keine Garantie     Europe II plc („die Gesellschaft“) emittieren     Nordea Bank Denmark A/S, Issuer Services,         seine Content-Anbieter haften für Schäden oder
+dafür, dass ein ETF sein Anlageziel                SPDR ETFs und bilden eine offene                  Securities Services Hermes Hus, Helgeshøj Allé    Verluste, die aus der Verwendung dieser
+erreichen wird.                                    Investmentgesellschaft mit variablem Kapital      33 Postbox 850, DK-0900 Kopenhagen C;             Informationen resultieren. Die Daten von
+                                                   und getrennter Haftung zwischen ihren             Österreich: Erste Bank, Graben 21, 1010 Wien,     Morningstar werden von State Street
+Marketingmitteilung                                Teilfonds. Die Gesellschaft ist als Organismus    Österreich; Schweden: SKANDINAVISKA               nicht geprüft.
+SPDR ETFs sind möglicherweise nicht für Sie        für gemeinsame Anlagen in Wertpapieren            ENSKILDA BANKEN AB, Global Transaction            Dieses Werk darf ohne ausdrückliche
+erhältlich oder geeignet. Die hier erteilten       (OGAW) nach irischem Recht organisiert und als    Services ST MH1, SE-106 40                        schriftliche Einwilligung von SSGA weder ganz
+Informationen stellen keine Anlageberatung         OGAW von der Central Bank of Ireland              Stockholm, Schweden.                              noch teilweise vervielfältigt, kopiert oder
+gemäß Definition nach der Richtlinie über          zugelassen.                                       Die Finanzprodukte, auf die hierin Bezug          übertragen und sein Inhalt gegenüber Dritten
+Märkte für Finanzinstrumente (2014/65/EG) dar      Zusätzliche wichtige Informationen: - Für         genommen wird, werden von MSCI weder              nicht offengelegt werden.
+und sollten nicht als Grundlage für eine           Großbritannien wurde dieses Dokument von          gesponsert, empfohlen noch beworben, und
+Anlageentscheidung herangezogen werden. Sie        State Street Global Advisors Limited („SSGA“)     MSCI übernimmt hinsichtlich dieser                ©
+                                                                                                                                                        2022 State Street Corporation.
+sind auch nicht als Aufforderung zum Kauf oder     herausgegeben. Zugelassen und reguliert von       Finanzprodukte oder eines Index, auf dem diese    Alle Rechte vorbehalten.
+                                                   der Financial Conduct Authority, registriert      Finanzprodukte basieren, keinerlei Haftung. Der   Fälligkeit: 28/02/2023
+
+
+
+
+                                                                                                     3
+

@@ -1,0 +1,197 @@
+=== pdf p.1 ===
+PASSIVE
+
+                iShares EURO STOXX Banks 30-15 UCITS
+ EXX1           ETF (DE)
+                Euro (Distributing)
+                Germany iShares                                                                                           September 2026
+Performance, Portfolio Breakdowns and Net Asset information as at: 30-Sep-2026. All other data as at 21-Oct-2026.
+This document is marketing material. For Investors in the UK. Investors should read the KIID/PRIIPs document and prospectus prior to investing,
+and should refer to the prospectus for the funds full list of risks.
+
+ FUND OVERVIEW                                                                                   PRODUCT INFORMATION
+ The Fund seeks to track the performance of an index composed of companies from the              ISIN : DE0006289309
+ Eurozone Banks sector.                                                                          Share Class Launch Date : 25-Apr-2001
+KEY BENEFITS                                                                                     Share Class Currency : EUR
+1.    Targeted exposure to stocks from developed Eurozone countries                              Total Expense Ratio : 0.51%
+2.    Direct investment into companies from the Bank supersector as defined by the               Use of Income : Distributing
+      Industry Classification Benchmark (ICB)                                                    Net Assets of Share Class (M) : 2,565.62 EUR
+3.    Banking sector exposure
+                                                                                                 KEY FACTS
+
+ RISK INDICATOR                                                                                  Asset Class : Equity
+                                                                                                 Benchmark : EURO STOXX Banks 30-15 Net TR
+ Lower Risk                                                                   Higher Risk        in EUR (EUR)
+ Potentially Lower Rewards                                        Potentially Higher Rewards     Fund Launch Date : 25-Apr-2001
+                                                                                                 Distribution Frequency : Up to 4x per year
+                                                                                                 Net Assets of Fund (M) : 2,818.45 EUR
+       1            2            3             4            5            6            7
+                                                                                                 SFDR Classification : Other
+CAPITAL AT RISK: The value of investments and the income from them can fall as well as rise Domicile : Germany
+and are not guaranteed. Investors may not get back the amount originally invested.          Methodology : Replicated
+KEY RISKS:                                                                                       Issuing Company : BlackRock Asset
+     Investment risk is concentrated in specific sectors, countries, currencies or companies.    Management Deutschland AG
+     This means the Fund is more sensitive to any localised economic, market, political,         Product Structure : Physical
+     sustainability-related or regulatory events.
+                                                                                                 ISA Eligibility : No
+     The value of equities and equity-related securities can be affected by daily stock market
+     movements. Other influential factors include political, economic news, company              SIPP Available : Yes
+     earnings and significant corporate events.                                                  UK Reporting Status : Yes
+     Counterparty Risk: The insolvency of any institutions providing services such as
+     safekeeping of assets or acting as counterparty to derivatives or other instruments, may    PORTFOLIO CHARACTERISTICS
+     expose the Unit Class to financial loss.
+                                                                                                 Price to Book Ratio : 1.61x
+                                                                                                 Price to Earnings Ratio : 12.63x
+                                                                                                 3y Beta : 1.00
+                                                                                                 12m Trailing Yield : 3.44%
+                                                                                                 Number of Holdings : 33
+
+                                                                                                 Please refer to the Glossary for more details.
+
+=== pdf p.2 ===
+iShares EURO STOXX Banks 30-15 UCITS
+ETF (DE)
+Euro (Distributing)
+Germany iShares
+
+CALENDAR YEAR PERFORMANCE
+
+
+
+
+                      2016          2017           2018        2019    2020        2021       2022               2023          2024     2025
+   Share Class        -4.70         14.24          -30.95      17.21   -23.70     40.96           0.45           30.24      30.94       89.24
+   Benchmark          -4.60         13.97          -31.02      16.07   -23.32     40.60       -0.12              29.52      29.88       88.27
+
+   During this period performance was achieved under circumstances that no longer apply.
+
+
+GROWTH OF HYPOTHETICAL 10,000 EUR SINCE INCEPTION
+
+
+
+
+CUMULATIVE & ANNUALISED PERFORMANCE
+                                                     CUMULATIVE (%)                                              ANNUALISED (% p.a.)
+                         1m                 3m               6m        YTD            1y                  3y              5y            Since
+                                                                                                                                      Inception
+   Share Class          -1.47               6.17            33.72      21.73         38.64               47.67           32.16          3.30
+   Benchmark            -1.49               6.20            33.26      21.28         37.96               46.80           31.36          3.09
+
+The figures shown relate to past performance. Past performance is not a reliable indicator of current or future performance and should not
+be the sole factor of consideration when selecting a product or strategy. Share Class and Benchmark performance displayed in EUR, hedged
+share class benchmark performance is displayed in EUR. Performance is shown on a Net Asset Value (NAV) basis, with gross income reinvested
+where applicable. The return of your investment may increase or decrease as a result of currency fluctuations if your investment is made in a
+currency other than that used in the past performance calculation. Source: BlackRock
+  Share Class (EUR)           iShares EURO STOXX Banks 30-15 UCITS ETF (DE) Euro (Distributing)
+  Benchmark (EUR)             EURO STOXX Banks 30-15 Net TR in EUR (EUR)
+
+=== pdf p.3 ===
+ iShares EURO STOXX Banks 30-15 UCITS
+ ETF (DE)
+ Euro (Distributing)
+ Germany iShares
+
+Top 10 Holdings                                                                 GEOGRAPHIC BREAKDOWN (%)
+BANCO SANTANDER                                                        13.91%
+BANCO BILBAO VIZCAYA ARGENTARIA SA                                     10.41%
+UNICREDIT                                                               9.39%
+INTESA SANPAOLO                                                         7.77%
+BNP PARIBAS SA                                                          7.41%
+ING GROEP                                                               6.80%
+DEUTSCHE BANK AG                                                        4.57%
+NORDEA BANK                                                             4.47%
+SOCIETE GENERALE SA                                                     3.93%
+CAIXABANK SA                                                            3.37%
+Total of Portfolio                                                     72.03%
+Holdings are subject to change.
+
+
+
+SECTOR BREAKDOWN (%)
+
+
+
+
+                                                                                                                     Fund
+                                                                                Geographic exposure relates principally to the domicile of the issuers of the securities held in
+                                                                                the product, added together and then expressed as a percentage of the product’s total
+                                                                                holdings. However, in some instances it can reflect the location where the issuer of the
+                                                                                securities carries out much of their business.
+
+
+
+
+                                   Fund
+Allocations are subject to change. Source: BlackRock
+
+
+
+TRADING INFORMATION
+Exchange          Xetra                   Bolsa Mexicana   SIX Swiss
+                                          De Valores       Exchange
+Ticker            EXX1                    SX7EEX           EXX1
+Bloomberg         SX7EEX GY               SX7EEXN MM       SX7EEX
+Ticker
+RIC               SX7EEX.DE               SX7EEXN.MX       EXX1.S
+SEDOL             7131323                 B3MWFF4          BW39BN7
+Listing           EUR                     MXN              EUR
+Currency
+
+=== pdf p.4 ===
+ iShares EURO STOXX Banks 30-15 UCITS
+ ETF (DE)
+ Euro (Distributing)
+ Germany iShares
+
+GLOSSARY
+SFDR Classification: Article 8: Products that promote environmental         Price to Book Ratio: represents the ratio of the current closing price of
+or social characteristics and promote good governance practices.            the share to the latest quarter's book value per share.
+Article 9: Products that have sustainable investments as an objective
+and follow good governance practices. Other: Products that do not
+meet the criteria to be classified as Article 8 or 9.
+Price to Earnings: A valuation ratio of a company's current share price
+compared to its per-share earnings in the current forecast year,
+calculated as current share price divided by current earnings per share.
+ IMPORTANT INFORMATION:
+In the European Economic Area (EEA): this is Issued by BlackRock (Netherlands) B.V. is authorised and regulated by the Netherlands Authority for
+the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: 31-20-549-5200. Trade Register No.
+17068311 For your protection telephone calls are usually recorded. For Ireland and only in relation to Per Se Professionals and/or Eligible
+Counterparties (i.e., Professional Investors), this may also be issued by BlackRock Investment Management (UK) Limited, authorised and regulated
+by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44 (0)20 7743 3000. Registered in
+England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the Financial Conduct Authority website
+for a list of authorised activities conducted by BlackRock.
+In the UK and Non-European Economic Area (EEA) countries (excluding Switzerland),: this is Issued by BlackRock Investment Management
+(UK) Limited, authorised and regulated by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44
+(0)20 7743 3000. Registered in England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the
+Financial Conduct Authority website for a list of authorised activities conducted by BlackRock.
+The German domiciled funds are "undertakings for collective investment in transferable securities" in conformity with the directives within the
+meaning of the German Law on the investments. These funds are managed by BlackRock Asset Management Deutschland AG which is authorised
+and regulated by the Bundesanstalt für Finanzdienstleistungsaufsicht. Further information about the Fund and the Share Class, such as details of
+the key underlying investments of the Share Class and share prices, is available on the iShares website at www.ishares.com or by calling +44 (0)845
+357 7000 or from your broker or financial adviser. The indicative intra-day net asset value of the Share Class is available at http://deutsche-
+boerse.com and/or http://www.reuters.com. A UCITS ETF’s units / shares that have been acquired on the secondary market cannot usually be sold
+directly back to the UCITS ETF itself. Investors who are not Authorised Participants must buy and sell shares on a secondary market with the
+assistance of an intermediary (e.g. a stockbroker) and may incur fees and additional taxes in doing so. In addition, as the market price at which the
+Shares are traded on the secondary market may differ from the Net Asset Value per Share, investors may pay more than the then current Net Asset
+Value per Share when buying shares and may receive less than the current Net Asset Value per Share when selling them. Investors who are not
+Authorised Participants must buy and sell shares on a secondary market with the assistance of an intermediary (e.g. a stockbroker) and may incur
+fees and additional taxes in doing so. In addition, as the market price at which the Shares are traded on the secondary market may differ from the
+Net Asset Value per Share, investors may pay more than the then current Net Asset Value per Share when buying shares and may receive less than
+the current Net Asset Value per Share when selling them. Any investment decision should be made on the basis of the information outlined above
+and Investors should understand all characteristics of the funds objective before investing, if applicable this includes sustainable disclosures and
+sustainable related characteristics of the fund as found in the prospectus, which can be found www.blackrock.com on the relevant product pages
+for where the fund is registered for sale. For information on investor rights and how to raise complaints please go to https://www.blackrock.com/
+corporate/compliance/investor-right available in in local language in registered jurisdictions. UCITS HAVE NO GUARANTEED RETURN AND PAST
+PERFORMANCE DOES NOT GUARANTEE THE FUTURE ONES
+
+This document is marketing material and will expire 12 months after issue
+Any research in this document has been procured and may have been acted on by BlackRock for its own purpose. The results of such research are
+being made available only incidentally. The views expressed do not constitute investment or any other advice and are subject to change. They do
+not necessarily reflect the views of any company in the BlackRock Group or any part thereof and no assurances are made as to their accuracy
+
+This document is for information purposes only and does not constitute an offer or invitation to anyone to invest in any BlackRock funds and has
+not been prepared in connection with any such offer.
+© Current year BlackRock, Inc. All Rights reserved. BLACKROCK, BLACKROCK SOLUTIONS, and iSHARES are trademarks of BlackRock, Inc.
+or its affiliates All other trademarks are those of their respective owners
+

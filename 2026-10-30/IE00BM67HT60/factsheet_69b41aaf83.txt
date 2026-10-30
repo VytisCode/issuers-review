@@ -1,0 +1,213 @@
+=== pdf p.1 ===
+                                                                                     Factsheet
+                                                                                     Marketing Material
+
+
+
+
+Xtrackers MSCI World Information Technology UCITS ETF 1C
+Ein Teilfonds von Xtrackers (IE) Plc
+
+Dieses Informationsblatt entspricht dem Stand vom 30. Juni 2026 sofern nicht anders angegeben.
+
+
+
+
+Überblick                                                                                              Risiken von Exchange Traded Funds (ETFs)
+̵ Direkte Anlage in weltweiten Aktien                                                                  Der Wert einer Aktienanlage ist von einer Reihe von Faktoren abhängig, zu
+̵ Besteht aus Aktien aus Industrieländern weltweit, die Bestandteile des MSCI                          denen unter anderem Marktbedingungen, aktuelle Wirtschaftslage, Branche,
+  World Index sind und dem Informationstechnologiesektor angehören                                     geografische Region sowie politische Ereignisse gehören.
+̵ Sektorspezifisches Engagement                                                                        Der Fonds konzentriert sich auf einen einzelnen bzw. eine geringe Anzahl
+                                                                                                       an Wirtschaftszweig(en), Branche(n) oder Unternehmensart(en), und die
+                                                                                                       Wertentwicklung spiegelt möglicherweise nicht die Kurssteigerungen breiterer
+Fonds Informationen                                                                                    Märkte wider.
+                                                                                                       Folgendes gilt, wenn Sie Fondsanteile in einer anderen Währung als der Währung
+ ISIN                                          IE00BM67HT60                                            des Fonds oder der Anteilsklasse zeichnen oder abrechnen: Bitte beachten Sie
+                                                                                                       das Währungsrisiko. Sie erhalten Zahlungen in einer anderen Währung, sodass
+ Währung der Anteilsklasse                     USD                                                     Ihre endgültige Rendite vom Wechselkurs zwischen den beiden Währungen
+ Fondswährung                                  USD                                                     abhängen wird.
+ Auflegungstermin des Fonds                    09.03.2016                                              Der Fonds unterliegt einem Währungsrisiko. Devisenmärkte können sehr volatil
+                                                                                                       sein. An Devisenmärkten können starke Kursschwankungen innerhalb sehr
+ Auflegungstermin der Anteilsklasse 09.03.2016                                                         kurzer Zeiträume auftreten und dazu führen, dass in Bezug auf Ihre Anlage ein
+ Gesellschaftssitz                             Irland                                                  Verlust entsteht.
+ Portfoliomethode                              Direkte Replikation (Physisch)                          Der Fonds ist nicht kapitalgeschützt. Der Wert Ihrer Investition kann sowohl
+                                                                                                       sinken als auch steigen. Die bisherige Wertentwicklung ist kein zuverlässiger
+                                               State Street Custodial Services (Ireland)               Indikator für die zukünftige Wertentwicklung.
+ Verwahrstelle
+                                               Limited
+ Pauschalgebühr¹                               0,25% p.a.
+ Ertragsverwendung                             Thesaurierend                                           Index Informationen
+ Nettoinventarwert (NAV)                       USD 136,63                                                                                           MSCI World Information Technology 20-35
+                                                                                                        Index Name
+ Fondsvermögen                                 USD 6,09 Milliarden                                                                                  Index
+ Im Umlauf befindliche Anteile                                                                          Index Provider                              MSCI Inc.
+                                               44,56 Millionen
+ insgesamt                                                                                              Bloomberg Symbol                            NU732025
+ Jährliche Rendite aus                                                                                  Index Basiswährung                          USD
+                                               0,0013%
+ Wertpapierleihgeschäften²
+                                                                                                        Anzahl der Positionen im Index              142
+¹ Ein Glossar der Begriffe finden Sie unter etf.dws.com
+² Bezogen auf die jährlichen Erträge aus Wertpapierleihgeschäften im vergangenen Jahr oder seit        Quelle: Indexanbieter
+Beginn der Wertpapierleihgeschäfte durch den Fonds (vor weniger als einem Jahr), dividiert durch den   *Ab dem 01.12.2020 bildet der Teilfonds den MSCI World Information Technology 20-35 Index. Vor
+Durchschnitt der vom Fonds verwalteten Vermögenswerte                                                  dieser Änderung bildete der Teilfonds den MSCI WORLD INFORMATION TECHNOLOGY TRN INDEX ab.
+
+
+Performance
+                                                                                                       Eigenschaften des Index
+» Historische Entwicklung (online)
+                                                                                                       Der MSCI World Information Technology 20-35 Custom Index zielt darauf ab, die
+                                                                                                       Wertentwicklung des folgenden Markts abzubilden:
+                                                                                                       ̵ Unternehmen mit hoher und mittlerer Kapitalisierung aus Industrieländern
+Notierungs- und Handelsinformationen                                                                     weltweit, die nach GICS (Global Industry Classification Standard) dem Sektor
+                                                                                                         für Informationstechnologie zugeordnet werden
+                                         Bloomberg               Reuters          Handels-             ̵ Gewichtung nach streubesitzbereinigter Marktkapitalisierung – die größte
+ Börse
+                                         Ticker                  RIC              währung                Konzerngesellschaft des Index ist auf 35% beschränkt und die Gewichtung der
+ Borsa Italiana                          XDWT IM                 XDWT.MI            EUR                  übrigen Gesellschaften ist auf 20% beschränkt, wobei bei jedem Indexausgleich
+ BX Swiss                                XDWT BW                 XDWT.BN            CHF                  ein Puffer von 10% auf diese Limits angewendet wird
+                                                                                                       ̵ vierteljährliche Überprüfung
+ London Stock Exchange                   XDWT LN                 XDWT.L             USD
+                                                                                                       Weitere Informationen zur Index-, Auswahl- und Gewichtungsmethodik sind
+ London Stock Exchange                   XXTW LN                 XXTW.L             GBP                unter www.msci.com verfügbar.
+ SIX - Swiss Exchange                    XDWT SW                 XDWT.S             CHF
+ XETRA                                   XDWT GY                 XDWT.DE            EUR
+
+=== pdf p.2 ===
+Die 10 größten ETF-Bestandteile                                                    Über uns
+                                                                                   Xtrackers, die globale Plattform für ETF- und ETC-Lösungen der DWS,
+ Wertpapier                                  ISIN                Gewichtung
+                                                                                   begann 2007 mit ETFs auf große Leitindizes.
+ NVIDIA CORP                                 US67066G1040             17,16%
+                                                                                   Inzwischen ist Xtrackers mit einem verwalteten UCITS-Vermögen von
+ APPLE INC                                   US0378331005            16,08%
+                                                                                   aktuell rund 336 Mrd. Euro1 einer der größten und etabliertesten ETF-
+ MICROSOFT CORP                              US5949181045             10,16%       Anbieter in Europa2.
+ BROADCOM INC                                US11135F1012             6,34%
+                                                                                   Mit rund 300 Produkten bietet Xtrackers ein breites Spektrum an
+ MICRON TECHNOLOGY INC                       US5951121038             4,93%        effizienten, qualitativ hochwertigen ETFs und ETCs auf alle wichtigen
+ ADVANCED MICRO DEVICES INC                  US0079031078             3,28%        Anlageklassen wie Aktien, Anleihen und Rohstoffe. Die Produktpalette
+ ASML HOLDING NV                             NL0010273215             2,69%        wird kontinuierlich erweitert.
+ INTEL CORPORATION CORP                      US4581401001              2,18%       Derzeit sind Xtrackers Produkte an elf Börsen weltweit gelistet.
+ APPLIED MATERIAL INC                        US0382221051              1,92%       1
+                                                                                       Quelle: DWS, Stand 30.06.2026
+ LAM RESEARCH CORP                           US5128073062             1,83%        2
+                                                                                       Quelle: Deutsche Bank ETF Research
+
+Quelle: DWS
+
+
+
+
+Mehr Informationen zu Xtrackers by DWS                                             Zusätzliche Information
+DWS International GmbH                E-Mail: Xtrackers@dws.com                    Ein Glossar der Begriffe finden Sie unter etf.dws.com.
+Xtrackers Team                        Website: www.Xtrackers.com
+Mainzer Landstrasse 11-17
+60329 Frankfurt am Main
+
+
+
+Haftungsausschluss
+Dieses Dokument ist als Marketingmitteilung gedacht und begründet keine            den aktuellen Gründungsunterlagen des Fonds in deutscher Sprache bei
+rechtsverbindlichen Verpflichtungen seitens der DWS Group GmbH & Co.               der DWS Investment GmbH, Mainzer Landstraße 11-17, 60329 Frankfurt am
+KGaA und/oder mit ihr verbundener Unternehmen (DWS).                               Main oder in englischer Sprache bei der DWS Investment S.A., 2, Boulevard
+Dieses Dokument stellt keine Anlageberatung dar. Ohne Einschränkung                Konrad Adenauer, L-1115 Luxemburg, in gedruckter Form kostenlos oder
+stellt dieses Dokument kein Angebot, keine Aufforderung zur Abgabe eines           in den jeweiligen Sprachen bei Deutschland: https://etf.dws.com/de-de/
+Angebots und keine Empfehlung zum Abschluss einer Transaktion dar.                 Österreich: https://etf.dws.com/de-at/ Belgien: https://etf.dws.com/en-
+Bevor ein Anleger eine Anlageentscheidung trifft, muss er mit oder                 be/ Frankreich: https://etf.dws.com/fr-fr/ Italien: https://etf.dws.com/it-it/
+ohne Unterstützung eines Anlageberaters abwägen, ob die von der DWS                Luxemburg: https://etf.dws.com/en-lu/ Spanien: https://etf.dws.com/es-es/
+beschriebenen oder zur Verfügung gestellten Anlagen und Strategien im              Niederlande: https://etf.dws.com/nl-nl/ Schweden: https://etf.dws.com/sv-
+Hinblick auf seine besonderen Anlagebedürfnisse, Ziele und finanziellen            se/ und UK/Irland: https://etf.dws.com/en-gb/. Eine Zusammenfassung der
+Verhältnisse angemessen sind.                                                      Anlegerrechte finden Sie unter www.etf.dws.com unter “Über uns - Wie kann
+                                                                                   ich mich beschweren?”.
+Die in diesem Dokument enthaltenen Informationen stammen aus Quellen,
+die wir für zuverlässig und aktuell halten. Die Richtigkeit oder Vollständigkeit   VERGANGENE LEISTUNGEN SIND KEINE GARANTIE FÜR ZUKÜNFTIGE
+der Quellen kann jedoch nicht garantiert werden.                                   ERGEBNISSE.
+Gemäß den Angaben im Verkaufsprospekt unterliegt der Vertrieb der in
+diesem Dokument genannten Produkte den Beschränkungen der jeweiligen               © 2026 DWS International GmbH, gegebenenfalls handelnd durch ihre
+Rechtsordnungen. Dieses Dokument und die darin enthaltenen Informationen           Niederlassungen
+dürfen nur in Rechtsordnungen verteilt und veröffentlicht werden, in
+denen eine solche Verteilung und Veröffentlichung nach dem in diesen
+Rechtsordnungen geltenden Recht zulässig ist. Die direkte oder indirekte
+Verbreitung dieses Dokuments in den USA sowie an oder für Rechnung von
+                                                                                   Index Haftungsausschluss
+US-Personen und Personen mit Wohnsitz in den USA ist verboten.                     Die MSCI World Information Technology UCITS ETF WERDEN NICHT
+Xtrackers (IE) plc ist ein Organismus für gemeinsame Anlagen in Wertpapieren       VON MSCI INC. (“MSCI”) ODER EINEM SEINER ANGESCHLOSSENEN
+(OGAW) gemäß den geltenden Gesetzen und Vorschriften und wurde als                 UNTERNEHMEN, INFORMATIONSANBIETER ODER EINER ANDEREN
+offene Investmentgesellschaft mit variablem Kapital und getrennter Haftung         DRITTPARTEI, die an der Zusammenstellung, Berechnung oder
+zwischen den einzelnen Teilfonds gegründet.                                        Erstellung eines MSCI-Index beteiligt ist oder damit in Verbindung steht,
+Anleger müssen Anteile an Xtrackers OGAW-ETFs auf einem Sekundärmarkt              gesponsert, befürwortet, verkauft oder beworben (zusammenfassend
+mit Hilfe eines Intermediärs (z. B. eines Börsenmaklers) kaufen und in der         die “MSCI-PARTEIEN”). DIE MSCI-INDIZES SIND DAS AUSSCHLIESSLICHE
+Regel auch wieder verkaufen, wofür Gebühren anfallen können. Darüber               EIGENTUM VON MSCI. MSCI UND DIE NAMEN DER MSCI-INDIZES SIND
+hinaus können Anleger beim Kauf von Anteilen mehr als den aktuellen                DIENSTLEISTUNGSMARKEN VON MSCI ODER SEINEN VERBUNDENEN
+Nettoinventarwert zahlen und beim Verkauf weniger als den aktuellen                UNTERNEHMEN UND WURDEN FÜR DIE NUTZUNG FÜR BESTIMMTE
+Nettoinventarwert erhalten. Bevor sie eine Anlageentscheidung treffen,             ZWECKE VOM PRINCIPAL LIZENZIERT. KEINE DER MSCI-PARTEIEN GIBT
+sollten Anleger die Risikofaktoren im Prospekt und im Basisinformationsblatt       GEGENÜBER DEM EMITTENTEN ODER DEN EIGENTÜMERN DIESER
+lesen.                                                                             FONDS ODER EINER ANDEREN NATÜRLICHEN ODER JURISTISCHEN
+Die steuerliche Behandlung der Xtrackers OGAW-ETFs hängt von den                   PERSON EINE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE ZUSICHERUNG
+individuellen Umständen des jeweiligen Anlegers ab.                                ODER GARANTIE HINSICHTLICH DER RATSAMKEIT EINER ANLAGE IN
+Xtrackers (IE) plc ist in Irland unter der Registernummer 393802 eingetragen       FONDS IM ALLGEMEINEN ODER IN DIESE FONDS IM BESONDEREN
+und hat ihren Sitz in 78 Sir John Rogerson’s Quay, Dublin 2, Irland. Die DWS       ODER DER FÄHIGKEIT EINES MSCI-INDEXES, DIE ENTSPRECHENDE
+Investment S.A. fungiert als Verwaltungsgesellschaft von Xtrackers (IE) plc.       AKTIENMARKTENTWICKLUNG ABZUBILDEN. MSCI ODER SEINE
+Die Investmentgesellschaft kann beschließen, die für den Vertrieb dieses           VERBUNDENEN UNTERNEHMEN SIND DIE LIZENZGEBER BESTIMMTER
+Fonds getroffenen Vereinbarungen zu kündigen.                                      MARKEN, DIENSTLEISTUNGSMARKEN UND HANDELSNAMEN SOWIE
+                                                                                   DER MSCI-INDIZES, DIE VON MSCI OHNE BERÜCKSICHTIGUNG DIESER
+Vollständige Informationen über den Fonds, einschließlich aller Risiken
+                                                                                   FONDS ODER DER EMITTENTEN ODER EIGENTÜMER DIESER FONDS ODER
+und Kosten, sind dem jeweils aktuellen Prospekt zu entnehmen. Diese
+                                                                                   ANDERER NATÜRLICHER ODER JURISTISCHER PERSONEN BESTIMMT,
+stellen zusammen mit dem jeweiligen Basisinformationsblatt die einzigen
+                                                                                   ZUSAMMENGESTELLT UND BERECHNET WERDEN. KEINE DER MSCI-
+verbindlichen Verkaufsunterlagen für den Fonds dar. Der Anleger erhält diese
+                                                                                   PARTEIEN IST VERPFLICHTET, DIE BEDÜRFNISSE DES EMITTENTEN ODER
+Unterlagen zusammen mit den aufsichtsrechtlichen Informationen sowie
+
+=== pdf p.3 ===
+EIGENTÜMERS DIESER FONDS ODER EINER ANDEREN NATÜRLICHEN ODER
+JURISTISCHEN PERSON BEI DER BESTIMMUNG, ZUSAMMENSTELLUNG
+ODER BERECHNUNG DER MSCI-INDIZES ZU BERÜCKSICHTIGEN. KEINE DER
+MSCI-PARTEIEN IST FÜR DIE BESTIMMUNG DES ZEITPUNKTS, DER PREISE
+ODER DER MENGEN DIESER FONDS, DIE AUSGEGEBEN WERDEN SOLLEN,
+ODER FÜR DIE BESTIMMUNG ODER BERECHNUNG DER GLEICHUNG ODER
+DES ENTGELTS, IN DIE DIESE FONDS ZURÜCKGENOMMEN WERDEN KÖNNEN,
+VERANTWORTLICH ODER HAT SICH DARAN BETEILIGT. Darüber hinaus hat
+keine der MSCI-Parteien irgendeine Verpflichtung oder Haftung gegenüber
+dem Emittenten oder den Eigentümern dieser Fonds oder irgendeiner
+anderen Person oder Einrichtung im Zusammenhang mit der Verwaltung,
+Vermarktung oder dem Angebot von MSCI World Information Technology
+UCITS ETF.
+
+OBWOHL MSCI DIE INFORMATIONEN ZUR AUFNAHME IN ODER ZUR
+VERWENDUNG BEI DER BERECHNUNG DER MSCI-INDIZES AUS QUELLEN
+BEZIEHT, DIE MSCI FÜR ZUVERLÄSSIG HÄLT, ÜBERNIMMT KEINE DER MSCI-
+PARTEIEN EINE GEWÄHRLEISTUNG ODER GARANTIE FÜR DIE ORIGINALITÄT,
+GENAUIGKEIT UND/ODER VOLLSTÄNDIGKEIT EINES MSCI-INDEX ODER
+DARIN ENTHALTENER DATEN. KEINE DER MSCI-PARTEIEN ÜBERNIMMT
+EINE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE FÜR DIE
+ERGEBNISSE, DIE DER EMITTENT DER FONDS, DIE EIGENTÜMER DER FONDS
+ODER EINE ANDERE NATÜRLICHE ODER JURISTISCHE PERSON DURCH
+DIE VERWENDUNG EINES MSCI-INDEXES ODER DARIN ENTHALTENER
+DATEN ERZIELEN KÖNNEN. KEINE DER MSCI-PARTEIEN ÜBERNIMMT EINE
+HAFTUNG FÜR FEHLER, AUSLASSUNGEN ODER UNTERBRECHUNGEN VON
+ODER IN VERBINDUNG MIT EINEM MSCI-INDEX ODER DARIN ENTHALTENEN
+DATEN. FERNER GIBT KEINE DER MSCI-PARTEIEN AUSDRÜCKLICHE ODER
+STILLSCHWEIGENDE GARANTIEN JEGLICHER ART AB, UND DIE MSCI-
+PARTEIEN LEHNEN HIERMIT AUSDRÜCKLICH ALLE GARANTIEN DER
+MARKTGÄNGIGKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK IN
+BEZUG AUF JEDEN MSCI-INDEX UND ALLE DARIN ENTHALTENEN DATEN AB.
+OHNE EINSCHRÄNKUNG DES VORSTEHENDEN HAFTEN DIE MSCI-PARTEIEN
+IN KEINEM FALL FÜR DIREKTE, INDIREKTE, BESONDERE, STRAFENDE,
+FOLGE- ODER ANDERE SCHÄDEN (EINSCHLIESSLICH ENTGANGENER
+GEWINNE), SELBST WENN SIE ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN
+INFORMIERT WURDEN.
+
+Kein Käufer, Verkäufer oder Inhaber dieses Wertpapiers, Produkts
+oder Fonds oder eine andere natürliche oder juristische Person darf
+einen MSCI-Handelsnamen, ein MSCI-Warenzeichen oder eine MSCI-
+Dienstleistungsmarke verwenden oder darauf verweisen, um dieses
+Wertpapier zu sponsern, zu unterstützen, zu vermarkten oder zu fördern,
+ohne sich zuvor mit MSCI in Verbindung zu setzen, um zu klären, ob die
+Erlaubnis von MSCI erforderlich ist. Unter keinen Umständen darf eine
+natürliche oder juristische Person ohne vorherige schriftliche Genehmigung
+von MSCI eine Zugehörigkeit zu MSCI behaupten.
+

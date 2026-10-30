@@ -1,0 +1,146 @@
+=== pdf p.1 ===
+Key Investor Information
+This document provides you with key investor information about this fund. It is not marketing material. The information is
+required by law to help you understand the nature and the risks of investing in this fund. You are advised to read it so you
+can make an informed decision about whether to invest. Terms not defined herein are as defined in the Prospectus.
+
+State Street SPDR MSCI World Energy UCITS ETF (the "Fund"), a sub-fund of SSGA
+SPDR ETFs Europe II plc (a UCITS authorised Exchange Traded Fund). This Fund is managed by State Street Global Advisors Europe
+Limited.
+Share Class: State Street SPDR MSCI World Energy UCITS ETF (ISIN IE00BYTRR863)
+
+Objectives and Investment Policy
+Investment Objective The objective of the Fund is to track the                  Save in exceptional circumstances, the Fund will generally only issue
+performance of companies in the energy sector, across developed                 and redeem shares to certain institutional investors. However, shares of
+markets globally.                                                               the Fund may be purchased or sold through brokers on one or more
+Investment Policy The Fund seeks to track the performance of the                stock exchanges. The Fund trades on these stock exchanges at market
+MSCI World Energy 35/20 Capped Index (the "Index") as closely as                prices which may fluctuate throughout the day. Market prices may be
+possible.                                                                       greater or less than the daily net asset value of the Fund.
+The Fund is an index tracking fund (also known as a passively managed           The Fund's maximum exposure to securities lending as a percentage of
+fund).                                                                          its Net Asset Value will not exceed 40%.
+The Fund invests primarily in securities included in the Index. These           Shareholders may redeem shares on any UK business day (other than
+securities include equity securities issued by companies globally, which        days on which relevant financial markets are closed for business and/or
+have been classified as falling within the energy sector in line with the       the day preceding any such day provided that a list of such closed
+Global Industry Classification Standard (GICS).                                 market days will be published for the Fund on www.ssga.com); and any
+Although the Index is generally well diversified, to enable the Fund to         other day at the Directors' discretion (acting reasonably) provided
+track the Index accurately, the Fund will make use of the increased             Shareholders are notified in advance of any such days.
+diversification limits available under the UCITS Regulations, which             Any income earned by the Fund will be retained and reflected in an
+permit it to hold positions in individual constituents of the Index issued by   increase in the value of the shares.
+the same body of up to 20% and a position of up to 35% of the Fund's            The Shares of the USD Class are issued in U.S. Dollar.
+net asset value in constituents of the Index issued by the same body due        Index Source: The funds or securities referred to herein are not
+to exceptional market conditions (i.e. the issuer represents an unusually       sponsored, endorsed, or promoted by MSCI, and MSCI bears no liability
+large portion of this market measured by the Index).                            with respect to any such funds or securities or any index on which such
+The Fund seeks to hold all the securities of the Index with the                 funds or securities are based. The Prospectus contains a more detailed
+approximate weightings as in that Index. The Fund will use a replication        description of the limited relationship MSCI has with State Street
+strategy to create a near mirror-image of the Index. In limited                 Investment Management and any related funds, as well as additional
+circumstances the Fund may purchase securities that are not included in         disclaimers that apply to the MSCI indexes. The MSCI indexes are the
+the Index.                                                                      exclusive property of MSCI and may not be reproduced or extracted and
+The Fund may use financial derivative instruments (that is, financial           used for any other purpose without MSCI's consent. The MSCI indexes
+contracts whose prices are dependent on one or more underlying                  are provided without any warranties of any kind. Please see the
+assets) in order to manage the portfolio efficiently.                           Prospectus for the full index disclaimer.
+                                                                                Please refer to the Prospectus for more information.
+
+Risk and Reward Profile
+                                                                                The following are material risks relevant to the Fund which are not
+ Lower risk                                                  Higher risk        adequately captured by the risk category.
+ Potentially lower reward                       Potentially higher reward
+                                                                                Concentration Risk: When the Fund focuses its investments in a
+                                                                                particular way, the issues affecting the investments will have a greater
+    1          2          3          4          5          6          7         effect than if the Fund was more diversified. This concentration may also
+                                                                                limit the Fund's liquidity.
+Risk Disclaimer The risk category above is not a measure of capital             Index Tracking Risk: The Fund's performance may not exactly track the
+loss or gains but of how significant the rises and falls in the Fund's return   Index. This can result from market fluctuations, changes in the
+have been historically.                                                         composition of the Index, transaction costs, the costs of making changes
+For example a fund whose return has experienced significant rises and           to the Fund's portfolio and other Fund expenses.
+falls will be in a higher risk category, whereas a fund whose return has        Liquidity Risk & ETF Liquidity Risk: Lack of a ready market or resale
+experienced less significant rises and falls will be in a lower risk            restrictions may limit the Fund's ability to sell a security at an
+category.                                                                       advantageous time or price or at all. Illiquid securities may trade at a
+The lowest category (i.e., category 1) does not mean that a fund is a risk      discount and may affect the ability to meet redemptions on a timely
+free investment.                                                                basis. Where the Fund invests in illiquid securities or does not trade in
+As the Fund's risk category has been calculated using historical                large volumes, the bid offer spreads may widen, the Fund may be
+simulated proxy data, it may not be a reliable indication of the Fund's         exposed to increased valuation risk and reduced ability to trade. Shares
+future risk profile.                                                            in the Fund may also trade at prices materially different to the last
+The Fund's risk category shown is not guaranteed and may change in              available NAV.
+the future.                                                                     Please refer to the Prospectus for full details about the risks associated
+Why is this Fund in this category? The Fund is in risk category 6 as            with this Fund.
+its return has experienced very high rises and falls historically.
+
+=== pdf p.2 ===
+Key Investor Information
+Charges
+The charges you pay are used to pay the cost of running the Fund,                  The entry and exit charges shown are maximum figures. In some cases,
+including the costs of marketing and distributing it. These charges                you may pay less — your financial advisor or distributor can confirm this.
+reduce the potential growth of your investment.                                    Entry and exit charges do not apply to investors buying or selling shares
+                                                                                   of the Fund on stock exchanges; however, such investors will transact at
+ One-off charges taken before or after you invest                                  market prices and may be subject to broker fees and/or other charges.
+                                                                                   The ongoing charges figure shown here is based on expenses for the
+ Entry charge                                   none                               year ending December 2025. It excludes:
+ Exit charge                                    none                               b   Portfolio transaction costs, except when the Fund pays an entry or
+ This is the maximum that might be taken out of your money before it is                exit charge when buying or selling units in another fund.
+ invested (entry charge) or before the proceeds of your investment are             For more information about charges, please refer to the Prospectus.
+ paid out (exit charge).
+ Charges taken from the Fund over a year
+ Ongoing charge                                 0.30%
+ Charges taken from the Fund under certain specific conditions
+ Performance fee                                none
+
+Past Performance
+       percent                                                                     Past performance is not a guide to future results.
+  60                                                                               The past performance shown here takes account of all charges and
+                                                                                   costs. The entry/exit charges are excluded from the calculation of past
+  40                                                                               performance.
+                                                                                   The Fund was launched in April 2016 following the merger by absorption
+  20                                                                               of MSCI World Energy Index which had an equivalent and comparable
+                                                                                   investment policy and risk profile.
+   0                                                                               Past performance has been calculated in U.S. Dollar and is expressed
+                                                                                   as a percentage change in the Fund's net asset value at each year end.
+ -20                                                                               The Index of the Fund changed from the MSCI World Energy Index to
+                                                                                   the MSCI World Energy 35/20 Capped Index on 30th November 2020.
+ -40
+
+        2016     2017   2018    2019   2020    2021    2022   2023   2024   2025
+        26.3      5.2   -15.8   11.4   -31.1   40.5    46.3    2.8    2.9   13.6
+        26.6      5.0   -15.8   11.4   -31.5   40.1    46.0    2.5    2.7   13.3
+         A
+                         B
+Q State Street SPDR MSCI World Energy UCITS ETF (IE00BYTRR863)
+Q MSCI World Energy Capped 35/20 Index (USD)
+A Performance returns prior to May 2016 reflects the past performance
+  of SSgA Energy Index Equity Fund I USD Shares which was merged
+  into the Fund on 29 April 2016.
+B The past performance displayed relates to the MSCI World Energy
+  Index (the previous index the Fund tracked from 16 April 2016 up to
+  30th November 2020).
+
+Practical Information
+Depositary State Street Custodial Services (Ireland) Limited.                      Net Asset Valuation Publication The net asset value and indicative net
+Further Information Copies of the prospectus, its supplements (if any),            asset value per share is available at www.ssga.com and upon request
+details of the Fund's portfolio and the latest annual and semi-annual              from the Administrator.
+reports prepared for SSGA SPDR ETFs Europe II plc may be obtained,                 Additionally the indicative net asset value is available via Bloomberg,
+free of charge, from the Administrator or online at www.ssga.com. These            Telekurs and Reuters terminals.
+documents are available in English. For information about other share              Tax Legislation The Fund is subject to the tax laws and regulations of
+classes, please refer to the website.                                              Ireland. Depending on your own country of residence this might have an
+ETF Information As the shares are listed on the stock exchange, you                impact on your investments. For further details, you should consult a tax
+may buy or sell shares in the product, without penalty, on any normal              advisor.
+business day. Please contact your broker, financial adviser or distributor         Liability Statement State Street Global Advisors Europe Limited may
+for information on any costs and charges relating to the sale of the               be held liable for any statement contained in this document that is
+shares.                                                                            misleading, inaccurate or inconsistent with the relevant parts of the
+ETF Shares purchased on the secondary market cannot usually be sold                Prospectus.
+directly back to the Company. In exceptional circumstances, whether as             Switching between Sub-Funds Shareholders have no specific right to
+a result of disruptions in the secondary market or otherwise, investors            convert shares of the Fund into shares of another sub-fund of SSGA
+who have acquired ETF Shares on the secondary market are entitled to               SPDR ETFs Europe II plc. Conversion can only be effected by the
+apply to the Company in writing to have the ETF Shares in question                 investor selling/redeeming the shares of the sub-fund and buying/
+registered in their own name, to enable them to access the redemption              subscribing shares of another sub-fund of SSGA SPDR ETFs Europe II
+facilities described in the Prospectus.                                            plc. Detailed information on how to switch between sub-funds is
+Remuneration Policy Details of the up to date remuneration policy of               provided in the Prospectus.
+SSGA SPDR ETFs Europe II plc are available from www.ssga.com.                      Segregation of Assets and Liabilities SSGA SPDR ETFs Europe II plc
+Paper copies are available free of charge on request.                              has segregated liability between its sub-funds. As a consequence, the
+                                                                                   assets of the Fund should not be available to pay the debts of any other
+                                                                                   sub-fund of SSGA SPDR ETFs Europe II plc.
+
+
+
+
+This Fund is authorised in Ireland and regulated by the Central Bank of Ireland. State Street Global Advisors Europe Limited is a Company approved by
+the Central Bank of Ireland, under no. 49934. This key investor information is accurate as at 19 February 2026.
+

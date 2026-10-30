@@ -1,0 +1,119 @@
+=== pdf p.1 ===
+                                                                    KEY INVESTOR INFORMATION
+                                                                    This document provides you with key investor information about this Fund. It is not marketing material. The
+                                                                    information is required by law to help you understand the nature and risks of investing in this Fund. You are advised
+                                                                    to read it so you can make an informed decision about whether to invest.
+
+iShares EURO STOXX Banks 30-15 UCITS                                                               EUR (Dist) Share Class
+                                                                                                   WKN: 628930                               ISIN: DE0006289309
+ETF (DE)                                                                                           Exchange Traded Fund (ETF)
+                                                                                                   Management Company: BlackRock Asset Management Deutschland
+                                                                                                   AG
+
+Objectives and Investment Policy
+  The Unit Class iShares EURO STOXX Banks 30-15 UCITS ETF (DE) EUR (Dist) (the “Unit Class”) is a unit class of the iShares EURO STOXX Banks 30-15 UCITS ETF (DE)
+  (the “Fund”) which is a passively managed exchange traded fund (ETF) that aims to track the performance of the EURO STOXX® Banks 30-15 (Net Total Return Index)
+  as closely as possible. In this regard, it aims to replicate the benchmark (Index).
+  The Index tracks companies in the banking sector in the Euro zone included in the multi-sector EURO STOXX® index. This in turn tracks companies with a large,
+  medium and small market capitalisation in developed economies in the Euro zone. The market capitalisation is determined by multiplying the current share price with
+  the total number of shares of a company. The Index is capped at 30% for largest and 15% for the second largest constituent, in order to comply with UCITS
+  diversification criteria.
+  The Fund mostly invests in equities in order to achieve the investment objective.
+  The proportion of assets in the Fund which matches the weighting of the Index (duplication percentage) is at least 95% of the Fund's assets.
+  It is not the Investment Manager’s intention to leverage the Fund. However, the Fund may generate minimal amounts of leverage from time to time, for example, if
+  using financial derivative instruments (FDIs) for efficient portfolio management purposes.
+  Recommendation: This Fund is suitable for medium to long term investment, though the Fund may also be suitable for shorter term exposure to the Index.
+  This Unit Class is distributing. Income from the Unit Class’ investments will be paid out at least once a year as a dividend.
+  The Unit Class is denominated in Euro.
+  The units are listed on one or more Stock Exchange(s). Investors can buy or sell their units daily during business hours through an intermediary on such Stock Exchange
+  (s). Indicative net asset value is published on relevant stock exchanges websites.
+For more information on the Fund, share/unit classes, risks and charges, please see the Fund's prospectus, available on the product pages at www.blackrock.com
+
+Risk and Reward Profile
+ Lower risk                                                                       Higher risk         - Investment risk is concentrated in specific sectors, countries, currencies or
+ Typically lower rewards                                              Typically higher rewards          companies. This means the Fund is more sensitive to any localised economic,
+                                                                                                        market, political, sustainability-related or regulatory events.
+                                                                                                      - The value of equities and equity-related securities can be affected by daily
+                                                                                                        stock market movements. Other influential factors include political, economic
+  This indicator is based on historical data and may not be a reliable indication of                    news, company earnings and significant corporate events.
+  the future risk profile of the Unit Class.                                                          Particular risks not adequately captured by the risk indicator include:
+  The risk category shown is not guaranteed and may change over time.                                 - Counterparty Risk: The insolvency of any institutions providing services such
+  The lowest category does not mean risk free.                                                          as safekeeping of assets or acting as counterparty to derivatives or other
+  The Unit Class is rated seven due to the nature of its investments which include                      instruments, may expose the Unit Class to financial loss.
+  the risks listed below. These factors may impact the value of the Unit Class’
+  investments or expose the Unit Class to losses.
+
+
+
+
+The benchmark is the intellectual property of the index provider. The Unit Class is not sponsored or endorsed by the index provider. Please refer to the Fund's prospectus for full disclaimer.
+
+=== pdf p.2 ===
+Charges
+The charges are used to pay the costs of running the Unit Class, including the costs             One-off charges taken before or after you invest
+of marketing and distributing it. These charges reduce the potential growth of your
+                                                                                                 Entry Charge (entry charge 0% when traded on                                  2.00%*
+investment.
+                                                                                                 exchange)
+*Investors dealing on exchanges will pay fees charged by their stock brokers. Such
+                                                                                                 Exit Charge (exit charge 0% when traded on                                    1.00%*
+charges are publicly available on the exchanges on which the units are listed and
+                                                                                                 exchange)
+traded, or can be obtained from stock brokers. If investors deal in units directly with
+the Fund or the Management Company of the Fund, the entry charge is up to 2% and                  This is the maximum that might be taken out of your money before it is invested or
+                                                                                                  before proceeds of your investments are paid out.
+the exit charge is up to 1%.
+*Authorised participants dealing directly with the Fund or the Management                        Charges taken from the Unit Class over each year
+Company (as the case may be) will pay related transaction costs.                                 Ongoing Charges                                                               0.51%
+The ongoing charges figure is based on expenses for the twelve month period                      Charges taken from the Unit Class under certain conditions
+ending 31 December 2025. This figure may vary from year to year. It excludes                     Performance Fee                                                                 None
+portfolio trade-related costs, except costs paid to the custodian and any entry/exit
+charge paid to an underlying collective investment scheme (if any).
+
+Past Performance
+Past performance is not a guide to future                     Historic performance to 31 December 2025
+performance.
+The chart shows the Unit Class’ annual performance
+in EUR for each full calendar year over the period
+displayed in the chart. It is expressed as a
+percentage change of the Unit Class’ net asset value
+at each year-end. The fund was launched in 2001.
+The Unit Class was launched in 2001.
+Performance is shown after deduction of ongoing
+charges. Any entry/exit charges are excluded from
+the calculation.
+
+† Benchmark:EURO STOXX Banks 30-15. Prior to 11
+                                                                                      2016      2017      2018      2019      2020      2021       2022     2023      2024      2025
+July 2014 the Fund used a different benchmark which
+                                                                 Fund                  -4.7      14.2     -30.9      17.2     -23.7      41.0       0.4     30.2      30.9      89.2
+is reflected in the benchmark data.
+                                                                 Benchmark †           -4.6      14.0     -31.0      16.1     -23.3      40.6      -0.1     29.5      29.9      88.3
+                                                                 During this period performance was achieved under circumstances that no longer apply.
+
+Practical Information
+  The Fund's depositary bank is State Street Bank International GmbH.
+  Further information about the Fund and the Unit Class can be obtained from the latest annual and half-yearly reports. These documents are available free of charge in
+  German, English and certain other languages. They can be found along with other information, such as unit prices, by emailing info@iShares.de or from
+  www.ishares.com (select your country and navigate to Documents) or by calling +49 (0) 89 42729 5858.
+  The Fund and the Unit Class are subject to the German Investment Tax Act (Investmentsteuergesetz). This may have an impact on the personal tax of your investment.
+  The Fund has one or more unit classes. This document is specific to the Unit Class stated at the beginning of this document. However, the prospectus, annual and half-
+  yearly reports are prepared for the Fund.
+  BlackRock Asset Management Deutschland AG may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or
+  inconsistent with the relevant parts of the Fund's prospectus.
+  The indicative intra-day net asset value of the Unit Class is published on relevant stock exchanges websites.
+  The Company will publish a breakdown of the key underlying Investments of the Fund for each Dealing Day via the official iShares website (www.ishares.com) subject
+  to any restrictions on the publication of data imposed by the relevant index providers.
+  The Remuneration Policy of the Management Company, which describes how remuneration and benefits are determined and awarded, and the associated governance
+  arrangements, is available at www.blackrock.com/Remunerationpolicy or on request from the registered office of the Management Company.
+  Under German law, the Fund has segregated liability from other funds managed by the Management Company (i.e. the Fund’s assets will not be used to discharge the
+  liabilities of other funds managed by the Management Company). In addition, the Fund's assets are held separately from the assets of other funds. Assets and
+  liabilities specific to a unit class would be attributable to only that unit class, however there is no segregation of liabilities between unit classes under German law.
+
+
+
+
+This Fund and BlackRock Asset Management Deutschland AG are authorised in Germany and are regulated by the Federal Agency for Financial Services
+Supervision (BaFin).
+This Key Investor Information is accurate as at 09 February 2026
+

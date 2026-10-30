@@ -1,0 +1,119 @@
+=== pdf p.1 ===
+                                                                    KEY INVESTOR INFORMATION
+                                                                    This document provides you with key investor information about this Fund. It is not marketing material. The
+                                                                    information is required by law to help you understand the nature and risks of investing in this Fund. You are advised
+                                                                    to read it so you can make an informed decision about whether to invest.
+
+iShares MSCI Canada UCITS ETF                                                                      USD Accu
+                                                                                                   ISIN: IE00B52SF786                     Exchange Traded Fund (ETF)
+A sub-fund of iShares VII plc
+                                                                                                   Manager: BlackRock Asset Management Ireland Limited
+
+Objectives and Investment Policy
+  The Share Class is a share class of a Fund which aims to achieve a return on your investment, through a combination of capital growth and income on the Fund’s
+  assets, which reflects the return of the MSCI Canada Index, the Fund’s benchmark index (Index).
+  The Share Class, via the Fund is passively managed and aims to invest so far as possible and practicable in the equity securities (e.g. shares) that make up the Index.
+  The Index measures the performance of companies in Canada with large and mid-market capitalisation, according to the MSCI size, liquidity and free float criteria.
+  Companies are included in the Index based on a free float –adjusted market capitalisation weighted basis. Free float means that only shares available to international
+  investors rather than all of a company’s issued shares are used in calculating the Index. Free float – adjusted market capitalisation is the share price of a company
+  multiplied by the number of shares available to international investors. Securities that are liquid means that they can be easily bought or sold in the market in normal
+  market conditions. The Index is a net total return index which means that the net dividends of the constituents of the Index are reinvested after the deduction of any
+  taxes that may apply.
+  The Fund intends to replicate the Index by holding the equity securities which make up the Index, in similar proportions to it.
+  The Fund may also engage in short-term secured lending of its investments to certain eligible third parties to generate additional income to off-set the costs of the
+  Fund.
+  The investment manager may use financial derivative instruments (FDIs) (i.e. investments the prices of which are based on one or more underlying assets) to help
+  achieve the Fund’s investment objectives. FDIs may be used for direct investment purposes.
+  Recommendation: This Fund is suitable for medium to long term investment, though the Fund may also be suitable for shorter term exposure to the Index.
+  Your shares will be accumulating shares (i.e. income will be included in their value).
+  Your shares will be denominated in US Dollar, the Fund's base currency.
+  The shares are listed on one or more stock exchanges and may be traded in currencies other than their base currency. The performance of your shares may be
+  affected by this currency difference. In normal circumstances, only authorised participants (e.g. select financial institutions) may deal in shares (or interests in shares)
+  directly with the Fund. Other investors can deal in shares (or interests in shares) daily through an intermediary on stock exchange (s) on which the shares are traded.
+  Indicative net asset value is published on relevant stock exchanges websites.
+For more information on the Fund, Share Class, risks and charges, please see the Fund's prospectus, available on the product pages at www.blackrock.com
+
+Risk and Reward Profile
+ Lower risk                                                                      Higher risk          - Investment risk is concentrated in specific sectors, countries, currencies or
+ Typically lower rewards                                             Typically higher rewards           companies. This means the Fund is more sensitive to any localised economic,
+                                                                                                        market, political, sustainability-related or regulatory events.
+                                                                                                      - The value of equities and equity-related securities can be affected by daily
+                                                                                                        stock market movements. Other influential factors include political, economic
+  This indicator is based on historical data and may not be a reliable indication of                    news, company earnings and significant corporate events.
+  the future risk profile of this Share Class.                                                        Particular risks not adequately captured by the risk indicator include:
+  The risk category shown is not guaranteed and may change over time.                                 - Counterparty Risk: The insolvency of any institutions providing services such
+  The lowest category does not mean risk free.                                                          as safekeeping of assets or acting as counterparty to derivatives or other
+  The Share Class is rated six due to the nature of its investments which include                       instruments, may expose the Share Class to financial loss.
+  the risks listed below. These factors may impact the value of the Share Class or
+  expose the Share Class to losses.
+
+
+
+
+The benchmark is the intellectual property of the index provider. The Share Class is not sponsored or endorsed by the index provider. Please refer to the Fund's prospectus for full disclaimer.
+
+=== pdf p.2 ===
+Charges
+The charges are used to pay the costs of running the Share Class, including the                     ** To the extent the Fund undertakes securities lending to reduce costs, the
+costs of marketing and distributing it. These charges reduce the potential growth of                Fund will receive 62.5% of the associated revenue generated and the remaining
+your investment.                                                                                    37.5% will be received by BlackRock as the securities lending agent. As
+*Not applicable to secondary market investors. Investors dealing on a stock                         securities lending revenue sharing does not increase the costs of running the
+exchange will pay fees charged by their stock brokers. Such charges are publicly                    Fund, this has been excluded from the ongoing charges.
+available on exchanges on which the shares are listed and traded, or can be                          One-off charges taken before or after you invest
+obtained from stock brokers.
+                                                                                                     Entry Charge                                                                  None*
+*Authorised participants dealing directly with the Fund will pay related transaction
+costs including, on redemptions, any applicable capital gains tax (CGT) and other                    Exit Charge                                                                   None*
+taxes on underlying securities.                                                                       This is the maximum that might be taken out of your money before it is invested or
+                                                                                                      before proceeds of your investments are paid out.
+The ongoing charges figure is based on the fixed annualised fee charged to the
+Share Class in accordance with the Fund’s prospectus. This figure excludes portfolio                 Charges taken from the Share Class over each year
+trade related costs, except costs paid to the depositary and any entry/exit charge                   Ongoing Charges                                                             0.48%**
+paid to an underlying collective investment scheme (if any).                                         Charges taken from the Share Class under certain conditions
+                                                                                                     Performance Fee                                                                 None
+
+Past Performance
+Past performance is not a guide to future                       Historic performance to 31 December 2025
+performance.
+The chart shows the Share Class's annual
+performance in USD for each full calendar year over
+the period displayed in the chart. It is expressed as a
+percentage change of the Share Class's net asset
+value at each year-end. The Fund was launched in
+2010. The Share Class was launched in 2010.
+Performance is shown after deduction of ongoing
+charges. Any entry/exit charges are excluded from
+the calculation.
+
+                                                                                         2016      2017       2018      2019       2020      2021       2022    2023      2024      2025
+                                                                   Fund                   24.3      15.8      -17.3      27.0        5.0         25.7   -13.2   15.1      11.5      36.0
+                                                            Benchmark †        24.6    16.1    -17.2     27.5        5.3     26.0    -12.9     15.4    11.9    36.5
+† Benchmark:MSCI Canada Index (USD). From 1 August 2014, the base currency of the Fund and the currency version of its Benchmark were changed from Canadian
+Dollar to USD. The entire historic performance of the Fund and the Benchmark is shown in USD. For the period prior to the change, the Fund’s performance in USD has
+been simulated by BlackRock using historic foreign exchange rates and the Benchmark shown is the USD version published by the Benchmark provider.
+
+Practical Information
+  The depositary of the Fund is The Bank of New York Mellon SA/NV, Dublin Branch.
+  Further information about the Fund and the Share Class can be obtained from the latest annual report and half-yearly reports of iShares VII plc. These documents are
+  available free of charge in English and certain other languages. These can be found, along with other information, such as details of the key underlying investments of
+  the Share Class and share prices, on the iShares website at www.ishares.com or by calling +44 207-743-1500 or from your broker or financial adviser.
+  Investors should note that the tax legislation that applies to the Fund and Share Class may have an impact on the personal tax position of your investment.
+  The Fund is a sub-fund of iShares VII plc, an umbrella structure comprising different sub-funds. The Fund has one or more share classes. This document is specific to
+  the Fund and Share Class stated at the beginning of this document. However, the prospectus, annual and half-yearly reports are prepared for the umbrella.
+  iShares VII plc may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant parts
+  of the Fund's prospectus.
+  The indicative intra-day net asset value of the Share Class is published on relevant stock exchanges websites.
+  Under Irish law, iShares VII plc has segregated liability between its sub-funds (i.e. the Fund’s assets will not be used to discharge the liabilities of other sub-funds within
+  iShares VII plc). In addition, the Fund's assets are held separately from the assets of other sub-funds. Assets and liabilities specific to a share class would be
+  attributable to only that share class, however there is no segregation of liabilities between share classes under Irish law.
+  Switching of shares between the Fund and other sub-funds within iShares VII plc is not available to investors. Only Authorised Participants dealing directly with the
+  Fund may switch shares between share classes of the Fund subject to meeting certain conditions in the Fund's prospectus.
+  The Remuneration Policy of the Management Company, which describes how remuneration and benefits are determined and awarded, and the associated governance
+  arrangements, is available at www.blackrock.com/Remunerationpolicy or on request from the registered office of the Management Company.
+
+
+
+
+This Fund and its manager, BlackRock Asset Management Ireland Limited, are authorised in Ireland and regulated by the Central Bank of Ireland.
+This Key Investor Information is accurate as at 09 February 2026
+

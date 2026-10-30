@@ -1,0 +1,187 @@
+=== pdf p.1 ===
+                                                                                     Factsheet
+                                                                                     Marketing Material
+
+
+
+
+Xtrackers MSCI World Information Technology UCITS ETF 1C
+A sub fund of Xtrackers (IE) Plc
+
+This factsheet is as of september 30, 2026 unless otherwise specified
+
+
+
+
+At a Glance                                                                                           Key Risks
+̵ Direct investment in Global Equities                                                                The value of your investment may go down as well as up and past performance
+̵ Provides diversified Provides diversified exposure to global developed market                       does not predict future returns. Investor capital may be at risk up to a total loss.
+  equities that are constituent members of the MSCI World Index and part of the                       The Fund is exposed to the currency markets which may be highly volatile. Large
+  Information Technologies sector                                                                     price swings can occur in such markets within very short periods and may result
+̵ Sector Specific Exposure                                                                            in your investment suffering a loss.
+                                                                                                      The value of an investment in shares will depend on a number of factors
+                                                                                                      including, but not limited to, market and economic conditions, sector,
+Fund information                                                                                      geographical region and political events.
+                                                                                                      The Fund has a focus on a single or narrow range of industry, sector or types of
+ ISIN                                       IE00BM67HT60                                              companies and performance may not reflect a rise in broader markets.
+                                                                                                      The following is applicable if you subscribe for or settle shares in a different
+ Share class currency                       USD                                                       currency than the fund or share-class currency: Be aware of currency risk. You
+ Fund Currency                              USD                                                       will receive payments in a different currency, so the final return you will get
+ Fund launch date                           09/03/2016                                                depend on the exchange rate between the two currencies.
+
+ Share class launch date                    09/03/2016
+ Domicile                                   Ireland                                                   Index key facts
+ Portfolio Methodology                      Direct Replication (physically)
+                                                                                                                                               MSCI World Information Technology 20-35
+                                            State Street Custodial Services (Ireland)                  Index name
+ Custodian                                                                                                                                     Index*
+                                            Limited
+                                                                                                       Index provider                          MSCI Inc.
+ All-in fee¹                                0.25% p.a.
+                                                                                                       Bloomberg symbol                        NU732025
+ Income treatment                           Capitalizing
+                                                                                                       Index base currency                     USD
+ NAV per Share                              USD 150.44
+                                                                                                       Number of Index constituents            135
+ Total Fund Assets                          USD 6.73 Billion
+ Total Shares Outstanding                   44.74 Million                                             Source: Index Provider
+                                                                                                      *On 01/12/2020 the ETF changed its underlying benchmark to track the MSCI World Information
+ Reporting Fund                             Yes                                                       Technology 20-35 Index. Prior to the change the ETF tracked the MSCI WORLD INFORMATION TECH-
+                                                                                                      NOLOGY TRN INDEX.
+ Annual security lending return²            0.0012%
+¹ A Glossary can be found on etf.dws.com.
+² Based on annual revenue from securities lending divided by average fund AuM over the past year or
+since the fund started securities lending (if less than one year ago)
+                                                                                                      Reference Index key features
+                                                                                                      The MSCI World Information Technology 20-35 Custom Index aims to reflect the
+                                                                                                      performance of the following market:
+Performance                                                                                           ̵ Large and mid-cap companies from global developed markets part of the
+» Historical Performance (online)                                                                       Information Technology sector as classified by GICS
+                                                                                                      ̵ Weighted by free-float adjusted market capitalization with the largest group
+                                                                                                        entity in the index limited to 35% and the weight of the other entities limited
+                                                                                                        to 20% with a buffer of 10% applied on these limits at each index rebalancing
+Listing and trading information
+                                                                                                      ̵ Reviewed on a quarterly basis
+                                         Bloomberg               Reuters          Trading             Additional information on the index, selection and weighting methodology is
+ Exchange                                                                                             available at www.msci.com
+                                         Ticker                  RIC              Currency
+ Borsa Italiana                          XDWT IM                 XDWT.MI             EUR
+ BX Swiss                                XDWT BW                 XDWT.BN             CHF
+ London Stock Exchange                   XDWT LN                 XDWT.L              USD
+ London Stock Exchange                   XXTW LN                 XXTW.L              GBP
+ SIX - Swiss Exchange                    XDWT SW                 XDWT.S              CHF
+ XETRA                                   XDWT GY                 XDWT.DE             EUR
+
+=== pdf p.2 ===
+Top 10 ETF constituents                                                             About Xtrackers by DWS
+                                                                                    Xtrackers, DWS’s global platform for Exchange Traded Funds (ETF) and
+Issuer                                        ISIN                Weight
+                                                                                    Exchange-traded commodity (ETC) solutions, began in 2007 with ETFs
+NVIDIA                                        US67066G1040            18.39%        tracking major leading indices.
+APPLE                                         US0378331005             17.38%
+                                                                                    Today, with approximately EUR 348 billion1 in UCITS assets under
+MICROSOFT                                     US5949181045            12.56%        management, Xtrackers is amongst the largest and most established ETF
+BROADCOM INC                                  US11135F1012             5.52%        providers in Europe2.
+MICRON TECHNOLOGY                             US5951121038             4.16%        With around 300 products, Xtrackers offers a comprehensive range of
+ADVANCED MICRO DEVICES                        US0079031078             3.47%        efficient, high‑quality ETFs and ETCs across all major asset classes,
+ASML HOLDING                                  NL0010273215             2.37%        including equities, fixed income and commodities.
+INTEL CORPORATION CORP                        US4581401001              1.78%       The product offering continues to grow. Xtrackers products are currently
+CISCO SYSTEMS INC                             US17275R1023              1.47%       listed on eleven exchanges worldwide.
+PALANTIR TECHNOLOGIES CLASS A                 US69608A1088             1.43%        1
+                                                                                        Source: DWS, august 31, 2026
+                                                                                    2
+                                                                                        Source: Deutsche Bank ETF Research
+Source: DWS
+
+
+
+
+Further information on Xtrackers                                                    Additional information
+DWS Investments UK Limited             E-Mail: Xtrackers@dws.com                    A Glossary of Terms is available at Xtrackers.com.
+Xtrackers Team                         Website: www.Xtrackers.com
+21 Moorfields
+London EC2Y 9DB
+United Kingdom
+
+
+
+
+Disclaimer
+This document is intended for information purposes only and does not create         S.A., 2, Boulevard Konrad Adenauer, L-1115 Luxembourg or on www.Xtrackers.
+any legally binding obligations on the part of DWS Group GmbH & Co. KGaA            com. A summary of investor rights is available at www.etf.dws.com under
+and/or its affiliates (DWS).                                                        “About Us – How to Complain?”.
+This document has been prepared without consideration of the investment
+needs, objectives or financial circumstances of any investor. Without               PAST PERFORMANCE DOES NOT PREDICT FUTURE RETURNS.
+limitation, this document does not constitute an offer, an invitation to offer or
+a recommendation to enter into any transaction.
+                                                                                    © DWS Investments UK Limited, 2026. Authorised and regulated by the
+Before making an investment decision, investors need to consider, with or           Financial Conduct Authority.
+without the assistance of an investment adviser, whether the investments
+and strategies described or provided by DWS are appropriate in light of their
+particular investment needs, objectives and financial circumstances.
+Information in this document has been obtained or derived from sources
+                                                                                    Index Disclaimer
+believed to be reliable and current. However, accuracy or completeness of the       The MSCI World Information Technology UCITS ETF ARE NOT SPONSORED,
+sources cannot be guaranteed.                                                       ENDORSED, SOLD OR PROMOTED BY MSCI INC. (“MSCI”) OR ANY OF ITS
+This document is not directed to, or intended for distribution to or use by,        AFFILIATES, INFORMATION PROVIDERS OR OTHER THIRD PARTY INVOLVED
+any person or entity who is a citizen or resident of or located in any locality,    IN, OR RELATED TO, COMPILING, COMPUTING OR CREATING ANY MSCI
+state, country or other jurisdiction, including the United States, where            INDEX (COLLECTIVELY, THE “MSCI PARTIES”). THE MSCI INDEXES ARE THE
+such distribution, publication, availability or use would be contrary to law        EXCLUSIVE PROPERTY OF MSCI. MSCI AND THE MSCI INDEX NAMES ARE
+or regulation or which would subject DWS to any registration or licensing           SERVICE MARK(S) OF MSCI OR ITS AFFILIATES AND HAVE BEEN LICENSED
+requirement within such jurisdiction not currently met within such jurisdiction.    FOR USE FOR CERTAIN PURPOSES BY PRINCIPAL. NONE OF THE MSCI
+Persons into whose possession this document may come are required to                PARTIES MAKES ANY REPRESENTATION OR WARRANTY, EXPRESS OR
+inform themselves of, and to observe, such restrictions.                            IMPLIED, TO THE ISSUER OR OWNERS OF THESE FUNDS OR ANY OTHER
+Xtrackers (IE) plc is an undertaking for collective investment in transferable      PERSON OR ENTITY REGARDING THE ADVISABILITY OF INVESTING IN FUNDS
+securities (UCITS) in accordance with the applicable laws and regulations           GENERALLY OR IN THESE FUNDS PARTICULARLY OR THE ABILITY OF ANY
+and set up as open-ended investment company with variable capital and               MSCI INDEX TO TRACK CORRESPONDING STOCK MARKET PERFORMANCE.
+segregated liability amongst its respective compartments.                           MSCI OR ITS AFFILIATES ARE THE LICENSORS OF CERTAIN TRADEMARKS,
+Investors must buy and must usually sell shares in Xtrackers UCITS ETFs on a        SERVICE MARKS AND TRADE NAMES AND OF THE MSCI INDEXES WHICH
+secondary market with the assistance of an intermediary (e.g. a stockbroker)        ARE DETERMINED, COMPOSED AND CALCULATED BY MSCI WITHOUT
+and may incur fees for doing so. In addition, investors may pay more than           REGARD TO THESE FUNDS OR THE ISSUER OR OWNERS OF THESE FUNDS
+the current net asset value when buying shares and may receive less than            OR ANY OTHER PERSON OR ENTITY. NONE OF THE MSCI PARTIES HAS ANY
+the current net asset value when selling them. Before making any investment         OBLIGATION TO TAKE THE NEEDS OF THE ISSUER OR OWNERS OF THESE
+decision, investors should refer to the Risk Factors in the Prospectus and Key      FUNDS OR ANY OTHER PERSON OR ENTITY INTO CONSIDERATION IN
+Investor Information Document.                                                      DETERMINING, COMPOSING OR CALCULATING THE MSCI INDEXES. NONE
+Tax treatment of the Xtrackers UCITS ETFs depends on the individual                 OF THE MSCI PARTIES IS RESPONSIBLE FOR OR HAS PARTICIPATED IN THE
+circumstances of each investor.                                                     DETERMINATION OF THE TIMING OF, PRICES AT, OR QUANTITIES OF THESE
+                                                                                    FUNDS TO BE ISSUED OR IN THE DETERMINATION OR CALCULATION OF
+Xtrackers (IE) plc is incorporated in Ireland with registered number 393802
+                                                                                    THE EQUATION BY OR THE CONSIDERATION INTO WHICH THESE FUNDS ARE
+and has its registered office at 78 Sir John Rogerson’s Quay, Dublin 2, Ireland.
+                                                                                    REDEEMABLE. FURTHER, NONE OF THE MSCI PARTIES HAS ANY OBLIGATION
+DWS Investment S.A. acts as the management company of Xtrackers (IE) plc.
+                                                                                    OR LIABILITY TO THE ISSUER OR OWNERS OF THESE FUNDS OR ANY
+The Investment Company may decide to terminate the arrangements made
+                                                                                    OTHER PERSON OR ENTITY IN CONNECTION WITH THE ADMINISTRATION,
+for the marketing of this fund
+                                                                                    MARKETING OR OFFERING OF MSCI World Information Technology UCITS ETF.
+Any investment decision in relation to a fund should be based solely on the
+latest version of the prospectus, the audited annual and, if more recent, un-       ALTHOUGH MSCI SHALL OBTAIN INFORMATION FOR INCLUSION IN OR FOR
+audited semi-annual reports and the Key Investor Information Document               USE IN THE CALCULATION OF THE MSCI INDEXES FROM SOURCES THAT
+(KIID), all of which are available in English upon request to DWS Investment        MSCI CONSIDERS RELIABLE, NONE OF THE MSCI PARTIES WARRANTS OR
+
+=== pdf p.3 ===
+GUARANTEES THE ORIGINALITY, ACCURACY AND/OR THE COMPLETENESS
+OF ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. NONE OF THE MSCI
+PARTIES MAKES ANY WARRANTY, EXPRESS OR IMPLIED, AS TO RESULTS TO BE
+OBTAINED BY THE ISSUER OF THE FUNDS, OWNERS OF THE FUNDS, OR ANY
+OTHER PERSON OR ENTITY, FROM THE USE OF ANY MSCI INDEX OR ANY DATA
+INCLUDED THEREIN. NONE OF THE MSCI PARTIES SHALL HAVE ANY LIABILITY
+FOR ANY ERRORS, OMISSIONS OR INTERRUPTIONS OF OR IN CONNECTION
+WITH ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. FURTHER, NONE
+OF THE MSCI PARTIES MAKES ANY EXPRESS OR IMPLIED WARRANTIES
+OF ANY KIND, AND THE MSCI PARTIES HEREBY EXPRESSLY DISCLAIM ALL
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE, WITH RESPECT TO EACH MSCI INDEX AND ANY DATA INCLUDED
+THEREIN. WITHOUT LIMITING ANY OF THE FOREGOING, IN NO EVENT SHALL
+ANY OF THE MSCI PARTIES HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT,
+SPECIAL, PUNITIVE, CONSEQUENTIAL OR ANY OTHER DAMAGES (INCLUDING
+LOST PROFITS) EVEN IF NOTIFIED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+No purchaser, seller or holder of this security, product or Funds, or any other
+person or entity, should use or refer to any MSCI trade name, trademark or
+service mark to sponsor, endorse, market or promote this security without
+first contacting MSCI to determine whether MSCI’s permission is required.
+Under no circumstances may any person or entity claim any affiliation with
+MSCI without the prior written permission of MSCI.
+

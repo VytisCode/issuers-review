@@ -4890,5 +4890,905 @@
   "fetched": "2026-10-30",
   "ok": false,
   "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B4L5Y983",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B4L5Y983/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4L5Y983/data_056e81c9b3.csv",
+  "sha256": "056e81c9b3476ca9bf704acd3b315ffffb4364da01a33455aa7889911acc9987",
+  "bytes": 394894,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B4L5Y983/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00B6R52259",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B6R52259/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B6R52259/data_be78a43504.csv",
+  "sha256": "be78a435049bdb33c716468b9555d4eec44f16f98939a4127e4aa794358ca91c",
+  "bytes": 351866,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B6R52259/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00B4K48X80",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B4K48X80/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4K48X80/data_a37b299717.csv",
+  "sha256": "a37b299717b91f292b25c86756f8a1afe06fd95a8bdf7559a6698bc9f0104700",
+  "bytes": 393952,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B4K48X80/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "LU2089238385",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/LU2089238385/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/LU2089238385/data_55ea2da9fb.csv",
+  "sha256": "55ea2da9fb6b63a3bac48e056cada4b0a416232f3401b79991e20558975409b4",
+  "bytes": 158546,
+  "final_url": "https://www.justetf.com/api/etfs/LU2089238385/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00B52MJY50",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B52MJY50/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B52MJY50/data_7ffd94f5b7.csv",
+  "sha256": "7ffd94f5b79431653274ac5da7634ced0338e8cc1ec33daa3d6f8e43f6b76654",
+  "bytes": 401078,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B52MJY50/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00B52SF786",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B52SF786/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B52SF786/data_d1082fbfe4.csv",
+  "sha256": "d1082fbfe46224ce5729e5de2e7c4fb25d804e520efff6fb857637729456659f",
+  "bytes": 400582,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B52SF786/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00BKM4GZ66",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00BKM4GZ66/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BKM4GZ66/data_8cbbae6755.csv",
+  "sha256": "8cbbae67553d65f4365cc3cd98649abae3badc6760ed86ffac90eb38c88e9be6",
+  "bytes": 290580,
+  "final_url": "https://www.justetf.com/api/etfs/IE00BKM4GZ66/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00BM67HT60",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00BM67HT60/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BM67HT60/data_e148a14d7c.csv",
+  "sha256": "e148a14d7c1f25ead8a9d9bb081ec5635236092171795e55218bcf970f55bcaf",
+  "bytes": 249602,
+  "final_url": "https://www.justetf.com/api/etfs/IE00BM67HT60/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE000I8KRLL9",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE000I8KRLL9/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE000I8KRLL9/data_36dee1c5fb.csv",
+  "sha256": "36dee1c5fb58121dc1f5718f015ab03680e120b2e98197c0e449bb40e119260c",
+  "bytes": 119540,
+  "final_url": "https://www.justetf.com/api/etfs/IE000I8KRLL9/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00BYTRR863",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00BYTRR863/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BYTRR863/data_515aa4f257.csv",
+  "sha256": "515aa4f257b65b388816e9f6e98509215c6e49b32493696d13a8e288022bf221",
+  "bytes": 245780,
+  "final_url": "https://www.justetf.com/api/etfs/IE00BYTRR863/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE000YYE6WK5",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE000YYE6WK5/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE000YYE6WK5/data_19fee32d6f.csv",
+  "sha256": "19fee32d6fb19c830481d5c45f1037671f705b11f78097d707493b7b293d149d",
+  "bytes": 84052,
+  "final_url": "https://www.justetf.com/api/etfs/IE000YYE6WK5/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "DE0006289309",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/DE0006289309/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/DE0006289309/data_9ea8179368.csv",
+  "sha256": "9ea8179368f80dac6af9093730e67adbcc4b2cf161b946208022584235edc43b",
+  "bytes": 393466,
+  "final_url": "https://www.justetf.com/api/etfs/DE0006289309/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00B4WXJJ64",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B4WXJJ64/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4WXJJ64/data_5f664c6f13.csv",
+  "sha256": "5f664c6f13838aa0dfda33548c0a5537d7e7b2adb3fa6a7a14ad373630d13b01",
+  "bytes": 405914,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B4WXJJ64/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00B5M4WH52",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B5M4WH52/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B5M4WH52/data_af9876b32a.csv",
+  "sha256": "af9876b32aeb5b0da8cc366268cbd21537c60bdd30267a87ba6ca4a9199cc4c0",
+  "bytes": 359378,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B5M4WH52/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00B9M6RS56",
+  "kind": "data",
+  "url": "https://www.justetf.com/api/etfs/IE00B9M6RS56/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B9M6RS56/data_9a8d942705.csv",
+  "sha256": "9a8d94270582b283e9e4ab4ca2a9a7fffb2677ce286b12d85905247a8a87c220",
+  "bytes": 320902,
+  "final_url": "https://www.justetf.com/api/etfs/IE00B9M6RS56/performance-chart?locale=en&currency=EUR&valuesType=MARKET_VALUE&reduceData=false&includeDividends=true&dateFrom=2010-01-01&dateTo=2026-10-29"
+ },
+ {
+  "isin": "IE00B4L5Y983",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B4L5Y983/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4L5Y983/factsheet_2460e00d3d.pdf",
+  "sha256": "2460e00d3df1b43dbab783a95c52bd6c2da56f1a596092ff431a586c7c2aa1de",
+  "bytes": 385783,
+  "final_url": "https://docs.extraetf.com/download/IE00B4L5Y983/en/MR/"
+ },
+ {
+  "isin": "IE00B4L5Y983",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B4L5Y983/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B4L5Y983",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B4L5Y983-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4L5Y983/factsheet_6706ac3da7.pdf",
+  "sha256": "6706ac3da74c8d57bf9363917b993531a5631343258f08f5f72f8e750734065f",
+  "bytes": 390313,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00B4L5Y983-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B4L5Y983",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B4L5Y983/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B4L5Y983",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B4L5Y983/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4L5Y983/kid_9b4d953b3c.pdf",
+  "sha256": "9b4d953b3cba7ce6f51c69ba498ad12f961fa8c05a6a9a7b95452e855112d3ff",
+  "bytes": 169735,
+  "final_url": "https://docs.extraetf.com/download/IE00B4L5Y983/en/KID/"
+ },
+ {
+  "isin": "IE00B6R52259",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B6R52259/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B6R52259/factsheet_563983ad94.pdf",
+  "sha256": "563983ad940955d1b04a254c0fd5a8b596f92308cd8940250eb12f0f9a3d9358",
+  "bytes": 371888,
+  "final_url": "https://docs.extraetf.com/download/IE00B6R52259/en/MR/"
+ },
+ {
+  "isin": "IE00B6R52259",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B6R52259/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B6R52259",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B6R52259-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B6R52259/factsheet_f2f3fa374d.pdf",
+  "sha256": "f2f3fa374dab9316032dc0ffb12ffe8bea1bea9101bf877c0d992e1c18e432b8",
+  "bytes": 376903,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00B6R52259-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B6R52259",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B6R52259/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B6R52259",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B6R52259/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B6R52259/kid_eedb465f51.pdf",
+  "sha256": "eedb465f51593c9b70d29f233e02cf6a2a397e49e0490534a89064d3bf196066",
+  "bytes": 170608,
+  "final_url": "https://docs.extraetf.com/download/IE00B6R52259/en/KID/"
+ },
+ {
+  "isin": "IE00B4K48X80",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B4K48X80/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4K48X80/factsheet_6c38a49cb4.pdf",
+  "sha256": "6c38a49cb44c37119f9fe1a26b7bf6cad6e764152b9f00de71f216f5e2d6ec64",
+  "bytes": 381619,
+  "final_url": "https://docs.extraetf.com/download/IE00B4K48X80/en/MR/"
+ },
+ {
+  "isin": "IE00B4K48X80",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B4K48X80/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B4K48X80",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B4K48X80-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4K48X80/factsheet_f84d731834.pdf",
+  "sha256": "f84d7318346a66a06934e808bb4d32c8243b521ae728853b9008564cad3c52f0",
+  "bytes": 386599,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00B4K48X80-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B4K48X80",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B4K48X80/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B4K48X80",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B4K48X80/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4K48X80/kid_41df098ae9.pdf",
+  "sha256": "41df098ae9eb6a8f8834e097f2308b8637291bb1d87668c7a4a725803a251ab1",
+  "bytes": 170929,
+  "final_url": "https://docs.extraetf.com/download/IE00B4K48X80/en/KID/"
+ },
+ {
+  "isin": "LU2089238385",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/LU2089238385/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/LU2089238385/factsheet_90332a23b9.pdf",
+  "sha256": "90332a23b9a8844e1afedbb8479391581834c3eb706b96df95fe7c75b4ce1eb9",
+  "bytes": 604277,
+  "final_url": "https://docs.extraetf.com/download/LU2089238385/en/MR/"
+ },
+ {
+  "isin": "LU2089238385",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU2089238385/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2089238385",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/LU2089238385-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/LU2089238385/factsheet_f7a8d02bfb.pdf",
+  "sha256": "f7a8d02bfb4eb2528751b1dc62aa4dca1a3255a93a7be12e2c961cf7cf0971b4",
+  "bytes": 614961,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/LU2089238385-factsheet.pdf"
+ },
+ {
+  "isin": "LU2089238385",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/LU2089238385/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2089238385",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/LU2089238385/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/LU2089238385/kid_908de9134b.pdf",
+  "sha256": "908de9134b88d539df6a374a86de26609b14782748ed8d88d207bb3d9f117a5b",
+  "bytes": 219268,
+  "final_url": "https://docs.extraetf.com/download/LU2089238385/en/KID/"
+ },
+ {
+  "isin": "IE00B52MJY50",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B52MJY50/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B52MJY50/factsheet_14c3120fcc.pdf",
+  "sha256": "14c3120fccbe9a570ce66d16d0e7acc04735bf9efe9780e66077f00a13cc5da0",
+  "bytes": 369443,
+  "final_url": "https://docs.extraetf.com/download/IE00B52MJY50/en/MR/"
+ },
+ {
+  "isin": "IE00B52MJY50",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B52MJY50/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B52MJY50",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B52MJY50-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B52MJY50/factsheet_d85d2a873e.pdf",
+  "sha256": "d85d2a873ee7b129a3c58982d95e8b555da2dab824a747c727580a74019c5391",
+  "bytes": 377149,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00B52MJY50-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B52MJY50",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B52MJY50/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B52MJY50",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B52MJY50/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B52MJY50/kid_5effa7c358.pdf",
+  "sha256": "5effa7c358680aa15e1e5ebf1771875c5bebd3894e9357ac3b6501229b6be19d",
+  "bytes": 170905,
+  "final_url": "https://docs.extraetf.com/download/IE00B52MJY50/en/KID/"
+ },
+ {
+  "isin": "IE00B52SF786",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B52SF786/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B52SF786/factsheet_dabba9d837.pdf",
+  "sha256": "dabba9d8372c134bf009fce386c97574adfb87de1fe3adf010f2d807f6890413",
+  "bytes": 355231,
+  "final_url": "https://docs.extraetf.com/download/IE00B52SF786/en/MR/"
+ },
+ {
+  "isin": "IE00B52SF786",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B52SF786/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B52SF786",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B52SF786-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B52SF786/factsheet_0215cfdced.pdf",
+  "sha256": "0215cfdcede662e9a704a3aab48f65d92bb73a1d97258a97de239b537a285909",
+  "bytes": 356619,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00B52SF786-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B52SF786",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B52SF786/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B52SF786",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B52SF786/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B52SF786/kid_174dc5aeb6.pdf",
+  "sha256": "174dc5aeb6c25e5d1755435d5646fefe4865994a36edd71caf117d85baaac839",
+  "bytes": 172712,
+  "final_url": "https://docs.extraetf.com/download/IE00B52SF786/en/KID/"
+ },
+ {
+  "isin": "IE00BKM4GZ66",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00BKM4GZ66/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BKM4GZ66/factsheet_b6d1c39eeb.pdf",
+  "sha256": "b6d1c39eeb7b6f5c259a241723b8e81f6ea7d2b156ae53ec922bd960ebe37830",
+  "bytes": 361252,
+  "final_url": "https://docs.extraetf.com/download/IE00BKM4GZ66/en/MR/"
+ },
+ {
+  "isin": "IE00BKM4GZ66",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00BKM4GZ66/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BKM4GZ66",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00BKM4GZ66-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BKM4GZ66/factsheet_d431747aaf.pdf",
+  "sha256": "d431747aaf1ae7a6fa590ec426fbe1c336c405bf097fc2a3fe9fe70a8fdb40a4",
+  "bytes": 362315,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00BKM4GZ66-factsheet.pdf"
+ },
+ {
+  "isin": "IE00BKM4GZ66",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00BKM4GZ66/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BKM4GZ66",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00BKM4GZ66/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BKM4GZ66/kid_7961b0206b.pdf",
+  "sha256": "7961b0206bb1554e4a831dfe003d3fec6ecc899c258245e9454db21feb1120d0",
+  "bytes": 168548,
+  "final_url": "https://docs.extraetf.com/download/IE00BKM4GZ66/en/KID/"
+ },
+ {
+  "isin": "IE00BM67HT60",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00BM67HT60/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BM67HT60/factsheet_5ce19d2bfd.pdf",
+  "sha256": "5ce19d2bfd808e57b832dbcc132f7bec566fdfd8bd79324cafe39f04169b8e8d",
+  "bytes": 228156,
+  "final_url": "https://docs.extraetf.com/download/IE00BM67HT60/en/MR/"
+ },
+ {
+  "isin": "IE00BM67HT60",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00BM67HT60/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BM67HT60",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00BM67HT60-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BM67HT60/factsheet_69b41aaf83.pdf",
+  "sha256": "69b41aaf83788919da7da6c57560e3cfe6e46bcd549160505c174914607e5b42",
+  "bytes": 241876,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00BM67HT60-factsheet.pdf"
+ },
+ {
+  "isin": "IE00BM67HT60",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00BM67HT60/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BM67HT60",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00BM67HT60/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BM67HT60/kid_366d7be16c.pdf",
+  "sha256": "366d7be16c8c37d94dfed0b60a8b36f804d3cc80866fdefc005a15b7eeeb4836",
+  "bytes": 136616,
+  "final_url": "https://docs.extraetf.com/download/IE00BM67HT60/en/KID/"
+ },
+ {
+  "isin": "IE000I8KRLL9",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE000I8KRLL9/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE000I8KRLL9/factsheet_a82f1a1ae2.pdf",
+  "sha256": "a82f1a1ae225318e87200bfa6303b49a1abc1ff8620810e69ac784620776cd50",
+  "bytes": 238756,
+  "final_url": "https://docs.extraetf.com/download/IE000I8KRLL9/en/MR/"
+ },
+ {
+  "isin": "IE000I8KRLL9",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE000I8KRLL9/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE000I8KRLL9",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE000I8KRLL9-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE000I8KRLL9/factsheet_9d55a87332.pdf",
+  "sha256": "9d55a87332660e6ae8b445af45b717e6cb87c8a57a3b11d58454e0494980a3d0",
+  "bytes": 251842,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE000I8KRLL9-factsheet.pdf"
+ },
+ {
+  "isin": "IE000I8KRLL9",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE000I8KRLL9/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE000I8KRLL9",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE000I8KRLL9/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE000I8KRLL9/kid_217d10b226.pdf",
+  "sha256": "217d10b226594edc9b381e26dffe20818ae2bcfdf46939eddae78aba8de56c6b",
+  "bytes": 177990,
+  "final_url": "https://docs.extraetf.com/download/IE000I8KRLL9/en/KID/"
+ },
+ {
+  "isin": "IE00BYTRR863",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00BYTRR863/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BYTRR863/factsheet_b931ce1768.pdf",
+  "sha256": "b931ce176804fcedd6b1b213dd74b724b41871c5ee05466174c3d638cb03e572",
+  "bytes": 173698,
+  "final_url": "https://docs.extraetf.com/download/IE00BYTRR863/en/MR/"
+ },
+ {
+  "isin": "IE00BYTRR863",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00BYTRR863/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BYTRR863",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00BYTRR863-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BYTRR863/factsheet_ad99b5af49.pdf",
+  "sha256": "ad99b5af4975f4760cb70c08576925b25af46a1b61d2895c919850ab2f14554b",
+  "bytes": 439032,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00BYTRR863-factsheet.pdf"
+ },
+ {
+  "isin": "IE00BYTRR863",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00BYTRR863/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BYTRR863",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00BYTRR863/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BYTRR863/kid_687046ea41.pdf",
+  "sha256": "687046ea4122e53e123957e281815d7b1542042d9285791a99c220528c38277c",
+  "bytes": 142534,
+  "final_url": "https://docs.extraetf.com/download/IE00BYTRR863/en/KID/"
+ },
+ {
+  "isin": "IE000YYE6WK5",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE000YYE6WK5/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE000YYE6WK5/factsheet_ff265c71ad.pdf",
+  "sha256": "ff265c71adf12b546b595dc346c5d3b23a1dd174a8c86958de2938d6bc1e8465",
+  "bytes": 123039,
+  "final_url": "https://docs.extraetf.com/download/IE000YYE6WK5/en/MR/"
+ },
+ {
+  "isin": "IE000YYE6WK5",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE000YYE6WK5/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE000YYE6WK5",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE000YYE6WK5-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE000YYE6WK5/factsheet_26f13e49e9.pdf",
+  "sha256": "26f13e49e9a3aedce4197def9c3b423a2a19c204ea6fca3af8a36fce748bb0a9",
+  "bytes": 125611,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE000YYE6WK5-factsheet.pdf"
+ },
+ {
+  "isin": "IE000YYE6WK5",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE000YYE6WK5/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE000YYE6WK5",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE000YYE6WK5/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE000YYE6WK5/kid_6371c50afd.pdf",
+  "sha256": "6371c50afd9e658a635ca6bfdd5de288c87bafd653fe27e73f4794b6c50520c3",
+  "bytes": 110717,
+  "final_url": "https://docs.extraetf.com/download/IE000YYE6WK5/en/KID/"
+ },
+ {
+  "isin": "DE0006289309",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/DE0006289309/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/DE0006289309/factsheet_e7dc46c866.pdf",
+  "sha256": "e7dc46c86659a2f046c7275890ec828919e9d3bb1223849c02bb15aa1df1e675",
+  "bytes": 258114,
+  "final_url": "https://docs.extraetf.com/download/DE0006289309/en/MR/"
+ },
+ {
+  "isin": "DE0006289309",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/DE0006289309/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "DE0006289309",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/DE0006289309-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/DE0006289309/factsheet_7b8417158a.pdf",
+  "sha256": "7b8417158a8b38068695f90faf9527f2decbf5dcf497c0a679bec6d769223031",
+  "bytes": 268254,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/DE0006289309-factsheet.pdf"
+ },
+ {
+  "isin": "DE0006289309",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/DE0006289309/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "DE0006289309",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/DE0006289309/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/DE0006289309/kid_0d39f313f5.pdf",
+  "sha256": "0d39f313f56a91460d66109bbf2e31d560f4f8e0bb4ca207fedd36977d3c3e1d",
+  "bytes": 172435,
+  "final_url": "https://docs.extraetf.com/download/DE0006289309/en/KID/"
+ },
+ {
+  "isin": "IE00B4WXJJ64",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B4WXJJ64/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4WXJJ64/factsheet_52305435b2.pdf",
+  "sha256": "52305435b2003a5b57a3164f98b816b63f4cb40806399671b5f8966f328d85b9",
+  "bytes": 371646,
+  "final_url": "https://docs.extraetf.com/download/IE00B4WXJJ64/en/MR/"
+ },
+ {
+  "isin": "IE00B4WXJJ64",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B4WXJJ64/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B4WXJJ64",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B4WXJJ64-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4WXJJ64/factsheet_cf393f4070.pdf",
+  "sha256": "cf393f40708a0ad3d2537578d2f482c3c65641bdfa17d083afd518ba06c3d970",
+  "bytes": 375759,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00B4WXJJ64-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B4WXJJ64",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B4WXJJ64/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B4WXJJ64",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B4WXJJ64/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B4WXJJ64/kid_38d9300c69.pdf",
+  "sha256": "38d9300c6916df6035c695b1845695e8b4834412df65078486acccd809316292",
+  "bytes": 165549,
+  "final_url": "https://docs.extraetf.com/download/IE00B4WXJJ64/en/KID/"
+ },
+ {
+  "isin": "IE00B5M4WH52",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B5M4WH52/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B5M4WH52/factsheet_cdb1b60346.pdf",
+  "sha256": "cdb1b603468fc9f8287827ca4668e95069ed06fc1c43ccc0381c463e90ffe0b2",
+  "bytes": 388500,
+  "final_url": "https://docs.extraetf.com/download/IE00B5M4WH52/en/MR/"
+ },
+ {
+  "isin": "IE00B5M4WH52",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B5M4WH52/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B5M4WH52",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B5M4WH52-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B5M4WH52/factsheet_c5e3044bdc.pdf",
+  "sha256": "c5e3044bdcebaf85545925bdcd832282dc0a48b7127c7b4f10f201fed3112884",
+  "bytes": 390590,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00B5M4WH52-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B5M4WH52",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B5M4WH52/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B5M4WH52",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B5M4WH52/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B5M4WH52/kid_ade332bf02.pdf",
+  "sha256": "ade332bf0256a39cbc5bca68c98bd882c3c0bd1a6286ffde266e4234dd60ee68",
+  "bytes": 172838,
+  "final_url": "https://docs.extraetf.com/download/IE00B5M4WH52/en/KID/"
+ },
+ {
+  "isin": "IE00B9M6RS56",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE00B9M6RS56/en/MR/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B9M6RS56/factsheet_035a8005b8.pdf",
+  "sha256": "035a8005b87cb36042a1a17f93da344aa765e5034663c80daa6bada2d3366542",
+  "bytes": 370481,
+  "final_url": "https://docs.extraetf.com/download/IE00B9M6RS56/en/MR/"
+ },
+ {
+  "isin": "IE00B9M6RS56",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE00B9M6RS56/de/factsheet",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B9M6RS56",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE00B9M6RS56-factsheet.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B9M6RS56/factsheet_23b9fc028c.pdf",
+  "sha256": "23b9fc028c2bb8e93627a102106d57adf7fff28de6375d0141f39136d7175b46",
+  "bytes": 375197,
+  "final_url": "https://assets.finanzfluss.de/informer/documents/IE00B9M6RS56-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B9M6RS56",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE00B9M6RS56/de/kiid",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B9M6RS56",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE00B9M6RS56/en/KID/",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00B9M6RS56/kid_39311e5cac.pdf",
+  "sha256": "39311e5cac87aa863bb00aa2b70078b109d7e0c344a272343cfa687e6fb592f7",
+  "bytes": 171541,
+  "final_url": "https://docs.extraetf.com/download/IE00B9M6RS56/en/KID/"
  }
 ]

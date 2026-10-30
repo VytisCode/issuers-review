@@ -1,0 +1,239 @@
+=== pdf p.1 ===
+                                                                              Fact Sheet                                   30 September 2026
+State Street SPDR                   ®                   ®                     Equity
+
+MSCI World Energy                                                             31 August 2026
+
+UCITS ETF
+
+                                                                              Fund Information
+Fund Objective
+                                                                              ISIN                            IE00BYTRR863
+The investment objective of the Fund is to track the performance of           Index Name                      MSCI World Energy 35/20 Capped Index
+companies in the Energy sector, across developed markets globally.            Index Ticker                    NU731551
+                                                                              Index Type                      Net Total Return
+                                                                              Number of Constituents          50
+Index Description
+
+The MSCI World Energy 35/20 Capped Index measures the                         Key Facts
+performance of global equities that are classified as falling within the      Inception Date                  29-Apr-2016
+energy sector, as per the Global Industry Classification Standard             Share Class Currency            USD
+(GICS).                                                                       Fund — Base Currency            USD
+                                                                              TER                             0.30%
+                                                                              Income Treatment                Accumulation
+Tax Status
+                                                                              Replication Method              Replicated
+
+As standard, State Street Investment Management aims to meet                  UCITS Compliant                 Yes
+all applicable tax reporting requirements for all of the SPDR ETFs in         Domicile                        Ireland
+the following countries. Applications are made throughout the year            Investment Manager              State Street Global Advisors Europe Limited
+depending on the time scale required by each local tax authority:             Sub-Investment Manager(s)       State Street Global Advisors Limited
+UK, Germany, Austria, Switzerland.                                            Fund Umbrella                   SSGA SPDR ETFs Europe II plc
+                                                                              Share Class Assets (millions)   US$600.13
+                                                                              Total Fund Assets (millions)    US$600.13
+Countries of Registration
+                                                                              ISA Eligible                    Yes
+
+United Kingdom, Switzerland, Sweden, Spain, Norway, Netherlands,              SIPP Eligible                   Yes
+Luxembourg, Italy, Ireland, Germany, France, Finland, Denmark,                PEA Eligible                    No
+Austria                                                                       Prior to 19 February 2026, the Fund was known as SPDR® MSCI World Energy UCITS
+                                                                                         th
+
+                                                                              ETF.
+                                                                              Index Change: “Index” reflects linked performance returns of both the MSCI World
+                                                                              Energy 35/20 Capped Index and the MSCI World Energy Index. The index returns are
+                                                                              reflective of the MSCI World Energy Index from fund inception until November 30,
+                                                                              2020 and of MSCI World Energy 35/20 Capped Index effective November 30, 2020
+                                                                              to present.
+                                                                              Please be advised that due to all SSGA SPDR ETF Europe I & II sub-funds being
+                                                                              closed on Friday 29th March 2024 fund pricing will reflect the NAV of Thursday 28th
+                                                                              March meaning monthly fund performance figures may differ from the benchmark.
+
+
+Listings
+Exchange                          Exchange Ticker     Trading Currency     iNAV Ticker          Bloomberg Code          Reuters Code        SEDOL Code
+Euronext Amsterdam*               WNRG                EUR                  INWNRGE              WNRG NA                 WNRG.AS             BYZJ087
+London Stock Exchange             WNRG                USD                  INWNRG               WNRG LN                 SPWNRG.L            BYYW106
+SIX Swiss Exchange                WNRG                USD                  INWNRG               WNRG SE                 SPWNRG.S            BYZJ0L0
+Borsa Italiana                    WNRG                EUR                  INWNRGE              WNRG IM                 WRNG.MI             BHXH6H5
+Bolsa Mexicana de Valores         WNRGN               MXN                                       WNRGN MM                WNRGN.MX            BJCW8R9
+London Stock Exchange             ENGW                GBP                  INWNRGP              ENGW LN                 ENGW.L              BNLYDF7
+*Denotes Primary Listing
+
+
+
+
+                                                                              1
+
+=== pdf p.2 ===
+Performance                                                                               Characteristics
+                 Index    Fund Gross      Difference        Fund Net     Difference       Number of Holdings                            50
+Annualised Returns (%)                                                                    †Distribution Yield                           -
+1 Year          39.26           39.85           0.59           39.43            0.17      Price/Earnings Ratio FY1                      20.48
+3 Year          15.07           15.61           0.54           15.26            0.19      Average Price/Book                            2.21
+5 Year          19.97           20.56           0.59           20.20            0.23      Average Market Cap (M)                        US$235,432.16
+10 Year          9.22            9.76           0.54             9.43           0.21      Index Dividend Yield                          3.00%
+Since            7.23            7.57           0.34             7.21          -0.02      † This measures the 12 month historical dividend pay-out per share divided by the
+Inception                                                                                 NAV.
+Cumulative Performance (%)                                                                Source: State Street Investment Management Characteristics, holdings, country
+                                                                                          allocations and sectors shown are as of date indicated at the top of this factsheet
+1 Month         -2.23           -2.20           0.03            -2.22           0.01      and are subject to change. Any reference to a specific company or security does not
+3 Month         15.18           15.28           0.10           15.19            0.02      constitute a recommendation to buy, sell, hold or invest directly in such company or
+                                                                                          securities.
+1 Year          39.26           39.85           0.59           39.43            0.17
+2 Year          50.32           51.70           1.38           50.79            0.47
+                                                                                          Top 10 Holdings                                                        Weight (%)
+3 Year          52.37           54.52           2.14           53.14            0.76
+                                                                                          EXXONMOBIL HOLDINGS CORP                                                    18.51
+5 Year        148.47          154.63            6.16         150.84             2.38
+                                                                                          CHEVRON CORP                                                                10.32
+10 Year       141.42          153.63           12.21         146.15             4.73
+                                                                                          SHELL PLC                                                                     7.54
+Since         243.17          262.63           19.46         242.07            -1.10
+Inception                                                                                 TOTALENERGIES SE                                                              4.57
+
+Calendar Performance (%)                                                                  CONOCOPHILLIPS                                                                4.19
+
+2026            36.50           36.91           0.40           36.60            0.10      MARATHON PETROLEUM CORP                                                       3.16
+
+2025            13.32           13.90           0.58           13.56            0.24      VALERO ENERGY CORP                                                            3.16
+
+2024             2.70            3.19           0.49             2.88           0.18      BP PLC                                                                        3.14
+
+2023             2.54            3.10           0.56             2.79           0.25      PHILLIPS 66                                                                   2.80
+
+2022            46.01           46.75           0.74           46.31            0.30      ENBRIDGE INC                                                                  2.79
+
+2021            40.09           40.91           0.81           40.49            0.39
+                                                                                          Industry Allocation                                                    Weight (%)
+                                                                           Fund (%)       Oil, Gas & Consumable Fuels                                                 94.78
+Standard Deviation (3 Years)                                                  18.25       Energy Equipment & Services                                                   5.22
+Annualised Tracking Error (3 Years)                                             0.08
+Past performance is not an indicator of future performance. The Gross of fees do not      Country Weights                                                        Weight (%)
+reflect and net of fees do reflect commissions and costs incurred on the issue and
+redemption, or purchases and sale, of units. If the performance is calculated on the      United States                                                               62.60
+basis of Gross/net asset values that are not denominated in the accounting currency       Canada                                                                      13.75
+of the collective investment scheme, its value may rise or fall as a result of currency
+fluctuations.                                                                             United Kingdom                                                              10.62
+The Fund was launched 29 April 2016 following the merger by absorption of MSCI            France                                                                        4.54
+World Energy Index which had an equivalent and comparable investment policy and
+risk profile. Performance returns prior to May 2016 reflects the past performance of      Australia                                                                     1.68
+SSGA Energy Index Equity Fund I USD Shares.                                               Italy                                                                         1.59
+When the Fund is closed according to its official Net Asset Value (NAV) calendar
+but, nonetheless, a significant portion of the underlying security prices can be          Japan                                                                         1.38
+determined, a Technical NAV is calculated. Past Performance indicated herein has          Norway                                                                        1.20
+therefore been calculated using a Technical NAV when required, as well as the official
+NAV of the Fund as at each other business day for the relevant period.                    Spain                                                                         1.03
+Calendar year inception performance returns will be partial for the year where the        Finland                                                                       0.44
+inception date for either the Fund in question or the historic performance-linked Fund
+(whichever is the earliest) falls within that period.                                     Austria                                                                       0.32
+                                                                                          Portugal                                                                      0.27
+                                                                                          Other                                                                         0.59
+
+
+
+
+Capital Risk: Investing involves risk including the risk of loss of capital.
+The performance data quoted represents past performance. Past performance does not guarantee future results.
+
+
+
+
+                                                                                          2
+
+=== pdf p.3 ===
+Contact Us                                                                                              Italy                                              Netherlands
+                                                                                                        spdretf_italia@ssga.com                            spdr_nl@ssga.com
+Visit our website at ssga.com/etfs or contact your local SPDR ETF                                       +39 0232066 140                                    +31 (0)20-7181071
+representative. Alternatively contact our SPDR ETF Sales and
+                                                                                                        Nordics                                            Spain
+Support team at spdrseurope@ssga.com.
+                                                                                                        spdrseurope@ssga.com                               spdrseurope@ssga.com
+France & Luxembourg                                 Germany                                             +31 (0)20-7181071                                  +39 0232066 140
+spdretf_france@ssga.com                             spdrsgermany@ssga.com                               Switzerland                                        United Kingdom
++33 1 44 45 40 00                                   +49 69 66774 5016                                   spdrsswitzerland@ssga.com                          spdrseurope@ssga.com
+                                                                                                        + 41 (0)44 245 70 00                               +44 (0) 203 395 6888
+
+
+ssga.com/etfs                                       Representative/Agent or by visiting the www.        financial products or any index on which such      most weight to the 10- year period, the most
+                                                    statestreet.com/im or by contacting State           financial products are based. The Prospectus       recent three-year period actually has the
+State Street Global Advisors (SSGA) is now          Street Custodial Services (Ireland) Limited, 78     contains a more detailed description of the        greatest impact because it is included in all
+State Street Investment Management.                 Sir John Rogerson's Quay, Dublin 2, Ireland.        limited relationship MSCI has with SSgA and        three rating periods.
+Please go to statestreet.com/investment-            SPDR ETFs is the exchange traded funds ("ETF")      any related financial products.                    The Morningstar Medalist RatingTM is the
+management for more information.                    platform of State Street Global Advisors and is     The S&P 500® Index is a product of S&P Dow         summary expression of Morningstar’s forward-
+                                                    comprised of funds that have been authorised        Jones Indices LLC or its affiliates (“S&P DJI”)    looking analysis of investment strategies as
+                                                    by Central Bank of Ireland as open-ended UCITS      and have been licensed for use by State Street     offered via specific vehicles using a rating scale
+Glossary                                            investment companies.                               Global Advisors. S&P®, SPDR®, S&P 500®,US          of Gold, Silver, Bronze, Neutral, and Negative.
+                                                    The funds are not available to U.S. investors.      500 and the 500 are trademarks of Standard &       The Medalist Ratings indicate which
+Price/Earnings Ratio FY1 The average of the         SSGA SPDR ETFs Europe I plc and SPDR ETFs           Poor’s Financial Services LLC (“S&P”); Dow         investments Morningstar believes are likely to
+price of each underlying security divided by the    Europe II plc issue ("the Company") issue SPDR      Jones® is a registered trademark of Dow Jones      outperform a relevant index or peer group
+mean EPS estimate of the security for the next      ETFs, and is an open-ended investment               Trademark Holdings LLC (“Dow Jones”) and has       average on a risk-adjusted basis over time.
+unreported fiscal year, as of the report date.      company with variable capital having                been licensed for use by S&P Dow Jones             Investment products are evaluated on three key
+Average Price/Book The average of the price         segregated liability between its sub-funds. The     Indices; and these trademarks have been            pillars (People, Parent, and Process) which,
+of each underlying security divided by the Book     Company is organised as an Undertaking for          licensed for use by S&P DJI and sublicensed for    when coupled with a fee assessment, forms the
+value per share of the security, as of the report   Collective Investment in Transferable Securities    certain purposes by State Street Global            basis for Morningstar’s conviction in those
+date.                                               (UCITS) under the laws of Ireland and               Advisors. The fund is not sponsored, endorsed,     products’ investment merits and determines
+Index Dividend Yield The average of the             authorised as a UCITS by the Central Bank of        sold or promoted by S&P DJI, Dow Jones, S&P,       the Medalist Rating they’re assigned. Pillar
+Annual dividends per share (DPS) of each            Ireland.                                            their respective affiliates, and none of such      ratings take the form of Low, Below Average,
+underlying security in the index as of the report   Additional Important Information:                   parties make any representation regarding the      Average, Above Average, and High. Pillars may
+date divided by the price of the security as of     For the UK, this document has been issued by        advisability of investing in such product(s) nor   be evaluated via an analyst’s qualitative
+the report date.                                    State Street Global Advisors Limited ("SSGA").      do they have any liability for any errors,         assessment (either directly to a vehicle the
+TER Total Expense Ratio is a fee charged to         Authorised and regulated by the Financial           omissions, or interruptions of these indices.      analyst covers or indirectly when the pillar
+the fund, as a percentage of the Net Asset          Conduct Authority, registered No. 2509928.          The trademarks and service marks referenced        ratings of a covered vehicle are mapped to a
+Value, to cover costs associated with operation     VAT No. 5776591 81. Registered office: 20           herein are the property of their respective        related uncovered vehicle) or using algorithmic
+and management of the portfolio of assets.          Churchill Place, Canary Wharf, London, E14 5HJ      owners. Third party data providers make no         techniques. Vehicles are sorted by their
+                                                    Telephone: 020 3395 6000 Facsimile: 020             warranties or representations of any kind          expected performance into rating groups
+                                                    3395 6350 Web: www.statestreet.com/im.              relating to the accuracy, completeness or          defined by their Morningstar Category and their
+For Professional Clients / Qualified                For the EU, this document has been issued by        timeliness of the data and have no liability for   active or passive status. When analysts directly
+Investors Use Only. Not for public                  State Street Global Advisors Europe (''SSGA''),     damages of any kind relating to the use of such    cover a vehicle, they assign the three pillar
+distribution.                                       regulated by the Central Bank of Ireland.           data.                                              ratings based on their qualitative assessment,
+ETFs trade like stocks, are subject to              Registered office address 78 Sir                    ©
+                                                                                                           [2026] Morningstar, Inc. All rights reserved.   subject to the oversight of the Analyst Rating
+investment risk, fluctuate in market value and      JohnRogerson's Quay, Dublin 2. Registered           The information contained herein: (1) is           Committee, and monitor and reevaluate them at
+may trade at prices above or below the ETFs net     number 49934. T: +353 (0)1 776 3000. Fax:           proprietary to Morningstar and/or its content      least every 14 months. When the vehicles are
+asset value. Brokerage commissions and ETF          +353 (0)1 776 3300. Web: www.statestreet.           providers; (2) may not be copied or distributed;   covered either indirectly by analysts or by
+expenses will reduce returns.                       com/im.                                             and (3) is not warranted to be accurate,           algorithm, the ratings are assigned monthly. For
+                                                    For Mexico, this information does not               complete, or timely. Neither Morningstar nor its   more detailed information about these ratings,
+Marketing Communication                             constitute and is not intended to constitute        content providers are responsible for any          including their methodology, please go to global.
+SPDR ETFs may not be available or suitable for      marketing or an offer of securities and             damages or losses arising from any use of this     morningstar.com/managerdisclosures/.
+you. The information provided does not              accordingly should not be construed as such.        information. Past performance is no guarantee      The Morningstar Medalist Ratings are not
+constitute investment advice as such term is        The Funds referenced herein have not been,          of future results.                                 statements of fact, nor are they credit or risk
+defined under the Markets in Financial              and will not be, registered under the Mexican       The Morningstar Rating for funds, or "star         ratings. The Morningstar Medalist Rating (i)
+Instruments Directive (2014/65/EU) and it           Securities Market Law (Ley del Mercado de           rating", is calculated for managed products        should not be used as the sole basis in
+should not be relied on as such. It should not be   Valores) and may not be publicly offered or sold    (including mutual funds, variable annuity and      evaluating an investment product, (ii) involves
+considered a solicitation to buy or an offer to     in the United Mexican States. Disclosure            variable life subaccounts, exchange traded         unknown risks and uncertainties which may
+sell any investment. It does not take into          documentation related to any of the                 funds, closed-end funds, and separate              cause expectations not to occur or to differ
+account any investor's or potential investor's      aforementioned Funds may not be distributed         accounts) with at least a three-year history.      significantly from what was expected, (iii) are
+particular investment objectives, strategies, tax   publicly in Mexico and shares of the Funds may      Exchange- traded funds and open-ended              not guaranteed to be based on complete or
+status, risk appetite or investment horizon. If     not be traded in Mexico.                            mutual funds are considered a single population    accurate assumptions or models when
+you require investment advice you should            SPDR ETFs Local Representative/Paying               for comparative purposes. It is calculated based   determined algorithmically, (iv) involve the risk
+consult your tax and financial or other             Agents:                                             on a Morningstar Risk-Adjusted Return measure      that the return target will not be met due to
+professional advisor.                               France: State Street Bank International GmbH        that accounts for variation in a managed           such things as unforeseen changes in
+This document does not constitute an offer or       Paris Branch, Cœur Défense -Tour A, 100,            product's monthly excess performance, placing      management, technology, economic
+request to purchase shares in SPDR ETFs             Esplanade du Général de Gaulle, 92931 Paris La      more emphasis on downward variations and           development, interest rate development,
+Europe I plc and SPDR ETFs Europe II plc.           Defense Cedex; Switzerland: State Street Bank       rewarding consistent performance. The              operating and/or material costs, competitive
+Please refer to the Fund's latest Key               GmbH Munich, Zurich Branch,                         Morningstar Rating does not include any            pressure, supervisory law, exchange rate, tax
+Information Document (KID)/Key Investor             Beethovenstrasse 19, 8027 Zurich and the main       adjustment for sales loads. The top 10% of         rates, exchange rate changes, and/or changes in
+Information Document (KIID) and                     distributor in Switzerland, State Street Global     products in each product category receive 5        political and social conditions, and (v) should
+Prospectus before making any final                  Advisors AG, Beethovenstrasse 19, 8027 Zurich;      stars, the next 22.5% receive 4 stars, the next    not be considered an offer or solicitation to buy
+investment decision. The latest English             Germany: State Street Global Advisors Europe        35% receive 3 stars, the next 22.5% receive 2      or sell the investment product. A change in the
+version of the prospectus and the KID/KIID          Limited, Brienner Strasse 59, D-80333 Munich;       stars, and the bottom 10% receive 1 star. The      fundamental factors underlying the Morningstar
+can be found at www.statestreet.com/im.             Spain: Cecabank, S.A. Alcalá 27, 28014 Madrid       Overall Morningstar Rating for a managed           Medalist Rating can mean that the rating is
+A summary of investor rights can be found           (Spain); Denmark: Nordea Bank Denmark A/S,          product is derived from a weighted average of      subsequently no longer accurate.
+here: https://www.ssga.com/library-                 Issuer Services, Securities Services Hermes         the performance figures associated with its        The whole or any part of this work may not be
+content/products/fund-docs/summary-of-              Hus, Helgeshøj Allé 33 Postbox 850 DK-0900          three-, five-, and 10-year (if applicable)         reproduced, copied or transmitted or any of its
+investor-rights/ssga-spdr-investors-rights-         Copenhagen C; Austria: Erste Bank, Graben 21,       Morningstar Rating metrics. The weights are:       contents disclosed to third parties without
+summary.pdf Note that the Management                1010 Wien, Österreich; Sweden:                      100% three-year rating for 36-59 months of         State Street Investment Management’s express
+Company may decide to terminate the                 SKANDINAVISKA ENSKILDA BANKEN AB, Global            total returns, 60% five-year rating/ 40%           written consent.
+arrangements made for marketing and                 Transaction Services ST MH1, SE-106 40              three-year rating for 60-119 months of total
+proceed with de-notification in compliance          Stockholm, Sweden.                                  returns, and 50% 10- year rating/30% five-year     ©
+                                                                                                                                                            2026 State Street Corporation.
+with Article 93a of Directive 2009/65/EC.           The financial products referred to herein are not   rating/20% three-year rating for 120 or more       All Rights Reserved.
+All fund related documents are available for free   sponsored, endorsed, or promoted by MSCI and        months of total returns. While the 10-year         Expiration Date: 30/09/2027
+of charge from the offices of the Local             MSCI bears no liability with respect to any such    overall star rating formula seems to give the
+
+
+
+
+                                                                                                        3
+

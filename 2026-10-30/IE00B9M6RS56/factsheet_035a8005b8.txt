@@ -1,0 +1,210 @@
+=== pdf p.1 ===
+PASSIVE
+
+                 iShares J.P. Morgan $ EM Bond EUR
+ EMBE            Hedged UCITS ETF (Dist)
+                 Euro (Distributing)
+                 iShares VI plc                                                                                             September 2026
+Performance, Portfolio Breakdowns and Net Asset information as at: 30-Sep-2026. All other data as at 05-Oct-2026.
+This document is marketing material. For Investors in the UK. Investors should read the KIID/PRIIPs document and prospectus prior to investing,
+and should refer to the prospectus for the funds full list of risks.
+
+ FUND OVERVIEW                                                                                     PRODUCT INFORMATION
+ The Fund seeks to track the performance of an index composed of US Dollar denominated             ISIN : IE00B9M6RS56
+ bonds from Emerging Market countries.                                                             Share Class Launch Date : 08-Jul-2013
+KEY BENEFITS                                                                                       Share Class Currency : EUR
+1.    Diversified exposure to emerging market bonds issued in US Dollar                            Total Expense Ratio : 0.50%
+2.    Direct investment in government and quasi-government bonds, and uses monthly                 Use of Income : Distributing
+      currency forward contracts                                                                   Net Assets of Share Class (M) : 2,051.54 EUR
+3.    USD denominated Emerging Markets bond exposure non-EUR exposure hedged back
+                                                                                                   KEY FACTS
+      to EUR monthly
+                                                                                                   Asset Class : Fixed Income
+ RISK INDICATOR                                                                                    Benchmark : JPM EMBIG Div Core Index 100%
+                                                                                                   EUR Hedged
+ Lower Risk                                                                     Higher Risk        Fund Launch Date : 08-Jul-2013
+ Potentially Lower Rewards                                          Potentially Higher Rewards     Fund Base Currency : EUR
+                                                                                                   Distribution Frequency : Monthly
+                                                                                                   Net Assets of Fund (M) : 2,051.54 EUR
+       1            2             3            4             5             6            7
+                                                                                            SFDR Classification : Other
+CAPITAL AT RISK: The value of investments and the income from them can fall as well as rise Domicile : Ireland
+and are not guaranteed. Investors may not get back the amount originally invested.
+                                                                                            Methodology : Sampled
+KEY RISKS:                                                                                         Issuing Company : iShares VI plc
+     Emerging markets are generally more sensitive to economic and political conditions than
+                                                                                                   Product Structure : Physical
+     developed markets. Other factors include greater 'Liquidity Risk', restrictions on
+     investment or transfer of assets, failed/delayed delivery of securities or payments to the    ISA Eligibility : Yes
+     Fund and sustainability-related risks.                                                        SIPP Available : Yes
+     Fixed income securities issued or guaranteed by government entities in emerging
+     markets generally experience higher ‘Credit Risk’ than developed economies.                   UK Reporting Status : Yes
+     Non-investment grade fixed income securities are more sensitive to changes in interest
+     rates and present greater ‘Credit Risk’ than higher rated fixed income securities.            PORTFOLIO CHARACTERISTICS
+     Counterparty Risk: The insolvency of any institutions providing services such as              Average Weighted Maturity : 10.43 yrs
+     safekeeping of assets or acting as counterparty to derivatives or other instruments, may      Effective Duration : 6.28 yrs
+     expose the Fund to financial loss.
+     Credit Risk: The issuer of a financial asset held within the Fund may not pay income or       Standard Deviation (3y) : 6.95%
+     repay capital to the Fund when due.                                                           3y Beta : 0.99
+     Liquidity Risk: Lower liquidity means there are insufficient buyers or sellers to allow the
+                                                                                                   12m Trailing Yield : 5.95%
+     Fund to sell or buy investments readily.
+     Currency hedging may not completely eliminate currency risk in the Fund, and may              Yield to Worst : 6.17
+     affect the performance of the Fund.                                                           Number of Holdings : 613
+
+                                                                                                   Please refer to the Glossary for more details.
+
+=== pdf p.2 ===
+iShares J.P. Morgan $ EM Bond EUR Hedged
+UCITS ETF (Dist)
+Euro (Distributing)
+iShares VI plc
+
+CALENDAR YEAR PERFORMANCE
+
+
+
+
+                      2016         2017            2018       2019      2020         2021        2022          2023          2024      2025
+   Share Class        7.70          7.83           -8.35      12.10      3.44        -3.53       -20.47        7.75          4.20      11.08
+   Benchmark          8.32          8.40           -7.94      12.68      3.98        -3.08       -20.76        8.11          4.35      11.61
+
+
+GROWTH OF HYPOTHETICAL 10,000 EUR SINCE INCEPTION
+
+
+
+
+CUMULATIVE & ANNUALISED PERFORMANCE
+                                                    CUMULATIVE (%)                                             ANNUALISED (% p.a.)
+                         1m                3m              6m           YTD              1y               3y            5y            Since
+                                                                                                                                    Inception
+    Share Class         -3.79              -4.93           -1.08        -3.58          -1.19            6.76           -1.02           1.67
+    Benchmark           -3.76              -4.82           -0.86        -3.28          -0.78            7.09           -0.82           2.07
+
+The figures shown relate to past performance. Past performance is not a reliable indicator of future performance. Markets could develop very
+differently in the future. It can help you to assess how the fund has been managed in the past Performance is shown on a Net Asset Value
+(NAV) basis, with gross income reinvested where applicable. Performance data is based on the net asset value (NAV) of the ETF which may not be
+the same as the market price of the ETF. Individual shareholders may realize returns that are different to the NAV performance. The return of your
+investment may increase or decrease as a result of currency fluctuations if your investment is made in a currency other than that used in the past
+performance calculation. Source: Blackrock
+  Share Class (EUR)          iShares J.P. Morgan $ EM Bond EUR Hedged UCITS ETF (Dist) Euro (Distributing)
+  Benchmark (EUR)            JPM EMBIG Div Core Index 100% EUR Hedged
+
+=== pdf p.3 ===
+ iShares J.P. Morgan $ EM Bond EUR Hedged
+ UCITS ETF (Dist)
+ Euro (Distributing)
+iShares VI plc
+
+TOP ISSUERS                                                                   MATURITY BREAKDOWN (%)
+TURKEY (REPUBLIC OF)                                                  4.16%
+BRAZIL FEDERATIVE REPUBLIC OF (GOVERNMENT)                            3.88%
+MEXICO (UNITED MEXICAN STATES) (GOVERNMENT)                           3.87%
+SAUDI ARABIA KINGDOM OF (GOVERNMENT)                                  3.59%
+DOMINICAN REPUBLIC (GOVERNMENT)                                       3.50%
+PHILIPPINES (REPUBLIC OF)                                             3.37%
+COLOMBIA (REPUBLIC OF)                                                3.33%
+ROMANIA (REPUBLIC OF)                                                 3.33%
+ARGENTINA REPUBLIC OF GOVERNMENT                                      3.23%
+EGYPT (ARAB REPUBLIC OF)                                              3.04%
+Total of Portfolio                                                   35.30%
+Holdings subject to change
+
+
+
+SECTOR BREAKDOWN (%)
+
+
+
+
+                                                                                                                   Fund
+                                                                              Allocations are subject to change. Source: BlackRock
+
+
+
+                                                                              CREDIT RATINGS (%)
+
+
+
+
+                                   Fund
+Allocations are subject to change. Source: BlackRock
+
+
+
+TRADING INFORMATION
+Exchange         London Stock             Deutsche Boerse Borsa Italiana
+                 Exchange                 Xetra
+Ticker           EMBE                     IS3C             EMBE
+Bloomberg        EMBE LN                  IS3C GY          EMBE IM
+Ticker
+RIC              EMBE.L                   IS3C.DE          EMBE.MI
+                                                                                                                   Fund
+SEDOL            B9M6RS5                  BD5NTL8          BYVDZP5
+                                                                              Credit quality ratings on underlying securities of the fund are received from S&P, Moody’s
+Listing          EUR                      EUR              EUR                and Fitch and converted to the equivalent S&P major rating category. This breakdown is
+Currency                                                                      provided by BlackRock and takes the median rating of the three agencies when all three
+                                                                              agencies rate a security the lower of the two ratings if only two agencies rate a security and
+This product is also listed on: SIX Swiss Exchange                            one rating if that is all that is provided. Unrated securities do not necessarily indicate low
+                                                                              quality. Below investment-grade is represented by a rating of BB and below. Ratings and
+                                                                              portfolio credit quality may change over time.
+
+=== pdf p.4 ===
+ iShares J.P. Morgan $ EM Bond EUR Hedged
+ UCITS ETF (Dist)
+ Euro (Distributing)
+ iShares VI plc
+
+GLOSSARY
+SFDR Classification: Article 8: Products that promote environmental           Effective Duration: Effective duration is a measure of a fund's interest-
+or social characteristics and promote good governance practices.              rate sensitivity. Put simply, the longer a fund's duration, the more
+Article 9: Products that have sustainable investments as an objective         sensitive the fund is to shifts in interest rates. So a fund with a duration
+and follow good governance practices. Other: Products that do not             of 10 years is twice as volatile as a fund with a five-year duration.
+meet the criteria to be classified as Article 8 or 9.
+Yield to Maturity: Yield to Maturity (YTM) is the discount rate that
+equates the present value of bond's cash flows with its market price
+(including accrued interest). The fund YTM is the weighted average of
+fund's individual bond holding YTMs based upon Net Asset Value
+('NAV'). The measure does not include fees and expenses. For callable
+bonds, YTM is the Yield-to-Worst.
+ IMPORTANT INFORMATION:
+In the European Economic Area (EEA): this is Issued by BlackRock (Netherlands) B.V. is authorised and regulated by the Netherlands Authority for
+the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: 31-20-549-5200. Trade Register No.
+17068311 For your protection telephone calls are usually recorded. For Ireland and only in relation to Per Se Professionals and/or Eligible
+Counterparties (i.e., Professional Investors), this may also be issued by BlackRock Investment Management (UK) Limited, authorised and regulated
+by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44 (0)20 7743 3000. Registered in
+England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the Financial Conduct Authority website
+for a list of authorised activities conducted by BlackRock.
+In the UK and Non-European Economic Area (EEA) countries (excluding Switzerland),: this is Issued by BlackRock Investment Management
+(UK) Limited, authorised and regulated by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44
+(0)20 7743 3000. Registered in England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the
+Financial Conduct Authority website for a list of authorised activities conducted by BlackRock.
+This is Marketing Material. iShares plc, iShares II plc, iShares III plc, iShares IV plc, iShares V plc, iShares VI plc and iShares VII plc (together 'the
+Companies') are open-ended investment companies with variable capital having segregated liability between their funds organised under the laws
+of Ireland and authorised by the Central Bank of Ireland. The Prospectus (Available in French, German, Polish and English Languages) Key Investor
+Information document (UK only), PRIIPs KID and further information about the Fund and the Share Class, such as details of the key underlying
+investments of the Share Class and share prices, is available on the iShares website at www.ishares.com or by calling +44 (0)845 357 7000 or from
+your broker or financial adviser. The indicative intra-day net asset value of the Share Class is available at http://deutsche-boerse.com and/or http://
+www.reuters.com. A UCITS ETF’s units / shares that have been acquired on the secondary market cannot usually be sold directly back to the UCITS
+ETF itself. Investors who are not Authorised Participants must buy and sell shares on a secondary market with the assistance of an intermediary
+(e.g. a stockbroker) and may incur fees and additional taxes in doing so. In addition, as the market price at which the Shares are traded on the
+secondary market may differ from the Net Asset Value per Share, investors may pay more than the then current Net Asset Value per Share when
+buying shares and may receive less than the current Net Asset Value per Share when selling them. UCITS HAVE NO GUARANTEED RETURN AND
+PAST PERFORMANCE DOES NOT GUARANTEE THE FUTURE ONES
+
+ This document is marketing material and will expire 12 months after issue
+This document is not, and under no circumstances is to be construed as an advertisement or any other step in furtherance of a public offering of
+shares in the United States or Canada. This document is not aimed at persons who are resident in the United States, Canada or any province or
+territory thereof, where the companies/securities are not authorised or registered for distribution and where no prospectus has been filed with any
+securities commission or regulatory authority. The companies/securities may not be acquired or owned by, or acquired with the assets of, an ERISA
+Plan.
+Any research in this document has been procured and may have been acted on by BlackRock for its own purpose. The results of such research are
+being made available only incidentally. The views expressed do not constitute investment or any other advice and are subject to change. They do
+not necessarily reflect the views of any company in the BlackRock Group or any part thereof and no assurances are made as to their accuracy
+
+This document is for information purposes only and does not constitute an offer or invitation to anyone to invest in any BlackRock funds and has
+not been prepared in connection with any such offer.
+© 2026 BlackRock, Inc. All Rights reserved. BLACKROCK, BLACKROCK SOLUTIONS, and iSHARES are trademarks of BlackRock, Inc. or its
+affiliates All other trademarks are those of their respective owners
+

@@ -1,0 +1,170 @@
+=== pdf p.1 ===
+  Marketing-Anzeige
+
+
+
+  DFNS VanEck
+                        Defense UCITS ETF
+Fondsdaten                                               FONDSBESCHREIBUNG                                                                                       30 Juni 2026
+Basis Währung                                    USD     Angesichts der anhaltenden globalen Unsicherheit ist das Thema Sicherheit und Verteidigung wieder
+Auflagedatum                          31 März 2023       zu einem der wichtigsten Anliegen verschiedener Finanzinvestoren geworden. Der Verteidigungs-
+Domizil                                        Irland
+                                                         ETF von VanEck bietet Anlegern Zugang zu derzeit führenden Unternehmen der
+                                                         Verteidigungstechnologie, großen Cybersicherheitsfirmen und verteidigungsrelevanten Dienstleistern.
+Fondsvolumen                          USD 6967,9M
+                                                         Der MarketVector™ Global Defense Industry Index bildet die gesamte Wertentwicklung von
+Ausstehende Anteile                    121.200.000
+                                                         Unternehmen der nationalen Verteidigungsindustrie ab.
+Gesamtkostenquote                             0,55%
+(TER)                                                    Historische Performance: Durchschnittliche jährliche Gesamtrenditen (%)
+Produktstruktur             Physisch (Vollständige                                                                                                                ETF-
+                                      Replikation)        Monatsende Stand 30. Juni 2026              1 M*   3 M* Lfd. Jahr*    1 JR    3 JR     5 JR 10 JR AUFLEGUNG
+
+OGAW-konform                                       Ja    ETF                                      -13,76 -12,42         -5,63    1,80 36,31         --      --           38,26
+
+Häufigkeit der                        Vierteljährlich    MVDEFTR (Index)                          -13,73 -12,35         -5,43    2,24 36,89         --      --           38,94
+Neugewichtung
+Ausschüttungshäufigkeit                        Keine
+                                                         Vergangene Wertentwicklung Stand 31. Dez. 2025
+Ertragsverwendung                     Wiederanlage         75%
+
+Schweizer Valorennr                      125816101
+ISA-fähig                                          Ja      50%
+
+SIPP möglich                                       Ja
+Registriert in folgenden AT, CH, DE, DK, ES, FI,           25%
+Ländern                    FR, IE, IS, IT, LU, NL,
+                         NO, PL, PT, SE, SG, UK
+                                                            0%
+                                                                          2021                 2022                  2023                 2024                   2025
+Indexinformationen
+Indexanbieter                MarketVector Indexes                VanEck Defense UCITS ETF
+                                                                 Benchmark-Index (MarketVector Global Defense Industry Index)
+                                            GmbH
+Indextyp                                Total Return                                                                                     2021 2022 2023 2024 2025
+Währung                                          USD     VanEck Defense UCITS ETF                                                                                 43,5    68,8
+Auflagedatum                          31. Jan. 2023      Benchmark-Index (MarketVector Global Defense Industry Index)                                             44,1    69,7
+Häufigkeit der                        Vierteljährlich
+                                                         Die Wertentwicklung in der Vergangenheit ist kein Indikator für zukünftige Erträge. Die angegebenen Daten zur
+Neugewichtung                                            Wertentwicklung beziehen sich auf die Vergangenheit. Die aktuelle Wertentwicklung kann im Vergleich zu den
+Bloomberg-Ticker                          MVDEFTR        aufgeführten durchschnittlichen jährlichen Renditen höher oder niedriger ausfallen. Die Performancedaten werden auf
+                                                         Basis des Nettoinventarwerts und der Wiederanlage der Nettoerträge und nach Abzug von Gebühren in der
+Reuters-Ticker                           .MVDEFTR        Basiswährung angezeigt. Makler- oder Transaktionsgebühren kommen zur Anwendung. Die Renditen können durch
+                                                         Währungsschwankungen steigen oder sinken. Anleger müssen sich darüber im Klaren sein, dass die Wertentwicklung
+                                                         der ETFs aufgrund von Marktschwankungen und anderen Faktoren im Laufe der Zeit schwanken kann, und sollten bei
+Daten zum Fonds                                          der Bewertung der Wertentwicklung von ETFs eine mittel- bis langfristige Perspektive berücksichtigen. Anlagen sind mit
+                                                         Risiken verbunden, die auch einen möglichen Verlust des eingesetzten Kapitals einschließen können. Quelle:
+Anzahl Positionen                                  45
+                                                         VanEck.
+Kurs-Gewinn-Verhältnis*                        28,38     * Zeiträume von über einem Jahr werden annualisiert. Referenzzeiträume zeigen die kumulative Performance, die nicht
+Kurs-Buchwert-Verhältnis*                        4,72    annualisiert ist.
+
+Gew. durchschn. Marktkap.                USD 61,9B       Sektorgewichtungen
+* Letzte 12 Monate
+                                                         Sektor                                                                                      % des Fondsvolumens
+
+Länderaufschlüsselung                                    Industriewerte                                                                                                   88,1
+                                                         Informationstechnologie                                                                                          11,9
+USA                                          50,25%
+                                                         Sonstige/Barmittel                                                                                                0,0
+Südkorea                                      9,70%
+                                                         Sector Classification: GICS
+Frankreich                                    9,09%
+Israel                                        7,00%
+Italien                                       6,05%
+Schweden                                      4,86%
+Singapur                                      3,42%
+Norwegen                                      3,25%
+Sonstige/Barmittel                            6,38%
+
+
+Für unbekannte Fachbegriffe lesen Sie bitte das ETF-Glossar | VanEck.
+
+=== pdf p.2 ===
+  Marketing-Anzeige
+
+
+
+  DFNS VanEck
+                         Defense UCITS ETF
+Top 10 Positionen                                                                                                                                                    30 Juni 2026
+
+RTX CORP                                                                                                         9,00%
+PALANTIR TECHNOLOGIES INC                                                                                        7,54%
+THALES SA                                                                                                        6,93%
+CURTISS-WRIGHT CORP                                                                                              6,16%
+LEONARDO SPA                                                                                                     6,05%
+ELBIT SYSTEMS LTD                                                                                                5,74%
+HANWHA AEROSPACE CO LTD                                                                                          5,26%
+SAAB AB                                                                                                          4,86%
+SINGAPORE TECHNOLOGIES ENGINEERING LTD                                                                           3,42%
+KONGSBERG GRUPPEN ASA                                                                                            3,25%
+ZWISCHENSUMME – GRÖSSTE 10 POSITIONEN                                                                           58,19%
+RESTLICHE POSITIONEN                                                                                            41,80%
+SONSTIGE/BARMITTEL                                                                                               0,01%
+SUMME                                                                                                         100,00%
+Eine vollständige Auflistung der Fondspositionen finden Sie unter www.vaneck.com
+
+Handelsinformationen
+                                                                                                 EXCHANGE           BLOOMBERG            REUTERS                         IOPV
+BÖRSE                                        HANDELSWÄHRUNG                       ISIN            TICKER              TICKER              TICKER          SEDOL         SYMBOL
+LONDON STOCK EXCHANGE                                 USD                 IE000YYE6WK5              DFNS              DFNS LN             DFNS.L        BR1H1T4        DFNSUSIV
+LONDON STOCK EXCHANGE                                 GBP                 IE000YYE6WK5              DFNG              DFNG LN             DFNG.L        BR1H1S3        DFNSUSIV
+DEUTSCHE BÖRSE                                        EUR                 IE000YYE6WK5              DFEN              DFEN GY            DFEN.DE        BR1H1W7 DFNSEUIV
+BORSA ITALIANA                                        EUR                 IE000YYE6WK5              DFNS               DFNS IM            DFNS.MI       BR1H1V6        DFNSEUIV
+SIX SWISS EXCHANGE                                    CHF                 IE000YYE6WK5              DFNS              DFNS SE             DFNS.S        BR1H1X8               --
+EURONEXT PARIS                                        EUR                 IE000YYE6WK5              DFNS              DFNS FP            DFNS.PA        BSNR4V2        DFNSEUIV
+
+Hauptrisiken
+Branchen- oder Sektorkonzentrationsrisiko: Das Vermögen im Verteidigungs-ETF kann in einem/einer oder mehreren bestimmten Sektoren oder
+Branchen konzentriert sein. Der ETF kann dem Risiko unterliegen, dass wirtschaftliche, politische oder andere Bedingungen, die sich negativ auf die
+betreffenden Sektoren oder Branchen auswirken, die Wertentwicklung des Fonds in größerem Maße negativ beeinflussen, als wenn das
+Fondsvermögen in einer größeren Vielfalt von Sektoren oder Branchen investiert wäre.
+Liquiditätsrisiken: Liquiditätsrisiken bestehen, wenn es schwierig ist, ein bestimmtes Finanzinstrument zu kaufen oder zu verkaufen. Wenn der
+entsprechende Markt illiquide ist, kann es vorkommen, dass eine Transaktion nicht eingegangen werden kann oder dass eine Position nicht zu einem
+günstigen bzw. angemessenen Kurs oder überhaupt nicht aufgelöst werden kann. Dies ist ein Faktor, den es bei der Investition in einen Verteidigungs-
+ETF zu berücksichtigen gilt.
+Aktienmarktrisiko: Die Kurse der Wertpapiere im Fonds unterliegen den mit Anlagen im Wertpapiermarkt verbundenen Risiken, einschließlich der
+allgemeinen Wirtschaftsbedingungen sowie plötzlicher und unvorhersehbarer Kurseinbrüche. Eine Anlage in dem Fonds kann zu Verlusten führen.
+Weitere Informationen über Risiken erhalten Sie im Abschnitt „Risikofaktoren“ des betreffenden Fondsprospekts, der unter www.vaneck.com abgerufen
+werden kann.
+
+WICHTIGE INFORMATIONEN
+Dies ist eine Marketing-Anzeige. Bitte lesen Sie den Verkaufsprospekt des OGAW und das Basisinformationsblatt („KID”), bevor Sie eine endgültige Anlageentscheidung treffen.
+Diese Dokumente sind in englischer Sprache und die Basisinformationsblätter in der jeweiligen Landessprache erhältlich und können kostenlos unter www.vaneck.com
+abgerufen oder bei VanEck Asset Management B.V. („Verwaltungsgesellschaft”) oder bei der für Ihr Land zuständigen Informationsstelle angefordert werden.
+Diese Informationen stammen von VanEck (Europe) GmbH, einer gemäß der Richtlinie über Märkte für Finanzinstrumente (MiFID) zugelassenen Wertpapierfirma im EWR. VanEck
+(Europe) GmbH hat ihren Sitz in der Kreuznacher Str. 30, 60486 Frankfurt, Deutschland, und wurde von der Verwaltungsgesellschaft zum Vertriebspartner für VanEck-Produkte in
+Europa ernannt. Die Verwaltungsgesellschaft ist nach niederländischem Recht gegründet und bei der niederländischen Behörde für die Finanzmärkte (AFM) registriert.
+Dieses Material ist nur zur allgemeinen und vorläufigen Information bestimmt und darf nicht als Anlage-, Rechts- oder Steuerberatung ausgelegt werden. VanEck (Europe) GmbH
+und ihre verbundenen Unternehmen und Tochtergesellschaften (zusammen „VanEck”) übernehmen keine Haftung für Investitions-, Veräußerungs- oder Halteentscheidungen, die
+auf der Grundlage dieser Informationen getroffen werden.
+VanEck Defense UCITS ETF (der „ETF“) ist ein Teilfonds von VanEck UCITS ETFs plc, einer offenen Umbrella-Investmentgesellschaft mit variablem Kapital und beschränkter
+Haftung zwischen den Teilfonds. Der ETF ist bei der irischen Zentralbank registriert, passiv verwaltet und bildet einen Aktienindex nach. Das hier beschriebene Produkt steht im
+Einklang mit Artikel 6 der Verordnung (EU) 2019/2088 über nachhaltigkeitsbezogene Angaben im Finanzdienstleistungssektor. Informationen zu den Nachhaltigkeitsaspekten
+gemäß dieser Verordnung finden Sie unter www.vaneck.com. Anleger müssen alle Merkmale oder Ziele des Fonds berücksichtigen, wie sie im Prospekt oder in den
+dazugehörigen Dokumenten beschrieben sind, bevor sie eine Anlageentscheidung treffen.
+Der indikative Nettoinventarwert (iNAV) des OGAW ist auf Bloomberg verfügbar. Einzelheiten zu den geregelten Märkten, an denen der ETF notiert ist, finden Sie im Abschnitt
+Handelsinformationen auf der ETF-Seite unter www.vaneck.com. Eine Anlage in den ETF ist als Erwerb der Anteile des ETF und nicht als Erwerb der zugrunde liegenden
+
+=== pdf p.3 ===
+Wertpapiere zu verstehen.
+Der MarketVector™ Global Defense Industry Index ist das ausschließliche Eigentum der MarketVector Indexes GmbH (einer hundertprozentigen Tochtergesellschaft der Van Eck
+Associates Corporation), die mit der Führung und Berechnung des Index die Solactive AG beauftragt hat. Die Solactive AG verwendet größtmögliche Sorgfalt darauf, die korrekte
+Berechnung des Index sicherzustellen. Ungeachtet ihrer Verpflichtungen gegenüber der MarketVector Indexes GmbH (“MarketVector“) ist die Solactive AG nicht verpflichtet, Dritte auf
+Fehler im Index aufmerksam zu machen. Der VanEcks ETF wird nicht von MarketVector unterstützt, empfohlen, verkauft oder beworben, und MarketVector gibt keine Zusicherung
+bezüglich der Ratsamkeit einer Anlage in dem Fonds. Es ist nicht möglich, direkt in einen Index zu investieren.
+Die ausgewiesenen Performancedaten beziehen sich auf die Vergangenheit. Die aktuelle Wertentwicklung kann im Vergleich zu den durchschnittlichen jährlichen Renditen höher
+oder niedriger ausfallen. Die Performancedaten für die in Irland domizilierten ETFs werden auf Basis des Nettoinventarwerts bei Wiederanlage der Nettoerträge und nach Abzug
+von Gebühren in der Basiswährung angezeigt. Die Rendite kann steigen oder fallen aufgrund von Währungskursschwankungen. Anleger sollten sich bewusst sein, dass die
+Wertentwicklung von ETFs aufgrund von Marktschwankungen und anderen Faktoren im Zeitverlauf variieren kann. Daher ist es ratsam, bei der Bewertung der Performance von
+ETFs eine mittel- bis langfristige Perspektive einzunehmen.
+Anlagen sind mit Risiken verbunden, die auch einen möglichen Verlust des eingesetzten Kapitals einschließen können. Anleger müssen OGAW-Anteile auf dem Sekundärmarkt
+über einen Intermediär (z. B. einen Makler) kaufen und verkaufen und können sie in der Regel nicht direkt an den OGAW zurückverkaufen. Es können Maklergebühren anfallen. Der
+Ankaufspreis kann über oder der Verkaufspreis kann unter dem aktuellen Nettoinventarwert liegen. Der indikative Nettoinventarwert (iNAV) des OGAW ist auf Bloomberg verfügbar.
+Die Verwaltungsgesellschaft kann den Vertrieb des OGAW in einer oder mehreren Jurisdiktionen einstellen. Die Zusammenfassung der Anlegerrechte ist auf Englisch verfügbar
+unter: complaints-procedure.pdf (vaneck.com). Bei unklaren Fachbegriffen siehe ETF Glossary | VanEck.
+Ohne ausdrückliche schriftliche Genehmigung von VanEck ist es nicht gestattet, Inhalte dieser Publikation in jedweder Form zu vervielfältigen oder in einer anderen Publikation auf
+sie zu verweisen.
+© VanEck (Europe) GmbH
+

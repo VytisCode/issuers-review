@@ -1,0 +1,166 @@
+=== pdf p.1 ===
+  Marketing Communication
+
+
+
+  DFNS VanEck
+                        Defense UCITS ETF
+Fund Details                                           Fund Description                                                                            30 September 2026
+Base Currency                                  USD     As global uncertainty persists, the issue of security and defense has once again become a top
+Inception Date                     31 March 2023       concern for several financial investors. VanEck‘s Defense ETF provides investors with access to
+Domicile                                    Ireland
+                                                       current leading defense technology companies, large-scale cybersecurity firms and defense-relevant
+                                                       service providers.
+Net Assets                           USD 6854.8M
+                                                       The MarketVector™ Global Defense Industry Index tracks the overall performance of companies
+Shares Outstanding                    117,700,000
+                                                       serving national defense industries.
+Total Expense Ratio                          0.55%
+                                                       Performance History: Average Annual Total Returns* (%)
+Product Structure                    Physical (Full
+                                      Replication)                                                                                                      ETF
+                                                        Month End as of 30 Sep 2026                1 MO 3 MO        YTD      1 YR 3 YR 5 YR 10 YR INCEPTION
+UCITS Compliant                                 Yes
+                                                       ETF                                          -6.89    1.30 -4.41 -10.69 36.98          --       --           35.57
+Rebalance Frequency                      Quarterly
+                                                       MVDEFTR (Index)                              -6.83    1.45 -4.05 -10.26 37.61          --       --           36.25
+Distribution Frequency                        None
+Income Treatment                     Reinvestment      Past Performance as of 31 Dec 2025
+Countries of             AT, CH, CZ, DE, DK, ES,
+                                                         75%
+Registration               FI, FR, HR, HU, IE, IS,
+                          IT, LU, NL, NO, PL, PT,
+                                 RO, SE, SG, UK
+                                                         50%
+
+
+Index Information
+                                                         25%
+Index Provider              MarketVector Indexes
+                                           GmbH
+Index Type                            Total Return        0%
+                                                                       2021                2022                2023                 2024                    2025
+Currency                                       USD
+Inception Date                        31 Jan 2023              VanEck Defense UCITS ETF
+                                                               Benchmark Index (MarketVector Global Defense Industry Index)
+Rebalance                                Quarterly
+Frequency                                                                                                                         2021 2022 2023 2024 2025
+Bloomberg Ticker                        MVDEFTR        VanEck Defense UCITS ETF                                                                              43.5    68.8
+Reuters Ticker                         .MVDEFTR        Benchmark Index (MarketVector Global Defense Industry Index)                                          44.1    69.7
+
+Fund Data                                              Past performance does not predict future returns. Performance quoted represents past performance. Current
+                                                       performance may be lower or higher than average annual returns shown. Performance data is displayed on a Net
+Number of Holdings                               44    Asset Value basis, in Base Currency terms, with net income reinvested, net of fees. Brokerage or transaction
+                                                       fees will apply. Returns may increase or decrease as a result of currency fluctuations. Investors must be aware
+Price/Earnings Ratio*                        31.24
+                                                       that, due to market fluctuations and other factors, the performance of the ETFs may vary over time and should
+Price/Book Ratio*                              4.71    consider a medium/long-term perspective when evaluating the performance of ETFs. Investing is subject to
+Weighted Avg. MCap                      USD 78.2B      risks, including the possible loss of principal. Source: VanEck.
+                                                       *Reference periods indicate cumulative performance, not annualized.
+* Last 12 Months
+
+Country Breakdown                                      Sector weightings
+                                                       Sector                                                                                         % of Net Assets
+United States                              46.70%
+                                                       Industrials                                                                                                   87.4
+South Korea                                 11.67%
+                                                       Information Technology                                                                                        12.6
+France                                       9.33%
+                                                       Other/Cash                                                                                                     0.0
+Israel                                       6.69%
+                                                       Sector Classification: GICS
+Sweden                                       5.78%
+Italy                                        5.72%
+Norway                                       4.21%
+Singapore                                    3.82%
+Other/Cash                                   6.09%
+
+
+
+
+For any unfamiliar technical terms, please refer to ETF Glossary | VanEck.
+
+=== pdf p.2 ===
+  Marketing Communication
+
+
+
+  DFNS VanEck
+                        Defense UCITS ETF
+Top 10 Holdings                                                                                                                                         30 September 2026
+
+PALANTIR TECHNOLOGIES INC                                                                                    8.97%
+RTX CORP                                                                                                     7.64%
+HANWHA AEROSPACE CO LTD                                                                                      7.26%
+THALES SA                                                                                                    7.07%
+SAAB AB                                                                                                      5.78%
+LEONARDO SPA                                                                                                 5.72%
+ELBIT SYSTEMS LTD                                                                                            5.40%
+CURTISS-WRIGHT CORP                                                                                          4.49%
+KONGSBERG GRUPPEN ASA                                                                                        4.21%
+SINGAPORE TECHNOLOGIES ENGINEERING LTD                                                                       3.82%
+SUBTOTAL - TOP 10                                                                                           60.36%
+REMAINING HOLDINGS                                                                                          39.63%
+OTHER/CASH                                                                                                   0.01%
+TOTAL                                                                                                     100.00%
+For a complete up-to-date listing of Fund holdings, please visit www.vaneck.com
+
+Trading Information
+                                               TRADING                                  EXCHANGE            BLOOMBERG            REUTERS                          IOPV
+EXCHANGE                                      CURRENCY                  ISIN             TICKER               TICKER              TICKER           SEDOL         SYMBOL
+LONDON STOCK EXCHANGE                             USD            IE000YYE6WK5              DFNS               DFNS LN              DFNS.L         BR1H1T4       DFNSUSIV
+LONDON STOCK EXCHANGE                             GBP            IE000YYE6WK5              DFNG               DFNG LN             DFNG.L          BR1H1S3       DFNSUSIV
+DEUTSCHE BÖRSE                                    EUR            IE000YYE6WK5              DFEN               DFEN GY             DFEN.DE        BR1H1W7        DFNSEUIV
+BORSA ITALIANA                                    EUR            IE000YYE6WK5              DFNS               DFNS IM             DFNS.MI         BR1H1V6       DFNSEUIV
+SIX SWISS EXCHANGE                                CHF            IE000YYE6WK5              DFNS               DFNS SE              DFNS.S         BR1H1X8            --
+EURONEXT PARIS                                    EUR            IE000YYE6WK5              DFNS               DFNS FP             DFNS.PA        BSNR4V2        DFNSEUIV
+
+Key Risks
+Concentration Risk: The Fund’s assets may be concentrated in a particular sector or sectors or industry or group of industries to the extent the Index
+concentrates in a particular sector or sectors or industry or group of industries. Accordingly, the Fund may be subject to the risk that economic, political
+or other conditions that have a negative effect on a particular industry or sector will negatively impact the Fund to a greater extent than if the Fund’s
+assets were invested in a wider variety of sectors or industries.
+Equity Market Risk: The prices of the securities in the Fund are subject to the risks associated with investing in the securities market, including
+general economic conditions and sudden and unpredictable drops in value. An investment in the Fund may lose money.
+Risk of Investing in Smaller Companies: The securities of smaller companies may be more volatile and less liquid than the securities of large
+companies. As securities of smaller companies may experience more market price volatility than securities of larger companies, the net asset value of
+any fund which invests in smaller companies (such as the Fund) may reflect this volatility. For more information on risks, please see the “Risk Factors”
+section of the relevant Fund’s prospectus, available on www.vaneck.com.
+
+IMPORTANT INFORMATION
+This is marketing communication. Please refer to the prospectus of the UCITS and to the Key Information Document (“KID”) before making any final investment decisions.
+These documents are available in English and the KIDs in local languages and can be obtained free of charge at www.vaneck.com, from VanEck Asset Management B.V.
+(the “Management Company”) or, where applicable, from the relevant appointed facility agent for your country.
+This information originates from VanEck (Europe) GmbH, which is authorized as an EEA investment firm under MiFID under the Markets in Financial Instruments Directive
+(“MiFID”). VanEck (Europe) GmbH has its registered address at Kreuznacher Str. 30, 60486 Frankfurt, Germany, and has been appointed as distributor of VanEck
+products in Europe by the Management Company. The Management Company is incorporated under Dutch law and registered with the Dutch Authority for the Financial
+Markets (AFM).
+This material is only intended for general and preliminary information and shall not be construed as investment, legal or tax advice. VanEck (Europe) GmbH and its
+associated and affiliated companies (together “VanEck”) assume no liability with regards to any investment, divestment or retention decision on the basis of this
+information.
+VanEck Defense UCITS ETF (the "ETF") is a sub-fund of VanEck UCITS ETFs plc, an open-ended variable capital umbrella investment company with limited liability
+between sub-funds. The ETF is registered with the Central Bank of Ireland, passively managed and tracks an equity index. The product described herein aligns to Article
+6 Regulation (EU) 2019/2088 on sustainability-related disclosures in the financial services sector. Information on sustainability-related aspects pursuant to that regulation
+can be found on www.vaneck.com. Investors must consider all the fund's characteristics or objectives as detailed in the prospectus or related documents before making
+an investment decision.
+The indicative net asset value (iNAV) of the UCITS is available on Bloomberg. For details on the regulated markets where the ETF is listed, please refer to the Trading
+
+=== pdf p.3 ===
+Information section on the ETF page at www.vaneck.com. Investing in the ETF should be interpreted as acquiring shares of the ETF and not the underlying assets.
+The MarketVector™ Global Defense Industry Index is the exclusive property of MarketVector Indexes GmbH (a wholly owned subsidiary of Van Eck Associates
+Corporation), which has contracted with Solactive AG to maintain and calculate the Index. Solactive AG uses its best efforts to ensure that the Index is calculated
+correctly. Irrespective of its obligations towards MarketVector Indexes GmbH (“MarketVector”), Solactive AG has no obligation to point out errors in the Index to third
+parties. VanEck’s ETF is not sponsored, endorsed, sold or promoted by MarketVector and MarketVector makes no representation regarding the advisability of investing in
+the ETF. It is not possible to invest directly in an index.
+Performance quoted represents past performance. Current performance may be lower or higher than average annual returns shown. Performance data for the Irish
+domiciled ETFs is displayed on a Net Asset Value basis, in Base Currency terms, with net income reinvested, net of fees. Returns may increase or decrease as a result
+of currency fluctuations. Investors must be aware that, due to market fluctuations and other factors, the performance of the ETFs may vary over time and should consider
+a medium/long-term perspective when evaluating the performance of ETFs.
+Investing is subject to risk, including the possible loss of principal. Investors must buy and sell units of the UCITS on the secondary market via an intermediary (e.g. a
+broker) and cannot usually be sold directly back to the UCITS. Brokerage fees may incur. The buying price may exceed, or the selling price may be lower than the current
+net asset value. The indicative net asset value (iNAV) of the UCITS is available on Bloomberg. The Management Company may terminate the marketing of the UCITS in
+one or more jurisdictions. The summary of the investor rights is available in English at: complaints-procedure.pdf (vaneck.com). For any unfamiliar technical terms, please
+refer to ETF Glossary | VanEck.
+No part of this material may be reproduced in any form, or referred to in any other publication, without express written permission of VanEck.
+© VanEck (Europe) GmbH
+
