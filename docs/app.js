@@ -1087,10 +1087,10 @@
       when: { lt: "reikia rasti tinkamą ETF pagal kriterijus, dar prieš pilną DD.", en: "you need to find a suitable ETF by criteria, before a full DD." },
       steps: { lt: ["you: DD puslapyje pasirinkite „ETF paieška“, pažymėkite kriterijus ir parašykite komentarą.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte.", "ai: Claude suranda visus tinkamus ETF, palygina ir pasiūlo finalistus; rezultatas – PowerPoint ir užšifruotas įrašas archyve.", "you: Apačioje „Atliktos ETF paieškos“ spauskite „Peržiūrėti“; PowerPoint galite atsisiųsti ir persiųsti kolegoms.", "ai: Prie pasirinkto ETF spauskite „Pilnas DD“ – DD forma užsipildys, nukopijuokite užklausą Claude."], en: ["you: On the DD page choose “ETF search”, tick the criteria and write a comment.", "ai: Copy the prompt and paste it into the Claude project.", "ai: Claude finds all matching ETFs, compares them and suggests finalists; the result is a PowerPoint and an encrypted archive entry.", "you: Under “Completed ETF searches” press “View”; download the PowerPoint to forward to colleagues.", "ai: On the chosen ETF press “Full DD” – the DD form fills in; copy the prompt to Claude."] },
       prompt: { lt: () => "Atlik ETF paiešką ir palyginimą: [ko ieškote, kriterijai]", en: () => "Do an ETF search and comparison: [what you need, criteria]" } },
-    { id: "chal", kind: "ai", kw: "challenge peržiūra turimos pozicijos keisti laikyti stebėti pakeisti fondą geresnis fondas pab ctb pensijų fondai tracker portfelis valdytojo pasiūlymas switch keep watch review holdings replace",
-      t: { lt: "Turimų pozicijų peržiūra (challenge): keisti ar laikyti", en: "Challenge held positions: switch or keep" },
+    { id: "chal", kind: "ai", kw: "challenge kandidatas neturime pirkti ar ne nauja strategija add candidate peržiūra turimos pozicijos keisti laikyti stebėti pakeisti fondą geresnis fondas pab ctb pensijų fondai tracker portfelis valdytojo pasiūlymas switch keep watch review holdings replace",
+      t: { lt: "Pozicijų peržiūra (challenge): keisti, laikyti ar pirkti naują", en: "Challenge: switch, keep or add a candidate" },
       when: { lt: "norite patikrinti, ar rinkoje yra geresnių fondų nei turimi, arba palyginti valdytojų siūlomus fondus su turimais.", en: "you want to check whether better funds than the ones we hold exist, or compare funds pitched by managers with our holdings." },
-      steps: { lt: ["you: DD puslapyje pasirinkite „Turimų pozicijų peržiūra“. Pozicijas įveskite ranka (bet kuri šalis) arba paimkite iš LT pensijų fondų portfelių (valdytojas, fondas, kategorija, regionas).", "you: Pažymėkite mandato taisykles (pvz. PAB), į ką žiūrėti ir ar reikia rinkos konteksto; jei valdytojai siūlė fondų – įrašykite.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte.", "ai: Claude kiekvienai pozicijai taiko tą pačią metodiką ir duoda verdiktą Keisti / Laikyti / Stebėti su skaičiais (nauda per metus, keitimo kaštai, atsipirkimas); rezultatas – PowerPoint ir užšifruotas įrašas.", "you: Apačioje „Atliktos ETF paieškos ir peržiūros“ spauskite „Peržiūrėti“; prie siūlomo pakaitalo – „Pilnas DD“."], en: ["you: On the DD page choose “Challenge held positions”. Enter positions manually (any country) or take them from the LT pension fund portfolios (manager, fund, category, region).", "you: Tick the mandate rules (e.g. PAB), what to focus on and whether market context is needed; add funds pitched by managers, if any.", "ai: Copy the prompt and paste it into the Claude project.", "ai: Claude applies one method to every position and gives a verdict Switch / Keep / Watch with numbers (annual advantage, switching cost, break-even); the result is a PowerPoint and an encrypted archive entry.", "you: Under “Completed ETF searches and reviews” press “View”; next to a suggested replacement press “Full DD”."] },
+      steps: { lt: ["you: Pasirinkite, ar priemonę turime portfelyje. Neturimai (kandidatui) įrašykite ISIN ir turimą poziciją, kurią ji pakeistų – verdiktas Pirkti / Nepirkti / Stebėti. Turimoms – toliau:", "you: DD puslapyje pasirinkite „Turimų pozicijų peržiūra“. Pozicijas įveskite ranka (bet kuri šalis) arba paimkite iš LT pensijų fondų portfelių (valdytojas, fondas, kategorija, regionas).", "you: Pažymėkite mandato taisykles (pvz. PAB), į ką žiūrėti ir ar reikia rinkos konteksto; jei valdytojai siūlė fondų – įrašykite.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte.", "ai: Claude kiekvienai pozicijai taiko tą pačią metodiką ir duoda verdiktą Keisti / Laikyti / Stebėti su skaičiais (nauda per metus, keitimo kaštai, atsipirkimas); rezultatas – PowerPoint ir užšifruotas įrašas.", "you: Apačioje „Atliktos ETF paieškos ir peržiūros“ spauskite „Peržiūrėti“; prie siūlomo pakaitalo – „Pilnas DD“."], en: ["you: Choose whether we hold the instrument. For a candidate we do not hold, enter its ISIN and the held position it would replace – verdict Add / Do not add / Watch. For held positions continue:", "you: On the DD page choose “Challenge held positions”. Enter positions manually (any country) or take them from the LT pension fund portfolios (manager, fund, category, region).", "you: Tick the mandate rules (e.g. PAB), what to focus on and whether market context is needed; add funds pitched by managers, if any.", "ai: Copy the prompt and paste it into the Claude project.", "ai: Claude applies one method to every position and gives a verdict Switch / Keep / Watch with numbers (annual advantage, switching cost, break-even); the result is a PowerPoint and an encrypted archive entry.", "you: Under “Completed ETF searches and reviews” press “View”; next to a suggested replacement press “Full DD”."] },
       prompt: { lt: () => "Atlik turimų pozicijų peržiūrą (challenge): [portfelis, pozicijos, mandato taisyklės]", en: () => "Do a challenge review of held positions: [portfolio, positions, mandate rules]" } },
     { id: "frev", kind: "ai", kw: "fund review word pdf atsisiųsti kategorijas pasirinktos ketvirčio fondų peržiūra ketvirtinė fondai etf aktyvūs fondai kategorijos us equity em equity ig credit laiškas short version quick read quarterly review",
       t: { lt: "Ketvirčio fondų peržiūra (Fund review)", en: "Quarterly fund review" },
@@ -1507,13 +1507,15 @@
     return zs.map(z => ` <button class="btn sm" data-dd="${esc(z.id)}">⬇ ${z.kind === "evidence" ? scx("evz") : da("zip")}</button>`).join("") +
       (!docs && (D.dd.pending || []).includes(id) ? ` <span class="muted small">${da("zipWait")}</span>` : "");
   }
+  const ISINRE = /\b[A-Z]{2}[A-Z0-9]{9}\d\b/;
   function screenView(x) {
     const v = x.view || {}, c = scx("cols"), li = a => (a || []).length ? `<ul class="b small">${a.map(s => `<li>${esc(s)}</li>`).join("")}</ul>` : "";
     const fb = r => `<button class="btn sm primary" data-fdd="${esc(x.id)}|${esc(r.isin)}">${scx("full")} →</button>`;
     return `<div class="sview">${missBox(x)}${(v.criteria || []).length ? `<p class="small"><b>${scx("crit")}:</b> ${esc(v.criteria.join(" · "))}</p>` : ""}
       <h4>${scx("sum")}</h4>${li(v.summary)}
       ${(v.picks || []).length ? `<h4>${scx("picks")}</h4><div class="spicks">${v.picks.map((p, i) => `<div class="card spk"><div class="muted small">#${i + 1}</div><b>${esc(p.name)}</b><div class="small">${esc(p.isin)}${p.tick ? " · " + esc(p.tick) : ""}</div><p class="small">${esc(p.why || "")}</p>${fb(p)}</div>`).join("")}</div>` : ""}
-      ${v.table ? `<div class="tbl-wrap"><table class="small"><tr>${v.table.cols.map(h => `<th>${esc(h)}</th>`).join("")}</tr>${v.table.rows.map(r => `<tr>${r.map((x, i) => `<td${i === v.table.hl ? ` class="vd ${esc(String(x).split(" ")[0].toLowerCase())}"` : ""}>${esc(x)}</td>`).join("")}</tr>`).join("")}</table></div>` : ""}
+      ${v.table ? `<div class="tbl-wrap"><table class="small"><tr>${v.table.cols.map(h => `<th>${esc(h)}</th>`).join("")}<th></th></tr>${v.table.rows.map(r => { const m = r.join(" ").match(ISINRE);
+        return `<tr>${r.map((x, i) => `<td${i === v.table.hl ? ` class="vd ${esc(String(x).split(" ")[0].toLowerCase())}"` : ""}>${esc(x)}</td>`).join("")}<td class="nw">${m ? fb({ isin: m[0], name: String(r[0]).replace(/\s*\((held|candidate|turime|kandidatas)\)\s*$/i, "") }) : ""}</td></tr>`; }).join("")}</table></div>` : ""}
       ${(v.rows || []).length ? `<div class="tbl-wrap"><table class="small"><tr>${c.map(h => `<th>${h}</th>`).join("")}</tr>${(v.rows || []).map(r => `<tr${r.pick ? ` class="pick"` : ""}><td>${r.pick ? "★" : r.out ? "✕" : ""}</td><td>${esc(r.name)}</td><td>${esc(r.isin)}${r.tick ? `<br><span class="muted">${esc(r.tick)}</span>` : ""}</td><td>${esc(r.ter || "")}</td><td class="nw">${esc(r.aum || "")}</td><td>${esc(r.sfdr || "")}</td><td>${esc(r.repl || "")}</td><td>${esc(r.dist || "")}</td><td>${esc(r.since || "")}</td><td>${esc(r.note || "")}</td></tr>`).join("")}</table></div>` : ""}
       ${li(v.notes)}${v.email ? `<h4>${esc(scx("mail"))}</h4><div class="pbox"><pre>${esc(v.email)}</pre>${promptBtn(v.email)}</div>` : ""}</div>`;
   }
@@ -1522,7 +1524,8 @@
     if (s) { SOPEN = SOPEN === s.dataset.sv ? null : s.dataset.sv; initDdArch(); return; }
     const f = e.target.closest("[data-fdd]"); if (!f) return;
     const [sid, isin] = f.dataset.fdd.split("|"), x = (DDL || []).find(y => y.id === sid); if (!x) return;
-    const v = x.view || {}, all = [...(v.picks || []), ...(v.rows || [])], r = all.find(y => y.isin === isin) || { isin };
+    const v = x.view || {}, all = [...(v.picks || []), ...(v.rows || [])], tr = ((v.table || {}).rows || []).find(t => t.join(" ").includes(isin));
+    const r = all.find(y => y.isin === isin) || { isin, name: tr ? String(tr[0]).replace(/\s*\((held|candidate|turime|kandidatas)\)\s*$/i, "") : "" };
     const alts = (v.picks || []).filter(p => p.isin !== isin).map(p => `${p.name} (${p.isin})`).join("\n");
     FF = { ...FF, isin: r.isin, name: r.name || "", mgr: r.mgr || "", tick: r.tick || "", alt: alts, sup: "", scr: `${x.title} (${x.date})` };
     DKIND = "fund"; try { localStorage.setItem("ddkind", "fund"); } catch (y) { /* ignore */ }
@@ -1533,6 +1536,11 @@
   const PF_URL = "https://vytiscode.github.io/pension-fund-tracker/data_pf.js";
   const CHX = {
     en: { sub: "Check positions we already hold: is there a better fund on the market that could replace them? Enter the positions yourself (any country, e.g. a Latvian SEB portfolio) or take them from the Lithuanian pension fund portfolios. Claude applies one method to every position and gives a one-word verdict: Switch, Keep or Watch. The result is saved encrypted below and can be downloaded as PowerPoint.",
+      held: "Is the instrument in our portfolio?", heldO: ["Yes – we hold it: keep or switch?", "No – a candidate: add it or not?"],
+      subC: "Assess an instrument we do not hold yet: how it works, where its return comes from, risks, strengths and weaknesses, and whether it is worth adding instead of (or next to) what we already hold. Verdict: Add, Do not add or Watch. The result is saved encrypted below; the candidate gets a “Full DD” button.",
+      cand: "Candidate (ISIN, name, manager; one per line)", candPh: "LU3310553873, AQR Delphi Fusion Global UCITS Fund IAU1, AQR",
+      ref: "Held position it would replace or be funded from (reference)", refPh: "e.g. IE00BFNM3J75 iShares MSCI World Screened – part of the world equity sleeve",
+      focusC: "What to look at most", focusCO: ["How the strategy works (mechanism, leverage, derivatives)", "Track record quality (live vs backtest)", "Total cost incl. performance fee", "Risks and drawdowns, when it loses", "Sustainability label and what it covers", "Fit with the portfolio (overlap, factor tilts)", "Peers' decisions", "Questions for the manager"],
       src: "Where do the positions come from?", srcO: ["Enter manually", "From LT pension fund portfolios"],
       modeO: ["Challenge held positions", "Quarterly fund review"], frSub: "Quarterly review of all held listed funds (ETFs and actively managed funds; unlisted alternative funds excluded) by category: each fund against held and not-held alternatives, against the previous quarter, with a long version, a short quick-read version, an email draft and evidence ZIPs.",
       fq: "Quarter", fqPh: "e.g. Q3 2026", frList: "Fund investments (one per line: ISIN, name, weight, amount EUR; category optional)", frListPh: "IE00BFNM3G45, iShares MSCI USA Screened, 4.6%, EUR 52m\nLU0113258742, Schroder ISF EURO Corporate Bond C, 0.5%, EUR 6m",
@@ -1553,6 +1561,11 @@
       mkt: "Market context", mktO: ["None", "Short (1 slide)", "Broad (per asset class, facts and scenarios)"],
       note: "Free comment", notePh: "Why now, what worries you, what to avoid…", prompt: "Prompt for Claude", dataSrc: "Positions: Bank of Lithuania quarterly portfolios, via the pension fund tracker." },
     lt: { sub: "Patikrinkite jau turimas pozicijas: ar rinkoje yra geresnis fondas, kuris galėtų jas pakeisti? Pozicijas įveskite patys (bet kuri šalis, pvz. SEB Latvijos portfelis) arba paimkite iš LT pensijų fondų portfelių. Claude kiekvienai pozicijai taiko tą pačią metodiką ir duoda vieno žodžio verdiktą: Keisti, Laikyti arba Stebėti. Rezultatas išsaugomas užšifruotas apačioje, jį galima atsisiųsti kaip PowerPoint.",
+      held: "Ar priemonę turime portfelyje?", heldO: ["Taip – turime: laikyti ar keisti?", "Ne – kandidatas: pirkti ar ne?"],
+      subC: "Įvertinkite dar neturimą priemonę: kaip ji veikia, iš kur grąža, rizikos, stiprios ir silpnos vietos, ir ar verta ją įsigyti vietoj turimos (ar šalia jos). Verdiktas: Pirkti, Nepirkti arba Stebėti. Rezultatas išsaugomas užšifruotas apačioje; prie kandidato – mygtukas „Pilnas DD“.",
+      cand: "Kandidatas (ISIN, pavadinimas, valdytojas; po vieną eilutėje)", candPh: "LU3310553873, AQR Delphi Fusion Global UCITS Fund IAU1, AQR",
+      ref: "Turima pozicija, kurią pakeistų ar iš kurios būtų finansuojama (atskaita)", refPh: "pvz. IE00BFNM3J75 iShares MSCI World Screened – dalis pasaulio akcijų",
+      focusC: "Į ką žiūrėti labiausiai", focusCO: ["Kaip veikia strategija (mechanizmas, svertas, išvestinės)", "Rezultatų kokybė (realūs ar modeliuoti)", "Visi kaštai su sėkmės mokesčiu", "Rizikos ir nuosmukiai, kada praranda", "Tvarumo etiketė ir ką ji apima", "Tinkamumas portfeliui (persidengimas, faktoriai)", "Kolegų sprendimai", "Klausimai valdytojui"],
       src: "Iš kur pozicijos?", srcO: ["Įvesti ranka", "Iš LT pensijų fondų portfelių"],
       modeO: ["Turimų pozicijų peržiūra", "Ketvirčio fondų peržiūra"], frSub: "Ketvirtinė visų turimų listinguotų fondų peržiūra (ETF ir aktyviai valdomi fondai; nelistinguoti alternatyvūs fondai neįtraukiami) pagal kategorijas: kiekvienas fondas palyginamas su turimais ir neturimais variantais bei ankstesniu ketvirčiu. Rezultatas – ilga versija, trumpa versija, laiško juodraštis ir įrodymų ZIP.",
       fq: "Ketvirtis", fqPh: "pvz. Q3 2026", frList: "Fondų investicijos (po vieną eilutėje: ISIN, pavadinimas, svoris, suma EUR; kategorija – nebūtina)", frListPh: "IE00BFNM3G45, iShares MSCI USA Screened, 4,6 %, 52 mln. EUR\nLU0113258742, Schroder ISF EURO Corporate Bond C, 0,5 %, 6 mln. EUR",
@@ -1578,7 +1591,7 @@
     lt: { us: "JAV", north_america: "Šiaurės Amerika", europe: "Europa", eurozone: "Euro zona", uk: "JK", japan: "Japonija", global: "Pasaulis", global_dm: "Išsivysčiusios rinkos", em: "Besivystančios", em_ex_china: "Besivyst. be Kinijos", asia_pacific_dm: "Azija ir Ram. vand.", other: "Kita" } };
   const regL = r => ((REG[LANG] || REG.en)[r] || r || "–");
   const FR_CATS = "Global Equity – World\nGlobal Equity – ACWI\nUS Equity\nEurope Equity\nJapan Equity\nPacific ex Japan Equity\nCanada Equity\nEmerging Markets Equity\nSector and Thematic Equity\nEUR Government and Aggregate Bonds\nInvestment Grade Corporate Bonds\nHigh Yield Bonds\nHybrid and CLO Funds\nEmerging Markets Debt – Local Currency\nEmerging Markets Debt – Hard Currency";
-  let CH = { mode: 0, fq: "", frList: "", cats: FR_CATS, frOpt: [0, 1, 2, 3], prev: "", mailTo: "", mailNote: "", picks: [], src: 0, port: "", list: "", mgr: "SEB", pl: 0, fund: "", cat: 0, reg: "", sfdr: 0, q: -1, minw: "", off: [], rules: [], rnote: "", pitch: "", focus: [], mkt: 1, note: "" };
+  let CH = { mode: 0, fq: "", frList: "", cats: FR_CATS, frOpt: [0, 1, 2, 3], prev: "", mailTo: "", mailNote: "", picks: [], src: 0, port: "", list: "", held: 0, cand: "", ref: "", focusC: [0, 1, 2, 3], mgr: "SEB", pl: 0, fund: "", cat: 0, reg: "", sfdr: 0, q: -1, minw: "", off: [], rules: [], rnote: "", pitch: "", focus: [], mkt: 1, note: "" };
   let PFD = null, PFLOAD = false;  // pension-fund-tracker duomenys (atmintyje)
   const PFCB = [];  // laukiantys pension-fund-tracker duomenų (portfelio skirstymas)
   function pfLoad() {
@@ -1612,8 +1625,14 @@
           <div class="fl">${chx("frOpt")}</div>${chips("frOpt", true)}<div class="fl">${chx("mkt")}</div>${chips("mkt")}
           <label class="fl">${chx("mailTo")} <input id="ch_mailTo" value="${esc(CH.mailTo)}" placeholder="${esc(chx("mailToDef"))}"></label>${ta("mailNote", 2)}</div></div></div>
       <div id="chOut" style="margin-top:16px"></div>${ddArchive()}`;
+    const held = `<div class="fl">${chx("held")}</div><div class="chips" data-ck="held">${chx("heldO").map((l, i) => `<label><input type="radio" name="ch_held" value="${i}"${CH.held === i ? " checked" : ""}>${esc(l)}</label>`).join("")}</div>`;
+    if (CH.held === 1) return `${ddHead(ax("fundsSub"))}${ddSeg()}<p class="sub small">${chx("subC")}</p>${jobHow("chal")}
+      <div class="card ddform">${held}<div id="chSrc" hidden></div>
+        <div class="two"><div>${ta("cand", 3)}${ta("ref", 2)}<div class="fl">${chx("rules")}</div>${chips("rules", true)}${inp("rnote", chx("rnotePh"))}</div>
+        <div><div class="fl">${chx("focusC")}</div>${chips("focusC", true)}<div class="fl">${chx("mkt")}</div>${chips("mkt")}${ta("note", 3)}</div></div></div>
+      <div id="chOut" style="margin-top:16px"></div>${ddArchive()}`;
     return `${ddHead(ax("fundsSub"))}${ddSeg()}<p class="sub small">${chx("sub")}</p>${jobHow("chal")}
-      <div class="card ddform"><label class="fl">${chx("find")} <input id="ch_find" autocomplete="off" placeholder="${esc(chx("findPh"))}"></label><div id="chHits" class="chhits"></div><div id="chPicks"></div>
+      <div class="card ddform">${held}<label class="fl">${chx("find")} <input id="ch_find" autocomplete="off" placeholder="${esc(chx("findPh"))}"></label><div id="chHits" class="chhits"></div><div id="chPicks"></div>
         <div class="fl">${chx("src")}</div>${chips("src")}
         ${inp("port", chx("portPh"))}
         <div id="chSrc"></div>
@@ -1695,6 +1714,7 @@
   let CHSHOW = null;
   function chalPrompt() {
     if (CH.mode === 1) return frPrompt();
+    if (CH.held === 1) return candPrompt();
     const E = CHX.en, pick = (k, v) => (Array.isArray(v) ? v : [v]).map(i => E[k + "O"][i]).join(", ") || "none given";
     const L = ["Do a challenge review of positions we already hold: for each one decide Switch / Keep / Watch (PowerPoint in English + encrypted archive entry via `python tools/dd_vault.py screen <pptx> --view <VIEW.json> --kind challenge --sources <sources.json> --evidence <folder>` – documents ZIP of every source and an evidence ZIP with data extracts and own calculations; not in the public repo).",
       "Method: /mnt/project-files/funds_dd/challenge/metodika.md (hard gates, net advantage vs switching cost, break-even, adaptive criteria, peers, market context as facts and scenarios).",
@@ -1718,6 +1738,22 @@
     if (CH.note) L.push(`Comment: ${CH.note}`);
     L.push("Sources: the manager's own documents first (factsheet, KID, prospectus at one common date, dated copies via fund-docs.yml); justETF only for price series and cross-checked; reference fund with ISIN in every comparison; every analytical statement backed by a table or chart (e.g. largest holdings and sectors when explaining a return gap).");
     L.push("Be blunt and specific: one-word verdict per position, best replacement (UCITS share class, XETRA EUR line where possible), net annual advantage vs one-off switching cost and break-even, confidence, what peers did (pension-fund-tracker), and what would change the verdict.");
+    return L.join("\n");
+  }
+  /* Kandidatas (priemonės neturime): verdiktas Add / Do not add / Watch, atskaita – turima pozicija, kurią pakeistų. */
+  function candPrompt() {
+    const E = CHX.en, pick = (k, v) => (Array.isArray(v) ? v : [v]).map(i => E[k + "O"][i]).join(", ") || "none given";
+    const L = ["Do a challenge review of a CANDIDATE we do NOT hold yet: decide whether to add it – one-word verdict ADD / DO NOT ADD / WATCH (PowerPoint in English + encrypted archive entry via `python tools/dd_vault.py screen <pptx> --view <VIEW.json> --kind challenge --sources <sources.json> --evidence <folder>`; not in the public repo).",
+      "Method: /mnt/project-files/funds_dd/challenge/metodika.md, section \"Candidate (not held)\": the held position below is the reference; entry cost replaces switching cost; break-even and net advantage as for a switch; a short or backtested record caps the verdict at WATCH.",
+      "Candidate:", CH.cand || "[ISIN, name, manager]",
+      `Reference – held position it would replace or be funded from: ${CH.ref || "[ISIN, name; if empty, choose the closest held exposure and say so]"}`,
+      `Mandate rules: ${pick("rules", CH.rules)}`];
+    if (CH.rnote) L.push(`Other mandate rules: ${CH.rnote}`);
+    L.push(`Focus: ${pick("focusC", CH.focusC)}`, `Market context: ${E.mktO[CH.mkt]}`);
+    if (CH.note) L.push(`Comment: ${CH.note}`);
+    L.push("Explain how the strategy works (diagram of the mechanism, leverage and derivatives, where the return comes from), which part of the record is live and which is backtest, total cost incl. performance fee and the gross alpha needed just to match the reference, when it loses (drawdowns, worst periods), sustainability scope, fit with the portfolio (overlap and factor tilts vs the reference), peers (pension-fund-tracker), strengths / weaknesses / risks, what would change the verdict, and fact-based questions for the manager.");
+    L.push("Sources: the manager's own documents first (KID, prospectus, factsheet; documents pasted or attached by the owner); Morningstar where useful; justETF only for price series, cross-checked. Every analytical statement backed by a table or chart.");
+    L.push("VIEW: table with the candidate and the reference (columns Position, ISIN, Verdict, …), picks = the candidate (and any better alternative found) so the dashboard shows the “Full DD” button. Evidence ZIP for non-IT readers: README PDF + one Excel with formulas + source documents (PDF) + technical files in one inner ZIP. Confidential manager materials stay in the project files only.");
     return L.join("\n");
   }
   function initChal() {
@@ -1747,7 +1783,9 @@
         CH[k] = Array.isArray(CH[k]) ? [...g.querySelectorAll("input:checked")].map(x => +x.value) : +e.target.value; show(); });
       show(); return;
     }
-    ["port", "rnote", "pitch", "note"].forEach(k => { const el = document.getElementById("ch_" + k); if (el) el.oninput = () => { CH[k] = el.value.trim(); show(); }; });
+    ["port", "rnote", "pitch", "note", "cand", "ref"].forEach(k => { const el = document.getElementById("ch_" + k); if (el) el.oninput = () => { CH[k] = el.value.trim(); show(); }; });
+    const hg = document.querySelector('.chips[data-ck="held"]'); if (hg) hg.onchange = e => { CH.held = +e.target.value; route(); };
+    if (CH.held === 1) { show(); return; }
     const fi = document.getElementById("ch_find"), hits = document.getElementById("chHits"), pk = document.getElementById("chPicks");
     const drawPicks = () => { pk.innerHTML = CH.picks.length ? `<div class="fl">${chx("picked")}</div><div class="chips">${CH.picks.map(p => `<label class="on" data-unpick="${esc(p.isin)}" title="${esc(p.who)}">${esc(p.name)} · ${esc(p.isin)} ✕</label>`).join("")}</div>` : "";
       pk.querySelectorAll("[data-unpick]").forEach(b => b.onclick = () => { CH.picks = CH.picks.filter(p => p.isin !== b.dataset.unpick); drawPicks(); show(); }); };
