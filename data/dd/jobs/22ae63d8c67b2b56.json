@@ -1,0 +1,66 @@
+{
+ "parent": "22ae63d8c67b2b56",
+ "name": "DD_Funds_AQR_Delphi_Fusion_LU3310553956_2026-10-30_documents.zip",
+ "sources": [
+  {
+   "key": "P1",
+   "title": "AQR UCITS Funds II – Prospectus 21.04.2026 (general part; Supplement 1 pp.107–137) – ucits.aqr.com",
+   "url": "https://ucits.aqr.com/"
+  },
+  {
+   "key": "K1",
+   "title": "KIID AQR Delphi Fusion Global UCITS Fund IAU1 (LU3310553873), 20.04.2026 – ucits.aqr.com",
+   "url": "https://ucits.aqr.com/"
+  },
+  {
+   "key": "E1",
+   "title": "AQR UCITS – Sustainability-related disclosures",
+   "url": "https://ucits.aqr.com/Sustainability-Related-Disclosures"
+  },
+  {
+   "key": "E2",
+   "title": "AQR – ESG (Learning Center), read 30.10.2026: PRI signatory since 2014",
+   "url": "https://www.aqr.com/Learning-Center/ESG"
+  },
+  {
+   "key": "E3",
+   "title": "AQR UCITS – ESG page, read 30.10.2026: engagement and proxy voting",
+   "url": "https://ucits.aqr.com/Insights/Fund-Promo/ESG"
+  },
+  {
+   "key": "J1",
+   "title": "justETF – iShares MSCI World Screened UCITS ETF (IE00BFNM3J75)",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BFNM3J75"
+  },
+  {
+   "key": "J2",
+   "title": "justETF – Robeco 3D Global Equity UCITS ETF (IE000Q8N7WY1)",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE000Q8N7WY1"
+  },
+  {
+   "key": "J3",
+   "title": "justETF – JPM Global Research Enhanced Index Equity Active UCITS ETF (IE00BF4G6Y48)",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BF4G6Y48"
+  },
+  {
+   "key": "J4",
+   "title": "justETF – iShares Edge MSCI World Minimum Volatility Advanced UCITS ETF (IE00BKVL7778)",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKVL7778"
+  },
+  {
+   "key": "T1",
+   "title": "pension-fund-tracker – LT/LV/EE pension fund holdings",
+   "url": "https://github.com/vytiscode/pension-fund-tracker"
+  },
+  {
+   "key": "N1",
+   "title": "Investment Officer – headline “CSSF fines FundRock €45,800 for benchmark violation” (article behind login)",
+   "url": "https://cms.investmentofficer.com/en/news/cssf-fines-fundrock-eu45800-benchmark-violation"
+  },
+  {
+   "key": "N2",
+   "title": "CSSF – Sanction administrative du 30 novembre 2022 (page not readable on 30.10.2026)",
+   "url": "https://www.cssf.lu/fr/Document/sanction-administrative-du-30-novembre-2022-2/"
+  }
+ ]
+}
