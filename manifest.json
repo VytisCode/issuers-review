@@ -5790,5 +5790,303 @@
   "sha256": "39311e5cac87aa863bb00aa2b70078b109d7e0c344a272343cfa687e6fb592f7",
   "bytes": 171541,
   "final_url": "https://docs.extraetf.com/download/IE00B9M6RS56/en/KID/"
+ },
+ {
+  "isin": "IE00BFG1TM61",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=IE00BFG1TM61",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00BFG1TM61",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/IE00BFG1TM61",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU1711526407",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=LU1711526407",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU1711526407",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/LU1711526407",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU2853083306",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=LU2853083306",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU2853083306",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/LU2853083306",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU2418734716",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=LU2418734716",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU2418734716",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/LU2418734716",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU2942508834",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=LU2942508834",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU2942508834",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/LU2942508834",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU3011731216",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=LU3011731216",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU3011731216",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/LU3011731216",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "SE0026526592",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=SE0026526592",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "SE0026526592",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/SE0026526592",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "SE0021147394",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=SE0021147394",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "SE0021147394",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/SE0021147394",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00B3DJ5M15",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=IE00B3DJ5M15",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00B3DJ5M15",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/IE00B3DJ5M15",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU1696455820",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=LU1696455820",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU1696455820",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/LU1696455820",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE0004931386",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=IE0004931386",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE0004931386",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/IE0004931386",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=IE00BD5BKF38",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/IE00BD5BKF38",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00BDSTPS26",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=IE00BDSTPS26",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00BDSTPS26",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/IE00BDSTPS26",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU3192249715",
+  "kind": "page",
+  "url": "https://www.finanzen.net/suchergebnis.asp?_search=LU3192249715",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU3192249715",
+  "kind": "page",
+  "url": "https://www.finanzen.net/fonds/performance/LU3192249715",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "LU1711526407",
+  "kind": "kid",
+  "url": "https://seb.se/pow/fmk/KIID/LU/EN/LU1711526407_en.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/LU1711526407/kid_b8a61af92b.pdf",
+  "sha256": "b8a61af92b64a4c76310b674bc9980f8e18ada6ad10978119ba6febbf08c597a",
+  "bytes": 137863,
+  "final_url": "https://seb.se/pow/fmk/KIID/LU/EN/LU1711526407_en.pdf"
+ },
+ {
+  "isin": "LU2853083306",
+  "kind": "kid",
+  "url": "https://seb.se/pow/fmk/KIID/LU/EN/LU2853083306_en.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/LU2853083306/kid_9b8bfb0e80.pdf",
+  "sha256": "9b8bfb0e80cfd11ea29fa162a2ccc258602f59772cc83b23ba9771e9148496a6",
+  "bytes": 137508,
+  "final_url": "https://seb.se/pow/fmk/KIID/LU/EN/LU2853083306_en.pdf"
+ },
+ {
+  "isin": "SE0026526592",
+  "kind": "kid",
+  "url": "https://seb.se/pow/fmk/KIID/SE/EN/SE0026526592_en.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/SE0026526592/kid_c704b85ada.pdf",
+  "sha256": "c704b85ada2659908e73ed981211f0165ecd1b7189763b3b876b5d322388ae8a",
+  "bytes": 134882,
+  "final_url": "https://seb.se/pow/fmk/KIID/SE/EN/SE0026526592_en.pdf"
+ },
+ {
+  "isin": "SE0021147394",
+  "kind": "kid",
+  "url": "https://seb.se/pow/fmk/KIID/SE/EN/SE0021147394_en.pdf",
+  "fetched": "2026-10-30",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BFG1TM61",
+  "kind": "factsheet",
+  "url": "https://www.ishares.com/gls-download/literature/fact-sheet/ishares-developed-world-screened-index-fund-ie-inst-eur-factsheet-ie00bfg1tm61-gb-en-individual.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BFG1TM61/factsheet_8421fc9739.pdf",
+  "sha256": "8421fc97390b9d621c1fb007e13e75bcbc8be24770cbb9e92f9b70b7262d980d",
+  "bytes": 402451,
+  "final_url": "https://www.ishares.com/gls-download/literature/fact-sheet/ishares-developed-world-screened-index-fund-ie-inst-eur-factsheet-ie00bfg1tm61-gb-en-individual.pdf"
+ },
+ {
+  "isin": "IE00BFG1TM61",
+  "kind": "kid",
+  "url": "https://www.ishares.com/gls-download/literature/kiid/ucits_kiid-ishares-developed-world-screened-index-fund-ie-inst-acc-eur-gb-ie00bfg1tm61-en.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/IE00BFG1TM61/kid_ea69a0e077.pdf",
+  "sha256": "ea69a0e077fca716a1a8e287bb80c9700f1b6781939d6a8865a40a958db324ac",
+  "bytes": 178106,
+  "final_url": "https://www.ishares.com/gls-download/literature/kiid/ucits_kiid-ishares-developed-world-screened-index-fund-ie-inst-acc-eur-gb-ie00bfg1tm61-en.pdf"
+ },
+ {
+  "isin": "LU2853083306",
+  "kind": "factsheet",
+  "url": "https://seb.se/pow/content/fonder/fonder_pdf/SEB-MOBOGLEQCUSD_E.pdf",
+  "fetched": "2026-10-30",
+  "ok": true,
+  "file": "2026-10-30/LU2853083306/factsheet_162500fee2.pdf",
+  "sha256": "162500fee20fdd4ba336c20b0e521f19ae9fbfa7a17d07441baa0d6be9a3c204",
+  "bytes": 297063,
+  "final_url": "https://seb.se/pow/content/fonder/fonder_pdf/SEB-MOBOGLEQCUSD_E.pdf"
  }
 ]

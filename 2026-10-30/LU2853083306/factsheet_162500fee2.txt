@@ -1,0 +1,154 @@
+=== pdf p.1 ===
+Marketing material
+Intended for professional investors and authorised recipients, not suited for
+retail clients
+SEB Montrusco Bolton Global Equity
+Fund
+Monthly report as of September 30, 2026
+
+
+ Past performance is not indicative of future results. The value of investments and                                         Fundfacts
+ income derived from investments may rise as well as fall. Future returns are not                                           Fund Manager                             Robert Hiscock
+ guaranteed, and a loss of principal may occur. Key Information Documents and                                               Year of launch                                    2024
+ prospectuses are available at www.sebgroup.lu                                                                              NAV at launch (USD)                               100.0
+                                                                                                                            Fund Management                            SEB Funds AB
+Global equities faced a challenging environment in September 2026 as rising bond yields                                     Company
+and renewed inflation concerns weighed on markets. Higher energy prices, linked to                                          Risk Level (SRI-scale                                 4
+continued disruption in the Middle East, added to uncertainty around the outlook for                                        1-7)
+interest rates. Technology and artificial intelligence (AI)-related companies remained                                      ISIN-code                                LU2804657711
+comparatively resilient, supported by continued investment in AI infrastructure, while                                      Base Currency                                      USD
+broader equity markets were more sensitive to higher yields. In Europe, fiscal concerns and                                 Share Class                                   IC1 (USD)
+energy costs contributed to a more cautious market tone. Geopolitical tensions and trade                                    NAV                                             111.43
+policy remained additional sources of market price fluctuations.                                                            AuM (MUSD)                                         547
+                                                                                                                            Legal Structure                                   UCITS
+The fund’s relative attribution was positive in September, led by information technology
+                                                                                                                            Morningstar rating,
+and communication services. Taiwan Semiconductor Manufacturing Company and Lam
+                                                                                                                            Turnover Ratio                                     0.651
+Research were among the strongest contributors, supported by strong demand for
+advanced chips and semiconductor equipment. Meta Platforms also contributed, following                                      Use of derivatives                                  NO
+improved sentiment after its settlement with state attorneys general and the launch of its                                  Management Fee                                     0.90
+Muse AI agent. FinecoBank detracted despite strong client inflows. Chipotle Mexican Grill                                   (%)
+                                                                                                                            Ongoing costs (%)                                  1.022
+weighed on results amid concerns about restaurant traffic and consumer demand, while
+not owning shares in Apple and Advanced Micro Devices also hurt relative performance as
+                                                                                                                             1
+their shares rose.                                                                                                               12 months rolling, last updated 2026-09-30.
+                                                                                                                             2   Makes up the sum of management fees and other
+AI remains an important consideration given its influence on global equity markets and the                                       administration or operating costs as well as
+fund’s benchmark. Taiwan Semiconductor Manufacturing Company and SK Hynix provide                                                transaction costs. More information about the
+exposure to AI infrastructure demand, but each is assessed on its own merits. As AI                                              fund's fees and costs can be found in the fund's Key
+spending grows, we are monitoring whether it translates into durable revenue growth and                                          Information Document and prospectus. Last
+                                                                                                                                 updated 2026-09-30
+attractive returns on capital. Higher energy prices, persistent inflation and rising bond
+yields could put pressure on equity valuations, while geopolitical tensions remain a risk to
+supply chains and investor sentiment. In this environment, we remain focused on                                             Return % USD
+businesses with durable competitive advantages, strong balance sheets and visible
+                                                                                                                            Accumulated since               Fund          Benchmark*
+earnings growth, while maintaining valuation discipline.
+                                                                                                                            1 month                          -0.8                -1.1
+                                                                                                                            3 months                          1.3                1.6
+                                                                                                                            Year to date                      4.0               13.0
+                                                                                                                            1 year                            3.8               16.8
+                                                                                                                            3 years                              -                    -
+                                                                                                                            5 years                              -                    -
+                                                                                                                           Average annual growth
+                                                                                                                            3 years                              -                    -
+                                                                                                                            5 years                              -                    -
+
+
+                                                                                                                                             * Benchmark including dividend
+
+
+
+      Source: SEB and Rimes. Inflation is not taken into account when calculating the fund's return.
+  %        Jan     Feb     Mar      Apr    May     Jun     Jul    Aug     Sep     Oct    Nov     Dec       YTD      YTD
+                                                                                                                   Index
+ 2026      0.70    -3.29   -8.70   11.78   2.60   0.71    -0.24   2.31   -0.80       -       -         -    3.99   13.03
+
+ 2025      4.22    -2.16   -4.40    1.47   6.64   4.24    -0.50   1.21    1.67    0.12   -1.23   0.92      12.36   22.34
+
+ 2024          -       -       -       -      -       -       -      -    0.72   -4.16    2.69   -1.96     -2.82    1.31
+
+=== pdf p.2 ===
+SEB Montrusco Bolton Global Equity Fund, 2026-09-30
+
+
+
+Performance attribution YTD % (gross of fees)                                                      Risk measures (24m)
+                      Fund     Index   Relative   Allocation    Selection   Interaction   Total    Standard Deviation (Fund)             13.6%
+                                                       Effect      Effect        Effect   Effect
+                                                                                                   Standard Deviation (Index)            12.0%
+Communication         -1.36     0.73     -2.09         -0.13        -0.15        -0.03    -0.31
+Services                                                                                           Tracking Error                         4.9%
+
+Consumer              -2.93    -8.50      5.57         -0.15        0.57          0.02     0.45    Sharpe Ratio                            -0.3
+Discretionary                                                                                      Information Ratio                       -2.4
+Consumer Staples      -1.27     2.28     -3.56         -0.02        -0.15        -0.03    -0.20    Beta                                    1.1
+Energy                0.00     33.26    -33.26         -0.67        0.00          0.00    -0.67
+Financials            -3.00     6.35     -9.35          0.01        -1.64        -0.07    -1.70    Top 10 largest positions % of total
+Health Care         -20.14      5.41    -25.55         -0.08        -2.44        -0.26    -2.79    NVIDIA Corp                             8.0
+Industrials         -10.62      8.83    -19.46         -0.04        -2.28        -0.05    -2.37    Microsoft Corp                          6.8
+Information          27.57     35.43     -7.86          0.49        -1.74        -0.22    -1.47    Taiwan Semiconductor Manufacturing      6.6
+Technology                                                                                         Co Ltd
+Materials             -3.79     8.97    -12.76          0.02        -0.49         0.04    -0.43    Amazon.com Inc                          4.8
+Real Estate          11.61      0.61     11.00         -0.04        0.22         -0.01     0.17    Alphabet Inc                            4.3
+Utilities             0.00     -1.04      1.04          0.34        0.00          0.00     0.34    JPMorgan Chase & Co                     4.0
+Not Defined               -        -          -        -0.08        0.01         -0.01    -0.08    Japan Post Bank Co Ltd                  3.5
+Fund Total            3.97     13.03     -9.06         -0.34        -8.10        -0.63    -9.06    Mastercard Inc                          3.5
+                                                                                                   Lam Research Corp                       3.1
+                                                                                                   Danaher Corp                            3.0
+
+
+
+
+                                                                                                                    Source: SEB Asset Management
+
+The fund's investment policy
+The fund is actively managed and invests primarily in equities globally, including emerging markets. Investment decisions are based on in-
+depth (fundamental) analysis with the aim to identify companies that offer the best potential for long-term capital growth. The fund
+promotes sustainability-related properties via integrated sustainability analysis as part of investment decisions, and the exclusion of
+companies, business models and products that are deemed to affect the climate, society, or stakeholders negatively. The fund's active
+corporate governance process aims to drive and influence the development of companies in which we invest. For detailed information, see
+the fund's Sustainability Information document in the Prices & Facts section of our website. As the fund may invest in securities that are
+issued in other currencies than the base currency of the fund, the return may be affected by changes in the exchange rates.
+
+
+Please note: The data and investment comment that are shown in this document represents this specific share class. Consequently, the
+data and investment comment, may differ depending on which share class you are invested in. Please see the fact sheet, or other
+relevant source, for more information.
+
+=== pdf p.3 ===
+SEB Montrusco Bolton Global Equity Fund, 2026-09-30
+
+
+
+
+Important Information
+This material is for marketing purposes only and should not be construed as investment advice. Fund information, including the key
+information document (KID), prospectus/information brochure, and sustainability-related disclosures, can be found at sebgroup.lu/funds
+and/or seb.se/fondlista. The prospectus/information brochure is available in English, and the KIDs are available in the official languages of
+the jurisdictions where the fund is registered for distribution. The investment concerns the acquisition of units or shares in the fund, not the
+underlying assets owned by the fund. A summary of investor rights in English can be obtained at:
+https://webapp.sebgroup.com/mb/mblib.nsf/dld/55FC9E8EE8B2D4F5C1258B7B0032B1B6?opendocument. If past performance or fees
+are presented in a currency other than that of your country of residence, be aware that they may increase or decrease due to currency and
+exchange rate fluctuations. Inflation has not been accounted for in performance calculations. The various risks associated with investing in
+the fund are detailed in the prospectus/information brochure. When deciding whether to invest in the fund, consider not only its
+sustainability-related features but also all other characteristics detailed in the fund documents. The management company, SEB Funds AB,
+may decide to terminate the arrangements made for marketing the fund outside the countries in which the fund is established (Luxembourg
+or Sweden). Neither this material nor the fund(s) described herein is intended for distribution or sale in the United States of America, or to
+any resident of the United States of America (“US Persons”), and any such use would be unlawful or unauthorised. This material has been
+prepared by SEB Asset Management AB, org. no. 559419-2774, an investment firm supervised by the Swedish Financial Supervisory
+Authority and a wholly owned subsidiary of Skandinaviska Enskilda Banken AB (publ).
+
+Risk information
+
+Past performance is not indicative of future results. The value of fund units/shares can rise as well as fall, and you may not get back the
+amount you invested. Funds with a risk level of 5-7 according to the key information document (KID) can both decrease and increase
+significantly in value due to their composition and the management methods used.
+
+
+For investors in Singapore
+The fund is intended for distribution or sale in Singapore to Institutional Investors as defined in Section 4A, and Accredited Investors and
+other investors as defined in Section 305 of the Securities and Futures Act 2001, Singapore.
+

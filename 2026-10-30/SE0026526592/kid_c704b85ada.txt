@@ -1,0 +1,219 @@
+=== pdf p.1 ===
+Key Information Document
+Purpose
+This document provides you with key information about this investment product. It is not marketing
+material. The information is required by law to help you understand the nature, risks, costs, potential
+gains and losses of this product and to help you compare it with other products.
+
+
+Product
+SEB Europe Exposure
+Class D (EUR) non-distributing
+SEB Funds AB is a subsidiary of Skandinaviska Enskilda Banken AB (publ)
+ISIN: SE0026526592
+www.sebgroup.com/funds
+Call +46 771-365 365 for more information.
+The Swedish Financial Supervisory Authority (SFSA) is responsible for supervising the management company, SEB Funds AB, in relation to
+this Key Information Document (KID). This PRIIP product is authorised in Sweden and is managed by SEB Funds AB. SEB Funds AB is
+authorised in Sweden and regulated by the Swedish Financial Supervisory Authority (SFSA).
+The KID was issued 2 March 2026
+
+
+What is this product?
+Type                                                                    Share Class Benchmark MSCI Europe ex Client Defined Securities
+The product is a UCITS fund                                             Index, an MSCI custom index based on the stock exclusions
+                                                                        defined by SEB
+Term                                                                    Subscription and Redemption You can normally buy and sell units
+The fund has no maturity date. The management company has the           in the fund every Swedish bank business day.
+right to terminate the management of the fund. More information
+                                                                        Minimum initial investment: 1,000,000 EUR
+can be found in the fund's prospectus.
+                                                                        Distribution Policy The unit class is non-distributing.
+Objectives
+Investment objective The fund aims to replicate the performance         Intended retail investor
+and risk profile of its benchmark index.                                This fund may be suitable for you who intend to keep your
+                                                                        investment for at least 5 year(s), and who understands that the
+Investment policies The fund is passively managed and invests
+                                                                        money invested in the fund can both increase and decrease in
+primarily in stocks in the European market.
+                                                                        value. It is therefore not certain that you will get back all the
+The fund's benchmark index is a reinvesting equity index                invested capital. In order to invest in the fund, it is not required
+comprised of large and mid-sized companies in the developed             that you have any special prior knowledge or experience of
+European market, excluding companies that do not meet the fund          mutual funds or financial markets. This share class is intended
+company's sustainability policy.                                        for institutional investors.
+The return is determined by how much the fund's holdings
+                                                                        Practical information
+increase or decrease in value during your holding period.
+                                                                        Depositary Skandinaviska Enskilda Banken AB (publ)
+The fund promotes sustainability characteristics and is therefore
+classified as Article 8 according to the EU Sustainable Finance         The annual report, semi-annual report, prospectus, latest unit
+Disclosure Regulation (SFDR). The fund follows the management           value, and other practical information are available in the
+company's sustainability policy, which is available at                  language of this document, free of charge, at
+www.sebgroup.com/funds.                                                 www.sebgroup.com/funds.
+
+
+What are the risks and what could I get in return?
+Risk indicators                                                         the product will lose money because of movements in the
+                                                                        markets.
+                                                                        We have classified this product as 4 out of 7, which is a medium
+     1        2        3        4        5        6        7
+                                                                        risk class. This means that the fund has a medium risk of increases
+                                                                        and decreases in the share value. The indicator primarily reflects
+ Lower risk                                           Higher risk
+                                                                        the increases and decreases of the asset classes in which the fund
+                                                                        has invested.
+           The risk indicator assumes you keep the product for          Be aware of currency risk if you invest in a share class
+           5 year(s).                                                   denominated in a currency that is different from the official
+                                                                        currency of the country where the share class is being
+                                                                        marketed. You will then receive payments in a different
+The summary risk indicator is a guide to the level of risk of this      currency, so the final return you will get depends on the
+product compared to other products. It shows how likely it is that      exchange rate between the two currencies. This risk is not
+                                                                        considered in the indicator shown above.
+
+
+Page 1/3 | Key Information Document | 2 March 2026
+
+=== pdf p.2 ===
+SEB Europe Exposure – Class D (EUR) non-distributing (SE0026526592)
+
+
+This product does not include protection against market risk, which
+means that you may lose some or all of your investment.
+Performance scenarios
+The figures shown include all the costs of the product itself, but may not include all the costs that you pay to your advisor or distributor.
+The figures do not take into account your personal tax situation, which may also affect how much you get back.
+What you will get from this product depends on future market performance. Market developments in the future are uncertain and cannot
+be accurately predicted.
+The unfavourable, moderate, and favourable scenarios shown are illustrations using the worst, average, and best performance of
+the product or a suitable benchmark over the last 10 year(s). Markets could develop very differently in the future.
+The stress scenario shows what you might get back in extreme market circumstances.
+Unfavourable: this type of scenario occurred for an investment in the product/a suitable benchmark between 29 September 2017 and
+30 September 2022.
+Moderate: this type of scenario occurred for an investment in the product/a suitable benchmark between 31 January 2017 and
+31 January 2022.
+Favourable: this type of scenario occurred for an investment in the product/a suitable benchmark between 30 October 2020 and
+31 October 2025.
+
+    Recommended holding period                                                                       5 years
+
+    Example Investment                                                                               10,000 EUR
+
+                                                                                                                         If you exit after
+                                                                                                                         5 years
+                                                                                                     If you exit after   (recommended
+    Scenarios                                                                                        1 year              holding period)
+
+    Minimum              There is no minimum guaranteed return. You could lose some or all of your
+                         investment.
+
+    Stress               What you might get back after costs                                         4,218 EUR           3,731 EUR
+                         Average return each year                                                    -57.8%              -17.9%
+
+    Unfavourable         What you might get back after costs                                         8,555 EUR           10,849 EUR
+                         Average return each year                                                    -14.4%              1.6%
+
+    Moderate             What you might get back after costs                                         10,879 EUR          14,310 EUR
+                         Average return each year                                                    8.8%                7.4%
+
+    Favourable           What you might get back after costs                                         13,973 EUR          18,423 EUR
+                         Average return each year                                                    39.7%               13.0%
+
+
+
+What happens if SEB Funds AB is unable to pay out?
+According to law, the fund's assets may not be stored by the management company. Instead, each fund must have a specific depositary
+that takes care of the safekeeping of the fund's assets. In the unlikely event that the management company goes bankrupt, the
+management of the fund is taken over by the depositary. There is no other arranged compensation or guarantee scheme for investors in
+the fund.
+
+
+What are the costs?
+The person advising on or selling you this product may charge you other costs. If so, this person will provide you with information about
+these costs and how they affect your investment. If the fund is included as part of another product, e.g. unit linked insurance, there may be
+other costs for that product.
+
+Costs over time
+The tables show the amounts that are taken from your investment to cover different types of costs. These amounts depend on how much
+you invest, how long you hold the product and how well the product does. The amounts shown here are illustrations based on an example
+investment amount and different possible investment periods.
+We have assumed:
+Q    In the first year you would get back the amount that you invested (0% annual return). For the product's recommended holding period
+     we have assumed the product performs as shown in the moderate scenario.
+Q    10,000 EUR is invested.
+
+
+
+
+Page 2/3 | Key Information Document | 2 March 2026
+
+=== pdf p.3 ===
+SEB Europe Exposure – Class D (EUR) non-distributing (SE0026526592)
+
+
+                                                                                                                               If you exit after
+                                                                                                                               5 years
+                                                                                                       If you exit after       (recommended
+                                                                                                       1 year                  holding period)
+
+ Total costs                                                                                           15 EUR                  84 EUR
+
+ Annual cost impact*                                                                                   0.1%                    0.2%
+
+
+
+*) This illustrates how costs reduce your return each year over the holding period. For example it shows that if you exit at the
+recommended holding period your average return per year is projected to be 7.6% before costs and 7.4% after costs. We may share part
+of the costs with the person selling you the product to cover the services they provide to you. They will inform you of the amount.
+
+Composition of costs
+
+                                                                                                                               If you exit after 1
+ One-off costs upon entry or exit                                                                                              year
+
+ Entry costs                       We do not charge an entry fee, but the person selling you the product may do so.            0 EUR
+
+ Exit costs                        We do not charge an exit fee, but the person selling you the product may do so.             0 EUR
+
+ Ongoing costs taken each year
+
+ Management fees and other         0.11% of the value of your investment per year. This is an estimate based on actual costs   11 EUR
+ administrative or operating       over the last year.
+ costs
+
+ Transaction costs                 0.04% of the value of your investment per year. This is an estimate of the costs incurred   4 EUR
+                                   when we buy and sell the underlying investments for the product. The actual amount will
+                                   vary depending on how much we buy and sell.
+
+ Incidental costs taken under specific conditions
+
+ Performance fees                  There is no performance fee for this product.                                               0 EUR
+
+
+How long should I hold it and can I take money out early?
+Recommended holding period: 5 year(s)
+The fund has no requirement for a minimum holding period, but since it invests in equities, it is suitable for a medium to long-term
+investment horizon. You should be prepared to hold your investment in the fund for at least 5 year(s). You normally have the opportunity
+to sell your fund units all bank business days in Sweden without any extra fee.
+
+
+How can I complain?
+If you want to make a complaint about the fund, the management company or the person who has given you advice on or sold the fund to
+you, you can do so via https://seb.se/privat/om-du-inte-ar-nojd or write to kundrelationer@seb.se alternatively via post to SEB
+[Kundrelationer bankärenden, 106 40 Stockholm].
+
+
+Other relevant information
+You can find more information in the fund's prospectus, which is available on the management company's website,
+www.sebgroup.com/funds. There you will also find a current version of this KID, the fund's annual report and semi-annual report, as well
+as information on the costs for previous periods.
+The previously published result scenarios can be found here: https://www.seb.se/pow/fmk/KIID/SE/SV/SE0026526592_sv_02.pdf.
+You can download the past performance over the last 10 years from our website at https://www.seb.se/pow/fmk/KIID/SE/SV/
+SE0026526592_sv_01.pdf.
+Details of the fund company's remuneration policy are available at www.sebgroup.com/funds under "SEB Funds AB". A hard copy of the
+information can also be obtained free of charge on request.
+
+
+
+
+Page 3/3 | Key Information Document | 2 March 2026
+

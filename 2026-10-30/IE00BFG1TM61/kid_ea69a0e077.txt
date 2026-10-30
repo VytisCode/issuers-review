@@ -1,0 +1,118 @@
+=== pdf p.1 ===
+                                                            KEY INVESTOR INFORMATION
+                                                            This document provides you with key investor information about this Fund. It is not marketing material. The
+                                                            information is required by law to help you understand the nature and risks of investing in this Fund. You are advised
+                                                            to read it so you can make an informed decision about whether to invest.
+
+                                                                                         Class Institutional Accumulating EUR
+iShares Developed World Screened Index
+                                                                                         ISIN: IE00BFG1TM61
+Fund (IE)                                                                                Manager: BlackRock Asset Management Ireland Limited
+A sub-fund of BlackRock Index Selection Fund
+
+Objectives and Investment Policy
+  The Fund aims to achieve a return on your investment, through a combination of capital growth and income on the Fund’s assets, which reflects the return of the
+  developed world equity markets excluding companies that are involved in or generate a majority of their revenue and income from activities that may have a
+  detrimental impact from the environmental, social and governance (ESG) perspective.
+  The Fund is passively managed and aims to invest in equity securities (e.g. shares) that, so far as possible and practicable, make up the MSCI World Screened Index
+  (the “Index”).
+  The Fund’s investments will, at the time of purchase, comply with the ESG requirements of the Index. The Fund may hold securities which do not comply with the ESG
+  requirements of the Index until such time as the relevant securities cease to form part of the Index and it is possible and practicable (in the investment manager’s
+  view) to liquidate the position.
+  The Index measures the performance of a sub-set of equity securities within the MSCI World Index (the Parent Index) which excludes issuers from the Parent Index
+  based on the index provider’s ESG exclusionary criteria. For further details please refer to the prospectus. The remaining securities are then weighted by their free-float
+  adjusted market capitalisation. Free float adjusted means that only shares readily available in the market rather than all of a company’s issued shares are used in
+  calculating the Index. Free float-adjusted market capitalisation is the share price of a company multiplied by the number of shares readily available in the market. The
+  Index also excludes issuers which are identified by the index provider as being involved in controversies that have a negative ESG impact based on an MSCI ESG
+  controversy score set by the index provider.
+  The Parent Index measures the performance of large and mid-capitalisation shares across developed countries which comply with the index provider’s size, liquidity
+  and free-float criteria.
+  The Fund adopts a binding and significant ESG integration approach to sustainable investing i.e. the Fund will integrate ESG information into investment processes to
+  achieve a weighted average environmental rating of the Fund at least 20% better as compared to the Parent Index.
+  The Fund may also engage in short-term secured lending of its investments to certain eligible third parties. This is used as a means of generating additional income and
+  to off-set the costs of the Fund.
+  Recommendation: This Fund may not be appropriate for short-term investment.
+  Your units will be accumulating units (i.e. dividend income will be included in their value).
+  The Fund’s base currency is US Dollar. Units for this class are bought and sold in Euro. The performance of your units may be affected by this currency difference.
+   You can buy and sell your units daily. The minimum initial investment for this unit class is €1,000,000.
+For more information on the Fund, share/unit classes, risks and charges, please see the Fund's prospectus, available on the product pages at www.blackrock.com
+
+Risk and Reward Profile
+Lower risk                                                              Higher risk        - The value of equities and equity-related securities can be affected by daily
+Typically lower rewards                                      Typically higher rewards        stock market movements. Other influential factors include political, economic
+                                                                                             news, company earnings and significant corporate events.
+                                                                                           Particular risks not adequately captured by the risk indicator include:
+                                                                                           - Counterparty Risk: The insolvency of any institutions providing services such
+  This indicator is based on historical data and may not be a reliable indication of         as safekeeping of assets or acting as counterparty to derivatives or other
+  the future risk profile of the Fund.                                                       instruments, may expose the Fund to financial loss.
+  The risk category shown is not guaranteed and may change over time.
+  The lowest category does not mean risk free.
+  The Fund is rated five due to the nature of its investments which include the
+  risks listed below. These factors may impact the value of the Fund’s investments
+  or expose the Fund to losses.
+
+=== pdf p.2 ===
+Charges
+The charges are used to pay the costs of running the Fund, including the costs of                   ** To the extent the Fund undertakes securities lending to reduce costs, the
+marketing and distributing it. These charges reduce the potential growth of your                    Fund will receive 62.5% of the associated revenue generated and the remaining
+investment.                                                                                         37.5% will be received by BlackRock as the securities lending agent. As
+The entry and exit charges shown are maximum figures. In some cases you might                       securities lending revenue sharing does not increase the costs of running the
+pay less. Please refer to your financial advisor or the distributor for the actual entry            Fund, this has been excluded from the ongoing charges.
+and exit charges.                                                                                    One-off charges taken before or after you invest
+The ongoing charges figure is based on expenses for the twelve month period
+                                                                                                     Entry Charge                                                                    None
+ending 31 December 2025. This figure may vary from year to year. It excludes
+portfolio trade-related costs, except costs paid to the custodian and any entry/exit                 Exit Charge                                                                     None
+charge paid to an underlying collective investment scheme (if any).                                   This is the maximum that might be taken out of your money before it is invested or
+                                                                                                      before proceeds of your investments are paid out.
+
+                                                                                                     Charges taken from the Fund over each year
+                                                                                                     Ongoing Charges                                                             0.17%**
+                                                                                                     Charges taken from the Fund under certain conditions
+                                                                                                     Performance Fee                                                                 None
+
+Past Performance
+Past performance is not a guide to future                       Historic performance to 31 December 2025
+performance.
+The chart shows the Fund's annual performance in
+EUR for each full calendar year over the period
+displayed in the chart. It is expressed as a
+percentage change of the Fund's net asset value at
+each year-end. The Fund was launched in 2014. The
+unit class was launched in 2014.
+Performance is shown after deduction of ongoing
+charges. Any entry/exit charges are excluded from
+the calculation.
+
+† Benchmark:MSCI WORLD SCREENED in EURO
+                                                                                         2016      2017       2018      2019       2020      2021       2022    2023      2024      2025
+Prior to 9 September 2020, the Fund used a
+                                                                   Fund                   10.5        7.4      -3.9      30.1        6.7         31.4   -14.3   21.9      27.9        6.9
+different benchmark which is reflected in the
+                                                                   Benchmark †            10.7        7.4      -3.8      30.2        6.8         31.4   -14.3   22.0      28.0        7.0
+benchmark data.
+                                                                   During this period performance was achieved under circumstances that no longer apply.
+
+Practical Information
+  The depositary of the Fund is J.P. Morgan SE – Dublin Branch.
+  Further information about the Fund can be obtained from the latest annual and half-yearly reports of the BlackRock Index Selection Fund (BISF). These documents are
+  available free of charge in English and certain other languages. These can be found, along with other information, such as unit prices, on the BlackRock website at
+  www.blackrock.com, on the iShares website at www.ishares.com, or by calling the International Investor Servicing team on +353 1612 3394.
+  Investors should note that the tax legislation that applies to the Fund may have an impact on the personal tax position of your investment in the Fund.
+  The Fund is a sub-fund of BISF, an umbrella structure comprising different sub-funds. This document is specific to the Fund and unit class stated at the beginning of
+  this document. However, the prospectus, annual and half-yearly reports are prepared for the umbrella.
+  BlackRock Asset Management Ireland Limited may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or
+  inconsistent with the relevant parts of the Fund's Prospectus.
+  Under Irish law, BISF has segregated liability between its sub-funds (i.e. the Fund’s assets will not be used to discharge the liabilities of other sub-funds within BISF). In
+  addition, the Fund’s assets are held separately from the assets of other sub-funds.
+  Investors may switch their units in the Fund for units in another sub-fund within BISF, (with the exception of the flexible unit classes), subject to meeting certain
+  conditions as set out in the prospectus.
+  The Remuneration Policy of the Management Company, which describes how remuneration and benefits are determined and awarded, and the associated governance
+  arrangements, is available at www.blackrock.com/Remunerationpolicy or on request from the registered office of the Management Company.
+
+
+
+
+This Fund and its manager, BlackRock Asset Management Ireland Limited, are authorised in Ireland and regulated by the Central Bank of Ireland.
+This Key Investor Information is accurate as at 09 February 2026
+

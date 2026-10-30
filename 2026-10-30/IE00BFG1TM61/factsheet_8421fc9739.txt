@@ -1,0 +1,202 @@
+=== pdf p.1 ===
+PASSIVE
+
+iShares Developed World Screened Index
+Fund (IE)
+Inst Euro
+BlackRock Index Selection Fund                                                                                           September 2026
+Unless otherwise stated, Performance, Portfolio Breakdowns and Net Asset information as at: 30-Sep-2026. All other data as
+at 11-Oct-2026.
+This document is marketing material. For Investors in the UK. Investors should read the KIID/PRIIPs document and prospectus prior to investing,
+and should refer to the prospectus for the funds full list of risks.
+
+FUND OVERVIEW                                                                                   RATINGS**
+     The Fund aims to achieve a return on your investment, through a combination of
+     capital growth and income on the Fund’s assets, which reflects the return of the
+     developed world equity markets excluding companies that are involved in or generate
+     a majority of their revenue and income from activities that may have a detrimental
+     impact from the environmental, social and governance (ESG) perspective                     KEY FACTS
+     The Fund is passively managed and aims to invest in equity securities (e.g. shares)        Asset Class : Equity
+     that, so far as possible and practicable, make up the MSCI World Screened Index (the
+     “Index”).                                                                                  Benchmark : MSCI WORLD SCREENED in EURO
+     The Fund’s investments will, at the time of purchase, comply with the ESG                  Fund Launch Date : 10-Jan-2014
+     requirements of the Index. The Fund may hold securities which do not comply with the
+                                                                                                Share Class Launch Date : 31-Oct-2014
+     ESG requirements of the Index until such time as the relevant securities cease to form
+     part of the Index and it is possible and practicable (in the investment manager's view)    Share Class Currency : EUR
+     to liquidate the position.                                                                 Net Assets of Fund (M) : 5,142.66 USD
+
+ RISK INDICATOR                                                                                 Morningstar Category : Global Large-Cap
+                                                                                                Blend Equity
+ Lower Risk                                                                  Higher Risk        SFDR Classification : Article 8
+ Potentially Lower Rewards                                       Potentially Higher Rewards     Domicile : Ireland
+                                                                                                ISIN : IE00BFG1TM61
+                                                                                                Use of Income : Accumulating
+      1            2            3             4            5            6             7
+                                                                                            Management Company : BlackRock Asset
+CAPITAL AT RISK: The value of investments and the income from them can fall as well as rise Management Ireland Limited
+and are not guaranteed. Investors may not get back the amount originally invested.          Analyst-Driven %i : 20.00%
+
+KEY RISKS:                                                                                      Data Coverage %ii : 94.00%
+
+    The value of equities and equity-related securities can be affected by daily stock market   FEES AND CHARGES
+    movements. Other influential factors include political, economic news, company
+    earnings and significant corporate events.                                                  Annual Management Fee : 0.15%
+    Counterparty Risk: The insolvency of any institutions providing services such as            Ongoing Charge : 0.17%
+    safekeeping of assets or acting as counterparty to derivatives or other instruments, may    Performance Fee : 0.00%
+    expose the Fund to financial loss.
+                                                                                                DEALING INFORMATION
+                                                                                                Settlement : Trade Date + 3 days
+                                                                                                Dealing Frequency : Daily, forward pricing basis
+
+                                                                                                PORTFOLIO CHARACTERISTICS
+                                                                                                Price to Book Ratio : 4.18x
+                                                                                                Price to Earnings Ratio : 26.32x
+                                                                                                3y Beta : 1.00
+                                                                                                Standard Deviation (3y) : 12.18%
+                                                                                                Number of Holdings : 1,152
+
+                                                                                                PORTFOLIO MANAGER(S)
+                                                                                                Kieran Doyle
+                                                                                                Please refer to the Glossary for more details.
+
+=== pdf p.2 ===
+iShares Developed World Screened Index
+Fund (IE)
+Inst Euro
+BlackRock Index Selection Fund
+
+CALENDAR YEAR PERFORMANCE
+
+
+
+
+                      2016         2017           2018       2019       2020        2021       2022          2023          2024     2025
+   Share Class        10.50         7.39          -3.88      30.14      6.71        31.36      -14.33        21.86      27.88       6.87
+   Benchmark          10.69         7.44          -3.77      30.20      6.83        31.43      -14.34        21.96      28.02       6.95
+
+   During this period performance was achieved under circumstances that no longer apply.
+
+
+GROWTH OF HYPOTHETICAL 10,000 EUR SINCE INCEPTION
+
+
+
+
+CUMULATIVE & ANNUALISED PERFORMANCE
+                                                   CUMULATIVE (%)                                            ANNUALISED (% p.a.)
+                         1m                3m              6m          YTD                1y            3y            5y            Since
+                                                                                                                                  Inception
+   Share Class          1.27               2.50           18.95        15.39          19.21         19.22            12.60         12.12
+   Benchmark            1.29               2.55           19.02        15.46          19.31         19.32            12.67         12.23
+
+The figures shown relate to past performance. Past performance is not a reliable indicator of future performance. Markets could develop very
+differently in the future. It can help you to assess how the fund has been managed in the past. Performance is shown on a Net Asset Value
+(NAV) basis, with gross income reinvested where applicable. The return of your investment may increase or decrease as a result of currency
+fluctuations if your investment is made in a currency other than that used in the past performance calculation. Source: Blackrock
+  Share Class (EUR)          iShares Developed World Screened Index Fund (IE) Inst Euro
+  Benchmark (EUR)            MSCI WORLD SCREENED in EURO
+
+=== pdf p.3 ===
+ iShares Developed World Screened Index
+ Fund (IE)
+ Inst Euro
+BlackRock Index Selection Fund
+
+Top 10 Holdings                                                                              GEOGRAPHIC BREAKDOWN (%)
+NVIDIA                                                                             6.27%
+APPLE                                                                              5.84%
+MICROSOFT                                                                          4.32%
+AMAZON.COM INC                                                                     2.88%
+ALPHABET CLASS A                                                                   2.41%
+ALPHABET CLASS C                                                                   1.90%
+META PLATFORMS CLASS A                                                             1.90%
+BROADCOM INC                                                                       1.90%
+MICRON TECHNOLOGY                                                                  1.44%
+TESLA INC                                                                          1.21%
+Total of Portfolio                                                               30.07%
+Holdings subject to change
+
+
+
+SECTOR BREAKDOWN (%)
+
+
+
+
+                                                                                                                      Fund                   Benchmark
+                                                                                             Allocations are subject to change. Source: BlackRock
+
+
+
+
+                         Fund                   Benchmark
+Negative weightings may result from specific circumstances (including timing differences
+between trade and settlement dates of securities purchased by the funds) and/or the use of
+certain financial instruments, including derivatives, which may be used to gain or reduce
+market exposure and/or risk management. Allocations are subject to change
+
+=== pdf p.4 ===
+ iShares Developed World Screened Index
+ Fund (IE)
+ Inst Euro
+ BlackRock Index Selection Fund
+
+GLOSSARY
+SFDR Classification: Article 8: Products that promote environmental            Price to Book Ratio: represents the ratio of the current closing price of
+or social characteristics and promote good governance practices.               the share to the latest quarter's book value per share.
+Article 9: Products that have sustainable investments as an objective          Analyst Driven %i is the analyst input into the overall rating
+and follow good governance practices. Other: Products that do not              assignment, including direct analyst coverage and inheritance of an
+meet the criteria to be classified as Article 8 or 9.                          analyst-rated pillar
+Price to Earnings: A valuation ratio of a company's current share price
+compared to its per-share earnings in the current forecast year,
+calculated as current share price divided by current earnings per share.
+Data Coverage %ii is available input data for rating calculation at the
+Pillar level
+IMPORTANT INFORMATION:
+ ** The Morningstar Medalist RatingTM is the summary expression of Morningstar’s forward-looking analysis of investment strategies using a
+ rating scale of Gold, Silver, Bronze, Neutral, and Negative. The ratings indicate which investments Morningstar believes are likely to outperform a
+ relevant index or peer group average on a risk-adjusted basis over time. Analysts assign three pillar ratings (People, Parent and Process) based on
+ their qualitative assessment, subject to the oversight of the Analyst Rating Committee, and monitor and reevaluate them at least every 14 months.
+ For more detailed information about these ratings and methodology, please go to global.morningstar.com/managerdisclosures. The ratings are
+ not statements of fact, nor credit or risk ratings. The rating (i) should not be used as the sole basis in evaluating an investment product, (ii) involves
+ unknown risks which may cause expectations not to occur or to differ from what was expected, (iii) are not guaranteed to be based on complete or
+ accurate assumptions, (iv) involve the risk that the return target will not be met due to unforeseen changes in management, technology, economic
+ development, interest rate development, operating and/or material costs, competitive pressure, supervisory law, exchange and tax rates, and/or
+ changes in political and social conditions, and (v) should not be considered an offer or solicitation to buy or sell the investment product.
+In the European Economic Area (EEA): this is Issued by BlackRock (Netherlands) B.V. is authorised and regulated by the Netherlands Authority for
+the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: 31-20-549-5200. Trade Register No.
+17068311 For your protection telephone calls are usually recorded. For Ireland and only in relation to Per Se Professionals and/or Eligible
+Counterparties (i.e., Professional Investors), this may also be issued by BlackRock Investment Management (UK) Limited, authorised and regulated
+by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44 (0)20 7743 3000. Registered in
+England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the Financial Conduct Authority website
+for a list of authorised activities conducted by BlackRock.
+In the UK and Non-European Economic Area (EEA) countries (excluding Switzerland),: this is Issued by BlackRock Investment Management
+(UK) Limited, authorised and regulated by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44
+(0)20 7743 3000. Registered in England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the
+Financial Conduct Authority website for a list of authorised activities conducted by BlackRock.
+This is Marketing Material. The iShares Developed World Screened Index Fund (IE) are sub-funds of BlackRock Index Selection Fund (the Fund).
+The Fund is organised under the laws of Ireland and authorised by the Central Bank of Ireland as UCITS for the purposes of the UCITS Regulations.
+Investment in the sub-fund(s) is only open to 'Qualified Holders', as defined in the relevant Fund Prospectus. In the UK subscriptions in BISF are
+valid only if made on the basis of the current Prospectus, the most recent financial reports and the Key Investor Information Document, and in the
+EEA and Switzerland subscriptions in BISF are valid only if made on the basis of the current Prospectus (available in English, German, French
+languages), the most recent financial reports and the Packaged Retail and Insurance-based Investment Products Key Information Document
+(PRIIPs KID) which are available in registered jurisdictions and local language where they are registered, these can be found at www.blackrock.com
+on the relevant product pages. Any investment decision should be made on the basis of the information outlined above and Investors should
+understand all characteristics of the funds objective before investing, if applicable this includes sustainable disclosures and sustainable related
+characteristics of the fund as found in the prospectus, which can be found www.blackrock.com on the relevant country and product pages for where
+the fund is registered for sale. PRIIPs KID and application forms may not be available to investors in certain jurisdictions where the Fund in
+question has not been authorised. BlackRock and/or the Management Company may terminate marketing at any time. For information on investor
+rights and how to raise complaints please go to https://www.blackrock.com/corporate/compliance/investor-right available in in local language in
+registered jurisdictions. UCITS HAVE NO GUARANTEED RETURN AND PAST PERFORMANCE DOES NOT GUARANTEE THE FUTURE ONES
+
+This document is marketing material and will expire 12 months after issue
+Any research in this document has been procured and may have been acted on by BlackRock for its own purpose. The results of such research are
+being made available only incidentally. The views expressed do not constitute investment or any other advice and are subject to change. They do
+not necessarily reflect the views of any company in the BlackRock Group or any part thereof and no assurances are made as to their accuracy
+
+This document is for information purposes only and does not constitute an offer or invitation to anyone to invest in any BlackRock funds and has
+not been prepared in connection with any such offer.
+© 2026 BlackRock, Inc. All Rights reserved. BLACKROCK, BLACKROCK SOLUTIONS, and iSHARES are trademarks of BlackRock, Inc. or its
+affiliates All other trademarks are those of their respective owners
+
