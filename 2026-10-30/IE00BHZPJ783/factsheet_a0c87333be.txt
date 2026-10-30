@@ -1,0 +1,189 @@
+=== pdf p.1 ===
+PASSIVE
+
+               iShares MSCI Europe CTB Enhanced ESG
+ EDM6          UCITS ETF
+               Euro (Accumulating)
+               iShares IV plc                                                                                            September 2026
+Performance, Portfolio Breakdowns and Net Asset information as at: 30-Sep-2026. All other data as at 05-Oct-2026.
+This document is marketing material. For Investors in the UK. Investors should read the KIID/PRIIPs document and prospectus prior to investing,
+and should refer to the prospectus for the funds full list of risks.
+
+ FUND OVERVIEW                                                                                  PRODUCT INFORMATION
+ The Fund aims to achieve a return on your investment, through a combination of capital         ISIN : IE00BHZPJ783
+ growth and income on the Fund's assets, which reflects the return of the MSCI Europe ESG       Share Class Launch Date : 16-Apr-2019
+ Enhanced Focus CTB Index, the Fund’s benchmark index.
+                                                                                                Share Class Currency : EUR
+ RISK INDICATOR                                                                                 Total Expense Ratio : 0.12%
+                                                                                                Use of Income : Accumulating
+ Lower Risk                                                                  Higher Risk        Net Assets of Share Class (M) : 2,286.69 EUR
+ Potentially Lower Rewards                                       Potentially Higher Rewards
+                                                                                                KEY FACTS
+                                                                                                Asset Class : Equity
+      1            2            3             4            5            6            7          Benchmark : MSCI Europe ESG Enhanced CTB
+                                                                                                Index
+CAPITAL AT RISK: The value of investments and the income from them can fall as well as rise Fund Launch Date : 06-Mar-2019
+and are not guaranteed. Investors may not get back the amount originally invested.
+                                                                                            Net Assets of Fund (M) : 7,303.31 EUR
+KEY RISKS:                                                                                      SFDR Classification : Article 8
+    Investment risk is concentrated in specific sectors, countries, currencies or companies.    Domicile : Ireland
+    This means the Fund is more sensitive to any localised economic, market, political,
+    sustainability-related or regulatory events.                                                Methodology : Optimised
+    The value of equities and equity-related securities can be affected by daily stock market   Issuing Company : iShares IV plc
+    movements. Other influential factors include political, economic news, company
+    earnings and significant corporate events.                                                  Product Structure : Physical
+    The benchmark index only excludes companies engaging in certain activities                  ISA Eligibility : Yes
+    inconsistent with ESG criteria if such activities exceed the thresholds determined by the
+                                                                                                SIPP Available : Yes
+    index provider. Such ESG screening may reduce the potential investment universe and
+    this may adversely affect the value of the Fund’s investments compared to a fund            UK Reporting Status : Yes
+    without such screening.
+    Counterparty Risk: The insolvency of any institutions providing services such as            PORTFOLIO CHARACTERISTICS
+    safekeeping of assets or acting as counterparty to derivatives or other instruments, may    Price to Book Ratio : 2.54x
+    expose the Share Class to financial loss.                                                   Price to Earnings Ratio : 18.51x
+                                                                                                3y Beta : 1.00
+                                                                                                Number of Holdings : 371
+
+                                                                                                Please refer to the Glossary for more details.
+
+=== pdf p.2 ===
+iShares MSCI Europe CTB Enhanced ESG
+UCITS ETF
+Euro (Accumulating)
+iShares IV plc
+
+CALENDAR YEAR PERFORMANCE
+
+
+
+
+                      2016         2017           2018      2019        2020         2021        2022          2023          2024      2025
+   Share Class          -            -             -             -      -1.41        25.50       -12.42        16.12         8.70      17.19
+   Benchmark            -            -             -             -      -1.57        25.26       -12.62        15.87         8.51      16.89
+
+
+GROWTH OF HYPOTHETICAL 10,000 EUR SINCE INCEPTION
+
+
+
+
+CUMULATIVE & ANNUALISED PERFORMANCE
+                                                   CUMULATIVE (%)                                              ANNUALISED (% p.a.)
+                            1m            3m              6m            YTD              1y               3y            5y            Since
+                                                                                                                                    Inception
+    Share Class         -2.45             -1.16          11.04          9.70           16.95           14.35           8.89            9.13
+    Benchmark           -2.45             -1.15          10.85          9.49           16.69           14.09           8.67            8.90
+
+The figures shown relate to past performance. Past performance is not a reliable indicator of future performance. Markets could develop very
+differently in the future. It can help you to assess how the fund has been managed in the past Performance is shown on a Net Asset Value
+(NAV) basis, with gross income reinvested where applicable. Performance data is based on the net asset value (NAV) of the ETF which may not be
+the same as the market price of the ETF. Individual shareholders may realize returns that are different to the NAV performance. The return of your
+investment may increase or decrease as a result of currency fluctuations if your investment is made in a currency other than that used in the past
+performance calculation. Source: Blackrock
+  Share Class (EUR)          iShares MSCI Europe CTB Enhanced ESG UCITS ETF Euro (Accumulating)
+  Benchmark (EUR)            MSCI Europe ESG Enhanced CTB Index
+
+=== pdf p.3 ===
+ iShares MSCI Europe CTB Enhanced ESG
+ UCITS ETF
+ Euro (Accumulating)
+ iShares IV plc
+
+Top 10 Holdings                                                           GEOGRAPHIC BREAKDOWN (%)
+ASML HOLDING                                                      5.44%
+HSBC HOLDINGS PLC                                                 2.89%
+NOVARTIS AG                                                       2.49%
+ROCHE PS PAR AG                                                   2.38%
+SCHNEIDER ELECTRIC                                                1.97%
+ABB LTD                                                           1.91%
+ASTRAZENECA PLC                                                   1.73%
+SAP                                                               1.72%
+ALLIANZ                                                           1.62%
+BANCO SANTANDER                                                   1.62%
+Total of Portfolio                                               23.77%
+Holdings are subject to change.
+
+
+
+SECTOR BREAKDOWN (%)
+
+
+
+
+                                                                                                               Fund
+                                                                          Geographic exposure relates principally to the domicile of the issuers of the securities held in
+                                                                          the product, added together and then expressed as a percentage of the product’s total
+                                                                          holdings. However, in some instances it can reflect the location where the issuer of the
+                                                                          securities carries out much of their business.
+
+
+
+
+                                   Fund
+Allocations are subject to change. Source: BlackRock
+
+
+
+TRADING INFORMATION
+Exchange                                  Xetra        Borsa Italiana
+Ticker                                    EDM6         ESEG
+Bloomberg Ticker                          EDM6 GY      -
+RIC                                       EDM6.DE      ESEG.MI
+SEDOL                                     BHZPJ78      BP9NSQ6
+Listing Currency                          EUR          EUR
+
+=== pdf p.4 ===
+ iShares MSCI Europe CTB Enhanced ESG
+ UCITS ETF
+ Euro (Accumulating)
+ iShares IV plc
+
+GLOSSARY
+SFDR Classification: Article 8: Products that promote environmental           Price to Book Ratio: represents the ratio of the current closing price of
+or social characteristics and promote good governance practices.              the share to the latest quarter's book value per share.
+Article 9: Products that have sustainable investments as an objective
+and follow good governance practices. Other: Products that do not
+meet the criteria to be classified as Article 8 or 9.
+Price to Earnings: A valuation ratio of a company's current share price
+compared to its per-share earnings in the current forecast year,
+calculated as current share price divided by current earnings per share.
+ IMPORTANT INFORMATION:
+In the European Economic Area (EEA): this is Issued by BlackRock (Netherlands) B.V. is authorised and regulated by the Netherlands Authority for
+the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: 31-20-549-5200. Trade Register No.
+17068311 For your protection telephone calls are usually recorded. For Ireland and only in relation to Per Se Professionals and/or Eligible
+Counterparties (i.e., Professional Investors), this may also be issued by BlackRock Investment Management (UK) Limited, authorised and regulated
+by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44 (0)20 7743 3000. Registered in
+England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the Financial Conduct Authority website
+for a list of authorised activities conducted by BlackRock.
+In the UK and Non-European Economic Area (EEA) countries (excluding Switzerland),: this is Issued by BlackRock Investment Management
+(UK) Limited, authorised and regulated by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44
+(0)20 7743 3000. Registered in England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the
+Financial Conduct Authority website for a list of authorised activities conducted by BlackRock.
+This is Marketing Material. iShares plc, iShares II plc, iShares III plc, iShares IV plc, iShares V plc, iShares VI plc and iShares VII plc (together 'the
+Companies') are open-ended investment companies with variable capital having segregated liability between their funds organised under the laws
+of Ireland and authorised by the Central Bank of Ireland. The Prospectus (Available in French, German, Polish and English Languages) Key Investor
+Information document (UK only), PRIIPs KID and further information about the Fund and the Share Class, such as details of the key underlying
+investments of the Share Class and share prices, is available on the iShares website at www.ishares.com or by calling +44 (0)845 357 7000 or from
+your broker or financial adviser. The indicative intra-day net asset value of the Share Class is available at http://deutsche-boerse.com and/or http://
+www.reuters.com. A UCITS ETF’s units / shares that have been acquired on the secondary market cannot usually be sold directly back to the UCITS
+ETF itself. Investors who are not Authorised Participants must buy and sell shares on a secondary market with the assistance of an intermediary
+(e.g. a stockbroker) and may incur fees and additional taxes in doing so. In addition, as the market price at which the Shares are traded on the
+secondary market may differ from the Net Asset Value per Share, investors may pay more than the then current Net Asset Value per Share when
+buying shares and may receive less than the current Net Asset Value per Share when selling them. UCITS HAVE NO GUARANTEED RETURN AND
+PAST PERFORMANCE DOES NOT GUARANTEE THE FUTURE ONES
+
+ This document is marketing material and will expire 12 months after issue
+This document is not, and under no circumstances is to be construed as an advertisement or any other step in furtherance of a public offering of
+shares in the United States or Canada. This document is not aimed at persons who are resident in the United States, Canada or any province or
+territory thereof, where the companies/securities are not authorised or registered for distribution and where no prospectus has been filed with any
+securities commission or regulatory authority. The companies/securities may not be acquired or owned by, or acquired with the assets of, an ERISA
+Plan.
+Any research in this document has been procured and may have been acted on by BlackRock for its own purpose. The results of such research are
+being made available only incidentally. The views expressed do not constitute investment or any other advice and are subject to change. They do
+not necessarily reflect the views of any company in the BlackRock Group or any part thereof and no assurances are made as to their accuracy
+
+This document is for information purposes only and does not constitute an offer or invitation to anyone to invest in any BlackRock funds and has
+not been prepared in connection with any such offer.
+© 2026 BlackRock, Inc. All Rights reserved. BLACKROCK, BLACKROCK SOLUTIONS, and iSHARES are trademarks of BlackRock, Inc. or its
+affiliates All other trademarks are those of their respective owners
+

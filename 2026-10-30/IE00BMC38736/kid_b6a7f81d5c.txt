@@ -1,0 +1,146 @@
+=== pdf p.1 ===
+KEY INVESTOR INFORMATION
+
+This document provides you with key investor information about this Fund. It is not marketing material. The information is
+required by law to help you understand the nature and the risks of investing in this Fund. You are advised to read it so
+you can make an informed decision about whether to invest.
+
+
+VanEck Semiconductor UCITS ETF (the "Fund")
+a sub-fund of VanEck UCITS ETFs plc (the "Company")
+ISIN: IE00BMC38736
+This Fund is managed by VanEck Asset Management B.V., a subsidiary of Van Eck Associates Corporation.
+
+Objectives and Investment Policy
+                                                                                         instruments may be utilised in a variety of circumstances, including but not
+The Fund's investment objective is to replicate, before fees and expenses, the           limited to, situations such as managing total exposure to cash and borrowing on
+MarketVector US Listed Semiconductor 10% Capped Screened Index (the                      a short term basis and in anticipation of participation in a rights offering.The Fund
+Index).                                                                                  invests in the underlying (physical) securities that make up the Index and does
+In order to seek to achieve its investment objective, the Investment Manager will        not take part in securities lending.
+use a replication strategy by investing directly in the underlying equity securities,    Where it is not practical or cost efficient for the Fund to fully replicate the Index,
+being the stock, American depository receipts (ADRs), and global depository              the Investment Manager may utilise an optimised sampling methodology. Where
+receipts (GDRs), that consists of the component securities of the Index. The             it is not practical or cost efficient for the Fund to fully replicate the Index, the
+Fund will invest in equity securities and depositary receipts of U.S. exchange-          Fund will not avail of the increased limits as set out in Regulation 71 of the CBI
+listed companies in the semiconductor industry which are listed or traded on the         UCITS Regulations.
+Markets referred to in Appendix II of the Prospectus.                                    The Fund may not invest more than 10% of its Net Asset Value in open-ended
+The Manager has categorised the Product as meeting the provisions set out in             collective investment schemes.
+Article 8 of Regulation (EU) 2019/2088 on sustainability related disclosures in the      Furthermore, the Fund may not invest less than 51% of its Net Asset Value in
+financial services sector ("SFDR") for products, which promote environmental             equity securities which constitute "equity participation" within the meaning of
+and/or social characteristics and invest in companies that follow good                   section 2, Article 8 of the German Investment Tax Act.
+governance practices. The Product does not have sustainable investment as its
+investment objective. The Index considers ESG factors as further detailed in the         The Fund, using a “passive” or indexing investment approach, attempts to
+Index methodology available on the Index Provider’s website and in the                   approximate the investment performance of the Index by investing in a portfolio of
+Prospectus.                                                                              securities that generally replicates the Index. The Manager will regularly monitor
+The Fund may also (or alternatively) invest in financial derivative instruments          the Fund’s tracking accuracy.
+(FDIs) which relate to the Index or constituents of the Index. The FDIs which the        Recommendation: This Fund may not be appropriate for investors who plan to
+Fund may use are futures, options (puts and calls), swaps (equity swaps and              withdraw their money within 5 years.
+swaps on the Index), currency forwards and non-deliverable forwards (a forward           • Fund’s base currency: U.S. Dollar
+contract that does not require settlement on maturity) (NDFs).                           • Distribution policy: Income accumulated
+The Fund may also invest in ancillary liquid assets and money market                     The shares are admitted for trading on various stock exchanges and can be
+instruments which may include bank deposits, depositary receipts, certificates of        traded on the secondary market. The price of the shares offered on the
+deposit, fixed or floating rate instruments (treasury bills), commercial paper,          secondary market may deviate from the net asset value of the shares. The return
+floating rate notes and freely transferable promissory notes. The ancillary liquid       of the Fund is directly related to the return of the underlying assets minus the
+assets, money market instruments and FDI (other than permitted unlisted                  costs associated with the Fund. If the performance of the underlying assets
+investments) will be listed or traded on the Markets referred to in Appendix II of       decreases, the performance of the Fund will also decrease. There is no capital
+the Prospectus. Investment in ancillary liquid assets and money market                   protection against Market Risk.
+
+Risk and Reward Profile
+Lower risk                                                                Higher risk    captured by the synthetic risk indicator and may cause additional loss:
+Typically lower reward                                         Typically higher reward
+                                                                                                Equity Market Risk: The prices of the securities in the Fund are subject to
+                                                                                                the risks associated with investing in the securities market, including
+     1           2            3           4           5            6           7                general economic conditions and sudden and unpredictable drops in
+                                                                                                value. An investment in the Fund may lose money.
+
+The risk and reward indicator is calculated using historical and simulated                      Industry or Sector Concentration Risk: The Fund’s assets may be
+historical data. Historical data may not be a reliable indication for the future.               concentrated in one or more particular sectors or industries. The Fund
+Therefore, the risk classification may change over time.                                        may be subject to the risk that economic, political or other conditions that
+                                                                                                have a negative effect on the relevant sectors or industries will negatively
+Even if the Fund is in the lowest risk category, it does not mean it is risk free or            impact the Fund's performance to a greater extent than if the Fund’s
+that capital is guaranteed or protected.                                                        assets were invested in a wider variety of sectors or industries.
+This Fund is ranked at 7 because funds of this type have experienced very high
+rises and falls in value in the past.                                                    For more information on risks, please see the “Risk Factors” section of the
+                                                                                         Fund’s prospectus, available on www.vaneck.com.
+The following risks can be materially relevant but are not necessarily adequately
+
+=== pdf p.2 ===
+Charges
+The charges you pay are used to pay the costs of running the Fund, including            *Not applicable to investors on the secondary market. Investors who buy or sell
+the costs of marketing and distributing it. These charges reduce the potential          shares via a market pay the costs charged by their financial intermediaries.
+growth of your investment.                                                              Information on these charges can be obtained from the markets where the
+                                                                                        shares are listed and traded or from the financial intermediaries.
+One-off charges taken before or after you invest
+Entry charge                             None*                                          You can find more information on the charges in the cost section of the Fund’s
+                                                                                        prospectus and/or supplement. This is available at www.vaneck.com.
+Exit charge                               None*
+                                                                                        The ongoing charges figure is based on expenses for the 12-month period ending
+These are the maximum charges that could be taken from your money before it             31 December 2025. This figure may vary from year to year. It excludes portfolio
+is invested or before we pay out the sale proceeds of your investment.                  transaction costs.
+
+Charges taken from the Fund over a year
+Ongoing charges                           0.35%
+
+Charges taken from the Fund under certain specific conditions
+Performance fee                       None
+
+Past Performance
+
+Until 18 March 2022, the performance was achieved with a different investment policy.
+
+  80 %                                                                                                                        ​73.2% 73.6%
+                                                                                                                               73.2% ​73.6%
+
+  70
+  60                                                                                                                                                          ​50.1% 50.5%
+                                                                                                                                                               50.1% ​50.5%
+  50                                                                                         ​43.6% 43.9%
+                                                                                              43.6% ​43.9%
+
+  40
+  30                                                                                                                                          ​23.2% 23.5%
+                                                                                                                                               23.2% ​23.5%
+
+  20
+  10
+   0
+ -10
+ -20
+ -30
+ -40                                                                                                         ​-34.8%-34.7%
+                                                                                                              -34.8%​-34.7%
+ -50
+              2016           2017            2018            2019            2020              2021             2022            2023            2024            2025
+
+
+                                                                             Fund          Index
+
+
+Any indication of past performance is not a reliable indicator of future performance.
+
+The chart shows the Fund’s annual performance in USD for each full calendar year over the period displayed in the chart. It is expressed as a percentage change of
+the Fund’s net asset value at each year-end. The Fund was launched on 01 December 2020.
+
+Performance is shown after deduction of ongoing charges.
+
+
+Practical Information
+The Depositary of the Fund is State Street Custodial Services (Ireland) Limited.        remuneration committee, where applicable, may be obtained from the website
+Further information about the Company and the Fund including the prospectus             www.vaneck.com and a paper copy is available, free of charge and upon request,
+and most recent annual reports and semi-annual reports is available free of             at the registered office of the management company. The Company is subject to
+charge online at www.vaneck.com or on request at the registered office of the           the tax laws and regulations of Ireland. Depending on your own country of
+company. These documents are available in English and certain other languages.          residence, this may have an impact on your investment. Please consult your
+The Fund is a sub-fund of the Company, an umbrella fund structure comprising            investment or tax adviser for advice on your own tax liabilities.
+different sub-funds. This document is specific to the Fund stated at the beginning      Further details regarding the Index are available on the Index Provider's website:
+of this document. However, the prospectus, annual and semi-annual reports are           www.marketvector.com
+prepared for the Company rather than separately for the Fund.                           VanEck Asset Management B.V. may be held liable solely on the basis of any
+The net asset value and other information is available online at www.vaneck.com.        statement contained in this document that is misleading, inaccurate or
+Investors can buy or sell shares daily on stock exchange(s) on which the shares         inconsistent with the relevant parts of the prospectus of the Fund.
+are traded. The Fund shares are traded on one or more stock exchanges.                  Under Irish law, the Company has segregated liability between its sub-funds. The
+The details of the remuneration policy of the management company, VanEck                Fund’s assets will not be used to discharge the liabilities of other sub-funds of
+Asset Management B.V., including, but not limited to, a description of how              the Company. In addition, the Fund’s assets and liabilities are segregated and
+remuneration benefits are calculated, the identities of persons responsible for         held separately from the assets of other sub-funds.
+awarding the remuneration and benefits including the composition of the
+
+The Fund is authorized in Ireland and regulated by the Central Bank of Ireland (CBI). VanEck Asset Management B.V. is authorized in the Netherlands and regulated
+by the Dutch Authority for the Financial Markets (AFM). The key investor information is accurate as at 20 March 2026.
+

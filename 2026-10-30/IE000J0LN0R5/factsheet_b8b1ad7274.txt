@@ -1,0 +1,445 @@
+=== pdf p.1 ===
+       Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                              FACTSHEET
+
+                                                                                                                                                                               Marketing-
+                                                                                                                                                                                Anzeige
+ MARKETING-ANZEIGEN ■
+                                                                                                                                                                              30/06/2026
+
+Anlageziel
+
+  Der Teilfonds wird passiv verwaltet. Das Ziel des Teilfonds besteht darin, die Wertentwicklung des S&P World Energy Weighted & Screened Index (der „Index“) nachzubilden.
+  Das voraussichtliche Niveau des Tracking Error unter normalen Marktbedingungen ist im Prospekt des Teilfonds angegeben. Der Teilfonds bewirbt ökologische und/oder
+  soziale Merkmale, indem er unter anderem einen Index nachbildet, der ein ESG-Rating (Umwelt, Soziales und Unternehmensführung) enthält. Der Index ist ein Aktienindex,
+  der die Wertentwicklung von zulässigen Wertpapieren aus dem S&P World Energy Index (der „Hauptindex“) misst. Der Hauptindex soll die Wertentwicklung von
+  Energieunternehmen mit hoher und mittlerer Marktkapitalisierung in Industrieländern mit Ausnahme von Korea messen, die etwa 85 % des gesamten verfügbaren Kapitals
+  ausmachen. Die Identifizierung der Energieunternehmen erfolgt unter Bezugnahme auf die GICS. Der Energiesektor umfasst Unternehmen, die sich mit der Exploration und
+  Produktion, Raffinerie und Vermarktung sowie der Speicherung und dem Transport von Öl und Gas sowie Kohle und Brennstoffen befassen. Dazu gehören auch
+  Unternehmen, die Ausrüstungen und Dienstleistungen für den Öl- und Gasbereich anbieten. Der Index wird ausgewählt und gewichtet, um die ESG-Profile zu verbessern und
+  die Kohlenstoffemissionsintensität zu reduzieren, alles im Vergleich zum Hauptindex. Der Index wendet mehrere ESG-Filter (z. B. Ausschlussfilter, um Unternehmen
+  auszuschließen, die an umstrittenen Geschäftsaktivitäten [z. B. umstrittenen Waffen] oder an ESG-Kontroversen beteiligt sind) und Optimierungsbeschränkungen
+  (Reduzierung der THG-Intensität und identischer S&P Global ESG-Score oder Verbesserung dieses Scores im Vergleich zum Hauptindex) an. Der Index ist ein Netto-
+  Gesamtertragsindex, d. h. die von den Indexbestandteilen gezahlten Dividenden nach Abzug von Steuern sind in der Indexrendite enthalten. Weitere Informationen zur
+  Zusammensetzung des Index und seinen Betriebsvorschriften sind im Prospekt und unter https://www.spglobal.com/spdji/en/supplemental-data/europe verfügbar.Der
+  Indexwert ist über Bloomberg (SPDSEEUN) erhältlich.Das Engagement im Index wird durch eine direkte Nachbildung erreicht, hauptsächlich durch direkte Anlagen in
+  übertragbaren Wertpapieren und/oder anderen zulässigen Vermögenswerten, die die Indexbestandteile repräsentieren, in einem Verhältnis, das ihrem Anteil im Index sehr
+  nahe kommt. Der Anlageverwalter kann Derivate einsetzen, um die Zu- und Abflüsse zu bewältigen, und die sich auf den Index oder Bestandteile des Index für Anlagen
+  und/oder eine effiziente Portfolioverwaltung beziehen. Um zusätzlich Erträge zum Ausgleich seiner Kosten zu generieren, darf der Teilfonds zudem Wertpapierleihgeschäfte
+  tätigen.
+
+Wertentwicklung des Nettoinventarwertes (NAV) * von 20/09/2022 bis 30/06/2026 (Quelle : Fund Admin)                                               Risikoindikatoren (Quelle: Fund Admin)
+
+     175                                                                                                                                                                              3       seit
+                                                                                                                                                                             1 Jahr
+                                                                                                                                                                                    Jahre Auflegung *
+                                                                                                                                                   Portfolio Volatilität    20,48% 20,33%   21,16%
+     150
+                                                                                                                                                   Referenzindex
+                                                                                                                                                                            20,53% 20,35%         21,18%
+                                                                                                                                                   Volatilität
+     125                                                                                                                                           Tracking Error ex-
+                                                                                                                                                                             0,11% 0,11%          0,13%
+                                                                                                                                                   post
+                                                                                                                                                   Sharpe Ratio               1,57     0,44         0,39
+     100                                                                                                                                          * Die Volatilität ist ein statistischer Indikator, der die
+                                                                                                                                                  Schwankungen eines Vermögenswerts um seinen Mittelwert
+                                                                                                                                                  misst. Beispielsweise entspricht eine Marktschwankung von
+      75                                                                                                                                          +/- 1,5% pro Tag einer Volatilität von 25% pro Jahr. Je höher
+                                                                                                                                                  die Volatilität, desto höher das Risiko.
+          /22
+
+
+                   /22
+
+
+                           /23
+
+
+                                   /23
+
+
+                                            /23
+
+
+                                                    /23
+
+
+                                                             /24
+
+
+                                                                        /24
+
+
+                                                                                 /24
+
+
+                                                                                         /24
+
+
+                                                                                                 /25
+
+
+                                                                                                         /25
+
+
+                                                                                                                 /25
+
+
+                                                                                                                          /25
+
+
+                                                                                                                                  /26
+
+
+                                                                                                                                          /26
+
+
+
+
+                                                                                                                                                  Der Tracking Error-Indikator misst die Differenz in der
+        09
+
+
+                 12
+
+
+                         03
+
+
+                                 06
+
+
+                                          09
+
+
+                                                  12
+
+
+                                                           03
+
+
+                                                                      06
+
+
+                                                                               09
+
+
+                                                                                       12
+
+
+                                                                                               03
+
+
+                                                                                                       06
+
+
+                                                                                                               09
+
+
+                                                                                                                        12
+
+
+                                                                                                                                03
+
+
+                                                                                                                                        06
+
+
+
+
+                                                                                                                                                  Wertentwicklung zwischen dem Fonds und dem
+                                                          Portfolio           Referenzindex
+                                                                                                                                                  Vergleichsindex
+                                                                                                                                                  Morningstar Rating ©
+Kumulierte Wertentwicklung* (Quelle: Fondsadministrator)
+
+                                 seit dem 1 Monat 3 Monate         1 Jahr    3 Jahre 5 Jahre seit dem                                              Morningstar-Rating © : 2 Sterne
+ seit dem                       31/12/2025 29/05/2026 31/03/2026 30/06/2025 30/06/2023  -   20/09/2022                                             Morningstar-Kategorie © :
+ Portfolio ohne Ausgabeaufschlag 23,58%      -3,90%     -9,78%    32,32%     37,79%     -     39,08%                                                EAA FUND SECTOR EQUITY ENERGY
+ Referenzindex                    23,44%     -3,94%     -9,86%    31,88%     36,42%     -     37,38%                                               Datum des Ratings : 31/05/2026
+ Abweichung                       0,14%       0,04%      0,08%     0,43%      1,36%     -     1,70%                                                Anzahl der Fonds der Kategorie : 105
+
+Kalenderjahr Wertentwicklung* (Quelle: Fund Admin)
+
+                                                                                 2025           2024             2023       2022        2021
+ Portfolio ohne Ausgabeaufschlag                                               -2,92%          10,14%          -0,68%         -           -
+ Referenzindex                                                                 -3,34%          9,84%           -1,03%         -           -
+ Abweichung                                                                     0,42%          0,30%            0,36%         -           -
+
+* Quelle : Amundi. Die Entwicklungen in der Vergangenheit lassen keine Rückschlüsse auf aktuelle und künftige Ergebnisse zu und sind keine
+Garantie für künftige Erträge. Die eventuellen Gewinne oder Verluste berücksichtigen nicht die gegebenenfalls vom Anleger zu tragenden Kosten,
+Gebühren und Abgaben, die bei der Emission oder der Rücknahme von Anteilen anfallen (z.B.: Steuern, Vermittlungsgebühren oder sonstige vom
+Intermediär erhobene Gebühren). Wenn die Performances in einer anderen Währung als dem Euro berechnet werden, können die eventuell
+entstandenen Gewinne oder Verluste Wechselkursschwankungen unterliegen (d.h. sie können zu- oder abnehmen). Der Spread entspricht der Differenz
+zwischen der Performance des Portfolios und der des Index.
+
+
+
+
+                                                                                               ■ amundietf.com
+                                                                         Für Marketing- und Informationszwecke
+
+=== pdf p.2 ===
+       Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                               FACTSHEET
+
+                                                                                                                                                                               Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                            Anzeige
+                                                                                                                                                                               30/06/2026
+
+
+Risiko-indikator (Quelle: Fund Admin)
+                                                                    Wir haben dieses Produkt auf einer Skala von 1 bis 7 in die Risikoklasse 5 eingestuft, wobei 5 einer mittelhohen
+                                                                    Risikoklasse entspricht. Das Risiko potenzieller Verluste aus der künftigen Wertentwicklung wird als mittelhoch
+                                                                    eingestuft. Bei ungünstigen Marktbedingungen ist es wahrscheinlich, dass unsere Fähigkeit beeinträchtigt wird,
+                                                                    Sie auszuzahlen. Zusätzliche Risiken: Das Marktliquiditätsrisiko könnte die Schwankungen der Wertentwicklung
+                                                                    des Produkts verstärken. Dieses Produkt beinhaltet keinen Schutz vor künftigen Marktentwicklungen, sodass Sie
+   Niedrigeres Risiko                   Höheres Risiko
+                                                                    das angelegte Kapital ganz oder teilweise verlieren könnten. Neben den im Risikoindikator einberechneten
+                                                                    Risiken können sonstige Risiken die Wertentwicklung des Teilfonds beeinträchtigen. Weitere Informationen finden
+      Der Risiko-Indikator beruht auf der Annahme, dass Sie         Sie im Prospekt von AMUNDI ETF ICAV.
+das Produkt für 5 Jahre lang halten.
+Der Gesamtrisikoindikator hilft Ihnen, das mit diesem
+Produkt verbundene Risiko im Vergleich zu anderen
+Produkten einzuschätzen. Er zeigt, wie hoch die
+Wahrscheinlichkeit ist, dass Sie bei diesem Produkt Geld
+verlieren, weil sich die Märkte in einer bestimmten Weise
+entwickeln oder wir nicht in der Lage sind, Sie
+auszubezahlen.
+
+
+Wesentliche Informationen (Quelle : Amundi)
+
+ Nettoinventarwert (NAV) : 13,91 ( EUR )
+ Datum des NAV : 30/06/2026
+ Fondsvolumen : 205,80 ( Millionen EUR )
+ ISIN-Code : IE000J0LN0R5
+ WKN : A3DSS8
+ Nachbildungsart : Physisch
+ Referenzindex :
+  100% S&P WORLD ENERGY WEIGHTED &
+  SCREENED INDEX
+ Datum der ersten NAV : 20/09/2022
+ Erster NAV : 10,00 ( EUR )
+
+Wesentliche Änderungen
+
+                        Startdatum                       Enddatum                                                                  Beschreibung der Änderung
+
+
+
+
+                                                              Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                              von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                                Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.3 ===
+     Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                                          FACTSHEET
+
+
+                                                                                                                                                                                          Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                                       Anzeige
+                                                                                                                                                                                          30/06/2026
+
+
+
+
+Index-Daten (Quelle: Amundi)
+
+
+Beschreibung                                                                                             Die größten Index-Positionen (Quelle : Amundi)
+
+ Der Index ist ein Aktienindex, der die Wertentwicklung zulässiger Aktienwerte des                                                                                               % vom Aktiva (Index)
+ S&P World Sustainability Enhanced Energy Index (der „Hauptindex“) misst. Der                            EXXON MOBIL CORP                                                             19,09%
+ Hauptindex soll die Wertentwicklung von Energieunternehmen mit hoher und                                ENBRIDGE INC                                                                 11,24%
+ mittlerer Marktkapitalisierung in entwickelten Märkten ohne Korea messen, die                           CHEVRON CORP                                                                 10,38%
+ etwa 85 % des gesamten verfügbaren Kapitals ausmachen.                                                  SLB LTD                                                                       7,84%
+                                                                                                         BAKER HUGHES A GE CO                                                          6,76%
+                                                                                                         TOTALENERGIES SE PARIS                                                        6,59%
+Informationen (Quelle : Amundi)                                                                          WILLIAMS COS INC                                                              5,69%
+ Anlageklasse : Aktien                                                                                   ONEOK INC                                                                     4,89%
+ Klassifizierung : Weltweit                                                                              BP PLC                                                                        4,71%
+                                                                                                         CHENIERE ENERGY INC                                                           3,61%
+                                                                                                         Summe                                                                        80,79%
+ Anzahl der Titel : 27
+                                                                                                         Nur zu Illustrationszwecken und keine Empfehlung zum Kauf oder Verkauf von Wertpapieren.
+
+
+
+
+Aufteilung nach Ländern (Quelle : Amundi)                                                                Aufteilung nach Sektoren (Quelle : Amundi)
+
+
+       Vereinigte Staaten                                                             62,75 %
+
+
+                 Kanada                      15,36 %
+
+
+              Frankreich            6,97 %
+
+
+   Vereinigtes Königreich          4,97 %
+
+
+               Australien         3,78 %
+
+
+              Norwegen         2,27 %                                                                         Energie                                                                       100,00 %
+
+
+                Finnland      1,18 %
+
+
+                   Italien    1,10 %
+
+
+                  Japan       1,08 %
+
+
+                Portugal      0,54 %
+
+
+                Sonstige
+
+
+                             0%     10 %      20 %      30 %   40 %    50 %      60 % 70 %                              0%          20 %          40 %          60 %             80 %     100 %        120 %
+                                                Index                                                                                                       Index
+
+
+
+
+                                                                Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                                von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                                  Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.4 ===
+     Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                            FACTSHEET
+
+
+                                                                                                                                                                             Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                          Anzeige
+                                                                                                                                                                             30/06/2026
+
+
+Haupteigenschaften (Quelle: Amundi)
+
+ Rechtsform                                                                                                                     ICAV nach irischem Recht
+ OGAW konform                                                                                                                               OGAW
+ Verwaltungsgesellschaft                                                                                                          Amundi Ireland Limited
+ Administrator                                                                                                          HSBC Securities Services (Ireland) DAC
+ Depotbank                                                                                                                      HSBC Continental Europe
+ Unabhängiger Wirtschaftsprüfer                                                                                             PRICEWATERHOUSECOOPERS
+ Auflagedatum der Anlageklasse                                                                                                           20/09/2022
+ Datum der ersten NAV                                                                                                                    20/09/2022
+ Referenzwährung der Anteilsklasse                                                                                                            EUR
+ Klassifizierung                                                                                                                                -
+ Ertragsverwendung                                                                                                                      Thesaurierend
+ ISIN-Code                                                                                                                             IE000J0LN0R5
+ Mindestanlage am Sekundärmarkt                                                                                                           1 Anteil(e)
+ Häufigkeit der Berechnung des Nettoinventarwerts                                                                                           Täglich
+ Verwaltungsgebühren und sonstige Verwaltungs- oder Betriebskosten                                                                          0,18%
+ Fiskaljahresende                                                                                                                         Dezember
+
+
+
+
+Handelsinformationen (Quelle : Amundi)
+
+            Börsenplätze                Währung           Ticker Bloomberg                      INAV Bloomberg                    RIC Reuters                           INAV Reuters
+           Berne Exchange                USD                WELNUSD BW                             WEL5USIV                         WELN.BN                          IWEL5USDINAV=SOLA
+        Deutsche Boerse (Xetra)          EUR                  WELN GY                               IWELN                           WELN.DE                          IWELNEURINAV=SOLA
+        Deutsche Boerse (Xetra)          USD                   WEL5 GY                             WEL5USIV                       WELNUSD.DE                         IWEL5USDINAV=SOLA
+            Euronext Paris               EUR                  NRGW FP                               IWELN                         LYXNRGW.PA                         IWELNEURINAV=SOLA
+            Euronext Milan               EUR                  ENERW IM                              IWELN                          ENERW.MI                          IWELNEURINAV=SOLA
+
+
+
+
+                                                    Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                    von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                      Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.5 ===
+     Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                        FACTSHEET
+
+                                                                                                                                                                        Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                     Anzeige
+                                                                                                                                                                        30/06/2026
+
+
+
+Index-Anbieter
+DER TEILFONDS WIRD VON STANDARD & POOR'S UND SEINEN TOCHTERGESELLSCHAFTEN („S&P“) WEDER GESPONSERT NOCH UNTERSTÜTZT, VERKAUFT ODER GEFÖRDERT. S&P
+MACHT KEINE AUSDRÜCKLICHEN ODER STILLSCHWEIGENDEN ZUSAGEN BZW. ZUSICHERUNGEN UND GIBT KEINE EBENSOLCHEN GARANTIEN GEGENÜBER DEN INHABERN DES
+TEILFONDS ODER MITGLIEDERN DER ÖFFENTLICHKEIT HINSICHTLICH DER RATSAMKEIT EINER ANLAGE IN WERTPAPIEREN IM ALLGEMEINEN BZW. DIESEN TEILFONDS IM
+BESONDEREN ODER DER FÄHIGKEIT DES INDEX ZUR NACHBILDUNG DER WERTENTWICKLUNG BESTIMMTER FINANZMÄRKTE UND/ODER VON TEILEN DIESER FINANZMÄRKTE
+UND/ODER GRUPPEN ODER KLASSEN VON ANLAGEN AB. S&PS EINZIGE BEZIEHUNG ZU AMUNDI BESTEHT IN DER LIZENZIERUNG BESTIMMTER MARKEN UND HANDELSNAMEN
+SOWIE DES INDEX, DER VON S&P OHNE BERÜCKSICHTIGUNG VON AMUNDI ODER DES TEILFONDS ERMITTELT, ZUSAMMENGESTELLT UND BERECHNET WIRD. S&P IST IN KEINER
+WEISE VERPFLICHTET, DIE ANFORDERUNGEN VON AMUNDI ODER DEN ANLEGERN BEI DER ERMITTLUNG, ZUSAMMENSTELLUNG ODER BERECHNUNG DES INDEX IN BETRACHT ZU
+ZIEHEN. S&P IST NICHT VERANTWORTLICH FÜR DIE ERMITTLUNG DER PREISE UND DES NETTOINVENTARWERTES DES TEILFONDS ODER DIE FESTLEGUNG DES ZEITPUNKTS FÜR
+DIE AUFLEGUNG ODER DEN VERTRIEB DES TEILFONDS ODER DIE ERMITTLUNG ODER BERECHNUNG DES ANTEILPREISES S&P TRÄGT KEINE VERPFLICHTUNG ODER HAFTUNG IN
+VERBINDUNG MIT DER VERWALTUNG BZW. VERMARKTUNG DES FONDS ODER DEM HANDEL MIT DEM TEILFONDS. S&P GARANTIERT NICHT DIE RICHTIGKEIT UND/ODER DIE
+VOLLSTÄNDIGKEIT DES INDEX SOWIE DER DARIN ENTHALTENEN DATEN UND S&P ÜBERNIMMT KEINE HAFTUNG FÜR FEHLER, AUSLASSUNGEN ODER UNTERBRECHUNGEN. S&P
+GIBT KEINE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE UND MACHT KEINE EBENSOLCHEN ZUSAGEN BZW. ZUSICHERUNGEN HINSICHTLICH DER DURCH DIE
+NUTZUNG DES INDEX UND DER DARIN ENTHALTENEN DATEN ERZIELBAREN ERGEBNISSE FÜR AMUNDI, DIE ANLEGER ODER SONSTIGE NATÜRLICHE ODER JURISTISCHE
+PERSONEN. S&P GIBT KEINE AUSDRÜCKLICHEN ODER STILLSCHWEIGENDEN GARANTIEN AB, MACHT KEINE EBENSOLCHEN ZUSAGEN BZW. ERKLÄRUNGEN UND SCHLIESST
+AUSDRÜCKLICH JEGLICHE GEWÄHRLEISTUNGEN ODER ZUSICHERUNGEN DER MARKTGÄNGIGKEIT ODER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK ODER EINE BESTIMMTE
+VERWENDUNG SOWIE ALLE ANDEREN AUSDRÜCKLICHEN ODER STILLSCHWEIGENDEN GARANTIEN IM HINBLICK AUF DEN INDEX UND DIE DARIN ENTHALTENEN DATEN AUS.
+INSBESONDERE IST S&P NICHT EINMAL DANN IN IRGENDEINER WEISE FÜR BESONDERE, INDIREKTE ODER FOLGESCHÄDEN (EINSCHLIESSLICH ENTGANGENER GEWINNE) SOWIE
+SCHÄDEN DURCH SCHADENSERSATZ MIT STRAFCHARAKTER HAFTBAR, DIE AUS DER NUTZUNG DES INDEX ODER DER DARIN ENTHALTENEN DATEN ENTSTEHEN, WENN S&P ÜBER
+DIE MÖGLICHKEIT SOLCHER SCHÄDEN IN KENNTNIS GESETZT WURDE.
+
+
+
+
+Wichtige Hinweise
+
+ Informationen über die Verwaltungsgesellschaft und den Fonds
+ Dieses Dokument enthält Informationen über Amundi ETF ICAV (der "Fonds"), ein offener irischer Umbrella-Fonds für die kollektive Vermögensverwaltung, der nach irischem
+ Recht aufgelegt und von der irischen Zentralbank zum öffentlichen Vertrieb zugelassen wurde. Die Verwaltungsgesellschaft des Fonds ist Amundi Ireland Limited, 1 George's
+ Quay Plaza, George's Quay, Dublin 2, D02 V002, Irland. Amundi Ireland Limited ist von der Central Bank of Ireland zugelassen und unterliegt deren Aufsicht.
+ Informationen über den Fonds sind in den wesentlichen Anlegerinformationen (Basisinformationsblatt) und in dem Verkaufsprospekt enthalten. Die wesentlichen
+ Anlegerinformationen des Fonds müssen interessierten Anlegern vor jeder Zeichnung zur Verfügung gestellt werden.
+ Bei den Fonds handelt es sich um französische, luxemburgische und/oder irische offene Investmentfonds, die entsprechend von der französischen Autorité des Marchés
+ Financiers (französische Finanzmarktaufsichtsbehörde), von der Luxemburger Commission de Surveillance du Secteur Financier (CSSF) oder von der Central Bank of Ireland
+ (irische Finanzmarktaufsichtsbehörde) genehmigt wurden und zur Vermarktung ihrer Anteile oder Aktien in verschiedenen europäischen Ländern (die Vertriebsländer) gemäß
+ Artikel 93 der Richtlinie 2009/65/EG berechtigt sind.
+
+ Für Amundi ETF: Für weitere Informationen über die Fonds kann von Amundi Deutschland GmbH, Arnulfstr. 124-126, 80636 München, Deutschland (Tel. +49 (0)89 99 2260)
+ ein kostenloser Verkaufsprospekt angefordert werden. Die aufsichtsrechtlichen Dokumente der Amundi ETFs, die zum öffentlichen Vertrieb in Deutschland zugelassen sind,
+ sind auf Anfrage kostenlos und als gedrucktes Exemplar bei Marcard, Stein & Co. AG, Ballindamm 36, 20095 Hamburg, Deutschland erhältlich.
+ Bei Fonds, die an einem geregelten Markt zugelassen sind, unterliegt die Notierung einem Mechanismus zur Volatilitätskontrolle, um sicherzustellen, dass der ETF-Preis nicht
+ wesentlich von einem Referenzpreis abweicht. Dies ist in den Notierungsregeln des jeweiligen geregelten Marktes festgelegt, insbesondere durch die Einführung eines
+ Handelsstopps-Mechanismus im Falle einer erheblichen Abweichung vom Referenzpreis.
+ Der Fonds bietet keine Kapitalgarantie. Daher ist es möglich, dass das ursprünglich investierte Kapital nicht vollständig zurückgezahlt wird, insbesondere bei einem
+ Wertverlust des Referenzindexes. Zeichnungen von OGAW-Anteilen können mit Risiken verbunden sein. Interessierte Anleger sollten die Informationen über das Risikoprofil
+ des Fonds lesen, das ausführlich im Vekraufsprospekt beschrieben wird. Es hängt von der persönlichen Situation eines Anlegers ab, welcher Betrag für eine Anlage in den
+ Fonds angemessen ist. Um diesen Betrag zu bestimmen, sollten Anleger ihre finanzielle Situation, ihr persönliches Vermögen, ihre derzeitigen und zukünftigen finanziellen
+ Bedürfnisse, aber auch ihre jeweilige Risikobereitschaft bzw. Risikoaversion berücksichtigen. Es wird auch nachdrücklich empfohlen, dass ein Anleger seine Anlagen
+ hinreichend diversifiziert, um nicht ausschließlich den mit dem Fonds verbundenen Risiken ausgesetzt zu sein. Anleger werden daher gebeten, sich zu diesen Punkten von
+ ihren üblichen Beratern (Rechts-, Steuer- und/oder Finanzberater) beraten zu lassen, bevor sie Anteile des Fonds erwerben.
+ Soweit nichts Gegenteiliges vermerkt ist, stammen alle Angaben dieses Dokuments von Amundi Asset Management.
+
+ Richtlinien zur Portfoliotransparenz und Hinweise zum Sekundärmarkt
+ Informationen zur Portfoliotransparenzstrategie sowie Informationen über die Zusammensetzung des Portfolios sind auf amundietf.com erhältlich. Der indikative
+ Nettoinventarwert wird über die Börsen veröffentlicht. Auf dem Sekundärmarkt erworbene Fondsanteile können in der Regel nicht direkt an den Fonds zurückverkauft werden.
+ Anleger müssen Anteile/Aktien auf einem Sekundärmarkt mit Hilfe eines Intermediärs (z.B. eines Börsenmaklers) kaufen oder verkaufen; diese Hilfe kann gebührenpflichtig
+ sein. Darüber hinaus zahlen Anleger beim Kauf von Anteilen/Aktien u.U. mehr als den aktuellen Nettoinventarwert und erhalten beim Verkauf weniger als den aktuellen
+ Nettoinventarwert dafür zurück.
+
+
+
+
+                                                       Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                       von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                         Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+

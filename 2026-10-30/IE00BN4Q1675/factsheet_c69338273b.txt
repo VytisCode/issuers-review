@@ -1,0 +1,666 @@
+=== pdf p.1 ===
+                                                                                                                                  For marketing purposes
+                                                                                                                                  UK edition
+                                                                                                                                  Data as at end-September 2026,
+                                                                                                                                  unless otherwise indicated
+
+
+
+
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+Fund Fact Sheet
+UBS Exchange Traded Funds > UBS (Irl) ETF plc
+
+Fund description                                                               Performance (basis USD, net of fees)1
+• The investment objective is to replicate the price                                      Rebased to 10,000 on the basis of month-end data                                        in %
+  and return performance of the MSCI Emerging                                  18000                                                                                                        +40
+  Markets Climate Paris Aligned PAB Index net of                               16000                                                                                                        +30
+  fees. (this sub-fund's 'index').
+                                                                               14000                                                                                                        +20
+• The fund generally invests in stocks contained in
+  the Index. The relative weightings of the                                    12000                                                                                                        +10
+  companies correspond to their weightings in the                              10000                                                                                                          0
+  index.
+                                                                                   8000                                                                                                     -10
+• The index fulfils the EU Paris Aligned Benchmark
+  (PAB) regulations.                                                               6000                                                                                                     -20
+• The fund is passively managed.                                                   4000                                                                                                     -30
+                                                                                             2020         2021         2022          2023         2024          2025         2026
+Name of fund       UBS MSCI EM Climate Paris Aligned UCITS
+                                                                   ETF                     Fund performance net of fees (left-hand scale)
+Share class        UBS MSCI EM Climate Paris Aligned UCITS ETF                             Fund performance per year in % net of fees (right-hand scale)
+                                                             USD acc                       Index (benchmark) performance (left-hand scale)
+ISIN                                                 IE00BN4Q1675
+UCITS V                                                             yes
+                                                                               Past performance is not a reliable indicator of future results. If
+Launch date                                              05.08.2021            the currency of a financial product, financial service or its costs is
+Currency of fund / share class                             USD/USD             different from your reference currency, the return and/or costs
+TER (flat fee)                                                 0.16%           can increase or decrease as a result of currency fluctuations.
+Please note that additional fees (e.g. entry or exit fees) may be
+charged. Please refer to your financial adviser for more details.
+Name of the Management           UBS Asset Management (Europe)                 Performance in % (net of fees)
+Company                                           S.A., Luxembourg
+Accounting year end                                    31 December
+                                                                               Percentage                 1 year           3 years           5 years          Ø p.a. 3 Ø p.a. 5 years
+Distribution                                           Reinvestment
+                                                                               growth (%)                                                                       years
+Replication methodology            Physical + Optimized (equities) /
+                                                                               Fund (USD)                     24.46           82.55            41.05            22.22            7.12
+                                                    sampled (bonds)
+Portfolio management                  UBS Asset Management (UK)                Benchmark2                     24.56           83.52            42.32            22.43            7.31
+representatives                                         Ltd., London
+Fund domicile                                                  Ireland
+                                                                               Percentage      Q3 2025     Q3 2024      Q3 2023      Q3 2022           Q3 2021
+Fund statistics                                                                growth (%) to Q3 2026 to Q3 2025 to Q3 2024 to Q3 2023              to Q3 2022
+                 Net asset value (USD, 30.09.2026)                     18.17   Fund (USD)         24.46        15.75        26.71         7.16           -27.90
+                 Last 12 months (USD) – high                           19.32   Benchmark2         24.56        15.73        27.31         7.42           -27.80
+                 Last 12 months (USD) – low                            14.41   The performance shown does not take account of any commissions, entry or exit
+                                                                               charges.
+                 Total fund assets (USD m)                           733.32
+                                                                               1   These figures refer to the past. Source for all data and chart (if not indicated otherwise): UBS Asset
+                 Share class assets (USD m)                          733.32        Management.
+                                                                               2   Index (benchmark) in currency of share class (without costs)
+                                                 2 years   3 years   5 years
+Table_Captions_Title
+                 Volatility1                                                   Index description
+                 – Fund                         18.54%     16.92%    18.01%    The MSCI EM Climate Paris Aligned PAB Index is based on the MSCI Emerging
+                 – Benchmark                    18.51%     16.92%    18.04%    Markets Index, its parent index, and includes large and midcap securities across
+                 Tracking error (ex post)         0.12%     0.19%     0.21%    24 Emerging Markets (EM) countries. The index is designed to support investors
+1 Annualised standard deviation
+                                                                               seeking to reduce their exposure to transition and physical climate risks and who
+                                                                               wish to pursue opportunities arising from the transition to a lower-carbon
+                                                                               economy while aligning with the Paris Agreement requirements.
+                                                                               Index name                                      MSCI Emerging Markets Climate Paris Aligned PAB
+                                                                                                                                                   USD Net Total Return Index
+                                                                               Index type                                                                     Total Return Net
+                                                                               Number of index constituents                                                                316
+                                                                               Bloomberg ticker                                                                     MXEFCLPA
+                                                                               Reuters                                                                                     n.a.
+                                                                               Dividend yield1                                                                          1.92%
+                                                                               PE ratio                                                                                  17.47
+                                                                               Market Capitalization (in USD bn)                                                      7 353.05
+                                                                               1   Yield is not guaranteed.
+
+
+
+
+For more information                                                           Registrations for public distribution
+Phone: 0800-587 2111                                                           AT, AU, CH, DE, DK, ES, FI, FR, GB, IE, IT,
+Internet: www.ubs.com                                                          LI, LU, NL, NO, PT, SE
+Contact your client advisor
+                                                                                                                                                                                             1¦3
+
+=== pdf p.2 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+
+Market exposure (%)                                                                        10 largest equity positions (%)
+
+
+
+
+                                                                                           Table_Captions_Title
+                                                                                           (%)
+                                                                                           positions
+                                                                                           equity
+                                                                                           largest
+                                                                                           10
+                                               Index                                                                                                            Fund
+Taiwan                                                                           31.6      Taiwan Semiconductor Manufacturing Co Ltd                             17.7
+China                                                               17.4                   Samsung Electronics Co Ltd                                             7.4
+Republic of Korea                                                   17.3                   SK hynix Inc                                                           5.6
+India                                                        10.8                          Tencent Holdings Ltd                                                   3.6
+                                                                                           MediaTek Inc                                                           2.7
+Brazil                                              4.6
+                                                                                           Delta Electronics Inc                                                  2.4
+Mexico                                             3.4
+                                                                                           Alibaba Group Holding Ltd                                              1.6
+South Africa                                       3.2                                     Bharat Electronics Ltd                                                 1.3
+Poland                                            2.7                                      Yuanta Financial Holding Co Ltd                                        1.1
+Saudi Arabia                                      2.4                                      Grupo Aeroportuario del Pacifico SAB de CV                             1.0
+Others                                                 6.7
+
+
+Sector exposure (%)
+                                               Index                                                                                   Index
+Information Technology                                                           46.2      Health Care                                     4.2
+Financials                                                    18.7                         Real estate                                    2.7
+Industrials                                          8.7                                   Utilities                                      2.6
+Communication Services                             6.5                                     Consumer Staples                              2.5
+Consumer Discretionary                             5.6                                     Materials                                     2.3
+
+
+Benefits                                                                                   Risks
+Clients benefit from the flexibility of an exchange-traded                                 This UBS Exchange Traded Fund invests primarily in equities,
+investment.                                                                                which are included in the MSCI Emerging Markets Climate
+Provides access to this segment of the market with a single                                Paris Aligned PAB Index. This Fund may not be appropriate for
+transaction.                                                                               investors who plan to withdraw their money before the
+Optimised risk/return profile thanks to a broad diversification                            recommended holding period disclosed in the PRIIPs KID.
+across a range of countries and sectors.                                                   Sustainability risks are environmental, social or governance
+The fund offers a high degree of transparency and cost                                     events or conditions that can have a material negative effect
+efficiency.                                                                                on the return, depending on the relevant sector, industry and
+UCITS compliant fund.                                                                      company exposure. Sustainability risk: the risk arising from
+                                                                                           any environmental, social or governance events or conditions
+                                                                                           that, were they to occur, could cause a material negative
+                                                                                           impact on the value of the investment. All investments are
+                                                                                           subject to market fluctuations. The Fund is subject to the risk
+                                                                                           that its climate-focused investment strategy may select or
+                                                                                           exclude securities of certain issuers for reasons other than
+                                                                                           investment performance considerations. Climate Criteria and
+                                                                                           risks are considered as part of the Index selection process.
+                                                                                           Every fund has specific risks, which may significantly increase
+                                                                                           under unusual market conditions. As a result, the net asset
+                                                                                           value of the funds assets is directly dependent on the
+                                                                                           performance of the underlying index. Losses that could be
+                                                                                           avoided via active management will not be offset.
+Listing and trading information
+Table_Captions_Title
+                 Exchange                 Trading currency          Trading hours (local time)                    Bloomberg Ticker   Reuters RIC   iNAV Bloomberg
+                 Borsa Italiana           EUR                       09:00am - 05:30pm CET                         EMPAB IM           EMPAB.MI      EMPAEUIV
+                 Deutsche Börse (XETRA)   EUR                       09:00am - 05:30pm CET                         AW12 GY            AW12.DE       EMPAEUIV
+                 SIX Swiss Exchange       USD                       09:00am - 05:30pm CET                         EMPA SW            EMPAB.S       EMPAUSIV
+
+
+
+
+                                                                                                                                                                    2¦3
+
+=== pdf p.3 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+Important information
+Your capital is at risk. The value of an investment may fall as well as rise and you may not get back the original amount. Past
+performance is not a guide to future performance. The value of investments and the income from them may go down as well as
+up and are not guaranteed. Investors may not get back the amount originally invested. Changes in rates of exchange may cause
+the value of this investment to fluctuate. The information contained in this document should not be considered a
+recommendation to purchase or sell any particular security and the opinions expressed are those of UBS Asset Management and
+are subject to change without notice. The fund is authorized overseas but, not in the UK. The protections offered by the UK’s
+regulatory system (e.g. Financial Ombudsman Service), and compensation under the Financial Services Compensation Scheme,
+will not be available. Before investing in a product please consider getting financial advice. If you are in any doubt on the
+features of this product, or its appropriateness for your needs, please seek financial advice. Please refer to your financial adviser
+for more details. Investors should read the Key Information Document (KIID), Prospectus and any applicable local offering
+document prior to investing and to get complete information of the risks. Investors are acquiring units or shares in a fund, and
+not in a given underlying asset such as building or shares of a company. For a definition of financial terms refer to the glossary
+available at wwww.ubs.com/am-glossary.
+
+
+
+
+Your capital is at risk. The value of an investment may fall as well as rise and you may not get back the original
+amount. Please note that additional fees (e.g. entry or exit fees) may be charged. Please refer to your financial
+adviser for more details. Investors should read the Key Information Document, Prospectus andany applicable local
+offering document prior to investing and to get complete information of the risks. Investors are acquiring units or
+shares in a fund, and not in a given underlying asset such as building or shares of a company. For a definition of
+financial terms refer to the glossary available at www.ubs.com/amglossary.
+
+For marketing and information purposes by UBS. UBS funds under Irish law. Arrangements for marketing fund units
+mentioned in this document may be terminated at the initiative of the management company of the fund(s). This
+communication is approved and communicated by UBS Asset Management (UK) Ltd, authorized & regulated by the Financial
+Conduct Authority and does not constitute investment advice. Prospectuses, key investor information documents (KIID) where
+applicable, the articles of association or the management regulations as well as annual and semi-annual reports are available for
+the purpose of inspection and obtaining copies thereof in a language required by the local applicable law free of charge at UBS
+Asset Management (UK) Ltd, 5 Broadgate, London, EC2M 2QS and online at www.fundinfo.com. The product described herein
+aligns to Article 9.3 Regulation (EU) 2019/2088 on sustainability-related disclosures in the financial services sector. Information
+on sustainability-related aspects pursuant to that regulation can be found on www.ubs.com/funds. The benchmark is the
+intellectual property of the respective index provider. The fund or the share class is neither sponsored nor endorsed by the index
+provider. The fund prospectus or supplemental prospectus contains the full disclaimer. Before investing in a product please read
+the latest prospectus and key information document or similar legal documentation carefully and thoroughly. Any decision to
+invest should take into account all the characteristics or objectives of the product as described in its prospectus, or similar legal
+documentation. Investors are acquiring units or shares in a fund, and not in a given underlying asset such as building or shares
+of a company. The information and opinions contained in this document have been compiled or arrived at based upon
+information obtained from sources believed to be reliable and in good faith, but is not guaranteed as being accurate, nor is it a
+complete statement or summary of the securities, markets or developments referred to in the document. Any Index referenced
+in this document is not administered by UBS. Members of the UBS Group may have a position in and may make a purchase
+and / or sale of any of the securities or other financial instruments mentioned in this document. Units of UBS funds mentioned
+herein may not be eligible for sale in all jurisdictions or to certain categories of investors and may not be offered, sold or
+delivered in the United States. The information mentioned herein is not intended to be construed as a solicitation or an offer to
+buy or sell any securities or related financial instruments. Past performance is not a reliable indicator of future results. The
+calculated performance takes all costs on the product level into consideration (ongoing costs). The entry and exit costs, which
+would have a negative impact on the performance, are not taken into consideration. If whole or part of the total costs to be
+paid is different from your reference currency, the costs may increase or decrease as a result of currency and exchange rate
+fluctuations. Commissions and costs have a negative impact on the investment and on the expected returns. If the currency of a
+financial product or financial service is different from your reference currency, the return can increase or decrease as a result of
+currency and exchange rate fluctuations. This information pays no regard to the specific or future investment objectives,
+financial or tax situation or particular needs of any specific recipient. Future performance is subject to taxation which depends
+on the personal situation of each investor and which may change in the future. The details and opinions contained in this
+document are provided by UBS without any guarantee or warranty and are for the recipient's personal use and information
+purposes only. This document may not be reproduced, redistributed or republished for any purpose without the prior written
+                                                                                                                                        1916243|1916242
+
+
+
+
+permission of the relevant UBS management company or the relevant local UBS entity responsible for distribution, as applicable.
+Source for all data and charts (if not indicated otherwise): UBS Asset Management. A summary of investor rights in English can
+be found online at www.ubs.com/funds-regulatoryinformation. More explanations of financial terms can be found at
+www.ubs.com/am-glossary.
+© UBS 2026. The key symbol and UBS are among the registered and unregistered trademarks of UBS. All rights reserved.
+
+                                                                                                                                  3¦3
+
+=== pdf p.4 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF
+ESG Report
+
+Terms used within this document do not refer to or relate to any regulatory definitions or provisions. Where
+applicable, a country-specific notice is provided in this document and must be read in conjunction with the
+factsheet.
+
+ESG is an abbreviation for Environmental, Social and Governance (factors). These factors are used to evaluate companies and
+countries on how advanced they are with respect to sustainability. Once sufficient data on these factors are available, they can
+be used to assess and compare assets and also to inform the investment process when deciding what assets to buy, hold or sell.
+
+Effective from Q2 2026, UBS Asset Management has updated its methodology to scaling carbon emissions metrics
+by applying a portfolio-level approach instead of an asset-level, excluding derivative exposures and considering
+long-only portfolio exposure.
+
+
+In addition to the fund’s specific ESG characteristics and/or objectives, the details of which can be viewed in the fund’s legal
+documents, the following approaches are applied:
+
+                       Exclusion                             ESG Integration                                   Voting                                    Engagement program
+
+For more information refer to the glossary. For details on specific ESG characteristics and/or objectives including exclusion thresholds or any other binding criteria, refer to fund’s legal
+documents. Source: UBS Asset Management
+
+
+The following illustrations provide transparency on key sustainability metrics that may be of interest to investors but may not be
+part of the fund’s investment process. This information is provided to enable comparison with other financial products and to
+help investors assess their exposure to ESG topics.
+
+
+
+Weighted average carbon intensity, scaled - Corporate                                              External fund ratings 1
+issuers
+(tCO2 equivalent per USD million sales)
+
+
+                                   73.4                        239.8
+                                   Fund                        Reference index                     1 As of 30.09.2026
+Fund actual data coverage: 100.0%                                                                  Source: MSCI ESG Research
+
+Reference index actual data coverage: 99.9%
+Source: MSCI ESG Research
+Reference Index: MSCI Emerging Markets (net div. reinv.)
+
+
+
+
+ESG details of the top 10 equity positions                                                         MSCI ESG scores, scaled
+(in % of fund AuM)1,2                                                                              (holding-weighted average 0-10)
+Holding (equities)                                              Weight       ESG Score
+Table_Captions_Title
+Taiwan Semiconductor Manufacturing
+Co Ltd
+                                                                   17.7                7.9                                               6.7                      6.7
+                                                                                                                                            Fund                     Reference index
+Samsung Electronics Co Ltd                                           7.4               8.0
+SK hynix Inc                                                         5.6               7.4
+Tencent Holdings Ltd                                                 3.6               6.3
+                                                                                                   Environmental                           6.4                     6.1
+
+MediaTek Inc                                                         2.7               6.1         Social                                  5.4                     5.5
+Delta Electronics Inc                                                2.4               7.7         Governance                              5.5                     5.4
+Alibaba Group Holding Ltd                                            1.6               4.7         Fund actual data coverage: 99.6%
+Bharat Electronics Ltd                                               1.3               2.9         Reference index actual data coverage: 99.6%
+Yuanta Financial Holding Co Ltd                                      1.1               9.8         Source: MSCI ESG Research
+                                                                                                   Reference Index: MSCI Emerging Markets (net div. reinv.)
+Grupo Aeroportuario del Pacifico SAB
+                                                                     1.0               6.2
+de CV
+1 This is not a recommendation to buy or sell any security
+2 AuM = Assets under Management
+Source: MSCI ESG Research
+
+
+
+
+The reference index used on this page is the parent index which does not seek to include certain environmental or social characteristics promoted by the financial
+product in its construction and is different form the designated reference benchmark.
+                                                                                                                                                                             ESG Report | 1:4
+
+=== pdf p.5 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF
+ESG Report
+
+
+Business activities and norms check                                                           MSCI ESG rating breakdown
+(in % of fund AuM)1                                                                            60%
+
+
+                      UN Global 0.00
+                  Compact breach                                                               45%
+                                                           0.66
+
+
+                             Adult 0.00                                                        30%
+                    entertainment 0.00
+
+                                                                                               15%
+                          Thermal 0.00
+                       coal mining                0.37
+                                                                                                0%
+                                                                                                          AAA     AA        A       BBB         BB        B        CCC      not     Cash
+                                        0.00                                                                                                                               rated
+                           Tobacco
+                                            0.19
+                                                                                                           Leader                 Average                     Laggard
+
+                      Controversial 0.00                                                                                          Fund                        Reference index
+                         weapons                         0.60
+                                                                                              The final industry-adjusted ESG scores are mapped to letter MSCI ESG
+                                                                                              rating with AAA/AA leaders; A/BBB/BB average; B/CCC laggards.
+                                          Fund                    Reference index
+                                                                                              Source: MSCI. Certain information © 2026 MSCI ESG Research LLC. Reproduced by
+1 Assets under Management
+                                                                                              permission.
+
+Source: MSCI ESG Research                                                                     Reference Index: MSCI Emerging Markets (net div. reinv.)
+Reference Index: MSCI Emerging Markets (net div. reinv.)
+
+
+
+Revenues aligning with UN Sustainable Development Goals - UN SDGs
+(in % of fund AuM)1,2,3
+The negative effects of certain companies to UN SDGs are not shown but there is ongoing work to provide this information.
+UN SDG number / category                                                                     UN SDG number / category
+                                                            2.95                                     Industry, innovation and                                      5.87
+ 1                   No poverty                                                               9
+                                                         2.33                                                    infrastructure                           3.91
+                                         0.37                                                                                              0.92
+ 2                 Zero hunger                                                                10          Reduced inequalities
+                                         0.47                                                                                              0.92
+      Good health and well-                       1.65                                                    Sustainable cities and             1.68
+ 3                                                                                            11
+                     being                     1.00                                                               communities             0.69
+                                       0.11                                                         Responsible consumption                                         6.04
+ 4          Quality education                                                                 12
+                                       0.06                                                                  and production                              3.35
+                                       0.11                                                                                                          3.12
+ 5            Gender equality                                                                 13                  Climate action
+                                       0.06                                                                                                1.00
+             Clean water and              0.76                                                                                           0.22
+ 6                                                                                            14                Life below water
+                   sanitation           0.32                                                                                             0.05
+        Affordable and clean                               2.68                                                                          0.00
+ 7                                                                                            15                     Life on land
+                     energy                0.69                                                                                          0.00
+            Decent work and                 0.92                                                   Fund                Reference index
+ 8
+            economic growth                 0.92
+1 The difference between 100% and fund/reference index values results from companies whose products and services revenues contribute more than 0% to one or more SDGs. In some cases,
+the sum of all figures may exceed 100% Assets under Management, as products and services from companies count toward more than one SDG. Assessment data provided by MSCI ESG
+Research.
+2 Assets under Management
+3 UN SDG data currently only available for corporate issuers
+Source: MSCI ESG Research
+Reference Index: MSCI Emerging Markets (net div. reinv.)
+
+
+
+
+The reference index used on this page is the parent index which does not seek to include certain environmental or social characteristics promoted by the financial
+product in its construction and is different form the designated reference benchmark.
+                                                                                                                                                                           ESG Report | 2:4
+
+=== pdf p.6 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF
+ESG Report
+
+Country-specific notice:
+
+UK: If this product is distributed in the UK, please note: This product is based overseas and is not subject to the UK sustainable
+investment labelling and disclosure requirements (SDR). This product does not make any claims under the UK SDR.
+
+Glossary
+
+Business activities and norms check: Controversial                                   concerns can be found in the UBS Asset Management
+Business Involvement exposure is the exposure to companies                           Stewardship Annual Report and in our stewardship approach.
+with a revenue share exceeding a certain threshold of the
+respective field (production). Link to our Approach to                               Aggregation of ESG/carbon data: ESG scores of holdings
+Exclusion for more details: -> link                                                  in the portfolio and the reference index are aggregated based
+                                                                                     on their respective individual weights and ESG scores
+MSCI ESG scores are provided by MSCI ESG Research and                                (sumproduct).
+are measured on a scale from 0 (lowest/worst score) to 10
+(highest/best score). The individual MSCI E-, S-, and G-score                        Fund of funds investments, derivatives and cash: Fund
+indicates the resilience of issuers to environmental, social or                      of funds investments used in the portfolio are treated on a
+governance related risks that are most material to an industry.                      lookthrough basis, whereby the economic exposures is
+The aggregated MSCI ESG score is based on these MSCI E-,                             allocated to the underlying securities held by these funds, and
+S-, and G-scores but normalizes them relative to industry                            is treated as if it were a direct investment in those individual
+peers. This leads to a weighted average industry-adjusted                            securities. These may lead to minimal exposures to securities
+MSCI ESG score which is comparable across industries.                                that are excluded from direct investments. Derivative
+The metric is scaled up to 100% if actual data coverage is                           instruments within the portfolio, whether held directly or via
+above the defined thresholds – fixed income: 50%, equities:                          fund of funds investments, are excluded from carbon metrics
+67%, multi-asset: 50%. Otherwise, the metric is reported as                          and other calculations. As a result, derivatives have no effect
+"-". More details available at this link.                                            on the reported metrics. Portfolios for which we report the
+                                                                                     sustainability metrics may include cash positions, these are
+UBS AM sustainability approaches applied:                                            however excluded from any calculations. Exclusively long-only
+Exclusion: Strategies that exclude securities from funds where                       portfolio exposure is considered. The information disclosed in
+they are not aligned to an investor's values. Includes                               this report, in particular the treatment of derivatives and cash,
+customized screening criteria. Subject to certain activities and                     may or may not correspond with the investment
+threshold limitations. For details please refer to fund’s legal                      characteristics of the fund and how the fund is managed. The
+documents.                                                                           sustainability metrics in this report may therefore differ from
+ESG Integration: Strategies that integrate environmental,                            other UBS reports produced on the same date.
+social, and governance (ESG) factors into fundamental
+financial analysis to improve the risk/return profile. This                          MSCI ESG Fund Ratings are designed to measure the
+approach may have limited or no impact on portfolio                                  environmental, social and governance (ESG) characteristics of
+composition. However, where fund‑specific exclusions exist in                        a fund's underlying holdings, making it possible to rank or
+relation to ESG integration or sustainability profile risks, as set                  screen mutual funds and ETFs on a AAA to CCC ratings scale.
+out in the fund’s legal documents, these may lead to                                 More details available at this link.
+divestment and/or a reduced position size within a portfolio.
+Voting: Voting refers to how UBS Asset Management                                    Weighted average carbon intensity – corporate issuers/
+exercises proxy voting rights to act in the best financial                           carbon-intensive sovereign issuers: These metrics measure
+interests of clients and support long term value creation. We                        a fund’s exposure to carbon-intensive companies and
+promote strong corporate governance and responsible                                  governments. These metrics provide an insight into potential
+business practices in the companies in which we invest on                            risks related to the transition to a lower-carbon economy,
+behalf of our clients. Our approach is guided by our internal                        because companies with higher carbon intensity are likely to
+standards as outlined in the latest UBS Asset Management                             face more exposure to carbon related market and regulatory
+Corporate Governance & Proxy Voting Policy. This is not an                           risks. These metrics are applicable across asset classes. It is the
+indication that voting on sustainability-related topics has                          sumproduct of the fund weights and individual carbon
+taken place with respect to companies in this portfolio during                       intensities (carbon emissions scope 1+2 / USDm sales or GDP).
+any given time period.                                                               The metric is scaled up to 100% if actual data coverage is
+Engagement program: We regard engagement to be a two-                                above the defined thresholds – fixed income, 50%; equities:
+way mutually beneficial dialogue with an issuer / company,                           67%, multi-asset: 50%. Otherwise, the metric is reported as
+with the objective to share information, enhance                                     "-". Classification system to separate corporate and sovereign
+understanding and help to improve business practices and                             issuers: Bloomberg Barclays Methodology. Securitized bonds
+performance. The issuers / companies we engage with are                              are excluded from the calculation. "No exposure" if the fund
+selected from across the universe in which UBS Asset                                 is not invested in the respective issuers for the month. More
+Management invests using a top-down approach in                                      details available at this link.
+accordance with our principles, as outlined in our stewardship
+approach. This is not an indication that sustainability-related                      MSCI ESG rating breakdown: The final sector-adjusted ESG
+engagement has taken place with respect to issuers /                                 score of the portfolio is broken down into three rating
+companies in this portfolio during any given time period or                          categories with AAA/AA leaders, A/BBB/BB average and
+that issuers / companies in this portfolio were chosen with the                      B/CCC laggards, and compared to the rating breakdown of
+goal to actively engage. Information on UBS Asset                                    the reference index.
+Management's selection of issuers / companies, engagement                            Revenues aligning with the UN Sustainable
+activities, prioritization process and understanding of                              Development Goals (UN SDGs): The 17 Sustainable
+
+
+The reference index used on this page is the parent index which does not seek to include certain environmental or social characteristics promoted by the financial
+product in its construction and is different form the designated reference benchmark.
+                                                                                                                                                      ESG Report | 3:4
+
+=== pdf p.7 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF
+ESG Report
+
+Development Goals (SDGs) are a call for action by all                                           the financial and ESG objectives of the fund. For passively
+countries to promote prosperity while protecting the planet.                                    managed strategies, an ESG benchmark would be selected
+We measure the fund versus its reference index against 15 UN                                    for the purpose of balancing between reasonable tracking
+SDGs. These are measured and shown based on their revenue                                       error and high ESG alignment. In order to assess the
+exposure to products and services with a positive impact that                                   magnitude of ESG improvements, the fund's ESG
+help solve the world's major social and environmental                                           performance is also shown against a selected broad market
+challenges. Due to the nature of UN SDG 16 and 17, they are                                     index which closely represents the parent investment universe
+currently not measured based on revenue alignment and                                           on which the ESG benchmark is based.
+hence not included in the illustration.
+
+Passive ESG: Benchmark selection is driven by portfolio
+implementation considerations, in particular to closely reflect
+
+
+
+
+Important information about sustainable investing strategies
+Sustainable investing strategies aim to consider and incorporate environmental, social and governance (ESG) factors into investment process and fund construction. Strategies
+across geographies and styles approach ESG analysis and incorporate the findings in a variety of ways. Incorporating ESG factors or sustainable investing considerations may
+inhibit UBS’s ability to participate in or to advise on certain investment opportunities that otherwise would be consistent with the Client’s investment objectives. The returns on a
+fund consisting primarily of sustainable investments may be lower or higher than funds where ESG factors, exclusions, or other sustainability issues are not considered by UBS,
+and the investment instruments available to such funds may differ. Companies, product issuers and/or manufacturers may not necessarily meet high performance standards on all
+aspects of ESG or sustainable investing issues.
+
+Reconciliation of Assets under Management (AuM)
+This report does not contain reconciled AuM positions, it only takes in consideration positions with settlement date as of report date. This means that traded but not settled
+positions are not included. Therefore, AuM figures in this report may differ from other UBS reports produced on the same date.
+
+Although UBS Asset Management information providers, including without limitation, MSCI ESG Research LLC and its affiliates (the “ESG Parties”), obtain information from
+sources they consider reliable, none of the ESG Parties warrants or guarantees the originality, accuracy and/or completeness of any data herein. None of the ESG Parties makes
+any express or implied warranties of any kind, and the ESG Parties hereby expressly disclaim all warranties of merchantability and fitness for a particular purpose, with respect to
+any data herein. None of the ESG Parties shall have any liability for any errors or omissions in connection with any data herein. Further, without limiting any of the foregoing, in
+no event shall any of the ESG Parties have any liability for any direct, indirect, special, punitive, consequential or any other damages (including lost profits) even if notified of the
+possibility of such damages.
+
+Certain information contained herein (the “Information”) is sourced from/copyright of MSCI Inc., MSCI Solutions LLC, or their affiliates (“MSCI”), or information providers
+(together the “MSCI Parties”) and may have been used to calculate scores, signals, or other indicators. The Information is for internal use only and may not be reproduced or
+disseminated in whole or part without prior written permission. The Information may not be used for, nor does it constitute, an offer to buy or sell, or a promotion or
+recommendation of, any security, financial instrument or product, trading strategy, or index, nor should it be taken as an indication or guarantee of any future performance.
+Some funds may be based on or linked to MSCI indexes, and MSCI may be compensated based on the fund’s assets under management or other measures. MSCI has established
+an information barrier between index research and certain Information. None of the Information in and of itself can be used to determine which securities to buy or sell or when
+to buy or sell them. For regulatory disclosures mandated under the EU ESG Rating Activities Regulation (Regulation (EU) 2024/3005), please visit www.msci.com/
+legal/sustainability-and-climate-resources-and-disclosures for methodology and organizational disclosures and https://one.msci.com for rating level disclosures.
+The Information is provided “as is” and the user assumes the entire risk of any use it may make or permit to be made of the Information. No MSCI Party warrants or guarantees
+the originality, accuracy and/or completeness of the Information and each expressly disclaims all express or implied warranties. No MSCI Party shall have any liability for any errors
+or omissions in connection with any Information herein, or any liability for any direct, indirect, special, punitive, consequential or any other damages (including lost profits) even if
+notified of the possibility of such damages.
+
+
+
+
+The reference index used on this page is the parent index which does not seek to include certain environmental or social characteristics promoted by the financial
+product in its construction and is different form the designated reference benchmark.
+                                                                                                                                                                         ESG Report | 4:4
+
+=== pdf p.8 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+
+UBS AM standard glossary. For additional investment terms, please refer to the online glossary here.
+
+Accumulation: Reinvestment of income generated by the              Equities: Securities that represent an equity interest in a
+investment fund into the fund's assets.                            company. As a joint owner, the shareholder has rights of
+Active management: Here the fund manager uses their                participation (voting right, right to information) and rights to
+expertise to pick investments to achieve the fund's objectives.    assets (right to a share of profits, subscription rights).
+Alpha: A fund's alpha is its outperformance relative to a          Exchange traded fund (ETF): An investment fund that is
+benchmark. If a fund has a consistently high alpha this can        traded like stocks on an exchange. Most ETFs are index funds:
+indicate skillful management. If the benchmark returns 12%         they hold the same securities in the same proportions as a
+and the portfolio returns 14%, the outperformance (alpha) is       certain index.
+equal to 14% - 12% = 2%. Compare with beta.                        Feeder fund: An investment fund that invests the majority of
+Benchmark: Index against which an investment fund's                its assets into a master fund.
+performance is measured. Also called a reference index.            Flat fee: UBS applies a so-called flat fee to most securities
+Beta: A measure of risk that indicates an investment's             and money market funds. This fee is charged to the fund's
+sensitivity to fluctuations in the market, as represented by the   assets and covers all expenses incurred in the management,
+relevant benchmark. For example, a beta of 1.2 tells us that       administration and safekeeping of the fund's assets as well as
+the value of an investment fund can be expected to change          costs incurred in the distribution of the fund (printing
+by 12% if the market is forecast to move by 10%.                   prospectuses, annual and semi-annual reports, costs for
+Bonds: Debt instruments with a fixed or variable rate of           auditing and publication of prices, fees charged by the
+interest and generally with a fixed maturity and redemption        supervisory authority etc.). The only costs not covered are
+date. The most common issuers are major companies,                 transaction costs incurred in the administration of the fund's
+government bodies such as the federal government and the           assets (brokerage fees in line with the market, fees, duties
+cantons, public institutions, and international organizations      etc. as well as any applicable taxes). UBS's flat fee is
+such as the World Bank or the International Monetary Fund.         comprehensive and very client-friendly. It cannot be compared
+Commodities: A tradeable item that can be further                  with similarly named fees from other fund providers, because
+processed and sold. Industrial (metals), agricultural (wool,       these often only cover part of the investor's effective costs.
+wheat, sugar) and bulk commodities (coal, iron ore) are            Also refer to "management fee". The flat fee is not charged
+examples. It is possible to invest in physical commodities or in   to the investor, but directly to the fund's assets. For example,
+derivatives based on commodity prices.                             UBS Funds domiciled in Luxembourg, Switzerland or Germany
+Convertible bonds: Bonds that feature a conversion right           with the exception of UBS Real Estate Funds, charge a "Flat
+entitling the holder to convert the bond into shares of the        fee".
+company in question at a certain point in time and at a pre-       Hedging: Protecting investments against losses. UBS asset
+defined conversion ratio.                                          allocation funds and hedged UBS ETFs specifically hedge
+Corporate bonds: Strictly speaking, corporate bonds are            against exchange rate risks.
+those issued by companies. Generally, however, the term is         High watermark: The high watermark is used in connection
+used to cover all bonds other than those issued by                 with the performance fee. The fund manager calculates his or
+governments in their own currencies. Therefore the "credit"        her share of the profits on the basis of the value increment
+sector, as it is often known, includes issues by companies,        over and above the last peak in the NAV. As a result, the
+supranational organizations and government agencies. The           performance fee does not become payable until all losses
+key feature that distinguishes corporate bonds from                incurred have been completely recovered.
+government bonds is the risk of default – see credit risk.         High yield bonds: Bonds issued by borrowers with lower
+Correlation: A measure of the degree to which the price            credit ratings. Such bonds offer higher rates of interest, but at
+trends of various investment categories or instruments move        the same time there is also a higher risk of default, i.e. that
+in the same direction.                                             interest payments will not be paid or that the face value will
+Derivatives: Investments whose value is linked to another          not be repaid.
+investment, to the performance of a stock exchange or to           Illiquid: Illiquid assets are those assets that cannot be easily
+some other variable factor, such as interest rates.                bought, sold, or converted into cash. It may often be
+Distribution: Payment by an investment fund to distribute          impossible to convert the asset to cash until the end of the
+the income generated to its unit holders.                          life of the asset.
+Diversification: Holding a variety of investments that             Index: Indicator of performance on one or more markets.
+typically perform differently from one another.                    The oldest and best-known stock market index is the Dow
+Duration: The duration represents the length of time for           Jones. Indexes make it possible to compare the performance
+which capital is "tied up" in a bond investment. The concept       of a fund invested in a specific market with the development
+of duration takes account of the time structure of returning       of that market.
+cash flows (such as coupon repayments). The average                Index fund: An investment fund that replicates a chosen
+duration of the portfolio is derived from the weighted             stock market index in its stock selection and weightings as
+average duration of the individual securities. The "modified       exactly as possible.
+duration" is derived from the duration and provides a              Inflation-linked bonds: An inflation-linked bond provides
+measure of the sensitivity of bonds or bond portfolios to          investors with protection from inflation by linking its principal
+interest rate changes.                                             amount or interest payments to a specific inflation index.
+Emerging economy or market: Emerging markets or                    Investment grade: Term used to denote securities with
+developing markets – mainly in Asia, Eastern Europe, and           ratings of between BBB and AAA, indicating that their credit
+Latin America – that are growing quickly, but whose                quality is satisfactory or good.
+economies and stock markets have not yet reached Western           Leverage: With derivative instruments, greater returns can
+standards.                                                         be earned with a comparatively lower capital investment than
+
+
+                                                                                                                         Glossary 1 ¦ 2
+
+=== pdf p.9 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+
+with an investment in the actual underlying instrument. This       Share class: An investment fund can issue several types of
+effect is called leverage.                                         share certificates with different criteria. The share certificate
+Management fee: The charge levied by the management                classes may differ in the amount of fees, the appropriation of
+company for the administration of an investment fund. The          income or the currency of the share certificate class.
+amount of the fee is expressed in percentage or tenth of a         Sharpe ratio: A measure that expresses how much higher (or
+percentage of the fund assets or in basis points. Less             lower) a return an investor can expect compared to the risk-
+comprehensive than UBS's all-in fee and covers only part of        free rate of interest (e.g., interest rates on savings accounts)
+the costs due.                                                     per unit of risk (volatility). The risk-free rate of interest varies
+Management style: Manner in which investment decisions             from currency to currency.
+are made to achieve the investment objective (see also active      Standard deviation: Statistical measure of the degree to
+management and passive management).                                which an individual value in a probability distribution tends to
+Master fund: Funds invested in respective feeder funds that        vary from the mean of the distribution. The greater the
+are then invested into the master fund. The master fund            degree of dispersion the greater the risk.
+holds the portfolio investments and conducts all trading           Swing pricing: Method used to calculate the net asset values
+activity.                                                          of investment funds. This method allows transaction costs
+Maturity: Period from the issue of a bond to its due date or       arising from subscriptions made by incoming investors and
+to the premature repayment of the bond. Not to be confused         redemptions made by outgoing investors to be borne by the
+with duration.                                                     incoming and outgoing investors, rather than existing
+Net asset value (NAV): Used to describe the value of a             investors.
+company's assets less the value of their liabilities.              Switching costs: The costs of buying and selling investments
+Ø – Average.                                                       in order to implement a change in investment strategy.
+Over the counter (OTC): An over-the-counter financial              Synthetic replication: In contrast to physical replication,
+contract is one that is not traded on an exchange but is           synthetic replication means that an ETF does not invest
+"tailor-made" for a client by a financial institution.             directly in the securities held in the benchmark. Instead, it
+Passive management: Passive management seeks to attain             enters into a swap agreement with a counterparty that
+performance equal to market or index returns.                      promises to pay the return on the replicated index to the ETF.
+Performance fee: For non-classical investment funds such as        Total expense ratio (TER): The ratio of total expense to a
+hedge funds, the investor must often pay, in addition to the       fund's average size over an annualized accounting period.
+conventional management fee, a supplementary performance           Expenses are considered to include all expenses shown in the
+fee in the form of a percentage (e.g. 20%) of the fund's           income account, including management, administration,
+annual increase in value.                                          custody, audit, legal and professional fees. For ETFs, the term
+Physical replication: In physical replication, an ETF invests      TER may be used interchangeably for the flat fee (current).
+directly in securities held in the benchmark it is tracking. To    Tracking error: Measure of the deviation of a fund's return
+do so, the ETF can buy some or all of the securities that make     compared to the return of a benchmark over a fixed period,
+up the replicated index – this method is called full replication   expressed as a percentage. The more passively the investment
+and is suitable for liquid indexes.                                fund is managed, the smaller the tracking error.
+Rating: The measure of a borrower's creditworthiness by            UCITS: Undertakings for Collective Investment in Transferable
+special rating agencies such as Standard & Poor's or Moody's.      Securities. A UCITS fund is an authorized fund that may be
+As a rule, UBS bond funds principally invest in bonds issued       sold across all EU countries.
+by prime borrowers.                                                Volatility: A measure of the size of short-term changes in the
+Reinvestment: The possibility of reinvesting the distribution      value of an investment.
+in the same fund. Certain funds offer investors a special          Yield to maturity: Weighted average rate earned by an
+reinvestment discount on the issuing price if the annual           investor who buys the bond portfolio today at the market
+distribution is reinvested.                                        price and holds the bond portfolio until maturity, also
+Risk-free rate: An investment with no chance of default and        assuming that all coupon and principal payments will be
+a known or certain rate of return.                                 made on schedule.
+
+
+
+
+                                                                                                                            Glossary 2 ¦ 2
+

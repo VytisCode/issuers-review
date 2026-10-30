@@ -1,0 +1,585 @@
+=== pdf p.1 ===
+       Amundi MSCI Europe Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                                          FACTSHEET
+
+                                                                                                                                                                                          Marketing
+                                                                                                                                                                                        Communication
+ EQUITY ■
+                                                                                                                                                                                           30/09/2026
+
+Objective and Investment Policy
+
+  This Sub-Fund is passively managed. The objective of this Sub-Fund is to track the performance of MSCI Europe Climate Paris Aligned Filtered PAB Index (the "Index"), and
+  to minimize the tracking error between the net asset value of the Sub-Fund and the performance of the Index. The anticipated level of the tracking error, under normal market
+  conditions, is indicated in the prospectus of the Sub-Fund. The Index is an equity index based on the MSCI Europe index ("Parent Index") representative of the large and
+  mid-cap stocks across developed market countries in the European Economic and Monetary Union (the "Parent Index"). The Sub-Fund promotes environmental and/or social
+   characteristics through among others, replicating an Index integrating an environmental, social and governance ("ESG") rating. The Index is designed to support investors
+  seeking to reduce their exposure to transition and physical climate risks and who wish to pursue opportunities arising from the transition to a lower-carbon economy, while
+  aligning with the minimum standards for EU Regulation on Paris Agreement Benchmarks under Regulation (EU) 2019/2089 amending Regulation (EU) 2016/1011. The Index
+  incorporate the Task Force on Climate-Related Financial Disclosures (TCFD) recommendations and are designed to exceed the minimum standards of the EU Paris-Aligned
+  Benchmark. The Index provides exposure to companies with outstanding ESG ratings and excludes companies whose products have a negative social or environmental
+  impact. In addition, the Index aims to represent the performance of a strategy that re-weights securities according to the opportunities and risks associated with the climate
+  transition, in order to meet the minimum requirements of the EU PAB. The ESG key issues include mainly carbon intensity. For further information on the exclusions applied by
+  the Index pursuant to the EU Paris-aligned Benchmarks (PAB), please refer to the "Guidelines on funds’ names using ESG or sustainability-related terms" section of the
+  Prospectus. The limits of the approach adopted are described in the Sub-Fund's prospectus through risk factors such as Sustainable investment risk. The ESG score of
+  companies is calculated by an ESG rating agency, using raw data, models and estimates collected/calculated using methods specific to each provider. Due to the lack of
+  standardisation and the uniqueness of each methodology, the information provided may be incomplete. Assessment of sustainability risks is complex and may be based on
+  ESG data which is difficult to obtain, incomplete, estimated, out of date and/or otherwise materially inaccurate. Even when identified, there can be no guarantee that these
+  data will be correctly assessed. More information about the composition of the index and its operating rules are available in the Sub-Fund's prospectus and at: msci.com The
+  Index value is available via Bloomberg (MXEUPFNE). The exposure to the Index will be achieved through a Direct Replication, mainly by making direct investments in
+  transferable securities and/or other eligible assets representing the Index constituents in a proportion extremely close to their proportion in the index. The Investment
+  Manager will be able to use derivatives in order to deal with inflows and outflows and also if it allows a better exposition to an Index constituent. In order to generate
+  additional income to offset its costs, the Sub-Fund may also enter into securities lending operations.
+
+Performances from 25/06/2020 to 30/09/2026 (Source : Fund Admin)                                                                                             Risk indicators (Source: Fund Admin)
+
+     250                                                                                                                                                                                                     Inception to
+                                                                                                                                                                                  1 year 3 years 5 years
+                                                                                                                                                                                                                date *
+                                                                                                                                                              Portfolio
+     200                                                                                                                                                                     13.47% 13.06% 14.34%               14.24%
+                                                                                                                                                              volatility *
+                                                                                                                                                              Benchmark
+                                                                                                                                                                             13.46% 13.05% 14.35%               14.25%
+     150                                                                                                                                                      volatility
+                                                                                                                                                              Ex-post
+                                                                                                                                                                             0.08% 0.09% 0.09%                   0.11%
+                                                                                                                                                              Tracking Error
+     100                                                                                                                                                      Sharpe ratio    0.92   0.78   0.39                  0.67
+                                                                                                                                                             * Volatility is a statistical indicator that measures an asset’s
+                                                                                                                                                             variations around its average value. For example, market
+      50                                                                                                                                                     variations of +/- 1.5% per day correspond to a volatility of
+                                                                                                                                                             25% per year. The higher the volatility, the higher the risk.
+               /20
+
+
+
+                          /21
+
+
+
+                                     /21
+
+
+
+                                                /22
+
+
+
+                                                          /22
+
+
+
+                                                                      /23
+
+
+
+                                                                                 /23
+
+
+
+                                                                                            /24
+
+
+
+                                                                                                        /24
+
+
+
+                                                                                                                   /25
+
+
+
+                                                                                                                               /25
+
+
+
+                                                                                                                                           /26
+
+
+
+                                                                                                                                                       /26
+
+
+
+
+                                                                                                                                                             The Tracking Error indicator measures the performance's
+             09
+
+
+
+                        03
+
+
+
+                                   09
+
+
+
+                                              03
+
+
+
+                                                        09
+
+
+
+                                                                    03
+
+
+
+                                                                               09
+
+
+
+                                                                                          03
+
+
+
+                                                                                                      09
+
+
+
+                                                                                                                 03
+
+
+
+                                                                                                                             09
+
+
+
+                                                                                                                                         03
+
+
+
+                                                                                                                                                     09
+
+
+
+
+                                                                                                                                                             difference between the fund and the benchmark
+                                                                Portfolio        Benchmark
+
+Cumulative returns* (Source: Fund Admin)                                                                                                                     Morningstar rating ©
+
+                         YTD                1 month          3 months            1 year              3 years             5 years             Since
+                                                                                                                                                              Morningstar Overall Rating © : 3 stars
+ Since                31/12/2025           31/08/2026       30/06/2026         30/09/2025          29/09/2023          30/09/2021          25/06/2020
+                                                                                                                                                              Morningstar Category © :
+ Portfolio              7.36%                -2.73%           -2.46%            12.62%              43.53%              47.25%              91.44%
+                                                                                                                                                               EAA FUND EUROPE LARGE-CAP BLEND
+ Benchmark              7.21%                -2.72%           -2.44%            12.45%              42.98%              46.48%              90.24%             EQUITY
+ Spread                 0.14%                0.00%            -0.02%             0.17%               0.54%               0.77%               1.20%            Rating date : 31/08/2026
+                                                                                                                                                              Number of funds in the category : 1796
+Calendar year performance* (Source: Fund Admin)
+
+                                             2025                  2024                 2023                      2022                      2021
+ Portfolio                                  13.98%                8.42%                17.46%                   -12.64%                    25.82%
+ Benchmark                                  13.74%                8.36%                17.33%                   -12.66%                    25.69%
+ Spread                                     0.24%                 0.06%                0.12%                     0.01%                     0.13%
+
+* Source : Amundi. The above cover complete periods of 12 months for each calendar year. Past performance is no predictor of current and future
+results and does not guarantee future yield . Any losses or gains do not take into consideration any costs, commissions and fees incurred by the
+investor in the issue and buyout of the shares (e.g. taxes, brokerage fees or other commissions deducted by the financial intermediary). If performance
+is calculated in a currency other than the euro, any losses or gains generated can thereby be affected by exchange rate fluctuations (both upward and
+downward). The discrepancy accounts for the performance difference between the portfolio and the index.
+
+
+
+
+                                                                                                   ■ amundietf.com
+                                                                            This material is solely for the attention of “professional” investors.
+
+=== pdf p.2 ===
+       Amundi MSCI Europe Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                         FACTSHEET
+
+                                                                                                                                                                          Marketing
+
+EQUITY ■                                                                                                                                                                Communication
+                                                                                                                                                                         30/09/2026
+
+
+Risk & Reward Profile (SRRI) (Source: Fund Admin)
+                                                                   We have classified this product as 4 out of 7, which is a medium risk class. This rates the potential losses from
+                                                                   future performance at a medium level, and poor market conditions could impact our capacity to pay you.
+                                                                   Additional risks: Market liquidity risk could amplify the variation of product performances. This product does not
+                                                                   include any protection from future market performance so you could lose some or all of your investment. Beside
+                                                                   the risks included in the risk indicator, other risks may affect the Sub-Fund’s performance. Please refer to
+   Lower risk, potentially lower rewards
+                                                                   the Amundi Index Solutions prospectus.
+   Higher risk, potentially higher rewards
+
+The SRRI represents the risk and return profile as
+presented in the Key Investor Information Document
+(KIID). The lowest category does not imply that there is
+no risk. The SRRI is not guaranteed and may change
+over time.
+
+
+
+
+Characteristics (source: Amundi)
+
+ Net Asset Value (NAV)                                                                                                                             A : 95.72 EUR
+ Assets Under Management (AUM)                                                                                                                141.75 ( million EUR )
+ Management fees and other administrative or operating costs *                                                                                          0.15%
+ NAV and AUM as of                                                                                                                                  30/09/2026
+ ISIN code                                                                                                                                      A : LU2130768844
+ Replication type                                                                                                                                     Physical
+ Benchmark                                                                                                  100% MSCI EUROPE CLIMATE PARIS ALIGNED FILTERED PAB INDEX
+ Type of shares                                                                                                                                   Accumulation
+ Fund structure                                                                                                                          SICAV under Luxembourg law
+ UCITS compliant                                                                                                                                        UCITS
+ Management Company                                                                                                                         Amundi Luxembourg SA
+ Primary Market Maker                                                                                                                               BNP Paribas
+ Administrator                                                                                                                       CACEIS Bank, Luxembourg Branch
+ Custodian                                                                                                                           CACEIS Bank, Luxembourg Branch
+ Independent auditor                                                                                                                             DELOITTE AUDIT
+ Share-class inception date                                                                                                                          25/06/2020
+ First NAV                                                                                                                                         50.00 ( EUR )
+ Date of the first NAV                                                                                                                               25/06/2020
+ Share-class reference currency                                                                                                                          EUR
+ Minimum investment to the secondary market                                                                                                          1 Share(s)
+ Frequency of NAV calculation                                                                                                                            Daily
+ Minimum recommended investment period                                                                                                                 5 years
+ Fiscal year end                                                                                                                                     September
+ ISA and SIPP Eligible                                                                                                                                     -
+
+* For more information regarding the full set of fees borne by the fund, please refer to its Key Information Document (KID). Transaction fees and commissions may apply when trading ETFs.
+
+
+
+
+                                                             Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                            AMF approved Portfolio Management Company- GP number 04000036
+                                                                   Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                               This material is solely for the attention of “professional” investors.
+
+=== pdf p.3 ===
+     Amundi MSCI Europe Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                                                  FACTSHEET
+
+
+                                                                                                                                                                                                   Marketing
+
+EQUITY ■                                                                                                                                                                                         Communication
+                                                                                                                                                                                                  30/09/2026
+
+
+
+
+Meet the Team
+
+
+              Isabelle Lafargue                                             Vincent Masson                                                        Jerome Gueguen
+
+              Head of Index & Multistrategies Management –                  Senior Portfolio Manager - Index & Multistrategies                    Co-Portfolio Manager
+              Regional Funds
+
+
+
+
+Index Data (Source : Amundi)
+
+
+Description of the Index                                                                                  Top 10 benchmark holdings (source : Amundi)
+
+ The Index is an equity index based on the MSCI Europe index ("Parent Index")                                                                                % of assets (Index)         % assets (Parent index)
+ representative of the large and mid-cap stocks across developed market countries                          ASML HOLDING NV                                         5.81%                         5.13%
+ in the European Economic and Monetary Union (the "Parent Index"). The Index is                            HSBC HOLDING PLC GBP                                    2.51%                         2.50%
+ designed to support investors seeking to reduce their exposure to transition and                          ROCHE HLDG AG-GENUSS CHF                                2.40%                         2.14%
+ physical climate risks and who wish to pursue opportunities arising from the                              NOVARTIS AG-REG                                         2.26%                         1.93%
+ transition to a lower-carbon economy, while aligning with the minimum standards
+                                                                                                           ASTRAZENECA GBP                                         2.12%                         1.81%
+ for EU Paris-Aligned Benchmark (EU PABs) under Regulation (EU) 2019/2089
+ amending Regulation (EU) 2016/1011. The Index incorporate the Task Force on                               SCHNEIDER ELECT SE                                      2.07%                         1.34%
+ Climate-Related Financial Disclosures (TCFD) recommendations and are designed                             ABB LTD-REG                                             1.83%                         1.09%
+ to exceed the minimum standards of the EU Paris-Aligned Benchmark.                                        SIEMENS AG-REG                                          1.80%                         1.68%
+                                                                                                           SAP SE / XETRA                                          1.72%                         1.55%
+Information (Source: Amundi)                                                                               ALLIANZ SE-REG                                          1.59%                         1.33%
+ Asset class : Equity                                                                                      Total                                                   24.13%                       20.51%
+ Exposure : Europe
+
+
+ Holdings : 253                                                                                              Parent index : MSCI EUROPE
+
+
+
+
+Geographical breakdown (for illustrative purposes only - Source: Amundi)                                  Benchmark Sector breakdown (for illustrative purposes only - Source : Amundi)
+
+    United Kingdom                                                       17.83 %                                                                                                                             27.28 %
+                                                                                      22.41 %                                     Financials
+                                                                                                                                                                                                          25.61 %
+       Switzerland                                                   17.00 %
+                                                              14.21 %
+                                                                                                                                  Industrials                                           17.52 %
+            France                                            14.29 %                                                                                                                     18.66 %
+                                                               14.84 %
+          Germany                                     10.84 %                                                                                                                    14.84 %
+                                                             13.66 %                                                             Health Care
+                                                                                                                                                                             12.70 %
+       Netherlands                               9.23 %
+                                                 9.44 %
+                                                                                                                  Information Technology                                   11.63 %
+             Spain                        6.74 %                                                                                                                       9.72 %
+                                         6.31 %
+           Sweden                       5.72 %                                                                                       Utilities                 6.63 %
+                                       5.32 %                                                                                                              4.73 %
+              Italy                     5.56 %
+                                       5.16 %                                                                                                                5.89 %
+                                                                                                                       Consumer Staples
+                                3.16 %                                                                                                                            8.20 %
+           Finland           1.86 %
+                               2.87 %                                                                            Consumer Discretionary                     5.18 %
+          Denmark             2.44 %                                                                                                                          5.98 %
+          Belgium             2.34 %
+                            1.73 %                                                                                                                         4.29 %
+                                                                                                                                   Materials
+                              2.31 %                                                                                                                         5.39 %
+           Norway          0.99 %
+                        0.89 %                                                                                                   Real Estate               4.26 %
+          Portugal     0.35 %                                                                                                                     0.53 %
+
+            Ireland     0.62 %
+                        0.68 %                                                                                  Communication Services                2.48 %
+                                                                                                                                                       3.10 %
+            Austria     0.60 %
+                        0.61 %
+                                                                                                                                     Energy
+            Others                                                                                                                                          5.38 %
+
+                      0%          5%             10 %        15 %           20 %        25 %                                                     0%        5%       10 %      15 %        20 %       25 %        30 %
+                                 Benchmark           Parent Index                                                                                  Benchmark             Parent Index
+
+ Parent index : MSCI EUROPE                                                                                  Parent index : MSCI EUROPE
+
+
+
+
+                                                                Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                               AMF approved Portfolio Management Company- GP number 04000036
+                                                                      Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                  This material is solely for the attention of “professional” investors.
+
+=== pdf p.4 ===
+     Amundi MSCI Europe Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                             FACTSHEET
+
+
+                                                                                                                                                                              Marketing
+
+EQUITY ■                                                                                                                                                                    Communication
+                                                                                                                                                                             30/09/2026
+
+
+
+
+Socially Responsible Investment (SRI)
+The SRI expresses sustainable development objectives in investment decisions by adding Environmental, Social and Governance (ESG) criteria in addition to the traditional
+financial criteria.
+
+SRI thus aims to balance economic performance and social and environmental impact by financing companies and public entities which contribute to sustainable development
+whatever their business sector. By influencing the governance and behaviour of stakeholders, SRI promotes a responsible economy.
+
+
+Evaluation by ESG criteria (Source: Amundi)
+
+                                         Benchmark                       Parent index                   ESG criteria
+                                                                                                        The criteria are extra-financial criteria used to assess the Environmental, Social and
+ Overall Rating                              8.43                              8.03                     Governance practices of companies.
+
+ Environment                                 7.17                              6.69                     Environmental, Social, and Governance risks and opportunities are posed by large
+ Social                                      5.55                              5.40                     scale trends (e.g. climate change, resource scarcity, demographic shifts) as well as by
+                                                                                                        the nature of the company’s operations.
+ Governance                                  6.85                              6.72
+                                                                                                        Scores are on a 0-10 scale, with 10 being the best.
+ Parent index : MSCI EUROPE
+                                                                                                        “E” for Environment (Climate Change, Natural Resources, Pollution & Waste and
+                                                                                                        Environmental Opportunities)
+
+                                                                                                        “S” for Social (Human Capital, Product Liability, Stakeholder Opposition and Social
+                                                                                                        Opportunities)
+
+                                                                                                        “G” for Governance (Corporate Governance and Corporate Behavior)
+
+                                                                                                        Source: Raw ESG data for companies are provided by MSCI
+Carbon footprint
+
+Carbon footprint: carbon emissions per euro million invested                                            Carbon footprint
+                                                                                                        This indicator measures the portfolio's carbon emissions in metric tonnes of carbon
+                                                                                                        equivalent (tCO2e) per euro million invested.
+                                                                  Benchmark Parent Index
+                                                                                                        This is an indicator of the emissions generated by investment in this portfolio.
+Total carbon portfolio footprint (Index/Parent index) :             21.68      77.26
+                                                                                                        Definition of scopes :
+
+    100                                                                                                 - Scope 1 : all emissions that arise directly from sources that are owned or controlled
+                                                                                    Scope 3
+                                                                                                        by the company.
+                                                                                    Scope 2
+                                                                                    Scope 1
+                                                                                                        - Scope 2 : all indirect emissions generated by the purchase or production of
+     75                                                                                                 electricity, steam or heat.
+                                                          22.76
+                                                                                                        - Scope 3 : All other indirect emissions, upstream and downstream of the value chain.
+                                                                                                        For reasons of data robustness, Amundi has chosen to use emissions from activities
+     50                                                   9.20                                          upstream of Scope 3 - Source: Trucost EEI-O model (input/output model extended to
+                                                                                                        the Trucost environment).
+
+
+     25                                                                                                 Source : The carbon emissions data is supplied by Trucost. It corresponds to
+                                                          43.94                                         companies' annual emissions expressed in tCO2e, which covers the six greenhouse
+                        9.46
+                                                                                                        gases defined in the Kyoto protocol whose emissions are converted into global
+                        5.48                                                                            warming potential (GWP) in CO2 equivalent.
+                        6.49
+      0
+                    Benchmark                       Parent Index
+
+ Parent index : MSCI EUROPE
+
+
+
+
+                                                              Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                             AMF approved Portfolio Management Company- GP number 04000036
+                                                                    Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                This material is solely for the attention of “professional” investors.
+
+=== pdf p.5 ===
+     Amundi MSCI Europe Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                          FACTSHEET
+
+
+                                                                                                                                                                           Marketing
+
+EQUITY ■                                                                                                                                                                 Communication
+                                                                                                                                                                          30/09/2026
+
+
+Listing data (source : Amundi)
+                  Place                CCY          Bloomberg Ticker                         Bloomberg iNAV                       Reuters RIC                    Reuters iNAV
+          Deutsche Boerse (Xetra)      EUR              EABE GY                                 EABEEUIV                            EABE.DE                   EABEEURINAV=SOLA
+              Euronext Paris           EUR              LWCE FP                                 EABEEUIV                           LWCE.PA                    EABEEURINAV=SOLA
+                   LSE                 GBP              EABE LN                                    -                               AMEABE.L                           -
+              Euronext Milan           EUR              LWCE IM                                 EABEEUIV                            LWCE.MI                   EABEEURINAV=SOLA
+
+
+
+
+Contact
+
+
+ETF Sales contact                                                                          ETF Capital Markets contact
+France & Luxembourg                   +33 (0)1 76 32 65 76                                 Téléphone                                              +33 (0)1 76 32 19 93
+Germany & Austria                     +49 (0) 800 111 1928                                 Bloomberg IB Chat                                      Capital Markets Amundi ETF
+Italy                                 +39 02 0065 2965                                                                                            Capital Markets Amundi HK ETF
+Switzerland (German)                  +41 44 588 99 36                                     ETF Market Makers contact
+Switzerland (French)                  +41 22 316 01 51
+United Kingdom                        +44 (0) 20 7 074 9598                                BNP Paribas                                            +33 (0)1 40 14 60 01
+United Kingdom (Instit)               +44 (0) 800 260 5644                                 Kepler Cheuvreux                                       +33 (0)1 53 65 35 25
+Netherlands                           +31 20 794 04 79
+                                                                                           Amundi contact
+Nordic countries                      +46 8 5348 2271
+Hong Kong                             +65 64 39 93 50                                      Amundi ETF
+Spain                                 +34 914 36 72 45                                     90 bd Pasteur
+                                                                                           CS 21564
+                                                                                           75 730 Paris Cedex 15 - France
+                                                                                           Hotline : +33 (0)1 76 32 47 74
+                                                                                           info-etf@amundi.com
+                                                                                           Facilities Agent
+                                                                                           Amundi (UK) Limited
+                                                                                           77 Coleman Street London
+                                                                                           EC2R 5BJ - United Kingdom
+
+Index Providers
+THE SUB-FUND IS NOT SPONSORED, ENDORSED, SOLD OR PROMOTED BY MSCI INC. ("MSCI"), ANY OF ITS AFFILIATES, ANY OF ITS INFORMATION PROVIDERS OR ANY THIRD
+PARTY INVOLVED IN, OR RELATED TO, COMPILING OR CREATING ANY MSCI INDEX (COLLECTIVELY, THE "MSCI PARTIES"). THE MSCI INDICES ARE THE EXCLUSIVE PROPERTY OF
+MSCI AND ARE SERVICE MARKS OF MSCI OR ITS AFFILIATES. THE MSCI INDICES HAVE BEEN LICENSED FOR USE FOR CERTAIN PURPOSES BY AMUNDI. NONE OF THE MSCI
+PARTIES MAKES ANY REPRESENTATION OR WARRANTY, EXPRESS OR IMPLIED, TO THE ISSUER OR OWNERS OF THIS SUB-FUND OR ANY OTHER PERSON OR ENTITY REGARDING
+THE ADVISABILITY OF INVESTING IN SUBFUNDS GENERALLY OR IN THIS PARTICULAR SUB-FUND OR THE ABILITY OF ANY MSCI INDEX TO TRACK CORRESPONDING STOCK MARKET
+PERFORMANCE. MSCI OR ITS AFFILIATES ARE THE LICENSORS OF CERTAIN TRADEMARKS, SERVICE MARKS AND TRADE NAMES AND OF THE MSCI INDICES WHICH ARE
+DETERMINED, COMPOSED AND CALCULATED BY MSCI WITHOUT REGARD TO AMUNDI OR THIS SUB-FUND OR THIS SUB-FUND'S UNITHOLDERS OR ANY OTHER PERSON OR
+ENTITY. NONE OF THE MSCI PARTIES HAS ANY OBLIGATION TO TAKE THE NEEDS OF THE AMUNDI, THIS SUB-FUND'S UNITHOLDERS OR ANY OTHER PERSON OR ENTITY
+INTOCONSIDERATION IN DETERMINING, COMPOSING OR CALCULATING THE MSCI INDICES. NONE OF THE MSCI PARTIES IS RESPONSIBLE FOR OR HAS PARTICIPATED IN
+DETERMINATION OF THE TIMING OF, PRICES AT, OR QUANTITIES OF THIS SUB-FUND TO BE ISSUED OR IN THE DETERMINATION OR CALCULATION OF THE EQUATION BY OR THE
+CONSIDERATION INTO WHICH THIS SUB-FUND IS REDEEMABLE. FURTHERMORE, NONE OF THE MSCI PARTIES HAS ANY OBLIGATION OR LIABILITY TO THE ISSUER OR OWNERS OF
+THIS SUB-FUND OR ANY OTHER PERSON OR ENTITY IN CONNECTION WITH THE ADMINISTRATION, MARKETING OR OFFERING OF THIS SUB-FUND. ALTHOUGH MSCI SHALL OBTAIN
+INFORMATION FOR INCLUSION IN OR FOR USE IN THE CALCULATION OF THE MSCI INDICES FROM SOURCES THAT MSCI CONSIDERS RELIABLE, NONE OF THE MSCI PARTIES
+WARRANTS OR GUARANTEES THE ORIGINALITY, ACCURACY AND/OR THE COMPLETENESS OF ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. NONE OF THE MSCI PARTIES
+MAKES ANY WARRANTY, EXPRESS OR IMPLIED, AS TO RESULTS TO BE OBTAINED BY THE ISSUER OF THE SUB-FUND, OWNERS OF THE SUB-FUND, OR ANY OTHER PERSON OR
+ENTITY, FROM THE USE OF ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. NONE OF THE MSCI PARTIES SHALL HAVE ANY LIABILITY FOR ANY ERRORS, OMISSIONS OR
+INTERRUPTIONS OF OR IN CONNECTION WITH ANY MSCI INDEX OR ANY DATA INCLUDED THEREIN. FURTHERMORE, NONE OF THE MSCI PARTIES MAKES ANY EXPRESS OR IMPLIED
+WARRANTIES OF ANY KIND, AND THE MSCI PARTIES HEREBY EXPRESSLY DISCLAIM ALL WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH
+RESPECT TO EACH MSCI INDEX AND ANY DATA INCLUDED THEREIN. WITHOUT LIMITING ANY OF THE FOREGOING, IN NO EVENT SHALL ANY OF THE MSCI PARTIES HAVE ANY
+LIABILITY FOR ANY DIRECT, INDIRECT, SPECIAL, PUNITIVE, CONSEQUENTIAL OR ANY OTHER DAMAGES (INCLUDING LOST PROFITS) EVEN IF NOTIFIED OF THE POSSIBILITY OF
+SUCH DAMAGES.
+
+
+
+
+                                                 Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                AMF approved Portfolio Management Company- GP number 04000036
+                                                       Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                   This material is solely for the attention of “professional” investors.
+
+=== pdf p.6 ===
+       Amundi MSCI Europe Climate Paris Aligned UCITS ETF Acc
+                                                                                                                                                                                         FACTSHEET
+
+                                                                                                                                                                                          Marketing
+
+ EQUITY ■                                                                                                                                                                               Communication
+                                                                                                                                                                                         30/09/2026
+
+
+
+Important information
+
+  Note on the Fund management company and the fund
+  Sub-fund of the Luxembourg SICAV Amundi Index Solutions (the 'Sub-fund' or the 'Fund' and the 'SICAV'). The SICAV is an undertaking for collective investment in
+  transferable securities existing under Part I of the Luxembourg law of 17 December 2010, organised as a société dinvestissement à capital variable and registered with the
+  Luxembourg Trade and Companies Register under number B206810. The SICAV has its registered office at 5, allée Scheffer, L-2520 Luxembourg. The Sub-fund has been
+  authorised for public sale by the Commission de Surveillance du Secteur Financier of Luxembourg and in France by the AMF. The SICAV has other Sub-funds which are
+  described in the prospectus. Not all sub-funds will necessarily be registered or authorized for sale in jurisdictions of all investors.
+
+  The Fund is described in a Key Information Document (KID), or Key Investor Information Document (KIID) for UK investors, and prospectus. The Funds KID, or KIID for UK
+  investors, must be made available to potential subscribers prior to subscription.
+  The Funds reference material (KIID, prospectus, annual and semi-annual reports) can be obtained from Amundi on request, or obtained via the amundietf.com website.
+  In the United Kingdom (the “UK”), this website is being issued by Amundi (UK) Limited, 77 Coleman Street, London EC2R 5BJ, UK. Amundi (UK) Limited is authorised and
+  regulated by the Financial Conduct Authority (“FCA”) and entered on the FCA’s Financial Services Register under number 114503. This may be checked at
+  https://register.fca.org.uk/ and further information of its authorisation is available on request. Each fund and its relevant sub-fund(s) under its respective fund range that is
+  referred to in this website (each, a “Fund”) is a recognised collective investment scheme for the purposes of Section 264 of the Financial Services and Markets Act 2000 (the
+  “FSMA”).
+  Potential investors in the UK should be aware that none of the protections afforded by the UK regulatory system will apply to an investment in a Fund and that compensation
+  will not be available under the UK Financial Services Compensation Scheme.
+  Regarding Funds admitted on a regulated market, the listing is subject to a volatility control mechanisms to ensure that the ETF price does not deviate significantly from a
+  reference price set by the listing rules of the relevant regulated market, notably through the implementation of a trading halt mechanism in case of significant deviation from
+  this reference price.
+
+  The Fund offers no capital guarantee. Investors may not get back the full amount of their initial investment, particularly in the event that the benchmark index falls.
+  Subscribing to a UCITS may involve risks. Potential investors are advised to read the Funds risk profile, which is described in detail in the prospectus. The amount that is
+  reasonable to invest in the Fund will depend on the personal circumstances of each investor. To determine this amount, investors should take into account their financial
+  situation, personal assets, and current and future requirements, as well as considering their willingness to accept risks or conversely their preference to invest cautiously.
+  Investors are also strongly recommended to sufficiently diversify their investments so as to avoid being exposed solely to the risks of this Fund. Investors should therefore
+  seek advice in this regard from their usual advisors (legal, tax, financial and/or accounting) before purchasing any units of the Fund.
+  The source of the data contained in this document is Amundi Asset Management unless otherwise stated.
+
+  Policy regarding portfolio transparency and warning on secondary market
+  The policy regarding portfolio transparency and information on the funds assets are available on amundietf.com. Shares purchased on the secondary market cannot usually
+  be sold directly back to the fund. Investors must buy and sell shares on a secondary market with the assistance of an intermediary (e.g. a stockbroker) and may incur fees for
+  doing so. Investors may pay more than the current net asset value when buying shares and may receive less than the current net asset value when selling them.
+
+« Technical net asset values may be calculated and published for any calendar day (excluding Saturdays and Sundays) that is neither a business day nor a transaction day. These technical net asset values are
+merely indicative and will not be the basis for purchasing, switching, redeeming and/or transferring shares.”
+
+
+
+
+                                                                  Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                                 AMF approved Portfolio Management Company- GP number 04000036
+                                                                        Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                    This material is solely for the attention of “professional” investors.
+

@@ -1,0 +1,126 @@
+=== pdf p.1 ===
+                                                                    KEY INVESTOR INFORMATION
+                                                                    This document provides you with key investor information about this Fund. It is not marketing material. The
+                                                                    information is required by law to help you understand the nature and risks of investing in this Fund. You are advised
+                                                                    to read it so you can make an informed decision about whether to invest.
+
+iShares Edge MSCI World Minimum                                                                    USD Accu
+                                                                                                   ISIN: IE00BKVL7778                     Exchange Traded Fund (ETF)
+Volatility Advanced UCITS ETF                                                                      Manager: BlackRock Asset Management Ireland Limited
+A sub-fund of iShares VI plc
+
+Objectives and Investment Policy
+  The Fund aims to achieve a return on your investment, through a combination of capital growth and income on the Fund’s assets, which reflects the return of the MSCI
+  World Minimum Volatility Advanced Select Index (the Index).
+  The Share Class, via the Fund, is passively managed and invests in equity securities (e.g. shares) that, so far as possible and practicable, make up the Index.
+  The Index aims to reflect the performance characteristics of a subset of securities within the MSCI World Index (Parent Index) with a minimum volatility profile, subject
+  to certain risk diversification and carbon reduction exposure constraints, and which comply with the index provider’s environmental, social and governance (ESG)
+  criteria. The Index excludes companies from the Parent Index based on the index provider’s ESG criteria as outlined in the benchmark index description of the Fund in
+  the Fund’s prospectus.
+  Following the application of the ESG criteria, the constituents of the Index are selected, using a minimum volatility strategy, from the Parent Index based on estimates
+  of the risk profile and expected volatility of each constituent, and the correlation between all constituents in the Parent Index. This selection process is subject to
+  certain risk diversification, carbon reduction exposure and ESG score improvement constraints, relative to the Parent Index.
+  The Parent Index measures the performance of equity markets in developed countries worldwide. Companies are included in the Parent Index based on the proportion
+  of their shares in issue that are available for purchase by international investors.
+  The Fund uses optimising techniques to achieve a similar return to the Index. These techniques may include the strategic selection of certain securities that make up
+  the Index or other securities which provide similar performance to certain constituent securities. These may also include the use of financial derivative instruments
+  (FDIs) (i.e. investments the prices of which are based on one or more underlying assets). FDIs may be used for direct investment purposes.
+  The Fund adopts a best-in-class approach to sustainable investing, meaning it is expected to invest in the best issuers from an ESG perspective (based on the ESG
+  criteria of the Index) within each relevant sector of activities covered by the Index.
+  The Fund may also engage in short-term secured lending of its investments to certain eligible third parties to generate additional income to off-set the costs of the
+  Fund.
+  Recommendation: This Fund is suitable for medium to long term investment, though the Fund may also be suitable for shorter term exposure to the Index.
+  Your shares will be accumulating shares (i.e. income will be included in their value).
+  Your shares will be denominated in US Dollar, the Fund's base currency.
+  The shares are listed on one or more stock exchanges and may be traded in currencies other than their base currency. The performance of your shares may be
+  affected by this currency difference. In normal circumstances, only authorised participants (e.g. select financial institutions) may deal in shares (or interests in shares)
+  directly with the Fund. Other investors can deal in shares (or interests in shares) daily through an intermediary on stock exchange (s) on which the shares are traded.
+  Indicative net asset value is published on relevant stock exchanges websites.
+For more information on the Fund, Share Class, risks and charges, please see the Fund's prospectus, available on the product pages at www.blackrock.com
+
+Risk and Reward Profile
+ Lower risk                                                                      Higher risk          - There is no guarantee that the Benchmark Index aim to provide exposure to
+ Typically lower rewards                                             Typically higher rewards           securities with low volatility characteristics from within the Parent will be met.
+                                                                                                        “Minimum volatility” in the Fund’s name refers to its underlying index
+                                                                                                        exposure and not to its trading price, which may experience volatility.
+                                                                                                      - The benchmark index only excludes companies engaging in certain activities
+  This indicator is based on historical data and may not be a reliable indication of                    inconsistent with ESG criteria if such activities exceed the thresholds
+  the future risk profile of this Share Class.                                                          determined by the index provider. Such ESG screening may reduce the
+  The risk category shown is not guaranteed and may change over time.                                   potential investment universe and this may adversely affect the value of the
+  The lowest category does not mean risk free.                                                          Fund’s investments compared to a fund without such screening.
+  The Share Class is rated five due to the nature of its investments which include                    Particular risks not adequately captured by the risk indicator include:
+  the risks listed below. These factors may impact the value of the Share Class or                    - Counterparty Risk: The insolvency of any institutions providing services such
+  expose the Share Class to losses.                                                                     as safekeeping of assets or acting as counterparty to derivatives or other
+  - The value of equities and equity-related securities can be affected by daily                        instruments, may expose the Share Class to financial loss.
+    stock market movements. Other influential factors include political, economic
+    news, company earnings and significant corporate events.
+
+
+
+
+The benchmark is the intellectual property of the index provider. The Share Class is not sponsored or endorsed by the index provider. Please refer to the Fund's prospectus for full disclaimer.
+
+=== pdf p.2 ===
+Charges
+The charges are used to pay the costs of running the Share Class, including the                     ** To the extent the Fund undertakes securities lending to reduce costs, the
+costs of marketing and distributing it. These charges reduce the potential growth of                Fund will receive 62.5% of the associated revenue generated and the remaining
+your investment.                                                                                    37.5% will be received by BlackRock as the securities lending agent. As
+*Not applicable to secondary market investors. Investors dealing on a stock                         securities lending revenue sharing does not increase the costs of running the
+exchange will pay fees charged by their stock brokers. Such charges are publicly                    Fund, this has been excluded from the ongoing charges.
+available on exchanges on which the shares are listed and traded, or can be                          One-off charges taken before or after you invest
+obtained from stock brokers.
+                                                                                                     Entry Charge                                                                  None*
+*Authorised participants dealing directly with the Fund will pay related transaction
+costs including, on redemptions, any applicable capital gains tax (CGT) and other                    Exit Charge                                                                   None*
+taxes on underlying securities.                                                                       This is the maximum that might be taken out of your money before it is invested or
+                                                                                                      before proceeds of your investments are paid out.
+The ongoing charges figure is based on the fixed annualised fee charged to the
+Share Class in accordance with the Fund’s prospectus. This figure excludes portfolio                 Charges taken from the Share Class over each year
+trade related costs, except costs paid to the depositary and any entry/exit charge                   Ongoing Charges                                                             0.30%**
+paid to an underlying collective investment scheme (if any).                                         Charges taken from the Share Class under certain conditions
+                                                                                                     Performance Fee                                                                 None
+
+Past Performance
+Past performance is not a guide to future                       Historic performance to 31 December 2025
+performance.
+The chart shows the Share Class's annual
+performance in USD for each full calendar year over
+the period displayed in the chart. It is expressed as a
+percentage change of the Share Class's net asset
+value at each year-end. The Fund was launched in
+2020. The Share Class was launched in 2020.
+Performance is shown after deduction of ongoing
+charges. Any entry/exit charges are excluded from
+the calculation.
+
+† Benchmark:MSCI World Minimum Volatility
+                                                                                                   2021                 2022                 2023               2024                2025
+Advanced Select Index
+                                                                   Fund                             16.0                -11.4                    10.4           10.5                10.9
+                                                                   Benchmark †                      16.3                -11.4                    10.1           10.6                10.9
+
+Practical Information
+  The depositary of the Fund is State Street Custodial Services (Ireland) Limited.
+  Further information about the Fund and the Share Class can be obtained from the latest annual report and half-yearly reports of iShares VI plc. These documents are
+  available free of charge in English and certain other languages. These can be found, along with other information, such as details of the key underlying investments of
+  the Share Class and share prices, on the iShares website at www.ishares.com or by calling +44 207-743-1500 or from your broker or financial adviser.
+  Investors should note that the tax legislation that applies to the Fund and Share Class may have an impact on the personal tax position of your investment.
+  The Fund is a sub-fund of iShares VI plc, an umbrella structure comprising different sub-funds. The Fund has one or more share classes. This document is specific to
+  the Fund and Share Class stated at the beginning of this document. However, the prospectus, annual and half-yearly reports are prepared for the umbrella.
+  iShares VI plc may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant parts
+  of the Fund's prospectus.
+  The indicative intra-day net asset value of the Share Class is published on relevant stock exchanges websites.
+  Under Irish law, iShares VI plc has segregated liability between its sub-funds (i.e. the Fund’s assets will not be used to discharge the liabilities of other sub-funds within
+  iShares VI plc). In addition, the Fund's assets are held separately from the assets of other sub-funds. Assets and liabilities specific to a share class would be
+  attributable to only that share class, however there is no segregation of liabilities between share classes under Irish law.
+  Switching of shares between the Fund and other sub-funds within iShares VI plc is not available to investors. Only Authorised Participants dealing directly with the
+  Fund may switch shares between share classes of the Fund subject to meeting certain conditions in the Fund's prospectus.
+  The Remuneration Policy of the Management Company, which describes how remuneration and benefits are determined and awarded, and the associated governance
+  arrangements, is available at www.blackrock.com/Remunerationpolicy or on request from the registered office of the Management Company.
+
+
+
+
+This Fund and its manager, BlackRock Asset Management Ireland Limited, are authorised in Ireland and regulated by the Central Bank of Ireland.
+This Key Investor Information is accurate as at 09 February 2026
+

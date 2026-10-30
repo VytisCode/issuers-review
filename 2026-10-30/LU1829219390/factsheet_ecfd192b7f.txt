@@ -1,0 +1,332 @@
+=== pdf p.1 ===
+       Amundi Euro Stoxx Banks UCITS ETF Acc
+                                                                                                                                                                                                             FACTSHEET
+
+                                                                                                                                                                                                             Marketing
+                                                                                                                                                                                                           Communication
+ EQUITY ■
+                                                                                                                                                                                                              30/09/2026
+
+Objective and Investment Policy
+
+  The Fund is an index-tracking UCITS passively managed. The investment objective of the Fund is to track both the upward and the downward evolution of the Euro STOXX®
+  Banks Index (the Benchmark Index") denominated in Euros and representative of the performance of euro zone's banks while minimizing the volatility of the difference
+  between the return of the Fund and the return of the Benchmark Index (the "Tracking Error"). The anticipated level of tracking error in normal market conditions is indicated in
+  the prospectus. Additional information about the Benchmark Index can be found at: www.stoxx.com The Benchmark Index is a net total return index. A net total return index
+  calculates the performance of the index constituents on the basis that any dividends or distributions are included in the index returns. The Fund seeks to achieve its objective
+  via a direct replication, by investing primarily in the securities comprising the Benchmark Index. To optimize the Benchmark Index replication, the Fund may use a sampling
+  replication strategy, and may also engaged in securities lending. Updated composition of the Fund holdings is available on www.amundietf.com. In addition, the indicative net
+  asset value is published on the Reuters and Bloomberg pages of the Fund, and might also be mentioned on the websites of the stock exchanges where the Fund is listed.
+  The Fund is eligible to the French Equity Saving Scheme (PEA), and as consequence, a minimum of 75% of the Fund assets are invested in diversified equities issued in the
+  European Union.
+
+Performances from 30/09/2016 to 30/09/2026 (Source : Fund Admin)                                                                                                                Risk indicators (Source: Fund Admin)
+
+     600                                                                                                                                                                                                                      Inception to
+                                                                                                                                                                                                          1 year 3 years
+                                                                                                                                                                                                                                 date *
+                                                                                                                                                                                 Portfolio volatility * 22.16% 21.80%           28.98%
+     400
+                                                                                                                                                                                 Benchmark
+                                                                                                                                                                                                        22.10% 21.78%            29.00%
+                                                                                                                                                                                 volatility
+                                                                                                                                                                                 Ex-post Tracking
+                                                                                                                                                                                                        0.32% 0.46%               0.41%
+                                                                                                                                                                                 Error
+     200                                                                                                                                                                         Sharpe ratio            1.74   2.13               0.37
+                                                                                                                                                                                * Volatility is a statistical indicator that measures an asset’s
+                                                                                                                                                                                variations around its average value. For example, market
+                                                                                                                                                                                variations of +/- 1.5% per day correspond to a volatility of
+        0                                                                                                                                                                       25% per year. The higher the volatility, the higher the risk.
+                                                                                                                                                                                The Tracking Error indicator measures the performance's
+          /16
+
+                  /17
+
+                          /17
+
+                                  /18
+
+                                          /18
+
+                                                  /19
+
+                                                          /19
+
+                                                                  /20
+
+                                                                          /20
+
+                                                                                  /21
+
+                                                                                          /21
+
+                                                                                                  /22
+
+                                                                                                          /22
+
+                                                                                                                  /23
+
+                                                                                                                          /23
+
+                                                                                                                                  /24
+
+                                                                                                                                          /24
+
+                                                                                                                                                  /25
+
+                                                                                                                                                          /25
+
+                                                                                                                                                                  /26
+
+                                                                                                                                                                          /26
+
+
+
+
+                                                                                                                                                                                difference between the fund and the benchmark
+        09
+
+                03
+
+                        09
+
+                                03
+
+                                        09
+
+                                                03
+
+                                                        09
+
+                                                                03
+
+                                                                        09
+
+                                                                                03
+
+                                                                                        09
+
+                                                                                                03
+
+                                                                                                        09
+
+                                                                                                                03
+
+                                                                                                                        09
+
+                                                                                                                                03
+
+                                                                                                                                        09
+
+                                                                                                                                                03
+
+                                                                                                                                                        09
+
+                                                                                                                                                                03
+
+                                                                                                                                                                        09
+
+
+
+
+                                                                        Portfolio            Benchmark
+
+Cumulative returns* (Source: Fund Admin)
+
+                            YTD                  1 month             3 months                1 year                3 years                5 years              Since
+ Since                   31/12/2025             31/08/2026          30/06/2026             30/09/2025            29/09/2023             30/09/2021          12/12/2013
+ Portfolio                21.93%                  -1.38%               6.31%                38.95%                225.63%                308.02%             292.55%
+ Benchmark                21.28%                  -1.49%               6.20%                37.96%                216.37%                291.10%             266.72%
+ Spread                    0.66%                  0.12%                0.11%                 0.99%                 9.26%                 16.92%               25.83%
+
+Calendar year performance* (Source: Fund Admin)
+
+                         2025   2024   2023   2022   2021    2020   2019    2018   2017   2016
+ Portfolio              89.81% 31.24% 30.84% 0.54% 41.02% -22.85% 17.01% -30.74% 14.21% -4.32%
+ Benchmark              88.27% 29.91% 29.49% -0.12% 40.59% -23.32% 16.07% -31.01% 13.97% -4.60%
+ Spread                 1.53%  1.33%  1.35% 0.66% 0.42%     0.46%  0.94%   0.27%  0.24% 0.28%
+
+* Source : Amundi. The above cover complete periods of 12 months for each calendar year. Past performance is no predictor of current and future
+results and does not guarantee future yield . Any losses or gains do not take into consideration any costs, commissions and fees incurred by the
+investor in the issue and buyout of the shares (e.g. taxes, brokerage fees or other commissions deducted by the financial intermediary). If performance
+is calculated in a currency other than the euro, any losses or gains generated can thereby be affected by exchange rate fluctuations (both upward and
+downward). The discrepancy accounts for the performance difference between the portfolio and the index.
+
+
+
+
+                                                                                                ■ amundietf.com
+                                                                                        For "retail" investors information
+
+=== pdf p.2 ===
+       Amundi Euro Stoxx Banks UCITS ETF Acc
+                                                                                                                                                                         FACTSHEET
+
+                                                                                                                                                                          Marketing
+
+EQUITY ■                                                                                                                                                                Communication
+                                                                                                                                                                         30/09/2026
+
+
+Risk & Reward Profile (SRRI) (Source: Fund Admin)
+                                                                   We have classified this product as 5 out of 7, which is a medium-high risk class. This rates the potential losses
+                                                                   from future performance at a medium-high level, and poor market conditions will likely impact our capacity to pay
+                                                                   you. Additional risks: Market liquidity risk could amplify the variation of product performances. This product does
+                                                                   not include any protection from future market performance so you could lose some or all of your investment.
+                                                                   Beside the risks included in the risk indicator, other risks may affect the Sub-Fund’s performance. Please refer to
+   Lower risk, potentially lower rewards
+                                                                   the MULTI UNITS LUXEMBOURG prospectus.
+   Higher risk, potentially higher rewards
+
+The SRRI represents the risk and return profile as
+presented in the Key Investor Information Document
+(KIID). The lowest category does not imply that there is
+no risk. The SRRI is not guaranteed and may change
+over time.
+
+
+
+
+Characteristics (source: Amundi)
+
+ VL                                                                                                                                               A : 392.55 EUR
+ Assets Under Management (AUM)                                                                                                              6,483.76 ( million EUR )
+ Management fees and other administrative or operating costs *                                                                                          0.30%
+ NAV and AUM as of                                                                                                                                  30/09/2026
+ ISIN code                                                                                                                                      A : LU1829219390
+ Replication type                                                                                                                                     Physical
+ Benchmark                                                                                                                                100% EURO STOXX BANK
+ Type of shares                                                                                                                                   Accumulation
+ Fund structure                                                                                                                          SICAV under Luxembourg law
+ UCITS compliant                                                                                                                                        UCITS
+ Management Company                                                                                                                         Amundi Luxembourg SA
+ Administrator                                                                                                                      SOCIETE GENERALE LUXEMBOURG
+ Custodian                                                                                                                          SOCIETE GENERALE LUXEMBOURG
+ Independent auditor                                                                                                                             DELOITTE AUDIT
+ Share-class inception date                                                                                                                          08/11/2018
+ First NAV                                                                                                                                         100.00 ( EUR )
+ Date of the first NAV                                                                                                                               12/12/2013
+ Share-class reference currency                                                                                                                          EUR
+ Minimum investment to the secondary market                                                                                                          1 Share(s)
+ Frequency of NAV calculation                                                                                                                            Daily
+ Fiscal year end                                                                                                                                     September
+
+* For more information regarding the full set of fees borne by the fund, please refer to its Key Information Document (KID). Transaction fees and commissions may apply when trading ETFs.
+
+
+
+
+                                                             Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                            AMF approved Portfolio Management Company- GP number 04000036
+                                                                   Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+
+=== pdf p.3 ===
+     Amundi Euro Stoxx Banks UCITS ETF Acc
+                                                                                                                                                                                    FACTSHEET
+
+
+                                                                                                                                                                                     Marketing
+
+EQUITY ■                                                                                                                                                                           Communication
+                                                                                                                                                                                    30/09/2026
+
+
+
+
+Index Data (Source : Amundi)
+
+
+Description of the Index                                                                                  Top 10 benchmark holdings (source : Amundi)
+
+ The EURO STOXX Banks Net Return EUR Index measures the performance of                                                                                                        % of assets (Index)
+ banks (as defined by the Industry Classification Benchmark) in the euro zone and                         BANCO SANTANDER SA MADRID                                                 14.03%
+ provides geographic exposure to Austria, Finland, France, Germany, Greece,                               BANCO BILBAO VIZCAYA ARGENTA                                              10.49%
+ Ireland, Italy, Luxemburg, Netherlands, Portugal and Spain. The index is a sub-                          UNICREDIT SPA                                                             9.43%
+ index of the EURO STOXX® Index (the “Parent Index”), which measures the                                  INTESA SANPAOLO                                                           7.85%
+ performance of the large-cap, mid-cap and small-cap equities of the euro zone’s
+                                                                                                          BNP PARIBAS                                                               7.55%
+ developed economies.
+                                                                                                          ING GROEP NV                                                              6.80%
+Information (Source: Amundi)                                                                              DEUTSCHE BANK NAMEN                                                       4.53%
+ Asset class : Equity                                                                                     NORDEA BANK ABP                                                           4.47%
+ Exposure : Eurozone                                                                                      SOCIETE GENERALE                                                          3.96%
+                                                                                                          CAIXABANK SA                                                              3.36%
+                                                                                                          Total                                                                     72.47%
+ Holdings : 33
+                                                                                                          For illustrative purposes only and not a recommendation to buy or sell securities.
+
+
+
+
+Geographical breakdown (for illustrative purposes only - Source: Amundi)                                  Benchmark Sector breakdown (for illustrative purposes only - Source : Amundi)
+
+
+         Spain                                                                     30.26 %
+
+
+           Italy                                                   23.31 %
+
+
+        France                                 12.98 %
+
+
+    Netherlands                       8.92 %
+
+      Germany                  5.78 %
+
+
+        Finland              4.47 %
+                                                                                                                Financials                                                              100.00 %
+        Austria              4.40 %
+
+
+        Greece           3.40 %
+
+
+        Ireland          3.20 %
+
+       Belgium          2.46 %
+
+       Portugal     0.81 %
+
+
+        Others
+
+                   0%     5%          10 %      15 %     20 %       25 %        30 %    35 %                                 0%         20 %          40 %          60 %   80 %     100 %       120 %
+                                             Benchmark                                                                                                     Benchmark
+
+
+
+
+                                                                Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                               AMF approved Portfolio Management Company- GP number 04000036
+                                                                      Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+
+=== pdf p.4 ===
+    Amundi Euro Stoxx Banks UCITS ETF Acc
+                                                                                                                                                            FACTSHEET
+
+
+                                                                                                                                                             Marketing
+
+EQUITY ■                                                                                                                                                   Communication
+                                                                                                                                                            30/09/2026
+
+
+Listing data (source : Amundi)
+                  Place             CCY        Bloomberg Ticker                        Bloomberg iNAV                      Reuters RIC                  Reuters iNAV
+             Berne Exchange         CHF            BNKE BW                                   -                              BNKE.BN                          -
+         Deutsche Boerse (Xetra)    EUR            LYBK GY                                BNKEEUIV                          LYBK.DE                  BNKEEURINAV=SOLA
+              Euronext Paris        EUR            BNKE FP                                BNKEEUIV                          BNKE.PA                  BNKEEURINAV=SOLA
+                   LSE              GBP            BNKE LN                                BNKPGBIV                           BNKE.L                  BNKEGBPINAV=SOLA
+        Bolsa Mexicana de Valores   MXN           BNKEN MM                                   -                             BNKEN.MCO                         -
+              Euronext Milan        EUR            BNKE IM                                BNKEEUIV                          BNKE.MI                  BNKEEURINAV=SOLA
+
+
+
+
+                                          Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                         AMF approved Portfolio Management Company- GP number 04000036
+                                                Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+

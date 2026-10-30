@@ -1,0 +1,140 @@
+=== pdf p.1 ===
+Key Investor Information
+This document provides you with key investor information about this fund. It is not marketing material. The information is
+required by law to help you understand the nature and the risks of investing in this fund. You are advised to read it so you can
+make an informed decision about whether to invest.
+
+UBS MSCI EM Climate Paris Aligned UCITS ETF (the "Fund"), a sub-fund of UBS (Irl) ETF plc (the "Company"), class
+USD acc (ISIN: IE00BN4Q1675)
+This Fund's management company is UBS Asset Management (Europe) S.A., a subsidiary of UBS AG.
+Objectives and investment policy
+The Fund is passively managed and seeks to track performance of the MSCI             Investors other than authorized participants may not subscribe for shares
+Emerging Markets Climate Paris Aligned PAB USD Net Total Return Index                directly with UBS (Irl) ETF plc, but may purchase and sell shares, through an
+(the 'Index'). The Index is an equity index denominated in USD and includes          intermediary, on one of the stock exchanges listed for the share class on the
+large and mid-cap stocks worldwide across emerging market countries. The             website www.ubs.com/etf. In exceptional circumstances, direct
+Index is designed support investors seeking to reduce their exposure to              redemptions with UBS (Irl) ETF plc, are however possible on each dealing
+transition and physical climate risks and who wish to pursue opportunities           day (as set out in the relevant supplement to the prospectus). Authorized
+arising from the transition to a lower-carbon economy while aligning with            participants may subscribe and redeem shares with the UBS (Irl) ETF plc
+the Paris Agreement requirements. The Index seeks to achieve this through            under the conditions detailed in the relevant authorized participant
+overweighting companies on a credible path to de-carbonisation or offering           agreement
+green solutions, while also underweighting companies that are poorly                 Fund income is not paid out, but instead will be reinvested.
+positioned for the transition to a lower-carbon economy and by limiting
+exposure to growing physical risk. This Fund will seek to hold the majority of
+the securities of the Index, with the approximate weightings as in the Index,
+so that essentially, the portfolio of the Fund will be a near mirror-image of
+the components of the Index. The Fund may also hold securities which are
+not comprised in its Index, including, for example, securities in respect of
+which there has been an announcement or it is expected that they will
+shortly be included in the Index. The Fund may, for the purpose of reducing
+risk, reducing costs of generating additional capital or income, use
+derivative instruments. The use of derivative instruments may multiply the
+gains or losses made by the Fund on a given investment of on its
+investments generally.
+This sub-fund promotes environmental and/or social characteristics and has
+a sustainable investment objective.
+The Fund will not enter into any securities lending.
+The return of the fund depends mainly on the performance of the tracked
+index.
+
+Risk and reward profile
+    Lower risk                                                     Higher risk       Further material risks
+    Typically lower rewards                         Typically higher rewards         5 The Fund may use derivatives which can reduce investor risks or give rise
+                                                                                       to market risks as well as potential loss due to failure of counterparty.
+                                                                                     5 Pronounced fluctuations in price are characteristic of emerging
+    1            2          3          4           5           6           7           economies. Other characteristics include specific risks such as lower
+                                                                                       market transparency, regulatory hurdles, illiquidity of markets as well as
+More about the risk category                                                           political and social challenges.
+5 The risk category is based on the estimated future volatility of the Fund.         5 Every fund reveals specific risks, a detailed and comprehensive list of risk
+  The method used for this estimate depends on the fund type and                       descriptions can be found in the prospectus.
+  historical data.                                                                   5 The Fund is subject to the risk that its climate-focused investment strategy
+5 Historical performance is not a reliable indicator for future performance.           may select or exclude securities of certain issuers for reasons other than
+5 The risk category allocated is not static and may vary over time.                    investment performance considerations. Climate Criteria and risks are
+5 Allocation to the lowest risk category does not mean that an investment              considered as part of the Index selection process.
+  in this fund is free of risk.
+Why is this Fund in this Category?
+The Fund is in risk category 6 because the volatility of its returns is very high.
+The Fund invests in equities and may therefore be subject to high volatility.
+This requires an elevated risk tolerance and capacity. The value of a unit may
+fall below the purchase price.
+
+
+
+
+The benchmark is the intellectual property of the index provider. The Share Class is not sponsored or endorsed by the index provider. Please refer to the
+Fund's prospectus for full disclaimer.
+
+=== pdf p.2 ===
+Charges
+The charges you pay are used to pay the costs of running the Fund, including the costs of marketing and distributing it. These charges reduce the potential
+growth of your investment.
+
+One-off charges taken before or after you invest¹                                                   The ongoing charges figure is based on the last twelve months prior to the
+Entry charge                                                                             0.00%²     preparation of this document. This figure may vary from year to year. It
+                                                                                                    generally excludes:
+Exit charge                                                                              0.00%²     5 Portfolio transaction costs, except in the case of an entry/ exit charge paid
+Charges taken from the fund over a year                                                               by the Fund when buying or selling units in another collective investment
+                                                                                                      undertaking
+Ongoing charges                                                                           0.16%
+                                                                                                    For more information, please see the charges section of the Fund's
+Charges taken from the fund under certain specific conditions                                       prospectus, which is available at www.ubs.com/etf.
+Performance fee                                                                             none
+¹          This is the maximum that might be taken out of your money before it is invested /
+           before the proceeds of your investment are paid out.
+²          Investors who deal on secondary markets will pay fees as charged by their stock
+           brokers. These fees are publicly available on exchanges on which the shares are listed
+           and traded and may also be obtained from the relevant stock brokers. Transaction
+           costs related to dealing directly with the Fund will be payable by authorised
+           participants.
+
+Past performance
+                                                                                                       Performance in the past is not a reliable indicator of future
+                                                                                                       results.
+                                                                                                       The chart shows the class's investment returns calculated as percentage
+                                                                                                       year-end over year-end change of the class net asset value. In general
+                                                                                                       any past performance takes account of all ongoing charges, but not the
+                                                                                                       entry charge. If the sub-fund is managed against a benchmark, its return
+                                                                                                       is also shown.
+% return
+
+
+
+
+                                                                                                       The class was launched in 2021.
+                                                                                                       The past performance is calculated in USD.
+
+
+
+
+                USD acc - IE00BN4Q1675
+                Benchmark: MSCI Emerging Markets Climate Paris Aligned PAB USD Net
+                Total Return Index
+
+
+Practical information
+Depositary                                                                                          Tax Legislation
+State Street Custodial Services (Ireland) Limited                                                   The Company is subject to the tax laws and regulations of Ireland.
+Further Information                                                                                 Depending on your own country of residence, this might have an impact on
+UBS (Irl) ETF plc (the "Company") is established as a segregated portfolio                          your investment. For further details you should consult a tax adviser.
+company and can have multiple sub-funds. As a matter of Irish law, the                              Liability Statement
+assets of the Fund will not be available to satisfy the liabilities of another                      UBS Asset Management (Europe) S.A. may be held liable solely on the basis
+sub-fund of the Company. Information about the Fund and available share                             of any statement contained in this document that is misleading, inaccurate
+classes, the Company's full prospectus as well as the latest annual and semi-                       or inconsistent with the relevant parts of the prospectus of the Fund.
+annual reports, can be obtained free of charge, in English on request in
+writing from the Administrator at 78 Sir John Rogerson's Quay, Dublin 2,
+Ireland. Details of the remuneration policy of the management company
+relating to how remuneration and benefits are calculated, the people
+responsible for awarding the remuneration and benefits and the
+composition of the remuneration committee (where such a committee
+exists) are available on www.ubs.com/ame-regulatorydisclosures. A
+paper copy of the full policy is available free of charge upon request.
+The currency of the share class is USD.
+The latest Net Asset Value, details of the Fund's portfolio and indicative
+intra-day Net Asset Value of the Fund is available at www.ubs.com/etf.
+
+
+
+
+This Company is authorised in Ireland and regulated by the Central Bank of Ireland.
+UBS Asset Management (Europe) S.A. is authorised in Luxembourg and regulated by the Commission de Surveillance du Secteur Financier (CSSF).
+This key investor information is accurate as at 19/10/2026.
+

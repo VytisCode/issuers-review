@@ -1,0 +1,212 @@
+=== pdf p.1 ===
+                                                                                     Factsheet
+                                                                                     Marketing Material
+
+
+
+
+Xtrackers MSCI Pacific ex Japan UCITS ETF 1C
+Ein Teilfonds von Xtrackers
+
+Dieses Informationsblatt entspricht dem Stand vom 30. Juni 2026 sofern nicht anders angegeben.
+
+
+
+
+Überblick                                                                                              Risiken von Exchange Traded Funds (ETFs)
+̵ Direkte Anlage in Aktien aus dem Pazifikraum außer Japan                                             Der Wert einer Aktienanlage ist von einer Reihe von Faktoren abhängig, zu
+̵ Bietet ein diversifiziertes Engagement in Large- und Mid-Cap-Aktien aus                              denen unter anderem Marktbedingungen, aktuelle Wirtschaftslage, Branche,
+  Industrieländern im pazifischen Raum, ohne Japan, mit 85 % Marktvertretung.                          geografische Region sowie politische Ereignisse gehören.
+  Engagement in Australien, Hongkong, Neuseeland und Singapur                                          Der Fonds ist den Bewegungen an den Aktienmärkten in einem einzelnen Land
+                                                                                                       oder einer einzelnen Region ausgesetzt, die durch politische bzw. wirtschaftliche
+                                                                                                       Entwicklungen, staatliche Maßnahmen oder Naturereignisse nachteilig
+Fonds Informationen                                                                                    beeinflusst werden können, von denen ein breiter diversifizierter Fonds nicht
+                                                                                                       beeinträchtigt wäre.
+ ISIN                                          LU0322252338                                            Der Fonds unterliegt einem Währungsrisiko. Devisenmärkte können sehr volatil
+                                                                                                       sein. An Devisenmärkten können starke Kursschwankungen innerhalb sehr
+ Währung der Anteilsklasse                     USD
+                                                                                                       kurzer Zeiträume auftreten und dazu führen, dass in Bezug auf Ihre Anlage ein
+ Fondswährung                                  USD                                                     Verlust entsteht.
+ Auflegungstermin des Fonds                    20.01.2009                                              Der Fonds ist nicht kapitalgeschützt. Der Wert Ihrer Investition kann sowohl
+                                                                                                       sinken als auch steigen. Die bisherige Wertentwicklung ist kein zuverlässiger
+ Auflegungstermin der Anteilsklasse 20.01.2009
+                                                                                                       Indikator für die zukünftige Wertentwicklung.
+ Gesellschaftssitz                             Luxemburg                                               Folgendes gilt, wenn Sie Fondsanteile in einer anderen Währung als der Währung
+ Portfoliomethode                              Direkte Replikation (Physisch)                          des Fonds oder der Anteilsklasse zeichnen oder abrechnen: Bitte beachten Sie
+                                                                                                       das Währungsrisiko. Sie erhalten Zahlungen in einer anderen Währung, sodass
+                                               State Street Bank International GmbH,
+ Verwahrstelle                                                                                         Ihre endgültige Rendite vom Wechselkurs zwischen den beiden Währungen
+                                               Luxembourg Branch
+                                                                                                       abhängen wird.
+ Pauschalgebühr¹                               0,25% p.a.
+ Ertragsverwendung                             Thesaurierend
+ Nettoinventarwert (NAV)                       USD 89,61                                               Index Informationen
+ Fondsvermögen                                 USD 1,28 Milliarden                                      Index Name                           MSCI PACIFIC EX JAPAN TRN INDEX
+ Im Umlauf befindliche Anteile                                                                          Index Provider                       MSCI Inc.
+                                               7,97 Millionen
+ insgesamt
+                                                                                                        Bloomberg Symbol                     NDDUPXJ
+ Jährliche Rendite aus
+                                               0,0047%                                                  Index Basiswährung                   USD
+ Wertpapierleihgeschäften²
+                                                                                                        Anzahl der Positionen im Index       121
+¹ Ein Glossar der Begriffe finden Sie unter etf.dws.com
+² Bezogen auf die jährlichen Erträge aus Wertpapierleihgeschäften im vergangenen Jahr oder seit        Quelle: Indexanbieter
+Beginn der Wertpapierleihgeschäfte durch den Fonds (vor weniger als einem Jahr), dividiert durch den
+Durchschnitt der vom Fonds verwalteten Vermögenswerte
+
+
+Performance                                                                                            Eigenschaften des Index
+» Historische Entwicklung (online)                                                                     Der MSCI Pacific ex Japan Index (NTR, USD) zielt darauf ab, die Wertentwicklung
+                                                                                                       des folgenden Markts abzubilden:
+                                                                                                       ̵ Unternehmen mit hoher und mittlerer Kapitalisierung aus Industrieländern der
+                                                                                                         Pazifikregion außer Japan
+Notierungs- und Handelsinformationen                                                                   ̵ vierteljährliche Überprüfung
+                                         Bloomberg               Reuters          Handels-             Weitere Informationen zur Index-, Auswahl- und Gewichtungsmethodik sind
+ Börse                                                                                                 unter www.msci.com verfügbar.
+                                         Ticker                  RIC              währung
+ Borsa Italiana                          XPXJ IM                 XPXJ.MI            EUR
+ London Stock Exchange                   XPXD LN                 XPXD.L             USD
+ London Stock Exchange                   XPXJ LN                 XPXJ.L             GBX
+ SIX - Swiss Exchange                    XPXD SW                 XPXD.S             CHF
+ Stuttgart Stock Exchange                XPXJ GS                 XPXJ.SG            EUR
+ XETRA                                   XPXJ GY                 XPXJ.DE            EUR
+
+=== pdf p.2 ===
+Die 10 größten ETF-Bestandteile                                                    Über uns
+                                                                                   Xtrackers, die globale Plattform für ETF- und ETC-Lösungen der DWS,
+ Wertpapier                                  ISIN                Gewichtung
+                                                                                   begann 2007 mit ETFs auf große Leitindizes.
+ BHP GROUP LTD                               AU000000BHP4             9,50%
+                                                                                   Inzwischen ist Xtrackers mit einem verwalteten UCITS-Vermögen von
+ COMMONWEALTH BANK OF AUSTRALIA              AU000000CBA7             8,59%
+                                                                                   aktuell rund 336 Mrd. Euro1 einer der größten und etabliertesten ETF-
+ DBS GROUP HOLDINGS LTD                      SG1L01001701             4,79%        Anbieter in Europa2.
+ AIA GROUP LTD                               HK0000069689             4,36%
+                                                                                   Mit rund 300 Produkten bietet Xtrackers ein breites Spektrum an
+ WESTPAC BANKING CORPORATION CORP            AU000000WBC1             3,81%        effizienten, qualitativ hochwertigen ETFs und ETCs auf alle wichtigen
+ NATIONAL AUSTRALIA BANK LTD                 AU000000NAB4             3,64%        Anlageklassen wie Aktien, Anleihen und Rohstoffe. Die Produktpalette
+ ANZ GROUP HOLDINGS LTD                      AU000000ANZ3             3,35%        wird kontinuierlich erweitert.
+ WESFARMERS LTD                              AU000000WES1             3,26%        Derzeit sind Xtrackers Produkte an elf Börsen weltweit gelistet.
+ OVERSEA-CHINESE BANKING LTD                 SG1S04926220             2,89%        1
+                                                                                       Quelle: DWS, Stand 30.06.2026
+ MACQUARIE GROUP LTD DEF                     AU000000MQG1             2,86%        2
+                                                                                       Quelle: Deutsche Bank ETF Research
+
+Quelle: DWS
+
+
+
+
+Mehr Informationen zu Xtrackers by DWS                                             Zusätzliche Information
+DWS International GmbH                E-Mail: Xtrackers@dws.com                    Ein Glossar der Begriffe finden Sie unter etf.dws.com.
+Xtrackers Team                        Website: www.Xtrackers.com
+Mainzer Landstrasse 11-17
+60329 Frankfurt am Main
+
+
+
+Haftungsausschluss
+Dieses Dokument ist als Marketingmitteilung gedacht und begründet keine            Unterlagen zusammen mit den aufsichtsrechtlichen Informationen sowie
+rechtsverbindlichen Verpflichtungen seitens der DWS Group GmbH & Co.               den aktuellen Gründungsunterlagen des Fonds in deutscher Sprache bei
+KGaA und/oder der mit ihr verbundenen Unternehmen (DWS).                           der DWS Investment GmbH, Mainzer Landstraße 11-17, 60329 Frankfurt am
+Dieses Dokument stellt keine Anlageberatung dar. Ohne Einschränkung                Main oder in englischer Sprache bei der DWS Investment S.A., 2, Boulevard
+stellt dieses Dokument kein Angebot, keine Aufforderung zur Abgabe eines           Konrad Adenauer, L-1115 Luxemburg, in gedruckter Form kostenlos oder
+Angebots und keine Empfehlung zum Abschluss einer Transaktion dar.                 in den jeweiligen Sprachen bei Deutschland: https://etf.dws.com/de-de/
+Bevor ein Anleger eine Anlageentscheidung trifft, muss er mit oder                 Österreich: https://etf.dws.com/de-at/ Belgien: https://etf.dws.com/en-
+ohne Unterstützung eines Anlageberaters abwägen, ob die von der DWS                be/ Frankreich: https://etf.dws.com/fr-fr/ Italien: https://etf.dws.com/it-it/
+beschriebenen oder zur Verfügung gestellten Anlagen und Strategien im              Luxemburg: https://etf.dws.com/en-lu/ Spanien: https://etf.dws.com/es-es/
+Hinblick auf seine besonderen Anlagebedürfnisse, Ziele und finanziellen            Niederlande: https://etf.dws.com/nl-nl/ Schweden: https://etf.dws.com/sv-
+Verhältnisse angemessen sind.                                                      se/ und UK/Irland: https://etf.dws.com/en-gb/. Eine Zusammenfassung der
+                                                                                   Anlegerrechte finden Sie auf www.etf.dws.com unter “Über uns - Wie kann
+Die in diesem Dokument enthaltenen Informationen stammen aus Quellen,
+                                                                                   ich mich beschweren?”.
+die wir für zuverlässig und aktuell halten. Die Richtigkeit oder Vollständigkeit
+der Quellen kann jedoch nicht garantiert werden.                                   VERGANGENE LEISTUNGEN SIND KEINE GARANTIE FÜR ZUKÜNFTIGE
+                                                                                   ERGEBNISSE.
+Gemäß den Angaben im Verkaufsprospekt unterliegt der Vertrieb der in
+diesem Dokument genannten Produkte den Beschränkungen der jeweiligen
+Rechtsordnungen. Dieses Dokument und die darin enthaltenen Informationen           © 2026 DWS International GmbH, gegebenenfalls handelnd durch ihre
+dürfen nur in Rechtsordnungen verteilt und veröffentlicht werden, in               Niederlassungen
+denen eine solche Verteilung und Veröffentlichung nach dem in diesen
+Rechtsordnungen geltenden Recht zulässig ist. Die direkte oder indirekte
+Verbreitung dieses Dokuments ist in den USA sowie an oder für Rechnung von
+US-Personen und Personen mit Wohnsitz in den USA verboten.
+                                                                                   Index Haftungsausschluss
+Xtrackers ist ein Organismus für gemeinsame Anlagen in Wertpapieren                Die MSCI Pacific ex Japan UCITS ETF WERDEN NICHT VON MSCI INC.
+(OGAW) gemäß den geltenden Gesetzen und Vorschriften und wurde als                 (“MSCI”) ODER EINEM SEINER ANGESCHLOSSENEN UNTERNEHMEN,
+offene Investmentgesellschaft mit variablem Kapital und getrennter Haftung         INFORMATIONSANBIETER ODER EINER ANDEREN DRITTPARTEI, die an
+zwischen den einzelnen Teilfonds gegründet.                                        der Zusammenstellung, Berechnung oder Erstellung eines MSCI-Index
+Die Anleger müssen Anteile an Xtrackers OGAW-ETFs auf einem                        beteiligt ist oder damit in Verbindung steht, gesponsert, befürwortet,
+Sekundärmarkt mit Hilfe eines Vermittlers (z. B. eines Börsenmaklers) kaufen       verkauft oder beworben (zusammenfassend die “MSCI-PARTEIEN”). DIE
+und in der Regel auch wieder verkaufen, wofür Gebühren anfallen können.            MSCI-INDIZES SIND DAS AUSSCHLIESSLICHE EIGENTUM VON MSCI. MSCI
+Darüber hinaus können Anleger beim Kauf von Anteilen mehr als den aktuellen        UND DIE NAMEN DER MSCI-INDIZES SIND DIENSTLEISTUNGSMARKEN
+Nettoinventarwert zahlen und beim Verkauf weniger als den aktuellen                VON MSCI ODER SEINEN VERBUNDENEN UNTERNEHMEN UND WURDEN
+Nettoinventarwert erhalten. Bevor sie eine Anlageentscheidung treffen,             FÜR DIE NUTZUNG FÜR BESTIMMTE ZWECKE VOM PRINCIPAL LIZENZIERT.
+sollten Anleger die Risikofaktoren im Prospekt und im Basisinformationsblatt       KEINE DER MSCI-PARTEIEN GIBT GEGENÜBER DEM EMITTENTEN
+lesen.                                                                             ODER DEN EIGENTÜMERN DIESER FONDS ODER EINER ANDEREN
+Die steuerliche Behandlung der Xtrackers OGAW-ETFs hängt von den                   NATÜRLICHEN ODER JURISTISCHEN PERSON EINE AUSDRÜCKLICHE ODER
+individuellen Umständen des jeweiligen Anlegers ab.                                STILLSCHWEIGENDE ZUSICHERUNG ODER GARANTIE HINSICHTLICH DER
+Xtrackers wurde im Großherzogtum Luxemburg gegründet, ist im Luxemburger           RATSAMKEIT EINER ANLAGE IN FONDS IM ALLGEMEINEN ODER IN DIESE
+Handels- und Gesellschaftsregister unter der Nummer B-119.899 eingetragen          FONDS IM BESONDEREN ODER DER FÄHIGKEIT EINES MSCI-INDEXES,
+und hat seinen eingetragenen Sitz in 49, avenue J.F. Kennedy, L-1855               DIE ENTSPRECHENDE AKTIENMARKTENTWICKLUNG ABZUBILDEN. MSCI
+Luxemburg. Die DWS Investment S.A. fungiert als Verwaltungsgesellschaft            ODER SEINE VERBUNDENEN UNTERNEHMEN SIND DIE LIZENZGEBER
+von Xtrackers. Die Investmentgesellschaft kann beschließen, die für den            BESTIMMTER MARKEN, DIENSTLEISTUNGSMARKEN UND HANDELSNAMEN
+Vertrieb dieses Fonds getroffenen Vereinbarungen zu kündigen.                      SOWIE DER MSCI-INDIZES, DIE VON MSCI OHNE BERÜCKSICHTIGUNG
+                                                                                   DIESER FONDS ODER DER EMITTENTEN ODER EIGENTÜMER DIESER
+Vollständige Informationen über den Fonds, einschließlich aller Risiken
+                                                                                   FONDS ODER ANDERER NATÜRLICHER ODER JURISTISCHER PERSONEN
+und Kosten, finden Sie im jeweils aktuellen Verkaufsprospekt. Diese
+                                                                                   BESTIMMT, ZUSAMMENGESTELLT UND BERECHNET WERDEN. KEINE DER
+stellen zusammen mit dem jeweiligen Basisinformationsblatt die einzigen
+                                                                                   MSCI-PARTEIEN IST VERPFLICHTET, DIE BEDÜRFNISSE DES EMITTENTEN
+verbindlichen Verkaufsunterlagen für den Fonds dar. Der Anleger erhält diese
+
+=== pdf p.3 ===
+ODER EIGENTÜMERS DIESER FONDS ODER EINER ANDEREN NATÜRLICHEN
+ODER JURISTISCHEN PERSON BEI DER BESTIMMUNG, ZUSAMMENSTELLUNG
+ODER BERECHNUNG DER MSCI-INDIZES ZU BERÜCKSICHTIGEN. KEINE DER
+MSCI-PARTEIEN IST FÜR DIE BESTIMMUNG DES ZEITPUNKTS, DER PREISE
+ODER DER MENGEN DIESER FONDS, DIE AUSGEGEBEN WERDEN SOLLEN,
+ODER FÜR DIE BESTIMMUNG ODER BERECHNUNG DER GLEICHUNG ODER
+DES ENTGELTS, IN DIE DIESE FONDS ZURÜCKGENOMMEN WERDEN KÖNNEN,
+VERANTWORTLICH ODER HAT SICH DARAN BETEILIGT. Darüber hinaus hat
+keine der MSCI-Parteien irgendeine Verpflichtung oder Haftung gegenüber
+dem Emittenten oder den Eigentümern dieser Fonds oder irgendeiner
+anderen Person oder Einrichtung im Zusammenhang mit der Verwaltung,
+Vermarktung oder dem Angebot von MSCI Pacific ex Japan UCITS ETF.
+
+OBWOHL MSCI DIE INFORMATIONEN ZUR AUFNAHME IN ODER ZUR
+VERWENDUNG BEI DER BERECHNUNG DER MSCI-INDIZES AUS QUELLEN
+BEZIEHT, DIE MSCI FÜR ZUVERLÄSSIG HÄLT, ÜBERNIMMT KEINE DER MSCI-
+PARTEIEN EINE GEWÄHRLEISTUNG ODER GARANTIE FÜR DIE ORIGINALITÄT,
+GENAUIGKEIT UND/ODER VOLLSTÄNDIGKEIT EINES MSCI-INDEX ODER
+DARIN ENTHALTENER DATEN. KEINE DER MSCI-PARTEIEN ÜBERNIMMT
+EINE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIE FÜR DIE
+ERGEBNISSE, DIE DER EMITTENT DER FONDS, DIE EIGENTÜMER DER FONDS
+ODER EINE ANDERE NATÜRLICHE ODER JURISTISCHE PERSON DURCH
+DIE VERWENDUNG EINES MSCI-INDEXES ODER DARIN ENTHALTENER
+DATEN ERZIELEN KÖNNEN. KEINE DER MSCI-PARTEIEN ÜBERNIMMT EINE
+HAFTUNG FÜR FEHLER, AUSLASSUNGEN ODER UNTERBRECHUNGEN VON
+ODER IN VERBINDUNG MIT EINEM MSCI-INDEX ODER DARIN ENTHALTENEN
+DATEN. FERNER GIBT KEINE DER MSCI-PARTEIEN AUSDRÜCKLICHE ODER
+STILLSCHWEIGENDE GARANTIEN JEGLICHER ART AB, UND DIE MSCI-
+PARTEIEN LEHNEN HIERMIT AUSDRÜCKLICH ALLE GARANTIEN DER
+MARKTGÄNGIGKEIT UND EIGNUNG FÜR EINEN BESTIMMTEN ZWECK IN
+BEZUG AUF JEDEN MSCI-INDEX UND ALLE DARIN ENTHALTENEN DATEN AB.
+OHNE EINSCHRÄNKUNG DES VORSTEHENDEN HAFTEN DIE MSCI-PARTEIEN
+IN KEINEM FALL FÜR DIREKTE, INDIREKTE, BESONDERE, STRAFENDE,
+FOLGE- ODER ANDERE SCHÄDEN (EINSCHLIESSLICH ENTGANGENER
+GEWINNE), SELBST WENN SIE ÜBER DIE MÖGLICHKEIT SOLCHER SCHÄDEN
+INFORMIERT WURDEN.
+
+Kein Käufer, Verkäufer oder Inhaber dieses Wertpapiers, Produkts
+oder Fonds oder eine andere natürliche oder juristische Person darf
+einen MSCI-Handelsnamen, ein MSCI-Warenzeichen oder eine MSCI-
+Dienstleistungsmarke verwenden oder darauf verweisen, um dieses
+Wertpapier zu sponsern, zu unterstützen, zu vermarkten oder zu fördern,
+ohne sich zuvor mit MSCI in Verbindung zu setzen, um zu klären, ob die
+Erlaubnis von MSCI erforderlich ist. Unter keinen Umständen darf eine
+natürliche oder juristische Person ohne vorherige schriftliche Genehmigung
+von MSCI eine Zugehörigkeit zu MSCI behaupten.
+

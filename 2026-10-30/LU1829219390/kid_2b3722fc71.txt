@@ -1,0 +1,207 @@
+=== pdf p.1 ===
+                                                                   Key Investor Information
+ This document provides you with key investor information about this Sub-Fund. It is not marketing material. The information is required
+   by law to help you understand the nature and the risks of investing in this Sub-Fund. You are advised to read it so you can make an
+                                              informed decision about whether to invest.
+
+
+                                    Amundi Euro Stoxx Banks UCITS ETF Acc
+                               A Sub-Fund of the SICAV MULTI UNITS LUXEMBOURG
+                                                                   ISIN code: (A) LU1829219390
+                                                Managed by Amundi Luxembourg SA, a subsidiary of Amundi Group
+
+ Objectives and Investment Policy
+The Fund is an index-tracking UCITS passively managed.
+The investment objective of the Fund is to track both the upward and the downward evolution of the Euro STOXXÂ® Banks Index (the Benchmark Index") denominated in Euros
+and representative of the performance of euro zone's banks while minimizing the volatility of the difference between the return of the Fund and the return of the Benchmark Index
+(the "Tracking Error").
+The anticipated level of tracking error in normal market conditions is indicated in the prospectus.
+Additional information about the Benchmark Index can be found at: www.stoxx.com
+The Benchmark Index is a net total return index. A net total return index calculates the performance of the index constituents on the basis that any dividends or distributions are
+included in the index returns.
+The Fund seeks to achieve its objective via a direct replication, by investing primarily in the securities comprising the Benchmark Index.
+To optimize the Benchmark Index replication, the Fund may use a sampling replication strategy, and may also engaged in securities lending.
+The potential use of these techniques is published on Lyxor's website: www.amundietf.com.
+Updated composition of the Fund holdings is available on www.amundietf.com.
+In addition, the indicative net asset value is published on the Reuters and Bloomberg pages of the Fund, and might also be mentioned on the websites of the stock exchanges
+where the Fund is listed.
+The Fund is eligible to the French Equity Saving Scheme (PEA), and as consequence, a minimum of 75% of the Fund assets are invested in diversified equities issued in the
+European Union.
+The share currency is the Euro (EUR).
+Invested financial instruments: International equities, FDI.
+Dividend Policy : the accumulation share automatically retains, and re-invests, all attributable income within the Sub-Fund; thereby accumulating value in the price of the
+accumulation shares.
+The minimum recommended holding term is 5 years.
+The Sub-Fund's shares are listed and traded on one or more stock exchanges. In normal circumstances, you may deal in shares during the trading hours of the stock exchanges,
+provided that the Market Makers can maintain market liquidity. Only authorised participants (e.g. selected financial institutions) may deal in shares directly with the Sub-Fund on the
+primary market. Further details are provided in the prospectus of the UCITS.
+
+ Risk and Reward Profile
+ Lower risk,                                                                         Higher risk, Important risks materially relevant to the Sub-Fund which are not adequately
+                                                                                                    captured by the indicator:
+ Typically lower reward                                                   Typically higher reward        Counterparty risk: represents the risk of default of a market participant to fulfil
+                                                                                                         its contractual obligations vis-à-vis your portfolio.
+      1              2            3            4               5         6              7                Operational risk: this is the risk of default or error within the different service
+                                                                                                         providers involved in managing and valuing your portfolio.
+
+Le niveau de risque de ce fonds reflète sa thématique d’investissement sur les actions de la         The occurrence of any of these risks may have an impact on the net asset value of
+zone euro.                                                                                           your portfolio.
+Historical data may not be a reliable indication for the future.
+Risk category shown is not guaranteed and may shift over time.
+The lowest category does not mean 'risk free'.
+Your initial investment does not benefit from any guarantee or protection.
+
+
+
+
+                                                                                                                                                                                    1
+    Amundi Euro Stoxx Banks UCITS ETF Acc
+
+=== pdf p.2 ===
+Charges
+The charges you pay are used to pay the costs of running the Sub-Fund, including the costs of marketing and distributing it. These charges reduce the potential growth of your
+investment.
+                                                                                      The entry, exit and conversion charges shown are maximum figures applied on the
+  One-off charges taken before or after you invest
+                                                                                      primary market only. In some cases you might pay less - you can find this out from your
+  Entry charge                   Not Applicable for secondary market                  financial adviser.
+                                 investors*
+                                                                                      The ongoing charges figure is based on expenses for the current year. This figure may
+  Exit charge                    Not Applicable for secondary market                  vary from year to year. It excludes:
+                                 investors*                                                Performance fees
+  Conversion charge              Not applicable                                            Portfolio transaction costs, except in the case of an entry/exit charge paid by the
+  This is the maximum that might be taken out of your money before the                     Sub-Fund when buying or selling units in another collective investment undertaking.
+ proceeds of your investment are paid out.                                              The ongoing charges displayed are estimated. For each accounting period,
+ Charges taken from the Sub-Fund over a year                                            the Sub-Fund's annual report will display the exact amount.
+ Ongoing charges              0.30%                                                     *Secondary Market: because the Sub-Fund is an ETF, Investors who are not Authorized
+ Charges taken from the Sub-Fund under certain specific conditions                      Participants will generally only be able to buy or sell shares on the secondary market.
+                                                                                        Accordingly, investors will pay brokerage fees and/or transaction costs in connection
+ Performance fee              None
+                                                                                        with their dealings on stock exchange(s). These brokerage fees and/or transaction costs
+                                                                                        are not charged by, or payable to, the Sub-Fund nor the Management Company but to
+                                                                                        the investor own intermediary.
+                                                                                        In addition, the investors may also bear the costs of "bid-ask" spreads; meaning the
+                                                                                        difference between the prices at which shares can be bought and sold.
+                                                                                        Primary Market: Authorized Participants dealing directly with the Sub-Fund will pay
+                                                                                        related primary market transaction costs.
+For more information about charges, please see charges paragraph of the prospectus of the UCITS, which is available at: amundi.com or amundietf.com.
+
+Past Performance
+                       A                      B                                                                                                                                          The chart has a limited value as a guide to future performance.
+                                                                                                                                                                                         The annualised performances displayed in this diagram are
+                                                                                                                                                                         89.8%
+                                                                                                                                                                                         calculated net of all charges taken by the Sub-Fund.
+
+                                                                                                                                                                                 88.3%
+                                                                                                                                                                                         The Sub-Fund was launched on November 8, 2018. The Share
+   100
+   %.
+                                                                                                                                                                                         Class was launched on November 8, 2018.
+                                                                                                        41.0%
+
+                                                                                                                40.6%
+
+
+
+
+    80
+                                                                                                                                                         31.2%
+                                                                                                                                       30.8%
+
+
+
+
+                                                                                                                                                                 29.9%
+                                                                                                                                                29.5%
+
+
+
+
+    60
+                                                                    17.0%
+
+                                                                            16.1%
+
+
+
+
+                                                                                                                                                                                         The reference currency is the Euro.
+                              14.2%
+
+                                      14.0%
+
+
+
+
+    40
+                                                                                                                        0.5%
+
+
+
+
+    20                                                                                                                                                                                   When the Benchmark Index is denominated in a currency other
+     0
+                                                                                                                                                                                         than the Sub-Fund currency, the performance of the Benchmark
+                                                                                                                               -0.1%
+           -4.3%
+
+                      -4.6%
+
+
+
+
+   -20
+                                                                                      -22.9%
+
+                                                                                               -23.3%
+
+
+
+
+   -40                                                                                                                                                                                   Index is converted into the Sub-Fund's currency for comparison
+                                                  -30.7%
+
+                                                           -31.0%
+
+
+
+
+                                                                                                                                                                                         purpose. FOREX transactions are executed on a daily basis (WM
+               2016               2017                 2018             2019               2020             2021           2022            2023              2024            2025
+                                                                                                                                                                                         Reuters 5 pm rate on the relevant date).
+
+                   Amundi Euro Stoxx Banks UCITS ETF Acc                            Benchmark
+
+    A : Until 04/06/2017, performances of the Fund disclosed herein correspond to an indirect replication of the Benchmark Index. From 05/06/2017,
+    performances of the Fund disclosed herein correspond to a direct replication of the Benchmark Index.
+    B : Until 08/11/2018, the performance of the Fund indicated corresponds to that the sub-funds of MULTI UNITS France - Lyxor EURO STOXX Banks
+    (DR) UCITS ETF (the Absorbed fund). The latter was absorbed by the Fund on 08/11/2018.
+
+Practical Information
+    Name of the depositary: SOCIETE GENERALE LUXEMBOURG.
+    Further information about the UCITS (prospectus, periodical reports) can be obtained in English, free of charge, at the following address: Amundi Luxembourg, 5, Allée
+    Scheffer, L-2520 Luxembourg.
+    The details of the up-to-date remuneration policy, including, but not limited to, a description of how remuneration and benefits are calculated, the identity of persons
+    responsible      for     awarding       the      remuneration      and       benefits    are      available    by      means        of       the     following   website:
+    https://www.amundi.lu/retail/Local-Content/Footer/Quick-Links/Regulatory-information/Amundi and a paper copy will be made available free of charge upon request.
+    Other practical information (e.g. latest net asset value, Indicative net asset value, transparency policy and information about the asset composition of the Sub-Fund) can be
+    obtained on the internet site amundi.com or amundietf.com.
+    The UCITS contains a large number of other Sub-Funds and other classes which are described in the prospectus. Conversion into shares of another Sub-Fund of the UCITS
+    may be made, subject to the conditions of the prospectus.
+    Each Sub-Fund corresponds to a distinct part of the assets and liabilities of the UCITS. As a consequence, the assets of each Sub-Fund are exclusively available to satisfy the
+    rights of investors in relation to that Sub-Fund and the right of creditors whose claims have arisen in connection with the creation, the operation or the liquidation of that
+    Sub-Fund.
+    This document describes a Sub-Fund of the UCITS. The prospectus and periodical reports are prepared for the entire UCITS named at the beginning of this document.
+    The Luxembourg tax legislation applying to the UCITS may have an impact on the investor's personal tax position.
+    Amundi Luxembourg SA may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant
+    parts of the prospectus for the UCITS.
+                                                                                                                                               *********************
+This UCITS is authorised in Luxembourg and regulated by the Commission de Surveillance du Secteur Financier, Luxembourg (www.cssf.lu).
+Amundi Luxembourg SA is authorised in Luxembourg and regulated by the Commission de Surveillance du Secteur Financier, Luxembourg.
+This key investor information is accurate as at February 11, 2026.
+
+
+
+
+       Amundi Euro Stoxx Banks UCITS ETF Acc                                                                                                                                                                                                    2
+

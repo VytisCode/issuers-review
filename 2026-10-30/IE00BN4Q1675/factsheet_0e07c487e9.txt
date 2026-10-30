@@ -1,0 +1,675 @@
+=== pdf p.1 ===
+                                                                                                                     Für Marketingzwecke
+                                                                                                                     Ausgabe Deutschland
+                                                                                                                     Daten per Ende Juni 2026, sofern nicht
+                                                                                                                     anders angegeben
+
+
+
+
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+Fonds Factsheet
+UBS Exchange Traded Funds > UBS (Irl) ETF plc
+
+Fondsbeschreibung                                                  Performance (Basis USD, nach Abzug von Gebühren)1
+• Das Anlageziel besteht darin, die Kurs- und                                Auf der Grundlage von Monatsenddaten auf 100 umbasiert                               in %
+  Renditeentwicklung des MSCI Emerging Markets                         200                                                                                               +50
+  Climate Paris Aligned PAB Index (des «Index»                         180                                                                                               +40
+  dieses Teilfonds) nach Abzug von Gebühren
+                                                                       160                                                                                               +30
+  nachzubilden.
+• Der Fonds investiert im Allgemeinen in Aktien,                       140                                                                                               +20
+  die im Index enthalten sind. Die relativen
+                                                                       120                                                                                               +10
+  Gewichtungen der Unternehmen entsprechen
+  ihren Gewichtungen im Index.                                         100                                                                                                 0
+• Der Index erfüllt die Bestimmungen der EU Paris                       80                                                                                               -10
+  Aligned Benchmark (PAB).
+• Der Fonds wird passiv gemanagt.                                       60
+                                                                              07.2016 07.2017 07.2018 07.2019 07.2020 07.2021 07.2022 07.2023 07.2024 07.2025
+                                                                                                                                                                         -20
+
+                                                                             -06.2017 -06.2018 -06.2019 -06.2020 -06.2021 -06.2022 -06.2023 -06.2024 -06.2025 -06.2026
+Fondsname         UBS MSCI EM Climate Paris Aligned UCITS
+                                                            ETF
+                                                                                Fondsperformance nach Abzug von Gebühren (linke Skala)
+Anteilsklasse        UBS MSCI EM Climate Paris Aligned UCITS
+                                                                                Fondsperformance pro Jahr in % (nach Abzug von Gebühren) (rechte Skala)
+                                                  ETF USD acc
+                                                                                Indexentwicklung (Benchmark) (linke Skala)
+ISIN                                          IE00BN4Q1675
+WKN                                                  A2QNQL        Die Wertentwicklung in der Vergangenheit ist kein zuverlässiger
+UCITS V                                                       Ja   Indikator für zukünftige Ergebnisse. Stimmt die Währung eines
+Lancierungsdatum                                  05.08.2021       Finanzprodukts bzw. einer Finanzdienstleistung oder die Kosten
+Währung des Fonds / der                              USD/USD
+Anteilsklasse
+                                                                   nicht mit ihrer Referenzwährung überein, so kann sich die
+TER (Pauschale                                          0.16%      Rendite und/oder die Kosten aufgrund von
+Verwaltungskommission)                                             Währungsschwankungen erhöhen oder verringern.
+Name der                             UBS Asset Management
+Verwaltungsgesellschaft           (Europe) S.A., Luxembourg        in %                               05.08.2021       07.2022        07.2023        07.2024       07.2025
+Abschluss Rechnungsjahr                         31. Dezember                                            -06.2022      -06.2023       -06.2024       -06.2025      -06.2026
+Ausschüttung                                    Thesaurierung      Fonds (USD)                             -20.94         -0.34           7.90         15.73         41.27
+Replikationsmethode            Physisch + Optimiert (Aktien) /
+                                                                   Benchmark1                              -20.70         -0.25           8.37         15.89         41.26
+                                         Sampling (Anleihen)
+Vertreter des                   UBS Asset Management (UK)          Fonds (USD) inkl. max.
+                                                                                                 -20.94
+Portfoliomanagements                             Ltd., London      Ausgabeaufschlag
+Fondsdomizil                                             Irland    Die dargestellte Wertentwicklung berücksichtigt weder Kommissionen noch
+SFDR Ausrichtung                                          Art.9    Ausgabe- oder Rücknahmeaufschläge.
+                                                                   1   Diese Zahlenangaben beziehen sich auf die Vergangenheit. Quelle für sämtliche Daten und Grafiken
+Fondsstatistik                                                         (sofern nicht anders vermerkt): UBS Asset Management.
+                                                                   1   Index (Benchmark) in der Währung der Anteilsklasse (ohne Kosten)
+Inventarwert (USD, 30.06.2026)                            18.54
+Letzte 12 Monate (USD) – Höchst                           19.32    Indexbeschreibung
+Letzte 12 Monate (USD) – Tiefst                           13.12    Der MSCI EM Climate Paris Aligned PAB Index basiert auf dem MSCI Emerging
+Gesamtfondsvermögen (USD in Mio.)                       693.87     Markets Index, seinem übergeordneten Index, und umfasst Large- und Mid-Cap-
+Vermögen der Anteilsklasse (USD in Mio.)                693.87
+                                                                   Wertpapiere aus 24 Schwellenländern (Emerging Markets). Der Index soll
+                                                                   Anleger dabei unterstützen, ihr Engagement in Bezug auf Übergangs- und
+                                2 Jahre      3 Jahre    5 Jahre
+                                                                   physische Klimarisiken zu verringern und Chancen zu nutzen, die sich aus dem
+Volatilität1
+                                                                   Übergang zu einer kohlenstoffärmeren Wirtschaft ergeben, bei gleichzeitiger
+– Fonds                         18.32%      17.63%         k.A.
+                                                                   Ausrichtung an die Anforderungen des Pariser Übereinkommens.
+– Benchmark                     18.30%      17.62%         k.A.
+Tracking Error (ex post)         0.13%       0.19%         k.A.    Indexname                                     MSCI Emerging Markets Climate Paris Aligned PAB
+1 Annualisierte Standardabweichung                                                                                                   USD Net Total Return Index
+                                                                   Indextyp                                                                     Total Return Net
+                                                                   Anzahl der Indexkomponenten                                                               331
+                                                                   Bloomberg Ticker                                                                   MXEFCLPA
+                                                                   Reuters                                                                                   k.A.
+                                                                   Dividendenrendite1                                                                     1.80%
+                                                                   KGV                                                                                     21.87
+                                                                   Börsenkapitalisierung (USD in Mia)                                                   7 215.81
+                                                                   1   Die Rendite ist nicht garantiert.
+
+
+
+
+Weitere Informationen                                              Registrierung für den Vertrieb an die
+Telefon: +49 69 1369 1414                                          Öffentlichkeit
+Internet: www.ubs.com/deutschlandfonds                             AT, AU, CH, DE, DK, ES, FI, FR, GB, IE, IT,
+Kontaktieren Sie Ihren Kundenberater                               LI, LU, NL, NO, PT, SE
+                                                                                                                                                                          1¦3
+
+=== pdf p.2 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+
+Gewichtung nach Märkten (%)                                               10 grösste Aktienpositionen (%)
+                                Index                                                                                               Fonds
+Taiwan                                                          29.8      Taiwan Semiconductor Manufacturing Co Ltd                  16.6
+Republik Korea                                        18.3                Samsung Electronics Co Ltd                                  7.8
+China                                                 18.3                SK hynix Inc                                                7.0
+Indien                                       10.8                         Tencent Holdings Ltd                                        3.5
+                                                                          Delta Electronics Inc                                       2.4
+Brasilien                            4.2
+                                                                          MediaTek Inc                                                2.2
+Mexiko                              3.7
+                                                                          Bharat Electronics Ltd                                      1.4
+Südafrika                           3.5                                   Alibaba Group Holding Ltd                                   1.3
+Saudi Arabien                      2.9                                    Grupo Aeroportuario del Pacifico SAB de CV                  1.2
+Polen                              2.3                                    SK Square Co Ltd                                            1.2
+Übrige                                 6.2
+
+
+Sektorengagement (%)
+                                Index                                                                       Index
+Informations Technologie                                        46.7      Gesundheitswesen                     3.6
+Finanzwesen                                  17.6                         Immobilien                           2.7
+Industrie                             9.8                                 Basiskonsumgüter                     2.7
+Telekommunikationsdienste           6.5                                   Roh-, Hilfs- & Betriebsstoffe       2.5
+Nicht-Basiskonsumgüter              5.9                                   Versorgungsbetriebe                 2.1
+
+
+Vorteile                                                                  Risiken
+Die Kunden profitieren von der Flexibilität einer                         Dieser UBS Exchange Traded Fund investiert vor allem in
+börsennotierten Anlage.                                                   Aktien, die im MSCI Emerging Markets Climate Paris Aligned
+Anleger haben mit einer einzigen Transaktion Zugang zu                    PAB Index enthalten sind. Dieser Fonds eignet sich
+diesem Marktsegment.                                                      möglicherweise nicht für Anleger, die ihr Geld vor dem Ende
+Das Portfolio ist nach Ländern und Branchen diversifiziert und            der im Basisinformationsblatt zu diesem Produkt
+weist daher ein optimiertes Risiko-Ertrags-Profil auf.                    angegebenen empfohlenen Haltedauer wieder abziehen
+Der Fonds ist äusserst transparent und kosteneffizient.                   möchten. Nachhaltigkeitsrisiken sind Ereignisse oder
+UCITS-konformer Fonds.                                                    Bedingungen in den Bereichen Umwelt, Soziales oder
+                                                                          Unternehmensführung, die sich in Abhängigkeit vom
+                                                                          Engagement in Sektoren, Branchen und Unternehmen
+                                                                          wesentlich negativ auf die Rendite auswirken können.
+                                                                          Nachhaltigkeitsrisiko: das Risiko durch Ereignisse oder
+                                                                          Bedingungen in den Bereichen Umwelt, Soziales oder
+                                                                          Unternehmensführung, deren Eintreten wesentliche negative
+                                                                          Auswirkungen auf den Wert der Anlage haben könnten. Alle
+                                                                          Anlagen unterliegen Marktschwankungen. Der Fonds
+                                                                          unterliegt dem Risiko, dass seine klimaorientierte
+                                                                          Anlagestrategie Wertpapiere bestimmter Emittenten aus
+                                                                          anderen Gründen als Erwägungen der Anlagerendite
+                                                                          auswählt oder ausschliesst. Im Rahmen des
+                                                                          Indexauswahlprozesses werden Klimakriterien und -risiken
+                                                                          berücksichtigt. Jeder Fonds weist spezifische Risiken auf, die
+                                                                          unter ungewöhnlichen Marktbedingungen deutlich steigen
+                                                                          können. Der Nettoinventarwert des Fondsvermögens hängt
+                                                                          somit direkt von der Wertentwicklung des zugrunde
+                                                                          liegenden Index ab. Wertverluste, die durch eine aktive
+                                                                          Verwaltung verhindert werden könnten, werden nicht
+                                                                          aufgefangen.
+Notierung und Handelsinformationen
+Börse                       Handelswährung          Handelsstunden (Ortszeit)        Bloomberg Ticker     Reuters RIC   iNAV Bloomberg
+Borsa Italiana              EUR                     09:00h - 17:30h MEZ              EMPAB IM             EMPAB.MI      EMPAEUIV
+Deutsche Börse (XETRA)      EUR                     09:00h - 17:30h MEZ              AW12 GY              AW12.DE       EMPAEUIV
+SIX Swiss Exchange          USD                     09:00h - 17:30h MEZ              EMPA SW              EMPAB.S       EMPAUSIV
+
+
+
+
+                                                                                                                                         2¦3
+
+=== pdf p.3 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+
+
+
+
+Ihr Kapital ist Risiken ausgesetzt. Der Wert einer Investition kann sowohl fallen als auch steigen, und es ist möglich, dass Sie den ursprünglich eingesetzten
+Betrag nicht zurückerhalten. Bitte beachten Sie, dass zusätzliche Gebühren (z.B. Ausgabeauf- oder Rücknahmeabschläge) in Rechnung gestellt werden können.
+Nähere Angaben erhalten Sie von Ihrem Finanzberater. Vor einer Anlage sollten Anlegerinnen und Anleger das Basisinformationsblatt, den Prospekt sowie alle
+relevanten lokalen Angebotsunterlagen lesen und sich umfassend über die Risiken informieren. Anleger erwerben Anteile oder Aktien eines Fonds und nicht an
+einem bestimmten Basiswert, wie z.B. eines Gebäudes oder von Aktien eines Unternehmens. Definitionen von Finanzbegriffen finden Sie im Glossar unter
+www.ubs.com/am-glossary.
+
+Für Marketing- und Informationszwecke von UBS. UBS Fonds nach irischem Recht. Vorkehrungen die für den Vertrieb der erwähnten Fondsanteile getroffen wurden,
+können auf Initiative der Verwaltungsgesellschaft des/der Fonds gekündigt werden. Prospekte, Basisinformationsblätter (KID), die Statuten bzw. Vertragsbedingungen sowie die
+Jahres- und Halbjahresberichte stehen, wo anwendbar, zum Zwecke der Einsicht zur Verfügung. Kopien davon können in einer dem anwendbaren lokalen Recht entsprechenden
+Sprache kostenlos bei UBS Asset Management (Europe) S.A., 33A avenue J.F. Kennedy, 1855 Luxembourg und online unter www.fundinfo.com angefordert bzw. abgerufen
+werden. Das hier beschriebene Produkt entspricht Artikel 9.3 der Verordnung (EU) 2019/2088 über nachhaltigkeitsbezogene Offenlegungspflichten im
+Finanzdienstleistungssektor. Informationen zu nachhaltigkeitsrelevanten Aspekten gemäß dieser Verordnung finden Sie auf www.ubs.com/funds. Die Benchmark ist das geistige
+Eigentum des jeweiligen Indexanbieters. Der Fonds bzw. die Anteilsklasse wird vom Indexanbieter weder gesponsert noch unterstützt. Der Prospekt oder Prospektzusatz des
+Fonds enthält den vollständigen Haftungsausschluss. Investitionen in ein Produkt sollten nur nach gründlichem Studium des aktuellen Prospekts und des Basisinformationsblatts
+oder ähnlichen rechtlichen Unterlagen erfolgen. Bei jeder Anlageentscheidung sollten alle Merkmale oder Anlageziele des Produkts berücksichtigt werden, die im Prospekt oder
+ähnlichen rechtlichen Unterlagen beschrieben sind. Anleger erwerben Anteile oder Aktien eines Fonds und nicht an einem bestimmten Basiswert, wie z.B. eines Gebäudes oder
+von Aktien eines Unternehmens. Die im vorliegenden Dokument zusammengetragenen Informationen und erlangten Meinungen basieren auf vertrauenswürdigen Angaben aus
+verlässlichen Quellen, erheben jedoch keinen Anspruch auf Genauigkeit und Vollständigkeit hinsichtlich der im Dokument erwähnten Wertpapiere, Märkte und Entwicklungen.
+Allfällige Indizes, die in diesem Dokument erwähnt werden, werden nicht von UBS verwaltet. Mitglieder der UBS-Gruppe sind zu Positionen in den in diesem Dokument
+erwähnten Wertpapieren oder anderen Finanzinstrumenten sowie zu deren Kauf bzw. Verkauf berechtigt. Anteile der erwähnten UBS Fonds können in verschiedenen
+Gerichtsbarkeiten oder für gewisse Anlegergruppen für den Verkauf ungeeignet oder unzulässig sein und dürfen innerhalb der USA weder angeboten noch verkauft oder
+ausgeliefert werden. Die genannten Informationen sind weder als Angebot noch als Aufforderung zum Kauf bzw. Verkauf irgendwelcher Wertpapiere oder verwandter
+Finanzinstrumente zu verstehen. Die frühere Wertentwicklung ist kein verlässlicher Indikator für künftige Ergebnisse. Die berechnete Performance berücksichtigt alle Kosten auf
+Produktebene (laufende Kosten). Die Ein- und Ausstiegskosten, die sich negativ auf die Performance auswirken würden, werden nicht berücksichtigt. Wenn sich die zu zahlenden
+Gesamtkosten ganz oder teilweise von Ihrer Referenzwährung abweichen, können die Kosten aufgrund von Währungs- und Wechselkursschwankungen steigen oder sinken.
+Kommissionen und Kosten wirken sich negativ auf den Betrag der Anlage und die erwarteten Rendite aus. Sollte die Währung eines Finanzprodukts oder einer
+Finanzdienstleistung nicht mit Ihrer Referenzwährung übereinstimmen, kann sich die Rendite aufgrund der Währungs- und Wechselkursschwankungen erhöhen oder verringern.
+Diese Informationen berücksichtigen weder die spezifischen oder künftigen Anlageziele noch die steuerliche oder finanzielle Lage oder die individuellen Bedürfnisse des einzelnen
+                                                                                                                                                                                    1916243|1916242
+
+
+
+
+Empfängers. Die zukünftige Wertentwicklung unterliegt einer Besteuerung, die von der persönlichen Situation jedes Anlegers abhängig ist und sich in der Zukunft ändern kann.
+Die Angaben in diesem Dokument werden ohne jegliche Garantie oder Zusicherung zur Verfügung gestellt, dienen ausschliesslich zu Informationszwecken und sind lediglich zum
+persönlichen Gebrauch des Empfängers bestimmt. Das vorliegende Dokument darf ohne schriftliche Erlaubnis der relevanten UBS-Verwaltungsgesellschaft oder der relevanten
+lokalen Rechtseinheit von UBS (soweit zutreffend) – zu welchem Zweck auch immer – weder reproduziert noch weiterverteilt noch neu aufgelegt werden. Quelle für sämtliche
+Daten und Grafiken (sofern nicht anders vermerkt): UBS Asset Management. Eine Zusammenfassung der Anlegerrechte in englischer Sprache finden Sie online unter
+www.ubs.com/funds-regulatoryinformation. Weitere Erläuterungen zu Finanzbegriffen unter www.ubs.com/am-glossary.
+© UBS 2026. Das Schlüsselsymbol und UBS gehören zu den geschützten Marken von UBS. Alle Rechte vorbehalten.
+
+
+                                                                                                                                                                            3¦3
+
+=== pdf p.4 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF
+ESG-Bericht
+
+Die in diesem Dokument verwendeten Begriffe beziehen sich nicht auf regulatorische Definitionen oder
+Bestimmungen. Gegebenenfalls enthält dieses Dokument einen länderspezifischen Hinweis, der in Verbindung mit
+dem Factsheet zu lesen ist.
+
+ESG ist die Abkürzung für die Faktoren Environmental, Social and Governance (Umwelt, Soziales und Unternehmensführung).
+Anhand dieser Faktoren werden Unternehmen und Länder dahingehend beurteilt, welche Fortschritte sie im Hinblick auf
+Nachhaltigkeit bereits gemacht haben. Sobald genügend Daten zu diesen Faktoren vorliegen, können sie zur Bewertung und
+zum Vergleich von Vermögenswerten herangezogen werden. Zudem können sie bei der Entscheidung, welche Vermögenswerte
+gekauft, gehalten oder verkauft werden sollen, in den Anlageprozess einfliessen.
+
+
+Zusätzlich zu den spezifischen ESG-Merkmalen und / oder -Zielen des Fonds, die im Detail in den rechtlichen Dokumenten des
+Fonds aufgeführt sind, werden folgende Ansätze angewandt:
+
+   Ausschluss                                             ESG-Integration                             Stimmrechts-                              Engagement-Programm
+                                                                                                      ausübung
+
+Weitere Details finden Sie im Glossar. Nähere Angaben zu bestimmten ESG-Merkmalen und/oder -Zielen, einschliesslich Ausschlussschwellenwerten oder anderer verbindlicher
+Kriterien, entnehmen Sie bitte den Rechtsdokumenten des Fonds. Quelle: UBS Asset Management
+
+
+Die folgenden Abbildungen veranschaulichen wesentliche Nachhaltigkeitskennzahlen, die für Anlegerinnen und Anleger von
+Interesse sein könnten, aber unter Umständen nicht Teil des Anlageprozesses des Fonds sind. Diese Informationen sollen einen
+Vergleich mit anderen Finanzprodukten ermöglichen und Anleger bei der Beurteilung ihres Engagements in ESG-Themen
+unterstützen.
+
+
+
+Gewichtete durchschnittliche Kohlenstoffintensität,                                        Externe Fondsratings 1
+skaliert – Unternehmensemittenten
+(tCO2- Äquivalent pro Mio. USD Umsatz)
+
+
+                            79.7                            255.4
+                            Fonds                           Referenzindex                  1 Stand: 30.06.2026
+Tatsächliche Datenabdeckung Fonds: 100.0%                                                  Quelle: MSCI ESG Research
+
+Tatsächliche Datenabdeckung Referenzindex: 99.8%
+Quelle: MSCI ESG Research
+Referenzindex: MSCI Emerging Markets (net div. reinv.)
+
+
+
+
+ESG-Details der 10 grössten Aktienpositionen                                               MSCI ESG Scores, skaliert
+(in % des verwalteten Fondsvermögens)1                                                     (Gewichteter Durchschnitt des Engagements 0 bis 10)
+Name der Position (Aktien)                               Gewichtung          ESG Score
+Taiwan Semiconductor Manufacturing
+Co Ltd
+                                                                 16.6              7.9                                           6.6                  6.7
+                                                                                                                                    Fonds               Referenzindex
+Samsung Electronics Co Ltd                                         7.8             8.1
+SK hynix Inc                                                       7.0             7.4
+Tencent Holdings Ltd                                               3.5             6.3
+                                                                                           Environmental                           6.1                 5.8
+
+Delta Electronics Inc                                              2.4             7.7     Social                                  5.2                 5.4
+MediaTek Inc                                                       2.2             6.1     Governance                              5.6                 5.5
+Bharat Electronics Ltd                                             1.4             2.9     Tatsächliche Datenabdeckung Fonds: 99.8%
+Alibaba Group Holding Ltd                                          1.3             4.7     Tatsächliche Datenabdeckung Referenzindex: 99.5%
+Grupo Aeroportuario del Pacifico SAB                                                       Quelle: MSCI ESG Research
+                                                                   1.2             6.2
+de CV                                                                                      Referenzindex: MSCI Emerging Markets (net div. reinv.)
+
+SK Square Co Ltd                                                   1.2             6.9
+1 Dies stellt keine Empfehlung zum Kauf oder Verkauf von Wertpapieren dar.
+Quelle: MSCI ESG Research
+
+
+
+
+Reference index. Bei dem auf dieser Seite verwendeten Referenzindex handelt es sich um den übergeordneten Index, der sich von dem produktspezifischen
+Referenzindex unterscheidet, und nicht darauf ausgelegt ist, bestimmte ökologische oder soziale Merkmale zu berücksichtigen, die durch die Zusammensetzung des
+Finanzprodukts gefördert werden sollen.
+                                                                                                                                                                ESG-Bericht | 1:4
+
+=== pdf p.5 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF
+ESG-Bericht
+
+
+Überprüfung von Geschäftstätigkeiten und -standards                                          Aufschlüsselung nach MSCI ESG-Ratings
+(in % des verwalteten Fondsvermögens)
+                                                                                             60%
+
+
+              Verstoss gegen den 0.00
+              UN Global Compact                           0.65                               45%
+
+
+
+                     Erwachsenen- 0.00                                                       30%
+                      unterhaltung 0.00
+
+                                                                                             15%
+                       Abbau von 0.00
+                  Kraftwerkskohle                0.33
+                                                                                               0%
+                                                                                                         AAA     AA        A       BBB       BB        B       CCC    Ohne Bar-
+                                       0.00                                                                                                                           Rating mittel
+                              Tabak
+                                            0.18
+
+                                                                                                          Leader               Durchschnitt            Nachzügler
+                       Kontroverse 0.00                                                                                         Fonds                      Referenzindex
+                           Waffen                        0.59
+                                                                                             Die endgültigen branchenbereinigten ESG-Wertungen werden einem
+                                                                                             MSCI ESG-Rating zugeordnet: AAA/AA = Leader; A/BBB/BB =
+                                         Fonds                   Referenzindex               Durchschnitt; B/CCC = Nachzügler.
+                                                                                             Quelle: MSCI. Bestimmte Informationen © 2026 MSCI ESG Research LLC. Wiedergabe mit
+Quelle: MSCI ESG Research
+                                                                                             Genehmigung.
+Referenzindex: MSCI Emerging Markets (net div. reinv.)
+                                                                                             Referenzindex: MSCI Emerging Markets (net div. reinv.)
+
+
+
+Umsätze, die zu den aggregierten UN-Zielen für nachhaltige Entwicklung beitragen - UN SDGs
+(in % des Fonds AuM)1,2
+Die negativen Auswirkungen bestimmter Unternehmen auf die UN-SDGs sind nicht ausgewiesen. Wir arbeiten jedoch daran,
+diese Informationen bereitzustellen.
+UN-SDG-Nummer / Kategorie                                                                  UN-SDG-Nummer / Kategorie
+                                                             2.70                                     Industrie, Innovation und                                      6.59
+ 1                          Keine Armut                                                      9
+                                                           2.14                                                     Infrastruktur                          3.76
+                                                   0.45                                                                                      0.81
+ 2                          Kein Hunger                                                     10             Weniger Ungleichheit
+                                                   0.50                                                                                      0.83
+                       Gesundheit und                  1.45                                              Nachhaltige Städte und                 1.65
+ 3                                                                                          11
+                         Wohlergehen                0.86                                                            Gemeinden                0.68
+                                                 0.09                                                Nachhaltiger Konsum und                                         6.81
+ 4               Hochwertige Bildung                                                        12
+                                                 0.05                                                  nachhaltige Produktion                          3.27
+                                                 0.09                                                                                                      3.85
+ 5             Geschlechtergleichheit                                                       13                        Massnahmen)
+                                                 0.05                                                                                         0.96
+     Sauberes Wasser und saubere                  0.83                                                                                    0.24
+ 6                                                                                          14                 Leben unter Wasser
+             Sanitäreinrichtungen                0.34                                                                                     0.05
+             Bezahlbare und saubere                              3.37                                                                     0.00
+ 7                                                                                          15                      Leben an Land
+                            Energie                0.69                                                                                   0.00
+     Menschenwürdige Arbeit und                    0.81                                          Fonds                Referenzindex
+ 8
+           Wirtschaftswachstum                     0.83
+1 Die Differenz zwischen 100% und Fonds- / Referenzindexwerten ergibt sich aus Unternehmen, deren Umsatzerlöse von Produkten und Dienstleistungen mehr als 0% zu einem oder mehreren
+SDGs beitragen. In einigen Fällen kann die Summe aller Zahlen 100% des verwalteten Vermögens übersteigen, da Produkte und Dienstleistungen von Unternehmen für mehr als ein SDG
+zählen. Bewertungsdaten von MSCI ESG Research.
+2 Daten zu den UN-SDGs sind derzeit nur für Unternehmensemittenten verfügbar
+Quelle: MSCI ESG Research
+Referenzindex: MSCI Emerging Markets (net div. reinv.)
+
+
+Glossar
+
+Überprüfung von Geschäftstätigkeiten und -standards:                                         Ausschlüssen für weitere Informationen: (nur auf Englisch): ->
+Engagement in kontroversen Geschäftstätigkeiten bezeichnet                                   link
+ein Engagement in Unternehmen, deren Umsatz in dem
+entsprechenden Geschäftsfeld (Produktion) eine bestimmte                                     MSCI ESG-Scores werden von MSCI ESG Research
+Schwelle überschreitet. Link zu unserem Ansatz bei                                           bereitgestellt und auf einer Skala von 0 (niedrigster /
+                                                                                             schlechtester Score) bis 10 (höchster / bester Score)
+
+Reference index. Bei dem auf dieser Seite verwendeten Referenzindex handelt es sich um den übergeordneten Index, der sich von dem produktspezifischen
+Referenzindex unterscheidet, und nicht darauf ausgelegt ist, bestimmte ökologische oder soziale Merkmale zu berücksichtigen, die durch die Zusammensetzung des
+Finanzprodukts gefördert werden sollen.
+                                                                                                                                                                      ESG-Bericht | 2:4
+
+=== pdf p.6 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF
+ESG-Bericht
+
+gemessen. Der individuelle MSCI E-, S- und G-Score gibt                           finden Sie im UBS Asset Management Stewardship
+Aufschluss über die Widerstandsfähigkeit der Emittenten in                        Jahresbericht und in unserem Stewardship-Ansatz.
+Bezug auf ökologische, soziale oder die
+Unternehmensführung betreffende Risiken, die für die                              Zusammenstellung der ESG- / Kohlenstoffdaten: Die
+Branche am wesentlichsten sind. Der aggregierte MSCI ESG-                         ESG-Scores der Fondsbestände und des Referenzindex
+Score basiert auf diesen individuellen MSCI E-, S- und G-                         werden anhand ihrer jeweiligen individuellen Gewichtungen
+Scores, normalisiert sie aber relativ zu den                                      und ESG-Scores (Summenprodukt) aggregiert.
+Branchenwettbewerbern. Dies resultiert in einem gewichteten
+durchschnittlichen branchenbereinigten MSCI ESG-Score von                         Dachfonds-Anlagen, Derivate und Barmittel: Im Fonds
+branchenübergreifender Vergleichbarkeit.                                          genutzte Derivate und Dachfonds-Investments werden auf
+Die Kennzahl wird auf 100% skaliert, wenn die tatsächliche                        Look-through-Basis behandelt, das heisst, das wirtschaftliche
+Datenabdeckung über den definierten Schwellenwerten liegt                         Engagement im zugrunde liegenden Wertpapierkorb wird als
+– Festverzinsliche Wertpapiere: 50%; Aktien: 67%, Multi-                          tatsächliche Investition in die einzelnen Wertpapiere
+Asset: 50%. Andernfalls wird die Kennzahl mit "-"                                 angesehen, aus denen dieser Korb besteht. Im Fall von
+angegeben. Weitere Angaben finden Sie unter diesem link.                          Derivaten und Dachfonds auf Basis des breiten Marktes
+                                                                                  könnte dies zu minimalen Engagements in Wertpapieren
+Angewandte Nachhaltigkeitsansätze von UBS AM                                      führen, bei denen direkte Anlagen ausgeschlossen sind.
+Ausschluss: Strategien, anhand derer Wertpapiere aus Fonds                        Derivate wirken sich auf die Berechnungen von Kennzahlen
+ausgeschlossen werden, wenn sie nicht mit den Werten eines                        aus. Da viele der Berichterstattungsrahmen, die Anlegerinnen
+Anlegers im Einklang stehen. Beinhaltet massgeschneiderte                         und Anlegern derzeit zur Verfügung stehen, die Feinheiten
+Screening-Kriterien. Es gelten bestimmte Einschränkungen                          von Derivaten ausser Acht lassen, werden entsprechende
+hinsichtlich Aktivitäten und Schwellenwerten. Nähere                              Kennzahlen auf Basis angemessener Bemühungen
+Angaben entnehmen Sie bitte den Rechtsdokumenten des                              bereitgestellt.
+Fonds.                                                                            Portfolios, für die wir die Nachhaltigkeitskennzahlen
+ESG-Integration: Strategien, die ESG-Faktoren (Umweltschutz,                      ausweisen, können Barmittel enthalten.
+soziale Verantwortung und Unternehmensführung) in die                             Die in diesem Bericht offengelegten Informationen,
+fundamentale Finanzanalyse integrieren, um das Risiko-                            insbesondere was die Behandlung von Derivaten und
+Rendite-Profil zu verbessern. Dieser Ansatz hat unter                             Barmitteln betrifft, stimmen nicht unbedingt mit den
+Umständen nur begrenzte oder keine Auswirkungen auf die                           Anlagemerkmalen des Fonds und der Art seiner Verwaltung
+Portfoliozusammensetzung. Falls jedoch entsprechend den                           überein. Daher können die Nachhaltigkeitskennzahlen in
+rechtlichen Dokumenten des Fonds fondsspezifische                                 diesem Bericht von anderen UBS-Berichten abweichen, die
+Ausschlüsse im Hinblick auf die ESG-Integration oder Risiken                      zum gleichen Datum erstellt wurden.
+in Bezug auf das Nachhaltigkeitsprofil bestehen, könnte dies
+zu Veräusserungen und / oder einer geringeren                                     MSCI ESG Fondsratings sollen die ESG-Eigenschaften der
+Positionsgrösse innerhalb eines Portfolios führen.                                zugrunde liegenden Positionen eines Fonds messen, damit
+Stimmrechtsausübung: Unter «Abstimmung» versteht sich die                         Anlagefonds und ETFs auf einer Ratingskala von AAA bis CCC
+Art der Stimmrechtsausübung durch UBS Asset Management,                           eingestuft oder überwacht werden können. Weitere Angaben
+mit der sichergestellt werden soll, dass im besten finanziellen                   finden Sie unter diesem link.
+Interesse der Kunden gehandelt und eine langfristige
+Wertschöpfung unterstützt wird. Wir fördern eine solide                           Gewichtete durchschnittliche Kohlenstoffintensität –
+Unternehmensführung und verantwortungsbewusste                                    Unternehmensemittenten/Kohlenstoffintensität –
+Geschäftspraktiken bei den Unternehmen, in die wir im                             Staatliche Emittenten:
+Namen unserer Kunden investieren. Unser Ansatz trägt                              Diese Kennzahlen messen das Engagement eines Fonds in
+unseren internen Standards Rechnung, wie sie in der                               kohlenstoffintensiven Unternehmen und Staatsanleihen. Sie
+aktuellen «UBS Asset Management Corporate Governance &                            geben Aufschluss über potenzielle Risiken im Zusammenhang
+Proxy Voting Policy» dargelegt sind. Dies ist kein Hinweis                        mit dem Übergang zu einer kohlenstoffärmeren Wirtschaft,
+darauf, dass hinsichtlich der in diesem Portfolio gehaltenen                      da davon auszugehen ist, dass Unternehmen mit einer
+Unternehmen in einem bestimmten Zeitraum über                                     höheren Kohlenstoffintensität stärker mit
+nachhaltigkeitsbezogene Themen abgestimmt wurde.                                  kohlenstoffbezogenen Markt- und Regulierungsrisiken
+Engagement-Program: Wir betrachten Engagement als einen                           konfrontiert sind. Diese Kennzahlen sind auf alle
+wechselseitig vorteilhaften Dialog mit einem Emittenten /                         Anlageklassen anwendbar. Es handelt sich um die Summe der
+Unternehmen, mit dem Ziel, Informationen auszutauschen,                           Fondsgewichte und individuellen Kohlenstoffintensitäten
+das Verständnis zu vertiefen und zur Verbesserung der                             (Kohlenstoffemissionen Scope 1+2 / Mio. USD Umsatz oder
+Geschäftspraktiken und -leistungen beizutragen. Die                               BIP). Die Kennzahl wird auf 100% skaliert, wenn die
+Emittenten / Unternehmen, mit denen wir in einen                                  tatsächliche Datenabdeckung über den definierten
+Engagement-Dialog treten werden aus dem gesamten                                  Schwellenwerten liegt – Festverzinsliche Wertpapiere: 50%;
+Anlageuniversum nach einem Top-Down-Ansatz gemäss                                 Aktien: 67%, Multi-Asset: 50%. Andernfalls wird die
+unseren Prinzipien wie in unserem Stewardship-Ansatz                              Kennzahl mit "-" angegeben. Klassifizierungssystem zur
+beschrieben, von UBS Asset Management ausgewählt. Dies                            Trennung von Unternehmens- und staatlichen Emittenten:
+ist kein Hinweis darauf, dass ein nachhaltigkeitsbezogener                        Bloomberg-Barclays-Methode. Verbriefte Anleihen sind von
+Engagement-Dialog in Bezug auf Emittenten / Unternehmen                           der Berechnung ausgeschlossen. «Kein Engagement» für den
+in diesem Portfolio während eines bestimmten Zeitraums                            Fall, dass der Fonds in dem betreffenden Monat nicht in dem
+stattgefunden hat oder dass Emittenten / Unternehmen in                           jeweiligen Emittenten investiert ist. Weitere Angaben finden
+diesem Portfolio mit dem Ziel ausgewählt wurden, einen                            Sie unter diesem link.
+Engagement-Dialog zu führen. Informationen zur Auswahl                            Verteilung der MSCI ESG Ratings: Der endgültige
+der Emittenten / Unternehmen durch UBS Asset                                      sektorbereinigte ESG-Score des Portfolios wird in drei Rating-
+Management, zu den Engagement-Aktivitäten, zum                                    Kategorien unterteilt, wobei AAA/AA an Leader, A/BBB/BB an
+Priorisierungsprozess und zum Verständnis der Anliegen                            den Durchschnitt und B/CCC an Nachzügler vergeben wird.
+
+Reference index. Bei dem auf dieser Seite verwendeten Referenzindex handelt es sich um den übergeordneten Index, der sich von dem produktspezifischen
+Referenzindex unterscheidet, und nicht darauf ausgelegt ist, bestimmte ökologische oder soziale Merkmale zu berücksichtigen, die durch die Zusammensetzung des
+Finanzprodukts gefördert werden sollen.
+                                                                                                                                                ESG-Bericht | 3:4
+
+=== pdf p.7 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF
+ESG-Bericht
+
+Anschliessend wird dies mit der Rating-Aufschlüsselung des                                Ermittlung der Umsatzausrichtung berücksichtigt. Sie sind
+Referenzindex verglichen.                                                                 daher nicht in der Abbildung enthalten.
+
+Ausrichtung der Umsätze auf die UN-Ziele für                                              Passives ESG: Die Auswahl der Benchmark wird durch
+nachhaltige Entwicklung (UN-SDGs): Die 17 Ziele für                                       Überlegungen hinsichtlich der Portfolioumsetzung bestimmt.
+nachhaltige Entwicklung (Sustainable Development Goals,                                   Insbesondere geht es darum, den finanziellen Zielen und den
+SDGs) sind ein Handlungsaufruf an alle Länder, mehr                                       ESG-Zielen des Fonds genau Rechnung zu tragen. Bei passiv
+Wohlstand zu schaffen und dabei gleichzeitig den Planeten zu                              verwalteten Strategien wird eine ESG-Benchmark ausgewählt,
+schützen. Wir messen den Fonds im Vergleich zu seinem                                     um einen angemessenen Tracking Error und eine hohen
+Referenzindex anhand von 15 UN-SDGs. Diese werden auf                                     ESGAusrichtung gut gegeneinander abzuwägen. Um das
+Basis des Umsatzes aus Produkten und Dienstleistungen                                     Ausmass der ESG-Verbesserungen zu beurteilen, wird die
+gemessen und dargestellt, die einen positiven Beitrag zur                                 ESG-Performance des Fonds auch gegenüber einem
+Lösung der weltweit grössten sozialen und ökologischen                                    ausgewählten breiten Marktindex gemessen, der dem
+Herausforderungen leisten. Aufgrund ihres Charakters                                      übergeordneten Anlageuniversum möglichst genau
+werden die UN-SDGs 16 und 17 derzeit nicht bei der                                        entspricht, auf dem die ESG-Benchmark basiert.
+
+
+
+
+Wichtige Informationen über nachhaltige Anlagestrategien
+Nachhaltige Anlagestrategien versuchen, die Faktoren Umwelt, Soziales und Unternehmensführung (ESG) beim Anlageprozess und Fondsaufbau miteinzubeziehen. Strategien
+wenden ESG-Analysen regions- und stilübergreifen an und integrieren deren Ergebnisse auf vielfältige Weise. Die Einbeziehung von ESG-Faktoren oder Aspekten des
+nachhaltigen Investierens könnte die Fähigkeit von UBS beeinträchtigen, bestimmte Anlagechancen zu nutzen oder zu empfehlen, die andernfalls zu den Anlagezielen des
+Kunden oder der Kundin passen würden. Die Renditen eines Fonds, der sich in erster Linie aus nachhaltigen Anlagen zusammensetzt, können niedriger oder höher sein als bei
+Fonds, bei denen keine ESG-Faktoren, Ausschlüsse oder sonstige Nachhaltigkeitsthemen berücksichtigt werden, und die Anlageinstrumente, die solchen Fonds zur Verfügung
+stehen, können abweichen. Unternehmen, Emittenten von Produkten und / oder Hersteller erfüllen möglicherweise nicht bei allen Aspekten für ESG oder nachhaltiges Investieren
+hohe Performancestandards.
+
+Abstimmung des verwalteten Vermögens (AuM)
+Dieser Bericht enthält keine abgestimmten AuM-Positionen, sondern berücksichtigt nur Positionen mit Abrechnungsdatum zum Berichtsstichtag. Das heisst, dass gehandelte –
+aber noch nicht abgerechnete Positionen – nicht berücksichtigt wurden. Daher können die AuM-Daten in diesem Bericht von anderen UBS-Berichten abweichen, die zum
+gleichen Datum erstellt wurden.
+
+Obwohl die Informationsanbieter von UBS Asset Management, darunter MSCI ESG Research LLC und damit verbundene Unternehmen (die «ESG-Parteien») ihre Informationen
+aus Quellen beziehen, die sie als zuverlässig ansehen, übernimmt keine der ESG-Parteien eine Haftung oder Garantie für die Echtheit, Richtigkeit und/oder Vollständigkeit der
+hierin enthaltenen Daten. Die ESG-Parteien geben keine ausdrücklichen oder stillschweigenden Garantien jeglicher Art und lehnen ausdrücklich jegliche Gewährleistung für die
+Handelsüblichkeit oder Eignung der hierin enthaltenen Daten für einen bestimmten Zweck ab. Keine der ESG-Parteien kann für Fehler oder Unterlassungen im Zusammenhang
+mit den hierin enthaltenen Daten haftbar gemacht werden. Unbeschadet der vorstehenden Regelungen übernimmt keine der ESG-Parteien eine Haftung für direkte, indirekte,
+besondere, Straf-, Folge-, oder sonstige Schäden jeglicher Art (einschließlich entgangenen Gewinns), selbst wenn auf die Möglichkeit eines solchen Schadens hingewiesen wurde.
+
+Bestimmte hierin enthaltene Informationen (die „Informationen“) stammen von MSCI Inc., MSCI Solutions LLC oder deren verbundenen Unternehmen („MSCI“) bzw. von
+Informationsanbietern (zusammen die „MSCI-Parteien“) und können zur Berechnung von Scores, Signalen oder anderen Indikatoren verwendet worden sein. Die
+Informationen sind ausschliesslich für den internen Gebrauch bestimmt und dürfen ohne vorherige schriftliche Genehmigung weder ganz noch teilweise reproduziert oder
+verbreitet werden. Die Informationen dürfen weder für ein Angebot zum Kauf oder Verkauf noch für die Bewerbung oder Empfehlung von Wertpapieren, Finanzinstrumenten
+oder -produkten, Handelsstrategien oder Indizes verwendet werden, noch stellen sie ein solches Angebot oder eine solche Empfehlung dar; sie sind auch nicht als Hinweis oder
+Garantie für zukünftige Wertentwicklungen zu verstehen. Einige Fonds können auf MSCI-Indizes basieren oder mit diesen verknüpft sein, und MSCI kann auf Grundlage des
+verwalteten Vermögens oder anderer Kennzahlen vergütet werden. MSCI hat eine Informationsbarriere zwischen der Indexforschung und bestimmten Informationen eingerichtet.
+Keine der Informationen allein kann zur Entscheidung verwendet werden, welche Wertpapiere wann gekauft oder verkauft werden sollen. Für regulatorische Offenlegungen
+gemäss der EU-Verordnung über ESG-Ratings (Verordnung (EU) 2024/3005) besuchen Sie bitte www.msci.com/legal/sustainability-and-climate-resources-and-
+disclosures für methodische und organisatorische Angaben sowie https://one.msci.com für Angaben auf Ratingebene. Die Informationen werden „wie
+besehen“ bereitgestellt, und der Nutzer trägt das gesamte Risiko jeder Nutzung, die er vornimmt oder zulässt. Keine MSCI-Partei gewährleistet oder garantiert die Originalität,
+Richtigkeit und/oder Vollständigkeit der Informationen; sämtliche ausdrücklichen oder stillschweigenden Gewährleistungen werden hiermit ausdrücklich ausgeschlossen. Keine
+MSCI-Partei haftet für Fehler oder Auslassungen im Zusammenhang mit den hierin enthaltenen Informationen oder für direkte, indirekte, besondere, Straf-, Folge- oder sonstige
+Schäden (einschliesslich entgangener Gewinne), selbst wenn sie auf die Möglichkeit solcher Schäden hingewiesen wurde.
+
+
+Reference index. Bei dem auf dieser Seite verwendeten Referenzindex handelt es sich um den übergeordneten Index, der sich von dem produktspezifischen
+Referenzindex unterscheidet, und nicht darauf ausgelegt ist, bestimmte ökologische oder soziale Merkmale zu berücksichtigen, die durch die Zusammensetzung des
+Finanzprodukts gefördert werden sollen.
+                                                                                                                                                              ESG-Bericht | 4:4
+
+=== pdf p.8 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+
+UBS AM Standardglossar – Weitere Anlagebegriffe entnehmen Sie bitte dem Online-Glossar hier.
+
+Absicherung (Hedging): Das Absichern von Anlagen gegen           bietet ein Mass für die Sensitivität von Anleihen und
+Verluste. Bei den UBS Asset Allocation Funds und den             Anleiheportfolios gegenüber Zinssatzveränderungen.
+abgesicherten UBS ETFs wird insbesondere das                     Feederfonds: Ein Anlagefonds, der die Mehrheit seines
+Währungsrisiko abgesichert.                                      Vermögens in einen Masterfonds investiert.
+Aktien: Wertpapier, das ein Anteilsrecht an einer                Hebeleffekt: Mit vergleichsweise geringerem Kapitaleinsatz
+Aktiengesellschaft verbrieft. Als Teilhaber hat der Aktionär     lassen sich mit derivativen Instrumenten grössere Renditen
+Mitgliedschaftsrechte (Stimmrecht, Informationsrecht) und        erzielen, als es bei einer Investition in den eigentlichen
+Vermögensrechte (Recht auf Anteil am Gewinn, Bezugsrecht).       Basiswerten möglich ist. Dieser Effekt wird als Leverage
+Aktive Verwaltung: Mit diesem Ansatz nutzt der                   bezeichnet.
+Fondsmanager seine Expertise, um Anlagen für das Erreichen       High Watermark: Die High Watermark wird in Verbindung
+der Fondsziele auszuwählen.                                      mit der Performance Fee eingesetzt. Der Fondsmanager
+Alpha: Das Alpha eines Fonds reflektiert seine                   berechnet seinen Anteil an den Gewinnen auf der Grundlage
+Outperformance gegenüber einer Benchmark. Wenn ein               des Wertzuwachses, der über den letzten NAV-Höchststand
+Fonds ein konsistent hohes Alpha aufweist, kann dies auf         hinausgeht. Eine Performance Fee wird somit erst dann fällig,
+geschicktes Management hindeuten. Wenn die Benchmark             wenn alle zuvor entstandenen Verluste vollständig
+eine Rendite von 12% erzielt und das Portfolio eine Rendite      ausgeglichen sind.
+von 14%, beträgt die Outperformance (das Alpha) 14% –            Hochzinsanleihen: Anleihen, die von Schuldnern mit
+12% = 2%. Siehe auch Beta.                                       niedrigerer Bonität begeben werden. Solche Anleihen bieten
+Anleihen: Schuldverpflichtungen mit festem oder variablem        höhere Verzinsungen, zugleich besteht aber ein höheres
+Zinssatz und in der Regel festem Fälligkeits- und                Ausfallrisiko, bei dem entweder die Zinsen oder der Nennwert
+Rückzahlungstermin. Häufigste Emittenten sind grosse             der Anleihe nicht gezahlt werden können.
+Unternehmen, staatliche Organisationen wie Bund und              Illiquid: Als illiquid werden Vermögenswerte bezeichnet, die
+Kantone, öffentlich-rechtliche Institutionen sowie               nicht leicht verkauft, gekauft oder in liquide Mittel
+internationale Organisationen wie die Weltbank oder der          umgewandelt werden können. Oft ist es bis zum
+Internationale Währungsfonds. Synonyme sind Obligationen,        Laufzeitende eines Vermögenswerts unmöglich, diesen in
+Renten, Bonds oder Schuldverschreibungen.                        liquide Mittel umzuwandeln.
+Anteilsklasse: Ein Anlagefonds kann verschiedene Arten von       Index: Kennzahl der Entwicklung der Kurse an einem oder
+Anteilsscheinen mit verschiedenen Merkmalen ausgeben.            mehreren Märkten. Der bekannteste und zugleich älteste
+Diese Anteilsscheinklassen können sich jeweils hinsichtlich      Aktienindex ist der Dow Jones. Indizes erlauben es, die
+Gebühren, Verwendung der Erträge oder Währung                    Performance eines Fonds, der auf einem bestimmten Markt
+unterscheiden.                                                   investiert ist, mit der Entwicklung dieses Marktes zu
+Ausschüttung: Zahlung eines Anlagefonds, mit der die             vergleichen.
+erwirtschafteten Erträge an seine Anteilinhaber ausgeschüttet    Indexfonds: Anlagefonds, die in ihrer Titelselektion und
+werden.                                                          Gewichtung einen im Voraus gewählten Börsenindex
+Ausserbörslicher Handel (OTC): Als ausserbörslich bzw.           möglichst genau nachbilden.
+OTC wird ein Finanzkontrakt bezeichnet, der nicht an einer       Inflationsindexierte Anleihen: Eine inflationsindexierte
+Börse gehandelt wird, sondern von einem Finanzinstitut für       Anleihe bietet Anlegern Schutz vor Inflation, indem ihr
+einen Kunden «massgeschneidert» wird.                            Nennwert oder ihre Zinszahlungen an einen bestimmten
+Benchmark: Index, der einem Anlagefonds als                      Inflationsindex gebunden sind.
+Vergleichsbasis für die Performance dient. Auch                  Investment Grade: Bezeichnung für Wertpapiere mit einem
+Referenzindex oder Vergleichsindex genannt.                      Rating zwischen BBB und AAA, was für eine
+Beta: Ein Risikomass, das angibt, wie sensitiv eine Anlage auf   zufriedenstellende oder gute Kreditqualität steht.
+Marktbewegungen reagiert, die durch die jeweilige                Korrelation: Mass für die Parallelität der Preisentwicklung
+Benchmark repräsentiert werden. Ein Beta von 1,2 besagt          verschiedener Anlagekategorien oder -instrumente.
+beispielsweise, dass man beim Fonds eine Wertveränderung         Laufzeit: Zeitraum von der Emission bis zur Fälligkeit bzw.
+von 12% erwarten kann, wenn man für den Markt eine               zur vorzeitigen Rückzahlung einer Anleihe. Nicht zu
+Veränderung von 10% prognostiziert.                              verwechseln mit der Duration.
+Börsengehandelter Fonds (ETF): Ein Anlagefonds, der wie          Managementgebühr: Die von der Verwaltungsgesellschaft
+eine Aktie an einer Börse gehandelt wird. Die meisten ETFs       für die Verwaltung eines Anlagefonds erhobene Gebühr. Die
+sind Indexfonds, d.h. sie halten die gleichen Wertpapiere zu     Höhe der Gebühr wird in Prozent oder als Zehntel eines
+den gleichen Gewichtungen wie ein bestimmter Index.              prozentualen Anteils am Fondsvermögen oder in
+Derivative: Anlagen, deren Wert an eine andere Anlage, an        Basispunkten angegeben. Die Gebühr deckt weniger Posten
+die Entwicklung einer Börse oder an einen anderen variablen      ab als die Pauschalgebühr von UBS und erfasst nur einen Teil
+Faktor, wie beispielsweise Zinssätze, gebunden ist.              der geschuldeten Kosten.
+Diversifikation: Das Halten verschiedener Anlagen, die sich      Managementstil: Art und Weise, wie die
+in der Regel unterschiedlich entwickeln.                         Investitionsentscheide zur Erreichung des Anlageziels
+Duration: Die Duration bezeichnet die durchschnittliche          getroffen werden (siehe auch «Aktives Management» und
+Zeitdauer der Kapitalbindung einer Anleihe. Beim Konzept         «Passives Management).
+der Duration wird auch die zeitliche Struktur der                Masterfonds: In jeweilige Feederfonds investierte Mittel
+Kapitalrückflüsse (z.B. Couponzahlungen) berücksichtigt. Die     werden anschliessend in den Masterfonds investiert. Der
+durchschnittliche Duration des Portfolios ergibt sich aus dem    Masterfonds hält die Portfolioinvestitionen und führt alle
+gewichteten Mittel der Duration der einzelnen Titel. Die         Handelsaktivitäten durch.
+«modifizierte Duration» wird von der Duration abgeleitet und     Nettovermögenswert (NAV): Bezeichnet den Wert des
+
+
+                                                                                                                     Glossar 1 ¦ 2
+
+=== pdf p.9 ===
+UBS MSCI EM Climate Paris Aligned UCITS ETF USD acc
+
+Vermögens einer Gesellschaft nach Abzug ihrer                       Sharpe-Ratio: Mass, mit dem ausgedrückt wird, mit einem
+Verbindlichkeiten.                                                  wie viel höheren (bzw. niedrigerem) Ertrag ein Anleger im
+Ø – Durchschnitt.                                                   Vergleich zum risikofreien Zinssatz (z.B. Sparzins) pro
+OGAW (UCITS): Organismen für gemeinsame Anlagen in                  Risikoeinheit (Volatilität) rechnen kann. Der risikofreie Zinssatz
+Wertpapieren. Ein OGAW-Fonds ist ein zugelassener Fonds,            ändert sich von Währung zu Währung.
+der in allen Ländern der EU vertrieben werden darf.                 Standardabweichung: Statistische Messgrösse, die angibt,
+Passives Management: Mit dem passiven Management                    inwieweit ein einzelner Wert in einer
+wird eine Performance in Höhe der Markt- oder Indexrenditen         Wahrscheinlichkeitsverteilung in der Regel vom Mittelwert
+angestrebt.                                                         abweicht. Je höher die Streuung ausfällt, desto höher ist das
+Pauschalgebühr: UBS erhebt für die meisten Wertpapiere              Risiko.
+und Geldmarktfonds eine sogenannte Pauschalgebühr. Diese            Swing Pricing: Methode zur Berechnung des
+Gebühr wird den Vermögenswerten des Fonds belastet und              Nettovermögenswerts von Anlagefonds. Damit lässt sich
+deckt sämtliche Ausgaben ab, die für Management,                    sicherstellen, dass die Transaktionskosten, die durch die
+Verwaltung und Verwahrung der Vermögenswerte des Fonds              Zeichnung von neuen Anlegern und die Rücknahme von
+anfallen. Ebenfalls enthalten sind Kosten für den Vertrieb des      ausscheidenden Anlegern entstehen, von den neuen und
+Fonds (wie der Druck von Prospekten, Jahres- und                    ausscheidenden Anlegern und nicht den bestehenden
+Halbjahresberichten, Kosten für Prüfung und Veröffentlichung        Anlegern getragen werden.
+von Kursen, Gebühren der Aufsichtsbehörde usw.). Nicht              Synthetische Replikation: Anders als bei der physischen
+gedeckt sind lediglich Transaktionskosten, die bei der              Replikation investiert ein synthetisch replizierter ETF nicht
+Verwaltung der Vermögenswerte des Fonds anfallen                    direkt in die Wertpapiere, aus denen sich die Benchmark
+(Brokergebühren gemäß Markt, Gebühren, Abgaben usw.                 zusammensetzt. Stattdessen wird eine Swap-Vereinbarung
+sowie etwaige anwendbare Steuern). Die Pauschalgebühr von           mit einer Gegenpartei geschlossen, die verspricht, die Rendite
+UBS ist umfassend und äußerst kundenfreundlich. Sie lässt           des replizierten Index an den ETF zu zahlen.
+sich nicht mit ähnlich bezeichneten Gebühren anderer                Thesaurierung: Wiederanlage der vom Anlagefonds
+Fondsanbieter vergleichen, zumal diese häufig nur einen Teil        erwirtschafteten Erträge in das Fondsvermögen.
+der tatsächlichen Kosten des Anlegers decken. Siehe hierzu          Total Expense Ratio (TER): Die Gesamtkostenquote
+ebenfalls «Verwaltungsgebühr». Die Pauschalgebühr wird              entspricht dem Verhältnis zwischen den Gesamtkosten und
+nicht dem Anleger, sondern direkt den Vermögenswerten des           der durchschnittlichen Grösse eines Fonds während eines
+Fonds belastet. Sie betrifft alle in Luxemburg, der Schweiz         Geschäftsjahres. Als Kosten gelten dabei alle Aufwendungen
+oder Deutschland domizilierten Fonds von UBS, mit                   gemäss Erfolgsrechnung, einschliesslich Management-,
+Ausnahme von Immobilienfonds von UBS.                               Verwaltungs-, Depot-, Revisions-, Rechts- und
+Performance Fee: Bei nicht klassischen Anlagefonds wie              Beratungsgebühren. Bei ETFs kann der Begriff «TER»
+Hedge Funds wird dem Anleger oft neben der                          synonym für die Pauschalgebühr (aktuell) verwendet werden.
+herkömmlichen Verwaltungsgebühr noch eine zusätzliche               Tracking Error: Mass für die Abweichung der Fondsrendite
+erfolgsabhängige Gebühr in Form eines prozentualen Anteils          zur Rendite der Benchmark über einen bestimmten
+(z.B. 20%) der jährlichen Wertsteigerung des Fonds belastet.        Beobachtungszeitraum, ausgedrückt als Prozentsatz. Der
+Physische Replikation: Bei der physischen Replikation               Tracking Error ist umso kleiner, je passiver der Anlagefonds
+investiert ein ETF direkt in Wertpapiere, die in dem replizierten   verwaltet wird.
+Referenzindex vertreten sind. Hierzu kann er einige oder alle       Umstellungskosten: Kosten für den Kauf und Verkauf von
+Wertpapiere kaufen, die den replizierten Index bilden. Diese        Anlagen, um eine Änderung der Anlagestrategie umzusetzen.
+Methode wird als vollständige Replikation bezeichnet und            Unternehmensanleihen: Unternehmensanleihen sind im
+eignet sich für liquide Indizes.                                    engeren Sinne Anleihen, die von Unternehmen ausgegeben
+Rating: Die Bewertung der Bonität von Schuldnern durch              werden. Im weiteren Sinne jedoch werden darunter alle
+spezielle Ratingagenturen wie Standard & Poor’s oder                Anleihen verstanden, die nicht von Staaten in ihrer eigenen
+Moody’s. Die UBS Anleihenfonds investieren in der Regel             Währung ausgegeben werden. Das häufig als «Kreditsektor»
+überwiegend in Anleihen erstklassiger Schuldner.                    beschriebene Segment umfasst also Anleihen von
+Rendite auf Verfall: Gewichtete Durchschnittsrendite für            Unternehmen, supranationalen Organisationen und
+einen Anleger, der ein Anleiheportfolio heute zum Börsenkurs        staatlichen Stellen. Das wichtigste Merkmal, das
+kauft und es bis zur Endfälligkeit hält, wobei unterstellt wird,    Unternehmensanleihen von Staatsanleihen unterscheidet, ist
+dass alle Coupon- und Kapitalzahlungen planmässig erfolgen.         das Ausfallrisiko. Siehe auch Kreditrisiko.
+Risikoloser Zinssatz: Anlage ohne Ausfallmöglichkeit und            Volatilität: Ein Mass für den Umfang kurzfristiger
+bekannter oder sicherer Rendite.                                    Änderungen im Wert von Anlagen.
+Rohstoffe: Handelsgut, das weiterverarbeitet und verkauft           Wandelanleihen: Anleihen, die mit einem Wandelrecht
+werden kann. Beispiele sind Industriegüter (Metalle),               ausgestattet sind, das die Inhaber berechtigt, die Anleihen zu
+Agrargüter (Wolle, Weizen, Zucker) und Bodenschätze (Kohle,         einem bestimmten Zeitpunkt und zu einem im Voraus
+Eisenerz). Es ist möglich, in physische Rohstoffe oder in           bestimmten Verhältnis in Aktien des betreffenden
+Derivate auf Basis von Rohstoffpreisen zu investieren.              Unternehmens umzuwandeln.
+Schwellenland oder Schwellenmarkt: Schwellenländer                  Wiederanlage: Die Möglichkeit, Ausschüttungen in dem
+oder Schwellenmärkte sind Länder, vor allem in Asien,               gleichen Fonds wiederanzulegen. Bestimmte Fonds bieten
+Osteuropa und Lateinamerika, die sich rasch entwickeln,             ihren Anlegern bei Wiederanlage der jährlichen Ausschüttung
+deren Volkswirtschaften und Börsenplätze aber noch nicht            einen besonderen Abschlag auf den Ausgabepreis.
+westlichen Standard erreicht haben.
+
+
+
+
+                                                                                                                            Glossar 2 ¦ 2
+

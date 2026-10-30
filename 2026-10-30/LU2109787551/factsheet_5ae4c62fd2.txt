@@ -1,0 +1,471 @@
+=== pdf p.1 ===
+       Amundi MSCI Emerging Markets ESG Selection UCITS ETF Acc
+                                                                                                                                                                              FACTSHEET
+
+                                                                                                                                                                               Marketing-
+                                                                                                                                                                                Anzeige
+ MARKETING-ANZEIGEN ■
+                                                                                                                                                                              30/06/2026
+
+Anlageziel
+
+  Dieser Teilfonds wird passiv verwaltet. Das Ziel dieses Teilfonds besteht darin, die Wertentwicklung des MSCI EM ESG Selection P-Series 5% Issuer Capped Index (der
+  „Index“) nachzubilden und den Tracking Error zwischen dem Nettoinventarwert des Teilfonds und der Wertentwicklung des Index zu minimieren. Das voraussichtliche Niveau
+  des Tracking Error unter normalen Marktbedingungen ist im Prospekt des Teilfonds angegeben. Der Index ist ein Netto-Gesamtertragsindex: Die von den Indexbestandteilen
+  gezahlten Dividenden nach Abzug der Steuern sind in der Indexrendite enthalten. Der Teilfonds bewirbt ökologische und/oder soziale Merkmale, indem er unter anderem
+  einen Index nachbildet, der ein ESG-Rating (Umwelt, Soziales und Unternehmensführung) enthält. Der MSCI EM ESG Selection P-Series 5% Issuer Capped Index ist ein auf
+  dem MSCI Emerging Markets Index („Hauptindex“) basierender Aktienindex, der die Large- und Mid-Cap-Wertpapiere von 26 Schwellenländern repräsentiert, die von
+  Unternehmen ausgegeben werden, die in jedem Sektor des Hauptindex das höchste ESG-Rating ESG aufweisen. Die Indexmethodik wird anhand eines „Best-in-Class“-
+  Ansatzes erstellt: Die am besten bewerteten Unternehmen werden für den Aufbau des Index ausgewählt. „Best-in-Class“ ist ein Ansatz, bei dem führende oder
+  leistungsstärkste Anlagen innerhalb eines Universums, eines Industriesektors oder einer Klasse ausgewählt werden. Er schließt Unternehmen aus, die in Bezug auf ESG-
+  Aspekte, insbesondere auf Basis von ESG-Ratings, hinterherhinken. Unter Verwendung eines Best-in-Class-Ansatzes verfolgt der Index einen außerfinanziellen Ansatz, der
+  eine Reduzierung des ursprünglichen Anlageuniversums um mindestens 20 % (ausgedrückt in der Anzahl der Emittenten) ermöglicht. Zu den zentralen Themen der ESG
+  zählen beispielsweise Wassernutzung, Kohlenstoffemissionen, Arbeitsmanagement oder Geschäftsethik. Die Grenzen des gewählten Ansatzes werden im Prospekt des
+  Teilfonds durch Risikofaktoren wie „Nachhaltiges Anlagerisiko“ beschrieben. Der ESG-Score von Unternehmen wird von einer ESG-Rating-Agentur unter Verwendung von
+  Rohdaten, Modellen und Schätzungen berechnet, die mit den für jeden Anbieter spezifischen Methoden erhoben/berechnet werden. Aufgrund der fehlenden Standardisierung
+  und der Einzigartigkeit der einzelnen Methoden können die bereitgestellten Informationen unvollständig sein. Die Beurteilung von Nachhaltigkeitsrisiken ist komplex und kann
+  auf ESG-Daten basieren, die schwer zu erhalten, unvollständig, geschätzt, veraltet und/oder anderweitig wesentlich ungenau sind. Selbst wenn die Daten identifiziert werden,
+  kann nicht garantiert werden, dass diese Daten korrekt bewertet werden. Der Index wendet Ausschlüsse auf Unternehmen an, deren Tätigkeiten als unvereinbar mit dem
+  Pariser Klimaabkommen (Kohleförderung, Öl usw.) gelten. Weitere Informationen zu den Ausschlüssen, die der Index in Übereinstimmung mit den Paris-abgestimmten EU-
+  Benchmarks (EU PAB) anwendet, finden Sie im Abschnitt „Leitlinien für die Benennung von Fonds mit ESG- oder nachhaltigkeitsbezogenen Begriffen“ des Prospekts. Weitere
+  Informationen zur Zusammensetzung des Index und seinen Betriebsvorschriften sind im Prospekt und unter msci.com verfügbar Der Indexwert ist über Bloomberg
+  (MXEME5NU) erhältlich. Das Engagement im Index wird durch eine direkte Nachbildung erreicht, hauptsächlich durch direkte Anlagen in übertragbaren Wertpapieren
+  und/oder anderen zulässigen Vermögenswerten, die die Indexbestandteile repräsentieren, in einem Verhältnis, das ihrem Anteil im Index sehr nahe kommt. Der
+  Anlageverwalter kann Derivate einsetzen, um die Zu- und Abflüsse zu bewältigen, aber auch, wenn damit ein besseres Engagement in einem Indexbestandteil erreicht werden
+  kann. Um zusätzlich Erträge zum Ausgleich seiner Kosten zu generieren, darf der Teilfonds zudem Wertpapierleihgeschäfte tätigen.
+
+Wertentwicklung des Nettoinventarwertes (NAV) * von 24/06/2020 bis 30/06/2026 (Quelle : Fund Admin)                                               Risikoindikatoren (Quelle: Fund Admin)
+
+     200                                                                                                                                                                              3       seit
+                                                                                                                                                                             1 Jahr
+                                                                                                                                                                                    Jahre Auflegung *
+     175                                                                                                                                           Portfolio Volatilität    17,79% 15,97%   16,99%
+                                                                                                                                                   Referenzindex
+                                                                                                                                                                            17,75% 15,95%         16,99%
+     150                                                                                                                                           Volatilität
+                                                                                                                                                   Tracking Error ex-
+                                                                                                                                                                             0,39% 0,34%          0,94%
+     125                                                                                                                                           post
+                                                                                                                                                   Sharpe Ratio               1,01     0,69         0,30
+     100                                                                                                                                          * Die Volatilität ist ein statistischer Indikator, der die
+                                                                                                                                                  Schwankungen eines Vermögenswerts um seinen Mittelwert
+                                                                                                                                                  misst. Beispielsweise entspricht eine Marktschwankung von
+      75                                                                                                                                          +/- 1,5% pro Tag einer Volatilität von 25% pro Jahr. Je höher
+                                                                                                                                                  die Volatilität, desto höher das Risiko.
+          /20
+
+
+
+                    /20
+
+
+
+                               /21
+
+
+
+                                         /21
+
+
+
+                                                    /22
+
+
+
+                                                               /22
+
+
+
+                                                                         /23
+
+
+
+                                                                                    /23
+
+
+
+                                                                                              /24
+
+
+
+                                                                                                         /24
+
+
+
+                                                                                                                    /25
+
+
+
+                                                                                                                              /25
+
+
+
+                                                                                                                                         /26
+
+
+
+
+                                                                                                                                                  Der Tracking Error-Indikator misst die Differenz in der
+        06
+
+
+
+                  12
+
+
+
+                             06
+
+
+
+                                       12
+
+
+
+                                                  06
+
+
+
+                                                             12
+
+
+
+                                                                       06
+
+
+
+                                                                                  12
+
+
+
+                                                                                            06
+
+
+
+                                                                                                       12
+
+
+
+                                                                                                                  06
+
+
+
+                                                                                                                            12
+
+
+
+                                                                                                                                       06
+
+
+
+
+                                                                                                                                                  Wertentwicklung zwischen dem Fonds und dem
+                                                          Portfolio       Referenzindex
+                                                                                                                                                  Vergleichsindex
+
+                                                                                                                                                  Morningstar Rating ©
+Kumulierte Wertentwicklung* (Quelle: Fondsadministrator)
+
+                                         seit dem 1 Monat 3 Monate         1 Jahr    3 Jahre    5 Jahre    seit dem                                Morningstar-Rating © : 2 Sterne
+ seit dem                               31/12/2025 29/05/2026 31/03/2026 30/06/2025 30/06/2023 30/06/2021 24/06/2020                               Morningstar-Kategorie © :
+ Portfolio ohne                                                                                                                                     EAA FUND GLOBAL EMERGING MARKETS
+                                           10,20%         -3,58%        14,17%        24,71%         58,72%         15,25%          63,78%          EQUITY
+ Ausgabeaufschlag
+ Referenzindex                             10,45%         -3,38%        14,44%        24,64%         59,37%         16,29%          65,71%         Datum des Ratings : 31/05/2026
+ Abweichung                                -0,25%         -0,20%        -0,26%        0,06%          -0,65%         -1,04%          -1,93%         Anzahl der Fonds der Kategorie : 3070
+Kalenderjahr Wertentwicklung* (Quelle: Fund Admin)
+
+                                                                       2025            2024           2023          2022             2021
+ Portfolio ohne Ausgabeaufschlag                                      32,65%          6,24%          4,51%        -21,73%           0,02%
+ Referenzindex                                                        32,35%          6,44%          4,85%        -21,55%           0,50%
+ Abweichung                                                           0,30%          -0,20%         -0,34%         -0,19%           -0,47%
+
+* Quelle : Amundi. Die Entwicklungen in der Vergangenheit lassen keine Rückschlüsse auf aktuelle und künftige Ergebnisse zu und sind keine
+Garantie für künftige Erträge. Die eventuellen Gewinne oder Verluste berücksichtigen nicht die gegebenenfalls vom Anleger zu tragenden Kosten,
+Gebühren und Abgaben, die bei der Emission oder der Rücknahme von Anteilen anfallen (z.B.: Steuern, Vermittlungsgebühren oder sonstige vom
+Intermediär erhobene Gebühren). Wenn die Performances in einer anderen Währung als dem Euro berechnet werden, können die eventuell
+entstandenen Gewinne oder Verluste Wechselkursschwankungen unterliegen (d.h. sie können zu- oder abnehmen). Der Spread entspricht der Differenz
+zwischen der Performance des Portfolios und der des Index.
+
+
+
+
+                                                                                             ■ amundietf.com
+                                                                       Für Marketing- und Informationszwecke
+
+=== pdf p.2 ===
+       Amundi MSCI Emerging Markets ESG Selection UCITS ETF Acc
+                                                                                                                                                                               FACTSHEET
+
+                                                                                                                                                                               Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                            Anzeige
+                                                                                                                                                                               30/06/2026
+
+
+Risiko-indikator (Quelle: Fund Admin)
+                                                                    Wir haben dieses Produkt auf einer Skala von 1 bis 7 in die Risikoklasse 4 eingestuft, wobei 4 einer mittleren
+                                                                    Risikoklasse entspricht. Das Risiko potenzieller Verluste aus der künftigen Wertentwicklung wird als mittel
+                                                                    eingestuft. Bei ungünstigen Marktbedingungen ist es möglich, dass unsere Fähigkeit beeinträchtigt wird, Sie
+                                                                    auszuzahlen. Zusätzliche Risiken: Das Marktliquiditätsrisiko könnte die Schwankungen der Wertentwicklung des
+                                                                    Produkts verstärken. Dieses Produkt beinhaltet keinen Schutz vor künftigen Marktentwicklungen, sodass Sie das
+   Niedrigeres Risiko                   Höheres Risiko
+                                                                    angelegte Kapital ganz oder teilweise verlieren könnten. Neben den im Risikoindikator einberechneten Risiken
+                                                                    können sonstige Risiken die Wertentwicklung des Teilfonds beeinträchtigen. Weitere Informationen finden Sie im
+      Der Risiko-Indikator beruht auf der Annahme, dass Sie         Prospekt des Amundi Index Solutions.
+das Produkt für 5 Jahre lang halten.
+Der Gesamtrisikoindikator hilft Ihnen, das mit diesem
+Produkt verbundene Risiko im Vergleich zu anderen
+Produkten einzuschätzen. Er zeigt, wie hoch die
+Wahrscheinlichkeit ist, dass Sie bei diesem Produkt Geld
+verlieren, weil sich die Märkte in einer bestimmten Weise
+entwickeln oder wir nicht in der Lage sind, Sie
+auszubezahlen.
+
+
+Wesentliche Informationen (Quelle : Amundi)
+
+ Nettoinventarwert (NAV) : 81,89 ( USD )
+ Datum des NAV : 30/06/2026
+ Fondsvolumen : 1.382,35 ( Millionen USD )
+ ISIN-Code : LU2109787551
+ WKN : A2PZDB
+ Nachbildungsart : Physisch
+ Referenzindex :
+  100% MSCI EM ESG SELECTION P-SERIES 5%
+  ISSUER CAPPED INDEX
+ Datum der ersten NAV : 24/06/2020
+ Erster NAV : 50,00 ( USD )
+
+Wesentliche Änderungen
+
+                        Startdatum                       Enddatum                                                                  Beschreibung der Änderung
+
+
+
+
+                                                              Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                              von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                                Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.3 ===
+     Amundi MSCI Emerging Markets ESG Selection UCITS ETF Acc
+                                                                                                                                                                                            FACTSHEET
+
+
+                                                                                                                                                                                            Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                                         Anzeige
+                                                                                                                                                                                            30/06/2026
+
+
+
+
+Das Investmentteam
+
+
+              Lionel Brafman                                                     Mohamed El Jebbah                                                      Liang Hong
+
+              Verantwortlicher Indexverwaltung & Multistrategy                   Investmentfondsverwalter                                               Co-Portfolio Manager
+
+
+
+
+Index-Daten (Quelle: Amundi)
+
+
+Beschreibung                                                                                                Die größten Index-Positionen (Quelle : Amundi)
+
+ Der MSCI EM ESG Leaders 5% Issuer Capped Index ist ein Aktienindex, der auf                                                                                                              % Referenzindex
+ dem MSCI Emerging Market Index („Hauptindex“) basiert. Er repräsentiert                                    TAIWAN SEMICONDUCTOR MANUFAC                                                      14,83%
+ Wertpapiere großer und mittlerer Kapitalisierung aus 26 Schwellenländern und wird                          SK HYNIX INC                                                                      7,61%
+ von Unternehmen begeben, die über das höchste Rating in Umwelt, Sozialem und                               SAMSUNG EL MECHANICS                                                              5,17%
+ Unternehmensführung (ESG) in jedem Sektor des Hauptindex verfügen.                                         DELTA ELECTRONICS INC                                                             4,69%
+                                                                                                            TENCENT HOLDINGS LTD                                                              4,30%
+                                                                                                            UNITED MICROELECTRONICS CORP                                                      4,07%
+Informationen (Quelle : Amundi)                                                                             ALIBABA GROUP HOLDING LTD                                                         2,94%
+ Anlageklasse : Aktien                                                                                      INFOSYS LTD                                                                       2,33%
+ Klassifizierung : Schwellenländer                                                                          ASIA VITAL COMPONENTS                                                             1,63%
+ Referenzwährung des Index : USD                                                                            SK SQUARE CO LTD                                                                  1,45%
+                                                                                                            Summe                                                                             49,04%
+ Anzahl der Titel : 390
+                                                                                                            Nur zu Illustrationszwecken und keine Empfehlung zum Kauf oder Verkauf von Wertpapieren.
+
+
+
+
+Aufteilung nach Ländern (Quelle : Amundi)                                                                   Aufteilung nach Sektoren (Quelle : Amundi)
+
+
+                   Taiwan                                                             30,13 %                                                IT                                                           46,93 %
+                    China                                                  24,24 %
+                                                                                                                                 Finanzwesen                             17,22 %
+                    Korea                                          20,49 %
+
+                    Indien                     8,57 %                                                                 Zyklische Konsumgüter                     8,71 %
+
+                Südafrika             4,14 %
+                                                                                                                      Kommunikationsdienste                     8,52 %
+                 Brasilien         2,12 %
+                                                                                                                                      Industrie            6,49 %
+                   Mexiko          2,10 %
+
+            Saudi-Arabien         1,17 %                                                                                           Grundstoffe          3,94 %
+
+                    Polen       1,09 %
+                                                                                                                Nicht-zyklische Konsumgüter            2,51 %
+    Vereinigten Arabischen
+                                1,07 %
+                   Emirate
+                                                                                                                                   Gesundheit          2,34 %
+                 Malaysia      0,94 %
+
+                 Thailand      0,71 %                                                                                                  Energie      1,26 %
+
+             Griechenland      0,65 %
+                                                                                                                  Öffentliche Dienstleistungen     1,13 %
+                     Chile    0,55 %
+
+                 Sonstige          2,02 %                                                                                           Immobilien     0,94 %
+
+                             0%       5%       10 %      15 %    20 %    25 %      30 % 35 %                                                      0%         10 %        20 %      30 %      40 %        50 %
+                                                 Index                                                                                                           Index
+
+
+
+
+                                                                  Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                                  von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                                    Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.4 ===
+     Amundi MSCI Emerging Markets ESG Selection UCITS ETF Acc
+                                                                                                                                                                            FACTSHEET
+
+
+                                                                                                                                                                            Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                         Anzeige
+                                                                                                                                                                            30/06/2026
+
+
+Haupteigenschaften (Quelle: Amundi)
+
+ Rechtsform                                                                                                              OGAW nach luxemburgischem Recht
+ OGAW konform                                                                                                                               OGAW
+ Verwaltungsgesellschaft                                                                                                         Amundi Luxembourg SA
+ Administrator                                                                                                            CACEIS Bank, Luxembourg Branch
+ Depotbank                                                                                                                CACEIS Bank, Luxembourg Branch
+ Unabhängiger Wirtschaftsprüfer                                                                                                       DELOITTE AUDIT
+ Auflagedatum der Anlageklasse                                                                                                           24/06/2020
+ Datum der ersten NAV                                                                                                                    24/06/2020
+ Referenzwährung der Anteilsklasse                                                                                                           USD
+ Klassifizierung                                                                                                                                -
+ Ertragsverwendung                                                                                                                      Thesaurierend
+ ISIN-Code                                                                                                                             LU2109787551
+ Mindestanlage am Sekundärmarkt                                                                                                           1 Anteil(e)
+ Häufigkeit der Berechnung des Nettoinventarwerts                                                                                           Täglich
+ Verwaltungsgebühren und sonstige Verwaltungs- oder Betriebskosten                                                                          0,18%
+ Fiskaljahresende                                                                                                                         September
+
+
+
+
+Handelsinformationen (Quelle : Amundi)
+
+            Börsenplätze                 Währung            Ticker Bloomberg                      INAV Bloomberg                    RIC Reuters                         INAV Reuters
+         Six Swiss Exchange               USD                   SADM SW                              SADMUSIV                         SADM.S                         SADMUSDINAV=SOLA
+        Deutsche Boerse (Xetra)           EUR                   SADM GY                              SADMEUIV                        SADM.DE                         SADMEURINAV=SOLA
+            Euronext Milan                EUR                   EMESG IM                             SADMEUIV                        EMESG.MI                        SADMEURINAV=SOLA
+
+
+
+
+                                                    Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                    von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                      Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+
+=== pdf p.5 ===
+     Amundi MSCI Emerging Markets ESG Selection UCITS ETF Acc
+                                                                                                                                                                        FACTSHEET
+
+                                                                                                                                                                        Marketing-
+
+MARKETING-ANZEIGEN ■                                                                                                                                                     Anzeige
+                                                                                                                                                                        30/06/2026
+
+
+
+Index-Anbieter
+DER TEILFONDS WIRD VON MSCI INC. („MSCI“) ODER IHREN TOCHTERGESELLSCHAFTEN, IHREN INFORMATIONSANBIETERN ODER SONSTIGEN DRITTEN, DIE AN DER ERSTELLUNG
+EINES MSCI-INDEX BETEILIGT SIND ODER DAMIT IN VERBINDUNG STEHEN (ZUSAMMEN DIE „MSCI-PARTEIEN“), WEDER GESPONSERT NOCH UNTERSTÜTZT, VERKAUFT ODER
+GEFÖRDERT. DIE MSCI-INDIZES STEHEN IM ALLEINIGEN EIGENTUM VON MSCI UND SIND DIENSTLEISTUNGSMARKEN VON MSCI ODER DEREN TOCHTERGESELLSCHAFTEN. DIE
+MSCI-INDIZES WURDEN FÜR DEN GEBRAUCH ZU BESTIMMTEN ZWECKEN DURCH AMUNDI LIZENZIERT. KEINE DER MSCI-PARTEIEN MACHT AUSDRÜCKLICHE ODER
+STILLSCHWEIGENDE ZUSAGEN ODER GIBT AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GARANTIEN GEGENÜBER DEM EMITTENTEN ODER DEN INHABERN DIESES TEILFONDS
+ODER ANDEREN NATÜRLICHEN ODER JURISTISCHEN PERSONEN HINSICHTLICH DER RATSAMKEIT EINER ANLAGE IN DEN TEILFONDS IM ALLGEMEINEN BZW. IN DIESEN TEILFONDS
+IM BESONDEREN ODER DER FÄHIGKEIT EINES MSCI-INDEX ZUR NACHBILDUNG DER WERTENTWICKLUNG DES ZUGEHÖRIGEN AKTIENMARKTS. MSCI ODER IHRE
+TOCHTERGESELLSCHAFTEN SIND DIE LIZENZGEBER BESTIMMTER MARKEN, DIENSTLEISTUNGSMARKEN UND MARKENNAMEN SOWIE DER MSCI-INDIZES, WELCHE VON MSCI
+OHNE BERÜCKSICHTIGUNG VON AMUNDI ODER DIESES TEILFONDS BZW. DER INHABER DIESES TEILFONDS ODER EINER ANDEREN NATÜRLICHEN ODER JURISTISCHEN PERSON
+ERMITTELT, ZUSAMMENGESTELLT UND BERECHNET WERDEN. KEINE DER MSCI-PARTEIEN IST DAZU VERPFLICHTET, DIE BEDÜRFNISSE VON AMUNDI, DER ANTEILSEIGNER DIESES
+TEILFONDS ODER EINER ANDEREN NATÜRLICHEN ODER JURISTISCHEN PERSON BEI DER BESTIMMUNG, ZUSAMMENSTELLUNG ODER BERECHNUNG DER MSCI-INDIZES ZU
+BERÜCKSICHTIGEN. DIE MSCI-PARTEIEN SIND WEDER VERANTWORTLICH FÜR DIE FESTLEGUNG DES ZEITPUNKTS, DER KURSE ODER DER ANZAHL DER ZU BEGEBENDEN ANTEILE
+DIESES TEILFONDS ODER FÜR DIE BESTIMMUNG ODER BERECHNUNG DER GLEICHUNG, AUF DEREN BASIS DER TEILFONDS ZURÜCKGENOMMEN WIRD BZW. DES GEGENWERTS,
+GEGEN DEN DIESER TEILFONDS ZURÜCKGENOMMEN WIRD, NOCH HABEN SIE DARAN MITGEWIRKT. DES WEITEREN BESTEHT FÜR DIE MSCI-PARTEIEN KEINE VERPFLICHTUNG
+ODER HAFTUNG GEGENÜBER DEM EMITTENTEN ODER DEN INHABERN DIESES TEILFONDS ODER EINER ANDEREN NATÜRLICHEN ODER JURISTISCHEN PERSON IN VERBINDUNG
+MIT DER VERWALTUNG, DER VERMARKTUNG ODER DEM ANGEBOT DIESES TEILFONDS. FÜR DIE EINBEZIEHUNG IN DIE MSCI-INDIZES UND DEREN BERECHNUNG BENUTZT MSCI
+ZWAR INFORMATIONEN, DIE NACH ANSICHT VON MSCI AUS ZUVERLÄSSIGEN QUELLEN STAMMEN, DOCH GARANTIERT KEINE DER MSCI-PARTEIEN DIE ECHTHEIT, RICHTIGKEIT
+BZW. VOLLSTÄNDIGKEIT DER MSCI-INDIZES ODER DER IN IHNEN ENTHALTENEN DATEN, UND SIE ÜBERNEHMEN KEINE DIESBEZÜGLICHE GEWÄHRLEISTUNG. KEINE DER MSCI-
+PARTEIEN GIBT STILLSCHWEIGENDE ODER AUSDRÜCKLICHE GEWÄHRLEISTUNGEN HINSICHTLICH DER ERGEBNISSE, DIE VOM EMITTENTEN DES TEILFONDS, DEN INHABERN DES
+TEILFONDS ODER EINER ANDEREN NATÜRLICHEN ODER JURISTISCHEN PERSON AUS DER VERWENDUNG EINES MSCI-INDEX ODER DARIN ENTHALTENER DATEN ZU ERZIELEN
+SIND. DIE MSCI-PARTEIEN ÜBERNEHMEN KEINE HAFTUNG FÜR ODER IN BEZUG AUF FEHLER, UNTERLASSUNGEN ODER STÖRUNGEN DER ODER IM ZUSAMMENHANG MIT DEN
+MSCI-INDIZES ODER DEN IN IHNEN ENTHALTENEN DATEN. DARÜBER HINAUS GIBT KEINE DER MSCI-PARTEIEN AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNGEN
+JEDWEDER ART, UND DIE MSCI-PARTEIEN LEHNEN HIERMIT AUSDRÜCKLICH JEGLICHE GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT UND DER EIGNUNG FÜR EINEN BESTIMMTEN
+ZWECK IM HINBLICK AUF MSCI-INDIZES ODER DARIN ENTHALTENE DATEN AB. UNBESCHADET DER VORSTEHENDEN REGELUNG SIND DIE MSCI-PARTEIEN KEINESFALLS FÜR
+UNMITTELBARE ODER MITTELBARE SCHÄDEN, SONDERSCHÄDEN, STRAFSCHÄDEN, FOLGESCHÄDEN ODER JEGLICHE ANDERE SCHÄDEN (EINSCHLIESSLICH ENTGANGENER
+GEWINNE) HAFTBAR, AUCH WENN SIE AUF DIE MÖGLICHKEIT DIESER SCHÄDEN AUFMERKSAM GEMACHT WORDEN SIND.
+Wichtige Hinweise
+
+ Informationen über die Verwaltungsgesellschaft und den Fonds
+ Teilfonds der Luxemburg SICAV Amundi Index Solutions (der 'Teilfonds' oder der 'Fonds' und die 'SICAV'). Die SICAV ist eine Vereinbarung für gemeinsame Anlagen in
+ Wertpapieren gemäß Teil I des luxemburgischen Gesetzes vom 17. Dezember 2010, die in Form einer Investmentgesellschaft mit variablem Kapital gegründet wurde und unter
+ der Nummer B206810 im Handels- und Gesellschaftsregister Luxemburg eingetragen ist. Der eingetragene Sitz der SICAV befindet sich in 5, allée Scheffer, L-2520
+ Luxemburg. Der Teilfonds wurde von der Commission de Surveillance du Secteur Financier in Luxemburg zum und von der AMF in Frankreich zum öffentlichen Vertrieb
+ zugelassen. Die SICAV besteht aus anderen Teilfonds, die in dem Prospekt beschrieben sind. Nicht alle Teilfonds werden unbedingt in den Ländern aller Anleger registriert
+ oder zum Vertrieb zugelassen.
+ Informationen über den Fonds sind in den wesentlichen Anlegerinformationen (Basisinformationsblatt) und in dem Verkaufsprospekt enthalten. Die wesentlichen
+ Anlegerinformationen des Fonds müssen interessierten Anlegern vor jeder Zeichnung zur Verfügung gestellt werden.
+
+ Bei den Fonds handelt es sich um französische, luxemburgische und/oder irische offene Investmentfonds, die entsprechend von der französischen Autorité des Marchés
+ Financiers (französische Finanzmarktaufsichtsbehörde), von der Luxemburger Commission de Surveillance du Secteur Financier (CSSF) oder von der Central Bank of Ireland
+ (irische Finanzmarktaufsichtsbehörde) genehmigt wurden und zur Vermarktung ihrer Anteile oder Aktien in verschiedenen europäischen Ländern (die Vertriebsländer) gemäß
+ Artikel 93 der Richtlinie 2009/65/EG berechtigt sind.
+ Für Amundi ETF: Für weitere Informationen über die Fonds kann von Amundi Deutschland GmbH, Arnulfstr. 124-126, 80636 München, Deutschland (Tel. +49 (0)89 99 2260)
+ ein kostenloser Verkaufsprospekt angefordert werden. Die aufsichtsrechtlichen Dokumente der Amundi ETFs, die zum öffentlichen Vertrieb in Deutschland zugelassen sind,
+ sind auf Anfrage kostenlos und als gedrucktes Exemplar bei Marcard, Stein & Co. AG, Ballindamm 36, 20095 Hamburg, Deutschland erhältlich.
+ Bei Fonds, die an einem geregelten Markt zugelassen sind, unterliegt die Notierung einem Mechanismus zur Volatilitätskontrolle, um sicherzustellen, dass der ETF-Preis nicht
+ wesentlich von einem Referenzpreis abweicht. Dies ist in den Notierungsregeln des jeweiligen geregelten Marktes festgelegt, insbesondere durch die Einführung eines
+ Handelsstopps-Mechanismus im Falle einer erheblichen Abweichung vom Referenzpreis.
+
+ Der Fonds bietet keine Kapitalgarantie. Daher ist es möglich, dass das ursprünglich investierte Kapital nicht vollständig zurückgezahlt wird, insbesondere bei einem
+ Wertverlust des Referenzindexes. Zeichnungen von OGAW-Anteilen können mit Risiken verbunden sein. Interessierte Anleger sollten die Informationen über das Risikoprofil
+ des Fonds lesen, das ausführlich im Vekraufsprospekt beschrieben wird. Es hängt von der persönlichen Situation eines Anlegers ab, welcher Betrag für eine Anlage in den
+ Fonds angemessen ist. Um diesen Betrag zu bestimmen, sollten Anleger ihre finanzielle Situation, ihr persönliches Vermögen, ihre derzeitigen und zukünftigen finanziellen
+ Bedürfnisse, aber auch ihre jeweilige Risikobereitschaft bzw. Risikoaversion berücksichtigen. Es wird auch nachdrücklich empfohlen, dass ein Anleger seine Anlagen
+ hinreichend diversifiziert, um nicht ausschließlich den mit dem Fonds verbundenen Risiken ausgesetzt zu sein. Anleger werden daher gebeten, sich zu diesen Punkten von
+ ihren üblichen Beratern (Rechts-, Steuer- und/oder Finanzberater) beraten zu lassen, bevor sie Anteile des Fonds erwerben.
+ Soweit nichts Gegenteiliges vermerkt ist, stammen alle Angaben dieses Dokuments von Amundi Asset Management.
+
+ Richtlinien zur Portfoliotransparenz und Hinweise zum Sekundärmarkt
+ Informationen zur Portfoliotransparenzstrategie sowie Informationen über die Zusammensetzung des Portfolios sind auf amundietf.com erhältlich. Der indikative
+ Nettoinventarwert wird über die Börsen veröffentlicht. Auf dem Sekundärmarkt erworbene Fondsanteile können in der Regel nicht direkt an den Fonds zurückverkauft werden.
+ Anleger müssen Anteile/Aktien auf einem Sekundärmarkt mit Hilfe eines Intermediärs (z.B. eines Börsenmaklers) kaufen oder verkaufen; diese Hilfe kann gebührenpflichtig
+ sein. Darüber hinaus zahlen Anleger beim Kauf von Anteilen/Aktien u.U. mehr als den aktuellen Nettoinventarwert und erhalten beim Verkauf weniger als den aktuellen
+ Nettoinventarwert dafür zurück.
+
+
+
+
+                                                       Amundi Asset Management, SAS (French : Société par Actions Simplifiée) mit einem Kapital von 1 143 615 555 EUR
+                                                       von der französischen Finanzmarktaufsicht Autorité des Marchés Financiers (AMF) unter der Nummer GP 04000036
+                                                                         Hauptsitz : 91-93, Bd Pasteur, 75015 Paris, Frankreich 437 574 452 RCS Paris
+

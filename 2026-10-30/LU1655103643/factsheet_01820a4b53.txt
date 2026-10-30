@@ -1,0 +1,281 @@
+=== pdf p.1 ===
+                                                                   MARKETING COMMUNICATION
+  As of 29.05.2026
+  OSSIAM BLOOMBERG JAPAN PAB NR - 1C (EUR)
+       STRATEGY DESCRIPTION                                                                                                                                                     RISK INDICATOR
+                                                                                                                                                                                LOWER RISK                                                              HIGHER RISK
+  The investment objective of OSSIAM BLOOMBERG JAPAN PAB NR fund (the "Fund") is to replicate, before the Fund's fees and
+  expenses, the performance of the Bloomberg PAB Japan Large & Mid Cap Net Return Index (the “Index”), a Bloomberg Equity Paris-
+  Aligned Index expressed in JPY, calculated and published by Bloomberg.
+                                                                                                                                                                                    1           2           3           4            5           6           7
+                                                                                                                                                                                 We have classified the Fund in risk class 4, which is a medium risk class. In other
+                                                                                                                                                                                 words, the potential losses linked to the product's future results are at a medium
+  The Index aims to provide long term return by investing in an equity portfolio seeking at least a 50% greenhouse gases (GHG)                                                   level, and if the situation were to deteriorate on the markets, it is possible that
+  intensity reduction compared to the investment universe (the Bloomberg Japan Large & Mid Cap Index, the "Investment Universe")                                                 our ability to pay you could be affected. The market liquidity risk could amplify
+                                                                                                                                                                                 the variation of product performances. In addition to the risks included in the
+  and at least 7% reduction on average per annum.                                                                                                                                risk indicator, other risks may influence the Fund's performance. Please refer to
+                                                                                                                                                                                 the Fund's prospectus.
+
+
+  Key benefits:                                                                                                                                                                 INDEX DATA
+  ▪ an exposure to companies with certified GHG emission reduction targets as set by the Science Based Targets Initiative (SBTi)                                               Name
+                                                                                                                                                                                                                       Bloomberg PAB Japan Large &
+  ▪ a combination of baseline and activity exclusions, including the exclusion of companies significantly harming environmental                                                                                           Mid Cap Net Return Index*
+
+    objectives ("DNSH")                                                                                                                                                                                                Bloomberg Japan Large & Mid
+                                                                                                                                                                               Investment Universe
+  ▪ a low tracking error to the Investment Universe                                                                                                                                                                                     Cap Index*
+
+                                                                                                                                                                               Bloomberg Ticker                                             JPPABNL Index
+
+                                                                                                                                                                               Inception Date                                                     06.04.2020
+
+                                                                                                                                                                               Asset Class                                                              Equity
+  PRODUCT (NET) PERFORMANCE SINCE FUND INCEPTION
+                                                                                                                                                                               Rebalancing                                                     Semi-annual
+                               OSSIAM BLOOMBERG JAPAN PAB NR - 1C (EUR)
+                               Composite Bloomberg PAB Japan Large & Mid Cap Net Return Index*
+                               Composite Bloomberg Japan Large & Mid Cap Index*
+    230                                                                                                                                                                         FUND DATA
+
+                                                                                                                                                                                                                            State Street Bank International
+    180                                                                                                                                                                         Custodian                                      GmbH, Luxembourg Branch
+
+                                                                                                                                                                                Legal Form                                  Sub fund of Ossiam Lux SICAV
+    130
+                                                                                                                                                                                UCITS                                                                            Yes
+
+                                                                                                                                                                                SFDR Classification                                                        Article 9
+     80
+                                                                                                                                                                                Dividends                                                              Reinvested
+       11/17 05/18 11/18 05/19 11/19 05/20 11/20 05/21 11/21 05/22 11/22 05/23 11/23 05/24 11/24 05/25 11/25 05/26
+                                                                                                                                                                                Type                                                                 Passive ETF
+       Data calculated by Ossiam as of 29.05.2026. Source: Ossiam, Bloomberg.
+                                                                                                                                                                                Fund Total AUM                                           JPY 67,726,744,059
+
+                                                                                                                                                                                Share Class AUM                                              EUR 115,221,189
+
+  NET PERFORMANCES                                                                                                                                                              Net Asset Value                                                    EUR 179.195
+
+                                                                                                                                                                                Number of Shares                                                           642,992
+
+                              MTD                YTD              1-YEAR          3-YEARS     5-YEARS     ANN. SINCE                                                            Fund Base Currency                                                               JPY
+                             PERF %             PERF %            PERF %         ANN. PERF % ANN. PERF % INCEPTION %                                                            Share Class Currency                                                             EUR
+
+                                                                                                                                                                                ISIN                                                             LU1655103643
+ Fund                          6.47              17.38             26.70              13.97              8.66               7.07
+                                                                                                                                                                                Inception Date                                                         14.11.2017
+
+                                                                                                                                                                                Replication Method                                                         Physical
+ Index                         6.55              17.54             26.97              14.20              8.90               7.34
+                                                                                                                                                                                Total Expense Ratio                                                           0.19%
+
+ Investment
+                               5.78              16.71             28.05              16.85             10.68               8.36
+ Universe                                                                                                                                                                       DEALING INFORMATION
+  Data calculated by Ossiam as of 29.05.2026. Source: Ossiam, Bloomberg.                                                                                                                                                          5:00 pm Luxembourg time
+                                                                                                                                                                                Cut-off1                                                             (D-1)
+                                                                                                                                                                                Minimum Investment
+                                                                                                                                                                                                                                                           1 Share
+  RISK PARAMETERS SINCE FUND INCEPTION                                                                                                                                          (on the secondary market)
+                                                                                                                                                                                1
+                                                                                                                                                                                 Subscription on the primary market only for Authorised
+                              Ann.              Ann.                                                                     Max                                                    Participants and approved investors.
+                           Volatility %        Alpha %              Beta        Tracking Error Sharpe Ratio           Drawdown %
+
+ Fund                          18.45             -0.94              0.96               0.09              0.33             -26.40
+                                                                                                                                                                                XETRA in EUR                                                             OP5E GY
+                                                                                                                                                                                SIX Exchange in EUR                                                      OP5E SE
+ Index                         18.46             -0.67              0.96                ---              0.35             -26.41
+                                                                                                                                                                                Euronext Paris in EUR                                                    OP5E FP
+
+ Investment
+                               19.07               ---               ---                ---              0.39             -26.41
+ Universe
+
+   Data calculated by Ossiam as of 29.05.2026. Source: Ossiam, Bloomberg.
+
+
+   IMPORTANT INFORMATION: Performances are net of charges. The value of the investment and the
+   income from it will vary and your initial investment amount cannot be guaranteed. ETFs trade on
+   exchanges like stocks and are bought and sold at market prices which may be different from the net asset
+   values of the ETFs. Past performance does not predict future returns.
+
+  Risk Consideration. Please note that the fund is subject to specific risks such as Index risk, ESG risk, geographical concentration risk and EU PAB risk, in addition to common market risk. To know more about these risks, please refer to
+  the Key Information Document and Prospectus prior to investing. This product has a sustainable investment objective. The impact of investments in the fund is not measurable.
+  *The funds changed from a passive fund to a passively managed index tracking ETF that promotes environmental or social characteristics . The funds switched of name and Index: Previously Ossiam MSCI Japan NR is now Ossiam
+  Bloomberg Japan PAB NR; The Reference Index was MSCI Japan NR Index until June 30th 2022 and is now Bloomberg PAB Japan Large & Mid Cap Net Return Index.
+  Please note that if the currency of the fund/share class is different from the currency of your area, any losses or gains generated by the fund/share class may be affected by exchange rate fluctuations (both upward and downward).
+
+
+
+
+FOR PROFESSIONAL INVESTORS OR NON-PROFESSIONALS INVESTED IN THE FUND ONLY.
+
+=== pdf p.2 ===
+                                                                                                                                    TOP 10 HOLDING
+             SECTOR ALLOCATION                                                                                                                                                   Bloomberg PAB
+             40                                                                                                                                                                Japan Large & Mid      Bloomberg Japan Large &
+                                                                                                                                                                                 Cap Net Return            Mid Cap Index
+RISK                                                                                                                                                                                  Index
+             20
+                                                                                                                                   MURATA MANUFACTURING CO LTD                       5.95%                    2.21%
+                                                                                                                                   FAST RETAILING CO LTD                             4.67%                    1.91%
+               0                                                                                                                   MITSUBISHI UFJ FINANCIAL GROUP                    4.35%                    3.91%
+                     CS       FN       HC        ID       RE       MT       CD        EN       CM        IT      UL        OT
+                                       Bloomberg PAB Japan Large & Mid Cap Net Return Index                                        ADVANTEST CORP                                    3.82%                    2.46%
+                                       Bloomberg Japan Large & Mid Cap Index                                                       RENESAS ELECTRONICS CORP                          3.78%                    0.96%
+            MT: Materials • CS: Consumer Staples • CD: Consumer Discretionary • FN: Financials • HC: Health Care • ID:             SONY GROUP CORP                                   3.55%                    2.67%
+            Industrials • EN: Energy • RE: Real Estate • CM: Communication Services • IT: Information Technology • UL: Utilities
+                                                                                                                                   KEYENCE CORP                                      3.42%                    1.94%
+                                                                                                                                   SOFTBANK GROUP CORP                               3.17%                    3.45%
+           Data calculated by Ossiam as of 29.05.2026. Source: Ossiam, Bloomberg.                                                  HOYA CORP                                         3.04%                    1.19%
+                                                                                                                                   SUMITOMO MITSUI FINANCIAL GROU                    2.81%                    2.72%
+
+                                                                                                                                   Data calculated by Ossiam as of 29.05.2026. Source: Ossiam,
+
+
+
+                                                                                                                                                                                                         CONTACT / INFO
+                                                                                                                                                                                                          www.ossiam.com
+                                                                                                                                                                                                   mail: info@ossiam.com
+                                                                                                                                                                                                    Tel: +33 1 84 79 42 70
+                                                                                                                                                                                                             36 rue Brunel
+                                                                                                                                                                                                   75017 PARIS - FRANCE
+         This is a marketing communication. Please refer to the prospectus of the UCITS and to th KID, available free of charge at www .ossiam.com before making any final investment
+         decisions.
+         Ossiam Lux (the SICAV) composed of several separate sub-funds (each constituting a “Fund”). The SICAV has received visa of the Supervisory Commission of the Financial Sector of the Grand
+         Duchy of Luxembourg. The SICAV has appointed Ossiam as its management company responsible for the financial management of the funds, the administration and distribution of the SICAV. The
+         Management Company has appointed State Street Bank International GmbH, Luxembourg Branch, as Administrator Agent, Paying Agent, Domiciliary Agent and Corporate Agent, and Registrar
+         and Transfer Agent of the SICAV. Ossiam, a subsidiary of Natixis Investment Managers is authorized by the Autorité des Marchés Financiers as a Portfolio Management Company under number
+         GP-10000016. The accuracy, completeness, or appropriateness of information from external sources is not guaranteed, although it has been compiled from reliable, reputable sources. When
+         provided in the UK, this document is distributed for information purposes only to Professional Clients or Eligible Counterparties for the purposes of the FCA Handbook and may not be relied or
+         acted upon by any other person.
+         For investors in Switzerland : The fund's representative and paying agent in Switzerland is CACEIS Investor Services Bank S.A.. Esch-sur-Alzette, Zurich Branch. Bleicherweg 7, CH-8027 Zurich.
+         The KID/KIID in English, as well as the prospectus in English, are available free of charge on our website www.ossiam.com
+         ESG Investing Methodological Limits : By using ESG criteria in the investment policy, the relevant Fund’s objective would in particular be to better manage sustainability risk. ESG criteria may be
+         generated using Ossiam’s proprietary models, third party models and data or a combination of both. The assessment criteria may change over time or vary depending on the sector or industry in
+         which the relevant issuer operates. Applying ESG criteria to the investment process may lead Ossiam to invest in or exclude securities for non-financial reasons, irrespective of market opportunities
+         available. ESG data received from third parties may be incomplete, inaccurate, or unavailable from time to time. As a result, there is a risk that Ossiam may incorrectly assess a security or issuer,
+         resulting in the incorrect direct or indirect inclusion or exclusion of a security in the portfolio of a Fund.
+         Sustainability risk : The Fund is subject to sustainability risks as defined in the Regulation 2019/2088 (article 2(22)) by environmental, social or governance event or condition that, if it occurs,
+         could cause an actual or a potential material negative impact on the value of the investment. More information on the framework related to the incorporation of Sustainability can be found on the
+         website of the Management Company.
+         The proxy voting and engagement policy is available on our website www.ossiam.com
+
+         BLOOMBERG, BLOOMBERG INDICES and Bloomberg US Equity Indices (the “Indices”) are trademarks or service marks of Bloomberg Finance L.P. Bloomberg Finance L.P. and its affiliates, including
+         Bloomberg Index Services Limited, the administrator of the Indices (collectively, “Bloomberg”) or Bloomberg's licensors own all proprietary rights in the Indices. Bloomberg does not guarantee the
+         timeliness, accuracy or completeness of any data or information relating to the Indices. Bloomberg makes no warranty, express or implied, as to the Indices or any data or values relating thereto or
+         results to be obtained therefrom, and expressly disclaims all warranties of merchantability and fitness for a particular purpose with respect thereto. It is not possible to invest directly in an Index.
+         Back-tested performance is not actual performance. Past performance is not an indication of future results. To the maximum extent allowed by law, Bloomberg, its licensors, and its and their
+         respective employees, contractors, agents, suppliers and vendors shall have no liability or responsibility whatsoever for any injury or damages - whether direct, indirect, consequential, incidental,
+         punitive or otherwise - arising in connection with the Indices or any data or values relating thereto - whether arising from their negligence or otherwise. This document constitutes the provision of
+         factual information, rather than financial product advice. Nothing in the Indices shall constitute or be construed as an offering of financial instruments or as investment advice or investment
+         recommendations (i.e., recommendations as to whether or not to “buy”, “sell”, “hold”, or to enter or not to enter into any other transaction involving any specific interest or interests) by
+         Bloomberg or a recommendation as to an investment or other strategy by Bloomberg. Data and other information available via the Indices should not be considered as information sufficient upon
+         which to base an investment decision. All information provided by the Indices is impersonal and not tailored to the needs of any person, entity or group of persons. Bloomberg does not express
+         an opinion on the future or expected value of any security or other interest and do not explicitly or implicitly recommend or suggest an investment strategy of any kind. Customers should
+         consider obtaining independent advice before making any financial decisions. © 2021 Bloomberg. All rights reserved. This document and its contents may not be forwarded or redistributed
+         without the prior consent of Bloomberg.
+         Bloomberg Index Services Limited is the official index calculation and maintenance agent of the Index, an index owned and administered by Barclays. Bloomberg Index Services Limited does not
+         guarantee the timeliness, accurateness, or completeness of the Index calculations or any data or information relating to the Index. Bloomberg Index Services Limited makes no warranty, express or
+         implied, as to the Index or any data or values relating thereto or results to be obtained therefrom, and expressly disclaims all warranties of merchantability and fitness for a particular purpose with
+         respect thereto. To the maximum extent allowed by law, Bloomberg Index Services Limited, its affiliates, and all of their respective partners, employees, subcontractors, agents, suppliers and
+         vendors (collectively, the “protected parties”) shall have no liability or responsibility, contingent or otherwise, for any injury or damages, whether caused by the negligence of a protected party or
+         otherwise, arising in connection with the calculation of the Index or any data or values included therein or in connection therewith and shall not be liable for any lost profits, losses, punitive,
+         incidental or consequential damages.
+         The BLOOMBERG TERMINAL service and Bloomberg data products (the “Services”) are owned and distributed by Bloomberg Finance L.P. (“BFLP”) except (i) in Argentina, Australia and certain
+         jurisdictions in the Pacific islands, Bermuda, China, India, Japan, Korea and New Zealand, where Bloomberg L.P. and its subsidiaries distribute these products, and (ii) in Singapore and the
+         jurisdictions serviced by Bloomberg’s Singapore office, where a subsidiary of BFLP distributes these products.
+
+         Access to the products and services described in this document may be subject to restrictions with respect to certain individuals or in certain countries. None of the products or services shall be
+         presented by Ossiam to any persons if it is prohibited under the laws of their country of origin or any other country that concerns them. The same applies for countries for which Ossiam has not
+         applied for marketing authorization.
+
+
+
+
+       FOR PROFESSIONAL INVESTORS OR NON-PROFESSIONALS INVESTED IN THE FUND ONLY.
+
+=== pdf p.3 ===
+This material has been provided for information purposes only to investment service providers or other Professional Clients, Qualified or Institutional Investors and, when required by local regulation,
+only at their written request. This material must not be used with Retail Investors. It is the responsibility of each investment service provider to ensure that the offering or sale of fund shares or third
+party investment services to its clients complies with the relevant national law.
+Please read the Prospectus and Key Information Document carefully before investing. If the fund is registered in your jurisdiction, these documents are also available free of charge and in the official
+language of the country of registration at the Natixis Investment Managers website (im.natixis.com/intl/intl-fund-documents).
+To obtain a summary of investor rights in the official language of your jurisdiction, please consult the legal documentation section of the website (im.natixis.com/intl/intl-fund-documents).
+In the E.U.: Provided by Natixis Investment Managers International or one of its BRANCH offices listed below. Natixis Investment Managers International is a portfolio management company
+authorized by the Autorité des Marchés Financiers (French Financial Markets Authority - AMF) under no. GP 90-009, and a simplified joint-stock company (société par actions simplifiée - SAS)
+registered in the Paris Trade and Companies Register under no. 329 450 738, Registered office: 43 avenue Pierre Mendès France, 75013 Paris. Germany: Natixis Investment Managers International,
+Zweigniederlassung Deutschland (Registration number: HRB 129507). Registered office: Senckenberganlage 21, 60325 Frankfurt am Main. Italy: Natixis Investment Managers International Succursale
+Italiana (Registration number: MI-2637562). Registered office: Via Adalberto Catena, 4, 20121 Milan, Italy. Netherlands: Natixis Investment Managers International, Dutch BRANCH (Registration
+number: 000050438298), Registered office: Stadsplateau 7, 3521AZ Utrecht, the Netherlands. Spain: Natixis Investment Managers International S.A., Sucursal en España (Registration number: NIF
+W0232616C), Registered office: Serrano n°90, 6th Floor, 28006 Madrid, Spain. Luxembourg: Natixis Investment Managers International, Luxembourg BRANCH (Registration number: B283713),
+Registered office: 2, rue Jean Monnet, L-2180 Luxembourg, Grand Duchy of Luxembourg. Belgium: Natixis Investment Managers International, Belgian BRANCH (Registration number: 1006.931.462),
+Gare Maritime, Rue Picard 7, Bte 100, 1000 Bruxelles, Belgium.
+In Switzerland: Provided for information purposes only by Natixis Investment Managers, Switzerland Sàrl (Registration number: CHE-114.271.882), Rue du Vieux Collège 10, 1204 Geneva, Switzerland
+or its representative office in Zurich, Schweizergasse 6, 8001 Zürich.
+In the British Isles: Provided by Natixis Investment Managers UK Limited which is authorised and regulated by the UK Financial Conduct Authority (FCA firm reference no. 190258) - registered office:
+Natixis Investment Managers UK Limited, Level 4, Cannon Bridge House, 25 Dowgate Hill, London, EC4R 2YA. When permitted, the distribution of this material is intended to be made to persons as
+described as follows: in the United Kingdom: this material is intended to be communicated to and/or directed at investment professionals and professional investors only; in Ireland: this material is
+intended to be communicated to and/or directed at professional investors only; in Guernsey: this material is intended to be communicated to and/or directed at only financial services providers which
+hold a license from the Guernsey Financial Services Commission; in Jersey: this material is intended to be communicated to and/or directed at professional investors only; in the Isle of Man: this
+material is intended to be communicated to and/or directed at only financial services providers which hold a license from the Isle of Man Financial Services Authority or insurers authorised under
+section 8 of the Insurance Act 2008.
+In the DIFC: Provided in and from the DIFC financial district by Natixis Investment Managers Middle East (DIFC BRANCH) which is regulated by the DFSA. Related financial products or services are
+only available to persons who have sufficient financial experience and understanding to participate in financial markets within the DIFC, and qualify as Professional Clients or Market Counterparties as
+defined by the DFSA. No other Person should act upon this material. Registered office: Unit L10-02, Level 10 ,ICD Brookfield Place, DIFC, PO Box 506752, Dubai, United Arab Emirates
+In Taiwan: Provided by Natixis Investment Managers Securities Investment Consulting (Taipei) Co., Ltd., a Securities Investment Consulting Enterprise regulated by the Financial Supervisory
+Commission of the R.O.C. Registered address: 34F., No. 68, Sec. 5, Zhongxiao East Road, Xinyi Dist., Taipei City 11065, Taiwan (R.O.C.), license number 2020 FSC SICE No. 025, Tel. +886 2 8789 2788.
+In Singapore: Provided by Natixis Investment Managers Singapore Limited (NIM Singapore) having office at 5 Shenton Way, #22-05/06, UIC Building, Singapore 068808 (Company Registration No.
+199801044D) to distributors and qualified investors for information purpose only. NIM Singapore is regulated by the Monetary Authority of Singapore under a Capital Markets Services Licence to
+conduct fund management activities and is an exempt financial adviser. Mirova Division (Business Name Registration No.: 53431077W) and Ostrum Division (Business Name Registration No.:
+53463468X) are part of NIM Singapore and are not separate legal entities. This advertisement or publication has not been reviewed by the Monetary Authority of Singapore.
+In Hong Kong: Provided by Natixis Investment Managers Hong Kong Limited to professional investors for information purpose only.
+In Australia: Provided by Natixis Investment Managers Australia Pty Limited (ABN 60 088 786 289) (AFSL No. 246830) and is intended for the general information of financial advisers and wholesale
+clients only.
+In Korea: Provided by Natixis Investment Managers Korea Limited (Registered with Financial Services Commission for General Private Collective Investment Business) to distributors and qualified
+investors for information purpose only.
+In New Zealand: This document is intended for the general information of New Zealand wholesale investors only and does not constitute financial advice. This is not a regulated offer for the
+purposes of the Financial Markets Conduct Act 2013 (FMCA) and is only available to New Zealand investors who have certified that they meet the requirements in the FMCA for wholesale investors.
+Natixis Investment Managers Australia Pty Limited is not a registered financial service provider in New Zealand.
+In Colombia: Provided by Natixis Investment Managers International Oficina de Representación (Colombia) to professional clients for informational purposes only as permitted under Decree 2555 of
+2010. Any products, services or investments referred to herein are rendered exclusively outside of Colombia. This material does not constitute a public offering in Colombia and is addressed to less
+than 100 specifically identified investors.
+In Latin America: Provided by Natixis Investment Managers International.
+In Chile: Esta oferta privada se inicia el día de la fecha de la presente comunicación. La presente oferta se acoge a la Norma de Carácter General N°336 de la Superintendencia de Valores y Seguros
+de Chile. La presente oferta versa sobre valores no inscritos en el Registro de Valores o en el Registro de Valores Extranjeros que lleva la Superintendencia de Valores y Seguros, por lo que los valores
+sobre los cuales ésta versa, no están sujetos a su fiscalización. Que por tratarse de valores no inscritos, no existe la obligación por parte del emisor de entregar en Chile información pública respecto
+de estos valores. Estos valores no podrán ser objeto de oferta pública mientras no sean inscritos en el Registro de Valores correspondiente.
+In Mexico: Provided by Natixis IM Mexico, S. de R.L. de C.V., which is not a regulated financial entity, securities intermediary, or an investment manager in terms of the Mexican Securities Market Law
+(Ley del Mercado de Valores) and is not registered with the Comisión Nacional Bancaria y de Valores (CNBV) or any other Mexican authority. Any products, services or investments referred to herein
+that require authorization or license are rendered exclusively outside of Mexico. While shares of certain ETFs may be listed in the Sistema Internacional de Cotizaciones (SIC), such listing does not
+represent a public offering of securities in Mexico, and therefore the accuracy of this information has not been confirmed by the CNBV. Natixis Investment Managers is an entity organized under the
+laws of France and is not authorized by or registered with the CNBV or any other Mexican authority. Any reference contained herein to “Investment Managers” is made to Natixis Investment
+Managers and/or any of its investment management subsidiaries, which are also not authorized by or registered with the CNBV or any other Mexican authority.
+In Uruguay: Provided by Natixis Investment Managers Uruguay S.A. Office: San Lucar 1491, Montevideo, Uruguay, CP 11500. The sale or offer of any units of a fund qualifies as a private placement
+pursuant to section 2 of Uruguayan law 18,627.
+In Brazil: Provided to a specific identified investment professional for information purposes only by Natixis Investment Managers International. This communication cannot be distributed other than
+to the identified addressee. Further, this communication should not be construed as a public offer of any securities or any related financial instruments. Natixis Investment Managers International is a
+portfolio management company authorized by the Autorité des Marchés Financiers (French Financial Markets Authority - AMF) under no. GP 90-009, and simplified joint-stock company (société par
+actions simplifiée – SAS ) registered in the Paris Trade and Companies Register under no. 329 450 738. Registered office: 43 avenue Pierre Mendès France, 75013 Paris.
+The above referenced entities are business development units of Natixis Investment Managers, the holding company of a diverse line-up of specialised investment management and distribution
+entities worldwide. The investment management subsidiaries of Natixis Investment Managers conduct any regulated activities only in and from the jurisdictions in which they are licensed or
+authorised. Their services and the products they manage are not available to all investors in all jurisdictions.
+Although Natixis Investment Managers believes the information provided in this material to be reliable, including that from third party sources, it does not guarantee the accuracy, adequacy, or
+completeness of such information.
+The provision of this material and/or reference to specific securities, sectors, or markets within this material does not constitute investment advice, or a recommendation or an offer to buy or to sell
+any security, or an offer of any regulated financial activity. Investors should consider the investment objectives, risks and expenses of any investment carefully before investing. The analyses, opinions,
+and certain of the investment themes and processes referenced herein represent the views of the individual(s) as of the date indicated. These, as well as the portfolio holdings and characteristics
+shown, are subject to change and cannot be construed as having any contractual value. There can be no assurance that developments will transpire as may be forecasted in this material. The analyses
+and opinions expressed by external third parties are independent and does not necessarily reflect those of Natixis Investment Managers. Any past performance information presented is not indicative
+of future performance.
+This material may not be redistributed, published, or reproduced, in whole or in part.
+All amounts shown are expressed in USD unless otherwise indicated.
+Natixis Investment Managers may decide to terminate its marketing arrangements for this fund in accordance with the relevant legislation
+
+
+
+
+    FOR PROFESSIONAL INVESTORS OR NON-PROFESSIONALS INVESTED IN THE FUND ONLY.
+

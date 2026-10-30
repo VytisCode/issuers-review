@@ -1,0 +1,149 @@
+=== pdf p.1 ===
+                                                                 KEY INVESTOR INFORMATION
+This document provides you with key investor information about this fund. It is not marketing material. The information is
+required by law to help you understand the nature and the risks of investing in this fund. You are advised to read it so you can
+make an informed decision about whether to invest.
+                                    OSSIAM BLOOMBERG JAPAN PAB NR
+                  (UCITS ETF 1C (EUR) ISIN: LU1655103643) a sub-fund of OSSIAM LUX SICAV
+                                        Management Company: Ossiam, part of the Natixis group of companies
+
+  Objectives and Investment Policy
+Investment objective                                                                 The anticipated level of tracking error in normal conditions is 1.00% over a
+                                                                                     one-year period.
+The investment objective of Ossiam Bloomberg Japan PAB NR (the "Fund") is to         For a detailed description of the Index, see section "Description of the
+replicate, before the Fund's fees and expenses, the performance of the               Index" in the prospectus (the “Prospectus”).
+Bloomberg PAB Japan Large & Mid Cap Net Return Index (the “Index”) closing
+level.                                                                               Investment policy
+The Fund is a financial product that pursuant to Regulation (EU) 2019/2088 of        In order to achieve its investment objective, the Fund will primarily invest,
+the European Parliament and of the Council of 27 November 2019 on                    through physical replication, in all or part of the equity securities comprised
+sustainability-related disclosures in the financial services sector promotes the     in the Index and in substantially the same weights as in the Index.
+reduction of carbon emissions through the replication of the Index.                  In addition, and on an ancillary basis, the Fund may use other derivatives for
+                                                                                     hedging and investment purposes, as described under “Use of Derivatives,
+The Index is a Bloomberg Global Equity Paris-Aligned Index, which aims to            Special Investment and Hedging Techniques” in the Prospectus.
+provide long term return by investing in an equity portfolio seeking at least a      The Reference Currency of the Fund is the Japanese Yen.
+50% greenhouse gas intensity reduction compared to their corresponding               The UCITS ETF 1C (EUR) Shares are listed for trading on one or more stock
+parent index, here the Bloomberg Eurozone DM Large & Mid Cap Index and at            exchanges and investors may buy or sell Shares through their usual broker
+least 7% reduction on average per annum.                                             on any trading day of the relevant stock exchange(s) which is also a Dealing
+The Index uses the reference 1.5 °C temperature scenario, with no or limited         Day or, through a fund platform. Please contact your broker for additional
+overshoot, as referred to in the Special Report on Global Warming of 1.5 °C          information.
+from the Intergovernmental Panel on Climate Change. The constituents of the          The UCITS ETF 1C (EUR) Share Class is an accumulating Share Class,
+Index are selected, weighted or excluded with the aim that the resulting             therefore income derived from the Fund is reinvested. Please refer to the
+benchmark portfolio’s carbon emissions be aligned with the objectives of the         section entitled “Subscription, Transfer, Conversion and Redemption of
+Paris agreement adopted under the United Nations Framework Convention on             shares” and the section entitled “Practical information” of the Fund
+Climate Change, approved by the European Union on 5 October 2016.                    Appendix in the Prospectus for additional information.
+The Index aims to comply with the minimum technical requirements as set out
+by the European Commission’s delegated regulation dated 17 July 2020                 Recommendation: this Fund may not be appropriate for investors who plan
+supplementing Regulation (EU) 2016/1011 of the European Parliament and of            to withdraw their money within less than 5 years.
+the Council as regards minimum standards for EU Climate Transition
+Benchmarks and EU Paris-aligned Benchmarks.
+The Index is expressed in Japanese Yen (JPY) and is calculated and published by
+Bloomberg.
+
+  Risk and Reward Profile
+Lower Risk                                                    Higher Risk
+
+
+Typically Lower Rewards                               Typically Higher Rewards
+
+ 1           2          3           4          5          6           7
+The Share Class is ranked 6 on the synthetic risk and reward indicator scale,
+which is based on historical data. Due to its exposure to equity markets, the
+Share Class may experience significant volatility, as expressed by its rank on the
+above scale. Historical data may not be a reliable indication for the future. The
+risk category shown is not guaranteed and may shift over time. There is no
+capital guarantee or protection on the value of the Share Class. The lowest
+category does not mean “risk free”.
+
+The following risk is materially relevant to the Fund but is not adequately
+captured by the synthetic indicator:
+
+EU PAB risk: The Index has been selected because its methodology is designed
+to comply with “EU Paris-aligned benchmarks” criteria. Bloomberg is in charge
+of ensuring the EU PAB alignment of the Index. However, as the Index is
+impacted by market movements and long-term carbon emissions of issuers,
+there is a risk that the Index fail to fulfil the minimum standards of EU PAB.
+
+Please refer to the section entitled “General risk considerations” of the
+Prospectus for additional details on risks.
+
+=== pdf p.2 ===
+  Charges for this Share Class
+The charges you pay are used to pay the costs of running the Fund, including the costs of marketing and distributing it. These charges reduce the potential
+growth of your investment.
+
+                                                                                             The entry and exit charges shown are maximum figures. In some
+  One-Off charges taken before or after you invest                                           cases, you might pay less – you can find this out from your
+                                                                                             financial adviser.
+  Entry Charge                     Maximum Sales Charge 3.00%
+                                                                                             * An additional levy up to 2.00% may be applied to an investor
+                                   Maximum Charge for Subscriptions                          engaging in excessive trading or market timing practices.
+                                   payable to the Fund 1.00%
+                                                                                             The ongoing charges figure is based on expenses for the year
+  Exit Charge*                     Maximum Redemption Charge 3.00%                           ending December 2025. This figure may vary from year to year. It
+                                   Maximum Charge for Redemptions                            excludes the portfolio transaction costs, except in the case of an
+                                   payable to the Fund 1.00%                                 entry/exit charge paid by the SICAV when buying or selling units in
+  This is the maximum that might be taken out of your money before it is                     another collective investment undertaking.
+  invested or before the proceeds of your investment are paid out.
+  Charges taken from the Share Class over a year                                             For more information about charges, please refer to chapters
+  Ongoing Charges:                0.19% p.a.                                                 “Charges and Expenses” and “Subscription, transfer, conversion
+                                                                                             and redemption of shares” of the Fund’s Prospectus, and to the
+  Charges taken from the Share Class under certain specific conditions                       SICAV annual reports which are available at www.ossiam.com.
+
+  Performance Fee:                   None
+
+  Past Performance
+                                                                                             Past performance is not a reliable indicator of future performance.
+                                                                                             This bar chart shows the performance of the UCITS ETF 1C (EUR)
+                                                                                             Share Class in its currency of quotation, net of ongoing charges and
+                                                                                             excluding entry or exit charges.
+
+                                                                                             Date of creation of Fund: 14 November 2017.
+                                                                                             Date of creation of Share Class: 14 November 2017.
+
+                                                                                             The Index is computed using the performance of the MSCI Japan
+                                                                                             index until 30/06/2022 and the performance of the Bloomberg
+                                                                                             PAB Japan Large & Mid Cap Net Return Index afterwards. This
+                                                                                             computation method reflects the change of replicated index that
+                                                                                             became effective on the Share Class at the close of 30/06/2022.
+
+
+  Practical Information
+  Fund’s Depositary and Administrative Agent:                                       Management Company:
+  State Street Bank International GmbH, Luxembourg Branch                           Ossiam
+  49, avenue J.F. Kennedy                                                           6, place de la Madeleine
+  L-1855 Luxembourg                                                                 75008 Paris, France
+  Dealing Deadline: 5.00 p.m. (Luxembourg time)
+  The Indicative Net Asset Value of the Fund is calculated on an end-of-the-day time basis. The information on the portfolio of the Fund is disclosed in the
+  annual and semi-annual reports of the Fund. You may also find more detailed information at www.bloomberg.com.
+  Additional information about the SICAV and the Fund (including English version of the Prospectus, reports and accounts of the entire SICAV, procedure
+  for the exchange of Shares from one sub-fund to another sub-fund), may be obtained free of charge at www.ossiam.com and/or at the registered office
+  of the Management Company or of the Depositary and Administrative Agent. Price per Share of the Fund may be obtained at www.ossiam.com or at the
+  registered office of the Management Company or of the Administrative Agent.
+  Details of the up-to-date remuneration policy of the Management Company, including a description of how remuneration and benefits are calculated,
+  are available at www.ossiam.com. A paper copy will be made available free of charge upon request.
+  Assets and liabilities of each sub-fund are segregated, therefore the rights of investors and creditors concerning a sub-fund are limited to the assets of that
+  sub-fund, unless otherwise provided in the constitutional documents of the SICAV. This Fund might be subject to specific tax treatment in Luxembourg.
+  Depending on your own country of residence, this might have an impact on your investment. For further details, please contact an adviser. This Fund
+  qualifies as “equity fund pursuant to German Investment Act”, as further described under “Taxation” in the Prospectus.
+                                                                                        Minimum                  Minimum
+                                                     Types of                           Subscription             Redemption             Dividend
+         Share Class             ISIN                investors         Currency         Requirements             Requirements           Policy
+        UCITS ETF 1C (EUR)       LU1655103643        All investors*    Euro             €2,000,000               €2,000,000            Accumulating
+ * Subscriptions on the primary market only for Authorised Participants and approved investors.
+ Ossiam may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant
+ parts of the Prospectus for the Fund.
+
+
+Disclaimer Bloomberg: “Bloomberg®” and the indices licensed herein (the “Indices”) are service marks of Bloomberg Finance L.P. and its affiliates, including
+Bloomberg Index Services Limited (“BISL”), the administrator of the indices (collectively, “Bloomberg”) and have been licensed for use for certain purposes by
+Ossiam (the “Licensee”). Bloomberg is not affiliated with the Licensee, and Bloomberg does not approve, endorse, review, or recommend the financial products
+referenced herein (the “Financial Products”). Bloomberg does not guarantee the timeliness, accurateness, or completeness of any data or information relating
+to the Indices or the Financial Products.
+
+
+
+
+The Fund is authorised in Luxembourg and regulated by the Commission de Surveillance du Secteur Financier.
+Ossiam is authorised in France and regulated by the Autorité des Marchés Financiers.
+This key investor information is accurate as of 16 February 2026.
+

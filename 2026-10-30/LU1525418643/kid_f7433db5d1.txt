@@ -1,0 +1,202 @@
+=== pdf p.1 ===
+                                                                Key Investor Information
+ This document provides you with key investor information about this Sub-Fund. It is not marketing material. The information is required
+   by law to help you understand the nature and the risks of investing in this Sub-Fund. You are advised to read it so you can make an
+                                              informed decision about whether to invest.
+
+
+                          AMUNDI EUR CORPORATE BOND 1-5Y ESG UCITS ETF Acc
+                            A Sub-Fund of the SICAV AMUNDI INDEX SOLUTIONS
+                                                                ISIN code: (A) LU1525418643
+                  This UCITS has appointed Amundi Luxembourg SA, an entity part of Amundi group, as its Management Company
+
+Objectives and Investment Policy
+This Sub-Fund is passively managed.
+The Sub-Fund is a financial product that promotes among other characteristics ESG characteristics pursuant to Article 8 of the Disclosure Regulation.
+The objective of this Sub-Fund is to track the performance of Bloomberg MSCI ESG Euro Corporate 1-5 Year Select Index, and to minimize the tracking error between the net
+asset value of the Sub-Fund and the performance of the Index. The Sub-Fund aims to achieve a level of tracking error of the Sub-Fund and its index that will not normally exceed
+1%.
+The Index is a Total Return Index : the coupons paid by the index constituents are included in the index return.
+Bloomberg MSCI ESG Euro Corporate 1-5 Year Select Index is a fixed-rate, investment-grade corporate bond index that follows the rules of the Bloomberg Euro Aggregate
+Corporate Index (the "Parent Index") and applies additional ESG criteria for security eligibility.
+Information on how the Index is consistent with environmental, social and governance characteristics is available in the prospectus.
+More information about the composition of the index and its operating rules are available in the prospectus and at: bloomberg.com
+The Index value is available via Bloomberg (I37162EU).
+
+The exposure to the Index will be achieved through a Direct Replication, mainly by making direct investments in transferable securities and/or other eligible assets representing the
+Index constituents in a proportion extremely close to their proportion in the index.
+The Sub-Fund intends to implement a sampled replication model in order to track the performance of the Index and it is therefore not expected that the Sub-Fund will hold each
+and every underlying component of the Index at all times or hold them in the same proportion as their weightings in the Index. The Sub-Fund may also hold some securities which
+are not underlying components of the Index.
+The Investment Manager will be able to use derivatives in order to deal with inflows and outflows and also if it allows a better exposition to an Index constituent. In order to
+generate additional income to offset its costs, the Sub-Fund may also enter into securities lending operations.
+The Sub-Fund integrates sustainability risks as outlined in more detail in section "Sustainable Investment" of the prospectus.
+Dividend Policy : the accumulation share automatically retains, and re-invests, all attributable income within the Sub-Fund; thereby accumulating value in the price of the
+accumulation shares.
+The minimum recommended holding term is 4 years.
+
+The Sub-Fund's shares are listed and traded on one or more stock exchanges. In normal circumstances, you may deal in shares during the trading hours of the stock exchanges,
+provided that the Market Makers can maintain market liquidity. Only authorised participants (e.g. selected financial institutions) may deal in shares directly with the Sub-Fund on the
+primary market. Further details are provided in the prospectus of the UCITS.
+
+Risk and Reward Profile
+ Lower risk,                                                                         Higher risk,      Credit risk: represents the risks associated with an issuer’s sudden
+                                                                                                       downgrading of its signature’s quality or its default.
+ Typically lower reward                                                   Typically higher reward      Liquidity risk: in case of low trading volume on financial markets, any buy or
+                                                                                                       sell trade on these markets may lead to important market
+      1              2           3            4            5             6             7               variations/fluctuations that may impact your portfolio valuation.
+                                                                                                       Counterparty risk: represents the risk of default of a market participant to fulfil
+The risk level of this Sub-Fund mainly reflects the market risk arising from investments in            its contractual obligations vis-à-vis your portfolio.
+bonds issued by corporate entities and denominated in Euro.                                            Operational risk: this is the risk of default or error within the different service
+Historical data may not be a reliable indication for the future.                                       providers involved in managing and valuing your portfolio.
+Risk category shown is not guaranteed and may shift over time.
+                                                                                                    The occurrence of any of these risks may have an impact on the net asset value of
+The lowest category does not mean 'risk free'.
+                                                                                                    your portfolio.
+Your initial investment does not benefit from any guarantee or protection.
+Important risks materially relevant to the Sub-Fund which are not adequately captured by the
+indicator:
+
+
+
+
+                                                                                                                                                                                  1
+    AMUNDI EUR CORPORATE BOND 1-5Y ESG UCITS ETF Acc
+
+=== pdf p.2 ===
+Charges
+The charges you pay are used to pay the costs of running the Sub-Fund, including the costs of marketing and distributing it. These charges reduce the potential growth of your
+investment.
+                                                                                      The entry, exit and conversion charges shown are maximum figures applied on the
+  One-off charges taken before or after you invest
+                                                                                      primary market only. In some cases you might pay less - you can find this out from your
+  Entry charge*                  3.00%                                                financial adviser.
+  Exit charge*                   3.00%                                                The ongoing charges figure is based on expenses for the current year. This figure may
+  Conversion charge              Not applicable                                       vary from year to year. It excludes:
+  This is the maximum that might be taken out of your money before the                     Performance fees
+  proceeds of your investment are paid out.                                                Portfolio transaction costs, except in the case of an entry/exit charge paid by the
+                                                                                           Sub-Fund when buying or selling units in another collective investment undertaking.
+ Charges taken from the Sub-Fund over a year
+ Ongoing charges            0.20%                                                                                                    The ongoing charges displayed are estimated. For each accounting period,
+                                                                                                                                     the Sub-Fund's annual report will display the exact amount.
+ Charges taken from the Sub-Fund under certain specific conditions
+ Performance fee             None
+
+* Entry and exit charges will only apply when shares are subscribed or redeemed directly from the Sub-Fund, and will not apply when investors buy or sell such shares on stock
+exchanges. Investors dealing on exchange will pay fees charged by their intermediaries. Such charges can be obtained from intermediaries.
+For more information about charges, please see charges paragraph of the prospectus of the UCITS, which is available at: amundi.com or amundietf.com.
+
+Past Performance
+                                                                                                                                          A                    The chart has a limited value as a guide to future performance.
+                                                                                                                                                               The annualised performances displayed in this diagram are
+                                                                                                                                                               calculated net of all charges taken by the Sub-Fund.
+                                                                                                                          6.8%
+                                                                                                                  6.5%
+
+                                                                                                                                                               The Sub-Fund was launched on November 29, 2016. The Share
+
+
+
+                                                                                                                                          4.7%
+                                                                                                                                   4.5%
+   % 8.
+                                                             3.7%
+                                                      3.5%
+
+
+
+
+                                                                                                                                                        3.4%
+                                                                                                                                                 3.2%
+     6                                                                                                                                                         Class was launched on November 29, 2016.
+                                                                           1.3%
+                                                                    1.0%
+
+
+
+
+                                                                                           0.2%
+
+
+
+
+     4
+     2                                                                                                                                                         The reference currency is the Euro.
+           0
+
+                 0
+
+
+                        0
+
+                              0
+
+
+
+
+     0
+                                                                                  -0.1%
+
+
+
+
+                                                                                                                                                               The reference Index is : Bloomberg MSCI ESG Euro Corporate 1-5
+                                              -0.8%
+
+
+
+
+    -2
+                                      -1.1%
+
+
+
+
+    -4
+    -6                                                                                                                                                         Year Select Index
+    -8
+                                                                                                          -8.5%
+                                                                                                  -8.8%
+
+
+
+
+   -10
+
+
+            2016          2017            2018           2019          2020           2021            2022           2023             2024          2025
+
+               AMUNDI EUR CORPORATE BOND 1-5Y ESG UCITS ETF Acc                           Benchmark
+
+    A : * Since the beginning of this period, the reference indicator of the Sub-Fund is Bloomberg MSCI Euro Corporate 1-5 Year ESG Sustainability SRI
+    Index
+
+Practical Information
+    Name of the depositary: CACEIS Bank, Luxembourg Branch.
+    Further information about the UCITS (prospectus, periodical reports) can be obtained in English, free of charge, at the following address: Amundi Luxembourg, 5, Allée
+    Scheffer, L-2520 Luxembourg.
+    The details of the up-to-date remuneration policy, including, but not limited to, a description of how remuneration and benefits are calculated, the identity of persons
+    responsible      for     awarding       the      remuneration      and       benefits    are      available    by      means        of       the     following   website:
+    https://www.amundi.lu/retail/Local-Content/Footer/Quick-Links/Regulatory-information/Amundi and a paper copy will be made available free of charge upon request.
+    Other practical information (e.g. latest net asset value, transparency policy and information about the asset composition of the Sub-Fund) can be obtained on the internet site
+    amundi.com or amundietf.com.
+    Indicative net asset value is published by the relevant stock exchanges.
+    The UCITS contains a large number of other Sub-Funds and other classes which are described in the prospectus. Conversion into shares of another Sub-Fund of the UCITS
+    may be made, subject to the conditions of the prospectus.
+    Each Sub-Fund corresponds to a distinct part of the assets and liabilities of the UCITS. As a consequence, the assets of each Sub-Fund are exclusively available to satisfy the
+    rights of investors in relation to that Sub-Fund and the right of creditors whose claims have arisen in connection with the creation, the operation or the liquidation of that
+    Sub-Fund.
+    This document describes a Sub-Fund of the UCITS. The prospectus and periodical reports are prepared for the entire UCITS named at the beginning of this document.
+    The Luxembourg tax legislation applying to the UCITS may have an impact on the investor's personal tax position.
+    Amundi Luxembourg SA may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant
+    parts of the prospectus for the UCITS.
+                                                                                                                         *********************
+This UCITS is authorised in Luxembourg and regulated by the Commission de Surveillance du Secteur Financier, Luxembourg (www.cssf.lu).
+Amundi Luxembourg SA is authorised in Luxembourg and regulated by the Commission de Surveillance du Secteur Financier, Luxembourg.
+This key investor information is accurate as at February 11, 2026.
+
+
+
+
+          AMUNDI EUR CORPORATE BOND 1-5Y ESG UCITS ETF Acc                                                                                                                                                            2
+

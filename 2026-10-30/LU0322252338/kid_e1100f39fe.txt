@@ -1,0 +1,127 @@
+=== pdf p.1 ===
+ Key Investor Information for Investors in the United Kingdom
+ This document provides you with key investor information about this fund. It is not marketing material. The
+ information is required by law to help you understand the nature and the risks of investing in this fund. You
+ are advised to read it so you can make an informed decision about whether to invest.
+
+Xtrackers MSCI Pacific ex Japan UCITS ETF
+Share class: 1C, ISIN: LU0322252338, Security code: DBX1AF, Currency: USD
+a sub-fund of Xtrackers. The management company is DWS Investment S.A., a member of the DWS Group.
+Objectives and investment policy
+The fund is passively managed. INVESTMENT OBJECTIVE: The                      employ techniques and instruments in order to manage risk, reduce
+aim is for your investment to reflect the performance of the MSCI             costs and improve results. These techniques and instruments may
+Pacific ex Japan Index (index). DESCRIPTION OF INDEX: The                     include the use of financial contracts (derivatives). The fund may
+index is designed to reflect the performance of the shares of certain         also engage in secured lending of its investments to certain eligible
+large and medium capitalisation companies from developed                      third parties to generate additional income to offset the costs of the
+countries in the Pacific region (excluding Japan). The index is a free        fund. FURTHER INFORMATION: Certain information (including the
+float-adjusted market capitalisation weighted index reflecting the            latest share prices of the fund, indicative net asset values, full
+performance of large and medium capitalisation companies which                disclosure on the composition of the fund's portfolio and information
+comply with the Index Administrator’s classification framework.               on the index constituents) are available on your local DWS website
+INDEX REBALANCING, CALCULATION AND ADMINISTRATION:                            or at www.Xtrackers.com. Transaction costs and taxes,
+The index is administered by MSCI Limited. The index is calculated            unexpected fund costs and market conditions such as volatility or
+on a total return net basis which means that all dividends and                liquidity issues may affect the ability of the fund to track the index.
+distributions by the companies are reinvested in the shares after             The anticipated level of tracking error in normal market conditions is
+tax. The index is reviewed and rebalanced at least quarterly.                 1 per cent. The currency of the fund is USD. Returns and gains are
+INVESTMENT POLICY: To achieve the aim, the fund will attempt to               not distributed but are reinvested in the fund. You may request the
+replicate the index, before fees and expenses, by buying all or a             redemption of shares generally on a daily basis.
+substantial number of the securities in the index. The fund may
+Risk and reward profile
+     Lower risk                                                 Higher risk
+                                                                              fund's performance to be substantially different from the
+                                                                              performance of the index. CONFLICTS OF INTEREST RISK: DWS
+     Potentially lower reward                     Potentially higher reward
+                                                                              entities and related companies may act in several roles in relation
+    1             2             3   4        5            6              7    to the fund such as distributor and management company which
+                                                                              may involve conflicts of interest. NO GUARANTEE RISK: The fund
+The calculation of the risk and reward profile is based on historical         is not guaranteed and your investment is at risk. The value of your
+data that cannot be used as a reliable indicator for the future risk          investment may go down as well as up. SHARES RISK: The value
+profile. This risk indicator is subject to changes; the classification of     of an investment in shares will depend on a number of factors
+the fund may change over time and cannot be guaranteed. Even a                including, but not limited to, market and economic conditions,
+fund that is classified in the lowest category (category 1) does not          sector, geographical region and political events. REGION
+represent a completely risk-free investment. The fund is classified           CONCENTRATION RISK: The fund is exposed to market
+in category 6 because its share price may fluctuate strongly and              movements in a single country or region which may be adversely
+the likelihood of both losses and gains may therefore be high. The            affected by political or economic developments, government action
+following risks could be of particular significance for the fund: The         or natural events that do not affect a fund investing in broader
+fund will attempt to replicate the performance of the index less              markets. DERIVATIVES RISK: The fund may use derivatives to try
+costs, but your investment is not expected to match the                       to manage its investments more efficiently. This may not always be
+performance        of    the     index     precisely.  EXCEPTIONAL            successful and may result in greater fluctuations in the value of the
+CIRCUMSTANCES RISK: Exceptional circumstances may arise,                      fund. This may negatively affect the value of the fund and your
+such as, but not limited to, disruptive market conditions, additional         investment.
+costs/taxes or extremely volatile markets, which may cause the                A more detailed description of risks and other general information
+                                                                              can be found in the risk section(s) of the prospectus.
+
+
+Charges
+The charges you pay are used to pay the costs of running the fund, including the costs of marketing and distributing it. These charges
+reduce the potential growth of your investment.
+  One-off charges taken before or after you invest                            Secondary market investors (those who buy or sell shares
+  Entry charge                              None                              on a stock exchange) may be charged certain fees by their
+  Exit charge                               None                              stock broker. These charges, if any, can be obtained from
+  This is the maximum that might be taken out of your money before it is      such stock broker. Authorised participants dealing directly
+  invested (entry charge) and before the proceeds of your investment are paid with the fund will pay the transaction costs related to their
+  out (exit charge).                                                          subscriptions and redemptions.
+  Charges taken from the fund over a year                                     The ongoing charges figure is based on expenses for the
+  Ongoing charges                           0.25 %                            fiscal year ending 31.12.2025. It may vary from year to
+  Charges taken from the fund under certain specific conditions               year. It excludes portfolio transaction costs and
+  Performance fee                           None                              performance fees, if any.
+                                                                              Additional information on costs can be found in the cost
+  Securities lending fees                   0.00 %
+                                                                              section(s) of the prospectus.
+
+To the extent the fund undertakes securities lending to generate revenue, the fund will ultimately be allocated 82% of the associated
+revenue, the securities lending agent, which will be a Deutsche Bank entity, will be allocated 9% and the remaining 9% will be allocated to
+the DWS entity which monitors such activities, as set out in the sales prospectus and/or supplement, for its own coordination and oversight
+tasks. As securities lending revenue sharing does not increase the costs of running the fund, this has been excluded from the composition of
+costs.
+
+=== pdf p.2 ===
+Past performance
+aaa
+
+
+
+
+                                                                                                             Past performance is not a reliable
+                                                                                                             indicator of future performance. All costs
+                                                                                                             and fees that were withdrawn from the 1C
+                                                                                                             share class of Xtrackers MSCI Pacific ex
+                                                                                                             Japan UCITS ETF were deducted during
+                                                                                                             the calculation. The 1C share class of
+                                                                                                             Xtrackers MSCI Pacific ex Japan UCITS
+                                                                                                             ETF was launched in 2009.
+
+
+
+
+─── As of 1 June 2022 the fund changed its investment objective to reflect the performance of the MSCI Pacific ex Japan Select ESG
+Screened Index. The past performance shown from 2012 up to 2021 (inclusive), is that of the MSCI Pacific ex Japan TRN Index. 2022
+shows a combined performance of both indices. The MSCI Pacific ex Japan Select ESG Screened Index changed name to MSCI
+Pacific ex Japan Select Screened Index on 3 February 2025. As of 1 June 2026, the fund changed its investment objective to reflect the
+performance of the MSCI Pacific ex Japan Index.
+
+
+Practical information
+The depositary is State Street Bank International GmbH,                          and where appropriate take advice on such taxation regimes.
+Luxembourg Branch. Copies of the prospectus and the periodic                     Xtrackers may be held liable solely on the basis of any statement
+reports are available free of charge in the language of this                     contained in this document that is misleading, inaccurate or
+document. The documents as well as other information (including                  inconsistent with the relevant parts of the sales prospectus. This
+the latest share prices as well as the indicative net asset values)              fund is a sub-fund of Xtrackers for which the sales prospectus and
+are available free of charge. The documents are available on your                the periodic reports are prepared as a whole. The assets and
+local DWS website or at www.Xtrackers.com, for full disclosure on                liabilities of each sub-fund are segregated by law. As a result,
+the composition of the fund's portfolio and information on the index             assets of one sub-fund are not available in the event of claims
+constituents please refer to this website as well. Information on the            against or insolvency of another. More share classes may be
+current remuneration policy of the management company,                           available for this fund - please refer to the relevant section of the
+including a description of how remuneration and benefits are                     sales prospectus for further details. You are not permitted to
+calculated      is     published      on      the      Internet     at           exchange your shares in this fund for other funds of Xtrackers. This
+https://www.dws.com/footer/Legal-Resources/dws-remuneration-                     fund is authorised in Luxembourg and is regulated by the
+policy?setLanguage=en. The information will be sent to you in                    Commission de Surveillance du Secteur Financier. DWS
+paper form free of charge upon request. Taxation regimes                         Investment S.A. is authorised in Luxembourg and is regulated by
+applicable to the fund in your jurisdiction may affect your personal             the Commission de Surveillance du Secteur Financier.
+tax situation. Prospective investors should inform themselves of,
+
+This key investor information is accurate as at 01.06.2026.
+
+The MSCI indices are the exclusive property of MSCI Inc. and its subsidiaries (MSCI) and may not be reproduced or extracted and used for any other purpose
+without MSCI’s consent. The fund is not sponsored, endorsed, or promoted by MSCI, and MSCI bears no liability with respect to the fund or any index on which
+such fund is based. The MSCI indices are provided without any warranties of any kind.
+

@@ -1,0 +1,126 @@
+=== pdf p.1 ===
+                                                                    KEY INVESTOR INFORMATION
+                                                                    This document provides you with key investor information about this Fund. It is not marketing material. The
+                                                                    information is required by law to help you understand the nature and risks of investing in this Fund. You are advised
+                                                                    to read it so you can make an informed decision about whether to invest.
+
+iShares MSCI Europe CTB Enhanced ESG                                                               EUR (Acc) Share Class
+                                                                                                   ISIN: IE00BHZPJ783                     Exchange Traded Fund (ETF)
+UCITS ETF                                                                                          Manager: BlackRock Asset Management Ireland Limited
+A sub-fund of iShares IV plc
+
+Objectives and Investment Policy
+  The Share Class is a share class of the Fund which aims to achieve a return on your investment, through a combination of capital growth and income on the Fund's
+  assets, which reflects the return of the MSCI Europe ESG Enhanced CTB Index, the Fund’s benchmark index ("Index").
+  The Share Class, via the Fund, is passively managed, and aims to invest so far as possible and practicable in equity securities (e.g. shares) that make up the Index.
+  The Index measures the performance of a sub-set of equity securities of developed market countries within the European Economic and Monetary Union (“EMU”)
+  which are part of the MSCI EMU Index (the “Parent Index”) and excludes companies from the Parent Index based on the index provider’s environmental, social and
+  governance (“ESG”) exclusionary criteria. The remaining companies are then weighted by the index provider using an optimisation process which aims to meet the
+  decarbonisation targets and other minimum standards for an EU Climate Transition Benchmark (as further described in the Fund’s prospectus), whilst targeting a
+  similar risk and return profile, and maintaining a better ESG score, each in relation to the Parent Index.
+  Companies are excluded from the Index if they are involved with controversial and nuclear weapons, production of civilian firearms (relating to automatic and semi-
+  automatic civilian firearms and small arms ammunition), distribution of civilian firearms or small arms ammunition, tobacco, thermal coal, or unconventional oil and
+  gas. Companies that are classified as violating the United Nations Global Compact principles, are involved in serious ESG controversies, as determined by the index
+  provider, or have not been assessed by the index provider for an ESG controversy score or an ESG rating, are also excluded from the Index.
+  The Fund may obtain limited exposure to securities considered not to satisfy these ESG criteria.
+  The Fund adopts a binding and significant ESG optimisation approach to sustainable investing. This means that the Fund will integrate ESG information into its
+  investment process to optimise exposure to issuers to achieve a higher ESG rating and reduce exposure to carbon emissions compared to the Parent Index while
+  meeting optimisation constraints
+  The Fund uses optimising techniques to achieve a similar return to its Index. These techniques may include the strategic selection of certain securities that make up
+  the Index or other securities which provide similar performance to certain constituent securities. These may also include the use of financial derivative instruments
+  (FDIs). FDIs may be used for direct investment purposes.
+  The Fund may also engage in short-term secured lending of its investments to certain eligible third parties to generate additional income to offset the costs of the Fund.
+  Recommendation: This Fund is suitable for medium to long term investment, though the Fund may also be suitable for shorter term exposure to the Index.
+  Your shares will be accumulating shares (i.e. income will be included in their value).
+  Your shares will be denominated in Euro, the Fund's base currency.
+  The shares are listed on one or more stock exchanges and may be traded in currencies other than their base currency. The performance of your shares may be
+  affected by this currency difference. In normal circumstances, only authorised participants (e.g. select financial institutions) may deal in shares (or interests in shares)
+  directly with the Fund. Other investors can deal in shares (or interests in shares) daily through an intermediary on stock exchange (s) on which the shares are traded.
+  Indicative net asset value is published on relevant stock exchanges websites.
+For more information on the Fund, Share Class, risks and charges, please see the Fund's prospectus, available on the product pages at www.blackrock.com
+
+Risk and Reward Profile
+ Lower risk                                                                      Higher risk          - Investment risk is concentrated in specific sectors, countries, currencies or
+ Typically lower rewards                                             Typically higher rewards           companies. This means the Fund is more sensitive to any localised economic,
+                                                                                                        market, political, sustainability-related or regulatory events.
+                                                                                                      - The value of equities and equity-related securities can be affected by daily
+                                                                                                        stock market movements. Other influential factors include political, economic
+  This indicator is based on historical data and may not be a reliable indication of                    news, company earnings and significant corporate events.
+  the future risk profile of this Share Class.                                                        - The benchmark index only excludes companies engaging in certain activities
+  The risk category shown is not guaranteed and may change over time.                                   inconsistent with ESG criteria if such activities exceed the thresholds
+  The lowest category does not mean risk free.                                                          determined by the index provider. Such ESG screening may reduce the
+  The Share Class is rated five due to the nature of its investments which include                      potential investment universe and this may adversely affect the value of the
+  the risks listed below. These factors may impact the value of the Share Class or                      Fund’s investments compared to a fund without such screening.
+  expose the Share Class to losses.                                                                   Particular risks not adequately captured by the risk indicator include:
+                                                                                                      - Counterparty Risk: The insolvency of any institutions providing services such
+                                                                                                        as safekeeping of assets or acting as counterparty to derivatives or other
+                                                                                                        instruments, may expose the Share Class to financial loss.
+
+
+
+
+The benchmark is the intellectual property of the index provider. The Share Class is not sponsored or endorsed by the index provider. Please refer to the Fund's prospectus for full disclaimer.
+
+=== pdf p.2 ===
+Charges
+The charges are used to pay the costs of running the Share Class, including the                     ** To the extent the Fund undertakes securities lending to reduce costs, the
+costs of marketing and distributing it. These charges reduce the potential growth of                Fund will receive 62.5% of the associated revenue generated and the remaining
+your investment.                                                                                    37.5% will be received by BlackRock as the securities lending agent. As
+*Not applicable to secondary market investors. Investors dealing on a stock                         securities lending revenue sharing does not increase the costs of running the
+exchange will pay fees charged by their stock brokers. Such charges are publicly                    Fund, this has been excluded from the ongoing charges.
+available on exchanges on which the shares are listed and traded, or can be                          One-off charges taken before or after you invest
+obtained from stock brokers.
+                                                                                                     Entry Charge                                                                   None*
+*Authorised participants dealing directly with the Fund will pay related transaction
+costs including, on redemptions, any applicable capital gains tax (CGT) and other                    Exit Charge                                                                    None*
+taxes on underlying securities.                                                                       This is the maximum that might be taken out of your money before it is invested or
+                                                                                                      before proceeds of your investments are paid out.
+The ongoing charges figure is based on the fixed annualised fee charged to the
+Share Class in accordance with the Fund’s prospectus. This figure excludes portfolio                 Charges taken from the Share Class over each year
+trade related costs, except costs paid to the depositary and any entry/exit charge                   Ongoing Charges                                                              0.12%**
+paid to an underlying collective investment scheme (if any).                                         Charges taken from the Share Class under certain conditions
+                                                                                                     Performance Fee                                                                 None
+
+Past Performance
+Past performance is not a guide to future                       Historic performance to 31 December 2025
+performance.
+The chart shows the Share Class's annual
+performance in EUR for each full calendar year over
+the period displayed in the chart. It is expressed as a
+percentage change of the Share Class's net asset
+value at each year-end. The Fund was launched in
+2019. The Share Class was launched in 2019.
+Performance is shown after deduction of ongoing
+charges. Any entry/exit charges are excluded from
+the calculation.
+
+† Benchmark:MSCI Europe ESG Enhanced CTB Index
+                                                                                         2016      2017       2018      2019       2020      2021       2022    2023      2024      2025
+                                                                   Fund                                                             -1.4         25.5   -12.4   16.1        8.7     17.2
+                                                                   Benchmark †                                                      -1.6         25.3   -12.6   15.9        8.5     16.9
+
+Practical Information
+  The depositary of the Fund is State Street Custodial Services (Ireland) Limited.
+  Further information about the Fund and the Share Class can be obtained from the latest annual report and half-yearly reports of iShares IV plc. These documents are
+  available free of charge in English and certain other languages. These can be found, along with other information, such as details of the key underlying investments of
+  the Share Class and share prices, on the iShares website at www.ishares.com or by calling +44 207-743-1500 or from your broker or financial adviser.
+  Investors should note that the tax legislation that applies to the Fund and Share Class may have an impact on the personal tax position of your investment.
+  The Fund is a sub-fund of iShares IV plc, an umbrella structure comprising different sub-funds. The Fund has one or more share classes. This document is specific to
+  the Fund and Share Class stated at the beginning of this document. However, the prospectus, annual and half-yearly reports are prepared for the umbrella.
+  iShares IV plc may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant parts
+  of the Fund's prospectus.
+  The indicative intra-day net asset value of the Share Class is published on relevant stock exchanges websites.
+  Under Irish law, iShares IV plc has segregated liability between its sub-funds (i.e. the Fund’s assets will not be used to discharge the liabilities of other sub-funds within
+  iShares IV plc). In addition, the Fund's assets are held separately from the assets of other sub-funds. Assets and liabilities specific to a share class would be
+  attributable to only that share class, however there is no segregation of liabilities between share classes under Irish law.
+  Switching of shares between the Fund and other sub-funds within iShares IV plc is not available to investors. Only Authorised Participants dealing directly with the
+  Fund may switch shares between share classes of the Fund subject to meeting certain conditions in the Fund's prospectus.
+  The Remuneration Policy of the Management Company, which describes how remuneration and benefits are determined and awarded, and the associated governance
+  arrangements, is available at www.blackrock.com/Remunerationpolicy or on request from the registered office of the Management Company.
+
+
+
+
+This Fund and its manager, BlackRock Asset Management Ireland Limited, are authorised in Ireland and regulated by the Central Bank of Ireland.
+This Key Investor Information is accurate as at 02 March 2026
+

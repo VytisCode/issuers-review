@@ -1,0 +1,160 @@
+=== pdf p.1 ===
+  Marketing-Anzeige
+
+
+
+  SMH VanEck
+                     Semiconductor UCITS ETF
+Fondsdaten                                               FONDSBESCHREIBUNG                                                                                       30 Juni 2026
+Basis Währung                                    USD     Der VanEck Semiconductor UCITS ETF (SMH) ist ein OGAW-konformer börsengehandelter Fonds,
+Auflagedatum                    01 Dezember 2020         der in ein Portfolio aus Aktienpapieren mit dem Ziel investiert, Anlagerenditen zu erwirtschaften, die
+Domizil                                        Irland    der Wertentwicklung des MarketVector US Listed Semiconductor 10% Capped Screened Index
+                                                         (MVSMCTR) möglichst genau entsprechen.
+Fondsvolumen                              $9949,0M
+                                                         Der MVIS® US Listed Semiconductor 10% Capped ESG Index bildet die gesamte Wertentwicklung
+Ausstehende Anteile                      79.000.000
+                                                         von Unternehmen ab, die in der Halbleiterproduktion und -ausrüstung tätig sind.
+Gesamtkostenquote                             0,35%
+(TER)                                                    Historische Performance: Durchschnittliche jährliche Gesamtrenditen (%)
+Produktstruktur             Physisch (Vollständige                                                                                                                ETF-
+                                      Replikation)        Monatsende Stand 30. Juni 2026              1 M*   3 M* Lfd. Jahr*    1 JR    3 JR     5 JR 10 JR AUFLEGUNG
+
+OGAW-konform                                       Ja    ETF                                       13,57 88,79        104,06167,50 63,66 38,17              --           39,19
+
+Häufigkeit der                           Halbjährlich    MVSMCTR (Index)                           13,60 88,95        104,38168,29 64,10 38,49              --           39,52
+Neugewichtung
+Ausschüttungshäufigkeit                        Keine
+                                                         Vergangene Wertentwicklung Stand 31. Dez. 2025
+Ertragsverwendung                     Wiederanlage        100%
+
+Registriert in folgenden AT, CH, DE, DK, ES, FI,
+Ländern                    FR, IE, IS, IT, LU, NL,
+                                                           50%
+                         NO, PL, PT, SE, SG, UK
+
+Indexinformationen                                          0%
+
+Indexanbieter                MarketVector Indexes
+                                            GmbH          -50%
+                                                                         2021                  2022                  2023                 2024                   2025
+Indextyp                           Total Return Net
+Währung                                          USD             VanEck Semiconductor UCITS ETF
+                                                                 Benchmark-Index (MarketVector US Listed Semiconductor 10% Capped Screened Index)
+Auflagedatum                          13 Aug. 2020
+Häufigkeit der                           Halbjährlich                                                                                      2021 2022 2023 2024 2025
+Neugewichtung
+                                                         VanEck Semiconductor UCITS ETF                                                      43,6 -34,8 73,2 23,2 50,1
+Bloomberg-Ticker                         MVSMCTR
+                                                         Benchmark-Index (MarketVector US Listed Semiconductor 10% Capped                    43,9 -34,7 73,6 23,5 50,5
+Reuters-Ticker                                      --   Screened Index)
+
+                                                         Die Wertentwicklung in der Vergangenheit ist kein Indikator für zukünftige Erträge. Die angegebenen Daten zur
+Daten zum Fonds                                          Wertentwicklung beziehen sich auf die Vergangenheit. Die aktuelle Wertentwicklung kann im Vergleich zu den
+Anzahl Positionen                                  25    aufgeführten durchschnittlichen jährlichen Renditen höher oder niedriger ausfallen. Die Performancedaten werden auf
+                                                         Basis des Nettoinventarwerts und der Wiederanlage der Nettoerträge und nach Abzug von Gebühren in der
+Kurs-Gewinn-Verhältnis*                        50,92     Basiswährung angezeigt. Makler- oder Transaktionsgebühren kommen zur Anwendung. Die Renditen können durch
+                                                         Währungsschwankungen steigen oder sinken. Anleger müssen sich darüber im Klaren sein, dass die Wertentwicklung
+Kurs-Buchwert-Verhältnis*                      13,99     der ETFs aufgrund von Marktschwankungen und anderen Faktoren im Laufe der Zeit schwanken kann, und sollten bei
+Gew. durchschn. Marktkap.             USD 1300,4B        der Bewertung der Wertentwicklung von ETFs eine mittel- bis langfristige Perspektive berücksichtigen. Anlagen sind mit
+                                                         Risiken verbunden, die auch einen möglichen Verlust des eingesetzten Kapitals einschließen können. Quelle:
+* Letzte 12 Monate                                       VanEck.
+                                                         * Zeiträume von über einem Jahr werden annualisiert. Referenzzeiträume zeigen die kumulative Performance, die nicht
+Länderaufschlüsselung                                    annualisiert ist.
+
+USA                                          76,49%
+Niederlande                                  10,30%
+Taiwan Region                                 9,90%
+Bermuda                                       2,59%
+Schweiz                                       0,70%
+Sonstige/Barmittel                            0,02%
+
+
+
+
+Für unbekannte Fachbegriffe lesen Sie bitte das ETF-Glossar | VanEck.
+
+=== pdf p.2 ===
+  Marketing-Anzeige
+
+
+
+  SMH VanEck
+                     Semiconductor UCITS ETF
+Top 10 Positionen                                                                                                                                                    30 Juni 2026
+
+MICRON TECHNOLOGY INC                                                                                           10,97%
+ADVANCED MICRO DEVICES INC                                                                                      10,88%
+TAIWAN SEMICONDUCTOR MANUFACTURING CO L                                                                          9,90%
+ASML HOLDING NV                                                                                                  9,67%
+BROADCOM INC                                                                                                     8,60%
+NVIDIA CORP                                                                                                      8,46%
+INTEL CORP                                                                                                       7,79%
+APPLIED MATERIALS INC                                                                                            6,61%
+LAM RESEARCH CORP                                                                                                6,09%
+KLA CORP                                                                                                         4,09%
+ZWISCHENSUMME – GRÖSSTE 10 POSITIONEN                                                                           83,05%
+RESTLICHE POSITIONEN                                                                                            16,93%
+SONSTIGE/BARMITTEL                                                                                               0,02%
+SUMME                                                                                                         100,00%
+Eine vollständige Auflistung der Fondspositionen finden Sie unter www.vaneck.com
+
+Handelsinformationen
+                                                                                                 EXCHANGE          BLOOMBERG             REUTERS                        IOPV
+BÖRSE                                        HANDELSWÄHRUNG                      ISIN             TICKER             TICKER               TICKER          SEDOL        SYMBOL
+LONDON STOCK EXCHANGE                                 USD                 IE00BMC38736               SMH               SMH LN              SMH.L        BMC3873        SMHUSIV
+LONDON STOCK EXCHANGE                                 GBP                 IE00BMC38736              SMGB              SMGB LN             SMGB.L         BLN9ZL6       SMHUSIV
+DEUTSCHE BÖRSE                                        EUR                 IE00BMC38736              VVSM              VVSM GY              VVDE         BNG96R0        VVSMEUIV
+SIX SWISS EXCHANGE                                    CHF                 IE00BMC38736              SMHV              SMHV SE             SMHV.S        BNDVGT1        SMHUSIV
+BORSA ITALIANA                                        EUR                 IE00BMC38736               SMH               SMH IM             SMH.MI        BNKD634        VVSMEUIV
+EURONEXT PARIS                                        EUR                 IE00BMC38736               SMH               SMH FP             SMH.PA        BSNR3D7        VVSMEUIV
+
+Hauptrisiken
+Liquiditätsrisiko: Liquiditätsrisiken bestehen, wenn es schwierig ist, ein bestimmtes Finanzinstrument zu kaufen oder zu verkaufen. Wenn der
+entsprechende Markt illiquide ist, kann es vorkommen, dass eine Transaktion nicht eingegangen werden kann oder dass eine Position nicht zu einem
+günstigen bzw. angemessenen Kurs oder überhaupt nicht aufgelöst werden kann.
+Aktienmarktrisiko: Die Kurse der Wertpapiere im Halbleiter ETF unterliegen den mit Anlagen im Wertpapiermarkt verbundenen Risiken, einschließlich
+der allgemeinen Wirtschaftsbedingungen sowie plötzlicher und unvorhersehbarer Kurseinbrüche. Eine Anlage in dem Fonds kann zu Verlusten führen.
+Branchen- oder Sektorkonzentrationsrisiko: Das Vermögen im Fonds kann in einem/einer oder mehreren bestimmten Sektoren oder Branchen
+konzentriert sein. Der Fonds kann dem Risiko unterliegen, dass wirtschaftliche, politische oder andere Bedingungen, die sich negativ auf die
+betreffenden Sektoren oder Branchen auswirken, die Wertentwicklung des Fonds in größerem Maße negativ beeinflussen, als wenn das
+Fondsvermögen in einer größeren Vielfalt von Sektoren oder Branchen investiert wäre.
+Weitere Informationen zu den Risiken entnehmen Sie bitte dem Abschnitt „Risikofaktoren“ des jeweiligen Fondsprospekts unter www.vaneck.com.
+Anleger müssen alle Merkmale oder Ziele des Fonds, wie sie im Prospekt oder in den zugehörigen Dokumenten beschreiben sind,
+berücksichtigen, bevor sie eine Anlageentscheidung treffen. Bitte beachten Sie die nachhaltigkeitsbezogenen Angaben sowie das KID/KIID
+und den Prospekt im Dokumententeil für weitere Informationen und anwendbare Risiken, bevor Sie investieren.
+
+WICHTIGE INFORMATIONEN
+Dies ist eine Marketing-Anzeige. Bitte lesen Sie den Verkaufsprospekt des OGAW und das Basisinformationsblatt („KID”), bevor Sie eine endgültige Anlageentscheidung treffen.
+Diese Dokumente sind in englischer Sprache und die Basisinformationsblätter in der jeweiligen Landessprache erhältlich und können kostenlos unter www.vaneck.com
+abgerufen oder bei VanEck Asset Management B.V. („Verwaltungsgesellschaft”) oder bei der für Ihr Land zuständigen Informationsstelle angefordert werden.
+Diese Informationen stammen von VanEck (Europe) GmbH, einer gemäß der Richtlinie über Märkte für Finanzinstrumente (MiFID) zugelassenen Wertpapierfirma im EWR. VanEck
+(Europe) GmbH hat ihren Sitz in der Kreuznacher Str. 30, 60486 Frankfurt, Deutschland, und wurde von der Verwaltungsgesellschaft zum Vertriebspartner für VanEck-Produkte in
+Europa ernannt. Die Verwaltungsgesellschaft ist nach niederländischem Recht gegründet und bei der niederländischen Behörde für die Finanzmärkte (AFM) registriert.
+Dieses Material ist nur zur allgemeinen und vorläufigen Information bestimmt und darf nicht als Anlage-, Rechts- oder Steuerberatung ausgelegt werden. VanEck (Europe) GmbH
+und ihre verbundenen Unternehmen und Tochtergesellschaften (zusammen „VanEck”) übernehmen keine Haftung für Investitions-, Veräußerungs- oder Halteentscheidungen, die
+auf der Grundlage dieser Informationen getroffen werden.
+VanEck Semiconductor UCITS ETF (der „ETF“) ist ein Teilfonds von VanEck UCITS ETFs plc, einer offenen Umbrella-Investmentgesellschaft mit variablem Kapital und beschränkter
+Haftung zwischen den Teilfonds. Der ETF ist bei der irischen Zentralbank registriert, passiv verwaltet und bildet einen Aktienindex nach. Einzelheiten zu den geregelten Märkten, an
+denen der ETF notiert ist, finden Sie im Abschnitt Handelsinformationen auf der ETF-Seite unter www.vaneck.com. Eine Anlage in den ETF ist als Erwerb der Anteile des ETF und
+nicht als Erwerb der zugrunde liegenden Wertpapiere zu verstehen.
+Der MarketVector US Listed Semiconductor 10% Capped Screened Index ist das ausschließliche Eigentum der MarketVector Indexes GmbH (einer hundertprozentigen
+
+=== pdf p.3 ===
+Tochtergesellschaft der Van Eck Associates Corporation), die mit der Führung und Berechnung des Index die Solactive AG beauftragt hat. Die Solactive AG verwendet
+größtmögliche Sorgfalt darauf, die korrekte Berechnung des Index sicherzustellen. Ungeachtet ihrer Verpflichtungen gegenüber der MarketVector Indexes GmbH („MarketVector“) ist
+die Solactive AG nicht verpflichtet, Dritte auf Fehler im Index aufmerksam zu machen. Der VanEcks ETF wird nicht von MarketVector unterstützt, empfohlen, verkauft oder beworben,
+und MarketVector gibt keine Zusicherung bezüglich der Ratsamkeit einer Anlage in dem Fonds. Es ist nicht möglich, direkt in einen Index zu investieren.
+Die ausgewiesenen Performancedaten beziehen sich auf die Vergangenheit. Die aktuelle Wertentwicklung kann im Vergleich zu den durchschnittlichen jährlichen Renditen höher
+oder niedriger ausfallen. Die Performancedaten für die in Irland domizilierten ETFs werden auf Basis des Nettoinventarwerts bei Wiederanlage der Nettoerträge und nach Abzug
+von Gebühren in der Basiswährung angezeigt. Die Rendite kann steigen oder fallen aufgrund von Währungskursschwankungen. Anleger sollten sich bewusst sein, dass die
+Wertentwicklung von ETFs aufgrund von Marktschwankungen und anderen Faktoren im Zeitverlauf variieren kann. Daher ist es ratsam, bei der Bewertung der Performance von
+ETFs eine mittel- bis langfristige Perspektive einzunehmen.
+Anlagen sind mit Risiken verbunden, die auch einen möglichen Verlust des eingesetzten Kapitals einschließen können. Anleger müssen OGAW-Anteile auf dem Sekundärmarkt
+über einen Intermediär (z. B. einen Makler) kaufen und verkaufen und können sie in der Regel nicht direkt an den OGAW zurückverkaufen. Es können Maklergebühren anfallen. Der
+Ankaufspreis kann über oder der Verkaufspreis kann unter dem aktuellen Nettoinventarwert liegen. Der indikative Nettoinventarwert (iNAV) des OGAW ist auf Bloomberg verfügbar.
+Die Verwaltungsgesellschaft kann den Vertrieb des OGAW in einer oder mehreren Jurisdiktionen einstellen. Die Zusammenfassung der Anlegerrechte ist auf Englisch verfügbar
+unter: complaints-procedure.pdf (vaneck.com). Bei unklaren Fachbegriffen siehe ETF Glossary | VanEck.
+Ohne ausdrückliche schriftliche Genehmigung von VanEck ist es nicht gestattet, Inhalte dieser Publikation in jedweder Form zu vervielfältigen oder in einer anderen Publikation auf
+sie zu verweisen.
+© VanEck (Europe) GmbH
+

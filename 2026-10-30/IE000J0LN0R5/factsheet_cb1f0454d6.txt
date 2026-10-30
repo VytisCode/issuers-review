@@ -1,0 +1,391 @@
+=== pdf p.1 ===
+       Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                                         FACTSHEET
+
+                                                                                                                                                                                         Marketing
+                                                                                                                                                                                       Communication
+ EQUITY ■
+                                                                                                                                                                                          30/09/2026
+
+Objective and Investment Policy
+
+  The Sub-Fund is passively managed. The objective of the Sub-Fund is to track the performance of the S&P World Energy Weighted & Screened Index (the "Index"). The
+  anticipated level of the tracking error, under normal market conditions, is indicated in the prospectus of the Sub-Fund. The Sub-Fund promotes environmental and/or social
+   characteristics through among others, replicating an Index integrating an environmental, social and governance ("ESG") rating. The Index is an equity index that measures
+  the performance of eligible equity securities from the S&P World Energy Index (the "Parent Index"). The Parent Index is designed to measure the performance of large and
+  mid-cap energy companies in developed markets excluding Korea which make up approximately 85% of the total available capital. Energy companies are identiﬁed by
+  reference to the GICS. The energy sector comprises of companies engaged in exploration and production, reﬁning and marketing, and storage and transportation of oil and
+  gas, and coal and consumable fuels. It also includes companies that oﬀer oil and gas equipment and services. The Index is selected and weighted to enhance ESG profiles,
+  and reduce carbon emission intensity, all compared to the Parent Index. The Index applies several ESG filters (e.g. exclusions filters to exclude companies involved in
+  controversial business activities (e.g. controversial weapon), or involved in ESG controversies) and optimization constraints (GHG intensity reduction and identical S&P Global
+  ESG Score or improvement of such score compared to the Parent Index). The Index is a net total return index, meaning that dividends net of tax paid by the index
+  constituents are included in the Index return. More information about the composition of the Index and its operating rules are available in the prospectus and at
+  https://www.spglobal.com/spdji/en/supplemental-data/europe The Index value is available via Bloomberg (SPDSEEUN). The exposure to the Index will be achieved through a
+  direct replication, mainly by making direct investments in transferable securities and/or other eligible assets representing the Index constituents in a proportion extremely
+  close to their proportion in the Index. The Investment Manager will be able to use derivatives in order to deal with inﬂows and outﬂows and which relate to the Index or
+  constituents of the Index for investment and/or eﬃcient portfolio management. In order to generate additional income to oﬀset its costs, the Sub-Fund may also enter into
+  securities lending operations.
+
+Performances from 20/09/2022 to 30/09/2026 (Source : Fund Admin)                                                                                            Risk indicators (Source: Fund Admin)
+
+     175                                                                                                                                                                                                  Inception to
+                                                                                                                                                                                      1 year 3 years
+                                                                                                                                                                                                             date *
+                                                                                                                                                             Portfolio volatility * 21.41% 20.70%           21.00%
+     150
+                                                                                                                                                             Benchmark
+                                                                                                                                                                                    21.45% 20.72%            21.02%
+                                                                                                                                                             volatility
+     125                                                                                                                                                     Ex-post Tracking
+                                                                                                                                                                                    0.11% 0.11%               0.13%
+                                                                                                                                                             Error
+                                                                                                                                                             Sharpe ratio            1.52   0.36               0.47
+     100                                                                                                                                                    * Volatility is a statistical indicator that measures an asset’s
+                                                                                                                                                            variations around its average value. For example, market
+                                                                                                                                                            variations of +/- 1.5% per day correspond to a volatility of
+      75                                                                                                                                                    25% per year. The higher the volatility, the higher the risk.
+                                                                                                                                                            The Tracking Error indicator measures the performance's
+           /22
+
+
+                   /22
+
+
+                            /23
+
+
+                                    /23
+
+
+                                            /23
+
+
+                                                    /23
+
+
+                                                             /24
+
+
+                                                                     /24
+
+
+                                                                              /24
+
+
+                                                                                       /24
+
+
+                                                                                               /25
+
+
+                                                                                                        /25
+
+
+                                                                                                                 /25
+
+
+                                                                                                                          /25
+
+
+                                                                                                                                   /26
+
+
+                                                                                                                                            /26
+
+
+                                                                                                                                                      /26
+
+
+
+
+                                                                                                                                                            difference between the fund and the benchmark
+         09
+
+
+                 12
+
+
+                          03
+
+
+                                  06
+
+
+                                          09
+
+
+                                                  12
+
+
+                                                           03
+
+
+                                                                   06
+
+
+                                                                            09
+
+
+                                                                                     12
+
+
+                                                                                             03
+
+
+                                                                                                      06
+
+
+                                                                                                               09
+
+
+                                                                                                                        12
+
+
+                                                                                                                                 03
+
+
+                                                                                                                                          06
+
+
+                                                                                                                                                    09
+
+
+
+
+                                                              Portfolio         Benchmark
+
+
+Cumulative returns* (Source: Fund Admin)                                                                                                                    Morningstar rating ©
+
+                            YTD             1 month            3 months               1 year            3 years            5 years          Since
+                                                                                                                                                             Morningstar Overall Rating © : 3 stars
+ Since                   31/12/2025        31/08/2026         30/06/2026            30/09/2025        29/09/2023              -           20/09/2022
+                                                                                                                                                             Morningstar Category © :
+ Portfolio                34.14%             -2.96%              8.54%               36.49%            32.66%                 -            50.96%
+                                                                                                                                                              EAA FUND SECTOR EQUITY ENERGY
+ Benchmark                33.88%             -3.01%              8.46%               36.05%            31.37%                 -            48.99%
+                                                                                                                                                             Rating date : 31/08/2026
+ Spread                    0.26%             0.05%               0.09%                0.43%             1.29%                 -             1.96%
+                                                                                                                                                             Number of funds in the category : 110
+
+Calendar year performance* (Source: Fund Admin)
+
+                                                   2025                     2024                      2023                   2022              2021
+ Portfolio                                        -2.92%                   10.14%                    -0.68%                    -                 -
+ Benchmark                                        -3.34%                   9.84%                     -1.03%                    -                 -
+ Spread                                           0.42%                    0.30%                     0.36%                     -                 -
+
+* Source : Amundi. The above cover complete periods of 12 months for each calendar year. Past performance is no predictor of current and future
+results and does not guarantee future yield . Any losses or gains do not take into consideration any costs, commissions and fees incurred by the
+investor in the issue and buyout of the shares (e.g. taxes, brokerage fees or other commissions deducted by the financial intermediary). If performance
+is calculated in a currency other than the euro, any losses or gains generated can thereby be affected by exchange rate fluctuations (both upward and
+downward). The discrepancy accounts for the performance difference between the portfolio and the index.
+
+
+
+
+                                                                                                  ■ amundietf.com
+                                                                           This material is solely for the attention of “professional” investors.
+
+=== pdf p.2 ===
+       Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                             FACTSHEET
+
+                                                                                                                                                                              Marketing
+
+EQUITY ■                                                                                                                                                                    Communication
+                                                                                                                                                                             30/09/2026
+
+
+Risk & Reward Profile (SRRI) (Source: Fund Admin)
+                                                                   We have classified this product as 5 out of 7, which is a medium-high risk class. This rates the potential losses
+                                                                   from future performance at a medium-high level, and poor market conditions will likely impact our capacity to pay
+                                                                   you. Additional risks: Market liquidity risk could amplify the variation of product performances. This product does
+                                                                   not include any protection from future market performance so you could lose some or all of your investment.
+                                                                   Beside the risks included in the risk indicator, other risks may affect the Sub-Fund’s performance. Please refer to
+   Lower risk, potentially lower rewards
+                                                                   the AMUNDI ETF ICAV prospectus.
+   Higher risk, potentially higher rewards
+
+The SRRI represents the risk and return profile as
+presented in the Key Investor Information Document
+(KIID). The lowest category does not imply that there is
+no risk. The SRRI is not guaranteed and may change
+over time.
+
+
+
+
+Characteristics (source: Amundi)
+
+ VL                                                                                                                                                A : 15.10 EUR
+ Assets Under Management (AUM)                                                                                                                451.90 ( million EUR )
+ Management fees and other administrative or operating costs *                                                                                          0.18%
+ NAV and AUM as of                                                                                                                                  30/09/2026
+ ISIN code                                                                                                                                      A : IE000J0LN0R5
+ Replication type                                                                                                                                     Physical
+ Benchmark                                                                                                        100% S&P WORLD ENERGY WEIGHTED & SCREENED INDEX
+ Type of shares                                                                                                                                   Accumulation
+ Fund structure                                                                                                                                       ICAV Irish
+ UCITS compliant                                                                                                                                        UCITS
+ Management Company                                                                                                                          Amundi Ireland Limited
+ Primary Market Maker
+ Administrator                                                                                                                     HSBC Securities Services (Ireland) DAC
+ Custodian                                                                                                                                 HSBC Continental Europe
+ Independent auditor                                                                                                                   PRICEWATERHOUSECOOPERS
+ Share-class inception date                                                                                                                          20/09/2022
+ First NAV                                                                                                                                         10.00 ( EUR )
+ Date of the first NAV                                                                                                                               20/09/2022
+ Share-class reference currency                                                                                                                          EUR
+ Minimum investment to the secondary market                                                                                                          1 Share(s)
+ Frequency of NAV calculation                                                                                                                            Daily
+ Minimum recommended investment period                                                                                                                 5 years
+ Fiscal year end                                                                                                                                     December
+ ISA and SIPP Eligible                                                                                                                                     -
+
+* For more information regarding the full set of fees borne by the fund, please refer to its Key Information Document (KID). Transaction fees and commissions may apply when trading ETFs.
+
+
+
+
+                                                             Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                            AMF approved Portfolio Management Company- GP number 04000036
+                                                                   Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                               This material is solely for the attention of “professional” investors.
+
+=== pdf p.3 ===
+     Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                                   FACTSHEET
+
+
+                                                                                                                                                                                    Marketing
+
+EQUITY ■                                                                                                                                                                          Communication
+                                                                                                                                                                                   30/09/2026
+
+
+
+
+Index Data (Source : Amundi)
+
+
+Description of the Index                                                                                 Top 10 benchmark holdings (source : Amundi)
+
+ The Index is an equity index that measures the performance of eligible equity                                                                                               % of assets (Index)
+ securities from the S&P World Sustainability Enhanced Energy index (the "Parent                         EXXONMOBIL HOLDINGS CORP                                                  21.07%
+ Index"). The Parent Index is designed to measure the performance of large and                           CHEVRON CORP                                                              12.47%
+ mid-cap energy companies in developed markets excluding Korea which make up                             ENBRIDGE INC                                                              9.05%
+ approximately 85% of the total available capital.                                                       SLB LTD                                                                   7.85%
+                                                                                                         TOTALENERGIES SE PARIS                                                    6.74%
+                                                                                                         BAKER HUGHES A GE CO                                                      6.30%
+Information (Source: Amundi)                                                                             BP PLC                                                                    5.13%
+ Asset class : Equity                                                                                    WILLIAMS COS INC                                                          4.88%
+ Exposure : International                                                                                ONEOK INC                                                                 4.50%
+                                                                                                         CHENIERE ENERGY INC                                                       3.65%
+                                                                                                         Total                                                                     81.64%
+ Holdings : 26
+                                                                                                         For illustrative purposes only and not a recommendation to buy or sell securities.
+
+
+
+
+Geographical breakdown (for illustrative purposes only - Source: Amundi)                                 Benchmark Sector breakdown (for illustrative purposes only - Source : Amundi)
+
+
+      United States                                                                    64.80 %
+
+
+           Canada                     12.48 %
+
+
+            France             6.74 %
+
+
+    United Kingdom            5.45 %
+
+
+          Australia          4.16 %
+
+
+           Norway           2.29 %                                                                            Energy                                                                  100.00 %
+
+
+            Finland     1.31 %
+
+
+             Japan      1.11 %
+
+
+               Italy    1.03 %
+
+
+          Portugal      0.63 %
+
+
+            Others
+
+                       0%       10 %      20 %      30 %    40 %    50 %       60 %    70 %                            0%            20 %          40 %          60 %     80 %     100 %       120 %
+                                                Benchmark                                                                                                 Benchmark
+
+
+
+
+                                                               Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                              AMF approved Portfolio Management Company- GP number 04000036
+                                                                     Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                                 This material is solely for the attention of “professional” investors.
+
+=== pdf p.4 ===
+     Amundi S&P World Energy Screened UCITS ETF Acc
+                                                                                                                                                                        FACTSHEET
+
+
+                                                                                                                                                                         Marketing
+
+EQUITY ■                                                                                                                                                               Communication
+                                                                                                                                                                        30/09/2026
+
+
+Listing data (source : Amundi)
+                  Place             CCY         Bloomberg Ticker                        Bloomberg iNAV                      Reuters RIC                        Reuters iNAV
+             Berne Exchange         USD           WELNUSD BW                               WEL5USIV                           WELN.BN                      IWEL5USDINAV=SOLA
+          Deutsche Boerse (Xetra)   EUR             WELN GY                                 IWELN                             WELN.DE                      IWELNEURINAV=SOLA
+          Deutsche Boerse (Xetra)   USD             WEL5 GY                                WEL5USIV                         WELNUSD.DE                     IWEL5USDINAV=SOLA
+              Euronext Paris        EUR             NRGW FP                                 IWELN                           LYXNRGW.PA                     IWELNEURINAV=SOLA
+              Euronext Milan        EUR            ENERW IM                                 IWELN                            ENERW.MI                      IWELNEURINAV=SOLA
+
+
+
+Contact
+
+
+ETF Sales contact                                                                        ETF Capital Markets contact
+France & Luxembourg                 +33 (0)1 76 32 65 76                                 Téléphone                                              +33 (0)1 76 32 19 93
+Germany & Austria                   +49 (0) 800 111 1928                                 Bloomberg IB Chat                                      Capital Markets Amundi ETF
+Italy                               +39 02 0065 2965                                                                                            Capital Markets Amundi HK ETF
+Switzerland (German)                +41 44 588 99 36                                     ETF Market Makers contact
+Switzerland (French)                +41 22 316 01 51
+United Kingdom                      +44 (0) 20 7 074 9598                                BNP Paribas                                            +33 (0)1 40 14 60 01
+United Kingdom (Instit)             +44 (0) 800 260 5644                                 Kepler Cheuvreux                                       +33 (0)1 53 65 35 25
+Netherlands                         +31 20 794 04 79
+                                                                                         Amundi contact
+Nordic countries                    +46 8 5348 2271
+Hong Kong                           +65 64 39 93 50                                      Amundi ETF
+Spain                               +34 914 36 72 45                                     90 bd Pasteur
+                                                                                         CS 21564
+                                                                                         75 730 Paris Cedex 15 - France
+                                                                                         Hotline : +33 (0)1 76 32 47 74
+                                                                                         info-etf@amundi.com
+                                                                                         Facilities Agent
+                                                                                         Amundi (UK) Limited
+                                                                                         77 Coleman Street London
+                                                                                         EC2R 5BJ - United Kingdom
+
+
+
+
+                                               Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                              AMF approved Portfolio Management Company- GP number 04000036
+                                                     Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+                                                                 This material is solely for the attention of “professional” investors.
+

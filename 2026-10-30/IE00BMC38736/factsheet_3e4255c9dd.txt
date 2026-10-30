@@ -1,0 +1,155 @@
+=== pdf p.1 ===
+  Marketing Communication
+
+
+
+  SMH VanEck
+                    Semiconductor UCITS ETF
+Fund Details                                           Fund Description                                                                          30 September 2026
+Base Currency                                  USD     The VanEck Semiconductor UCITS ETF (SMH) is a UCITS-compliant exchange-traded fund that
+Inception Date                 01 December 2020        invests in a portfolio of equity securities with the aim of providing investment returns that closely track
+Domicile                                    Ireland
+                                                       the performance of the MarketVector US Listed Semiconductor 10% Capped Screened Index
+                                                       (MVSMCTR).
+Net Assets                               $9589.7M
+                                                       The MarketVector US Listed Semiconductor 10% Capped Screened Index tracks the overall
+Shares Outstanding                     83,850,000
+                                                       performance of companies involved in semiconductor production and equipment.
+Total Expense Ratio                          0.35%
+                                                       Performance History (%)
+Product Structure                    Physical (Full
+                                      Replication)                                                                                                      ETF
+                                                        Month End as of 30 Sep 2026                1 MO 3 MO        YTD      1 YR 3 YR 5 YR 10 YR INCEPTION
+UCITS Compliant                                 Yes
+                                                       ETF                                          10.09 -9.19 85.31108.82 61.88 35.99               --          34.97
+Rebalance Frequency                 Semi-Annually
+                                                       MVSMCTR (Index)                              10.12 -9.11 85.75109.46 62.33 36.32               --          35.29
+Distribution Frequency                        None
+Income Treatment                     Reinvestment      Past Performance as of 31 Dec 2025
+Countries of             AT, CH, CZ, DE, DK, ES,
+                                                        100%
+Registration               FI, FR, HR, HU, IE, IS,
+                          IT, LU, NL, NO, PL, PT,
+                                 RO, SE, SG, UK
+                                                         50%
+
+
+Index Information
+                                                          0%
+Index Provider              MarketVector Indexes
+                                           GmbH
+Index Type                        Total Return Net      -50%
+                                                                       2021                2022                2023                 2024                   2025
+Currency                                       USD
+Inception Date                        13 Aug 2020              VanEck Semiconductor UCITS ETF
+                                                               Benchmark Index (MarketVector US Listed Semiconductor 10% Capped Screened Index)
+Rebalance                           Semi-Annually
+Frequency                                                                                                                            2021 2022 2023 2024 2025
+Bloomberg Ticker                        MVSMCTR        VanEck Semiconductor UCITS ETF                                                 43.6 -34.8 73.2 23.2 50.1
+Reuters Ticker                                    --   Benchmark Index (MarketVector US Listed Semiconductor 10% Capped               43.9 -34.7 73.6 23.5 50.5
+                                                       Screened Index)
+Fund Data
+                                                       Past performance does not predict future returns. Performance quoted represents past performance. Current
+Number of Holdings                               25    performance may be lower or higher than average annual returns shown. Performance data is displayed on a Net
+Price/Earnings Ratio*                        30.62     Asset Value basis, in Base Currency terms, with net income reinvested, net of fees. Brokerage or transaction
+                                                       fees will apply. Returns may increase or decrease as a result of currency fluctuations. Investors must be aware
+Price/Book Ratio*                            12.14     that, due to market fluctuations and other factors, the performance of the ETFs may vary over time and should
+Weighted Avg. MCap                   USD 1437.8B       consider a medium/long-term perspective when evaluating the performance of ETFs. Investing is subject to
+                                                       risks, including the possible loss of principal. Source: VanEck.
+* Last 12 Months
+                                                       *Reference periods indicate cumulative performance, not annualized.
+Country Breakdown
+United States                              71.72%
+Taiwan Region                                9.98%
+Netherlands                                  8.94%
+South Korea                                  8.83%
+Switzerland                                  0.48%
+Other/Cash                                   0.05%
+
+
+
+
+For any unfamiliar technical terms, please refer to ETF Glossary | VanEck.
+
+=== pdf p.2 ===
+  Marketing Communication
+
+
+
+  SMH VanEck
+                    Semiconductor UCITS ETF
+Top 10 Holdings                                                                                                                                     30 September 2026
+
+ADVANCED MICRO DEVICES INC                                                                               10.99%
+TAIWAN SEMICONDUCTOR MANUFACTURING CO L                                                                   9.98%
+MICRON TECHNOLOGY INC                                                                                     9.88%
+NVIDIA CORP                                                                                               9.73%
+BROADCOM INC                                                                                              9.18%
+SK HYNIX INC                                                                                              8.83%
+ASML HOLDING NV                                                                                           8.41%
+INTEL CORP                                                                                                6.74%
+LAM RESEARCH CORP                                                                                         4.41%
+APPLIED MATERIALS INC                                                                                     4.41%
+SUBTOTAL - TOP 10                                                                                        82.57%
+REMAINING HOLDINGS                                                                                       17.38%
+OTHER/CASH                                                                                                0.05%
+TOTAL                                                                                                  100.00%
+For a complete up-to-date listing of Fund holdings, please visit www.vaneck.com
+
+Trading Information
+                                              TRADING                                 EXCHANGE          BLOOMBERG             REUTERS                         IOPV
+EXCHANGE                                     CURRENCY                 ISIN             TICKER             TICKER               TICKER          SEDOL         SYMBOL
+LONDON STOCK EXCHANGE                            USD           IE00BMC38736              SMH                SMH LN              SMH.L        BMC3873        SMHUSIV
+LONDON STOCK EXCHANGE                            GBP           IE00BMC38736             SMGB               SMGB LN             SMGB.L         BLN9ZL6       SMHUSIV
+DEUTSCHE BÖRSE                                   EUR           IE00BMC38736              VVSM              VVSM GY              VVDE         BNG96R0        VVSMEUIV
+SIX SWISS EXCHANGE                               CHF           IE00BMC38736              SMHV              SMHV SE             SMHV.S        BNDVGT1        SMHUSIV
+BORSA ITALIANA                                   EUR           IE00BMC38736              SMH                SMH IM             SMH.MI        BNKD634        VVSMEUIV
+EURONEXT PARIS                                   EUR           IE00BMC38736              SMH                SMH FP             SMH.PA        BSNR3D7        VVSMEUIV
+
+Key Risks
+Liquidity Risk: Liquidity risks exist when a particular financial instrument is difficult to purchase or sell. If the relevant market is illiquid, it may not be
+possible to initiate a transaction or liquidate a position at an advantageous or reasonable price, or at all.
+Equity Market Risk: The prices of the securities in the ETF are subject to the risks associated with investing in the securities market, including general
+economic conditions and sudden and unpredictable drops in value. Thus, an investment in this ETF may lose money.
+Industry or Sector Concentration Risk: The ETF's assets may be concentrated in one or more particular sectors or industries. SMH may be subject
+to the risk that economic, political or other conditions that have a negative effect on the relevant sectors or industries will negatively impact its
+performance to a greater extent than if its assets were invested in a wider variety of sectors or industries.
+For more information on risks, please see the “Risk Factors” section of the relevant ETF’s prospectus, available on www.vaneck.com.
+Investors must consider all the fund's characteristics or objectives as detailed in the prospectus or related documents before making an
+investment decision. Please refer to the sustainability-related disclosures and the KID/KIID and Prospectus in the document section for other
+information and applicable risks before investing.
+
+IMPORTANT INFORMATION
+This is marketing communication. Please refer to the prospectus of the UCITS and to the Key Information Document (“KID”) before making any final investment decisions.
+These documents are available in English and the KIDs in local languages and can be obtained free of charge at www.vaneck.com, from VanEck Asset Management B.V.
+(the “Management Company”) or, where applicable, from the relevant appointed facility agent for your country.
+This information originates from VanEck (Europe) GmbH, which is authorized as an EEA investment firm under MiFID under the Markets in Financial Instruments Directive
+(“MiFID”). VanEck (Europe) GmbH has its registered address at Kreuznacher Str. 30, 60486 Frankfurt, Germany, and has been appointed as distributor of VanEck
+products in Europe by the Management Company. The Management Company is incorporated under Dutch law and registered with the Dutch Authority for the Financial
+Markets (AFM).
+This material is only intended for general and preliminary information and shall not be construed as investment, legal or tax advice. VanEck (Europe) GmbH and its
+associated and affiliated companies (together “VanEck”) assume no liability with regards to any investment, divestment or retention decision on the basis of this
+information.
+VanEck Semiconductor UCITS ETF (the "ETF") is a sub-fund of VanEck UCITS ETFs plc, an open-ended variable capital umbrella investment company with limited
+liability. The ETF is registered with the Central Bank of Ireland, passively managed and tracks an equity index. For details on the regulated markets where the ETF is
+listed, please refer to the Trading Information section on the ETF page at www.vaneck.com. Investing in the ETF should be interpreted as acquiring shares of the ETF and
+not the underlying assets.
+
+=== pdf p.3 ===
+MarketVector US Listed Semiconductor 10% Capped Screened Index is the exclusive property of MarketVector Indexes GmbH (a wholly owned subsidiary of Van Eck
+Associates Corporation), which has contracted with Solactive AG to maintain and calculate the Index. Solactive AG uses its best efforts to ensure that the Index is
+calculated correctly. Irrespective of its obligations towards MarketVector Indexes GmbH (“MarketVector”), Solactive AG has no obligation to point out errors in the Index to
+third parties. VanEck’s ETF is not sponsored, endorsed, sold or promoted by MarketVector and MarketVector makes no representation regarding the advisability of
+investing in the ETF. It is not possible to invest directly in an index.
+Performance quoted represents past performance. Current performance may be lower or higher than average annual returns shown. Performance data for the Irish
+domiciled ETFs is displayed on a Net Asset Value basis, in Base Currency terms, with net income reinvested, net of fees. Returns may increase or decrease as a result
+of currency fluctuations. Investors must be aware that, due to market fluctuations and other factors, the performance of the ETFs may vary over time and should consider
+a medium/long-term perspective when evaluating the performance of ETFs.
+Investing is subject to risk, including the possible loss of principal. Investors must buy and sell units of the UCITS on the secondary market via an intermediary (e.g. a
+broker) and cannot usually be sold directly back to the UCITS. Brokerage fees may incur. The buying price may exceed, or the selling price may be lower than the current
+net asset value. The indicative net asset value (iNAV) of the UCITS is available on Bloomberg. The Management Company may terminate the marketing of the UCITS in
+one or more jurisdictions. The summary of the investor rights is available in English at: complaints-procedure.pdf (vaneck.com). For any unfamiliar technical terms, please
+refer to ETF Glossary | VanEck.
+No part of this material may be reproduced in any form, or referred to in any other publication, without express written permission of VanEck.
+© VanEck (Europe) GmbH
+

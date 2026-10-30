@@ -1,0 +1,459 @@
+=== pdf p.1 ===
+       Amundi MSCI Emerging Markets SRI Climate Paris Aligned UCITS
+       ETF                                                  FACTSHEET
+
+                                                                                                                                                                                         Marketing
+                                                                                                                                                                                       Communication
+ EQUITY ■
+                                                                                                                                                                                          30/09/2026
+
+Objective and Investment Policy
+
+  This Sub-Fund is passively managed. The objective of this Sub-Fund is to track the performance of MSCI Emerging Markets SRI filtered PAB Index (the "Index"), and to
+  minimize the tracking error between the net asset value of the sub-fund and the performance of the Index. The anticipated level of the tracking error, under normal market
+  conditions, is indicated in the prospectus of the Sub-Fund. The Index is a Total Return Index : the dividends net of tax paid by the Index constituents are included in the index
+  return. The Sub-Fund promotes environmental and/or social characteristics through among others, replicating an Index integrating an environmental, social and governance
+  ("ESG") rating. The Index is an equity index based on the MSCI Emerging Markets index representative of the large and mid-cap stocks across 27 emerging countries (as of
+  November 2021) (the "Parent Index"). The Index provides exposure to companies with outstanding ESG ratings and excludes companies whose products have a negative
+  social or environmental impact. In addition, the Index aims to represent the performance of a strategy that re-weights securities according to the opportunities and risks
+  associated with the climate transition, in order to meet the minimum requirements of the EU Regulation on Paris Agreement Benchmarks (EU PAB). The ESG key issues
+  include mainly carbon intensity. For further information on the exclusions applied by the Index pursuant to the EU Paris-aligned Benchmarks (PAB), please refer to the
+  "Guidelines on funds’ names using ESG or sustainability-related terms" section of the Prospectus. The limits of the approach adopted are described in the Sub-Fund's
+  prospectus through risk factors such as Sustainable investment risk. The ESG score of companies is calculated by an ESG rating agency, using raw data, models and
+  estimates collected/calculated using methods specific to each provider. Due to the lack of standardisation and the uniqueness of each methodology, the information provided
+  may be incomplete. Assessment of sustainability risks is complex and may be based on ESG data which is difficult to obtain, incomplete, estimated, out of date and/or
+  otherwise materially inaccurate. Even when identified, there can be no guarantee that these data will be correctly assessed. The exposure to the Index will be achieved
+  through a Direct Replication, mainly by making direct investments in transferable securities and/or other eligible assets representing the Index constituents in a proportion
+  extremely close to their proportion in the Index. The Investment Manager will be able to use derivatives in order to deal with inflows and outflows and also if it allows a better
+  exposition to an Index constituent. In order to generate additional income to offset its costs, the Sub-Fund may also enter into securities lending operations.
+
+Performances from 22/01/2019 to 30/09/2026 (Source : Fund Admin)                                                                                            Risk indicators (Source: Fund Admin)
+
+     200                                                                                                                                                                                                  Inception to
+                                                                                                                                                                                      1 year 3 years
+                                                                                                                                                                                                             date *
+                                                                                                                                                             Portfolio volatility * 17.53% 15.82%           18.82%
+     150
+                                                                                                                                                             Benchmark
+                                                                                                                                                                                    17.53% 15.84%            18.87%
+                                                                                                                                                             volatility
+                                                                                                                                                             Ex-post Tracking
+                                                                                                                                                                                    0.21% 0.28%               0.35%
+                                                                                                                                                             Error
+     100                                                                                                                                                     Sharpe ratio            1.06   0.87               0.19
+                                                                                                                                                            * Volatility is a statistical indicator that measures an asset’s
+                                                                                                                                                            variations around its average value. For example, market
+                                                                                                                                                            variations of +/- 1.5% per day correspond to a volatility of
+      50                                                                                                                                                    25% per year. The higher the volatility, the higher the risk.
+                                                                                                                                                            The Tracking Error indicator measures the performance's
+             /19
+
+
+                      /19
+
+
+                               /20
+
+
+                                       /20
+
+
+                                                /21
+
+
+                                                         /21
+
+
+                                                                  /22
+
+
+                                                                             /22
+
+
+                                                                                       /23
+
+
+                                                                                               /23
+
+
+                                                                                                        /24
+
+
+                                                                                                                    /24
+
+
+                                                                                                                             /25
+
+
+                                                                                                                                      /25
+
+
+                                                                                                                                              /26
+
+
+                                                                                                                                                      /26
+
+
+
+
+                                                                                                                                                            difference between the fund and the benchmark
+           03
+
+
+                    09
+
+
+                             03
+
+
+                                     09
+
+
+                                              03
+
+
+                                                       09
+
+
+                                                                03
+
+
+                                                                           09
+
+
+                                                                                     03
+
+
+                                                                                             09
+
+
+                                                                                                      03
+
+
+                                                                                                                  09
+
+
+                                                                                                                           03
+
+
+                                                                                                                                    09
+
+
+                                                                                                                                            03
+
+
+                                                                                                                                                    09
+
+
+
+
+                                                               Portfolio            Benchmark
+
+Cumulative returns* (Source: Fund Admin)
+
+                         YTD              1 month            3 months                 1 year           3 years               5 years           Since
+ Since                31/12/2025         31/08/2026         30/06/2026             30/09/2025        29/09/2023            30/09/2021       22/01/2019
+ Portfolio             18.03%              0.41%               1.68%                20.01%            65.48%                27.12%           65.65%
+ Benchmark             18.46%              0.47%               1.78%                20.61%            67.98%                29.90%           71.55%
+ Spread                 -0.43%             -0.06%             -0.10%                 -0.60%            -2.50%                -2.78%           -5.90%
+
+Calendar year performance* (Source: Fund Admin)
+
+                             2025         2024           2023             2022           2021          2020               2019     2018     2017    2016
+ Portfolio                  27.83%       4.22%          1.87%           -18.41%         -1.64%        17.48%                -        -        -       -
+ Benchmark                  28.38%       4.93%          2.25%           -18.26%         -1.27%        17.72%                -        -        -       -
+ Spread                     -0.56%      -0.70%         -0.38%            -0.15%         -0.38%        -0.24%                -        -        -       -
+
+* Source : Amundi. The above cover complete periods of 12 months for each calendar year. Past performance is no predictor of current and future
+results and does not guarantee future yield . Any losses or gains do not take into consideration any costs, commissions and fees incurred by the
+investor in the issue and buyout of the shares (e.g. taxes, brokerage fees or other commissions deducted by the financial intermediary). If performance
+is calculated in a currency other than the euro, any losses or gains generated can thereby be affected by exchange rate fluctuations (both upward and
+downward). The discrepancy accounts for the performance difference between the portfolio and the index.
+
+
+
+
+                                                                                    ■ amundietf.com
+                                                                             For "retail" investors information
+
+=== pdf p.2 ===
+       Amundi MSCI Emerging Markets SRI Climate Paris Aligned UCITS ETF
+                                                                                                                                                                         FACTSHEET
+
+                                                                                                                                                                          Marketing
+
+EQUITY ■                                                                                                                                                                Communication
+                                                                                                                                                                         30/09/2026
+
+
+Risk & Reward Profile (SRRI) (Source: Fund Admin)
+                                                                   We have classified this product as 4 out of 7, which is a medium risk class. This rates the potential losses from
+                                                                   future performance at a medium level, and poor market conditions could impact our capacity to pay you.
+                                                                   Additional risks: Market liquidity risk could amplify the variation of product performances. This product does not
+                                                                   include any protection from future market performance so you could lose some or all of your investment. Beside
+                                                                   the risks included in the risk indicator, other risks may affect the Sub-Fund’s performance. Please refer to
+   Lower risk, potentially lower rewards
+                                                                   the Amundi Index Solutions prospectus.
+   Higher risk, potentially higher rewards
+
+The SRRI represents the risk and return profile as
+presented in the Key Investor Information Document
+(KIID). The lowest category does not imply that there is
+no risk. The SRRI is not guaranteed and may change
+over time.
+
+
+
+
+Characteristics (source: Amundi)
+
+ VL                                                                                                                                                A : 82.83 USD
+                                                                                                                                                   D : 71.12 USD
+ Assets Under Management (AUM)                                                                                                              3,191.11 ( million USD )
+ Management fees and other administrative or operating costs *                                                                                          0.25%
+ NAV and AUM as of                                                                                                                                  30/09/2026
+ ISIN code                                                                                                                                      A : LU1861138961
+                                                                                                                                                D : LU2059756754
+ Replication type                                                                                                                                     Physical
+ Benchmark                                                                                                                          100% MSCI EM SRI FILTERED PAB
+ Type of shares                                                                                                                                 (A) Accumulation
+                                                                                                                                                 (D) Distribution
+ Last coupon date                                                                                                                               09/12/2025 ( USD )
+ Last coupon                                                                                                                                       1.1500 ( USD )
+ Fund structure                                                                                                                          SICAV under Luxembourg law
+ UCITS compliant                                                                                                                                        UCITS
+ Management Company                                                                                                                         Amundi Luxembourg SA
+ Administrator                                                                                                                       CACEIS Bank, Luxembourg Branch
+ Custodian                                                                                                                           CACEIS Bank, Luxembourg Branch
+ Independent auditor                                                                                                                             DELOITTE AUDIT
+ Share-class inception date                                                                                                                          16/01/2019
+ First NAV                                                                                                                                         50.00 ( USD )
+ Date of the first NAV                                                                                                                               22/01/2019
+ Share-class reference currency                                                                                                                          USD
+ Minimum investment to the secondary market                                                                                                          1 Share(s)
+ Frequency of NAV calculation                                                                                                                            Daily
+ Fiscal year end                                                                                                                                     September
+
+* For more information regarding the full set of fees borne by the fund, please refer to its Key Information Document (KID). Transaction fees and commissions may apply when trading ETFs.
+
+
+
+
+                                                             Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                            AMF approved Portfolio Management Company- GP number 04000036
+                                                                   Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+
+=== pdf p.3 ===
+     Amundi MSCI Emerging Markets SRI Climate Paris Aligned UCITS ETF
+                                                                                                                                                                                              FACTSHEET
+
+
+                                                                                                                                                                                               Marketing
+
+EQUITY ■                                                                                                                                                                                     Communication
+                                                                                                                                                                                              30/09/2026
+
+
+
+
+Meet the Team
+
+
+              Lionel Brafman                                                     Zhicong Mou                                                              Arnaud Vergonjeanne
+
+              Head of the Index & Multistrategies team                           Portfolio Manager - Index & Multistrategies                              Co-Portfolio Manager
+
+
+
+
+Index Data (Source : Amundi)
+
+
+Description of the Index                                                                                      Top 10 benchmark holdings (source : Amundi)
+
+ MSCI EM (Emerging Markets) SRI Filtered PAB Index is an equity index based on                                                                                      % of assets (Index) % assets (Parent index)
+ the MSCI Emerging Markets index representative of the large and mid-cap stocks                                TAIWAN SEMICONDUCTOR MANUFAC                               15.40%               15.58%
+ across 26 emerging countries (as of November 2021) (the "Parent Index"). The                                  UNITED MICROELECTRONICS CORP                               5.63%                 0.44%
+ index provides exposure to companies with outstanding Environmental, Social and                               SAMSUNG EL MECHANICS                                       5.46%                 0.51%
+ Governance (ESG) ratings and excludes companies whose products have negative                                  DELTA ELECTRONICS INC                                      5.04%                 0.91%
+ social or environmental impacts. Additionally, the Index aims to represent the
+                                                                                                               ASIA VITAL COMPONENTS                                      3.64%                 0.28%
+ performance of a strategy that reweights securities based upon the opportunities
+ and risks associated with the climate transition to meet the EU Paris-aligned                                 SK SQUARE CO LTD                                           2.58%                 0.62%
+ benchmark (EU PAB) regulation minimum requirements.                                                           SAMSUNG SDI CO LTD                                         2.11%                 0.19%
+                                                                                                               NETEASE INC                                                2.07%                 0.35%
+Information (Source: Amundi)                                                                                   CHINA CONSTRUCT BANK                                       1.88%                 0.85%
+ Asset class : Equity                                                                                          NASPERS LTD-N SHS                                          1.63%                 0.26%
+ Exposure : Emerging countries                                                                                 Total                                                      45.43%               20.01%
+ Benchmark index currency : USD
+ Holdings : 140
+                                                                                                                 Parent index : MSCI EMERGING MARKETS
+
+
+
+Geographical breakdown (for illustrative purposes only - Source: Amundi)                                      Benchmark Sector breakdown (for illustrative purposes only - Source : Amundi)
+
+
+                  Taiwan                                                                   36.15 %                                                                                                   41.95 %
+                                                                              28.79 %                                 Information Technology
+                                                                                                                                                                                                       43.81 %
+                   China                                       19.60 %
+                                                   12.99 %                                                                                                                  19.49 %
+                                                                                                                                   Financials
+                                                                                                                                                                            19.36 %
+                  Korea                                    17.19 %
+                                                                 21.55 %
+                                                                                                                                   Industrials                 8.93 %
+            South Africa               6.15 %                                                                                                               6.32 %
+                                  2.95 %
+                                       5.80 %                                                                        Consumer Discretionary                 6.61 %
+                   India                        10.67 %                                                                                                      7.40 %
+
+                 Mexico              4.34 %                                                                                                                4.92 %
+                                 1.59 %                                                                                           Health Care
+                                                                                                                                                        2.69 %
+                   Brazil         2.89 %
+                                    4.01 %                                                                                                                4.29 %
+                                                                                                                                      Utilities
+                               1.83 %                                                                                                                  1.85 %
+    United Arab Emirates      1.25 %
+                                                                                                                                  Real Estate          4.00 %
+                  Poland       1.79 %                                                                                                              0.95 %
+                              1.16 %
+
+               Malaysia       1.21 %                                                                                       Consumer Staples             3.64 %
+                              0.88 %                                                                                                                   2.59 %
+                Thailand      0.83 %
+                              0.94 %                                                                                Communication Services              3.61 %
+                                                                                                                                                           5.90 %
+              Colombia        0.73 %
+                             0.17 %
+                                                                                                                                    Materials          2.55 %
+                             0.73 %                                                                                                                        5.75 %
+                    Peru     0.41 %
+
+                  Others     0.76 %                                                                                                    Energy
+                                                                                                                                                        3.40 %
+
+                            0%            10 %               20 %            30 %           40 %                                                  0%         10 %         20 %        30 %     40 %          50 %
+                                   Benchmark             Parent Index                                                                               Benchmark            Parent Index
+
+ Parent index : MSCI EMERGING MARKETS                                                                            Parent index : MSCI EMERGING MARKETS
+
+
+
+
+                                                                    Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                                   AMF approved Portfolio Management Company- GP number 04000036
+                                                                          Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+
+=== pdf p.4 ===
+     Amundi MSCI Emerging Markets SRI Climate Paris Aligned UCITS ETF
+                                                                                                                                                                             FACTSHEET
+
+
+                                                                                                                                                                              Marketing
+
+EQUITY ■                                                                                                                                                                    Communication
+                                                                                                                                                                             30/09/2026
+
+
+
+
+Socially Responsible Investment (SRI)
+The SRI expresses sustainable development objectives in investment decisions by adding Environmental, Social and Governance (ESG) criteria in addition to the traditional
+financial criteria.
+
+SRI thus aims to balance economic performance and social and environmental impact by financing companies and public entities which contribute to sustainable development
+whatever their business sector. By influencing the governance and behaviour of stakeholders, SRI promotes a responsible economy.
+
+
+Evaluation by ESG criteria (Source: Amundi)
+
+                                         Benchmark                       Parent index                   ESG criteria
+                                                                                                        The criteria are extra-financial criteria used to assess the Environmental, Social and
+ Overall Rating                              8.17                              6.74                     Governance practices of companies.
+
+ Environment                                 6.97                              6.06                     Environmental, Social, and Governance risks and opportunities are posed by large
+ Social                                      6.04                              5.48                     scale trends (e.g. climate change, resource scarcity, demographic shifts) as well as by
+                                                                                                        the nature of the company’s operations.
+ Governance                                  6.07                              5.42
+                                                                                                        Scores are on a 0-10 scale, with 10 being the best.
+ Parent index : MSCI EMERGING MARKETS
+                                                                                                        “E” for Environment (Climate Change, Natural Resources, Pollution & Waste and
+                                                                                                        Environmental Opportunities)
+
+                                                                                                        “S” for Social (Human Capital, Product Liability, Stakeholder Opposition and Social
+                                                                                                        Opportunities)
+
+                                                                                                        “G” for Governance (Corporate Governance and Corporate Behavior)
+
+                                                                                                        Source: Raw ESG data for companies are provided by MSCI
+Carbon footprint
+
+Carbon footprint: carbon emissions per euro million invested                                            Carbon footprint
+                                                                                                        This indicator measures the portfolio's carbon emissions in metric tonnes of carbon
+                                                                                                        equivalent (tCO2e) per euro million invested.
+                                                                  Benchmark Parent Index
+                                                                                                        This is an indicator of the emissions generated by investment in this portfolio.
+Total carbon portfolio footprint (Index/Parent index) :             45.53      164.37
+                                                                                                        Definition of scopes :
+
+    200                                                                                                 - Scope 1 : all emissions that arise directly from sources that are owned or controlled
+                                                                                    Scope 3
+                                                                                                        by the company.
+                                                                                    Scope 2
+                                                                                    Scope 1
+                                                                                                        - Scope 2 : all indirect emissions generated by the purchase or production of
+    150                                                   27.94                                         electricity, steam or heat.
+
+                                                                                                        - Scope 3 : All other indirect emissions, upstream and downstream of the value chain.
+                                                          38.87                                         For reasons of data robustness, Amundi has chosen to use emissions from activities
+    100                                                                                                 upstream of Scope 3 - Source: Trucost EEI-O model (input/output model extended to
+                                                                                                        the Trucost environment).
+
+
+     50                                                   95.39
+                                                                                                        Source : The carbon emissions data is supplied by Trucost. It corresponds to
+                       10.55                                                                            companies' annual emissions expressed in tCO2e, which covers the six greenhouse
+                                                                                                        gases defined in the Kyoto protocol whose emissions are converted into global
+                       26.77                                                                            warming potential (GWP) in CO2 equivalent.
+      0                 7.28
+                    Benchmark                       Parent Index
+
+ Parent index : MSCI EMERGING MARKETS
+
+
+
+
+                                                              Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                                             AMF approved Portfolio Management Company- GP number 04000036
+                                                                    Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+
+=== pdf p.5 ===
+    Amundi MSCI Emerging Markets SRI Climate Paris Aligned UCITS ETF
+                                                                                                                                                            FACTSHEET
+
+
+                                                                                                                                                             Marketing
+
+EQUITY ■                                                                                                                                                   Communication
+                                                                                                                                                            30/09/2026
+
+
+Listing data (source : Amundi)
+                Place             CCY     Bloomberg Ticker                        Bloomberg iNAV                       Reuters RIC                    Reuters iNAV
+         Six Swiss Exchange       USD        EMSRI SW                                EMSRIUIV                           EMSRI.S                    EMSRIUSDINAV=SOLA
+        Deutsche Boerse (Xetra)   EUR         AMEI GY                                EMSRIEIV                           AMEI.DE                    EMSRIEURINAV=SOLA
+            Euronext Paris        EUR         EMSRI FP                               EMSRIEIV                           EMSRI.PA                   EMSRIEURINAV=SOLA
+                 LSE              USD         MSRU LN                                EMSRIUIV                            MSRU.L                    EMSRIUSDINAV=SOLA
+                 LSE              GBP         MSRG LN                                   -                                MSRG.L                            -
+            Euronext Milan        EUR         EMSRI IM                               EMSRIEIV                           EMSRI.MI                   EMSRIEURINAV=SOLA
+
+
+
+
+                                        Amundi Asset Management, SAS (French : Société par Actions Simplifiée) with a capital of 1 143 615 555 €
+                                                       AMF approved Portfolio Management Company- GP number 04000036
+                                              Corporate address: 91-93, Boulevard Pasteur - 75015 Paris- France 437 574 452 RCS Paris
+

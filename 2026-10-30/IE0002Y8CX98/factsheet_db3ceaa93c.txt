@@ -1,0 +1,309 @@
+=== pdf p.1 ===
+                                                                                                                                                    WisdomTree.eu
+                                                                                                                                               +44 (0) 207 448 4330
+                                                                                                                                  Dokument Datiert zum: 30/06/2026
+
+
+
+
+WDEF                                       WisdomTree Europe Defence UCITS ETF - EUR Acc
+
+
+Anlageziel                                                                                                            Produktinformation
+Der WisdomTree Europe Defence UCITS ETF (der „Fonds“) strebt die Nachbildung der Kurs- und                            Anlageklasse                                     Aktien
+Renditeentwicklung des WisdomTree Europe Defence UCITS Index (der „Index“) vor Gebühren
+                                                                                                                                               WisdomTree Europe Defence
+und Aufwendungen an.                                                                                                  Benchmark
+                                                                                                                                                       UCITS Index (NTR)
+                                                                                                                      Nachbildungs-
+Indexbeschreibung                                                                                                     methode
+                                                                                                                                                                    Physisch
+
+Der Index soll die Wertentwicklung von europäischen Unternehmen im Verteidigungssektor                                Gesamtkostenquote                                0.40%
+abbilden.
+Der Index wurde von WisdomTree, Inc. („WT“) entwickelt. Die Unternehmen müssen ihre                                   Basiswährung                                       EUR
+Hauptgeschäftstätigkeiten in einem europäischen Industrie- oder Schwellenland ausüben, das
+                                                                                                                      Ertragsverwendung                       Thesaurierend
+den Vertrag über die Nichtverbreitung von Kernwaffen unterzeichnet hat (gemeinhin auch als
+Atomwaffensperrvertrag, kurz „NVV“ bezeichnet), wie in der Indexmethode festgelegt. Die
+                                                                                                                      Ausschüttungen                                      N/A
+Auswahl der europäischen Unternehmen im Index basiert auf ihrem Umsatzanteil aus dem
+Verteidigungssektor. Der Index versucht außerdem, Unternehmen auszuschließen, die mit                                 Auflagedatum                                04/03/2025
+bestimmten umstrittenen Waffen im Zusammenhang stehen, wie Antipersonenminen,
+Streumunition, biologische und chemische Waffen, Waffen mit abgereichertem Uran und                                   Geschäftsjahresende                       31 Dezember
+weißem Phosphor und solche, die Atomwaffenprogramme von Staaten unterstützen, die nicht
+den Vertrag über die Nichtverbreitung von Kernwaffen unterzeichnet haben (gemeinhin auch als                          OGAW konform                                         Ja
+Atomwaffensperrvertrag, kurz „NVV“ bezeichnet). Außerdem strebt der Index danach,
+Unternehmen auszuschließen, die gegen bestimmte allgemein anerkannte internationale                                   ISA geeignet                                         Ja
+Normen und Standards wie die Grundsätze des Global Compact der Vereinten Nationen und die
+OECD-Leitsätze verstoßen.                                                                                             SIPP geeignet                                        Ja
+Mindestens 20 Aktien, die die Kriterien für die Umsatzanteile sowie zusätzliche
+Mindestanforderungen bezüglich der Marktkapitalisierung und Liquidität erfüllen, werden für die                       PEA geeignet                                       Nein
+Aufnahme ausgewählt. Die ausgewählten Unternehmen im Index werden nach der                                                                     AT, CH, DE, DK, ES, FI, FR, GB,
+                                                                                                                      Zulassung für
+Marktkapitalisierung – angepasst um den Exposure Score – gewichtet, wobei die in der                                                                    IE, IT, LU, NL, NO, SE
+Indexmethodik festgelegten Obergrenzen und Kriterien eingehalten werden.                                                                           WisdomTree Management
+                                                                                                                      Manager
+Der Index wird vierteljährlich einer Neugewichtung (Rebalancing) unterzogen.                                                                                              Ltd.
+                                                                                                                                                Keyridge Asset Management
+                                                                                                                      Investment Manager
+Performance (nach Abzug von Gebühren) (EUR)                                                                                                                           Limited
+                                                                                                                                                   BNY Mellon Fund Services
+                                                                                                                      Administrator             (Ireland) Designated Activity
+ Name                                         QUART        YTD       1 Jahr     3 Jahre    Auflagedatum
+                                                                                                                                                                     Company
+                                                                                                                                               The Bank of New York Mellon
+ WDEF NAV                                     -6.97%     -0.54%     -4.08%        N/A          13.64%                 Verwalter
+                                                                                                                                                       SA/NV, Dublin Branch
+ WisdomTree Europe Defence UCITS
+                                              -7.00%     -0.47%     -3.79%        N/A          15.43%
+ Index (NTR)
+
+Quelle: WisdomTree UK, Bloomberg, Stand: 30/06/2026. Die angeführte Wertentwicklung
+                                                                                                                      Vergleichsindex
+des Produkts wird in der Notierungswährung der Anteilsklasse dargestellt. Die                                                                  WisdomTree Europe Defence
+                                                                                                                      Vergleichsindex
+Wertentwicklung in der Vergangenheit ist kein verlässlicher Indikator für zukünftige                                                                   UCITS Index (NTR)
+Ergebnisse. Die Rendite für einen Zeitraum von weniger als einem Jahr ist kumuliert.                                  Indexfamilie                         WisdomTree, Inc.
+
+                                                                                                                      Indexwährung                                       EUR
+
+                                                                                                                      Bloomberg Code                             WTEUDEFN
+
+
+
+
+                                                                                                                      ESG Eigenschaften
+                                                                                                                      SFDR Klassifizierung                     SFDR Article 6
+
+
+
+
+Bei diesem Dokument handelt es sich um Werbematerial. Investoren sollten vor einer Anlage den
+Verkaufsprospekt (der „Prospekt“) und das Basisinformationsblatt („KID“) des Emittenten lesen und sich im Abschnitt       WDEF WisdomTree Europe Defence UCITS ETF - EUR Acc 1
+„Risikofaktoren“ über die Einzelheiten zu den Risiken, die mit einer Anlage in den Anteilen verbunden sind,
+informieren.
+
+=== pdf p.2 ===
+         Top 10 Bestände (% Gewichtung)                              Branchengewichtung des Index (%)                                Top 10 Länder (% Gewichtung)
+
+ BAE Systems PLC                             12.36%
+
+ Thales SA                                   12.26%                                                                                Frankreich                          36.65%
+                                                                             Industriewerte                 97.51%                 Vereinigtes…                   25.97%
+ Rheinmetall AG                              10.53%
+                                                                                                                               Deutschland                   15.67%
+ Safran SA                                     9.09%
+                                                                                                                                       Italien        7.16%
+ Rolls-Royce Holdings PLC                      9.00%                                                                               Schweden           6.54%
+                                                                         Informationstechn
+                                                                                                1.86%
+ Airbus SE                                     8.64%                           ologie                                              Norwegen          4.57%
+                                                                                                                                     Spanien       1.34%
+ Leonardo Spa                                  6.45%
+                                                                                                                                Tschechien         0.75%
+ SAAB AB-B SEK NPV                             6.22%                        Communication
+                                                                                                0.63%                                 Cyprus       0.57%
+                                                                               Services
+ DASSAULT AVIATION EUR 0.8                     5.01%                                                                                 Finnland      0.30%
+
+ Kongsberg Gruppen Asa                         4.05%
+
+NB : Quellen für alle Tabellen / Grafiken auf diesen Seiten : WisdomTree UK, Bloomberg . Alle Daten ab 30/06/2026
+
+
+Angaben zur Börsennotierung
+                                                                                                                                                                  Notierungs-
+ Börse              Handelswährung         Börsenticker      Bloomberg Code              RIC               SEDOL            ISIN                   WKN
+                                                                                                                                                                    Datum
+
+ LSE                       EUR                 WDEF              WDEF LN              WDEF.L              BRBYL51       IE0002Y8CX98              A40Y9K          12/03/2025
+
+ Borsa Italiana            EUR                 WDEF              WDEF IM              WDEF.MI             BRC2VW1       IE0002Y8CX98              A40Y9K          11/03/2025
+
+ Xetra                     EUR                 EUDF              EUDF GY              EUDF.DE             BRC2WC8       IE0002Y8CX98              A40Y9K          11/03/2025
+
+ LSE                       GBx                WDEP               WDEP LN              WDEP.L              BRBYL62       IE0002Y8CX98              A40Y9K          12/03/2025
+
+ Euronext(FR)              EUR                 WDEF              WDEF FP              WDEF.PA             BT3NTV2       IE0002Y8CX98              A40Y9K          27/03/2025
+
+ LSE                       USD                 EUDF              EUDF LN               EUDF.L             BQLQ699       IE0002Y8CX98              A40Y9K          27/03/2025
+
+ SIX                       USD                 WDEF              WDEF SW              WDEF.S              BQRG6R1       IE0002Y8CX98              A40Y9K          23/04/2025
+
+ BMV                       MXN                 EUDF             EUDFN MM              EUDF.MX             BQTX9B5       IE0002Y8CX98              A40Y9K          30/06/2025
+
+
+
+
+Bei diesem Dokument handelt es sich um Werbematerial. Investoren sollten vor einer Anlage den
+Verkaufsprospekt (der „Prospekt“) und das Basisinformationsblatt („KID“) des Emittenten lesen und sich im               WDEF WisdomTree Europe Defence UCITS ETF - EUR Acc 2
+Abschnitt „Risikofaktoren“ über die Einzelheiten zu den Risiken, die mit einer Anlage in den Anteilen verbunden sind,
+informieren.
+
+=== pdf p.3 ===
+Potenzielle Vorteile
+Zugriff auf ein Engagement in Unternehmen im Bereich der europäischen Verteidigung, die sich ausschließlich auf diesen Geschäftsbereich konzentrieren (Pure
+Players). Die Zunahme geopolitischer Spannungen weltweit ist zu einem maßgeblichen Treiber der Nachfrage nach höheren Investitionen in europäische
+Verteidigungsunternehmen geworden.
+Der ETF bietet ein Engagement in einem diversifizierten Korb mit europäischen Unternehmen aus dem Verteidigungssektor.
+Das Research für die Auswahl und Gewichtung der Unternehmen im Index wird von WisdomTree durchgeführt. Wisdom Tree hat umfangreiche Erfahrung in der
+Erstellung thematischer Indizes und stellt sicher, dass der Portfoliokorb fokussiert und relevant bleibt.
+Der ETF ist OGAW-konform.
+
+Potenzielle Risiken
+Der Index wurde zwar entwickelt, um Unternehmen mit einem hohen Engagement im Bereich der europäischen Verteidigung auszuwählen, doch ist es nicht
+garantiert, dass dieses Ziel erreicht wird.
+Eine Anlage in Aktien kann eine hohe Volatilität aufweisen und sollte als eine längerfristige Investition betrachtet werden.
+Wachstumsstärkere Unternehmen wie diejenigen, die eine Rolle bei Megatrends spielen, notieren in der Regel zu höheren Bewertungen. Anleger sollten das mit
+höheren Bewertungen verbundene Risiko im Rahmen einer Anlageentscheidung berücksichtigen.
+Anlagerisiken können auf bestimmte Sektoren, Länder, Unternehmen oder Währungen konzentriert sein.
+Diese Liste deckt nicht alle Risiken ab – weitere Risiken werden im relevanten Basisinformationsblatt und im Prospekt offen gelegt.
+
+
+
+
+Bei diesem Dokument handelt es sich um Werbematerial. Investoren sollten vor einer Anlage den
+Verkaufsprospekt (der „Prospekt“) und das Basisinformationsblatt („KID“) des Emittenten lesen und sich im               WDEF WisdomTree Europe Defence UCITS ETF - EUR Acc 3
+Abschnitt „Risikofaktoren“ über die Einzelheiten zu den Risiken, die mit einer Anlage in den Anteilen verbunden sind,
+informieren.
+
+=== pdf p.4 ===
+Glossar
+Dividendengewichteter Index: ein Index, der die Gewichtung seiner Komponenten unter Verwendung der von dem Wertpapier gezahlten Dividenden statt
+einer sonstigen Variablen bestimmt (am bekanntesten sind nach Marktkapitalisierung gewichtete Indizes).
+
+Vollständig nachgebildet: Das Vermögen wird in Wertpapiere investiert, die den Komponenten des jeweiligen Indexes im selben Verhältnis entsprechen.
+
+Fundamental gewichteter Index: ein Index, der Wertpapiere basierend auf Faktoren wie Dividende oder Ertrag gewichtet.
+
+Large Cap, Mid Cap und Small Cap: Diese Begriffe beziehen sich auf die Marktkapitalisierung, die durch Multiplizieren des Kurses einer Aktie mit der Anzahl
+der im Umlauf befindlichen Aktien berechnet wird.
+
+Notierungswährung: die Handelswährung an der Börse.
+
+Physisch (optimiert): Das Vermögen wird überwiegend in Wertpapiere investiert, die im Index enthalten sind, es können jedoch auch Wertpapiere gehalten
+werden, deren Merkmale den Merkmalen des Index sehr ähnlich sind.
+
+Physisch hinterlegt: Wertpapiere im Fonds, die echte Wertpapiere und keine Derivate sind. Der Fonds hält überwiegend US Treasury Bills (Schatzwechsel).
+
+Nachbildungsmethode: Die Methode, mit der der Fonds etc Engagement im Referenzindex aufbaut.
+
+Währung der Anteilsklasse oder "NAV-Währung" (NAV= Nettoinventarwert): Die Währung, in der der NAV des Fonds herausgegeben wird.
+
+Gesamtkostenquote (Total Expense Ratio, TER): Ein Maßstab für die gesamten mit der Verwaltung und dem Betrieb eines Fonds verbundenen Kosten. Die
+TER besteht überwiegend aus Verwaltungsgebühren zuzüglich sonstiger Aufwendungen wie Treuhand-, Verwahr- und Betriebskosten. Sie wird als Prozentsatz
+des gesamten Nettoinventarwerts des Fonds ausgedrückt. Die Swap-Gebühr wird nicht abgedeckt. Die TER wird als Prozentsatz des gesamten
+Nettoinventarwerts des Fonds ausgedrückt.
+
+Neugewichtung: Ein Index wird zusammengestellt, indem bestimmte Auswahl- und Gewichtungsregeln in Bezug auf Länder, Sektoren und Aktien mit einer
+bestimmten Häufigkeit angewendet werden. Eine Neugewichtung erfolgt, wenn WisdomTree den regelbasierten Auswahl- und Gewichtungsprozess erneut
+anwendet.
+
+Neugewichtungsfrequenz: Die Häufigkeit, in der die Komponenten des Indexes gefiltert und ihre Gewichtungen geändert werden.
+
+
+
+
+Bei diesem Dokument handelt es sich um Werbematerial. Investoren sollten vor einer Anlage den
+Verkaufsprospekt (der „Prospekt“) und das Basisinformationsblatt („KID“) des Emittenten lesen und sich im               WDEF WisdomTree Europe Defence UCITS ETF - EUR Acc 4
+Abschnitt „Risikofaktoren“ über die Einzelheiten zu den Risiken, die mit einer Anlage in den Anteilen verbunden sind,
+informieren.
+
+=== pdf p.5 ===
+Haftungsausschluss
+Wichtige Informationen.
+
+Im Europäischen Wirtschaftsraum („EWR“) herausgegebene Marketingkommunikation: Dieses Dokument wurde von WisdomTree Ireland Limited, einer
+von der Central Bank of Ireland zugelassenen und regulierten Gesellschaft, herausgegeben und genehmigt.
+
+In Ländern außerhalb des EWR herausgegebene Marketingkommunikation: Dieses Dokument wurde von WisdomTree UK Limited, einer von der United
+Kingdom Financial Conduct Authority zugelassenen und regulierten Gesellschaft, herausgegeben und genehmigt.
+
+WisdomTree Ireland Limited und WisdomTree UK Limited werden jeweils als „WisdomTree“ bezeichnet. Unsere Richtlinie über Interessenkonflikte und unser
+Verzeichnis sind auf Anfrage erhältlich.
+
+Diese Marketingkommunikation richtet sich an alle Anleger. Die in diesem Dokument beschriebenen WisdomTree-Produkte und zugehörigen
+Unterlagen können jedoch gemäß geltenden Gesetzen und Vorschriften in manchen Ländern Beschränkungen unterliegen und nur bestimmten
+Kategorien von Anlegern zur Verfügung stehen. Sollte ein Produkt in Ihrem Land nicht zugelassen oder dessen Vertrieb eingeschränkt sein, muss sich
+jede natürliche oder juristische Person im Besitz dieser Informationen selbst über sämtliche einschlägigen Einschränkungen informieren und diese
+beachten. Vor einer Anlageentscheidung sollten Anleger eine entsprechende Rechts-, Aufsichtsrechts-, Steuer- und Anlageberatung einholen, um die
+Eignung und die Auswirkungen einer Anlage in diesen Produkten zu beurteilen. Informationen über WisdomTree-Produkte erhalten Sie auf
+wisdomtree.eu. WisdomTree bietet keine auf persönliche Umstände zugeschnittene Anlageberatung. Die frühere Wertentwicklung ist kein
+verlässlicher Hinweis auf die künftige Wertentwicklung. In diesem Dokument enthaltene Angaben zur früheren Wertentwicklung können auf
+Rückvergleichen („Backtesting“) beruhen. Ein Rückvergleich ist der Prozess der Bewertung einer Anlagestrategie durch deren Anwendung auf
+historische Daten, um zu simulieren, welche Wertentwicklung eine solche Strategie erzielt hätte. Eine im Rückvergleich ermittelte Wertentwicklung ist
+rein hypothetischer Art und wird in diesem Dokument ausschließlich zu Informationszwecken bereitgestellt. Rückvergleichsdaten stellen keine
+tatsächlich erzielte Wertentwicklung dar und sind nicht als Indikator für eine tatsächliche oder künftige Wertentwicklung auszulegen. Der Wert einer
+Anlage kann durch Wechselkursbewegungen beeinflusst werden. Eine Anlageentscheidung sollte grundsätzlich auf den im entsprechenden Prospekt
+enthaltenen Informationen beruhen und nach Einholung unabhängiger Anlage-, Steuer- und Rechtsberatung erfolgen. Der Inhalt diese Dokuments
+stellt weder eine Anlageberatung noch ein Verkaufsangebot oder eine Aufforderung zur Abgabe eines Angebots für den Kauf eines Produkts oder die
+Tätigung einer Anlage dar.
+
+Eine Anlage in börsengehandelte Produkte („ETPs“) ist abhängig von der Wertentwicklung des Basisindexes, abzüglich Kosten, aber es wird nicht erwartet, dass
+ihre Wertentwicklung genau mit der des Indexes übereinstimmt. ETPs unterliegen mehreren Risiken, darunter allgemeine Marktrisiken im Zusammenhang mit
+dem jeweiligen Basisindex, Kreditrisiken des Anbieters von Index-Swaps, die im ETP genutzt werden, Wechselkursrisiken, Zinsrisiken, Inflationsrisiken,
+Liquiditätsrisiken sowie rechtliche und regulatorische Risiken.
+
+Bei den in diesem Dokument enthaltenen Informationen handelt es sich nicht um Werbung bzw. eine Maßnahme zum öffentlichen Angebot der Anteile in den
+USA oder einer zugehörigen Provinz bzw. einem zugehörigen Territorium der USA, wo weder die Emittenten noch deren Produkte zum Vertrieb zugelassen oder
+registriert sind und wo die Prospekte der Emittenten nicht bei einer Wertpapieraufsichtsbehörde oder sonstigen Aufsichtsbehörde eingereicht wurden, und
+dürfen unter keinen Umständen als solche verstanden werden. Weder dieses Dokument noch Informationen in diesem Dokument sollten in die USA
+mitgenommen, (direkt oder indirekt) übermittelt oder verteilt werden. Weder die Emittenten noch etwaige von ihnen ausgegebenen Wertpapiere wurden oder
+werden gemäß dem United States Securities Act von 1933 oder dem Investment Company Act von 1940 registriert oder qualifizieren sich unter jeglichen
+anwendbaren bundesstaatlichen Wertpapiergesetzen.
+
+Dieses Dokument kann unabhängige Marktkommentare enthalten, die von WisdomTree auf der Grundlage öffentlich zugänglicher Informationen erstellt
+wurden. Obwohl WisdomTree bestrebt ist, die Richtigkeit des Inhalts dieses Dokuments sicherzustellen, übernimmt WisdomTree keine Gewährleistung oder
+Garantie für seine Richtigkeit oder Genauigkeit. Die Drittanbieter, deren Dienste in Anspruch genommen werden, um die in diesem Dokument enthaltenen
+Informationen zu beziehen, übernehmen keine Gewährleistung oder Garantie jeglicher Art bezüglich dieser Daten. Dort, wo WisdomTree seine eigenen
+Ansichten in Bezug auf Produkte oder Marktaktivitäten äußert, können sich diese Auffassungen ändern. Weder WisdomTree, noch eines seiner verbundenen
+Unternehmen oder einer seiner jeweiligen leitenden Angestellten, Verwaltungsratsmitglieder, Partner oder Mitarbeiter übernimmt irgendeine Haftung für
+direkte Schäden oder Folgeschäden, die durch die Verwendung dieses Dokuments oder seines Inhalts entstehen.
+
+Dieses Dokument kann zukunftsorientierte Aussagen enthalten, einschließlich Aussagen hinsichtlich unserer Einschätzung oder aktuellen Erwartungen im
+Hinblick auf die Wertentwicklung bestimmter Anlageklassen und/oder Sektoren. Zukunftsorientierte Aussagen unterliegen gewissen Risiken, Unsicherheiten
+und Annahmen. Es gibt keine Sicherheit, dass diese Aussagen zutreffen, und die tatsächlichen Ergebnisse können von den erwarteten Ergebnissen abweichen.
+WisdomTree empfiehlt Ihnen deutlich, sich nicht in unangemessener Weise auf diese zukunftsgerichteten Aussagen zu verlassen.
+
+Manche Fonds, auf die dieses Dokument Bezug nimmt, werden von dem WisdomTree Issuer ICAV („WT Issuer“) begeben. Bei WT Issuer handelt es sich um ein
+als Umbrella-Fonds konzipiertes Irish Collective Asset-Management Vehicle mit getrennter Haftung zwischen den Teilfonds, das von der Central Bank of Ireland
+(„CBI”) als Organismus für gemeinsame Anlagen in Wertpapieren („OGAW”) nach irischem Recht zugelassen ist. Jeder Fonds wird von einer gesonderten, von
+WT Issuer ausgegebenen Klasse von Anteilen (die „Anteile“) repräsentiert.
+
+Der Fonds wird in den wesentlichen Anlegerinformationen (Key Information Document, KID) bzw. den wesentlichen Anlegerinformationen für britische Anleger
+(Key Investor Information Document, KIID) und im Prospekt von WT Issuer (der „WT-Prospekt“) beschrieben. Eine Kopie des WT-Prospekts und des KID/KIID ist,
+ausschließlich für den EWR und das Vereinigte Königreich, in englischer Sprache verfügbar unter www. Wisdomtree. Eu . Wo dies nach nationalen Vorschriften
+erforderlich ist, ist das KID auch in der Landessprache des jeweiligen EWR-Mitgliedstaates verfügbar. Anleger sollten vor einer Anlage den WT-Prospekt lesen
+und weitere Informationen zu den mit einer Anlage in den Anteilen verbundenen Risiken dem Abschnitt „Risk Factors“ im WT-Prospekt entnehmen.
+
+Eine Zusammenfassung der mit einer Anlage in dem Fonds verbundenen Anlegerrechte (https://www. Wisdomtree. Eu/-/media/eu-media-files/other-
+documents/regulatory/summary-of-investor-rights---wisdomtree-issuer-icav. Pdf) ist in englischer Sprache auf der Website von WisdomTree Europe verfügbar.
+WisdomTree Management Limited kann für die Vermarktung ihrer Organismen für gemeinsame Anlagen getroffene Vereinbarungen kündigen. Unter diesen
+Umständen werden die Anteilsinhaber in den betroffenen EWR-Mitgliedstaaten über diese Entscheidung informiert und erhalten die Möglichkeit, ihre Anteile
+an dem Fonds innerhalb eines Zeitraums von mindestens 30 Werktagen ab dem Datum der entsprechenden Mitteilung frei von Kosten und Abzügen
+zurückzugeben.
+
+=== pdf p.6 ===
+Zusätzliche Informationen
+Für Investoren in der Schweiz: Dieses Dokument dient als Werbung für die hier genannten Finanzprodukte.
+Der Prospekt (nur in englischer Sprache) und die wesentlichen Anlegerinformationen (KID) (in Deutsch, Französisch und Italienisch) sind auf der Website
+von WisdomTree verfügbar: https://www.wisdomtree.eu/en-ch/resource-library/prospectus-and-regulatory-reports
+Nur für WisdomTree UCITS-Produkte: Die Vertretung und Zahlstelle der Teilfonds in der Schweiz ist Société Générale Paris, Niederlassung Zürich,
+Talacker 50, Postfach 5070, 8021 Zürich, Schweiz. Der Prospekt, die wesentlichen Anlegerinformationen, die Satzung sowie die Jahres- und
+Halbjahresberichte der Teilfonds sind kostenlos bei der Vertretung und Zahlstelle erhältlich. Hinsichtlich des Vertriebs in der Schweiz befinden sich der
+Erfüllungsort und Gerichtsstand am Sitz der Vertretung und Zahlstelle. Einige der in diesem Dokument genannten Teilfonds sind möglicherweise nicht bei
+der Eidgenössischen Finanzmarktaufsicht (FINMA) registriert. In der Schweiz sind solche nicht bei der FINMA registrierten Teilfonds unter Umständen nur
+qualifizierten Anlegern zugänglich.
+
+Für französische Anleger: Die in diesem Dokument enthaltenen Informationen richten sich ausschließlich an professionelle Anleger (wie im Rahmen der
+MiFID definiert), die auf eigene Rechnung investieren, und dieses Material darf in keiner Weise öffentlich verteilt werden. Die Verteilung des Prospekts und
+das Angebot, der Verkauf und die Lieferung von Anteilen in anderen Ländern können gesetzlichen Beschränkungenunterliegen. Der Emittent ist ein OGAW,
+der der irischen Gesetzgebung unterliegt, und von der Finanzaufsichtsbehörde als OGAW, der den europäischen Verordnungen entspricht, zugelassen.
+Dennoch muss er möglicherweise nicht denselben Regeln entsprechen, diefür ein ähnliches Produkt gelten, das in Frankreich zugelassen wurde. Der
+Fonds wurde in Frankreich von der Finanzaufsichtsbehörde (Autorité des Marchés Financiers) für den Vertrieb registriert und darf an Anleger in Frankreich
+vertrieben werden. Exemplare aller Dokumente (d. h. des Prospekts, des Dokuments mit den wesentlichen Informationen für den Anleger, aller
+zugehörigen Ergänzungen oder Nachträge, der neuesten Jahresberichte und der Gründungsurkunde und Satzung) sind in Frankreich kostenlos bei der
+französischen Zentralisierungsstelle Societe Generale unter der Adresse 29, boulevard Haussmann –75009 Paris, Frankreich, erhältlich. Alle Zeichnungen
+von Anteilen des Fonds erfolgen auf der Grundlage der Bedingungen des Prospekts und aller zugehörigen Ergänzungen oder Nachträge.
+

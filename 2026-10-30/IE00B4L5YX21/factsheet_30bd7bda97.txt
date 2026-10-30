@@ -1,0 +1,185 @@
+=== pdf p.1 ===
+PASSIVE
+
+                 iShares Core MSCI Japan IMI UCITS ETF
+ SJPA            U.S. Dollar (Accumulating)
+                 iShares III plc
+                                                                                                                           September 2026
+Performance, Portfolio Breakdowns and Net Asset information as at: 30-Sep-2026. All other data as at 05-Oct-2026.
+This document is marketing material. For Investors in the UK. Investors should read the KIID/PRIIPs document and prospectus prior to investing,
+and should refer to the prospectus for the funds full list of risks.
+
+ FUND OVERVIEW                                                                                    PRODUCT INFORMATION
+ The Fund seeks to track the performance of an index composed of Japanese large, mid and          ISIN : IE00B4L5YX21
+ small cap companies.                                                                             Share Class Launch Date : 25-Sept-2009
+KEY BENEFITS                                                                                      Share Class Currency : USD
+1.    Exposure to the stock market of the third largest global economy                            Total Expense Ratio : 0.12%
+2.    Entire market exposure means not missing out on potential growth surprises from             Use of Income : Accumulating
+      often overlooked smaller companies                                                          Net Assets of Share Class (M) : 8,573.40 USD
+3.    Use at the core of a portfolio to seek long-term growth
+                                                                                                  KEY FACTS
+
+ RISK INDICATOR                                                                                   Asset Class : Equity
+                                                                                                  Benchmark : MSCI Japan Investable Market Net
+ Lower Risk                                                                     Higher Risk       Index (USD)
+ Potentially Lower Rewards                                          Potentially Higher Rewards    Fund Launch Date : 25-Sept-2009
+                                                                                                  Net Assets of Fund (M) : 8,926.08 USD
+                                                                                                  SFDR Classification : Other
+       1            2             3            4                5          6            7
+                                                                                                  Domicile : Ireland
+CAPITAL AT RISK: The value of investments and the income from them can fall as well as rise Methodology : Optimised
+and are not guaranteed. Investors may not get back the amount originally invested.          Issuing Company : iShares III plc
+KEY RISKS:                                                                                        Product Structure : Physical
+     Shares in smaller companies typically trade in less volume and experience greater price      ISA Eligibility : Yes
+     variations than larger companies.
+                                                                                                  SIPP Available : Yes
+     Investment risk is concentrated in specific sectors, countries, currencies or companies.
+     This means the Fund is more sensitive to any localised economic, market, political,          UK Reporting Status : Yes
+     sustainability-related or regulatory events.
+     The value of equities and equity-related securities can be affected by daily stock market    PORTFOLIO CHARACTERISTICS
+     movements. Other influential factors include political, economic news, company               Price to Book Ratio : 1.85x
+     earnings and significant corporate events.
+                                                                                                 Price to Earnings Ratio : 18.67x
+     Counterparty Risk: The insolvency of any institutions providing services such as
+     safekeeping of assets or acting as counterparty to derivatives or other instruments, may 3y Beta : 0.99
+     expose the Share Class to financial loss.                                                   Number of Holdings : 931
+     Liquidity Risk: Lower liquidity means there are insufficient buyers or sellers to allow the
+     Fund to sell or buy investments readily.                                                    Please refer to the Glossary for more details.
+
+=== pdf p.2 ===
+iShares Core MSCI Japan IMI UCITS ETF
+U.S. Dollar (Accumulating)
+iShares III plc
+
+CALENDAR YEAR PERFORMANCE
+
+
+
+
+                      2016         2017           2018        2019      2020         2021        2022          2023          2024      2025
+   Share Class        3.12         25.09          -13.58      19.43     13.03        0.92        -15.88        18.86         7.47      25.36
+   Benchmark          3.25         25.25          -13.46      19.56     13.10        0.98        -15.78        18.96         7.57      25.45
+
+   During this period performance was achieved under circumstances that no longer apply.
+
+
+GROWTH OF HYPOTHETICAL 10,000 USD SINCE INCEPTION
+
+
+
+
+CUMULATIVE & ANNUALISED PERFORMANCE
+                                                    CUMULATIVE (%)                                             ANNUALISED (% p.a.)
+                         1m                3m               6m          YTD              1y               3y            5y            Since
+                                                                                                                                    Inception
+    Share Class          1.27              5.67            20.28       22.45           25.79           21.24           9.48            7.41
+    Benchmark            1.29              5.69            20.33       22.51           25.89           21.34           9.57            7.67
+
+The figures shown relate to past performance. Past performance is not a reliable indicator of future performance. Markets could develop very
+differently in the future. It can help you to assess how the fund has been managed in the past Performance is shown on a Net Asset Value
+(NAV) basis, with gross income reinvested where applicable. Performance data is based on the net asset value (NAV) of the ETF which may not be
+the same as the market price of the ETF. Individual shareholders may realize returns that are different to the NAV performance. The return of your
+investment may increase or decrease as a result of currency fluctuations if your investment is made in a currency other than that used in the past
+performance calculation. Source: Blackrock
+  Share Class (USD)          iShares Core MSCI Japan IMI UCITS ETF U.S. Dollar (Accumulating)
+  Benchmark (USD)            MSCI Japan Investable Market Net Index (USD)
+
+=== pdf p.3 ===
+ iShares Core MSCI Japan IMI UCITS ETF
+ U.S. Dollar (Accumulating)
+ iShares III plc
+
+Top 10 Holdings
+MITSUBISHI UFJ FINANCIAL GROUP                                        3.72%
+TOYOTA MOTOR                                                          2.60%
+TOKYO ELECTRON                                                        2.47%
+SUMITOMO MITSUI FINANCIAL GROUP                                       2.37%
+ADVANTEST                                                             2.36%
+HITACHI                                                               2.28%
+SOFTBANK GROUP                                                        2.25%
+RECRUIT HOLDINGS LTD                                                  2.09%
+SONY GROUP                                                            2.07%
+KIOXIA HOLDINGS                                                       1.96%
+Total of Portfolio                                                   24.17%
+Holdings are subject to change.
+
+
+
+SECTOR BREAKDOWN (%)
+
+
+
+
+                                   Fund
+Allocations are subject to change. Source: BlackRock
+
+
+
+TRADING INFORMATION
+Exchange          London Stock            London Stock   Euronext
+                  Exchange                Exchange       Amsterdam
+Ticker            SJPA                    IJPA           IJPA
+Bloomberg         SJPA LN                 IJPA LN        IJPA NA
+Ticker
+RIC               SJPA.L                  ISIJPA.L       ISIJPA.AS
+SEDOL             B4L61L2                 B4L5YX2        B4V2QW6
+Listing           GBP                     USD            EUR
+Currency
+This product is also listed on: Bolsa Mexicana De Valores,Santiago
+Stock Exchange,Bolsa De Valores De Colombia,Borsa Italiana,SIX
+Swiss Exchange,Deutsche Boerse Xetra
+
+=== pdf p.4 ===
+ iShares Core MSCI Japan IMI UCITS ETF
+ U.S. Dollar (Accumulating)
+ iShares III plc
+
+GLOSSARY
+SFDR Classification: Article 8: Products that promote environmental           Price to Book Ratio: represents the ratio of the current closing price of
+or social characteristics and promote good governance practices.              the share to the latest quarter's book value per share.
+Article 9: Products that have sustainable investments as an objective
+and follow good governance practices. Other: Products that do not
+meet the criteria to be classified as Article 8 or 9.
+Price to Earnings: A valuation ratio of a company's current share price
+compared to its per-share earnings in the current forecast year,
+calculated as current share price divided by current earnings per share.
+ IMPORTANT INFORMATION:
+In the European Economic Area (EEA): this is Issued by BlackRock (Netherlands) B.V. is authorised and regulated by the Netherlands Authority for
+the Financial Markets. Registered office Amstelplein 1, 1096 HA, Amsterdam, Tel: 020 – 549 5200, Tel: 31-20-549-5200. Trade Register No.
+17068311 For your protection telephone calls are usually recorded. For Ireland and only in relation to Per Se Professionals and/or Eligible
+Counterparties (i.e., Professional Investors), this may also be issued by BlackRock Investment Management (UK) Limited, authorised and regulated
+by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44 (0)20 7743 3000. Registered in
+England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the Financial Conduct Authority website
+for a list of authorised activities conducted by BlackRock.
+In the UK and Non-European Economic Area (EEA) countries (excluding Switzerland),: this is Issued by BlackRock Investment Management
+(UK) Limited, authorised and regulated by the Financial Conduct Authority. Registered office: 12 Throgmorton Avenue, London, EC2N 2DL. Tel: + 44
+(0)20 7743 3000. Registered in England and Wales No. 02020394. For your protection telephone calls are usually recorded. Please refer to the
+Financial Conduct Authority website for a list of authorised activities conducted by BlackRock.
+This is Marketing Material. iShares plc, iShares II plc, iShares III plc, iShares IV plc, iShares V plc, iShares VI plc and iShares VII plc (together 'the
+Companies') are open-ended investment companies with variable capital having segregated liability between their funds organised under the laws
+of Ireland and authorised by the Central Bank of Ireland. The Prospectus (Available in French, German, Polish and English Languages) Key Investor
+Information document (UK only), PRIIPs KID and further information about the Fund and the Share Class, such as details of the key underlying
+investments of the Share Class and share prices, is available on the iShares website at www.ishares.com or by calling +44 (0)845 357 7000 or from
+your broker or financial adviser. The indicative intra-day net asset value of the Share Class is available at http://deutsche-boerse.com and/or http://
+www.reuters.com. A UCITS ETF’s units / shares that have been acquired on the secondary market cannot usually be sold directly back to the UCITS
+ETF itself. Investors who are not Authorised Participants must buy and sell shares on a secondary market with the assistance of an intermediary
+(e.g. a stockbroker) and may incur fees and additional taxes in doing so. In addition, as the market price at which the Shares are traded on the
+secondary market may differ from the Net Asset Value per Share, investors may pay more than the then current Net Asset Value per Share when
+buying shares and may receive less than the current Net Asset Value per Share when selling them. UCITS HAVE NO GUARANTEED RETURN AND
+PAST PERFORMANCE DOES NOT GUARANTEE THE FUTURE ONES
+
+ This document is marketing material and will expire 12 months after issue
+This document is not, and under no circumstances is to be construed as an advertisement or any other step in furtherance of a public offering of
+shares in the United States or Canada. This document is not aimed at persons who are resident in the United States, Canada or any province or
+territory thereof, where the companies/securities are not authorised or registered for distribution and where no prospectus has been filed with any
+securities commission or regulatory authority. The companies/securities may not be acquired or owned by, or acquired with the assets of, an ERISA
+Plan.
+Any research in this document has been procured and may have been acted on by BlackRock for its own purpose. The results of such research are
+being made available only incidentally. The views expressed do not constitute investment or any other advice and are subject to change. They do
+not necessarily reflect the views of any company in the BlackRock Group or any part thereof and no assurances are made as to their accuracy
+
+This document is for information purposes only and does not constitute an offer or invitation to anyone to invest in any BlackRock funds and has
+not been prepared in connection with any such offer.
+© 2026 BlackRock, Inc. All Rights reserved. BLACKROCK, BLACKROCK SOLUTIONS, and iSHARES are trademarks of BlackRock, Inc. or its
+affiliates All other trademarks are those of their respective owners
+

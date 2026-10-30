@@ -1,0 +1,307 @@
+=== pdf p.1 ===
+                                                                                                                                                        WisdomTree.eu
+                                                                                                                                                   +44 (0) 207 448 4330
+                                                                                                                                              Document Date: 31/08/2026
+
+
+
+
+WDEF                                        WisdomTree Europe Defence UCITS ETF - EUR Acc
+
+
+Investment Objective                                                                                                    Product Information
+The WisdomTree Europe Defence UCITS ETF (the “Fund”) seeks to track the price and yield                                 Asset Class                                     Equities
+performance, before fees and expenses, of the WisdomTree Europe Defence UCITS Index (the
+                                                                                                                                                  WisdomTree Europe Defence
+"Index").                                                                                                               Benchmark
+                                                                                                                                                          UCITS Index (NTR)
+
+Index Description                                                                                                       Replication Method            Physical (fully replicated)
+
+The Index is designed to track the performance of European companies involved in the defence                            Total Expense Ratio                               0.40%
+sector.
+The Index was developed by WisdomTree, Inc. (“WT”). Companies must conduct their primary                                Base Currency                                       EUR
+business activities in one of the developed or emerging European countries which must be a
+                                                                                                                        Use of Income                             Accumulating
+signatory to the Treaty on the Non-Proliferation of Nuclear Weapons (commonly known as the
+Non-Proliferation Treaty or “NPT”) as outlined in the Index methodology. The selection of                               Distribution
+                                                                                                                                                                             N/A
+European companies within the Index is based on their revenue exposure to the defence sector.                           Frequency
+The Index further seeks to exclude companies that are involved in certain controversial weapons,                        Inception Date                               04/03/2025
+such as antipersonnel mines, cluster munitions, chemical and biological weapons, depleted
+uranium weapons and white phosphorus weapons and those that support nuclear weapons                                     Financial Year End                        31 December
+programmes to states outside the Treaty on the Non-Proliferation of Nuclear Weapons
+(commonly known as the Non-Proliferation Treaty or “NPT”). Additionally, the Index seeks to                             UCITS Compliant                                      Yes
+exclude companies that violate certain commonly accepted international norms and standards,
+such as such as United Nations and OECD guidelines.                                                                     ISA Eligible                                         Yes
+A minimum of 20 stocks that meet the revenue exposure criteria as well as additional
+requirements such as minimum market capitalization and liquidity, are selected for inclusion.                           SIPP Eligible                                        Yes
+The selected companies in the Index are weighted by market capitalization adjusted by the
+Exposure Score, following the caps and criteria outlined in the Index methodology.                                      PEA Eligible                                         No
+The Index is rebalanced on a quarterly basis.                                                                                                     AT, CH, DE, DK, ES, FI, FR, GB,
+                                                                                                                        Registration
+                                                                                                                                                           IE, IT, LU, NL, NO, SE
+Performance (Net of fees) (EUR)                                                                                         Manager
+                                                                                                                                                      WisdomTree Management
+                                                                                                                                                                             Ltd.
+                                                                                                                                                   Keyridge Asset Management
+ Name                                           QTR         YTD       1-Year      3-Year     Inception Date             Investment Manager
+                                                                                                                                                                         Limited
+                                                                                                                                                      BNY Mellon Fund Services
+ WDEF NAV                                      1.80%      9.94%       9.87%        N/A           19.76%
+                                                                                                                        Administrator              (Ireland) Designated Activity
+ WisdomTree Europe Defence UCITS                                                                                                                                        Company
+                                               0.57%      8.67%       8.78%        N/A           20.43%
+ Index (NTR)                                                                                                                                      The Bank of New York Mellon
+                                                                                                                        Custodian
+                                                                                                                                                          SA/NV, Dublin Branch
+Source: WisdomTree UK, Bloomberg, as of 31/08/2026. Performance for the fund and the
+Index is shown in the listing currency. Past performance is not a reliable indicator of future
+results. Performance of less than one year is cumulative.                                                               Index Information
+                                                                                                                                                  WisdomTree Europe Defence
+                                                                                                                        Index
+                                                                                                                                                          UCITS Index (NTR)
+                                                                                                                        Index Provider                        WisdomTree, Inc.
+
+                                                                                                                        Index Currency                                      EUR
+                                                                                                                        Index Bloomberg
+                                                                                                                                                                    WTEUDEFN
+                                                                                                                        Code
+
+
+
+                                                                                                                        ESG Characteristics
+                                                                                                                        SFDR Disclosure                           SFDR Article 6
+
+
+
+
+This document is marketing material. Investors should read the prospectus of the Issuer (“Prospectus”) and the key
+information document (“KID”) before investing and should refer to the section of the Prospectus titled ‘Risk Factors’        WDEF WisdomTree Europe Defence UCITS ETF - EUR Acc 1
+for further details of risks associated with an investment in this product.
+
+=== pdf p.2 ===
+           Top 10 Holdings (% Weight)                                  Fund Sector Exposure (% Weight)                              Top 10 Countries (% Weight)
+
+ BAE Systems PLC                             12.62%
+
+ Thales SA                                   12.18%                                                                                          France                 34.37%
+                                                                              Industrials                  97.48%                   United Kingdom               26.15%
+ Rheinmetall AG                              10.83%
+                                                                                                                                           Germany          16.32%
+ Rolls-Royce Holdings PLC                      8.78%
+                                                                                                                                            Sweden       7.44%
+ Safran SA                                     8.14%                                                                                           Italy     7.30%
+                                                                             Information
+                                                                                                  2.08%
+ Airbus SE                                     8.03%                         Technology                                                     Norway      4.63%
+                                                                                                                                              Spain    1.57%
+ SAAB AB-B SEK NPV                             7.13%
+                                                                                                                                     Czech Republic    0.92%
+ Leonardo Spa                                  6.51%                     Communication
+                                                                                                  0.44%                                     Cyprus     0.58%
+                                                                            Services
+ DASSAULT AVIATION EUR 0.8                     4.54%                                                                                        Finland    0.32%
+
+ Kongsberg Gruppen Asa                         4.11%
+
+NB: Sources for all tables/charts on these pages: WisdomTree UK, Bloomberg. All data as of 31/08/2026
+
+
+Listing Information
+ Exchange           Trading Currency Exchange Ticker Bloomberg Code                         RIC            SEDOL            ISIN              WKN              Listing Date
+
+ LSE                       EUR                 WDEF              WDEF LN              WDEF.L              BRBYL51       IE0002Y8CX98        A40Y9K             12/03/2025
+
+ Borsa Italiana            EUR                 WDEF              WDEF IM              WDEF.MI             BRC2VW1       IE0002Y8CX98        A40Y9K             11/03/2025
+
+ Xetra                     EUR                 EUDF              EUDF GY              EUDF.DE             BRC2WC8       IE0002Y8CX98        A40Y9K             11/03/2025
+
+ LSE                       GBx                WDEP               WDEP LN              WDEP.L              BRBYL62       IE0002Y8CX98        A40Y9K             12/03/2025
+
+ Euronext(FR)              EUR                 WDEF              WDEF FP              WDEF.PA             BT3NTV2       IE0002Y8CX98        A40Y9K             27/03/2025
+
+ LSE                       USD                 EUDF              EUDF LN               EUDF.L             BQLQ699       IE0002Y8CX98        A40Y9K             27/03/2025
+
+ SIX                       USD                 WDEF              WDEF SW              WDEF.S              BQRG6R1       IE0002Y8CX98        A40Y9K             23/04/2025
+
+ BMV                       MXN                 EUDF             EUDFN MM              EUDF.MX             BQTX9B5       IE0002Y8CX98        A40Y9K             30/06/2025
+
+
+
+
+This document is marketing material. Investors should read the prospectus of the Issuer (“Prospectus”) and the key
+information document (“KID”) before investing and should refer to the section of the Prospectus titled ‘Risk Factors’   WDEF WisdomTree Europe Defence UCITS ETF - EUR Acc 2
+for further details of risks associated with an investment in this product.
+
+=== pdf p.3 ===
+Potential Benefits
+Gain a unique pure-play exposure to the Europe Defence theme. The rise of geopolitical tensions globally has become a key driver of demand for increased
+investments into European defence companies.
+The ETF offers exposure to a diversified basket of European companies involved in the defence sector.
+The research for the selection and weighting of companies in the Index is conducted by WisdomTree with significant expertise in constructing thematic indices,
+ensuring the portfolio basket remains focused and relevant.
+The ETF is UCITS compliant.
+
+Potential Risks
+Although the Index was created to select companies with a high exposure to the European defence theme, there is no guarantee this objective will be achieved.
+An investment in equities may experience high volatility and should be considered as a longer-term investment.
+Higher growth companies such as those that play a part in megatrends tend to trade at higher valuations. The investor should consider the risk that comes with
+higher valuations as part of any investment decision.
+Investment risk may be concentrated in specific sectors, countries, companies or currencies.
+This list does not cover all risks - further risks are disclosed in the relevant key information document and Prospectus.
+
+
+
+
+This document is marketing material. Investors should read the prospectus of the Issuer (“Prospectus”) and the key
+information document (“KID”) before investing and should refer to the section of the Prospectus titled ‘Risk Factors’   WDEF WisdomTree Europe Defence UCITS ETF - EUR Acc 3
+for further details of risks associated with an investment in this product.
+
+=== pdf p.4 ===
+Glossary
+Dividend Weighted Index: an index that determines the weight of its constituents using the dividends paid by the security rather than another variable (the
+most common is Market Cap weighted indices).
+
+Fully Replicated: assets are invested in securities that match the constituents of the relevant index, in the same proportion.
+
+Fundamentally Weighted Index: an index that weights securities on the basis of factors such as dividends or earnings.
+
+Large Cap, Mid Cap and Small Cap: refers to market capitalisation and is calculated by multiplying the price of a stock by the number of shares outstanding.
+
+Listing currency: the trading currency on the exchange.
+
+Physical (Optimised): assets are predominantly invested in securities that are constituents of the index, but may also hold securities whose characteristics
+closely resemble the characteristics of the index.
+
+Physically Backed: securities held by the fund are the actual securities not a derivative.
+
+Rebalance: An index is created by applying a certain set of selection and weighting rules of countries, sectors and stocks at a certain frequency. A Rebalance is
+when WisdomTree re-applies its rules based selection and weighting process.
+
+Rebalance Frequency: The frequency by which the constituents of the index are screened and their weights changed.
+
+Replication Method: the method by which the fund gets exposure to the benchmark index.
+
+Share class currency or the "NAV currency": The currency that the fund's NAV is issued in.
+
+Total Expense Ratio (TER): A measure of the total costs associated with managing and operating a fund. The TER consists primarily of management fees plus
+other expenses such as trustee, custody and operating expenses. It does not cover the swap fee. The TER is expressed as a percentage of the fund's total net
+asset value.
+
+
+
+
+This document is marketing material. Investors should read the prospectus of the Issuer (“Prospectus”) and the key
+information document (“KID”) before investing and should refer to the section of the Prospectus titled ‘Risk Factors’   WDEF WisdomTree Europe Defence UCITS ETF - EUR Acc 4
+for further details of risks associated with an investment in this product.
+
+=== pdf p.5 ===
+Disclaimer
+IMPORTANT INFORMATION
+
+Marketing communications issued in the European Economic Area (“EEA”): This document has been issued and approved by WisdomTree Ireland Limited,
+which is authorised and regulated by the Central Bank of Ireland.
+
+Marketing communications issued in jurisdictions outside of the EEA: This document has been issued and approved by WisdomTree UK Limited, which is
+authorised and regulated by the United Kingdom Financial Conduct Authority.
+
+WisdomTree Ireland Limited and WisdomTree UK Limited are each referred to as “WisdomTree” (as applicable). Our Conflicts of Interest Policy and Inventory
+are available on request.
+
+This marketing communication is intended for all investors; however, the WisdomTree products described in this document and related materials may
+be restricted in certain jurisdictions and may only be available to particular categories of investors in accordance with applicable laws and regulations.
+Where a product is not authorised or its distribution is restricted in your jurisdiction, it is the responsibility of any person or entity in possession of this
+information to inform themselves of, and comply with, all relevant restrictions. Before making any investment, investors should seek appropriate
+legal, regulatory, tax and investment advice to assess the suitability and implications of investing in these products. Information about WisdomTree
+products is available at wisdomtree.eu. WisdomTree does not offer investment advice tailored to individual circumstances. Past performance is not a
+reliable indicator of future performance. Any historical performance included in this document may be based on back testing. Back testing is the
+process of evaluating an investment strategy by applying it to historical data to simulate what the performance of such strategy would have been.
+Back tested performance is purely hypothetical and is provided in this document solely for informational purposes. Back tested data does not
+represent actual performance and should not be interpreted as an indication of actual or future performance. The value of any investment may be
+affected by exchange rate movements. Any decision to invest should be based on the information contained in the appropriate prospectus and after
+seeking independent investment, tax and legal advice. The content of this document does not constitute investment advice nor an offer for sale nor a
+solicitation of an offer to buy any product or make any investment.
+
+An investment in exchange-traded products (“ETPs”) is dependent on the performance of the underlying index, less costs, but it is not expected to match that
+performance precisely. ETPs involve numerous risks including among others, general market risks relating to the relevant underlying index, credit risks on the
+provider of index swaps utilised in the ETP, exchange rate risks, interest rate risks, inflationary risks, liquidity risks and legal and regulatory risks.
+
+The information contained in this document is not, and under no circumstances is to be construed as, an advertisement or any other step in furtherance of a
+public offering of shares in the United States or any province or territory thereof, where none of the issuers or their products are authorised or registered for
+distribution and where no prospectus of any of the issuers has been filed with any securities commission or regulatory authority. No document or information in
+this document should be taken, transmitted or distributed (directly or indirectly) into the United States. None of the issuers, nor any securities issued by them,
+have been or will be registered under the United States Securities Act of 1933 or the Investment Company Act of 1940 or qualified under any applicable state
+securities statutes.
+
+This document may contain independent market commentary prepared by WisdomTree based on publicly available information. Although WisdomTree
+endeavours to ensure the accuracy of the content in this document, WisdomTree does not warrant or guarantee its accuracy or correctness. Any third party
+data providers used to source the information in this document make no warranties or representation of any kind relating to such data. Where WisdomTree has
+expressed its own opinions related to product or market activity, these views may change. Neither WisdomTree, nor any affiliate, nor any of their respective
+officers, directors, partners, or employees accepts any liability whatsoever for any direct or consequential loss arising from any use of this document or its
+contents.
+
+This document may contain forward looking statements including statements regarding our belief or current expectations with regards to the performance of
+certain assets classes and/or sectors. Forward looking statements are subject to certain risks, uncertainties and assumptions. There can be no assurance that
+such statements will be accurate and actual results could differ materially from those anticipated in such statements. WisdomTree strongly recommends that
+you do not place undue reliance on these forward-looking statements.
+
+Certain funds referred to in this document are issued by WisdomTree Issuer ICAV (“WT Issuer”). WT Issuer is an open-ended, umbrella-type Irish Collective Asset-
+management Vehicle with segregated liability between sub-funds and is authorised by the Central Bank of Ireland (“CBI”) as an Undertaking for Collective
+Investment in Transferable Securities (“UCITS”) under Irish law. Each fund is represented by a separate class of shares (the “Shares”) issued by WT Issuer.
+
+The Fund is described in a Key Information Document (KID) or Key Investor Information Document (KIID) for UK investors, and the prospectus of WT Issuer (“WT
+Prospectus”). A copy of the WT Prospectus and the KID / KIID is available, for EEA/UK only, in English at www.wisdomtree.eu. Where required under national
+rules, the KID will also be available in the local language of the relevant EEA Member State. Investors should read the WT Prospectus before investing and
+should refer to the section of the WT Prospectus entitled ‘Risk Factors’ for further details of risks associated with an investment in the Shares.
+
+The summary of investor rights (https://www.wisdomtree.eu/-/media/eu-media-files/other-documents/regulatory/summary-of-investor-rights---wisdomtree-
+issuer-icav. Pdf) associated with an investment in the fund is available in English on WisdomTree Europe’s website. WisdomTree Management Limited may
+decide to terminate the arrangements made for the marketing of its collective investment undertakings. In such circumstances, shareholders in the affected
+EEA Member State will be notified of this decision and will be provided with the opportunity to redeem their shareholding in the fund free of any charges or
+deductions for at least 30 working days from the date of such notification.
+
+=== pdf p.6 ===
+Additional Information
+For Investors in Switzerland: This document constitutes an advertisement of the financial product(s) mentioned herein.
+The prospectus (in English only) and the key investor information documents (KID) (in German, French and Italian) are available from WisdomTree’s
+website: https://www.wisdomtree.eu/en-ch/resource-library/prospectus-and-regulatory-reports
+For WisdomTree UCITS products only: the representative and paying agent of the ETPs in Switzerland is Société Générale Paris, Zurich Branch, Talacker
+50, PO Box 5070, 8021 Zurich, Switzerland. The prospectus, the key investor information documents (KIID), the articles of association and the annual and
+semi-annual reports of the sub-funds are available free of charge from the representative and paying agent. As regards distribution in Switzerland, the
+place of jurisdiction and performance is at the registered seat of the representative and paying agent. Some of the sub-funds referred to in this document
+may not have been registered with the Swiss Financial Market Supervisory Authority (“FINMA”). In Switzerland, such sub-funds that have not been
+registered with FINMA may only be available to Qualified Investors.
+
+For Investors in France:
+The information in this document is intended exclusively for professional investors (as defined under the MiFID) investing for their own account and this
+material may not in any way be distributed to the public. The distribution of the Prospectus and the offering, sale and delivery of Shares in other
+jurisdictions may be restricted by law. WT Issuer is a UCITS governed by Irish legislation, and approved by the Financial Regulatory as UCITS compliant
+with European regulations although may not have to comply with the same rules as those applicable to a similar product approved in France. The Fund has
+been registered for marketing in France by the Financial Markets Authority (Autorité des Marchés Financiers) and may be distributed to investors in France.
+Copies of all documents (i.e. the Prospectus, the Key Investor Information Document, any supplements or addenda thereto, the latest annual reports and
+the memorandum of incorporation and articles of association) are available in France, free of charge at the French centralizing agent, Societe Generale at
+29, Boulevard Haussmann, 75009, Paris, France. Any subscription for Shares of the Fund will be made on the basis of the terms of the prospectus and any
+supplements or addenda thereto.
+
+For Investors in Israel: Offering materials for the offering of the Shares and securities have not been filed with or approved or disapproved by the United
+States Securities and Exchange Commission or any other state or federal regulatory authority, nor has any such regulatory authority passed upon or
+endorsed the merits of this offering or passed upon the accuracy or completeness of any offering materials. Any representation to the contrary is unlawful.
+The products mentioned herein have not been approved by the Israel Securities Authority and will only be distributed to Israeli residents in a manner that
+will not constitute “an offer to the public” under sections 15 and 15a of the Israel Securities Law, 5728-1968 (“the Securities Law”) or section 25 of the Joint
+Investment Trusts Law, 5754-1994 (“the Joint Investment Trusts Law “), as applicable. The products are being offered to a limited number of investors (35
+investors or fewer during any given 12 month period) and/or those categories of investors listed in the First Addendum (“the Addendum”) to the Securities
+Law, “Sophisticated Investors”) who in each case have provided written confirmation that they qualify as Sophisticated Investors, and that they are aware
+of the consequences of such designation and agree thereto; in all cases under circumstances that will fall within the private placement or other
+exemptions of the Joint Investment Trusts Law, the Securities Law and any applicable guidelines, pronouncements or rulings issued from time to time by
+the Israel Securities Authority.
+This prospectus or this document may not be reproduced or used for any other purpose, nor be furnished to any other person other than those to whom
+copies have been sent. Any offeree who purchases a product is purchasing such product for its own benefit and account and not with the aim or intention
+of distributing or offering such product to other parties (other than, in the case of an offeree which is a Sophisticated Investor by virtue of it being a
+banking corporation, portfolio manager or member of the Tel-Aviv Stock Exchange, as defined in the Addendum, where such offeree is purchasing a
+product for another party which is a Sophisticated Investor).
+Nothing in this document should be considered investment advice or investment marketing as defined in the Regulation of Investment Counselling,
+Investment Marketing and Portfolio Management Law, 5755-1995. Investors are encouraged to seek competent investment counselling from a locally
+licensed investment counsel prior to making the investment. A recipient of this document may be required to provide confirmation that it is a
+Sophisticated Investor purchasing a product for its own account or, where applicable, for other Sophisticated Investors.
+

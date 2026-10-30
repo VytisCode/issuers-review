@@ -1,0 +1,137 @@
+=== pdf p.1 ===
+                                                                              Key Investor Information
+
+        This document provides you with key investor information about this fund. It is not marketing material. The information is required by law to help you understand the nature and the risks of
+                                             investing in this fund. You are advised to read it so you can make an informed decision about whether to invest.
+WisdomTree Europe Defence UCITS ETF - EUR Acc                                                                                                                           ISIN: IE0002Y8CX98
+a share class of WisdomTree Europe Defence UCITS ETF (the “Fund”)
+which is a sub-fund of WisdomTree Issuer ICAV. Managed by WisdomTree Management Limited.
+    Objectives and Investment Policy
+•           The Fund seeks to track the price and yield performance, before fees and expenses, of the WisdomTree Europe Defence UCITS Index (the “Index”).
+•           The Index is designed to track the performance of European companies involved in the defence sector which must conduct their primary business activities in a country
+            that is a signatory to the Treaty on the Non-Proliferation of Nuclear Weapons ("NPT"). The Index was developed by WisdomTree, Inc. (“WT”). The selection of European
+            companies within the Index is based on their revenue exposure to the defence sector. The Index seeks to exclude companies that are involved in certain controversial
+            weapons such as cluster munitions, antipersonnel landmines, biological and chemical weapons, depleted uranium weapons and white phosphorus weapons and those
+            that support nuclear weapons programmes to states outside the NPT. Additionally, the Index seeks to exclude companies that violate certain commonly accepted
+            international norms and standards, such as the United Nations and OECD guidelines.
+•           A minimum of 20 stocks that meet the revenue exposure criteria as well as additional requirements such as minimum market capitalization and liquidity, as specified in
+            the Index methodology, are selected for inclusion.
+•           Selected stocks are assigned an exposure score equal to 3, 2 or 1 for companies with over 50%, 25% to 50%, and 10% to 25% defence sector revenue exposure,
+            respectively. Companies are weighted by market capitalisation adjusted by the defence exposure score, and subject to individual security caps and liquidity criteria
+            outlined in the Index methodology.
+•           The Index is rebalanced on a quarterly basis.
+•           The Fund will employ a "passive management" (or indexing) investment approach and will invest in a portfolio of equities that, so far as possible and practicable, consists
+            of the component securities of the Index. The Fund intends to replicate the constituents of the Index by holding all of the securities comprising the Index in a similar
+            proportion to their weightings in the Index.
+•           The Fund may from time to time invest in equity or equity-related securities listed or traded on a Regulated Market (such as large, medium or small cap equities, common
+            or preferred stocks and Depositary Receipts) and open-ended collective investment undertakings.
+•           The Fund may enter into repurchase/reverse repurchase agreements and stock lending arrangements solely for the purposes of efficient portfolio management, subject
+            to the conditions and within the limits set out in the prospectus for WisdomTree Issuer ICAV (the “Prospectus”).
+•           Shares of the Fund (“Shares”) are listed on one or more stock exchanges. Typically, only Authorised Participants (i.e. brokers) can purchase Shares from or sell Shares back
+            to the Fund. Other investors can purchase and sell Shares on exchange on each day the relevant stock exchange is open.
+•           Distribution policy: Dividends will not be distributed to shareholders in respect of the shares of this class. Income and other profits will be accumulated and reinvested on
+            behalf of the shareholders.
+•           Recommendation: This Fund may not be appropriate for short-term investment.
+•           Currency: The base currency of the Fund is Euro. The currency of denomination of this share class is Euro.
+•           For full investment objectives and policy details, please refer to the supplement to the Prospectus for the Fund (the “Supplement”).
+
+    Risk and Reward Profile
+    Lower Risk                                                                       Higher Risk      •        Risks not covered by the indicator, but which are materially relevant to the
+    Potentially lower rewards                                         Potentially higher rewards               Fund include:
+                                                                                                               o       Tracking error risk: The Fund's performance may not exactly track the
+                                                                                                                       Index. This can result from market fluctuations, changes in the
+                                                                                                                       composition of the Index, transaction costs, the costs of making
+        1             2             3             4             5             6             7                  o
+                                                                                                                       changes to the Fund's portfolio and other Fund expenses.
+                                                                                                                       There can be no certainty that Shares can always be bought or sold
+    •        The categorisation above is not guaranteed to remain unchanged and may                                    on a stock exchange or that the market price will reflect the NAV of
+             shift over time.                                                                                          the Fund.
+    •        The lowest category (1) does not imply a risk-free investment.                                    o       It may be difficult for the Fund to buy or sell certain investments in
+    •        The risk indicator was calculated incorporating simulated historical data and                             some market conditions. Consequently, the price obtained when the
+             may not be a reliable indication of the future risk profile of the Fund.                                  Fund buys or sells securities may compare adversely to the price
+    •        The SRRI categorisation above (7) is due to the nature of the Fund’s                                      under normal market conditions
+             investments and risk associated with those investments, including:                                o       Counterparty risk: The Fund is subject to the risk that third parties
+             o       The value of underlying securities can be affected by daily financial                             with which the Fund may transact and who may provide services
+                     market movements. Other influential factors include political,                                    such as the safekeeping of assets may go bankrupt or fail to pay
+                     economic news, company earnings and significant corporate events.                                 money due to the Fund or return property belonging to the Fund.
+             o       There is no assurance that any appreciation in the value of                               o       Operational risk: There is a risk of default or error within the
+                     investments will occur, or that the investment objective of the Fund                              different service providers involved in managing and servicing the
+                     will be achieved.                                                                                 Fund, and valuing the portfolio.
+             o       Investment risk may be concentrated in specific sectors, countries,              •        For a complete overview of all risks attached to this Fund, refer to the
+                     currencies or companies. This means the Fund is more sensitive to                         section entitled “Risk Factors” in the Supplement and the Prospectus
+                     any localised economic, market, political or regulatory events.
+             o       Currency Risk: The Fund invests in securities denominated in
+                     currencies other than its base currency. Changes in the exchange
+                     rates may adversely affect the performance of the Fund.
+
+=== pdf p.2 ===
+                                                                    Key Investor Information
+
+Charges
+                                                                                           * These are the maximum fees and charges which are currently payable by
+The charges you pay are used to pay the costs of running the Fund, including the           authorised participants dealing directly with WisdomTree Issuer ICAV. The Fund has
+costs of marketing and distributing it. These charges reduce the potential growth of       the right to charge authorised participants an entry charge up to a maximum of 3%
+your investment.                                                                           and an exit charge up to a maximum of 3%. The Fund is currently not exercising its
+                                                                                           entitlement to apply entry and exit charges.
+One-off charges taken before or after you invest
+                                                                                           *Entry and exit charges are not applicable to secondary market investors. As the
+Entry charge                                                                    None*      Fund is an ETF, secondary market investors will not typically be able to deal directly
+                                                                                           with WisdomTree Issuer ICAV. Investors buying Shares on exchange will do so at
+Exit charge                                                                     None*
+                                                                                           market prices which will reflect broker fees and/or other charges.
+
+                                                                                           * Authorised participants dealing directly with the Fund will pay related transaction
+Charges taken from the Fund over a year
+                                                                                           costs.
+Ongoing charges                                                               0.40%**
+                                                                                           * For authorised participants dealing directly with the Fund, switching between sub-
+                                                                                           funds may incur a maximum switching charge of 3%. The Fund is currently not
+Charges taken from the Fund under certain specific conditions                              exercising its entitlement to apply switching charges.
+
+Performance fee                                                                  None      ** The ongoing charges may vary year on year. It excludes portfolio transaction
+                                                                                           costs, except in the case of an entry/exit charge paid by the Fund when buying or
+                                                                                           selling units in another investment fund.
+
+                                                                                           Please see "Fees and Expenses" section of the Prospectus and "Fees" and "Share
+                                                                                           Dealing" ("Subscriptions following the initial offer period" and "Redemptions" sub-
+                                                                                           sections) sections of the Supplement for further information about charges.
+
+Past Performance
+
+
+
+
+                                                                 There is insufficient data to provide a useful
+                                                                 indication of past performance to the investor
+
+
+
+
+Practical Information
+Depositary: The Bank of New York Mellon SA/NV, Dublin Branch.                             Switching: Switching of Shares between sub-funds of WisdomTree Issuer ICAV is
+                                                                                          not possible for investors who purchase shares on exchange. Switching may be
+Administrator: BNY Mellon Fund Services (Ireland) Designated Activity Company.            available to authorised participants who deal directly with the Fund.
+
+Further information: Copies of the Prospectus documentation and the latest                Segregated liability: The Fund is a sub-fund of WisdomTree Issuer ICAV, an
+financial statements are available free of charge, in English, from the                   umbrella Irish collective asset-management vehicle. Under Irish law
+Administrator. The Prospectus and financial statements are prepared for                   the assets and liabilities of the Fund are segregated from other sub-funds within
+WisdomTree Issuer ICAV rather than separately for the Fund. Further information           WisdomTree Issuer ICAV and the assets of the Fund will not be available to satisfy
+about the Fund can be obtained on www.wisdomtree.eu.                                      the liabilities of another sub-fund of WisdomTree Issuer ICAV.
+
+Remuneration Policy: Details of WisdomTree Management Limited's remuneration              Taxation: WisdomTree Issuer ICAV is resident in Ireland for taxation purposes. Irish
+policy, including a description of how remuneration and benefits are calculated and       taxation legislation may impact on the personal tax position of an investor.
+the identities of the persons responsible for awarding such remuneration/benefits,
+can be accessed from the following website: www.wisdomtree.eu. A paper copy of            Liability statement: WisdomTree Management Limited may be held liable solely
+these policy details is also available free of charge from WisdomTree Management          on the basis of any statement contained in this document that is misleading,
+Limited upon request.                                                                     inaccurate or inconsistent with the relevant parts of the Prospectus
+
+Pricing information: The net asset value of the share class will be available during
+normal business hours every business day at the office of the Administrator and
+will be published daily on www.wisdomtree.eu
+
+
+This Fund is authorised in Ireland and regulated by the Central Bank of Ireland.
+WisdomTree Management Limited is authorised in Ireland and regulated by the Central Bank of Ireland.
+This key investor information is accurate as at 28 May 2026.
+.
+
