@@ -4,13 +4,13 @@
  "sources": [
   {
    "key": "P1",
-   "title": "AQR UCITS Funds II – Prospectus 21.04.2026, Supplement 1 (pp.107–137) – ucits.aqr.com",
-   "url": "https://ucits.aqr.com/"
+   "title": "AQR UCITS Funds II – Prospectus 21.04.2026, Supplement 1 (pp.107–137), copy received from the owner",
+   "received": "P1_AQR_UCITS_Funds_II__Prospectus_21.04.2026_Supplement_1_pp.10.txt"
   },
   {
    "key": "K1",
-   "title": "KIID AQR Delphi Fusion Global UCITS Fund IAU1 (LU3310553873), 20.04.2026 – ucits.aqr.com",
-   "url": "https://ucits.aqr.com/"
+   "title": "KIID AQR Delphi Fusion Global UCITS Fund IAU1 (LU3310553873), 20.04.2026, copy received from the owner",
+   "received": "K1_KIID_AQR_Delphi_Fusion_Global_UCITS_Fund_IAU1_LU3310553873_2.pdf"
   },
   {
    "key": "E1",
@@ -36,7 +36,46 @@
    "key": "T1",
    "title": "pension-fund-tracker – LT/LV/EE pension fund holdings (data/portfolios.csv, lv_holdings.csv, ee_holdings.csv)",
    "url": "https://github.com/vytiscode/pension-fund-tracker"
+  },
+  {
+   "key": "D1",
+   "title": "AQR – Delphi Fusion Global Equity Strategy presentation, April 2026 (private and confidential)",
+   "received": "D1_AQR__Delphi_Fusion_Global_Equity_Strategy_presentation_April.pdf"
+  },
+  {
+   "key": "D2",
+   "title": "AQR – Delphi Fusion Global Equity Strategy Monthly Update, July 2026",
+   "received": "D2_AQR__Delphi_Fusion_Global_Equity_Strategy_Monthly_Update_Jul.pdf"
+  },
+  {
+   "key": "D3",
+   "title": "AQR – Delphi Fusion Global, Theme Attribution workbook, Sep 2026, prepared for SEB Baltic L&P",
+   "received": "D3_AQR__Delphi_Fusion_Global_Theme_Attribution_workbook_Sep_202.xlsx"
+  },
+  {
+   "key": "D4",
+   "title": "AQR – Fusion UCITS Funds FAQ, Q3 2026",
+   "received": "D4_AQR__Fusion_UCITS_Funds_FAQ_Q3_2026.pdf"
+  },
+  {
+   "key": "D5",
+   "title": "AQR – Delphi Long-Short Equity Strategy presentation, data to 30.06.2026",
+   "received": "D5_AQR__Delphi_Long-Short_Equity_Strategy_presentation_data_to_.pdf"
+  },
+  {
+   "key": "D6",
+   "title": "AQR – Delphi Long-Short Equity Strategy DDQ, 2026",
+   "received": "D6_AQR__Delphi_Long-Short_Equity_Strategy_DDQ_2026.pdf"
+  },
+  {
+   "key": "D7",
+   "title": "AQR – Firm Overview DDQ, 30.06.2026",
+   "received": "D7_AQR__Firm_Overview_DDQ_30.06.2026.pdf"
+  },
+  {
+   "key": "D8",
+   "title": "SEB Manager Selection – AQR Fusion Delphi Global Equities assessment, 10.02.2026 (internal)",
+   "received": "D8_SEB_Manager_Selection__AQR_Fusion_Delphi_Global_Equities_ass.pdf"
   }
- ],
- "done": "55109b94555a35bf"
+ ]
 }

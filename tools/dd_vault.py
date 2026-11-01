@@ -14,6 +14,8 @@ Slaptažodis niekur nesaugomas. Pametus - `init --force` (naujas raktas) ir visu
   python tools/dd_vault.py screen FAILAS.pptx --view VIEW.json --title "..." --kind challenge  # turimų pozicijų peržiūra (keisti / laikyti / stebėti)
   python tools/dd_vault.py screen ... --sources SALTINIAI.json --evidence KATALOGAS  # + šaltinių ZIP (Actions) + skaičiavimų / įrodymų ZIP (iš karto)
   python tools/dd_vault.py sources ID SALTINIAI.json   # šaltinių ZIP užduotis jau esamam įrašui
+      # SALTINIAI.json: [{key,title,url}] - iš interneto (Actions, su turinio patikra); [{key,title,local:<kelias>}] - savininko
+      # pateiktas failas (D#, KIID...) -> užšifruotas gautų dokumentų ZIP iš karto; dashboard'as sujungia abu į vieną ZIP
   python tools/dd_vault.py evidence ID KATALOGAS       # įrodymų ZIP (vietiniai failai: išrašai, savi skaičiavimai) – pakeičia ankstesnį
   python tools/dd_vault.py replace ID                # pataisytas DD (tas pats failas manifest'e) – ZIP lieka
   python tools/dd_vault.py remove ID                 # pašalina įrašą (ir jo ZIP)
@@ -77,12 +79,57 @@ def add_bytes(data, meta, eid=None):
     return eid
 
 
+def RECEIVED():
+    rf = DIR / "received.json"
+    return set(json.loads(rf.read_text())) if rf.exists() else set()
+
+
+def _job(eid, stem, src):
+    """Šaltinių ZIP užduotis (update.yml) + gautų dokumentų ZIP iš karto.
+    Šaltinis su `local` (savininko pateiktas failas: D#, KIID / prospektas be tiesioginės viešos nuorodos) supakuojamas čia pat
+    į užšifruotą {type: zip, kind: received, parent}; užduotyje lieka tik {key, title, received: <failo vardas ZIP'e>}.
+    Dashboard'as „Dokumentai (ZIP)“ atsisiuntimo metu sujungia abu ZIP - šaltinių sąrašas ir ZIP sutampa 1:1
+    (savininko sprendimas 2026-11-01). Konfidencialūs dokumentai lieka tik užšifruoti (viešame repo - tik .bin)."""
+    import io
+    import re
+    import zipfile
+    zf = DIR / "zips.json"
+    zips = json.loads(zf.read_text()) if zf.exists() else {}
+    loc = [s for s in src if s.get("local")]
+    job = []
+    for s in src:
+        if s.get("local"):
+            ext = Path(s["local"]).suffix.lower()
+            fn = f"{s['key']}_{re.sub(r'[^\w\-. ]+', '', s['title']).strip().replace(' ', '_')[:60]}{ext}"
+            job.append({"key": s["key"], "title": s["title"], "received": fn, **({"url": s["url"]} if s.get("url") else {})})
+            s["_fn"] = fn
+        else:
+            job.append(s)
+    old = [z for z, p in zips.items() if p == eid and z in RECEIVED()]
+    if loc:
+        buf = io.BytesIO()
+        with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
+            for s in loc:
+                z.write(s["local"], s.pop("_fn"))
+        rid = add_bytes(buf.getvalue(), {"type": "zip", "kind": "received", "parent": eid, "file": f"{stem}_received.zip", "docs": len(loc)})
+        zips[rid] = eid
+        (DIR / "received.json").write_text(json.dumps(sorted((RECEIVED() - set(old)) | {rid}), indent=1) + "\n")
+        print(f"Gautų dokumentų ZIP: {rid} ({len(loc)} failai)")
+    for o in old:
+        (DIR / f"{o}.bin").unlink(missing_ok=True)
+        INDEX.write_text(json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != o], indent=1) + "\n")
+        zips.pop(o, None)
+    if old and not loc:
+        (DIR / "received.json").write_text(json.dumps(sorted(RECEIVED() - set(old)), indent=1) + "\n")
+    zf.write_text(json.dumps(zips, indent=1) + "\n")
+    (DIR / "jobs").mkdir(exist_ok=True)
+    (DIR / "jobs" / f"{eid}.json").write_text(json.dumps({"parent": eid, "name": f"{stem}_documents.zip", "sources": job}, ensure_ascii=False, indent=1))
+
+
 def add(path, meta, sources=None, record=True, kind="dd"):
     eid = add_bytes(Path(path).read_bytes(), {**meta, "type": kind, "file": Path(path).name})
     if sources:
-        (DIR / "jobs").mkdir(exist_ok=True)
-        (DIR / "jobs" / f"{eid}.json").write_text(json.dumps({"parent": eid, "name": f"{Path(path).stem}_documents.zip",
-                                                              "sources": sources}, ensure_ascii=False, indent=1))
+        _job(eid, Path(path).stem, sources)
     if record and MANIFEST.parent.exists():
         man = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else []
         man = [m for m in man if m["path"] != str(Path(path).resolve())] + [{"path": str(Path(path).resolve()), "id": eid, "meta": meta, "sources": sources or []}]
@@ -155,10 +202,9 @@ def EVID():
 
 def sources(eid, src):
     """Šaltinių ZIP užduotis esamam įrašui (vieši URL [{key,title,url}]); ZIP sukuria update.yml (dd_sources.py)."""
-    (DIR / "jobs").mkdir(exist_ok=True)
     man = json.loads(MANIFEST.read_text())
     m = next(m for m in man if m.get("id") == eid)
-    (DIR / "jobs" / f"{eid}.json").write_text(json.dumps({"parent": eid, "name": f"{Path(m['path']).stem}_documents.zip", "sources": src}, ensure_ascii=False, indent=1))
+    _job(eid, Path(m["path"]).stem, src)
     m["sources"] = src
     MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
     print("Šaltinių ZIP užduotis:", eid, len(src))
@@ -201,6 +247,7 @@ def rekey(pw=None):
         f.unlink()
     (DIR / "zips.json").write_text("{}\n")
     (DIR / "evidence.json").write_text("[]\n")
+    (DIR / "received.json").write_text("[]\n")
     init(True, pw)
     new = []
     for m in man:

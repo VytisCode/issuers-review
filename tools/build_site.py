@@ -278,6 +278,9 @@ def main():
         (C.DOCS / "dd").mkdir(exist_ok=True)
         for f in ddir.glob("*.bin"):
             shutil.copy2(f, C.DOCS / "dd" / f.name)
+        for f in (C.DOCS / "dd").glob("*.bin"):  # pašalinti / pakeisti įrašai neturi likti svetainėje
+            if not (ddir / f.name).exists():
+                f.unlink()
     (C.DOCS / "data.js").write_text("window.DATA = " + json.dumps(out, ensure_ascii=False, default=str) + ";\n", encoding="utf-8")
     print(f"docs/data.js: {len(out['issuers'])} emitentai, {len(secs)} VP, {len(news)} naujienos, {len(out['filings'])} nauji dokumentai")
 
