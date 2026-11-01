@@ -1297,7 +1297,7 @@
   function missPrompt(x) {
     const m = x.view.missing || [], d = mGet(x.id), got = m.filter(r => (d[r.k] || "").trim()), nf = m.filter(r => d["nf:" + r.k]);
     if (x.type === "duration") return [`Complete "${x.title}" (${x.date}, archive id ${x.id}) with the values below, found by the owner. Write them into the same duration Excel (label "owner-provided, <source>, <date>"), update the status, keep the evidence, re-archive with \`python tools/dd_vault.py replace ${x.id}\`.`,
-      ...m.filter(r => (d[r.k] || "").trim()).map(r => `- [${r.k}] ${r.fund || ""}${r.isin ? " (" + r.isin + ")" : ""} – ${r.what}: ${d[r.k].trim()}`),
+      ...m.filter(r => (d[r.k] || "").trim()).map(r => `- [${r.k}] ${r.fund || ""}${r.isin ? " (" + r.isin + ")" : ""}: ${d[r.k].trim()}${(d["src:" + r.k] || "").trim() ? ` · source: ${d["src:" + r.k].trim()}` : ""}${(d["note:" + r.k] || "").trim() ? ` · note: ${d["note:" + r.k].trim()}` : ""}`),
       ...(m.some(r => d["nf:" + r.k]) ? ["Not found by the owner either (leave empty with the reason):", ...m.filter(r => d["nf:" + r.k]).map(r => `- [${r.k}] ${r.fund || ""}`)] : []),
       ...((d._note || "").trim() ? ["Other information from the owner:", d._note.trim()] : [])].join("\n");
     const L = [`Complete "${x.title}" (${x.date}, archive id ${x.id}) with the data points below, provided by the owner from internal sources. Write them into the same report (all formats), label each "owner-provided, <source>, <date>", recalculate what they affect (overview table, verdicts, flags, summary, short version, email draft, calculations Excel, evidence ZIP), re-export with the same generator (PDF navigation kept) and replace the archive entry (python tools/dd_vault.py replace ${x.id}). This is the FINAL version: Report(status=\"final\") – no red anywhere (review_lib turns NOT FOUND into grey n/a), no DRAFT label; data still not available are listed neutrally in the Method section (\"Not available from public sources or data providers as of <date>\") and the conclusions say what they rest on. Report back which verdicts changed.`];
@@ -1962,6 +1962,13 @@
   }
   /* Duration istorija: pasirinkto laikotarpio lentelė (kaip Excel) su pokyčiu nuo ankstesnio, arba visi laikotarpiai greta */
   let FDUR = "";
+  // tuščia duration reikšmė – laukelis savininkui (tas pats juodraštis kaip „Missing data“, tik šioje naršyklėje)
+  const fDurM = (x, isin) => isFinal(x) ? null : ((x.view || {}).missing || []).find(r => r.isin && String(isin).includes(r.isin));
+  function fDurIn(x, isin, f) {
+    const m = fDurM(x, isin), d = mGet(x.id); if (!m) return null;
+    const k = (f ? f + ":" : "") + m.k, ph = { "": "value, e.g. 4.52", src: "source: link or document, page", note: "note, e.g. type, date" }[f || ""];
+    return `<input class="fdin${f ? " w" : ""}" type="text" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="${ph}" title="${esc(m.where || "")}">${f ? "" : `<label class="chk small nw"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(m.k)}"${d["nf:" + m.k] ? " checked" : ""}> not found</label>`}`;
+  }
   function fDurHist() {
     const box = document.getElementById("fDurHist"); if (!box) return;
     if (!DDL) { box.innerHTML = `<h3>Duration by month</h3><p class="muted small">Unlock the archive on the <a href="#funds">Funds</a> page to see earlier months.</p>`; return; }
@@ -1974,9 +1981,10 @@
     const chg = (a, b) => a == null || b == null ? "" : (d => `<span class="${Math.abs(d) > 0.5 ? "bad" : "muted"}">${d > 0 ? "+" : ""}${d.toFixed(2)}</span>`)(a - b);
     let html;
     if (cur) {
-      const c = cols(cur), di = col(cur, /^duration/i), ci = col(cur, /isin/i), si = col(cur, /source/i);
-      html = `<div class="tbl-wrap"><table class="small"><tr>${c.map((h, i) => `<th>${esc(h)}</th>${i === di && prev ? `<th>${fDate(prev.me)}</th><th>Change</th>` : ""}`).join("")}</tr>${cur.x.view.table.rows.map(r => `<tr>${r.map((v, i) => `<td${i === di ? ` class="nw"` : ""}>${i === si && /^https?:/.test(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">source ↗</a>` : i === di && v === "" ? `<span class="bad">not found</span>` : esc(v)}</td>${i === di && prev ? `<td>${val(prev, r[ci]) ?? ""}</td><td>${chg(parseFloat(v), val(prev, r[ci]))}</td>` : ""}`).join("")}</tr>`).join("")}</table></div>
-        <p class="muted small">Change above 0.5 years is red. <a href="#funds/done/${cur.x.id}">Evidence, Excel and missing data →</a></p>`;
+      const c = cols(cur), di = col(cur, /^duration/i), ci = col(cur, /isin/i), si = col(cur, /source/i), ti = col(cur, /status|note/i);
+      html = `<div class="tbl-wrap"><table class="small"><tr>${c.map((h, i) => `<th>${esc(h)}</th>${i === di && prev ? `<th>${fDate(prev.me)}</th><th>Change</th>` : ""}`).join("")}</tr>${cur.x.view.table.rows.map(r => `<tr>${r.map((v, i) => `<td${i === di ? ` class="nw"` : ""}>${i === di && v === "" && fDurM(cur.x, r[ci]) ? fDurIn(cur.x, r[ci]) : i === si && v === "" && fDurM(cur.x, r[ci]) ? fDurIn(cur.x, r[ci], "src") : i === ti && fDurM(cur.x, r[ci]) ? `${esc(v)}<br>${fDurIn(cur.x, r[ci], "note")}` : i === si && /^https?:/.test(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">source ↗</a>` : i === di && v === "" ? `<span class="bad">not found</span>` : esc(v)}</td>${i === di && prev ? `<td>${val(prev, r[ci]) ?? ""}</td><td>${chg(parseFloat(v), val(prev, r[ci]))}</td>` : ""}`).join("")}</tr>`).join("")}</table></div>
+        <p class="muted small">Change above 0.5 years is red. Empty cell = Claude did not find it: type the value you found, its source and a note if needed, or tick “not found”. <a href="#funds/done/${cur.x.id}">Where to look, evidence and Excel →</a></p>
+        ${(cur.x.view.missing || []).length && !isFinal(cur.x) ? `<div class="pbox"><b class="small">Send what you found to Claude</b> ${kindTag("ai")}<pre id="mp_${esc(cur.x.id)}">${esc(missPrompt(cur.x))}</pre>${promptBtn(missPrompt(cur.x))}</div>` : ""}`;
     } else {
       const fund = new Map(); runs.forEach(r => { const ci = col(r, /isin/i), ni = col(r, /^fund/i); r.x.view.table.rows.forEach(z => { if (!fund.has(z[ci])) fund.set(z[ci], z[ni]); }); });
       const rs = [...runs].reverse();

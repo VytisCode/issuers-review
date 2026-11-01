@@ -450,3 +450,5 @@ span.bad { color: var(--bad); }
 .mlinks { margin-top: 6px !important; display: flex; flex-wrap: wrap; gap: 6px; }
 .mlist .ma label.chk { display: flex; align-items: center; gap: 6px; margin-top: 6px; white-space: nowrap; }
 .mlist .ma label.chk input { width: auto; }
+input.fdin { width: 150px; padding: 4px 6px; border: 1px solid var(--warn); border-radius: 6px; font: inherit; font-size: 12.5px; background: var(--surface); color: var(--text); }
+input.fdin { width: 90px; } input.fdin.w { width: 100%; min-width: 150px; box-sizing: border-box; margin-top: 4px; border-color: var(--line); }
