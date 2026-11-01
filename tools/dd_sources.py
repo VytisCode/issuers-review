@@ -16,6 +16,7 @@ mokamo turinio, robotų blokavimo ir „nerasta“ puslapius, beveik tuščius f
 import io
 import json
 import re
+import signal
 import sys
 import time
 import zipfile
@@ -77,7 +78,12 @@ def check(s, data, ext):
     return None
 
 
+def _timeout(*_):
+    raise TimeoutError("per ilgai (> 150 s)")
+
+
 def run():
+    signal.signal(signal.SIGALRM, _timeout)
     jobs = sorted((V.DIR / "jobs").glob("*.json")) if (V.DIR / "jobs").exists() else []
     zips = json.loads(ZIPS.read_text()) if ZIPS.exists() else {}
     for jf in jobs:
@@ -99,6 +105,7 @@ def run():
                 if any(d in s["url"] for d in A.SKIP) or not s["url"].startswith("http"):
                     lines.append(line + "  (neatsisiunčiama)")
                     continue
+                signal.alarm(150)  # vienas šaltinis negali užstrigdyti viso update.yml (2026-11-01: darbas kabėjo > 20 min.)
                 try:
                     data, ctype = A.fetch(s["url"])
                     ext = A.ext_for(s["url"], ctype, data)
@@ -117,6 +124,9 @@ def run():
                     ok += 1
                 except Exception as e:  # noqa: BLE001
                     lines.append(line + f"  (nepavyko: {e})"); bad.append((s["key"], str(e)))
+                finally:
+                    signal.alarm(0)
+                print(f"  {s['key']}: {lines[-1].split('  ')[-1][:90]}", flush=True)
                 time.sleep(1)
             z.writestr("_saltiniai.txt", "\n".join(lines) + "\n")
         zid = V.add_bytes(buf.getvalue(), {"type": "zip", "parent": job["parent"], "file": job["name"], "docs": ok})
