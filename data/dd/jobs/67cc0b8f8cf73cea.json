@@ -1,5 +1,5 @@
 {
- "parent": "22ae63d8c67b2b56",
+ "parent": "67cc0b8f8cf73cea",
  "name": "DD_Funds_AQR_Delphi_Fusion_LU3310553956_2026-10-30_documents.zip",
  "sources": [
   {
@@ -59,9 +59,33 @@
   },
   {
    "key": "N2",
-   "title": "CSSF – Sanction administrative du 30 novembre 2022 (page not readable on 30.10.2026)",
+   "title": "CSSF – Sanction administrative du 30 novembre 2022, published 07.02.2023",
    "url": "https://www.cssf.lu/fr/Document/sanction-administrative-du-30-novembre-2022-2/"
+  },
+  {
+   "key": "N3",
+   "title": "CSSF – decision S 56 GFI FundRock Management Company S.A. 2022.11.30 (EN, PDF)",
+   "url": "https://www.cssf.lu/wp-content/uploads/S_56_GFI_FundRock_Management_Company_S.A._2022.11.30_en.pdf"
+  },
+  {
+   "key": "N4",
+   "title": "Quilter – client letter “Fund name, investment objective & policy and AMC changes”, AQR Delphi Global Equities (04/2026, PDF)",
+   "url": "https://www.quilter.com/49840c/siteassets/fund-news/2026/april/8806-aqr-delphi-global-equities---name-amc-objective-change---unbundled.pdf"
+  },
+  {
+   "key": "N5",
+   "title": "Quilter – fund changes: AQR Delphi Global Equities, effective 20.03.2026",
+   "url": "https://www.quilter.com/investments/platform-funds/fund-changes-and-updates/other-events/aqr-delphi-global-equities/"
+  },
+  {
+   "key": "N6",
+   "title": "Endowus – Notice to shareholders from AQR Capital Mgmt (LU), 10.03.2026",
+   "url": "https://endowus.com/en-hk/fund-notices/notice-to-shareholders-from-aqr-capital-mgmt-lu---10-3-2026"
+  },
+  {
+   "key": "N7",
+   "title": "Bloomberg – “Short Seller Targets AQR Backer Over Tax-Loss Harvesting”, 17.04.2026 (teaser; full text paywalled)",
+   "url": "https://bloomberg.com/news/articles/2026-04-17/short-seller-targets-aqr-backer-over-tax-loss-harvesting"
   }
- ],
- "done": "dd063ac2aee692a7"
+ ]
 }
