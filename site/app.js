@@ -1405,8 +1405,9 @@
   });
   // dokumentų ZIP (šaltiniai, update.yml) ir įrodymų ZIP (išrašai, savi skaičiavimai) prie paieškos / peržiūros
   function zipBtns(id) {
-    const zs = (DDL || []).filter(z => z.type === "zip" && ((D.dd.zips || {})[z.id] || z.parent) === id).sort((a, b) => (a.kind === "evidence") - (b.kind === "evidence"));
-    const docs = zs.some(z => z.kind !== "evidence");
+    let zs = (DDL || []).filter(z => z.type === "zip" && ((D.dd.zips || {})[z.id] || z.parent) === id).sort((a, b) => (a.kind === "evidence") - (b.kind === "evidence"));
+    if (zs.some(z => !z.kind)) zs = zs.filter(z => z.kind !== "received");  // gauti failai pridedami prie dokumentų ZIP atsisiuntimo metu
+    const docs = zs.some(z => !z.kind);
     return zs.map(z => ` <button class="btn sm" data-dd="${esc(z.id)}">⬇ ${z.kind === "evidence" ? scx("evz") : da("zip")}</button>`).join("") +
       (!docs && (D.dd.pending || []).includes(id) ? ` <span class="muted small">${da("zipWait")}</span>` : "");
   }
@@ -1566,11 +1567,26 @@
     const buf = new Uint8Array(await r.arrayBuffer());
     return crypto.subtle.decrypt({ name: "AES-GCM", iv: buf.slice(0, 12) }, it.key, buf.slice(12));
   }
+  const zPar = z => (D.dd.zips || {})[z.id] || z.parent;
+  // dokumentų ZIP = atsisiųsti vieši šaltiniai (update.yml) + savininko pateikti failai (kind received, D#, KIID...):
+  // atsisiunčiant sujungiami į vieną failą, kad šaltinių sąrašas ir ZIP sutaptų 1:1 (savininkas 2026-11-01)
   async function ddDownload(id) {
     const it = DDL.find(x => x.id === id); if (!it) return;
     let data;
     try { data = await ddFetch(id); } catch (e) { alert(da("dlFail")); return; }
     const ext = it.type === "zip" ? "zip" : String(it.file || "").split(".").pop().toLowerCase();
+    if (it.type === "zip" && it.kind !== "evidence") {
+      const rc = DDL.filter(z => z.type === "zip" && z.kind === "received" && z.id !== id && zPar(z) === zPar(it));
+      if (rc.length || it.kind === "received") {
+        try {
+          await loadJs("https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js");
+          const zz = await JSZip.loadAsync(data);
+          for (const r of rc) { const rz = await JSZip.loadAsync(await ddFetch(r.id)); for (const n of Object.keys(rz.files)) if (!rz.files[n].dir) zz.file(n, await rz.files[n].async("uint8array")); }
+          const name = it.kind === "received" ? String(it.file || "documents.zip").replace(/_received\.zip$/, "_documents.zip") : it.file;
+          saveBlob(await zz.generateAsync({ type: "blob" }), name); return;
+        } catch (e) { alert(da("dlFail")); return; }
+      }
+    }
     saveBlob(new Blob([data], { type: MIME[ext] || MIME.docx }), it.file);
   }
   function ddArchive() {
@@ -1584,7 +1600,7 @@
     const docs = DDL.filter(x => !["zip", "screen", "challenge", "fundreview", "portfolio"].includes(x.type) && (DKIND === "bond") !== /\.pptx$/i.test(x.file || "")), zipOf = id => {
       const par = z => (D.dd.zips || {})[z.id] || z.parent, me = DDL.find(x => x.id === id);
       // tas pats DD kita kalba (tas pats ISIN ir data) naudoja tą patį dokumentacijos ZIP
-      return DDL.find(z => z.type === "zip" && par(z) === id) || DDL.find(z => { if (z.type !== "zip") return false; const p = DDL.find(x => x.id === par(z)); return p && me && p.isin === me.isin && p.date === me.date; });
+      return DDL.find(z => z.type === "zip" && !z.kind && par(z) === id) || DDL.find(z => z.type === "zip" && z.kind === "received" && par(z) === id) || DDL.find(z => { if (z.type !== "zip" || z.kind) return false; const p = DDL.find(x => x.id === par(z)); return p && me && p.isin === me.isin && p.date === me.date; });
     };
     if (!docs.length) return `<p class="muted">${da("none")}</p>${screenList()}`;
     const c = da("cols");
