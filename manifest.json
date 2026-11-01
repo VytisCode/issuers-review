@@ -6088,5 +6088,46 @@
   "sha256": "162500fee20fdd4ba336c20b0e521f19ae9fbfa7a17d07441baa0d6be9a3c204",
   "bytes": 297063,
   "final_url": "https://seb.se/pow/content/fonder/fonder_pdf/SEB-MOBOGLEQCUSD_E.pdf"
+ },
+ {
+  "isin": "FI0008800511",
+  "kind": "factsheet",
+  "url": "https://content.evli.com/fund/pdf/Evli_Short_Corporate_Bond_B_Monthly_Report_en.pdf",
+  "fetched": "2026-11-01",
+  "ok": true,
+  "file": "2026-11-01/FI0008800511/factsheet_d8cbb41757.pdf",
+  "sha256": "d8cbb4175742f4d579448e1d4e190d7483d2f3495e2ae269eccae77eb4263649",
+  "bytes": 509494,
+  "final_url": "https://content.evli.com/fund/pdf/Evli_Short_Corporate_Bond_B_Monthly_Report_en.pdf"
+ },
+ {
+  "isin": "LU0113258742",
+  "kind": "factsheet",
+  "url": "https://api.schroders.com/document-store/SISF-EURO-Corporate-Bond-C-Acc-FMR-LUEN.pdf",
+  "fetched": "2026-11-01",
+  "ok": true,
+  "file": "2026-11-01/LU0113258742/factsheet_1a346d140b.pdf",
+  "sha256": "1a346d140b43e76d962d40659be74ca813a1dcb0277d8ac762e2dd32b4de88c9",
+  "bytes": 683954,
+  "final_url": "https://api.schroders.com/document-store/SISF-EURO-Corporate-Bond-C-Acc-FMR-LUEN.pdf"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://fund-ui.pimco.com/fund-detail-api/api/funds/documents/content/view?documentId=dGoaIRxLQx4kQgFNlHxiqYdY2UFyry4RyzsLj0PprtEdTxLb-xXTq4DC1XfHHmWVVPlnx2Yafv2CsuxcHGSOBw",
+  "fetched": "2026-11-01",
+  "ok": true,
+  "file": "2026-11-01/IE00B2NSVP60/factsheet_a154577837.pdf",
+  "sha256": "a154577837dd4eb8f666445ef0174986b2c7f4aaf5e3befd93f7278a84cd8053",
+  "bytes": 305187,
+  "final_url": "https://fund-ui.pimco.com/fund-detail-api/api/funds/documents/content/view?documentId=dGoaIRxLQx4kQgFNlHxiqYdY2UFyry4RyzsLj0PprtEdTxLb-xXTq4DC1XfHHmWVVPlnx2Yafv2CsuxcHGSOBw"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "page",
+  "url": "https://www.nb.com/products/ucits-funds/emerging-market-debt-local-currency-fund?section=documents",
+  "fetched": "2026-11-01",
+  "ok": false,
+  "error": "HTTP Error 429: Too Many Requests"
  }
 ]

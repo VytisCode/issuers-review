@@ -1,0 +1,386 @@
+=== pdf p.1 ===
+P I M C O F U N D S : G L O B AL I N V E S T O R S S E R I E S P L C
+AS O F 3 0 S E P T E M B E R 2 0 2 6
+
+
+                                                                                                                                                      Marketing Communication
+
+
+Euro Credit Fund
+                                                                                                                       Key Facts
+INSTITUTIONAL CLASS ACCUMULATION SHARES                                                                                                                       Accumulation
+Fund Description
+The Euro Credit Fund is an actively managed portfolio consisting primarily of high quality                            Bloomberg Ticker                           PIMEUBD
+Euro-denominated corporate and credit instruments. The fund is diversified broadly across                             ISIN                                    IE00B2NSVP60
+industries, issuers, and regions on the basis of PIMCO’s top-down and bottom-up                                       Sedol                                      B2NSVP6
+processes.                                                                                                            CUSIP                                     G7097Y529
+                                                                                                                      Valoren                                     3737719
+Potential Investor Benefits                                                                                           WKN                                         A0NCJK
+The fund offers diversification benefits and greater income potential relative to government                          Inception Date                            31/01/2008
+bonds while seeking to retain many of the defensive features of government bonds.                                     Distribution                                    -
+                                                                                                                      Unified Management Fee                     0.46% p.a.
+Potential Fund Advantage                                                                                              Fund Type                                    UCITS
+The fund looks to benefit from PIMCO’s investment process, which combines our global top- Portfolio Manager                                          Andreas Berndt, Nidhi Nakra, Regina
+down views on the macroeconomic environment with independent bottom-up security                                                                           Borromeo, Saurabh Sud
+analysis. PIMCO’s investment team has the experience and depth to actively manage a                                   Total Net Assets                     454.8 (EUR in Millions)
+broad and diversified opportunity set.                                                                                Fund Base Currency                            EUR
+                                                                                                                      Share Class Currency                          EUR
+Risk and Reward profile                                                                                               For Sustainable Finance Disclosure Regulation (SFDR)
+Credit and Default Risk: A decline in the financial health of an issuer of a fixed income security can lead to an     Categorization: Article 8
+inability or unwillingness to repay a loan or meet a contractual obligation. This could cause the value of its bonds SFDR Categorization sets out how the fund is categorized
+to fall or become worthless. Funds with high exposures to non-investment grade securities have a higher               for the purposes of Regulation (EU) 2019/ 2088 on
+exposure to this risk. Currency Risk: Changes in exchange rates may cause the value of investments to                 Sustainability related Disclosures in the Financial Services
+decrease or increase. Derivatives and Counterparty Risk: The use of certain derivatives could result in the fund Sector (SFDR) Article 8 Funds promote, among other
+having a greater or more volatile exposure to the underlying assets and an increased exposure to counterparty         characteristics, environmental or social characteristics.
+risk. This may expose the fund to larger gains or losses associated with market movements or in relation to a         Further details are set out in the Prospectus and relevant
+trade counterparty being unable to meet its obligations. Liquidity Risk: Difficult market conditions could result in Fund Supplement
+certain securities becoming hard to sell at a desired time and price. Interest Rate Risk: Changes in interest rates Investors should note that, relative to the expectations
+will usually result in the values of bond and other debt instruments moving in the opposite direction (e.g. a rise in of the Autorité des Marchés Financiers, this Fund
+interest rates likely leads to a fall in bond prices). Mortgage Related and Other Asset Backed Securities             presents disproportionate communication on the
+Risks: Mortgage or asset backed securities are subject to similar risks as other fixed income securities, and may consideration of non financial criteria in its investment
+also be subject to prepayment risk and higher levels of credit and liquidity risk.                                    policy
+About the Benchmark                                                                                                    Manager
+The fund is considered to be actively managed in reference to the below benchmark as further outlined in
+the prospectus and key investor information document / key information document.                                       PIMCO Global Advisors (Ireland) Limited
+The Bloomberg Euro-Aggregate Credit Index is the Credit component of the Bloomberg Euro-Aggregate Index .              Investment Advisor
+The Bloomberg Euro-Aggregate Index consists of bonds issued in the euro or the legacy currencies of the 17
+sovereign countries participating in the European Monetary Union (EMU). All issues must be investment grade            PIMCO Europe Ltd
+rated, fixed-rate securities with at least one year remaining to maturity. The Euro-Aggregate Index excludes
+convertible securities, floating rate notes, perpetual notes, warrants, linked bonds, and structured products.         For questions regarding PIMCO Funds: Global Investors
+German Schuldscheine (quasi-loan securities) are also excluded because of their trading restrictions and unlisted      Series plc, please call +353 1 7769990. Retail investors
+status, which results in illiquidity. The country of issue is not an index criterion, and securities of issuers from   should contact their Financial intermediary.
+outside the Eurozone are included if they meet the index criteria. It is not possible to invest directly in an
+unmanaged index.                                                                                                       pimco.com
+Unless otherwise stated in the prospectus or in the relevant key investor information document/ key information        Fund Statistics
+document, the Fund is not managed against a particular benchmark or index, and any reference to a particular           Effective Duration (yrs)                       6.38
+benchmark or index in this factsheet is made solely for risk or performance comparison purposes.                       Benchmark Duration (yrs)                       5.09
+                                                                                                                       Current Yield (%)⊕                             3.59
+                                                                                                                       Estimated Yield to Maturity (%)⊕               5.81
+                                                                                                                       Average Coupon (%)                             3.43
+                                                                                                                       Effective Maturity (yrs)                       9.63
+
+
+
+
+                                                                                                                                                                                1 of 5
+
+=== pdf p.2 ===
+EURO CREDIT FUND
+
+Hypothetical Growth of 10K                                                         Fund                       Benchmark                           Top 10 Corporate Holdings*
+
+                                                                                                                                                  GOLDMAN SACHS GROUP INC SR UNSEC REGS                              0.96
+20,000
+                                                                                                                                     16,230.04 BANQUE FED CRED MUTUEL SNR NON PREF                                   0.87
+
+15,000                                                                                                                                            AT&T INC SR UNSEC                                                  0.80
+                                                                                                                                     15,807.76
+                                                                                                                                                  BPCE SA SR NON PREF REGS                                           0.65
+10,000
+                                                                                                                                                  JPMORGAN CHASE & CO SR UNSEC                                       0.64
+ 5,000
+                                                                                                                                                  VERIZON COMMUNICATIONS SR UNSEC                                    0.62
+     0                                                                                                                                            MIZUHO FINANCIAL GROUP SR UNSEC REGS                               0.60
+                                                                                                                                                  NYKREDIT REALKREDIT A/S                                            0.59
+Source: PIMCO. Past Performance is not a guarantee or reliable indicator of future results and no                                                 UNIVERSAL MUSIC GROUP NV SR UNSEC                                  0.58
+guarantee is being made that similar returns will be achieved in the future.
+Growth of 10,000 is calculated at NAV and assumes that all dividend and capital gain distributions were                                           BNP PARIBAS SR NON PREF                                            0.55
+reinvested. It does not take into account sales charges or the effect of taxes. Share value may go up as well as                                  *Top 10 corporate holdings as of 06/30/2026, excluding derivatives.
+down as a result of currency fluctuations.
+
+
+
+Past performance is not a guarantee or a reliable indicator of future results.
+Performance (Net of Fees)                      1 Mo.                  3 Mos.                     6 Mos.                    1 Yr.               3 Yrs.                5 Yrs.              10 Yrs.              SI
+
+
+Institutional, Acc (%)                         -2.41                      -3.96                      -1.34                 -2.46                 3.59                -1.10                    0.36            2.63
+
+
+Benchmark (%)                                  -1.52                      -2.99                      -0.80                 -1.38                 3.51                -1.08                    0.19            —
+
+
+Performance (Net of Fees)                    Sep'2021-Sep'2022                     Sep'2022-Sep'2023                       Sep'2023-Sep'2024                 Sep'2024-Sep'2025                  Sep'2025-Sep'2026
+
+Institutional, Acc (%)                              -17.96                                       3.77                                10.00                             3.61                           -2.46
+
+Benchmark (%)                                       -16.56                                       2.33                                 9.55                             2.66                           -1.38
+The following information is additional to, and should be read only in conjunction with, the calendar year performance data presented below
+
+Calendar Year                   2016            2017                  2018                    2019                2020             2021            2022              2023              2024          2025            YTD
+(Net of Fees)
+
+Institutional, Acc (%)          5.79             2.70                 -0.38                   6.42                2.19             -1.16           -16.69            9.21              3.93          3.59            -2.99
+
+
+Benchmark (%)                   4.34             2.03                 -0.87                   6.08                2.95             -1.66           -15.56            7.81              4.02          2.30            -1.63
+
+All periods longer than one year are annualised. SI is the performance since inception.
+Sector Allocation (% Market Value)                                                                                        Top 10 Industries (% Market Value)
+
+                                                                                                                                                        Banks                                                 16.4
+            Government Related                                                                         52.7
+                                                                                                                                                 Real Estate                  3.3
+                         Securitized                                   16.8
+                                                                                                                                             Financial Other                  3.3
+
+             Invest. Grade Credit                                                      30.4
+                                                                                                                                                   Wirelines                 2.7
+
+                                                                                                                                                 Automotive                 2.4
+                High Yield Credit                            3.6
+                                                                                                                                                 Utility Other              2.3
+
+               Emerging Markets                                    10.3                                                                       Electric Utility          2.0
+
+                                                                                                                                                  Brokerage            1.4
+                Municipal/Other∆                           0.0
+                                                                                                                                   Transportation Services             1.3
+             Net Other Short
+          Duration Instrumentsᴦỻ -13.8                                                                                                           Technology           1.2
+
+                                       -20    -10      0         10    20         30      40     50          60                                                  0                 5           10       15            20
+                                                                                                                         Source: PIMCO
+
+
+
+
+                                                                                                                                                                                                                     2 of 5
+
+=== pdf p.3 ===
+EURO CREDIT FUND
+
+
+Duration (% Duration Weighted Exposure)                                                                     Maturity (% Market Value)
+
+
+
+                       <1 yr                 2.8                                                                                 0-1 yrs       0.1
+
+
+
+
+                     1-3 yrs                                  11.1                                                               1-3 yrs       0.0
+
+
+
+
+                     3-5 yrs                                                       27.3                                          3-5 yrs                        21.3
+
+
+
+
+                    5-10 yrs                                                                    37.3                            5-10 yrs                                         67.3
+
+
+
+
+                   10-20 yrs                                                21.5                                               10-20 yrs             6.4
+
+
+
+
+                     20+ yrs           0.0                                                                                      20+ yrs          4.9
+
+
+                                   0                     10            20          30           40                                         0               20          40   60          80
+Source: PIMCO                                                                                                  Source: PIMCO
+
+
+
+
+Top 10 Countries by Contribution to Total Duration (%
+Duration Weighted Exposure)
+
+                European Union                                                                       36.1
+
+
+                      Germany                                                       24.7
+
+
+                  United States                                 9.5
+
+
+                           Italy                              7.8
+
+
+                        France                      4.5
+
+
+                      Australia                    3.4
+
+
+                         Spain                     2.9
+
+
+                United Kingdom                 2.8
+
+
+                   Netherlands                 2.3
+
+
+                   Luxembourg                 1.4
+
+                                        0           5         10      15    20     25      30   35     40
+
+Source: PIMCO
+
+
+
+
+                                                                                                                                                                                        3 of 5
+
+=== pdf p.4 ===
+ EURO CREDIT FUND
+
+
+
+PIMCO duration calculation that adjusts the durations of credit securities to account for the potential that in the event of default investors will receive the recovery amount prior to the
+maturity of the security.⊕Yields reported gross of fees, the deduction of which will reduce the yield. Yields are reported in the base currency of the fund and are not specific to the share
+class. PIMCO calculates a Fund's Estimated Yield to Maturity by averaging the yield to maturity of each security held in the Fund on a market weighted basis. PIMCO sources each
+security's yield to maturity from PIMCO's Portfolio Analytics database. When not available in PIMCO's Portfolio Analytics database, PIMCO sources the security's yield to maturity from
+Bloomberg. When not available in either database, PIMCO will assign a yield to maturity for that security from a PIMCO matrix based on prior data. The source data used in such
+circumstances is a static metric and PIMCO makes no representation as to the accuracy of the data for the purposes of calculating the Estimated Yield to Maturity. The Estimated Yield to
+Maturity is provided for illustrative purposes only and should not be relied upon as a primary basis for an investment decision and should not be interpreted as a guarantee or prediction of
+future performance of the Fund or the likely returns of any investment. ∆Where permitted by the investment guidelines stated in the portfolios offering documents, “other” may include
+exposure to, convertibles, preferred, common stock, equity-related securities, and Yankee bonds.ᴦỻNet Other Short Duration Instruments includes securities and other instruments (except
+instruments tied to emerging markets by country of risk) with an effective duration less than one year and rated investment grade or higher or, if unrated, determined by PIMCO to be of
+comparable quality, commingled liquidity funds, uninvested cash, interest receivables, net unsettled trades, broker money, short duration derivatives and derivatives offsets. With respect to
+certain categories of short duration securities, the Adviser reserves the discretion to require a minimum credit rating higher than investment grade for inclusion in this category. Derivatives
+Offsets includes offsets associated with investments in futures, swaps and other derivatives. Such offsets may be taken at the notional value of the derivative position.
+At PIMCO, we define ESG Integration as the consistent consideration of material ESG factors into our investment research process to enhance our clients’ risk-adjusted returns. Material
+ESG factors may include but are not limited to: climate change risks, social inequality, shifting consumer preferences, regulatory risks, talent management or misconduct at an issuer,
+among others. We recognize that ESG factors are increasingly essential inputs when evaluating global economies, markets, industries and business models. Material ESG factors are
+important considerations when evaluating long-term investment opportunities and risks for all asset classes in both public and private markets. Integrating ESG factors into the evaluation
+process does not mean that ESG information is the sole or primary consideration for an investment decision; instead, PIMCO’s portfolio managers and analyst teams evaluate and weigh a
+variety of financial and non-financial factors, which can include ESG considerations, to make investment decisions. The relevance of ESG considerations to investment decisions varies
+across asset classes and strategies. The Fund’s ESG investing strategy may select or exclude securities of certain issuers for reasons other than financial performance. Such strategy
+carries the risk that the Fund’s performance will differ from similar funds that do not utilize an ESG investing strategy. For example, the application of this strategy could affect the Fund’s
+exposure to certain sectors or types of investments, which could negatively impact the Fund’s performance. There is no guarantee that the factors utilized by the Investment Advisor will
+reflect the opinions of any particular investor, and the factors utilized by the Investment Advisor may differ from the factors that any particular investor considers relevant in evaluating an
+issuer’s ESG practices. Future ESG development and regulation may impact the Fund’s implementation of its investment strategy. In addition, there may be cost implications arising from
+ESG related due diligence, increased reporting and use of third-party ESG data providers.
+Marketing Communication:This is a marketing communication. This is not a contractually binding document and its issuance is not mandated under any law or regulation of the European
+Union or the United Kingdom. This marketing communication does not include sufficient detail to enable the recipient to make an informed investment decision. Please refer to the
+Prospectus of the UCITS and to the KIID/KID before making any final investment decisions.
+For residents in the UK: PIMCO Funds: Global Investors Series Plc, PIMCO Select Funds Plc & PIMCO ETFs plc (the ‘Funds’) are domiciled in the Republic of Ireland and are authorised
+by the Central Bank of Ireland. The Funds are recognized in the UK under the Overseas Fund Regime but are not UK authorised funds. UK investors should be aware that they will not be
+able to refer a complaint against PIMCO Europe Ltd or the Depositary to the UK’s Financial Ombudsman Service. Any claims for losses relating to PIMCO Europe Ltd or the Depositary will
+not be covered by the Financial Services Compensation Scheme. The prospectus of the Funds contains detailed information and should be reviewed carefully. Prospective investors should
+consider obtaining financial advice before making a decision to invest in the Funds.
+For professional investor use only: Per the information available to us you fulfill the requirements to be classified as a professional client as defined in Annex II of the MiFiD II Directive
+2014/65/EU. Please inform us if otherwise. The services and products described in this communication are only available to professional clients as defined in Annex II of the MiFiD II
+Directive 2014/65/EU as implemented in each EU Member State and/or in the Financial Conduct Authority's Handbook. This communication is not a public offer and individual investors
+should not rely on this document. Opinion and estimates offered constitute our judgment and are subject to change without notice, as are statements of financial market trends, which are
+based on current market conditions. We believe the information provided here is reliable, but do not warrant its accuracy or completeness.
+For qualified investor use only: Per the information available to us you fulfill the requirements to be classified as professional clients as defined by the Swiss Collective Investment
+Schemes Act of 23 June 2006 (“CISA”). The information provided herein does not constitute an offer of the product incorporated in Ireland, in Switzerland pursuant to the Swiss Federal Law
+on Financial Services ("FinSA") and its implementing ordinance. This is solely an advertisement pursuant to FinSA and its implementing ordinance for the product. Swiss representative
+and paying agent : BNP PARIBAS, Paris, Zurich branch, Selnaustrasse 16, 8002 Zurich, Switzerland. The prospectus, articles of association, Key Information Document(s) and annual and
+semi-annual financial reports of the product may be obtained free of charge from the Swiss representative.
+Additional Information/Documentation: A Prospectus is available for PIMCO Funds and UCITS Key Investor Information Documents (KIIDs) (for UK investors) and Packaged retail and
+insurance-based investment products (PRIIPS) key information document (KIDs) are available for each share class of each the sub-funds of the Company. The Company’s Prospectus can
+be obtained from www.fundinfo.com and is available in English, French, German, Italian, Portuguese and Spanish. The KIIDs and KIDs can be obtained from www.fundinfo.com and are
+available in one of the official languages of each of the EU Member States into which each sub-fund has been notified for marketing under the Directive 2009/65/EC (the UCITS Directive).
+In addition, a summary of investor rights is available from www.pimco.com. The summary is available in English. The sub-funds of the Company are currently notified for marketing into a
+number of EU Member States under the UCITS Directive. PIMCO Global Advisors (Ireland) Limited can terminate such notifications for any share class and/or sub-fund of the Company at
+any time using the process contained in Article 93a of the UCITS Directive.
+Investment Strategy : There is no guarantee that these investment strategies will work under all market conditions or are appropriate for all investors and each investor should evaluate
+their ability to invest long-term, especially during periods of downturn in the market.
+Investment Restrictions - In accordance with the UCITS regulations and subject to any investment restrictions outlined in the Fund’s prospectus, the Fund may invest up to 100% of its net
+assets in different transferable securities and money market instruments issued or guaranteed by any of the following: OECD Governments (provided the relevant issues are investment
+grade), Government of Singapore, European Investment Bank, European Bank for Reconstruction and Development, International Finance Corporation, International Monetary Fund,
+Euratom, The Asian Development Bank, European Central Bank, Council of Europe, Eurofima, African Development Bank, International Bank for Reconstruction and Development (The
+World Bank), The Inter American Development Bank, European Union, Federal National Mortgage Association (Fannie Mae), Federal Home Loan Mortgage Corporation (Freddie Mac),
+Government National Mortgage Association (Ginnie Mae), Student Loan Marketing Association (Sallie Mae), Federal Home Loan Bank, Federal Farm Credit Bank, Tennessee Valley
+Authority, Straight-A Funding LLC, Government of the People’s Republic of China, Government of Brazil (provided the issues are of investment grade), Government of India (provided the
+issues are of investment grade).
+Index
+It is not possible to invest directly in an unmanaged index.
+Past performance is not a guarantee or a reliable indicator of future results. The “gross of fees” performance figures, if included, are presented before management fees and custodial
+fees, but do reflect commissions, other expenses and reinvestment of earnings. The “net of fees" performance figures reflect the deduction of ongoing charges. All periods longer than one
+year are annualized. Investments made by a Fund and the results achieved by a Fund are not expected to be the same as those made by any other PIMCO-advised Fund, including those
+with a similar name, investment objective or policies. A new or smaller Fund’s performance may not represent how the Fund is expected to or may perform in the long-term. New Funds
+have limited operating histories for investors to evaluate and new and smaller Funds may not attract sufficient assets to achieve investment and trading efficiencies. A Fund may be forced
+to sell a comparatively large portion of its portfolio to meet significant shareholder redemptions for cash, or hold a comparatively large portion of its portfolio in cash due to significant share
+purchases for cash, in each case when the Fund otherwise would not seek to do so, which may adversely affect performance. Investments made by a Fund and the results achieved by a
+Fund are not expected to be the same as those made by any other PIMCO-advised Fund, including those with a similar name, investment objective or policies. A new or smaller Fund’s
+performance may not represent how the Fund is expected to or may perform in the long-term. New Funds have limited operating histories for investors to evaluate and new and smaller
+Funds may not attract sufficient assets to achieve investment and trading efficiencies. A Fund may be forced to sell a comparatively large portion of its portfolio to meet significant
+shareholder redemptions for cash, or hold a comparatively large portion of its portfolio in cash due to significant share purchases for cash, in each case when the Fund otherwise would not
+seek to do so, which may adversely affect performance.
+
+
+
+
+                                                                                                                                                                                            4 of 5
+
+=== pdf p.5 ===
+ EURO CREDIT FUND
+
+
+Charts
+Performance results for certain charts and graphs may be limited by date ranges specified on those charts and graphs; different time periods may produce different results.
+Portfolio Structure
+Portfolio structure is subject to change without notice and may not be representative of current or future allocations.
+PIMCO Funds: Global Investors Series plc is an open-ended investment company with variable capital and with segregated liability between Funds incorporated on 10 December, 1997
+and is authorised in Ireland by the Central Bank as an undertaking for collective investment in transferable securities pursuant to the European Communities (Undertakings for Collective
+Investment in Transferable Securities) Regulations, 2011 (S.I. No. 352 of 2011) as amended. The information is not for use within any country or with respect to any person(s) where such
+use could constitute a violation of the applicable law. The information contained in this communication is intended to supplement information contained in the prospectus for this Fund and
+must be read in conjunction therewith. Investors should consider the investment objectives, risks, charges and expenses of these Funds carefully before investing. This and other
+information is contained in the Fund's prospectus. Please read the prospectus carefully before you invest or send money. Past performance is not a guarantee or a reliable indicator of
+future results and no guarantee is being made that similar returns will be achieved in the future. Returns are net of fees and other expenses and include reinvestment of dividends. The
+performance data represents past performance and investment return and principal value will fluctuate so that the PIMCO GIS Funds shares, when redeemed, may be worth more or less
+than the original cost. Potential differences in performance figures are due to rounding. The Fund may invest in non-U.S. or non-Eurozone securities which involves potentially higher risks
+including non-U.S. or non-Euro currency fluctuations and political or economic uncertainty. For informational purposes only. Please note that not all Funds are registered for sale in every
+jurisdiction. Please contact PIMCO for more information. For additional information and/or a copy of the Fund's prospectus, please contact the Administrator: State Street Fund Services
+(Ireland) Limited, Telephone +353-1-776-0142, Fax +353-1-562-5517. © 2026
+Risk
+There are risks involved in making investments into collective investment schemes, the following risks are relevant to an investment into Funds. Investing in the bond market is subject to
+risks, including market, interest rate, issuer, credit, inflation risk, and liquidity risk. The value of most bonds and bond strategies are impacted by changes in interest rates. Bonds and bond
+strategies with longer durations tend to be more sensitive and volatile than those with shorter durations; bond prices generally fall as interest rates rise, and low interest rate environments
+increase this risk. Reductions in bond counterparty capacity may contribute to decreased market liquidity and increased price volatility. Bond investments may be worth more or less than
+the original cost when redeemed. Equities may decline in value due to both real and perceived general market, economic and industry conditions. Investing in foreign-denominated
+and/or -domiciled securities may involve heightened risk due to currency fluctuations, and economic and political risks, which may be enhanced in emerging markets. Currency rates
+may fluctuate significantly over short periods of time and may reduce the returns of a portfolio. High-yield, lower-rated, securities involve greater risk than higher-rated securities;
+portfolios that invest in them may be subject to greater levels of credit and liquidity risk than portfolios that do not. Sovereign securities are generally backed by the issuing government,
+obligations of U.S. Government agencies and authorities are supported by varying degrees but are generally not backed by the full faith of the U.S. Government; portfolios that invest in
+such securities are not guaranteed and will fluctuate in value. Mortgage and asset-backed securities may be sensitive to changes in interest rates, subject to early repayment risk, and
+while generally supported by a government, government-agency or private guarantor there is no assurance that the guarantor will meet its obligations. Entering into short sales includes the
+potential for loss of more money than the actual cost of the investment, and the risk that the third party to the short sale may fail to honor its contract terms, causing a loss to the portfolio.
+Derivatives may involve certain costs and risks such as liquidity, interest rate, market, credit, management and the risk that a position could not be closed when most advantageous.
+Investing in derivatives could lose more than the amount invested. Diversification does not ensure against loss.
+PIMCO as a general matter provides services to qualified institutions, financial intermediaries and institutional investors. This is not an offer to any person in any jurisdiction where unlawful
+or unauthorized.| PIMCO Europe Ltd (Company No. 02604517, 25 Baker Street, London W1U 8EQ, United Kingdom) is authorised and regulated by the Financial Conduct Authority
+(FCA) (12 Endeavour Square, London E20 1JN) in the UK. The services provided by PIMCO Europe Ltd are not available to retail investors, who should not rely on this communication but
+contact their financial adviser. Since PIMCO Europe Ltd services and products are provided exclusively to professional clients, the appropriateness of such is always affirmed. | PIMCO
+Europe GmbH (Company No. 192083, Seidlstr. 24-24a, 80335 Munich, Germany) is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin) (Marie-
+Curie-Str. 24-28, 60439 Frankfurt am Main) in Germany in accordance with Section 15 of the German Securities Institutions Act (WpIG). PIMCO Europe GmbH Italian Branch (Company
+No. 10005170963, Via Turati nn. 25/27 (angolo via Cavalieri n. 4) 20121 Milano, Italy), PIMCO Europe GmbH Irish Branch (Company No. 909462, 57B Harcourt Street Dublin D02
+F721, Ireland), PIMCO Europe GmbH UK Branch (Company No. BR022803, 25 Baker Street, London W1U 8EQ, UK), PIMCO Europe GmbH Spanish Branch (N.I.F. W2765338E,
+Paseo de la Castellana 43, Oficina 05-111, 28046 Madrid, Spain), PIMCO Europe GmbH French Branch (Company No. 918745621 R.C.S. Paris, 50–52 Boulevard Haussmann,
+75009 Paris, France) and PIMCO Europe GmbH (DIFC Branch) (Company No. 9613, Index Tower Floor 10, unit 1001, Dubai International Financial Centre, Dubai, United Arab
+Emirates) are additionally supervised by: (1) Italian Branch: the Commissione Nazionale per le Società e la Borsa (CONSOB) (Giovanni Battista Martini, 3 - 00198 Rome) in
+accordance with Article 27 of the Italian Consolidated Financial Act; (2) Irish Branch: the Central Bank of Ireland (New Wapping Street, North Wall Quay, Dublin 1 D01 F7X3) in
+accordance with Regulation 43 of the European Union (Markets in Financial Instruments) Regulations 2017, as amended; (3) UK Branch: the Financial Conduct Authority (FCA) (12
+Endeavour Square, London E20 1JN); (4) Spanish Branch: the Comisión Nacional del Mercado de Valores (CNMV) (Edison, 4, 28006 Madrid) in accordance with obligations stipulated
+in articles 168 and 203 to 224, as well as obligations contained in Title V, Section I of the Law on the Securities Market (LSM) and in articles 111, 114 and 117 of Royal Decree 217/2008,
+respectively, (5) French Branch: ACPR/Banque de France (4 Place de Budapest, CS 92459, 75436 Paris Cedex 09) in accordance with Art. 35 of Directive 2014/65/EU on markets in
+financial instruments and under the surveillance of ACPR and AMF and (6) DIFC Branch: Regulated by the Dubai Financial Services Authority ("DFSA") (Level 13, West Wing, The
+Gate, DIFC) in accordance with Art. 48 of the Regulatory Law 2004. The services provided by PIMCO Europe GmbH are available only to professional clients as defined in Section 67 para.
+2 German Securities Trading Act (WpHG). They are not available to individual investors, who should not rely on this communication. According to Art. 56 of Regulation (EU) 565/2017, an
+investment company is entitled to assume that professional clients possess the necessary knowledge and experience to understand the risks associated with the relevant investment
+services or transactions. Since PIMCO Europe GMBH services and products are provided exclusively to professional clients, the appropriateness of such is always affirmed. | PIMCO
+(Schweiz) GmbH (registered in Switzerland, Company No. CH-020.4.038.582-2, Brandschenkestrasse 41 Zurich 8002, Switzerland). According to the Swiss Collective Investment
+Schemes Act of 23 June 2006 (“CISA”), an investment company is entitled to assume that professional clients possess the necessary knowledge and experience to understand the risks
+associated with the relevant investment services or transactions. Since PIMCO (Schweiz) GmbH services and products are provided exclusively to professional clients, the appropriateness
+of such is always affirmed. The services provided by PIMCO (Schweiz) GmbH are not available to retail investors, who should not rely on this communication but contact their financial
+adviser.
+No part of this publication may be reproduced in any form, or referred to in any other publication, without express written permission. PIMCO is a trademark of Allianz Asset Management of
+America LLC in the United States and throughout the world. ©2026, PIMCO.
+
+
+
+
+                                                                                                                                                                                           5 of 5
+
