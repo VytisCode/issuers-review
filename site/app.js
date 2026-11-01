@@ -1311,11 +1311,18 @@
     const m = [...((x.view || {}).missing || [])].sort((a, b) => src(a).localeCompare(src(b)) || (a.prio || 2) - (b.prio || 2)); if (!m.length) return "";  // vienu prisijungimu – vienas šaltinis
     if (isFinal(x)) return "";
     const d = mGet(x.id), left = missLeft(x);
-    return `<div class="card missbox"><h4>${scx("mH")} (<span id="ml_${esc(x.id)}">${left}</span> / ${m.length}) ${kindTag("you")}</h4><p class="muted small">${scx("mHint")}</p>
-      <div class="tbl-wrap"><table class="small"><tr>${scx("mCols").map(h => `<th>${h}</th>`).join("")}</tr>${m.map(r => `<tr${r.prio === 1 ? ` class="p1"` : ""}>
-        <td>${r.prio === 1 ? "●" : "○"}</td><td><b>${esc(r.fund || "")}</b>${r.isin ? `<br><span class="muted">${esc(r.isin)}</span>` : ""}</td><td>${esc(r.what)}${r.fmt ? `<br><span class="muted">${esc(r.fmt)}</span>` : ""}</td>
-        <td>${esc(r.where || "")}</td><td class="muted">${esc(r.why || r.how || "")}</td>
-        <td><input type="text" data-mk="${esc(x.id)}|${esc(r.k)}" value="${esc(d[r.k] || "")}" placeholder="${esc(scx("mPh"))}"><label class="chk small"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(r.k)}"${d["nf:" + r.k] ? " checked" : ""}> ${scx("mNf")}</label></td></tr>`).join("")}</table></div>
+    const where = r => esc(r.where || "").replace(/\s*(→|->)\s*/g, " → ");
+    return `<div class="card missbox"><h4>${scx("mH")} (<span id="ml_${esc(x.id)}">${left}</span> / ${m.length}) ${kindTag("you")}</h4>
+      <p class="small"><b>How:</b> for each item open the place under “Where”, find the exact value named in “Look up” and type it as <i>value · source · date</i>. If it is not there, tick “Not found”. When done, copy the prompt below to Claude. ● = may change the conclusion.</p>
+      <ol class="mlist">${m.map(r => `<li${r.prio === 1 ? ` class="p1"` : ""}><div class="mq"><span class="mdot">${r.prio === 1 ? "●" : "○"}</span><div>
+          <div><b>Look up:</b> ${esc(r.what)}</div>
+          <div class="small"><b>Fund:</b> ${esc(r.fund || "")}${r.isin ? ` · <span class="nw">${esc(r.isin)}</span>` : ""}</div>
+          ${r.where ? `<div class="small"><b>Where:</b> ${where(r)}</div>` : ""}
+          <div class="small mlinks">${(r.url ? [].concat(r.url) : []).map(u => `<a class="btn sm" href="${esc(u)}" target="_blank" rel="noopener">Open the page ↗</a>`).join(" ")}${r.isin ? ` <a class="btn sm" href="https://www.google.com/search?q=${encodeURIComponent(r.isin + " " + (r.search || "factsheet"))}" target="_blank" rel="noopener">Search the web for ${esc(r.isin)} ↗</a>` : ""}</div>
+          ${r.how ? `<div class="small"><b>Tip:</b> ${esc(r.how)}</div>` : ""}
+          ${r.fmt ? `<div class="small muted"><b>Answer like:</b> ${esc(r.fmt)}</div>` : ""}
+          ${r.why ? `<div class="small muted"><b>Why it matters:</b> ${esc(r.why)}</div>` : ""}</div></div>
+        <div class="ma"><input type="text" data-mk="${esc(x.id)}|${esc(r.k)}" value="${esc(d[r.k] || "")}" placeholder="value · source · date"><label class="chk small"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(r.k)}"${d["nf:" + r.k] ? " checked" : ""}> Not found</label></div></li>`).join("")}</ol>
       <label class="small">${scx("mNote")}<textarea rows="3" data-mk="${esc(x.id)}|_note" placeholder="${esc(scx("mNotePh"))}">${esc(d._note || "")}</textarea></label>
       <div class="pbox"><b class="small">${scx("mP")}</b> ${kindTag("ai")}<pre id="mp_${esc(x.id)}">${esc(missPrompt(x))}</pre>${promptBtn(missPrompt(x))}</div></div>`;
   }
@@ -1886,6 +1893,7 @@
     const X = fIndex(), f = X && isin && X.F.get(isin);
     return f ? f.ev.filter(e => !types || types.includes(e.type)).map(e => [e.id, `${FKIND[e.type]} – ${e.title} (${e.date})`]) : [];
   }
+  const FMISS = "Missing data (VIEW.missing, at most 15, only what is not public): each item must tell me exactly what to look up – what = the exact figure as the source names it, with the share class and the date or period (e.g. “Effective duration of class I EUR Acc at 31 Oct 2026”); where = the exact place step by step (system → screen → field, or the manager page → document → section); url = the direct link to that page or document whenever one exists (checked to open, never guessed); search = words for a web search with the ISIN (e.g. “factsheet October 2026”); how = one practical tip; fmt = an example answer; why = what it changes.";
   const fDataLine = s => (s.data || "").trim() ? ["", "My data (from internal sources – label it “owner-provided, <source>, <date>” in the documents):", s.data.trim()] : [];
   function fPrompt(task, s) {
     const x = s.based && DDL ? DDL.find(y => y.id === s.based) : null, ref = x ? `${FKIND[fType(x)]} “${x.title}” (${x.date}, archive id ${x.id})` : "";
@@ -1896,31 +1904,31 @@
       ...(ref ? [`Based on: ${ref} – reuse its findings, sources and evidence; its other finalists are the alternatives.`] : []),
       "Rules: CLAUDE.md section “Funds DD” and /mnt/project-files/funds_dd/ (make_funds_dd.py, funds_dd_lib.py, struktura_etf_dd.md, apskaita_fondams.md; latest example make_dd_aqr_delphi.py). PowerPoint in English on the SEB Liquid Funds DD template; prepared by Analyst; decision Positive; official manager documents first (KID, prospectus, factsheet), then other public sources; alternatives from my data or found by you (EUR share class, XETRA GY where possible), compared critically; sanctions slide with links (I check them); NOT FOUND in red and listed back to me with where I could find each item.",
       "Archive: `python tools/dd_vault.py add <pptx> --isin <ISIN> --name <fund> --title \"Funds DD – <fund>\" --lang en --decision Positive --sfdr <n> --sources <sources.json>`; never in the public repo.",
-      "If something important is unclear, ask me before you start. Report back in Lithuanian.", ...fDataLine(s)].join("\n");
+      "If something important is unclear, ask me before you start. Report back in Lithuanian.", FMISS, ...fDataLine(s)].join("\n");
     if (task === "challenge") return ["Task: Challenge review.", "Funds:", (s.list || "").trim() || "[ISINs, or a description such as “all US equity funds we hold”]",
       `Do we hold them: ${FHOLD[s.hold || 0]}`,
       "Method: /mnt/project-files/funds_dd/challenge/metodika.md – held: SWITCH / KEEP / WATCH (hard gates, net advantage ≥ 0.05 pp a year, break-even ≤ 2 years); candidate: ADD / DO NOT ADD / WATCH against the closest held exposure (section 8a; a short or backtested record caps the verdict at WATCH); peers from pension-fund-tracker; market context as facts and scenarios. Latest example: /mnt/project-files/funds_dd/challenge/aqr_delphi_fusion/.",
       "If the list is a description, take the held funds from the latest quarterly review in the archive (say which you used) and also look for new market leaders with the same exposure.",
       "Sources: the manager's own documents first (factsheet, KID, prospectus at one common date); justETF only for price series and cross-checked; reference fund with ISIN in every comparison; every analytical statement backed by a table or chart.",
-      "Output: PowerPoint in English + `python tools/dd_vault.py screen <pptx> --view <VIEW.json> --kind challenge --title \"Challenge: …\" --sources <sources.json> --evidence <folder>`. VIEW: table (Fund, ISIN, Verdict, …; hl = verdict column), picks = funds worth a DD, plan = [{date, what, isin, task}] only for a date I asked for – the dashboard shows these on the fund cards and in the calendar. Not in the public repo.",
-      "Report back in Lithuanian: verdicts and the next step.", ...fDataLine(s)].join("\n");
+      "Output: PowerPoint in English + `python tools/dd_vault.py screen <pptx> --view <VIEW.json> --kind challenge --title \"Challenge: …\" --sources <sources.json> --evidence <folder>`. VIEW: table (Fund, ISIN, Verdict, …; hl = verdict column), picks = funds worth a DD, plan = [{date, what, isin, task}] only for a date I asked for; never schedule separate re-reviews (e.g. “after 12 months live”) – such milestones are checked in the quarterly fund review if the fund is held – the dashboard shows these on the fund cards and in the calendar. Not in the public repo.",
+      "Report back in Lithuanian: verdicts and the next step.", FMISS, ...fDataLine(s)].join("\n");
     if (task === "find") return ["Task: Find ETFs → challenge → DD. Three steps; STOP after step 2 and wait for my OK.",
       `Looking for: ${(s.what || "").trim() || "[index, sector, strategy or theme]"}`, `Must have: ${FMUST[s.must || 0]}`,
       "Step 1 – search: every UCITS share class that fits (justETF profiles, manager factsheets and KIDs; SFDR only as the manager states it, otherwise 6). Explain each index rulebook (selection, exclusions, weighting, rebalancing), holdings and sector differences, price history (growth, drawdowns, rolling 12 months), size trend, peers (pension-fund-tracker); weighted scorecard with the weights shown, a sensitivity line and a blunt one-line verdict per fund.",
       "Step 2 – challenge every finalist against what we hold with the same exposure (metodika.md) and name one winner.",
       "Archive steps 1–2 as one entry: `python tools/dd_vault.py screen <pptx> --view <VIEW.json> --kind screen --title \"Find ETFs: …\" --sources <sources.json> --evidence <folder>`; VIEW picks = finalists, winner first. Then report back in Lithuanian: winner, runner-up and why.",
-      "Step 3 – only after my OK: the Funds DD for the winner (rules as in the Due diligence task), based on this entry.", ...fDataLine(s)].join("\n");
+      "Step 3 – only after my OK: the Funds DD for the winner (rules as in the Due diligence task), based on this entry.", FMISS, ...fDataLine(s)].join("\n");
     if (task === "review") {
       const prev = fLatest("fundreview");
       CH.fq = s.q || fQuarters()[0]; CH.frList = (s.list || "").trim(); CH.prev = prev ? `${prev.title} (${prev.date}, archive id ${prev.id})` : ""; CH.mailNote = "";
-      return [frPrompt(), ...fDataLine(s)].join("\n");
+      return [frPrompt(), "Milestones of held funds (e.g. 12 months live, first performance-fee crystallisation, open questions from an earlier challenge or DD in the archive) are checked here, inside this review – there are no separate re-review tasks.", FMISS, ...fDataLine(s)].join("\n");
     }
     if (task === "duration") { const me = s.month || fMonthEnds()[0];
       return [`Task: Bond fund duration for month-end ${me} (due on the 20th).`, "Funds (exact share class):", (s.list || "").trim() || "[ISIN, name – one per line]",
         "Rules: /mnt/project-files/funds_dd/duration/make_duration.py. The fund's own interest-rate duration (not the index), named as the document names it (effective, option-adjusted or modified duration); never spread duration, average maturity, WAL or a KID range; the exact ISIN share class (check the class on the document); the date from the document itself; empty if not confirmed.",
         "Sources in this order: the manager's factsheet or monthly report for that month-end (most reliable; dated copy via fund-docs.yml, manager website link), the manager website, Morningstar (connector), other web search – label the source of every value. Compare with last month and flag changes above 0.5 years.",
         `Output: Duration_${me}.xlsx (fund, ISIN, duration, type, as-of date, source link, page, last month, change, status) + evidence folder with the documents; archive \`python tools/dd_vault.py screen Duration_${me}.xlsx --view <VIEW.json> --kind duration --title "Bond fund duration ${me}" --evidence <folder>\`. VIEW.table cols [Fund, ISIN, Duration, Type, As of, Source, Status]; VIEW.missing – one item per value not found, with "where" = exactly where I can find it myself (the manager page or document name, the Morningstar or Bloomberg screen) and "how" = a short tip.`,
-        "Report back in Lithuanian: what was found, what was not and the tips.", ...fDataLine(s)].join("\n");
+        "Report back in Lithuanian: what was found, what was not and the tips.", FMISS, ...fDataLine(s)].join("\n");
     }
     return "";
   }
@@ -1950,10 +1958,36 @@
       <h1>${T.icon} ${T.name}</h1><p class="sub"><b>Use this when:</b> ${esc(T.when)}<br><b>You get:</b> ${esc(T.get)}</p>
       <div class="two"><div class="card ddform">${f}</div><div><div class="card"><h3>Prompt for Claude ${kindTag("ai")}</h3><p class="muted small">Copy it and paste it into the Claude project chat. Claude asks if something is missing.</p><div class="pbox"><pre id="ftP"></pre><span id="ftB"></span></div></div>
         <ol class="small fsteps"><li>Fill in the fields on the left (only what you know).</li><li><b>Copy prompt</b> → paste into Claude.</li><li>When Claude is done, the result appears on the fund card and in <a href="#funds/done">Completed work</a>.</li></ol>
-        ${task === "dd" && s.mode !== "sup" ? `<details class="small"><summary>Sanctions check links (you check the management company)</summary>${sancBox("")}</details>` : ""}</div></div>`;
+        ${task === "dd" && s.mode !== "sup" ? `<details class="small"><summary>Sanctions check links (you check the management company)</summary>${sancBox("")}</details>` : ""}</div></div>${task === "duration" ? `<div class="card" id="fDurHist" style="margin-top:16px"></div>` : ""}`;
+  }
+  /* Duration istorija: pasirinkto laikotarpio lentelė (kaip Excel) su pokyčiu nuo ankstesnio, arba visi laikotarpiai greta */
+  let FDUR = "";
+  function fDurHist() {
+    const box = document.getElementById("fDurHist"); if (!box) return;
+    if (!DDL) { box.innerHTML = `<h3>Duration by month</h3><p class="muted small">Unlock the archive on the <a href="#funds">Funds</a> page to see earlier months.</p>`; return; }
+    const runs = DDL.filter(x => fType(x) === "duration" && (x.view || {}).table).map(x => ({ x, me: (String(x.title).match(/\d{4}-\d{2}-\d{2}/) || [x.date])[0] })).sort((a, b) => b.me.localeCompare(a.me));
+    if (!runs.length) { box.innerHTML = `<h3>Duration by month</h3><p class="muted small">No completed month yet.</p>`; return; }
+    const cols = r => r.x.view.table.cols, col = (r, re) => cols(r).findIndex(c => re.test(c));
+    const val = (r, isin) => { const ci = col(r, /isin/i), di = col(r, /^duration/i), row = r.x.view.table.rows.find(z => String(z[ci]).includes(isin)); const v = row ? parseFloat(String(row[di]).replace(",", ".")) : NaN; return isNaN(v) ? null : v; };
+    const cur = FDUR === "all" ? null : runs.find(r => r.me === FDUR) || runs[0], prev = cur ? runs[runs.indexOf(cur) + 1] : null;
+    const sel = `<select id="fDurSel">${runs.map(r => `<option value="${r.me}"${cur === r ? " selected" : ""}>${fDate(r.me)}</option>`).join("")}${runs.length > 1 ? `<option value="all"${!cur ? " selected" : ""}>All months side by side</option>` : ""}</select>`;
+    const chg = (a, b) => a == null || b == null ? "" : (d => `<span class="${Math.abs(d) > 0.5 ? "bad" : "muted"}">${d > 0 ? "+" : ""}${d.toFixed(2)}</span>`)(a - b);
+    let html;
+    if (cur) {
+      const c = cols(cur), di = col(cur, /^duration/i), ci = col(cur, /isin/i), si = col(cur, /source/i);
+      html = `<div class="tbl-wrap"><table class="small"><tr>${c.map((h, i) => `<th>${esc(h)}</th>${i === di && prev ? `<th>${fDate(prev.me)}</th><th>Change</th>` : ""}`).join("")}</tr>${cur.x.view.table.rows.map(r => `<tr>${r.map((v, i) => `<td${i === di ? ` class="nw"` : ""}>${i === si && /^https?:/.test(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">source ↗</a>` : i === di && v === "" ? `<span class="bad">not found</span>` : esc(v)}</td>${i === di && prev ? `<td>${val(prev, r[ci]) ?? ""}</td><td>${chg(parseFloat(v), val(prev, r[ci]))}</td>` : ""}`).join("")}</tr>`).join("")}</table></div>
+        <p class="muted small">Change above 0.5 years is red. <a href="#funds/done/${cur.x.id}">Evidence, Excel and missing data →</a></p>`;
+    } else {
+      const fund = new Map(); runs.forEach(r => { const ci = col(r, /isin/i), ni = col(r, /^fund/i); r.x.view.table.rows.forEach(z => { if (!fund.has(z[ci])) fund.set(z[ci], z[ni]); }); });
+      const rs = [...runs].reverse();
+      html = `<div class="tbl-wrap"><table class="small"><tr><th>Fund</th><th>ISIN</th>${rs.map(r => `<th>${fDate(r.me)}</th>`).join("")}</tr>${[...fund].map(([isin, nm]) => `<tr><td>${esc(nm)}</td><td class="nw">${esc(isin)}</td>${rs.map((r, k) => { const v = val(r, isin), pv = k ? val(rs[k - 1], isin) : null; return `<td class="nw">${v ?? `<span class="muted">–</span>`} ${k ? chg(v, pv) : ""}</td>`; }).join("")}</tr>`).join("")}</table></div>`;
+    }
+    box.innerHTML = `<h3>Duration by month</h3><p class="small">${sel}</p>${html}`;
+    document.getElementById("fDurSel").onchange = e => { FDUR = e.target.value; fDurHist(); };
   }
   function fTaskInit(task) {
     const s = fsGet(task), P = document.getElementById("ftP"); if (!P) return;
+    if (task === "duration") fDurHist();
     const show = () => { const p = fPrompt(task, s); P.textContent = p; document.getElementById("ftB").innerHTML = promptBtn(p); };
     ["isin", "name", "list", "what", "data"].forEach(k => { const el = document.getElementById("ft_" + k); if (el) el.oninput = () => { s[k] = k === "isin" ? el.value.trim().toUpperCase() : el.value; fsSave(); show(); }; });
     ["mode", "based", "hold", "must", "q", "month"].forEach(k => { const el = document.getElementById("ft_" + k); if (el) el.onchange = () => { s[k] = ["hold", "must"].includes(k) ? +el.value : el.value; if (k === "mode") s.based = ""; fsSave(); k === "mode" ? route() : show(); }; });

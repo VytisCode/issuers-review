@@ -440,3 +440,13 @@ a.chhit { display: block; text-decoration: none; }
 .fnum { display: inline-flex; width: 22px; height: 22px; border-radius: 50%; background: var(--accent); color: #fff; font-size: 12px; font-weight: 700; align-items: center; justify-content: center; margin-right: 6px; }
 .fgl dt { font-weight: 600; margin-top: 8px; } .fgl dd { margin: 2px 0 0; color: var(--text-2); }
 @media (max-width: 640px) { .fnext { flex-direction: column; align-items: flex-start; } }
+.mlist { list-style: none; padding: 0; margin: 10px 0; display: flex; flex-direction: column; gap: 8px; }
+.mlist li { display: grid; grid-template-columns: 1fr minmax(200px, 260px); gap: 12px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.mlist li.p1 { border-left: 4px solid var(--warn); }
+.mlist .mq { display: flex; gap: 8px; } .mlist .mq > div > div { margin: 2px 0; } .mdot { color: var(--warn); }
+.mlist .ma input { width: 100%; box-sizing: border-box; padding: 6px 8px; border: 1px solid var(--line); border-radius: 6px; font: inherit; background: var(--surface); color: var(--text); }
+span.bad { color: var(--bad); }
+@media (max-width: 640px) { .mlist li { grid-template-columns: 1fr; } }
+.mlinks { margin-top: 6px !important; display: flex; flex-wrap: wrap; gap: 6px; }
+.mlist .ma label.chk { display: flex; align-items: center; gap: 6px; margin-top: 6px; white-space: nowrap; }
+.mlist .ma label.chk input { width: auto; }
