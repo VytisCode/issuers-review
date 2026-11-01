@@ -10,7 +10,9 @@ Naudojimas: python tools/archive_sources.py            - sukuria trūkstamus pak
             python tools/archive_sources.py --local    - tik sukuria ZIP į build/sources/ (be įkėlimo)
 """
 import re
+import os
 import shutil
+import signal
 import subprocess
 import tempfile
 import sys
@@ -59,8 +61,14 @@ def as_pdf(url, data, ext):
     with tempfile.TemporaryDirectory() as td:
         out = Path(td) / "page.pdf"
         try:
-            subprocess.run([CHROME, "--headless=new", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer",
-                            "--virtual-time-budget=8000", f"--print-to-pdf={out}", url], timeout=120, capture_output=True)
+            # atskira procesų grupė: pasibaigus laikui nužudomi ir Chrome vaikiniai procesai (kitaip darbas gali užstrigti)
+            pr = subprocess.Popen([CHROME, "--headless=new", "--disable-gpu", "--no-sandbox", "--no-pdf-header-footer",
+                                   "--virtual-time-budget=8000", f"--print-to-pdf={out}", url],
+                                  stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, start_new_session=True)
+            try:
+                pr.wait(timeout=90)
+            except subprocess.TimeoutExpired:
+                os.killpg(pr.pid, signal.SIGKILL); pr.wait()
             if out.exists() and out.stat().st_size > 1000:
                 return out.read_bytes(), ".pdf"
         except Exception:  # noqa: BLE001
