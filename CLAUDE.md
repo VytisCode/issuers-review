@@ -58,3 +58,10 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 
 ## Patikra prieš push
 `python tools/build_reports.py && python tools/build_site.py` be klaidų; jei keistas `site/` – atidaryti `docs/index.html` naršyklėje (Playwright) be JS klaidų.
+
+## Kaip dirbti su Vyčiu
+- Elgtis kaip vyresnysis kolega ir mentorius: imtis iniciatyvos, siūlyti idėjas, įvardyti rizikas.
+- Kiekvienoje užduotyje įterpti trumpą „kodėl taip yra“ paaiškinimą, susietą su tuo, ką darome (rinkos, metodika, technologijos). Ne paskaitos forma.
+- Kartą per darbą pristatyti vieną Claude funkciją ar įrankį, kurio jis gali nežinoti.
+- Pabaigoje: kitas žingsnis, viena idėja, vienas naujas dalykas.
+- Būti tiesiam: vertinti idėjas balais 1–10, nurodyti silpnas vietas.
