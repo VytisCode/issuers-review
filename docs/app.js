@@ -1297,7 +1297,7 @@
   function missPrompt(x) {
     const m = x.view.missing || [], d = mGet(x.id), got = m.filter(r => (d[r.k] || "").trim()), nf = m.filter(r => d["nf:" + r.k]);
     if (x.type === "duration") return [`Complete "${x.title}" (${x.date}, archive id ${x.id}) with the values below, found by the owner. Write them into the same duration Excel (label "owner-provided, <source>, <date>"), update the status, keep the evidence, re-archive with \`python tools/dd_vault.py replace ${x.id}\`.`,
-      ...m.filter(r => (d[r.k] || "").trim()).map(r => `- [${r.k}] ${r.fund || ""}${r.isin ? " (" + r.isin + ")" : ""}: ${d[r.k].trim()}${(d["src:" + r.k] || "").trim() ? ` · source: ${d["src:" + r.k].trim()}` : ""}${(d["note:" + r.k] || "").trim() ? ` · note: ${d["note:" + r.k].trim()}` : ""}`),
+      ...m.filter(r => (d[r.k] || "").trim()).map(r => `- [${r.k}] ${r.fund || ""}${r.isin ? " (" + r.isin + ")" : ""}: ${d[r.k].trim()}${(d["type:" + r.k] || "").trim() ? ` · type: ${d["type:" + r.k].trim()}` : ""}${(d["asof:" + r.k] || "").trim() ? ` · as of: ${d["asof:" + r.k].trim()}` : ""}${(d["src:" + r.k] || "").trim() ? ` · source: ${d["src:" + r.k].trim()}` : ""}${(d["note:" + r.k] || "").trim() ? ` · note: ${d["note:" + r.k].trim()}` : ""}`),
       ...(m.some(r => d["nf:" + r.k]) ? ["Not found by the owner either (leave empty with the reason):", ...m.filter(r => d["nf:" + r.k]).map(r => `- [${r.k}] ${r.fund || ""}`)] : []),
       ...((d._note || "").trim() ? ["Other information from the owner:", d._note.trim()] : [])].join("\n");
     const L = [`Complete "${x.title}" (${x.date}, archive id ${x.id}) with the data points below, provided by the owner from internal sources. Write them into the same report (all formats), label each "owner-provided, <source>, <date>", recalculate what they affect (overview table, verdicts, flags, summary, short version, email draft, calculations Excel, evidence ZIP), re-export with the same generator (PDF navigation kept) and replace the archive entry (python tools/dd_vault.py replace ${x.id}). This is the FINAL version: Report(status=\"final\") – no red anywhere (review_lib turns NOT FOUND into grey n/a), no DRAFT label; data still not available are listed neutrally in the Method section (\"Not available from public sources or data providers as of <date>\") and the conclusions say what they rest on. Report back which verdicts changed.`];
@@ -1966,7 +1966,9 @@
   const fDurM = (x, isin) => isFinal(x) ? null : ((x.view || {}).missing || []).find(r => r.isin && String(isin).includes(r.isin));
   function fDurIn(x, isin, f) {
     const m = fDurM(x, isin), d = mGet(x.id); if (!m) return null;
-    const k = (f ? f + ":" : "") + m.k, ph = { "": "value, e.g. 4.52", src: "source: link or document, page", note: "note, e.g. type, date" }[f || ""];
+    const k = (f ? f + ":" : "") + m.k, ph = { "": "value, e.g. 4.52", src: "source: link or document, page", note: "note", type: "type", asof: "" }[f || ""];
+    if (f === "type") return `<input class="fdin" type="text" list="fDurTypes" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="pick or type" title="Exactly as named in the document, e.g. Effective duration, Modified duration, Option-adjusted duration">`;
+    if (f === "asof") return `<input class="fdin" type="date" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" title="Date the document gives for the value (not the download date)">`;
     return `<input class="fdin${f ? " w" : ""}" type="text" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="${ph}" title="${esc(m.where || "")}">${f ? "" : `<label class="chk small nw"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(m.k)}"${d["nf:" + m.k] ? " checked" : ""}> not found</label>`}`;
   }
   function fDurHist() {
@@ -1981,8 +1983,8 @@
     const chg = (a, b) => a == null || b == null ? "" : (d => `<span class="${Math.abs(d) > 0.5 ? "bad" : "muted"}">${d > 0 ? "+" : ""}${d.toFixed(2)}</span>`)(a - b);
     let html;
     if (cur) {
-      const c = cols(cur), di = col(cur, /^duration/i), ci = col(cur, /isin/i), si = col(cur, /source/i), ti = col(cur, /status|note/i);
-      html = `<div class="tbl-wrap"><table class="small"><tr>${c.map((h, i) => `<th>${esc(h)}</th>${i === di && prev ? `<th>${fDate(prev.me)}</th><th>Change</th>` : ""}`).join("")}</tr>${cur.x.view.table.rows.map(r => `<tr>${r.map((v, i) => `<td${i === di ? ` class="nw"` : ""}>${i === di && v === "" && fDurM(cur.x, r[ci]) ? fDurIn(cur.x, r[ci]) : i === si && v === "" && fDurM(cur.x, r[ci]) ? fDurIn(cur.x, r[ci], "src") : i === ti && fDurM(cur.x, r[ci]) ? `${esc(v)}<br>${fDurIn(cur.x, r[ci], "note")}` : i === si && /^https?:/.test(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">source ↗</a>` : i === di && v === "" ? `<span class="bad">not found</span>` : esc(v)}</td>${i === di && prev ? `<td>${val(prev, r[ci]) ?? ""}</td><td>${chg(parseFloat(v), val(prev, r[ci]))}</td>` : ""}`).join("")}</tr>`).join("")}</table></div>
+      const c = cols(cur), di = col(cur, /^duration/i), ci = col(cur, /isin/i), si = col(cur, /source/i), ti = col(cur, /status|note/i), yi = col(cur, /^type/i), ai = col(cur, /as ?of/i);
+      html = `<div class="tbl-wrap"><table class="small"><tr>${c.map((h, i) => `<th>${esc(h)}</th>${i === di && prev ? `<th>${fDate(prev.me)}</th><th>Change</th>` : ""}`).join("")}</tr>${cur.x.view.table.rows.map(r => `<tr>${r.map((v, i) => `<td${i === di ? ` class="nw"` : ""}>${i === di && v === "" && fDurM(cur.x, r[ci]) ? fDurIn(cur.x, r[ci]) : i === si && v === "" && fDurM(cur.x, r[ci]) ? fDurIn(cur.x, r[ci], "src") : (i === yi || i === ai) && fDurM(cur.x, r[ci]) ? `${v === "" ? "" : `<span class="muted">${esc(v)}</span><br>`}${fDurIn(cur.x, r[ci], i === yi ? "type" : "asof")}` : i === ti && fDurM(cur.x, r[ci]) ? `${esc(v)}<br>${fDurIn(cur.x, r[ci], "note")}` : i === si && /^https?:/.test(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">source ↗</a>` : i === di && v === "" ? `<span class="bad">not found</span>` : esc(v)}</td>${i === di && prev ? `<td>${val(prev, r[ci]) ?? ""}</td><td>${chg(parseFloat(v), val(prev, r[ci]))}</td>` : ""}`).join("")}</tr>`).join("")}</table></div>
         <p class="muted small">Change above 0.5 years is red. Empty cell = Claude did not find it: type the value you found, its source and a note if needed, or tick “not found”. <a href="#funds/done/${cur.x.id}">Where to look, evidence and Excel →</a></p>
         ${(cur.x.view.missing || []).length && !isFinal(cur.x) ? `<div class="pbox"><b class="small">Send what you found to Claude</b> ${kindTag("ai")}<pre id="mp_${esc(cur.x.id)}">${esc(missPrompt(cur.x))}</pre>${promptBtn(missPrompt(cur.x))}</div>` : ""}`;
     } else {
@@ -1990,7 +1992,7 @@
       const rs = [...runs].reverse();
       html = `<div class="tbl-wrap"><table class="small"><tr><th>Fund</th><th>ISIN</th>${rs.map(r => `<th>${fDate(r.me)}</th>`).join("")}</tr>${[...fund].map(([isin, nm]) => `<tr><td>${esc(nm)}</td><td class="nw">${esc(isin)}</td>${rs.map((r, k) => { const v = val(r, isin), pv = k ? val(rs[k - 1], isin) : null; return `<td class="nw">${v ?? `<span class="muted">–</span>`} ${k ? chg(v, pv) : ""}</td>`; }).join("")}</tr>`).join("")}</table></div>`;
     }
-    box.innerHTML = `<h3>Duration by month</h3><p class="small">${sel}</p>${html}`;
+    box.innerHTML = `<h3>Duration by month</h3><p class="small">${sel}</p>${html}<datalist id="fDurTypes"><option value="Effective duration"><option value="Modified duration"><option value="Option-adjusted duration"><option value="Duration"></datalist>`;
     document.getElementById("fDurSel").onchange = e => { FDUR = e.target.value; fDurHist(); };
   }
   function fTaskInit(task) {
