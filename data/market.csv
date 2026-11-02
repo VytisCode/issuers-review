@@ -36,7 +36,7 @@ ea_10y,2026-06,2.9244927445,https://data.ecb.europa.eu/data/datasets/YC/YC.B.U2.
 ea_10y,2026-07,3.2273140986,https://data.ecb.europa.eu/data/datasets/YC/YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y
 ea_10y,2026-08,3.3395935506,https://data.ecb.europa.eu/data/datasets/YC/YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y
 ea_10y,2026-09,3.5816574153,https://data.ecb.europa.eu/data/datasets/YC/YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y
-ea_10y,2026-10,3.3733145545,https://data.ecb.europa.eu/data/datasets/YC/YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y
+ea_10y,2026-10,3.3650469366,https://data.ecb.europa.eu/data/datasets/YC/YC.B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y
 ea_hicp,2023-10,2.9,https://data.ecb.europa.eu/data/datasets/ICP/ICP.M.U2.N.000000.4.ANR
 ea_hicp,2023-11,2.4,https://data.ecb.europa.eu/data/datasets/ICP/ICP.M.U2.N.000000.4.ANR
 ea_hicp,2023-12,2.9,https://data.ecb.europa.eu/data/datasets/ICP/ICP.M.U2.N.000000.4.ANR
@@ -110,6 +110,7 @@ euribor_12m,2026-06,2.7975909,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U
 euribor_12m,2026-07,2.855087,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR1YD_.HSTA
 euribor_12m,2026-08,2.9536667,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR1YD_.HSTA
 euribor_12m,2026-09,3.247,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR1YD_.HSTA
+euribor_12m,2026-10,3.2385909,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR1YD_.HSTA
 euribor_3m,2023-10,3.9676364,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA
 euribor_3m,2023-11,3.9716364,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA
 euribor_3m,2023-12,3.9348947,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA
@@ -146,6 +147,7 @@ euribor_3m,2026-06,2.339,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR
 euribor_3m,2026-07,2.4253913,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA
 euribor_3m,2026-08,2.5131429,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA
 euribor_3m,2026-09,2.6350455,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA
+euribor_3m,2026-10,2.6346818,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA
 euribor_6m,2023-10,4.1148182,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR6MD_.HSTA
 euribor_6m,2023-11,4.0646818,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR6MD_.HSTA
 euribor_6m,2023-12,3.9269474,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR6MD_.HSTA
@@ -182,3 +184,4 @@ euribor_6m,2026-06,2.5955,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EU
 euribor_6m,2026-07,2.6467391,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR6MD_.HSTA
 euribor_6m,2026-08,2.7133333,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR6MD_.HSTA
 euribor_6m,2026-09,2.9215909,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR6MD_.HSTA
+euribor_6m,2026-10,2.9746818,https://data.ecb.europa.eu/data/datasets/FM/FM.M.U2.EUR.RT.MM.EURIBOR6MD_.HSTA
