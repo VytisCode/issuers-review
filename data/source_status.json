@@ -1,12 +1,12 @@
 {
  "news": {
-  "date": "2026-11-04",
-  "new": 15,
+  "date": "2026-11-05",
+  "new": 24,
   "errors": []
  },
  "filings": {
-  "date": "2026-11-04",
-  "new": 1,
+  "date": "2026-11-05",
+  "new": 3,
   "baseline": 0,
   "errors": [
    "luminor: https://luminor.lv/en/financial-reports: HTTP Error 403: Forbidden",
@@ -14,7 +14,9 @@
   ]
  },
  "market": {
-  "date": "2026-11-04",
-  "errors": []
+  "date": "2026-11-05",
+  "errors": [
+   "ea_10y: HTTP Error 504: Gateway Time-out"
+  ]
  }
 }
