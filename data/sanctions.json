@@ -1,8 +1,8 @@
 {
  "ignitis": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -12,9 +12,9 @@
   "excluded": []
  },
  "luminor": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -27,9 +27,9 @@
   ]
  },
  "port-of-tallinn": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -39,9 +39,9 @@
   "excluded": []
  },
  "lhv": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -51,9 +51,9 @@
   "excluded": []
  },
  "latvenergo": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -63,9 +63,9 @@
   "excluded": []
  },
  "artea": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -75,9 +75,9 @@
   "excluded": []
  },
  "citadele": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -87,9 +87,9 @@
   "excluded": []
  },
  "inbank": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -99,9 +99,9 @@
   "excluded": []
  },
  "vik": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -111,9 +111,9 @@
   "excluded": []
  },
  "altum": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -123,9 +123,9 @@
   "excluded": []
  },
  "rigas-udens": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -135,9 +135,9 @@
   "excluded": []
  },
  "ast": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -147,9 +147,9 @@
   "excluded": []
  },
  "aei": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -159,9 +159,9 @@
   "excluded": []
  },
  "latraps": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -171,21 +171,26 @@
   "excluded": []
  },
  "maxima": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
   },
   "matches": [],
-  "mentions": [],
-  "excluded": []
+  "mentions": [
+   "EU: …02035 ukr https eur lex europa eu legal content en txt pdf uri oj l 202502035 en maxima legal llc is a russian law firm 179439 en type of entity limited liability com…"
+  ],
+  "excluded": [
+   "EU: maxima legal limited liability company",
+   "EU: maxima llc"
+  ]
  },
  "eesti-energia": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -195,9 +200,9 @@
   "excluded": []
  },
  "akropolis": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -207,9 +212,9 @@
   "excluded": []
  },
  "bigbank": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -219,9 +224,9 @@
   "excluded": []
  },
  "coop-pank": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -231,9 +236,9 @@
   "excluded": []
  },
  "hepsor": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
@@ -243,9 +248,9 @@
   "excluded": []
  },
  "nortal": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "lists": {
-   "EU": "error",
+   "EU": "not_found",
    "UN": "not_found",
    "UK": "error",
    "US OFAC": "not_found"
