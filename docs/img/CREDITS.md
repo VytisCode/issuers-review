@@ -10,3 +10,7 @@ Photos shared with the pension fund dashboard (same look in both tools).
 - `sec2-aum.jpg` – Ivars Utināns, https://unsplash.com/photos/vkQgb1lZZPQ (Unsplash License)
 - `sec2-rep.jpg` – 2H Media, https://unsplash.com/photos/3q4V539j_bw (Unsplash License)
 - `sec2-rep-2.jpg` – NORTHFOLK, https://unsplash.com/photos/Ok76F6yW2iA (Unsplash License)
+
+## Icons (`ic/`)
+
+Microsoft Fluent Emoji (Color), https://github.com/microsoft/fluentui-emoji – MIT License, © Microsoft Corporation. Taken from the npm package `@iconify-json/fluent-emoji` 1.2.7.

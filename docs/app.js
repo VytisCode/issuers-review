@@ -306,6 +306,57 @@
     const d = [...x].map(c => /\d/.test(c) ? c : String(c.charCodeAt(0) - 55)).join("");
     let sum = 0; [...d].reverse().forEach((c, i) => { let n = +c; if (i % 2) { n *= 2; if (n > 9) n -= 9; } sum += n; });
     return sum % 10 === 0; };
+
+  /* ---------- Pradžia kaip naršyklės pradžios puslapis (savininkas 2026-11-11: „kaip Edge – naujienos, paveikslėliai, rinkos“) ----------
+     Kortelės tik iš turimų duomenų, be AI: ataskaitų sezonas (D.readiness), apžvalgos planas, rinka (D.market), obligacijų pajamingumas (D.yields ← data/prices.csv),
+     artėjantys išpirkimai (D.email.soon), naujienos (D.news). Naujienų nuotraukos – iliustracijos pagal temą (ne straipsnio nuotrauka). */
+  const HT = {
+    en: { season: "Reporting season", pub: "published", wait: "expected", late: "late", man: "you upload", soonR: "Expected in the next 30 days", none: "–", plan: "When to do the issuers review", planNow: "Now, in parts", planNowD: n => `${n} issuers already have the new report – Claude can update them today.`,
+      planAll: "All at once", planAllD: d => `after ${d}, when the last expected issuer publishes (+3 days margin).`, planDone: "Every issuer has published – a good time for one full run.", planWhy: "Why: one run for all issuers is cheaper and gives comparable reviews; parts make sense when a decision is due (e.g. a buyback offer).",
+      mkt: "Markets", vs3: "vs 3 months ago", yld: "Our bonds – yield", yldS: "Nasdaq Baltic ask yield, change in about a month", soon: "Coming up", news: "News about our issuers", allNews: "All news →", review: "Check", days: d => `in ${d} d`, today: "today", greet: ["Good night", "Good morning", "Good afternoon", "Good evening"], open: "Open →", imgNote: "Pictures are illustrations by topic." },
+    lt: { season: "Ataskaitų sezonas", pub: "paskelbė", wait: "laukiama", late: "vėluoja", man: "įkeliate jūs", soonR: "Laukiama per 30 d.", none: "–", plan: "Kada daryti issuers review", planNow: "Dabar, dalimis", planNowD: n => `${n} emitentai jau turi naują ataskaitą – Claude gali juos atnaujinti šiandien.`,
+      planAll: "Visus kartu", planAllD: d => `po ${d}, kai paskelbs paskutinis laukiamas emitentas (+3 d. atsarga).`, planDone: "Visi emitentai paskelbė – geras metas vienam pilnam paleidimui.", planWhy: "Kodėl: vienas paleidimas visiems pigesnis ir apžvalgos palyginamos; dalimis verta, kai reikia skubaus sprendimo (pvz. išpirkimo pasiūlymas).",
+      mkt: "Rinkos", vs3: "palyginti su prieš 3 mėn.", yld: "Mūsų obligacijos – pajamingumas", yldS: "Nasdaq Baltic pardavimo pajamingumas, pokytis per ~mėnesį", soon: "Artėja", news: "Naujienos apie mūsų emitentus", allNews: "Visos naujienos →", review: "Peržiūrėti", days: d => `po ${d} d.`, today: "šiandien", greet: ["Labos nakties", "Labas rytas", "Laba diena", "Labas vakaras"], open: "Atidaryti →", imgNote: "Paveikslėliai – iliustracijos pagal temą." }
+  };
+  const ht = k => (HT[LANG] || HT.en)[k];
+  const NIMG = { ataskaita: "sec2-rep-2", obligacijos: "sec2-results", sandoris: "sec2-mgr", vadovai: "sec2-facts", dividendai: "sec2-pf", "": "sec2-news" };
+  const fmtD = d => { try { return new Date(d + "T12:00:00").toLocaleDateString(LANG === "lt" ? "lt-LT" : "en-GB", { month: "short", day: "numeric" }); } catch (e) { return d; } };
+  const addD = (d, n) => { const x = new Date(d + "T12:00:00"); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); };
+  function homeTop() {
+    const R = D.readiness || { rows: [] }, rows = R.rows || [];
+    const c = { done: 0, published: 0, maybe: 0, waiting: 0, late: 0, manual: 0 }; rows.forEach(r => c[r.status] = (c[r.status] || 0) + 1);
+    const pub = c.done + c.published + c.maybe, n = rows.length || 1;
+    // žiedas: paskelbė (žalia) · vėluoja (raudona) · laukiama (pilka) · įkeliate jūs (geltona)
+    const seg = [[pub, "var(--good)"], [c.late, "var(--bad)"], [c.manual, "var(--warn)"], [c.waiting, "var(--line)"]];
+    let a = 0; const C = 2 * Math.PI * 42;
+    const ring = `<svg class="ring" viewBox="0 0 100 100" aria-hidden="true">${seg.map(([v, col]) => { const l = v / n * C, o = `<circle cx="50" cy="50" r="42" fill="none" stroke="${col}" stroke-width="12" stroke-dasharray="${l} ${C - l}" stroke-dashoffset="${-a}" transform="rotate(-90 50 50)"/>`; a += l; return v ? o : ""; }).join("")}<text x="50" y="49" text-anchor="middle" class="rn">${pub}</text><text x="50" y="64" text-anchor="middle" class="rd">/ ${rows.length}</text></svg>`;
+    const up = rows.filter(r => ["waiting", "late"].includes(r.status) && r.expected && days(r.expected) <= 30).sort((x, y) => x.expected.localeCompare(y.expected));
+    const season = `<a class="card hc hc-season" href="#issuers/x/ready"><div class="hch"><img src="img/ic/spiral-calendar.svg" alt=""><span>${ht("season")} · ${esc(R.target_label || "")}</span></div>
+      <div class="hseason">${ring}<ul class="hleg"><li><i style="background:var(--good)"></i>${pub} ${ht("pub")}</li><li><i style="background:var(--line)"></i>${c.waiting} ${ht("wait")}</li>${c.late ? `<li><i style="background:var(--bad)"></i>${c.late} ${ht("late")}</li>` : ""}${c.manual ? `<li><i style="background:var(--warn)"></i>${c.manual} ${ht("man")}</li>` : ""}</ul>
+      <div class="hup"><b>${ht("soonR")}</b>${up.length ? up.slice(0, 6).map(r => `<div><span class="hd">${fmtD(r.expected)}</span> ${esc(r.name)}${r.status === "late" ? ` <span class="chip bad">${ht("late")}</span>` : ""}</div>`).join("") : `<div class="muted">${ht("none")}</div>`}</div></div></a>`;
+    const last = R.last_expected, ready = rows.filter(r => ["published", "maybe"].includes(r.status)).length;
+    const plan = `<div class="card hc hc-plan"><div class="hch"><img src="img/ic/bar-chart.svg" alt=""><span>${ht("plan")}</span></div>
+      ${last ? `<div class="hopt"><b>${ht("planAll")}</b><span>${ht("planAllD")(fmtD(addD(last, 3)))}</span></div>${ready ? `<div class="hopt"><b>${ht("planNow")}</b><span>${ht("planNowD")(ready)}</span></div>` : ""}` : `<div class="hopt"><span>${ht("planDone")}</span></div>`}
+      <p class="small muted">${ht("planWhy")}</p><a class="btn sm" href="#task/review">${tg("how")}</a></div>`;
+    const mk = (D.market || []).filter(m => m.now != null).slice(0, 5);
+    const mkt = mk.length ? `<div class="card hc hc-mkt"><div class="hch"><img src="img/ic/bank.svg" alt=""><span>${ht("mkt")}</span></div>${mk.map(m => { const d = m.m3 != null ? m.now - m.m3 : null;
+      return `<a class="hrow2" href="${esc(m.src)}" target="_blank" rel="noopener"><span>${esc((m.label || {})[LANG] || (m.label || {}).en || m.id)}</span><b>${m.now.toFixed(2)} %</b>${d == null ? "<em></em>" : `<em>${d > 0.005 ? "▲" : d < -0.005 ? "▼" : "•"} ${Math.abs(d).toFixed(2)}</em>`}</a>`; }).join("")}<p class="small muted">${ht("vs3")} · ECB, Eurostat</p></div>` : "";
+    const Y = (D.yields || []).slice().sort((x, y) => Math.abs(y.y - y.prev) - Math.abs(x.y - x.prev)).slice(0, 5);
+    const yld = Y.length ? `<div class="card hc hc-yld"><div class="hch"><img src="img/ic/chart-increasing.svg" alt=""><span>${ht("yld")}</span></div>${Y.map(x => { const d = x.y - x.prev;
+      return `<a class="hrow2" href="${esc(x.src)}" target="_blank" rel="noopener" title="${esc(x.isin)} · ${esc(x.prev_date)} → ${esc(x.date)}"><span>${esc(x.name)}</span><b>${x.y.toFixed(2)} %</b><em class="${d > 0.005 ? "dn" : d < -0.005 ? "up" : ""}">${d > 0.005 ? "▲" : d < -0.005 ? "▼" : "•"} ${Math.abs(d).toFixed(2)}</em></a>`; }).join("")}<p class="small muted">${ht("yldS")}</p></div>` : "";
+    const soon = ((D.email[LANG] || D.email.en || {}).soon || []).filter(x => days(x.date) <= 120).slice(0, 5);
+    const soonC = soon.length ? `<div class="card hc hc-soon"><div class="hch"><img src="img/ic/calendar.svg" alt=""><span>${ht("soon")}</span></div>${soon.map(x => `<div class="hrow2"><span>${esc(x.name)}${leaf({ green: x.green ? "yes" : "" })} <span class="muted small">${esc(x.what)}</span></span><b>${fmtD(x.date)}</b><em>${days(x.date) <= 0 ? ht("today") : ht("days")(days(x.date))}</em></div>`).join("")}</div>` : "";
+    const nw = D.news.filter(x => x.date && days(x.date) >= -30 && (x.flag === "review" || x.topics)).sort((x, y) => (y.flag === "review") - (x.flag === "review") || y.date.localeCompare(x.date));
+    const seen = new Set(), pick = []; nw.forEach(x => { if (pick.length < 5 && !seen.has(x.issuer)) { seen.add(x.issuer); pick.push(x); } });
+    const news = pick.length ? `<section class="hnews"><div class="hnh"><h2>${ht("news")}</h2><a href="#news">${ht("allNews")}</a></div><div class="hngrid">${pick.map((x, i) => { const tp = String(x.topics || "").split(";")[0];
+      return `<a class="card hn${i === 0 ? " big" : ""}" href="${esc(x.url)}" target="_blank" rel="noopener"><span class="hni" style="background-image:url(img/${NIMG[tp] || NIMG[""]}.jpg)">${x.flag === "review" ? `<span class="chip bad">${ht("review")}</span>` : tp ? `<span class="chip">${esc(tp)}</span>` : ""}</span>
+        <span class="hnb"><span class="hnm">${esc((byId[x.issuer] || {}).name || x.issuer)}</span><b>${esc(ntitle(x).t)}</b><span class="muted small">${esc(x.source || "")} · ${fmtD(x.date)}</span></span></a>`; }).join("")}</div><p class="small muted">${ht("imgNote")}</p></section>` : "";
+    const hr = new Date().getHours(), gi = hr < 5 ? 0 : hr < 12 ? 1 : hr < 18 ? 2 : 3;
+    const dstr = new Date().toLocaleDateString(LANG === "lt" ? "lt-LT" : "en-GB", { weekday: "long", month: "long", day: "numeric" });
+    return `<div class="hgreet"><h1>${ht("greet")[gi]}</h1><span>${esc(dstr)}</span></div>
+      <div class="bento">${season}${plan}${mkt}${yld}${soonC}</div>${news}`;
+  }
+
   function todo() {
     const R = D.readiness || { rows: [] }, gd = GD(), st = D.status || {};
     const it = [], card = (k, title, desc, act, links) => it.push(`<li class="todo k-${k}"><span class="kd ${k}"></span><div class="tb"><b>${title}</b> ${kindTag(k)}<p class="muted">${desc}</p>
@@ -329,7 +380,7 @@
     const nearest = R.rows.filter(r => ["waiting", "late"].includes(r.status) && r.expected).sort((a, b) => a.expected.localeCompare(b.expected)).slice(0, 4);
     const manual = D.issuers.filter(i => i.manual);
     fAuto(); fComingHtml(true).forEach(o => card("ai", esc(o.what), `Funds · ${o.from ? "starts" : "due"} ${fDate(o.date)}`, `<a class="btn" href="${o.href}">${hx("go")}</a>`));
-    return `<h1>${hx("title")}</h1><p class="sub">${hx("sub")}</p>
+    return `${homeTop()}<h2 class="hh">${hx("title")}</h2><p class="sub">${hx("sub")}</p>
       ${it.length ? `<ul class="todos">${it.join("")}</ul>` : `<div class="verdict">${hx("none")}</div>`}
       ${soon.length ? `<div class="card soon"><h3>${hx("soon")}</h3><ul class="b">${soon.map(x => `<li>${esc(x.date)} – ${esc(x.name)}${leaf({ green: x.green ? "yes" : "" })}: ${esc(x.what)}</li>`).join("")}</ul></div>` : ""}
       <div class="card nextc"><h3>${hx("next")}</h3>
@@ -1154,9 +1205,12 @@
         J("isin", "🧾"), J("esg", "🌱"), J("engage", "💬"), J("seb", "📚")]]
     ];
   }
+  const TIMG = { review: "bar-chart", one: "office-building", dd: "memo", acc: "clipboard", search: "magnifying-glass-tilted-left", checks: "shield", manual: "locked-with-key", email: "envelope",
+    f_dd: "page-facing-up", f_challenge: "balance-scale", f_find: "telescope", f_review: "spiral-calendar", f_duration: "straight-ruler",
+    portfolio: "briefcase", isin: "receipt", esg: "seedling", engage: "speech-balloon", seb: "books" };
   function taskTiles(head) {
     return TASKS().map(([g, items]) => `<section class="tgrp" id="g-${g}"><h2>${tg(g)}${g === "g2" ? ' <span class="muted small">(English)</span>' : ""}</h2>
-      <div class="ftasks">${items.map(x => `<a class="card ftask tk-${x.kind}" href="${x.href}"><span class="fic">${x.ic}</span><b>${esc(x.t)}</b><span class="small muted">${x.d}</span>${kindTag(x.kind)}</a>`).join("")}</div></section>`).join("");
+      <div class="ftasks">${items.map(x => `<a class="card ftask tk-${x.kind} tg-${g}" href="${x.href}"><span class="tban"><img src="img/ic/${TIMG[x.id] || "page-facing-up"}.svg" alt="" loading="lazy"></span><b>${esc(x.t)}</b><span class="small muted">${x.d}</span>${kindTag(x.kind)}</a>`).join("")}</div></section>`).join("");
   }
   function workPage() { return `<h1>${tg("work")}</h1><p class="sub">${tg("workS")}</p>${kindLegend()}${taskTiles()}`; }
   function taskPage(id, arg2) {
@@ -1176,7 +1230,7 @@
     });
     const res = `<p class="small"><b>${tg("result")}:</b> <a id="tkR" href="${TRES[id] || "#overview"}">${tg("open")} →</a></p>`;
     return `<p class="small"><a href="#work">${tg("back")}</a></p>
-      <h1>${T.ic} ${esc(T.t)} ${kindTag(j.kind)}</h1><p class="sub"><b>${tg("when")}:</b> ${L(j.when)}<br><b>${tg("get")}:</b> ${L(TGET[id]) || ""}</p>
+      <h1><img class="h1ic" src="img/ic/${TIMG[id] || "page-facing-up"}.svg" alt=""> ${esc(T.t)} ${kindTag(j.kind)}</h1><p class="sub"><b>${tg("when")}:</b> ${L(j.when)}<br><b>${tg("get")}:</b> ${L(TGET[id]) || ""}</p>
       <div class="two"><div class="card"><h3>${tg("steps")}</h3><ol class="hsteps">${steps}</ol>${j.extra ? j.extra() : ""}</div>
       <div><div class="card">${j.prompt ? `<h3>${tg("prompt")} ${kindTag("ai")}</h3><p class="muted small">${tg("promptS")}</p>${pick}<div class="pbox"><pre id="tkP"></pre><span id="tkB"></span></div>` : `<p class="small">${tg("noPrompt")}</p><p><a class="btn primary" href="${TRES[id]}">${tg("open")} →</a></p>`}</div>${res}</div></div>`;
   }
@@ -2225,7 +2279,7 @@
     lt: { collapse: "Suskleisti meniu", expand: "Išskleisti meniu", menu: "Atidaryti meniu", dark: "Tamsi tema", light: "Šviesi tema", upd: "Duomenys atnaujinti", auto: "ieškoma automatiškai kasryt (nemokamai, be AI)", lang: "Kalba" }
   };
   const sh = k => (SH[LANG] || SH.en)[k];
-  const HERO_IMG = { work: "sec2-rep-2", overview: "sec2-facts", portfolio: "sec2-pf", securities: "sec2-pf", isin: "sec2-pf", issuers: "sec2-rep-2", funds: "sec2-results", esg: "sec2-aum", news: "sec2-news", email: "sec2-rep", tools: "sec2-mgr", about: "sec2-mgr" };
+  const HERO_IMG = { work: "sec2-rep-2", portfolio: "sec2-pf", securities: "sec2-pf", isin: "sec2-pf", issuers: "sec2-rep-2", funds: "sec2-results", esg: "sec2-aum", news: "sec2-news", email: "sec2-rep", tools: "sec2-mgr", about: "sec2-mgr" };
   const stripIc = x => String(x).replace(/^[^\p{L}\p{N}]+/u, "").trim();
   function SUBNAV(cur) {
     if (cur === "work") return [["#work", LANG === "lt" ? "Visi darbai" : "All jobs"], ...["g1", "g2", "g3"].map(g => ["#work/x/g-" + g, tg(g), "anc"]), ...(location.hash.startsWith("#task/") ? [[location.hash.split("/").slice(0, 2).join("/"), (TASKS().flatMap(g => g[1]).find(x => x.id === location.hash.split("/")[1]) || {}).t || ""]] : [])];

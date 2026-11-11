@@ -216,6 +216,7 @@ def main():
            "filings": [f for f in filings if f.get("baseline") != "yes"],
            "readiness": readiness(news, filings)}
     out["email"] = {lg: email(lg, out["readiness"]) for lg in SITE_LANGS}
+    out["yields"] = yields()
     out["esg"] = {lg: build_esg.site(lg) for lg in SITE_LANGS}
     build_esg.main()
     archive = C.load_json(C.DATA / "sources_archive.json")
@@ -285,6 +286,27 @@ def main():
                 f.unlink()
     (C.DOCS / "data.js").write_text("window.DATA = " + json.dumps(out, ensure_ascii=False, default=str) + ";\n", encoding="utf-8")
     print(f"docs/data.js: {len(out['issuers'])} emitentai, {len(secs)} VP, {len(news)} naujienos, {len(out['filings'])} nauji dokumentai")
+
+
+
+def yields():
+    """Pradžios kortelė „Obligacijų pajamingumas“ (2026-11-11): kiekvienos turimos obligacijos paskutinis Nasdaq Baltic pardavimo (ask)
+    pajamingumas ir pokytis nuo kotiruotės prieš ~30 d. (data/prices.csv, be AI). Nėra kotiruotės - neįtraukiama."""
+    from datetime import date, timedelta
+    p = C.DATA / "prices.csv"
+    if not p.exists():
+        return []
+    rows = [r for r in C.read_csv(p) if r.get("ask_yield")]
+    held = {r["isin"]: r for r in C.read_csv(C.CONFIG / "securities.csv") if r.get("held") == "yes"}
+    out = []
+    for isin in sorted({r["isin"] for r in rows} & set(held)):
+        rs = sorted((r for r in rows if r["isin"] == isin), key=lambda r: r["date"])
+        last = rs[-1]
+        cut = (date.fromisoformat(last["date"]) - timedelta(days=30)).isoformat()
+        prev = [r for r in rs if r["date"] <= cut] or rs[:1]
+        out.append({"isin": isin, "issuer": held[isin].get("issuer", ""), "name": held[isin].get("name", ""), "date": last["date"], "y": float(last["ask_yield"]),
+                    "prev_date": prev[-1]["date"], "prev": float(prev[-1]["ask_yield"]), "src": last.get("source", "")})
+    return out
 
 
 if __name__ == "__main__":
