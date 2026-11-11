@@ -324,7 +324,7 @@
     const eng = gd.rows.filter(r => r.engagement.level === "engage");
     if (eng.length) card("you", hx("esg")(eng.length), hx("esgD"), `<a class="btn" href="#esg/${eng[0].id}">${hx("go")}</a>`, eng.map(r => [r.name, `#esg/${r.id}`]));
     // SEB politikų peržiūra kartą per metus
-    if (D.seb && D.seb.reviewed && days(D.seb.reviewed) <= -365) card("you", hx("seb"), hx("sebD")(D.seb.reviewed), `<a class="btn" href="#tools/x/job-seb">${hx("go")}</a>`, [["sebgroup.com → Policies ↗", D.seb.url]]);
+    if (D.seb && D.seb.reviewed && days(D.seb.reviewed) <= -365) card("you", hx("seb"), hx("sebD")(D.seb.reviewed), `<a class="btn" href="#task/seb">${hx("go")}</a>`, [["sebgroup.com → Policies ↗", D.seb.url]]);
     const soon = ((D.email[LANG] || D.email.en || {}).soon || []).filter(x => days(x.date) <= 60);
     const nearest = R.rows.filter(r => ["waiting", "late"].includes(r.status) && r.expected).sort((a, b) => a.expected.localeCompare(b.expected)).slice(0, 4);
     const manual = D.issuers.filter(i => i.manual);
@@ -333,11 +333,11 @@
       ${it.length ? `<ul class="todos">${it.join("")}</ul>` : `<div class="verdict">${hx("none")}</div>`}
       ${soon.length ? `<div class="card soon"><h3>${hx("soon")}</h3><ul class="b">${soon.map(x => `<li>${esc(x.date)} – ${esc(x.name)}${leaf({ green: x.green ? "yes" : "" })}: ${esc(x.what)}</li>`).join("")}</ul></div>` : ""}
       <div class="card nextc"><h3>${hx("next")}</h3>
-        <p>${hx("nextD")} ${nearest.map(r => `<a href="#issuer/${r.id}">${esc(r.name)}</a> ${(r.exact ? "" : "~") + esc(r.expected)}`).join(" · ") || "–"}${manual.length ? ` · ${manual.map(i => `<a href="#tools/x/job-manual">${esc(i.name)}</a>`).join(", ")} – ${g("manualChip").toLowerCase()}` : ""}. <a href="#issuers/x/ready">${RX("details")} →</a></p>
+        <p>${hx("nextD")} ${nearest.map(r => `<a href="#issuer/${r.id}">${esc(r.name)}</a> ${(r.exact ? "" : "~") + esc(r.expected)}`).join(" · ") || "–"}${manual.length ? ` · ${manual.map(i => `<a href="#task/manual">${esc(i.name)}</a>`).join(", ")} – ${g("manualChip").toLowerCase()}` : ""}. <a href="#issuers/x/ready">${RX("details")} →</a></p>
         <p>${hx("search")} <b>${esc(st.news?.date || t("notYet"))}</b>. ${hx("auto")}</p>
         <div class="row">${promptBtn(hx("searchP"), hx("searchB"))} <a class="small" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${hx("gh")} ↗</a></div>
         <div id="runStatus" class="runst muted small"></div></div>
-      ${launcher()}<p><a href="#tools">${hx("allJobs")}</a></p>`;
+      <h2 style="margin-top:30px">${tg("want")}</h2><p class="sub">${tg("wantS")}</p>${taskTiles()}`;
   }
   /* Darbų žemėlapis: visos įrankio dalys pagal sritis, po vieną aiškų įėjimą (savininko prašymas 2026-10-29 – paprasta ir intuityvu) */
   const LX = {
@@ -373,7 +373,7 @@
       const chips = [];
       if (i.new_filings.length) chips.push(`<a class="chip bad" href="#issuer/${i.id}/sec-new">● ${t("newReport")} (${i.new_filings.length}) →</a>`);
       if (flagged) chips.push(`<a class="chip warn" href="#news/${i.id}">${flagged} ${t("toReview")} →</a>`);
-      if (i.manual) chips.push(`<a class="chip warn" href="#tools/x/job-manual">${g("manualChip")}</a>`);
+      if (i.manual) chips.push(`<a class="chip warn" href="#task/manual">${g("manualChip")}</a>`);
       if (i.esg_review) chips.push(`<a class="chip info" href="#issuer/${i.id}/sec-esg">${i.esg_review} ${t("esgReview")} →</a>`);
       const vk = { ok: "vOk", watch: "vWatch", action: "vAction" }[i.verdict];
       h += `<article class="card icard" id="c-${i.id}">
@@ -702,7 +702,7 @@
     const all = D.securities.slice().sort((a, b) => (a.maturity_date || "9999").localeCompare(b.maturity_date || "9999"));
     const years = {};
     all.filter(x => x.held === "yes" && x.type === "bond" && x.status === "active" && x.maturity_date).forEach(x => { const y = x.maturity_date.slice(0, 4); years[y] = (years[y] || 0) + 1; });
-    let h = `<h1>${sx("title")}</h1><p class="sub">${sx("sub")}</p>${jobHow("isin")}
+    let h = `<h1>${sx("title")}</h1><p class="sub">${sx("sub")}</p><p>${howBtn("isin")}</p>
       <div class="card addbox"><h3>${sx("add")}</h3><p class="muted">${sx("addHint")}</p>
         <div class="row addrow"><input id="newIsin" placeholder="LT0000115768, XS1646530565 …" autocomplete="off"><button class="btn primary" id="addBtn">+ ${sx("addBtn")}</button></div>
         <div id="addMsg" class="runst"></div></div>
@@ -788,7 +788,7 @@
   }
   function tools() {
     const all = [...new Set(D.issuers.flatMap(i => Object.keys(i.history)))];
-    const h = `<h1>${t("tools")}</h1><p class="sub">${t("toolsSub")}</p>${jobsHub()}<h2>${t("cmpTitle")}</h2>
+    const h = `<h1>${tg("cmp")}</h1><p class="sub">${t("toolsSub")}</p><h2>${t("cmpTitle")}</h2>
       <div class="filters"><select id="cm">${all.map(m => `<option value="${m}">${esc(M(m))}</option>`).join("")}</select></div><div id="ct"></div>`;
     setTimeout(() => {
       const cm = document.getElementById("cm"), ct = document.getElementById("ct");
@@ -957,7 +957,7 @@
     const g = GD();
     if (arg) return esgIssuer(g, arg);
     setTimeout(initEsg);
-    return `<h1>${gx("title")}</h1><p class="sub">${gx("sub")}</p><div class="hows">${jobHow("esg")}${jobHow("engage")}</div>
+    return `<h1>${gx("title")}</h1><p class="sub">${gx("sub")}</p><p class="row">${howBtn("esg")} ${howBtn("engage")}</p>
       <div class="filters"><input id="gQ" placeholder="${gx("search")}" value="${esc(GF.q)}"><label class="chk"><input type="checkbox" id="gEng" ${GF.eng ? "checked" : ""}> ${gx("onlyEng")}</label>
         <a class="btn code" href="files/esg_engagement_${LANG === "lt" ? "lt" : "en"}.xlsx" download>⬇ ${gx("xls")}</a></div>
       <div id="gT"></div><p class="muted small">${gx("legend")}</p>`;
@@ -1011,7 +1011,7 @@
         ${e.questions.length ? `<h4>${gx("questions")}</h4><ol>${e.questions.map((q, i) => `<li>${esc(q.q)}${e.hints[i] ? `<div class="hint small">💡 <b>${gx("hint")}:</b> ${e.hints[i]}</div>` : ""}</li>`).join("")}</ol>
         <details class="facts"><summary>${gx("preview")}</summary><pre class="mailpre">${esc(esgEmail(r).subject)}\n\n${esc(esgEmail(r).body)}</pre></details>
         <div class="row"><button class="btn primary code" id="gDl">${gx("dl")}</button><button class="btn" id="gCp">${gx("copy")}</button><span id="gMsg" class="runst ok"></span></div><p class="muted small">${gx("emailHint")}</p>` : ""}
-        ${jobHow("engage", { name: r.name })}
+        <p>${howBtn("engage", "/" + r.id)}</p>
         ${e.policies.length ? `<p class="muted small">${gx("policies")}: ${e.policies.map(esc).join("; ")}</p>` : ""}</div>` : ""}
       <h2>${gx("framework")}</h2><div class="grid">${ev.map(y => `<div class="card"><h3>${y} ${gchip("trend", TRC, r.years[y].trend)}</h3><p>${r.years[y].framework}</p><p class="small">${r.years[y].summary}</p></div>`).join("")}</div>
       ${r.targets.length ? `<h2>${gx("targets")}</h2><div class="tbl-wrap"><table><tr><th>${gx("target")}</th>${ys.map(y => `<th>${y}</th>`).join("")}<th>${t("status")}</th></tr>
@@ -1117,6 +1117,70 @@
       <p class="small"><b>${wx("when")}:</b> ${L(j.when)}</p><ol class="hsteps">${steps}</ol>${j.extra ? j.extra() : ""}
       ${p ? `<div class="pbox"><pre>${esc(p)}</pre>${promptBtn(p)}</div>` : ""}</details>`;
   }
+  /* ---------- Darbai pirmiausia (savininkas 2026-11-11: „nerandu kaip darbus atlikti“) ----------
+     Visi darbai – TASKS (trys grupės, ta pati kortelė Pradžioje ir „Darbuose“). Darbas be savo formos – #task/<id> pagal Funds šabloną:
+     kada → ką gausi → žingsniai → užklausa → kur rezultatas. Darbai su savo puslapiu (DD, apskaitos forma, laiškas, portfelis, fondai) – nuoroda tiesiai. */
+  const TG = {
+    en: { home: "Home", work: "Jobs", res: "Results", g1: "Issuers and bonds", g2: "Funds and ETFs", g3: "Portfolio and ESG", want: "What do I want to do?", wantS: "Every job in one place. Pick one – each opens a page with the steps and the prompt for Claude.",
+      workS: "All jobs, grouped. Each opens one page: when to use it, what you get, the steps and the prompt to copy.", when: "Use this when", get: "You get", steps: "Steps", prompt: "Prompt for Claude", promptS: "Copy it and paste it into the Claude project chat.",
+      result: "Where the result appears", open: "Open", back: "← All jobs", issuer: "Issuer", how: "How to do it →", cmp: "Metric comparison", noPrompt: "No message to Claude needed – the steps are done on this page:" },
+    lt: { home: "Pradžia", work: "Darbai", res: "Rezultatai", g1: "Emitentai ir obligacijos", g2: "Fondai ir ETF", g3: "Portfelis ir ESG", want: "Ką noriu padaryti?", wantS: "Visi darbai vienoje vietoje. Pasirinkite – atsidarys puslapis su žingsniais ir užklausa Claude.",
+      workS: "Visi darbai, sugrupuoti. Kiekvienas atidaro vieną puslapį: kada naudoti, ką gausite, žingsniai ir užklausa kopijuoti.", when: "Kada", get: "Ką gausite", steps: "Žingsniai", prompt: "Užklausa Claude", promptS: "Nukopijuokite ir įklijuokite Claude projekto pokalbyje.",
+      result: "Kur bus rezultatas", open: "Atidaryti", back: "← Visi darbai", issuer: "Emitentas", how: "Kaip tai padaryti →", cmp: "Rodiklių palyginimas", noPrompt: "Žinutės Claude nereikia – žingsnius atliekate šiame puslapyje:" }
+  };
+  const tg = k => (TG[LANG] || TG.en)[k];
+  const TGET = {
+    review: { lt: "Atnaujintos visų emitentų apžvalgos (Word, PDF, svetainėje) ir trumpas Claude pranešimas, kas pasikeitė.", en: "Updated reviews for every issuer (Word, PDF, on the site) and a short note from Claude on what changed." },
+    one: { lt: "Vieno emitento atnaujinta apžvalga (Word, PDF, svetainėje).", en: "One issuer's updated review (Word, PDF, on the site)." },
+    search: { lt: "Nauji dokumentai ir naujienos „Pradžioje“ po 3–5 min. Nemokamai, be AI.", en: "New documents and news on Home after 3–5 min. Free, no AI." },
+    esg: { lt: "Naujų metų ESG vertinimas kiekvienam emitentui, Excel ir pasiūlymai, kam rašyti laišką.", en: "The new year's ESG assessment for every issuer, Excel, and suggestions whom to write to." },
+    engage: { lt: "Paruoštas laiškas emitentui (Outlook), o gavus atsakymą – atnaujintas ESG vertinimas.", en: "A ready letter to the issuer (Outlook) and, once they reply, an updated ESG assessment." },
+    manual: { lt: "Nortal apžvalga pagal jūsų įkeltą ataskaitą.", en: "The Nortal review based on the report you upload." },
+    seb: { lt: "Atnaujinta SEB politikų santrauka ir sąrašas emitentų, kurių ESG vertinimas dėl to keičiasi.", en: "An updated SEB policy summary and a list of issuers whose ESG assessment changes." },
+    checks: { lt: "Sankcijų ir žiniasklaidos patikros nuorodos ir radiniai – sprendimą įrašote jūs.", en: "Links and findings for sanctions and adverse media – you record the decision." },
+    isin: { lt: "Atnaujintas vertybinių popierių sąrašas; nauji emitentai pažymimi kitą rytą.", en: "An updated securities list; new issuers are flagged the next morning." }
+  };
+  const TRES = { review: "#issuers", one: "#issuers", search: "#overview", esg: "#esg", engage: "#esg", manual: "#issuers", seb: "#esg", checks: "#news", isin: "#portfolio/x/vp" };
+  const TPICK = { one: 1, engage: 1, manual: 1 };
+  function TASKS() {
+    const j = id => JOBS.find(x => x.id === id) || {};
+    const J = (id, ic, href, sh) => ({ id, ic, kind: j(id).kind, t: L(j(id).t), d: sh ? L(sh) : L(j(id).when), href: href || `#task/${id}` });
+    return [
+      ["g1", [J("review", "🔄"), J("one", "🏢"), J("dd", "📝", "#dd/bond", { lt: "Prieš perkant naują obligaciją ar akciją – Word DD.", en: "Before buying a new bond or share – a Word DD." }),
+        J("acc", "📋", "#acc", { lt: "Gavote laišką „please set up…“ – užpildoma 14 laukų forma.", en: "You got a “please set up…” email – the 14-field form is filled in." }),
+        J("search", "🔎"), J("checks", "🛡️"), J("manual", "🔐"), J("email", "✉️", "#email", { lt: "Po apžvalgų – laiškas kolegoms iš verdiktų.", en: "After the reviews – an email to colleagues from the verdicts." })]],
+      ["g2", FTASKS.map(x => ({ id: "f_" + x.id, ic: x.icon, kind: "ai", t: x.name, d: x.when, href: "#funds/task/" + x.id }))],
+      ["g3", [{ id: "portfolio", ic: "📁", kind: "code", t: LANG === "lt" ? "Įkelti visas investicijas" : "Load all investments", d: LANG === "lt" ? "Įklijuokite iš Excel – kodas suskirsto į emitentus, ETF, fondus ir alternatyvas." : "Paste from Excel – the code sorts issuers, ETFs, funds and alternatives.", href: "#portfolio" },
+        J("isin", "🧾"), J("esg", "🌱"), J("engage", "💬"), J("seb", "📚")]]
+    ];
+  }
+  function taskTiles(head) {
+    return TASKS().map(([g, items]) => `<section class="tgrp" id="g-${g}"><h2>${tg(g)}${g === "g2" ? ' <span class="muted small">(English)</span>' : ""}</h2>
+      <div class="ftasks">${items.map(x => `<a class="card ftask tk-${x.kind}" href="${x.href}"><span class="fic">${x.ic}</span><b>${esc(x.t)}</b><span class="small muted">${x.d}</span>${kindTag(x.kind)}</a>`).join("")}</div></section>`).join("");
+  }
+  function workPage() { return `<h1>${tg("work")}</h1><p class="sub">${tg("workS")}</p>${kindLegend()}${taskTiles()}`; }
+  function taskPage(id, arg2) {
+    const T = TASKS().flatMap(g => g[1]).find(x => x.id === id), j = JOBS.find(x => x.id === id);
+    if (!T || !j) { location.replace("#work"); return ""; }
+    if (T.href !== "#task/" + id) { location.replace(T.href); return ""; }
+    const steps = L(j.steps).map(s => { const m = s.match(/^(ai|code|you):\s*/); return `<li>${m ? `<span class="kd ${m[1]}" title="${esc(wx(m[1]))}"></span>${s.slice(m[0].length)}` : s}</li>`; }).join("");
+    const iss = id === "manual" ? D.issuers.filter(i => i.manual) : id === "engage" ? [...D.issuers].sort((a, b) => a.name.localeCompare(b.name)) : [...D.issuers].sort((a, b) => a.name.localeCompare(b.name));
+    const cur = iss.find(i => i.id === arg2) || (id === "manual" ? iss[0] : null);
+    const pick = TPICK[id] ? `<label class="fl">${tg("issuer")} <select id="tkI"><option value="">–</option>${iss.map(i => `<option value="${esc(i.id)}"${cur && cur.id === i.id ? " selected" : ""}>${esc(i.name)}</option>`).join("")}</select></label>` : "";
+    setTimeout(() => {
+      const sel = document.getElementById("tkI"), upd = () => { const i = byId[sel ? sel.value : ""];
+        const p = j.prompt ? L(j.prompt)(i ? { name: i.name } : {}) : "";
+        const pe = document.getElementById("tkP"); if (pe) { pe.textContent = p; document.getElementById("tkB").innerHTML = promptBtn(p); }
+        const r = document.getElementById("tkR"); if (r) r.href = i ? (id === "engage" ? `#esg/${i.id}` : `#issuer/${i.id}`) : TRES[id]; };
+      if (sel) sel.onchange = upd; upd();
+    });
+    const res = `<p class="small"><b>${tg("result")}:</b> <a id="tkR" href="${TRES[id] || "#overview"}">${tg("open")} →</a></p>`;
+    return `<p class="small"><a href="#work">${tg("back")}</a></p>
+      <h1>${T.ic} ${esc(T.t)} ${kindTag(j.kind)}</h1><p class="sub"><b>${tg("when")}:</b> ${L(j.when)}<br><b>${tg("get")}:</b> ${L(TGET[id]) || ""}</p>
+      <div class="two"><div class="card"><h3>${tg("steps")}</h3><ol class="hsteps">${steps}</ol>${j.extra ? j.extra() : ""}</div>
+      <div><div class="card">${j.prompt ? `<h3>${tg("prompt")} ${kindTag("ai")}</h3><p class="muted small">${tg("promptS")}</p>${pick}<div class="pbox"><pre id="tkP"></pre><span id="tkB"></span></div>` : `<p class="small">${tg("noPrompt")}</p><p><a class="btn primary" href="${TRES[id]}">${tg("open")} →</a></p>`}</div>${res}</div></div>`;
+  }
+  const howBtn = (id, extra = "") => `<a class="btn sm howbtn" href="#task/${id}${extra}">ℹ ${esc(L((JOBS.find(x => x.id === id) || {}).t))} – ${tg("how")}</a>`;
   function jobsHub() { return `<h2>${wx("jobs")}</h2><p class="sub">${wx("jobsSub")}</p>${kindLegend()}<div class="jobs">${JOBS.map(j => jobHow(j.id, {}, { anchor: true })).join("")}</div>`; }
   function toast(msg, cls) {
     let el = document.getElementById("toast"); if (!el) { el = document.createElement("div"); el.id = "toast"; document.body.appendChild(el); }
@@ -1163,7 +1227,7 @@
     out.push(S("Funds: bond fund duration (monthly, 20th)", "duration obligacijų fondai trukmė mėnesio 20 bond fund monthly factsheet", "#funds/task/duration", "ai"));
     out.push(S("Funds: supplement a completed DD (missing data)", "papildyti papildymas not found nerasta trūksta supplement missing funds dd fondas etf", "#funds/done", "ai"));
     out.push(S("Funds: completed work and fund cards", "atlikti darbai archyvas kortelė fondo istorija laiko juosta completed work fund card timeline archive", "#funds/done", "code"));
-    JOBS.forEach(j => out.push(S(L(j.t), j.kw, `#tools/x/job-${j.id}`, j.kind, [], lt ? "instrukcija" : "how-to")));
+    JOBS.forEach(j => { const T = TASKS().flatMap(g => g[1]).find(x => x.id === j.id); out.push(S(L(j.t), j.kw, T ? T.href : "#work", j.kind, [], lt ? "darbas" : "job")); });
     D.issuers.forEach(i => out.push(S(i.name, `${i.legal_name} ${i.country} ${i.sector} ${i.id}`, `#issuer/${i.id}`, "", [], `${i.country} · ${lt ? "apžvalga" : "review"}`)));
     g.rows.forEach(r => out.push(S(`${r.name} · ESG`, `esg ${r.id}`, `#esg/${r.id}`, "", [], (g.labels.engage || {})[r.engagement.level] || "")));
     D.securities.filter(s => s.held === "yes" && s.issuer).forEach(s => out.push(S(s.isin, `${s.name || ""} ${s.issuer}`, `#issuer/${s.issuer}`, "", [], `${(byId[s.issuer] || {}).name || s.issuer} · ${s.name || ""}`)));
@@ -2161,28 +2225,29 @@
     lt: { collapse: "Suskleisti meniu", expand: "Išskleisti meniu", menu: "Atidaryti meniu", dark: "Tamsi tema", light: "Šviesi tema", upd: "Duomenys atnaujinti", auto: "ieškoma automatiškai kasryt (nemokamai, be AI)", lang: "Kalba" }
   };
   const sh = k => (SH[LANG] || SH.en)[k];
-  const HERO_IMG = { overview: "sec2-facts", portfolio: "sec2-pf", securities: "sec2-pf", isin: "sec2-pf", issuers: "sec2-rep-2", funds: "sec2-results", esg: "sec2-aum", news: "sec2-news", email: "sec2-rep", tools: "sec2-mgr", about: "sec2-mgr" };
+  const HERO_IMG = { work: "sec2-rep-2", overview: "sec2-facts", portfolio: "sec2-pf", securities: "sec2-pf", isin: "sec2-pf", issuers: "sec2-rep-2", funds: "sec2-results", esg: "sec2-aum", news: "sec2-news", email: "sec2-rep", tools: "sec2-mgr", about: "sec2-mgr" };
   const stripIc = x => String(x).replace(/^[^\p{L}\p{N}]+/u, "").trim();
   function SUBNAV(cur) {
-    if (cur === "issuers") return [["#issuers", t("issuersNav")], ["#dd/bond", stripIc(ax("newDD"))], ["#acc", stripIc(ax("accBtn"))], ["#dd/bond", stripIc(ax("archBtn")), "arch"]];
+    if (cur === "work") return [["#work", LANG === "lt" ? "Visi darbai" : "All jobs"], ...["g1", "g2", "g3"].map(g => ["#work/x/g-" + g, tg(g), "anc"]), ...(location.hash.startsWith("#task/") ? [[location.hash.split("/").slice(0, 2).join("/"), (TASKS().flatMap(g => g[1]).find(x => x.id === location.hash.split("/")[1]) || {}).t || ""]] : [])];
+    if (cur === "issuers") return [["#issuers", t("issuersNav")], ["#dd/bond", stripIc(ax("newDD"))], ["#acc", stripIc(ax("accBtn"))], ["#dd/bond", stripIc(ax("archBtn")), "arch"], ["#tools", tg("cmp")]];
     if (cur === "funds") return [["#funds", "Start"], ...FTASKS.map(x => ["#funds/task/" + x.id, x.name]), ["#funds/done", "Completed work"], ["#funds/how", "How it works"]];
     return [];
   }
   function shellNav(cur) {
     const h = location.hash || "#overview";
     document.querySelectorAll("#nav > a").forEach(a => {
-      const k = a.dataset.k, lab = k === "esg" ? "ESG" : AX.en[k] ? ax(k) : t(k), on = a.dataset.s === cur;
+      const k = a.dataset.k, lab = k === "esg" ? "ESG" : TG.en[k] ? tg(k) : AX.en[k] ? ax(k) : t(k), on = a.dataset.s === cur;
       a.querySelector(".nl").textContent = lab; a.title = lab; a.classList.toggle("on", on); if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
     });
-    document.querySelectorAll("#nav .nav-grp").forEach(g => g.textContent = t(g.dataset.k));
+    document.querySelectorAll("#nav .nav-grp").forEach(g => g.textContent = TG.en[g.dataset.k] ? tg(g.dataset.k) : t(g.dataset.k));
     document.querySelectorAll("#nav .side-sub").forEach(box => {
       const items = box.dataset.sub === cur ? SUBNAV(cur) : [];
-      const best = items.reduce((b, it, i) => !it[2] && (h === it[0] || h.startsWith(it[0] + "/")) && (b < 0 || it[0].length > items[b][0].length) ? i : b, -1);
+      const best = items.reduce((b, it, i) => it[2] !== "arch" && (h === it[0] || h.startsWith(it[0] + "/")) && (b < 0 || it[0].length > items[b][0].length) ? i : b, -1);
       box.innerHTML = items.map((it, i) => `<a title="${esc(it[1])}" href="${it[0]}"${it[2] === "arch" ? ' data-arch="1"' : ""} class="${i === best ? "on" : ""}">${esc(it[1])}</a>`).join("");
       box.querySelectorAll("[data-arch]").forEach(a => a.onclick = () => { window.ddGoArch = 1; if (location.hash === "#dd/bond") route(); });
     });
-    const tg = document.getElementById("sideTg"), mini = document.documentElement.classList.contains("side-mini");
-    document.getElementById("sideTgL").textContent = mini ? sh("expand") : sh("collapse"); tg.title = mini ? sh("expand") : sh("collapse"); tg.setAttribute("aria-expanded", String(!mini));
+    const stg = document.getElementById("sideTg"), mini = document.documentElement.classList.contains("side-mini");
+    document.getElementById("sideTgL").textContent = mini ? sh("expand") : sh("collapse"); stg.title = mini ? sh("expand") : sh("collapse"); stg.setAttribute("aria-expanded", String(!mini));
     document.getElementById("menuBtn").title = sh("menu");
     const ls = document.getElementById("lang"); ls.value = LANG; ls.title = sh("lang");
     themeBtn();
@@ -2220,9 +2285,9 @@
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
     const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (arg && arg !== "bond") { location.replace("#funds/" + arg); return ""; } DKIND = "bond"; return ddPage(); },
-      funds: fundsPage, acc: accPage,
+      funds: fundsPage, acc: accPage, work: workPage, task: () => taskPage(arg, sec),
       portfolio: () => portfolioPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => portfolioPage(arg), isin: () => portfolioPage(), tools, about };
-    const cur = map[page] ? (page === "issuer" || page === "dd" || page === "acc" ? "issuers" : ["isin", "securities"].includes(page) ? "portfolio" : page) : "overview";
+    const cur = map[page] ? (page === "issuer" || page === "dd" || page === "acc" || page === "tools" ? "issuers" : page === "task" ? "work" : ["isin", "securities"].includes(page) ? "portfolio" : page) : "overview";
     shellNav(cur);
     document.getElementById("brandT").textContent = LANG === "lt" ? "Investicijų peržiūra" : "Investment review"; document.title = document.getElementById("brandT").textContent;
     document.documentElement.lang = LANG;

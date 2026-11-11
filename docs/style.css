@@ -558,3 +558,9 @@ select.langsel { width: auto; padding: 0 6px; font-size: 13px; cursor: pointer; 
 th { background: var(--surface-2); color: var(--muted); font-size: 12px; letter-spacing: .01em; }
 tbody tr:hover > td { background-color: color-mix(in srgb, var(--hover) 70%, transparent); }
 @media (prefers-reduced-motion: reduce) { .side, .side-tg svg, body { transition: none !important; } }
+/* Darbų kortelės (Pradžia ir „Darbai“, 2026-11-11): spalvota kairė juosta – kas atlieka (AI / kodas / jūs) */
+.tgrp h2 { margin-top: 26px; }
+.ftask.tk-ai { box-shadow: inset 3px 0 0 var(--ai), var(--shadow); } .ftask.tk-code { box-shadow: inset 3px 0 0 var(--code), var(--shadow); } .ftask.tk-you { box-shadow: inset 3px 0 0 var(--you), var(--shadow); }
+.ftask .kind { align-self: flex-start; margin-top: auto; }
+.howbtn { font-weight: 600; }
+.ftask:hover { border-color: transparent; background: var(--hover); }
