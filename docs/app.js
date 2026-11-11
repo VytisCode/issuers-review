@@ -2153,27 +2153,89 @@
     accRes();
   }
 
+
+  /* ---------- Rėmas kaip pensijų fondų dashboard (2026-11-11): šoninis meniu, kalba, tema, „Duomenys iki“, nuotraukų juosta ----------
+     Meniu punktai – index.html (#nav, data-k = vertimo raktas); skyriaus papunkčiai – SUBNAV; nuotraukos – HERO_IMG (site/img, CREDITS.md). */
+  const SH = {
+    en: { collapse: "Collapse menu", expand: "Expand menu", menu: "Open menu", dark: "Dark theme", light: "Light theme", upd: "Data updated", auto: "searched automatically every morning (free, no AI)", lang: "Language" },
+    lt: { collapse: "Suskleisti meniu", expand: "Išskleisti meniu", menu: "Atidaryti meniu", dark: "Tamsi tema", light: "Šviesi tema", upd: "Duomenys atnaujinti", auto: "ieškoma automatiškai kasryt (nemokamai, be AI)", lang: "Kalba" }
+  };
+  const sh = k => (SH[LANG] || SH.en)[k];
+  const HERO_IMG = { overview: "sec2-facts", portfolio: "sec2-pf", securities: "sec2-pf", isin: "sec2-pf", issuers: "sec2-rep-2", funds: "sec2-results", esg: "sec2-aum", news: "sec2-news", email: "sec2-rep", tools: "sec2-mgr", about: "sec2-mgr" };
+  const stripIc = x => String(x).replace(/^[^\p{L}\p{N}]+/u, "").trim();
+  function SUBNAV(cur) {
+    if (cur === "issuers") return [["#issuers", t("issuersNav")], ["#dd/bond", stripIc(ax("newDD"))], ["#acc", stripIc(ax("accBtn"))], ["#dd/bond", stripIc(ax("archBtn")), "arch"]];
+    if (cur === "funds") return [["#funds", "Start"], ...FTASKS.map(x => ["#funds/task/" + x.id, x.name]), ["#funds/done", "Completed work"], ["#funds/how", "How it works"]];
+    return [];
+  }
+  function shellNav(cur) {
+    const h = location.hash || "#overview";
+    document.querySelectorAll("#nav > a").forEach(a => {
+      const k = a.dataset.k, lab = k === "esg" ? "ESG" : AX.en[k] ? ax(k) : t(k), on = a.dataset.s === cur;
+      a.querySelector(".nl").textContent = lab; a.title = lab; a.classList.toggle("on", on); if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    document.querySelectorAll("#nav .nav-grp").forEach(g => g.textContent = t(g.dataset.k));
+    document.querySelectorAll("#nav .side-sub").forEach(box => {
+      const items = box.dataset.sub === cur ? SUBNAV(cur) : [];
+      const best = items.reduce((b, it, i) => !it[2] && (h === it[0] || h.startsWith(it[0] + "/")) && (b < 0 || it[0].length > items[b][0].length) ? i : b, -1);
+      box.innerHTML = items.map((it, i) => `<a title="${esc(it[1])}" href="${it[0]}"${it[2] === "arch" ? ' data-arch="1"' : ""} class="${i === best ? "on" : ""}">${esc(it[1])}</a>`).join("");
+      box.querySelectorAll("[data-arch]").forEach(a => a.onclick = () => { window.ddGoArch = 1; if (location.hash === "#dd/bond") route(); });
+    });
+    const tg = document.getElementById("sideTg"), mini = document.documentElement.classList.contains("side-mini");
+    document.getElementById("sideTgL").textContent = mini ? sh("expand") : sh("collapse"); tg.title = mini ? sh("expand") : sh("collapse"); tg.setAttribute("aria-expanded", String(!mini));
+    document.getElementById("menuBtn").title = sh("menu");
+    const ls = document.getElementById("lang"); ls.value = LANG; ls.title = sh("lang");
+    themeBtn();
+    document.getElementById("status").innerHTML = `${sh("upd")} <b>${esc(D.generated || "")}</b> · ${sh("auto")}`;
+  }
+  const isDark = () => (document.documentElement.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light")) === "dark";
+  function themeBtn() {
+    const b = document.getElementById("theme"), d = isDark();
+    b.title = d ? sh("light") : sh("dark"); b.setAttribute("aria-label", b.title);
+    b.innerHTML = d ? '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
+      : '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+  }
+  function closeSide() { document.documentElement.classList.remove("side-open"); const s = document.getElementById("scrim"); if (s) s.hidden = true; const m = document.getElementById("menuBtn"); if (m) m.setAttribute("aria-expanded", "false"); }
+  function initShell() {
+    const root = document.documentElement;
+    document.getElementById("sideTg").onclick = () => { root.classList.toggle("side-mini"); try { localStorage.setItem("sideMini", root.classList.contains("side-mini") ? "1" : "0"); } catch (e) { /* ignore */ } shellNav(document.querySelector("#nav > a.on")?.dataset.s); };
+    document.getElementById("menuBtn").onclick = () => { root.classList.add("side-open"); document.getElementById("scrim").hidden = false; document.getElementById("menuBtn").setAttribute("aria-expanded", "true"); };
+    document.getElementById("scrim").onclick = closeSide;
+    addEventListener("keydown", e => { if (e.key === "Escape") closeSide(); });
+    document.getElementById("lang").onchange = e => { LANG = e.target.value; try { localStorage.setItem("lang", LANG); } catch (er) { /* ignore */ } route(); };
+    document.getElementById("theme").onclick = () => { const v = isDark() ? "light" : "dark"; root.dataset.theme = v; try { localStorage.setItem("theme", v); } catch (e) { /* ignore */ } themeBtn(); };
+  }
+  /* Skyriaus pradžia: pirmas <h1> ir paantraštė perkeliami į nuotraukos juostą (tik pagrindiniuose puslapiuose, ne darbo formose). */
+  function heroize(page, arg) {
+    const hero = $app.querySelector(":scope > section.hero");
+    if (hero) { if (HERO_IMG[page]) hero.style.backgroundImage = `url(img/${HERO_IMG[page]}.jpg)`; return; }
+    const im = HERO_IMG[page]; if (!im || (arg && !["portfolio", "news", "securities"].includes(page))) return;
+    const h = $app.firstElementChild; if (!h || h.tagName !== "H1") return;
+    const s = document.createElement("section"); s.className = "sechero"; s.style.backgroundImage = `url(img/${im}.jpg)`;
+    const tx = document.createElement("div"); tx.className = "shtx"; s.appendChild(tx);
+    const p = h.nextElementSibling && h.nextElementSibling.matches("p.sub") ? h.nextElementSibling : null;
+    tx.appendChild(h); if (p) tx.appendChild(p); $app.prepend(s);
+  }
+
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
     const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (arg && arg !== "bond") { location.replace("#funds/" + arg); return ""; } DKIND = "bond"; return ddPage(); },
       funds: fundsPage, acc: accPage,
       portfolio: () => portfolioPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => portfolioPage(arg), isin: () => portfolioPage(), tools, about };
     const cur = map[page] ? (page === "issuer" || page === "dd" || page === "acc" ? "issuers" : ["isin", "securities"].includes(page) ? "portfolio" : page) : "overview";
-    document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = k === "esg" ? "ESG" : AX.en[k] ? ax(k) : t(k); a.classList.toggle("on", a.getAttribute("href").slice(1) === cur); });
-    const nm = document.querySelector(".navmore"); if (nm) { nm.open = false; nm.querySelector("summary").textContent = t("moreNav") + " ▾"; nm.classList.toggle("on", !!nm.querySelector("a.on")); }
-    document.querySelector(".brand").textContent = LANG === "lt" ? "Investicijų peržiūra" : "Investment review"; document.title = document.querySelector(".brand").textContent;
-    document.querySelectorAll("#langs button").forEach(b => b.classList.toggle("on", b.dataset.l === LANG));
+    shellNav(cur);
+    document.getElementById("brandT").textContent = LANG === "lt" ? "Investicijų peržiūra" : "Investment review"; document.title = document.getElementById("brandT").textContent;
     document.documentElement.lang = LANG;
     $app.innerHTML = (map[page] || map.overview)();
+    heroize(page, arg);
     setTimeout(() => glossify($app), 80);
     if (!map[page] || page === "overview") watchRuns();
     const qs = document.getElementById("qs"); if (qs) qs.placeholder = wx("qs");
     if (sec) setTimeout(() => { const el = document.getElementById(sec); if (el) { if (el.tagName === "DETAILS") el.open = true; el.scrollIntoView({ behavior: "smooth", block: "start" }); el.classList.add("flash"); } }, 60);
     document.getElementById("foot").textContent = `${t("generated")} ${D.generated}.`;
   }
-  document.querySelectorAll("#langs button").forEach(b => b.onclick = () => { LANG = b.dataset.l; try { localStorage.setItem("lang", LANG); } catch (e) { /* ignore */ } route(); });
-  addEventListener("hashchange", () => { scrollTo(0, 0); route(); });
+  initShell();
+  addEventListener("hashchange", () => { scrollTo(0, 0); closeSide(); route(); });
   initSearch();
-  document.addEventListener("click", e => { const nm = document.querySelector(".navmore"); if (nm && nm.open && !e.target.closest(".navmore")) nm.open = false; });
   route();
 })();

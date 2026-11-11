@@ -256,6 +256,8 @@ def main():
     for f in site.iterdir():
         if f.is_file():
             shutil.copy2(f, C.DOCS / f.name)
+        elif f.is_dir() and f.name in ("fonts", "img"):  # šriftai ir skyrių nuotraukos (kaip pensijų fondų dashboard)
+            shutil.copytree(f, C.DOCS / f.name, dirs_exist_ok=True)
     # naršyklė neturi rodyti senos app.js / style.css kopijos po atnaujinimo: ?v=<turinio maiša>
     import hashlib
     ver = hashlib.sha1((site / "app.js").read_bytes() + (site / "style.css").read_bytes()).hexdigest()[:8]
