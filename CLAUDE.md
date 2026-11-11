@@ -57,6 +57,7 @@ Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeni
 - Savo apskaičiuoti skaičiai tekste – „mūsų skaičiavimas“ / „own calculation“ (ne „įrankio“).
 
 ## Patikra prieš push
+Savininkas (2026-11-11): Claude pats sujungia į `main` (tiesioginis push arba savo PR sujungimas) – savininkui PR tvirtinti nereikia; prieš tai – žemiau nurodyta patikra.
 `python tools/build_reports.py && python tools/build_site.py` be klaidų; jei keistas `site/` – atidaryti `docs/index.html` naršyklėje (Playwright) be JS klaidų.
 
 ## Kaip dirbti su Vyčiu
