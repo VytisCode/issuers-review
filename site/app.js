@@ -365,7 +365,7 @@
       <div class="stats"><div><b>${D.issuers.length}</b><span>${t("issuers")}</span></div><div><b>${held}</b><span>${t("held")}</span></div>
       <a class="stat" href="#securities/green"><b>${D.securities.filter(s => s.held === "yes" && s.status === "active" && s.green === "yes").length}${leaf({ green: "yes" })}</b><span>${RX("greenStat")}</span></a>
       <div><b>${D.news.length}</b><span>${t("newsTracked")}</span></div></div></section>`;
-    h += `<div class="row" style="margin:-6px 0 16px"><a class="btn" href="#dd/bond">${ax("newDD")}</a></div>` + readyCards() + `<div class="grid">`;
+    h += `<div class="row" style="margin:-6px 0 16px"><a class="btn" href="#dd/bond">${ax("newDD")}</a> <a class="btn" href="#acc">${ax("accBtn")}</a> <a class="btn" href="#dd/bond" onclick="window.ddGoArch=1">${ax("archBtn")}</a></div>` + readyCards() + `<div class="grid">`;
     D.issuers.forEach(i => {
       const secs = D.securities.filter(s => s.issuer === i.id && s.held === "yes").sort((a, b) => (a.status === "matured") - (b.status === "matured") || String(a.maturity_date || "9999").localeCompare(String(b.maturity_date || "9999")));
       const matured = secs.filter(s => s.status === "matured").length, soon = secs.filter(s => s.status === "active" && s.maturity_date && days(s.maturity_date) < 365).length;
@@ -1230,12 +1230,12 @@
      pozicijų peržiūra, ETF paieška, fondo DD). Seni #dd/<fund|screen|challenge|fundreview> nukreipiami į #funds. */
   const AX = {
     en: { funds: "Funds", fundsSub: "Everything about held and new funds: the quarterly review, challenging held positions, ETF search and fund due diligence. Completed work is saved encrypted at the bottom.", portfolio: "Portfolio",
-      tabs: [["fundreview", "Quarterly review"], ["challenge", "Challenge positions"], ["screen", "ETF search"], ["fund", "Fund / ETF DD"]], bondT: "New DD: bond or share", newDD: "＋ New DD (bond or share)", backIss: "← Issuers" },
+      tabs: [["fundreview", "Quarterly review"], ["challenge", "Challenge positions"], ["screen", "ETF search"], ["fund", "Fund / ETF DD"]], bondT: "New DD: bond or share", newDD: "＋ New DD (bond or share)", backIss: "← Issuers", accBtn: "📋 Accounting form from an email", archBtn: "🔒 Completed DDs (archive)" },
     lt: { funds: "Funds", fundsSub: "Viskas apie turimus ir naujus fondus: ketvirčio peržiūra, turimų pozicijų peržiūra, ETF paieška ir fondo DD. Atlikti darbai saugomi užšifruoti puslapio apačioje.", portfolio: "Portfelis",
-      tabs: [["fundreview", "Ketvirčio peržiūra"], ["challenge", "Pozicijų peržiūra"], ["screen", "ETF paieška"], ["fund", "Fondo / ETF DD"]], bondT: "Naujas DD: obligacija ar akcija", newDD: "＋ Naujas DD (obligacija ar akcija)", backIss: "← Emitentai" }
+      tabs: [["fundreview", "Ketvirčio peržiūra"], ["challenge", "Pozicijų peržiūra"], ["screen", "ETF paieška"], ["fund", "Fondo / ETF DD"]], bondT: "Naujas DD: obligacija ar akcija", newDD: "＋ Naujas DD (obligacija ar akcija)", backIss: "← Emitentai", accBtn: "📋 Apskaitos forma iš laiško", archBtn: "🔒 Atlikti DD (archyvas)" }
   };
   const ax = k => (AX[LANG] || AX.en)[k];
-  const ddHead = sub => DKIND === "bond" ? `<p class="small"><a href="#issuers">${ax("backIss")}</a></p><h1>${ax("bondT")}</h1><p class="sub">${sub}</p>` : `<h1>${ax("funds")}</h1><p class="sub">${sub}</p>`;
+  const ddHead = sub => DKIND === "bond" ? `<p class="small"><a href="#issuers">${ax("backIss")}</a> · <a href="#acc">${ax("accBtn")}</a> · <a href="#ddArch" onclick="event.preventDefault();document.getElementById('ddArch').scrollIntoView({behavior:'smooth'})">${ax("archBtn")}</a></p><h1>${ax("bondT")}</h1><p class="sub">${sub}</p>` : `<h1>${ax("funds")}</h1><p class="sub">${sub}</p>`;
   function ddPage() {
     setTimeout(initDd);
     const opt = (v, l, cur) => `<option value="${esc(v)}"${v === cur ? " selected" : ""}>${esc(l)}</option>`;
@@ -1617,6 +1617,7 @@
   }
   async function initDdArch(msg) {
     const box = document.getElementById("ddArchIn"); if (!box) return;
+    if (window.ddGoArch) { window.ddGoArch = 0; setTimeout(() => { const a = document.getElementById("ddArch"); if (a) a.scrollIntoView({ behavior: "smooth" }); }, 50); }
     if (!DDL) { let pw = null; try { pw = localStorage.getItem("ddpw"); } catch (e) { /* ignore */ }
       if (pw) { try { await ddUnlock(pw); } catch (e) { try { localStorage.removeItem("ddpw"); } catch (x) { /* ignore */ } } } }
     box.innerHTML = ddArchHtml(msg);
