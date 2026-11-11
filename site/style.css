@@ -605,3 +605,13 @@ h2.hh { margin-top: 28px; }
 .ftask .tban img { width: 58px; height: 58px; transform: rotate(-6deg) translateY(6px); filter: drop-shadow(0 6px 8px rgba(60,40,15,.22)); transition: transform .2s; }
 .ftask:hover .tban img { transform: rotate(0) translateY(2px) scale(1.06); }
 .h1ic { width: 40px; height: 40px; vertical-align: -8px; }
+/* iliustracijos visuose puslapiuose */
+h2 > img.ic { width: 26px; height: 26px; vertical-align: -6px; margin-right: 2px; }
+.ich > img.iic { width: 42px; height: 42px; flex: none; order: -1; filter: drop-shadow(0 4px 6px rgba(60,40,15,.18)); }
+.ich { justify-content: flex-start; } .ich > div:first-of-type { flex: 1; min-width: 0; }
+img.tic { width: 22px; height: 22px; vertical-align: -5px; margin-right: 6px; }
+.sechero .shic, .hero .shic { position: absolute; right: 36px; top: 50%; width: 96px; height: 96px; transform: translateY(-50%) rotate(-6deg); filter: drop-shadow(0 10px 16px rgba(0,0,0,.35)); z-index: 1; }
+.hero .shic { top: 34px; transform: rotate(-6deg); }
+@media (max-width: 760px) { .sechero .shic, .hero .shic { width: 56px; height: 56px; right: 14px; } }
+.ready > .rcal { grid-column: 1 / -1; } .rcal > summary { font-weight: 650; cursor: pointer; } .rcal .tbl-wrap { margin-top: 10px; box-shadow: none; }
+td.nw { white-space: nowrap; }

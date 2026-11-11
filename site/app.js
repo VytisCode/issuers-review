@@ -238,13 +238,13 @@
   /* ---------- ar jau metas generuoti: dabartinių analizių laikotarpis ir paskelbtos naujesnės ataskaitos ---------- */
   const RXT = {
     en: { cur: "Current analyses", curSub: "Period of the latest report each review is based on", of: "of", issuersW: "issuers", dataTo: "Data up to", oldest: "oldest analysis",
-      next: "New reports", pub: "published", wait: "still expected", nearest: "Next expected:", lastExp: "last expected:", details: "Status by issuer",
+      next: "New reports", pub: "published", wait: "still expected", nearest: "Next expected:", lastExp: "last expected:", details: "Status by issuer", exact: "exact date", approx: "approximate", from: "From", irCal: "issuer page", pubD: "Published (found)", inAn: "already in the analysis",
       go: "✓ Good time to generate: all (or nearly all) new reports are out.", most: "Most issuers have published – you can generate now, or wait for the rest.", early: "Too early – most issuers have not published yet. Expected by",
       done: "already analysed", published: "published – waiting for analysis", maybe: "new document found – check", late: "date passed – not found yet", waiting: "expected", manual: "you upload it",
       iss: "Issuer", curA: "Current analysis", nextR: "Next report (expected)", st: "Status", how: "Detected automatically (no AI) from new documents on issuer pages and news headlines; updated with every search.",
       greenStat: "green bonds held" },
     lt: { cur: "Dabartinės analizės", curSub: "Už kokį laikotarpį yra naujausia ataskaita, kuria remiasi apžvalga", of: "iš", issuersW: "emitentų", dataTo: "Duomenys iki", oldest: "seniausia analizė",
-      next: "Naujos ataskaitos", pub: "paskelbė", wait: "dar laukiama", nearest: "Artimiausia:", lastExp: "paskutinė numatyta:", details: "Būsena pagal emitentą",
+      next: "Naujos ataskaitos", pub: "paskelbė", wait: "dar laukiama", nearest: "Artimiausia:", lastExp: "paskutinė numatyta:", details: "Būsena pagal emitentą", exact: "tiksli data", approx: "apytikslė", from: "Iš", irCal: "emitento puslapis", pubD: "Paskelbė (rasta)", inAn: "jau analizėje",
       go: "✓ Metas generuoti: visos (ar beveik visos) naujos ataskaitos paskelbtos.", most: "Dauguma emitentų jau paskelbė – galite generuoti dabar arba palaukti likusių.", early: "Dar per anksti – dauguma emitentų dar nepaskelbė. Numatoma iki",
       done: "jau išanalizuota", published: "paskelbta – laukia analizės", maybe: "rastas naujas dokumentas – patikrinti", late: "data praėjo – dar nerasta", waiting: "laukiama", manual: "pateikiate patys",
       iss: "Emitentas", curA: "Dabartinė analizė", nextR: "Kita ataskaita (numatoma)", st: "Būsena", how: "Atpažįstama automatiškai (be AI) iš naujų dokumentų emitentų puslapiuose ir naujienų antraščių; atsinaujina po kiekvienos paieškos.",
@@ -264,9 +264,12 @@
     const nearest = R.rows.filter(r => ["waiting", "late"].includes(r.status) && r.expected).sort((a, b) => a.expected.localeCompare(b.expected));
     const lbl = { done: "good", published: "good", maybe: "warn", late: "bad", waiting: "info", manual: "warn" };
     const rows = R.rows.slice().sort((a, b) => ["published", "maybe", "late", "waiting", "manual", "done"].indexOf(a.status) - ["published", "maybe", "late", "waiting", "manual", "done"].indexOf(b.status) || (a.expected || "9").localeCompare(b.expected || "9"))
-      .map(r => `<tr><td><a href="#issuer/${r.id}">${esc(r.name)}</a></td><td>${esc(r.period)} <span class="muted">· ${esc(r.analysis_date)}</span></td>
-        <td>${r.status === "done" ? "–" : r.expected ? (r.exact ? "" : "~") + esc(r.expected) : "–"}</td>
-        <td><span class="chip ${lbl[r.status]}">${RX(r.status)}${r.status === "waiting" && r.expected ? "" : ""}</span>${(r.found || []).slice(0, 1).map(f => ` <a class="muted small" href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title.slice(0, 60))} ↗</a>`).join("")}</td></tr>`).join("");
+      .map(r => { const I = byId[r.id] || {}, f = (r.found || [])[0], src = String((((I.t || {})[LANG] || (I.t || {}).en) || {}).next_report || "").replace(/<sup[\s\S]*?<\/sup>/g, "").replace(/<[^>]+>/g, "").trim() || I.calendar || "";
+        const exp = ["done", "published", "maybe"].includes(r.status) ? "–" : r.expected ? `<b>${esc(r.expected)}</b> <span class="chip ${r.exact ? "good" : "warn"}">${RX(r.exact ? "exact" : "approx")}</span>` : "–";
+        return `<tr><td><a href="#issuer/${r.id}">${esc(r.name)}</a></td><td class="nw">${esc(r.period)}<div class="muted small">${esc(r.analysis_date)}</div></td>
+        <td>${f ? `${esc(f.date)} <a class="muted small" href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.title.slice(0, 60))} ↗</a>` : r.status === "done" ? `<span class="muted small">${RX("inAn")}</span>` : "–"}</td>
+        <td>${exp}${exp !== "–" && src ? `<div class="muted small">${RX("from")}: ${esc(src.slice(0, 90))}${I.ir_page ? ` · <a href="${esc(I.ir_page)}" target="_blank" rel="noopener">${RX("irCal")} ↗</a>` : ""}</div>` : ""}</td>
+        <td><span class="chip ${lbl[r.status]}">${RX(r.status)}</span></td></tr>`; }).join("");
     return `<section class="ready" id="ready">
       <div class="card rc"><div class="rl">${RX("cur")}</div><div class="rbig">${esc(top[0])}</div><div class="muted">${top[1]} ${RX("of")} ${n} ${RX("issuersW")}</div>
         <div class="rper">${R.periods.map(([p, c]) => `<span class="chip ${p === top[0] ? "info" : ""}">${esc(p)} · ${c}</span>`).join(" ")}</div>
@@ -276,7 +279,8 @@
         <div class="rbar" title="${ready}/${n}"><span class="b1" style="width:${pct(done)}"></span><span class="b2" style="width:${pct(pub)}"></span><span class="b3" style="width:${pct(cnt("maybe"))}"></span></div>
         ${verdict}
         <p class="muted small">${nearest.length ? `${RX("nearest")} ${nearest.slice(0, 3).map(r => `${esc(r.name)} ${(r.exact ? "" : "~") + esc(r.expected.slice(5))}`).join(" · ")}; ${RX("lastExp")} ${esc(R.last_expected)}` : ""}</p>
-        <details><summary>${RX("details")}</summary><div class="tbl-wrap"><table class="rtab"><tr><th>${RX("iss")}</th><th>${RX("curA")}</th><th>${RX("nextR")}</th><th>${RX("st")}</th></tr>${rows}</table></div><p class="muted small">${RX("how")}</p></details></div>
+        <a class="small" href="#issuers/x/readyTab" onclick="document.getElementById('readyTab').open=true">${RX("details")} ↓</a></div>
+      <details id="readyTab" class="card rcal"><summary>${RX("details")}</summary><div class="tbl-wrap"><table class="rtab"><tr><th>${RX("iss")}</th><th>${RX("curA")}</th><th>${RX("pubD")}</th><th>${RX("nextR")}</th><th>${RX("st")}</th></tr>${rows}</table></div><p class="muted small">${RX("how")}</p></details>
     </section>`;
   }
 
@@ -331,7 +335,7 @@
     let a = 0; const C = 2 * Math.PI * 42;
     const ring = `<svg class="ring" viewBox="0 0 100 100" aria-hidden="true">${seg.map(([v, col]) => { const l = v / n * C, o = `<circle cx="50" cy="50" r="42" fill="none" stroke="${col}" stroke-width="12" stroke-dasharray="${l} ${C - l}" stroke-dashoffset="${-a}" transform="rotate(-90 50 50)"/>`; a += l; return v ? o : ""; }).join("")}<text x="50" y="49" text-anchor="middle" class="rn">${pub}</text><text x="50" y="64" text-anchor="middle" class="rd">/ ${rows.length}</text></svg>`;
     const up = rows.filter(r => ["waiting", "late"].includes(r.status) && r.expected && days(r.expected) <= 30).sort((x, y) => x.expected.localeCompare(y.expected));
-    const season = `<a class="card hc hc-season" href="#issuers/x/ready"><div class="hch"><img src="img/ic/spiral-calendar.svg" alt=""><span>${ht("season")} · ${esc(R.target_label || "")}</span></div>
+    const season = `<a class="card hc hc-season" href="#issuers/x/readyTab"><div class="hch"><img src="img/ic/spiral-calendar.svg" alt=""><span>${ht("season")} · ${esc(R.target_label || "")}</span></div>
       <div class="hseason">${ring}<ul class="hleg"><li><i style="background:var(--good)"></i>${pub} ${ht("pub")}</li><li><i style="background:var(--line)"></i>${c.waiting} ${ht("wait")}</li>${c.late ? `<li><i style="background:var(--bad)"></i>${c.late} ${ht("late")}</li>` : ""}${c.manual ? `<li><i style="background:var(--warn)"></i>${c.manual} ${ht("man")}</li>` : ""}</ul>
       <div class="hup"><b>${ht("soonR")}</b>${up.length ? up.slice(0, 6).map(r => `<div><span class="hd">${fmtD(r.expected)}</span> ${esc(r.name)}${r.status === "late" ? ` <span class="chip bad">${ht("late")}</span>` : ""}</div>`).join("") : `<div class="muted">${ht("none")}</div>`}</div></div></a>`;
     const last = R.last_expected, ready = rows.filter(r => ["published", "maybe"].includes(r.status)).length;
@@ -384,7 +388,7 @@
       ${it.length ? `<ul class="todos">${it.join("")}</ul>` : `<div class="verdict">${hx("none")}</div>`}
       ${soon.length ? `<div class="card soon"><h3>${hx("soon")}</h3><ul class="b">${soon.map(x => `<li>${esc(x.date)} – ${esc(x.name)}${leaf({ green: x.green ? "yes" : "" })}: ${esc(x.what)}</li>`).join("")}</ul></div>` : ""}
       <div class="card nextc"><h3>${hx("next")}</h3>
-        <p>${hx("nextD")} ${nearest.map(r => `<a href="#issuer/${r.id}">${esc(r.name)}</a> ${(r.exact ? "" : "~") + esc(r.expected)}`).join(" · ") || "–"}${manual.length ? ` · ${manual.map(i => `<a href="#task/manual">${esc(i.name)}</a>`).join(", ")} – ${g("manualChip").toLowerCase()}` : ""}. <a href="#issuers/x/ready">${RX("details")} →</a></p>
+        <p>${hx("nextD")} ${nearest.map(r => `<a href="#issuer/${r.id}">${esc(r.name)}</a> ${(r.exact ? "" : "~") + esc(r.expected)}`).join(" · ") || "–"}${manual.length ? ` · ${manual.map(i => `<a href="#task/manual">${esc(i.name)}</a>`).join(", ")} – ${g("manualChip").toLowerCase()}` : ""}. <a href="#issuers/x/readyTab">${RX("details")} →</a></p>
         <p>${hx("search")} <b>${esc(st.news?.date || t("notYet"))}</b>. ${hx("auto")}</p>
         <div class="row">${promptBtn(hx("searchP"), hx("searchB"))} <a class="small" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${hx("gh")} ↗</a></div>
         <div id="runStatus" class="runst muted small"></div></div>
@@ -428,7 +432,7 @@
       if (i.esg_review) chips.push(`<a class="chip info" href="#issuer/${i.id}/sec-esg">${i.esg_review} ${t("esgReview")} →</a>`);
       const vk = { ok: "vOk", watch: "vWatch", action: "vAction" }[i.verdict];
       h += `<article class="card icard" id="c-${i.id}">
-        <header class="ich"><div><h3><a href="#issuer/${i.id}">${esc(i.name)}</a> <span class="flagc">${esc(i.country)}</span></h3><p class="muted isec">${esc(i.sector)}</p></div>
+        <header class="ich">${ICO(issIc(i), "iic")}<div><h3><a href="#issuer/${i.id}">${esc(i.name)}</a> <span class="flagc">${esc(i.country)}</span></h3><p class="muted isec">${esc(i.sector)}</p></div>
           ${vk ? `<span class="vbadge v-${i.verdict}">${c2(vk)}</span>` : `<span class="vbadge">${c2("noAnalysis")}</span>`}</header>
         ${T(i).verdict ? `<div class="verdict sm v-${i.verdict || "ok"}">${T(i).verdict}</div>` : ""}${tiles(i)}
         <div class="csec"><div class="csh">${c2("ratings")}</div>${ratingBadges(i)}${(i.ratings || []).length ? `<div class="muted small rnote">${c2("ratingNote")}</div>` : ""}</div>
@@ -444,7 +448,7 @@
     const i = byId[id]; if (!i) return "<p>Not found.</p>";
     const X = T(i);
     const secs = D.securities.filter(s => s.issuer === id);
-    let h = `<p class="muted"><a href="#issuers">${t("back")}</a></p><div class="ihead"><div><h1>${esc(i.name)}</h1>
+    let h = `<p class="muted"><a href="#issuers">${t("back")}</a></p><div class="ihead"><div><h1>${ICO(issIc(i), "h1ic")} ${esc(i.name)}</h1>
       <p class="sub">${esc(i.legal_name)} · ${esc(i.sector)} · ${esc(i.owner)}</p>
       <div class="kv"><span>${t("lastAnalysis")}</span><b>${esc(i.period)} · ${esc(i.analysis_date)}</b><span>${t("rating")}</span><b>${ratingBadges(i)}<span class="muted rtxt">${X.rating || ""}</span></b><span>${t("nextReport")}</span><b>${X.next_report || ""}</b></div></div>
       <div class="dlbox"><b>${t("download")}</b>${dlButtons(i)}</div></div>
@@ -1019,7 +1023,7 @@
     const render = () => {
       const rows = g.rows.filter(r => (!GF.q || r.name.toLowerCase().includes(GF.q.toLowerCase())) && (!GF.eng || r.engagement.level !== "none"));
       $("gT").innerHTML = rows.length ? `<div class="tbl-wrap"><table class="esgt"><tr><th>${gx("issuer")}</th><th>${gx("brief")}</th><th>${gx("todoC")}</th></tr>
-        ${rows.map(r => `<tr><td><a href="#esg/${r.id}"><b>${esc(r.name)}</b></a>${r.green ? leaf({ green: "yes" }) : ""}<div class="muted small">${esc(r.country)} · ${r.instruments.map(x => gx(x === "share" ? "share" : "bond")).join(", ")}</div><div>${gchip("trend", TRC, r.trend)}</div></td>
+        ${rows.map(r => `<tr><td>${ICO(issIc(byId[r.id]), "tic")}<a href="#esg/${r.id}"><b>${esc(r.name)}</b></a>${r.green ? leaf({ green: "yes" }) : ""}<div class="muted small">${esc(r.country)} · ${r.instruments.map(x => gx(x === "share" ? "share" : "bond")).join(", ")}</div><div>${gchip("trend", TRC, r.trend)}</div></td>
           <td class="ys">${esgBrief(r, true)}<details class="facts"><summary>${gx("byYear")}</summary>${g.years.slice().reverse().map(y => { const d = r.years[y]; return d ? `<h4>${y} ${gchip("trend", TRC, d.trend)}</h4><div class="small">${d.summary}</div>${esgFacts(g, d)}` : ""; }).join("")}</details></td>
           <td>${gchip("engage", ENC, r.engagement.level)}${r.brief?.means ? `<div class="small">${r.brief.means}</div>` : ""}</td></tr>`).join("")}</table></div>` : `<p class="muted">${gx("none")}</p>`;
     };
@@ -1959,7 +1963,7 @@
   /* Pagrindinis Funds puslapis */
   function fTaskTiles(isin) {
     if (isin) return `<div class="row fbtns">${FTASKS.filter(t => ["dd", "challenge", "duration"].includes(t.id)).map(t => `<a class="btn ai" href="#funds/task/${t.id}/${isin}">${t.icon} ${t.name}</a>`).join("")}</div>`;
-    return `<div class="ftasks">${FTASKS.map(t => `<a class="card ftask" href="#funds/task/${t.id}${isin ? "/" + isin : ""}"><span class="fic">${t.icon}</span><b>${t.name}</b><span class="small">${esc(t.when)}</span><span class="muted small">You get: ${esc(t.get)}</span></a>`).join("")}</div>`;
+    return `<div class="ftasks">${FTASKS.map(t => `<a class="card ftask tk-ai tg-g2" href="#funds/task/${t.id}${isin ? "/" + isin : ""}"><span class="tban"><img src="img/ic/${TIMG["f_" + t.id]}.svg" alt="" loading="lazy"></span><b>${t.name}</b><span class="small">${esc(t.when)}</span><span class="muted small">You get: ${esc(t.get)}</span></a>`).join("")}</div>`;
   }
   function fundsHome() {
     setTimeout(() => { fLockInit(); fFindInit(); }); fAuto();
@@ -2097,7 +2101,7 @@
       `<div class="row fbtns"><button class="btn sm" id="ftLastD">Last month's list</button><button class="btn sm" id="ftBonds">Bond funds from the last review</button><span id="ftMsg" class="muted small"></span></div>`;
     f += ta("data", "Your data for Claude (optional)", 4, task === "duration" ? "e.g. values from Bloomberg or Morningstar Direct, funds to skip" : "e.g. Morningstar or Bloomberg values, the manager's material, alternatives to compare, anything Claude should know");
     return `<p class="small"><a href="#funds">← Funds</a>${isin ? ` · <a href="#funds/fund/${esc(isin)}">${esc(isin)} card</a>` : ""}</p>
-      <h1>${T.icon} ${T.name}</h1><p class="sub"><b>Use this when:</b> ${esc(T.when)}<br><b>You get:</b> ${esc(T.get)}</p>
+      <h1>${ICO(TIMG["f_" + T.id], "h1ic")} ${T.name}</h1><p class="sub"><b>Use this when:</b> ${esc(T.when)}<br><b>You get:</b> ${esc(T.get)}</p>
       <div class="two"><div class="card ddform">${f}</div><div><div class="card"><h3>Prompt for Claude ${kindTag("ai")}</h3><p class="muted small">Copy it and paste it into the Claude project chat. Claude asks if something is missing.</p><div class="pbox"><pre id="ftP"></pre><span id="ftB"></span></div></div>
         <ol class="small fsteps"><li>Fill in the fields on the left (only what you know).</li><li><b>Copy prompt</b> → paste into Claude.</li><li>When Claude is done, the result appears on the fund card and in <a href="#funds/done">Completed work</a>.</li></ol>
         ${task === "dd" && s.mode !== "sup" ? `<details class="small"><summary>Sanctions check links (you check the management company)</summary>${sancBox("")}</details>` : ""}</div></div>${task === "duration" ? `<div class="card" id="fDurHist" style="margin-top:16px"></div>` : ""}`;
@@ -2283,7 +2287,7 @@
   const stripIc = x => String(x).replace(/^[^\p{L}\p{N}]+/u, "").trim();
   function SUBNAV(cur) {
     if (cur === "work") return [["#work", LANG === "lt" ? "Visi darbai" : "All jobs"], ...["g1", "g2", "g3"].map(g => ["#work/x/g-" + g, tg(g), "anc"]), ...(location.hash.startsWith("#task/") ? [[location.hash.split("/").slice(0, 2).join("/"), (TASKS().flatMap(g => g[1]).find(x => x.id === location.hash.split("/")[1]) || {}).t || ""]] : [])];
-    if (cur === "issuers") return [["#issuers", t("issuersNav")], ["#dd/bond", stripIc(ax("newDD"))], ["#acc", stripIc(ax("accBtn"))], ["#dd/bond", stripIc(ax("archBtn")), "arch"], ["#tools", tg("cmp")]];
+    if (cur === "issuers") return [["#issuers", t("issuersNav")], ["#dd/bond", stripIc(ax("newDD"))], ["#issuers/x/readyTab", LANG === "lt" ? "Ataskaitų kalendorius" : "Reporting calendar"], ["#acc", stripIc(ax("accBtn"))], ["#dd/bond", stripIc(ax("archBtn")), "arch"], ["#tools", tg("cmp")]];
     if (cur === "funds") return [["#funds", "Start"], ...FTASKS.map(x => ["#funds/task/" + x.id, x.name]), ["#funds/done", "Completed work"], ["#funds/how", "How it works"]];
     return [];
   }
@@ -2324,6 +2328,23 @@
     document.getElementById("lang").onchange = e => { LANG = e.target.value; try { localStorage.setItem("lang", LANG); } catch (er) { /* ignore */ } route(); };
     document.getElementById("theme").onclick = () => { const v = isDark() ? "light" : "dark"; root.dataset.theme = v; try { localStorage.setItem("theme", v); } catch (e) { /* ignore */ } themeBtn(); };
   }
+
+  /* Iliustracijos visuose puslapiuose (savininkas 2026-11-11: „jaukesnis darbo įrankis“; surinkta vieną kartą – site/img/ic, Microsoft Fluent Emoji, MIT) */
+  const ICO = (n, cls = "ic") => `<img class="${cls}" src="img/ic/${n}.svg" alt="" loading="lazy">`;
+  const SEC_IC = [[/bank|banka|lizing/i, "bank"], [/port|ferry|kelt/i, "ship"], [/water|vanden/i, "droplet"], [/agricult|grain|žemės ūk/i, "sheaf-of-rice"], [/retail|mažmen/i, "shopping-cart"],
+    [/shopping cent|prekybos cent/i, "classical-building"], [/real estate|nekilnojam/i, "building-construction"], [/\bIT\b|digital|skaitmen/i, "laptop"], [/state invest|development finance/i, "classical-building"], [/renewable energy investment fund|closed-end renewable/i, "seedling"],
+    [/energy|electric/i, "high-voltage"]];
+  const issIc = i => { const sct = String((i || {}).sector || ""); const m = SEC_IC.find(([rx]) => rx.test(sct)); return m ? m[1] : "office-building"; };
+  const PAGE_IC = { work: "toolbox", portfolio: "briefcase", securities: "receipt", isin: "receipt", issuers: "office-building", funds: "chart-increasing", esg: "seedling", news: "newspaper", email: "e-mail", tools: "bar-chart", about: "compass" };
+  const H2_IC = [[/ESG|tvarum|sustainab/i, "seedling"], [/šaltin|source/i, "books"], [/naujien|news|spaud|press/i, "newspaper"], [/sankc|sanction/i, "shield"], [/skolos sąlyg|covenant/i, "scroll"],
+    [/planai|plans/i, "pushpin"], [/investuotoj|investor/i, "briefcase"], [/rinka|market/i, "bank"], [/rodikl|ratio|metric|palyginim|comparison/i, "bar-chart"], [/santrauk|summary/i, "memo"],
+    [/kalend|calendar|artėja|coming up|išpirk|maturing/i, "calendar"], [/atlikt|completed|archyv|archive/i, "card-file-box"], [/laišk|email|letter/i, "e-mail"], [/obligacij|bond|vertybin|securit|instrument/i, "receipt"],
+    [/fond|fund|etf/i, "chart-increasing"], [/start a task|užduot|darb|jobs|ką noriu|what do i/i, "toolbox"], [/veikla|business|finans|financ/i, "chart-increasing"], [/how|kaip/i, "light-bulb"]];
+  function decorate(page) {
+    $app.querySelectorAll("h2").forEach(h => { if (h.querySelector("img.ic") || h.closest(".hnews")) return; const m = H2_IC.find(([rx]) => rx.test(h.textContent)); if (m) h.insertAdjacentHTML("afterbegin", ICO(m[1]) + " "); });
+    const hero = $app.querySelector(":scope > .sechero, :scope > section.hero"), ic = PAGE_IC[page];
+    if (hero && ic && !hero.querySelector(".shic")) hero.insertAdjacentHTML("beforeend", ICO(ic, "shic"));
+  }
   /* Skyriaus pradžia: pirmas <h1> ir paantraštė perkeliami į nuotraukos juostą (tik pagrindiniuose puslapiuose, ne darbo formose). */
   function heroize(page, arg) {
     const hero = $app.querySelector(":scope > section.hero");
@@ -2346,7 +2367,7 @@
     document.getElementById("brandT").textContent = LANG === "lt" ? "Investicijų peržiūra" : "Investment review"; document.title = document.getElementById("brandT").textContent;
     document.documentElement.lang = LANG;
     $app.innerHTML = (map[page] || map.overview)();
-    heroize(page, arg);
+    heroize(page, arg); decorate(page);
     setTimeout(() => glossify($app), 80);
     if (!map[page] || page === "overview") watchRuns();
     const qs = document.getElementById("qs"); if (qs) qs.placeholder = wx("qs");
