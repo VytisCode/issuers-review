@@ -343,12 +343,12 @@
   const LX = {
     en: { h: "Where to find what", groups: [
       ["📁", "Portfolio", "#portfolio", [["All investments", "Paste once – sorted into issuers, funds and alternatives", "#portfolio", "code"], ["Securities for the issuers review", "Add or remove ISINs", "#portfolio/x/vp", "you"]]],
-      ["🏢", "Issuers", "#issuers", [["Issuer reviews", "Reports, ratios, conclusions", "#issuers", "ai"], ["News", "Headlines to check", "#news", "you"], ["New DD: bond or share", "Word, from term sheet", "#dd/bond", "ai"], ["Letter to colleagues", "Summary of verdicts", "#email", "code"]]],
+      ["🏢", "Issuers", "#issuers", [["Issuer reviews", "Reports, ratios, conclusions", "#issuers", "ai"], ["News", "Headlines to check", "#news", "you"], ["New DD: bond or share", "Word, from term sheet", "#dd/bond", "ai"], ["Accounting form from an email", "Field Name / Data – paste the email, Claude fills it in", "#acc", "ai"], ["Letter to colleagues", "Summary of verdicts", "#email", "code"]]],
       ["📊", "Funds", "#funds", [["Due diligence", "One fund, PowerPoint", "#funds/task/dd", "ai"], ["Challenge", "Switch, keep, watch or add", "#funds/task/challenge", "ai"], ["Find ETFs", "Search, challenge, DD for the winner", "#funds/task/find", "ai"], ["Quarterly fund review", "All held funds", "#funds/task/review", "ai"], ["Bond fund duration", "Every month by the 20th", "#funds/task/duration", "ai"]]],
       ["🌱", "ESG", "#esg", [["Sustainability review", "Own targets, SEB guidelines", "#esg", "ai"], ["Engagement letters", "Questions to issuers", "#esg", "you"]]]] },
     lt: { h: "Kur ką rasti", groups: [
       ["📁", "Portfelis", "#portfolio", [["Visos investicijos", "Įklijuojate vieną kartą – suskirstoma į emitentus, fondus ir alternatyvas", "#portfolio", "code"], ["Emitentų apžvalgos vertybiniai popieriai", "Pridėti ar pašalinti ISIN", "#portfolio/x/vp", "you"]]],
-      ["🏢", "Emitentai", "#issuers", [["Emitentų apžvalgos", "Ataskaitos, rodikliai, išvados", "#issuers", "ai"], ["Naujienos", "Antraštės patikrai", "#news", "you"], ["Naujas DD: obligacija ar akcija", "Word, pagal term sheet", "#dd/bond", "ai"], ["Laiškas kolegoms", "Verdiktų santrauka", "#email", "code"]]],
+      ["🏢", "Emitentai", "#issuers", [["Emitentų apžvalgos", "Ataskaitos, rodikliai, išvados", "#issuers", "ai"], ["Naujienos", "Antraštės patikrai", "#news", "you"], ["Naujas DD: obligacija ar akcija", "Word, pagal term sheet", "#dd/bond", "ai"], ["Apskaitos forma iš laiško", "Field Name / Data – įklijuokite laišką, užpildo Claude", "#acc", "ai"], ["Laiškas kolegoms", "Verdiktų santrauka", "#email", "code"]]],
       ["📊", "Funds", "#funds", [["Due diligence", "One fund, PowerPoint", "#funds/task/dd", "ai"], ["Challenge", "Switch, keep, watch or add", "#funds/task/challenge", "ai"], ["Find ETFs", "Search, challenge, DD for the winner", "#funds/task/find", "ai"], ["Quarterly fund review", "All held funds", "#funds/task/review", "ai"], ["Bond fund duration", "Every month by the 20th", "#funds/task/duration", "ai"]]],
       ["🌱", "ESG", "#esg", [["Tvarumo apžvalga", "Savi tikslai, SEB gairės", "#esg", "ai"], ["Engagement laiškai", "Klausimai emitentams", "#esg", "you"]]]] }
   };
@@ -1073,6 +1073,11 @@
       when: { lt: "ESG puslapyje prie emitento parašyta „Siūloma parašyti“.", en: "an issuer is marked “Suggest writing” on the ESG page." },
       steps: { lt: ["you: Emitento ESG puslapyje perskaitykite „Kas negerai“ ir 💡 užuominas.", "code: „Atsisiųsti laišką emitentui (.eml)“ – atsidaro Outlook juodraštis anglų kalba.", "you: Įrašykite gavėją (IR kontaktą) ir parašą, išsiųskite.", "ai: Gavę atsakymą – nukopijuokite užklausą, įklijuokite Claude projekte ir po ja įklijuokite atsakymo tekstą."], en: ["you: On the issuer's ESG page read “What is wrong” and the 💡 hints.", "code: “Download email to issuer (.eml)” – opens an English Outlook draft.", "you: Add the recipient (IR contact) and your signature, send.", "ai: When the reply arrives – copy the prompt, paste it into the Claude project and paste the reply text below it."] },
       prompt: { lt: f => `Emitentas ${f.name || "[emitentas]"} atsakė į ESG laišką. Įvertink atsakymą, atnaujink ESG vertinimą ir engagement būseną.\n\nAtsakymas:\n[įklijuokite atsakymo tekstą]`, en: f => `${f.name || "[issuer]"} replied to our ESG letter. Assess the reply and update the ESG assessment and engagement status.\n\nReply:\n[paste the reply text]` } },
+    { id: "acc", kind: "ai", kw: "apskaitos forma apskaita laiskas wss set up field name data accounting form email nauja emisija",
+      t: { lt: "Apskaitos forma iš laiško (Field Name / Data)", en: "Accounting form from an email (Field Name / Data)" },
+      when: { lt: "kai gaunate laišką „please set up…“ apie naują VP, o DD darote ne jūs.", en: "when an email asks to set up a new security and someone else does the DD." },
+      steps: { lt: ["you: <a href=\"#acc\">Apskaitos forma</a> – įklijuokite visą laišką.", "ai: Nukopijuokite užklausą ir įklijuokite Claude projekte.", "code: Užpildyta forma atsiranda tame pačiame puslapyje („Užpildytos formos“, atrakinus archyvą) – „Kopijuoti į Excel“ arba atsisiųsti Excel."],
+        en: ["you: <a href=\"#acc\">Accounting form</a> – paste the whole email.", "ai: Copy the prompt and paste it in the Claude project.", "code: The completed form appears on the same page (“Completed forms”, after unlocking the archive) – “Copy for Excel” or download the Excel."] } },
     { id: "dd", kind: "ai", kw: "dd due diligence naujas instrumentas nauja emisija pirkimas term sheet sfdr new instrument issue atlikti dd atsisiųsti archyvas slaptažodis completed download archive password",
       t: { lt: "Naujas Due Diligence (naujas instrumentas)", en: "New Due Diligence (new instrument)" },
       when: { lt: "prieš perkant naują obligaciją ar akciją (esamo ar naujo emitento).", en: "before buying a new bond or share (existing or new issuer)." },
@@ -1149,6 +1154,7 @@
       S(lt ? "Turimi VP be analizės" : "Held securities without analysis", "be analizes nauji emitentai without analysis new issuers", "#securities/noan", "ai"),
       S(lt ? "Rodiklių palyginimas" : "Metric comparison", "palyginimas rodikliai comparison metrics tools", "#tools", "code")
     ];
+    out.push(S(lt ? "Apskaitos forma iš laiško (Field Name / Data)" : "Accounting form from an email (Field Name / Data)", "apskaitos forma apskaita laiskas wss set up nauja emisija field name data type of issue trading venue ticker settlements accounting form email kis", "#acc", "ai"));
     out.push(S(lt ? "Due Diligence – naujas instrumentas" : "Due Diligence – new instrument", "dd due diligence naujas instrumentas emisija pirkimas sfdr apskaita new issue accounting", "#dd/bond", "ai"));
     out.push(S("Funds: due diligence (fund / ETF)", "funds dd fondas fondų etf due diligence powerpoint pptx liquid funds ucits index fund alternatyvos", "#funds/task/dd", "ai"));
     out.push(S("Funds: find ETFs (search → challenge → DD)", "etf paieška screener ieškoti palyginti kriterijai sektorius search compare shortlist find", "#funds/task/find", "ai"));
@@ -1597,7 +1603,7 @@
   function ddArchHtml(msg) {
     if (!DDL) return `<div class="row ddpw"><input id="ddPw" type="password" placeholder="${esc(da("pw"))}" autocomplete="current-password"><label class="chk small"><input type="checkbox" id="ddRem" checked> ${da("rem")}</label><button class="btn primary" id="ddOpen">${da("open")}</button></div>
       ${msg ? `<p class="bad small">${esc(msg)}</p>` : ""}<p class="muted small">${da("lost")}</p>`;
-    const docs = DDL.filter(x => !["zip", "screen", "challenge", "fundreview", "portfolio"].includes(x.type) && (DKIND === "bond") !== /\.pptx$/i.test(x.file || "")), zipOf = id => {
+    const docs = DDL.filter(x => !["zip", "screen", "challenge", "fundreview", "portfolio", "accform"].includes(x.type) && (DKIND === "bond") !== /\.pptx$/i.test(x.file || "")), zipOf = id => {
       const par = z => (D.dd.zips || {})[z.id] || z.parent, me = DDL.find(x => x.id === id);
       // tas pats DD kita kalba (tas pats ISIN ir data) naudoja tą patį dokumentacijos ZIP
       return DDL.find(z => z.type === "zip" && !z.kind && par(z) === id) || DDL.find(z => z.type === "zip" && z.kind === "received" && par(z) === id) || DDL.find(z => { if (z.type !== "zip" || z.kind) return false; const p = DDL.find(x => x.id === par(z)); return p && me && p.isin === me.isin && p.date === me.date; });
@@ -2095,12 +2101,63 @@
     return fundsHome();
   }
 
+  /* Apskaitos forma „Field Name / Data“ iš laiško (savininkas 2026-11-11): įklijuoti laišką -> užklausa Claude -> Claude užpildo pagal
+     /mnt/project-files/dd/accounting_fields.py, Excel + VIEW užšifruojami (`dd_vault.py screen --kind accform`) -> rezultatas čia, atrakinus archyvą. */
+  const ACX = {
+    lt: { h: "Apskaitos forma iš laiško", sub: "Kai gaunate laišką „please set up…“ apie naują VP, o DD darote ne jūs. Įklijuokite laišką, nukopijuokite užklausą Claude – jis užpildys formą „Field Name / Data“ (14 laukų, tik iš formos sąrašų, su šaltiniais). Rezultatas atsiras žemiau („Užpildytos formos“).",
+      s1: "1. Įklijuokite laišką", ph: "Įklijuokite visą laišką su term sheet…", s2: "2. Nukopijuokite užklausą ir įklijuokite Claude projekte", s3: "3. Užpildytos formos", clear: "Išvalyti",
+      pw: "Archyvo slaptažodis", open: "Atrakinti", bad: "Neteisingas slaptažodis.", none: "Užpildytų formų dar nėra.", xl: "Kopijuoti į Excel", dl: "Excel", copied: "Nukopijuota – įklijuokite į Excel.", empty: "Pirmiausia įklijuokite laišką.",
+      prompt: m => `Užpildyk apskaitos formą „Field Name / Data“ pagal šį laišką.\nTaisyklės – CLAUDE.md „Apskaitos forma“ ir /mnt/project-files/dd/accounting_fields.py: 14 laukų formos tvarka, reikšmės tik iš sąrašų (išskyrus Exchange), prie kiekvienos – trumpas paaiškinimas su šaltiniu; patikrink emisijos sąlygas / prospektą ir Nasdaq ar emitento puslapį. Jei emitentas jau yra įrankyje – naudok jo duomenis.\nRezultatas: Excel (Field Name | Data | Comment | Source) projekto failuose /mnt/project-files/dd/accounting/ ir \`python tools/dd_vault.py screen <xlsx> --kind accform --view <VIEW.json> --title "Accounting form <ISIN> <pavadinimas>"\` (VIEW: {"isin", "name", "table": {"cols": ["Field Name","Data","Comment"], "rows": [...]}}), tada build ir push. Man – trumpai, ką reikia patikrinti.\n\nLaiškas:\n${m}` },
+    en: { h: "Accounting form from an email", sub: "When an email asks to set up a new security and someone else does the DD. Paste the email and copy the prompt to Claude – it fills in the “Field Name / Data” form (14 fields, only from the form lists, with sources). The result appears below (“Completed forms”).",
+      s1: "1. Paste the email", ph: "Paste the whole email with the term sheet…", s2: "2. Copy the prompt and paste it in the Claude project", s3: "3. Completed forms", clear: "Clear",
+      pw: "Archive password", open: "Unlock", bad: "Wrong password.", none: "No completed forms yet.", xl: "Copy for Excel", dl: "Excel", copied: "Copied – paste into Excel.", empty: "Paste the email first.",
+      prompt: m => `Fill in the accounting form "Field Name / Data" from this email.\nRules – CLAUDE.md "Apskaitos forma" and /mnt/project-files/dd/accounting_fields.py: 14 fields in the form order, values only from the lists (except Exchange), a short comment with source for each; check the terms / prospectus and the Nasdaq or issuer page. If the issuer is already in the tool, use its data.\nResult: Excel (Field Name | Data | Comment | Source) in project files /mnt/project-files/dd/accounting/ and \`python tools/dd_vault.py screen <xlsx> --kind accform --view <VIEW.json> --title "Accounting form <ISIN> <name>"\` (VIEW: {"isin", "name", "table": {"cols": ["Field Name","Data","Comment"], "rows": [...]}}), then build and push. Tell me briefly what to check.\n\nEmail:\n${m}` }
+  };
+  const acx = k => (ACX[LANG] || ACX.en)[k];
+  function accPage() {
+    setTimeout(initAcc);
+    let mail = ""; try { mail = localStorage.getItem("accMail") || ""; } catch (e) { /* ignore */ }
+    return `<p class="muted"><a href="#issuers">${t("back")}</a></p><h1>${acx("h")} ${kindTag("ai")}</h1><p class="sub">${acx("sub")}</p>
+      <div class="card"><h3>${acx("s1")}</h3><textarea id="aMail" rows="9" style="width:100%" placeholder="${esc(acx("ph"))}">${esc(mail)}</textarea>
+        <p class="small"><button class="btn ghost sm" id="aClr">${acx("clear")}</button></p>
+        <h3>${acx("s2")}</h3><div class="pbox"><pre id="aPrompt"></pre><span id="aBtn"></span></div></div>
+      <div class="card" style="margin-top:16px"><h3>🔒 ${acx("s3")} ${kindTag("code")}</h3><div id="aRes"></div></div>`;
+  }
+  function accRes(msg) {
+    const box = document.getElementById("aRes"); if (!box) return;
+    if (!D.dd) { box.innerHTML = `<p class="muted">${acx("none")}</p>`; return; }
+    if (!DDL) {
+      box.innerHTML = `<div class="row ddpw"><input id="aPw" type="password" placeholder="${esc(acx("pw"))}" autocomplete="current-password"><button class="btn primary" id="aOpen">${acx("open")}</button></div>${msg ? `<p class="bad small">${esc(msg)}</p>` : ""}`;
+      const go = async () => { const pw = document.getElementById("aPw").value; try { await ddUnlock(pw); try { localStorage.setItem("ddpw", pw); } catch (e) { /* ignore */ } accRes(); } catch (e) { accRes(acx("bad")); } };
+      document.getElementById("aOpen").onclick = go; document.getElementById("aPw").onkeydown = e => { if (e.key === "Enter") go(); };
+      return;
+    }
+    const L = DDL.filter(x => x.type === "accform" && (x.view || {}).table);
+    if (!L.length) { box.innerHTML = `<p class="muted">${acx("none")}</p>`; return; }
+    box.innerHTML = L.map((x, k) => { const tb = x.view.table;
+      return `<details class="acfd"${k ? "" : " open"}><summary><b>${esc(x.view.name || x.title)}</b> <span class="muted small">${esc(x.view.isin || "")} · ${esc(x.date)}</span></summary>
+        <div class="tbl-wrap"><table class="small"><tr>${tb.cols.map(c => `<th>${esc(c)}</th>`).join("")}</tr>${tb.rows.map(r => `<tr>${r.map((v, i) => `<td>${i === 1 ? `<b>${esc(v)}</b>` : esc(v)}</td>`).join("")}</tr>`).join("")}</table></div>
+        <p class="row"><button class="btn sm" data-axl="${esc(x.id)}">${acx("xl")}</button> <button class="btn sm" data-dd="${esc(x.id)}">⬇ ${acx("dl")}</button></p></details>`; }).join("");
+    box.querySelectorAll("[data-dd]").forEach(b => b.onclick = () => ddDownload(b.dataset.dd));
+    box.querySelectorAll("[data-axl]").forEach(b => b.onclick = () => { const tb = DDL.find(x => x.id === b.dataset.axl).view.table;
+      navigator.clipboard.writeText([tb.cols, ...tb.rows].map(r => r.map(v => String(v).replace(/\s+/g, " ")).join("\t")).join("\n")).then(() => toast(acx("copied"), "ok"), () => toast(wx("fail"), "bad")); });
+  }
+  async function initAcc() {
+    const m = document.getElementById("aMail"); if (!m) return;
+    const upd = () => { const v = m.value.trim(); document.getElementById("aPrompt").textContent = v ? acx("prompt")(v) : acx("empty"); document.getElementById("aBtn").innerHTML = v ? promptBtn(acx("prompt")(v)) : ""; };
+    m.oninput = () => { try { localStorage.setItem("accMail", m.value); } catch (e) { /* ignore */ } upd(); };
+    document.getElementById("aClr").onclick = () => { m.value = ""; try { localStorage.removeItem("accMail"); } catch (e) { /* ignore */ } upd(); };
+    upd();
+    if (!DDL && D.dd) { let pw = null; try { pw = localStorage.getItem("ddpw"); } catch (e) { /* ignore */ } if (pw) { try { await ddUnlock(pw); } catch (e) { /* ignore */ } } }
+    accRes();
+  }
+
   function route() {
     const [page, arg, sec] = (location.hash.slice(1) || "overview").split("/");
     const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (arg && arg !== "bond") { location.replace("#funds/" + arg); return ""; } DKIND = "bond"; return ddPage(); },
-      funds: fundsPage,
+      funds: fundsPage, acc: accPage,
       portfolio: () => portfolioPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => portfolioPage(arg), isin: () => portfolioPage(), tools, about };
-    const cur = map[page] ? (page === "issuer" || page === "dd" ? "issuers" : ["isin", "securities"].includes(page) ? "portfolio" : page) : "overview";
+    const cur = map[page] ? (page === "issuer" || page === "dd" || page === "acc" ? "issuers" : ["isin", "securities"].includes(page) ? "portfolio" : page) : "overview";
     document.querySelectorAll("#nav a").forEach(a => { const k = a.dataset.k; a.textContent = k === "esg" ? "ESG" : AX.en[k] ? ax(k) : t(k); a.classList.toggle("on", a.getAttribute("href").slice(1) === cur); });
     const nm = document.querySelector(".navmore"); if (nm) { nm.open = false; nm.querySelector("summary").textContent = t("moreNav") + " ▾"; nm.classList.toggle("on", !!nm.querySelector("a.on")); }
     document.querySelector(".brand").textContent = LANG === "lt" ? "Investicijų peržiūra" : "Investment review"; document.title = document.querySelector(".brand").textContent;
