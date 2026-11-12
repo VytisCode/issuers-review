@@ -1,12 +1,12 @@
 {
  "news": {
   "date": "2026-11-12",
-  "new": 29,
+  "new": 0,
   "errors": []
  },
  "filings": {
   "date": "2026-11-12",
-  "new": 1,
+  "new": 0,
   "baseline": 0,
   "errors": [
    "luminor: https://luminor.lv/en/financial-reports: HTTP Error 403: Forbidden",
@@ -15,13 +15,6 @@
  },
  "market": {
   "date": "2026-11-12",
-  "errors": [
-   "ecb_dfr: HTTP Error 503: Service Temporarily Unavailable",
-   "euribor_3m: HTTP Error 503: Service Temporarily Unavailable",
-   "euribor_6m: HTTP Error 503: Service Temporarily Unavailable",
-   "euribor_12m: HTTP Error 503: Service Temporarily Unavailable",
-   "ea_10y: HTTP Error 503: Service Temporarily Unavailable",
-   "ea_hicp: HTTP Error 503: Service Temporarily Unavailable"
-  ]
+  "errors": []
  }
 }

@@ -26,7 +26,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-09,EE3300004993,101.54,102,101.54,5.7586,5.68736,3,3093.6,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
 2026-11-10,EE3300004993,100.7,101.8,101.53,5.88968,5.71823,5,18584.2,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
 2026-11-11,EE3300004993,100.7,101.66,100.7,5.88974,5.73995,1,1006.67,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
-2026-11-12,EE3300004993,100.7,101.66,,5.88959,5.73968,,,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
+2026-11-12,EE3300004993,100.1,101.66,100.7,5.98416,5.73968,3,10071.7,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
 2026-10-23,LT0000134439,,100,,,7.98584,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
 2026-10-26,LT0000134439,,100,,,7.98601,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
 2026-10-27,LT0000134439,,100,,,7.98618,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
@@ -121,7 +121,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-09,XS2177349912,,93.5371,,,4,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
 2026-11-10,XS2177349912,,93.5417,,,4,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
 2026-11-11,XS2177349912,,93.5464,,,4,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
-2026-11-12,XS2177349912,92.75,93.4066,,4.26461,4.05,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
+2026-11-12,XS2177349912,,93.4066,,,4.05,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
 2026-10-23,XS3046302488,100,101.25,,5.98614,5.58901,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
 2026-10-26,XS3046302488,100,,,5.98611,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
 2026-10-27,XS3046302488,100,101,,5.98609,5.66742,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
