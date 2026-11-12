@@ -78,6 +78,20 @@ def check(s, data, ext):
     return None
 
 
+def list_pdf(lines):
+    """Šaltinių sąrašas (kas atsisiųsta, kas ne ir kodėl) – PDF per Chrome; None, jei Chrome nėra."""
+    import html as H
+    import tempfile
+    if not A.CHROME:
+        return None
+    rows = "".join(f"<p>{H.escape(x)}</p>" for x in lines)
+    with tempfile.TemporaryDirectory() as td:
+        f = Path(td) / "list.html"
+        f.write_text(f"<html><head><meta charset='utf-8'><style>@page{{size:A4;margin:14mm}} body{{font-family:Arial;font-size:9pt}} p{{margin:3px 0}}</style></head><body>{rows}</body></html>", encoding="utf-8")
+        data, ext = A.as_pdf(f.as_uri(), f.read_bytes(), ".html")
+    return data if ext == ".pdf" else None
+
+
 def _timeout(*_):
     raise TimeoutError("per ilgai (> 150 s)")
 
@@ -94,10 +108,8 @@ def run():
         with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as z:
             for s in job["sources"]:
                 line = f"[{s['key']}] {s['title']}" + (f" - {s['url']}" if s.get("url") else "")
-                if s.get("note"):  # konfidencialus gautas dokumentas: tik nuoroda, kur jį rasti
-                    fn = f"{s['key']}_{A.safe(s['title'], 60)}_NOT_INCLUDED.txt"
-                    z.writestr(fn, f"[{s['key']}] {s['title']}\n\n{s['note']}\n")
-                    lines.append(line + f"  -> {fn} (neįtraukta: {s['note']})")
+                if s.get("note"):  # neperskaitytas (paywall) ar konfidencialus: tik sąraše „00_Source_list.pdf“ su priežastimi
+                    lines.append(line + f"  -> NOT INCLUDED: {s['note']}")
                     continue
                 if s.get("received"):  # gautas dokumentas: failas yra užšifruotame gautų dokumentų ZIP (dd_vault.py sources)
                     lines.append(line + f"  -> {s['received']} (gautas dokumentas; dashboard'as prideda jį į šį ZIP atsisiuntimo metu)")
@@ -128,7 +140,12 @@ def run():
                     signal.alarm(0)
                 print(f"  {s['key']}: {lines[-1].split('  ')[-1][:90]}", flush=True)
                 time.sleep(1)
-            z.writestr("_saltiniai.txt", "\n".join(lines) + "\n")
+            # savininkas 2026-11-12: ZIP'e tik PDF ir Excel – sąrašas PDF (Chrome); nepavykus – tekstas kaip anksčiau
+            pdf = list_pdf(lines)
+            if pdf:
+                z.writestr("00_Source_list.pdf", pdf)
+            else:
+                z.writestr("_saltiniai.txt", "\n".join(lines) + "\n")
         zid = V.add_bytes(buf.getvalue(), {"type": "zip", "parent": job["parent"], "file": job["name"], "docs": ok})
         job["problems"] = [{"key": k, "why": w} for k, w in bad]
         zips[zid] = job["parent"]

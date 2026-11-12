@@ -1532,12 +1532,37 @@
     if (g) { const x = (DDL || []).find(y => y.id === g.dataset.bgo); if (x) bundleGet(x); }
   });
   // dokumentų ZIP (šaltiniai, update.yml) ir įrodymų ZIP (išrašai, savi skaičiavimai) prie paieškos / peržiūros
+  // savininkas 2026-11-12: visur tik du mygtukai – pats darbas (DD) ir VIENAS „Documents and calculations (ZIP)“:
+  // dokumentų ZIP (update.yml) + gauti failai (received) + skaičiavimai (evidence) sujungiami atsisiuntimo metu, paliekami tik PDF ir Excel
+  function zipsOf(id) {
+    const par = z => (D.dd.zips || {})[z.id] || z.parent, me = (DDL || []).find(x => x.id === id);
+    let zs = (DDL || []).filter(z => z.type === "zip" && par(z) === id);
+    // tas pats DD kita kalba (tas pats ISIN ir data) naudoja tą patį dokumentacijos ZIP
+    if (!zs.length && me) zs = (DDL || []).filter(z => { if (z.type !== "zip") return false; const p = DDL.find(x => x.id === par(z)); return p && p.id !== id && p.isin && p.isin === me.isin && p.date === me.date; });
+    return zs;
+  }
   function zipBtns(id) {
-    let zs = (DDL || []).filter(z => z.type === "zip" && ((D.dd.zips || {})[z.id] || z.parent) === id).sort((a, b) => (a.kind === "evidence") - (b.kind === "evidence"));
-    if (zs.some(z => !z.kind)) zs = zs.filter(z => z.kind !== "received");  // gauti failai pridedami prie dokumentų ZIP atsisiuntimo metu
-    const docs = zs.some(z => !z.kind);
-    return zs.map(z => ` <button class="btn sm" data-dd="${esc(z.id)}">⬇ ${z.kind === "evidence" ? scx("evz") : da("zip")}</button>`).join("") +
-      (!docs && (D.dd.pending || []).includes(id) ? ` <span class="muted small">${da("zipWait")}</span>` : "");
+    const zs = zipsOf(id);
+    return zs.length ? ` <button class="btn sm" data-dd="all:${esc(id)}">⬇ ${da("zip")}</button>` + (!zs.some(z => !z.kind) && (D.dd.pending || []).includes(id) ? ` <span class="muted small">${da("zipWait")}</span>` : "")
+      : (D.dd.pending || []).includes(id) ? ` <span class="muted small">${da("zipWait")}</span>` : "";
+  }
+  const KEEP = /\.(pdf|xlsx|xls)$/i;
+  async function allZipDownload(id) {
+    const me = DDL.find(x => x.id === id), zs = zipsOf(id); if (!zs.length) return;
+    try {
+      await loadJs("https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js");
+      const out = new JSZip(); let n = 0;
+      for (const z of zs) {
+        const zz = await JSZip.loadAsync(await ddFetch(z.id));
+        for (const f of Object.keys(zz.files)) {
+          const e = zz.files[f]; if (e.dir || !KEEP.test(f) || /(^|\/)(__|\.)/.test(f)) continue;
+          const name = f.split("/").pop(); if (out.file(name)) continue;
+          out.file(name, await e.async("uint8array")); n++;
+        }
+      }
+      const base = String((me && me.file) || id).replace(/\.[a-z]+$/i, "");
+      saveBlob(await out.generateAsync({ type: "blob" }), `${base}_documents_and_calculations.zip`);
+    } catch (e) { alert(da("dlFail")); }
   }
   const ISINRE = /\b[A-Z]{2}[A-Z0-9]{9}\d\b/;
   function screenView(x) {
@@ -1663,11 +1688,11 @@
   /* Atlikti DD - užšifruotas archyvas (tools/dd_vault.py). Slaptažodis tik naršyklėje (jei pažymėta „Prisiminti“). */
   const DA = {
     en: { h: "Completed DDs", sub: "The files are encrypted – the public website cannot read them. Enter the password once; with “Remember on this computer” it is stored only in this browser.",
-      zip: "Documents (ZIP)", zipWait: "ZIP is being prepared (a few minutes)", dlFail: "Download failed – the archive was just updated. Reload the page in a few minutes (Ctrl+F5) and try again.",
+      zip: "Documents and calculations (ZIP)", zipWait: "ZIP is being prepared (a few minutes)", dlFail: "Download failed – the archive was just updated. Reload the page in a few minutes (Ctrl+F5) and try again.",
       pw: "Password", open: "Unlock", rem: "Remember on this computer", forget: "Forget password", bad: "Wrong password.", none: "No DDs yet.", dl: "Download", lost: "Forgot the password? Write to Claude: “Create a new DD password” – all DDs are re-encrypted from the project files, nothing is lost.",
       cols: ["Date", "Issuer", "ISIN", "Document", "Language", "Decision", "SFDR", ""] },
     lt: { h: "Atlikti DD", sub: "Failai užšifruoti – vieša svetainė jų perskaityti negali. Įveskite slaptažodį vieną kartą; pažymėjus „Prisiminti šiame kompiuteryje“, jis saugomas tik šioje naršyklėje.",
-      zip: "Dokumentai (ZIP)", zipWait: "ZIP ruošiamas (kelios minutės)", dlFail: "Nepavyko atsisiųsti – archyvas ką tik atnaujintas. Po kelių minučių perkraukite puslapį (Ctrl+F5) ir bandykite dar kartą.",
+      zip: "Dokumentai ir skaičiavimai (ZIP)", zipWait: "ZIP ruošiamas (kelios minutės)", dlFail: "Nepavyko atsisiųsti – archyvas ką tik atnaujintas. Po kelių minučių perkraukite puslapį (Ctrl+F5) ir bandykite dar kartą.",
       pw: "Slaptažodis", open: "Atrakinti", rem: "Prisiminti šiame kompiuteryje", forget: "Pamiršti slaptažodį", bad: "Neteisingas slaptažodis.", none: "DD dar nėra.", dl: "Atsisiųsti", lost: "Pamiršote slaptažodį? Parašykite Claude: „Sukurk naują DD slaptažodį“ – visi DD bus užšifruoti iš naujo iš projekto failų, niekas neprarandama.",
       cols: ["Data", "Emitentas", "ISIN", "Dokumentas", "Kalba", "Sprendimas", "SFDR", ""] }
   };
@@ -1699,6 +1724,7 @@
   // dokumentų ZIP = atsisiųsti vieši šaltiniai (update.yml) + savininko pateikti failai (kind received, D#, KIID...):
   // atsisiunčiant sujungiami į vieną failą, kad šaltinių sąrašas ir ZIP sutaptų 1:1 (savininkas 2026-11-01)
   async function ddDownload(id) {
+    if (String(id).startsWith("all:")) return allZipDownload(id.slice(4));
     const it = DDL.find(x => x.id === id); if (!it) return;
     let data;
     try { data = await ddFetch(id); } catch (e) { alert(da("dlFail")); return; }
@@ -1725,16 +1751,12 @@
   function ddArchHtml(msg) {
     if (!DDL) return `<div class="row ddpw"><input id="ddPw" type="password" placeholder="${esc(da("pw"))}" autocomplete="current-password"><label class="chk small"><input type="checkbox" id="ddRem" checked> ${da("rem")}</label><button class="btn primary" id="ddOpen">${da("open")}</button></div>
       ${msg ? `<p class="bad small">${esc(msg)}</p>` : ""}<p class="muted small">${da("lost")}</p>`;
-    const docs = DDL.filter(x => !["zip", "screen", "challenge", "fundreview", "portfolio", "accform"].includes(x.type) && (DKIND === "bond") !== /\.pptx$/i.test(x.file || "")), zipOf = id => {
-      const par = z => (D.dd.zips || {})[z.id] || z.parent, me = DDL.find(x => x.id === id);
-      // tas pats DD kita kalba (tas pats ISIN ir data) naudoja tą patį dokumentacijos ZIP
-      return DDL.find(z => z.type === "zip" && !z.kind && par(z) === id) || DDL.find(z => z.type === "zip" && z.kind === "received" && par(z) === id) || DDL.find(z => { if (z.type !== "zip" || z.kind) return false; const p = DDL.find(x => x.id === par(z)); return p && me && p.isin === me.isin && p.date === me.date; });
-    };
+    const docs = DDL.filter(x => !["zip", "screen", "challenge", "fundreview", "portfolio", "accform"].includes(x.type) && (DKIND === "bond") !== /\.pptx$/i.test(x.file || ""));
     if (!docs.length) return `<p class="muted">${da("none")}</p>${screenList()}`;
     const c = da("cols");
-    const zb = x => { const z = zipOf(x.id); return z ? ` <button class="btn sm" data-dd="${esc(z.id)}">⬇ ${da("zip")}</button>` : (D.dd.pending || []).includes(x.id) ? ` <span class="muted small">${da("zipWait")}</span>` : ""; };
+    const zb = x => zipBtns(x.id);
     return `<div class="tbl-wrap"><table><tr>${c.map(x => `<th>${x}</th>`).join("")}</tr>${docs.map(x => `<tr><td>${esc(x.date)}</td><td>${byId[x.issuer] ? `<a href="#issuer/${x.issuer}">${esc(x.name)}</a>` : esc(x.name)}</td><td>${esc(x.isin)}</td><td>${esc(x.title)}</td><td>${esc(String(x.lang).toUpperCase())}</td><td>${esc(x.decision)}</td><td>${esc(x.sfdr)}</td>
-      <td class="nw"><button class="btn sm" data-dd="${esc(x.id)}">⬇ ${da("dl")}</button>${zb(x)}</td></tr>`).join("")}</table></div>
+      <td class="nw"><button class="btn sm" data-dd="${esc(x.id)}">⬇ DD</button>${zb(x)}</td></tr>`).join("")}</table></div>
       ${screenList()}<p class="small"><button class="btn sm" id="ddForget">${da("forget")}</button></p>`;
   }
   async function initDdArch(msg) {
@@ -2008,7 +2030,7 @@
     const nx = fNext(f), x0 = id => DDL.find(y => y.id === id);
     const act = e => { const x = x0(e.id); if (!x) return "";
       const view = x.view ? `<a class="btn sm" href="#funds/done/${x.id}">View</a> ` : "";
-      const dl = (x.view || {}).bundle ? `<a class="btn sm" href="#funds/done/${x.id}">⬇ Download</a>` : `<button class="btn sm" data-dd="${esc(x.id)}">⬇ ${esc(String(x.file || "file").split(".").pop().toUpperCase())}</button>`;
+      const dl = (x.view || {}).bundle ? `<a class="btn sm" href="#funds/done/${x.id}">⬇ Download</a>` : `<button class="btn sm" data-dd="${esc(x.id)}">⬇ ${!x.type || x.type === "dd" ? "DD" : esc(String(x.file || "file").split(".").pop().toUpperCase())}</button>`;
       return view + dl + zipBtns(x.id); };
     const plans = (f.plan || []).map(p => `<tr class="fplan"><td class="nw">${fDate(p.date)}</td><td>Planned: ${esc(p.what)}</td><td></td><td class="nw"><a class="btn sm ai" href="#funds/task/${p.task || "challenge"}/${isin}">Start →</a></td></tr>`).join("");
     return `${head}<h1>${esc(f.name || isin)}</h1><p class="sub">${esc(isin)}</p>
