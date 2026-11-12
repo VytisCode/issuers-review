@@ -1,6 +1,6 @@
 {
- "parent": "76a4c4e5559683bb",
- "name": "DD_Funds_AQR_Delphi_Fusion_LU3310553956_2026-10-30_documents.zip",
+ "parent": "998c28ed2e4d0d80",
+ "name": "DD_Funds_AQR_Delphi_Fusion_LU3310553956_2026-11-12_documents.zip",
  "sources": [
   {
    "key": "E1",
@@ -112,6 +112,14 @@
    "note": "Headline only – the full text is behind a login / paywall and was not read. Listed for reference; not used as evidence (facts are supported by the other sources cited next to it).\nLink: https://bloomberg.com/news/articles/2026-04-17/short-seller-targets-aqr-backer-over-tax-loss-harvesting"
   },
   {
+   "key": "N9",
+   "title": "InvestmentNews – “Markets plunge: Nasdaq enters correction as AI stocks sink after midterm elections”, 05.11.2026",
+   "url": "https://www.investmentnews.com/equities/nasdaq-enters-correction-as-ai-stocks-sink-after-midterm-elections/268903",
+   "expect": [
+    "Nasdaq"
+   ]
+  },
+  {
    "key": "P1",
    "title": "AQR UCITS Funds II – Prospectus 21.04.2026 (general part; Supplement 1 pp.107–137), text copy received from the owner – page numbers as printed",
    "received": "P1_AQR_UCITS_Funds_II__Prospectus_21.04.2026_general_part_Suppl.txt"
@@ -161,7 +169,5 @@
    "title": "SEB Manager Selection – AQR Fusion Delphi Global Equities assessment, 10.02.2026 (internal)",
    "received": "D8_SEB_Manager_Selection__AQR_Fusion_Delphi_Global_Equities_ass.pdf"
   }
- ],
- "problems": [],
- "done": "76926c02a3c2b905"
+ ]
 }
