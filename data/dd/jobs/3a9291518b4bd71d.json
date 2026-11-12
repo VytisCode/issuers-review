@@ -1,5 +1,5 @@
 {
- "parent": "998c28ed2e4d0d80",
+ "parent": "3a9291518b4bd71d",
  "name": "DD_Funds_AQR_Delphi_Fusion_LU3310553956_2026-11-12_documents.zip",
  "sources": [
   {
@@ -121,8 +121,8 @@
   },
   {
    "key": "P1",
-   "title": "AQR UCITS Funds II – Prospectus 21.04.2026 (general part; Supplement 1 pp.107–137), text copy received from the owner – page numbers as printed",
-   "received": "P1_AQR_UCITS_Funds_II__Prospectus_21.04.2026_general_part_Suppl.txt"
+   "title": "AQR UCITS Funds II – Prospectus 21.04.2026 (general part; Supplement 1 pp.106–136), text copy received from the owner, as PDF: PDF page = printed page number",
+   "received": "P1_AQR_UCITS_Funds_II__Prospectus_21.04.2026_general_part_Suppl.pdf"
   },
   {
    "key": "K1",
@@ -169,7 +169,5 @@
    "title": "SEB Manager Selection – AQR Fusion Delphi Global Equities assessment, 10.02.2026 (internal)",
    "received": "D8_SEB_Manager_Selection__AQR_Fusion_Delphi_Global_Equities_ass.pdf"
   }
- ],
- "problems": [],
- "done": "60c1e790ad1755d2"
+ ]
 }
