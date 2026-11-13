@@ -1,0 +1,105 @@
+{
+ "parent": "12ebb5eed9631334",
+ "name": "DD_Funds_Robeco_QI_Global_Developed_Active_LU1783222901_2026-11-13_documents.zip",
+ "sources": [
+  {
+   "key": "N1",
+   "title": "Robeco – “AFM imposes a fine on Robeco”, 08.04.2022",
+   "url": "https://www.robeco.com/en-int/media/news/afm-imposes-a-fine-on-robeco",
+   "expect": [
+    "AFM"
+   ]
+  },
+  {
+   "key": "N2",
+   "title": "Robeco – “AFM confirms Robeco has brought all the CDD processes … up to the expected standard”, 29.07.2022",
+   "url": "https://www.robeco.com/en-int/media/news/afm-confirms-robeco-has-brought-all-the-cdd-processes-for-its-dutch-direct-retail-fund-distribution-activities-up-to-the-expected-standard",
+   "expect": [
+    "AFM"
+   ]
+  },
+  {
+   "key": "N3",
+   "title": "BijzonderStrafrecht.nl – “Robeco voldoet tijdig aan gedragslijnen last onder dwangsom Wwft”, 19.08.2022",
+   "url": "https://www.bijzonderstrafrecht.nl/home/robeco-voldoet-tijdig-aan-gedragslijnen-last-onder-dwangsom-wwft-1",
+   "expect": [
+    "Robeco"
+   ]
+  },
+  {
+   "key": "N4",
+   "title": "Robeco – press release “Robeco publishes integrated annual report 2025”, 28.04.2026",
+   "url": "https://www.robeco.com/en-int/media/press-release/robeco-publishes-integrated-annual-report-2025",
+   "expect": [
+    "annual report"
+   ]
+  },
+  {
+   "key": "W1",
+   "title": "Robeco – fund page Robeco QI Global Developed Active Equities I EUR (fund managers, share classes), read 13.11.2026",
+   "url": "https://www.robeco.com/en-int/products/funds/isin-lu1783222901/robeco-qi-global-developed-active-equities-i-eur",
+   "expect": [
+    "Global Developed Active"
+   ]
+  },
+  {
+   "key": "A2",
+   "title": "Robeco Capital Growth Funds – Portfolio Manager delegation list, dated 28.11.2025",
+   "url": "https://www.robeco.com/files/docm/pros-cgf-delegation-list.pdf",
+   "expect": [
+    "Delegation",
+    "Robeco"
+   ]
+  },
+  {
+   "key": "P1",
+   "title": "Robeco Capital Growth Funds – Prospectus, 2 November 2026 (sub-fund n) Appendix I pp.117–119; SFDR annex pp.545–552); PDF page = printed page",
+   "url": "https://www.robeco.com/files/doca/pros-robeco-capital-growth-funds-en.pdf"
+  },
+  {
+   "key": "K1",
+   "title": "Key Information Document, Robeco QI Global Developed Active Equities I EUR (LU1783222901), 30.04.2026",
+   "url": "https://www.robeco.com/files/doca/cgf_gdaq_i-prip-202604-profgloben.pdf"
+  },
+  {
+   "key": "F1",
+   "title": "Factsheet, Robeco QI Global Developed Active Equities I EUR, figures as of 31.10.2026",
+   "url": "https://www.robeco.com/files/doca/CGF_GDAQ_I-fact-202610-profgloben.pdf"
+  },
+  {
+   "key": "E1",
+   "title": "SFDR pre-contractual disclosure (Article 8), Robeco QI Global Developed Active Equities, 16.07.2026",
+   "url": "https://www.robeco.com/files/doca/pcdp-robeco-qi-global-developed-active-equities-en.pdf"
+  },
+  {
+   "key": "E2",
+   "title": "SFDR periodic disclosure 2025 (Annex IV), Robeco QI Global Developed Active Equities",
+   "url": "https://www.robeco.com/files/doca/sper-robeco-qi-global-developed-active-equities-en.pdf"
+  },
+  {
+   "key": "A1",
+   "title": "Robeco Capital Growth Funds – Annual report 2025 (audited), 31.12.2025",
+   "url": "https://www.robeco.com/files/doca/annu-2025-robeco-capital-growth-funds-en.pdf"
+  },
+  {
+   "key": "D1",
+   "title": "Owner-provided, internal comparison tables of quantitative equity funds (IQGA, IQSA, AQR, Sarto, Robeco), received 13.11.2026",
+   "received": "D1_Owner-provided_internal_comparison_tables_of_quantitative_eq.pdf"
+  },
+  {
+   "key": "D2",
+   "title": "Owner-provided, Copilot summary of the Robeco presentation “Robeco QI Momentum Equities” (10/2026), received 13.11.2026",
+   "received": "D2_Owner-provided_Copilot_summary_of_the_Robeco_presentation_Ro.pdf"
+  },
+  {
+   "key": "D3",
+   "title": "Owner-provided, Copilot summary of internal correspondence on Robeco / Invesco / AQR quant strategies, received 13.11.2026",
+   "received": "D3_Owner-provided_Copilot_summary_of_internal_correspondence_on.pdf"
+  },
+  {
+   "key": "D4",
+   "title": "Owner-provided, text copied from the Robeco presentation “Robeco QI Active Equities”, October 2026, prepared for SEB (marketing material; composite returns gross of fees), received 13.11.2026; PDF page = part of the copied text, each part starts at a slide-number marker",
+   "received": "D4_Owner-provided_text_copied_from_the_Robeco_presentation_Robe.pdf"
+  }
+ ]
+}
