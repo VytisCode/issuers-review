@@ -1,12 +1,12 @@
 {
  "news": {
-  "date": "2026-11-12",
-  "new": 0,
+  "date": "2026-11-13",
+  "new": 16,
   "errors": []
  },
  "filings": {
-  "date": "2026-11-12",
-  "new": 0,
+  "date": "2026-11-13",
+  "new": 1,
   "baseline": 0,
   "errors": [
    "luminor: https://luminor.lv/en/financial-reports: HTTP Error 403: Forbidden",
@@ -14,7 +14,7 @@
   ]
  },
  "market": {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "errors": []
  }
 }
