@@ -101,5 +101,24 @@
    "title": "Owner-provided, text copied from the Robeco presentation “Robeco QI Active Equities”, October 2026, prepared for SEB (marketing material; composite returns gross of fees), received 13.11.2026; PDF page = part of the copied text, each part starts at a slide-number marker",
    "received": "D4_Owner-provided_text_copied_from_the_Robeco_presentation_Robe.pdf"
   }
- ]
+ ],
+ "problems": [
+  {
+   "key": "N1",
+   "why": "beveik tuščias (89 simb.)"
+  },
+  {
+   "key": "N2",
+   "why": "beveik tuščias (89 simb.)"
+  },
+  {
+   "key": "N4",
+   "why": "beveik tuščias (89 simb.)"
+  },
+  {
+   "key": "W1",
+   "why": "beveik tuščias (89 simb.)"
+  }
+ ],
+ "done": "d32036f0fe348b9d"
 }
