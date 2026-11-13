@@ -1,0 +1,307 @@
+=== pdf p.1 ===
+Sustainability-related disclosures for
+Robeco Capital Growth Funds - Robeco QI Global
+Developed Active Equities
+This document provides you with information about this product in relation to the Sustainable Finance
+Disclosure Regulation. It is not marketing material. The information is required by law to help you understand
+the sustainability characteristics and/or objectives and risks of this product. You are advised to read it in
+conjunction with other relevant documentation on this product so you can make an informed decision about
+whether to invest.
+
+ (b)No sustainable investment objective
+ This financial product promotes environmental or social characteristics, but does not have as its objective sustainable
+ investment.
+ Where product aims to make one or more sustainable investments explain how the indicators for adverse impacts in
+ Table 1 of Annex I, and any relevant indicators in Tables 2 and 3 of that Annex I, are taken into account?
+ The Sub-fund considers principal adverse impacts on sustainability factors as referred to in Annex I of the SFDR
+ Delegated Act.
+
+ Pre-investment, the following principal adverse impacts on sustainability factors are considered:
+
+ o Via the applied normative and activity-based exclusions, the following PAIs are considered:
+ - Exposure to companies active in the fossil fuel sector (PAI 4, Table 1)
+ - Violations of the UN Global Compact Principles and Organisation for Economic Cooperation and Development (OECD)
+ Guidelines for Multinational Enterprises (PAI 10, Table 1)
+ - Activities negatively affecting biodiversity-sensitive areas (PAI 7, Table 1). The consideration of this PAI is currently
+ restricted to applying exclusions to palm oil producing companies and for any breaches to the UNGC, UNGP and OECD
+ Guidelines for Multinational Enterprises in relation to biodiversity.
+ - Exposure to controversial weapons (anti-personnel mines, cluster munitions, chemical weapons (PAI 14, Table 1)
+
+ o Via the environmental footprint performance targets of the Sub-fund, the following PAIs are considered:
+ - Carbon footprint (PAI 2, Table 1)
+ - Water and waste indicators (PAI 7-9, Table 1). Robeco will use on water and waste footprints until data quality and
+ coverage of the PAIs will improve.
+
+ Post-investment, the following principal adverse impacts on sustainability factors are taken into account:
+
+ o Via the application of the voting policy, the following PAIs are considered:
+ - All indicators related to GHG emissions (PAI 1-6, Table 1)
+ - Indicators related to social and employee matters (PAI 10-13, Table 1; PAI 5-8, Table 3)
+
+ o Via Robeco's entity engagement program, the following PAIs are considered:
+ - All indicators related to Climate and other environment-related indicators (PAI 1-9, Table 1)
+ - Violations of the UN Global Compact Principles and Organisation for Economic Cooperation and Development (OECD)
+ Guidelines for Multinational Enterprises (PAI 10, Table 1)
+ - In addition, based on a yearly review of Robeco's performance on all mandatory and selected voluntary indicators,
+ holdings of the Sub-fund that cause adverse impact might be selected for engagement.
+ More information is available via Robeco's Principal Adverse Impact Statement.
+ Are the sustainable investments aligned with the OECD Guidelines for Multinational Enterprises and the UN Guiding
+ Principles on Business and Human Rights, including the principles and rights set out in the eight fundamental
+ conventions identified in the Declaration of the International Labour Organisation on Fundamental Principles and
+ Rights at Work and the International Bill of Human Rights?
+ The sustainable investments are aligned with the OECD Guidelines for Multinational Enterprises and the UN Guiding
+ Principles on Business and Human Rights via both Robeco's Exclusion Policy and Robeco's SDG Framework.
+
+
+                                                                                                            Date: 16/7/2026
+
+=== pdf p.2 ===
+Robeco's Exclusion Policy includes an explanation of how Robeco acts in accordance with the International Labor
+Organization (ILO) standards, United Nations Guiding Principles (UNGPs), United Nations Global Compact (UNGC)
+Principles and the Organization for Economic Co-operation and Development (OECD) Guidelines for Multinational
+Enterprises and is guided by these international treaties to assess the behavior of companies. Robeco continuously
+screens its investments for breaches of these principles. In case of a breach, the company will be excluded or engaged
+with, and is not considered a sustainable investment.
+
+Robeco's SDG Framework screens for breaches on these principles in the final step of the framework. In this step,
+Robeco checks whether the company concerned has been involved in any controversies. Involvement in any controversy
+will result in a negative SDG score for the company, meaning it is not a sustainable investment.
+
+
+(c) Environmental or social characteristics of the financial product
+What are the environmental or social characteristics that the financial products promotes?
+The Sub-fund has the following E/S characteristics:
+1. The Sub-fund promotes good governance and sustainable corporate practices through proxy voting, which contributes
+to long-term shareholder value creation. This includes taking an active stance on social and environmental topics
+through Robeco's proxy voting policy.
+2. The Sub-fund promotes certain minimum environmental and social safeguards through applying exclusion criteria with
+regards to products and business practices that Robeco believes are detrimental to society, such as exposure to
+controversial behaviour, controversial weapons, and certain fossil fuel-related activities.
+3. The Sub-fund promotes having a lower carbon footprint than the general market index referred to in Appendix VI –
+Benchmarks (the "General Market Index").
+4. The Sub-fund promotes having a lower environmental footprint than the General Market Index.
+5. The Sub-fund promotes adherence to and conducting business activities in accordance with the United Nations
+Universal Declaration of Human Rights, the International Labor Organization's (ILO) labor standards, the United Nations
+Guiding Principles for Business and Human Rights (UNGPs), the United Nations Global Compact (UNGC) and the OECD
+Guidelines for Multinational Enterprises, by scrutinizing companies that violate these principles.
+6. The Sub-fund promotes having a weighted average ESG score that is better than that of the General Market Index.
+7. The Sub-fund promotes having a larger share of companies with a positive SDG score (1,2,3) in the portfolio than the
+General Market Index.
+
+There is no reference benchmark designated for the purpose of attaining the environmental or social characteristics
+promoted by the Sub-fund.
+
+
+(d) Investment strategy
+What is the investment strategy used to meet the environmental or social characteristics promoted by the financial
+product?
+Robeco QI Global Developed Active Equities is an actively managed fund that invests in stocks in developed countries
+across the world. The selection of these stocks is based on a quantitative model as described in the Investment policy
+strategy paragraph in Appendix I of this Prospectus. The strategy integrates sustainability indicators on a continuous
+basis as part of the stock selection process. Amongst others, the Sub-fund applies norms-based and activity-based
+exclusions, Robeco's good governance policy, Robeco's SDG framework and considers Principal Adverse Impacts in the
+investment process. More product-specific information can be found on our website and the links provided in the final
+question of this disclosure.
+What is the policy to assess good governance practices of the investee companies, including with respect to sound
+management structures, employee relations, remuneration of staff and tax compliance?
+Robeco has a Good Governance policy to assess governance practices of companies. The policy describes how Robeco
+determines if and when a company does not follow good governance practices and is therefore excluded from the initial
+investment universe for the Sub-fund. Robeco's Good Governance policy applies tests on a set of governance criteria
+that reflect widely recognized industry established norms and include topics as employee relations, management
+structure, tax compliance and remuneration.
+The Good Governance test consists of criteria on such topics that are examined for investee companies and further
+explained in Robeco's Good Governance policy https://www.robeco.com/files/docm/docu-robeco-good-governance-
+policy.pdf. Additionally, the companies that do not pass the good governance test are reflected in the exclusion list that
+can be accessed here - https://www.robeco.com/files/docm/docu-exclusion-list.pdf.
+
+
+
+
+                                                                                                         Date: 16/7/2026
+
+=== pdf p.3 ===
+ (e) Proportion of investments
+Minimum Sustainable Investment: 50.0%
+
+
+
+
+                                                                                                   Taxonomy-aligned
+                                                             #1A Sustainable
+                                                             ≥ 50.0%
+                                  #1 Aligned with
+                                  E/S
+                                  characteristics                                                  Other Environmental
+                                  90.0%
+                                                              #1B Other E/S
+    Investments                                               characteristics
+                                #2 Other                      < 40.0%
+                                < 10.0%
+                                                                                                   Social
+
+
+
+
+ (f) Monitoring of environmental or social characteristics
+ How are the environmental or social characteristics promoted by the financial product and the sustainability
+ indicators used to measure the attainment of each of those environmental or social characteristics promoted by
+ the financial product monitored throughout the lifecycle of the financial product and what are the related internal
+ or external control mechanisms?
+
+ 1. The proxy voting policy is reviewed on an annual basis, including voting principles in relation to ESG topics. Changes to
+ the policy are presented to the Sustainability and Impact Strategy Committee. Voting behavior on ESG topics are
+ monitored in the first line. On an annual basis the implementation of the voting policy is tested as part of our ISAE
+ framework.
+ 2. All exclusions are coded in the Trading&Compliance module, through which investing in an excluded asset is not
+ possible. In addition, post-trade checks take place.
+ 3. The second line of defense (Investment Restrictions) monitors the environmental footprint (Carbon, Water, and Waste
+ Footprint) of the portfolio versus the reference index on a daily basis and facilitates pre-trade compliance.
+ 4. Engagement results are periodically assed by an internal and external audit. Unsuccessful engagement might lead to
+ exclusion. All exclusions are coded in the Trading & Compliance module, through which investing in an excluded asset is
+ not possible. In addition, post-trade checks take place.
+ 5. The second line of defense (Investment Restrictions) monitors the weighted average ESG score of the portfolio versus
+ the reference index on a daily basis and facilitates pre-trade compliance.
+ 6. The second line of defense (Investment Restrictions) monitors the portfolio and facilitates pre-trade compliance.
+
+
+
+ (g) Methodologies
+ What are the methodologies to measure how the social or environmental characteristics promoted by the financial
+ product are met?
+
+ Robeco maintains comprehensive methodology documents of our proprietary analytical frameworks on our website.
+ These whitepapers go into greater depth, provide further insight into data sources and processes applied within their
+ respective domains. More information in relation to these methodologies can be found at Robeco's Sustainability
+ Reports Policies.
+
+ In addition, for some social and environmental characteristics, Robeco relies on externally sourced content for which we
+ aim to select the best of breed vendor for each of our target characteristics. Each vendor will have its own approach and
+ set of internal processes, over which we have only limited influence as an end consumer. More information with regards
+ to these methodologies can be found at SFDR Data Disclosures document.
+
+
+
+
+                                                                                                            Date: 16/7/2026
+
+=== pdf p.4 ===
+(h) Data sources and processing
+• How are the data sources used to attain each of the environmental or social characteristics promoted by the
+financial product?
+• What measures are taken to ensure data quality?
+• How is data processed?
+• What is the proportion of data that are estimated?
+
+The following data sources are used:
+1. The proxy voting process uses data derived from internal processes, aided by content from Glass Lewis and ISS.
+2. The exclusion process uses several data sources such as Sustainalytics, RSPO (Roundtable on Sustainable Palm Oil),
+World Bank, and Freedom House, Fund for Peace and International Sanctions.
+3. The environmental footprint iscalculated based on Trucost environmental data.
+4. The enhanced engagement program uses data derived from the internal process.
+5. The ESG scores are based on Sustainalytics data.
+6. The SDG Framework uses data derived from the internal process.
+Robeco scrutinises the data quality of each provider during due diligence assessments, that includes reviewing the data
+model, performing statistical checks and evaluating coverage. Data processing takes places in different forms,
+the preference is always to have data acquisition as automated as possible to avoid any operational risks or unnecessary
+human intervention.
+
+It is currently complex to report sufficiently accurate yet broad numbers on the proportion of data that is estimated.
+Robeco has calculated the weighted proportion of assets covered per PAI within our standard equity and fixed income
+benchmarks. These figures have been calculated per provider and, where relevant, we used this coverage figure as a
+determining factor in our choice of vendor for that PAI since, ceteris paribus, we prefer higher coverage for our investible
+universe.
+
+Robeco intends to investigate a methodology for determining the proportion of data that has been internally enriched to
+support wider applications, e.g., by cascading to the broader corporate structure or using sector averages as proxies.
+Evaluating the proportion of vendor sourced data that is estimated remains a challenge due to insufficient metadata.
+
+More information in relation to data quality and processing can be found in the SFDR data disclosures available at
+Robeco's SFDR Data Disclosures.
+
+
+
+(i) Limitations to methodologies and data
+What are potential limitations to the methodologies or data sources and how do such limitations not affect how the
+environmental or social characteristics promoted by the financial product are met?
+
+The main limitation in terms of methodologies and data relates to the relative immaturity of corporate sustainability
+disclosure. In recent years, we have seen a marked increase in the availability of environmental and social data, largely
+driven by regulations such as the EU Corporate Sustainability Reporting Directive (CSRD) and the Taxonomy Regulation.
+It remains to be seen whether this trend will continue at the pace previously anticipated given the highly politicized
+nature of the topic.
+
+To address data gaps, we rely on a selection of external data providers. This introduces additional risks, as we must
+account for variations between providers. These include discrepancies in estimation methodologies, update frequency,
+and more foundational issues such as the treatment of corporate actions, security identifiers, and group structures.
+
+From a methodological perspective, we consistently observe divergence in how vendors approach specific environmental
+topics. For example, regarding GHG emissions, some providers combine corporate-reported data with modelled
+estimates, while others use different methodological bases. It is common to find significant differences in 'reported'
+values across providers, stemming from varying policies, quality assurance processes, and case-by-case judgements.
+This is a widely acknowledged concern, as noted in publications by industry associations and regulators, including
+EuroSIF and IOSCO, regarding the quality and transparency of ESG data.
+
+Carbon emissions are one of our primary environmental objectives, as this represents the most mature sustainability
+data theme, offering the most comprehensive coverage across our investment universe, despite the limitations noted
+above. To mitigate these data challenges, we conduct a thorough annual review of the Robeco-default carbon dataset, at
+the time of writing S&P Trucost, including a detailed impact assessment each time we transition to a new fiscal year's
+
+                                                                                                           Date: 16/7/2026
+
+=== pdf p.5 ===
+dataset. This rigorous verification process helps us identify and address anomalies, improving our confidence in the
+analyses we perform. Nonetheless, we acknowledge that significant data quality challenges persist even in this relatively
+more developed area of sustainability reporting.
+
+Further information on data and methodologies is available in our SFDR Data Disclosures document.
+
+
+(j) Due diligence
+What due diligence is carried out on the underlying assets of the financial product (including the internal and external
+controls)?
+
+Robeco has incorporated the sustainability aspects of the investment strategies into adequate investment due diligence
+processes and procedures for the selection and monitoring of investments, amongst others taking into account
+Robeco’s risk appetite and sustainability risk management policies.
+
+Specific details on investment due diligence are available in Robeco’s Investment Due Diligence Policy as described at
+Robeco's Sustainability Risk Policy.
+
+
+(k) Engagement policies
+What is the engagement policy applied, in the case that engagement is part of the environmental or social investment
+strategy (including any management procedures applicable to sustainability-related controversies in investee
+companies)?
+
+The holdings of the fund are subject to Robeco’s enhanced engagement program, that focuses on companies that
+severely breach minimum standards which Robeco has set out in terms of corporate behavior, climate and biodiversity.
+In evaluating corporate behavior, we expect companies to comply with internationally accepted codes of conduct for
+corporate governance, social responsibility, the environment and transparency such as the UN Global Compact and
+OECD Guidelines for Multinational Enterprises. In the areas of climate change and biodiversity, we expect companies to
+make sufficient progress against Robeco’s climate traffic light score or against the RSPO certification, respectively. The
+process for enhanced engagement theme selection is a formal part of our exclusion policy. Enhanced Engagement
+program includes the themes ‘Global controversy’, ‘Acceleration to Paris’, and ‘Palm oil’.
+
+The holdings of the fund are subject to the selection process of Robeco’s value engagement program, that consists of a
+constructive dialogue between investors and investee companies to discuss how they manage ESG risks and
+opportunities, as well as stakeholder impact. Although this type of engagement is not directly related to the sustainable
+investment objective of the fund, it can be that adverse sustainability impacts are addressed via the value engagement
+program. More information can be found in Robeco's Stewardship Policy Robeco's Stewardship Policy.
+More information can be found in Robeco's Stewardship Policy.
+
+
+
+(l) Designated reference benchmark
+Has an index has been designated as a reference benchmark to meet the environmental or social characteristics
+promoted by the financial product? If yes, how that index is aligned with the environmental or social characteristics
+promoted by the financial product, and where can one find information with regards to input data, methodologies
+used to select those data, the rebalancing methodologies and index calculations?
+
+There is no reference benchmark designated for the purpose of attaining the environmental or social characteristics
+promoted by the product.
+
+
+
+
+                                                                                                         Date: 16/7/2026
+

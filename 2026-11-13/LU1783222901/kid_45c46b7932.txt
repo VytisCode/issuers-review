@@ -1,0 +1,198 @@
+=== pdf p.1 ===
+Key Information Document
+
+Purpose: This document provides you with key information about this investment product. It is not marketing material. The information is required by law to help you understand the nature, risks, costs,
+potential gains and losses of this product and to help you compare it with other products.
+
+
+Product:              Robeco QI Global Developed Active Equities I EUR (LU1783222901)
+A Share Class of Robeco QI Global Developed Active Equities, a sub-fund of Robeco Capital Growth Funds - Company With Variable Capital (SICAV)
+https://www.robeco.com/ Call +31 10 224 1224 for more information. Robeco Institutional Asset Management B.V. is authorised in the Netherlands and regulated by the Autoriteit
+Financiële Markten. Release Date 30/4/2026 PRIIPS Manufacturer: Robeco Institutional Asset Management B.V.
+
+What is this product?
+Type:                                   Company With Variable Capital (SICAV) – Undertaking for Collective Investment in Transferable Securities incorporated under Luxembourg law.
+Objective:                              Robeco QI Global Developed Active Equities is an actively managed fund that invests in stocks of developed market companies. The selection of these stocks is
+                                        based on a quantitative model. The fund's objective is to achieve a better return than the Benchmark. The fund uses a quantitative stock selection strategy
+                                        which ranks stocks on their expected future relative performance using multiple factors: value, quality, momentum, analyst revisions and short-term signals.
+                                        Highly ranked stocks are overweighted against the Benchmark, whereas low-ranked stocks are underweighted, resulting in a well-diversified portfolio.
+                                        The fund aims for a better sustainability profile compared to the Benchmark by promoting E&S (i.e. Environmental and Social) characteristics within the meaning
+                                        of Article 8 of the European Sustainable Finance Disclosure Regulation, integrating sustainability risks in the investment process and applying Robeco’s Good
+                                        Governance policy. The fund applies sustainability indicators, including but not limited to normative, activity-based and region-based exclusions, and
+                                        engagement.
+Benchmark:                              MSCI World Index (Net Return, EUR)
+                                        The Sub-fund is actively managed and uses the Benchmark for asset allocation purposes. The Sub-fund uses a quantitative stock selection strategy which ranks
+                                        stocks on their expected future relative performance using three factors: a strategy focusing on stocks with an attractive valuation (Value); a strategy focusing
+                                        on stocks of companies with a medium term attractive performance trend (Momentum); and a strategy focusing on high quality equities, e.g. equity of
+                                        companies with strong balance sheets and high profitability (Quality). The securities selected for the Sub-fund' investment universe may be components of the
+                                        Benchmark, but securities outside the Benchmark may be selected too. The Sub-fund can deviate from the weightings of the Benchmark. The Management
+                                        Company has discretion over the composition of the portfolio subject to the investment objectives. Highly ranked stocks are overweighted against the
+                                        Benchmark, whereas low-ranked stocks are underweighted, resulting in a well-diversified portfolio. The Sub-fund aims to outperform the Benchmark over the
+                                        long run, whilst still controlling relative risk through the applications of limits (on currencies, countries and sectors) to the extent of deviation from the
+                                        Benchmark. This will consequently limit the deviation of the performance relative to the Benchmark. The Benchmark is a broad market weighted index that is not
+                                        consistent with the environmental, social and governance characteristics promoted by the Sub-fund.
+Currency:                               The fund may use currency forwards to achieve currency exposures that are close to the benchmark.
+Subscription and Redemption:            You can purchase or sell (partial) units any given workday, with the exception of Fund Holidays. An overview of fund holidays can be retrieved from
+                                        www.robeco.com/riam.
+Dividend policy:                        Accumulating
+Intended Retail Investor:               The Sub-fund is suitable for Investors who seek ESG considerations to be integrated as binding element in the investment process, while still seeking optimum
+                                        returns. This Sub-fund is suitable for Investors who see funds as a convenient way of participating in capital market developments. It is also suitable for
+                                        informed and/or experienced Investors wishing to attain defined investment objectives. The Sub-fund does not provide a capital guarantee. The Investor must
+                                        be able to accept volatility. This Sub-fund is suitable for Investors who can afford to set aside the capital for at least 5-7 years. It can accommodate the
+                                        investment objective of capital growth, income and/or portfolio diversification.
+Term:                                   The fund does not have a fixed term of existence or maturity period. In certain circumstances, as described in the fund documentation, the fund may be
+                                        unilaterally terminated following written notice to shareholders subject to compliance with the fund documentation and applicable regulation.
+Other Information:                      The depositary of the SICAV is J.P. Morgan SE. The English prospectus, the semi annual report and the details of the renumeration policy of the management
+                                        company are documents required by law and can be obtained free of charge on www.robeco.com/riam. The website also publishes the latest prices and other
+                                        information.
+
+
+What are the risks and what could I get in return?
+Risk Indicator
+  Lower risk                                                                                                                                                                                          Higher risk
+
+
+
+
+The risk indicator assumes you keep the product for 5 years. The actual risk can vary significantly if you cash in at an early stage and you may get back less.
+The summary risk indicator is a guide to the level of risk of this product compared to other products. It shows how likely it is that the product will lose money because of movements in the markets or because
+we are not able to pay you.
+We have classified this product as 4 out of 7, which is a medium risk class. This rates the potential losses from future performance at a medium level.
+Be aware of currency risk. If you receive payments in a currency different to that of your home jurisdiction, the final return you will get will depend on the exchange rate between the two currencies.
+This risk is not considered in the risk indicator shown. If we are not able to pay you what is owed, you could lose your entire investment. This product does not include any protection from future market
+performance so you could lose some or all of your investment.
+The following risk considerations are deemed material for this fund, and are not (adequately) reflected by the indicator:
+-    A derivative counterparty may fail to fulfil its obligations which could result in a loss. Counterparty risk is reduced via the exchange of collateral.
+-    The fund invests in assets that could become less liquid in certain market conditions, which could have a significant impact on the value of these assets.
+-    The fund is managed using quantitative models. Materialization of the model risk may be detrimental to fund performance.
+-    For more details about portfolio risks, see Section 4. “Risk Considerations” of the prospectus.
+Performance Scenarios
+                                                                                                                                                                                                                    1
+
+=== pdf p.2 ===
+The figures shown include all the costs of the product itself, but may not include all the costs that you pay to your advisor or distributor. The figures do not take into account your personal tax situation,
+which may also affect how much you get back.
+What you will get from this product depends on future market performance. Market developments in the future are uncertain and cannot be accurately predicted.
+The unfavourable, moderate, and favourable scenarios shown are illustrations using the worst, average, and best performance of the product and a suitable benchmark over the last 10 years.
+
+
+  Recommended holding period                                                                                 5 years
+
+  Example Investment                                                                                         10,000 EUR
+
+
+  Performance Scenarios
+  Minimum                                                                                                         There is no minimum guaranteed return. You could lose some or all of your investment.
+
+  Stress                                                                                                          If you exit after 1 year                                   If you exit after 5 years
+  What you might get back after costs                                                                                       3,660 EUR                                                3,680 EUR
+
+  Average return each year                                                                                                    -63.4%                                                   -18.1%
+
+  Unfavourable                                                                                                    If you exit after 1 year                                 If you exit after 5 years
+  What you might get back after costs                                                                                       8,250 EUR                                                10,600 EUR
+
+  Average return each year                                                                                                    -17.5%                                                    1.2%
+
+  Moderate                                                                                                        If you exit after 1 year                                 If you exit after 5 years
+  What you might get back after costs                                                                                      11,100 EUR                                                16,990 EUR
+
+  Average return each year                                                                                                    11.0%                                                     11.2%
+
+  Favourable                                                                                                      If you exit after 1 year                                 If you exit after 5 years
+  What you might get back after costs                                                                                      14,770 EUR                                                24,030 EUR
+
+  Average return each year                                                                                                    47.7%                                                     19.2%
+
+
+Unfavourable: This type of scenario occurred for an investment between February 2025 and March 2026.
+Moderate: This type of scenario occurred for an investment between July 2016 and June 2021.
+Favourable: This type of scenario occurred for an investment between November 2020 and October 2025.
+
+
+What happens if Robeco Institutional Asset Management B.V. is unable to pay out?
+The fund’s assets are held separately from Robeco Institutional Asset Management B.V. (the “Manager”). A pay-out of the fund’s assets is thus not affected by the financial position or potential default
+the Manager. The financial instruments in the portfolio of the fund are placed in custody with J.P. Morgan SE (the "Depositary"). The fund runs the risk that its assets placed in custody may be lost as a
+result of the liquidation, insolvency, bankruptcy, negligence of, or fraudulent activities by, the Depositary. In that case the fund may suffer a financial loss. However this risk is mitigated to some extent as
+the Depositary is required by law to keep the fund's assets separate from its own assets. An investor compensation or guarantee scheme is not applicable in case of such financial loss.
+
+
+What are the costs?
+The person selling you or advising you about this product may charge you other costs. If so, this person will provide you with information about these costs, and show you the impact that all costs have
+on your investment over time.
+
+Costs over time
+The tables show the amounts that are taken from your investment to cover different types of costs. These amounts depend on how much you invest, how long you hold the product [and how well the
+product does]. The amounts shown here are illustrations based on an example investment amount and different possible investment periods.
+
+We have assumed:
+       •      In the first year you would get back the amount that you invested. For the other holding periods we have assumed the product performs as shown in the moderate scenario.
+       •      EUR 10,000 is invested.
+
+
+                                                                                          If you exit after 1 year                                               If you exit after 5 years
+  Total costs                                                                                     122 EUR                                                                  713 EUR
+  Annual cost impact (*)                                                                           1.2%                                                                 0.9% each year
+
+*This illustrates how costs reduce your return each year over the holding period. For example it shows that if you exit at the recommended holding period your average return per
+year is projected to be 12.1% before costs and 11.2% after costs.
+
+Composition of costs
+One-off costs upon entry or exit                                                                                                                                                    If you exit after 1 year
+Entry costs                                                              0.50% of the amount you pay in when entering this investment. This is the most you will                         Up to 50 EUR
+                                                                         be charged. The person selling you the product will inform you of the actual charge.
+
+Exit costs                                                               0.00% of your investment before it is paid out to you. This is the most you will be                                 0 EUR
+                                                                         charged. The person selling you the product will inform you of the actual charge.
+
+                                                                                                                                                                                                                     2
+
+=== pdf p.3 ===
+  Ongoing costs taken each year
+  Management fees and other administrative or operating costs           0.68% of the value of your investment per year. This is an estimate based on actual                            68 EUR
+                                                                        costs over the last year.
+  Transaction costs                                                     0.04% of the value of your investment per year. This is an estimate of the costs incurred                       4 EUR
+                                                                        when we buy and sell the underlying investments for the product. The actual amount will
+                                                                        vary depending on how much we buy and sell.
+
+
+  Incidental costs taken under specific conditions
+  Performance fees                                                     There is no performance fee for this product.                                                                   0 EUR
+
+
+
+  How long should I hold it and can I take money out early?
+  We have determined the recommended holding period of this product to be 5 years.
+  The recommended holding period of this product is determined taking into consideration the nature of underlying investment securities and the volatility of thereof. The product can be traded daily and
+  no minimum holding period applies. Exiting before the end of the recommended holding period does not bear any additional risks or costs other than those mentioned in the text above.
+  The product may suspend or restrict redemptions in exceptional circumstances, including during periods of materially increased redemption requests or reduced market liquidity
+
+
+  How can I complain?
+  Complaints about the behaviour of the person who advised you on the product or sold it to you, should be addressed directly to that person. Complaints about the product or the behaviour of the
+  manufacturer of this product should be directed to the following address:
+
+  Postal Address:                                                                                       Email:
+  Robeco Institutional Asset Management B.V                                                             complaints@robeco.nl
+  Weena 850, 3014 DA Rotterdam, The Netherlands
+  Tel: +31 10 224 1224
+
+  Your complaint will be taken care of with us and we will provide you with feedback as soon as possible. We have a summary of our complaints handling procedure available free of charge online at
+  www.robeco.com.
+
+
+
+  Other relevant information
+     • The assets and liabilities of each subfund are segregated by law. Shares of one subfund may be exchanged with another subfund of the SICAV as further described in the prospectus. The SICAV
+        may offer other share classes of the subfund. Information on these share classes is available in the prospectus under Appendix I.
+     • The tax legislation of the SICAV's home Member State may have an impact on the personal tax position of the investor.
+     • Robeco Institutional Asset Management B.V. may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant
+        parts of the prospectus of the SICAV.
+     • Information on the previous performance of this fund over the last 6 calendar years can be found at https://documents.dataglide.co/latest/shareclasses/LU1783222901/kpp/EN/LU, and
+        information on previous performance scenarios is available at https://documents.dataglide.co/latest/shareclasses/LU1783222901/kms.
+
+
+
+
+Link: Product Page                                                                                                                                                                                           3
+

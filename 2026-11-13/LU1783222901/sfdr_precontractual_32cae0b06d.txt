@@ -1,0 +1,520 @@
+=== pdf p.1 ===
+Robeco Capital Growth Funds - Robeco QI Global
+Developed Active Equities
+Pre-contractual disclosure for the financial products referred to in Article 8, paragraphs 1, 2 and 2a, of Regulation (EU) 2019/2088
+                                     and Article 6, first paragraph, of Regulation (EU) 2020/852
+
+Sustainable investment            Product name: Robeco QI Global Developed Active                               Legal entity identifier:
+means an investment in an
+economic activity that
+                                  Equities                                                                     213800IXA2GLSM2Z7310
+contributes to an
+environmental or social
+objective, provided that the
+                                                     Environmental and/or social characteristics
+investment does not
+signiﬁcantly harm any             Does this ﬁnancial product have a sustainable investment objective?
+environmental or social
+objective and that the
+investee companies follow                      Yes                                                X      No
+good governance practices.
+
+                                        It will make a minimum of sustainable                   It promotes Environmental/Social (E/S)
+                                        investments with an environmental
+                                                                                          X     characteristics and while it does not have as its
+                                        objective:___%                                          objective a sustainable investment, it will have a
+                                                                                                minimum proportion of 50% of sustainable
+                                                                                                investments
+                                              in economic activities that qualify as                  with an environmental objective in economic
+                                              environmentally sustainable under the                   activities that qualify as environmentally
+                                              EU Taxonomy                                             sustainable under the EU Taxonomy
+                                              in economic activities that do not
+The EU Taxonomy is a                                                                                  with an environmental objective in economic
+classification system laid                    qualify as environmentally sustainable        X         activities that do not qualify as environmentally
+down in Regulation (EU)                       under the EU Taxonomy                                   sustainable under the EU Taxonomy
+2020/852, establishing a list
+of environmentally                                                                                    with a social objective
+sustainable economic                                                                        X
+activities. That Regulation
+does not include a list of
+socially sustainable
+                                           It will make a minimum of sustainable                  It promotes E/S characteristics, but will not make
+economic activities.
+Sustainable investments with               investments with a social objective: __%               any sustainable investments
+an environmental objective
+might be aligned with the
+Taxonomy or not.
+
+
+
+
+                                What environmental and/or social characteristics are promoted by this ﬁnancial product?
+
+                                  The Sub-fund has the following E/S characteristics:
+                                  1. The Sub-fund promotes good governance and sustainable corporate practices through proxy voting, which
+                                  contributes to long-term shareholder value creation. This includes taking an active stance on social and
+                                  environmental topics through Robeco's proxy voting policy.
+                                  2. The Sub-fund promotes certain minimum environmental and social safeguards through applying exclusion
+                                  criteria with regards to products and business practices that Robeco believes are detrimental to society, such as
+                                  exposure to controversial behaviour, controversial weapons, and certain fossil fuel-related activities.
+                                  3. The Sub-fund promotes having a lower carbon footprint than the general market index referred to in Appendix VI
+                                  – Benchmarks (the "General Market Index").
+                                  4. The Sub-fund promotes having a lower environmental footprint than the General Market Index.
+                                  5. The Sub-fund promotes adherence to and conducting business activities in accordance with the United Nations
+                                  Universal Declaration of Human Rights, the International Labor Organization's (ILO) labor standards, the United
+                                  Nations Guiding Principles for Business and Human Rights (UNGPs), the United Nations Global Compact (UNGC)
+                                  and the OECD Guidelines for Multinational Enterprises, by scrutinizing companies that violate these principles.
+                                  6. The Sub-fund promotes having a weighted average ESG score that is better than that of the General Market
+                                  Index.
+                                  7. The Sub-fund promotes having a larger share of companies with a positive SDG score (1,2,3) in the portfolio than
+                                  the General Market Index.
+
+
+                                                                                                                            Date: 16/7/2026
+
+=== pdf p.2 ===
+    Robeco Capital Growth Funds - Robeco QI Global Developed Active Equities
+
+                                   There is no reference benchmark designated for the purpose of attaining the environmental or social characteristics
+                                   promoted by the Sub-fund.
+
+                                           What sustainability indicators are used to measure the attainment of each of the
+                                           environmental or social characteristics promoted by this financial product?
+Sustainability indicators                  The Sub-fund has the following sustainability indicators:
+measure how the                            1. The number of holdings and agenda items voted.
+environmental or social                    2. The % of investments in securities that are on Robeco's Exclusion list as result of the application of
+characteristics promoted by
+the financial product are
+                                           Robeco's Exclusion Policy.
+attained.                                  3. The Sub-fund's weighted corporate carbon footprint compared to the footprint of the General Market
+                                           Index.
+                                           4. The Sub-fund's weighted water and waste footprints compared to the footprint of the General Market
+                                           Index.
+                                           5. The number of holdings that are in violation of the ILO standards, UNGPs, UNGC or OECD Guidelines for
+                                           Multinational Enterprises and hence become a part of the Enhanced Engagement program.
+                                           6. The Sub-fund's weighted average ESG score compared to the General Market Index.
+                                           7. The Sub-fund's weight in companies with a positive SDG score (1,2,3) compared to the General Market
+                                           Index weight in companies with a positive SDG score (1,2,3).
+
+                                           What are the objectives of the sustainable investments that the financial product partially
+                                           intends to make and how does the sustainable investment contribute to such objectives?
+                                           The sustainable investments aim to contribute to the UN Sustainable Development Goals ("SDGs"), that
+                                           have both social and environmental objectives. These are 17 goals that are globally recognised and include
+                                           environmental goals such as climate action, clean water, life on land and water and social goals such as
+                                           zero hunger, gender equality, education, etc. Robeco has developed a proprietary framework based on the
+                                           UN SDGs through which an issuer's contribution to such SDGs is determined through a 3-step process. This
+                                           process starts with a sector baseline on which a company's products are analysed to examine contribution
+                                           to the society and environment. Further, the operational processes involved in creating such products is
+                                           checked along with any controversies/litigation claims and remediation actions taken which are perused
+                                           before a final SDG score is determined. The final score ranges between high negative (-3) to high positive
+                                           (+3) and only those issuers which achieve positive SDG scores (+1, +2 and, +3) are regarded as Sustainable
+                                           Investments.
+
+                                           How do the sustainable investments that the financial product partially intends to make, not
+                                           cause significant harm to any environmental or social sustainable investment objective?
+
+                                           The sustainable investments do no significant harm to any environmental or social sustainable investment
+                                           objective by considering a principal adverse impact and aligning with the OECD Guidelines for Multinational
+                                           Enterprises and the UN Guiding Principles on Business and Human Rights. In addition, sustainable
+                                           investments score positively on Robeco's SDG Framework, and therefore do not cause significant harm.
+                                              How have the indicators for adverse impacts on sustainability factors been taken into
+                                              account?
+                                              Mandatory principal adverse impact indicators are considered through Robeco's SDG Framework, either
+                                              directly or indirectly, when identifying sustainable investments for the Sub-fund. In addition, voluntary
+                                              environmental and social indicators are taken into account, depending on their relevance for measuring
+                                              impacts on the SDGs and the availability of data. A detailed description of the incorporation of principal
+                                              adverse impacts is available via Robeco's Principal Adverse Impact Statement published on the Robeco
+                                              website (https://www.robeco.com/files/docm/docu-robeco-principal-adverse-impact-statement-2024-
+                                              en.pdf). In this statement, Robeco sets out its approach to identifying and prioritizing principal adverse
+                                              impacts, and how principal adverse impacts are considered as part of Robeco's investment due
+                                              diligence process and procedures relating to research and analysis, exclusions and restrictions and/or
+                                              voting and engagement. This description also explains how principal adverse impact indicators are
+                                              considered by the SDG Framework.
+
+
+
+
+                                                                                                                            Date: 16/7/2026
+
+=== pdf p.3 ===
+     Robeco Capital Growth Funds - Robeco QI Global Developed Active Equities
+
+                                                 How are the sustainable investments aligned with the OECD Guidelines for Multinational
+                                                 Enterprises and the UN Guiding Principles on Business and Human Rights? Details:
+                                                 The sustainable investments are aligned with the OECD Guidelines for Multinational Enterprises and the
+                                                 UN Guiding Principles on Business and Human Rights via both Robeco's Exclusion Policy and Robeco's
+                                                 SDG Framework.
+
+                                                 Robeco's Exclusion Policy includes an explanation of how Robeco acts in accordance with the
+                                                 International Labor Organization (ILO) standards, United Nations Guiding Principles (UNGPs), United
+                                                 Nations Global Compact (UNGC) Principles and the Organization for Economic Co-operation and
+                                                 Development (OECD) Guidelines for Multinational Enterprises and is guided by these international
+                                                 treaties to assess the behavior of companies. Robeco continuously screens its investments for
+                                                 breaches of these principles. In case of a breach, the company will be excluded or engaged with, and is
+                                                 not considered a sustainable investment.
+
+                                                 Robeco's SDG Framework screens for breaches on these principles in the final step of the framework.
+                                                 In this step, Robeco checks whether the company concerned has been involved in any controversies.
+                                                 Involvement in any controversy will result in a negative SDG score for the company, meaning it is not a
+                                                 sustainable investment.
+                                            The EU Taxonomy sets out a “do not significant harm” principle by which Taxonomy-aligned
+                                            investments should not significantly harm EU Taxonomy objectives and is accompanied by specific EU
+                                            criteria.
+
+                                            The “do no significant harm” principle applies only to those investments underlying the financial
+                                            product that take into account the EU criteria for environmentally sustainable economic activities.
+                                            The investments underlying the remaining portion of this financial product do not take into account
+                                            the EU criteria for environmentally sustainable economic activities.
+
+                                            Any other sustainable investments must also not significantly harm any environmental or social
+                                            objectives.
+
+
+                                       Does this ﬁnancial product consider principal adverse impacts on sustainability
+                                       factors?
+
+Principal adverse impacts are the           Yes,_______
+most significant negative impacts of    X
+investment decisions on                     The Sub-fund considers principal adverse impacts on sustainability factors as referred to in Annex I of the
+sustainability factors relating to          SFDR Delegated Act.
+environmental, social and employee
+matters, respect for human rights,
+anti‐corruption and anti‐bribery
+                                            Pre-investment, the following principal adverse impacts on sustainability factors are considered:
+matters.
+                                            o Via the applied normative and activity-based exclusions, the following PAIs are considered:
+                                            - Exposure to companies active in the fossil fuel sector (PAI 4, Table 1)
+                                            - Violations of the UN Global Compact Principles and Organisation for Economic Cooperation and
+                                            Development (OECD) Guidelines for Multinational Enterprises (PAI 10, Table 1)
+                                            - Activities negatively affecting biodiversity-sensitive areas (PAI 7, Table 1). The consideration of this PAI is
+                                            currently restricted to applying exclusions to palm oil producing companies and for any breaches to the
+                                            UNGC, UNGP and OECD Guidelines for Multinational Enterprises in relation to biodiversity.
+                                            - Exposure to controversial weapons (anti-personnel mines, cluster munitions, chemical weapons (PAI 14,
+                                            Table 1)
+
+                                            o Via the environmental footprint performance targets of the Sub-fund, the following PAIs are considered:
+                                            - Carbon footprint (PAI 2, Table 1)
+                                            - Water and waste indicators (PAI 7-9, Table 1). Robeco will use on water and waste footprints until data
+                                            quality and coverage of the PAIs will improve.
+
+                                            Post-investment, the following principal adverse impacts on sustainability factors are taken into account:
+
+                                            o Via the application of the voting policy, the following PAIs are considered:
+                                            - All indicators related to GHG emissions (PAI 1-6, Table 1)
+                                            - Indicators related to social and employee matters (PAI 10-13, Table 1; PAI 5-8, Table 3)
+
+                                            o Via Robeco's entity engagement program, the following PAIs are considered:
+                                            - All indicators related to Climate and other environment-related indicators (PAI 1-9, Table 1)
+
+                                                                                                                                  Date: 16/7/2026
+
+=== pdf p.4 ===
+    Robeco Capital Growth Funds - Robeco QI Global Developed Active Equities
+
+                                          - Violations of the UN Global Compact Principles and Organisation for Economic Cooperation and
+                                          Development (OECD) Guidelines for Multinational Enterprises (PAI 10, Table 1)
+                                          - In addition, based on a yearly review of Robeco's performance on all mandatory and selected voluntary
+                                          indicators, holdings of the Sub-fund that cause adverse impact might be selected for engagement.
+                                          More information is available via Robeco's Principal Adverse Impact Statement, published on Robeco's
+                                          website. The fund will periodically report how it has considered the principal adverse impacts of its
+                                          investments in the annual report, which will be made available each year before 30 April of the following
+                                          calendar year at the fund page highlighted in the final section of this document.
+
+                                          No
+
+
+                                   What investment strategy does this ﬁnancial product follow?
+                                   Robeco QI Global Developed Active Equities is an actively managed fund that invests in stocks in developed
+                                   countries across the world. The selection of these stocks is based on a quantitative model as described in the
+                                   Investment policy strategy paragraph in Appendix I of this Prospectus. The strategy integrates sustainability
+                                   indicators on a continuous basis as part of the stock selection process. Amongst others, the Sub-fund applies
+The investment strategy            norms-based and activity-based exclusions, Robeco's good governance policy, Robeco's SDG framework and
+guides investment decisions        considers Principal Adverse Impacts in the investment process. More product-specific information can be found on
+based on factors such as
+investment objectives and
+                                   our website and the links provided in the final question of this disclosure.
+risk tolerance.
+
+                                          What are the binding elements of the investment strategy used to select the investments to
+                                          attain each of the environmental or social characteristics promoted by this financial
+                                          product?
+                                          The Sub-fund has the following binding elements:
+                                          1. All equity holdings have a granted right to vote and Robeco exerts that right by voting according to
+                                          Robeco's Proxy Voting Policy, unless impediments occur (e.g. share blocking or when not considered cost
+                                          efficient). Robeco's Proxy Voting Policy can be found at https://www.robeco.com/files//docm/docu-
+                                          stewardship-approach-and-guidelines.pdf.
+                                          2. The Sub-fund's portfolio complies with Robeco's Exclusion Policy Level 1
+                                          (https://www.robeco.com/files/docm/docu-exclusion-policy.pdf), that is based on exclusion criteria with
+                                          regards to products and business practices that Robeco believes are detrimental to society. This means
+                                          that the Sub-fund has 0% investments in excluded securities, taking into account a grace period.
+                                          Information with regards to the effects of the exclusions on the Sub-fund's universe can be found at
+                                          https://www.robeco.com/files/docm/docu-exclusion-list.pdf
+                                          3. The Sub-fund's weighted carbon footprint is better than that of the General Market Index.
+                                          4. The Sub-fund's weighted water and waste footprints are better than that of the General Market Index.
+                                          5. The Sub-fund's holdings become a part of the Enhanced Engagement program if there is a breach to one
+                                          of the international guidelines during the investment period: ILO standards, UNGPs, UNGC or OECD
+                                          Guidelines for Multinational Enterprises. When engagement is deemed highly unlikely to succeed, the
+                                          company might be excluded directly.
+                                          6. The Sub-fund's weighted average ESG score is better than that of the General Market Index.
+                                          7. The Sub-fund's weight in companies with a positive SDG score (1,2,3) is better than that of the General
+                                          Market Index.
+                                          What is the committed minimum rate to reduce the scope of the investments considered
+                                          prior to the application of that investment strategy?
+                                          The Sub-fund does not commit to a minimum rate to reduce the scope of investments prior to the
+                                          application of the investment strategy.
+Good governance practices                 What is the policy to assess good governance practices of the investee companies?
+include sound management
+structures, employee                      Robeco has a Good Governance policy to assess governance practices of companies. The policy describes
+relations, remuneration of
+staff and tax compliance.
+                                          how Robeco determines if and when a company does not follow good governance practices and is
+                                          therefore excluded from the initial investment universe for the Sub-fund. Robeco's Good Governance policy
+                                          applies tests on a set of governance criteria that reflect widely recognized industry established norms and
+                                          include topics as employee relations, management structure, tax compliance and remuneration.
+                                          The Good Governance test consists of criteria on such topics that are examined for investee companies
+                                          and further explained in Robeco's Good Governance policy https://www.robeco.com/files/docm/docu-
+                                          robeco-good-governance-policy.pdf. Additionally, the companies that do not pass the good governance test
+                                          are reflected in the exclusion list that can be accessed here - https://www.robeco.com/files/docm/docu-
+                                          exclusion-list.pdf.
+
+
+
+                                                                                                                             Date: 16/7/2026
+
+=== pdf p.5 ===
+     Robeco Capital Growth Funds - Robeco QI Global Developed Active Equities
+
+
+
+
+                                       What is the asset allocation planned for this ﬁnancial product?
+
+                                       At least 90% of the investments are aligned with the E/S characteristics of the Sub-fund. The Sub-fund plans to
+                                       make a minimum of 50% sustainable investments, measured by positive scores via Robeco's SDG Framework. The
+                                       investments in the category Other, estimated between 0-10%, are mostly in cash, cash equivalents and derivatives
+                                       as further described below. The planned asset allocation is monitored continuously, and evaluated on a yearly
+                                       basis.
+Asset allocation describes the share                                                                                            Taxonomy-aligned
+of investments in specific assets.                                                            #1A Sustainable
+                                                                                              ≥ 50%
+
+Taxonomy-aligned activities are                                     #1 Aligned with E/S
+expressed as a share of:                                            characteristics
+- turnover reflecting the share of                                  90%                                                         Other Environmental
+revenue from green activities of
+investee companies                                                                            #1B Other E/S
+- capital expenditure (CapEx)           Investments                                           characteristics
+                                                                    #2 Other
+showing the green investments                                                                 < 40%
+made by investee companies, e.g.                                    < 10%
+for a transition to a green economy.                                                                                            Social
+- operational expenditure (OpEx)
+reflecting green operational
+activities of investee companies.
+
+
+                                       #1 Aligned with E/S characteristics includes the investments of the financial product used to attain the
+                                       environmental or social characteristics promoted by the financial product.
+                                       #2 Other includes the remaining investments of the financial product which are neither aligned with the
+                                       environmental or social characteristics, nor are qualified as sustainable investments.
+                                       The category #1 Aligned with E/S characteristics covers:
+                                       - The sub-category #1A Sustainable covers sustainable investments with environmental or social objectives.
+                                       - The sub-category #1B Other E/S characteristics covers investments aligned with the environmental or social
+                                       characteristics that do not qualify as sustainable investments.
+
+
+                                             How does the use of derivatives attain the environmental or social characteristics promoted
+                                             by the financial product?
+                                               The Sub-fund does not make use of derivatives to attain the environmental or social characteristics
+                                               promoted by the financial product. The Sub-fund may make use of derivatives for hedging, liquidity
+                                               management and efficient portfolio management as well as investment purposes. Exchange traded and
+                                               over-the-counter derivatives are permitted, including but not limited to futures, swaps, options and
+                                               currency forwards. Whilst the Sub-fund may use derivatives both for investment purposes as well as for
+                                               hedging and efficient portfolio management, it does not utilize derivatives for such purposes outside the
+                                               intended share of investments allocated to the 'Other' category.
+                                               In case the Sub-fund uses derivatives, the underlying shall comply with the investment policy. Where
+                                               relevant, minimum environmental or social safeguards are taken into account as described below.
+
+                                                  To what minimum extent are sustainable investments with an environmental
+                                                  objective aligned with the EU Taxonomy?
+                                                  0%.
+
+
+
+
+                                                                                                                                Date: 16/7/2026
+
+=== pdf p.6 ===
+Robeco Capital Growth Funds - Robeco QI Global Developed Active Equities
+
+
+                                                                            Does the financial product invest in fossil gas and/or nuclear energy related
+                                                                            activities that comply with the EU Taxonomy? 1
+                                                                            Yes
+
+
+
+                                                                                            In fossil gas                                                 In nuclear energy
+
+
+
+                                                                            No
+                                                                  X
+
+
+                                                       The two graphs below show in green the minimum percentage of investments that are aligned with
+                                                       the EU Taxonomy. As there is no appropriate methodology to determine the Taxonomy-alignment
+                                                       of sovereign bonds*, the first graph shows the Taxonomy-alignment in relation to all the
+                                                       investments of the financial product including sovereign bonds, while the second graph shows the
+                                                       Taxonomy-alignment only in relation to the investments of the financial product other than
+                                                       sovereign bonds.
+
+                                                            1. Taxonomy alignment of investments                                  2. Taxonomy alignment of investments
+                                                                 including sovereign bonds*                                            excluding sovereign bonds*
+
+                                                                                                  0%                                                                 0%
+
+
+
+
+                                                                                                                             Taxonomy-aligned (no
+                                                          Taxonomy-aligned (no
+                                                                                                                             fossil gas & nuclear)
+                                                          fossil gas & nuclear)
+                                                                                                                             (0%)
+                                                          (0%)
+                                                                                                                             Non Taxonomy-aligned
+                                                          Non Taxonomy-aligned                                               (100%)
+                                                          (100%)
+
+
+
+
+                                                                                                                                                              100%
+                                                                                           100%
+
+
+
+
+                                                                                                                          This graph represents                   x%       of   the    total
+                                                                                                                          investments.**
+
+                                                       *For the purpose of these graphs, ‘sovereign bonds’ consist of all sovereign exposures
+                                                       ** As the investments are not Taxonomy-aligned, the exclusion of sovereign bonds has no impact
+                                                       on the graph and therefore no such percentage is shown here.
+
+
+
+
+1
+   Fossil gas and/or nuclear related activities will only comply with the EU Taxonomy where they contribute to limiting climate change (“climate change mitigation”) and do not significantly harm
+any EU Taxonomy objective – see explanatory note in the left hand margin. The full criteria for fossil gas and nuclear energy economic activities that comply with the EU Taxonomy are laid down
+in Commission Delegated Regulation (EU) 2022/1214.
+
+
+                                                                                                                                                                          Date: 16/7/2026
+
+=== pdf p.7 ===
+    Robeco Capital Growth Funds - Robeco QI Global Developed Active Equities
+
+Enabling activities directly                  What is the minimum share of investments in transitional and enabling activities?
+enable other activities to
+make a substantial                            0%.
+contribution to an
+environmental objective.
+Transitional activities are
+activities for which low-
+carbon alternatives are not
+yet available and among
+others have greenhouse gas
+emission levels
+corresponding to the best
+performance.
+
+                                              What is the minimum share of sustainable investments with an environmental
+                                              objective that are not aligned with the EU Taxonomy?
+                                              The Sub-fund does not intend to commit towards a minimum percentage of sustainable investments
+                                              with an environmental objective; therefore, the Sub-fund does not commit to a minimum percentage of
+                                              investments that are aligned or not aligned with the EU Taxonomy.
+
+are sustainable investments
+with an environmental
+objective that do not take
+into account the criteria for
+environmentally sustainable
+economic activities under the
+EU Taxonomy.
+
+
+
+
+                                              What is the minimum share of socially sustainable investments?
+                                              The Sub-fund intends to make sustainable investments, measured as positive scores via Robeco's SDG
+                                              Framework. Among those could be investments with social objectives. The social objectives of the Sub-
+                                              fund are attained by investing in companies that score positively on SDG 1 (No poverty), SDG 2 (Zero
+                                              hunger), SDG 3 (Good health and well-being), SDG 4 (Quality education), SDG 5 (Gender equality), SDG 6
+                                              (Clear water and sanitation), SDG 7 (Affordable and clean energy), SDG 8 (Decent work and economic
+                                              growth), SDG 9 (Industry, innovation and infrastructure), SDG 10 (Reduced inequalities), SDG 11
+                                              (Sustainable cities and communities), SDG 16 (Peace, justice and strong institutions) and SDG 17
+                                              (Partnerships for the goals), in Robeco's SDG Framework. While the sum of socially sustainable
+                                              investments and sustainable investments with an environmental objective always adds up to the Sub-
+                                              fund's minimum proportion of sustainable investments, the Sub-fund does not commit to a minimum
+                                              share of socially sustainable investments because the Sub-fund's investment strategy does not have a
+                                              specific socially sustainable investment objective. Therefore, the minimum share of socially sustainable
+                                              investments is 0%.
+
+
+                                              What investments are included under “#2 Other”, what is their purpose and are
+                                              there any minimum environmental or social safeguards?
+                                              The type of instruments included under "#2 Other" and their purpose are outlined in Annex I of this
+                                              Prospectus under the header 'Financial instruments and investment restrictions'. They include cash,
+                                              cash equivalents, as well as investment funds and eligible asset classes (other than bonds and
+                                              equities) that do not specifically promote E/S characteristics. As indicated above, the Sub-fund does
+                                              not make use of derivatives to attain the environmental or social characteristics promoted. The Sub-
+                                              fund may make use of derivatives, which thus always fall under the category "#2 Other", for hedging,
+                                              liquidity management and efficient portfolio management as well as investment purposes. Exchange
+                                              traded and over-the-counter derivatives are permitted, including but not limited to futures, swaps,
+                                              options and currency forwards. In case the Sub-fund uses derivatives, the underlying shall comply with
+                                              the investment policy. Where relevant, minimum environmental or social safeguards are taken into
+                                              account, by, for example, applying Robeco's Exclusion Policy for any single security derivative.
+
+
+
+
+                                                                                                                           Date: 16/7/2026
+
+=== pdf p.8 ===
+    Robeco Capital Growth Funds - Robeco QI Global Developed Active Equities
+
+
+                                      Is a speciﬁc index designated as a reference benchmark to determine whether this
+                                      ﬁnancial product is aligned with the environmental and/or social characteristics that
+                                      it promotes?
+                                      Not applicable.
+Reference benchmarks are
+indexes to measure whether
+the financial product attains
+the environmental or social
+characteristics that they
+promote.
+
+
+
+                                      Where can I ﬁnd more product speciﬁc information online?
+                                www
+                                      o More product-specific information can be found on the website:
+                                      https://www.robeco.com/en-int/products/funds
+                                      o Robeco's PAI Statement can be accessed via the following link:
+                                      https://www.robeco.com/files/docm/docu-robeco-principal-adverse-impact-statement-2024-en.pdf
+                                      o Robeco's Good Governance test can be accessed via the following link:
+                                      https://www.robeco.com/files/docm/docu-robeco-good-governance-policy.pdf
+                                      o Robeco's SDG framework:
+                                      https://www.robeco.com/docm/docu-robeco-explanation-sdg-framework.pdf
+                                      o Robeco's sustainability risk policy:
+                                      https://www.robeco.com/files/docm/docu-robeco-sustainability-risk-policy.pdf
+
+
+
+
+                                                                                                                          Date: 16/7/2026
+

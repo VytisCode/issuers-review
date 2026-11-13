@@ -1,0 +1,646 @@
+=== pdf p.1 ===
+Robeco Capital Growth Funds - Robeco QI Global
+Developed Active Equities
+                                                                                Annex IV
+     Periodic disclosure for the financial products referred to in Article 8, paragraphs 1, 2 and 2a, of Regulation (EU)
+                       2019/2088 and Article 6, first paragraph, of Regulation (EU) 2020/852
+Sustainable investment means an
+                                              Product name: Robeco QI Global Developed                   Legal entity identifier: 213800IXA2GLSM2Z7310
+investment in an economic activity
+that contributes to an environmental          Active Equities
+
+                                                         Environmental and/or social characteristics
+or social objective, provided that the
+investment does not significantly
+harm any environmental or social
+objective and that the investee               Did this financial product have a sustainable investment objective?
+companies follow good governance
+practices.
+                                                          Yes                                                  X     No
+The EU Taxonomy is a classification
+system laid down in Regulation (EU)
+                                                     It made sustainable investments with an                    It promoted Environmental/Social (E/S) characteristics
+2020/852, establishing a list of
+                                                     environmental objective:___%
+                                                                                                          X     and while it did not have as its objective a sustainable
+environmentally sustainable
+                                                                                                                investment, it had a proportion of 63.9% of sustainable
+economic activities. That Regulation
+                                                                                                                investments
+does not include a list of socially
+sustainable economic activities.
+Sustainable investments with an
+environmental objective might be
+aligned with the Taxonomy or not.
+                                                         in economic activities that qualify as                      with an environmental objective in economic
+                                                         environmentally sustainable under the EU
+                                                                                                              X      activities that qualify as environmentally
+                                                         Taxonomy                                                    sustainable under the EU Taxonomy
+
+                                                         in economic activities that do not qualify as               with an environmental objective in economic
+                                                         environmentally sustainable under the EU
+                                                                                                              X      activities that do not qualify as environmentally
+                                                         Taxonomy                                                    sustainable under the EU Taxonomy
+
+                                                                                                                     with a social objective
+                                                                                                              X
+
+                                                     It made sustainable investments with a social              It promoted E/S characteristics, but did not make any
+                                                     objective: ___%                                            sustainable investments
+
+
+
+
+                                         To what extent were the environmental and/or social characteristics promoted by this
+                                         financial product met?
+                                         The sub-fund promotes the following Environmental and Social characteristics:
+
+                                         1. The sub-fund promotes certain minimum environmental and social safeguards through applying exclusion criteria
+                                         with regards to products and business practices that Robeco believes are detrimental to society and incompatible with
+                                         sustainable investment strategies, such as exposure to controversial behaviour, controversial weapons, and fossil
+                                         fuels.
+                                         2. All equity holdings granted the right to vote and Robeco exerted that right by voting according to Robeco’s Proxy
+                                         Voting Policy, unless impediments occured (e.g. share blocking).
+                                         3. The sub-fund avoided investment in companies that are in breach of the ILO standards, UNGPs, UNGC or OECD
+                                         Guidelines for Multinational Enterprises. Companies in the portfolio that have breached one of the international
+                                         guidelines during the investment period, have become part of the Enhanced Engagement program. When engagement
+                                         deemed highly unlikely to succeed, the company was excluded directly.
+                                         4. The sub-fund's weighted water and waste footprints were at least better than that of the General Market Index. The
+                                         Sub-fund's weighted carbon footprint (scope level 1, 2 and 3 upstream) was better than the General Markets Index.
+                                         5. The sub-fund's weighted average ESG score was at least better than that of the General Market Index.
+                                         6. The sub-fund's weight in companies with a positive SDG score (1,2,3) was better than that of the General Market
+                                         Index.
+
+                                         There is no reference benchmark designated for the purpose of attaining the environmental or social characteristics
+                                         promoted by the sub-fund.
+
+=== pdf p.2 ===
+Sustainability indicators measure
+how the environmental or social
+characteristics promoted by the
+financial product are attained.
+                                            How did the sustainability indicators perform?
+                                       The sustainability indicators used to measure the attainment of each of the environmental or social characteristics
+                                       promoted by this financial product performed as follows. All values are based on average positions and latest
+                                       available data as at 31/12/2025.
+                                       1. The portfolio contained on average 0.00% investments that are on the Exclusion list as result of the application
+                                       of the applicable exclusion policy. Unless sanctions stipulate specific timelines, exclusions apply within three
+                                       months after the announcement. If selling is not possible for liquidity reasons, then buying is not allowed. Once
+                                       selling is possible at a reasonable price, holdings will be sold.
+                                       2. On behalf of the sub-fund votes, were cast on 4285 agenda items at 340 shareholders' meetings.
+                                       3. 0.10% of the companies in portfolio are in violation of the ILO standards, UNGPs, UNGC or OECD Guidelines for
+                                       Multinational Enterprises and hence are a part of the Enhanced Engagement program.
+                                       4. The sub-fund’s weighted score for water and waste footprint were respectively 60.59% and 33.49% better than
+                                       the general market index. The sub-fund's weighted carbon footprint (scope level 1, 2 and 3 upstream) was 8.90%
+                                       better than that of the General Markets Index.
+                                       5. The sub-fund’s weighted average ESG score was 18.46 against 18.42 for the general market index. A lower score
+                                       means a lower risk. against
+                                       6. 63.63% of the investments held a positive SDG score (1,2,3), compared to 63.38% for the general market index.
+
+                                            …and compared to previous periods?
+                                        Sustainability indicator                                        2025          2024        2023       2022
+                                        Number of votes casted                                          4285          3494        3414       3,403
+                                        Holdings with a positive SDG rating                             63.63%        67.98%      68.01%     67.92%
+                                        Weighted score for:
+                                        - Carbon footprint (% better than the general market index)     8.90%         3.59%       8.10%      8.14%
+                                        - Water footprint (% better than the general market index)      60.59%        43.81%      42.97%     35.49%
+                                        - Waste footprint (% better than the general market index)      33.49%        43.67%      26.78%     37.33%
+                                        Companies in violation of the ILO standards, UNGPs, UNGC        0.10%         0.23%       0.00%      0.00%
+                                        or OECD Guidelines for Multinational Enterprises
+                                        Weighted average ESG Score                                      18.46         19.64       20.51      21.11
+                                        Investments on exclusion list                                   0.00%         0.00%       0.00%      0.00%
+
+                                            What were the objectives of the sustainable investments that the financial product partially
+                                            made and how did the sustainable investment contribute to such objectives?
+                                       The sustainable investments contributed to the UN Sustainable Development Goals ("SDGs"), that have both social
+                                       and environmental objectives. These are 17 goals that are globally recognised and include environmental goals
+                                       such as climate action, clean water, life on land and water and social goals such as zero hunger, gender equality,
+                                       education, etc. Robeco has developed a proprietary framework based on the UN SDGs through which an issuer's
+                                       contribution to such SDGs is determined through a 3-step process. This process starts with a sector baseline on
+                                       which a company's products are analysed to examine contribution to the society and environment. Further, the
+                                       operational processes involved in creating such products is checked along with any controversies/litigation claims
+                                       and remediation actions taken which are perused before a final SDG score is determined. The final score ranges
+                                       between high negative (-3) to high positive (+3) and only those issuers which achieve positive SDG scores (+1, +2
+                                       and, +3) are regarded as Sustainable Investments.
+
+                                            How did the sustainable investments that the financial product partially made not cause
+                                            significant harm to any environmental or social sustainable investment objective?
+                                       The sustainable investments did no significant harm to any environmental or social sustainable investment
+                                       objective by considering a principal adverse impact and aligning with the OECD Guidelines for Multinational
+                                       Enterprises and the UN Guiding Principles on Business and Human Rights. In addition, sustainable investments
+                                       score positively on Robeco's SDG Framework, and therefore do not cause significant harm.
+Principal adverse impacts are the               How were the indicators for adverse impacts on sustainability factors taken into
+most significant negative impacts of
+investment decisions on                         account?
+sustainability factors relating to
+environmental, social and employee              Mandatory principal adverse impact indicators are considered through Robeco's SDG Framework, either
+matters, respect for human rights,              directly or indirectly, when identifying sustainable investments for the Sub-fund. In addition, voluntary
+anti‐corruption and anti‐bribery                environmental and social indicators are taken into account, depending on their relevance for measuring
+matters.                                        impacts on the SDGs and the availability of data. A detailed description of the incorporation of principal
+                                                adverse impacts is available via Robeco's Principal Adverse Impact Statement published on the Robeco
+                                                website. In this statement, Robeco sets out its approach to identifying and prioritizing principal adverse
+                                                impacts, and how principal adverse impacts are considered as part of Robeco's investment due diligence
+                                                process and procedures relating to research and analysis, exclusions and restrictions and/or voting and
+
+=== pdf p.3 ===
+engagement. This description also explains how principal adverse impact indicators are considered by the
+SDG Framework.
+
+The following PAIs were considered in the Sub-fund:
+
+PAI 1, table 1 was considered for scope 1, 2 and 3 (upstream) Green House Gas emissions via
+engagement and exclusions. Robeco’s Exclusion policy covers the exclusion of activities with highly
+negative climate impacts (e.g. thermal coal (≥ 20% of the revenues), oil sands (≥ 10% of the revenues) and
+artic drilling (≥ 5% of the revenues)).
+PAI 2, table 1 was considered for the carbon footprint via engagement and exclusions. Robeco’s Exclusion
+policy covers the exclusion of activities with highly negative climate impacts (e.g. thermal coal (≥ 20% of
+the revenues), oil sands (≥ 10% of the revenues) and artic drilling (≥ 5% of the revenues)).
+PAI 3, table 1 was considered for the Green House Gas intensity of investee companies via engagement
+and exclusions. Robeco’s Exclusion policy covers the exclusion of activities with highly negative climate
+impacts (e.g. thermal coal (≥ 20% of the revenues), oil sands (≥ 10% of the revenues) and artic drilling (≥
+5% of the revenues)).
+PAI 4, table 1 regarding the exposure to companies in the fossil fuel sector was considered via
+engagement and exclusions. Robeco’s Exclusion policy covers the exclusion of activities with highly
+negative climate impacts (e.g. thermal coal (≥ 20% of the revenues), oil sands (≥ 10% of the revenues) and
+artic drilling (≥ 5% of the revenues)).
+PAI 5, table 1 regarding the share of energy consomption from non-renewable sources was considered via
+engagement and exclusions. Robeco is committed to contribute to the goals of the Paris Agreement and
+to achieving net zero carbon emissions by 2050. The portfolio decarbonization targets are derived from
+the P2 pathway from the IPCC 1.5-degree scenario of 2018. The P2 pathway is composed of the following
+emission milestones: 49% reduction of GHG emissions in 2030 and -89% reduction of GHG emissions in
+2050, both relative to 2010 baseline.
+PAI 6, table 1 regarding Energy comsumption per High Impact Climate sector was considered via
+engagement and exclusions. Robeco’s Exclusion policy covers the exclusion of activities with highly
+negative climate impacts (e.g. thermal coal (Coal power expansion plans ≥ 300 MW)).
+PAI 7, table 1 regarding activities negatively affecting biodiversity sensitive areas was considered via
+engagement. Robeco is developing methods to evaluate the materiality of biodiversity for our portfolios,
+and the impact of our portfolios on biodiversity. Based on such methods Robeco will set quantified
+targets in order to combat biodiversity loss, latest by 2024.
+For relevant sectors, biodiversity impact is considered in Sub-fundamental SI research analysis. Robeco is
+developing a framework to consider this across all investments.
+Robeco’s Exclusion policy covers the exclusion of palm oil producers in which a minimum percentage of
+RSPO certified hectates of land at plantations as detailed in Robeco's exclusion policy.
+PAI 8, table 1 regarding Water emissions was considered via engagement. Within Robeco’s Controversial
+Behavior program, companies are screened on a potential violation in relation to water. When Robeco
+deems a company to cause significant negative impact on local water supply or waste issues which is a
+breach of UN Global Compact principle 7, it will either apply enhanced engagement or directly exclude the
+company from the universe.
+PAI 9, table 1 regarding hazardous waste and radioactive waste ratio was considered via engagement. In
+addition, within Robeco’s Controversial Behavior program, companies are screened on a potential
+violation in relation to waste. When Robeco deems a company to cause significant negative impact on
+local water supply or waste issues which is a breach of UN Global Compact principle 7, it will either apply
+enhanced engagement or directly exclude the company from the universe.
+PAI 10, table 1 regarding violations of UN Global Compact principles and Organisation for Economic
+Cooperation and Development (OECD) Guidelines for Multinational Enterprises was considered via
+engagement and exclusions. Robeco acts in accordance with the International Labor Organization (ILO)
+standards, United Nations Guiding Principles (UNGPs), United Nations Global Compact (UNGC) Principles
+and the Organization for Economic Co-operation and Development (OECD) Guidelines for Multinational
+Enterprises, and is guided by these international standards to assess the behavior of companies. In order
+to mitigate severe breaches, an enhanced engagement process is applied where Robeco deems a severe
+breach of these principles and guidelines has occured. If this enhanced engagement, which may last up to
+a period of three years, does not lead to the desired change, Robeco will exclude a company from its
+investment universe.
+PAI 11, table 1 regarding lack of processes and compliance mechanisms to monitor compliance with UN
+Global Compact principles and OECD Guidelines for Multinational Enterprises was considered via
+engagement. Robeco supports the human rights principles described in the Universal Declaration of
+Human Rights (UDHR) and detailed in the Guiding Principles on Business and Human Rights (UNGP), the
+OECD Guidelines for Multinational Enterprises and the eight Sub-fundamental International Labour
+Organization (ILO) conventions. Our commitment to these principles means Robeco will expect
+companies to formally commit to respect human rights, have in place human rights due diligence
+processes, and, where appropriate, ensure that victims of human rights abuses have access to remedy.
+PAI 12, table 1 regarding unadjusted gender pay-gap was considered via engagement. In 2022, Robeco
+launched an engagement program on diversity and inclusion, which will include elements in relation to the
+gender pay gap. Overall, gender pay gap disclosures are only mandatory in few jurisdictions (e.g. UK,
+California). Companies are encouraged to improve such disclosures.
+PAI 13, table 1 regarding board gender diversity was considered via engagement. In 2022, Robeco
+launched an engagement program on diversity and inclusion, which will include elements in relation to
+equal pay.
+
+=== pdf p.4 ===
+        PAI 14, table 1 regarding exposure to contraversial weapons was considered via exclusions. For all
+        strategies Robeco deems anti-personnel mines, cluster munitions, chemical, biological weapons, white
+        phosphorus, depleted uranium weapons and nuclear weapons that are tailor made and essential, to be
+        controversial weapons. Exclusion is applied to companies that are manufacturers of certain products that
+        do not comply with the following treaties or legal bans on controversial weapons:1. The Ottawa Treaty
+        (1997) which prohibits the use, stockpiling, production and transfer of anti-personnel mines.2. The
+        Convention on Cluster Munitions (2008) which prohibits the use, stockpiling, production and transfer of
+        cluster munitions.3. The Chemical Weapons Convention (1997) which prohibits the use, stockpiling,
+        production and transfer of chemical weapons. 4. Biological Weapons Convention (1975) which prohibits
+        the use, stockpiling, production and transfer of biological weapons.5. The Treaty on the Non-Proliferation
+        of Nuclear Weapons (1968) which limits the spread of nuclear weapons to the group of so-called Nuclear
+        Weapons States (USA, Russia, UK, France and China). 6. The Dutch act on Financial Supervision ‘Besluit
+        marktmisbruik’ art. 21 a. 7. The Belgian Loi Mahoux, the ban on uranium weapons. 8. Council Regulation
+        (EU) 2018/1542 of 15 October 2018 concerning restrictive measures against the proliferation and use of
+        chemical weapons.
+        PAI 4, table 2 regarding investments in companies without carbon emission reduction initiatives was
+        considered via engagement. Robeco engages with key high emitters in our investment portfolios via the
+        engagement themes “Acceleration to Paris” and “Net Zero Carbon Emissions”.
+        PAI 5, table 3 regarding the share of investments in investee companies without any grievance or
+        complaints handling mechanism was considered.
+        PAI 8, table 3 regarding exessive CEO pay ratio was considered via engagement under the engagement
+        program “Responsible Executive Remuneration”.
+
+        Were sustainable investments aligned with the OECD Guidelines for Multinational
+        Enterprises and the UN Guiding Principles on Business and Human Rights? Details:
+        The sustainable investments were aligned with the OECD Guidelines for Multinational Enterprises and the
+        UN Guiding Principles on Business and Human Rights via both Robeco's Exclusion Policy and Robeco's
+        SDG Framework.
+
+        Robeco's Exclusion Policy includes an explanation of how Robeco acts in accordance with the
+        International Labor Organization (ILO) standards, United Nations Guiding Principles (UNGPs), United
+        Nations Global Compact (UNGC) Principles and the Organization for Economic Co-operation and
+        Development (OECD) Guidelines for Multinational Enterprises and is guided by these international treaties
+        to assess the behavior of companies. Robeco continuously screens its investments for breaches of these
+        principles. In case of a breach, the company will be excluded or engaged with, and is not considered a
+        sustainable investment.
+
+        Robeco's SDG Framework screens for breaches on these principles in the final step of the framework. In
+        this step, Robeco checks whether the company concerned has been involved in any controversies.
+        Involvement in any controversy will result in a negative SDG score for the company, meaning it is not a
+        sustainable investment.
+
+The EU Taxonomy sets out a “do not significant harm” principle by which Taxonomy-aligned investments should not
+significantly harm EU Taxonomy objectives and is accompanied by specific Union criteria.
+
+The “do no significant harm” principle applies only to those investments underlying the financial product that take
+into account the EU criteria for environmentally sustainable economic activities. The investments underlying the
+remaining portion of this financial product do not take into account the EU criteria for environmentally sustainable
+economic activities.
+
+Any other sustainable investments must also not significantly harm any environmental or social objectives.
+
+=== pdf p.5 ===
+How did this financial product consider principal adverse impacts on sustainability
+factors?
+
+The sub-fund considered principal adverse impacts on sustainability factors as referred to in Annex I of the SFDR
+Delegated Act.
+
+Pre-investment, the following principal adverse impacts on sustainability factors were considered:
+
+o Via the applied normative and activity-based exclusions, the following PAIs were considered:
+- Exposure to companies active in the fossil fuel sector (PAI 4, Table 1) was 1.69% of the net assets, compared to
+3.58% of the benchmark.
+- Exposure to companies in violations of the UN Global Compact Principles and Organisation for Economic Cooperation
+and Development (OECD) Guidelines for Multinational Enterprises (PAI 10, Table 1) was 0.10% of the net assets,
+compared to 0.48% of the benchmark.
+- The share of investments in investee companies with sites/operations located in or near biodiversity sensitive areas
+where activities of those investee companies negatively affect those areas (PAI 7, Table 1) was 0.19% of the net
+assets, compared to 1.83% of the benchmark.
+- Exposure to controversial weapons (anti-personnel mines, cluster munitions, chemical weapons (PAI 14, Table 1) was
+0.00% of the net assets, compared to 0.25% of the benchmark.
+
+o Via the environmental footprint performance targets of the sub-fund, the following PAIs were considered:
+- The carbon footprint of the portfolio (PAI 2, table 1) was 531 tons per EUR million EVIC, compared to 638 tons per
+EUR million EVIC for the benchmark.
+- The share of investments in investee companies with sites/operations located in or near biodiversity sensitive areas
+where activities of those investee companies negatively affect those areas (PAI 7, Table 1) was 0.19% of the net
+assets, compared to 1.83% of the benchmark.
+- The emissions to water generated by investee companies per million EUR invested, expressed as a weighted average
+(PAI 8, Table 1) were 0.01 tons, compared to 0.04 tons of the benchmark.
+- The generation of hazardous waste and radioactive waste generated by investee companies per million EUR invested,
+expressed as a weighted average were 26.58 tons, compared to 43.12 tons of the benchmark.
+
+Post-investment, the following principal adverse impacts on sustainability factors are taken into account:
+
+o Via the application of the voting policy, the following PAIs were considered:
+- The greenhouse gas emissions (PAI 1, table 1) of the portfolio were 219,327 tons, compared to 301,270 tons for the
+benchmark.
+- The carbon footprint of the portfolio (PAI 2, table 1) was 531 tons per EUR million EVIC, compared to 638 tons per
+EUR million EVIC for the benchmark.
+- The green house gas intensity of the portfolio (PAI 3, table 1) was 1,291 tons per EUR million revenue, compared to
+1,513 tons per EUR million revenue for the benchmark.
+- Exposure to companies active in the fossil fuel sector (PAI 4, Table 1) was 1.69% of the net assets, compared to
+3.58% of the benchmark.
+- The share of non-renewable energy consumption of investee companies from non-renewable energy sources
+compared to renewable energy sources (PAI 5, Table 1), expressed as a percentage of total energy sources was
+51.28% of the net assets, compared to 51.95% of the benchmark.
+- The share of non-renewable energy production of investee companies from non-renewable energy sources compared
+to renewable energy sources (PAI 5, Table 1), expressed as a percentage of total energy sources voor de funds was
+52.27% of the net assets, compared to 55.09% of the benchmark.
+- The energy consumption per million EUR of revenue of investee companies, per high-impact climate sector (PAI 6,
+Table 1) was 0.27 GWh, compared to 0.42 GWh for the benchmark.
+- Exposure to companies in violations of the UN Global Compact Principles and Organisation for Economic Cooperation
+and Development (OECD) Guidelines for Multinational Enterprises (PAI 10, Table 1) was 0.10% of the net assets,
+compared to 0.48% of the benchmark.
+- The share of investments in investee companies without policies to monitor compliance with the UNGC principles or
+OECD Guidelines for Multinational Enterprises (PAI 11, Table 1) was 0.81%, compared to 0.21% for the benchmark.
+- The share of investments in investee companies without grievance / complaints handling mechanisms to address
+violations of the UNGC principles or OECD Guidelines for Multinational Enterprises (PAI 11, Table 1) was 64.98%,
+compared to 54.79% for the benchmark.
+- The average unadjusted gender pay gap of investee companies (PAI 12, Table 1) was 12.59%, compared to 12.55%
+for the benchmark.
+- The average ratio of female to male board members in investee companies expressed as a percentage of all board
+members (PAI 13, Table 1) was 33.80%, compared to 35.06% for the benchmark.
+- Indicators in relation to social and employee matters (PAI 5-7, Table 3).
+- The average ratio within investee companies of the annual total compensation for the highest compensated individual
+to the median annual total compensation for all employees (excluding the highest compensated individual) (PAI 8,
+Table 3) was 251, compared to 307 for the benchmark.
+
+o Via Robeco's entity engagement program, the following PAIs were considered:
+- The greenhouse gas emissions (PAI 1, table 1) of the portfolio were 219,327 tons, compared to 301,270 tons for the
+benchmark.
+- The carbon footprint of the portfolio (PAI 2, table 1) was 531 tons per EUR million EVIC, compared to 638 tons per
+
+=== pdf p.6 ===
+                                   EUR million EVIC for the benchmark.
+                                   - The green house gas intensity of the portfolio (PAI 3, table 1) was 1,291 tons per EUR million revenue, compared to
+                                   1,513 tons per EUR million revenue for the benchmark.
+                                   - Exposure to companies active in the fossil fuel sector (PAI 4, Table 1) was 1.69% of the net assets, compared to
+                                   3.58% of the benchmark.
+                                   - The share of non-renewable energy consumption of investee companies from non-renewable energy sources
+                                   compared to renewable energy sources (PAI 5, Table 1), expressed as a percentage of total energy sources was
+                                   51.28% of the net assets, compared to 51.95% of the benchmark.
+                                   - The share of non-renewable energy production of investee companies from non-renewable energy sources compared
+                                   to renewable energy sources (PAI 5, Table 1), expressed as a percentage of total energy sources voor de funds was
+                                   52.27% of the net assets, compared to 55.09% of the benchmark.
+                                   - The energy consumption per million EUR of revenue of investee companies, per high-impact climate sector (PAI 6,
+                                   Table 1) was 0.27 GWh, compared to 0.42 GWh for the benchmark.
+                                   - The share of investments in investee companies with sites/operations located in or near biodiversity sensitive areas
+                                   where activities of those investee companies negatively affect those areas (PAI 7, Table 1) was 0.19% of the net
+                                   assets, compared to 1.83% of the benchmark.
+                                   - The emissions to water generated by investee companies per million EUR invested, expressed as a weighted average
+                                   (PAI 8, Table 1) were 0.01 tons, compared to 0.04 tons of the benchmark.
+                                   - The generation of hazardous waste and radioactive waste generated by investee companies per million EUR invested,
+                                   expressed as a weighted average were 26.58 tons, compared to 43.12 tons of the benchmark.
+                                   - Exposure to companies in violations of the UN Global Compact Principles and Organisation for Economic Cooperation
+                                   and Development (OECD) Guidelines for Multinational Enterprises (PAI 10, Table 1) was 0.10% of the net assets,
+                                   compared to 0.48% of the benchmark.
+                                   - In addition, based on a yearly review of Robeco's performance on all mandatory and selected voluntary indicators,
+                                   holdings of the Sub-fund that cause adverse impact might be selected for engagement.
+
+                                   More information is available via Robeco's Principal Adverse Impact Statement, published on Robeco's website.
+
+
+                                   What were the top investments of this financial product?
+
+
+                                    Largest Investments           Sector                           % Assets                  Country
+The list includes the               NVIDIA Corp                   Semiconductors &                 4.85%                     United States
+investments constituting the                                      Semiconductor Equipment
+                                    Apple Inc                     Technology Hardware, Storage     3.76%                     United States
+greatest proportion of                                            & Peripherals
+investments of the financial        Microsoft Corp                Software                         3.61%                     United States
+product during the reference        Amazon.com Inc                Multiline Retail                 2.25%                     United States
+period which is: 1 January          Alphabet Inc (Class A)        Interactive Media & Services     1.48%                     United States
+                                    Alphabet Inc (Class C)        Interactive Media & Services     1.43%                     United States
+2025 through 31 December            Meta Platforms Inc            Interactive Media & Services     1.29%                     United States
+2025                                Broadcom Inc                  Semiconductors &                 0.94%                     United States
+                                                                  Semiconductor Equipment
+                                    JPMorgan Chase & Co           Banks                            0.94%                     United States
+                                    General Electric Co           Aerospace & Defense              0.83%                     United States
+                                    Netflix Inc                   Entertainment                    0.78%                     United States
+                                    Booking Holdings Inc          Hotels, Restaurants & Leisure    0.76%                     United States
+                                    Novartis AG                   Pharmaceuticals                  0.69%                     Switzerland
+                                    Palantir Technologies Inc     Software                         0.65%                     United States
+                                    Bank of New York Mellon       Capital Markets                  0.65%                     United States
+                                    Corp/The
+
+                                   What was the proportion of sustainability-related investments?
+
+                                           What was the asset allocation?
+
+Asset allocation describes the                                                                                                    Taxonomy-aligned
+share of investments in specific                                                                  #1A Sustainable                 1.7%
+assets.                                                                                           63.6%
+                                                                    #1 Aligned with E/S
+                                                                    characteristics
+                                                                    98.8%                                                         Other
+                                                                                                                                  Environmental
+                                                                                                   #1B Other E/S                  1.8%
+                                        Investments                                                characteristics
+                                                                    #2 Other                       35.2%
+                                                                    1.2%
+                                                                                                                                 Social
+                                                                                                                                 60.3%
+
+=== pdf p.7 ===
+ #1 Aligned with E/S characteristics includes the investments of the financial product used to attain the
+ environmental or social characteristics promoted by the financial product.
+ #2 Other includes the remaining investments of the financial product which are neither aligned with the
+ environmental or social characteristics, nor are qualified as sustainable investments.
+
+ The category #1 Aligned with E/S characteristics covers:
+
+ - The sub-category #1A Sustainable covers environmentally and socially sustainable investments.
+ - The sub-category #1B Other E/S characteristics covers investments aligned with the environmental or
+ social characteristics that do not qualify as sustainable investments.
+
+
+      In which economic sectors were the investments made?
+                                                                                  Average exposure in % over the
+Sector
+                                                                                  reporting period
+Sectors deriving revenues from exploration, mining, extraction, production, processing, storage, refining or distribution, including
+transportation, storage and trade, of fossil fuels -
+Gas Utilities                                                                                                                 0.34%
+Oil, Gas & Consumable Fuels                                                                                                   0.32%
+Energy Equipment & Services                                                                                                   0.31%
+
+Other sectors
+Software                                                                                                                      9.60%
+Semiconductors & Semiconductor Equipment                                                                                      9.55%
+Capital Markets                                                                                                               6.06%
+Interactive Media & Services                                                                                                  5.55%
+Biotechnology                                                                                                                 5.42%
+Banks                                                                                                                         4.29%
+Technology Hardware, Storage & Peripherals                                                                                    4.13%
+Aerospace & Defense                                                                                                           3.94%
+Food & Staples Retailing                                                                                                      3.64%
+Pharmaceuticals                                                                                                               3.36%
+Insurance                                                                                                                     3.27%
+Entertainment                                                                                                                 3.26%
+Multiline Retail                                                                                                              3.23%
+Communications Equipment                                                                                                      2.72%
+Electric Utilities                                                                                                            2.47%
+Hotels, Restaurants & Leisure                                                                                                 2.31%
+Machinery                                                                                                                     1.80%
+IT Services                                                                                                                   1.71%
+Health Care Providers & Services                                                                                              1.66%
+Real Estate Management & Development                                                                                          1.53%
+Professional Services                                                                                                         1.44%
+Specialty Retail                                                                                                              1.42%
+Electrical Equipment                                                                                                          1.23%
+Automobiles                                                                                                                   1.18%
+Chemicals                                                                                                                     1.14%
+Health Care Technology                                                                                                        0.96%
+Diversified Financial Services                                                                                                0.82%
+Household Products                                                                                                            0.75%
+Health Care Equipment & Supplies                                                                                              0.74%
+Textiles, Apparel & Luxury Goods                                                                                              0.66%
+Multi-Utilities                                                                                                               0.66%
+Media                                                                                                                         0.65%
+Diversified Telecommunication Services                                                                                        0.62%
+Leisure Products                                                                                                              0.61%
+Electronic Equipment, Instruments & Components                                                                                0.58%
+Building Products                                                                                                             0.53%
+Metals & Mining                                                                                                               0.47%
+Diversified Consumer Services                                                                                                 0.46%
+Consumer Finance                                                                                                              0.45%
+Construction & Engineering                                                                                                    0.40%
+Food Products                                                                                                                 0.38%
+Road & Rail                                                                                                                   0.32%
+Beverages                                                                                                                     0.32%
+Retail REITs                                                                                                                  0.31%
+Personal Products                                                                                                             0.26%
+Commercial Services & Supplies                                                                                                0.23%
+Airlines                                                                                                                      0.21%
+Auto Components                                                                                                               0.14%
+Industrial Conglomerates                                                                                                      0.12%
+Wireless Telecommunication Services                                                                                           0.08%
+Containers & Packaging                                                                                                        0.06%
+Diversified REITs                                                                                                             0.04%
+Marine                                                                                                                        0.04%
+Construction Materials                                                                                                        0.03%
+Specialized REITs                                                                                                             0.03%
+
+=== pdf p.8 ===
+                                               Household Durables                                                                                                                                  0.02%
+                                               Independent Power and Renewable Electricity Producers                                                                                               0.01%
+                                               Life Sciences Tools & Services                                                                                                                      0.00%
+                                               Cash and other instruments                                                                                                                          1.18%
+
+To comply with the EU
+Taxonomy, the criteria for                             To what extent were the sustainable investments with an environmental objective
+fossil gas include limitations
+on emissions and switching                             aligned with the EU Taxonomy?
+to fully renewable power or
+low-carbon fuels by the end                            1.7%.
+of 2035. For nuclear energy,
+the criteria include
+comprehensive safety and
+                                                                Did the financial product invest in fossil gas and/or nuclear energy related activities
+waste management rules.                                         complying with the EU Taxonomy? 1
+
+Enabling activities directly                                                           Yes
+enable other activities to
+make a substantial
+contribution to an                                                                          In fossil gas                                                      In nuclear energy
+environmental objective.
+Transitional activities are
+economic activities for which                                                          No
+low-carbon alternatives are                                                        X
+not yet available and that
+have greenhouse gas
+emission levels
+corresponding to the best
+performance.
+
+Taxonomy-aligned activities                           The graphs below show in green the percentage of investments that were aligned with the EU Taxonomy. As there is no
+are expressed as a share of:                          appropriate methodology to determine the taxonomy-alignment of sovereign bonds*, the first graph shows the Taxonomy
+- turnover reflecting the                             alignment in relation to all the investments of the financial product including sovereign bonds, while the second graph shows the
+share of revenue from green                           Taxonomy alignment only in relation to the investments of the financial product other than sovereign bonds.
+activities of investee
+companies.                                                     1. Taxonomy-alignment of investments including                               2. Taxonomy-alignment of investments excluding
+- capital expenditure (Capex)                                                sovereign bonds*                                                              sovereign bonds*
+showing the green                                                   0.95%                                                                       0.95%
+
+investments made by
+                                                            Turnover                                        99.05%                      Turnover                                     99.05%
+investee companies, e.g. for
+                                                                        0.95%
+
+
+
+
+                                                                                                                                                    0.95%
+
+
+
+
+a transition to a green                                              1.74%                                                                      1.74%
+economy.
+- operational expenditure                                      CapEx                                        98.26%                         CapEx                                     98.26%
+                                                                           1.74%
+
+
+
+
+                                                                                                                                                       1.74%
+
+
+
+
+(Opex) reflecting green
+                                                                       0%                                                                         0%
+operational activities of
+investee companies.                                             OpEx                                         100%                           OpEx                                        100%
+
+
+
+                                                                       0%                     50%               100%                               0%                     50%               100%
+
+                                                                       Taxonomy-aligned: Nuclear                                                   Taxonomy-aligned: Nuclear
+                                                                       Taxonomy-aligned: Fossil gas                                                Taxonomy-aligned: Fossil gas
+                                                                       Taxonomy-aligned (no fossil gas & nuclear)                                  Taxonomy-aligned (no fossil gas & nuclear)
+                                                                       Non Taxonomy-aligned                                                        Non Taxonomy-aligned
+
+
+
+
+                                                                                                                                      This graph represents 100.00% of the total investment.
+
+                                                      *For the purpose of these graphs, ‘sovereign bonds’ consist of all sovereign exposures
+
+
+                                                               What was the share of investments made in transitional and enabling activities?
+                                                               0.0%.
+
+                                                               How did the percentage of investments that were aligned with the EU Taxonomy compare
+                                                               with previous reference periods?
+                                                               The percentage Taxonomy Alignment measured in percentage of CAPEX was 1.74%, measured in
+                                                               percentages of revenues was 0.95%. The percentages taxonomy alignment were 0.00% in previous years.
+
+
+
+
+    1
+       Fossil gas and/or nuclear related activities will only comply with the EU Taxonomy where they contribute to limiting climate change (“climate change mitigation”) and do not significantly harm
+    any EU Taxonomy objective – see explanatory note in the left hand margin. The full criteria for fossil gas and nuclear energy economic activities that comply with the EU Taxonomy are laid down
+    in Commission Delegated Regulation (EU) 2022/1214.
+
+=== pdf p.9 ===
+                                            What was the share of sustainable investments with an environmental objective not
+ are sustainable investments
+ with an environmental                      aligned with the EU Taxonomy?
+ objective that do not take into
+ account the criteria for                   1.8%. This concerns investments with a positive score on one of more of the following SDG’s, without harming
+ environmentally sustainable                other SDG’s: SDG 12 (responsible consumption and prodcution), 13 (climate action), 14 (life below water) or 15
+ economic activities under                  (life on land).
+ Regulation (EU) 2020/852.
+
+                                            What was the share of socially sustainable investments?
+                                            60.3%. This concerns investments with a positive score on one of more of the following SDGs, without harming
+                                            other SDGs: SDG 1 (No poverty), 2 (zero hunger), 3 (good health and well-being), 4 (quality education), 5 (gender
+                                            equality), 6 (clean water and sanitation), 7 (affordable and clean energy), 8 (decent work and economic growth), 9
+                                            (industry, innovation and infrastructure), 10 (reduced inequalities), 11 (sustainable cities and communities), 16
+                                            (peace justice and strong insttutions)
+
+                                            What investments were included under “other”, what was their purpose and were
+                                            there any minimum environmental or social safeguards?
+                                            The use of cash, cash equivalents and derivatives is included under “not sustainable”. The mandate may make use
+                                            of derivatives for hedging, liquidity and efficient portfolio management as well as investment purposes (in line with
+                                            the investment policy). Any derivatives in the mandate were not used to attain environmental or social
+                                            characteristics promoted by the financial product.
+
+                                   What actions have been taken to meet the environmental and/or social characteristics
+                                   during the reference period?
+                                   During the reporting period, the overall sustainability profile of the mandate was improved further by focusing on material
+                                   information with regards to Environmental, Social and Governance factors. 37 holdings were under active engagement
+                                   either within Robeco’s thematic engagement programs or under more company-specific engagement topics related to
+                                   Environmental, Social and/or Governance issues. The Environmental footprint was lower than the reference index.
+
+
+
+                                   How did this financial product perform compared to the reference benchmark?
+                                   Not applicable.
+
+
+
+Reference benchmarks are
+indexes to measure whether the
+financial product attains the
+environmental or social
+characteristics that they
+promote.
+

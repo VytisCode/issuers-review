@@ -6129,5 +6129,152 @@
   "fetched": "2026-11-01",
   "ok": false,
   "error": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/CGF_GDAQ_I-fact-202610-profgloben.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/factsheet_0a20294d68.pdf",
+  "sha256": "0a20294d687d2592bcbc549c005ba95f09f4956a3e7616062e3ed6ebee38fd21",
+  "bytes": 589524,
+  "final_url": "https://www.robeco.com/files/doca/CGF_GDAQ_I-fact-202610-profgloben.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "kid",
+  "url": "https://www.robeco.com/files/doca/cgf_gdaq_i-prip-202604-profgloben.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/kid_45c46b7932.pdf",
+  "sha256": "45c46b79320a00a5575ef21507cdf1eca0ca33b9d9d68a399029f0a38ee4b3a7",
+  "bytes": 241400,
+  "final_url": "https://www.robeco.com/files/doca/cgf_gdaq_i-prip-202604-profgloben.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "sfdr_precontractual",
+  "url": "https://www.robeco.com/files/doca/pcdp-robeco-qi-global-developed-active-equities-en.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/sfdr_precontractual_32cae0b06d.pdf",
+  "sha256": "32cae0b06d4ae65d8776c1a7c8769f54bc6e13804628cdf452b74e420190ffe7",
+  "bytes": 531786,
+  "final_url": "https://www.robeco.com/files/doca/pcdp-robeco-qi-global-developed-active-equities-en.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "sfdr_periodic_2025",
+  "url": "https://www.robeco.com/files/doca/sper-robeco-qi-global-developed-active-equities-en.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/sfdr_periodic_2025_290b3969f4.pdf",
+  "sha256": "290b3969f44ded59d42c2ad5e32dadf7b36bbecc9e6a960574a47d2ce1777588",
+  "bytes": 306012,
+  "final_url": "https://www.robeco.com/files/doca/sper-robeco-qi-global-developed-active-equities-en.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "sfdr_website",
+  "url": "https://www.robeco.com/files/doca/sfdr-robeco-qi-global-developed-active-equities-en.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/sfdr_website_dcce140d86.pdf",
+  "sha256": "dcce140d86dbb3546e6a30de9c1a0c7c332bedb3281e8579f4106ab3757383c4",
+  "bytes": 209504,
+  "final_url": "https://www.robeco.com/files/doca/sfdr-robeco-qi-global-developed-active-equities-en.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "sfdr_summary",
+  "url": "https://www.robeco.com/files/doca/CGF_GDAQ_I-swda-202607-profgloben.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/sfdr_summary_8108193e4e.pdf",
+  "sha256": "8108193e4e62cef7248fddee9743513b39f58847ffac93d7440286a82e260961",
+  "bytes": 71655,
+  "final_url": "https://www.robeco.com/files/doca/CGF_GDAQ_I-swda-202607-profgloben.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "prospectus",
+  "url": "https://www.robeco.com/files/doca/pros-robeco-capital-growth-funds-en.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/prospectus_e28d989c88.pdf",
+  "sha256": "e28d989c8859b8ec2a2afacca09def28b6e38432e5afc4ddc462a2aa1f6f1811",
+  "bytes": 9267887,
+  "final_url": "https://www.robeco.com/files/doca/pros-robeco-capital-growth-funds-en.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "annual_report_2025",
+  "url": "https://www.robeco.com/files/doca/annu-2025-robeco-capital-growth-funds-en.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/annual_report_2025_5b553e76c1.pdf",
+  "sha256": "5b553e76c11d11faac1fa780cb59d049307749f55ad25a821bd482f0ce25de14",
+  "bytes": 19150548,
+  "final_url": "https://www.robeco.com/files/doca/annu-2025-robeco-capital-growth-funds-en.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "semiannual_2026",
+  "url": "https://www.robeco.com/files/doca/semi-2026-robeco-capital-growth-funds-en.pdf",
+  "fetched": "2026-11-13",
+  "ok": true,
+  "file": "2026-11-13/LU1783222901/semiannual_2026_fbcf9fca6e.pdf",
+  "sha256": "fbcf9fca6e48cb534c47e8ef0f93fecd8e74ebee36aab096d23a84e66d4a4459",
+  "bytes": 11244057,
+  "final_url": "https://www.robeco.com/files/doca/semi-2026-robeco-capital-growth-funds-en.pdf"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "factsheet_g",
+  "url": "https://www.robeco.com/files/doca/CGF_GDAQ_G-fact-202610-profgloben.pdf",
+  "fetched": "2026-11-13",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/LU1783222901/en/MR/",
+  "fetched": "2026-11-13",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/LU1783222901/de/factsheet",
+  "fetched": "2026-11-13",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/LU1783222901-factsheet.pdf",
+  "fetched": "2026-11-13",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/LU1783222901/de/kiid",
+  "fetched": "2026-11-13",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU1783222901",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/LU1783222901/en/KID/",
+  "fetched": "2026-11-13",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
  }
 ]
