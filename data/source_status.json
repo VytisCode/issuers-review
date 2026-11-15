@@ -1,11 +1,11 @@
 {
  "news": {
-  "date": "2026-11-14",
-  "new": 12,
+  "date": "2026-11-15",
+  "new": 0,
   "errors": []
  },
  "filings": {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "new": 0,
   "baseline": 0,
   "errors": [
@@ -14,7 +14,14 @@
   ]
  },
  "market": {
-  "date": "2026-11-14",
-  "errors": []
+  "date": "2026-11-15",
+  "errors": [
+   "ecb_dfr: HTTP Error 503: Service Temporarily Unavailable",
+   "euribor_3m: HTTP Error 503: Service Temporarily Unavailable",
+   "euribor_6m: HTTP Error 503: Service Temporarily Unavailable",
+   "euribor_12m: HTTP Error 503: Service Temporarily Unavailable",
+   "ea_10y: HTTP Error 503: Service Temporarily Unavailable",
+   "ea_hicp: HTTP Error 503: Service Temporarily Unavailable"
+  ]
  }
 }
