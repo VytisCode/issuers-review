@@ -15,6 +15,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,EE3300002302,99,99.89,,5.7279,5.52465,,,https://nasdaqbaltic.com/statistics/en/instrument/EE3300002302/trading
 2026-11-13,EE3300002302,98.36,99.9,,5.87554,5.52239,,,https://nasdaqbaltic.com/statistics/en/instrument/EE3300002302/trading
 2026-11-16,EE3300002302,98.36,99.99,99.99,5.87572,5.50195,2,3021.72,https://nasdaqbaltic.com/statistics/en/instrument/EE3300002302/trading
+2026-11-17,EE3300002302,98.38,100.49,99.52,5.87127,5.38863,2,10029.9,https://nasdaqbaltic.com/statistics/en/instrument/EE3300002302/trading
 2026-10-23,EE3300004993,100.86,102.8,100.86,5.86493,5.56582,2,3061.8,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
 2026-10-26,EE3300004993,101.01,102.7,102.1,5.84153,5.58097,3,9242.5,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
 2026-10-27,EE3300004993,101.03,102.4,,5.83838,5.62676,,,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
@@ -31,6 +32,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,EE3300004993,100.1,101.66,100.7,5.98416,5.73968,3,10071.7,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
 2026-11-13,EE3300004993,101.66,102,101.66,5.73959,5.68688,1,1016.93,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
 2026-11-16,EE3300004993,100.12,101.71,100.12,5.98094,5.73174,2,3005.1,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
+2026-11-17,EE3300004993,100.2,101.53,101.7,5.96827,5.75963,2,4041.27,https://nasdaqbaltic.com/statistics/en/instrument/EE3300004993/trading
 2026-10-23,LT0000134439,,100,,,7.98584,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
 2026-10-26,LT0000134439,,100,,,7.98601,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
 2026-10-27,LT0000134439,,100,,,7.98618,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
@@ -46,6 +48,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,LT0000134439,,100,,,7.9902,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
 2026-11-13,LT0000134439,,100,,,7.99047,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
 2026-11-16,LT0000134439,,100,,,7.99076,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
+2026-11-17,LT0000134439,,100,,,7.99105,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000134439/trading
 2026-10-23,LT0000406613,,99.5,,,3.57339,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000406613/trading
 2026-10-26,LT0000406613,,99.5,,,3.57634,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000406613/trading
 2026-10-27,LT0000406613,,99.5,,,3.57931,,,https://nasdaqbaltic.com/statistics/en/instrument/LT0000406613/trading
@@ -77,6 +80,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,LV0000104487,98.5,,,4.459,,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000104487/trading
 2026-11-13,LV0000104487,98.5,,,4.45934,,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000104487/trading
 2026-11-16,LV0000104487,98.5,,,4.45969,,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000104487/trading
+2026-11-17,LV0000104487,,98.5,98.5,,4.46003,1,1986.7,https://nasdaqbaltic.com/statistics/en/instrument/LV0000104487/trading
 2026-11-03,LV0000802528,99.47,99.58,,3.08652,2.54293,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000802528/trading
 2026-11-04,LV0000802528,99.47,99.588,,3.12143,2.5305,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000802528/trading
 2026-11-05,LV0000802528,99.47,99.588,,3.23204,2.61593,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000802528/trading
@@ -89,6 +93,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,LV0000802684,,100.661,,,4.62795,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000802684/trading
 2026-11-13,LV0000802684,,100.566,,,4.67263,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000802684/trading
 2026-11-16,LV0000802684,,100.5,,,4.7034,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000802684/trading
+2026-11-17,LV0000802684,,100.564,,,4.67269,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000802684/trading
 2026-10-23,LV0000805349,100,100.25,,7.49935,7.37118,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/trading
 2026-10-26,LV0000805349,99.55,100.25,,7.73123,7.37099,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/trading
 2026-10-27,LV0000805349,99.99,100.25,,7.50442,7.3708,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/trading
@@ -105,6 +110,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,LV0000805349,99.55,100,,7.73605,7.49897,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/trading
 2026-11-13,LV0000805349,99.55,100,,7.73634,7.49897,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/trading
 2026-11-16,LV0000805349,100,100.25,100,7.49898,7.36748,1,13130,https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/trading
+2026-11-17,LV0000805349,100,100.25,100,7.49898,7.36732,1,7071.46,https://nasdaqbaltic.com/statistics/en/instrument/LV0000805349/trading
 2026-10-26,LV0000870129,99.25,,,3.88812,,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000870129/trading
 2026-10-27,LV0000870129,99.25,,,3.89588,,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000870129/trading
 2026-10-28,LV0000870129,99.25,,,3.90373,,,,https://nasdaqbaltic.com/statistics/en/instrument/LV0000870129/trading
@@ -124,6 +130,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,XS1853999313,,97.2755,,,3.60406,,,https://nasdaqbaltic.com/statistics/en/instrument/XS1853999313/trading
 2026-11-13,XS1853999313,,97.2755,,,3.6069,,,https://nasdaqbaltic.com/statistics/en/instrument/XS1853999313/trading
 2026-11-16,XS1853999313,,97.2138,,,3.65,,,https://nasdaqbaltic.com/statistics/en/instrument/XS1853999313/trading
+2026-11-17,XS1853999313,,97.1418,,,3.7,,,https://nasdaqbaltic.com/statistics/en/instrument/XS1853999313/trading
 2026-10-23,XS2177349912,,92.9802,,,4.15641,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
 2026-10-26,XS2177349912,,93.0051,,,4.15,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
 2026-10-28,XS2177349912,,93.015,,,4.15,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
@@ -138,6 +145,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,XS2177349912,,93.4066,,,4.05,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
 2026-11-13,XS2177349912,,93.4114,,,4.05,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
 2026-11-16,XS2177349912,,93.4162,,,4.05,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
+2026-11-17,XS2177349912,,93.421,,,4.05,,,https://nasdaqbaltic.com/statistics/en/instrument/XS2177349912/trading
 2026-10-23,XS3046302488,100,101.25,,5.98614,5.58901,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
 2026-10-26,XS3046302488,100,,,5.98611,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
 2026-10-27,XS3046302488,100,101,,5.98609,5.66742,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
@@ -153,6 +161,7 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,XS3046302488,100,,,5.9858,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
 2026-11-13,XS3046302488,100,,,5.98579,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
 2026-11-16,XS3046302488,100,,,5.98578,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
+2026-11-17,XS3046302488,100,,,5.98578,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3046302488/trading
 2026-10-23,XS3366323072,95,,,6.02808,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3366323072/trading
 2026-10-26,XS3366323072,95,,,6.02876,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3366323072/trading
 2026-10-27,XS3366323072,95,,,6.02944,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3366323072/trading
@@ -168,3 +177,4 @@ date,isin,bid,ask,last,bid_yield,ask_yield,trades,turnover_eur,source
 2026-11-12,XS3366323072,95,,,6.04194,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3366323072/trading
 2026-11-13,XS3366323072,95,,,6.04264,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3366323072/trading
 2026-11-16,XS3366323072,95,,,6.04335,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3366323072/trading
+2026-11-17,XS3366323072,95,,,6.04406,,,,https://nasdaqbaltic.com/statistics/en/instrument/XS3366323072/trading
