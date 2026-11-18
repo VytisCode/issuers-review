@@ -1,12 +1,16 @@
 {
  "news": {
-  "date": "2026-11-17",
-  "new": 12,
-  "errors": []
+  "date": "2026-11-18",
+  "new": 4,
+  "errors": [
+   "luminor/lv: HTTP Error 429: Too Many Requests",
+   "luminor/en: HTTP Error 429: Too Many Requests",
+   "port-of-tallinn/et: HTTP Error 429: Too Many Requests"
+  ]
  },
  "filings": {
-  "date": "2026-11-17",
-  "new": 1,
+  "date": "2026-11-18",
+  "new": 0,
   "baseline": 0,
   "errors": [
    "luminor: https://luminor.lv/en/financial-reports: HTTP Error 403: Forbidden",
@@ -14,7 +18,7 @@
   ]
  },
  "market": {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "errors": []
  }
 }
