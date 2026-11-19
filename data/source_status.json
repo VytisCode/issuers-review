@@ -1,15 +1,14 @@
 {
  "news": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "new": 4,
   "errors": [
-   "luminor/lv: HTTP Error 429: Too Many Requests",
-   "luminor/en: HTTP Error 429: Too Many Requests",
-   "port-of-tallinn/et: HTTP Error 429: Too Many Requests"
+   "artea/lt: HTTP Error 429: Too Many Requests",
+   "inbank/et: HTTP Error 429: Too Many Requests"
   ]
  },
  "filings": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "new": 0,
   "baseline": 0,
   "errors": [
@@ -18,7 +17,7 @@
   ]
  },
  "market": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "errors": []
  }
 }
