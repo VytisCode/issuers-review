@@ -1,0 +1,224 @@
+{
+ "month_end": "2026-10-31",
+ "run": "2026-11-20",
+ "source": "automatic, no AI (tools/duration_auto.py)",
+ "rows": [
+  {
+   "isin": "IE00BD5BKF38",
+   "fund": "Neuberger Berman EM Debt Local Currency I EUR Acc",
+   "type": "Duration (years)",
+   "value": null,
+   "as_of": "",
+   "page": null,
+   "url": "",
+   "copy": false,
+   "status": "not_found",
+   "note": "download failed: HTTP Error 429: Too Many Requests",
+   "tried": [
+    {
+     "url": "https://www.nb.com/api/marketing/file?itemid=E17C4EF3BBFE4C198E73E5AA84597621&v=2",
+     "result": "error",
+     "note": "HTTP Error 429: Too Many Requests"
+    },
+    {
+     "url": "https://www.nb.com/handlers/documents.ashx?item_id=e17c4ef3-bbfe-4c19-8e73-e5aa84597621",
+     "result": "error",
+     "note": "HTTP Error 429: Too Many Requests"
+    }
+   ]
+  },
+  {
+   "isin": "FI0008800511",
+   "fund": "Evli Short Corporate Bond B",
+   "type": "Modified Duration",
+   "value": 2.05,
+   "as_of": "2026-10-31",
+   "page": 1,
+   "url": "https://content.evli.com/fund/pdf/Evli_Short_Corporate_Bond_B_Monthly_Report_en.pdf",
+   "copy": false,
+   "status": "found",
+   "note": "",
+   "tried": [
+    {
+     "url": "https://content.evli.com/fund/pdf/Evli_Short_Corporate_Bond_B_Monthly_Report_en.pdf",
+     "result": "found",
+     "note": ""
+    }
+   ],
+   "sha256": "b90e10c71b38246178e3c574e35f4cf1b7ba86a6b9679b68e5919e6307f155be",
+   "file": "fund-docs:2026-11-20/FI0008800511/duration_factsheet_b90e10c71b.pdf"
+  },
+  {
+   "isin": "LU1437018168",
+   "fund": "Amundi EUR Corporate Bond ESG UCITS ETF (A, acc)",
+   "type": "Modified duration",
+   "value": 4.1,
+   "as_of": "2026-10-30",
+   "page": 2,
+   "url": "https://www.amundietf.co.uk/pdfDocuments/monthly-factsheet/LU1437018168/ENG/GBR/INSTITUTIONNEL/ETF/20261031",
+   "copy": false,
+   "status": "found",
+   "note": "",
+   "tried": [
+    {
+     "url": "https://www.amundietf.co.uk/pdfDocuments/monthly-factsheet/LU1437018168/ENG/GBR/INSTITUTIONNEL/ETF/20261031",
+     "result": "found",
+     "note": ""
+    }
+   ],
+   "sha256": "8a4c7c9c6e57cc5a31a210ccdfa8e9d4580243e2cfb99e077240810a4c3a656a",
+   "file": "fund-docs:2026-11-20/LU1437018168/duration_factsheet_8a4c7c9c6e.pdf"
+  },
+  {
+   "isin": "LU0113258742",
+   "fund": "Schroder ISF EURO Corporate Bond C Acc",
+   "type": "Effective duration",
+   "value": 4.6,
+   "as_of": "2026-10-31",
+   "page": 2,
+   "url": "https://api.schroders.com/document-store/SISF-EURO-Corporate-Bond-C-Acc-FMR-LUEN.pdf",
+   "copy": false,
+   "status": "found",
+   "note": "",
+   "tried": [
+    {
+     "url": "https://api.schroders.com/document-store/SISF-EURO-Corporate-Bond-C-Acc-FMR-LUEN.pdf",
+     "result": "found",
+     "note": ""
+    }
+   ],
+   "sha256": "e35e62ecd8e70044a76ddac56f5d8efeefb0580ab52aa931a6ff114db4f99147",
+   "file": "fund-docs:2026-11-20/LU0113258742/duration_factsheet_e35e62ecd8.pdf"
+  },
+  {
+   "isin": "IE00B2NSVP60",
+   "fund": "PIMCO GIS Euro Credit Inst Acc",
+   "type": "Effective Duration (yrs)",
+   "value": 6.19,
+   "as_of": "2026-10-31",
+   "page": 1,
+   "url": "https://fund-ui.pimco.com/fund-detail-api/api/funds/documents/content/view?documentId=Ogkt1G9vSAyF2Zsiz3eOFUHdyCi5Yv-CTtqzqnURm8L5E2Rev2kNyhwO1I5elNFTVPlnx2Yafv2CsuxcHGSOBw",
+   "copy": false,
+   "status": "found",
+   "note": "",
+   "tried": [
+    {
+     "url": "https://fund-ui.pimco.com/fund-detail-api/api/funds/documents/content/view?documentId=Ogkt1G9vSAyF2Zsiz3eOFUHdyCi5Yv-CTtqzqnURm8L5E2Rev2kNyhwO1I5elNFTVPlnx2Yafv2CsuxcHGSOBw",
+     "result": "found",
+     "note": ""
+    }
+   ],
+   "sha256": "18019a4310dd507697cda28e8b612fb01d1a3878ba3ebc1a38f12691cab69cc6",
+   "file": "fund-docs:2026-11-20/IE00B2NSVP60/duration_factsheet_18019a4310.pdf"
+  },
+  {
+   "isin": "LU0210246277",
+   "fund": "Robeco Euro Credit Bonds I EUR",
+   "type": "Interest Rate Duration (OAD in years)",
+   "value": 4.48,
+   "as_of": "2026-10-31",
+   "page": 2,
+   "url": "https://www.robeco.com/doca/CGF_ECB_I-fact-202610-profuken.pdf",
+   "copy": false,
+   "status": "found",
+   "note": "",
+   "tried": [
+    {
+     "url": "https://www.robeco.com/doca/CGF_ECB_I-fact-202610-profuken.pdf",
+     "result": "found",
+     "note": ""
+    }
+   ],
+   "sha256": "ae95bb3125283f6e59d6297813a9369c06e3f9544bea64d230f7b8b7641bd303",
+   "file": "fund-docs:2026-11-20/LU0210246277/duration_factsheet_ae95bb3125.pdf"
+  },
+  {
+   "isin": "LU0227757233",
+   "fund": "Robeco High Yield Bonds IH EUR",
+   "type": "Interest Rate Duration (OAD in years)",
+   "value": 3.24,
+   "as_of": "2026-10-31",
+   "page": 2,
+   "url": "https://www.robeco.com/doca/CGF_HBF_I-fact-202610-profuken.pdf",
+   "copy": false,
+   "status": "found",
+   "note": "",
+   "tried": [
+    {
+     "url": "https://www.robeco.com/doca/CGF_HBF_I-fact-202610-profuken.pdf",
+     "result": "found",
+     "note": ""
+    }
+   ],
+   "sha256": "c3ed5ddb5297a0783b6e5d194215b80cd238c19b2db2eec893955940764a924f",
+   "file": "fund-docs:2026-11-20/LU0227757233/duration_factsheet_c3ed5ddb52.pdf"
+  },
+  {
+   "isin": "LU2889894270",
+   "fund": "UBS (Lux) Bond SICAV EUR Corporates Sustainable I-A3-acc",
+   "type": "Modified Duration",
+   "value": 4.83,
+   "as_of": "2026-08-31",
+   "page": 1,
+   "url": "https://assets.finanzfluss.de/hippoverse/documents/LU2889894270-factsheet.pdf",
+   "copy": true,
+   "status": "old",
+   "note": "document dated 2026-08-31 – this month's document not published at this link yet; Same sub-fund Q-acc class factsheet (LU0396343682) – duration is a portfolio figure.",
+   "tried": [
+    {
+     "url": "https://www.ubs.com/2/e/files/RET/FS_RET_LU0396343682_GB_EN.pdf",
+     "result": "error",
+     "note": "HTTP Error 403: Forbidden"
+    },
+    {
+     "url": "https://assets.finanzfluss.de/hippoverse/documents/LU2889894270-factsheet.pdf",
+     "result": "old",
+     "note": "document dated 2026-08-31 – this month's document not published at this link yet"
+    }
+   ],
+   "sha256": "0d95a28271ad2f69e166658b28d8e414a8fe5f233f3eb32f5d8d26fe1e33d4af",
+   "file": "fund-docs:2026-11-20/LU2889894270/duration_factsheet_0d95a28271.pdf"
+  },
+  {
+   "isin": "LU2244387457",
+   "fund": "BNP Paribas Easy JPM ESG EMU Gov Bond IG 3-5Y UCITS ETF C",
+   "type": "Modified Duration",
+   "value": 3.63,
+   "as_of": "2026-10-30",
+   "page": 5,
+   "url": "https://docfinder.bnpparibas-am.com/api/files/75c3c0fc-6ff6-456d-8efe-ed2ba1e31ae9/512",
+   "copy": false,
+   "status": "found",
+   "note": "",
+   "tried": [
+    {
+     "url": "https://docfinder.bnpparibas-am.com/api/files/75c3c0fc-6ff6-456d-8efe-ed2ba1e31ae9/512",
+     "result": "found",
+     "note": ""
+    }
+   ],
+   "sha256": "b8b451cc1c9655776bb2f6c7bfeaecc26f01814149e346305ff26f933dec8bf0",
+   "file": "fund-docs:2026-11-20/LU2244387457/duration_factsheet_b8b451cc1c.pdf"
+  },
+  {
+   "isin": "SE0019892050",
+   "fund": "SEB Hybrid Capital Bond Fund",
+   "type": "Duration",
+   "value": null,
+   "as_of": "",
+   "page": null,
+   "url": "",
+   "copy": false,
+   "status": "manual",
+   "note": "Not public: Bloomberg PORT → Characteristics → Main view (set the date), or the SEB chart pack.",
+   "tried": []
+  }
+ ],
+ "summary": {
+  "found": 7,
+  "check": 0,
+  "old": 1,
+  "not_found": 1,
+  "manual": 1
+ }
+}
