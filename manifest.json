@@ -6736,5 +6736,24 @@
   "fetched": "2026-11-20",
   "ok": false,
   "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "factsheet",
+  "url": "https://www.nb.com/api/marketing/file?itemid=E17C4EF3BBFE4C198E73E5AA84597621&v=2",
+  "fetched": "2026-11-20",
+  "ok": false,
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://fund-ui.pimco.com/fund-detail-api/api/funds/documents/content/view?documentId=Ogkt1G9vSAyF2Zsiz3eOFUHdyCi5Yv-CTtqzqnURm8L5E2Rev2kNyhwO1I5elNFTVPlnx2Yafv2CsuxcHGSOBw",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/IE00B2NSVP60/factsheet_18019a4310.pdf",
+  "sha256": "18019a4310dd507697cda28e8b612fb01d1a3878ba3ebc1a38f12691cab69cc6",
+  "bytes": 305203,
+  "final_url": "https://fund-ui.pimco.com/fund-detail-api/api/funds/documents/content/view?documentId=Ogkt1G9vSAyF2Zsiz3eOFUHdyCi5Yv-CTtqzqnURm8L5E2Rev2kNyhwO1I5elNFTVPlnx2Yafv2CsuxcHGSOBw"
  }
 ]
