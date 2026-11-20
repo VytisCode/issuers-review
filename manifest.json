@@ -6479,5 +6479,262 @@
   "fetched": "2026-11-20",
   "ok": false,
   "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/af5982f8-b6fd-475a-9216-f28dc532ec44/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_bdcd82e296.pdf",
+  "sha256": "bdcd82e296ada9b5571058615843aa20a62d04c410a4cbdee58a10797b8b2272",
+  "bytes": 234063,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/af5982f8-b6fd-475a-9216-f28dc532ec44/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/72c949a9-4fd2-4807-b773-17a60eebbf1e/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_5e53d73b90.pdf",
+  "sha256": "5e53d73b905b8180bfae8a6421c9809dbdf7b75a9aaf0e85e9f921976f478a13",
+  "bytes": 371230,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/72c949a9-4fd2-4807-b773-17a60eebbf1e/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/895d4288-5211-4102-b322-dc520e4de7b4/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_68a8bd971b.pdf",
+  "sha256": "68a8bd971b14dd23be1586ba2e8544fcadf3ae59deb2f2f309428d8f227d0397",
+  "bytes": 374279,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/895d4288-5211-4102-b322-dc520e4de7b4/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/ff172a12-ae76-438d-8cce-fc981eeebc0d/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_5f491df46f.pdf",
+  "sha256": "5f491df46ff9caa5f3e992ea595fd9b7aea3d33586db03958cbe764e43d94f82",
+  "bytes": 303881,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/ff172a12-ae76-438d-8cce-fc981eeebc0d/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/6d986b91-be77-4da2-bb68-cf0634af2ca7/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_9125c05d52.pdf",
+  "sha256": "9125c05d52cf29c612b10ee994b69eada46fd368cb070843771eec797f633314",
+  "bytes": 172096,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/6d986b91-be77-4da2-bb68-cf0634af2ca7/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/e8326c3b-62fa-4043-af25-94f5c189a4dd/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_bf7e688993.pdf",
+  "sha256": "bf7e688993007595199b96645bf214ddb50150d3925c1312adaaddcd86638d86",
+  "bytes": 239662,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/e8326c3b-62fa-4043-af25-94f5c189a4dd/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/2c991179-a677-45c5-bedc-52dee9d6ffb8/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_85f26cceb5.pdf",
+  "sha256": "85f26cceb5679931c92e4cce6de5cdea09d2334b8810a16265eb750b6a02452e",
+  "bytes": 207273,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/2c991179-a677-45c5-bedc-52dee9d6ffb8/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/d1d8720c-5134-4432-9fd2-8af5899bcff3/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_af8f526ba4.pdf",
+  "sha256": "af8f526ba43bb8d6105b40c3c996329d6d89836ec82e07710ebc7eb860c5f776",
+  "bytes": 241510,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/d1d8720c-5134-4432-9fd2-8af5899bcff3/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/001d7b2c-6ae7-4f90-9ba5-21f775380c5c/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_f77b23233b.pdf",
+  "sha256": "f77b23233bbe9f17cad9176d5b5bb267c29e63c0194c210d48447022090168f0",
+  "bytes": 212487,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/001d7b2c-6ae7-4f90-9ba5-21f775380c5c/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/4b83e861-ac12-438f-9592-125deae99ad4/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_067986babd.pdf",
+  "sha256": "067986babd5243c5c6003281e83eafa88b8b4f7a34eb7cfd9715ecaa56579676",
+  "bytes": 231299,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/4b83e861-ac12-438f-9592-125deae99ad4/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/f63de165-e56e-44c0-a509-331da12ee5af/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_b859c92909.pdf",
+  "sha256": "b859c9290913ac33c8d8ac65ef4f8d0fe63e06b5b678062d4b206c576e8c371e",
+  "bytes": 266180,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/f63de165-e56e-44c0-a509-331da12ee5af/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/72e9f7c6-e5cd-4450-98e5-9e8ae1a3b3f0/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_fe5980b359.pdf",
+  "sha256": "fe5980b3594b6a38d46402e49f2052add42b7a4d47b22ff9857e2cccc6f1a1e7",
+  "bytes": 364395,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/72e9f7c6-e5cd-4450-98e5-9e8ae1a3b3f0/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/452c677a-66cd-4d22-9668-3fffc1b24f44/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_85793af549.pdf",
+  "sha256": "85793af549b674203d117384e974a93d492b80f4e3349ec6ca58a4e151e99dda",
+  "bytes": 202484,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/452c677a-66cd-4d22-9668-3fffc1b24f44/512"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/ddc461d1-df5d-4f9d-92c3-8802d952f4c6/512",
+  "fetched": "2026-11-20",
+  "ok": false,
+  "error": "ne PDF (text/plain; charset=utf-8, 112 B)"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/hippoverse/documents/LU2244387457-factsheet.pdf",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_59c6d8f3a2.pdf",
+  "sha256": "59c6d8f3a2da9db99584a4d2eb95e8986cff91d92923eca07b7e72cf026fed92",
+  "bytes": 227748,
+  "final_url": "https://assets.finanzfluss.de/hippoverse/documents/LU2244387457-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://www.pimco.com/eu/en/documents/4b2dfb871903fc5810e0f3f89704e077c23eb34bae79d1316fbcfd9dfa1f874a210e55402e1fb8faecf7bf5826896997e50d8d1019b0fe260f46473d2688e5b9747228d38784892fe59e06ceaa10968e87ee1a2d6e422d86799eabf8bec9849c?app=dot",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/IE00B2NSVP60/factsheet_2dced1349f.pdf",
+  "sha256": "2dced1349fbef9a408b132f911a22c5af0f638da203890bdecb71f0942b317ac",
+  "bytes": 139627,
+  "final_url": "https://www.pimco.com/eu/en/documents/4b2dfb871903fc5810e0f3f89704e077c23eb34bae79d1316fbcfd9dfa1f874a210e55402e1fb8faecf7bf5826896997e50d8d1019b0fe260f46473d2688e5b9747228d38784892fe59e06ceaa10968e87ee1a2d6e422d86799eabf8bec9849c?app=dot"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://www.pimco.com/eu/en/documents/4b2dfb871903fc5810e0f3f89704e077c23eb34bae79d1316fbcfd9dfa1f874a113dc00d174588f98e2b7388671a45e5ef0c3fa47e6ac22b9ded7d8c1dda76e4c287042d189f8a7cd1a62c2a3ddbdb31ac5af730133483639db1c7637538616a?app=dot",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/IE00B2NSVP60/factsheet_96d7a03117.pdf",
+  "sha256": "96d7a031175ed38290b37aa10236b541ceefdd546d5461b264b43f4b7bafefc3",
+  "bytes": 368278,
+  "final_url": "https://www.pimco.com/eu/en/documents/4b2dfb871903fc5810e0f3f89704e077c23eb34bae79d1316fbcfd9dfa1f874a113dc00d174588f98e2b7388671a45e5ef0c3fa47e6ac22b9ded7d8c1dda76e4c287042d189f8a7cd1a62c2a3ddbdb31ac5af730133483639db1c7637538616a?app=dot"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://marketdata.ebnbanco.com/v3/products/document/6ea355f4-7d05-497e-80c7-5c41e38b0130",
+  "fetched": "2026-11-20",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://marketdata.ebnbanco.com/v3/products/document/f7417c89-e659-4cef-850b-eb9662036600",
+  "fetched": "2026-11-20",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://marketdata.ebnbanco.com/v3/products/document/4de4b6a2-3c09-45d6-86a4-f12469168345",
+  "fetched": "2026-11-20",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://marketdata.ebnbanco.com/v3/products/document/689c5eb3-5813-4db0-a65a-b1a383d7bd44",
+  "fetched": "2026-11-20",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "factsheet",
+  "url": "https://fondsen.abnamro.nl/fundscreener/en/pdf/fund?id=1441",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/IE00BD5BKF38/factsheet_b6db166cab.pdf",
+  "sha256": "b6db166cabc4e6bdf968bbee00b0c02fbbab8ae1a1051ef78030ea9730f55b15",
+  "bytes": 72280,
+  "final_url": "https://fondsen.abnamro.nl/fundscreener/en/pdf/fund?id=1441"
+ },
+ {
+  "isin": "IE00BD5BKF38",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/hippoverse/documents/IE00BD5BKF38-factsheet.pdf",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/IE00BD5BKF38/factsheet_f73ed66c5f.pdf",
+  "sha256": "f73ed66c5f0acccc459b826ea971917fc9b1eac803ef6f5ae21c1560691753ce",
+  "bytes": 159405,
+  "final_url": "https://assets.finanzfluss.de/hippoverse/documents/IE00BD5BKF38-factsheet.pdf"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/hippoverse/documents/LU2889894270-factsheet.pdf",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2889894270/factsheet_0d95a28271.pdf",
+  "sha256": "0d95a28271ad2f69e166658b28d8e414a8fe5f233f3eb32f5d8d26fe1e33d4af",
+  "bytes": 351364,
+  "final_url": "https://assets.finanzfluss.de/hippoverse/documents/LU2889894270-factsheet.pdf"
+ },
+ {
+  "isin": "IE00B2NSVP60",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/hippoverse/documents/IE00B2NSVP60-factsheet.pdf",
+  "fetched": "2026-11-20",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
  }
 ]

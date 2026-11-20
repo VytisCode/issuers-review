@@ -1,0 +1,391 @@
+=== pdf p.1 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5Y Fund Factsheet Track I, Capitalisation                                           Communication marketing
+
+
+ DASHBOARD AU 31.03.2025
+
+                                                                                 Nb de positions de l'indice de              Actif du compartiment (EUR
+             Classe d'actifs                 Indice de référence officiel
+                                                                                          référence                                      mn.)
+
+                                             JPM ESG EMU Govt Bond IG 3-5Y
+             Produits de taux                                                                     67                                      2 497
+                                                       (EUR) RI
+
+         Devise de gestion                     Indice de comparaison                       Article SFDR                        MSCI ESG Fund Rating
+
+
+
+                     EUR                       JPM EMU 3-5 Years (EUR) RI                         8                                         A
+
+
+ DESCRIPTION DE L'INDICE DE RÉFÉRENCE :
+ L'indice de référence est l'indice J.P. Morgan ESG EMU Government Bond IG 3- 5 Year (TR) publié par JP Morgan. La composition de l'indice est revue
+ tous les mois. L'indice est évalué quotidiennement. L'Indice vise à suivre la performance de la dette publique intérieure éligible à taux fixe et libellée en
+ euros émise par les pays de la zone euro avec un encours de dette d'au moins 80 milliards d'euros. Les titres doivent être notés «investment grade» et
+ arriver à échéance dans les 3 à 5 prochaines années pour être éligibles. L'indice applique une méthodologie de notation et de filtrage environnementale,
+ sociale et de gouvernance (ESG) pour privilégier les émetteurs mieux classés sur les critères ESG et sous-pondérer ou supprimer les émetteurs qui se
+ classent plus bas. De plus amples informations sur l’indice, sa composition, son calcul et les règles de contrôle et de rebalancement périodique, ainsi
+ que sur la méthodologie générale commune à tous les indices J.P. Morgan ESG, figurent sur le site Internet www.jpmorgan.com L'indice de comparaison
+ est JPM EMU 3-5 Years (EUR) RI
+
+
+ PERFORMANCES (CUMULÉES SUR UNE PÉRIODE DE 5 ANS EN EUR)
+
+               105
+
+               100
+
+
+      (% )      95
+
+                90
+
+                85
+                                      2021                       2022                      2023                       2024                         2025
+
+ Performances cumulées au 31.03.2025 (en %)
+                                             YTD       1 mois       3 mois       6 mois           1 an        2 ans           3 ans        4 ans          5 ans
+
+     FONDS                                   0,40       -0,30           0,40        0,54          3,48         6,53            0,18        -3,70          -2,69
+
+     INDICE DE RÉFÉRENCE                     0,43       -0,29           0,43        0,62          3,61         6,84            0,59        -3,18          -1,97
+
+     INDICE DE COMPARAISON                   0,45       -0,28           0,45        0,65          3,67         6,94            0,71        -3,06          -1,77
+
+
+
+
+                                                                                                                                                      Page 1 sur 8
+
+=== pdf p.2 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5Y Fund Factsheet Track I, Capitalisation                                                         Communication marketing
+
+
+ Performances calendaires au 31.03.2025 (en %)
+                                              2024          2023          2022          2021          2020          2019         2018             2017     2016        2015
+
+      FONDS                                    2,28          4,90         -9,79        -1,33          1,11              -             -              -         -          -
+
+      INDICE DE RÉFÉRENCE                      2,42          5,07         -9,69        -1,22          1,34              -             -              -         -          -
+
+      INDICE DE COMPARAISON                    2,48          5,10         -9,68        -1,21          1,35              -             -              -         -          -
+
+ (1) Tous les chiffres sont nets de frais (en EUR). Les performances ou réalisations du passé ne sont pas indicatives des performances futures.
+ 12/2020 : Au cours de cette période, l’indice de référence était le Bloomberg Barclays Euro Aggregate Treasury 3-5 yr (TR).
+ Source : BNP Paribas Asset Management
+ Toutes les données et performances s'appliquent à cette date, sauf indication contraire.
+ Pour de plus amples informations, en particulier sur les risques du produit, veuillez consulter le prospectus et le DICI du fonds.
+
+
+
+
+                                                                                                                                                                   Page 2 sur 8
+
+=== pdf p.3 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5Y Fund Factsheet Track I, Capitalisation                                                 Communication marketing
+
+
+ POSITIONS DE L'INDICE DE RÉFÉRENCE : (en %)
+
+                                                                  Par rapport à                                                                       Par rapport à
+                                                                        l'indice                                                                            l'indice
+ par Devise (%)                                                                        par Pays (%)
+                                                                  Comparaison                                                                         Comparaison
+  EUR                                                100,00                 - 0,00     France                                               26,86            - 0,29
+  Autres                                                    -               - 0,00     Italie                                               18,59            - 2,89
+ Total                                               100,00                            Allemagne                                            21,54            + 2,19
+                                                                                       Espagne                                              15,29            - 0,17
+                                                                                       Pays-Bas                                              4,80            + 0,49
+                                                                                       Autriche                                              3,76            + 0,38
+                                                                                       Belgique                                              3,16            - 0,03
+                                                                                       Portugal                                              2,55            - 0,03
+                                                                                       Finlande                                              2,07            + 0,21
+                                                                                       République d'Irlande                                  1,39            + 0,14
+                                                                                       Liquidités                                                -           - 0,00
+                                                                                       Autres                                                    -           - 0,00
+                                                                                       Total                                              100,00
+
+
+
+
+                                                                  Par rapport à                                                                       Par rapport à
+                                                                        l'indice                                                                            l'indice
+  par Rating (%)                                                                       par Maturité
+                                                                  Comparaison                                                                         Comparaison
+  AAA                                                  26,34               + 2,67      1 - 3 ans                                                  -          - 0,00
+  AA+                                                   5,83               + 0,59      3 - 5 ans                                            98,78            + 0,19
+  AA                                                    1,39               + 0,14      5 - 7 ans                                              1,22           - 0,19
+  AA-                                                  30,02                - 0,33     Autres                                                     -          - 0,00
+  A-                                                   17,84                - 0,19     Liquidités                                                 -          - 0,00
+  BBB                                                  18,28                - 2,84     Total                                              100,00
+  Autres                                                    -               - 0,00
+  Non noté                                              0,31                - 0,05
+  Liquidités                                                -               - 0,00
+  Total                                              100,00
+
+ Source : BNP Paribas Asset Management, en date du 31.03.2025.
+ Les titres ci-dessus sont mentionnés à titre d’information uniquement et ne doivent pas être considérés comme une recommandation d’investissement.
+ Les données présentées dans les factsheets sont basées sur les données comptables officielles et sont basées sur la date de transaction.
+
+
+
+
+                                                                                                                                                                Page 3 sur 8
+
+=== pdf p.4 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5Y Fund Factsheet Track I, Capitalisation                                                      Communication marketing
+
+
+                                                                                                                                           Score ESG global
+                                                                                                                                           58,10
+ BNPPAM INFORMATIONS EXTRA-FINANCIÈRES
+
+ CONTRIBUTION ESG
+                                                                Contrib. environnementale (E)                     Contrib. sociale (S)           Contrib. gouvernance (G)
+ Portefeuille                                                                                 3,70                                  3,60                                 0,80
+
+
+
+ COUVERTURE DU PORTEFEUILLE
+                                                                         Couverture
+ Couverture ESG                                                            100,00 %
+
+
+
+ Caractéristiques de durabilité MSCI (TELLES QUE DISPONIBLES SUR LE SITE MSCI À LA FIN DE MOIS PRÉCÉDENT)
+
+ MSCI ESG Fund Rating                                                            A
+ MSCI Weighted Average Carbon Intensity (tonnes de CO2e/$M CA)                   -               Couverture MSCI Weighted Average Carbon Intensity                 0%
+ MSCI ESG Quality Score (0-10)                                                   6.45
+
+
+ Score ESG global
+ La méthodologie interne de BNPP AM détermine le score ESG des émetteurs en évaluant leur performance par rapport aux entreprises du même groupe de pairs sur la base
+ d'un nombre limité de critères ESG relatifs à l'environnement (ex: changement climatique), aux problématiques sociales (ex: gestion des ressources humaines), et à la
+ gouvernance d'entreprise (ex: indépendance et compétence des dirigeants). L’univers d’investissement est scindé par géographie et par secteur, ce qui permet de composer
+ des groupes d’entreprises comparables, dit « groupe de pairs ». BNPP AM utilise de nombreuses sources de recherche et de données (notamment Sustainalytics, ISS et
+ Trucost) pour calculer les scores ESG des entreprises. Si les engagements et les pratiques de l'émetteur sur un des critères d'évaluation (E, S ou G) sont meilleurs que ceux
+ de ses concurrents, il se voit attribuer une contribution positive sur ce critère. Un score de 1 à 99 est assigné à chaque émetteur, qui correspond à une base neutre de 50 à
+ laquelle s'ajoute la somme des contributions sur chacun des trois critères d'évaluation. (par ex : 50 +2 (E) -1 (S) +3 (G) = 54 ESG global score).
+
+ Contribution ESG
+ Les contributions ESG sont déterminées par les analystes ESG de BNPP AM sur la base de critères détaillés permettant d'évaluer de façon systématique les engagements et
+ les pratiques des entreprises en matière d'environnement, de social et de gouvernance. Chacune des contributions mentionnées pour le portefeuille ou l'indice de référence
+ dans son ensemble est la moyenne pondérée des contributions des entreprises détenues en portefeuille ou entrant dans la composition de l’indice de Référence.
+   La contribution environnementale (E) regroupe entre autres le rapport au changement climatique, la gestion du risque environnemental et l’utilisation des ressources
+   naturelles.
+   La contribution sociale (S) prend en compte entre autres la gestion des ressources humaines, la qualité du dialogue social et le respect de la diversité.
+   La contribution de gouvernance (G) s’appuie entre autres sur la transparence sur la rémunération des dirigeants, la lutte contre la corruption et l’égalité homme femme.
+
+ Couverture du portefeuille
+ The coverage represents, within an Index replicated by the fund, the percentage of securities that have an ESG score or carbon footprint using BNPP AM’s
+ internalmethodology which can be lower than the full coverage offered per the index provider
+
+ MSCI ESG Fund Rating
+ La notation ESG de MSCI est calculée comme une cartographie directe des scores de qualité ESG aux catégories de notation par lettre (par exemple AAA = 8,6-10). Les
+ notations ESG vont du leader (AAAAA), de la moyenne (A, BBB, BB) à la traîne (B, CCC).
+
+ MSCI Weighted Average Carbon Intensity
+ Il mesure l'exposition d'un fonds à des entreprises carbo-intensives. Ce chiffre représente l'estimation des émissions de gaz à effet de serre par tranche de 1 million de $ de
+ chiffre d'affaires sur l'ensemble des positions du fonds. Cela permet des comparaisons entre fonds de différentes tailles.
+
+ Couverture MSCI Weighted Average Carbon Intensity
+ C'est le pourcentage des positions du fonds pour lequel les données de MSCI Carbon Intensité sont disponibles. La mesure d'intensité carbone moyenne pondérée de MSCI est
+ affichée pour les fonds couverts. Les fonds à faible couverture peuvent ne pas représenter pleinement les caractéristiques carbone du fonds en raison du manque de
+ couverture.
+
+ MSCI ESG Quality Score (0-10)
+ Le score de qualité ESG MSCI (0-10) pour les fonds est calculé à l'aide de la moyenne pondérée des notes ESG des positions des fonds. Le Score prend également en compte
+ l'évolution des notations ESG des positions et l'exposition du fonds aux positions de la catégorie "laggard". MSCI évalue les positions sous-jacentes en fonction de leur
+ exposition aux risques ESG spécifiques au secteur et de leur capacité à gérer ces risques par rapport à leurs pairs.
+
+ Pour plus d'info sur les indicateurs ESG ou sur les méthodologies de calcul des taux de couvertures veuillez-vous référer à notre page web dédiée:
+ https://www.bnpparibas-am.com/fr/dispositif-de-notation-esg/ & https://www.bnpparibas-am.com/fr/mesure-de-lempreinte-carbone/
+ Pour     plus  d’informations   sur    nos     documents      de     développement    durable,   veuillez  consulter   la    page web de BNPP AM :
+ https://www.bnpparibas-am.com/fr/documentation-sustainability/
+
+                                                                                                                                                                    Page 4 sur 8
+
+=== pdf p.5 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5Y Fund Factsheet Track I, Capitalisation   Communication marketing
+
+
+
+
+ Label(s)
+                        Le fonds a reçu la reconnaissance de l’Agence
+                        de labellisation Towards Sustainability (CLA)
+                        belge, qui lui a octroyé le label Towards
+                        Sustainability.
+                        Ce label aide tous types d’investisseurs de
+                        détail et institutionnels à rechercher des
+                        solutions d’investissement et d’épargne plus
+                        durables, ce qui, en retour, encourage les
+                        institutions financières à proposer une
+                        gamme de produits durables diversifiée et
+                        de qualité.
+                        Pour plus d’informations sur le label,
+                        consultez le site Web suivant :
+                        www.towardssustainability.be
+
+
+
+
+                                                                                                            Page 5 sur 8
+
+=== pdf p.6 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5Y Fund Factsheet Track I, Capitalisation                                             Communication marketing
+
+
+ RISQUE
+
+ Niveau de risque et de rendement                                                         Analyse de risque (1 an, hebdomadaire)                         Fonds
+                                                                                          Volatilité                                                       2,64
+                                                                                          Tracking Error                                                   0,02
+                                                                                          Tracking Error Indice officiel de référence /                    0,04
+                                                                                          comparaison
+ Risque plus faible                                                   Risque plus élevé   Sensibilité (31.03.2025)                                         3,72
+ L'indicateur de risque part de l'hypothèse que vous conservez le Produit 3 années.
+                                                                                          YTM (rendement actuariel) (31.03.2025)                           2,46
+ Vous risquez de ne pas pouvoir vendre facilement votre Produit, ou de devoir le
+ vendre à un prix qui influera sensiblement sur le montant que vous percevrez en          Coupon moyen                                                     2,13
+ retour.
+                                                                                          Duration                                                         3,76
+
+
+
+ L'indicateur synthétique de risque permet d'apprécier le niveau de risque de ce Produit par rapport à d'autres. Il indique la probabilité que ce Produit
+ enregistre des pertes en cas de mouvements sur les marchés ou d'une impossibilité de notre part de vous payer.
+ Nous avons classé ce Produit dans la classe de risque 2 sur 7, qui est une classe de risque basse.
+ La catégorie de risque se justifie par l’investissement effectué principalement dans des instruments de Taux d’intérêt. L’attention de l’investisseur est
+ attirée sur le fait qu’une hausse des taux d’intérêt a pour conséquence une diminution de la valeur des investissements en obligations et titres de
+ créance et, plus généralement, des instruments à revenu fixe.
+
+
+
+
+ Autres risques matériellement pertinents pour le Produit mais non repris dans l'indicateur synthétique de risque :
+                       le risque que la solvabilité d'un émetteur se détériore ou qu'il fasse défaut, entraînant potentiellement une baisse de la valeur
+     des instruments associés.
+                            en cas de défaillance opérationnelle au sein de la société de gestion, de l'un de ses agents ou du dépositaire, les investisseurs
+     pourraient subir diverses perturbations (retard de paiement, de livraison...).
+ Pour plus de détails concernant les risques, veuillez vous référer au prospectus.
+ Ce Produit ne prévoyant pas de protection contre les aléas de marché, vous pourriez perdre tout ou partie de votre investissement.
+
+
+
+
+ DÉTAILS
+  Commissions                                                                             Codes
+  Frais courants réels (31.12.24)                                               0,15%     Code ISIN                                               LU2008763182
+  Commission de gestion max.                                                    0,03%     Code Bloomberg                                             BBBTIEA LX
+ Données de l'indice au 31.03.2025                                                        Places de quotation                Code Bloomberg        Code Reuters
+ Nom                                  JPM ESG EMU Govt Bond IG 3-5Y (EUR) RI              Euronext Paris                         BBBTIEA LX                 N/A
+
+                                                                                          Chiffres clés
+                                                                                          VL                                                              96,04
+                                                                                          Actif du compartiment (Euro mn.)                             2 497,44
+
+ Caractéristiques
+ Forme juridique                                              Compartiment de SICAV BNP PARIBAS EASY de droit Luxembourgeois
+ Durée d'investissement recommandée                           3 années
+ Investissement minimum                                       250 000 EUR
+ Éligible au PEA                                              Non
+ Indice de référence                                          JPM ESG EMU Govt Bond IG 3-5Y (EUR) RI
+ Domiciliation                                                Luxembourg
+ Date de première VL                                          09.10.2019
+ Gérant(s)                                                    Sany NGO
+ Société de gestion                                           BNP PARIBAS ASSET MANAGEMENT Luxembourg
+
+                                                                                                                                                      Page 6 sur 8
+
+=== pdf p.7 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5Y Fund Factsheet Track I, Capitalisation                            Communication marketing
+
+ Caractéristiques
+ Gérant délégué                              BNP PARIBAS ASSET MANAGEMENT Europe
+ Dépositaire                                 BNP PARIBAS, Luxembourg Branch
+ Devise de base                              EUR
+ Exécution/Type de cours                     VL + 1
+ Catégorie AMF                               2 - Approche non significativement engageante
+ Article SFDR                                Article 8 – Promotion de caractéristiques environnementales ou sociales
+
+
+
+
+                                                                                                                                     Page 7 sur 8
+
+=== pdf p.8 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5Y Fund Factsheet Track I, Capitalisation                                          Communication marketing
+
+
+ GLOSSAIRE
+ Tracking Error
+ La tracking error mesure la volatilité du rendement relatif d'un portefeuille par rapport à son indice de référence.
+ Volatilité
+ La volatilité d'un actif est l'écart-type de son rendement. En tant que mesure de la dispersion, elle évalue l'incertitude des prix des actifs, qui est
+ souvent assimilée à leur risque. La volatilité peut être calculée ex post (rétrospectivement) ou estimée ex ante (anticipativement).
+ Un glossaire des termes financiers employés dans ce document est disponible à l'adresse http://www.bnpparibas-am.com
+
+ DISCLAIMER
+
+ BNP Paribas Asset Management Europe est une société de gestion de portefeuille agréée par l'Autorité des marchés financiers sous le n° GP96002,
+ constituée sous forme de société par actions simplifiée, ayant son siège social au 1, boulevard Haussmann 75009 Paris, France, RCS Paris 319 378 832,
+ et son site web : www.bnpparibas-am.com.
+ Le présent document a été rédigé et est publié par la société de gestion de portefeuille.
+ Ce contenu vous est communiqué à titre purement informatif et ne constitue:
+ 1.     ni une offre de vente, ni une sollicitation d’achat, et ne doit en aucun cas servir de base ou être pris en compte pour quelque contrat ou
+ engagement que ce soit ;
+ 2.     ni un conseil d’investissement.
+ Le présent document se réfère à un ou plusieurs instruments financiers agréés et réglementés dans leur juridiction de constitution.
+ Aucune action n’a été entreprise qui permettrait l’offre publique de souscription des instruments financiers dans toute autre juridiction, excepté suivant
+ les indications de la version la plus récente du prospectus des instruments financiers ou sur le site web (rubrique « nos fonds »), dans laquelle une
+ telle action serait requise, en particulier, aux États-Unis, pour les ressortissants américains (ce terme est défini par le règlement S du United States
+ Securities Act de 1933). Avant de souscrire dans un pays dans lequel les instruments financiers sont enregistrés, les investisseurs devraient vérifier les
+ contraintes ou restrictions légales potentielles relatives à la souscription, l’achat, la possession ou la vente des instruments financiers en question.
+ Il est conseillé aux investisseurs qui envisagent de souscrire des instruments financiers de lire attentivement la version la plus récente du prospectus
+ et du document d’information clé (DIC) et de consulter les rapports financiers les plus récents des instruments financiers en question lorsque ceux-ci
+ sont déjà disponibles.
+  Ces documents sont disponibles dans la langue du pays dans lequel l’organisme de placement collectif/instrument financier est autorisé à la
+ commercialisation et /ou en anglais le cas échéant, sur le site suivant, rubrique « nos fonds »: www.bnpparibas-am.com.
+ Les opinions exprimées dans le présent document constituent le jugement de la société de gestion de portefeuille à la date de publication du document
+ et sont susceptibles d’être modifiées sans préavis. La société de gestion de portefeuille n’a pas l’obligation de les tenir à jour ni de les modifier. Il est
+ recommandé aux investisseurs de consulter leurs propres conseillers juridiques et fiscaux en fonction des considérations légales, fiscales, domiciliaires
+ et comptables qui leur sont applicables avant d’investir dans les instruments financiers afin de déterminer eux-mêmes l’adéquation et les
+ conséquences de leur investissement, pour autant que ceux-ci soient autorisés. À noter que différents types d’investissements, mentionnés le cas
+ échéant dans le présent document, impliquent des degrés de risque variables et qu’aucune garantie ne peut être donnée quant à l’adéquation, la
+ pertinence ou la rentabilité d’un investissement spécifique pour le portefeuille d’un client ou futur client.
+ Compte tenu des risques économiques et de marché, aucune garantie ne peut être donnée quant à la réalisation par les instruments financiers de leurs
+ objectifs d’investissement. Les performances peuvent varier notamment en fonction des objectifs ou des stratégies d’investissement des instruments
+ financiers et des conditions économiques et de marché importantes, notamment les taux d’intérêt. Les différentes stratégies appliquées aux
+ instruments financiers peuvent avoir un impact significatif sur les résultats présentés dans ce document. Les performances passées ne préjugent pas
+ des performances futures et la valeur des investissements dans les instruments financiers est susceptible par nature de varier à la hausse comme à la
+ baisse. Il se peut que les investisseurs ne récupèrent pas leur investissement initial.
+ Les données de performance, éventuellement présentées dans ce document, ne prennent en compte ni les commissions et frais contractés à l’émission
+ ou au rachat de parts ni les taxes.
+ Vous pouvez obtenir, en cliquant ici : www.bnpparibas-am.fr/investisseur-professionnel/synthese-des-droits-des-investisseurs /un résumé des droits
+ des investisseurs en français. BNP Paribas Asset Management Europe peut décider de cesser la commercialisation des instruments financiers, dans les
+ hypothèses visées par la réglementation applicable.
+ « L’investisseur durable d’un monde qui change » reflète l’objectif de BNP Paribas Asset Management Europe d’inscrire le développement durable dans
+ le cadre de ses activités, sans pour autant que tous les produits gérés par BNP Paribas Asset Management Europe ne relèvent de l’article 8, ayant une
+ proportion minimale d’investissements durables, ou de l’article 9 du Règlement Européen 2019/2088 sur la publication d’informations en matière de
+ durabilité dans le secteur des services financiers (SFDR). Vous trouverez plus d’information sous le lien www.bnpparibas-am.com/en/sustainability
+                            Droits d'auteur © 2024 Morningstar, Inc. www.morningstar.com Tous droits réservés. La notation globale de chaque fonds,
+ indiquée par une ou plusieurs étoiles, s'appuie sur une moyenne pondérée du nombre d'étoiles attribuées à chaque fonds au cours des périodes de
+ notation de trois, cinq et dix ans. Les informations contenues dans le présent document: (1) sont la propriété de Morningstar et/ou de ses fournisseurs
+ de contenu; (2) ne peuvent être copiées ou distribuées et (3) leur exactitude, leur exhaustivité et leur caractère opportun ne sont pas garantis. Ni
+ Morningstar ni ses fournisseurs de contenu ne peuvent être tenus responsables de tout dommage ou perte découlant de l'utilisation de ces
+ informations. Les performances du passé ne présument en rien des performances futures.
+
+ Index disclaimer
+
+ Bien que les informations et les indices proviennent de sources jugées fiables, J.P. Morgan ne peut pas garantir leur exactitude ni leur exhaustivité. Les
+ informations et les indices sont utilisés avec autorisation. Sauf autorisation écrite expresse de J.P. Morgan, la reproduction, l’utilisation et la distribution
+ des informations et des indices sont strictement interdites. Copyright 2019, JPMorgan Chase & Co. Tous droits réservés. «Morgan~ » et les indices sont
+ des marques commerciales de JPMorgan Chase & Co., dont une licence a été concédée à BNP Paribas Asset Management à des fins particulières. Le(s)
+ Produit(s) de BNP Paribas Asset Management dérivé(s) des indices ne sont pas sponsorisés, cautionnés, commercialisés ni promus par J.P. Morgan et
+ J.P. Morgan n’émet aucune opinion concernant l’opportunité d’investir dans un(de) tel(s) Produit(s).
+
+                                                                                                                                                       Page 8 sur 8
+

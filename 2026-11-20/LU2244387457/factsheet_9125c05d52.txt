@@ -1,0 +1,278 @@
+=== pdf p.1 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5 Y Fund Factsheet Track I, Capitalisation                                                         Marketing Communication
+
+
+ DASHBOARD AS AT 31.05.2022
+
+                Asset Class                                 Benchmark                        No. of Holdings in benchmark                    Fund Size (EUR millions)
+
+
+                                                JPM ESG EMU Govt Bond IG 3-5Y
+               Fixed Income                                                                                    60                                            652
+                                                          (EUR) RI
+
+               Risk Indicator                        YTD Performance (1)                       3-year Annualised Perf. (2)
+
+
+
+                                                               -5.05 %                                          -
+                                                            Benchmark -4.99 %
+ (1) All figures net of fees (in EUR).
+ (2) Based on 360 days
+
+ INDEX DESCRIPTION:
+ The benchmark is the J.P. Morgan ESG EMU Government Bond IG 3- 5 Year (TR) Index published by JP Morgan. The composition of the index is reviewed
+ on a monthly basis. The index is valued daily. The Index aims to track the performance of eligible fixed-rate, euro-denominated domestic government
+ debt issued by Eurozone countries with minimum €80 billion debt outstanding. Securities must be rated investment grade and mature in the next 3 to 5
+ years to be eligible. The index applies an Environmental, Social and Governance (ESG) scoring and screening methodology to tilt toward issuers ranked
+ higher on ESG criteria, and to underweight or remove issuers that rank lower.
+
+
+ PERFORMANCE (CUMULATIVE OVER 5 YEARS) (EUR) (NET)
+
+                 101
+                 100
+                  99
+                  98
+                  97
+                  96
+        (% )      95
+                  94
+                  93
+                  92
+                  91
+                  90
+                                    2020                                                    2021                                                     2022
+
+ Cumulated Performance at 31.05.2022 (%)
+                                                  YTD       1 Month        3 Months      6 Months            1 Year           2 Years      3 Years          4 Years    5 Years
+
+      FUND                                      -5.05           -0.66           -3.75          -5.67          -5.59             -5.11            -                 -         -
+
+      BENCHMARK                                 -4.99           -0.65           -3.71          -5.60          -5.45             -4.82            -                 -         -
+
+ Calendar Performance at 31.05.2022 (%)
+                                                             2021                        2020                         2019                      2018                     2017
+
+      FUND                                                   -1.33                        1.11                            -                          -                       -
+
+      BENCHMARK                                              -1.22                        1.34                            -                          -                       -
+
+ (1) All figures net of fees (in EUR). The value of your investments may fluctuate. Past performance is no guarantee for future results.
+ A - 12/2020 : During this period, the benchmark index was Bloomberg Barclays Euro Aggregate Treasury 3-5 yr (TR).
+ Source: BNP Paribas Asset Management
+ All data and performance are as of that date, unless otherwise stated.
+ For further information, and in particular the risks of the product, please refer to the Prospectus and KIIDs of fund.
+
+
+
+
+                                                                                                                                                                       Page 1 of 5
+
+=== pdf p.2 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5 Y Fund Factsheet Track I, Capitalisation                          Marketing Communication
+
+
+ HOLDINGS BENCHMARK: (In %)
+
+
+ Main Holdings (%)                                                                       by Country (benchmark) (%)
+  FRANCE (REPUBLIC OF) 3.50 PCT 25-APR-2026                                     3.95     France                                        26.67
+  FRANCE (REPUBLIC OF) 0.50 PCT 25-MAY-2026                                     3.83     Italy                                         20.83
+  FRANCE (REPUBLIC OF) 0.00 PCT 25-FEB-2026                                     3.57     Germany                                       17.47
+  FRANCE (REPUBLIC OF) 1.00 PCT 25-MAY-2027                                     3.13     Spain                                         13.34
+  FRANCE (REPUBLIC OF) 1.00 PCT 25-NOV-2025                                     3.10     Netherlands                                    5.51
+  FRANCE (REPUBLIC OF) 0.25 PCT 25-NOV-2026                                     3.10     Belgium                                        4.82
+  FRANCE (REPUBLIC OF) 6.00 PCT 25-OCT-2025                                     3.00     Austria                                        4.47
+  FRANCE (REPUBLIC OF) 0.00 PCT 25-FEB-2027                                     2.99     Portugal                                       3.20
+  GERMANY (FEDERAL REPUBLIC OF) 0.50 PCT                                        2.33     Finland                                        2.00
+  GERMANY (FEDERAL REPUBLIC OF) 0.25 PCT                                        2.28     Republic of Ireland                            1.68
+ No. of Holdings in Benchmark                                                     60     Total                                       100.00
+
+
+
+
+ by Rating (benchmark) (%)
+  AAA                                                                         22.98
+  AA+                                                                           6.47
+  AA                                                                          26.67
+  AA-                                                                           6.51
+  A-                                                                          13.34
+  BBB                                                                         24.03
+ Total                                                                       100.00
+
+ Source of data: BNP Paribas Asset Management, as at 31.05.2022
+ Sources: Fitch, Moody’s, S&P. Ratings lower than BBB- refer to high-yield or speculative-grade bonds.
+ The data as shown in the factsheets are based on official accounting data and are based on trade date.
+
+
+
+
+                                                                                                                                      Page 2 of 5
+
+=== pdf p.3 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5 Y Fund Factsheet Track I, Capitalisation                                                            Marketing Communication
+
+
+                                                                                                                                                 Benchmark ESG score
+                                                                                                                                                 56.19
+ SUSTAINABLE INDICATORS
+
+ ESG CONTRIBUTION
+                                                                           Environmental contrib.                            Social contrib.                  Governance contrib.
+ Benchmark                                                                                         2.66                                   2.71                                   0.82
+
+
+
+
+ INDEX COVERAGE
+                                                                         Coverage rate
+ ESG coverage                                                                    100.00 %
+
+
+
+
+ Total ESG score
+ BNPP AM’s internal ESG scoring methodology determines an issuer's ESG score by evaluating performance vs. scoring peers on a narrow set of key ESG issues related to the
+ environment (e.g. climate change), social issues (e.g. human resources management) and governance (e.g. independence and competence of directors). BNPP AM uses
+ numerous research inputs and data sources (e.g. Sustainalytic, ISS & Trucost) to determine issuers' ESG scores. If the issuer’s commitments and practices on a pillar of
+ assessment (E,S or G) is better than scoring peers, it will receive a positive ‘contribution’for this pillar. Each issuer is assigned a final score from 1 to 99 which is the result of
+ 50 as a reference plus the sum of the contributions from each of the three pillars.
+ ESG Contribution
+ The ESG contributions are determined by BNP Paribas Asset Management's ESG analysts on the basis of detailed criteria to systematically evaluate companies' commitments
+ and practices in the areas of environmental, social and governance. Each of the above contributions at the portfolio level, is the weighted average of the contributions of the
+ individual portfolio holdings.Environmental Contribution (E) takes into account, among other things, climate change, environmental risk management, and the use of natural
+ resources. Social Contribution (S) takes into account, among other things, human capital management, the quality of social dialogue, and the respect of diversity. Governance
+ Contribution (G) takes into account, among other things, the transparency on executive compensation, the fight against corruption, and gender equality.
+ Portfolio Coverage
+ The coverage represents, within an Index replicated by the fund, the percentage of securities that have an ESG score or carbon footprint using BNPP AM’s internal
+ methodology which can be lower than the full coverage offered per the index provider.
+
+
+
+ For more information on ESG indicators, please refer                       to     BNPP     AM's   webpage     :   https://www.bnpparibas-am.com/en/esg-scoring-framework/            &
+ https://www.bnpparibas-am.com/en/measuring-carbon-footprints/
+
+
+
+
+                                                                                                                                                                             Page 3 of 5
+
+=== pdf p.4 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5 Y Fund Factsheet Track I, Capitalisation                                                        Marketing Communication
+
+
+ RISK
+
+ Risk Indicator                                                                              Risk Analysis (3 years, monthly)                                               Fund
+
+        The risk and reward indicator for this fund is:                                      Volatility                                                                      1.99
+                                                                                             Ex-post Tracking Error                                                          0.04
+                                                                                             Modified Duration (31.05.2022)                                                  3.73
+                                                                                             Yield to Maturity (31.05.2022)                                                  1.16
+  Lower risk typically=lower reward                 Higher risk typically=higher reward
+   : lowest risk ; : highest risk ; SRRI: Synthetic Risk and Reward Indicator. The           Average coupon                                                                  1.50
+  higher the risk, the longer the investment horizon is recommended
+                                                                                             Duration                                                                        3.78
+ The investments in the funds are subject to market fluctuations and the risks inherent in investments in securities. The value of investments and the
+ income they generate may go down as well as up and it is possible that investors will not recover their initial outlay, the fund described being at risk
+ of capital loss.
+ Why is the Fund in this specific category?
+ The risk category is justified by the investment mainly in Interest Rate instruments. The investor’s attention is drawn to the fact that an increase in
+ interest rates results in a decrease in the value of investments in bonds and debt instruments and more generally fixed income instruments.
+
+ This fund may be exposed to other risks, listed below :
+                   This risk relates to the ability of an issuer to honour its commitments: downgrades of an issue or issuer rating may lead to a drop in the value of associated
+        bonds.
+                                    Some markets are less regulated than most of the international markets; hence, the services related to custody and liquidation for the
+        subfund on such markets could be more risky.
+ For a Complete description and definition of risks, please consult the last available prospectus and KIIDs of the funds.
+
+
+ DETAILS
+  Fees                                                                                       Codes
+  Real Ongoing Charges (31.10.21)                                                 0.15%      ISIN Code                                                           LU2008763182
+  Maximum Management Fees                                                         0.03%      Bloomberg Code                                                          BBBTIEA LX
+ Index data as of 31.05.2022                                                                Key Figures (EUR)
+ Name                                   JPM ESG EMU Govt Bond IG 3-5Y (EUR) RI              NAV                                                                             93.85
+                                                                                            Fund Size (Euro millions)                                                     651.95
+
+ Characteristics
+ Legal form                                                     Sub-fund of SICAV BNP PARIBAS EASY Luxembourg domicile
+ Dealing Deadline                                               14:00 CET STP (12:00 CET NON STP)
+ Recommended Investment Horizon                                 3 years
+ Benchmark                                                      JPM ESG EMU Govt Bond IG 3-5Y (EUR) RI
+ Domicile                                                       Luxembourg
+ First NAV date                                                 09.10.2019
+ Fund Manager(s)                                                Alain LE STIR
+ Management Company                                             BNP PARIBAS ASSET MANAGEMENT Luxembourg
+ Delegated Manager                                              BNP PARIBAS ASSET MANAGEMENT France
+ Custodian                                                      BNP PARIBAS SECURITIES SERVICES-LUXEMBOURG BRANCH
+ Base Currency                                                  EUR
+ Subscription/execution type                                    NAV + 1
+ SFDR article                                                   Article 8 - Promotion of environmental or social characteristics
+
+
+
+
+                                                                                                                                                                         Page 4 of 5
+
+=== pdf p.5 ===
+BNP PARIBAS EASY JPM ESG EMU GOVERNMENT BOND IG 3-5 Y Fund Factsheet Track I, Capitalisation                                         Marketing Communication
+
+
+ GLOSSARY
+ Ex-post Tracking Error
+ The tracking error measures the volatility of a portfolio’s relative return in relation to its benchmark index.
+ Modified Duration
+ A measure of a bond's sensitivity to changes in interest rates. The longer the remaining term to maturity, the more bond prices react to a change in
+ interest rates, and the higher the duration. The rule is that if the yield rises or falls by 1%, the value of the bond will fluctuate by 1% x duration.
+ Volatility
+ An asset’s volatility is the standard deviation of its return. As a measure of dispersion, it evaluates the uncertainty of asset prices, which is often
+ equated to their risk. Volatility can be calculated ex post (retrospectively) or estimated ex ante (anticipatively).
+ YTM (Yield to Maturity)
+ A yield calculation that takes into account the relationship between a security's maturity value, time to maturity, current price, and coupon yield.
+ Average Coupon
+ Average amount of coupons paid on this period.
+ Duration
+ The duration of a bond is a measure in years and expresses the average mean maturity of all actualised cash flows.
+ A glossary of financial terms appearing on this document can be found at http://www.bnpparibas-am.com
+
+ DISCLAIMER
+
+ BNP Paribas Asset Management Luxembourg SA, a management company governed by chapter 15 of the law of 17 December 2010 and an alternative
+ investment fund manager governed by the law of 12 July 2013 supervised by the Commission de Surveillance du Secteur Financier (CSSF) under
+ number S00000608 and A00000763 respectively, incorporated under the form of a société anonyme, with its registered office at 10, rue Edward
+ Steichen, L-2540 Luxembourg, Grand-Duchy of Luxembourg, RCS Luxembourg B27605, and its Website: www.bnpparibas-am.com (hereafter the
+ “Company”).
+ This material is issued and has been prepared by the management company. It contains opinions and statistical data that are considered lawful and
+ correct on the day of their publication according to the economic and financial environment at the time. This document does not constitute investment
+ advice or form part of an offer or invitation to subscribe for or to purchase any financial instrument(s) nor shall it or any part of it form the basis of any
+ contract or commitment whatsoever.
+ This document is provided without knowledge of an investors’situation. Prior to any subscription, investors should verify in which countries the
+ financial instruments referred to in this document refers are registered and authorised for public sale. In particular financial instruments cannot be
+ offered or sold publicly in the United States. Investors considering subscriptions should read carefully the most recent prospectus and Key Investor
+ Information Document (KIID) agreed by the regulatory authority, available on the website. Investors are invited to consult the most recent financial
+ reports, which are also available on the website. Investors should consult their own legal and tax advisors prior to investing. Given the economic and
+ market risks, there can be no assurance that the financial instrument(s) will achieve its investment objectives. Their value can decrease as well as
+ increase. In particular, changes in currency exchange rates may affect the value of an investment. Performance is shown net of management fees and
+ is calculated using global returns with time factored in, with net dividends and reinvested interest, and does not include inscription redemption fees,
+ exchange rate fees or tax. Past performance is not a guarantee of future results.
+ All information referred to in the present document is available on www.bnpparibas-am.com
+
+
+
+ Index disclaimer
+
+ Information and indexes have been obtained from sources believed to be reliable, but J.P. Morgan does not warrant its completeness or accuracy. The
+ information and indexes are used with permission.~ The information and indexes may not be copied, used, or distributed without J.P. Morgan's prior
+ written approval. Copyright 2019, JPMorgan Chase & Co. All rights reserved. “J.P. Morgan" and "indexes”are trademarks of JPMorgan Chase & Co. and
+ have been licensed for use for certain purposes by BNP Paribas Asset Management. BNP Paribas Asset Management's product(s) which are based on
+ the indexes are not sponsored, endorsed, sold or promoted by J.P. Morgan and J.P. Morgan makes no representation regarding the advisability of
+ trading in such product(s).
+
+
+
+
+                                                                                                                                                       Page 5 of 5
+

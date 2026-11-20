@@ -1,0 +1,247 @@
+=== pdf p.1 ===
+Website disclosures for Euro Credit Fund
+
+Date: 21 September 2026
+
+This disclosure is made by PIMCO Global Advisors (Ireland) Limited in respect of Euro Credit Fund (the
+‘Fund’), a sub-fund of PIMCO Funds: Global Investors Series plc pursuant to Article 10 of the Sustainable
+Finance Disclosure Regulation (EU) 2019/2088 (‘SFDR’).
+
+A translated summary section is available at the following link.
+
+The Fund supplement is available on the PIMCO website along with a copy of the most recent annual reports
+of the Fund.
+
+Summary
+
+In this section, we provide a summary of the information which is provided in more detail below. Please refer
+to each of the relevant sections below for further information.
+
+As outlined in the Fund Supplement, the Fund promotes environmental and social characteristics but does not
+have as its objective sustainable investment meaning that the Fund is classified as an Article 8 fund under the
+SFDR. The environmental characteristic promoted by the Fund is climate change mitigation. The social
+characteristics promoted by the Fund are human rights, labour rights and anti-corruption compliance as set
+out in the principles of the UN Global Compact and the OECD Guidelines for Multinational Enterprises; and
+avoiding the financing of controversial weapons (including the manufacture or selling of cluster munitions,
+landmines and biological weapons or chemical weapons). It has not designated a reference benchmark for the
+purpose of meeting the environmental characteristics.
+
+As further outlined in the Fund’s Supplement, the Fund promotes environmental and social characteristics
+through an exclusion strategy and shall exclude any direct investment in the securities of any issuer determined
+by the Investment Advisor to be principally engaged in thermal coal mining and generation or in the exploration
+and production of unconventional oil and gas. In addition, the Fund shall exclude direct investment in the
+securities of any issuer determined by the Investment Advisor to be principally engaged in the controversial
+weapons sector (as described above), the manufacture of conventional and nuclear weapons and the
+production of tobacco, among others. The Fund shall also exclude direct investment in the securities of any
+issuer determined by the Investment Advisor to be in violation of human rights, labour rights or anti-corruption
+compliance as set out in the principles of the UN Global Compact and the OECD Guidelines for Multinational
+Enterprises. Notwithstanding the Fund’s exclusion strategy, certain ESG Fixed Income Securities (including
+green bonds and social bonds as further described in the section of the Prospectus entitled “ESG Fixed
+Income Securities”) from excluded sectors may be permitted, if the Investment Advisor determines such
+investments are aligned with the Fund’s promotion of environmental and social characteristics. Additionally,
+the companies in which the Fund invests follow good governance practices as determined by the Investment
+Advisor.
+
+As set out in the Fund’s Supplement, at least 51% of the Fund’s portfolio will be used to meet the environmental
+and social characteristics promoted by the Fund. However, as set out in the Fund’s Supplement, the Fund may
+invest in cash, investments in derivatives and other instruments which are used for (i) hedging purposes and/or
+(ii) investment purposes and/or (iii) efficient portfolio management and/or (iv) overall risk management. The
+Fund’s exclusion strategy is monitored by the Investment Advisor on a pre-trade basis and on an ongoing
+basis thereafter.
+
+
+                                                                                                              1
+
+=== pdf p.2 ===
+Data required for the binding criteria of the Fund’s investment strategy is typically sourced by the Investment
+Advisor in various ways, including from a third party data vendor and/or generating such data through
+proprietary analysis carried out by the Investment Advisor and/or obtaining such data directly from the
+underlying issuer. As appropriate, due diligence will be carried out on such data sources used by the
+Investment Advisor. The Fund may need to use proxies or estimates from time to time as a result of data
+challenges (data availability and reliability). For example, the availability and accuracy of sustainability-related
+data can in certain circumstances be limited due to a lack of corporate disclosure being made by issuers or in
+circumstances where such data may not be standardized or verified when provided by an issuer. Such data
+challenges may result in difficulty in reporting sufficiently accurate numbers or affect the proportion of estimated
+or approximated data used by the Investment Advisor. The Investment Advisor seeks to ensure any such data
+challenges does not impede the promotion of the environmental or social characteristics by the Fund.
+
+No Sustainable Investment Objective
+
+This Fund promotes environmental and social characteristics but does not have as its objective sustainable
+investment.
+
+Environmental or Social Characteristics of the Financial Product
+
+As outlined in the Fund Supplement, the Fund will promote environmental and social characteristics by
+operating an exclusion strategy. The environmental characteristic promoted by the Fund is climate change
+mitigation. The social characteristics promoted by the Fund are human rights, labour rights and anti-corruption
+compliance as set out in the principles of the UN Global Compact and the OECD Guidelines for Multinational
+Enterprises; and avoiding the financing of controversial weapons (including the manufacture or selling of
+cluster munitions, landmines and biological weapons or chemical weapons).
+
+In measuring the attainment of the environmental characteristic of the Fund, the Investment Advisor uses
+certain sustainability indicators, including:
+
+    •   Exposure to issuers determined by the Investment Advisor to be principally engaged in the financing
+        of certain fossil fuel related activities, specifically those (1) determined to be principally engaged in
+        thermal coal mining and generation and (2) determined to be principally engaged in the exploration
+        and production of unconventional oil and gas. An issuer will typically be deemed to be principally
+        engaged in an activity if it derives more than 10% of its revenues from such activities. It is not
+        anticipated that the Fund will have exposure to any such issuers.
+
+In measuring the attainment of the social characteristics of the Fund, the Investment Advisor uses certain
+sustainability indicators, including:
+
+    •   Exposure to issuers determined by the Investment Advisor to be in violation of human rights, labour
+        rights and anti-corruption compliance as set out in the principles of the UN Global Compact and the
+        OECD Guidelines for Multinational Enterprises. It is not anticipated that the Fund will have exposure
+        to any such issuers.
+    •   Exposure to controversial weapons (as described above). It is not anticipated that the Fund will have
+        exposure to any such issuers.
+
+
+
+
+                                                                                                                  2
+
+=== pdf p.3 ===
+Investment Strategy
+
+As set out in the Fund’s Supplement and as further detailed below, the Fund shall exclude any direct
+investment in the securities of any issuer determined by the Investment Advisor to be principally engaged in
+thermal coal mining and generation or in the exploration and production of unconventional oil and gas. In
+addition, the Fund shall exclude direct investment in the securities of any issuer determined by the Investment
+Advisor to be principally engaged in the controversial weapons sector (as described above), the manufacture
+of conventional and nuclear weapons and the production of tobacco, among others. The Fund shall also
+exclude direct investment in the securities of any issuer determined by the Investment Advisor to be in violation
+of human rights, labour rights or anti-corruption compliance as set out in the principles of the UN Global
+Compact and the OECD Guidelines for Multinational Enterprises. To the extent possible on the basis of
+information available to the Investment Advisor, an issuer will typically be deemed to be principally engaged
+in an activity if it derives more than 10% of its revenues from such activities. The Fund will also actively engage
+with certain issuers, as applicable, in seeking to improve investment outcomes and issuers’ sustainability
+practices, including for example by encouraging companies to align to the Paris Agreement, adopt science-
+based targets for carbon emissions reduction and/or broadly advance their sustainability commitments.
+Notwithstanding the Fund’s exclusion strategy, certain ESG Fixed Income Securities (including green bonds
+and social bonds as further described in the section of the Prospectus entitled “ESG Fixed Income
+Securities”) from excluded sectors may be permitted, if the Investment Advisor determines such investments
+are aligned with the Fund’s promotion of environmental and social characteristics. The proceeds of such ESG
+Fixed Income Securities may be used to finance or re-finance new and existing projects or activities with
+positive environmental impact such as renewable energy, energy efficiency and clean transportation. In
+addition, the proceeds of ESG Fixed Income Securities may be used to finance or re-finance social projects or
+activities that aim to address or mitigate a specific social issue or seek to achieve positive social outcomes
+such as affordable basic infrastructure, access to essential services and affordable housing (as further
+described in the section of the Prospectus entitled “ESG Fixed Income Securities”).
+
+In addition, as part of the investment process, the Investment Advisor considers the principal adverse impacts
+(“PAIs”) of investment decisions on sustainability factors. In addition to the indicators identified in the Fund’s
+Supplement, the Investment Advisor has identified the following adverse sustainability indicators outlined in
+Table 1 to Annex I of Commission Delegated Regulation (EU) 2022/1288 as being relevant to the Fund’s
+investments:
+
+    •   PAI 10 (share of investments in investee companies that have been involved in violations of the UNGC
+        principles or OECD Guidelines for Multinational Enterprises);
+    •   PAI 14 (share of investments in investee companies involved in the manufacture or selling of
+        controversial weapons including anti-personnel mines, cluster munitions, chemical weapons and
+        biological weapons); and
+    •   PAI 16 (number of investee countries subject to social violations (absolute number and relative number
+        divided by all investee countries) as referred to in international treaties and conventions, United
+        Nations principles and, where applicable, national law).
+
+The Investment Advisor uses a combination of methods to help mitigate PAIs including applying an exclusion
+strategy and issuer engagement. The Fund’s financial statements disclose how PAIs on sustainability factors
+have been considered during the relevant reporting period.
+
+In addition, as detailed in the Fund Supplement, the companies in which the Fund invests follow good
+governance practices as determined by the Investment Advisor. The Investment Advisor assesses such
+governance practices by means of a proprietary and/or third party scoring system which considers how an
+
+
+                                                                                                                 3
+
+=== pdf p.4 ===
+investee company’s governance compares to its industry peers and the Investment Advisor refers globally
+accepted norms such as the UN Global Compact Principles in relation to sound management practices,
+employee relations and remuneration of staff. When the Investment Advisor is applying its policy to assess
+good governance practices, the Fund has the ability to retain securities from investee companies that the
+Investment Advisor deems to be in the best interests of the Fund and its Shareholders.
+
+
+Proportion of Investments
+
+As set out in the Fund’s Supplement, at least 51% of the Fund’s portfolio will be used to meet the environmental
+and social characteristics promoted by the Fund. However, as set out in the Fund’s Supplement, the Fund may
+invest in cash, investments in derivatives and other instruments which are used for (i) hedging purposes and/or
+(ii) investment purposes and/or (iii) efficient portfolio management and/or (iv) overall risk management. The
+Fund does not seek to invest in sustainable investments.
+
+Monitoring of Environmental or Social Characteristics
+
+The Investment Advisor monitors the Fund’s binding criteria at the time of trade and on an ongoing basis by
+way of its internal compliance system which has codified the relevant exclusion policies adopted by the
+Investment Advisor for this Fund.
+
+Methodologies for Environmental or Social Characteristics
+
+As outlined in the Fund Supplement, the Fund operates an exclusion strategy. The application of the exclusion
+policy on a pre-trade basis and on an ongoing basis thereafter is monitored in the manner described above.
+These criteria are periodically reviewed and updated by a dedicated PIMCO group level Exclusions Advisory
+Group, which consists of PIMCO senior investment professionals. This group meets regularly to ensure that
+the Fund’s guidelines are being applied in an appropriate manner and in line with PIMCO’s evolving views on
+sustainability.
+
+Data Sources and Processing
+
+Data required for the aforementioned binding criteria is typically sourced in various ways at the discretion of
+the Investment Advisor, including from a third-party data vendor and/or generating such data through
+proprietary analysis carried out by the Investment Advisor and/or obtaining such data directly from the
+underlying issuer. As appropriate, due diligence will be carried out on such data sources used by the
+Investment Advisor. The Fund may need to use proxies or estimates from time to time as a result of data
+challenges (data availability and reliability). For example, the availability and accuracy of sustainability-related
+data can in certain circumstances be limited due to a lack of corporate disclosure being made by issuers and
+depends on the composition of issuers, the nature of their businesses and the sectors in which they operate.
+However, the Investment Advisor expects that data availability and reliability will improve as the market and
+methods for obtaining and reporting sustainability-related data mature.
+
+In addition, circumstances may arise in which such data may not be standardized or verified when provided
+by an issuer or the data sourced/generated by the Investment Advisor may conflict with data supplied by other
+data vendors. Such data challenges may result in difficulty in reporting sufficiently accurate numbers or affect
+the proportion of estimated or approximated data used by the Investment Advisor.
+
+Limitations to Methodologies and Data
+
+
+
+
+                                                                                                                  4
+
+=== pdf p.5 ===
+As noted above, the availability and accuracy of sustainability-related data can in certain circumstances be
+limited and data quality can be a challenge due to a lack of corporate disclosure, the nature of the disclosure
+being made by issuers or the data supplied by third party vendors, among other factors. In certain instances,
+sustainability-related data relied on by the Investment Advisor will be based on proxies or estimates. However,
+the Investment Advisor seeks to ensure any such data challenges do not impede the promotion of the
+environmental or social characteristics by the Fund.
+
+Due Diligence
+
+Information on the due diligence carried out by the Investment Advisor is detailed above under “Investment
+Strategy” and “Methodologies for Environmental or Social Characteristics”.
+
+Engagement Policies
+
+As detailed in the Fund Supplement, the Investment Advisor will also actively engage with certain issuers, as
+applicable, in seeking to improve investment outcomes and issuers’ sustainability practices, including for
+example by encouraging companies to align to the Paris Agreement, adopt science-based targets for carbon
+emissions reduction and/or broadly advance their sustainability commitments.
+
+Designated reference benchmark
+
+
+As detailed in the Fund Supplement, the Fund has not designated a reference benchmark for the purpose of
+meeting the environmental or social characteristics promoted by it.
+
+
+
+
+                                                                                                             5
+
