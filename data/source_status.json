@@ -1,14 +1,11 @@
 {
  "news": {
-  "date": "2026-11-19",
-  "new": 4,
-  "errors": [
-   "artea/lt: HTTP Error 429: Too Many Requests",
-   "inbank/et: HTTP Error 429: Too Many Requests"
-  ]
+  "date": "2026-11-20",
+  "new": 5,
+  "errors": []
  },
  "filings": {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "new": 0,
   "baseline": 0,
   "errors": [
@@ -17,7 +14,7 @@
   ]
  },
  "market": {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "errors": []
  }
 }
