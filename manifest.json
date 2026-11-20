@@ -6755,5 +6755,24 @@
   "sha256": "18019a4310dd507697cda28e8b612fb01d1a3878ba3ebc1a38f12691cab69cc6",
   "bytes": 305203,
   "final_url": "https://fund-ui.pimco.com/fund-detail-api/api/funds/documents/content/view?documentId=Ogkt1G9vSAyF2Zsiz3eOFUHdyCi5Yv-CTtqzqnURm8L5E2Rev2kNyhwO1I5elNFTVPlnx2Yafv2CsuxcHGSOBw"
+ },
+ {
+  "isin": "LU2244387457",
+  "kind": "factsheet",
+  "url": "https://docfinder.bnpparibas-am.com/api/files/75c3c0fc-6ff6-456d-8efe-ed2ba1e31ae9/512",
+  "fetched": "2026-11-20",
+  "ok": true,
+  "file": "2026-11-20/LU2244387457/factsheet_b8b451cc1c.pdf",
+  "sha256": "b8b451cc1c9655776bb2f6c7bfeaecc26f01814149e346305ff26f933dec8bf0",
+  "bytes": 305424,
+  "final_url": "https://docfinder.bnpparibas-am.com/api/files/75c3c0fc-6ff6-456d-8efe-ed2ba1e31ae9/512"
+ },
+ {
+  "isin": "LU2889894270",
+  "kind": "factsheet",
+  "url": "https://www.ubs.com/2/e/files/RET/FS_RET_LU0396343682_GB_EN.pdf",
+  "fetched": "2026-11-20",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
  }
 ]

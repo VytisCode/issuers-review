@@ -1,0 +1,378 @@
+=== pdf p.1 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Capitalisation                                                      Marketing Communication
+
+
+ DASHBOARD AS AT 30.10.2026
+
+                 Asset Class                            Official Benchmark                    No. of Holdings in benchmark                        Fund Size (EUR millions)
+
+
+                                              J.P. Morgan Tilted EMU Government
+                Fixed Income                                                                                    78                                               3,934
+                                                    Bond IG 3-5 Year (EUR) RI
+
+               Trade currency                           Comparison Index                                SFDR Article                               MSCI ESG Fund Rating
+
+
+
+                       EUR                         JPM EMU 3-5 Years (EUR) RI                                   8                                                  A
+
+
+ PERFORMANCE (CUMULATIVE OVER 5 YEARS) (EUR) (NET)
+
+                 105
+
+                 100
+
+
+        (% )      95
+
+                  90
+
+                  85
+                             2022                       2023                           2024                            2025                               2026
+
+ Cumulative performance at 30.10.2026 (%)
+                                                 YTD           1 Month    3 Months        6 Months          1 Year                2 Years       3 Years          4 Years       5 Years
+
+      FUND                                      -1.35             0.54         -1.00           -0.90           -1.54                 1.89          6.96             6.91         -2.03
+
+      BENCHMARK                                 -1.22             0.55         -0.97           -0.83           -1.39                 2.19          7.44             7.56         -1.34
+
+      COMPARISON INDEX                          -1.26             0.53         -1.01           -0.86           -1.42                 2.23          7.54             7.67         -1.22
+
+ Calendar Performance at 30.10.2026 (%)
+                                               2025            2024        2023          2022          2021            2020             2019         2018              2017      2016
+
+      FUND                                      2.34            2.28        4.90         -9.80             -                  -             -               -              -         -
+
+      BENCHMARK                                 2.49            2.42        5.07         -9.69             -                  -             -               -              -         -
+
+      COMPARISON INDEX                          2.54            2.48        5.10         -9.68             -                  -             -               -              -         -
+
+ (1) All figures net of fees (in EUR).The value of your investments may fluctuate. Past performance is no guarantee for future results.
+ Source: BNP Paribas Asset Management
+ All data and performance are as of that date, unless otherwise stated.
+ For further information, and in particular the risks of the product, please refer to the Prospectus and KIIDs of fund.
+
+
+
+
+                                                                                                                                                                               Page 1 of 8
+
+=== pdf p.2 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Capitalisation                          Marketing Communication
+
+
+ HOLDINGS BENCHMARK: (In %)
+
+                                                                        Against                                                          Against
+                                                                     Comparison                                                       Comparison
+ by Currency (%)                                                                        by Country (%)
+                                                                          Index                                                            Index
+  EUR                                                100.00                 - 0.00      France                             21.50            - 1.69
+  Other                                                      -              - 0.00      Italy                              21.57            - 1.57
+ Total                                               100.00                             Germany                            23.58            + 1.48
+                                                                                        Spain                              13.75            + 0.77
+                                                                                        Netherlands                         4.29            + 0.24
+                                                                                        Belgium                             4.29            + 0.24
+                                                                                        Austria                             3.47            + 0.20
+                                                                                        Republic of Ireland                 2.22            + 0.18
+                                                                                        Portugal                            2.02            + 0.11
+                                                                                        Finland                             1.77            + 0.10
+                                                                                        Cash                                   -            - 0.00
+                                                                                        Other                               1.54            - 0.07
+                                                                                        Total                            100.00
+
+
+
+
+                                                                        Against                                                          Against
+                                                                     Comparison                                                       Comparison
+ by Rating (%)                                                                          by Maturity (%)
+                                                                          Index                                                            Index
+  AAA                                                  27.88                + 1.72      1 - 3 years                            -            - 0.00
+  AA+                                                    5.23               + 0.29      3 - 5 years                      100.00             - 0.00
+  AA                                                     2.22               + 0.18      Other                                  -            - 0.00
+  A+                                                   28.20                - 1.31      Cash                                   -            - 0.00
+  A                                                    13.75                + 0.77      Total                            100.00
+  A-                                                     0.51               - 0.04
+  BBB+                                                 21.57                - 1.57
+  BBB                                                    0.64               - 0.05
+  Other                                                      -              - 0.00
+  Cash                                                       -              - 0.00
+ Total                                                100.00
+
+ Source of data: BNP Paribas Asset Management, as at 30.10.2026.
+ The above mentioned securities are for illustrative purpose only and do not constitute any investment recommendation.
+ The data as shown in the factsheets are based on official accounting data and are based on trade date.
+
+
+
+
+                                                                                                                                               Page 2 of 8
+
+=== pdf p.3 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Capitalisation                                                      Marketing Communication
+
+
+                                                                                                                                                 ESG global score
+                                                                                                                                                 57.17
+ BNPPAM SUSTAINABLE INDICATORS
+
+ ESG CONTRIBUTION
+                                                                           Environmental contrib.                             Social contrib.                 Governance contrib.
+ Portfolio                                                                                         4.75                                   3.63                                   -1.21
+
+
+
+ PORTFOLIO COVERAGE
+                                                                         Coverage rate
+ ESG coverage                                                                   100.00%
+
+
+
+ MSCI SUSTAINABILITY CHARACTERISTICS (AS AVAILABLE ON MSCI WEBSITE ON END OF PREVIOUS MONTH)
+
+ MSCI ESG Fund Rating                                                                A
+ MSCI Weighted Average Carbon Intensity (tons of CO2e/$M Sales)                      -                MSCI Weighted Average Carbon Intensity Coverage                       0%
+ MSCI ESG Quality Score (0-10)                                                       6.31
+
+
+ Total ESG score
+ BNPP AM’s internal ESG scoring methodology determines an issuer's ESG score by evaluating performance vs. scoring peers on a narrow set of key ESG issues related to the
+ environment (e.g. climate change), social issues (e.g. human resources management) and governance (e.g. independence and competence of directors). BNPP AM uses
+ numerous research inputs and data sources (e.g. Sustainalytic, ISS & Trucost) to determine issuers' ESG scores. If the issuer’s commitments and practices on a pillar of
+ assessment (E,S or G) is better than scoring peers, it will receive a positive ‘contribution’ for this pillar. Each issuer is assigned a final score from 1 to 99 which is the result of
+ 50 as a reference plus the sum of the contributions from each of the three pillars.
+
+ ESG Contribution
+ The ESG contributions are determined by BNP Paribas Asset Management's ESG analysts on the basis of detailed criteria to systematically evaluate companies' commitments,
+ performance and practices in the areas of environmental, social and governance. Each of the above contributions at the portfolio level, is the weighted average of the
+ contributions of the individual portfolio holdings.Environmental Contribution (E) takes into account, among other things, climate change, environmental risk management,
+ and the use of natural resources. Social Contribution (S) takes into account, among other things, human capital management, the quality of social dialogue, and the respect of
+ diversity. Governance Contribution (G) takes into account, among other things, the transparency on executive compensation, the fight against corruption, and gender equality.
+
+ Portfolio Coverage
+ The coverage represents, within an Index replicated by the fund, the percentage of securities that have an ESG score or carbon footprint using BNPP AM’s
+ internalmethodology which can be lower than the full coverage offered per the index provider
+
+ MSCI ESG Fund Rating
+ The MSCI ESG rating is calculated as a direct mapping of ESG Quality Scores to letter rating categories (e.g. AAA = 8.6-10). The ESG Ratings range from leader (AAA:AA),
+ average (A, BBB, BB) to laggard (B, CCC).
+
+ MSCI Weighted Average Carbon Intensity
+ It measures a funds's exposure to carbon intensive companies. This figure represents the estimated greenhouse gas emissions per $1 million in sales across the fund's
+ holdings. This allows for comparisons between funds of different sizes.
+
+ MSCI Weighted Average Carbon Intensity Coverage.
+ It is the percentage of the fund's holdings for which MSCI Carbon Intensity data is available. The MSCI Weighted Average Carbon Intensity metric is displayed for funds with
+ any coverage. Funds with low coverage may not fully represent the fund’s carbon characteristics given the lack of coverage.
+
+ MSCI ESG Quality Score (0-10)
+ The MSCI ESG Quality Score (0-10) for funds is calculated using the weighted average of the ESG scores of fund holdings. The Score also considers ESG rating trend of
+ holdings and the fund exposure to holdings in the laggard category. MSCI rates underlying holdings according to their exposure to industry specific ESG risks and their ability
+ to manage those risks relative to peers.
+
+ For more information on ESG indicators, please refer to BNPP AM's webpage : https://www.bnpparibas-am.com/en/esg-scoring-framework/                                                   &
+ https://www.bnpparibas-am.com/en/measuring-carbon-footprints/
+ For more detailed information on our sustainability documents, please refer to BNPP AM's webpage : https://www.bnpparibas-am.com/en/sustainability-documents/
+
+
+
+
+                                                                                                                                                                              Page 3 of 8
+
+=== pdf p.4 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Capitalisation   Marketing Communication
+
+
+
+
+ Label(s)
+                        The fund has received recognition from the
+                        Belgian Central Labeling Agency in the form
+                        of Towards Sustainability Label.
+                        The Towards Sustainability label helps all
+                        types of retail and institutional investors
+                        looking for more sustainable savings and
+                        investment solutions. Which in its turn
+                        encourages financial institutions to offer a
+                        diverse and high-quality range of
+                        sustainable products.
+                        For more information on the label, visit the
+                        website: www.towardssustainability.be
+
+
+
+
+                                                                                                                    Page 4 of 8
+
+=== pdf p.5 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Capitalisation                                     Marketing Communication
+
+
+ RISK
+
+ Risk Indicator                                                                            Risk Analysis (1 year, weekly)                               Fund
+                                                                                           Volatility                                                    2.64
+                                                                                           Ex-post Tracking Error                                        0.01
+                                                                                           Tracking Error Official Benchmark /                           0.05
+                                                                                           Comparison Index
+ Lower risk                                                                  Higher risk   Modified Duration (30.10.2026)                                3.63
+ The risk indicator assumes you keep the Product for 3 years.
+ You may not be able to sell your Product easily or you may have to sell at a price that   Yield to Maturity (30.10.2026)                                3.56
+ significantly impacts on how much you get back.
+                                                                                           Average coupon                                                1.97
+                                                                                           Duration                                                      3.68
+
+ The summary risk indicator is a guide to the level of risk of this Product compared to other Products. It shows how likely it is that the Product will lose
+ money because of movements in the markets or because we are not able to pay you.
+ We have classified this Product as 2 out of 7, which is a low risk class.
+ The risk category is justified by the investment mainly in interest rate instruments. The investor's attention is drawn to the fact that an increase in
+ interest rates results in a decrease in the value of investments in bonds and debt instruments and more generally fixed income instruments.
+
+
+
+
+ Other risks materially relevant to the Product not included in the summary risk indicator:
+                 the risk that the creditworthiness of an issuer may deteriorate or that it may default, potentially causing the value of the associated
+      instruments to fall.
+                       In the event of an operational breakdown within the management company, one of its representatives or the depositary, investors
+      could face various disruptions (late payment, delivery etc.).
+ For additional details regarding the risks, please refer to the prospectus.
+ This Product does not include any protection from future market performance so you could lose some or all of your investment.
+
+
+
+
+ DETAILS
+  Fees                                                                                     Codes
+  Maximum Subscription Fee                                                       3.00%     ISIN Code                                            LU2244387457
+  Real Ongoing Charges (31.12.25)                                                0.15%     Bloomberg Code                                            GEMU FP
+  Maximum Management Fees                                                        0.03%
+                                                                                           Quotation                        Bloomberg Code        Reuters code
+ Index data as of 31.10.2026                                                               iNAV                                     IGEMU       IGEMUINAV.PA
+ Name                              J.P. Morgan Tilted EMU Government Bond IG               Euronext Paris                         GEMU FP                 N/A
+                                                             3-5 Year (EUR) RI
+                                                                                           Swiss Exchange                        EMUGB SE                 N/A
+                                                                                           Borsa Italiana                        GEMU IM                  N/A
+
+                                                                                           Key Figures (EUR)
+                                                                                           NAV                                                            9.67
+                                                                                           Fund Size (Euro millions)                                  3,933.72
+
+ Characteristics
+ Legal form                                                    Sub-fund of SICAV BNP PARIBAS EASY Luxembourg domicile
+ Dealing Deadline                                              15:30 CET STP (15:30 CET NON STP)
+ Recommended Investment Horizon                                3 years
+ Benchmark                                                     J.P. Morgan Tilted EMU Government Bond IG 3-5 Year (EUR) RI
+ Domicile                                                      Luxembourg
+ Launch Date                                                   21.01.2021
+ Fund Manager(s)                                               Loic GUYOT
+ Management Company                                            BNP PARIBAS ASSET MANAGEMENT Luxembourg
+ Delegated Manager                                             BNP PARIBAS ASSET MANAGEMENT Europe
+
+                                                                                                                                                      Page 5 of 8
+
+=== pdf p.6 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Capitalisation                  Marketing Communication
+
+ Characteristics
+ Custodian                                    BNP PARIBAS, Luxembourg Branch
+ Base Currency                                EUR
+ Subscription/execution type                  NAV + 1
+ SFDR article                                 Article 8 - Promotion of environmental or social characteristics
+
+
+
+
+                                                                                                                                   Page 6 of 8
+
+=== pdf p.7 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Capitalisation                                    Marketing Communication
+
+
+ GLOSSARY
+ Tracking Error
+ The tracking error measures the volatility of a portfolio’s relative return in relation to its benchmark index.
+ Volatility
+ An asset’s volatility is the standard deviation of its return. As a measure of dispersion, it evaluates the uncertainty of asset prices, which is often
+ equated to their risk. Volatility can be calculated ex post (retrospectively) or estimated ex ante (anticipatively).
+ A glossary of financial terms appearing on this document can be found at http://www.bnpparibas-am.com
+
+
+ DISCLAIMER
+
+ This documentation is produced by BNP Paribas Group and/or (one of) its entities (hereinafter the “Bank”). It is for the exclusive use of the person to
+ whom it has been given, whether directly or by way of a power of representation. This material may not be distributed, published or reproduced in
+ whole or in part by its recipient(s). This documentation is a publicity communication. This document is provided for information only and does not
+ constitute an offer, solicitation or canvassing of any kind, particularly in any state or jurisdiction in which such an offer, solicitation or canvassing is not
+ authorised or to any person to whom such an offer, solicitation or canvassing is unlawful on account of that person's domicile and/or nationality. This
+ document or any part of this document cannot form the basis of any agreement or commitment and must, under no circumstances and in any
+ jurisdiction, be seen or considered as a prospectus or part of a prospectus, an offer, a solicitation or a call to the public for collective investment
+ schemes, structured products or otherwise. Therefore, this document is general in scope and does not constitute an advice or a recommendation to any
+ particular person to buy, sell or hold any security or to engage in any transaction.
+
+
+
+
+                              The investor should ensure that he has sufficient knowledge, understanding and experience of these risks to make his own
+ detailed analysis of all aspects of the proposed transaction or service.
+ The investor must not see or construe this document as legal or fiscal advice. Each investor should consult his own external legal, fiscal or other
+ advisors in order to assess under his own responsibility the appropriateness of investing in any of the financial instruments described in this document.
+ The attention of the investor is drawn to the fact that the fiscal treatment that will be applied to his investment in the financial instrument described
+ in this document does depend on his personal tax situation and will be likely to change during the implementation period of the product finally chosen.
+ Certain legal, fiscal or regulatory changes may occur during the implementation period of a financial instrument/service and may also adversely affect
+ the performance of the investment or even significantly alter the legal, economic and fiscal benefits of the financial instrument/service for the investor.
+ Whilst this document illustrates simulations/performances and potential returns of the financial instrument or service based on market data in recent
+ years, it should be noted that past performance or returns are no guarantee for future results. Except as specifically stated in writing, for example in
+ the case of certain structured products, this document is not intended to give any guarantee whatsoever in respect of the capital invested (both in
+ terms of preservation and recovery) and/or the financial return and/or performance of an investment in any financial instrument or service described
+ herein. Similarly, none of the information provided can be construed as constituting such a guarantee. This means that in the event of adverse events,
+ the investor could suffer substantial losses or even lose the entire capital invested, or even more in the case of leveraging.
+ The information, opinions and estimates contained in this document are subject to change after the date of this document and the Bank does not follow
+ up on any general recommendations given or provide any subsequent related information. Although such information, opinions and estimates have
+ been obtained from sources that the Bank believes to be reliable, the Bank makes no representation or warranty, express or implied, and accepts no
+ responsibility in respect of the completeness, reliability or accuracy of the information contained therein. The Bank or any of its affiliates will not be
+ liable for any incorrect, incomplete or missing information, or for any losses claimed to be the direct or indirect result of using the information provided
+ or of the general recommendations made in this document.
+ The investor accepts that the Bank or the group to which it belongs or its employees/directors may hold or have held positions or interests in the
+ financial instruments mentioned or may have acted as a market maker for such financial instruments. The investor accepts that the Bank or the group
+ to which it belongs or its employees/directors may have links with the companies concerned and/or their directors and provide them with various
+ services, including being a member of their boards of directors. Additionally, some financial instruments or services involve multi-manager funds. In
+ this respect, it is also recalled that investing in such funds rather than directly in the underlying funds and/or financial instruments in which they
+ invest, does or may generate additional costs for the investor.
+ The attention of the investor is drawn to the fact that in the event of concluding transactions in financial instruments, the services provided by the
+ Bank are subject to fees or commissions that will be charged to the investor in accordance with the applicable rates, which are, in accordance with the
+ Bank's General Terms and Conditions in force, subject to change during the term of the investment. In this regard, the investor is invited to refer to the
+ Bank's tariff conditions.
+ Switzerland: This material is provided by BNP Paribas (Suisse) SA, Place de Hollande 2, CH-1204 Geneva.
+                                                                                                          He should ensure that he has sufficient knowledge
+ and understanding of and experience in these risks, in order to make his own detailed analysis of all aspects of the proposed transaction or service.
+                                                                                                   BNP Paribas (Suisse) SA is regulated in Switzerland by the
+ Swiss Financial Market Supervisory Authority (FINMA).
+ In respect of the foreign collective investment schemes offered in Switzerland, the prospectus, the Key information document, the statutes, and the
+ annual and semi-annual reports can be obtained, free of charge, from BNP PARIBAS, Paris, Zurich branch, Switzerland which is the Swiss representative
+ and the Swiss paying agent in Switzerland.
+
+ ©BNP Paribas (Suisse) SA – 2024
+                          Copyright © 2026 Morningstar, Inc. All Rights Reserved. The overall star rating for each fund is based on a weighted average
+                                                                                                                                                        Page 7 of 8
+
+=== pdf p.8 ===
+BNP PARIBAS EASY JPM TILTED EMU GOVERNMENT BOND IG 3-5YFund Factsheet UCITS ETF, Capitalisation                              Marketing Communication
+
+
+
+
+ of the number of stars assigned to it in the three-, five-, and 10-year rating periods. Morningstar stars rank from 1 to 5, with the top ranking being 5
+ stars. The information contained herein: (1) is proprietary to Morningstar and/or its content providers; (2) may not be copied or distributed; and (3) is
+ not warranted to be accurate, complete or timely. Neither Morningstar nor its content providers are responsible for any damages or losses arising from
+ any use of this information. Past performance is no guarantee of future results.
+
+
+
+
+                                                                                                                                                  Page 8 of 8
+
