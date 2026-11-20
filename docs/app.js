@@ -2134,7 +2134,7 @@
         ${task === "dd" && s.mode !== "sup" ? `<details class="small"><summary>Sanctions check links (you check the management company)</summary>${sancBox("")}</details>` : ""}</div></div>${task === "duration" ? `<div class="card" id="fDurHist" style="margin-top:16px"></div>` : ""}`;
   }
   /* Duration istorija: pasirinkto laikotarpio lentelė (kaip Excel) su pokyčiu nuo ankstesnio, arba visi laikotarpiai greta */
-  let FDUR = "", FDUR_TSV = "";
+  let FDUR = "", FDUR_TSV = "", FDURV = "table";
   // tuščia duration reikšmė – laukelis savininkui (tas pats juodraštis kaip „Missing data“, tik šioje naršyklėje)
   const fDurM = (x, isin) => isFinal(x) ? null : ((x.view || {}).missing || []).find(r => r.isin && String(isin).includes(r.isin));
   function fDurIn(x, isin, f) {
@@ -2171,7 +2171,10 @@
       const pg = isin => { const g = (V.pages || {})[isin]; return !g ? "" : g.url ? ` · <a href="${esc(g.url)}" target="_blank" rel="noopener" title="${esc(g.what)} – to find next month's document">Fund page ↗</a>` : ` · <span class="muted" title="${esc(g.what)}">no fund page</span>`; };
       const srcCell = r => { const s = r[si] || "", u = ui >= 0 ? r[ui] : "", t = lab(r); return (u && /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(s)}">${esc(t)} ↗</a>` : `<span title="${esc(s)}">${esc(t)}</span>`) + pg(r[ci]); };
       const tsv = [];
-      html = `<div class="tbl-wrap"><table class="small fdur"><tr><th>ISIN</th><th>Fund</th><th>Duration</th><th>Date</th><th>Updated</th><th colspan="2">Last month</th><th>Type</th><th>Source</th><th title="Last month − now, as in your table">Change</th><th></th></tr>${V.table.rows.map(r => {
+      const chart = () => { const rs = V.table.rows.map(r => ({ nm: names[r[ci]] || r[ni], v: parseFloat(String(r[di]).replace(",", ".")), lv: pVal(r[ci]) })), mx = Math.max(1, ...rs.flatMap(z => [z.v, z.lv]).filter(z => !isNaN(z) && z != null)) * 1.12, H = 30, W = 760, L = 300;
+        return `<svg viewBox="0 0 ${W} ${rs.length * H + 34}" class="fdchart" role="img" aria-label="Duration by fund, this month and last month"><text x="${L}" y="14" class="lg">■ ${esc(fDate(cur.me))}</text><text x="${L + 130}" y="14" class="lg2">■ ${prev ? esc(fDate(prev.me)) : "last month"}</text>${rs.map((z, k) => { const y = 26 + k * H, w = x => isNaN(x) || x == null ? 0 : (W - L - 50) * x / mx; return `<text x="${L - 8}" y="${y + 15}" text-anchor="end">${esc(z.nm.length > 40 ? z.nm.slice(0, 38) + "…" : z.nm)}</text><rect x="${L}" y="${y + 2}" width="${w(z.lv)}" height="9" class="b2"/><rect x="${L}" y="${y + 12}" width="${w(z.v)}" height="11" class="b1"/><text x="${L + w(z.v) + 5}" y="${y + 22}" class="vl">${isNaN(z.v) ? "not found" : z.v.toFixed(2)}</text>`; }).join("")}</svg>`; };
+      const bar = `<div class="row fbtns fdbar"><button type="button" class="btn sm${FDURV === "table" ? " on" : ""}" data-fdv="table">▦ Table</button><button type="button" class="btn sm${FDURV === "chart" ? " on" : ""}" data-fdv="chart">📊 Chart</button><button type="button" class="btn sm" data-dd="${esc(cur.x.id)}" title="The same table as your Excel (sheet “Lentelė”) plus all sources">⬇ Excel</button>${zipBtns(cur.x.id)}<button type="button" class="btn sm" id="fDurCp" title="Same columns as your table (ISIN … Change, then this month's document link and the fund page); paste into column B">⧉ Copy rows for my Excel</button></div>`;
+      html = bar + (FDURV === "chart" ? chart() + `<div style="display:none">` : `<div>`) + `<div class="tbl-wrap"><table class="small fdur"><tr><th>ISIN</th><th>Fund</th><th>Duration</th><th>Date</th><th>Updated</th><th colspan="2">Last month</th><th>Type</th><th>Source</th><th title="Last month − now, as in your table">Change</th><th></th></tr>${V.table.rows.map(r => {
         const isin = r[ci], v = parseFloat(String(r[di]).replace(",", ".")), miss = fDurM(cur.x, isin), lv = pVal(isin), ld = pDate(isin), nm = names[isin] || r[ni];
         tsv.push([isin, nm, isNaN(v) ? "" : n2(v).replace(".", ","), isNaN(v) ? "" : dd(r[ai]), isNaN(v) ? "" : dd(upd), lv == null ? "" : n2(lv).replace(".", ","), dd(ld), r[yi], isNaN(v) ? "not found" : lab(r), lv == null || isNaN(v) ? "" : (lv - v).toFixed(2).replace(".", ","), "", ui >= 0 ? r[ui] : "", ((V.pages || {})[isin] || {}).url || ""].join("\t"));
         return `<tr><td class="nw">${esc(isin)}</td><td title="${esc(r[ni])}">${esc(nm)}</td>
@@ -2181,8 +2184,8 @@
           <td>${miss ? fDurIn(cur.x, isin, "type") : esc(r[yi])}</td>
           <td>${miss ? fDurIn(cur.x, isin, "src") + fDurIn(cur.x, isin, "note") + mLinks(miss, true) + pg(isin) : srcCell(r)}</td>
           <td class="nw num">${pchg(isNaN(v) ? null : v, lv)}</td><td>${stI(r[ti] || "")}</td></tr>`; }).join("")}</table></div>
-        <p class="small"><button type="button" class="btn sm" id="fDurCp">Copy rows for my Excel</button> <span class="muted">Same columns as your table (ISIN … Change, then this month's document link and the fund page); paste into column B.</span></p>
-        <p class="muted small">Change = last month − now, as in your table; above 0.5 years is red. ✓ read by Claude in the document · ◐ your value · ✗ not found. Source = this month's document (to check now); Fund page = the manager's page to find next month's document. Hover for the full text. Empty cell = Claude did not find it: type the value, date and source, or tick “not found”. <a href="#funds/done/${cur.x.id}">Evidence and Excel →</a></p>
+</div>
+        <p class="muted small">Change = last month − now, as in your table; above 0.5 years is red. ✓ read by Claude in the document · ◐ your value · ✗ not found. Source = this month's document (to check now); Fund page = the manager's page to find next month's document. Hover for the full text. Empty cell = Claude did not find it: type the value, date and source, or tick “not found”. Excel = your table layout first, then all sources; the documents button downloads the PDFs used.</p>
         ${(V.missing || []).length && !isFinal(cur.x) ? `<div class="pbox"><b class="small">Send what you found to Claude</b> ${kindTag("ai")}<pre id="mp_${esc(cur.x.id)}">${esc(missPrompt(cur.x))}</pre>${promptBtn(missPrompt(cur.x))}</div>` : ""}`;
       FDUR_TSV = tsv.join("\n");
     } else {
@@ -2192,6 +2195,8 @@
     }
     box.innerHTML = `<h3>Duration by month</h3><p class="small">${sel}</p>${html}<datalist id="fDurTypes"><option value="Effective duration"><option value="Modified duration"><option value="Option-adjusted duration"><option value="Duration"></datalist>`;
     document.getElementById("fDurSel").onchange = e => { FDUR = e.target.value; fDurHist(); };
+    box.querySelectorAll("[data-fdv]").forEach(b => b.onclick = () => { FDURV = b.dataset.fdv; fDurHist(); });
+    box.querySelectorAll("[data-dd]").forEach(b => b.onclick = () => ddDownload(b.dataset.dd));
     const cp = document.getElementById("fDurCp"); if (cp) cp.onclick = () => navigator.clipboard.writeText(FDUR_TSV).then(() => toast(wx("copied"), "ok"), () => toast(wx("fail"), "bad"));
   }
   function fTaskInit(task) {
