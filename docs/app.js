@@ -286,7 +286,7 @@
 
   /* ---------- Darbai: „Ką daryti dabar“ – tik tai, ką reikia padaryti, su vienu mygtuku ---------- */
   const HX = {
-    en: { title: "What to do now", sub: "Only the jobs that need you. Each has one button.", none: "✓ Nothing to do right now.",
+    en: { title: "What to do now", sub: "Only the jobs that need you. Each has one button.", quick: "one click: copy and paste into Claude", form: "or fill in the form →", none: "✓ Nothing to do right now.",
       seb: "Time to check the SEB sustainability policies", sebD: d => `Last checked ${d}. Open the SEB page, compare the dates and upload any updated policies to the Claude project.`, newRep: n => `${n} issuer(s) published new reports`, newRepD: "Copy the prompt and paste it into the Claude project chat. Claude updates the reviews and replies when they are ready.", which: "Which ones?", ready: (a, n) => `${a} of ${n} issuers have published the latest report – the more, the better value from one run.`,
       noAn: n => `${n} held securities have no analysis yet`, bad: n => `${n} ISIN(s) look invalid – fix them in the list`, badD: "The format or check digit does not match – most likely a typo.", noAnD: "New issuers from the ISIN list.", noAnP: "Analyse the new issuers whose securities we hold but have no review yet.",
       mat: n => `${n} held bonds have matured – remove them from the list`, matD: "Securities page → Remove.",
@@ -294,7 +294,7 @@
       esg: n => `${n} issuer(s) need an ESG letter`, esgD: "Open the issuer, read “What is wrong”, download the email and send it from Outlook.",
       soon: "Coming up (60 days)", next: "Next", nextD: "Expected issuer reports:", search: "Last search for new reports and news:", searchP: "Search for new reports and news now.", searchB: "🔎 Search now (copy prompt)", gh: "or start it in GitHub",
       auto: "The search also runs by itself every morning.", allJobs: "All jobs and instructions →", go: "Open →" },
-    lt: { title: "Ką daryti dabar", sub: "Tik darbai, kuriems reikia jūsų. Prie kiekvieno – vienas mygtukas.", none: "✓ Šiuo metu nieko daryti nereikia.",
+    lt: { title: "Ką daryti dabar", sub: "Tik darbai, kuriems reikia jūsų. Prie kiekvieno – vienas mygtukas.", quick: "vienu mygtuku: nukopijuokite ir įklijuokite Claude", form: "arba užpildykite formą →", none: "✓ Šiuo metu nieko daryti nereikia.",
       seb: "Metas patikrinti SEB tvarumo politikas", sebD: d => `Paskutinį kartą tikrinta ${d}. Atidarykite SEB puslapį, palyginkite datas ir atnaujintas politikas įkelkite į Claude projektą.`, newRep: n => `${n} ${pl(n, "emitentas paskelbė", "emitentai paskelbė", "emitentų paskelbė")} naujas ataskaitas`, newRepD: "Nukopijuokite užklausą ir įklijuokite Claude projekto pokalbyje. Claude atnaujins apžvalgas ir atsakys, kai bus paruošta.", which: "Kurie?", ready: (a, n) => `Naujausią ataskaitą jau paskelbė ${a} iš ${n} emitentų – kuo daugiau, tuo naudingiau leisti vieną kartą.`,
       noAn: n => `${n} ${pl(n, "turimas VP", "turimi VP", "turimų VP")} dar be analizės`, bad: n => `${n} ${pl(n, "ISIN atrodo neteisingas", "ISIN atrodo neteisingi", "ISIN atrodo neteisingų")} – pataisykite sąraše`, badD: "Netinka ISIN formatas arba kontrolinis skaitmuo – greičiausiai klaida perrašant.", noAnD: "Nauji emitentai iš ISIN sąrašo.", noAnP: "Išanalizuok naujus emitentus, kurių VP turime, bet apžvalgos dar nėra.",
       mat: n => `${n} ${pl(n, "turima obligacija išpirkta", "turimos obligacijos išpirktos", "turimų obligacijų išpirkta")} – pašalinkite iš sąrašo`, matD: "Vertybiniai popieriai → Pašalinti.",
@@ -326,7 +326,7 @@
   const NIMG = { ataskaita: "sec2-rep-2", obligacijos: "sec2-results", sandoris: "sec2-mgr", vadovai: "sec2-facts", dividendai: "sec2-pf", "": "sec2-news" };
   const fmtD = d => { try { return new Date(d + "T12:00:00").toLocaleDateString(LANG === "lt" ? "lt-LT" : "en-GB", { month: "short", day: "numeric" }); } catch (e) { return d; } };
   const addD = (d, n) => { const x = new Date(d + "T12:00:00"); x.setDate(x.getDate() + n); return x.toISOString().slice(0, 10); };
-  function homeTop() {
+  function homeTop(greetOnly) {
     const R = D.readiness || { rows: [] }, rows = R.rows || [];
     const c = { done: 0, published: 0, maybe: 0, waiting: 0, late: 0, manual: 0 }; rows.forEach(r => c[r.status] = (c[r.status] || 0) + 1);
     const pub = c.done + c.published + c.maybe, n = rows.length || 1;
@@ -357,7 +357,8 @@
         <span class="hnb"><span class="hnm">${esc((byId[x.issuer] || {}).name || x.issuer)}</span><b>${esc(ntitle(x).t)}</b><span class="muted small">${esc(x.source || "")} · ${fmtD(x.date)}</span></span></a>`; }).join("")}</div><p class="small muted">${ht("imgNote")}</p></section>` : "";
     const hr = new Date().getHours(), gi = hr < 5 ? 0 : hr < 12 ? 1 : hr < 18 ? 2 : 3;
     const dstr = new Date().toLocaleDateString(LANG === "lt" ? "lt-LT" : "en-GB", { weekday: "long", month: "long", day: "numeric" });
-    return `<div class="hgreet"><h1>${ht("greet")[gi]}</h1><span>${esc(dstr)}</span></div>
+    if (greetOnly) return `<div class="hgreet"><h1>${ht("greet")[gi]}</h1><span>${esc(dstr)}</span></div>`;
+    return `<h2 style="margin-top:30px">${LANG === "lt" ? "Apžvalga" : "Overview"}</h2>
       <div class="bento">${season}${plan}${mkt}${yld}${soonC}</div>${news}`;
   }
 
@@ -383,8 +384,10 @@
     const soon = ((D.email[LANG] || D.email.en || {}).soon || []).filter(x => days(x.date) <= 60);
     const nearest = R.rows.filter(r => ["waiting", "late"].includes(r.status) && r.expected).sort((a, b) => a.expected.localeCompare(b.expected)).slice(0, 4);
     const manual = D.issuers.filter(i => i.manual);
-    fAuto(); fComingHtml(true).forEach(o => card("ai", esc(o.what), `Funds · ${o.from ? "starts" : "due"} ${fDate(o.date)}`, `<a class="btn" href="${o.href}">${hx("go")}</a>`));
-    return `${homeTop()}<h2 class="hh">${hx("title")}</h2><p class="sub">${hx("sub")}</p>
+    // Fondų darbai – vienu mygtuku (savininkas 2026-11-20: „mažiau žingsnių“): užklausa su numatytosiomis įvestimis, sąrašą Claude paima iš ankstesnio darbo
+    fAuto(); fComingHtml(true).forEach(o => card("ai", esc(o.what), `Funds · ${o.from ? "starts" : "due"} ${fDate(o.date)}${FQUICK[o.task] ? " · " + hx("quick") : ""}`,
+      FQUICK[o.task] ? `${promptBtn(fPrompt(o.task, { ...FQUICK[o.task] }))} <a class="small" href="${o.href}">${hx("form")}</a>` : `<a class="btn" href="${o.href}">${hx("go")}</a>`));
+    return `${homeTop(true)}<h2 class="hh">${hx("title")}</h2><p class="sub">${hx("sub")}</p>
       ${it.length ? `<ul class="todos">${it.join("")}</ul>` : `<div class="verdict">${hx("none")}</div>`}
       ${soon.length ? `<div class="card soon"><h3>${hx("soon")}</h3><ul class="b">${soon.map(x => `<li>${esc(x.date)} – ${esc(x.name)}${leaf({ green: x.green ? "yes" : "" })}: ${esc(x.what)}</li>`).join("")}</ul></div>` : ""}
       <div class="card nextc"><h3>${hx("next")}</h3>
@@ -392,7 +395,7 @@
         <p>${hx("search")} <b>${esc(st.news?.date || t("notYet"))}</b>. ${hx("auto")}</p>
         <div class="row">${promptBtn(hx("searchP"), hx("searchB"))} <a class="small" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${hx("gh")} ↗</a></div>
         <div id="runStatus" class="runst muted small"></div></div>
-      <h2 style="margin-top:30px">${tg("want")}</h2><p class="sub">${tg("wantS")}</p>${taskTiles()}`;
+      <h2 style="margin-top:30px">${tg("want")}</h2><p class="sub">${tg("wantS")}</p>${taskTiles()}${homeTop()}`;
   }
   /* Darbų žemėlapis: visos įrankio dalys pagal sritis, po vieną aiškų įėjimą (savininko prašymas 2026-10-29 – paprasta ir intuityvu) */
   const LX = {
@@ -2061,6 +2064,9 @@
   }
   const FMISS = "Missing data (VIEW.missing, at most 15, only what is not public): each item must tell me exactly what to look up – what = the exact figure as the source names it, with the share class and the date or period (e.g. “Effective duration of class I EUR Acc at 31 Oct 2026”); where = the exact place step by step (system → screen → field, or the manager page → document → section); url = the direct link to that page or document whenever one exists (checked to open, never guessed); search = words for a web search with the ISIN (e.g. “factsheet October 2026”); how = one practical tip; fmt = an example answer; why = what it changes.";
   const fDataLine = s => (s.data || "").trim() ? ["", "My data (from internal sources – label it “owner-provided, <source>, <date>” in the documents):", s.data.trim()] : [];
+  // Pradžios puslapio „vienu mygtuku“ įvestys: tuščias sąrašas = tas pats, kas praeitą kartą
+  const FQUICK = { duration: { list: "Same funds as last month – take the list from the previous month's archived duration (VIEW) and tell me which you used." },
+    review: { list: "Same funds as the last quarterly review in the archive – tell me which you used." } };
   function fPrompt(task, s) {
     const x = s.based && DDL ? DDL.find(y => y.id === s.based) : null, ref = x ? `${FKIND[fType(x)]} “${x.title}” (${x.date}, archive id ${x.id})` : "";
     if (task === "dd" && s.mode === "sup") return [`Supplement the completed Funds DD ${ref || "for " + (s.isin || "[ISIN]")} with my data below.`,
@@ -2366,9 +2372,11 @@
   const sh = k => (SH[LANG] || SH.en)[k];
   const HERO_IMG = { work: "sec2-rep-2", portfolio: "sec2-pf", securities: "sec2-pf", isin: "sec2-pf", issuers: "sec2-rep-2", funds: "sec2-results", esg: "sec2-aum", news: "sec2-news", email: "sec2-rep", tools: "sec2-mgr", about: "sec2-mgr" };
   const stripIc = x => String(x).replace(/^[^\p{L}\p{N}]+/u, "").trim();
+  const navLab = k => k === "esg" ? "ESG" : TG.en[k] ? tg(k) : AX.en[k] ? ax(k) : t(k);
   function SUBNAV(cur) {
     if (cur === "work") return [["#work", LANG === "lt" ? "Visi darbai" : "All jobs"], ...["g1", "g2", "g3"].map(g => ["#work/x/g-" + g, tg(g), "anc"]), ...(location.hash.startsWith("#task/") ? [[location.hash.split("/").slice(0, 2).join("/"), (TASKS().flatMap(g => g[1]).find(x => x.id === location.hash.split("/")[1]) || {}).t || ""]] : [])];
-    if (cur === "issuers") return [["#issuers", t("issuersNav")], ["#dd/bond", stripIc(ax("newDD"))], ["#issuers/x/readyTab", LANG === "lt" ? "Ataskaitų kalendorius" : "Reporting calendar"], ["#acc", stripIc(ax("accBtn"))], ["#dd/bond", stripIc(ax("archBtn")), "arch"], ["#tools", tg("cmp")]];
+    if (cur === "overview") return [["#overview", tg("home")], ["#work", LANG === "lt" ? "Visi darbai" : "All jobs"], ...(location.hash.startsWith("#task/") ? [[location.hash.split("/").slice(0, 2).join("/"), (TASKS().flatMap(g => g[1]).find(x => x.id === location.hash.split("/")[1]) || {}).t || ""]] : [])];
+    if (cur === "issuers") return [["#issuers", t("issuersNav")], ["#news", navLab("news")], ["#email", navLab("email")], ["#portfolio", navLab("portfolio")], ["#dd/bond", stripIc(ax("newDD"))], ["#issuers/x/readyTab", LANG === "lt" ? "Ataskaitų kalendorius" : "Reporting calendar"], ["#acc", stripIc(ax("accBtn"))], ["#dd/bond", stripIc(ax("archBtn")), "arch"], ["#tools", tg("cmp")]];
     if (cur === "funds") return [["#funds", "Start"], ...FTASKS.map(x => ["#funds/task/" + x.id, x.name]), ["#funds/done", "Completed work"], ["#funds/how", "How it works"]];
     return [];
   }
@@ -2443,7 +2451,8 @@
     const map = { overview: todo, issuers: issuersPage, email: emailPage, esg: () => esgPage(arg), dd: () => { if (arg && arg !== "bond") { location.replace("#funds/" + arg); return ""; } DKIND = "bond"; return ddPage(); },
       funds: fundsPage, acc: accPage, work: workPage, task: () => taskPage(arg, sec),
       portfolio: () => portfolioPage(arg), issuer: () => issuer(arg), news: () => news(arg), securities: () => portfolioPage(arg), isin: () => portfolioPage(), tools, about };
-    const cur = map[page] ? (page === "issuer" || page === "dd" || page === "acc" || page === "tools" ? "issuers" : page === "task" ? "work" : ["isin", "securities"].includes(page) ? "portfolio" : page) : "overview";
+    // Meniu – 5 punktai (savininkas 2026-11-20): Pradžia (+ visi darbai), Emitentai (+ naujienos, laiškas, portfelis, DD), Fondai, ESG, Kaip veikia
+    const cur = map[page] ? (["issuer", "dd", "acc", "tools", "news", "email", "portfolio", "isin", "securities"].includes(page) ? "issuers" : ["task", "work"].includes(page) ? "overview" : page) : "overview";
     shellNav(cur);
     document.getElementById("brandT").textContent = LANG === "lt" ? "Investicijų peržiūra" : "Investment review"; document.title = document.getElementById("brandT").textContent;
     document.documentElement.lang = LANG;
