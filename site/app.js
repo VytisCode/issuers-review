@@ -1435,7 +1435,7 @@
     return L.join("\n");
   }
   // VIEW.missing[].links [{what, url, by}] – savininko anksčiau pateiktos nuorodos (pirmiausia valdytojo fondo puslapis)
-  const mLinks = (r, short) => (r.links || []).length ? `<div class="small mlinks">${short ? "" : `<b>Links (★ = you gave it earlier):</b> `}${r.links.map(l => l.url ? `<a class="btn sm" href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.what)}">${esc(short ? (l.what.length > 40 ? l.what.slice(0, 38) + "…" : l.what) : l.what)}${l.by ? " ★" : ""} ↗</a>` : `<span class="muted">${esc(l.what)}</span>`).join(" ")}</div>` : "";
+  const mLinks = (r, short) => (r.links || []).length ? `<div class="small mlinks">${short ? "" : `<b>Links (★ = you gave it earlier):</b> `}${r.links.map(l => l.url ? `<a class="${short ? "nw" : "btn sm"}" href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.what)}">${esc(short ? (l.what.length > 40 ? l.what.slice(0, 38) + "…" : l.what) : l.what)}${l.by ? " ★" : ""} ↗</a>` : `<span class="muted">${esc(l.what)}</span>`).join(short ? "<br>" : " ")}</div>` : "";
   function missBox(x) {
     const src = r => String(r.where || "").split(":")[0].trim().toLowerCase();
     const m = [...((x.view || {}).missing || [])].sort((a, b) => src(a).localeCompare(src(b)) || (a.prio || 2) - (b.prio || 2)); if (!m.length) return "";  // vienu prisijungimu – vienas šaltinis
@@ -2099,6 +2099,7 @@
         "Sources in this order: the manager's factsheet or monthly report for that month-end (most reliable; dated copy via fund-docs.yml, manager website link), the manager website, Morningstar (connector), other web search – label the source of every value. Compare with last month and flag changes above 0.5 years.",
         "Last month is never left empty: load it with /mnt/project-files/funds_dd/duration/prev_month.py (the previous month's archived VIEW); where it is empty, take the value from my internal table in “Your data” (owner-provided, internal table, <date updated>), write it back into the previous month (\`python prev_month.py <month-end> <table.txt> --write\`) and re-archive that month with \`python tools/dd_vault.py replace <id>\`. If my table and the archive differ, say so – do not pick one silently.",
         "Not found: every VIEW.missing item gets links = owner_links(ISIN, month-end) from prev_month.py – the links I gave earlier (sources.json, the exact manager fund page first, then the document, Morningstar, Bloomberg), so I can take the value myself. Add every new link I give to sources.json (by: owner <date>).",
+        "Layout (my table): the Excel's first sheet “Lentelė” = my internal table – \`python /mnt/project-files/funds_dd/duration/owner_sheet.py <month-end>\` after the Excel and VIEW are written (ISIN, IP pavadinimas, Duration, Data, Data kada info atnaujinta, Praeito laikotarpio duomenys + data, Finansinės trukmės tipas, Pastabos / Linkai, Pokytis = last − now, link in column M); the detailed sheets follow. VIEW also gets retrieved (date), owner_names {ISIN: my fund name} and, only if there is no previous month in the archive, prev_owner {ISIN: [value, date]}.",
         `Output: Duration_${me}.xlsx (fund, ISIN, duration, type, as-of date, source link, page, last month, change, status) + evidence folder with the documents; archive \`python tools/dd_vault.py screen Duration_${me}.xlsx --view <VIEW.json> --kind duration --title "Bond fund duration ${me}" --evidence <folder>\`. VIEW.table cols [Fund, ISIN, Duration, Type, As of, Source, Source URL, Status] – Source = what and where in plain words: document, its date, page, website (e.g. “Monthly factsheet 2026-09-30, p.2, Amundi website”; a broker copy says so, e.g. “– copy on finanzfluss.de (not the manager’s website)”), Source URL = the link; VIEW.missing – one item per value not found, with "where" = exactly where I can find it myself (the manager page or document name, the Morningstar or Bloomberg screen) and "how" = a short tip.`,
         "Report back in Lithuanian: what was found, what was not and the tips.", FMISS, ...fDataLine(s)].join("\n");
     }
@@ -2133,7 +2134,7 @@
         ${task === "dd" && s.mode !== "sup" ? `<details class="small"><summary>Sanctions check links (you check the management company)</summary>${sancBox("")}</details>` : ""}</div></div>${task === "duration" ? `<div class="card" id="fDurHist" style="margin-top:16px"></div>` : ""}`;
   }
   /* Duration istorija: pasirinkto laikotarpio lentelė (kaip Excel) su pokyčiu nuo ankstesnio, arba visi laikotarpiai greta */
-  let FDUR = "";
+  let FDUR = "", FDUR_TSV = "";
   // tuščia duration reikšmė – laukelis savininkui (tas pats juodraštis kaip „Missing data“, tik šioje naršyklėje)
   const fDurM = (x, isin) => isFinal(x) ? null : ((x.view || {}).missing || []).find(r => r.isin && String(isin).includes(r.isin));
   function fDurIn(x, isin, f) {
@@ -2141,7 +2142,7 @@
     const k = (f ? f + ":" : "") + m.k, ph = { "": "value, e.g. 4.52", src: "e.g. Factsheet 2026-09-30, p.2, Amundi website", note: "note", type: "type", asof: "" }[f || ""];
     if (f === "type") return `<input class="fdin" type="text" list="fDurTypes" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="pick or type" title="Exactly as named in the document, e.g. Effective duration, Modified duration, Option-adjusted duration">`;
     if (f === "asof") return `<input class="fdin" type="date" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" title="Date the document gives for the value (not the download date)">`;
-    return `<input class="fdin${f ? " w" : ""}" type="text" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="${ph}" title="${esc(m.where || "")}">${f ? "" : `<label class="chk small nw"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(m.k)}"${d["nf:" + m.k] ? " checked" : ""}> not found</label>${mLinks(m, true)}`}`;
+    return `<input class="fdin${f ? " w" : ""}" type="text" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="${ph}" title="${esc(m.where || "")}">${f ? "" : `<label class="chk small nw"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(m.k)}"${d["nf:" + m.k] ? " checked" : ""}> not found</label>`}`;
   }
   function fDurHist() {
     const box = document.getElementById("fDurHist"); if (!box) return;
@@ -2155,17 +2156,40 @@
     const chg = (a, b) => a == null || b == null ? "" : (d => `<span class="${Math.abs(d) > 0.5 ? "bad" : "muted"}">${d > 0 ? "+" : ""}${d.toFixed(2)}</span>`)(a - b);
     let html;
     if (cur) {
-      const c = cols(cur), di = col(cur, /^duration/i), ci = col(cur, /isin/i), si = col(cur, /source/i), ti = col(cur, /status|note/i), yi = col(cur, /^type/i), ai = col(cur, /as ?of/i), ui = col(cur, /source url/i);
-      html = `<div class="tbl-wrap"><table class="small"><tr>${c.map((h, i) => i === ui ? "" : `<th>${esc(h)}</th>${i === di && prev ? `<th>${fDate(prev.me)}</th><th>Change</th>` : ""}`).join("")}</tr>${cur.x.view.table.rows.map(r => `<tr>${r.map((v, i) => i === ui ? "" : `<td${i === di ? ` class="nw"` : ""}>${i === di && v === "" && fDurM(cur.x, r[ci]) ? fDurIn(cur.x, r[ci]) : i === si && v === "" && fDurM(cur.x, r[ci]) ? fDurIn(cur.x, r[ci], "src") : (i === yi || i === ai) && fDurM(cur.x, r[ci]) ? `${v === "" ? "" : `<span class="muted">${esc(v)}</span><br>`}${fDurIn(cur.x, r[ci], i === yi ? "type" : "asof")}` : i === ti && fDurM(cur.x, r[ci]) ? `${esc(v)}<br>${fDurIn(cur.x, r[ci], "note")}` : i === si && v && ui >= 0 && /^https?:/.test(r[ui]) ? `<a href="${esc(r[ui])}" target="_blank" rel="noopener">${esc(v)} ↗</a>` : i === si && /^https?:/.test(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">source ↗</a>` : i === di && v === "" ? `<span class="bad">not found</span>` : esc(v)}</td>${i === di && prev ? `<td>${val(prev, r[ci]) ?? `<span class="muted" title="Empty in last month's archive – paste your internal table in “Your data” above">–</span>`}</td><td>${chg(parseFloat(v), val(prev, r[ci]))}</td>` : ""}`).join("")}</tr>`).join("")}</table></div>
-        <p class="muted small">Change above 0.5 years is red. Empty cell = Claude did not find it: type the value you found, its source and a note if needed, or tick “not found”. <a href="#funds/done/${cur.x.id}">Where to look, evidence and Excel →</a></p>
-        ${(cur.x.view.missing || []).length && !isFinal(cur.x) ? `<div class="pbox"><b class="small">Send what you found to Claude</b> ${kindTag("ai")}<pre id="mp_${esc(cur.x.id)}">${esc(missPrompt(cur.x))}</pre>${promptBtn(missPrompt(cur.x))}</div>` : ""}`;
+      // savininko lentelės forma (2026-11-20): ISIN | fondas | Duration | Data | Atnaujinta | Praeitas mėn. (reikšmė, data) | Tipas | Šaltinis | Pokytis (praeitas − dabar)
+      const di = col(cur, /^duration/i), ci = col(cur, /isin/i), si = col(cur, /^source$/i), ti = col(cur, /^status/i), yi = col(cur, /^type/i), ai = col(cur, /as ?of/i), ui = col(cur, /source url/i), ni = col(cur, /^fund/i);
+      const V = cur.x.view, names = V.owner_names || {}, upd = V.retrieved || cur.x.date || "";
+      const pAsof = isin => { if (!prev) return ""; const pc = col(prev, /isin/i), pa = col(prev, /as ?of/i), row = prev.x.view.table.rows.find(z => String(z[pc]).includes(isin)); return row && /^\d{4}-/.test(row[pa]) ? row[pa] : prev.me; };
+      const pVal = isin => prev ? val(prev, isin) : ((V.prev_owner || {})[isin] || [null])[0];
+      const pDate = isin => prev ? pAsof(isin) : ((V.prev_owner || {})[isin] || [])[1] || "";
+      const dd = s => /^\d{4}-\d{2}-\d{2}$/.test(s) ? s.replace(/-/g, ".") : s;
+      const n2 = v => v == null || isNaN(v) ? "" : v.toFixed(2);
+      const pchg = (now, last) => now == null || last == null || isNaN(now) ? "" : (d => `<span class="${Math.abs(d) > 0.5 ? "bad" : ""}">${d.toFixed(2)}</span>`)(last - now);
+      const stI = s => /^confirmed/i.test(s) ? `<span class="ok" title="${esc(s)}">✓</span>` : /owner/i.test(s) ? `<span class="warn" title="${esc(s)}">◐</span>` : `<span class="bad" title="${esc(s)}">✗</span>`;
+      const srcCell = r => { const s = r[si] || "", u = ui >= 0 ? r[ui] : "", short = s.replace(/\s*\(last month[^)]*\)/, "").split(/[–(]/)[0].trim().slice(0, 42) || "source"; return u && /^https?:/.test(u) ? `<a href="${esc(u)}" target="_blank" rel="noopener" title="${esc(s)}">${esc(short)} ↗</a>` : `<span title="${esc(s)}">${esc(short)}</span>`; };
+      const tsv = [];
+      html = `<div class="tbl-wrap"><table class="small fdur"><tr><th>ISIN</th><th>Fund</th><th>Duration</th><th>Date</th><th>Updated</th><th colspan="2">Last month</th><th>Type</th><th>Source</th><th title="Last month − now, as in your table">Change</th><th></th></tr>${V.table.rows.map(r => {
+        const isin = r[ci], v = parseFloat(String(r[di]).replace(",", ".")), miss = fDurM(cur.x, isin), lv = pVal(isin), ld = pDate(isin), nm = names[isin] || r[ni];
+        tsv.push([isin, nm, isNaN(v) ? "" : n2(v).replace(".", ","), isNaN(v) ? "" : dd(r[ai]), isNaN(v) ? "" : dd(upd), lv == null ? "" : n2(lv).replace(".", ","), dd(ld), r[yi], (r[si] || "").replace(/\s+/g, " "), lv == null || isNaN(v) ? "" : (lv - v).toFixed(2).replace(".", ","), "", ui >= 0 ? r[ui] : ""].join("\t"));
+        return `<tr><td class="nw">${esc(isin)}</td><td title="${esc(r[ni])}">${esc(nm)}</td>
+          <td class="nw num"><b>${miss && r[di] === "" ? fDurIn(cur.x, isin) : r[di] === "" ? `<span class="bad">not found</span>` : n2(v)}</b></td>
+          <td class="nw">${miss ? fDurIn(cur.x, isin, "asof") : esc(dd(r[ai]))}</td><td class="nw muted">${isNaN(v) ? "" : esc(dd(upd))}</td>
+          <td class="nw num"><b>${n2(lv) || `<span class="muted" title="Empty in last month's archive – paste your internal table in “Your data” above">–</span>`}</b></td><td class="nw muted">${esc(dd(ld))}</td>
+          <td>${miss ? fDurIn(cur.x, isin, "type") : esc(r[yi])}</td>
+          <td>${miss ? fDurIn(cur.x, isin, "src") + fDurIn(cur.x, isin, "note") + mLinks(miss, true) : srcCell(r)}</td>
+          <td class="nw num">${pchg(isNaN(v) ? null : v, lv)}</td><td>${stI(r[ti] || "")}</td></tr>`; }).join("")}</table></div>
+        <p class="small"><button type="button" class="btn sm" id="fDurCp">Copy rows for my Excel</button> <span class="muted">Same columns as your table (ISIN … Change, link last); paste into column B.</span></p>
+        <p class="muted small">Change = last month − now, as in your table; above 0.5 years is red. ✓ read by Claude in the document · ◐ your value · ✗ not found. Hover a source for the full text. Empty cell = Claude did not find it: type the value, date and source, or tick “not found”. <a href="#funds/done/${cur.x.id}">Evidence and Excel →</a></p>
+        ${(V.missing || []).length && !isFinal(cur.x) ? `<div class="pbox"><b class="small">Send what you found to Claude</b> ${kindTag("ai")}<pre id="mp_${esc(cur.x.id)}">${esc(missPrompt(cur.x))}</pre>${promptBtn(missPrompt(cur.x))}</div>` : ""}`;
+      FDUR_TSV = tsv.join("\n");
     } else {
       const fund = new Map(); runs.forEach(r => { const ci = col(r, /isin/i), ni = col(r, /^fund/i); r.x.view.table.rows.forEach(z => { if (!fund.has(z[ci])) fund.set(z[ci], z[ni]); }); });
       const rs = [...runs].reverse();
-      html = `<div class="tbl-wrap"><table class="small"><tr><th>Fund</th><th>ISIN</th>${rs.map(r => `<th>${fDate(r.me)}</th>`).join("")}</tr>${[...fund].map(([isin, nm]) => `<tr><td>${esc(nm)}</td><td class="nw">${esc(isin)}</td>${rs.map((r, k) => { const v = val(r, isin), pv = k ? val(rs[k - 1], isin) : null; return `<td class="nw">${v ?? `<span class="muted">–</span>`} ${k ? chg(v, pv) : ""}</td>`; }).join("")}</tr>`).join("")}</table></div>`;
+      html = `<div class="tbl-wrap"><table class="small"><tr><th>Fund</th><th>ISIN</th>${rs.map(r => `<th>${fDate(r.me)}</th>`).join("")}</tr>${[...fund].map(([isin, nm]) => `<tr><td>${esc(nm)}</td><td class="nw">${esc(isin)}</td>${rs.map((r, k) => { const v = val(r, isin), pv = k ? val(rs[k - 1], isin) : null; return `<td class="nw">${v ?? `<span class="muted">–</span>`} ${k ? chg(pv, v) : ""}</td>`; }).join("")}</tr>`).join("")}</table></div>`;
     }
     box.innerHTML = `<h3>Duration by month</h3><p class="small">${sel}</p>${html}<datalist id="fDurTypes"><option value="Effective duration"><option value="Modified duration"><option value="Option-adjusted duration"><option value="Duration"></datalist>`;
     document.getElementById("fDurSel").onchange = e => { FDUR = e.target.value; fDurHist(); };
+    const cp = document.getElementById("fDurCp"); if (cp) cp.onclick = () => navigator.clipboard.writeText(FDUR_TSV).then(() => toast(wx("copied"), "ok"), () => toast(wx("fail"), "bad"));
   }
   function fTaskInit(task) {
     const s = fsGet(task), P = document.getElementById("ftP"); if (!P) return;
