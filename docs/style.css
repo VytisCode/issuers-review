@@ -628,3 +628,9 @@ table.fdur .ok { color: var(--ok, #2e7d32); } table.fdur .warn { color: var(--wa
 svg.fdchart { width: 100%; max-width: 900px; height: auto; font: 12px Inter, sans-serif; fill: var(--text); }
 svg.fdchart .b1 { fill: var(--accent, #8a5a2b); } svg.fdchart .b2 { fill: var(--line, #d9cbb8); }
 svg.fdchart .lg { fill: var(--accent, #8a5a2b); } svg.fdchart .lg2 { fill: var(--muted, #8b7d6b); } svg.fdchart .vl { font-weight: 600; }
+
+/* užklausos tekstas paslėptas, kol nepaspausta „Rodyti tekstą“ (2026-11-20) */
+.pbox pre { display: none; }
+.pbox.open pre { display: block; flex-basis: 100%; order: 3; }
+.ptog { display: none; }
+.pbox .ptog { display: inline-block; background: none; border: 0; padding: 4px 2px; color: var(--muted); font-size: 12px; text-decoration: underline; cursor: pointer; }

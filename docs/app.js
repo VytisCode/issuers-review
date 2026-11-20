@@ -1082,10 +1082,10 @@
 
   /* ---------- darbo įrankis: AI / kodo spalvos, išskleidžiamos instrukcijos, prompt kopijavimas, paieška ---------- */
   const WX = {
-    en: { ai: "🤖 AI · Claude", code: "⚙ Automatic, no AI", you: "✋ You", legend: "Colours:", when: "When", copyP: "📋 Copy prompt for Claude", copied: "Copied – paste it into the Claude project chat (Ctrl+V).", fail: "Copy failed – select the text and press Ctrl+C.",
+    en: { ai: "🤖 AI · Claude", code: "⚙ Automatic, no AI", you: "✋ You", legend: "Colours:", when: "When", copyP: "📋 Copy prompt for Claude", showT: "Show text", hideT: "Hide text", copied: "Copied – paste it into the Claude project chat (Ctrl+V).", fail: "Copy failed – select the text and press Ctrl+C.",
       jobs: "Jobs and instructions", jobsSub: "Every job you do with this tool, step by step. Purple – a message to Claude (AI); teal – the code does it by itself, free; grey – you do it yourself. Copy a prompt, paste it into the Claude project chat and fill in the [brackets].",
       qs: "Search: ESG, DD, missing reports…", noRes: "Nothing found. Try: ESG, Engagement, DD, missing, monitor, ISIN, email.", tryW: "Try:", open: "Open" },
-    lt: { ai: "🤖 AI · Claude", code: "⚙ Automatiškai, be AI", you: "✋ Jūs patys", legend: "Spalvos:", when: "Kada", copyP: "📋 Kopijuoti užklausą Claude", copied: "Nukopijuota – įklijuokite Claude projekto pokalbyje (Ctrl+V).", fail: "Nepavyko nukopijuoti – pažymėkite tekstą ir spauskite Ctrl+C.",
+    lt: { ai: "🤖 AI · Claude", code: "⚙ Automatiškai, be AI", you: "✋ Jūs patys", legend: "Spalvos:", when: "Kada", copyP: "📋 Kopijuoti užklausą Claude", showT: "Rodyti tekstą", hideT: "Slėpti tekstą", copied: "Nukopijuota – įklijuokite Claude projekto pokalbyje (Ctrl+V).", fail: "Nepavyko nukopijuoti – pažymėkite tekstą ir spauskite Ctrl+C.",
       jobs: "Darbai ir instrukcijos", jobsSub: "Visi darbai su šiuo įrankiu žingsnis po žingsnio. Violetinė – žinutė Claude (AI); žalsvai mėlyna – kodas atlieka pats, nemokamai; pilka – darote patys. Nukopijuokite užklausą, įklijuokite Claude projekto pokalbyje ir užpildykite [skliaustus].",
       qs: "Paieška: ESG, DD, trūksta ataskaitų…", noRes: "Nieko nerasta. Bandykite: ESG, Engagement, DD, trūksta, stebėti, ISIN, laiškas.", tryW: "Bandykite:", open: "Atidaryti" }
   };
@@ -1093,7 +1093,8 @@
   const L = x => x && (x[LANG] || x.en);
   const kindTag = k => k ? `<span class="kind ${k}">${wx(k)}</span>` : "";
   const kindLegend = () => `<p class="kinds small"><span class="muted">${wx("legend")}</span> ${kindTag("ai")} ${kindTag("code")} ${kindTag("you")}</p>`;
-  const promptBtn = (text, label) => `<button type="button" class="btn ai sm" data-prompt="${esc(text)}">${label || wx("copyP")}</button>`;
+  // Užklausos tekstas skirtas Claude, ne žmogui (savininkas 2026-11-20: „kopijuoju aklai“) – langelyje paslėptas, rodomas paspaudus „Rodyti tekstą“.
+  const promptBtn = (text, label) => `<button type="button" class="btn ai sm" data-prompt="${esc(text)}">${label || wx("copyP")}</button><button type="button" class="ptog">${wx("showT")}</button>`;
   const nextFY = () => { const y = GD().years; return "FY" + ((+String(y[y.length - 1] || "FY2025").slice(2)) + 1); };
   // Standartiniai darbai. Žingsnio pradžia "ai:" / "code:" / "you:" – spalvotas taškas.
   const JOBS = [
@@ -1244,6 +1245,10 @@
     let el = document.getElementById("toast"); if (!el) { el = document.createElement("div"); el.id = "toast"; document.body.appendChild(el); }
     el.className = "toast " + (cls || ""); el.textContent = msg; el.hidden = false; clearTimeout(el._t); el._t = setTimeout(() => { el.hidden = true; }, 3500);
   }
+  document.addEventListener("click", e => {
+    const t = e.target.closest(".ptog"), box = t && t.closest(".pbox"); if (!box) return;
+    t.textContent = wx(box.classList.toggle("open") ? "hideT" : "showT");
+  });
   document.addEventListener("click", async e => {
     const b = e.target.closest("[data-prompt]"); if (!b) return;
     const text = b.dataset.prompt;
@@ -1576,7 +1581,7 @@
       ${v.table ? `<div class="tbl-wrap"><table class="small"><tr>${v.table.cols.map(h => `<th>${esc(h)}</th>`).join("")}<th></th></tr>${v.table.rows.map(r => { const m = r.join(" ").match(ISINRE);
         return `<tr>${r.map((x, i) => `<td${i === v.table.hl ? ` class="vd ${esc(String(x).split(" ")[0].toLowerCase())}"` : ""}>${esc(x)}</td>`).join("")}<td class="nw">${m ? fb({ isin: m[0], name: String(r[0]).replace(/\s*\((held|candidate|turime|kandidatas)\)\s*$/i, "") }) : ""}</td></tr>`; }).join("")}</table></div>` : ""}
       ${(v.rows || []).length ? `<div class="tbl-wrap"><table class="small"><tr>${c.map(h => `<th>${h}</th>`).join("")}</tr>${(v.rows || []).map(r => `<tr${r.pick ? ` class="pick"` : ""}><td>${r.pick ? "★" : r.out ? "✕" : ""}</td><td>${esc(r.name)}</td><td>${esc(r.isin)}${r.tick ? `<br><span class="muted">${esc(r.tick)}</span>` : ""}</td><td>${esc(r.ter || "")}</td><td class="nw">${esc(r.aum || "")}</td><td>${esc(r.sfdr || "")}</td><td>${esc(r.repl || "")}</td><td>${esc(r.dist || "")}</td><td>${esc(r.since || "")}</td><td>${esc(r.note || "")}</td></tr>`).join("")}</table></div>` : ""}
-      ${li(v.notes)}${v.email ? `<h4>${esc(scx("mail"))}</h4><div class="pbox"><pre>${esc(v.email)}</pre>${promptBtn(v.email)}</div>` : ""}</div>`;
+      ${li(v.notes)}${v.email ? `<h4>${esc(scx("mail"))}</h4><div class="pbox open"><pre>${esc(v.email)}</pre>${promptBtn(v.email)}</div>` : ""}</div>`;
   }
   document.addEventListener("click", e => {
     const s = e.target.closest("[data-sv]");
@@ -1871,11 +1876,11 @@
      Maršrutai: #funds, #funds/task/<dd|challenge|find|review|duration>[/<ISIN>[/<archyvo id>[/sup]]], #funds/fund/<ISIN>, #funds/done[/<id>], #funds/how.
      Seni #funds/<fund|screen|challenge|fundreview> ir #dd/<...> nukreipiami. ---------- */
   const FTASKS = [
-    { id: "dd", name: "Due diligence", icon: "📄", when: "You know the fund (ISIN) and need the full DD – with or without a challenge before it.", get: "PowerPoint on the SEB Liquid Funds DD template and a list of data Claude could not find." },
-    { id: "challenge", name: "Challenge", icon: "⚖️", when: "Is a held fund still the best choice, or is a new fund worth adding? One fund, several, or e.g. “all US equity funds we hold”.", get: "PowerPoint with a one-word verdict per fund: SWITCH / KEEP / WATCH (a candidate: ADD / DO NOT ADD / WATCH)." },
-    { id: "find", name: "Find ETFs", icon: "🔎", when: "A task such as “find a defence sector ETF”: search the market, challenge every finalist, then the DD for the winner.", get: "Shortlist and challenge first. Claude stops for your OK, then makes the DD for the winner." },
-    { id: "review", name: "Quarterly fund review", icon: "🗓️", when: "Every quarter (from the 20th of the month after the quarter end), for all held listed funds.", get: "Full and short version (PDF, Word, PowerPoint), email draft, calculations and evidence." },
-    { id: "duration", name: "Bond fund duration", icon: "📏", when: "Every month by the 20th, for the bond funds we hold.", get: "Excel with each fund's duration, its date and source, the evidence, and tips for anything not found." }
+    { id: "dd", name: "Due diligence", icon: "📄", when: "You know the fund (ISIN) and need the full DD – with or without a challenge before it.", get: "PowerPoint on the SEB Liquid Funds DD template and a list of data Claude could not find.", check: "Red NOT FOUND items (fill them in later with “Supplement a completed DD”), the decision and the sanctions slide (you run the checks)." },
+    { id: "challenge", name: "Challenge", icon: "⚖️", when: "Is a held fund still the best choice, or is a new fund worth adding? One fund, several, or e.g. “all US equity funds we hold”.", get: "PowerPoint with a one-word verdict per fund: SWITCH / KEEP / WATCH (a candidate: ADD / DO NOT ADD / WATCH).", check: "The verdict per fund and the one-line reason; whether the compared funds are the right ones." },
+    { id: "find", name: "Find ETFs", icon: "🔎", when: "A task such as “find a defence sector ETF”: search the market, challenge every finalist, then the DD for the winner.", get: "Shortlist and challenge first. Claude stops for your OK, then makes the DD for the winner.", check: "The shortlist and the winner – Claude waits for your OK before the DD." },
+    { id: "review", name: "Quarterly fund review", icon: "🗓️", when: "Every quarter (from the 20th of the month after the quarter end), for all held listed funds.", get: "Full and short version (PDF, Word, PowerPoint), email draft, calculations and evidence.", check: "The SWITCH / WATCH decisions and the missing-data list (fill it in on the result)." },
+    { id: "duration", name: "Bond fund duration", icon: "📏", when: "Every month by the 20th, for the bond funds we hold.", get: "Excel with each fund's duration, its date and source, the evidence, and tips for anything not found.", check: "Values Claude marks as different from the automatic collection, and the funds not found (links are given)." }
   ];
   const FKIND = { dd: "Due diligence", screen: "Find ETFs", challenge: "Challenge", fundreview: "Quarterly review", duration: "Bond fund duration" };
   const FTASK_OF = { dd: "dd", screen: "find", challenge: "challenge", fundreview: "review", duration: "duration" };
@@ -2115,8 +2120,8 @@
       `<div class="row fbtns"><button class="btn sm" id="ftLastD">Last month's list</button><button class="btn sm" id="ftBonds">Bond funds from the last review</button><span id="ftMsg" class="muted small"></span></div>`;
     f += ta("data", "Your data for Claude (optional)", 4, task === "duration" ? "e.g. values from Bloomberg or Morningstar Direct, funds to skip, or paste your internal duration table (it fills last month where the archive is empty)" : "e.g. Morningstar or Bloomberg values, the manager's material, alternatives to compare, anything Claude should know");
     return `<p class="small"><a href="#funds">← Funds</a>${isin ? ` · <a href="#funds/fund/${esc(isin)}">${esc(isin)} card</a>` : ""}</p>
-      <h1>${ICO(TIMG["f_" + T.id], "h1ic")} ${T.name}</h1><p class="sub"><b>Use this when:</b> ${esc(T.when)}<br><b>You get:</b> ${esc(T.get)}</p>
-      <div class="two"><div class="card ddform">${f}</div><div><div class="card"><h3>Prompt for Claude ${kindTag("ai")}</h3><p class="muted small">Copy it and paste it into the Claude project chat. Claude asks if something is missing.</p><div class="pbox"><pre id="ftP"></pre><span id="ftB"></span></div></div>
+      <h1>${ICO(TIMG["f_" + T.id], "h1ic")} ${T.name}</h1><p class="sub"><b>Use this when:</b> ${esc(T.when)}<br><b>You get:</b> ${esc(T.get)}<br><b>You check:</b> ${esc(T.check || "")}</p>
+      <div class="two"><div class="card ddform">${f}</div><div><div class="card"><h3>Prompt for Claude ${kindTag("ai")}</h3><p class="muted small">Press the button and paste into the Claude project chat. You do not need to read the text – it is the instruction for Claude. Claude asks if something is missing.</p><div class="pbox"><pre id="ftP"></pre><span id="ftB"></span></div></div>
         <ol class="small fsteps"><li>Fill in the fields on the left (only what you know).</li><li><b>Copy prompt</b> → paste into Claude.</li><li>When Claude is done, the result appears on the fund card and in <a href="#funds/done">Completed work</a>.</li></ol>
         ${task === "dd" && s.mode !== "sup" ? `<details class="small"><summary>Sanctions check links (you check the management company)</summary>${sancBox("")}</details>` : ""}</div></div>${task === "duration" ? `<div class="card" id="fDurAuto" style="margin-top:16px"></div><div class="card" id="fDurHist" style="margin-top:16px"></div>` : ""}`;
   }
