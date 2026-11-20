@@ -1,0 +1,50 @@
+# Obligacijų fondų duration: automatinis mėnesio surinkimas iš valdytojų faktų lapų (be AI, nemokama).
+# Kas mėnesį 19 d. (savininko sprendimas 2026-11-20 – iki 20 d. termino; anksčiau dauguma faktų lapų dar neatnaujinti).
+# Rezultatas: data/duration/auto_<mėnesio pabaiga>.json (main) + PDF kopijos šakoje fund-docs. Dashboard: Funds → Bond fund duration.
+name: Bond fund duration (auto)
+on:
+  schedule:
+    - cron: "23 4 19 * *"
+  workflow_dispatch:
+    inputs:
+      month_end:
+        description: "Month end YYYY-MM-DD (empty = last month)"
+        required: false
+        default: ""
+permissions:
+  contents: write
+concurrency:
+  group: fund-docs
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with: {python-version: "3.12"}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils && pip install -q -r requirements.txt
+      - name: Previous documents (fund-docs branch)
+        run: |
+          git fetch origin fund-docs:fund-docs 2>/dev/null && git worktree add out fund-docs || (git worktree add --detach out && cd out && git checkout --orphan fund-docs && git rm -rfq . || true)
+      - name: Collect
+        env:
+          ME: ${{ inputs.month_end }}
+        run: python tools/duration_auto.py out "$ME"
+      - name: Save PDFs (fund-docs)
+        run: |
+          cd out
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "Duration faktų lapai $(date -u +%F)" || echo "nėra pakeitimų"
+          git push origin fund-docs
+      - name: Save result and rebuild dashboard (main)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python tools/build_site.py
+          git add data/duration docs
+          git commit -qm "Duration auto $(date -u +%F)" || exit 0
+          for i in 1 2 3 4; do git pull -q --rebase -X theirs origin main && python tools/build_site.py && git add docs && (git commit -qm "build" || true) && git push origin HEAD:main && break; sleep $((i*15)); done

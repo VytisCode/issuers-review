@@ -2095,6 +2095,7 @@
     if (task === "duration") { const me = s.month || fMonthEnds()[0];
       return [`Task: Bond fund duration for month-end ${me} (due on the 20th).`, "Funds (exact share class):", (s.list || "").trim() || "[ISIN, name – one per line]",
         "Rules: /mnt/project-files/funds_dd/duration/make_duration.py. The fund's own interest-rate duration (not the index), named as the document names it (effective, option-adjusted or modified duration); never spread duration, average maturity, WAL or a KID range; the exact ISIN share class (check the class on the document); the date from the document itself; empty if not confirmed.",
+        `Start from the automatic collection (no AI, run on the 19th): data/duration/auto_${me}.json in the repo, PDFs on the fund-docs branch – “found” values were read from the manager's document dated the month end: check each one on the stated page and keep it; collect the rest (old, not found, manual). When a saved link changes, update config/duration_funds.json and sources.json together.`,
         "Links to try first (kept month to month, update it when a link changes): /mnt/project-files/funds_dd/duration/sources.json – direct PDF links via fund-docs.yml, {YYYYMM}/{YYYYMMDD} = month-end; check the date inside each document.",
         "Sources in this order: the manager's factsheet or monthly report for that month-end (most reliable; dated copy via fund-docs.yml, manager website link), the manager website, Morningstar (connector), other web search – label the source of every value. Compare with last month and flag changes above 0.5 years.",
         "Last month is never left empty: load it with /mnt/project-files/funds_dd/duration/prev_month.py (the previous month's archived VIEW); where it is empty, take the value from my internal table in “Your data” (owner-provided, internal table, <date updated>), write it back into the previous month (\`python prev_month.py <month-end> <table.txt> --write\`) and re-archive that month with \`python tools/dd_vault.py replace <id>\`. If my table and the archive differ, say so – do not pick one silently.",
@@ -2131,7 +2132,7 @@
       <h1>${ICO(TIMG["f_" + T.id], "h1ic")} ${T.name}</h1><p class="sub"><b>Use this when:</b> ${esc(T.when)}<br><b>You get:</b> ${esc(T.get)}</p>
       <div class="two"><div class="card ddform">${f}</div><div><div class="card"><h3>Prompt for Claude ${kindTag("ai")}</h3><p class="muted small">Copy it and paste it into the Claude project chat. Claude asks if something is missing.</p><div class="pbox"><pre id="ftP"></pre><span id="ftB"></span></div></div>
         <ol class="small fsteps"><li>Fill in the fields on the left (only what you know).</li><li><b>Copy prompt</b> → paste into Claude.</li><li>When Claude is done, the result appears on the fund card and in <a href="#funds/done">Completed work</a>.</li></ol>
-        ${task === "dd" && s.mode !== "sup" ? `<details class="small"><summary>Sanctions check links (you check the management company)</summary>${sancBox("")}</details>` : ""}</div></div>${task === "duration" ? `<div class="card" id="fDurHist" style="margin-top:16px"></div>` : ""}`;
+        ${task === "dd" && s.mode !== "sup" ? `<details class="small"><summary>Sanctions check links (you check the management company)</summary>${sancBox("")}</details>` : ""}</div></div>${task === "duration" ? `<div class="card" id="fDurAuto" style="margin-top:16px"></div><div class="card" id="fDurHist" style="margin-top:16px"></div>` : ""}`;
   }
   /* Duration istorija: pasirinkto laikotarpio lentelė (kaip Excel) su pokyčiu nuo ankstesnio, arba visi laikotarpiai greta */
   let FDUR = "", FDUR_TSV = "", FDURV = "table", FDUR_MAIL = null;
@@ -2143,6 +2144,27 @@
     if (f === "type") return `<input class="fdin" type="text" list="fDurTypes" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="pick or type" title="Exactly as named in the document, e.g. Effective duration, Modified duration, Option-adjusted duration">`;
     if (f === "asof") return `<input class="fdin" type="date" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" title="Date the document gives for the value (not the download date)">`;
     return `<input class="fdin${f ? " w" : ""}" type="text" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="${ph}" title="${esc(m.where || "")}">${f ? "" : `<label class="chk small nw"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(m.k)}"${d["nf:" + m.k] ? " checked" : ""}> not found</label>`}`;
+  }
+  // automatinis surinkimas be AI (tools/duration_auto.py, .github/workflows/duration.yml, kas mėnesį 19 d.) – vieši duomenys, archyvo nereikia
+  function fDurAuto() {
+    const box = document.getElementById("fDurAuto"); if (!box) return;
+    const A = (D.dur_auto || [])[0], gh = "https://github.com/VytisCode/issuers-review/actions/workflows/duration.yml", dd = s => String(s || "").replace(/-/g, ".");
+    const t = new Date(), nx = new Date(t.getFullYear(), t.getMonth() + (t.getDate() > 19 ? 1 : 0), 19), next = `${nx.getFullYear()}.${String(nx.getMonth() + 1).padStart(2, "0")}.19`;
+    const head = `<h3>Automatic collection ${kindTag("code")}</h3><p class="small muted">Every month on the 19th the site downloads each fund's factsheet from the saved links and reads the duration and the document date – free, no AI. Next run: ${next}. <a href="${gh}" target="_blank" rel="noopener">Run it now ↗</a> (Run workflow; leave the date empty for last month).</p>`;
+    if (!A) { box.innerHTML = head + `<p class="small">No automatic run yet.</p>`; return; }
+    const ST = { found: ["ok", "✓", "Found – document dated the month end"], check: ["warn", "◐", "Found – check the date"], old: ["warn", "◐", "Old document – this month's not at the saved link yet"], not_found: ["bad", "✗", "Not found"], manual: ["muted", "✋", "Not public – you look it up"] };
+    const lab = r => r.value == null ? "" : `${/monthly report/i.test(r.type + r.url) || /evli/i.test(r.url) ? "Monthly report" : "Factsheet"} ${dd(r.as_of)}${r.copy ? " (broker copy)" : ""}`;
+    const sm = A.summary || {}, tsv = [];
+    const rows = A.rows.map(r => { const st = ST[r.status] || ST.not_found, v = r.value == null ? "" : Number(r.value).toFixed(2);
+      tsv.push([r.isin, r.fund, r.status === "found" ? v.replace(".", ",") : "", r.status === "found" ? dd(r.as_of) : "", r.status === "found" ? dd(A.run) : "", "", "", r.type, r.status === "found" ? lab(r) : st[2], "", "", r.status === "found" ? r.url : ""].join("\t"));
+      return `<tr><td class="nw">${esc(r.isin)}</td><td>${esc(r.fund)}</td><td class="nw num"><b>${r.status === "found" ? v : r.value != null ? `<span class="muted">${v}</span>` : ""}</b></td><td class="nw">${esc(dd(r.as_of))}</td><td>${esc(r.type)}</td>
+        <td>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(lab(r) || "Link tried")} ↗</a>${r.page ? ` <span class="muted">p.${r.page}</span>` : ""}` : ""}</td>
+        <td class="nw"><span class="${st[0]}" title="${esc(st[2])}">${st[1]}</span></td><td class="small muted">${esc(r.note || "")}</td></tr>`; }).join("");
+    box.innerHTML = head + `<p class="small"><b>Month-end ${esc(fDate(A.month_end))}</b> · run ${esc(dd(A.run))} · found ${sm.found || 0} of ${A.rows.length} · old ${sm.old || 0} · not found ${(sm.not_found || 0) + (sm.check || 0)} · yours ${sm.manual || 0}
+      <button type="button" class="btn sm" id="fDurAutoCp" title="Your table's columns; only ✓ values are filled">⧉ Copy rows for my Excel</button></p>
+      <div class="tbl-wrap"><table class="small fdur"><tr><th>ISIN</th><th>Fund</th><th>Duration</th><th>Doc. date</th><th>Type</th><th>Source</th><th></th><th>Note</th></tr>${rows}</table></div>
+      <p class="muted small">✓ read automatically from the manager's document dated the month end (page shown; open the link to check) · ◐ the saved link still has last month's document or the date needs a look – grey value is not used · ✗ download blocked or figure not found · ✋ not public. Ask Claude (the request below) to check the ✓ values and find the rest; the final table goes into “Duration by month”.</p>`;
+    const b = document.getElementById("fDurAutoCp"); if (b) b.onclick = () => navigator.clipboard.writeText(tsv.join("\n")).then(() => toast(wx("copied"), "ok"), () => toast(wx("fail"), "bad"));
   }
   function fDurHist() {
     const box = document.getElementById("fDurHist"); if (!box) return;
@@ -2211,7 +2233,7 @@
   }
   function fTaskInit(task) {
     const s = fsGet(task), P = document.getElementById("ftP"); if (!P) return;
-    if (task === "duration") fDurHist();
+    if (task === "duration") { fDurAuto(); fDurHist(); }
     const show = () => { const p = fPrompt(task, s); P.textContent = p; document.getElementById("ftB").innerHTML = promptBtn(p); };
     ["isin", "name", "list", "what", "data"].forEach(k => { const el = document.getElementById("ft_" + k); if (el) el.oninput = () => { s[k] = k === "isin" ? el.value.trim().toUpperCase() : el.value; fsSave(); show(); }; });
     ["mode", "based", "hold", "must", "q", "month"].forEach(k => { const el = document.getElementById("ft_" + k); if (el) el.onchange = () => { s[k] = ["hold", "must"].includes(k) ? +el.value : el.value; if (k === "mode") s.based = ""; fsSave(); k === "mode" ? route() : show(); }; });
