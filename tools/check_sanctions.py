@@ -9,10 +9,8 @@ Naudojimas: python tools/check_sanctions.py
 """
 import csv
 import io
-import json
 import re
 import sys
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -32,9 +30,7 @@ def norm(s):
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (issuers-review sanctions check)"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return r.read().decode("utf-8", "ignore")
+    return C.http_get(url, {"User-Agent": "Mozilla/5.0 (issuers-review sanctions check)"}, timeout=120)[0].decode("utf-8", "ignore")
 
 
 def names(name, raw):

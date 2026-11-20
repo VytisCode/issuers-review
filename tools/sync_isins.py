@@ -16,8 +16,7 @@ import common as C  # noqa: E402
 
 
 def get(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "issuers-review"}), timeout=60) as r:
-        txt = r.read().decode("utf-8", "ignore")
+    txt = C.http_get(url, {"User-Agent": "issuers-review"}, timeout=60)[0].decode("utf-8", "ignore")
     try:
         data = json.loads(txt)
     except ValueError:

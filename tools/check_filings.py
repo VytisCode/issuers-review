@@ -14,7 +14,6 @@ import re
 import sys
 import time
 import urllib.parse
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -32,9 +31,7 @@ KIND = [("annual", r"annual|metin|aasta|gada"), ("interim", r"interim|quarter|q[
 
 
 def get(url, timeout=40):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en,lt;q=0.8"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", "replace")
+    return C.http_get(url, {"User-Agent": UA, "Accept-Language": "en,lt;q=0.8"}, timeout=timeout)[0].decode("utf-8", "replace")
 
 
 def links(page_url, text):

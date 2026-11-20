@@ -76,7 +76,7 @@ def readiness(news, filings):
     Tikslinis laikotarpis - paskutinio pasibaigusio ketvirčio pabaiga. Paskelbimas atpažįstamas be AI: nauji emitentų puslapių dokumentai
     (data/filings.csv) ir naujienos su to ketvirčio žyme pavadinime."""
     import re
-    from datetime import date, timedelta
+    from datetime import date
     today = date.fromisoformat(C.TODAY)
     qe = [date(today.year - (1 if m > today.month or (m == today.month and today.day < 28) else 0), m, 1) for m in (3, 6, 9, 12)]
     target_m = max(qe)
@@ -154,7 +154,6 @@ def _sentences(text, n):
 def email(lang, readiness_info):
     """Laiškas kolegoms (be AI): sudaromas iš kiekvieno emitento verdikto ir santraukos. Daugiau vietos – reikia dėmesio / stebimiems,
     stabiliems – viena eilutė. Pabaigoje - išpirkimai ir call datos per 12 mėn. Vieta nuorodai į failus – laiško pabaigoje (įrašo savininkas)."""
-    import re
     from datetime import date, timedelta
     E, out = EMAIL[lang], {"action": [], "watch": [], "ok": []}
     secs = [x for x in C.securities() if x.get("held") == "yes" and x["status"] == "active"]

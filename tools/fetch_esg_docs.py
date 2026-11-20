@@ -18,7 +18,6 @@ import zipfile
 import subprocess
 import sys
 import urllib.parse
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -30,9 +29,7 @@ WORDS = r"annual|sustainab|integrated|report|ataskait|aruanne|parskats|pārskats
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
-    with urllib.request.urlopen(req, timeout=120) as r:
-        return r.read(MAX_BYTES), r.headers.get("Content-Type", ""), r.geturl()
+    return C.http_get(url, {"User-Agent": UA, "Accept": "*/*"}, timeout=120, max_bytes=MAX_BYTES)
 
 
 def pdf_links(html, base, year):

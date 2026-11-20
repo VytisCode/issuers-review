@@ -14,7 +14,6 @@ import re
 import sys
 import time
 import urllib.parse
-import urllib.request
 import xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -47,9 +46,7 @@ TOPICS = {
 
 
 def get(url, timeout=40):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    return C.http_get(url, {"User-Agent": UA}, timeout=timeout)[0]
 
 
 def gn_url(query, lang, days):

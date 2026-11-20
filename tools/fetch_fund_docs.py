@@ -7,8 +7,10 @@ import re
 import subprocess
 import sys
 import time
-import urllib.request
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import common as C  # noqa: E402
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 PATTERNS = [("factsheet", "https://docs.extraetf.com/download/{i}/en/MR/"),
@@ -19,9 +21,7 @@ PATTERNS = [("factsheet", "https://docs.extraetf.com/download/{i}/en/MR/"),
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*", "Accept-Language": "en"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return r.read(), r.headers.get("Content-Type", ""), r.geturl()
+    return C.http_get(url, {"User-Agent": UA, "Accept": "*/*", "Accept-Language": "en"}, timeout=60)
 
 
 def text_of(path):

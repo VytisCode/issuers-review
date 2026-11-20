@@ -121,7 +121,7 @@ def collect(me, getter, store=None):
                 st, why = judge(f, me, val, page, as_of, ok)
                 rec["tried"].append(dict(url=url, result=st, note=why))
                 cand = dict(value=val, as_of=as_of, page=page, url=url, copy=bool(u.get("copy")), status=st,
-                            note=why or (f"broker copy" if u.get("copy") else ""), sha256=hashlib.sha256(pdf.read_bytes()).hexdigest())
+                            note=why or ("broker copy" if u.get("copy") else ""), sha256=hashlib.sha256(pdf.read_bytes()).hexdigest())
                 if store:
                     cand["file"] = store(f["isin"], pdf)
                 rank = {"found": 0, "check": 1, "old": 2, "not_found": 3}[st]

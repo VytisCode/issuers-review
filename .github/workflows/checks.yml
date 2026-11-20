@@ -1,0 +1,31 @@
+# Greita patikra po kiekvieno pakeitimo (nemokama, be AI, ~1 min.): ar kodas be akivaizdžių klaidų ir ar duomenų failai sveiki.
+# Raudonas ženklelis prie commit = kažkas sugadinta; žalias = viskas gerai. Dienos atnaujinimo (update.yml) neblokuoja.
+name: Checks
+on:
+  push:
+    branches: [main]
+    paths: ["tools/**", "site/**", "config/**", "reports/**", "data/history/**", "data/esg/*.yaml", ".github/workflows/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pyflakes==3.4.0
+      - name: Python code (syntax, unused / undefined names)
+        run: python -m pyflakes tools/*.py
+      - name: Dashboard script syntax
+        run: node --check site/app.js
+      - name: Data files (YAML, securities.csv, history CSV)
+        run: python tools/check_repo.py
+      - name: Dashboard data builds
+        run: python tools/build_site.py

@@ -58,10 +58,10 @@ def init(force=False, pw=None):
     pkcs8 = priv.private_bytes(serialization.Encoding.DER, serialization.PrivateFormat.PKCS8, serialization.NoEncryption())
     spki = priv.public_key().public_bytes(serialization.Encoding.DER, serialization.PublicFormat.SubjectPublicKeyInfo)
     DIR.mkdir(parents=True, exist_ok=True)
-    KEY.write_text(json.dumps({"pub": b64(spki), "salt": b64(salt), "iter": ITER, "iv": b64(iv),
+    C.write_text_atomic(KEY, json.dumps({"pub": b64(spki), "salt": b64(salt), "iter": ITER, "iv": b64(iv),
                                "priv": b64(AESGCM(kek).encrypt(iv, pkcs8, None))}, indent=1))
     if force or not INDEX.exists():
-        INDEX.write_text("[]\n")
+        C.write_text_atomic(INDEX, "[]\n")
     print("Slaptažodis (perduokite savininkui, niekur nesaugokite):", pw)
 
 
@@ -75,7 +75,7 @@ def add_bytes(data, meta, eid=None):
     idx = [x for x in json.loads(INDEX.read_text()) if x["id"] != eid]
     idx.append({"id": eid, "k": b64(pub.encrypt(k, OAEP)), "iv": b64(miv),
                 "meta": b64(AESGCM(k).encrypt(miv, json.dumps(meta, ensure_ascii=False).encode(), None))})
-    INDEX.write_text(json.dumps(idx, indent=1) + "\n")
+    C.write_text_atomic(INDEX, json.dumps(idx, indent=1) + "\n")
     return eid
 
 
@@ -113,17 +113,17 @@ def _job(eid, stem, src):
                 z.write(s["local"], s.pop("_fn"))
         rid = add_bytes(buf.getvalue(), {"type": "zip", "kind": "received", "parent": eid, "file": f"{stem}_received.zip", "docs": len(loc)})
         zips[rid] = eid
-        (DIR / "received.json").write_text(json.dumps(sorted((RECEIVED() - set(old)) | {rid}), indent=1) + "\n")
+        C.write_text_atomic((DIR / "received.json"), json.dumps(sorted((RECEIVED() - set(old)) | {rid}), indent=1) + "\n")
         print(f"Gautų dokumentų ZIP: {rid} ({len(loc)} failai)")
     for o in old:
         (DIR / f"{o}.bin").unlink(missing_ok=True)
-        INDEX.write_text(json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != o], indent=1) + "\n")
+        C.write_text_atomic(INDEX, json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != o], indent=1) + "\n")
         zips.pop(o, None)
     if old and not loc:
-        (DIR / "received.json").write_text(json.dumps(sorted(RECEIVED() - set(old)), indent=1) + "\n")
-    zf.write_text(json.dumps(zips, indent=1) + "\n")
+        C.write_text_atomic((DIR / "received.json"), json.dumps(sorted(RECEIVED() - set(old)), indent=1) + "\n")
+    C.write_text_atomic(zf, json.dumps(zips, indent=1) + "\n")
     (DIR / "jobs").mkdir(exist_ok=True)
-    (DIR / "jobs" / f"{eid}.json").write_text(json.dumps({"parent": eid, "name": f"{stem}_documents.zip", "sources": job}, ensure_ascii=False, indent=1))
+    C.write_text_atomic((DIR / "jobs" / f"{eid}.json"), json.dumps({"parent": eid, "name": f"{stem}_documents.zip", "sources": job}, ensure_ascii=False, indent=1))
 
 
 def add(path, meta, sources=None, record=True, kind="dd"):
@@ -133,7 +133,7 @@ def add(path, meta, sources=None, record=True, kind="dd"):
     if record and MANIFEST.parent.exists():
         man = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else []
         man = [m for m in man if m["path"] != str(Path(path).resolve())] + [{"path": str(Path(path).resolve()), "id": eid, "meta": meta, "sources": sources or []}]
-        MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+        C.write_text_atomic(MANIFEST, json.dumps(man, ensure_ascii=False, indent=1))
     print(f"Pridėta: {eid} ({Path(path).name})" + (" + ZIP užduotis" if sources else ""))
     return eid
 
@@ -147,17 +147,17 @@ def replace(eid):
     if m.get("view"):  # ETF paieška: peržiūra iš naujausio VIEW.json
         meta["view"] = json.loads(Path(m["view"]).read_text())
     new = add_bytes(Path(m["path"]).read_bytes(), meta)
-    INDEX.write_text(json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != eid], indent=1) + "\n")
+    C.write_text_atomic(INDEX, json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != eid], indent=1) + "\n")
     (DIR / f"{eid}.bin").unlink(missing_ok=True)
     zf = DIR / "zips.json"
     zips = json.loads(zf.read_text()) if zf.exists() else {}
-    zf.write_text(json.dumps({z: (new if p == eid else p) for z, p in zips.items()}, indent=1) + "\n")
+    C.write_text_atomic(zf, json.dumps({z: (new if p == eid else p) for z, p in zips.items()}, indent=1) + "\n")
     job = DIR / "jobs" / f"{eid}.json"
     if job.exists():
         j = json.loads(job.read_text()); j["parent"] = new
-        (DIR / "jobs" / f"{new}.json").write_text(json.dumps(j, ensure_ascii=False, indent=1)); job.unlink()
+        C.write_text_atomic((DIR / "jobs" / f"{new}.json"), json.dumps(j, ensure_ascii=False, indent=1)); job.unlink()
     m["id"] = new
-    MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+    C.write_text_atomic(MANIFEST, json.dumps(man, ensure_ascii=False, indent=1))
     print("Atnaujinta:", eid, "->", new, Path(m["path"]).name)
     if m.get("evidence") and Path(m["evidence"]).exists():  # įrodymai perkuriami iš to paties katalogo
         evidence(new, m["evidence"])
@@ -182,15 +182,15 @@ def evidence(eid, folder, record=True):
     zid = add_bytes(buf.getvalue(), {"type": "zip", "kind": "evidence", "parent": eid, "file": name})
     for o in old:
         (DIR / f"{o}.bin").unlink(missing_ok=True)
-        INDEX.write_text(json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != o], indent=1) + "\n")
+        C.write_text_atomic(INDEX, json.dumps([x for x in json.loads(INDEX.read_text()) if x["id"] != o], indent=1) + "\n")
         zips.pop(o, None)
     zips[zid] = eid
-    zf.write_text(json.dumps(zips, indent=1) + "\n")
+    C.write_text_atomic(zf, json.dumps(zips, indent=1) + "\n")
     ev = DIR / "evidence.json"
     ids = [i for i in (json.loads(ev.read_text()) if ev.exists() else []) if i not in old] + [zid]
-    ev.write_text(json.dumps(ids, indent=1) + "\n")
+    C.write_text_atomic(ev, json.dumps(ids, indent=1) + "\n")
     if record and m:
-        m["evidence"] = str(folder.resolve()); MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+        m["evidence"] = str(folder.resolve()); C.write_text_atomic(MANIFEST, json.dumps(man, ensure_ascii=False, indent=1))
     print("Įrodymų ZIP:", zid, name)
     return zid
 
@@ -206,7 +206,7 @@ def sources(eid, src):
     m = next(m for m in man if m.get("id") == eid)
     _job(eid, Path(m["path"]).stem, src)
     m["sources"] = src
-    MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+    C.write_text_atomic(MANIFEST, json.dumps(man, ensure_ascii=False, indent=1))
     print("Šaltinių ZIP užduotis:", eid, len(src))
 
 
@@ -220,7 +220,7 @@ def screen(path, view, title, date, kind="screen", src=None, evid=None):
         man = [m for m in man if m["path"] != str(Path(path).resolve())]
         man.append({"path": str(Path(path).resolve()), "id": eid, "type": kind, "view": str(Path(view).resolve()),
                     "meta": {"title": title, "date": date, "lang": "en"}, "sources": src or []})
-        MANIFEST.write_text(json.dumps(man, ensure_ascii=False, indent=1))
+        C.write_text_atomic(MANIFEST, json.dumps(man, ensure_ascii=False, indent=1))
     if evid:
         evidence(eid, evid)
     return eid
@@ -231,13 +231,13 @@ def remove(eid):
     zips = json.loads((DIR / "zips.json").read_text()) if (DIR / "zips.json").exists() else {}
     ids = {eid, *[z for z, parent in zips.items() if parent == eid]}
     idx = [x for x in json.loads(INDEX.read_text()) if x["id"] not in ids]
-    INDEX.write_text(json.dumps(idx, indent=1) + "\n")
+    C.write_text_atomic(INDEX, json.dumps(idx, indent=1) + "\n")
     for i in ids:
         (DIR / f"{i}.bin").unlink(missing_ok=True)
         (DIR / "jobs" / f"{i}.json").unlink(missing_ok=True)
-    (DIR / "zips.json").write_text(json.dumps({z: p for z, p in zips.items() if p != eid}, indent=1) + "\n")
+    C.write_text_atomic((DIR / "zips.json"), json.dumps({z: p for z, p in zips.items() if p != eid}, indent=1) + "\n")
     if MANIFEST.exists():
-        MANIFEST.write_text(json.dumps([m for m in json.loads(MANIFEST.read_text()) if m.get("id") != eid], ensure_ascii=False, indent=1))
+        C.write_text_atomic(MANIFEST, json.dumps([m for m in json.loads(MANIFEST.read_text()) if m.get("id") != eid], ensure_ascii=False, indent=1))
     print("Pašalinta:", ", ".join(sorted(ids)))
 
 
@@ -245,9 +245,9 @@ def rekey(pw=None):
     man = json.loads(MANIFEST.read_text())
     for f in DIR.glob("*.bin"):
         f.unlink()
-    (DIR / "zips.json").write_text("{}\n")
-    (DIR / "evidence.json").write_text("[]\n")
-    (DIR / "received.json").write_text("[]\n")
+    C.write_text_atomic((DIR / "zips.json"), "{}\n")
+    C.write_text_atomic((DIR / "evidence.json"), "[]\n")
+    C.write_text_atomic((DIR / "received.json"), "[]\n")
     init(True, pw)
     new = []
     for m in man:
@@ -256,7 +256,7 @@ def rekey(pw=None):
         new.append(m)
         if m.get("evidence") and Path(m["evidence"]).exists():
             evidence(m["id"], m["evidence"], record=False)
-    MANIFEST.write_text(json.dumps(new, ensure_ascii=False, indent=1))
+    C.write_text_atomic(MANIFEST, json.dumps(new, ensure_ascii=False, indent=1))
 
 
 if __name__ == "__main__":

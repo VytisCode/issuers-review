@@ -9,7 +9,6 @@ import csv
 import io
 import re
 import sys
-import urllib.request
 from datetime import datetime
 from pathlib import Path
 
@@ -27,9 +26,7 @@ MARKETS = {"VLN": "Nasdaq Vilnius", "RIG": "Nasdaq Riga", "TLN": "Nasdaq Tallinn
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (issuers-review)"})
-    with urllib.request.urlopen(req, timeout=90) as r:
-        return r.read()
+    return C.http_get(url, {"User-Agent": "Mozilla/5.0 (issuers-review)"}, timeout=90)[0]
 
 
 def rows(raw):

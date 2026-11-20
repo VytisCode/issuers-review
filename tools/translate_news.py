@@ -10,7 +10,6 @@ import json
 import sys
 import time
 import urllib.parse
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -24,9 +23,7 @@ MAX = 400  # per vieną paleidimą
 
 def translate(text, src, to):
     url = "https://translate.googleapis.com/translate_a/single?" + urllib.parse.urlencode({"client": "gtx", "sl": src, "tl": to, "dt": "t", "q": text})
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (issuers-review)"})
-    with urllib.request.urlopen(req, timeout=20) as r:
-        data = json.loads(r.read().decode("utf-8"))
+    data = json.loads(C.http_get(url, {"User-Agent": "Mozilla/5.0 (issuers-review)"}, timeout=20, retries=1)[0].decode("utf-8"))
     return "".join(part[0] for part in data[0] if part and part[0]).strip()
 
 

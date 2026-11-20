@@ -1,7 +1,12 @@
 """Bendros funkcijos: konfigūracijos, istorijos ir ataskaitų skaitymas, skaičių formatavimas."""
+import copy
 import csv
 import json
+import os
 import re
+import time
+import urllib.error
+import urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -15,17 +20,85 @@ DOCS = ROOT / "docs"
 TODAY = date.today().isoformat()
 
 
-class _Loader(yaml.SafeLoader):
+# Greitas C skaitytuvas (libyaml), jei įdiegtas; rezultatas toks pat kaip SafeLoader (tikrinama tools/check_repo.py).
+_Base = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
+
+
+class _Loader(_Base):
     """YAML be „yes/no → True/False“ (ESG būsenos yes/no turi likti tekstu)."""
 
 
 _Loader.yaml_implicit_resolvers = {k: [(tag, rx) for tag, rx in v if tag != "tag:yaml.org,2002:bool"]
                                    for k, v in yaml.SafeLoader.yaml_implicit_resolvers.items()}
 
+_YAML_CACHE = {}
+
 
 def load_yaml(path):
-    with open(path, encoding="utf-8") as f:
-        return yaml.load(f, Loader=_Loader) or {}
+    """YAML failas -> dict. Tas pats failas per vieną paleidimą skaitomas vieną kartą (podėlis pagal keitimo laiką ir dydį);
+    grąžinama kopija, kad kviečiantis kodas galėtų ją keisti nepakenkdamas kitiems."""
+    st = os.stat(path)
+    key = (os.path.abspath(path), st.st_mtime_ns, st.st_size)
+    if key not in _YAML_CACHE:
+        with open(path, encoding="utf-8") as f:
+            _YAML_CACHE[key] = yaml.load(f, Loader=_Loader) or {}
+    return copy.deepcopy(_YAML_CACHE[key])
+
+
+RETRY_CODES = (429, 500, 502, 503, 504)
+
+
+def http_get(url, headers=None, timeout=60, max_bytes=None, retries=2, wait=(5, 20)):
+    """GET su pakartojimu: laikinos klaidos (429 „per daug užklausų“, 5xx, nutrūkęs ryšys, laiko limitas) bandomos dar
+    `retries` kartų po `wait` sekundžių (arba kiek liepia serverio Retry-After, ne daugiau 60 s). 403 / 404 ir kt. – iškart klaida.
+    Grąžina (turinys baitais, Content-Type, galutinis adresas po nukreipimų)."""
+    req = urllib.request.Request(url, headers=headers or {})
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                data = r.read() if max_bytes is None else r.read(max_bytes)
+                return data, r.headers.get("Content-Type", ""), r.geturl()
+        except urllib.error.HTTPError as e:
+            if e.code not in RETRY_CODES or attempt == retries:
+                raise
+            ra = e.headers.get("Retry-After", "") if e.headers else ""
+            delay = min(int(ra), 60) if ra.isdigit() else wait[min(attempt, len(wait) - 1)]
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if attempt == retries or isinstance(getattr(e, "reason", None), str) and "certificate" in e.reason.lower():
+                raise
+            delay = wait[min(attempt, len(wait) - 1)]
+        time.sleep(delay)
+
+
+def save_office(doc, path):
+    """Išsaugo Word / Excel failą, bet nekeičia esamo, jei skiriasi tik sukūrimo laikas (docProps/core.xml, ZIP datos):
+    taip kasdienis paleidimas neprideda į git vienodų dvejetainių failų."""
+    import io
+    import zipfile
+    buf = io.BytesIO()
+    doc.save(buf)
+    new = buf.getvalue()
+    path = Path(path)
+    if path.exists():
+        def body(b):
+            with zipfile.ZipFile(io.BytesIO(b)) as z:
+                return {n: z.read(n) for n in z.namelist() if n != "docProps/core.xml"}
+        try:
+            if body(path.read_bytes()) == body(new):
+                return False
+        except zipfile.BadZipFile:
+            pass
+    path.write_bytes(new)
+    return True
+
+
+def write_text_atomic(path, text):
+    """Įrašo failą saugiai: pirma į laikiną failą šalia, tada vienu žingsniu pakeičia. Nutrūkus darbui senas failas lieka sveikas
+    (svarbu manifest.json ir index.json – sugadintas JSON užrakintų visą DD archyvą)."""
+    path = Path(path)
+    tmp = path.with_name(f".{path.name}.{os.getpid()}.tmp")
+    tmp.write_text(text, encoding="utf-8")
+    os.replace(tmp, path)
 
 
 def settings():

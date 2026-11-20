@@ -9,7 +9,6 @@ Naudojimas: python tools/fetch_market.py
 import csv
 import io
 import sys
-import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -30,9 +29,8 @@ FIELDS = ["series", "period", "value", "source"]
 
 def get(flow, key, start):
     url = API.format(flow=flow, key=key, start=start)
-    req = urllib.request.Request(url, headers={"User-Agent": "issuers-review (public data)", "Accept": "text/csv"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        rows = list(csv.DictReader(io.StringIO(r.read().decode("utf-8"))))
+    raw = C.http_get(url, {"User-Agent": "issuers-review (public data)", "Accept": "text/csv"}, timeout=60)[0]
+    rows = list(csv.DictReader(io.StringIO(raw.decode("utf-8"))))
     page = f"https://data.ecb.europa.eu/data/datasets/{flow}/{flow}.{key}"
     return [(x["TIME_PERIOD"], x["OBS_VALUE"]) for x in rows if x.get("OBS_VALUE")], page
 

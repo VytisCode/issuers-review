@@ -446,7 +446,7 @@ def xlsx(path=None, lang="lt"):
     ws.sheet_properties.tabColor = NAVY
     path = path or C.DOCS / "files" / f"esg_engagement_{lang}.xlsx"
     path.parent.mkdir(parents=True, exist_ok=True)
-    wb.save(path)
+    C.save_office(wb, path)
     return path
 
 

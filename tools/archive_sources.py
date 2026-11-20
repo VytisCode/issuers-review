@@ -17,7 +17,6 @@ import subprocess
 import tempfile
 import sys
 import time
-import urllib.request
 import zipfile
 from pathlib import Path
 
@@ -33,12 +32,10 @@ SKIP = ("news.google.com",)
 
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
-    with urllib.request.urlopen(req, timeout=90) as r:
-        data = r.read(MAX_BYTES + 1)
-        if len(data) > MAX_BYTES:
-            raise ValueError("per didelis (> 80 MB)")
-        return data, r.headers.get("Content-Type", "")
+    data, ctype, _ = C.http_get(url, {"User-Agent": UA, "Accept": "*/*"}, timeout=90, max_bytes=MAX_BYTES + 1)
+    if len(data) > MAX_BYTES:
+        raise ValueError("per didelis (> 80 MB)")
+    return data, ctype
 
 
 def ext_for(url, ctype, data):
