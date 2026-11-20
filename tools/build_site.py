@@ -284,6 +284,8 @@ def main():
         for f in (C.DOCS / "dd").glob("*.bin"):  # pašalinti / pakeisti įrašai neturi likti svetainėje
             if not (ddir / f.name).exists():
                 f.unlink()
+    # obligacijų fondų duration – automatinis surinkimas (tools/duration_auto.py, kas mėnesį 19 d.): paskutiniai 3 mėnesiai
+    out["dur_auto"] = [json.loads(f.read_text()) for f in sorted((C.DATA / "duration").glob("auto_*.json"))[-3:]][::-1] if (C.DATA / "duration").exists() else []
     (C.DOCS / "data.js").write_text("window.DATA = " + json.dumps(out, ensure_ascii=False, default=str) + ";\n", encoding="utf-8")
     print(f"docs/data.js: {len(out['issuers'])} emitentai, {len(secs)} VP, {len(news)} naujienos, {len(out['filings'])} nauji dokumentai")
 
