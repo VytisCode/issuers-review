@@ -1434,6 +1434,8 @@
     if ((d._note || "").trim()) L.push("Other information from the owner:", d._note.trim());
     return L.join("\n");
   }
+  // VIEW.missing[].links [{what, url, by}] – savininko anksčiau pateiktos nuorodos (pirmiausia valdytojo fondo puslapis)
+  const mLinks = (r, short) => (r.links || []).length ? `<div class="small mlinks">${short ? "" : `<b>Links (★ = you gave it earlier):</b> `}${r.links.map(l => l.url ? `<a class="btn sm" href="${esc(l.url)}" target="_blank" rel="noopener" title="${esc(l.what)}">${esc(short ? (l.what.length > 40 ? l.what.slice(0, 38) + "…" : l.what) : l.what)}${l.by ? " ★" : ""} ↗</a>` : `<span class="muted">${esc(l.what)}</span>`).join(" ")}</div>` : "";
   function missBox(x) {
     const src = r => String(r.where || "").split(":")[0].trim().toLowerCase();
     const m = [...((x.view || {}).missing || [])].sort((a, b) => src(a).localeCompare(src(b)) || (a.prio || 2) - (b.prio || 2)); if (!m.length) return "";  // vienu prisijungimu – vienas šaltinis
@@ -1446,7 +1448,7 @@
           <div><b>Look up:</b> ${esc(r.what)}</div>
           <div class="small"><b>Fund:</b> ${esc(r.fund || "")}${r.isin ? ` · <span class="nw">${esc(r.isin)}</span>` : ""}</div>
           ${r.where ? `<div class="small"><b>Where:</b> ${where(r)}</div>` : ""}
-          <div class="small mlinks">${(r.url ? [].concat(r.url) : []).map(u => `<a class="btn sm" href="${esc(u)}" target="_blank" rel="noopener">Open the page ↗</a>`).join(" ")}${r.isin ? ` <a class="btn sm" href="https://www.google.com/search?q=${encodeURIComponent(r.isin + " " + (r.search || "factsheet"))}" target="_blank" rel="noopener">Search the web for ${esc(r.isin)} ↗</a>` : ""}</div>
+          ${mLinks(r)}<div class="small mlinks">${(r.url ? [].concat(r.url) : []).map(u => `<a class="btn sm" href="${esc(u)}" target="_blank" rel="noopener">Open the page ↗</a>`).join(" ")}${r.isin ? ` <a class="btn sm" href="https://www.google.com/search?q=${encodeURIComponent(r.isin + " " + (r.search || "factsheet"))}" target="_blank" rel="noopener">Search the web for ${esc(r.isin)} ↗</a>` : ""}</div>
           ${r.how ? `<div class="small"><b>Tip:</b> ${esc(r.how)}</div>` : ""}
           ${r.fmt ? `<div class="small muted"><b>Answer like:</b> ${esc(r.fmt)}</div>` : ""}
           ${r.why ? `<div class="small muted"><b>Why it matters:</b> ${esc(r.why)}</div>` : ""}</div></div>
@@ -2096,6 +2098,7 @@
         "Links to try first (kept month to month, update it when a link changes): /mnt/project-files/funds_dd/duration/sources.json – direct PDF links via fund-docs.yml, {YYYYMM}/{YYYYMMDD} = month-end; check the date inside each document.",
         "Sources in this order: the manager's factsheet or monthly report for that month-end (most reliable; dated copy via fund-docs.yml, manager website link), the manager website, Morningstar (connector), other web search – label the source of every value. Compare with last month and flag changes above 0.5 years.",
         "Last month is never left empty: load it with /mnt/project-files/funds_dd/duration/prev_month.py (the previous month's archived VIEW); where it is empty, take the value from my internal table in “Your data” (owner-provided, internal table, <date updated>), write it back into the previous month (\`python prev_month.py <month-end> <table.txt> --write\`) and re-archive that month with \`python tools/dd_vault.py replace <id>\`. If my table and the archive differ, say so – do not pick one silently.",
+        "Not found: every VIEW.missing item gets links = owner_links(ISIN, month-end) from prev_month.py – the links I gave earlier (sources.json, the exact manager fund page first, then the document, Morningstar, Bloomberg), so I can take the value myself. Add every new link I give to sources.json (by: owner <date>).",
         `Output: Duration_${me}.xlsx (fund, ISIN, duration, type, as-of date, source link, page, last month, change, status) + evidence folder with the documents; archive \`python tools/dd_vault.py screen Duration_${me}.xlsx --view <VIEW.json> --kind duration --title "Bond fund duration ${me}" --evidence <folder>\`. VIEW.table cols [Fund, ISIN, Duration, Type, As of, Source, Source URL, Status] – Source = what and where in plain words: document, its date, page, website (e.g. “Monthly factsheet 2026-09-30, p.2, Amundi website”; a broker copy says so, e.g. “– copy on finanzfluss.de (not the manager’s website)”), Source URL = the link; VIEW.missing – one item per value not found, with "where" = exactly where I can find it myself (the manager page or document name, the Morningstar or Bloomberg screen) and "how" = a short tip.`,
         "Report back in Lithuanian: what was found, what was not and the tips.", FMISS, ...fDataLine(s)].join("\n");
     }
@@ -2138,7 +2141,7 @@
     const k = (f ? f + ":" : "") + m.k, ph = { "": "value, e.g. 4.52", src: "e.g. Factsheet 2026-09-30, p.2, Amundi website", note: "note", type: "type", asof: "" }[f || ""];
     if (f === "type") return `<input class="fdin" type="text" list="fDurTypes" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="pick or type" title="Exactly as named in the document, e.g. Effective duration, Modified duration, Option-adjusted duration">`;
     if (f === "asof") return `<input class="fdin" type="date" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" title="Date the document gives for the value (not the download date)">`;
-    return `<input class="fdin${f ? " w" : ""}" type="text" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="${ph}" title="${esc(m.where || "")}">${f ? "" : `<label class="chk small nw"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(m.k)}"${d["nf:" + m.k] ? " checked" : ""}> not found</label>`}`;
+    return `<input class="fdin${f ? " w" : ""}" type="text" data-mk="${esc(x.id)}|${esc(k)}" value="${esc(d[k] || "")}" placeholder="${ph}" title="${esc(m.where || "")}">${f ? "" : `<label class="chk small nw"><input type="checkbox" data-mk="${esc(x.id)}|nf:${esc(m.k)}"${d["nf:" + m.k] ? " checked" : ""}> not found</label>${mLinks(m, true)}`}`;
   }
   function fDurHist() {
     const box = document.getElementById("fDurHist"); if (!box) return;
