@@ -357,9 +357,10 @@
         <span class="hnb"><span class="hnm">${esc((byId[x.issuer] || {}).name || x.issuer)}</span><b>${esc(ntitle(x).t)}</b><span class="muted small">${esc(x.source || "")} · ${fmtD(x.date)}</span></span></a>`; }).join("")}</div><p class="small muted">${ht("imgNote")}</p></section>` : "";
     const hr = new Date().getHours(), gi = hr < 5 ? 0 : hr < 12 ? 1 : hr < 18 ? 2 : 3;
     const dstr = new Date().toLocaleDateString(LANG === "lt" ? "lt-LT" : "en-GB", { weekday: "long", month: "long", day: "numeric" });
-    if (greetOnly) return `<div class="hgreet"><h1>${ht("greet")[gi]}</h1><span>${esc(dstr)}</span></div>`;
-    return `<h2 style="margin-top:30px">${LANG === "lt" ? "Apžvalga" : "Overview"}</h2>
-      <div class="bento">${season}${plan}${mkt}${yld}${soonC}</div>${news}`;
+    // Edge naujo skirtuko stilius viršuje (pasisveikinimas + kortelės), darbai – iškart po jo, naujienos – apačioje (savininkas 2026-11-20)
+    if (greetOnly === "news") return news;
+    return `<div class="hgreet"><h1>${ht("greet")[gi]}</h1><span>${esc(dstr)}</span></div>
+      <div class="bento">${season}${plan}${mkt}${yld}${soonC}</div>`;
   }
 
   function todo() {
@@ -387,7 +388,7 @@
     // Fondų darbai – vienu mygtuku (savininkas 2026-11-20: „mažiau žingsnių“): užklausa su numatytosiomis įvestimis, sąrašą Claude paima iš ankstesnio darbo
     fAuto(); fComingHtml(true).forEach(o => card("ai", esc(o.what), `Funds · ${o.from ? "starts" : "due"} ${fDate(o.date)}${FQUICK[o.task] ? " · " + hx("quick") : ""}`,
       FQUICK[o.task] ? `${promptBtn(fPrompt(o.task, { ...FQUICK[o.task] }))} <a class="small" href="${o.href}">${hx("form")}</a>` : `<a class="btn" href="${o.href}">${hx("go")}</a>`));
-    return `${homeTop(true)}<h2 class="hh">${hx("title")}</h2><p class="sub">${hx("sub")}</p>
+    return `${homeTop()}<h2 class="hh">${hx("title")}</h2><p class="sub">${hx("sub")}</p>
       ${it.length ? `<ul class="todos">${it.join("")}</ul>` : `<div class="verdict">${hx("none")}</div>`}
       ${soon.length ? `<div class="card soon"><h3>${hx("soon")}</h3><ul class="b">${soon.map(x => `<li>${esc(x.date)} – ${esc(x.name)}${leaf({ green: x.green ? "yes" : "" })}: ${esc(x.what)}</li>`).join("")}</ul></div>` : ""}
       <div class="card nextc"><h3>${hx("next")}</h3>
@@ -395,7 +396,7 @@
         <p>${hx("search")} <b>${esc(st.news?.date || t("notYet"))}</b>. ${hx("auto")}</p>
         <div class="row">${promptBtn(hx("searchP"), hx("searchB"))} <a class="small" id="searchBtn" href="${ACTIONS}" target="_blank" rel="noopener">${hx("gh")} ↗</a></div>
         <div id="runStatus" class="runst muted small"></div></div>
-      <h2 style="margin-top:30px">${tg("want")}</h2><p class="sub">${tg("wantS")}</p>${taskTiles()}${homeTop()}`;
+      <h2 style="margin-top:30px">${tg("want")}</h2><p class="sub">${tg("wantS")}</p>${taskTiles()}${homeTop("news")}`;
   }
   /* Darbų žemėlapis: visos įrankio dalys pagal sritis, po vieną aiškų įėjimą (savininko prašymas 2026-10-29 – paprasta ir intuityvu) */
   const LX = {
