@@ -1,0 +1,199 @@
+=== pdf p.1 ===
+                                                                                                                                                                                     Index Factsheet
+
+
+
+
+MSCI Poland IMI (USD)
+
+The MSCI Poland Investable Market Index (IMI) is designed to measure the performance of the large, mid and small cap segments of the
+Polish market. With 32 constituents, the index covers approximately 99% of the free ﬂoat-adjusted market capitalization in Poland.
+For a complete description of the index methodology, please see Index methodology - MSCI.
+
+CUMULATIVE INDEX PERFORMANCE — GROSS RETURNS (USD)                                                                                                      ANNUAL PERFORMANCE (%)
+(OCT 2011 – OCT 2026)                                                                                                                                                MSCI          MSCI         MSCI
+                                                                                                                                                        Year                      Emerging
+                                                                                                                                                                   Poland IMI                  ACWI IMI
+                                                                                                                                                                                 Markets IMI
+            MSCI Poland IMI                                                                                                                             2025         74.60          32.12        22.60
+            MSCI Emerging Markets IMI                                                                                                          499.87   2024          -3.39           7.62       16.89
+            MSCI ACWI IMI                                                                                                                               2023         51.76          12.13        22.18
+                                                                                                                                                        2022        -24.57         -19.46       -18.00
+ 400
+                                                                                                                                                        2021         12.59            0.06       18.71
+                                                                                                                                                        2020          -8.23         18.78        16.81
+                                                                                                                                                        2019          -4.07         18.10        27.04
+                                                                                                                                               262.13
+                                                                                                                                                        2018        -14.06         -14.71         -9.61
+                                                                                                                                               240.00
+                                                                                                                                                        2017         54.15          37.28        24.58
+ 200                                                                                                                                                    2016           3.16         10.30          8.96
+                                                                                                                                                        2015        -23.31         -13.55         -1.68
+                                                                                                                                                        2014        -14.03           -1.42         4.36
+                                                                                                                                                        2013           4.97          -1.86       24.17
+  50                                                                                                                                                    2012         40.58          19.08        17.04
+   Oct 11    Jan 13   Apr 14   Jul 15     Oct 16   Jan 18       Apr 19      Jul 20     Oct 21     Jan 23          Apr 24      Jul 25     Oct 26
+
+
+
+INDEX PERFORMANCE — GROSS RETURNS (%) (OCT 30, 2026)                                                                                                    FUNDAMENTALS (OCT 30, 2026)
+                                                                                                                  ANNUALIZED
+
+                                            1 Mo       3 Mo          1 Yr            YTD        3 Yr          5 Yr         10 Yr MaySince               Div Yld (%)       P/E        P/E Fwd     P/BV
+                                                                                                                                     31, 1994
+
+  MSCI Poland IMI                          -2.74       2.17         34.88       24.27          35.24          17.37        12.18          4.78              3.63         14.51        10.97      2.09
+
+  MSCI Emerging Markets IMI                -8.08       -4.94        12.97       12.50          21.67          7.24         8.54           5.81              2.24         14.24        8.99       2.07
+
+  MSCI ACWI IMI                            -1.54       -0.16        12.92       11.57          22.53          10.15        12.63          8.54              1.66         21.04        15.59      3.38
+
+
+INDEX RISK AND RETURN CHARACTERISTICS (OCT 30, 2026)
+                                                             ANNUALIZED STD DEV (%) 2                                 SHARPE RATIO 2 , 3                                  MAXIMUM DRAWDOWN
+                                                                                                                                                   Since
+                                          Turnover          3 Yr         5 Yr          10 Yr           3 Yr            5 Yr            10 Yr      May 31,          (%)           Period YYYY-MM-DD
+                                            (%) 1                                                                                                  1994
+
+  MSCI Poland IMI                           3.05           17.50       27.56          27.56            1.57            0.59            0.47        0.23        78.03          2007-10-29—2009-02-17
+
+  MSCI Emerging Markets IMI                 4.77           17.53       18.31          17.47            0.96            0.27            0.41        0.24        65.34          2007-10-31—2008-10-27
+
+  MSCI ACWI IMI                             2.62           12.02       14.99          14.96            1.39            0.47            0.71        0.43        58.28          2007-10-31—2009-03-09
+                                  1                    2                                                      3
+                                      Last 12 months       Based on monthly gross returns data                    Based on NY FED Overnight SOFR from Sep 1 2021 & on ICE LIBOR 1M prior that date
+
+
+
+
+The MSCI Poland IMI was launched on Jun 05, 2007. Data prior to the launch date is back-tested test (i.e. calculations of how the index might have performed over that time
+period had the index existed). There are frequently material differences between back-tested performance and actual results. Past performance -- whether actual or back-tested
+-- is no indication or guarantee of future performance.
+
+
+
+                                                                                                                                                                          MSCI Poland IMI (USD) | msci.com
+
+=== pdf p.2 ===
+OCT 30, 2026                                                                                                                                          Index Factsheet
+
+INDEX CHARACTERISTICS                                                                TOP 10 CONSTITUENTS
+                                     MSCI Poland IMI                                                                      Float Adj Mkt     Index                  Sector
+ Number of                                                 32                                                                       Cap    Wt. (%)
+                                                                                                                         ( USD Billions)
+ Constituents                                                                           PKO BANK POLSKI                         25.41       15.18            Financials
+                                  Mkt Cap ( USD Millions)
+                                                                                        POLSKI KONCERN NAF ORLEN                21.54       12.88                Energy
+ Index                                         167,303.92
+                                                                                        ALLEGRO.EU                              14.22        8.50            Cons Discr
+ Largest                                        25,405.01                               BANK PEKAO                              11.79        7.05            Financials
+ Smallest                                          369.04                               POWSZECHNY ZAKLAD UBEZP                 10.27        6.14            Financials
+ Average                                         5,228.25                               KGHM POLSKA MIEDZ                       10.00        5.97             Materials
+ Median                                          3,183.30                               ERSTE BANK POLSKA                        8.04        4.81            Financials
+                                                                                        LPP                                      7.56        4.52            Cons Discr
+                                                                                        MBANK                                    5.28        3.16            Financials
+                                                                                        DINO POLSKA                              4.71        2.82          Cons Staples
+                                                                                        Total                                  118.81       71.01
+
+
+
+FACTORS - KEY EXPOSURES THAT DRIVE RISK AND RETURN
+MSCI FACTOR BOX                                                                                                    MSCI FaCS
+                    UNDERWEIGHT             NEUTRAL             OVERWEIGHT
+                                                                                                                             VALUE
+                                                                                                                             Relatively Inexpensive Stocks
+
+                                                                                                                             LOW SIZE
+                                                                                                                             Smaller Companies
+
+                                                                                                                             MOMENTUM
+                                                                                                                             Rising Stocks
+
+                                                                                                                             QUALITY
+                                                                                                                             Sound Balance Sheet Stocks
+
+                                                                                                                             YIELD
+                                                                                                                             Cash Flow Paid Out
+
+                                                                                                                             LOW VOLATILITY
+                                                                                                                             Lower Risk Stocks
+
+
+                                                                                                                   MSCI FaCS provides absolute factor exposures
+                                                                                                                   relative to a
+          <-1.5                                0                             +1.5<                                 broad global index - MSCI ACWI IMI.
+                          MSCI Poland IMI      MSCI Emerging Markets IMI
+                                                                                                                   Neutral factor exposure (FaCS = 0) represents
+                                                                                                                   MSCI ACWI IMI.
+
+
+
+SECTOR WEIGHTS
+           8.07%
+                                                                                     4.75%
+          12.88%
+                                                                                     4.66%
+
+                                                                                     4.5%
+
+         14.08%                                                                      4.09%
+
+                                                                                     2.77%
+
+                                                                                     0.38%
+
+
+                                                                                     43.82%
+
+
+
+
+   Financials 43.82%         Consumer Discretionary 14.08%          Energy 12.88%
+
+   Materials 8.07%         Consumer Staples 4.75%         Communication Services 4.66%
+
+   Utilities 4.5%       Industrials 4.09%      Information Technology 2.77%
+
+   Health Care 0.38%
+
+
+
+
+                                                                                                                                           MSCI Poland IMI (USD) | msci.com
+
+=== pdf p.3 ===
+OCT 30, 2026                                                                                                                                                                            Index Factsheet
+
+
+
+MSCI FACTOR BOX AND FaCS FRAMEWORK (Please refer to complete description of the MSCI FaCS methodology here)
+MSCI FaCS is a standard method for evaluating and reporting the Factor characteristics of equity portfolios. MSCI FaCS consists
+of Factor Groups (e.g. Value, Size, Momentum, Quality, Yield, and Volatility) that have been extensively documented in academic
+literature and validated by MSCI Research as key drivers of risk and return in equity portfolios. These Factor Groups are constructed
+by aggregating 16 factors (e.g. Book-to-Price, Earnings/Dividend Yields, LT Reversal, Leverage, Earnings Variability/Quality, Beta)
+from the latest Barra global equity factor risk model, GEMLT, designed to make fund comparisons transparent and intuitive for use.
+The MSCI Factor Box, which is powered by MSCI FaCS, provides a visualization designed to easily compare absolute exposures
+of funds/indexes and their benchmarks along 6 Factor Groups that have historically demonstrated excess market returns over
+the long run.
+
+
+
+
+ABOUT MSCI
+MSCI (NYSE: MSCI Inc.) strengthens global markets by connecting participants across the ﬁnancial ecosystem with a common language. Our research-based data, analytics and indexes, supported by
+advanced technology, set standards for global investors and help our clients understand risks and opportunities so they can make better decisions and unlock innovation. We serve asset managers and
+owners, private-market sponsors and investors, hedge funds, wealth managers, banks, insurers and corporates. To learn more, please visit www.msci.com.
+
+The data, data feeds, databases, reports, text, graphs, charts, images, videos, recordings, models, metrics, analytics, indexes, assessments, ratings, scores, software, websites, products, services and other
+information delivered in connection with this notice (the “Information”): (a) are proprietary information of MSCI and its suppliers, (b) may not be used for commercial purposes without prior written permission
+from MSCI Inc. or its afﬁliates (“MSCI”), and (c) are not investment advice and must not be relied on as such. The Information and its use are further subject to the disclaimer at https://www.msci.com/
+legal/notice-and-disclaimer. As detailed therein, MSCI AND ITS SUPPLIERS MAKE NO EXPRESS OR IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR OTHERWISE
+WITH RESPECT TO THE INFORMATION HEREIN AND DISCLAIM ALL LIABILITY TO THE MAXIMUM EXTENT PERMITTED BY LAW. For information about how MSCI collects and uses personal data, refer
+to https://www.msci.com/privacy-pledge.
+
+© 2026 MSCI Inc. All rights reserved.
+
+
+
+                                                                                                                                                                        MSCI Poland IMI (USD) | msci.com
+

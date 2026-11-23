@@ -6862,5 +6862,134 @@
   "sha256": "34b4c1a117afa3a7f130a014550b7ed3e2b31b8677b6b5522f938d0d7b948cd1",
   "bytes": 3447114,
   "final_url": "https://www.ishares.com/uk/individual/en/products/251875/ishares-msci-poland-ucits-etf/1506575576011.ajax?fileType=csv&fileName=SPOL_holdings&dataType=fund"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "prospectus",
+  "url": "https://www.ishares.com/gls-download/literature/prospectus/ishares-v-plc-prospectus-en.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/prospectus_b9876949eb.pdf",
+  "sha256": "b9876949eba1b512a85b0616bc907f32bc5c4e59f3c64565dda7a915674422af",
+  "bytes": 7626640,
+  "final_url": "https://www.ishares.com/gls-download/literature/prospectus/ishares-v-plc-prospectus-en.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "annual_report_2025",
+  "url": "https://www.ishares.com/gls-download/literature/annual-report/ishares-v-plc-annual-report-en-30-nov-25.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/annual_report_2025_7d4a8706fd.pdf",
+  "sha256": "7d4a8706fd7f3813593feeeac6eeb2e5beec1d73c05b7883f4c4d887c8bda02e",
+  "bytes": 5770336,
+  "final_url": "https://www.ishares.com/gls-download/literature/annual-report/ishares-v-plc-annual-report-en-30-nov-25.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "index_factsheet",
+  "url": "https://www.msci.com/documents/10199/255599/msci-poland-index-usd-net.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/index_factsheet_4da864c975.pdf",
+  "sha256": "4da864c97586a0819afe4ea357f55a2998d851b09948f326dfde1b08963bcc32",
+  "bytes": 176955,
+  "final_url": "https://www.msci.com/documents/10199/255599/msci-poland-index-usd-net.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "index_factsheet",
+  "url": "https://www.msci.com/documents/10199/255599/msci-poland-imi.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/index_factsheet_65d54b5e02.pdf",
+  "sha256": "65d54b5e022d5b5b352817aa9ced72f6b78baf7cbb743c1192a5d5ce161ddf5b",
+  "bytes": 177618,
+  "final_url": "https://www.msci.com/documents/10199/255599/msci-poland-imi.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "page",
+  "url": "https://www.msci.com/indexes/index/961600/msci-poland-index",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/page_e8dccff7d3.html",
+  "sha256": "e8dccff7d31cbd3b70886872f48438aeccd6bf137cc45d8c3fd05d4f02595241",
+  "bytes": 1867,
+  "final_url": "https://www.msci.com/indexes/index/961600/msci-poland-index"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "page",
+  "url": "https://www.sec.gov/news/press-release/2023-226",
+  "fetched": "2026-11-23",
+  "ok": false,
+  "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "page",
+  "url": "https://centralbank.ie/news/article/central-bank-of-ireland-issues-warning-on-unauthorised-firm-blackrock-asset-management-ireland-limited",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/page_81f1f77c26.html",
+  "sha256": "81f1f77c26fb3b25a96096bfe33208a6936bf20959ca8ea738694e1319980047",
+  "bytes": 121803,
+  "final_url": "https://www.centralbank.ie/news/article/warning-notice-central-bank-of-ireland-issues-warning-on-unauthorised-firm-blackrock-asset-management-ireland-limited-28-apr-2023"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "page",
+  "url": "https://www.texasattorneygeneral.gov/news/releases/trump-administration-supports-attorney-general-ken-paxtons-lawsuit-against-blackrock-state-street",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/page_23b21be28c.html",
+  "sha256": "23b21be28c6fa90d688f6befc8232aafe3be2f299f241bb24ca7b55d723dabc6",
+  "bytes": 131031,
+  "final_url": "https://www.texasattorneygeneral.gov/news/releases/trump-administration-supports-attorney-general-ken-paxtons-lawsuit-against-blackrock-state-street"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "page",
+  "url": "https://www.climatecasechart.com/document/texas-v-blackrock-inc_f224",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/page_3bc7a4c565.html",
+  "sha256": "3bc7a4c565ba29e2cf97696a260a031a9508f93d03e568eeba71138296e30462",
+  "bytes": 338330,
+  "final_url": "https://www.climatecasechart.com/document/texas-v-blackrock-inc_f224"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4M7GH52",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/page_1c0ccebff5.html",
+  "sha256": "1c0ccebff59c3a07ab71b2b0e841fa2ea0c0c2bafb441582923ff1a890079a1c",
+  "bytes": 436177,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4M7GH52"
+ },
+ {
+  "isin": "BGPLWIG04173",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=BGPLWIG04173",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/BGPLWIG04173/page_b5670e6e09.html",
+  "sha256": "b5670e6e09f84fe17a4e623863b394fbcefb5d361d3c0230f168e234ab3d1caf",
+  "bytes": 430597,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=BGPLWIG04173"
+ },
+ {
+  "isin": "LU1900066462",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=LU1900066462",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/LU1900066462/page_2df1d70fc3.html",
+  "sha256": "2df1d70fc30824d596a60d9bc1976b17475f95ec012ccfae8dbc63379a381e3f",
+  "bytes": 427672,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=LU1900066462"
  }
 ]
