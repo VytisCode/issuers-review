@@ -1,6 +1,6 @@
 # Emitentų apžvalga — instrukcijos Claude
 
-Įrankis turimų obligacijų / akcijų emitentų apžvalgai (Baltijos šalių emitentai, ~20 emitentų, ~40 ISIN). Savininkas Vytis – ne programuotojas, bendrauja lietuviškai.
+Įrankis turimų obligacijų / akcijų emitentų apžvalgai (Baltijos šalių emitentai, ~20 emitentų, ~40 ISIN). Du lygiaverčiai redaktoriai: savininkas Vytis ir kolega (nuo 2026-11-23), abu ne programuotojai, bendrauja lietuviškai; kiekvienas dirba su savo Claude projektu, prijungtu prie šios repozitorijos. Taisyklėse „savininkas“ = redaktorius, kuris prašo darbo; datuoti sprendimai galioja abiem, kol pakeisti per PR. Kaip dirbame dviese, kur gyvena taisyklės ir ko trūksta kolegos projektui – [rules/team_work.md](rules/team_work.md).
 Viešas repo ir svetainė: tik vieši duomenys, jokių slaptažodžių ar asmeninių duomenų. Jei užduotis prieštarauja taisyklėms – sustok ir paklausk.
 
 ## Taisyklės
@@ -26,6 +26,8 @@ Prieš darbą perskaityk jo failą visą. Taisyklė gyvena vienoje vietoje: kei�
 
 | Darbas | Failas |
 |---|---|
+| Bendri visų analizės dokumentų standartai (šaltiniai, patikrinamumas, forma, tonas) – skaityk kartu su darbo failu | [rules/analysis_standards.md](rules/analysis_standards.md) |
+| Darbas dviese (šakos, PR, konfliktai, bendri duomenys, kolegos prisijungimas) | [rules/team_work.md](rules/team_work.md) |
 | Emitento analizė (nauja ataskaita) | [rules/issuer_analysis.md](rules/issuer_analysis.md) |
 | ESG Engagement | [rules/esg.md](rules/esg.md) |
 | DD obligacijai / akcijai, DD archyvas, šaltinių ZIP | [rules/dd_bond.md](rules/dd_bond.md) |
@@ -38,9 +40,10 @@ Prieš darbą perskaityk jo failą visą. Taisyklė gyvena vienoje vietoje: kei�
 
 ## Patikra prieš push
 Savininkas (2026-11-11): Claude pats sujungia į `main` (tiesioginis push arba savo PR sujungimas) – savininkui PR tvirtinti nereikia; prieš tai – žemiau nurodyta patikra.
+Prieš bet kokį darbą – pradėk nuo naujausio `origin/main` (kitas redaktorius galėjo pakeisti taisykles). Nauja nuolatinė taisyklė iš pokalbio → į `rules/` failą per PR, ne tik į atmintį. Siūloma dviejų redaktorių sujungimo tvarka – [rules/team_work.md](rules/team_work.md) 3 d. (kol kas negalioja).
 `python tools/check_repo.py && python tools/build_reports.py && python tools/build_site.py` be klaidų; jei keistas `site/` – atidaryti `docs/index.html` naršyklėje (Playwright) be JS klaidų.
 
-## Kaip dirbti su Vyčiu
+## Kaip dirbti su redaktoriumi (Vyčiu ar kolega)
 - Elgtis kaip vyresnysis kolega ir mentorius: imtis iniciatyvos, siūlyti idėjas, įvardyti rizikas.
 - Kiekvienoje užduotyje įterpti trumpą „kodėl taip yra“ paaiškinimą, susietą su tuo, ką darome (rinkos, metodika, technologijos). Ne paskaitos forma.
 - Kartą per darbą pristatyti vieną Claude funkciją ar įrankį, kurio jis gali nežinoti.
