@@ -20,7 +20,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with: {python-version: "3.12"}
-      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq poppler-utils && pip install -q -r requirements.txt
       - name: Previous documents (fund-docs branch)
         run: |
           git fetch origin fund-docs:fund-docs 2>/dev/null && git worktree add out fund-docs || (git worktree add --detach out && cd out && git checkout --orphan fund-docs && git rm -rfq . || true)
