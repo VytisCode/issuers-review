@@ -83,5 +83,12 @@
    "title": "MSCI – Index factsheet MSCI Poland Index (USD), 30.10.2026",
    "url": "https://www.msci.com/documents/10199/255599/msci-poland-index-usd-net.pdf"
   }
- ]
+ ],
+ "problems": [
+  {
+   "key": "N3",
+   "why": "nėra laukiamo teksto: BlackRock"
+  }
+ ],
+ "done": "d91d3339448dce6d"
 }
