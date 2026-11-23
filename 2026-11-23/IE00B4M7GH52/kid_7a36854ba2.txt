@@ -1,0 +1,181 @@
+=== pdf p.1 ===
+Key Information Document
+
+Purpose
+This document provides you with key information about this investment product. It is not marketing material. The information is required by
+law to help you understand the nature, risks, costs, potential gains and losses of this product and to help you compare it with other products.
+Product
+iShares MSCI Poland UCITS ETF (the “Fund”), USD Accu (the "Share Class"), ISIN: IE00B4M7GH52, is authorised in Ireland and
+manufactured by BlackRock Asset Management Ireland Limited (the “Manager”) which is part of the BlackRock, Inc group.
+The Manager is authorised in Ireland and regulated by the Central Bank of Ireland (the “CBI”) and the CBI is responsible for supervising the
+Manager in relation to this Key Information Document.
+More information is available at www.blackrock.com or by calling +49 89427295800. This document is dated 09 April 2026.
+What is this product?
+Type: The Fund is a sub-fund of iShares V plc, an umbrella company incorporated in Ireland, authorised by the Central Bank of Ireland as a
+Undertaking for Collective Investment in Transferable Securities (“UCITS”). The Fund is a UCITS exchange-traded fund, a UCITS ETF.
+Term: The Fund does not have a fixed term of existence or maturity period but in certain circumstances, as described in the Fund prospectus,
+the Fund may be unilaterally terminated following written notice to unitholders subject to compliance with the Fund prospectus and applicable
+regulation.
+Objectives
+    The Share Class is a share class of a Fund which aims to achieve a return on your investment, through a combination of capital growth and
+    income on the Fund’s assets, which reflects the return of the MSCI Poland Index, the Fund’s benchmark index (Index).
+    The Share Class, via the Fund is passively managed and invests in equity securities (e.g. shares) that, so far as possible and practicable,
+    make up the Index.
+    The Index measures the performance of listed companies in Poland which meet MSCI’s global minimum size requirement. These
+    companies represent large and midmarket capitalisation companies within the Polish market. Market capitalisation is the share price of the
+    company multiplied by the number of shares issued.
+    The Fund intends to replicate the Index by holding the equity securities, which make up the Index, in similar proportions to it.
+    The Fund may also engage in short-term secured lending of its investments to certain eligible third parties to generate additional income
+    to off-set the costs of the Fund.
+    The investment manager may use financial derivative instruments (FDIs) (i.e. investments the prices of which are based on, one or more
+    underlying assets) to help achieve the Fund’s investment objective. FDIs may be used for direct investment purposes.
+    The price of equity securities fluctuates daily and may be influenced by factors affecting the performance of the individual companies
+    issuing the equities, as well as by daily stock market movements, and broader economic and political developments which in turn may
+    affect the value of your investment.
+    The relationship between the return on your investment, how it is impacted and the period for which you hold your investment is considered
+    below (see “How long should I hold it and can I take my money out early?”).
+    The depositary of the Fund is State Street Custodial Services (Ireland) Limited.
+    Further information about the Fund can be obtained from the latest annual report and half-yearly reports of the iShares V plc. These
+    documents are available free of charge in English and certain other languages. These can be found, along with other (practical)
+    information, including prices of units, on the iShares website at: www.ishares.com or by calling +49 89427295800 or from your broker or
+    financial adviser.
+    Your shares will be accumulating shares (i.e. income will be included in their value).
+    Your shares will be denominated in US Dollar, the Fund's base currency.
+    The shares are listed and traded on various stock exchanges. In normal circumstances, only authorised participants may buy and sell
+    shares directly with the Fund. Investors who are not authorised participants (e.g. select financial institutions) can generally only buy or sell
+    the shares on the secondary market (e.g. via a broker on a stock exchange) at the then prevailing market price. The value of the shares are
+    related to the value of the underlying assets of the Fund, less costs (see “What are the costs?” below). The prevailing market price at which
+    the shares trade on the secondary market may deviate from the value of the Shares. Indicative net asset value is published on relevant
+    stock exchanges websites.
+Intended retail investor: The Fund is intended for retail investors with the ability to bear losses up to the amount invested in the Fund (see
+“How long should I hold it and can I take my money out early?”).
+Insurance benefits: The Fund does not offer any insurance benefits.
+
+
+
+
+                                                                         1
+
+=== pdf p.2 ===
+What are the risks and what could I get in return?
+Risk Indicator
+
+Lower risk                                                                                                                                  Higher risk
+
+
+
+
+                   The risk indicator assumes you keep the product for 5 years. The actual risk can vary significantly if you cash in at an
+                   early stage and you may get back less.
+
+   The summary risk indicator is a guide to the level of risk of this product compared to other products. It shows how likely it is that the
+   product will lose money because of movements in the markets or because we are not able to pay you.
+   We have classified this product as 5 out of 7, which is a medium high risk class. This classification rates the potential losses from future
+   performance at a medium high level, and poor market conditions could affect the value of your investment. This classification is not
+   guaranteed and may change over time and may not be a reliable indication of the future risk profile of the Fund. The lowest category does
+   not mean risk free.
+   Be aware of currency risk. If you receive payments in a currency that is different to the product's base currency, the final return you will get
+   depends on the exchange rate between the two currencies. This risk is not considered in the indicator shown above.
+   Please refer to the product's Prospectus for details of other materially relevant risks that may apply to this product.
+   This product does not include any protection from future market performance so you could lose some or all of your investment.
+   If the product is not able to pay you what is owed, you could lose your entire investment.
+Performance Scenarios
+The figures shown include all the costs of the product itself, but may not include all the costs that you pay to your advisor or distributor. The
+figures do not take into account your personal tax situation, which may also affect how much you get back. What you will get from this product
+depends on future market performance. Market developments in the future are uncertain and cannot be accurately predicted. The
+unfavourable, moderate, and favourable scenarios shown are illustrations using the worst, average, and best performance of the product,
+which may include input from benchmark(s) / proxy, over the last ten years. Markets could develop very differently in the future.
+Recommended holding period : 5 years                                                                   Example Investment : USD 10,000
+Scenarios                                                                                 If you exit after 1 year If you exit after 5 years
+Minimum                  There is no minimum guaranteed return. You could lose some or all of your investment.
+Stress*                  What you might get back after costs                              4,810 USD                1,400 USD
+                         Average return each year                                         -51.9%                   -32.6%
+Unfavourable**           What you might get back after costs                              4,810 USD                4,050 USD
+                         Average return each year                                         -51.9%                   -16.5%
+Moderate**               What you might get back after costs                              10,960 USD               10,040 USD
+                         Average return each year                                         9.6%                     0.1%
+Favourable**             What you might get back after costs                              17,490 USD               24,150 USD
+                         Average return each year                                         74.9%                    19.3%
+*   The stress scenario shows what you might get back in extreme market circumstances.
+** This type of scenario occurred for an investment in the product and/or benchmark(s) or proxy between :
+Scenarios                      1 year                                               5 years
+Unfavourable                   September 2021 - September 2022                      September 2017 - September 2022
+Moderate                       January 2024 - January 2025                          March 2019 - March 2024
+Favourable                     December 2024 - December 2025                        October 2020 - October 2025
+What happens if BlackRock Asset Management Ireland Limited is unable to pay out?
+The assets of the Fund are held in safekeeping by its depositary, State Street Custodial Services (Ireland) Limited (the “Depositary”). In the
+event of the insolvency of the Manager, the Fund’s assets in the safekeeping of the Depositary will not be affected. However, in the event of the
+Depositary’s insolvency, or someone acting on its behalf, the Fund may suffer a financial loss. However, this risk is mitigated to a certain extent
+by the fact the Depositary is required by law and regulation to segregate its own assets from the assets of the Fund. The Depositary will also be
+liable to the Fund and the investors for any loss arising from, among other things, its negligence, fraud or intentional failure properly to fulfil its
+obligations (subject to certain limitations). As a shareholder of the Fund you would not be able to make a claim to the UK Financial Services
+Compensation Scheme or any other scheme about the Fund in the event that the Fund is unable to pay out.
+
+
+
+
+                                                                          2
+
+=== pdf p.3 ===
+What are the costs?
+The person advising on or selling you this product may charge you other costs. If so, this person will provide you with information about these
+costs and how they affect your investment.
+Costs over time: The tables show the amounts that are taken from your investment to cover different types of costs. These amounts depend on
+how much you invest, how long you hold the product and how well the product does. The amounts shown here are illustrations based on an
+example investment amount and different possible investment periods.
+We have assumed:
+    In the first year you would get back the amount that you invested (0 % annual return).
+    For the other holding periods we have assumed the product performs as shown in the moderate scenario.
+    USD 10,000 is invested.
+                                                                                                If you exit after 1 year If you exit after 5 years
+ Total costs                                                                                    76 USD                   388 USD
+Annual cost Impact (*)                                                                          0.8%                     0.8%
+(*) This illustrates how costs reduce your return each year over the holding period. For example it shows that if you exit at the recommended
+holding period your average return per year is projected to be 0.8% before costs and 0.1% after costs.
+We may share part of the costs with the person selling you the product to cover the services they provide to you. They will inform you of the
+amount.
+ Composition of Costs
+                                                                                                                             If you exit after 1
+ One-off costs upon entry or exit                                                                                            year
+ Entry costs                   We do not charge an entry fee.1                                                               -
+ Exit costs                    We do not charge an exit fee.1                                                                -
+ Ongoing costs taken each year
+ Management fees and           0.74% of the value of your investment per year. This is based on a combination of estimated 74 USD
+ other administrative or       and actual costs data over the last year. Any underlying product costs are included here
+ operating costs               with the exception of transaction costs which would be included below under 'Transaction
+                               costs'.
+Transaction costs              0.02% of the value of your investment per year. This is an estimate of the costs incurred 2 USD
+                               when we buy and sell the underlying investments for the product. The actual amount will
+                               vary depending on how much we buy and sell.
+ Incidental costs taken under specific conditions
+ Performance fees              There is no performance fee for this product.                                                 -
+1Not applicable to secondary market investors. Investors dealing via stock exchanges will pay fees charged by stock brokers. Such charges can
+be obtained on exchanges where the shares are listed and traded, or from stock brokers. Authorised participants dealing directly with the Fund
+or the Management Company will pay related transaction costs.
+How long should I hold it and can I take money out early? Recommended Holding Period: 5 years
+The recommended holding period (RHP) has been calculated in line with the investment strategy of the Fund and the time frame in which it is
+expected that it will be possible to achieve the investment objective of the Fund. Any investment should be considered against your specific
+investment needs and appetite for risk. BlackRock has not considered the suitability or appropriateness of this investment for your personal
+circumstances. If you are in any doubt about the suitability of the Fund to your needs you should seek appropriate professional advice. Details
+of dealing frequency can be found under “What is this product?”. You may receive less than expected if you cash in earlier than the RHP. The
+RHP is an estimate and must not be taken as a guarantee or an indication of future performance, return or risk levels. Please see the “What are
+the costs?” section for details of any exit fees.
+How can I complain?
+If you are not entirely satisfied with any aspect of the service you have received and you wish to complain, details of our complaints handling
+process are available at www.blackrock.com/uk/individual/about-blackrock/contact-us. Additionally, you can also write to the Investor
+Services Team, at BlackRock’s UK Registered Office, 12 Throgmorton Avenue, London, EC2N 2DL or e-mail them at info@ishares.co.uk.
+Other relevant information
+The latest version of this document, 10 year(s) of past performance of the Fund, previous performance scenario of the Fund, the latest annual
+report and half-yearly report and any additional information issued to shareholders can be obtained free of charge, in English, from
+www.blackrock.com or by calling the Investor Services Team on +49 89427295800 or from your broker, financial adviser or distributor.
+The benchmark(s) referenced herein are the intellectual property of the index provider(s). The product is not sponsored or endorsed by the
+index provider(s). Please refer to the product’s prospectus and/or www.blackrock.com for full disclaimer(s).
+The Remuneration Policy of the Management Company, which describes how remuneration and benefits are determined and awarded, and the
+associated governance arrangements, is available at www.blackrock.com/Remunerationpolicy or on request from the registered office of the
+Manager.
+
+
+
+
+                                                                        3
+

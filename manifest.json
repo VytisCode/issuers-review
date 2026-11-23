@@ -6774,5 +6774,93 @@
   "fetched": "2026-11-20",
   "ok": false,
   "error": "HTTP Error 403: Forbidden"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "factsheet",
+  "url": "https://www.ishares.com/gls-download/literature/fact-sheet/spol-ishares-msci-poland-ucits-etf-fund-fact-sheet-en-gb.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/factsheet_92f39be76c.pdf",
+  "sha256": "92f39be76c4d5bea23d5faadc1c4e38363ec44a11a0df4b7d13fd2da2ec8210d",
+  "bytes": 346982,
+  "final_url": "https://www.ishares.com/gls-download/literature/fact-sheet/spol-ishares-msci-poland-ucits-etf-fund-fact-sheet-en-gb.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "factsheet",
+  "url": "https://www.blackrock.com/gls-download/literature/fact-sheet/spol-ishares-msci-poland-ucits-etf-fund-fact-sheet-en-lu.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/factsheet_15657eaf3a.pdf",
+  "sha256": "15657eaf3a0995e270cce188d403d2fabcdb97fce75e9eb60f2f2a7573c7ae9e",
+  "bytes": 347341,
+  "final_url": "https://www.blackrock.com/gls-download/literature/fact-sheet/spol-ishares-msci-poland-ucits-etf-fund-fact-sheet-en-lu.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "kid",
+  "url": "https://www.ishares.com/gls-download/literature/kiid/ucits_kiid-ishares-msci-poland-ucits-etf-usd-acc-gb-ie00b4m7gh52-en.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/kid_19fda919d6.pdf",
+  "sha256": "19fda919d68ff532743956ec24165d96a56be5a42bf8747a293e76d2d97770a0",
+  "bytes": 171142,
+  "final_url": "https://www.ishares.com/gls-download/literature/kiid/ucits_kiid-ishares-msci-poland-ucits-etf-usd-acc-gb-ie00b4m7gh52-en.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "kid",
+  "url": "https://www.ishares.com/gls-download/literature/kiid/eu-priips-ishares-msci-poland-ucits-etf-usd-acc-ie00b4m7gh52-en.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/kid_7a36854ba2.pdf",
+  "sha256": "7a36854ba2963e1193b286e1e3f3d29f533cfe982c4c9d589c9d15c14b126f8b",
+  "bytes": 126677,
+  "final_url": "https://www.ishares.com/gls-download/literature/kiid/eu-priips-ishares-msci-poland-ucits-etf-usd-acc-ie00b4m7gh52-en.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "kid",
+  "url": "https://www.blackrock.com/gls-download/literature/kiid/eu-priips-ishares-msci-poland-ucits-etf-usd-acc-ie00b4m7gh52-en.pdf",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/kid_7a36854ba2.pdf",
+  "sha256": "7a36854ba2963e1193b286e1e3f3d29f533cfe982c4c9d589c9d15c14b126f8b",
+  "bytes": 126677,
+  "final_url": "https://www.blackrock.com/gls-download/literature/kiid/eu-priips-ishares-msci-poland-ucits-etf-usd-acc-ie00b4m7gh52-en.pdf"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "page",
+  "url": "https://www.ishares.com/uk/individual/en/products/251875/ishares-msci-poland-ucits-etf?switchLocale=y&siteEntryPassthrough=true",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/page_31c276c377.html",
+  "sha256": "31c276c377c42dcae81e8618a5b0212fd5aadfc6ecf83f918624f53bca95d74f",
+  "bytes": 3447114,
+  "final_url": "https://www.ishares.com/uk/individual/en/products/251875/ishares-msci-poland-ucits-etf?switchLocale=y&siteEntryPassthrough=true"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "page",
+  "url": "https://www.blackrock.com/lu/individual/en/products/251875/ishares-msci-poland-ucits-etf?switchLocale=y&siteEntryPassthrough=true",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/page_39cf2c6eca.html",
+  "sha256": "39cf2c6ecac9c5d51250f4704fa18a4175221efe77d6183d016c88b6c233d60d",
+  "bytes": 3392229,
+  "final_url": "https://www.blackrock.com/lu/individual/en/products/251875/ishares-msci-poland-ucits-etf?switchLocale=y&siteEntryPassthrough=true"
+ },
+ {
+  "isin": "IE00B4M7GH52",
+  "kind": "data",
+  "url": "https://www.ishares.com/uk/individual/en/products/251875/ishares-msci-poland-ucits-etf/1506575576011.ajax?fileType=csv&fileName=SPOL_holdings&dataType=fund",
+  "fetched": "2026-11-23",
+  "ok": true,
+  "file": "2026-11-23/IE00B4M7GH52/data_34b4c1a117.csv",
+  "sha256": "34b4c1a117afa3a7f130a014550b7ed3e2b31b8677b6b5522f938d0d7b948cd1",
+  "bytes": 3447114,
+  "final_url": "https://www.ishares.com/uk/individual/en/products/251875/ishares-msci-poland-ucits-etf/1506575576011.ajax?fileType=csv&fileName=SPOL_holdings&dataType=fund"
  }
 ]
