@@ -17,6 +17,7 @@ Slaptažodis niekur nesaugomas. Pametus - `init --force` (naujas raktas) ir visu
       # SALTINIAI.json: [{key,title,url}] - iš interneto (Actions, su turinio patikra); [{key,title,local:<kelias>}] - savininko
       # pateiktas failas (D#, KIID...) -> užšifruotas gautų dokumentų ZIP iš karto; dashboard'as sujungia abu į vieną ZIP
   python tools/dd_vault.py evidence ID KATALOGAS       # įrodymų ZIP (vietiniai failai: išrašai, savi skaičiavimai) – pakeičia ankstesnį
+  python tools/dd_vault.py add F.pptx ... --view VIEW.json --evidence KATALOGAS  # Funds DD: trūkstami duomenys dashboard'e + įrodymų ZIP vienu žingsniu
   python tools/dd_vault.py replace ID                # pataisytas DD (tas pats failas manifest'e) – ZIP lieka
   python tools/dd_vault.py remove ID                 # pašalina įrašą (ir jo ZIP)
   python tools/dd_vault.py rekey                     # pamiršus slaptažodį: naujas raktas, visi DD iš projekto failų iš naujo
@@ -126,15 +127,21 @@ def _job(eid, stem, src):
     C.write_text_atomic((DIR / "jobs" / f"{eid}.json"), json.dumps({"parent": eid, "name": f"{stem}_documents.zip", "sources": job}, ensure_ascii=False, indent=1))
 
 
-def add(path, meta, sources=None, record=True, kind="dd"):
-    eid = add_bytes(Path(path).read_bytes(), {**meta, "type": kind, "file": Path(path).name})
+def add(path, meta, sources=None, record=True, kind="dd", view=None, evid=None):
+    """view – VIEW.json (trūkstami duomenys `missing`, `summary`, `status`) rodomas dashboard'e prie DD („View“);
+    evid – įrodymų katalogas (Excel + README) – tas pats, kas `evidence <id> <katalogas>`."""
+    vmeta = {"view": json.loads(Path(view).read_text())} if view else {}
+    eid = add_bytes(Path(path).read_bytes(), {**meta, **vmeta, "type": kind, "file": Path(path).name})
     if sources:
         _job(eid, Path(path).stem, sources)
     if record and MANIFEST.parent.exists():
         man = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else []
-        man = [m for m in man if m["path"] != str(Path(path).resolve())] + [{"path": str(Path(path).resolve()), "id": eid, "meta": meta, "sources": sources or []}]
+        man = [m for m in man if m["path"] != str(Path(path).resolve())] + [{"path": str(Path(path).resolve()), "id": eid, "meta": meta, "sources": sources or [],
+                                                                    **({"view": str(Path(view).resolve())} if view else {})}]
         C.write_text_atomic(MANIFEST, json.dumps(man, ensure_ascii=False, indent=1))
-    print(f"Pridėta: {eid} ({Path(path).name})" + (" + ZIP užduotis" if sources else ""))
+    print(f"Pridėta: {eid} ({Path(path).name})" + (" + ZIP užduotis" if sources else "") + (" + VIEW" if view else ""))
+    if evid:
+        evidence(eid, evid)
     return eid
 
 
@@ -272,7 +279,7 @@ if __name__ == "__main__":
     sc.add_argument("--sources"); sc.add_argument("--evidence")
     so = sub.add_parser("sources"); so.add_argument("id"); so.add_argument("file")
     ev = sub.add_parser("evidence"); ev.add_argument("id"); ev.add_argument("dir")
-    a = sub.add_parser("add"); a.add_argument("file"); a.add_argument("--sources")
+    a = sub.add_parser("add"); a.add_argument("file"); a.add_argument("--sources"); a.add_argument("--view"); a.add_argument("--evidence")
     for f in ("issuer", "name", "isin", "lang", "title", "decision", "sfdr"):
         a.add_argument("--" + f, default="")
     a.add_argument("--date", default=dt.date.today().isoformat())
@@ -293,4 +300,4 @@ if __name__ == "__main__":
         remove(x.id)
     else:
         add(x.file, {k: getattr(x, k) for k in ("issuer", "name", "isin", "lang", "title", "decision", "sfdr", "date")},
-            json.loads(Path(x.sources).read_text()) if x.sources else None)
+            json.loads(Path(x.sources).read_text()) if x.sources else None, view=x.view, evid=x.evidence)
