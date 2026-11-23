@@ -1,0 +1,87 @@
+{
+ "parent": "5eddee6856aab876",
+ "name": "DD_Funds_iShares_MSCI_Poland_IE00B4M7GH52_2026-11-23_documents.zip",
+ "sources": [
+  {
+   "key": "W1",
+   "title": "iShares – product page iShares MSCI Poland UCITS ETF (key facts, sectors, securities lending, listings), read 23.11.2026",
+   "url": "https://www.ishares.com/uk/individual/en/products/251875/ishares-msci-poland-ucits-etf",
+   "expect": [
+    "MSCI Poland"
+   ]
+  },
+  {
+   "key": "J1",
+   "title": "justETF – profile iShares MSCI Poland UCITS ETF USD (Acc), IE00B4M7GH52, read 23.11.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4M7GH52",
+   "expect": [
+    "IE00B4M7GH52"
+   ]
+  },
+  {
+   "key": "J2",
+   "title": "justETF – profile Expat Poland WIG20 UCITS ETF, BGPLWIG04173, read 23.11.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=BGPLWIG04173",
+   "expect": [
+    "BGPLWIG04173"
+   ]
+  },
+  {
+   "key": "J3",
+   "title": "justETF – profile Amundi MSCI Eastern Europe ex Russia UCITS ETF Acc, LU1900066462, read 23.11.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=LU1900066462",
+   "expect": [
+    "LU1900066462"
+   ]
+  },
+  {
+   "key": "N1",
+   "title": "Central Bank of Ireland – warning notice on unauthorised firms cloning “BlackRock Asset Management Ireland Limited”, 26.09.2022, updated 20.10.2026",
+   "url": "https://www.centralbank.ie/news/article/warning-notice-central-bank-of-ireland-issues-warning-on-unauthorised-firm-blackrock-asset-management-ireland-limited-28-apr-2023",
+   "expect": [
+    "BlackRock Asset Management Ireland"
+   ]
+  },
+  {
+   "key": "N2",
+   "title": "Texas Attorney General – press release “Trump Administration Supports Attorney General Ken Paxton’s Lawsuit Against BlackRock, State Street …”, 23.05.2025",
+   "url": "https://www.texasattorneygeneral.gov/news/releases/trump-administration-supports-attorney-general-ken-paxtons-lawsuit-against-blackrock-state-street",
+   "expect": [
+    "BlackRock"
+   ]
+  },
+  {
+   "key": "N3",
+   "title": "Climate Litigation Database – Texas v. BlackRock, Inc., No. 6:24-cv-00437 (E.D. Tex.), case page read 23.11.2026",
+   "url": "https://www.climatecasechart.com/document/texas-v-blackrock-inc_f224",
+   "expect": [
+    "BlackRock"
+   ]
+  },
+  {
+   "key": "P1",
+   "title": "iShares V plc – Prospectus, 3 September 2026 (fund section p.89; investment restrictions Schedule III pp.229–231); PDF page = printed page",
+   "url": "https://www.ishares.com/gls-download/literature/prospectus/ishares-v-plc-prospectus-en.pdf"
+  },
+  {
+   "key": "K1",
+   "title": "PRIIPs Key Information Document, iShares MSCI Poland UCITS ETF USD (Acc) (IE00B4M7GH52), 09.04.2026",
+   "url": "https://www.ishares.com/gls-download/literature/kiid/eu-priips-ishares-msci-poland-ucits-etf-usd-acc-ie00b4m7gh52-en.pdf"
+  },
+  {
+   "key": "F1",
+   "title": "Factsheet, iShares MSCI Poland UCITS ETF USD (Acc), October 2026 (performance as of 31.10.2026)",
+   "url": "https://www.ishares.com/gls-download/literature/fact-sheet/spol-ishares-msci-poland-ucits-etf-fund-fact-sheet-en-gb.pdf"
+  },
+  {
+   "key": "A1",
+   "title": "iShares V plc – Annual report and audited financial statements, year ended 30.11.2025; page = PDF page (printed page number is one lower)",
+   "url": "https://www.ishares.com/gls-download/literature/annual-report/ishares-v-plc-annual-report-en-30-nov-25.pdf"
+  },
+  {
+   "key": "I1",
+   "title": "MSCI – Index factsheet MSCI Poland Index (USD), 30.10.2026",
+   "url": "https://www.msci.com/documents/10199/255599/msci-poland-index-usd-net.pdf"
+  }
+ ]
+}
