@@ -39,8 +39,8 @@ Prieš darbą perskaityk jo failą visą. Taisyklė gyvena vienoje vietoje: kei�
 | Dashboard (meniu, darbai, Funds dalis) | [rules/dashboard.md](rules/dashboard.md) |
 
 ## Patikra prieš push
-Savininkas (2026-11-11): Claude pats sujungia į `main` (tiesioginis push arba savo PR sujungimas) – savininkui PR tvirtinti nereikia; prieš tai – žemiau nurodyta patikra.
-Prieš bet kokį darbą – pradėk nuo naujausio `origin/main` (kitas redaktorius galėjo pakeisti taisykles). Nauja nuolatinė taisyklė iš pokalbio → į `rules/` failą per PR, ne tik į atmintį. Siūloma dviejų redaktorių sujungimo tvarka – [rules/team_work.md](rules/team_work.md) 3 d. (kol kas negalioja).
+Sujungimas į `main` (Vytis 2026-11-24, pakeičia 2026-11-11 taisyklę): [rules/team_work.md](rules/team_work.md) 3 d. Trumpai: duomenis ir rezultatus Claude sujungia pats po patikros; taisyklių ir įrankių (`CLAUDE.md`, `rules/`, `tools/`, `site/`, `.github/`) PR sujungia pats, bet priskiria kitam redaktoriui ir parašo, ką pakeitė; jei keičiasi kito žmogaus darbo rezultatas – laukia jo patvirtinimo. Prieš sujungimą – žemiau nurodyta patikra.
+Prieš bet kokį darbą – pradėk nuo naujausio `origin/main` (kitas redaktorius galėjo pakeisti taisykles). Nauja nuolatinė taisyklė iš pokalbio → į `rules/` failą per PR, ne tik į atmintį.
 `python tools/check_repo.py && python tools/build_reports.py && python tools/build_site.py` be klaidų; jei keistas `site/` – atidaryti `docs/index.html` naršyklėje (Playwright) be JS klaidų.
 
 ## Kaip dirbti su redaktoriumi (Vyčiu ar kolega)

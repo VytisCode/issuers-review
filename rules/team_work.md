@@ -17,9 +17,7 @@
 5. Sujungimas pagal 3 dalies taisyklę.
 
 ## 3. Kas sujungia į `main`
-**Galioja dabar** (Vytis 2026-11-11): Claude pats sujungia savo PR po patikros ir praneša, kas sujungta.
-
-**Siūlymas dviem redaktoriams (laukia Vyčio sprendimo, kol kas negalioja):**
+**Galioja nuo 2026-11-24** (Vytis pasirinko šią tvarką; pakeičia 2026-11-11 taisyklę „Claude viską sujungia pats“):
 - *Duomenys ir rezultatai* (`reports/`, `data/`, ataskaitos, DD archyvo įrašai, `config/securities.csv`): Claude sujungia pats po patikros, kaip dabar.
 - *Taisyklės ir įrankiai* (`CLAUDE.md`, `rules/`, `tools/`, `site/`, `.github/`): Claude sujungia pats po patikros, bet PR priskiria **kitam** redaktoriui (assignee) ir pranešime parašo vieną sakinį „ką pakeitė kitam“. Jei pakeitimas keičia kito žmogaus darbo rezultatą (pvz., DD formą, Duration lentelę) – nesujungia, kol kitas redaktorius nepatvirtina PR.
 - Kodėl ne „visada laukti patvirtinimo“: abu dirbate ne kasdien, o laukiantis PR genda (pasensta, atsiranda konfliktų). Kodėl ne „niekada nelaukti“: kitas žmogus kitą rytą gautų pasikeitusį DD formatą be įspėjimo.
