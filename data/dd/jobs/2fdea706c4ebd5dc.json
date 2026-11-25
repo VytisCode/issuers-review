@@ -1,0 +1,90 @@
+{
+ "parent": "2fdea706c4ebd5dc",
+ "name": "DD_Funds_iShares_Nasdaq_US_Biotechnology_IE00BYXG2H39_2026-11-25_documents.zip",
+ "sources": [
+  {
+   "key": "W1",
+   "title": "iShares – product page iShares Nasdaq US Biotechnology UCITS ETF (key facts, sector, securities lending), read 25.11.2026",
+   "url": "https://www.ishares.com/uk/individual/en/products/291450/ishares-nasdaq-us-biotechnology-ucits-etf",
+   "expect": [
+    "Biotechnology"
+   ]
+  },
+  {
+   "key": "J1",
+   "title": "justETF – profile iShares Nasdaq US Biotechnology UCITS ETF, IE00BYXG2H39, read 25.11.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BYXG2H39",
+   "expect": [
+    "IE00BYXG2H39"
+   ]
+  },
+  {
+   "key": "J2",
+   "title": "justETF – profile Invesco NASDAQ Biotech UCITS ETF, IE00BQ70R696, read 25.11.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BQ70R696",
+   "expect": [
+    "IE00BQ70R696"
+   ]
+  },
+  {
+   "key": "J3",
+   "title": "justETF – profile Xtrackers MSCI World Health Care UCITS ETF 1C, IE00BM67HK77, read 25.11.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BM67HK77",
+   "expect": [
+    "IE00BM67HK77"
+   ]
+  },
+  {
+   "key": "J4",
+   "title": "justETF – profile iShares S&P 500 Health Care Sector UCITS ETF, IE00B43HR379, read 25.11.2026",
+   "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B43HR379",
+   "expect": [
+    "IE00B43HR379"
+   ]
+  },
+  {
+   "key": "N1",
+   "title": "Central Bank of Ireland – warning notice on unauthorised firms cloning “BlackRock Asset Management Ireland Limited”, 26.09.2022, updated 20.10.2026",
+   "url": "https://www.centralbank.ie/news/article/warning-notice-central-bank-of-ireland-issues-warning-on-unauthorised-firm-blackrock-asset-management-ireland-limited-28-apr-2023",
+   "expect": [
+    "BlackRock Asset Management Ireland"
+   ]
+  },
+  {
+   "key": "N2",
+   "title": "Texas Attorney General – press release “Trump Administration Supports Attorney General Ken Paxton’s Lawsuit Against BlackRock, State Street …”, 23.05.2025",
+   "url": "https://www.texasattorneygeneral.gov/news/releases/trump-administration-supports-attorney-general-ken-paxtons-lawsuit-against-blackrock-state-street",
+   "expect": [
+    "BlackRock"
+   ]
+  },
+  {
+   "key": "N3",
+   "title": "Climate Litigation Database – Texas v. BlackRock, Inc., No. 6:24-cv-00437 (E.D. Tex.), case page",
+   "url": "https://www.climatecasechart.com/document/texas-v-blackrock-inc_f224",
+   "expect": [
+    "BlackRock"
+   ]
+  },
+  {
+   "key": "P1",
+   "title": "iShares IV plc – Prospectus (fund section p.113; anticipated tracking error p.130; securities lending p.134; manager p.219; investment restrictions Schedule III pp.250–252); PDF page = printed page",
+   "url": "https://www.ishares.com/gls-download/literature/prospectus/ishares-iv-plc-prospectus-en.pdf"
+  },
+  {
+   "key": "K1",
+   "title": "PRIIPs Key Information Document, iShares NASDAQ US Biotechnology UCITS ETF USD Accu (IE00BYXG2H39), 09.04.2026",
+   "url": "https://www.ishares.com/gls-download/literature/kiid/eu-priips-ishares-nasdaq-us-biotechnology-ucits-etf-ie00byxg2h39-en.pdf"
+  },
+  {
+   "key": "F1",
+   "title": "Factsheet, iShares Nasdaq US Biotechnology UCITS ETF USD (Acc), October 2026 (performance as of 31.10.2026)",
+   "url": "https://www.ishares.com/gls-download/literature/fact-sheet/btec-ishares-nasdaq-us-biotechnology-ucits-etf-fund-fact-sheet-en-gb.pdf"
+  },
+  {
+   "key": "A1",
+   "title": "iShares IV plc – Annual report and audited financial statements, year ended 31.05.2026 (1,539 pages); page = PDF page (printed page number is one lower)",
+   "url": "https://www.ishares.com/gls-download/literature/annual-report/ishares-iv-plc-annual-report-en-31-may-26.pdf"
+  }
+ ]
+}
