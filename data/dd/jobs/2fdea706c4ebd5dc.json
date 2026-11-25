@@ -86,5 +86,12 @@
    "title": "iShares IV plc – Annual report and audited financial statements, year ended 31.05.2026 (1,539 pages); page = PDF page (printed page number is one lower)",
    "url": "https://www.ishares.com/gls-download/literature/annual-report/ishares-iv-plc-annual-report-en-31-may-26.pdf"
   }
- ]
+ ],
+ "problems": [
+  {
+   "key": "N3",
+   "why": "nėra laukiamo teksto: BlackRock"
+  }
+ ],
+ "done": "5a5c8d4c936dc6ae"
 }
