@@ -1,0 +1,116 @@
+=== pdf p.1 ===
+Key Investor Information
+This document provides you with key investor information about this fund. It is not marketing material. The information is required by law to help you understand the nature and
+the risks of investing in this fund. You are advised to read it so you can make an informed decision about whether to invest.
+
+
+Robeco 3D EM Equity UCITS ETF USD Acc (IE0002Z12PN9)
+This fund is a subfund of Robeco UCITS, ICAV
+Management Company: Robeco Institutional Asset Management B.V.
+
+
+Objectives and investment policy
+                                                                                                           returns will be taken into consideration when making country allocations/stock selection
+Robeco 3D EM Equity UCITS ETF is an actively managed Sub-fund that invests in stocks of
+                                                                                                           decisions.
+companies in emerging markets and will apply the Manager’s “3D” investment strategy, which
+seeks to consider risk, return and sustainability in the Sub-fund’s portfolio. The Sub-fund’s              Benchmark: MSCI Emerging Markets Index (Net return, USD)
+portfolio will be optimised using a quantitative process to target returns in excess of the
+                                                                                                           The Sub-fund is actively managed. Securities selected for the Sub-fund’s investment universe
+Benchmark, sustainability characteristics better than the Benchmark and to manage risk
+                                                                                                           may be components of the Benchmark, but securities outside the Benchmark may be selected
+compared to the Benchmark. The three dimensions of risk, return and sustainability are
+                                                                                                           too. The Sub-fund can deviate substantially from the weightings of the Benchmark. The
+considered together in the Manager’s proprietary quantitative stock-ranking model.
+                                                                                                           Management Company has discretion over the composition of the Portfolio subject to the
+The Sub-fund promotes environmental and/or social characteristics within the meaning of Article            Investment Guidelines. The Sub-fund aims to outperform the Benchmark over the long run,
+8 of the Regulation (EU) 2019/2088 of 27 November 2019 on sustainability-related disclosures in            whilst still controlling relative risk through the applications of limits (on VaR Ratio) to the extent
+the financial sector. The Sub-fund takes explicitly into account the contribution of a company to          of deviation from the Benchmark. This will consequently limit the deviation of the performance
+the United Nations Sustainable Development Goals (SDG). The Sub-fund strives for economic                  relative to the Benchmark.
+results, while at the same time taking into account environmental, social and governance
+                                                                                                           This share class of the fund does not distribute dividend.
+characteristics which are further explained in the prospectus.
+                                                                                                           You can purchase or sell units in the fund on any valuation day. This fund may not be
+The Sub-fund is exposed to the exchange rate movements of the currencies in which the assets
+                                                                                                           appropriate for investors who plan to withdraw their money within 5 years.
+of the Sub-fund are denominated. For the management of the Sub-fund, expectations of currency
+
+
+
+
+Risk and reward profile
+Lower risk - Typically lower rewards                                                                                                                                        Higher risk - Typically higher rewards
+
+
+
+
+                                                                                                           reflected by the indicator:
+Historical data, such as is used in calculating the synthetic indicator, is not a reliable indication of
+                                                                                                           -    A derivative counterparty may fail to fulfil its obligations which could result in a loss.
+the future risk profile. The risk and reward category shown is not guaranteed to remain unchanged,
+                                                                                                                Counterparty risk is reduced via the exchange of collateral.
+the categorization may shift over time. The lowest category does not mean a risk-free investment.
+                                                                                                           -    The fund invests in assets that could become less liquid in certain market conditions, which
+Emerging and frontier markets are usually characterised by less stable political and economic                   could have a significant impact on the value of these assets.
+environment. This may result in larger price movements, increased volatility and potentially lower         -    The fund is managed using quantitative models. Materialization of the model risk may be
+liquidity compared to developed markets. The fund may use financial derivatives.                                detrimental to fund performance.
+The following risk considerations are deemed material for this fund, and are not (adequately)              -    For more details about portfolio risks, see Section 4. “Risk Considerations” of the prospectus.
+
+
+
+
+For a complete overview of all risks attached to this fund we refer to section Risk considerations within the prospectus.
+
+=== pdf p.2 ===
+Charges
+                                                                                                              The entry and exit charges shown are the maximum figures. Contact your financial advisor or
+  One-off charges taken before or after you invest
+                                                                                                              distributor to find out the actual entry or exit charge.
+  Entry charge*                                                                                    None
+                                                                                                              *Dependent on the distribution channel, it is possible that additional costs are charged by the
+  Switch charge                                                                                    None
+                                                                                                              distributor.
+  Exit charge                                                                                      None
+  This is the maximum that might be taken out of your money before it is invested.
+                                                                                                              Ongoing charges are based on the expenses for the last calendar year ended 31-12-2024. This
+  Charges taken from the fund over a year                                                                     figure may vary from year to year and does not include performance fees or transaction costs,
+  Ongoing charges                                                                                  0.30%      except in the case of exit/entry charges paid by the UCITS when buying or selling units in
+  Charges taken from the fund under certain specific conditions                                               another collective investment undertaking. For funds launched or for fee changes that are
+  Performance fee                                                                                  None       implemented during the current calendar year, the ongoing charge is estimated.
+
+                                                                                                              For more information on fees, charges and performance fee calculation methods we refer to
+The charges are used to pay the costs of running the fund, including the costs of marketing and               section Fees and Expenses within the prospectus, available on the website: www.robeco.com
+distributing. The charges reduce the potential growth of the investment.
+
+
+
+
+Past performance
+                                                                                                              Currency: USD
+                                                                                                              1st quotation date: 15-04-2025
+
+
+
+
+Practical information
+  - The depositary of the ICAV is J.P. Morgan SE - Dublin Branch.
+  - This key investor information document describes a subfund of the ICAV, the prospectus and periodic reports are prepared for the entire ICAV.
+  - The English prospectus, and the (semi) annual report and the details of the remuneration policy of the management company can be obtained free of charge on www.robeco.com/riam. The website also
+     publishes the latest prices and other information.
+  - The assets and liabilities of each subfund are segregated by law. Shares of one subfund may be exchanged with another subfund of the ICAV as further described in the prospectus. The ICAV may offer
+     other share classes of the subfund. Information on these share classes is available in the prospectus.
+  - The tax legislation of the ICAV's home Member State may have an impact on the personal tax position of the investor.
+  - Robeco Institutional Asset Management B.V. may be held liable solely on the basis of any statement contained in this document that is misleading, inaccurate or inconsistent with the relevant parts of the
+     prospectus of the ICAV.
+
+
+
+
+The Robeco UCITS, ICAV is authorised in Ireland and regulated by the Central Bank of Ireland.
+Robeco Institutional Asset Management B.V. is authorised in The Netherlands and regulated by the AFM.
+
+
+
+
+This Key Investor Information is accurate as of 12-02-2026
+

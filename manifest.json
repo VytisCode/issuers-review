@@ -6991,5 +6991,51 @@
   "sha256": "2df1d70fc30824d596a60d9bc1976b17475f95ec012ccfae8dbc63379a381e3f",
   "bytes": 427672,
   "final_url": "https://www.justetf.com/en/etf-profile.html?isin=LU1900066462"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://docs.extraetf.com/download/IE0002Z12PN9/en/MR/",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/factsheet_4468c38ded.pdf",
+  "sha256": "4468c38ded295bc18133332ab1e7ee8327710d0c772b2c6cbaa71eabc6c53e2f",
+  "bytes": 587547,
+  "final_url": "https://docs.extraetf.com/download/IE0002Z12PN9/en/MR/"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.finanzfluss.de/document/IE0002Z12PN9/de/factsheet",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://assets.finanzfluss.de/informer/documents/IE0002Z12PN9-factsheet.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.finanzfluss.de/document/IE0002Z12PN9/de/kiid",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://docs.extraetf.com/download/IE0002Z12PN9/en/KID/",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/kid_412a3f6677.pdf",
+  "sha256": "412a3f66770dda3a1665ef6d294ad4d236fa2db15f342b22353018b7de0620ae",
+  "bytes": 125306,
+  "final_url": "https://docs.extraetf.com/download/IE0002Z12PN9/en/KID/"
  }
 ]
