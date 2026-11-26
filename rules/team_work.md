@@ -7,7 +7,7 @@
 - Kiekvieno redaktoriaus Claude projektas turi **savo** pokalbius, atmintį ir projekto failus. Kito redaktoriaus Claude jų **nemato**. Todėl taisyklė, kurią pasakei tik pokalbyje ar kuri liko tik projekto atmintyje, kolegai neegzistuoja.
 - Claude, gavęs naują nuolatinę taisyklę („nuo šiol…“, „visada…“), įrašo ją į atitinkamą `rules/` failą ir sujungia į `main` (žr. 3 d.). Į projekto atmintį – tik tai, kas asmeniška arba laikina (pvz., „laukiu kolegos atsakymo“).
 - Paskyros „skills“ (claude.ai) yra asmeniniai: kolega jų negauna ir negali redaguoti. Todėl bendras standartas laikomas `rules/analysis_standards.md`, o `.claude/skills/analysis-standards/SKILL.md` tik nurodo į jį (Claude Code jį randa repozitorijoje).
-- Repozitorija **vieša**: jokių slaptažodžių, raktų, asmens duomenų, SEB vidinių dokumentų, portfelio sumų ar DD turinio atviru tekstu.
+- Repozitorija **vieša**: jokių slaptažodžių, raktų, asmens duomenų, SEB vidinių dokumentų, portfelio sumų ar DD turinio atviru tekstu. Išimtis (Vytis 2026-11-26): Funds DD generatoriai su pavyzdžiu `tools/funds_dd/make_dd_ishares_poland.py` laikomi čia atvirai, kad abu redaktoriai turėtų tą pačią versiją; SEB vidinių sistemų adresai (pvz. eNameChecker) į repozitoriją vis tiek nekeliami. Nauji DD generatoriai ir DD failai – tik savo projekto failuose ir užšifruotame archyve.
 
 ## 2. Kaip į repozitoriją patenka pakeitimas
 1. Kiekviena Claude gija dirba **savo šakoje** (`claude/...`), niekada tiesiai kito žmogaus šakoje.
@@ -44,8 +44,9 @@
 ## 6. Ko kolegos Claude neturės ir kaip tai išspręsti
 | Priklausomybė | Kur dabar | Kaip pasidalinti saugiai |
 |---|---|---|
-| Darbų generatoriai ir metodika (~100 Python failų, `metodika.md`, `struktura_etf_dd.md`, `review_lib.py`, `funds_dd_lib.py`, `make_duration.py`, `accounting_fields.py`, …) | Tik Vyčio projekto failuose | Ne konfidencialius – perkelti į repozitoriją (`tools/` ar `methods/`), patikrinus, kad nėra vidinių duomenų. Kol neperkelta, Funds DD, Fund review, Duration ir Apskaitos formos darbai veikia tik Vyčio projekte. |
-| SEB „Liquid Funds DD Template“ (pptx) | Vyčio projekto failai | Į viešą repo **nekelti**. Kolega įkelia jį į savo Claude projekto failus pats (iš SEB vidinių sistemų). |
+| Funds DD generatoriai, šablonas ir metodika (`funds_dd_lib.py`, `calc_book.py`, `make_funds_dd.py`, `struktura_etf_dd.md`, `apskaita_fondams.md`, `accounting_fields.py`, pavyzdys `make_dd_ishares_poland.py`) | **Repozitorijoje** `tools/funds_dd/` (nuo 2026-11-26) | Kaip paleisti – `tools/funds_dd/README.md`. Šių failų pataisymai – tik per PR čia; senos kopijos Vyčio projekto failuose nebėra pagrindinės. |
+| Kiti generatoriai ir metodika (`metodika.md`, `review_lib.py`, `make_duration.py`, aktyvaus fondo DD pavyzdys `make_dd_aqr_delphi.py`, obligacijų DD generatoriai, …) | Tik Vyčio projekto failuose | Perkelti į repozitoriją tuo pačiu būdu (`tools/<darbas>/`), patikrinus, kad nėra slaptažodžių ir vidinių adresų. Kol neperkelta, Fund review, Duration, ETF paieškos / challenge darbai veikia tik Vyčio projekte. |
+| SEB „Liquid Funds DD Template“ (pptx) | Repozitorijoje `tools/funds_dd/Liquid_Funds_DD_Template.pptx` (nuo 2026-11-26) | Tai tuščias šablonas, kurį Claude sukūrė pagal aprašymą; jame tik tuščios lentelės (Vytis 2026-11-26: ne paslaptis). |
 | SEB politikų PDF | Vyčio projekto failai | Jei tai vieši SEB tinklapio dokumentai – kolega atsisiunčia pats; santrauka jau yra `config/seb_policies.yaml`. |
 | DD archyvo slaptažodis | Tik Vyčio galvoje / slaptažodžių tvarkyklėje | Perduoti asmeniškai. Niekada į repo, pokalbį ar atmintį. |
 | DD manifest (`/mnt/project-files/dd/manifest.json`) ir pradiniai DD failai | Vyčio projekto failai | `dd_vault.py add` veikia ir be jo (įrašas į manifest praleidžiamas), bet `replace`/`rekey` reikalauja manifest – tai daro tas, kurio projekte DD sukurtas. |
@@ -56,7 +57,7 @@
 1. Priimti GitHub kvietimą į `vytiscode/issuers-review` (teisė „Write“) – el. laiške arba https://github.com/notifications.
 2. claude.ai → Claude Code → prijungti GitHub (https://claude.ai/connect-github) ir įdiegti Claude GitHub App savo paskyrai, jei klausia.
 3. Susikurti savo Claude projektą ir jame pridėti repozitoriją `vytiscode/issuers-review`. Projekto instrukcijose užtenka vienos eilutės: „Dirbk pagal repozitorijos CLAUDE.md ir rules/; nuolatines taisykles rašyk į rules/ per PR (rules/team_work.md).“
-4. Į savo projekto failus įkelti tai, ko jam reikia ir kas negali būti viešai (pvz., SEB DD šabloną).
+4. Į savo projekto failus įkelti tai, ko jam reikia ir kas negali būti viešai (Funds DD šablonas jau yra `tools/funds_dd/`).
 5. Gauti iš Vyčio asmeniškai: DD archyvo slaptažodį ir ISIN sąrašo PIN (jei įjungtas).
 6. Dashboard: https://vytiscode.github.io/issuers-review/ – peržiūrai nieko nereikia; ISIN sąrašo keitimui – PIN; DD archyvui – slaptažodis; mygtukai „Run workflow“ veda į GitHub – reikia būti prisijungus su „Write“ teise; „Copy prompt“ mygtukų tekstą įklijuoti į **savo** Claude projektą.
 7. Pirmas bandymas: savo projekte parašyti „paieškok naujų ataskaitų ir naujienų“ (nemokama, be AI) ir patikrinti, kad Claude paleidžia `update.yml`.

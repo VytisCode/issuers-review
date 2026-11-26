@@ -22,7 +22,7 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt pyflakes==3.4.0
       - name: Python code (syntax, unused / undefined names)
-        run: python -m pyflakes tools/*.py
+        run: python -m pyflakes tools/*.py tools/funds_dd/*.py
       - name: Dashboard script syntax
         run: node --check site/app.js
       - name: Data files (YAML, securities.csv, history CSV)
