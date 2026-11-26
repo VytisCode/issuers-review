@@ -1,0 +1,574 @@
+=== pdf p.1 ===
+                                                                                         ROBECO ACTIVE ETFs             |    1
+
+
+
+
+ROBECO ACTIVE ETFs
+
+
+Active ETFs
+for today’s investors                                                                    Marketing materials for professional
+                                                                                   investors only, not for onward distribution.
+                                                                                                               February 2026
+
+
+
+
+Driven by data, sharpened through innovation.   Why Active ETFs?   Why Robeco?   Our one-stop ETF shop
+Predictably different. Distinctively Robeco.
+
+=== pdf p.2 ===
+                               ROBECO ACTIVE ETFs   |   2
+
+
+
+
+As active ETFs continue to
+grow in popularity, more
+investors are incorporating
+these products into their
+portfolios.
+
+But what makes them so
+appealing, and why is Robeco
+well positioned to deliver
+these solutions?
+
+=== pdf p.3 ===
+WHY ACTIVE ETFs?                                                                                                                      ROBECO ACTIVE ETFs   |   3
+
+
+
+
+The evolution of active ETFs
+
+Exchange-traded funds (ETFs) began life as simple
+trackers: cost-efficient ways to follow an index. Active       ACCESS AND FLEXIBILITY             OPTIMAL TRANSPARENCY
+ETFs take that concept significantly further, combining the
+                                                               Listed on exchange with intraday   Transparency of holdings, costs,
+liquidity, transparency, and flexibility of an ETF structure
+                                                               trading capability.                and price.
+with the potential for outperformance that comes from
+skilled active management.
+
+In practice, this means investors get much more than just
+market exposure: they gain access to research-driven
+                                                               COST EFFICIENCY                    RESEARCH-DRIVEN DESIGN
+insights, sophisticated systematic models, and AI-driven
+investment ideas, all wrapped in a structure that trades
+                                                               Competitive cost structure.        Robust insights from quantitative
+seamlessly on exchange throughout the trading day.                                                and fundamental teams.
+
+=== pdf p.4 ===
+WHY ACTIVE ETFs?                                                                                                                                                                                 ROBECO ACTIVE ETFs                     |   4
+
+
+
+
+In numbers: Active ETFs today                                                                         This transformation reflects investor demand for lower costs and greater accessibility
+                                                                                                      than mutual funds, transparency with intraday liquidity, and a vehicle for innovation
+                                                                                                      spanning systematic equities to climate bonds and AI-driven thematics. Regulatory
+                                                                                                      reforms have unlocked new possibilities in the US and beyond.
+
+Where active ETFs were once confined to a small corner of the investment universe, that               Figure 1 | Global Active ETFs AuM (USD bln)                        Figure 2 | Active EU-listed ETFs net flows (USD bln) and
+                                                                                                                                                                                     share of total net flows (%)
+picture has changed dramatically, driven by structural shifts in investor preferences and
+regulatory improvements.                                                                              1,500                                                              20                                                                 8%
+
+
+                                                                                                                                                                         15                                                                 6%
+                                                                                                      1,000
+                                                                                                                                                                         10                                                                 4%
+
+
+  USD   17.3 tln	GLOBAL ETF ASSETS                                                                     500
+                                                                                                                                                                          5                                                                 2%
+                       More than doubled since USD 7.6 trillion in 2020
+                                                                                                          0                                                               0                                                                 0%
+
+        2.7 tln	FIXED INCOME ETFs
+                                                                                                           ‘14        ‘16        ‘18        ‘20     ‘22        ‘24 ‘25        ‘19     ‘20     ‘21      ‘22        ‘23      ‘24     ‘25
+  USD                                                                                                            US         Canada        Europe     APAC                      Active ETFs net flows         Share of total net flows
+                       Now core holdings as investors seek efficiency in volatile rate environments
+                                                                                                      Figure 3 | Active vs passive: share of new ETF listings (in 2019 and 2025)
+
+  7.2%                 OF ACTIVE ETFs ARE EUROPEAN                                                                                            13% of new ETF listings
+                                                                                                                                               are active
+                                                                                                                                                                                               60% of new ETF listings
+                                                                                                                                                                                               are active
+                       Up from 2.4% in 2019, showing the speed at which active ETFs in Europe are
+                       catching up                                                                                                                                                                                In Europe, the share of
+
+        1.5 tln	ACTIVE ETF ASSETS
+                                                                                                                                       2019                                         2025                          active new listings has
+  USD                                                                                                                                                                                                             jumped eightfold since
+                                                                                                                                                                                                                  2019 (5 vs 40%) – a
+                       Up from USD 228 billion in 2020; now representing one in ten ETF dollars                                                                                                                   faster climb than the
+                       invested globally                                                                                                                                                                          global fivefold rise.
+
+                                                                                                      Source: Trackinsight ‘The Global ETF Survey 2025’
+
+=== pdf p.5 ===
+WHY ACTIVE ETFs?                        ROBECO ACTIVE ETFs   |   5
+
+
+
+
+The bottom line – Active ETFs
+are no longer a niche experiment:
+they’re fundamentally reshaping
+global investments.
+
+The question for investors is no
+longer whether active ETFs belong
+in modern portfolios, but rather
+which active ETF strategies can
+best serve their specific objectives.
+
+=== pdf p.6 ===
+WHY ROBECO?                                                                                                                              ROBECO ACTIVE ETFs     |   6
+
+
+
+
+Why Robeco’s Active ETFs?
+
+                                                                                                 By grounding our ETFs in research and
+We have a broad range of strategies which play to our strengths. Our active ETFs
+are engineered not just for current market conditions, but for long-term portfolio               innovation, we design strategies built to last
+success.                                                                                                                                   Nick King, Head of ETFs
+
+
+
+
+  DRIVEN BY DATA                                   SHARPENED THROUGH                  DISTINCTIVELY                        PREDICTABLY
+                                                   INNOVATION                         DIFFERENT                            ROBECO
+
+  Decades of systematic research and               Continuous strategy enhancement    Access to sustainability IP from     95 years of active investing
+  robust backtesting underpin every                also leverages AI, alternative     inception, allowing for evolving     experience, demonstrated track
+  ETF design.                                      datasets, and advanced modeling.   investor preferences without         records, and consistent evolution.
+                                                                                      compromising financial objectives.
+
+=== pdf p.7 ===
+OUR ONE-STOP ETF SHOP                                                                                                                                                        ROBECO ACTIVE ETFs    |     7
+
+
+
+
+Our ETFs
+
+Active ETFs are evolving rapidly and demand is particularly strong for enhanced indexing,
+thematic rotation, and climate-focused strategies — precisely where Robeco is expanding
+with both equity and fixed income solutions.
+
+
+
+
+ ASSET CLASS           ETF                                              APPROACH                                                       STRATEGY                   TER    INCEPTION DATE       TICKER
+ Equities              3D Global Equity UCITS ETF                       Enhanced indexing strategy optimizes return, risk and          Core equity               0.25%     9 October 2024         3DGL
+                       3D EM Equity UCITS ETF                           sustainability versus the benchmark using a multi-factor                                 0.30%       15 April 2025        REM3
+                                                                        quantitative model
+                       3D US Equity UCITS ETF                                                                                                                    0.20%     8 October 2024         3DUS
+                       3D European Equity UCITS ETF                                                                                                              0.25%    10 October 2024         3D3D
+                       Dynamic Theme Machine UCITS ETF                  Active thematics delivered by advanced AI                      NextGen equity            0.55%    11 October 2024         RDYN
+ Fixed income          3D Global Enhanced Index Credits UCITS ETF       Enhanced indexing strategy optimizes return, risk and                                    0.20%    3 February 2026         3DCG
+                       3D EUR Enhanced Index Credits Europe UCITS ETF   sustainability versus the benchmark using a multi-factor       Investment grade credit   0.20%    3 February 2026         3DCE
+                                                                        quantitative model
+                       Global Dynamic High Yield UCITS ETF              Dynamic beta exposure to high yield bonds driven by advanced                             0.35%    3 February 2026         RHYG
+                                                                        quant                                                          High yield credit
+                       Europe Dynamic High Yield UCITS ETF                                                                                                       0.35%    3 February 2026         RHYE
+                       Climate Euro Government Bond UCITS ETF           Climate-enhanced sovereign bonds with a broad market risk and Government bonds           0.12%   4 September 2025         RCEG
+                                                                        return profile
+
+=== pdf p.8 ===
+STRATEGIES TO TARGET ALPHA                                                                                                                                                               ROBECO ACTIVE ETFs           |   8
+
+
+
+
+Portfolio approach*                                                                                                                HIGH YIELD CREDIT
+                                                                                                                                   High yield credit exposure using a
+                                                                                                                                   dynamic, liquid approach that actively
+                                                                  INVESTMENT GRADE CREDIT                                          adjusts credit beta to manage drawdowns
+                                                                  Core exposure to investment grade
+                                                                                                                                   and capture opportunities.
+                                                                  corporate bonds through an enhanced
+                                                                  indexing strategy based on a multi-factor
+                                                                  quantitative model.
+The Robeco ETF range can be used to form
+the core building blocks of a diversified portfolio
+including equities and bonds with regional variants
+available to tactically adjust geographical
+allocations.
+                                                                                                                                Fixed
+                                                                                                                                income        Equities
+                                                         GOVERNMENT BONDS
+                                                         Core exposure to Euro government bonds                                                                               CORE EQUITY
+                                                         with forward-looking climate transition                                                                              3D equity ETFs form the core equity
+                                                         insights, while maintaining market-like risk                                                                         allocation, with controlled TE and various
+                                                         and return.                                                                                                          geographical exposures.
+
+
+
+
+                                                                                                                                   NEXTGEN EQUITY
+                                                                                                                                   Portfolios with higher TE targets may
+                                                                                                                                   allocate to active solutions designed to
+                                                                                                                                   capture differentiated alpha.
+
+* Indicative allocation
+                                                      This example portfolio is shown for illustrative purposes only and highlights how Robeco Active ETFs may be used together within a diversified portfolio. The
+                                                      composition and weightings are indicative and should be adapted to reflect individual investor objectives, risk tolerance and preferences.
+
+=== pdf p.9 ===
+STRATEGIES
+OUR ONE-STOP
+           TOETF
+             TARGET
+                 SHOPALPHA                     ROBECO ACTIVE ETFs   |   9
+
+
+
+
+EQUITY ETFs
+
+
+A range of active equity ETFs providing core
+and thematic exposures through systematic,
+research-driven strategies.
+
+=== pdf p.10 ===
+OUR ONE-STOP ETF SHOP                                                                                                                                                                      ROBECO ACTIVE ETFs        | 10
+
+
+
+
+3D Equity ETFs
+
+Robeco’s 3D ETFs move beyond the limitations of traditional passive strategies, offering a refined                                                                         BEYOND THE LIMITS OF PASSIVE
+approach to core portfolio construction, based on enhanced indexing. They dynamically balance return,
+risk, and sustainability for long-term outperformance.                                                                                                                     Passive strategies, while low-cost, can miss
+                                                                                                                                                                           alpha opportunities and carry concentration
+                                                                     Dimension 1: Return                                                                                   risk, especially in today’s environment.
+                                                                     Portfolios are constructed through many small, strategic adjustments within broad stock               Moreover, they often overlook sustainability
+                                                                     universes, creating diversified exposures to companies with stronger fundamentals and better          considerations, exposing investors to
+                                                                     return potential while limiting risk. Our proprietary stock selection model is based on five proven   long-term financial and ESG-related risks.
+    Risk                                                  Return     factors: value, quality, momentum, analyst revisions and short-term signals.
+    Seek to balance                         Aim to pursue strong
+    sustainability considerations       returns while addressing
+    with effective risk                             sustainability   Dimension 2: Risk
+    management, avoiding                           requirements.     Risk is actively managed through systematic monitoring and disciplined rebalancing. Market            THE 3D APPROACH
+    excessive constraints.                                           movements can cause individual stocks or sectors to drift from target weights; our optimization
+                                                                     process corrects these shifts while controlling turnover and trading costs. Each position is          Built on our established Enhanced Indexing
+                                                                     assessed against multiple risk indicators to maintain diversification, liquidity, and benchmark       platform, our 3D Equity ETFs aim to
+                                                                     alignment.                                                                                            outperform while staying close to the
+                           Sustainability
+                      Several dimensions of
+                                                                                                                                                                           benchmark. Their unique feature is the
+                    sustainability are integrated                    Dimension 3: Sustainability                                                                           integration of sustainability as a third
+                    and optimized dynamically.                       We incorporate five sustainability elements as input when defining our investment universe,           dimension, alongside risk and return,
+                                                                     selecting stocks and optimizing portfolios. These are Robeco’s SDG Framework, environmental           balancing financial outcomes with
+                                                                     footprints (carbon, waste, water), ESG risk ratings, active ownership (voting and engagement),        long-term resilience.
+                                                                     and exclusions. Companies that score well are favored over their more poorly scoring
+                                                                     counterparts.
+
+=== pdf p.11 ===
+OUR ONE-STOP ETF SHOP                                                                                                                      ROBECO ACTIVE ETFs    | 11
+
+
+
+
+With portfolios that are explicitly optimized across these three dimensions all at once, dynamic
+trade-offs can be made between them in order to meet long-term financial and sustainability                                   US I EUROPE I GLOBAL I EMERGING MARKETS
+
+goals.
+
+
+
+
+  2013                                              0.6-0.8                                        1.5%                       20%
+  Start of 3D Enhanced Indexing track               Expected information ratio.                    Targeted tracking error.   Improved carbon, waste and water
+  record.                                                                                                                     footprint.
+
+=== pdf p.12 ===
+OUR ONE-STOP ETF SHOP                                                                                                                               ROBECO ACTIVE ETFs     | 12
+
+
+
+
+Dynamic Theme Machine ETF                                                                                                                                                GLOBAL
+
+
+
+
+Thematic investing offers access to tomorrow’s growth stories, but effective timing and
+adaptability are crucial for capturing true innovation.
+
+
+
+
+  THE THEMATIC CHALLENGE                                           DYNAMIC THEME MACHINE                                BROAD INNOVATION ACCESS
+
+  Many thematic funds launch only after a trend is                 Our ETF tackles these challenges head-on through a   Benchmarked against the MSCI World, a 5% tracking
+  already mainstream, leaving investors chasing                    systematic, multi-thematic approach that blends      error limit aims to offer a well-behaved portfolio.
+  late-stage returns. Others remain in fading themes               quant expertise with AI insight.
+                                                                                                                        The combination of multiple themes in one
+  for too long.
+                                                                   Using NLP across company reports, earnings calls,    diversified, benchmark-aware ETF gives investors
+  With hundreds of themes to choose from, investors                and media sources, the DTM ETF detects emerging      access to an evolving universe of innovation.
+  face the additional challenge of combining                       themes early.
+  single-theme funds, often ending up with
+                                                                   Entries and exits are timed dynamically, scaling
+  concentrated exposures, high tracking error, and
+                                                                   exposure up when conviction strengthens and
+  limited diversification — rather than the balanced
+                                                                   reducing it as themes become overcrowded or
+  growth they were seeking.
+                                                                   overpriced.
+
+=== pdf p.13 ===
+STRATEGIES
+OUR ONE-STOP
+           TOETF
+             TARGET
+                 SHOPALPHA                    ROBECO ACTIVE ETFs   | 13
+
+
+
+
+FIXED INCOME ETFs
+
+
+A growing range of active fixed income ETFs
+offering diversified, market-aware bond
+exposures in an ETF format.
+
+=== pdf p.14 ===
+OUR ONE-STOP ETF SHOP                                                                                                                                            ROBECO ACTIVE ETFs   | 14
+
+
+
+
+3D Enhanced Index Credits ETFs                                                                                                                                            EUROPE I GLOBAL
+
+
+
+
+These ETFs are designed as smarter alternatives to passive credit investing, aiming to modestly enhance returns while remaining closely
+aligned with the benchmark.
+
+
+
+
+  DATA-DRIVEN SIGNALS                            RISK-MANAGED CONSTRUCTION                     INDEX-AWARE ENHANCEMENT                    3D INVESTMENT FRAMEWORK
+
+  Models analyze thousands of credits            Disciplined portfolio optimization            Systematic credit selection aims to        Integrates return, risk and
+  across valuation, momentum and                 with tight tracking error control to          capture alpha while keeping relative       sustainability into a single
+  quality factors.                               maintain index-like characteristics.          risk controlled.                           investment process.
+
+=== pdf p.15 ===
+OUR ONE-STOP ETF SHOP                                                                                                                                                               15
+
+
+
+
+Dynamic High Yield ETFs                                                                                                                                                EUROPE I GLOBAL
+
+
+
+
+These ETFs offer a liquid, risk-aware way to access global and European high yield credit,
+while maintaining the flexibility to respond as market conditions change, all in a low-cost,
+transparent ETF format.
+
+
+  DRIVEN BY MARKET SIGNALS                        DYNAMIC POSITIONING                          LIQUID AND AGILE                        OUTCOME
+
+  Uses spreads, volatility, macro data            Based on these signals, the ETF              The ETFs actively increase or reduce    Dynamic, liquid, transparent and cost-
+  and momentum to form evidence-                  dynamically manages risk exposure,           high yield beta exposure using highly   efficient access to HY credit markets,
+  based view on high yield credit risk.           taking additional exposure when              liquid CDS indices (derivative          backed by Robeco’s investment
+                                                  market conditions are expected to be         instruments that provide exposure       expertise.
+                                                  favourable and reducing exposure             to credit risk without holding
+                                                  during periods of stress.                    the bonds).
+
+=== pdf p.16 ===
+OUR ONE-STOP ETF SHOP                                                                                                                                          ROBECO ACTIVE ETFs         | 16
+
+
+
+
+Climate Euro Government Bond ETF                                                                                                   EUROPE
+
+
+
+
+This ETF provides broad eurozone government bond exposure while systematically tilting
+toward countries that are leading the climate transition. Unlike many sustainable bond                                                                     Climate-conscious approach
+                                                                                                                                                           Prefers sovereign bonds from
+products that focus narrowly on green bonds or backward-looking emissions data, this                                                                       countries with most credible net-
+ETF integrates a forward-looking view of climate performance.                                                                                              zero transition approaches
+
+
+                                                                                                                                                           Market-like risk and returns
+                                                                                                                                                           Targets similar risk-return profile
+  INTEGRATED INDICATORS                        PORTFOLIO CONSTRUCTION                       DESIRED OUTCOME                                                as broad market index
+
+  Forward looking view of each countries      Active portfolio construction allows the      The result is climate characteristics equal
+  climate-transition performance by scoring   climate objective to be achieved while        to or better than the ETF’s benchmark, with                    Transparent, low-cost ETF
+  each country based on three pillars:        maintaining duration and yield profile that   market-like risk-return characteristics.                       solution
+                                              is consistent with the broader market.                                                                       Rules-based approach with
+  Ambition – evaluating countries’                                                                                                                         attractive management fee
+  decarbonization targets
+                                                                                                                                            Combining our recognized expertise in quant,
+  Policy – assessing climate legislation,                                                                                                   fixed income and sustainable investing, this ETF
+  carbon pricing, and fossil fuel phase-out                                                                                                 supports the climate transition without
+                                                                                                                                            compromising its role as a core, stable portfolio
+  Evidence – analyzing actual emissions                                                                                                     building block within a diversified investment
+  trends and alignment with 1.5°C pathways.                                                                                                 strategy.
+
+=== pdf p.17 ===
+                                                   ROBECO ACTIVE ETFs   | 17
+
+
+
+
+Active ETFs are fundamentally reshaping
+portfolios worldwide, offering unprecedented
+combinations of accessibility, transparency,
+and sophisticated investment strategies.
+Whether you’re constructing core portfolio
+exposures or seeking innovative strategic tilts,
+Robeco’s Active ETFs are designed to adapt to
+your specific objectives.
+
+
+
+
+  Please visit Robeco.com
+  for more information
+
+=== pdf p.18 ===
+IMPORTANT INFORMATION – CAPITAL AT RISK                                                                                                                                                                                                                                               ROBECO ACTIVE ETFs                    | 18
+
+Robeco Institutional Asset Management B.V. has a license as manager of Undertakings for Collective          some of their employees are “associated persons” of Robeco US as per relevant SEC no-action                    has no responsibility for it. The units to which the Prospectus relates may be illiquid or subject to
+Investment in Transferable Securities (UCITS) and Alternative Investment Funds (AIFs) (“Fund(s)”)           guidance. Employees identified as associated persons of Robeco US perform activities directly or               restrictions on their resale. Prospective purchasers of the units offered should conduct their own due
+from the Netherlands Authority for the Financial Markets. This is a marketing communication solely          indirectly related to the investment advisory services provided by Robeco US. In those situations              diligence on the units.
+intended for professional investors, defined as investors qualifying as professional clients, who have      these individuals are deemed to be acting on behalf of Robeco US. SEC regulations are applicable
+requested to be treated as professional clients or who are authorized to receive such information           only to clients, prospects and investors of Robeco US. Robeco US is wholly owned subsidiary of ORIX            Additional information for investors with residence or seat in Canada
+under any applicable laws. Robeco Institutional Asset Management B.V. and/or its related, affiliated        Corporation Europe N.V. (“ORIX”), a Dutch Investment Management Firm located in Rotterdam, the                 No securities commission or similar authority in Canada has reviewed or in any way passed upon
+and subsidiary companies (“Robeco”), will not be liable for any damages arising out of the use of this      Netherlands. Robeco US is located at 230 Park Avenue, 33rd floor, New York, NY 10169.                          this document or the merits of the securities described herein, and any representation to the contrary
+document. Users of this information who provide investment services in the European Union have                                                                                                                             is an offence. Robeco Institutional Asset Management B.V. relies on the international dealer and
+their own responsibility to assess whether they are allowed to receive the information in accordance        Additional information for US Offshore investors – Reg S                                                       international adviser exemption in Quebec and has appointed McCarthy Tétrault LLP as its agent for
+with MiFID II regulations. To the extent this information qualifies as a reasonable and appropriate         The Robeco Capital Growth Funds have not been registered under the United States Investment                    service in Quebec.
+minor non-monetary benefit under MiFID II, users that provide investment services in the European           Company Act of 1940, as amended, nor the United States Securities Act of 1933, as amended. None
+Union are responsible for complying with applicable recordkeeping and disclosure requirements. The          of the shares may be offered or sold, directly or indirectly in the United States or to any US Person. A       Additional information for investors with residence or seat in the Republic of Chile
+content of this document is based upon sources of information believed to be reliable and comes             US Person is defined as (a) any individual who is a citizen or resident of the United States for federal       Neither Robeco nor the Funds have been registered with the Comisión para el Mercado Financiero
+without warranties of any kind. Without further explanation this document cannot be considered              income tax purposes; (b) a corporation, partnership or other entity created or organized under the             pursuant to Law no. 18.045, the Ley de Mercado de Valores and regulations thereunder. This document
+complete. Any opinions, estimates or forecasts may be changed at any time without prior warning.            laws of or existing in the United States; (c) an estate or trust the income of which is subject to United      does not constitute an offer of or an invitation to subscribe for or purchase shares of the Funds in
+If in doubt, please seek independent advice. This document is intended to provide the professional          States federal income tax regardless of whether such income is effectively connected with a United             the Republic of Chile, other than to the specific person who individually requested this information on
+investor with general information about Robeco’s specific capabilities but has not been prepared by         States trade or business. In the United States, this material may be distributed only to a person who          their own initiative. This may therefore be treated as a “private offering” within the meaning of Article
+Robeco as investment research and does not constitute an investment recommendation or advice to             is a “distributor”, or who is not a “US person”, as defined by Regulation S under the U.S. Securities Act      4 of the Ley de Mercado de Valores (an offer that is not addressed to the public at large or to a certain
+buy, hold or sell certain securities or investment products or to adopt any investment strategy or          of 1933 (as amended).                                                                                          sector or specific group of the public).
+legal, accounting or tax advice. All rights relating to the information in this document are and will
+remain the property of Robeco. This document may not be copied or shared with the public. No part           Additional information for investors with residence or seat in Australia                                       Additional information for investors with residence or seat in Colombia
+of this document may be reproduced or published in any form or by any means without Robeco’s                This document is distributed in Australia by Robeco Hong Kong Limited (ARBN 156 512 659), which                This document does not constitute a public offer in the Republic of Colombia. The offer of the fund
+prior written permission. Investment involves risks. Before investing, please note the initial capital is   is exempt from the requirement to hold an Australian financial services license under the Corporations         is addressed to less than one hundred specifically identified investors. The fund may not be promoted
+not guaranteed. Investors should ensure they fully understand the risk associated with any Robeco           Act 2001 (Cth) pursuant to ASIC Class Order 03/1103. Robeco Hong Kong Limited is regulated by the              or marketed in Colombia or to Colombian residents, unless such promotion and marketing is made
+product or service offered in their country of domicile. Investors should also consider their own           Securities and Futures Commission under the laws of Hong Kong and those laws may differ from                   in compliance with Decree 2555 of 2010 and other applicable rules and regulations related to the
+investment objective and risk tolerance level. Historical returns are provided for illustrative purposes    Australian laws. This document is distributed only to “wholesale clients” as that term is defined under        promotion of foreign funds in Colombia. The distribution of this Prospectus and the offering of Shares
+only. The price of units may go down as well as up and past performance is no guarantee of future           the Corporations Act 2001 (Cth). This document is not intended for distribution or dissemination,              may be restricted in certain jurisdictions. The information contained in this Prospectus is for general
+results. If the currency in which the past performance is displayed differs from the currency of the        directly or indirectly, to any other class of persons. This document is not intended for public distribution   guidance only, and it is the responsibility of any person or persons in possession of this Prospectus
+country in which you reside, then you should be aware that due to exchange rate fluctuations the            in Australia.                                                                                                  and wishing to make application for Shares to inform themselves of, and to observe, all applicable
+performance shown may increase or decrease if converted into your local currency. The performance                                                                                                                          laws and regulations of any relevant jurisdiction. Prospective applicants for Shares should inform
+data do not take account of the commissions and costs incurred when trading securities in client            Additional information for investors with residence or seat in New Zealand                                     themselves of any applicable legal requirements, exchange control regulations and applicable taxes
+portfolios or for the issue and redemption of units. Unless otherwise stated, performances are i) net       In New Zealand, this document is only available to wholesale investors within the meaning of clause            in the countries of their respective citizenship, residence or domicile.
+of fees based on transaction prices and ii) with dividends reinvested. Please refer to the prospectus       3(2) of Schedule 1 of the Financial Markets Conduct Act 2013 (FMCA). This document is not intended
+of the Funds for further details. Performance is quoted net of investment management fees. The              for public distribution in New Zealand.                                                                        Additional information for investors with residence or seat in the Dubai International Financial
+ongoing charges mentioned in this document are the ones stated in the Fund’s latest annual report                                                                                                                          Centre (DIFC), United Arab Emirates
+at closing date of the last calendar year. This document is not directed to or intended for distribution    Additional information for investors with residence or seat in Austria                                         This material is distributed by Robeco Institutional Asset Management B.V. (DIFC Branch) located at
+to or for use by any person or entity who is a citizen or resident of or located in any locality, state,    This information is solely intended for professional investors or eligible counterparties in the meaning       Office 209, Level 2, Gate Village Building 7, Dubai International Financial Centre, Dubai, PO Box
+country or other jurisdiction where such distribution, document, availability or use would be contrary      of the Austrian Securities Oversight Act.                                                                      482060, UAE. Robeco Institutional Asset Management B.V. (DIFC Branch) is regulated by the Dubai
+to law or regulation or which would subject any Fund or Robeco Institutional Asset Management B.V.                                                                                                                         Financial Services Authority (“DFSA”) and only deals with Professional Clients or Market Counterparties
+to any registration or licensing requirement within such jurisdiction. Any decision to subscribe for        Additional information for investors with residence or seat in Brazil                                          and does not deal with Retail Clients as defined by the DFSA.
+interests in a Fund offered in a particular jurisdiction must be made solely on the basis of information    The Fund may not be offered or sold to the public in Brazil. Accordingly, the Fund has not been nor
+contained in the prospectus, which information may be different from the information contained in           will be registered with the Brazilian Securities Commission (CVM), nor has it been submitted to the            Additional information for investors with residence or seat in France
+this document. Prospective applicants for shares should inform themselves as to legal requirements          foregoing agency for approval. Documents relating to the Fund, as well as the information contained            Robeco Institutional Asset Management B.V. is at liberty to provide services in France. Robeco France
+which may also apply and any applicable exchange control regulations and taxes in the countries of          therein, may not be supplied to the public in Brazil, as the offering of the Fund is not a public offering     is a subsidiary of Robeco whose business is based on the promotion and distribution of the group’s
+their respective citizenship, residence or domicile. The Fund information, if any, contained in this        of securities in Brazil, nor may they be used in connection with any offer for subscription or sale of         funds to professional investors in France.
+document is qualified in its entirety by reference to the prospectus, and this document should, at all      securities to the public in Brazil.
+times, be read in conjunction with the prospectus. Detailed information on the Fund and associated                                                                                                                         Additional information for investors with residence or seat in Germany
+risks is contained in the prospectus. The prospectus and the Key Information Document (PRIIP) for           Additional information for investors with residence or seat in Brunei                                          This information is solely intended for professional investors or eligible counterparties in the meaning
+the Robeco Funds can all be obtained free of charge from Robeco’s websites.                                 The Prospectus relates to a private collective investment scheme which is not subject to any form of           of the German Securities Trading Act.
+                                                                                                            domestic regulations by the Autoriti Monetari Brunei Darussalam (“Authority”). The Prospectus is
+Additional information for US investors                                                                     intended for distribution only to specific classes of investors as specified in section 20 of the Securities   Additional information for investors with residence or seat in Hong Kong
+This document may be distributed in the US by Robeco Institutional Asset Management US, Inc.                Market Order, 2013, and must not, therefore, be delivered to, or relied on by, a retail client. The            This document is solely intended for professional investors, which has the meaning ascribed to it in
+(“Robeco US”), an investment adviser registered with the US Securities and Exchange Commission              Authority is not responsible for reviewing or verifying any prospectus or other documents in connection        the Securities and Futures Ordinance (Cap 571) and its subsidiary legislation of Hong Kong. This
+(SEC). Such registration should not be interpreted as an endorsement or approval of Robeco US by            with this collective investment scheme. The Authority has not approved the Prospectus or any other             document is issued by Robeco Hong Kong Limited (“Robeco”), which is regulated by the Hong Kong
+the SEC. Robeco Institutional Asset Management B.V. is considered “participating affiliated” and            associated documents nor taken any steps to verify the information set out in the Prospectus and               Securities and Futures Commission (“SFC”). The contents of this document have not been reviewed
+
+=== pdf p.19 ===
+                                                                                                                                                                                                                                                                                    ROBECO ACTIVE ETFs                    | 19
+
+by the SFC. If there is any doubt about any of the contents of this document, independent professional       Additional information for investors with residence or seat in Mexico                                       Additional information for investors with residence or seat in South Africa
+advice should be obtained.                                                                                   The funds have not been and will not be registered with the National Registry of Securities or              Robeco Institutional Asset Management B.V. is registered and regulated by the Financial Sector
+                                                                                                             maintained by the Mexican National Banking and Securities Commission and, as a result, may not be           Conduct Authority in South Africa.
+Additional information for investors with residence or seat in Indonesia                                     offered or sold publicly in Mexico. Robeco and any underwriter or purchaser may offer and sell the
+The Prospectus does not constitute an offer to sell nor a solicitation to buy securities in Indonesia.       funds in Mexico on a private placement basis to Institutional and Accredited Investors, pursuant to         Additional information for investors with residence or seat in Switzerland
+                                                                                                             Article 8 of the Mexican Securities Market Law.                                                             The Fund(s) are domiciled in Luxembourg. This document is exclusively distributed in Switzerland to
+Additional information for investors with residence or seat in Italy                                                                                                                                                     qualified investors as defined in the Swiss Collective Investment Schemes Act (CISA). This material
+This document is considered for use solely by qualified investors and private professional clients (as       Additional information for investors with residence or seat in Peru                                         is distributed by Robeco Switzerland Ltd, postal address: Josefstrasse 218, 8005 Zurich. ACOLIN
+defined in Article 26 (1) (b) and (d) of Consob Regulation No. 16190 dated 29 October 2007). If made         The Superintendencia del Mercado de Valores (SMV) does not exercise any supervision over this               Fund Services AG, postal address: Leutschenbachstrasse 50, 8050 Zürich, acts as the Swiss
+available to Distributors and individuals authorized by Distributors to conduct promotion and                Fund and therefore the management of it. The information the Fund provides to its investors and the         representative of the Fund(s). UBS Switzerland AG, Bahnhofstrasse 45, 8001 Zurich, postal address:
+marketing activity, it may only be used for the purpose for which it was conceived. The data and             other services it provides to them are the sole responsibility of the Administrator. This Prospectus is     Europastrasse 2, P.O. Box, CH-8152 Opfikon, acts as the Swiss paying agent. The prospectus, the Key
+information contained in this document may not be used for communications with Supervisory                   not for public distribution.                                                                                Information Documents (PRIIP), the articles of association, the annual and semi-annual reports of
+Authorities. This document does not include any information to determine, in concrete terms, the                                                                                                                         the Fund(s), as well as the list of the purchases and sales which the Fund(s) has undertaken during
+investment inclination and, therefore, this document cannot and should not be the basis for making           Additional information for investors with residence or seat in Singapore                                    the financial year, may be obtained, on simple request and free of charge, at the office of the Swiss
+any investment decisions.                                                                                    This document has not been registered with the Monetary Authority of Singapore (“MAS”). Accordingly,        representative ACOLIN Fund Services AG. The prospectuses are also available via the website.
+                                                                                                             this document may not be circulated or distributed directly or indirectly to persons in Singapore other
+Additional information for investors with residence or seat in Japan                                         than (i) to an institutional investor under Section 304 of the SFA, (ii) to a relevant person pursuant to   Additional information for investors with residence or seat in Taiwan
+This document is considered for use solely by qualified investors and is distributed by Robeco Japan         Section 305(1), or any person pursuant to Section 305(2), and in accordance with the conditions             The Funds may be made available outside Taiwan for purchase outside Taiwan by Taiwan resident
+Company Limited, registered in Japan as a Financial Instruments Business Operator, [registered No.           specified in Section 305, of the SFA, or (iii) otherwise pursuant to, and in accordance with the            investors, but may not be offered or sold in Taiwan. The contents of this document have not been
+the Director of Kanto Local Financial Bureau (Financial Instruments Business Operator), No.2780,             conditions of, any other applicable provision of the SFA. The contents of this document have not            reviewed by any regulatory authority in Taiwan. If you are in any doubt about any of the contents of
+Member of Japan Investment Advisors Association].                                                            been reviewed by the MAS. Any decision to participate in the Fund should be made only after reviewing       this document, you should obtain independent professional advice.
+                                                                                                             the sections regarding investment considerations, conflicts of interest, risk factors and the relevant
+Additional information for investors with residence or seat in South Korea                                   Singapore selling restrictions (as described in the section entitled “Important information for             Additional information for investors with residence or seat in Thailand
+No representation is made with respect to the eligibility of any recipients of the document to acquire       Singapore Investors”) contained in the prospectus. Investors should consult their professional adviser      The Prospectus has not been approved by the Securities and Exchange Commission which takes no
+the Funds therein under the laws of South Korea, including but not limited to the Foreign Exchange           if you are in doubt about the stringent restrictions applicable to the use of this document, regulatory     responsibility for its contents. No offer to the public to purchase the Shares will be made in Thailand
+Transaction Act and Regulations thereunder. The Funds have not been registered under the Financial           status of the Fund, applicable regulatory protection, associated risks and suitability of the Fund to       and the Prospectus is intended to be read by the addressee only and must not be passed to, issued
+Investment Services and Capital Markets Act of Korea, and none of the Funds may be offered, sold             your objectives. Investors should note that only the Sub-Funds listed in the appendix to the section        to, or shown to the public generally.
+or delivered, or offered or sold to any person for re-offering or resale, directly or indirectly, in South   entitled “Important information for Singapore Investors” of the prospectus (“Sub-Funds”) are available
+Korea or to any resident of South Korea except pursuant to applicable laws and regulations of South          to Singapore investors. The Sub-Funds are notified as restricted foreign schemes under the Securities       Additional information for investors with residence or seat in the United Arab Emirates
+Korea.                                                                                                       and Futures Act, Chapter 289 of Singapore (“SFA”) and invoke the exemptions from compliance with            Some Funds referred to in this marketing material have been registered with the UAE Securities and
+                                                                                                             prospectus registration requirements pursuant to the exemptions under Section 304 and Section               Commodities Authority (“the Authority”). Details of all Registered Funds can be found on the Authority’s
+Additional information for investors with residence or seat in Liechtenstein                                 305 of the SFA. The Sub-Funds are not authorized or recognized by the MAS and shares in the Sub-            website. The Authority assumes no liability for the accuracy of the information set out in this material/
+This document is exclusively distributed to Liechtenstein-based, duly licensed financial intermediaries      Funds are not allowed to be offered to the retail public in Singapore. The prospectus of the Fund is        document, nor for the failure of any persons engaged in the investment Fund in performing their
+(such as banks, discretionary portfolio managers, insurance companies, fund of funds) which do not           not a prospectus as defined in the SFA. Accordingly, statutory liability under the SFA in relation to the   duties and responsibilities.
+intend to invest on their own account into Fund(s) displayed in the document. This material is               content of prospectuses does not apply. The Sub-Funds may only be promoted exclusively to persons
+distributed by Robeco Switzerland Ltd, postal address: Josefstrasse 218, 8005 Zurich, Switzerland.           who are sufficiently experienced and sophisticated to understand the risks involved in investing in         Additional information for investors with residence or seat in the United Kingdom
+LGT Bank Ltd., Herrengasse 12, FL-9490 Vaduz, Liechtenstein acts as the representative and paying            such schemes, and who satisfy certain other criteria provided under Section 304, Section 305 or any         This is a marketing communication. This information is provided by Robeco Institutional Asset
+agent in Liechtenstein. The prospectus, the Key Information Documents (PRIIP), the articles of               other applicable provision of the SFA and the subsidiary legislation enacted thereunder. You should         Management UK Limited, 30 Fenchurch Street, Part Level 8, London EC3M 3BD registered in England
+association, the annual and semi-annual reports of the Fund(s) may be obtained from the representative       consider carefully whether the investment is suitable for you. Robeco Singapore Private Limited             no. 15362605. Robeco Institutional Asset Management UK Limited is authorised and regulated by
+or via the website.                                                                                          holds a capital markets services license for fund management issued by the MAS and is subject to            the Financial Conduct Authority (FCA – Reference No: 1007814). It is provided for informational
+                                                                                                             certain clientele restrictions under such license.                                                          purposes only and does not constitute investment advice or an invitation to purchase any security or
+Additional information for investors with residence or seat in Malaysia                                                                                                                                                  other investment. Subscriptions will only be received and shares issued on the basis of the current
+Generally, no offer or sale of the Shares is permitted in Malaysia unless where a Recognition Exemption      Additional information for investors with residence or seat in Spain                                        Prospectus, relevant Key Investor Information Document (KIID) and other supplementary information
+or the Prospectus Exemption applies: NO ACTION HAS BEEN, OR WILL BE, TAKEN TO COMPLY WITH                    Robeco Institutional Asset Management B.V., Sucursal en España with identification number                   for the Fund. These can be obtained free of charge from Northern Trust Global Serviced Limited, 50
+MALAYSIAN LAWS FOR MAKING AVAILABLE, OFFERING FOR SUBSCRIPTION OR PURCHASE, OR                               W0032687F and having its registered office in Madrid at Calle Serrano 47-14º, is registered with the        Bank Street, Canary Wharf, London E14 5NT or from our website www.robeco.com. This information
+ISSUING ANY INVITATION TO SUBSCRIBE FOR OR PURCHASE OR SALE OF THE SHARES IN MALAYSIA                        Spanish Commercial Registry in Madrid, in volume 19.957, page 190, section 8, sheet M-351927 and            is directed at Professional Clients only and is not intended for public use.
+OR TO PERSONS IN MALAYSIA AS THE SHARES ARE NOT INTENDED BY THE ISSUER TO BE MADE                            with the National Securities Market Commission (CNMV) in the Official Register of branches of
+AVAILABLE, OR MADE THE SUBJECT OF ANY OFFER OR INVITATION TO SUBSCRIBE OR PURCHASE,                          European investment services companies, under number 24. The investment funds or SICAV                      Additional information for investors with residence or seat in Uruguay
+IN MALAYSIA. NEITHER THIS DOCUMENT NOR ANY DOCUMENT OR OTHER MATERIAL IN                                     mentioned in this document are regulated by the corresponding authorities of their country of origin        The sale of the Fund qualifies as a private placement pursuant to section 2 of Uruguayan law 18,627.
+CONNECTION WITH THE SHARES SHOULD BE DISTRIBUTED, CAUSED TO BE DISTRIBUTED OR                                and are registered in the Special Registry of the CNMV of Foreign Collective Investment Institutions        The Fund must not be offered or sold to the public in Uruguay, except under circumstances which do
+CIRCULATED IN MALAYSIA. NO PERSON SHOULD MAKE AVAILABLE OR MAKE ANY INVITATION OR                            marketed in Spain.                                                                                          not constitute a public offering or distribution under Uruguayan laws and regulations. The Fund is not
+OFFER OR INVITATION TO SELL OR PURCHASE THE SHARES IN MALAYSIA UNLESS SUCH PERSON                                                                                                                                        and will not be registered with the Financial Services Superintendency of the Central Bank of Uruguay.
+TAKES THE NECESSARY ACTION TO COMPLY WITH MALAYSIAN LAWS.                                                                                                                                                                The Fund corresponds to investment funds that are not investment funds regulated by Uruguayan
+                                                                                                                                                                                                                         law 16,774 dated 27 September 1996, as amended.
+
+                                                                                                                                                                                                                         © Q3/2025 Robeco
+
+=== pdf p.20 ===
+For more information please visit
+
+Robeco.com
+

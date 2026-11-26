@@ -7170,5 +7170,103 @@
   "sha256": "ea72e0047c25b8811659d4eec107ef52db5caef9d08a7a56f3b8f1e6a513904b",
   "bytes": 188713,
   "final_url": "https://www.robeco.com/en-int/media/press-release/robeco-adds-active-3d-emerging-markets-equity-to-etf-line-up"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "annual",
+  "url": "https://www.robeco.com/files/docm/annu-2025-robeco-ucits-icav-che-en.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/annual_8f4f0f5aff.pdf",
+  "sha256": "8f4f0f5affb7e343bb78bce620ebaf1d02e794f4c3038666c308a4da70c7d7eb",
+  "bytes": 2898907,
+  "final_url": "https://www.robeco.com/files/docm/annu-2025-robeco-ucits-icav-che-en.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "prospectus",
+  "url": "https://www.borsaitaliana.it/etp-listing/2025-00265-SUPPLEMENTS-MjAyNS0wMDI2NVNVUFBMRU1FTlRTbnVsbDE1MjQyMjgyMzQ2NjgzNTcyMDA=.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/prospectus_8baae47acf.pdf",
+  "sha256": "8baae47acf622b9b52f847f8de0a1355722eeac4ea5a41c8cda6bd8925bfbdb6",
+  "bytes": 2164056,
+  "final_url": "https://www.borsaitaliana.it/etp-listing/2025-00265-SUPPLEMENTS-MjAyNS0wMDI2NVNVUFBMRU1FTlRTbnVsbDE1MjQyMjgyMzQ2NjgzNTcyMDA=.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "esg",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-esc-202610-profchen.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/esg_31e23462f4.pdf",
+  "sha256": "31e23462f49bcbf6fb5c9efe85de88e3a067eaa797f628501391b3ecdc2875c9",
+  "bytes": 489804,
+  "final_url": "https://www.robeco.com/files/doca/ETF_EM_A-esc-202610-profchen.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "esg",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-esc-202603-profchen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "brochure",
+  "url": "https://www.robeco.com/files/docm/docu-robeco-active-etfs-brochure-022026.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/brochure_d7e0e52f11.pdf",
+  "sha256": "d7e0e52f11b6a1f9fcb6b289e2481013f3b7fe438e4f4375471eb1fea97fb643",
+  "bytes": 942078,
+  "final_url": "https://www.robeco.com/files/docm/docu-robeco-active-etfs-brochure-022026.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "semi",
+  "url": "https://www.robeco.com/files/docm/semi-2026-robeco-ucits-icav-che-en.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/semi_7f653c32c4.pdf",
+  "sha256": "7f653c32c476622a896c9888a844d1dbe9d34090db84bd3fbda1eb3fb9b5a495",
+  "bytes": 3162231,
+  "final_url": "https://www.robeco.com/files/docm/semi-2026-robeco-ucits-icav-che-en.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "prospectus",
+  "url": "https://www.robeco.com/files/docm/prospectus-robeco-ucits-icav-en.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "prospectus",
+  "url": "https://www.robeco.com/files/docm/docu-prospectus-robeco-ucits-icav.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-prip-202606-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/files/doca/etf_em_a-prip-202606-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/kid_3070e8bf73.pdf",
+  "sha256": "3070e8bf73af51443b166614c9ef1a4b10425823c770a1860cf9e810cce4bad0",
+  "bytes": 239544,
+  "final_url": "https://www.robeco.com/files/doca/etf_em_a-prip-202606-profieen.pdf"
  }
 ]

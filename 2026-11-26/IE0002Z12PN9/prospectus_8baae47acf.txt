@@ -1,0 +1,1279 @@
+=== pdf p.1 ===
+The Directors of the ICAV, whose names appear in the Directory in the Prospectus, accept responsibility
+for the information contained in this Supplement. To the best of the knowledge and belief of the Directors
+(who have taken all reasonable care to ensure that such is the case) the information contained in this
+document is in accordance with the facts and does not omit anything likely to affect the import of such
+information.
+
+This document is a Supplement to the Prospectus dated 4 September 2024 issued by Robeco
+UCITS ICAV (the “ICAV”). This Supplement forms part of, and should be read in conjunction
+with, the Prospectus.
+
+
+
+
+                                    ROBECO UCITS ICAV
+                  an umbrella fund with segregated liability between sub-funds
+
+
+
+
+ (an open-ended Irish collective asset management vehicle which is constituted as an umbrella fund
+   with variable capital and segregated liability between its sub-funds and registered in Ireland with
+      registration number C-533374 and authorised by the Central Bank of Ireland as a UCITS)
+
+
+
+
+                                 ______________________________
+
+
+
+
+                                         SUPPLEMENT
+
+                                       Dated 4 September 2024
+
+
+                                             in respect of
+
+                           Robeco 3D EM Equity UCITS ETF
+                                  (a sub-fund of the ICAV, the “Fund”)
+
+
+
+
+                                                                                   RO357/001/AC#49393250.13
+
+=== pdf p.2 ===
+The value of Shares may go up or down and investors may not get back the amount invested.
+Investors’ attention is drawn to the risk warnings contained in the section in the Prospectus
+entitled Risk Factors and, in particular, to the risk warnings contained in the section of this
+Supplement entitled “Risk Factors”.
+
+It is recommended that an investment in the Fund should not constitute a substantial proportion
+of an investment portfolio and may not be appropriate for all investors.
+
+Words and expressions defined in the Prospectus, unless the context otherwise requires, have the
+same meaning when used in this Supplement.
+
+THE FUND
+
+Investment Objective
+
+The investment objective of the Fund is to provide long-term capital growth from an actively managed
+portfolio comprising listed equity and equity-related securities, while promoting environmental, social
+and governance (“ESG”) characteristics, in particular greenhouse gas emissions, water and waste. The
+portfolio seeks to achieve a more favourable sustainability profile and environmental footprint in
+comparison to the MSCI Emerging Markets Index (the “Benchmark”) while integrating sustainability
+risks in the investment process. The relevant ESG characteristics are further described in the SFDR
+Appendix.
+
+Investment Strategy
+
+The Fund is actively managed and will apply the Manager’s “3D” investment strategy, which seeks to
+consider risk, return and sustainability in the Fund’s portfolio. The Fund’s portfolio will be optimised
+using a quantitative process to target returns in excess of the Benchmark, to target better sustainability
+characteristics than the Benchmark, while managing risk compared to the Benchmark. The three
+dimensions of risk, return and sustainability are considered together in the Manager’s proprietary
+quantitative stock-ranking model, which is described further below.
+
+The Fund seeks to outperform the Benchmark by reflecting the expression of the Manager’s positive
+and negative views on eligible listed equity and equity-related securities. This is achieved by
+correspondingly overweighting and underweighting securities in the Fund’s portfolio relative to the
+weighting of these securities in the Benchmark, including by investing in securities that are not included
+in the Benchmark. The relative attractiveness of stocks is determined using the Manager’s proprietary
+quantitative stock-ranking model, which considers proven return factors such as value, quality and
+momentum. The Manager overweights stocks with an attractive valuation, a profitable operating
+business, strong price momentum, and positive recent revisions from analysts. As a result of these
+overweight exposures, the Fund will have a corresponding underweight exposure to other stocks in the
+Benchmark. All decision making at portfolio level is based on the identification of under-valued and
+over-valued stocks which is the result of the stock’s scoring on the Manager’s proprietary quantitative
+stock-ranking model and the settings of the Manager’s portfolio construction algorithm that considers
+risk, return and sustainability.
+
+Environmental and Social Characteristics
+
+The Fund is a financial product that promotes environmental and social characteristics within the
+meaning of Article 8 of SFDR. The Fund takes into account the ESG characteristics as explained in this
+section and in the SFDR Annex appended to this Supplement.
+
+As a starting point, the Fund applies exclusion criteria with regard to products and business practices
+that the Manager believes are detrimental to society and incompatible with the Fund’s sustainable
+investment strategy, such as exposure to controversial behaviour, controversial weapons, and fossil
+fuels, to the Fund’s investable universe of equity securities as described in the section entitled
+“Investment Policy”. In addition, the Fund excludes stocks which the Manager considers significantly
+harm the United Nations’ Sustainable Development Goals (“SDGs”) (i.e. stocks that score -3 on the
+Manager’s proprietary SDG framework are excluded) and applies the Manager’s good governance
+policy. The Fund is managed so as to have a weighted average ESG score (which is provided by a third
+
+
+
+                                                    2
+
+=== pdf p.3 ===
+party service provider) that is at least 5% better than that of the Benchmark and the Fund has a
+substantially lower environmental footprint1 than the Benchmark (20% lower for carbon, water and
+waste). Most of the Fund’s equity holdings are expected to have voting rights and the Manager exerts
+these rights by voting in accordance with the Manager's proxy voting policy, which encourages good
+governance and sustainable corporate practices and seeks to contribute to long-term shareholder value
+creation, unless impediments occur (for example, share blocking or when voting is not considered cost
+efficient).
+
+Mandatory principal adverse impact indicators (“PAIs”) are considered through the Manager's SDG
+framework, either directly or indirectly, when identifying sustainable investments for the Fund. In
+addition, non-mandatory, or voluntary environmental and social indicators are taken into account,
+depending on their relevance for measuring impacts on the SDGs and the availability of data (for
+example: PAI number 9 - Investments in companies producing chemicals; PAI number 11 - Investments
+in companies without sustainable land/agriculture practices; and PAI number 12 - Investments in
+companies without sustainable oceans/seas practices). A detailed description of the incorporation of
+principal adverse impacts is available via the Manager’s Principal Adverse Impact Statement. In this
+statement, the Manager sets out its approach to identifying and prioritising PAIs, and how PAIs are
+considered as part of the Manager's investment due diligence process and procedures relating to
+research and analysis, exclusions and restrictions and/or voting and engagement.
+
+The Benchmark is a broad market weighted index that is not necessarily consistent with the
+environmental and social characteristics as promoted by the Fund (i.e. any environmental and social
+governance characteristics promoted by the Benchmark, if any, do not have to be the same as the
+environmental and social characteristics promoted by the Fund).
+
+More information about the Fund’s promotion of environmental and/or social characteristics
+and the Manager’s consideration of PAIs is available in the SFDR Annex appended to this
+Supplement.
+
+Investment Policy
+
+The Fund is actively managed and will seek to achieve its investment objective by investing primarily in
+a portfolio of equities, being equity and equity-related securities (namely, preferred stock, warrants,
+rights, claims and depositary receipts) of companies that mainly operate in emerging markets, as
+defined by MSCI, and that are listed or traded on Regulated Markets globally.
+
+It is generally expected that up to 90% of the Net Asset Value of the Fund will be components of the
+Benchmark, but stocks outside the Benchmark may also be selected. There are no restrictions on the
+extent to which the Fund’s portfolio and performance may deviate from those of the Benchmark.
+
+The Fund may invest up to 10% of its Net Asset Value in the units/shares of Eligible Collective
+Investment Schemes where such investments satisfy the requirements of the Central Bank. The Fund
+may invest up to 20% of its net assets in Money Market Instruments and cash to be held as ancillary
+liquid assets.
+
+The Fund may use FDI, including futures on equity indices and foreign exchange contracts (including
+cross currency swap, spot and forward contracts), for hedging, liquidity management, efficient portfolio
+management and investment purposes. To the extent that the Fund uses FDI, there may be a risk that
+the volatility of the Fund may increase. FDI will be used within the limits stipulated by the Central Bank
+and as described in Schedule III to the Prospectus, entitled "Investment Techniques and Instruments".
+
+The Fund may engage in securities lending and reverse repurchase agreements subject to the
+requirements of the Securities Financing Transactions Regulation, the UCITS Regulations and the
+Central Bank Regulations. This is more particularly described in the section in the Prospectus entitled
+
+
+1 The Fund's environmental footprint is calculated based on the total footprint of greenhouse gas emissions (scope
+
+1, 2 and 3 upstream), water and waste generation of each investee company, all measured by enterprise value
+including cash (EVIC) (i.e., the sum of the market capitalisation of ordinary shares at fiscal year end, the market
+capitalisation of preferred shares at fiscal year end, and the book values of total debt and minorities' interests,
+including the cash and cash equivalents held by each investee company).
+
+
+                                                        3
+
+=== pdf p.4 ===
+“Securities Financing Transaction Regulations Disclosure”. Up to 90% of the Fund’s net assets may be
+subject to securities lending arrangements and associated reverse repurchase agreements at any time,
+however the amount of the Fund’s net assets subject to securities lending arrangements and associated
+reverse repurchase agreements is not generally expected to exceed 0 to 30% of the Fund’s net assets.
+The Fund will not enter into total return swaps or instruments with similar characteristics nor will it
+engage in borrowing of securities or repurchase agreements within the meaning of the Securities
+Financing Transactions Regulation.
+
+Normally, the Fund will invest substantially all of its assets to meet its investment objective. To the
+extent that the Fund’s assets are not fully invested in accordance with the objectives set out above, the
+Fund may, for liquidity and income management purposes, invest the remainder of its assets in Money
+Market Instruments or may hold cash. The percentage of the Fund invested in such holdings will vary
+and depend on several factors, including market conditions. For temporary defensive purposes,
+including during periods of high cash inflows and outflows, the Fund may depart from its principal
+investment strategy and invest part or all of its assets in Money Market Instruments or may hold cash.
+During such periods, the Fund may not achieve its investment objective.
+
+Currency Hedging at Class Level
+
+The Classes identified in the table set out in the Appendix of this Supplement that are Hedged Classes
+include “(H)” in their names, while the Classes that do not have “(H)” in their names are unhedged
+Classes. The type of hedging strategy applied in respect of each Class is also set out in the Appendix
+to this Supplement.
+
+For further information, please see the sections of the Prospectus entitled “Financial Derivative
+Instruments” and “Currency Hedging Policy – Hedging at a Class Level”.
+
+Base Currency
+
+The Base Currency of the Fund is USD.
+
+Taxonomy-Related Disclosure
+
+While the Fund is categorised as Article 8 under SFDR and commits to partially investing its assets in
+sustainable investments contributing to the environmental and social characteristics disclosed in the
+section above entitled “Environmental and Social Characteristics” while not significantly harming any
+other environmental objectives, the Fund does not commit to investing a minimum amount in underlying
+investments qualifying as environmentally sustainable under the Taxonomy Regulation. As such, as of
+the date of this Supplement, the investments underlying this Fund do not take into account the EU
+criteria for environmentally sustainable economic activities within the meaning of the Taxonomy
+Regulation and, as such, the Fund’s portfolio alignment with such Taxonomy Regulation is not
+calculated.
+
+For further details on the Manager’s approach to SFDR and the Taxonomy Regulation, please refer to
+the section in the Prospectus entitled “Sustainability-related Disclosures”.
+
+THE BENCHMARK
+
+The Benchmark is the MSCI Emerging Markets Index which captures large and mid-cap representation
+across selected emerging markets.
+
+The Fund is an Active Fund and does not seek to replicate the performance of a specified index but
+does reference the Benchmark for comparative purposes. The Manager has full discretion over the
+composition of the Fund and can take exposure to companies, countries or sectors not included in the
+Benchmark.
+
+The information set out above is a summary of the principal features of the Benchmark and does not
+purport to be an exhaustive description. The Benchmark is provided by MSCI. At the date of the
+Supplement, MSCI, as administrator of the Benchmark, is listed on the ESMA register of benchmark
+administrators which may be found at: https://registers.esma.europa.eu/publication.
+
+
+                                                   4
+
+=== pdf p.5 ===
+Further information on the Benchmark can be found at: www.msci.com.
+
+PROFILE OF A TYPICAL INVESTOR
+
+A typical investor in the Fund is an investor that is seeking long-term capital growth over a
+recommended holding period of 5 to 7 years. Such an investor is also one that is able to assess the
+merits and risks of an investment in the Shares of the relevant Class of the Fund. The Fund is suitable
+for investors who want ESG considerations to be integrated as a binding element in the investment
+process, but also to make a contribution to an environmental objective e.g. environmental footprint
+reduction, in addition to creating returns.
+
+An investor must be able to accept volatility. The Fund does not provide a capital guarantee. It can
+accommodate the investment objective of capital growth and/or portfolio diversification.
+
+Please note that such information is provided for reference only and investors should consider their own
+circumstances, including without limitation, their own risk tolerance level, financial circumstance,
+investment objective etc., before making any investment decisions. If in doubt, investors should seek
+professional advice.
+
+SHARE CLASSES
+
+Details of the Classes that are currently available in the Fund are set out in the Appendix to this
+Supplement, which will be identified as ETF Shares or Non-ETF Shares.
+
+Additional Classes may be created from time to time in accordance with the requirements of the Central
+Bank.
+
+The Manager reserves the right to differentiate between persons who are subscribing for or redeeming
+Shares and to waive or reduce the Minimum Subscription Amount and Minimum Redemption Amount
+for any such person or to refuse an application for the subscription of Shares in their absolute discretion.
+
+DIVIDENDS
+
+Where the ICAV intends to declare dividends with respect to one or more Classes of the Fund, the
+proposed frequency of such dividend declarations and the type of dividends that may be declared shall
+be as set out in the Appendix to this Supplement entitled “Share Classes”.
+
+Please refer to the section in the Prospectus entitled "Dividend Policy" for further information.
+
+DEALING IN SHARES OF THE FUND
+
+ETF Shares
+
+Only the ETF Shares issued in respect of this Fund will be listed and/or traded on the Relevant Stock
+Exchanges. It is envisaged that ETF Shares will be bought and sold by private and institutional investors
+in the secondary market.
+
+Only Authorised Participants may subscribe for and redeem ETF Shares in the Fund directly with the
+ICAV in accordance with the section in the Prospectus entitled “Subscriptions and Redemptions” and
+having regard to the information set out below.
+
+Non-ETF Shares
+
+Investors may subscribe for and redeem any Non-ETF Shares in the Fund directly with the ICAV in
+accordance with the section in the Prospectus entitled “Subscriptions and Redemptions” and having
+regard to the information set out below.
+
+ Business Day                  A day on which the banks are open for business in the United Kingdom.
+
+
+                                                     5
+
+=== pdf p.6 ===
+ Dealing Cut-Off Time          4:00 p.m. (CET) on the Business Day prior to the relevant Dealing Day
+                               or such earlier or later time as may be determined by the Manager at its
+                               discretion with prior notice to Authorised Participants, which is the cut-
+                               off time in respect of any Dealing Day for receipt of applications for
+                               subscriptions and redemptions in the Fund.
+
+ Dealing Day                   Unless otherwise determined by the Directors and notified in advance
+                               to Shareholders, each Business Day.
+
+                               Business Days will not be Dealing Days where the Fund's underlying
+                               investment markets are closed; or where markets relevant to the
+                               Benchmark are closed; when, at the discretion of the Manager, such
+                               closure results in a substantial portion of the Fund that may not be
+                               appropriately traded. Business Days may also not be Dealing Days
+                               where the relevant market operator(s) or exchange(s) close the
+                               market(s) for trading and/or settlement (such closure may be made with
+                               little or no notice to the Manager). Details of the dealing calendar for the
+                               Fund shall be available from the Administrator.
+
+ Initial Offer Period          The period beginning at 10.00 a.m. (CET) on 5 September 2024 and
+                               terminating at 5.00 p.m. (CET) on 4 March 2025 or such other period
+                               determined by the Directors in accordance with the requirements of the
+                               Central Bank.
+
+ Minimum Redemption            Redemptions will normally be accepted above one million Shares or
+ Amount                        their cash equivalent. Such minima may be reduced or increased in any
+                               case at the discretion of the Manager.
+
+                               Authorised Participants should refer to the electronic order entry facility
+                               for details of minimum redemption orders for the Fund.
+
+ Minimum Subscription          Subscriptions will normally be accepted above one million Shares or
+ Amount                        their cash equivalent. Such minima may be reduced or increased in any
+                               case at the discretion of the Manager.
+
+                               Authorised Participants should refer to the electronic order entry facility
+                               for details of minimum subscription orders for the Fund
+ Settlement Time               In respect of subscriptions, two Business Days after the relevant
+                               Dealing Day (unless otherwise stipulated by the Manager or its
+                               delegate); and, in respect of redemptions, two Business Days after the
+                               relevant Dealing Day (unless otherwise agreed with the Manager or its
+                               delegate).
+
+ Valuation Point               11:00 p.m. (CET) on each Valuation Day.
+
+
+FEES AND EXPENSES
+
+A total expense ratio (“TER”) will be paid out of the assets of each Class to the Manager. The TER for
+each for each Class is set out under the heading “TER” in the table included in the appendix hereto.
+
+This section should be read in conjunction with the section in the Prospectus entitled "Fees, Costs and
+Expenses".
+
+RISK FACTORS
+
+Investment in the Fund carries with it a degree of risk including, but not limited to, the risks described
+in the section in the Prospectus entitled “Risk Factors”.
+
+
+
+                                                    6
+
+=== pdf p.7 ===
+Moreover, the Fund is subject to the additional risks described below:
+
+Equity Risks
+
+The Fund’s investments in equity securities may involve risks (for example, risks linked to transferable
+securities and stock markets, such as exchange rates and volatility risks). The Fund's investments are
+subject to market fluctuations. As a result, there is no guarantee that the Fund will achieve its
+investment objective. It cannot be guaranteed either that the value of a Share in the Fund will not fall
+below its value at the time of acquisition.
+
+FDI Risks
+
+Investors should note that the Fund may use FDI as part of its investment strategy and such investments
+are inherently volatile and the Fund could potentially be exposed to additional risks and costs should
+the market move against it. Such market conditions could mean that investors could, in certain
+circumstances, face minimal or no returns, or may even suffer a loss on such investments. The
+investment risk will be measured using quantitative techniques. The investment risk of using FDI is also
+incorporated in these quantitative techniques.
+
+Sustainability Risks
+
+The sustainability risk profile of the Fund can be split into different sustainability risk sources and is
+expressed using categories ranging from lowest to highest risk. The risk classification relates to both
+the probability and potential negative impact of sustainability risk on the Fund’s portfolio return, with
+lower risk representing lower probability and lower potential negative impact and higher risk
+representing higher probability and higher potential negative impact. The classification relates to the
+portfolio only: there is no comparison to any benchmark.
+
+The Manager distinguishes between sustainability risks of companies and governments. For
+companies, there is a total risk classification, a classification of environmental risks, a classification of
+social risks, and a classification of governance risk. The classifications are based on a variety of ESG
+issues provided by a third party that is specialised in the assessment of sustainability risks. The
+classification provides an indication of the probability and potential impact of an ESG event over a
+period of one year. The sustainability risk profile of the Fund in respect of each classification is set out
+below:
+
+ Company Risk               Lowest                                               Highest 
+ Sustainability Risk                                   X
+ (Overall)
+ Environmental Risk                      X
+ Social Risk                                           X
+ Governance Risk                                       X
+
+The Manager makes use of a climate risk metric provided by a third party specialised in climate risk.
+Based on a 1.5-degrees decarbonisation pathway, the potential impact of climate transition risk is
+estimated. This is a reflection of the potential decarbonisation costs for the next 80 years, of which the
+heavy point is estimated to be approximately in 15 years. This impact on return is compared to the
+market risk profile of the Fund and turned into a risk classification, with lower risk representing lower
+probability and lower potential negative impact and higher risk representing higher probability and
+higher potential negative impact. The climate transition risk classification of the Fund is set out below:
+
+ Company Risk               Lowest                                               Highest 
+ Climate Transition Risk                               X
+
+Climate change leads to extreme weather events that may have a negative economic impact on the
+Fund’s investments. Based on a climate risk model provided by a third party specialised in climate risk,
+
+
+
+                                                     7
+
+=== pdf p.8 ===
+the physical risks that the Fund’s portfolio is most vulnerable to are assessed. The Fund's primary
+physical risks are (1) Extreme Heat, (2) Coastal Flooding, and (3) Extreme Precipitation. Climate risk
+models are complex and surrounded by a high degree of uncertainty as result of assumptions and
+availability of data. As result, a change in the methodology may lead to a change in the risk
+classification. The climate risk model assesses the potential costs of decarbonising for companies.
+Active policies and ambitions of companies are not taken into account contrary to the 'ESG' scores that
+focus on policies and ambitions.
+
+RISK MANAGEMENT
+
+The ICAV will use the commitment approach for the purposes of calculating global exposure for the
+Fund. The Fund’s total exposure will be limited to 100% of Net Asset Value using the commitment
+approach.
+
+While it is not the Manager’s intention to leverage the Fund, any leverage resulting from the use of FDIs
+will be in accordance with the UCITS Regulations.
+
+Further detail on the calculation of global exposure is set out in the financial derivative instrument risk
+management process of the Fund (“RMP”). The RMP employed enables the Manager to accurately
+measure, monitor and manage the various risks associated with FDI, including leverage.
+
+TAXATION
+
+German Investment Tax Act
+
+The Fund intends to qualify for German tax purposes as a so-called “Equity Funds” in terms of sec. 2(6)
+of the German Investment Tax Act as applicable from 1 January 2018 onwards (“GInvTA”).
+
+“Equity Funds” are defined as funds which, according to their investment conditions, invest continuously
+more than 50% of their gross assets (defined as the value of the assets without considering liabilities)
+in “Equity Participations” within the meaning of sec. 2(8) GInvTA.
+
+To this end, the Fund will invest continuously more than 50% of its gross assets in Equity Participations
+within the meaning of sec. 2(8) GInvTA.
+
+Corporate actions, subscriptions/redemptions and market movements may temporarily cause the Fund
+not to meet this Equity Participation-ratio. In such a case, the Fund will take possible and reasonable
+measures to re-establish the indicated investment level without undue delay after getting knowledge of
+the shortfall.
+
+“Equity Participations” within the meaning of sec. 2(8) of the GInvTA are defined as:
+   • shares in a corporation, which are admitted to official trading at an exchange or an organised
+        market recognised by the German Federal Financial Supervisory Authority (Bundesanstalt für
+        Finanzdienstleistungsaufsicht);
+   • shares in a corporation, which does not qualify as a “real estate company” for German purposes
+        and which either (i) is resident in an EU member state or an EEA member state and is subject
+        to corporate income tax in that state without being exempted from such tax or (ii) is resident in
+        a third country and is subject to a corporate income tax in that state at a rate of at least 15%
+        without being exempted from such tax;
+   • fund units in an Equity Fund with 51% of the Equity Fund units' value or, if the investment
+        conditions of the Equity Fund provide for a higher minimum Equity Participation-ratio, with the
+        respective higher percentage of the Equity Fund units’ value; and
+   • fund units in a so-called “Mixed Fund” (i.e. a fund, which according to its investment conditions
+        invests continuously at least 25% of its gross assets in Equity Participations within the meaning
+        of sec. 2(8) GInvTA) with 25% of the Mixed Fund units' value or, if the investment conditions of
+        the Mixed Fund provide for a higher minimum Equity Participation-ratio, with the respective
+        higher percentage of the Mixed Fund units’ value.
+
+In accordance with sec. 2(6) sentences 2 and 3 and sec. 2(7) sentences 2 and 3 of the GInvTA, for
+purposes of calculating their own Equity Participation-ratios, the Fund will also consider the actual
+
+
+                                                    8
+
+=== pdf p.9 ===
+Equity Participation-ratios of target funds published on each valuation day, provided that a valuation
+takes place at least once per week.
+
+Pursuant to sec. 2(8) sentence 5 GInvTA the following participations do not qualify as Equity
+Participations:
+    • shares in partnerships, even if the partnerships are holding themselves shares in corporations;
+    • shares in corporations, which pursuant to sec. 2(9) sentence 6 of the GInvTA qualify as real
+         estate;
+    • shares in corporations which are exempt from income taxation, to the extent these corporations
+         are distributing their profits, unless the distributions are subject to a taxation of at least 15%
+         and the investment fund is not exempt from this taxation,
+    • shares in corporations;
+    • whose income is directly or indirectly to more than 10% derived from shares in corporations
+         that do not fulfil the requirements of sec. 2(8) sentence no. 2 lit. a) or b) of the GInvTA; or
+    • whose market value consists to more than 10% of directly or indirectly held shares in
+         corporations that do not fulfil the requirements of sec. 2(8) sentence 1 no. 2 lit. a) or b) of the
+         GInvTA.
+
+RELEVANT STOCK EXCHANGES
+
+Applications have been made in respect of the ETF Shares to Deutsche Börse Xetra and the London
+Stock Exchange for admission to trading.
+
+Neither the admission of the ETF Shares to trading on the regulated markets of Deutsche Börse Xetra
+and the London Stock Exchange nor the approval of the listing particulars pursuant to the listing
+requirements of the Deutsche Börse Xetra and the London Stock Exchange shall constitute a warranty
+or representation by Deutsche Börse Xetra or the London Stock Exchange as to the competence of
+service providers to or any other party connected with the ICAV, the adequacy of information contained
+in the listing particulars or the suitability of the ICAV or the Fund for investment purposes.
+
+It is intended that the Shares will be listed and admitted for trading on a number of other stock
+exchanges but the ICAV does not warrant or guarantee that such listings will take place or continue to
+exist.
+
+
+
+
+                                                     9
+
+=== pdf p.10 ===
+                               APPENDIX TO THE SUPPLEMENT FOR THE ROBECO 3D EM EQUITY UCITS ETF
+
+                                                   SHARE CLASSES OF THE FUND
+ETF Share Classes
+
+Share Class         Class        Hedging    Initial Offer   Initial Offer     Dividend       Dividend    Dividend Type     TER
+                    Currency     Strategy   Period          Price per Share   Policy         Frequency
+                                            Status
+USD Acc ETF         USD          Unhedged   Open            USD 5             Accumulating   n/a         n/a               Up to 0.50%
+USD Dis ETF         USD          Unhedged   Open            USD 5             Distributing   Annually    Net income only   Up to 0.50%
+
+
+
+
+                                                                    10
+
+=== pdf p.11 ===
+                                    SFDR ANNEX FOR THE ROBECO 3D EM EQUITY UCITS ETF
+ Pre-contractual disclosure for the financial products referred to in Article 8, paragraphs 1, 2 and 2a, of Regulation (EU)
+                         2019/2088 and Article 6, first paragraph, of Regulation (EU) 2020/852
+
+
+Sustainable            Product name: Robeco 3D EM Equity UCITS ETF (the “Fund”)
+investment means an
+                       Legal entity identifier: 213800NVCHKDUHX5JZ97
+investment in an
+economic activity that
+contributes to an                                  Environmental and/or social characteristics
+environmental or
+social objective,
+provided that the                     Does this financial product have a sustainable investment objective?
+investment does not              Yes                                              No
+significantly harm any
+environmental or
+social objective and           It will make a minimum of                     It promotes Environmental/Social (E/S)
+that the investee              sustainable investments with an               characteristics and while it does not have
+companies follow good          environmental objective: ___%                 as its objective a sustainable investment, it
+governance practices.                                                        will have a minimum proportion of 50% of
+                                         in economic activities that qualify            sustainable investments
+The EU Taxonomy is a                     as environmentally sustainable
+classification system                    under the EU Taxonomy                                 with an environmental objective in
+laid down in                             in economic activities that do not                    economic activities that qualify as
+Regulation (EU)                          qualify as environmentally                            environmentally sustainable under
+2020/852, establishing                   sustainable under the EU                              the EU Taxonomy
+a list of                                Taxonomy                                              with an environmental objective in
+environmentally                                                                                economic activities that do not qualify
+sustainable economic
+                                                                                               as environmentally sustainable under
+activities. That
+Regulation does not                                                                            the EU Taxonomy
+include a list of socially                                                                     with a social objective
+sustainable economic
+activities. Sustainable            It will make a minimum of sustainable                It promotes E/S characteristics, but will not
+investments with an                investments with a social objective:                 make any sustainable investments
+environmental                      ___%
+objective might be
+aligned with the
+Taxonomy or not.
+
+                                What environmental and/or social characteristics are promoted by this financial product?
+                                The Fund promotes the following E/S characteristics:
+                                1. The Fund promotes having a substantially lower environmental footprint1 than the general
+                                    market index referred to in the Supplement, namely the MSCI Emerging Markets Index
+                                    (the “Benchmark”) (20% lower for carbon, water and waste).
+                                2. The Fund has a substantially better weighted average ESG score than the Benchmark.
+                                3. The Fund promotes investment in a portfolio that avoids significant harm to the
+                                    Sustainable Development Goals (SDGs).
+
+  1 The Fund's environmental footprint is calculated based on the total footprint of greenhouse gas emissions (scope 1, 2 and 3
+
+  upstream), water and waste generation of each investee company, all measured by enterprise value including cash (EVIC) (i.e., the
+  sum of the market capitalisation of ordinary shares at fiscal year end, the market capitalisation of preferred shares at fiscal year end,
+  and the book values of total debt and minorities' interests, including the cash and cash equivalents held by each investee company).
+                                                                      1
+
+=== pdf p.12 ===
+4. The Fund applies certain minimum environmental and social safeguards through applying
+   exclusion criteria with regards to products and business practices that the Manager
+   believes are detrimental to society and incompatible with sustainable investment
+   strategies, such as exposure to controversial weapons, and fossil fuels. Via its exclusion
+   policy, the Manager excludes investments in companies involved in thermal coal through
+   several categories. Additionally, investments in companies involved in oil sands and arctic
+   drilling are excluded under the climate-related exclusion categories. These exclusion
+   categories are a part of the Manager’s approach to the SFDR PAI indicators related to
+   greenhouse gas emissions and relate to the promoted environmental characteristics of
+   the Fund.
+5. The Fund promotes adherence to and conducting business activities in accordance with
+   the United Nations Universal Declaration of Human Rights, the International Labor
+   Organization's (ILO) labor standards, the United Nations Guiding Principles for Business
+   and Human Rights (UNGPs), the United Nations Global Compact (UNGC) and the OECD
+   Guidelines for Multinational Enterprises. A severe and structural breach of such codes of
+   conduct triggers an enhanced engagement with the respective company consisting of a
+   high intensity three-year engagement with accelerated escalation processes if the
+   company does not undertake adequate action to eliminate and remediate the breach and
+   does not adequately enhance management processes necessary to avoid repetition of the
+   breach. If this enhanced engagement does not lead to the desired change, it will in
+   principle be decided by the Manager to exclude a company from the Manager’s
+   investment universe. The process for enhanced engagement is a formal part of the
+   Manager’s Exclusion Policy.
+6. While the Fund will only invest in companies that follow minimum good governance
+   practices, the Fund also promotes further good governance and sustainable corporate
+   practices through proxy voting, which contributes to long-term shareholder value
+   creation. This includes taking an active stance by exercising voting rights on social and
+   environmental topics in accordance with the Manager’s proxy voting policy, for example
+   by using voting rights to vote against management recommendations in cases of poor
+   corporate governance practices, when proposals are not in the best interest of long-term
+   shareholders and on any other proposal that is out of line with the Manager’s policy
+   principles. The Manager’s proxy voting policy relies on the internationally accepted set of
+   principles of the International Corporate Governance Network (ICGN). The ICGN Principles
+   describe the responsibilities of boards and shareholders respectively and aim to enhance
+   dialogue between the two parties. They embody ICGN’s mission to inspire and promote
+   effective standards of governance to help advance efficient markets world-wide. More
+   information on the Manager’s proxy voting guidelines can be found at the following link:
+   https://www.robeco.com/en-int/sustainable-investing/influence/proxy-voting-
+   guidelines. More information on the Manager’s stewardship approach and guidelines can
+   be found at the following link: https://www.robeco.com/files//docm/docu-stewardship-
+   approach-and-guidelines.pdf.
+
+For the E/S characteristics under 1, 2 and 3 above, reference is made to the Benchmark, i.e.
+the MSCI Emerging Markets Index. The Benchmark is a broad market weighted index that is
+not necessarily consistent with the environmental and social characteristics as promoted by
+the Fund (i.e. any environmental and social governance characteristics promoted by the
+Benchmark, if any, do not have to be the same as the environmental and social characteristics
+promoted by the Fund). For the purpose of attaining the environmental and social
+characteristics promoted by the Fund no other reference benchmark is designated.
+
+
+
+                                2
+
+=== pdf p.13 ===
+Sustainability                  □     What sustainability indicators are used to measure the attainment of each of the
+indicators measure                    environmental or social characteristics promoted by this financial product?
+how the                                The Manager follows a three-step approach when it comes to (1) promoting E/S
+environmental or                       characteristic (2) sustainability indicator and (3) the binding element. The first
+social characteristics                 describes what the Fund wants to achieve, the second how this is measured and the
+promoted by the                        third what the restriction/objective is for the investment process. The Fund has the
+financial product are                  following sustainability indicators:
+attained.                               1. The Fund's weighted carbon, water and waste footprint score compared to the
+                                            Benchmark. The Fund promotes having a substantially lower environmental
+                                            footprint than the Benchmark, which is measured by the Fund's weighted carbon,
+                                            water and waste footprint score compared to the Benchmark.
+                                        2. The Fund's weighted average ESG score compared to the Benchmark.
+                                        3. The proportion of companies that hold a high negative SDG score (-3) based on
+                                            the internally developed SDG Framework.
+                                        4. The % of investments in securities that are on the Manager’s Exclusion list as a
+                                            result of the application of the Manager's Exclusion Policy.2
+                                        5. The % of holdings that are in violation of the ILO standards, UNGPs, UNGC or OECD
+                                            Guidelines for Multinational Enterprises.
+                                        6. The % of holdings and agenda items voted, as a measure of how the Manager uses
+                                            its rights as a shareholder. The Manager aims to vote all holdings under
+                                            management.
+
+                                      What are the objectives of the sustainable investments that the financial product
+                                      partially intends to make and how does the sustainable investment contribute to such
+                                      objectives?
+
+                                        The sustainable investments aim to contribute to the UN Sustainable Development
+                                        Goals ("SDGs"), that have both social and environmental objectives. These are 17 SDGs
+                                        that are globally recognised and include environmental goals such as climate action,
+                                        clean water and sanitation, affordable and clean energy, responsible consumption and
+                                        production, life below water and life on land and social goals such as no poverty, zero
+                                        hunger, good health and wellbeing, quality education, gender equality, decent work
+                                        and economic growth, industry, innovation and infrastructure, reduced inequalities,
+                                        sustainable cities and communities, peace, justice and strong institutions and
+                                        partnerships for the goals. The Manager has developed a proprietary framework based
+                                        on the SDGs through which an issuer's contribution to such SDGs is determined
+                                        through a 3- step process. This process starts with a sector baseline on which a
+                                        company's products are analysed to examine contribution to the SDGs. Further, the
+                                        operational processes involved in creating such products is checked along with any
+                                        controversies/litigation claims and remediation actions taken which are perused
+                                        before a final SDG score is determined. The final score ranges between high negative
+                                        (-3) to high positive (+3) and only those issuers which achieve positive SDG scores (+1,
+                                        +2 and, +3) are regarded as Sustainable Investments.
+
+
+
+
+  2 This is generally expected to be zero, however it can be the case that names are added to the Exclusion list and are not immediately
+
+  divested from. Unless a specific timeline is specified, exclusions apply within 3 months of the announcement. Matters related to
+  individual exclusions, such as a request for an enhanced engagement or a waiver are considered within this timeframe and there may
+  be possible exceptions on product specific grounds. In addition, it may not be advisable to sell immediately for liquidity reasons, in
+  which case no further purchases will be made and once selling is possible at a reasonable price the holdings will be sold.
+                                                                    3
+
+=== pdf p.14 ===
+Principal adverse        □   How do the sustainable investments that the financial product partially intends
+impacts are the most         to make, not cause significant harm to any environmental or social sustainable
+significant negative         investment objective?
+impacts of investment
+decisions on
+sustainability factors        The Fund’s sustainable investments do no significant harm to any environmental or
+relating to                   social sustainable investment objective by considering a principal adverse impact and
+environmental, social         aligning with the OECD Guidelines for Multinational Enterprises and the UN Guiding
+and employee matters,         Principles on Business and Human Rights. In addition, the sustainable investments that
+respect for human             the Fund makes score positively on the Manager's SDG Framework, and therefore do
+rights, anticorruption        not cause significant harm.
+and anti-bribery
+matters.                      For example, the Manager’s SDG Framework assesses whether companies cause
+                              significant adverse impacts on climate change. The framework considers both the GHG
+                              emissions associated with the use of a company’s products/services and its own
+                              operations. Companies whose products/services are associated with high GHG
+                              emissions, such as those active in the fossil fuel sector (see PAI 4) or the airline and
+                              automotive industries, are likely to get negative SDG scores and will therefore not
+                              classify as sustainable investments. Companies that have high GHG emissions while
+                              simultaneously delivering products that significantly contribute to sustainable
+                              development can receive neutral or positive SDG scores.
+
+
+                                 How have the indicators for adverse impacts on sustainability factors been
+                                 taken into account?
+
+                                 Mandatory principal adverse impact indicators are considered through the
+                                 Manager's SDG Framework, described above, either directly or indirectly via a close
+                                 proximation when identifying sustainable investments for the Fund. An indirect
+                                 close proximation is used where, for example, data limitations apply such that exact
+                                 data is not readily available. In such cases, a close proximation of the data is taken
+                                 by the use of estimates. For example, GHG data are included directly as this data is
+                                 readily available. For the Unadjusted Gender Pay Gap indicator, data is not widely
+                                 available, and therefore the Manager developed a multidimensional gender
+                                 screening of the most common and available gender metrics in which good
+                                 performers are assigned a positive SDG score. In addition, non-mandatory, or
+                                 voluntary environmental and social indicators are taken into account, depending
+                                 on their relevance for measuring impacts on the SDGs and the availability of data
+                                 (for example: PAI number 9 - Investments in companies producing chemicals; PAI
+                                 number 11 - Investments in companies without sustainable land/agriculture
+                                 practices; and PAI number 12 - Investments in companies without sustainable
+                                 oceans/seas practices). A detailed description of the incorporation of principal
+                                 adverse impacts is available via the Manager’s Principal Adverse Impact Statement.
+                                 In this statement, the Manager sets out its approach to identifying and prioritising
+                                 principal adverse impacts, and how principal adverse impacts are considered as
+                                 part of the Manager's investment due diligence process and procedures relating to
+                                 research and analysis, exclusions and restrictions and/or voting and engagement.
+                                 This description also explains how principal adverse impact indicators are
+                                 considered by the SDG Framework.
+
+                                 The starting point of the Manager’s prioritisation of principal adverse impacts is the
+                                 Manager’s Sustainable Investing Strategy which outlines the Manager’s ambition in
+                                 relation to climate change, biodiversity, human rights and avoiding negative impact
+                                                       4
+
+=== pdf p.15 ===
+                                     on the SDGs. All of the Manager’s funds apply the minimum standards of the
+                                     Exclusion Policy. In addition to this, based on the sustainable objective or
+                                     characteristics of the fund, additional principle adverse impacts are prioritised.
+                                     Further details of the relevant principal adverse impacts are set out below.
+
+                                     How are the sustainable investments aligned with the OECD Guidelines for
+                                     Multinational Enterprises and the UN Guiding Principles on Business and
+                                     Human Rights?
+
+                                     The sustainable investments are aligned with the OECD Guidelines for
+                                     Multinational Enterprises and the UN Guiding Principles on Business and Human
+                                     Rights via both the Manager's Exclusion Policy and the Manager's SDG Framework.
+                                     The Manager's Exclusion Policy includes an explanation of how the Manager acts in
+                                     accordance with the International Labor Organization (ILO) standards, United
+                                     Nations Guiding Principles (UNGPs), United Nations Global Compact (UNGC)
+                                     Principles and the Organisation for Economic Co-operation and Development
+                                     (OECD) Guidelines for Multinational Enterprises and is guided by these
+                                     international treaties to assess the behaviour of companies. The Manager
+                                     continuously screens its investments for breaches of these principles. In case of a
+                                     breach, the company will be excluded or engaged with, and is not considered a
+                                     sustainable investment. The Manager's SDG Framework screens for breaches on
+                                     these principles in the final step of the framework. In this step, the Manager checks
+                                     whether the company concerned has been involved in any controversies.
+                                     Involvement in any controversy will result in a negative SDG score for the company,
+                                     meaning it is not a sustainable investment.
+
+
+The EU Taxonomy sets out a "do not significant harm" principle by which Taxonomy-aligned investments should not
+significantly harm EU Taxonomy objectives and is accompanied by specific EU criteria.
+
+The "do no significant harm" principle applies only to those investments underlying the financial product that take into
+account the EU criteria for environmentally sustainable economic activities. The investments underlying the remaining
+portion of this financial product do not take into account the EU criteria for environmentally sustainable economic
+activities.
+
+Any other sustainable investments must also not significantly harm any environmental or social objectives.
+
+
+                                Does this financial product consider principal adverse impacts on sustainability factors?
+                                   Yes. ___
+                                   No
+
+                                Pre-investment, the following principal adverse impacts on sustainability factors are
+                                considered:
+                                Via the applied normative and activity-based exclusions, the following PAIs are
+                                considered:
+                                    • Exposure to companies active in the fossil fuel sector (PAI 4, Table 1)
+                                    • Violations of the UN Global Compact Principles and Organisation for Economic
+                                        Cooperation and Development (OECD) Guidelines for Multinational Enterprises
+                                        (PAI 10, Table 1)
+                                    • Activities negatively affecting biodiversity-sensitive areas (PAI 7, Table 1). The
+                                        consideration of this PAI is currently restricted to applying exclusions to palm
+                                                            5
+
+=== pdf p.16 ===
+        oil producing companies and for any breaches to the UNGC, UNGP and OECD
+        Guidelines for Multinational Enterprises in relation to biodiversity.
+    •   Exposure to controversial weapons (anti-personnel mines, cluster munitions,
+        chemical weapons) (PAI 14, Table 1)
+
+Via the environmental footprint performance targets of the Fund, the following PAIs are
+considered:
+    • Carbon footprint (PAI 2, Table 1)
+    • Water and waste indicators (PAI 7-9, Table 1). The Manager aims to perform
+        better than the Benchmark on water and waste, meaning that exposure will tend
+        towards better performing companies on those metrics.
+
+Post-investment, the following principal adverse impacts on sustainability factors are
+taken into account:
+Via the application of the voting policy, the following PAIs are considered:
+    • GHG emissions (PAI 1, Table 1)
+    • Carbon footprint (PAI 2, Table 1)
+    • GHG intensity of investee companies (PAI 3, Table 1)
+    • Exposure to companies active in the fossil fuel sector (PAI 4, Table 1)
+    • Share of nonrenewable energy consumption and production (PAI 5, Table 1)
+    • Energy Consumption intensity per high impact climate sector (PAI 6, Table 1)
+    • Violations of UN Global Compact principles and Organisation for Economic
+        Cooperation and Development (OECD) Guidelines for Multinational Enterprises
+        (PAI 10, Table 1)
+    • Lack of processes and compliance mechanisms to monitor compliance with UN
+        Global Compact principles and OECD Guidelines for Multinational Enterprises
+        (PAI 11, Table 1)
+    • Unadjusted gender pay gap (PAI 12, Table 1)
+    • Board Gender Diversity (PAI 13, Table 1)
+
+Via the Manager's entity engagement program, the following PAIs are considered:
+    • All indicators related to Climate and other environment-related indicators (PAI
+        1-9, Table 1)
+    • Violations of the UN Global Compact Principles and Organisation for Economic
+        Cooperation and Development (OECD) Guidelines for Multinational Enterprises
+        (PAI 10, Table 1)
+    • In addition, based on a yearly qualitative review conducted by portfolio
+        managers and quantitative review by the engagement team of the Manager's
+        performance on all mandatory and selected voluntary indicators, holdings of the
+        Fund that cause adverse impact might be selected for engagement.
+
+    In addition, based on a yearly qualitative review conducted by portfolio managers
+    and quantitative review by the engagement team of the Manager's performance
+    on all mandatory and selected voluntary indicators, holdings of the Fund that
+    cause adverse impact might be selected for engagement. Further information on
+    all engagement themes and progress can be found on the Manager’s website at
+    the following link: https://www.robeco.com/en-int/sustainable-
+    investing/influence/active-ownership.
+
+    More information is available via the Manager's Principal Adverse Impact Statement,
+    published on the Manager's website. The Fund will periodically report how it has
+                          6
+
+=== pdf p.17 ===
+                                     considered the principal adverse impacts of its investments in the ICAV's annual
+                                     report, which will be made available each year on or before 30 April at the Fund page
+                                     highlighted in final section of this document.
+
+                                 What investment strategy does this financial product follow?
+
+                                 The Fund is actively managed and will apply the Manager’s “3D” investment strategy,
+                                 which seeks to consider risk, return and sustainability in the Fund’s portfolio. The Fund’s
+The investment strategy          portfolio will be optimised using a quantitative process to target returns in excess of the
+guides investment decisions      Benchmark, sustainability characteristics better than the Benchmark and to manage risk
+based on factors such as         compared to the Benchmark. The three dimensions of risk, return and sustainability are
+investment objectives and risk   considered together in the Manager’s proprietary quantitative stock-ranking model,
+tolerance.                       which is described further below.
+
+                                 The Fund seeks to outperform the Benchmark by reflecting the expression of the
+                                 Manager’s positive and negative views on companies within the Benchmark by
+                                 correspondingly overweighting and underweighting stocks in the Fund’s portfolio
+                                 relative to the weighting in the Benchmark. The relative attractiveness of stocks is
+                                 determined using the Manager’s proprietary quantitative stock-ranking model, which
+                                 considers proven return factors such as value, quality and momentum. The Manager
+                                 overweights stocks with an attractive valuation, a profitable operating business, strong
+                                 price momentum, and positive recent revisions from analysts. As a result of these
+                                 overweight exposures, the Fund will have a corresponding underweight exposure to
+                                 other stocks in the Benchmark. All decision making at portfolio level is based on the
+                                 identification of under-valued and over-valued stocks which is the result of a stock’s
+                                 scoring on the Manager’s proprietary quantitative stock-ranking model and the settings
+                                 of the Manager’s portfolio construction algorithm that considers risk, return and
+                                 sustainability.
+
+
+                             □   What are the binding elements of the investment strategy used to select the
+                                 investments to attain each of the environmental or social characteristics promoted by
+                                 this financial product?
+
+                                 The Fund has the following binding elements:
+                                  1. The Fund's weighted water and waste footprint score is at least 20% lower than
+                                      that of the Benchmark. The Fund's weighted carbon footprint score shall at all
+                                      times be at least 20% lower than that of the Benchmark.
+                                  2. The Fund's weighted average ESG score is at least 5% better than that of the
+                                      Benchmark.
+                                  3. The Fund excludes all high negative SDG scores (-3) based on the internally
+                                      developed SDG Framework.
+                                  4. The Fund's portfolio complies with the Manager's Exclusion Policy
+                                      (https://www.robeco.com/files/docm/docu-exclusion-policy.pdf), that is based on
+                                      exclusion criteria with regards to products and business practices that the Manager
+                                      believes are detrimental to society and incompatible with sustainable investment
+                                      strategies, for example controversial weapons, fossil fuels, tobacco. The Fund has
+                                      0% exposure to excluded securities, taking into account a grace period of up to 3
+                                      months, unless sanctions stipulate specific shorter timelines, to allow the Manager
+                                      to divest from a security in an orderly manner following its inclusion on the
+                                      Manager’s Exclusion List. Exclusions per category and the impact of the exclusions
+
+                                                            7
+
+=== pdf p.18 ===
+                                    on the investment universe of the Fund can be found at
+                                    https://www.robeco.com/files/docm/docu-exclusion-list.pdf.
+                                 5. The Fund avoids investment in companies that are in breach of the ILO standards,
+                                    UNGPs, UNGC or OECD Guidelines for Multinational Enterprises. Companies that
+                                    breach the international norms will be excluded from the investment universe.
+                                 6. All equity holdings have a granted right to vote and the Manager exerts that right
+                                    by voting according to the Manager's Proxy Voting Policy, unless impediments
+                                    occur (e.g. share blocking or when not considered cost efficient). the Manager's
+                                    Proxy Voting Policy can be found at https://www.robeco.com/files/docm/docu-
+                                    robeco-stewardship-policy.pdf.
+
+                          □    What is the committed minimum rate to reduce the scope of the investments
+                               considered prior to the application of that investment strategy?
+
+                               The Fund does not commit to a minimum rate to reduce the scope of investments prior
+                               to the application of the investment strategy.
+Good governance           □    What is the policy to assess good governance practices of the investee companies?
+practices include sound
+management                     The Manager has a Good Governance policy to assess governance practices of
+structures, employee           companies. The policy describes how the Manager determines if and when a company
+relations, remuneration        does not follow good governance practices and is therefore excluded from the initial
+of staff and tax               investment universe for the Fund. The Manager's Good Governance policy tests on a set
+compliance.                    of governance criteria that reflect widely recognised industry established norms and
+                               include topics as employee relations, management structure, tax compliance and
+                               remuneration. The Good Governance test consists of criteria on such topics that are
+                               examined for investee companies and further explained in the Manager's Good
+                               Governance       policy       https://www.robeco.com/files/docm/docu-robeco-good-
+                               governance-policy.pdf. Additionally, the companies that do not pass the good
+                               governance test are reflected in the exclusion list that can be accessed here -
+                               https://www.robeco.com/files/docm/docu-exclusion-list.pdf.
+
+                               What is the asset allocation planned for this financial product?
+
+                          The Fund is actively managed and will seek to achieve its investment objective by investing
+                          primarily in a portfolio of equities, being equity and equity-related securities (namely,
+                          preferred stock, warrants, rights, claims and depositary receipts) of companies that mainly
+Asset allocation          operate in emerging markets, as defined by MSCI, and that are listed or traded on Regulated
+describes the share of    Markets globally.
+investments in specific
+assets.                   It is generally expected that up to 90% of the Net Asset Value of the Fund will be components
+                          of the Benchmark, but stocks outside the Benchmark may also be selected. There are no
+                          restrictions on the extent to which the Fund’s portfolio and performance may deviate from
+                          those of the Benchmark.
+
+                          The Fund may invest up to 10% of its Net Asset Value in the units/shares of Eligible Collective
+                          Investment Schemes where such investments satisfy the requirements of the Central Bank.
+                          The Fund may invest up to 20% of its net assets in Money Market Instruments and cash to be
+                          held as ancillary liquid assets.
+
+
+
+
+                                                           8
+
+=== pdf p.19 ===
+                             The Fund may use FDI, including futures on equity indices and foreign exchange contracts
+                             (including cross currency swap, spot and forward contracts), for efficient portfolio
+                             management, investment or hedging purposes.
+
+                             The Fund may engage in securities lending and reverse repurchase agreements subject to the
+                             requirements of the Securities Financing Transactions Regulation, the UCITS Regulations and
+                             the Central Bank Regulations.
+
+
+
+Taxonomy-aligned
+activities are
+expressed as a share                                                                          Taxonomy-aligned
+of:
+ - turnover reflecting                                                    #1A Sustainable
+ the share of revenue                                   #1 Aligned with        >50%                Other
+                                                                                               environmental
+ from green activities                                        E/S
+ of investee                                            characteristics     #1B Other E/S          Social
+ companies                             Investments           90%            characteristics
+ - capital                                                 #2 Other
+                                                                                <30%
+ expenditure (CapEx)
+                                                            0-10%
+ showing the green
+ investments made
+ by investee
+ companies, e.g. for a
+ transition to a green    #1 Aligned with E/S characteristics includes the investments of the financial product
+ economy.                 used to attain the environmental or social characteristics promoted by the financial
+ - operational            product.
+ expenditure (OpEx)
+ reflecting green
+ operational              #2Other includes the remaining investments of the financial product which are neither
+ activities of investee   aligned with the environmental or social characteristics, nor are qualified as sustainable
+ companies.               investments.
+
+                          The category #1 Aligned with E/S characteristics covers:
+                          - The sub-category #1A Sustainable covers sustainable investments with environmental
+                          or social objectives.
+                            - The sub-category #1B Other E/S characteristics covers investments aligned with the
+                            environmental or social characteristics that do not qualify as sustainable investments
+                            □
+                                   How does the use of derivatives attain the environmental or social characteristics
+                                   promoted by the financial product?
+
+                                   The Fund does not make use of FDI to attain the environmental or social
+                                   characteristics promoted by the Fund.
+
+                                   The Fund may make use of FDI for hedging, liquidity management, efficient portfolio
+                                   management and investment purposes. Exchange traded and over-the-counter FDI
+                                   are permitted, including but not limited to futures, swaps, options and currency
+                                   forwards. Whilst the Fund may use FDI both for investment purposes as well as for
+                                   hedging and efficient portfolio management, it does not utilise FDI for such purposes
+                                   outside the intended share of investments allocated to the 'Other' category. Where
+                                   the Fund uses FDI, the underlying shall comply with the investment policy. Where
+
+                                                              9
+
+=== pdf p.20 ===
+relevant, minimum environmental or social safeguards are taken into account as
+described below.
+
+To what minimum extent are sustainable investments with an environmental
+objective aligned with the EU Taxonomy?
+
+0%.
+The Fund does not intend to make a minimum percentage of Taxonomy aligned
+investments. Therefore, the Fund makes no minimum commitment to investments
+being Taxonomy aligned. While it is not part of the strategy of the Fund to invest a
+minimum percentage in such investments, the application of the investment
+strategy and the ESG overlay may lead to the Fund investing in something that, on
+review, is in fact Taxonomy aligned. The Fund will report on Taxonomy aligned
+investments in its periodic disclosures. In the future, once data availability in relation
+to the EU Taxonomy improves, the Fund might consider setting a target based on
+turnover or CAPEX. The Fund currently relies on third-party data, including data in
+relation to companies that do not disclose on the EU Taxonomy alignment of their
+activities. EU Taxonomy alignment data is not yet subject to a review by third parties.
+The Fund only makes investments in equity and therefore it does not have sovereign
+exposures. The expected level of alignment with and without sovereign bonds is
+therefore the same.
+
+
+
+
+                           10
+
+=== pdf p.21 ===
+To comply with the EU                  □ Does the financial product invest in fossil gas and/or nuclear energy related
+Taxonomy, the criteria                   activities that comply with the EU Taxonomy?3
+for fossil gas include
+                                                       Yes
+limitations on emissions
+and switching to
+renewable power or                                                 In fossil gas         In nuclear energy
+low-carbon fuels by the
+                                                       No
+end of 2035. For
+nuclear energy, the                    The two graphs below show in green the minimum percentage of investments
+criteria include
+                                       that are aligned with the EU Taxonomy. As there is no appropriate methodology
+comprehensive safety
+                                       to determine the Taxonomy-alignment of sovereign bonds*, the first graph
+and waste management
+rules.                                 shows the Taxonomy alignment in relation to all the investments of the financial
+                                       product including sovereign bonds, while the second graph shows the Taxonomy
+                                       alignment only in relation to the investments of the financial product other than
+                                       sovereign bonds.
+
+                                            1. Taxonomy-alignment of investments           2. Taxonomy-alignment of investments
+                                                  including sovereign bonds*                    excluding sovereign bonds*
+
+                                                                                                                           x%
+                                            Taxonomy-aligned                               Taxonomy-aligned
+                                            (no fossil gas &                               (no fossil gas &
+                                            nuclear)                                       nuclear)
+                                            Non Taxonomy-                                  Non Taxonomy-
+                                            aligned                100%                    aligned
+                                                                                                                          100%
+
+                                                                                          This graph represents 100% of the total investments.
+
+
+                                        * For the purpose of these graphs, ‘sovereign bonds’ consist of all sovereign
+                                        exposures
+
+
+
+
+                            □
+                                       What is the minimum share of investments in transitional and enabling activities?
+
+                                       0%
+
+                                       What is the minimum share of sustainable investments with an environmental
+        are                            objective that are not aligned with the EU Taxonomy?
+sustainable
+investments with an                    The Fund intends to make sustainable investments, measured as investments that
+environmental                          have positive scores via the Manager's SDG Framework. Among those may be
+objective that do                      investments with environmental objectives that do not qualify as Taxonomy-aligned.
+not take into
+                                       The environmental objectives of the Fund are attained by investing in companies
+account the criteria
+for environmentally                    that score positively on SDG 12 (Responsible consumption and production), SDG 13
+                                       (Climate action), SDG 14 (Life below water), and SDG 15 (Life on land) in the
+
+  3 Fossil gas and/or nuclear related activities will only comply with the EU Taxonomy where they contribute to limiting climate change
+
+  (“climate change mitigation”) and do not significantly harm any EU Taxonomy objective – see explanatory note in the left hand
+  margin. The full criteria for fossil gas and nuclear energy economic activities that comply with the EU Taxonomy are laid down in
+  Commission Delegated Regulation (EU) 2022/1214.
+                                                                     11
+
+=== pdf p.22 ===
+sustainable                 Manager's SDG Framework. While the sum of sustainable investments with an
+economic activities         environmental objective and socially sustainable investments always adds up to the
+under the EU                Fund's minimum proportion of 50% sustainable investments, the Fund does not
+Taxonomy.                   commit to a minimum share of sustainable investments with an environmental
+                            objective because the Fund's investment strategy does not have a specific
+                            environmental investment objective. Therefore, the minimum share of sustainable
+                            investments with an environmental objective that are not aligned with the EU
+                            Taxonomy is 0%.
+                            What is the minimum share of socially sustainable investments?
+
+                            The Fund intends to make sustainable investments, measured as positive scores via
+                            the Manager's SDG Framework. Among those could be investments with social
+                            objectives. The social objectives of the Fund are attained by investing in companies
+                            that score positively on SDG 1 (No poverty), SDG 2 (Zero hunger), SDG 3 (Good health
+                            and well-being), SDG 4 (Quality education), SDG 5 (Gender equality), SDG 6 (Clear
+                            water and sanitation), SDG 7 (Affordable and clean energy), SDG 8 (Decent work and
+                            economic growth), SDG 9 (Industry, innovation and infrastructure), SDG 10 (Reduced
+                            inequalities), SDG 11 (Sustainable cities and communities), SDG 16 (Peace, justice
+                            and strong institutions) and SDG 17 (Partnerships for the goals), in the Manager's
+                            SDG Framework. While the sum of socially sustainable investments and sustainable
+                            investments with an environmental objective always adds up to the Fund's minimum
+                            proportion of 50% sustainable investments, the Fund does not commit to a minimum
+                            share of socially sustainable investments because the Fund's investment strategy
+                            does not have a specific socially sustainable investment objective. Therefore, the
+                            minimum share of socially sustainable investments is 0%.
+
+                            What investments are included under "#2 Other", what is their purpose and are
+                            there any minimum environmental or social safeguards?
+
+                            The type of instruments included under "#2 Other" and their purpose are outlined
+                            in the Prospectus under the heading “Use of Financial Derivative Instruments”. They
+                            include cash, cash equivalents, as well as investment funds and eligible asset classes
+                            (other than bonds and equities) that do not specifically promote E/S characteristics.
+                            As indicated above, the Fund does not make use of FDI to attain the environmental
+                            or social characteristics promoted. The Fund may make use of FDI, which thus
+                            always fall under the category "#2 Other", for hedging, liquidity management,
+                            efficient portfolio management and investment purposes. Exchange traded and
+                            over-the-counter FDI are permitted, including but not limited to futures, swaps,
+                            options and currency forwards. Where the Fund uses FDI, the underlying shall
+                            comply with the investment policy. Where relevant, minimum environmental or
+                            social safeguards are taken into account, by, for example, applying the Manager’s
+                            Exclusion Policy for any single security FDI.
+
+                            Is a specific index designated as a reference benchmark to determine whether this
+                        □   financial product is aligned with the environmental and/or social characteristics
+                            that it promotes?
+Reference
+benchmarks are              Not applicable.
+indexes to measure
+whether the financial
+                                                     12
+
+=== pdf p.23 ===
+product attains the
+environmental or
+social characteristics
+that they promote.
+
+                         □   How is the reference benchmark continuously aligned with each of the
+                             environmental or social characteristics promoted by the financial product?
+
+                             Not applicable.
+
+                         □   How is the alignment of the investment strategy with the methodology of the
+                             index ensured on a continuous basis?
+
+                             Not applicable.
+
+                         □   How does the designated index differ from a relevant broad market index?
+
+                             Not applicable.
+
+                             Where can the methodology used for the calculation of the designated index be
+                             found?
+
+                             Not applicable.
+
+
+
+                             Where can I find more product specific information online?
+
+                             More product-specific information can be found on the website:
+
+
+                             https://www.robeco.com/en-int/products/funds
+
+                             The Manager's PAI Statement can be accessed via the following link:
+
+                             https://www.robeco.com/files/docm/docu-principal-adverse-impact-statement-
+                             summary-entity-level.pdf
+
+                             The Manager's Good Governance test can be accessed via the following link:
+
+                             https://www.robeco.com/files/docm/docu-robeco-good-governance-policy.pdf
+
+                             The Manager’s SDG framework can be accessed via the following link:
+
+                             https://www.robeco.com/docm/docu-robeco-explanation-sdg-framework.pdf
+
+                             The Manager’s sustainability risk policy can be accessed via the following link:
+
+                             https://www.robeco.com/files/docm/docu-robeco-sustainability-risk-policy.pdf
+
+                                                       13
+
+=== pdf p.24 ===
+Information on the Manager’s proxy voting guidelines can be found at the
+following link:
+
+https://www.robeco.com/en-int/sustainable-investing/influence/proxy-voting-
+guidelines.
+
+Information on the Manager’s stewardship approach and guidelines can be found
+at the following link:
+
+https://www.robeco.com/files//docm/docu-stewardship-approach-and-
+guidelines.pdf
+
+
+
+
+                        14
+
