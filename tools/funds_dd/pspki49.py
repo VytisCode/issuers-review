@@ -1,0 +1,24 @@
+"""PSPKĮ 49 straipsnio lentelės apskaitos skaidrėms (pažodžiui iš apskaita_fondams.md; perkelta iš make_dd_xdwc.py 2026-11-26)."""
+
+P49 = [
+    ["Įstatymo straipsnis", "Aprašymas", "Tinka"],
+    ["PSPKI 49", "Investavimas į kolektyvinio investavimo subjektus", ""],
+    ["PSPKI 49.1", ["1. Leidžiama investuoti į investicinius vienetus ir akcijas tik tokių kolektyvinio investavimo subjektų, kurie atitinka šias sąlygas:",
+                    "1) yra licencijuoti valstybėje narėje arba Ekonominio bendradarbiavimo ir plėtros organizacijos narėje ar tokioje valstybėje, kurioje priežiūra yra ne mažiau griežta, negu numatyta pagal 2009 m. liepos 13 d. Europos Parlamento ir Tarybos direktyvoje 2009/65/EB dėl įstatymų ir kitų teisės aktų, susijusių su kolektyvinio investavimo į perleidžiamus vertybinius popierius subjektais (KIPVPS), derinimo (OL 2009 L 302, p. 32) (su paskutiniais pakeitimais, padarytais 2014 m. liepos 23 d. Europos Parlamento ir Tarybos direktyva 2014/91/ES (OL 2014 L 257, p. 186) (toliau – Direktyva 2009/65/EB) nustatytas taisykles, o priežiūros institucija bendradarbiauja su atitinkama užsienio priežiūros institucija. Tuo atveju, kai valstybė, kurioje kolektyvinio investavimo subjektas yra licencijuotas, nėra valstybė narė arba Ekonominio bendradarbiavimo ir plėtros organizacijos narė, būtinas priežiūros institucijos ir tokios valstybės atitinkamos priežiūros institucijos bendradarbiavimas dvišalių ar daugiašalių susitarimų, paskelbtų priežiūros institucijos interneto svetainėje, pagrindais;"], "X"],
+    ["", "2) subjektų dalyvių teisių apsauga, įskaitant turto atskyrimo, skolinimosi, skolinimo ir turto, kurio subjektas neturi, pardavimo reglamentavimą, yra ne mažiau griežta, negu numatyta pagal Direktyvoje 2009/65/EB nustatytas taisykles;", "X"],
+    ["", "3) subjektai teikia savo veiklos pusmečio ir metų ataskaitas, leidžiančias įvertinti jų turtą ir įsipareigojimus, pelną ir veiklą per ataskaitinį laikotarpį;", "X"],
+    ["", "4) ne daugiau kaip 10 procentų jų grynųjų aktyvų gali būti investuota į kitų kolektyvinio investavimo subjektų investicinius vienetus ar akcijas.", "X"],
+    ["PSPKI 49.2", "Į kiekvieną iš šio straipsnio 1 dalyje numatytų subjektų gali būti investuota ne daugiau kaip 20 procentų pensijų fondo grynųjų aktyvų.", ""],
+]
+
+P49b = [
+    ["Įstatymo straipsnis", "Aprašymas", "Tinka"],
+    ["PSPKI 49.3", ["Į šio straipsnio 1 dalyje nurodytų sąlygų neatitinkančių kolektyvinio investavimo subjektų investicinius vienetus ar akcijas gali būti investuojama iki 30 procentų pensijų fondo grynųjų aktyvų, jeigu tokie kolektyvinio investavimo subjektai atitinka šias sąlygas:",
+                    "1) kolektyvinio investavimo subjektas ir (ar) jo valdytojas yra autorizuotas (licencijuotas, jam suteiktas leidimas veikti ar dėl jo atliktas analogiško pobūdžio veiksmas), o jo priežiūrą, kuri turi būti ne mažiau griežta, negu priežiūros institucijos vykdoma specialiųjų kolektyvinio investavimo subjektų priežiūra, vykdo atitinkamos šalies priežiūros institucija;",
+                    "2) priežiūros institucija dvišalio susitarimo pagrindu bendradarbiauja su atitinkama užsienio valstybės priežiūros institucija, jeigu ši valstybė nėra valstybė narė arba Ekonominio bendradarbiavimo ir plėtros organizacijos narė."], ""],
+    ["PSPKI 49.4", "Į kiekvieną iš šio straipsnio 3 dalyje numatytų kolektyvinio investavimo subjektų gali būti investuota ne daugiau kaip 5 procentai pensijų fondo grynųjų aktyvų.", ""],
+    ["PSPKI 49.5", "Tokie kolektyvinio investavimo subjektai, kuriuos valdo ta pati valdymo įmonė ar tokios valdymo įmonės, kurių daugiau negu pusė valdymo organų narių yra tie patys asmenys ar kurias kontroliuoja tas pats asmuo arba kurių viena turi daugiau kaip 10 procentų balsų kitos valdymo įmonės visuotiniame akcininkų susirinkime, laikomi susijusiais. Jeigu bent vienas iš išvardytų subjektų yra pensijų fondo valdymo įmonė, tai to pensijų fondo turtas į susijusių kolektyvinio investavimo subjektų investicinius vienetus ar akcijas gali būti investuojamas tik grynųjų aktyvų verte.", ""],
+    ["PSPKI 49.6", "Pensijų fondo turtą investavus į tos pačios valdymo įmonės valdomą kolektyvinio investavimo subjektą, valdymo mokestis nuo investuoto pensijų fondo turto negali būti nuskaitomas. Ši nuostata taikoma ir tiems tos pačios valdymo įmonės kolektyvinio investavimo subjektams, kurių valdymo funkciją ar jos dalį valdymo įmonė yra pavedusi kitiems asmenims.", ""],
+    ["PSPKI 49.7", "Kolektyvinio investavimo subjekto, į kurį yra investuotas pensijų fondo turtas, ar jo valdymo įmonės grąžinti su investavimu į kolektyvinio investavimo subjektą susiję atskaitymai visais atvejais turi būti įskaitomi į atitinkamo pensijų fondo turtą.", ""],
+    ["PSPKI 49.8", "Šio straipsnio 3 dalies 1 ir 2 punktuose nustatyti reikalavimai alternatyvių turto klasių rinkose investuojantiems kolektyvinio investavimo subjektams netaikomi.", ""],
+]
