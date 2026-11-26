@@ -7037,5 +7037,138 @@
   "sha256": "412a3f66770dda3a1665ef6d294ad4d236fa2db15f342b22353018b7de0620ae",
   "bytes": 125306,
   "final_url": "https://docs.extraetf.com/download/IE0002Z12PN9/en/KID/"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202610-profchen.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/factsheet_e002c610b1.pdf",
+  "sha256": "e002c610b1d1dfbb77fb3fee550222f6740697234a20d134c1b29eec745e01b7",
+  "bytes": 587567,
+  "final_url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202610-profchen.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202609-profchen.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/factsheet_af3a93eabf.pdf",
+  "sha256": "af3a93eabf2c59c375df2e7f5aba5789caa09e3ee47a86e617e69b1d7dbcfdea",
+  "bytes": 577354,
+  "final_url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202609-profchen.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202608-profchen.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/factsheet_21c30f4135.pdf",
+  "sha256": "21c30f41352ba92d6d0d7ce7600100cc6aba5028f15b613e850baa7664eb50a5",
+  "bytes": 576975,
+  "final_url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202608-profchen.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/doca/etf_em_a-prip-202611-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 366518 B)"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/doca/etf_em_a-prip-202610-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 366518 B)"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/doca/etf_em_a-prip-202609-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 366518 B)"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/doca/etf_em_a-prip-202607-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 366518 B)"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/doca/etf_em_a-prip-202604-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 366518 B)"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/doca/etf_em_a-prip-202601-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 366518 B)"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://www.robeco.com/doca/etf_em_a-prip-202504-profieen.pdf",
+  "fetched": "2026-11-26",
+  "ok": false,
+  "error": "ne PDF (text/html;charset=utf-8, 366518 B)"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "kid",
+  "url": "https://assets.finanzfluss.de/hippoverse/documents/IE0002Z12PN9-kiid.pdf",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/kid_565a17e7c5.pdf",
+  "sha256": "565a17e7c5b43acd1b2124636ddc1b8c55253b94c0a64bfeb4e981c1c0ac8a38",
+  "bytes": 221271,
+  "final_url": "https://assets.finanzfluss.de/hippoverse/documents/IE0002Z12PN9-kiid.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "page",
+  "url": "https://www.robeco.com/en-int/products/funds/isin-ie0002z12pn9/robeco-3d-em-equity-ucits-etf-usd-acc",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/page_2a9e6ff553.html",
+  "sha256": "2a9e6ff55336b27286c369c547cb179cceb6f06dc2de9eec0725034f4a5b137a",
+  "bytes": 531531,
+  "final_url": "https://www.robeco.com/en-int/products/funds/isin-ie0002z12pn9/robeco-3d-em-equity-ucits-etf-usd-acc"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0002Z12PN9",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/page_a5975676ee.html",
+  "sha256": "a5975676eea16f51a5ac4071f1d66284ea708a807a017a47fa9a3a0f4d912eb7",
+  "bytes": 439198,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE0002Z12PN9"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "page",
+  "url": "https://www.robeco.com/en-int/robeco-adds-active-3d-emerging-markets-equity-to-etf-line-up",
+  "fetched": "2026-11-26",
+  "ok": true,
+  "file": "2026-11-26/IE0002Z12PN9/page_ea72e0047c.html",
+  "sha256": "ea72e0047c25b8811659d4eec107ef52db5caef9d08a7a56f3b8f1e6a513904b",
+  "bytes": 188713,
+  "final_url": "https://www.robeco.com/en-int/media/press-release/robeco-adds-active-3d-emerging-markets-equity-to-etf-line-up"
  }
 ]
