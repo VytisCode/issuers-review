@@ -7531,5 +7531,16 @@
   "fetched": "2026-11-27",
   "ok": false,
   "error": "HTTP Error 404: Not Found"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0002Z12PN9",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE0002Z12PN9/page_22029c4127.html",
+  "sha256": "22029c4127ce6e14bc98f151f4ac4eb401b07a9d4fd3210e4544dbdb99192989",
+  "bytes": 439240,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE0002Z12PN9"
  }
 ]
