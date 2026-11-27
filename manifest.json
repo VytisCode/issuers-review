@@ -7268,5 +7268,238 @@
   "sha256": "3070e8bf73af51443b166614c9ef1a4b10425823c770a1860cf9e810cce4bad0",
   "bytes": 239544,
   "final_url": "https://www.robeco.com/files/doca/etf_em_a-prip-202606-profieen.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202504-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202505-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202506-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202507-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202508-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202509-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202510-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202511-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202512-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202601-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202602-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202603-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202604-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202605-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: The specified blob does not exist."
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202606-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE0002Z12PN9/factsheet_258639c263.pdf",
+  "sha256": "258639c263c3b36cf2ebc9cc9608b12aa76f1e95c44249e05c93ec564a53933d",
+  "bytes": 465205,
+  "final_url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202606-profchen.pdf"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "factsheet",
+  "url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202607-profchen.pdf",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE0002Z12PN9/factsheet_0753f31548.pdf",
+  "sha256": "0753f3154882ccda3e7dc04a06a50d8d88212063e3e674a02a310cec5f4d4f25",
+  "bytes": 576889,
+  "final_url": "https://www.robeco.com/files/doca/ETF_EM_A-fact-202607-profchen.pdf"
+ },
+ {
+  "isin": "IE00063T9YS5",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00063T9YS5",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE00063T9YS5/page_a2a6031f9b.html",
+  "sha256": "a2a6031f9b1d3d03ebc1bd2f81af1b82ebf938e99a64e5b6e7b7474207c2482a",
+  "bytes": 442591,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00063T9YS5"
+ },
+ {
+  "isin": "IE00BF4G6Z54",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BF4G6Z54",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE00BF4G6Z54/page_7551da0b86.html",
+  "sha256": "7551da0b862aa399bee37f569eb6f3d6e9e4b4ec432224e3a2c1c8dc7abb2b66",
+  "bytes": 444536,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BF4G6Z54"
+ },
+ {
+  "isin": "IE00BLRPN388",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BLRPN388",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE00BLRPN388/page_82fd053732.html",
+  "sha256": "82fd053732786da47af8e6e812c0a473a5dcd6ade65499a2b51679c0c4849ef0",
+  "bytes": 442892,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BLRPN388"
+ },
+ {
+  "isin": "IE00BKM4GZ66",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE00BKM4GZ66/page_73a947b043.html",
+  "sha256": "73a947b043c1e9583d120e16cf678334288747550af5ac4e6fd7dd435e68ee19",
+  "bytes": 443565,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BKM4GZ66"
+ },
+ {
+  "isin": "IE00BTJRMP35",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BTJRMP35",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE00BTJRMP35/page_01f2cf8056.html",
+  "sha256": "01f2cf805611f4aa5e12885594e13da732685dd317c9841fb75313bdd767a61b",
+  "bytes": 442801,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00BTJRMP35"
+ },
+ {
+  "isin": "IE00B4L5Y983",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE00B4L5Y983/page_daa2672de1.html",
+  "sha256": "daa2672de1231963e59e466428c448c4bd832c724dc01f9230721197e56e2e00",
+  "bytes": 445347,
+  "final_url": "https://www.justetf.com/en/etf-profile.html?isin=IE00B4L5Y983"
+ },
+ {
+  "isin": "IE0000P1OKP6",
+  "kind": "page",
+  "url": "https://www.justetf.com/en/etf-profile.html?isin=IE0000P1OKP6",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE0000P1OKP6/page_3d09e40646.html",
+  "sha256": "3d09e4064651fa65e3071e825c035011bbb80684d85ae46e73e924c334e481d8",
+  "bytes": 461619,
+  "final_url": "https://www.justetf.com/en/search.html?query=IE0000P1OKP6&search=ETFS"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "page",
+  "url": "https://www.robeco.com/en-int/media/news/afm-imposes-a-fine-on-robeco",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE0002Z12PN9/page_077b1aede7.html",
+  "sha256": "077b1aede7fd32e9f13b1f2584adb620813f782604feb753d114828e5e587720",
+  "bytes": 181145,
+  "final_url": "https://www.robeco.com/en-int/media/news/afm-imposes-a-fine-on-robeco"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "page",
+  "url": "https://www.robeco.com/en-int/media/news/afm-confirms-robeco-has-brought-all-the-cdd-processes-for-its-dutch-direct-retail-fund-distribution-activities-up-to-the-expected-standard",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE0002Z12PN9/page_bab20a6c9d.html",
+  "sha256": "bab20a6c9d43c66691a9b86f234c4d27c7f7d00e0a5be659617534e0d81726e6",
+  "bytes": 183882,
+  "final_url": "https://www.robeco.com/en-int/media/news/afm-confirms-robeco-has-brought-all-the-cdd-processes-for-its-dutch-direct-retail-fund-distribution-activities-up-to-the-expected-standard"
  }
 ]
