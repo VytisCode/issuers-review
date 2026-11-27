@@ -7501,5 +7501,35 @@
   "sha256": "bab20a6c9d43c66691a9b86f234c4d27c7f7d00e0a5be659617534e0d81726e6",
   "bytes": 183882,
   "final_url": "https://www.robeco.com/en-int/media/news/afm-confirms-robeco-has-brought-all-the-cdd-processes-for-its-dutch-direct-retail-fund-distribution-activities-up-to-the-expected-standard"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "data",
+  "url": "https://www.robeco.com/files/doce/Detailed_Net_Asset_Valuation_ETFEM.xlsx",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE0002Z12PN9/data_dce6610e8b.csv",
+  "sha256": "dce6610e8b190ee4b15c03c625bfecb275d3721cda207f812ac51b1526b79be5",
+  "bytes": 36387,
+  "final_url": "https://www.robeco.com/files/doce/Detailed_Net_Asset_Valuation_ETFEM.xlsx"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "page",
+  "url": "https://www.robeco.com/en-int/sustainable-investing/sustainability-policies-and-positions",
+  "fetched": "2026-11-27",
+  "ok": true,
+  "file": "2026-11-27/IE0002Z12PN9/page_a20fcd4d8d.html",
+  "sha256": "a20fcd4d8d52da3040788ef1dc25e544eec7362d3dc075c983ae2c75c73b320d",
+  "bytes": 302485,
+  "final_url": "https://www.robeco.com/en-int/sustainable-investing/sustainability-policies-and-positions"
+ },
+ {
+  "isin": "IE0002Z12PN9",
+  "kind": "page",
+  "url": "https://www.unpri.org/signatories/signatory-directory",
+  "fetched": "2026-11-27",
+  "ok": false,
+  "error": "HTTP Error 404: Not Found"
  }
 ]
